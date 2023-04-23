@@ -2,7 +2,7 @@ baseurl: https://cinemateatrosestito.netlify.app/
 languageCode: en-us
 title: Cinema Teatro Sestito
 theme: hugo-lithium
-googleAnalytics: ''
+googleAnalytics: 'G-55Z3NM1WJE'
 disqusShortname: ''
 ignoreFiles:
   - \.Rmd$
