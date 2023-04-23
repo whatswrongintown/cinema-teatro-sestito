@@ -15,7 +15,7 @@ tags:
 
 Il cinema è da sempre stato un'arte che ha catturato l'immaginazione di molte persone, e Vito Sestito non è stato da meno. Nato e cresciuto a San Vito sullo Ionio, Vito ha sempre avuto una passione per i film e il loro potere di trasportare gli spettatori in mondi fantastici.
 
-<img src="images/Masceri.JPG" alt="Teatro Masceri Catanzaro" style="max-width:25%;min-width:25%;float: right;"/>
+<img src="images/Masceri.JPG" alt="Teatro Masceri Catanzaro" style="max-width:30%;min-width:30%;float: right;"/>
 
 Dopo la fine della guerra, Vito Sestito era ritornato nel suo paese ed aveva ripreso il lavoro di falegname, gestendo una segheria con numerosi operai per costruire porte, finestre, balconi, mobili e bare.
 
@@ -30,6 +30,8 @@ Per la costruzione servivano permessi del comune e dei carabinieri che si sono o
 Dopo aver creato la sua sala cinematografica, Vito dovette affrontare una serie di sfide burocratiche per ottenere l'abilitazione agli spettacoli pubblici. Queste arrivarono il 19 marzo 1949, il prefetto della provincia di Catanzaro emise il decreto che autorizzava Vito a proiettare film nel suo cinema[^1].
 
 La notizia dell’apertura del cinema Sestito a San Vito si sparse anche nei paesi vicini e tutti volevano entrare nel locale, ma date le dimensioni ridotte non poteva accomodare tutti così molte persone dovettero aspettare il prossimo spettacolo. Successivamente, questi disagi furono in parte superati stabilendo un calendario d’ingresso per paese.  Alcune persone venivano a piedi, altre in macchina.  Il cinema per la popolazione di quei tempi era un momento di riposo dove oltre al guardare i film, si mangiava e fumava.
+
+<img src="images/1949IncamAgendaCinematoGrafica1.jpg" alt="1949 Incam Agenda Cinematografica" style="max-width:20%;min-width:20%;float: right;"/>
 
 In quegli anni ogni film era preceduto da mucica trasmessa dal giradischi posto nella cabina di proiezione, poi [La Settimana Incom](https://www.archivioluce.com/la-settimana-incom/) un cinegiornale settimanale di attualità, varietà e sport.
 
