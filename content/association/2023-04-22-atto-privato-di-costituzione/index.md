@@ -1,7 +1,7 @@
 ---
 title: Atto Privato di Costituzione
 author: Vito Sestito
-date: '2023-04-22'
+date: '2023-04-18'
 slug: atto-privato-di-costituzione
 categories:
   - Associazione

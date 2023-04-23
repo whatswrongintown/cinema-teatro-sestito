@@ -1,7 +1,7 @@
 ---
 title: 'La nascita del cinema a San Vito (dal 1946 al 1957): un sogno diventato realtà'
 author: Vito Sestito
-date: '2023-04-21'
+date: '2023-04-23'
 slug: la-nascita-del-cinema-a-san-vito-un-sogno-diventato-realt
 categories:
   - Storia

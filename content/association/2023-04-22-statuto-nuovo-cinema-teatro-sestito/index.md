@@ -1,7 +1,7 @@
 ---
 title: Statuto Nuovo Cinema Teatro Sestito
 author: Vito Sestito
-date: '2023-04-23'
+date: '2023-04-18'
 slug: statuto-nuovo-cinema-teatro-sestito
 categories:
   - Associazione

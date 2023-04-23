@@ -1,7 +1,7 @@
 ---
 title: Manifesto
 author: Vito Sestito
-date: '2023-04-23'
+date: '2023-04-19'
 slug: manifesto
 categories:
   - Associazione

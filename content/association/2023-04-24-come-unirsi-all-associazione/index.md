@@ -1,7 +1,7 @@
 ---
 title: Come unirsi all'associazione
 author: Vito Sestito
-date: '2023-04-23'
+date: '2023-04-20'
 slug: come-unirsi-all-associazione
 categories:
   - Associazione
