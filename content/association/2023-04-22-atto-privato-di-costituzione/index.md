@@ -47,6 +47,6 @@ Letto, confermato e sottoscritto
 
 San Vito sullo Ionio, XX/XX/2023 (luogo e data)
 
-[Il nostro Statuto](/2023/04/22/statuto-nuovo-cinema-teatro-sestito/)
+[Il nostro Statuto](/2023/04/18/statuto-nuovo-cinema-teatro-sestito/)
 
-[Il Manifesto dell'associazione](/2023/04/22/manifesto/)
+[Il Manifesto dell'associazione](/2023/04/19/manifesto/)

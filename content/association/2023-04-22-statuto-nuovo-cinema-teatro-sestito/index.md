@@ -83,8 +83,8 @@ Art. 18: Lo scioglimento del Circolo deve essere deliberato, su proposta del Con
 
 Art. 19: Per quanto non previsto dal presente statuto si fa riferimento alle vigenti disposizioni di legge e agli eventuali regolamenti interni approvati dall’Assemblea.
 
-[Il Manifesto dell'associazione](/2023/04/22/manifesto/)
+[L'Atto di Costituzione](/2023/04/18/atto-privato-di-costituzione/)
 
-[L'Atto di Costituzione](/2023/04/22/atto-privato-di-costituzione/)
+[Il Manifesto dell'associazione](/2023/04/19/manifesto/)
 
-[Come iscriversi](/2023/04/24/come-unirsi-all-associazione/)
+[Come iscriversi](/2023/04/20/come-unirsi-all-associazione/)
