@@ -10,3 +10,5 @@ tags:
   - SanVitoSulloIonio
 ---
 **Articolo in costruzione**
+
+![foto fatte per la patente](images/vito_sestito_patent_pictures.JPG)
