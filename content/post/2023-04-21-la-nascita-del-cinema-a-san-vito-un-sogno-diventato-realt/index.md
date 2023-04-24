@@ -49,7 +49,7 @@ Inoltre, il processo verbale evidenzia anche il ruolo dei carabinieri e delle au
 
 Durante il periodo del dopoguerra, i cinema divennero importanti luoghi di ritrovo per le comunità locali, oltre a essere fonti di intrattenimento. Ciò significava che i proprietari di cinema dovevano tener conto della cultura locale e delle tendenze sociali per offrire un'esperienza cinematografica soddisfacente per il pubblico.
 
-Non solo. A volte il cinema era costretto a chiudere a causa di programmi che urtavano la moralità dell'Arciprete del paese, che spesso faceva pressione su Vito e sulle forze dell’ordine locale affinché non li proiettasse. Inoltre, la chiesa del paese aveva anche un cinema che faceva concorrenza al cinema di Vito, il che rendeva ancora più difficile la sua gestione.
+A volte il cinema era costretto a chiudere a causa di programmi che urtavano la moralità dell'Arciprete del paese, che spesso faceva pressione su Vito e sulle forze dell’ordine locale affinché non li proiettasse. Inoltre, la chiesa del paese aveva anche un cinema che faceva concorrenza al cinema di Vito, il che rendeva ancora più difficile la sua gestione.
 
 Ne sono una prova la lettera scritta nel 1957 dall'Arciprete Gerardo Mongiardo a Vito Sestito[^6], per lamentarsi della proiezione del film “Schiavitù”[^7], vietato ai minori di 16 anni, e dell'ammissione di minori alla visione del film. Nella lettera, l'Arciprete si dice addolorato dall'ostinazione di Sestito e lo esorta a garantire per iscritto che eviterà proiezioni contro la moralità in futuro. Mongiardo avverte inoltre che un comportamento ostinato da parte di Sestito potrebbe comportare una presa di posizione diversa e meno benevola nei suoi confronti.
 
