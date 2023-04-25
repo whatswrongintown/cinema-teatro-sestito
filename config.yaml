@@ -23,6 +23,9 @@ menu:
     - name: Chi siamo
       url: /about/
       weight: 2
+    - name: Categorie
+      url: /categories/
+      weight: 3
 params:
   MathJaxCDN: //cdnjs.cloudflare.com/ajax/libs
   MathJaxVersion: 2.7.5
