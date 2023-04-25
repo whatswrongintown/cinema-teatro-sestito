@@ -1,10 +1,10 @@
 # Sito web del Cinema Storico di San Vito sullo Ionio
 
-Benvenuti sul sito web del Cinema Storico di San Vito sullo Ionio! Questo sito è dedicato alla storia e all'evoluzione del cinema storico di San Vito sullo Ionio, in Italia.
+Benvenuti sul sito web del Cinema Storico di San Vito sullo Ionio!
 
 ## Panoramica
 
-Il cinema è stato costruito nel 1946 ed è stato un punto di riferimento culturale della città per oltre 75 anni. Questo sito web vi condurrà attraverso la storia del cinema, dalle sue origini ai giorni nostri.
+Il cinema è stato costruito nel 1946 ed è stato un punto di riferimento culturale della città per oltre 55 anni. Questo sito web vi condurrà attraverso la storia del cinema, dalle sue origini ai giorni nostri.
 
 ## Tecnologie
 
