@@ -8,6 +8,12 @@ description: pagina per trovare l'indirizzo del cinema
 
 # Dal 1957...
 
+<img src="/./contact_files/IMG_4857.jpg" alt="ingrandimento" style="max-width:30%;min-width:30%;float: left; padding-right:20px"/>
+
 *Via Comm. Doria  
 88067, San Vito sullo Ionio (CZ)  
 Italia*
+
+&nbsp;
+&nbsp;
+&nbsp;
