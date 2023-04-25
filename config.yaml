@@ -17,14 +17,14 @@ permalinks:
   events: /:year/:month/:day/:slug/
 menu:
   main:
-    - name: Home
-      url: /
-      weight: 1
     - name: Chi siamo
       url: /about/
-      weight: 2
+      weight: 1
     - name: Categorie
       url: /categories/
+      weight: 2
+    - name: Contatti
+      url: /contact/
       weight: 3
 params:
   MathJaxCDN: //cdnjs.cloudflare.com/ajax/libs
