@@ -8,7 +8,7 @@ Il cinema è stato costruito nel 1946 ed è stato un punto di riferimento cultur
 
 ## Tecnologie
 
-Questo sito web è stato creato utilizzando le librerie Hugo e Blogdown in RStudio. Hugo è un generatore di siti statici che consente di creare siti web veloci, sicuri e belli in modo rapido e facile. Blogdown è un pacchetto R che aiuta a creare siti web utilizzando R Markdown e Hugo.
+Questo sito web è stato creato utilizzando le librerie [Hugo](https://gohugo.io/) e [Blogdown](https://github.com/rstudio/blogdown) in RStudio. Il tema deriva originariamente da [@jrutheiser/hugo-lithium-theme](https://github.com/jrutheiser/hugo-lithium-theme) e modificato da [Yihui Xie](https://github.com/yihui/hugo-lithium)
 
 ## Installazione
 

@@ -1,6 +1,7 @@
 ---
 date: "2016-05-05T21:48:51-07:00"
 title: Chi siamo
+description: Questa pagina descrive gli intenti sel sito.
 ---
 
 ## Introduzione
@@ -35,6 +36,3 @@ La nostra associazione culturale si impegna a preservare e promuovere l'eredità
 ## Associazione
 
 Vi invitiamo ad unirvi alla nostra associazione culturale e ad aiutarci a continuare la nostra missione di preservare e promuovere il cinema italiano e internazionale. Come membro, avrai accesso ad eventi esclusivi, proiezioni e opportunità per interagire con altri appassionati di cinema. L'iscrizione è aperta a tutti e richiede solo una modesta quota annuale. Per saperne di più e diventare un membro, leggi tutte le infomationi nella [sezione dedicata](/association/) *(questa sezione è ancora una bozza fino al momento della costituzione)*. Per rimanere aggiornato sull'avvio dell'associazione inviaci una [mail](mailto:whatswrongintown@gmail.com).
-
-
-# *Questo sito è stato costruito usando la libreria [**blogdown**](https://github.com/rstudio/blogdown). Il tema deriva originariamente da [@jrutheiser/hugo-lithium-theme](https://github.com/jrutheiser/hugo-lithium-theme) e modificato da [Yihui Xie](https://github.com/yihui/hugo-lithium)* {style="font-size: 8pt;"}

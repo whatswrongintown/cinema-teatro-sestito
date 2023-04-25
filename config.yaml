@@ -23,16 +23,11 @@ menu:
     - name: Chi siamo
       url: /about/
       weight: 2
-    - name: Associazione
-      url: /association/
-      weight: 3
-
-
 params:
   MathJaxCDN: //cdnjs.cloudflare.com/ajax/libs
   MathJaxVersion: 2.7.5
   description: Un sito web dedicato al Cinema Teatro Sestito, scopri la storia affascinante dell'iconico cinema di San Vito sullo Ionio, Italia. Dalle sue origini alla chiusura, esplora i film, le storie e i ricordi che hanno reso il Cinema una cara istituzione culturale del paese. Il nostro sito web offre una ricca collezione di foto e aneddoti, oltre a informazioni sulla nostra associazione culturale e sugli eventi in programma. Unisciti a noi per celebrare la magia del cinema e il lascito di Vito Sestito, il visionario fondatore di questa gemma cinematografica.
-  favicon: logo2.png
+  favicon: image/favicon.png
   highlightjsCDN: //cdnjs.cloudflare.com/ajax/libs
   highlightjsLang:
     - r
@@ -40,10 +35,15 @@ params:
   highlightjsTheme: github
   highlightjsVersion: 9.12.0
   logo:
-    alt: Logo
+    alt: avatar
     height: 50
-    url: logo.png
+    url: avatar.png
     width: 50
+  instagram: whatswrongintown
+  github: whatswrongintown/cinema-teatro-sestito.git
+  email: whatswrongintown@gmail.com
+  copyright: © 2023 Vito Sestito
+  copyrightUrl: https://cinemateatrosestito.com/
 markup:
   defaultMarkdownHandler: goldmark
   goldmark:
