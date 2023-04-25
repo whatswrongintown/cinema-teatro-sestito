@@ -1,7 +1,7 @@
 ---
 date: "2016-05-05T21:48:51-07:00"
 title: Chi siamo
-description: Questa pagina descrive gli intenti sel sito.
+description: Questa pagina descrive gli intenti sel sito i loro fondatori e riassume gli argomenti.
 ---
 
 ## Introduzione

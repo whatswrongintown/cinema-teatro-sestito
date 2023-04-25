@@ -1,6 +1,7 @@
 ---
 title: Processo per vendita eccessiva di biglietti
 author: Vito Sestito
+description: articolo che trasrisve il processo verbale per eccessiva vendita di biglietti
 date: '1955-09-12'
 slug: processo-per-vendita-eccessiva-di-biglietti
 categories:

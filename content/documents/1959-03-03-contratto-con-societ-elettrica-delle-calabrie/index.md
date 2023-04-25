@@ -1,6 +1,7 @@
 ---
 title: Contratto con Società Elettrica delle Calabrie
 author: Vito Sestito
+description: contratto per la fornitura di energia dalla Sicetà Elettrica delle Calabrie
 date: '1959-03-03'
 slug: contratto-con-societ-elettrica-delle-calabrie
 categories:

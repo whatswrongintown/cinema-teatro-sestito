@@ -1,6 +1,7 @@
 ---
 title: Acquisto orto cinema in Via Comm. Doria
 author: Vito Sestito
+description: trascrizione dell'acquisto del terreno per il nuovo cinema
 date: '1956-04-07'
 slug: acquisto-orto-cinema-in-via-comm-doria
 categories:

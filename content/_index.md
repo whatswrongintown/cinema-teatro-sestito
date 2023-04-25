@@ -2,6 +2,7 @@
 #title: "_index"
 output: html_document
 date: "2023-04-21"
+description: Il sito web dedicato al Cinema Teatro Sestito, fornisce una ricca collezione di foto, storie e ricordi dell'iconico cinema di San Vito sullo Ionio, insieme a informazioni sull'associazione culturale e sugli eventi in programma.
 ---
 
 # Benvenuti {style="font-size: 40pt;"}

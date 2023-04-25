@@ -1,6 +1,7 @@
 ---
 title: Autorizzazione Assemblea DC
 author: Vito Sestito
+description: trascrizione del documento per la comunicazione dell'assemblea locale del partito della Democrazia Cristiana
 date: '1968-02-10'
 slug: autorizzazione-assemblea-dc
 categories:
