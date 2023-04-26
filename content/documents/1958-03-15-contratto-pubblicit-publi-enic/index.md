@@ -14,7 +14,7 @@ tags:
 ---
 Contratto di Locazione
 
-Cinema Sestito S. Vito Jonio (Catanzaro) rappresentata dal Sig. Vito Sestito nella sua qualità dichiarata di gestore del cinema Sestito di S. Vito Jonio ed in conseguenza titolare, in relazione al presente Contratto, dei diritti relativi all’esercizio della pubblicità cinematografica nel cinema stesso da una parte, e la Publi-Enic s.r.l. con sede in Roma – Via Savoia N. 37, in persona del suo procuratore dott. Vittorio De Vita dell’altra parte convengono:
+Cinema Sestito S. Vito Jonio (Catanzaro) rappresentata dal Sig. Vito Sestito nella sua qualità dichiarata di gestore del cinema Sestito di S. Vito Jonio ed in conseguenza titolare, in relazione al presente Contratto, dei diritti relativi all’esercizio della pubblicità cinematografica nel cinema stesso da una parte, e la [Publi-Enic s.r.l.](https://it.wikipedia.org/wiki/Ente_nazionale_industrie_cinematografiche) con sede in Roma – Via Savoia N. 37, in persona del suo procuratore dott. Vittorio De Vita dell’altra parte convengono:
 
 1) Il Sig. Vito Sestito (titolare) si obbliga in esclusivo, nei confronti della Publi-Enic, che accetta, a lasciare che venga effettuato nel predetto cinema il servizio di pubblicità nelle forme previste in appresso, con diritto per la Publi0Enic di cessione a terzi parziale o totale del presente contratto nei modi di legge, e di subconcessione, parziale o totale, a terzi, dei diritti derivanti dal presente contratto.
 
