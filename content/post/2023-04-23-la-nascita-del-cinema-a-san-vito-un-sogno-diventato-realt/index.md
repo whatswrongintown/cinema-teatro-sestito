@@ -32,7 +32,7 @@ Per la costruzione servivano permessi del comune e dei carabinieri, che si offri
 
 Dopo aver creato la sua sala cinematografica, Vito dovette affrontare una serie di sfide burocratiche per ottenere l'abilitazione agli spettacoli pubblici. Questa arrivò il 19 marzo 1949, quando il prefetto della provincia di Catanzaro emise il decreto che autorizzava Vito a proiettare film nel suo cinema[^1].
 
-La notizia dell’apertura del cinema a San Vito si sparse velocemente nei paesi vicini. Tutti volevano entrare nel locale, ma date le dimensioni ridotte molte persone dovettero aspettare il prossimo spettacolo. Successivamente, questi disagi furono in parte superati stabilendo un calendario d’ingresso per paese. Alcune persone venivano a piedi, altre in macchina. Il cinema per la popolazione di quei tempi era un momento di riposo dove oltre al guardare i film si mangiava e fumava.
+La notizia dell’apertura del cinema a San Vito si sparse velocemente nei paesi vicini. Tutti volevano entrare nel locale, ma date le dimensioni ridotte molte persone dovettero aspettare il prossimo spettacolo. Successivamente, questi disagi furono in parte superati stabilendo un calendario d’ingresso per paese. Alcune persone venivano a piedi, altre in macchina. Il cinema per la popolazione di quei tempi era un momento di riposo dove oltre a guardare i film si mangiava e fumava.
 
 <img src="images/la_settimana_incam.jpg" alt="Copertina della settimana Incam" style="max-width:20%;min-width:20%;float: right"/>
 <img src="images/1949IncamAgendaCinematoGrafica1.jpg" alt="1949 Incam Agenda Cinematografica" style="max-width:20%;min-width:20%;"/>
