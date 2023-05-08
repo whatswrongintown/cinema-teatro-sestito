@@ -14,7 +14,7 @@ tags:
   - storia
 ---
 
-Il cinema è da sempre stato un'arte che ha catturato l'immaginazione di molte persone, e Vito Sestito non è stato da meno. Nato e cresciuto a San Vito sullo Ionio, Vito ha sempre avuto una passione per i film e il loro potere di trasportare gli spettatori in mondi fantastici.
+Il cinema è da sempre stato un'arte che ha catturato l'immaginazione di molte persone, e per Vito Sestito non è stato da meno. Nato e cresciuto a San Vito sullo Ionio, Vito ha sempre avuto una passione per i film e il loro potere di trasportare gli spettatori in mondi fantastici.
 
 <img src="images/Masceri.JPG" alt="Teatro Masceri Catanzaro" style="max-width:25%;min-width:25%;float: right;"/>
 
