@@ -8,7 +8,7 @@ description: "Curriculum vitae di Vito sestito"
 # Work Esperience
 ### European Central bank
 | European Central bank |  |  |
-| --- | ----------- | ----------- |
+| ---- | ----------- | ----------- |
 | Oct 2020 - Present | Supervision Analyst in the Directorate Supervisory Stategy & Risk | Financial Risk Division |
 | May 2016 - Sept 2020 | Supervision Analyst in the Directorate Genetal IV | Supervisory Methodology Division |
 | May 2015 - May 2016 | Traineeship in the Directorate General Economics | Output and Demand Division |
