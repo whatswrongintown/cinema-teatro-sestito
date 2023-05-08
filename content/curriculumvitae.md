@@ -1,7 +1,7 @@
 ---
 title: "Curriculum vitae"
 author: "Vito Sestito"
-date: "2023-06-07T21:48:51-07:00"
+date: "2023-05-06T21:48:51-07:00"
 description: "Curriculum vitae di Vito sestito"
 ---
 
