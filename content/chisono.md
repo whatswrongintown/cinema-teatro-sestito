@@ -7,7 +7,7 @@ description: "Scopri di più sull'autore del sito Cinema Teatro Sestito Vito Ses
 
 Mi chiamo Vito Sestito. Sono il nipote del fondatore del Cinema Teatro Sestito a San Vito sullo Ionio. I miei interessi sul cinema si concentrano sull'analisi della storia e sull’evoluzione del genere cinematografico.
 
-*Parallelamente* (tra le altre cose), mi occupo di Economia e Supervisione Bancaria presso la Banca Centrale Europea. Consulta il mio [CV](/curriculumvitae/) per una panoramica più dettagliata della mia formazione accademica e professionale.
+*Parallelamente*, mi occupo di Economia e Supervisione Bancaria presso la Banca Centrale Europea. Consulta il mio [CV](/curriculumvitae/) per una panoramica più dettagliata della mia formazione accademica e professionale.
 
 Questo sito, come suggerisce il nome, è dedicato al cinema della mia famiglia. Più specificamente, mira a mantenere un pezzo di storia del mio paese. Se sei interessato a saperne di più sul motivo per cui ho aperto questo sito, consulta questo [post](/ilprogetto/).
 
