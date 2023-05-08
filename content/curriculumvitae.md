@@ -4,6 +4,7 @@ author: "Vito Sestito"
 date: "2023-06-07T21:48:51-07:00"
 description: "Curriculum vitae di Vito sestito"
 ---
+
 # Work Esperience
 ### European Central bank
 Oct 2020 - Present: Supervision Analyst in the Directorate Supervisory Stategy Risk - Financial Risk Division  
