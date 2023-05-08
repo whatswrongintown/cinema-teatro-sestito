@@ -17,12 +17,18 @@ permalinks:
   events: /:year/:month/:day/:slug/
 menu:
   main:
+    - name: Home
+      url: /
+      weight: 1
+    - name: post
+      url: /post/
+      weight: 2
     - name: Chi sono
       url: /chisono/
-      weight: 1
+      weight: 3
     - name: Categorie
       url: /categories/
-      weight: 2
+      weight: 4
 params:
   MathJaxCDN: //cdnjs.cloudflare.com/ajax/libs
   MathJaxVersion: 2.7.5
