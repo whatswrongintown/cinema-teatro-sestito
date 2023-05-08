@@ -20,7 +20,7 @@ menu:
     - name: Home
       url: /
       weight: 1
-    - name: post
+    - name: Articoli
       url: /post/
       weight: 2
     - name: Chi sono
