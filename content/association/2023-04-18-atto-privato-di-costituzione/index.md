@@ -10,7 +10,7 @@ tags:
   - AssociazioneCulturare
   - CinemaTeatroSestito
 ---
-**Questo articolo è ancora una bozza, sarà pronto dopo la costituzione dell'associazione. Per sapere quando l'associazione sarà costitutira puoi rimanere aggiornato inviadoci una [mail](mailto:whatswrongintown@gmail.com)**
+*Questo articolo è ancora una bozza, sarà pronto dopo la costituzione dell'associazione. Per sapere quando l'associazione sarà costitutira puoi rimanere aggiornato inviandomi una [mail](mailto:whatswrongintown@gmail.com)*
 
 L'anno 2023 il giorno xx del mese di xxxx in San Vito sullo Ionio Via Comm. Doria presso il Cinema Teatro Sestito si sono riuniti i Signori:
 
