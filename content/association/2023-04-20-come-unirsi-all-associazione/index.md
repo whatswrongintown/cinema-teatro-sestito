@@ -9,7 +9,7 @@ tags:
   - AssociazioneCulturare
   - PreservazionePatrimonioCulturale
 ---
-**Questo articolo è ancora un bozza fino al momento della costituzione dell'associazione. Se vuoi sapere quando sarà possibile registrarsi, inviaci una [mail](mailto:whatswrongintown@gmail.com).**
+*Questo articolo è ancora un bozza fino al momento della costituzione dell'associazione. Se vuoi sapere quando sarà possibile registrarsi, inviami una [mail](mailto:whatswrongintown@gmail.com).*
 
 Ciao a tutti gli amanti del cinema e della cultura! Siete pronti a diventare membri della nostra associazione culturale "Nuovo Cinema Teatro Sestito" a San Vito sullo Ionio?
 
