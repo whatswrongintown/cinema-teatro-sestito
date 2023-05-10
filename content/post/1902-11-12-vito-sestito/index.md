@@ -1,8 +1,8 @@
 ---
 title: 'La storia di Vito Sestito: dalla falegnameria al cinema'
 author: Vito Sestito
-description: articolo dedicato al fondatore del cinema di San Vito sullo Ionio
 date: '1902-11-12'
+description: articolo dedicato al fondatore del cinema di San Vito sullo Ionio
 slug: vito-sestito
 categories:
   - Storia
