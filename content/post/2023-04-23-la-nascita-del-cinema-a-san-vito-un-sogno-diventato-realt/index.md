@@ -39,7 +39,7 @@ La notizia dell’apertura del cinema a San Vito si sparse velocemente nei paesi
 
 In quegli anni ogni film era preceduto da musica con un giradischi posto nella cabina di proiezione, poi [La Settimana Incom](https://www.archivioluce.com/la-settimana-incom/) un cinegiornale settimanale di attualità, varietà e sport.
 
-Gestire un cinema subito dopo la Seconda Guerra Mondiale in un piccolo paese come San Vito non era certo facile. Le difficoltà erano molteplici e spesso legate alla mancanza di risorse. Molte delle attrezzature e dei materiali necessari per la gestione dei cinema erano difficili da reperire o molto costosi, a causa delle difficoltà economiche del dopoguerra. Inoltre, molte innovazioni tecnologiche erano ancora in fase di sviluppo, tra cui l'audio stereo e la televisione[^2]. Ciò significava che i proprietari di cinema dovevano continuamente aggiornare le loro attrezzature per rimanere al passo con le nuove tecnologie emergenti[^3].
+Gestire un cinema subito dopo la Seconda Guerra Mondiale in un piccolo paese come San Vito non era certo facile. Le difficoltà erano molteplici e spesso legate alla mancanza di risorse. Molte delle attrezzature e dei materiali necessari per la gestione dei cinema erano difficili da reperire o molto costosi. Inoltre, molte innovazioni tecnologiche erano ancora in fase di sviluppo, tra cui l'audio stereo e la televisione[^2]. Ciò significava che i proprietari di cinema dovevano continuamente aggiornare le loro attrezzature per rimanere al passo con le nuove tecnologie emergenti[^3].
 
 Uno dei problemi principali era rappresentato dalla scarsa disponibilità economica delle famiglie, che spesso non potevano permettersi il costo del biglietto. Inoltre, in alcuni casi, il cinema era utilizzato come luogo di intrattenimento e socializzazione per le conoscenze del proprietario Vito, che non pagavano l'ingresso.
 
@@ -47,11 +47,11 @@ Ma le difficoltà non finiscono qui. Sono stati commessi anche degli errori nell
 
 Le informazioni relative al processo verbale del 1955 sono interessanti in quanto evidenziano alcune delle difficoltà e delle sfide che i gestori di cinema in piccoli paesi potevano incontrare. In particolare, sembra che Vito abbia avuto difficoltà a gestire l'afflusso di persone per la proiezione del film “Sansone e Dalida”[^5] con Hedy Lamarr e Victor Mature che aveva suscitato un grande interesse nella comunità locale. Come riferito nel processo verbale, il gestore aveva permesso l'ingresso a persone munite di biglietto da L. 100 oltre il numero consentito, facendo prendere posto alle stesse nei corridoi con grave pericolo per l'ordine e la sicurezza pubblica.
 
-Ciò ci suggerire come Vito avesse delle difficoltà a far fronte alla domanda di intrattenimento nella comunità locale e a soddisfare le aspettative del pubblico, senza comprometterne la sicurezza e la qualità dell'esperienza cinematografica.
+Questo ci fa capire come Vito avesse delle difficoltà a far fronte alla domanda di intrattenimento nella comunità locale e a soddisfare le aspettative del pubblico, senza comprometterne la sicurezza e la qualità dell'esperienza cinematografica.
 
 Inoltre, il processo verbale evidenzia anche il ruolo dei carabinieri e delle autorità locali nella vigilanza sul rispetto delle norme di sicurezza e sul mantenimento dell'ordine pubblico nei luoghi di intrattenimento come i cinema. Ciò suggerisce che i gestori di cinema in piccoli paesi dovevano fare i conti con una certa pressione da parte delle autorità locali per garantire il rispetto delle norme e la sicurezza del pubblico.
 
-Durante il periodo del dopoguerra, i cinema divennero importanti luoghi di ritrovo per le comunità locali, oltre a essere fonti di intrattenimento. Ciò significava che i proprietari di cinema dovevano tener conto della cultura locale e delle tendenze sociali per offrire un'esperienza cinematografica soddisfacente per il pubblico.
+Durante il periodo del dopoguerra, i cinema divennero importanti luoghi di ritrovo per le comunità locali, oltre a essere fonti di intrattenimento. I proprietari di cinema dovevano tener conto della cultura locale e delle tendenze sociali per offrire un'esperienza cinematografica soddisfacente per il pubblico.
 
 A volte il cinema era costretto a chiudere a causa di programmi che urtavano la moralità dell'Arciprete del paese, che spesso faceva pressione su Vito e sulle forze dell’ordine locale affinché non li proiettasse. Inoltre, la chiesa del paese aveva anche un cinema che faceva concorrenza al cinema di Vito, il che rendeva ancora più difficile la sua gestione.
 
@@ -61,9 +61,9 @@ Questa lettera mostra come la chiesa locale fosse coinvolta nella gestione del c
 
 Tutto ciò fa parte delle sfide e delle difficoltà che i gestori di cinema in piccoli paesi potevano incontrare nel loro lavoro, insieme alla concorrenza di altri tipi di intrattenimento, alla necessità di investire in attrezzature e tecnologie costose, e alla difficoltà di reperire i finanziamenti necessari per mantenere in piedi la propria attività[^8].
 
-Insomma, gestire un cinema in un piccolo paese non era affatto facile e comportava numerose difficoltà e sfide. Vito ha imparato sulla propria pelle quanto sia importante avere le giuste competenze e la giusta attenzione per far fronte alle problematiche che possono insorgere. Nonostante tutto, il cinema del paese continuò a sopravvivere, grazie alla passione e alla determinazione del suo proprietario.
+Insomma, gestire un cinema in un piccolo paese non era affatto facile e comportava numerose difficoltà e sfide. Vito ha imparato sulla propria pelle quanto sia importante avere le giuste competenze e la giusta attenzione per far fronte alle problematiche che possono insorgere.
 
-Grazie alla passione e alla determinazione di Vito, il cinema nel paese divenne una realtà. La sala cinematografica di Piazza Mario Polerà sarebbe diventata un punto di riferimento per la cultura e l'intrattenimento del paese, un luogo dove gli abitanti di San Vito potevano riunirsi per godere dei film che tanto amavano. E la passione di Vito per il cinema avrebbe ispirato molte altre persone nella comunità a fare lo stesso, portando a una vera e propria nascita della cultura cinematografica a San Vito.
+Grazie alla passione e alla determinazione di Vito, il cinema nel paese divenne una realtà. La sala cinematografica di Piazza Mario Polerà sarebbe diventata un punto di riferimento per la cultura e l'intrattenimento del paese, un luogo dove gli abitanti di San Vito potevano riunirsi per godere dei film che tanto amavano. E la passione di Vito per il cinema avrebbe ispirato molte altre persone nella comunità a fare lo stesso, portando a una vera e propria nascita della cultura cinematografica e dello spettacolo[^9] a San Vito.
 
 Il successo del cinema in Piazza portò Vito ad investire per la realizzazione di una nuova costruzione più grande un vero e proprio cinema. La storia del cinema di San Vito continua [qui]().
 
@@ -75,3 +75,4 @@ Il successo del cinema in Piazza portò Vito ad investire per la realizzazione d
 [^6]: Sac. Gerardo Mongiardo (Arciprete). San Vito sullo Ionio. 1957. [Link alla lettera](/1957/08/10/lettera-del-sacerdote-gerardo-mongiardo/)
 [^7]: Schiavitù (1953), Yves Ciampi. [IMDB](https://www.imdb.com/title/tt0046281/)
 [^8]: Nel 1959 Vito sottoscrive un contratto con la Publi-Enic Società pubblicitaria per la réclame cinematografica, permettendogli un entrata fissa stabile [Link al documento](/1958/03/15/contratto-pubblicit-publi-enic/)
+[^9]:**DA VERIFICARE**: Pare che una certa famiglia Migliaccio di San Vito negli anni ’60 in estate organizzasse il teatro nella nuova sala in Via Doria.
