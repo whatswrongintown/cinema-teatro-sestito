@@ -1,7 +1,7 @@
 ---
 title: Il progetto
 author: "Vito Sestito"
-date: "2016-05-05T21:48:51-07:00"
+date: "2023-04-05"
 description: Questa pagina descrive il progetto di ripresa del cinema e riassume gli argomenti.
 ---
 
@@ -16,7 +16,7 @@ Scopri di più sulla storia del cinema in questa [serie di articoli](/categories
 
 ## Fondatore
 
-Mio nonno Vito Sestito, il fondatore del cinema, è sempre stato per me un visionario che ha riconosciuto il potenziale del cinema come forma d'arte e forza culturale potente. Ha lavorato instancabilmente per creare uno spazio in cui i Sanvitesi potessero incontrarsi e condividere la magia del cinema. Il contributo di Vito alla comunità locale e all'industria cinematografica continua ad ispirarmi ancora oggi.
+Vito Sestito, il fondatore del cinema, è sempre stato per me un visionario che ha riconosciuto il potenziale del cinema come forma d'arte e forza culturale potente. Ha lavorato instancabilmente per creare uno spazio in cui i Sanvitesi potessero incontrarsi e condividere la magia del cinema. Il contributo di Vito alla comunità locale e all'industria cinematografica continua ad ispirarmi ancora oggi.
 
 Scopri di più sul [fondatore](/1902/11/12/vito-sestito/)
 
@@ -28,7 +28,7 @@ Approfondisci la programmazione al seguente articolo: [link all’articolo]()
 
 ## Eredità
 
-Per ma anche per molti altri Sanvitesi l'eredità del Cinema Teatro Sestito vive ancora oggi, come testimonianza del potere duraturo del cinema e del ruolo che esso ha svolto nella formazione della nostra cultura e della nostra comunità. Il cinema era un luogo di incontro amato che ha portato le persone insieme e ha creato ricordi duraturi. Il suo impatto sulla comunità locale è immensurabile.
+Per molti Sanvitesi l'eredità del Cinema Teatro Sestito vive ancora oggi, come testimonianza del potere duraturo del cinema e del ruolo che esso ha svolto nella formazione della nostra cultura e della nostra comunità. Il cinema era un luogo di incontro amato che ha portato le persone insieme e ha creato ricordi duraturi. Il suo impatto sulla comunità locale è immensurabile.
 
 ## Associazione Culturale
 
@@ -37,3 +37,5 @@ L’associazione culturale si impegna a preservare e promuovere l'eredità del C
 ## Associazione
 
 Vi invito ad unirvi all’associazione culturale e ad aiutarmi a continuare la mia missione di preservare e promuovere il cinema. Come membro, avrai accesso ad eventi esclusivi, proiezioni e opportunità per interagire con altri appassionati di cinema. L'iscrizione è aperta a tutti e richiede solo una modesta quota annuale. Per saperne di più e diventare un membro, leggi tutte le infomationi nella [sezione dedicata](/association/) *(questa sezione è ancora una bozza fino al momento della costituzione)*. Per rimanere aggiornato sull'avvio dell'associazione inviami una [mail](mailto:whatswrongintown@gmail.com).
+
+*[Vito Sestito](/chisono/)*

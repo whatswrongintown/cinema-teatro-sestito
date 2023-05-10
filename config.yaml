@@ -20,15 +20,18 @@ menu:
     - name: Home
       url: /
       weight: 1
+    - name: Il progetto
+      url: /ilprogetto/
+      weight: 2
     - name: Articoli
       url: /post/
-      weight: 2
-    - name: Chi sono
-      url: /chisono/
       weight: 3
     - name: Categorie
       url: /categories/
       weight: 4
+    - name: Chi sono
+      url: /chisono/
+      weight: 5
 params:
   MathJaxCDN: //cdnjs.cloudflare.com/ajax/libs
   MathJaxVersion: 2.7.5
