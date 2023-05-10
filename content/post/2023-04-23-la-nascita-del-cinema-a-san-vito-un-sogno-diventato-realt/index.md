@@ -1,8 +1,8 @@
 ---
 title: 'La nascita del cinema a San Vito (dal 1946 al 1957): un sogno diventato realtà'
 author: Vito Sestito
-description: l'articolo descrive i primi anni del cinema dalla sua nascita agli anni dei suoi primi successi
 date: '2023-04-23'
+description: l'articolo descrive i primi anni del cinema dalla sua nascita agli anni dei suoi primi successi
 slug: la-nascita-del-cinema-a-san-vito-un-sogno-diventato-realt
 categories:
   - Storia
@@ -35,8 +35,8 @@ Dopo aver creato la sua sala cinematografica, Vito dovette affrontare una serie 
 
 La notizia dell’apertura del cinema a San Vito si sparse velocemente nei paesi vicini. Tutti volevano entrare nel locale, ma date le dimensioni ridotte molte persone dovettero aspettare il prossimo spettacolo. Successivamente, questi disagi furono in parte superati stabilendo un calendario d’ingresso per paese. Alcune persone venivano a piedi, altre in macchina. Il cinema per la popolazione di quei tempi era un momento di riposo dove oltre a guardare i film si mangiava e fumava.
 
-<img src="images/la_settimana_incam.jpg" alt="Copertina della settimana Incam" style="max-width:20%;min-width:20%;float: right"/>
-<img src="images/1949IncamAgendaCinematoGrafica1.jpg" alt="1949 Incam Agenda Cinematografica" style="max-width:20%;min-width:20%;"/>
+<img src="images/1949IncamAgendaCinematoGrafica1.jpg" alt="1949 Incam Agenda Cinematografica" style="max-width:20%;min-width:20%;"/> &nbsp;&nbsp;&nbsp;&nbsp;
+<img src="images/la_settimana_incam.jpg" alt="Copertina della settimana Incam" style="max-width:20%;min-width:20%;"/>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/la_settimana_incom3.png" alt="Copertina della settimana Incam" style="max-width:20%;min-width:20%;"/>
 
 In quegli anni ogni film era preceduto da musica con un giradischi posto nella cabina di proiezione, poi [La Settimana Incom](https://www.archivioluce.com/la-settimana-incom/) un cinegiornale settimanale di attualità, varietà e sport.
 
