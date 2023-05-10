@@ -63,7 +63,7 @@ Tutto ciò fa parte delle sfide e delle difficoltà che i gestori di cinema in p
 
 Insomma, gestire un cinema in un piccolo paese non era affatto facile e comportava numerose difficoltà e sfide. Vito ha imparato sulla propria pelle quanto sia importante avere le giuste competenze e la giusta attenzione per far fronte alle problematiche che possono insorgere.
 
-Grazie alla passione e alla determinazione di Vito, il cinema nel paese divenne una realtà. La sala cinematografica di Piazza Mario Polerà sarebbe diventata un punto di riferimento per la cultura e l'intrattenimento del paese, un luogo dove gli abitanti di San Vito potevano riunirsi per godere dei film che tanto amavano. E la passione di Vito per il cinema avrebbe ispirato molte altre persone nella comunità a fare lo stesso, portando a una vera e propria nascita della cultura cinematografica e dello spettacolo[^9] a San Vito.
+Grazie alla passione e alla determinazione di Vito, il cinema nel paese divenne una realtà. La sala cinematografica di Piazza Mario Polerà sarebbe diventata un punto di riferimento per la cultura e l'intrattenimento del paese, un luogo dove gli abitanti di San Vito potevano riunirsi per godere dei film che tanto amavano. La passione di Vito per il cinema avrebbe ispirato molte altre persone nella comunità, portando a una vera e propria nascita della cultura cinematografica e dello spettacolo[^9] a San Vito.
 
 Il successo del cinema in Piazza portò Vito ad investire per la realizzazione di una nuova costruzione più grande un vero e proprio cinema. La storia del cinema di San Vito continua [qui]().
 
