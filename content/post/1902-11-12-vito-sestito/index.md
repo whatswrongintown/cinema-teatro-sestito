@@ -16,11 +16,11 @@ tags:
 ***
 *Articolo in costruzione*
 ***
-Vito Sestito nasce il 12 novembre 1902 a San Vito sullo Ionio, un piccolo paese del sud Italia. Era il più giovane dei quattro fratelli e di una sorella. Anche se gran parte della sua infanzia rimane un mistero, la famiglia di Vito sapeva che aveva un talento per lavorare il legno fin da giovane. Dopo aver completato la sua istruzione fino alla terza elementare[^1], ha iniziato a lavorare come falegname, perfezionando la sua arte e costruendo mobili per le persone della sua comunità.
+Vito Sestito nacque a San Vito sullo Ionio, un piccolo paese del sud Italia, il 12 novembre 1902, ultimo di cinque figli di Vito Sestito e xxx. Anche se gran parte della sua infanzia rimane un mistero, la famiglia di Vito sapeva che aveva un talento per lavorare il legno fin da giovane. Dopo aver completato la sua istruzione fino alla terza elementare[^1], ha iniziato a lavorare come falegname, perfezionando la sua arte e costruendo mobili per le persone della sua comunità.
 
 ![](images/teresa_aiello_vito_sestito-min.jpg)
 
-Nel 1929 Vito sposò la sua prima moglie, ma la tragedia colpì la coppia quando la moglie morì durante il concepimento del loro primo figlio. Entrambi persero la vita, lasciando Vito da solo. Rimase in lutto per 10 anni prima che il fratello Vincenzo lo convincesse a sposarsi di nuovo. Fu così che nel 1939 Vito si risposò con Teresa Aiello, la sorella della moglie di Vincenzo.
+Nel 1929 si sposa con xxx, ma la tragedia colpì Vito quando la moglie morì durante il concepimento del loro primo figlio. Entrambi persero la vita, lasciando Vito da solo. Rimase in lutto per 10 anni prima che il fratello Vincenzo lo convincesse a sposarsi di nuovo. Fu così che nel 1939 Vito si risposò con Teresa Aiello, la sorella della moglie di Vincenzo.
 
 <img src="images/vito_sestito_libia-min.jpg" alt="" style="max-width:25%;min-width:25%;float: right;"/>
 
