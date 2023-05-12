@@ -24,7 +24,7 @@ Nel 1929 si sposa con xxx, ma la tragedia colpì Vito quando la moglie morì dur
 
 <img src="images/vito_sestito_libia-min.jpg" alt="" style="max-width:25%;min-width:25%;float: right;"/>
 
-Il destino ha voluto che scoppiasse la Seconda Guerra Mondiale e Vito poco dopo il matrimonio, fu arruolato nell'esercito italiano. Fu mandato in Libia, dove nonostante il pericolo e l'incertezza della guerra, Vito fu in grado di tornare a casa due volte per visitare la sua famiglia[^2]. Tuttavia, dopo che l'Italia perse la guerra, Vito dovette fare un viaggio pericoloso a piedi dalla Sicilia.
+Poco dopo il matrimonio scoppiata la Seconda Guerra Mondiale e Vito fu arruolato nell'esercito italiano.Fu mandato in Libia, dove nonostante il pericolo e l'incertezza della guerra, Vito fu in grado di tornare a casa due volte per visitare la sua famiglia[^2]. Tuttavia, dopo che l'Italia perse la guerra, Vito dovette fare un viaggio pericoloso a piedi dalla Sicilia.
 
 Quando Vito tornò a San Vito sullo Ionio, era determinato ad aiutare la sua comunità a riprendersi dalla devastazione della guerra. Riaprì la falegnameria e iniziò a lavorare sulla ricostruzione dei mobili e delle finestre danneggiati dalla guerra in tutta la zona.
 
