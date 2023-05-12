@@ -13,7 +13,10 @@ tags:
   - Cultura
   - storia
 ---
+![](images/palazzo_storico_piazza_mario_polera-min.JPG)
+***
 *questo articolo è ancora una bozza*
+***
 
 Il cinema è da sempre stato un'arte che ha catturato l'immaginazione di molte persone, e per Vito Sestito non è stato da meno. Nato e cresciuto a San Vito sullo Ionio, Vito ha sempre avuto una passione per i film e il loro potere di trasportare gli spettatori in mondi fantastici.
 
