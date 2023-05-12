@@ -18,7 +18,7 @@ Scopri di più sulla storia del cinema in questa [serie di articoli](/categories
 
 Vito Sestito, il fondatore del cinema, è sempre stato per me un visionario che ha riconosciuto il potenziale del cinema come forma d'arte e forza culturale potente. Ha lavorato instancabilmente per creare uno spazio in cui i Sanvitesi potessero incontrarsi e condividere la magia del cinema. Il contributo di Vito alla comunità locale e all'industria cinematografica continua ad ispirarmi ancora oggi.
 
-Scopri di più sul [fondatore](/1902/11/12/vito-sestito/)
+Scopri di più sul [fondatore](/1902/11/12/la-storia-di-vito-sestito/)
 
 ## Programmazione
 
