@@ -20,7 +20,7 @@ Vito Sestito nacque a San Vito sullo Ionio, un piccolo paese del sud Italia, il 
 
 ![](images/teresa_aiello_vito_sestito-min.jpg)
 
-Nel 1929 si sposa con xxx, ma la tragedia colpì Vito quando la moglie morì durante il concepimento del loro primo figlio. Entrambi persero la vita, lasciando Vito da solo. Rimase in lutto per 10 anni prima che il fratello Vincenzo lo convincesse a sposarsi di nuovo. Fu così che nel 1939 Vito si risposò con Teresa Aiello, la sorella della moglie di Vincenzo.
+Il 24 gennaio del 1931 si sposa con Maria Vitro, ma la tragedia colpì Vito quando la moglie morì durante il concepimento del loro primo figlio. Entrambi persero la vita, lasciando Vito da solo. Rimase in lutto per 10 anni prima che il fratello Vincenzo lo convincesse a sposarsi di nuovo. Fu così che nel 1939 Vito si risposò con Teresa Aiello, la sorella della moglie di Vincenzo.
 
 <img src="images/vito_sestito_libia-min.jpg" alt="" style="max-width:25%;min-width:25%;float: right;"/>
 
