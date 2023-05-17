@@ -52,3 +52,13 @@ markup:
   goldmark:
     renderer:
       unsafe: yes
+privacy:
+  googleAnalytics:
+    anonymizeIP: true
+    disable: false
+    respectDoNotTrack: true
+    useSessionStorage: true
+  youtube:
+    disable: false
+    privacyEnhanced: true
+assetDir: static
