@@ -1,7 +1,7 @@
 ---
 title: Atto Privato di Costituzione
 author: Vito Sestito
-date: '2023-04-18'
+date: '2023-04-06'
 slug: atto-privato-di-costituzione
 categories:
   - Associazione
@@ -47,6 +47,6 @@ Letto, confermato e sottoscritto
 
 San Vito sullo Ionio, XX/XX/2023 (luogo e data)
 
-[Il nostro Statuto](/2023/04/18/statuto-nuovo-cinema-teatro-sestito/)
+[Il nostro Statuto](/2023/04/07/statuto-nuovo-cinema-teatro-sestito/)
 
-[Il Manifesto dell'associazione](/2023/04/19/manifesto/)
+[Il Manifesto dell'associazione](/2023/04/08/manifesto/)

@@ -1,7 +1,7 @@
 ---
 title: Manifesto
 author: Vito Sestito
-date: '2023-04-19'
+date: '2023-04-08'
 slug: manifesto
 categories:
   - Associazione
@@ -21,8 +21,8 @@ Inoltre, riteniamo che i festival di cinema siano un componente fondamentale del
 
 Ci impegniamo a lavorare in collaborazione con le autorità locali, le aziende e i residenti per garantire che il successo e la vitalità del cinema di paese continui. Attraverso gli sforzi collettivi, possiamo creare un'organizzazione culturale dinamica e sostenibile che celebra il potere trasformativo del cinema.
 
-[Come iscriversi](/2023/04/20/come-unirsi-all-associazione/)
+[L'Atto di Costituzione](/2023/04/06/atto-privato-di-costituzione/)
 
-[Il nostro Statuto](/2023/04/18/statuto-nuovo-cinema-teatro-sestito/)
+[Il nostro Statuto](/2023/04/07/statuto-nuovo-cinema-teatro-sestito/)
 
-[L'Atto di Costituzione](/2023/04/18/atto-privato-di-costituzione/)
+[Come iscriversi](/2023/04/09/come-unirsi-all-associazione/)

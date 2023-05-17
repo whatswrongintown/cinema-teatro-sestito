@@ -1,7 +1,7 @@
 ---
 title: Statuto Nuovo Cinema Teatro Sestito
 author: Vito Sestito
-date: '2023-04-18'
+date: '2023-04-07'
 slug: statuto-nuovo-cinema-teatro-sestito
 categories:
   - Associazione
@@ -83,8 +83,8 @@ Art. 18: Lo scioglimento del Circolo deve essere deliberato, su proposta del Con
 
 Art. 19: Per quanto non previsto dal presente statuto si fa riferimento alle vigenti disposizioni di legge e agli eventuali regolamenti interni approvati dall’Assemblea.
 
-[L'Atto di Costituzione](/2023/04/18/atto-privato-di-costituzione/)
+[L'Atto di Costituzione](/2023/04/06/atto-privato-di-costituzione/)
 
-[Il Manifesto dell'associazione](/2023/04/19/manifesto/)
+[Il Manifesto dell'associazione](/2023/04/08/manifesto/)
 
-[Come iscriversi](/2023/04/20/come-unirsi-all-associazione/)
+[Come iscriversi](/2023/04/09/come-unirsi-all-associazione/)
