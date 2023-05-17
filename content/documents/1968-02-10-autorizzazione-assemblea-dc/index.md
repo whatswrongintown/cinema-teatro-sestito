@@ -5,7 +5,6 @@ description: trascrizione del documento per la comunicazione dell'assemblea loca
 date: '1968-02-10'
 slug: autorizzazione-assemblea-dc
 categories:
-  - Storia
   - Documenti
 tags:
   - CinemaTeatroSestito

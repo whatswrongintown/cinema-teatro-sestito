@@ -5,7 +5,6 @@ description: trascrizione dell'acquisto del terreno per il nuovo cinema
 date: '1956-03-01'
 slug: acquisto-terreno-cinema-in-via-comm-doria-parte-2
 categories:
-  - Storia
   - Documenti
 tags:
   - CinemaTeatroSestito

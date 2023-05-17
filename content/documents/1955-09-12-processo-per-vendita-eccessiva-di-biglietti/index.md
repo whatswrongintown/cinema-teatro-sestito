@@ -5,7 +5,6 @@ description: articolo che trasrisve il processo verbale per eccessiva vendita di
 date: '1955-09-12'
 slug: processo-per-vendita-eccessiva-di-biglietti
 categories:
-  - Storia
   - Documenti
 tags:
   - CinemaTeatroSestito

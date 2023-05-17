@@ -5,7 +5,6 @@ description: articolo che trascrive il documento di abilitazione del cinema nel 
 date: '1949-03-19'
 slug: abilitazione-cinema-in-piazza-mario-poler
 categories:
-  - Storia
   - Documenti
 tags:
   - Cinema

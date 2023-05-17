@@ -5,7 +5,6 @@ description: contratto per la fornitura di energia dalla Sicetà Elettrica delle
 date: '1959-03-03'
 slug: contratto-con-societ-elettrica-delle-calabrie
 categories:
-  - Storia
   - Documenti
 tags:
   - Cinema

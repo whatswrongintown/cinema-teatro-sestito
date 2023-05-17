@@ -5,7 +5,6 @@ description: contratto pubblicitario esclusivo per la Publi-Enic
 date: '1958-03-15'
 slug: contratto-pubblicit-publi-enic
 categories:
-  - Storia
   - Documenti
 tags:
   - CinemaTeatroSestito
