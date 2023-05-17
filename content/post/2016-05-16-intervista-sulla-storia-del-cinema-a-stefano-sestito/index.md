@@ -1,5 +1,5 @@
 ---
-title: 'Intervista a Sestito Sestefano sulla storia del Cinema'
+title: 'Intervista a Sestito Sestefano sulla storia del cinema'
 author: Benny Danieli
 date: '2016-05-16'
 slug: intervista-sulla-storia-del-cinema-a-stefano-sestito
