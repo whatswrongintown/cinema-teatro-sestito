@@ -59,7 +59,7 @@ agenda_48_49 %>%
           theme_classic()
 ```
 
-Tra i film proiettati in quella stagione, uno dei più vecchi era [Anime alla deriva](https://www.imdb.com/title/tt0023826/) (1933) di Alfred Santell. Il cinema ha dato la possibilità agli spettatori di scoprire e apprezzare capolavori del passato, contribuendo a preservare il patrimonio cinematografico.
+Tra i film proiettati in quella stagione, uno dei più vecchi è [Anime alla deriva](https://www.imdb.com/title/tt0023826/) (1933) di Alfred Santell. Il cinema ha dato la possibilità agli spettatori di scoprire e apprezzare capolavori del passato, contribuendo a preservare il patrimonio cinematografico.
 
 ```{r echo=FALSE, fig.height = 2.5, fig.width = 8, fig.align = "center", warning = FALSE}
 agenda_48_49 %>% mutate(year = as_factor(year)) %>%
@@ -90,6 +90,7 @@ Tabella 1: I migliori film della stagione '48/'49 secondo gli utenti di IMDb:
 agenda_48_49 %>%
           arrange(desc(imdb_rating)) %>%
           slice_head(n = 5) %>%
+  mutate(title = paste0("[",title,"]","(",url,")")) %>%
           select(year, title, directors, imdb_rating) %>%
           knitr::kable(col.names = c("Anno", "Titolo", "Regia", "IMDb rating"), align = c("l", "l", "l", "r"))
 ```

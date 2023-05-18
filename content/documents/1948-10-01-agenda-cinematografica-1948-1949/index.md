@@ -27,7 +27,7 @@ La maggior parte dei film presentati rientrava nel genere drammatico, regalando 
 
 <img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-2-1.png" width="576" style="display: block; margin: auto;" />
 
-Tra i film proiettati in quella stagione, uno dei più vecchi era [Anime alla deriva](https://www.imdb.com/title/tt0023826/) (1933) di Alfred Santell. Il cinema ha dato la possibilità agli spettatori di scoprire e apprezzare capolavori del passato, contribuendo a preservare il patrimonio cinematografico.
+Tra i film proiettati in quella stagione, uno dei più vecchi è [Anime alla deriva](https://www.imdb.com/title/tt0023826/) (1933) di Alfred Santell. Il cinema ha dato la possibilità agli spettatori di scoprire e apprezzare capolavori del passato, contribuendo a preservare il patrimonio cinematografico.
 
 <img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-3-1.png" width="768" style="display: block; margin: auto;" />
 
@@ -41,11 +41,11 @@ Tabella 1: I migliori film della stagione '48/'49 secondo gli utenti di IMDb:
 
 |Anno |Titolo              |Regia                 | IMDb rating|
 |:----|:-------------------|:---------------------|-----------:|
-|1942 |Vogliamo Vivere!    |Ernst Lubitsch        |         8.2|
-|1944 |Vertigine           |Otto Preminger        |         7.9|
-|1942 |Addio Kira!         |Goffredo Alessandrini |         7.4|
-|1936 |Margherita Gauthier |George Cukor          |         7.3|
-|1934 |La vedova allegra   |Ernst Lubitsch        |         7.2|
+|1942 |[Vogliamo Vivere!](https://www.imdb.com/title/tt0035446/)|Ernst Lubitsch        |         8.2|
+|1944 |[Vertigine](https://www.imdb.com/title/tt0037008/)|Otto Preminger        |         7.9|
+|1942 |[Addio Kira!](https://www.imdb.com/title/tt0034429/)|Goffredo Alessandrini |         7.4|
+|1936 |[Margherita Gauthier](https://www.imdb.com/title/tt0028683/)|George Cukor          |         7.3|
+|1934 |[La vedova allegra](https://www.imdb.com/title/tt0025493/)|Ernst Lubitsch        |         7.2|
 
 ### Agenda Fincine 1948-49
 {{< image-gallery gallery_dir="/images/1948_fincine" >}}
