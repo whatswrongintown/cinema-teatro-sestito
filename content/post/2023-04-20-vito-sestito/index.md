@@ -24,7 +24,7 @@ Il 24 gennaio del 1931 si sposa con Maria Vitro, ma la tragedia colpì Vito quan
 
 <img src="images/vito_sestito_libia-min.jpg" alt="" style="max-width:25%;min-width:25%;float: right;"/>
 
-Poco dopo il matrimonio scoppia la Seconda Guerra Mondiale e Vito fu arruolato nell'esercito italiano.Fu mandato in Libia, dove nonostante il pericolo e l'incertezza della guerra, Vito fu in grado di tornare a casa due volte per visitare la sua famiglia[^2]. Tuttavia, dopo che l'Italia perse la guerra, Vito dovette fare un viaggio pericoloso a piedi dalla Sicilia.
+Poco dopo il matrimonio scoppia la Seconda Guerra Mondiale e Vito fu arruolato nell'esercito italiano. Fu mandato in Libia, dove nonostante il pericolo e l'incertezza della guerra, Vito fu in grado di tornare a casa due volte per visitare la sua famiglia[^2]. Tuttavia, dopo che l'Italia perse la guerra, Vito dovette fare un viaggio pericoloso a piedi dalla Sicilia.
 
 Quando Vito tornò a San Vito sullo Ionio, era determinato ad aiutare la sua comunità a riprendersi dalla devastazione della guerra. Riaprì la falegnameria e iniziò a lavorare sulla ricostruzione dei mobili e delle finestre danneggiati dalla guerra in tutta la zona.
 
