@@ -47,6 +47,8 @@ Tabella 1: I migliori film della stagione '48/'49 secondo gli utenti di IMDb:
 |1936 |[Margherita Gauthier](https://www.imdb.com/title/tt0028683/)|George Cukor          |         7.3|
 |1934 |[La vedova allegra](https://www.imdb.com/title/tt0025493/)|Ernst Lubitsch        |         7.2|
 
+Dei 59 film proiettati in questa stagione, ben 32 sono di produzione Italiana. Tra questi, il più vecchio è [Fiat voluntas dei](https://www.imdb.com/title/tt0026348/) (1936) di Amleto Palermi. I film con la regia più frequente sono quelli di Mario Camerini. I generi cinematografici spaziano dai drammi sentimentali alle commedie, includendo alcuni film appartenenti al genere italiano dei [telefoni bianchi](https://it.wikipedia.org/wiki/Cinema_dei_telefoni_bianchi) come [Ballo al castello](https://www.imdb.com/title/tt0031075/) (1939), [La mia canzone al vento](https://www.imdb.com/title/tt0031642/) (1939), [Centomila dollari](https://www.imdb.com/title/tt0031146/) (1940), [Incontri di notte](https://www.imdb.com/title/tt0034894/) (1943), e [Fiori d'arancio](https://www.imdb.com/title/tt0036826/) (1944).
+
 ### Agenda Fincine 1948-49
 {{< image-gallery gallery_dir="/images/1948_fincine" >}}
 
