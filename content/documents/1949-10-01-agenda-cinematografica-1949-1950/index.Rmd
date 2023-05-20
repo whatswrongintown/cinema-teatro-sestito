@@ -1,0 +1,46 @@
+---
+title: Agenda Cinematografica 1949-1950
+author: Vito Sestito
+date: '1949-10-01'
+slug: agenda-cinematografica-1949-1950
+categories:
+  - Agende
+tags:
+  - AgendaCinematografica
+  - settimanaincom
+  - Storia
+  - CinemaTeatroSestito
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(tidyverse)
+
+agende <- read_csv("C:/Users/eurhope/Documents/R/cinema-teatro-sestito/static/data/programmazione_agende.csv") %>%
+          select(const, date, title)
+
+imdb <- read_csv("C:/Users/eurhope/Documents/R/cinema-teatro-sestito/static/data/programmazione_imdb.csv") %>%
+          select(const, year, directors, genres, imdb_rating, runtime, url)
+
+agenda_49_50 <- agende %>%
+          filter(date >= "1949-10-01" & date <= "1950-09-30") %>%
+          left_join(imdb, by = "const") %>%
+          arrange(date)
+```
+
+## Galleria immagini
+
+### Agenda Elettrocarbonium 1949-50
+{{< image-gallery gallery_dir="/images/1949_elettrocarbonium" >}}
+
+### Agenda La Settimana Incom 1949-50
+{{< image-gallery gallery_dir="/images/1949_incom" >}}
+
+## Lista film
+```{r echo=FALSE}
+agenda_49_50 %>%
+          arrange(date) %>%
+  mutate(title = paste0("[",title,"]","(",url,")")) %>%
+          select(date, title) %>%
+          knitr::kable(col.names = c("Data di proiezione", "Titolo"), align = c("l", "l"))
+```

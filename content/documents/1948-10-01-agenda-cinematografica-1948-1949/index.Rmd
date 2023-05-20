@@ -91,14 +91,25 @@ agenda_48_49 %>%
           arrange(desc(imdb_rating)) %>%
           slice_head(n = 5) %>%
   mutate(title = paste0("[",title,"]","(",url,")")) %>%
-          select(year, title, directors, imdb_rating) %>%
-          knitr::kable(col.names = c("Anno", "Titolo", "Regia", "IMDb rating"), align = c("l", "l", "l", "r"))
+          select(title, year, directors, imdb_rating) %>%
+          knitr::kable(col.names = c("Titolo", "Anno", "Regia", "IMDb rating"), align = c("l", "l", "l", "r"))
 ```
 
 Dei 59 film proiettati in questa stagione, ben 32 sono di produzione Italiana. Tra questi, il più vecchio è [Fiat voluntas dei](https://www.imdb.com/title/tt0026348/) (1936) di Amleto Palermi. I film con la regia più frequente sono quelli di Mario Camerini. I generi cinematografici spaziano dai drammi sentimentali alle commedie, includendo alcuni film appartenenti al genere italiano dei [telefoni bianchi](https://it.wikipedia.org/wiki/Cinema_dei_telefoni_bianchi) come [Ballo al castello](https://www.imdb.com/title/tt0031075/) (1939), [La mia canzone al vento](https://www.imdb.com/title/tt0031642/) (1939), [Centomila dollari](https://www.imdb.com/title/tt0031146/) (1940), [Incontri di notte](https://www.imdb.com/title/tt0034894/) (1943), e [Fiori d'arancio](https://www.imdb.com/title/tt0036826/) (1944).
+
+## Galleria immagini
 
 ### Agenda Fincine 1948-49
 {{< image-gallery gallery_dir="/images/1948_fincine" >}}
 
 ### Agenda La Settimana Incom 1948-49
 {{< image-gallery gallery_dir="/images/1948_incom" >}}
+
+## Lista film
+```{r echo=FALSE}
+agenda_48_49 %>%
+          arrange(date) %>%
+  mutate(title = paste0("[",title,"]","(",url,")")) %>%
+          select(date, title) %>%
+          knitr::kable(col.names = c("Data di proiezione", "Titolo"), align = c("l", "l"))
+```

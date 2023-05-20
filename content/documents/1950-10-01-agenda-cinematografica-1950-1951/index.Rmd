@@ -1,0 +1,45 @@
+---
+title: Agenda Cinematografica 1950-1951
+author: Vito Sestito
+date: '1950-10-01'
+slug: agenda-cinematografica-1950-1951
+categories:
+  - Agende
+tags:
+  - electtrocarbonium
+  - AgendaCinematografica
+  - CinemaTeatroSestito
+  - Cinema
+  - FilmItaliani
+  - Storia
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(tidyverse)
+
+agende <- read_csv("C:/Users/eurhope/Documents/R/cinema-teatro-sestito/static/data/programmazione_agende.csv") %>%
+          select(const, date, title)
+
+imdb <- read_csv("C:/Users/eurhope/Documents/R/cinema-teatro-sestito/static/data/programmazione_imdb.csv") %>%
+          select(const, year, directors, genres, imdb_rating, runtime, url)
+
+agenda_50_51 <- agende %>%
+          filter(date >= "1950-10-01" & date <= "1951-09-30") %>%
+          left_join(imdb, by = "const") %>%
+          arrange(date)
+```
+
+## Galleria immagini
+
+### Agenda Elettrocarbonium 1950-51
+{{< image-gallery gallery_dir="/images/1950_elettrocarbonium" >}}
+
+## Lista film
+```{r echo=FALSE}
+agenda_50_51 %>%
+          arrange(date) %>%
+  mutate(title = paste0("[",title,"]","(",url,")")) %>%
+          select(date, title) %>%
+          knitr::kable(col.names = c("Data di proiezione", "Titolo"), align = c("l", "l"))
+```
