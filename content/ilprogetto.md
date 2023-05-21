@@ -12,7 +12,7 @@ Benvenuti sul sito web del Cinema Teatro Sestito e dell’associazione culturale
 
 Il cinema è stato fondato da Vito Sestito nel 1946 e rapidamente diventò un luogo di incontro per la popolazione locale e nei comuni vicini. Il cinema ha giocato un ruolo vitale nella comunità, offrendo un'esperienza unica e preziosa che non poteva essere trovata altrove. Nel corso degli anni, il cinema ha affrontato numerose sfide, tra cui l'ascesa della televisione e dei cambiamenti nelle abitudini di visione. In risposta, si è adattato ed evoluto, introducendo nuove strategie di programmazione e continuando ad offrire un'esperienza cinematografica di alta qualità agli spettatori locali. Purtroppo, nel 2005, il cinema ha chiuso i suoi battenti, segnando la fine di un'era. Tuttavia, il suo lascito vive ancora oggi, come testimonianza del potere duraturo del cinema e del ruolo che esso svolge nella formazione della nostra cultura e delle nostre comunità.
 
-Scopri di più sulla storia del cinema in questa [serie di articoli](/categories/storia)
+Scopri di più sulla storia del cinema in questa [serie di articoli](/categories/storia/)
 
 ## Fondatore
 
@@ -24,7 +24,7 @@ Scopri di più sul [fondatore](/2023/04/20/la-storia-di-vito-sestito/)
 
 Il cinema era conosciuto per la sua programmazione eclettica, che includeva film classici e contemporanei, così come una gamma di eventi speciali come mostre teatrali, assemblee, e proiezioni per la scuola . Il focus del cinema era sui film storici o sui film di importanti registi del passato che hanno fatto la storia del cinema, in particolare di quello italiano. Il cinema ha anche proiettato film erotici italiani durante gli anni '70 e '80 per attirare più spettatori. Il Cinema Teatro Sestito era più di un semplice cinema - era un centro culturale locale che ha portato le persone insieme e ha scatenato conversazioni sull'arte, la storia e la società.
 
-Approfondisci la programmazione al seguente articolo: [link all’articolo]()
+Approfondisci la programmazione al seguente articolo: [link all’articolo](/categories/agende/)
 
 ## Eredità
 
