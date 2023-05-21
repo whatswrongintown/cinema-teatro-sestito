@@ -10,7 +10,7 @@ Benvenuti sul sito web del Cinema Teatro Sestito e dell’associazione culturale
 
 ## Storia
 
-Il cinema è stato fondato da Vito Sestito nel 1946 e rapidamente diventò un luogo di incontro per la popolazione locale e nei comuni vicini. Il cinema ha giocato un ruolo vitale nella comunità, offrendo un'esperienza unica e preziosa che non poteva essere trovata altrove. Nel corso degli anni, il cinema ha affrontato numerose sfide, tra cui l'ascesa della televisione e dei cambiamenti nelle abitudini di visione. In risposta, si è adattato ed evoluto, introducendo nuove strategie di programmazione e continuando ad offrire un'esperienza cinematografica di alta qualità agli spettatori locali. Purtroppo, nel 2005, il cinema ha chiuso i suoi battenti, segnando la fine di un'era. Tuttavia, il suo lascito vive ancora oggi, come testimonianza del potere duraturo del cinema e del ruolo che esso svolge nella formazione della nostra cultura e delle nostre comunità.
+Il cinema è stato fondato da Vito Sestito nel 1946 e rapidamente diventò un luogo di incontro per la popolazione locale e nei comuni vicini. Il cinema ha giocato un ruolo vitale nella comunità, offrendo un'esperienza unica e preziosa che non poteva essere trovata altrove. Nel corso degli anni, il cinema ha affrontato numerose sfide, tra cui l'ascesa della televisione e dei cambiamenti nelle abitudini di visione. In risposta, si è adattato ed evoluto, introducendo nuove strategie di programmazione e continuando ad offrire un'esperienza cinematografica agli spettatori locali. Purtroppo, nel 2005, il cinema ha chiuso i suoi battenti, segnando la fine di un'era. Tuttavia, il suo lascito vive ancora oggi, come testimonianza del potere duraturo del cinema e del ruolo che esso svolge nella formazione della nostra cultura e delle nostre comunità.
 
 Scopri di più sulla storia del cinema in questa [serie di articoli](/categories/storia/)
 
@@ -36,6 +36,6 @@ L’associazione culturale si impegna a preservare e promuovere l'eredità del C
 
 ## Associazione
 
-Vi invito ad unirvi all’associazione culturale e ad aiutarmi a continuare la mia missione di preservare e promuovere il cinema. Come membro, avrai accesso ad eventi esclusivi, proiezioni e opportunità per interagire con altri appassionati di cinema. L'iscrizione è aperta a tutti e richiede solo una modesta quota annuale. Per saperne di più e diventare un membro, leggi tutte le infomationi nella [sezione dedicata](/association/) *(questa sezione è ancora una bozza fino al momento della costituzione)*. Per rimanere aggiornato sull'avvio dell'associazione inviami una [mail](mailto:whatswrongintown@gmail.com).
+Vi invito ad unirvi all’associazione culturale e ad aiutarmi a continuare la mia missione di preservare e promuovere il cinema. Come membro, avrai accesso ad eventi esclusivi, proiezioni e opportunità per interagire con altri appassionati di cinema. L'iscrizione è aperta a tutti e richiede solo una modesta quota annuale. Per saperne di più e diventare un membro, leggi tutte le informazioni nella [sezione dedicata](/association/) *(questa sezione è ancora una bozza fino al momento della costituzione)*. Per rimanere aggiornato sull'avvio dell'associazione inviami una [mail](mailto:whatswrongintown@gmail.com).
 
 *[Vito Sestito](/chisono/)*
