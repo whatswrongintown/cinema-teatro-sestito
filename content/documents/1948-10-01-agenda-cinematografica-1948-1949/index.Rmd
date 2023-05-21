@@ -63,7 +63,6 @@ Tra i film proiettati in questa stagione, uno dei più vecchi è [Anime alla der
 
 ```{r echo=FALSE, fig.height = 2.5, fig.width = 8, fig.align = "center", warning = FALSE}
 agenda_48_49 %>% mutate(year = as_factor(year)) %>%
-          separate(genres, into = c("genres","g2"), sep = ",") %>%
           ggplot(aes(year)) +
           geom_bar() +
           geom_text(aes(label = ..count..), stat = "count", vjust = 1.5, colour = "white") +
