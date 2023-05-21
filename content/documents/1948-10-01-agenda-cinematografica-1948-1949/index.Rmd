@@ -45,7 +45,7 @@ agenda_48_49 %>% ggplot(aes(format(date, "%Y-%m"))) +
 
 ```
 
-La maggior parte dei film presentati rientrava nel genere drammatico, regalando al pubblico emozioni forti e storie coinvolgenti. Questo genere ha avuto un impatto significativo sulla selezione cinematografica del Cinema Teatro Sestito durante la stagione in questione.
+La maggior parte dei film presentati rientra nel genere drammatico, regalando al pubblico emozioni forti e storie coinvolgenti.
 
 ```{r echo=FALSE, fig.height = 2.5, fig.width = 6, fig.align = "center", warning = FALSE}
 agenda_48_49 %>%
@@ -59,7 +59,7 @@ agenda_48_49 %>%
           theme_classic()
 ```
 
-Tra i film proiettati in quella stagione, uno dei più vecchi è [Anime alla deriva](https://www.imdb.com/title/tt0023826/) (1933) di Alfred Santell. Il cinema ha dato la possibilità agli spettatori di scoprire e apprezzare capolavori del passato, contribuendo a preservare il patrimonio cinematografico.
+Tra i film proiettati in questa stagione, uno dei più vecchi è [Anime alla deriva](https://www.imdb.com/title/tt0023826/) (1933) di Alfred Santell. Il cinema ha dato la possibilità agli spettatori di scoprire e apprezzare capolavori del passato, contribuendo a preservare il patrimonio cinematografico.
 
 ```{r echo=FALSE, fig.height = 2.5, fig.width = 8, fig.align = "center", warning = FALSE}
 agenda_48_49 %>% mutate(year = as_factor(year)) %>%
@@ -71,7 +71,7 @@ agenda_48_49 %>% mutate(year = as_factor(year)) %>%
           theme_classic()
 ```
 
-La durata media dei film proiettati al cinema era di 92 minuti, con i film drammatici che spesso superavano questa media. Tra i film più lunghi, che superavano le due ore abbiamo: [La Certosa di Parma](https://www.imdb.com/title/tt0040223/) (1948) di Christian-Jaque, [Le chiavi del paradiso](https://www.imdb.com/title/tt0036983/) (1944) di John M. Stahl, e [La gondola del diavolo](https://www.imdb.com/title/tt0038570/) (1946) di Carlo Campogalliani. D'altra parte, tra i film più brevi, che duravano quasi un'ora ci sono: [Fiamme sul messico](https://www.imdb.com/title/tt0034993/) (1942) di Sam Newfield, [Il mistero dei tre sosia](https://www.imdb.com/title/tt0033390/) (1942) di Sam Newfield, e [Bionda Selvaggia](https://www.imdb.com/title/tt0039198/) (1947) di Steve Sekely.
+La durata media dei film proiettati al cinema è di 92 minuti, con i film drammatici che spesso superavano questa media. Tra i film più lunghi, che superavano le due ore abbiamo: [La Certosa di Parma](https://www.imdb.com/title/tt0040223/) (1948) di Christian-Jaque, [Le chiavi del paradiso](https://www.imdb.com/title/tt0036983/) (1944) di John M. Stahl, e [La gondola del diavolo](https://www.imdb.com/title/tt0038570/) (1946) di Carlo Campogalliani. D'altra parte, tra i film più brevi, che duravano quasi un'ora ci sono: [Fiamme sul messico](https://www.imdb.com/title/tt0034993/) (1942) di Sam Newfield, [Il mistero dei tre sosia](https://www.imdb.com/title/tt0033390/) (1942) di Sam Newfield, e [Bionda Selvaggia](https://www.imdb.com/title/tt0039198/) (1947) di Steve Sekely.
 
 ```{r echo=FALSE, fig.height = 2.5, fig.width = 6, fig.align = "center", warning = FALSE}
 agenda_48_49 %>% 
