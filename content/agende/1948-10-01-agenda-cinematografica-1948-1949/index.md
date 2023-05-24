@@ -14,14 +14,14 @@ tags:
   - StoriaDelCinema
 ---
 
-In questo articolo esploreremo la stagione cinematografica che va da ottobre 1948 a settembre 1949, basandoci sull'elenco dei film ritrovato nelle agende di mio nonno (vedi le immagini nella galleria sotto l'articolo).
+In questo articolo esploreremo la stagione cinematografica che va da ottobre 1948 a settembre 1949, basandoci sull'elenco dei film ritrovato nelle agende cinematografiche del cinema (vedi le immagini nella galleria sotto l'articolo).
 
 Dalle agende cinematografiche del ‘48 e del ‘49, possiamo contare ben 59 film unici proiettati. Il primo film di cui abbiamo la data di proiezione è [Melodia segreta](https://www.imdb.com/title/tt0191305/) (1940) di Claude Orval, proiettato il 6 ottobre 1948. Durante l'anno, se escludiano le repliche, la media di film unici proiettati ogni mese è stata di 5, ma il mese con il maggior numero di pellicole uniche in programmazione è stato febbraio.
 
 
 <img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-1-1.png" width="768" style="display: block; margin: auto;" />
 
-La maggior parte dei film presentati rientra nel genere drammatico, regalando al pubblico emozioni forti e storie coinvolgenti.
+La maggior parte dei film presentati rientra nel genere drammatico.
 
 <img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-2-1.png" width="576" style="display: block; margin: auto;" />
 
@@ -31,9 +31,9 @@ Tra i film proiettati in questa stagione, uno dei più vecchi è [Anime alla der
 
 La durata media dei film proiettati al cinema è di 92 minuti, con i film drammatici che spesso superavano questa media. Tra i film più lunghi, che superavano le due ore abbiamo: [La Certosa di Parma](https://www.imdb.com/title/tt0040223/) (1948) di Christian-Jaque, [Le chiavi del paradiso](https://www.imdb.com/title/tt0036983/) (1944) di John M. Stahl, e [La gondola del diavolo](https://www.imdb.com/title/tt0038570/) (1946) di Carlo Campogalliani. D'altra parte, tra i film più brevi, che duravano quasi un'ora ci sono: [Fiamme sul messico](https://www.imdb.com/title/tt0034993/) (1942) di Sam Newfield, [Il mistero dei tre sosia](https://www.imdb.com/title/tt0033390/) (1942) di Sam Newfield, e [Bionda Selvaggia](https://www.imdb.com/title/tt0039198/) (1947) di Steve Sekely.
 
-<img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-4-1.png" width="576" style="display: block; margin: auto;" />
+<img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-4-1.png" width="768" style="display: block; margin: auto;" />
 
-Basandoci sul rating degli utenti su Internet Movie Database, uno dei film più apprezzati di questa stagione è [Vogliamo Vivere](https://www.imdb.com/title/tt0035446/) (1942) del noto regista Ernst Lubitsch. Tra gli altri film di Lubitsch in questa stagione troviamo [La vedova allegra](https://www.imdb.com/title/tt0025493/) (1934).
+Basandoci sul rating degli utenti di Internet Movie Database, uno dei film più apprezzati di questa stagione è [Vogliamo Vivere](https://www.imdb.com/title/tt0035446/) (1942) del noto regista Ernst Lubitsch. Tra gli altri film di Lubitsch in questa stagione troviamo [La vedova allegra](https://www.imdb.com/title/tt0025493/) (1934).
 
 Tabella 1: I migliori film della stagione '48/'49 secondo gli utenti di IMDb:
 
