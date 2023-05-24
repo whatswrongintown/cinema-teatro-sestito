@@ -1,5 +1,5 @@
 ---
-title: Statuto Nuovo Cinema Teatro Sestito
+title: Statuto
 author: Vito Sestito
 date: '2023-04-07'
 slug: statuto-nuovo-cinema-teatro-sestito
