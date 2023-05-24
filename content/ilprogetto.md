@@ -2,7 +2,7 @@
 title: Il progetto
 author: "Vito Sestito"
 date: "2023-04-05"
-description: Questa pagina descrive il progetto di ripresa del cinema e riassume gli argomenti.
+description: "Questa pagina descrive il progetto di ripresa del cinema e riassume gli argomenti."
 ---
 
 ## Introduzione
