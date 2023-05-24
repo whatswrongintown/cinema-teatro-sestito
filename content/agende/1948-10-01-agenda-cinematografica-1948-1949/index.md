@@ -14,9 +14,9 @@ tags:
   - StoriaDelCinema
 ---
 
-In questo articolo esploreremo la stagione cinematografica che va da ottobre 1948 a settembre 1949, basandoci sull'elenco dei film ritrovato nelle agende cinematografiche del cinema (vedi le immagini nella galleria sotto l'articolo).
+In questo articolo esploreremo la stagione cinematografica che va dall'ottobre del 1948 a settembre del 1949, basandoci sull'elenco dei film ritrovati nelle agende cinematografiche del cinema (vedi le immagini nella galleria sotto l'articolo).
 
-Dalle agende cinematografiche del ‘48 e del ‘49, possiamo contare ben 59 film unici proiettati. Il primo film di cui abbiamo la data di proiezione è [Melodia segreta](https://www.imdb.com/title/tt0191305/) (1940) di Claude Orval, proiettato il 6 ottobre 1948. Durante l'anno, se escludiano le repliche, la media di film unici proiettati ogni mese è stata di 5, ma il mese con il maggior numero di pellicole uniche in programmazione è stato febbraio.
+Dalle agende cinematografiche del ‘48/‘49, possiamo contare ben 59 film unici proiettati. Il primo film di cui abbiamo la data di proiezione è [Melodia segreta](https://www.imdb.com/title/tt0191305/) (1940) di Claude Orval, proiettato il 6 ottobre 1948. Durante l'anno, se escludiano le repliche, la media di film unici proiettati ogni mese è stata di 5, ma il mese con il maggior numero di pellicole uniche in programmazione è stato febbraio.
 
 
 <img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-1-1.png" width="768" style="display: block; margin: auto;" />
