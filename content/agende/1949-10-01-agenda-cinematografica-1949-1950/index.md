@@ -12,25 +12,27 @@ tags:
   - CinemaTeatroSestito
 ---
 
-La stagione del 1949-1950 è stata caratterizzata da un'offerta eccezionale di film, con ben 68 proiezioni uniche, una media di 6 al mese. Ottobre si è rivelato il mese più ricco, con ben 10 film, offrendo agli spettatori un'ampia scelta di pellicole da apprezzare.
+La stagione del 1949-1950 è caratterizzata da un'offerta eccezionale di film, con ben 68 proiezioni uniche (una media di 6 al mese). Ottobre si è rivelato il mese più ricco, con ben 10 film, offrendo agli spettatori un'ampia scelta di pellicole da apprezzare.
 
 <img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-1-1.png" width="768" style="display: block; margin: auto;" />
 
-Il viaggio cinematografico di questa stagione a San Vito prende il via con [Il ventesimo duca](https://www.imdb.com/title/tt0215327/) (1945) di Lucio de Caro. Tra le particolarità di questa stagione troviamo l'entusiasmante serie di film [Duello col pirata nero](https://www.imdb.com/title/tt0030725/) (1938) di Elmer Clifton. Questa serie completa, che in totale dura 5 ore, senza dubbio teneva gli spettatori sulle spine. Il film, proiettato presumibilmente per l'intera settimana, ha offerto agli spettatori un'avventura avvincente e coinvolgente.
+Il viaggio cinematografico di questa stagione a San Vito prende il via con [Il ventesimo duca](https://www.imdb.com/title/tt0215327/) (1945) di Lucio de Caro. Tra le particolarità di questa stagione troviamo l'entusiasmante serie [Duello col pirata nero](https://www.imdb.com/title/tt0030725/) (1938) di Elmer Clifton. La serie ha una durata di 5 ore e venne presumibilmente proiettata per l'intera settimana, offrendo agli spettatori un'avventura avvincente e coinvolgente.
 
-Il film con anno di produzione più vecchio è [Come tu mi vuoi](https://www.imdb.com/title/tt0022641/) (1932) di George Fitzmaurice. Ben 12 film proiettati durante questa stagione appartenevano all'anno di produzione 1949, il che indica come i film venivano proiettati immediatamente al cinema senza dover passare anni dalla distribuzione. Questo rapido processo di distribuzione ha permesso al pubblico di godere di nuove opere cinematografiche e di rimanere aggiornato sulle ultime novità dell'industria del cinema.
+Il film con anno di produzione più vecchio è [Come tu mi vuoi](https://www.imdb.com/title/tt0022641/) (1932) di George Fitzmaurice. Ben 12 film proiettati durante questa stagione fanno parte all'anno di produzione 1949, questo indica come i film venivano proiettati immediatamente al cinema senza far passare anni dalla data di distribuzione. Questo rapido processo di distribuzione ha permesso al pubblico di godere di nuove opere cinematografiche e di rimanere aggiornato sulle ultime novità dell'industria del cinema.
 
 <img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-2-1.png" width="768" style="display: block; margin: auto;" />
 
-Tra i film proiettati durante questa stagione, spicca il classico senza tempo King Kong del 1933 diretto da Ernest B. Schoedsack e Merian C. Coope. Grazie a una ridistribuzione nei cinema italiani nel 1948, il maestoso gorilla è tornato sul grande schermo, offrendo al pubblico di San Vito una combinazione sapiente di avventura, romanticismo e fantascienza, arricchita da straordinari effetti speciali che hanno regalato un'esperienza unica e senza precedenti.
+Tra i film proiettati durante questa stagione, spicca il classico senza tempo [King Kong](https://www.imdb.com/title/tt0024216/) del 1933 diretto da Ernest B. Schoedsack e Merian C. Coope. Grazie a una ridistribuzione nei cinema italiani nel 1948, il maestoso gorilla è tornato sul grande schermo, offrendo al pubblico di San Vito una combinazione sapiente di avventura, romanticismo e fantascienza, arricchita da straordinari effetti speciali che hanno regalato un'esperienza unica e senza precedenti.
 
-Un nome che ha risuonato durante questo periodo è stato quello del regista Guido Brignone. La sua firma si è fatta sentire nella proiezione di tre film drammatici: [Monaca santa](https://www.imdb.com/title/tt0037925/) (1949), [Santo disonore](https://www.imdb.com/title/tt0041843/) (1950), e [La sepolta viva](https://www.imdb.com/title/tt0040774/) (1950). Lo stile distintivo di Brugnone avrà forse portato profondità emotiva e narrazioni avvincenti sullo schermo, lasciando un'impronta nel panorama cinematografico del paese.
+Un nome che ha risuonato durante questo periodo è quello del regista Guido Brignone. La sua firma si è fatta sentire nella proiezione di tre film drammatici: [Monaca santa](https://www.imdb.com/title/tt0037925/) (1949), [Santo disonore](https://www.imdb.com/title/tt0041843/) (1950), e [La sepolta viva](https://www.imdb.com/title/tt0040774/) (1950). Lo stile distintivo di Brignone avrà forse portato profondità emotiva e narrazioni avvincenti sullo schermo, lasciando un'impronta nel panorama cinematografico del paese.
 
 Se confrontiamo i dati con le classifiche di IMDb. In cima alla lista dei film più amati troviamo [King Kong](https://www.imdb.com/title/tt0024216/) (1933), [Il demone della carne](https://www.imdb.com/title/tt0038232/) (1946), [Bufera mortale](https://www.imdb.com/title/tt0032811/) (1940), [È accaduto in Europa](https://www.imdb.com/title/tt0039949/) (1947), e [Vita rubata](https://www.imdb.com/title/tt0038813/) (1946).
 
-La maggior parte dei film proiettati durante questa stagione apparteneva al genere drammatico, seguito dai generi comico e avventuroso.
+<img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-3-1.png" width="768" style="display: block; margin: auto;" />
 
-<img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-3-1.png" width="576" style="display: block; margin: auto;" />
+La maggior parte dei film proiettati durante questa stagione fanno parte del genere drammatico, seguito dal genere comico e avventuroso.
+
+<img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-4-1.png" width="576" style="display: block; margin: auto;" />
 
 Tra i 68 film proiettati, ben 28 sono stati prodotti in Italia. Tra questi spicca il primo film di Totò proiettato a San Vito, [Totò cerca casa](https://www.imdb.com/title/tt0041974/) del 1949 diretto da Mario Monicelli e Stefano Vanzina (padre dei fratelli Vanzina). Sempre di Totò troviamo il film [Il ratto delle sabine](https://www.imdb.com/title/tt0038016/) (1945) di Mario Bonnard.
 
@@ -70,7 +72,6 @@ Tra i 68 film proiettati, ben 28 sono stati prodotti in Italia. Tra questi spicc
 |1949-12-18         |[Santo disonore](https://www.imdb.com/title/tt0041843/)|
 |1949-12-30         |[Le chiavi del paradiso](https://www.imdb.com/title/tt0036983/)|
 |1949-12-31         |[Totò cerca casa](https://www.imdb.com/title/tt0041974/)|
-|1950-01-01         |[Le chiavi del paradiso](https://www.imdb.com/title/tt0036983/)|
 |1950-01-04         |[King Kong](https://www.imdb.com/title/tt0024216/)|
 |1950-01-14         |[Antonio di Padova](https://www.imdb.com/title/tt0041126/)|
 |1950-01-20         |[La vedova allegra](https://www.imdb.com/title/tt0025493/)|
@@ -85,7 +86,6 @@ Tra i 68 film proiettati, ben 28 sono stati prodotti in Italia. Tra questi spicc
 |1950-02-28         |[Vita rubata](https://www.imdb.com/title/tt0038813/)|
 |1950-03-04         |[Il demone della gelosia](https://www.imdb.com/title/tt0200523/)|
 |1950-03-07         |[Come tu mi vuoi](https://www.imdb.com/title/tt0022641/)|
-|1950-03-12         |[Difendo mia figlia](https://www.imdb.com/title/tt0165938/)|
 |1950-03-14         |[La foresta incantata](https://www.imdb.com/title/tt0037672/)|
 |1950-03-17         |[Il segreto di don Giovanni](https://www.imdb.com/title/tt0039809/)|
 |1950-03-24         |[La sepolta viva](https://www.imdb.com/title/tt0040774/)|
@@ -93,7 +93,6 @@ Tra i 68 film proiettati, ben 28 sono stati prodotti in Italia. Tra questi spicc
 |1950-04-08         |[Il bacio della morte](https://www.imdb.com/title/tt0039536/)|
 |1950-04-18         |[Marco Visconti](https://www.imdb.com/title/tt0032758/)|
 |1950-04-22         |[Salomè](https://www.imdb.com/title/tt0038046/)|
-|1950-04-28         |[Casta Diva](https://www.imdb.com/title/tt0026188/)|
 |1950-05-05         |[La collana della regina](https://www.imdb.com/title/tt0207295/)|
 |1950-05-07         |[La casa senza tempo](https://www.imdb.com/title/tt0035719/)|
 |1950-05-12         |[La figlia del peccato - Voce è notte](https://www.imdb.com/title/tt0041365/)|
@@ -101,8 +100,6 @@ Tra i 68 film proiettati, ben 28 sono stati prodotti in Italia. Tra questi spicc
 |1950-05-20         |[La mano della morta](https://www.imdb.com/title/tt0041633/)|
 |1950-05-23         |[I maledetti](https://www.imdb.com/title/tt0039615/)|
 |1950-06-01         |[La santa cittadina](https://www.imdb.com/title/tt0178337/)|
-|1950-06-10         |[Monaca santa](https://www.imdb.com/title/tt0037925/)|
-|1950-06-14         |[I maledetti](https://www.imdb.com/title/tt0039615/)|
 |1950-06-16         |[La figlia della Madonna](https://www.imdb.com/title/tt0041366/)|
 |1950-06-22         |[Il conte Ugolino](https://www.imdb.com/title/tt0041261/)|
 |1950-06-29         |[Nel paese delle meraviglie](https://www.imdb.com/title/tt0024852/)|
