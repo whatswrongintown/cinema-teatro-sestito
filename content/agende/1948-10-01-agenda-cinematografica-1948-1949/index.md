@@ -45,7 +45,11 @@ Tabella 1: I migliori film della stagione '48/'49 secondo gli utenti di IMDb:
 |[Margherita Gauthier](https://www.imdb.com/title/tt0028683/)|1936 |George Cukor          |         7.3|
 |[La vedova allegra](https://www.imdb.com/title/tt0025493/)|1934 |Ernst Lubitsch        |         7.2|
 
-Dei 59 film proiettati in questa stagione, ben 32 sono di produzione Italiana. Tra questi, il più vecchio è [Fiat voluntas dei](https://www.imdb.com/title/tt0026348/) (1936) di Amleto Palermi. I film con la regia più frequente sono quelli di Mario Camerini. I generi cinematografici spaziano dai drammi sentimentali alle commedie, includendo alcuni film appartenenti al genere italiano dei [telefoni bianchi](https://it.wikipedia.org/wiki/Cinema_dei_telefoni_bianchi) come [Ballo al castello](https://www.imdb.com/title/tt0031075/) (1939), [La mia canzone al vento](https://www.imdb.com/title/tt0031642/) (1939), [Centomila dollari](https://www.imdb.com/title/tt0031146/) (1940), [Incontri di notte](https://www.imdb.com/title/tt0034894/) (1943), e [Fiori d'arancio](https://www.imdb.com/title/tt0036826/) (1944).
+Dei 59 film proiettati in questa stagione, ben 32 sono di produzione Italiana. Tra questi, il più vecchio è [Fiat voluntas dei](https://www.imdb.com/title/tt0026348/) (1936) di Amleto Palermi.
+
+I film con la regia più frequente sono quelli di [Mario Camerini](https://it.wikipedia.org/wiki/Mario_Camerini), regista molto popolare dopo l’avvento del cinema sonoro e prima dello scoppio della guerra. Le opere di Camerini sono tipicamente commedie romantiche con trame molto complesse. Nella maggior parte dei casi, i suoi film forniscono una visione ironica e critica della società borghese. I temi principali di Camerini sono le pressioni imposte all'individuo dalla società ei ruoli che le persone sono costrette a svolgere nei rapporti con gli altri.
+
+I generi cinematografici spaziano dai drammi sentimentali alle commedie, includendo alcuni film appartenenti al genere italiano dei [telefoni bianchi](https://it.wikipedia.org/wiki/Cinema_dei_telefoni_bianchi) come [Ballo al castello](https://www.imdb.com/title/tt0031075/) (1939), [La mia canzone al vento](https://www.imdb.com/title/tt0031642/) (1939), [Centomila dollari](https://www.imdb.com/title/tt0031146/) (1940), [Incontri di notte](https://www.imdb.com/title/tt0034894/) (1943), e [Fiori d'arancio](https://www.imdb.com/title/tt0036826/) (1944).
 
 ## Galleria immagini
 
