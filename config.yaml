@@ -22,10 +22,10 @@ menu:
       weight: 1
     - name: Il progetto
       url: /ilprogetto/
-      weight: 2
+      weight: 3
     - name: Chi sono
       url: /chisono/
-      weight: 3
+      weight: 2
 params:
   MathJaxCDN: //cdnjs.cloudflare.com/ajax/libs
   MathJaxVersion: 2.7.5
