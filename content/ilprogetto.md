@@ -22,9 +22,9 @@ Scopri di più sul [fondatore](/2023/04/20/la-storia-di-vito-sestito/)
 
 ## Programmazione
 
-Il cinema era conosciuto per la sua programmazione eclettica, che includeva film classici e contemporanei, così come una gamma di eventi speciali come mostre teatrali, assemblee, e proiezioni per la scuola . Il focus del cinema era sui film storici o sui film di importanti registi del passato che hanno fatto la storia del cinema, in particolare di quello italiano. Il cinema ha anche proiettato film erotici italiani durante gli anni '70 e '80 per attirare più spettatori. Il Cinema Teatro Sestito era più di un semplice cinema - era un centro culturale locale che ha portato le persone insieme e ha scatenato conversazioni sull'arte, la storia e la società.
+Il cinema era conosciuto per la sua programmazione eclettica, che includeva film classici e contemporanei, così come una gamma di eventi speciali come mostre teatrali, assemblee, e proiezioni per la scuola. Il focus del cinema era sui film storici o sui film di importanti registi del passato che hanno fatto la storia del cinema, in particolare di quello italiano. Il cinema ha anche proiettato film erotici italiani durante gli anni '70 e '80 per attirare più spettatori. Il Cinema Teatro Sestito era più di un semplice cinema - era un centro culturale locale che ha portato le persone insieme e ha scatenato conversazioni sull'arte, la storia e la società.
 
-Approfondisci la programmazione al seguente articolo: [link all’articolo](/categories/agende/)
+Approfondisci la programmazione in questa [serie di articoli](/agende/)
 
 ## Eredità
 
