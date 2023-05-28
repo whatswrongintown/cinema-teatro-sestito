@@ -8,11 +8,11 @@ description: "Pagina per la mappa del sito"
 Un elenco di tutte le pagine e gli articoli trovati sul blog. Se non trovi quello che cerchi, non esitare a [contattarmi](mailto:whatswrongintown@gmail.com).
 
 * [Home](/)
-* [Articoli](/post/)
 * [Il progetto](/ilprogetto/)
 * [Chi sono](/chisono/)
-* [Agende](/agende/)
-* [Documenti](/documents/)
+* [Articoli](/post/)
 * [Eventi](/events/)
 * [Associazione](/association/)
+* [Agende cinematografiche](/agende/)
+* [Documenti storici](/documents/)
 * [Sitemap](/sitemap/)
