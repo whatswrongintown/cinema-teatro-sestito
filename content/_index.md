@@ -8,7 +8,6 @@ Questo è un sito web dedicato al **Cinema Teatro Sestito**, scopri la [storia](
 
 Se sei nuovo su questo sito:
 * Esplora la [mappa del sito](/sitemap/)
-* Vedi tutti gli [articoli](/post/) o gli articoli per [categorie](/categories/)
 * Scopri di più su chi c'è [dietro questo sito](/chisono/)
 * [Contribuisci](mailto:whatswrongintown@gmail.com) con la tua storia sul cinema 
 * [Contattami](mailto:whatswrongintown@gmail.com) se hai domande
