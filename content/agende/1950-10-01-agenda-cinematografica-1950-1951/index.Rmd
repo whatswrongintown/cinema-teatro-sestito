@@ -17,6 +17,7 @@ tags:
 knitr::opts_chunk$set(echo = TRUE)
 
 library(tidyverse)
+library(ggrepel)
 
 agende <- read_csv("C:/Users/eurhope/Documents/R/cinema-teatro-sestito/static/data/programmazione_agende.csv") %>%
           select(const, date, title)
@@ -24,10 +25,48 @@ agende <- read_csv("C:/Users/eurhope/Documents/R/cinema-teatro-sestito/static/da
 imdb <- read_csv("C:/Users/eurhope/Documents/R/cinema-teatro-sestito/static/data/programmazione_imdb.csv") %>%
           select(const, year, directors, genres, imdb_rating, runtime, url)
 
-agenda_50_51 <- agende %>%
-          filter(date >= "1950-10-01" & date <= "1951-09-30") %>%
+db_imdb <- agende %>%
           left_join(imdb, by = "const") %>%
-          arrange(date)
+          mutate(stagione = format(date, "%Y")) %>%
+          group_by(title, stagione) %>%
+          mutate(count = 1:n()) %>%
+          ungroup() %>%
+          filter(count == 1)
+
+agenda <- db_imdb %>%
+          filter(date >= "1950-10-01" & date <= "1951-09-30")
+```
+
+Per la stagione cinematografica del 1950/1951 non sono rimaste molte fonti a disposizione per avere una visione completa dei film proiettati. L’unica fonte consiste in un'unica agenda, che purtroppo ci offre solo una visione parziale dei film proiettati al cinema. Il primo titolo che troviamo in questa preziosa agenda è [Patto col Diavolo](https://www.imdb.com/title/tt0041739/) (1950) nel mese di dicembre. In totale si possono riconoscere 19 film unici proiettati in questa stagione. Di questi 16 sono di produzione italiana, offrendo un'opportunità di apprezzare il talento cinematografico nazionale dell'epoca.
+
+```{r echo=FALSE, fig.height = 2.5, fig.width = 8, fig.align = "center", warning = FALSE}
+agenda %>% ggplot(aes(format(date, "%Y-%m"))) +
+          geom_bar(stat = "count") +
+          geom_text(aes(label = ..count..), stat = "count", vjust = 1.5, colour = "white") +
+          labs(x = "Stagione Cinematografica 1948-49", y = "Frequenza") +
+          theme_classic()
+```
+
+Aprile si rivela essere il mese con il maggior numero di film unici proiettati, con un totale di 6 opere cinematografiche. Tra i generi più frequenti troviamo il dramma, che in linea con la moda di quegli anni nel panorama italiano ha dominato la programmazione. I film presentati spaziano in un arco temporale che va dal 1935 al 1950, offrendo una varietà di produzioni che hanno arricchito l'esperienza cinematografica del periodo.
+
+```{r echo=FALSE, fig.height = 2.5, fig.width = 8, fig.align = "center", warning = FALSE}
+agenda %>% mutate(year = as_factor(year)) %>%
+          ggplot(aes(year)) +
+          geom_bar() +
+          geom_text(aes(label = ..count..), stat = "count", vjust = 1.5, colour = "white") +
+          labs(x = "Anno di Produzione", y = "Frequenza") +
+          theme_classic()
+```
+
+Tra i titoli più rilevanti spicca [Le scarpe al sole](https://www.imdb.com/title/tt0028221/) (1935), un film drammatico diretto da Marco Elter, che rappresenta il più vecchio tra quelli proiettati durante questa stagione. Secondo IMDb, il film più celebrato di questa stagione è [Rigoletto](https://www.imdb.com/title/tt0038882/) (1946) di Carmine Gallone, seguito da [L'edera](https://www.imdb.com/title/tt0042427/) (1950) di Augusto Genina. Tra i film degni di menzione troviamo [La corona di ferro](https://www.imdb.com/title/tt0033489/) (1941) di Alessandro Blasetti, un film epico pseudostorico che si distingue per la sua originalità in quegli anni e che ha contribuito a dare il via a una serie di produzioni epiche realizzate a Cinecittà dopo la fine della guerra.
+
+```{r echo=FALSE, fig.height = 3.5, fig.width = 8, fig.align = "center", warning = FALSE}
+agenda %>% separate(genres, into = c("Generi","g2"), sep = ",", extra = "merge", fill = "right") %>%
+          ggplot(aes(imdb_rating, runtime)) +
+          geom_point(aes(color = Generi)) +
+          geom_text_repel(aes(label = title)) +
+          labs(x = "IMDb rating", y = "Minuti") +
+          theme_classic()
 ```
 
 ## Galleria immagini
@@ -37,7 +76,7 @@ agenda_50_51 <- agende %>%
 
 ## Lista film
 ```{r echo=FALSE}
-agenda_50_51 %>%
+agenda %>%
           arrange(date) %>%
   mutate(title = paste0("[",title,"]","(",url,")")) %>%
           select(date, title) %>%

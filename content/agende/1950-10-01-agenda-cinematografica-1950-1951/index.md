@@ -15,6 +15,18 @@ tags:
 ---
 
 
+Per la stagione cinematografica del 1950/1951 non sono rimaste molte fonti a disposizione per avere una visione completa dei film proiettati. L’unica fonte consiste in un'unica agenda, che purtroppo ci offre solo una visione parziale dei film proiettati al cinema. Il primo titolo che troviamo in questa preziosa agenda è [Patto col Diavolo](https://www.imdb.com/title/tt0041739/) (1950) nel mese di dicembre. In totale si possono riconoscere 19 film unici proiettati in questa stagione. Di questi 16 sono di produzione italiana, offrendo un'opportunità di apprezzare il talento cinematografico nazionale dell'epoca.
+
+<img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-1-1.png" width="768" style="display: block; margin: auto;" />
+
+Aprile si rivela essere il mese con il maggior numero di film unici proiettati, con un totale di 6 opere cinematografiche. Tra i generi più frequenti troviamo il dramma, che in linea con la moda di quegli anni nel panorama italiano ha dominato la programmazione. I film presentati spaziano in un arco temporale che va dal 1935 al 1950, offrendo una varietà di produzioni che hanno arricchito l'esperienza cinematografica del periodo.
+
+<img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-2-1.png" width="768" style="display: block; margin: auto;" />
+
+Tra i titoli più rilevanti spicca [Le scarpe al sole](https://www.imdb.com/title/tt0028221/) (1935), un film drammatico diretto da Marco Elter, che rappresenta il più vecchio tra quelli proiettati durante questa stagione. Secondo IMDb, il film più celebrato di questa stagione è [Rigoletto](https://www.imdb.com/title/tt0038882/) (1946) di Carmine Gallone, seguito da [L'edera](https://www.imdb.com/title/tt0042427/) (1950) di Augusto Genina. Tra i film degni di menzione troviamo [La corona di ferro](https://www.imdb.com/title/tt0033489/) (1941) di Alessandro Blasetti, un film epico pseudostorico che si distingue per la sua originalità in quegli anni e che ha contribuito a dare il via a una serie di produzioni epiche realizzate a Cinecittà dopo la fine della guerra.
+
+<img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-3-1.png" width="768" style="display: block; margin: auto;" />
+
 ## Galleria immagini
 
 ### Agenda Elettrocarbonium 1950-51
