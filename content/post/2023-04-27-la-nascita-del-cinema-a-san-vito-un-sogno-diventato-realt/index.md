@@ -74,8 +74,8 @@ Il successo del cinema in Piazza portò Vito ad investire per la realizzazione d
 [^2]: V. Buccheri, L. Malavasi. La materia dei sogni. L'impresa cinematografica in Italia. Carocci. 2006.
 [^3]: **DA FARE** articolo sull’evoluzione delle machine da presa e dei sistemi audio al cinema di San Vito.
 [^4]: Legione Territoriale dei Carabinieri di Catanzaro Stazione di San Vito sullo Ionio. *N.49 del Processo verbale*. Chiaravalle Centrale. 1955. [Link al documento](/1955/09/12/processo-per-vendita-eccessiva-di-biglietti/).
-[^5]: Sansone e Dalila (1949), Cecil B. DeMille. [IMDB](https://www.imdb.com/title/tt0041838/)
+[^5]: Sansone e Dalila (1949), Cecil B. DeMille. [IMDb](https://www.imdb.com/title/tt0041838/)
 [^6]: Sac. Gerardo Mongiardo (Arciprete). San Vito sullo Ionio. 1957. [Link alla lettera](/1957/08/10/lettera-del-sacerdote-gerardo-mongiardo/)
-[^7]: Schiavitù (1953), Yves Ciampi. [IMDB](https://www.imdb.com/title/tt0046281/)
+[^7]: Schiavitù (1953), Yves Ciampi. [IMDb](https://www.imdb.com/title/tt0046281/)
 [^8]: Nel 1959 Vito sottoscrive un contratto con la Publi-Enic Società pubblicitaria per la réclame cinematografica, permettendogli un entrata fissa stabile [Link al documento](/1958/03/15/contratto-pubblicit-publi-enic/)
 [^9]:**DA VERIFICARE**: Pare che una certa famiglia Migliaccio di San Vito negli anni ’60 in estate organizzasse il teatro nella nuova sala in Via Doria.
