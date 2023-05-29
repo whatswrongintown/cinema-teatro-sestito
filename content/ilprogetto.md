@@ -22,9 +22,9 @@ Scopri di più sul [fondatore](/2023/04/20/la-storia-di-vito-sestito/)
 
 ## Programmazione
 
-Il cinema era conosciuto per la sua programmazione eclettica, che includeva film classici e contemporanei, così come una gamma di eventi speciali come mostre teatrali, assemblee, e proiezioni per la scuola. Il focus del cinema era sui film storici o sui film di importanti registi del passato che hanno fatto la storia del cinema, in particolare di quello italiano. Il cinema ha anche proiettato film erotici italiani durante gli anni '70 e '80 per attirare più spettatori. Il Cinema Teatro Sestito era più di un semplice cinema - era un centro culturale locale che ha portato le persone insieme e ha scatenato conversazioni sull'arte, la storia e la società.
+Il cinema era conosciuto per la sua programmazione eclettica, che includeva film classici e contemporanei, così come una gamma di eventi speciali come mostre teatrali, assemblee, e proiezioni per la scuola. Nei primi anni il cinema era basato su film storici o sui film di importanti registi del passato che hanno fatto la storia del cinema, in particolare di quello italiano. Il Cinema Teatro Sestito era più di un semplice cinema - era un centro culturale locale che ha portato le persone insieme e ha scatenato conversazioni sull'arte, la storia e la società.
 
-Approfondisci la programmazione in questa [serie di articoli](/agende/)
+Approfondire la programmazione nella sezione [agende](/agende/)
 
 ## Eredità
 
@@ -33,8 +33,6 @@ Per molti Sanvitesi l'eredità del Cinema Teatro Sestito vive ancora oggi, come 
 ## Associazione Culturale
 
 L’associazione culturale si impegna a preservare e promuovere l'eredità del Cinema Teatro Sestito. Credo che il cinema sia una forma d'arte vitale che riflette la nostra società e modella le nostre prospettive. Celebrando la storia del cinema e il suo contributo alla comunità locale, spero di ispirare le future generazioni ad apprezzare e impegnarsi per mantenere il patrimonio culturale locale.
-
-## Associazione
 
 Vi invito ad unirvi all’associazione culturale e ad aiutarmi a continuare la mia missione di preservare e promuovere il cinema. Come membro, avrai accesso ad eventi esclusivi, proiezioni e opportunità per interagire con altri appassionati di cinema. L'iscrizione è aperta a tutti e richiede solo una modesta quota annuale. Per saperne di più e diventare un membro, leggi tutte le informazioni nella [sezione dedicata](/association/) *(questa sezione è ancora una bozza fino al momento della costituzione)*. Per rimanere aggiornato sull'avvio dell'associazione inviami una [mail](mailto:whatswrongintown@gmail.com).
 
