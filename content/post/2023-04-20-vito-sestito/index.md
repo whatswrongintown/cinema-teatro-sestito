@@ -1,5 +1,5 @@
 ---
-title: 'La storia di Vito Sestito: dalla falegnameria al cinema'
+title: 'La storia di Vito Sestito'
 author: Vito Sestito
 date: '2023-04-20'
 description: articolo dedicato al fondatore del cinema di San Vito sullo Ionio
@@ -11,19 +11,19 @@ tags:
   - SanVitoSulloIonio
   - AutoricambiSestito
 ---
-
+## Dalla falegnameria al cinema
 ![foto fatte per la patente](images/vito_sestito_patent_pictures.JPG)
 
-Vito Sestito nacque a San Vito sullo Ionio, un piccolo paese del sud Italia, il 12 novembre 1902. Ultimo di cinque figli, gran parte della sua infanzia rimane un mistero. Dopo aver completato la terza elementare inizia a lavorare come falegname.
+Vito Sestito nacque a San Vito sullo Ionio il 12 novembre 1902. Ultimo di cinque figli, gran parte della sua infanzia rimane un mistero. Dalle poche fonti della sua infanzia sappiamo che ha completato la terza elementare, e che ad un certo punto iniziò a lavorare come falegname.
 
-Il 24 gennaio del 1931 si sposa con Maria Vitro, ma la tragedia colpì Vito quando la moglie morì durante il concepimento del loro primo figlio. Rimase in lutto per otto anni prima che il fratello Vincenzo lo convincesse a sposarsi di nuovo. Fu così che nel 1939 Vito si risposò con Teresa Aiello, la sorella della moglie di Vincenzo.
+Il 24 gennaio del 1931 si sposò con Maria Vitro, ma la tragedia colpì Vito quando la moglie morì durante il concepimento del loro primo figlio. Nel 1939 Vito si risposò con Teresa Aiello.
 
 Teresa e Vito
 ![](images/teresa_aiello_vito_sestito-min.jpg)
 
 <img src="images/vito_sestito_libia-min.jpg" alt="" style="max-width:25%;min-width:25%;float: right;"/>
 
-Poco dopo il matrimonio scoppia la Seconda Guerra Mondiale e Vito venne arruolato nell'esercito italiano ed inviato in Libia. Dai documenti sappiamo che Vito fu in grado di tornare una volta per visitare la sua famiglia. Tuttavia, dopo che l'Italia perse la guerra, Vito dovette fare un viaggio pericoloso a piedi dalla Sicilia.
+Poco dopo il matrimonio scoppiò la Seconda Guerra Mondiale e Vito venne arruolato nell'esercito italiano ed inviato in Libia. Dai documenti sappiamo che Vito fu in grado di tornare una volta per visitare la sua famiglia. Tuttavia, dopo che l'Italia perse la guerra, Vito dovette fare un viaggio pericoloso a piedi dalla Sicilia.
 
 Quando Vito tornò a casa era determinato ad aiutare la sua comunità a riprendersi dalla devastazione della guerra. Riaprì la falegnameria e iniziò a lavorare sulla ricostruzione di mobili e finestre danneggiati dalla guerra.
 
@@ -37,4 +37,4 @@ La dedizione di Vito non vacillò mai e continuò a lavorare sul cinema e sul ne
 
 La storia di Vito Sestito è una testimonianza di una generazione che ha dovuto affrontare le difficoltà della guerra e della ricostruzione. La sua perseveranza e la sua determinazione sono un esempio di coraggio e di resilienza per le generazioni future.
 
-[^1]: Se vuoi saperne di più sulle origini del cinema vai su questo [articolo](/2023/04/27/la-nascita-del-cinema-a-san-vito-un-sogno-diventato-realt/)
+[^1]: Se vuoi saperne di più sulle origini del cinema leggi questo [articolo](/2023/04/27/la-nascita-del-cinema-a-san-vito-un-sogno-diventato-realt/)
