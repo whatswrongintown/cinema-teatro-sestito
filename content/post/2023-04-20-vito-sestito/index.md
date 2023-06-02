@@ -29,7 +29,7 @@ Quando Vito tornò a casa era determinato ad aiutare la sua comunità a riprende
 
 Per pura coincidenza Vito prestò i suoi servizi di falegname per conto del proprietario del cinema Masceri a Catanzaro. Questa esperienza diede a Vito l'idea di costruire un cinema nel suo paese. Il cinema di Vito divenne un luogo di ritrovo popolare per persone di tutte le età a San Vito e nei paesi vicini, fornendo loro un luogo dove rilassarsi e godersi i film[^1].
 
-Per un po' di tempo, continuò a lavorare come falegname mentre gestiva il cinema. Tuttavia negli ultimi successivi Vito contrasse un'allergia al legno e fu costretto a smettere di lavorare come falegname.
+Per un po' di tempo, continuò a lavorare come falegname mentre gestiva il cinema. Tuttavia negli ultimi anni Vito contrasse un'allergia al legno e fu costretto a smettere di lavorare come falegname.
 
 Fu durante questo periodo che Vito avviò una nuova attività di vendita di pezzi di ricambio per ciclo e motociclo e successivamente per auto. Il suo negozio aprì il primo di agosto del 1961. Anche se a quel tempo circolavano poche automobili in paese, il negozio con l’aumentare delle vetture in circolazione ebbe successo.
 
