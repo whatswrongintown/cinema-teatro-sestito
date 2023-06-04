@@ -34,7 +34,7 @@ La maggior parte dei film proiettati durante questa stagione fanno parte del gen
 
 <img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-4-1.png" width="576" style="display: block; margin: auto;" />
 
-Tra i 68 film proiettati, ben 28 sono stati prodotti in Italia. Tra questi spicca il primo film di Totò proiettato a San Vito, [Totò cerca casa](https://www.imdb.com/title/tt0041974/) del 1949 diretto da Mario Monicelli e Stefano Vanzina (padre dei fratelli Vanzina). Sempre di Totò troviamo il film [Il ratto delle sabine](https://www.imdb.com/title/tt0038016/) (1945) di Mario Bonnard.
+Tra i 68 film proiettati, ben 28 sono stati prodotti in Italia. Tra questi spicca il primo film di Totò proiettato a San Vito, [Totò cerca casa](https://www.imdb.com/title/tt0041974/) del 1949 diretto da Mario Monicelli e Stefano Vanzina. Sempre di Totò troviamo il film [Il ratto delle sabine](https://www.imdb.com/title/tt0038016/) (1945) di Mario Bonnard.
 
 ## Galleria immagini
 
