@@ -13,7 +13,7 @@ tags:
 
 Qualche anno fa è stata fatta un’intervista a mio padre Stefano Sestito, profondamente legato all'eredità cinematografica del paese. In questa intervista, Stefano ci porta in un viaggio nel tempo, ripercorrendo la straordinaria storia di suo padre, Vito Sestito, e l'evoluzione del cinema a San Vito.
 
-L’intervista con Stefano ci offre uno sguardo affascinante sulla storia cinematografica di San Vito. È una storia di passione, innovazione e un profondo apprezzamento per il potere trasformativo del cinema. Il suo impatto sulla comunità e i ricordi che ha creato rimarranno per sempre nel cuore degli abitanti di San Vito. Il lascito di questo viaggio cinematografico continua a ispirare le future generazioni e serve come monito sull'importanza di preservare il patrimonio culturale.
+L’intervista con Stefano ci offre uno sguardo affascinante sulla storia cinematografica di San Vito. È una storia di passione, innovazione e un profondo apprezzamento per il potere trasformativo del cinema. Il suo impatto sulla comunità e i ricordi che ha creato rimarranno per sempre nel cuore degli abitanti di San Vito.
 
 ### Cinema Teatro Sestito: il cinema dei sanvitesi di B. Danieli
 
