@@ -21,7 +21,7 @@ Dalle agende cinematografiche del ‘48/‘49, possiamo contare ben 59 film unic
 
 <img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-1-1.png" width="768" style="display: block; margin: auto;" />
 
-La maggior parte dei film proiettati rientra nel genere drammatico.Tra le particolarità di questa stagione troviamo il film [La casa degli orrori](https://www.imdb.com/title/tt0037793/) (House of Dracula) del 1945 diretto da Erle C. Kenton.
+La maggior parte dei film proiettati rientra nel genere drammatico. Tra le particolarità di questa stagione troviamo il film [La casa degli orrori](https://www.imdb.com/title/tt0037793/) (House of Dracula) del 1945 diretto da Erle C. Kenton.
 
 <img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-2-1.png" width="576" style="display: block; margin: auto;" />
 

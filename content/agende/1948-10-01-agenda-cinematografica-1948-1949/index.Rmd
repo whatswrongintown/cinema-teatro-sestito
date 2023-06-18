@@ -44,7 +44,7 @@ agenda_48_49 %>% ggplot(aes(format(date, "%Y-%m"))) +
 
 ```
 
-La maggior parte dei film proiettati rientra nel genere drammatico.Tra le particolarità di questa stagione troviamo il film [La casa degli orrori](https://www.imdb.com/title/tt0037793/) (House of Dracula) del 1945 diretto da Erle C. Kenton.
+La maggior parte dei film proiettati rientra nel genere drammatico. Tra le particolarità di questa stagione troviamo il film [La casa degli orrori](https://www.imdb.com/title/tt0037793/) (House of Dracula) del 1945 diretto da Erle C. Kenton.
 
 ```{r echo=FALSE, fig.height = 2.5, fig.width = 6, fig.align = "center", warning = FALSE}
 agenda_48_49 %>%
