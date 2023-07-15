@@ -13,7 +13,7 @@ tags:
 ---
 On/Questura di Catanzaro e.p.c. al Comando Stazione Carabinieri di San Vito sullo Jonio
 
-Il sottoscritto Sestito Vito, gestore e proprietario della sala cinematografica sita alla Via Comm. Doria del Comune di [S. vito sullo Jonio](), chiede a codesta On.le Questura l’autorizzazione perché nella sala stessa possa aver luogo, [alle ore 17 del giorno 15 c.m.](), l’Assemblea dei Soci della locale Sezione della Democrazia Cristiana.
+Il sottoscritto Sestito Vito, gestore e proprietario della sala cinematografica sita alla Via Comm. Doria del Comune di S. vito sullo Jonio, chiede a codesta On.le Questura l’autorizzazione perché nella sala stessa possa aver luogo, alle ore 17 del giorno 15 c.m., l’Assemblea dei Soci della locale Sezione della Democrazia Cristiana.
 
 Con osservanza
 
