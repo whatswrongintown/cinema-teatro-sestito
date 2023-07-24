@@ -10,7 +10,10 @@ tags:
   - Cinema
   - CinemaTeatroSestito
   - StoriaDelCinema
+  - Abilitazione
 ---
+
+![1949-03-19 Abilitazione del cinema in Piazza Mario Polerà](images/19490319abilitazionecinema.jpg)
 
 ### IL PREFETTO DELLA PROVINCIA DI CATANZARO
 
@@ -29,5 +32,3 @@ Il locale predetto può essere adibito a spettacoli pubblici cinematografici con
 Catanzaro, li 19/3/1949.
 
 Il Prefetto.
-
-![1949-03-19 Abilitazione del cinema in Piazza Mario Polerà](images/19490319abilitazionecinema.jpg)
