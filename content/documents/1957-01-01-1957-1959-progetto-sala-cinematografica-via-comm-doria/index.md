@@ -11,11 +11,6 @@ tags:
   - PreservazionePatrimonioCulturale
   - SanVitoSulloIonio
 ---
-*ing.* vincezo Calzona Catanzaro
-
-Progetto di sala cinematografica da costruire in S. Vito sull'Jonio di proprietà del sign. Sestito Vito.
-
-Disegni 1:100
 
 ![1957-1959 Progetto sala Cinematografica Via Comm. Doria 1](images/19571959ProgettosalaCinematografica1.jpg)
 ![1957-1959 Progetto sala Cinematografica Via Comm. Doria 2](images/19571959ProgettosalaCinematografica2.jpg)
@@ -23,3 +18,9 @@ Disegni 1:100
 ![1957-1959 Progetto sala Cinematografica Via Comm. Doria 4](images/19571959ProgettosalaCinematografica4.jpg)
 ![1957-1959 Progetto sala Cinematografica Via Comm. Doria 5](images/19571959ProgettosalaCinematografica5.jpg)
 ![1957-1959 Progetto sala Cinematografica Via Comm. Doria 6](images/19571959ProgettosalaCinematografica6.jpg)
+
+*ing.* Vincezo Calzona Catanzaro
+
+Progetto di sala cinematografica da costruire in S. Vito sull'Jonio di proprietà del sign. Sestito Vito.
+
+Disegni 1:100

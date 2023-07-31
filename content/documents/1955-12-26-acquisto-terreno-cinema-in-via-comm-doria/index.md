@@ -13,6 +13,9 @@ tags:
   - PreservazionePatrimonioCulturale
 ---
 
+![1955-12-26 Acquisto terreno cinema in Via Comm. Doria 1](images/19551225AcquistoTerrenoCinema1.jpg)
+![1955-12-26 Acquisto terreno cinema in Via Comm. Doria 2](images/19551225AcquistoTerrenoCinema2.jpg)
+
 [Seconda parte](/1956/03/01/acquisto-terreno-cinema-in-via-comm-doria-parte-2/)
 
 La presente scrittura privata da valore come atto Pubblico, io sottoscritta Giordano Rosa fu Stefano vendo l’appezzamento di terreno denominato Aria in via Squillace a Comm. Doria al Signor Sestito Vito fu Vito per il prezzo convenuto di un milione e centocinquantamila lire (1'150'000 L.).
@@ -26,7 +29,4 @@ Del terreno dell’Aria rimane alla venditrice tre appezzamenti del detto terren
 
 S. Vito Jonio, li 26 dicembre 1955.
 
-Giordano Rosa.
-
-![1955-12-26 Acquisto terreno cinema in Via Comm. Doria 1](images/19551225AcquistoTerrenoCinema1.jpg)
-![1955-12-26 Acquisto terreno cinema in Via Comm. Doria 2](images/19551225AcquistoTerrenoCinema2.jpg)
+Giordano Rosa

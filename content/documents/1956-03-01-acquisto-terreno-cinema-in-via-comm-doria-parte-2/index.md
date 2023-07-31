@@ -12,6 +12,8 @@ tags:
   - SanVitoSulloIonio
 ---
 
+![1956-03-01 Acquisto terreno cinema in Via Comm. Doria](images/195603AcquistoTerrenoCinema2.jpg)
+
 [Prima parte](/1955/12/26/acquisto-terreno-cinema-in-via-comm-doria/)
 
 [Acquisto terreno orto cinema](/1956/04/07/acquisto-orto-cinema-in-via-comm-doria/)
@@ -21,5 +23,3 @@ Dichiariamo noi sottoscritti che sebbene nell’istrumento di pari data, al qual
 S. Vito Jonio Marzo 1956 dichiaro corretto quando sopra.
 
 Giordano Rosa
-
-![1956-03-01 Acquisto terreno cinema in Via Comm. Doria](images/195603AcquistoTerrenoCinema2.jpg)

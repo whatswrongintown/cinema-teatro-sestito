@@ -12,6 +12,10 @@ tags:
   - PreservazionePatrimonioCulturale
   - StoriaDelCinema
 ---
+
+![1959-06-30 Abilitazione sala cinema Via Comm Doria 1](images/19590630Abilitazionesalacinema1.jpg)
+![1959-06-30 Abilitazione sala cinema Via Comm Doria 2](images/19590630Abilitazionesalacinema2.jpg)
+
 Il Prefetto della Provincia di Catanzaro
 
 Vista la domanda con la quale Sestito Vito, nato il 12.11.1902 a S. Vito Jonio, ivi residente; chiede di adibire a sala cinematografica, con proiettore a passo normale, un locale sito in S. Vito Jonio, via Vito Doria;
@@ -30,6 +34,4 @@ Decreta il predetto locale può essere adibito a spettacoli cinematografici, con
 
 Catanzaro, li 30.6.1959
 
-Il Prefetto De Lorenzo.
-![1959-06-30 Abilitazione sala cinema Via Comm Doria 1](images/19590630Abilitazionesalacinema1.jpg)
-![1959-06-30 Abilitazione sala cinema Via Comm Doria 2](images/19590630Abilitazionesalacinema2.jpg)
+Il Prefetto De Lorenzo

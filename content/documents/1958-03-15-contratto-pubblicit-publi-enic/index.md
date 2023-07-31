@@ -11,6 +11,12 @@ tags:
   - PreservazionePatrimonioCulturale
   - Pubblicità
 ---
+
+![1957-03-15 Contratto pubblicità Publi-Enic 1](images/19570315ContrattopubblicitàPubliEnic1.jpg)
+![1957-03-15 Contratto pubblicità Publi-Enic 2](images/19570315ContrattopubblicitàPubliEnic2.jpg)
+![1957-03-15 Contratto pubblicità Publi-Enic 3](images/19570315ContrattopubblicitàPubliEnic3.jpg)
+![1957-03-15 Contratto pubblicità Publi-Enic 4](images/19570315ContrattopubblicitàPubliEnic4.jpg)
+
 Contratto di Locazione
 
 Cinema Sestito S. Vito Jonio (Catanzaro) rappresentata dal Sig. Vito Sestito nella sua qualità dichiarata di gestore del cinema Sestito di S. Vito Jonio ed in conseguenza titolare, in relazione al presente Contratto, dei diritti relativi all’esercizio della pubblicità cinematografica nel cinema stesso da una parte, e la [Publi-Enic s.r.l.](https://it.wikipedia.org/wiki/Ente_nazionale_industrie_cinematografiche) con sede in Roma – Via Savoia N. 37, in persona del suo procuratore dott. Vittorio De Vita dell’altra parte convengono:
@@ -51,7 +57,3 @@ Letto confermato e sottoscritto.
 Roma, li 15 Mar. 1957
 
 Vito Sestito
-![1957-03-15 Contratto pubblicità Publi-Enic 1](images/19570315ContrattopubblicitàPubliEnic1.jpg)
-![1957-03-15 Contratto pubblicità Publi-Enic 2](images/19570315ContrattopubblicitàPubliEnic2.jpg)
-![1957-03-15 Contratto pubblicità Publi-Enic 3](images/19570315ContrattopubblicitàPubliEnic3.jpg)
-![1957-03-15 Contratto pubblicità Publi-Enic 4](images/19570315ContrattopubblicitàPubliEnic4.jpg)

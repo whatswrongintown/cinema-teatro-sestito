@@ -12,6 +12,8 @@ tags:
   - StoriaDelCinema
 ---
 
+![1957-08-10 Lettera del Sacerdote Gerardo Mongiardo](images/19570810letteraSacMongiardo.jpg)
+
 Egregio Sig. Vito Sestito “Cinema Sestito” S. Vito Jonio
 
 e.p.c. Comando Stazione CC S. Vito Jonio
@@ -31,5 +33,3 @@ Nel Signore.
 S. Vito J. 10-08-1957
 
 Sac. Gerardo Mongiardo (Arciprete)
-
-![1957-08-10 Lettera del Sacerdote Gerardo Mongiardo](images/19570810letteraSacMongiardo.jpg)

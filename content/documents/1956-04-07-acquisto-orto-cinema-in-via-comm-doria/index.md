@@ -12,6 +12,9 @@ tags:
   - PreservazionePatrimonioCulturale
 ---
 
+![1956-04-07 Acquisto orto cinema in Via Comm. Doria 1](images/19560407AcquistoOrtoCinema1.jpg)
+![1956-04-07 Acquisto orto cinema in Via Comm. Doria 2](images/19560407AcquistoOrtoCinema2.jpg)
+
 [Acquisto terreno cinema in Via Comm. Doria](/1955/12/26/acquisto-terreno-cinema-in-via-comm-doria/)
 
 2481/2 Conservatoria dei Registri Immobiliari di Catanzaro
@@ -27,6 +30,3 @@ Dell’atto dell’8/3/1956 per Notar Antonio Gualtieri, residente in San Vito s
 Trascritta nella Conservatoria del Registro degli Immobilidi Catanzaro il 7 Aprile 1956 volume 1843 numero 4286 del Registro Generale e volume 4104 numero 4019 del Registro Particolare. Esatte Lire centoquaranta (140).
 
 Il Conservatore (Di Filippo, Dt. Attilio)
-
-![1956-04-07 Acquisto orto cinema in Via Comm. Doria 1](images/19560407AcquistoOrtoCinema1.jpg)
-![1956-04-07 Acquisto orto cinema in Via Comm. Doria 2](images/19560407AcquistoOrtoCinema2.jpg)

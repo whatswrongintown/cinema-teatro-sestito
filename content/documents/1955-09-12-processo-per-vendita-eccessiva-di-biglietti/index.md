@@ -12,6 +12,11 @@ tags:
   - SanVitoSulloIonio
 ---
 
+![1955-09-12 Processo per vendita eccessiva di biglietti 1](images/19550912Processoverbale1.jpg)
+![1955-09-12 Processo per vendita eccessiva di biglietti 2](images/19550912Processoverbale2.jpg)
+![1955-09-12 Processo per vendita eccessiva di biglietti 3](images/19550912Processoverbale3.jpg)
+![1955-09-12 Processo per vendita eccessiva di biglietti 4](images/19550912Processoverbale4.jpg)
+
 Legione Territoriale dei Carabinieri di Catanzaro Stazione di San Vito sullo Ionio.
 
 N.49 del Processo verbale.
@@ -34,8 +39,3 @@ Ieri 9 andante, verso le ore 20,20 circa, mentre ci portavamo a diporto in quest
 Chiaravalle Centrale 12 Settembre 1955.
 
 Il Cancelliere (Guido Francavilla)
-
-![1955-09-12 Processo per vendita eccessiva di biglietti 1](images/19550912Processoverbale1.jpg)
-![1955-09-12 Processo per vendita eccessiva di biglietti 2](images/19550912Processoverbale2.jpg)
-![1955-09-12 Processo per vendita eccessiva di biglietti 3](images/19550912Processoverbale3.jpg)
-![1955-09-12 Processo per vendita eccessiva di biglietti 4](images/19550912Processoverbale4.jpg)

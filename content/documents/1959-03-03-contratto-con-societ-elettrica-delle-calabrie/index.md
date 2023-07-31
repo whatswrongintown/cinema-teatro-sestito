@@ -12,6 +12,14 @@ tags:
   - PreservazionePatrimonioCulturale
   - StoriaDelCinema
 ---
+
+![1959-03-03 Società Elettrica delle Calabrie 11](images/19590303SocietaElettricaDelleCalabrie11.jpg)
+![1959-03-03 Società Elettrica delle Calabrie 12](images/19590303SocietaElettricaDelleCalabrie12.jpg)
+![1959-03-03 Società Elettrica delle Calabrie 13](images/19590303SocietaElettricaDelleCalabrie13.jpg)
+![1959-03-03 Società Elettrica delle Calabrie 21](images/19590303SocietaElettricaDelleCalabrie21.jpg)
+![1959-03-03 Società Elettrica delle Calabrie 22](images/19590303SocietaElettricaDelleCalabrie22.jpg)
+![1959-03-03 Società Elettrica delle Calabrie 23](images/19590303SocietaElettricaDelleCalabrie23.jpg)
+
 Società Elettrica delle Calabrie, Società per Azioni, Sede in Napoli – Direzione: Catanzaro.
 
 Gruppo di Soverato, Comune di S. Vito. Utente: Sestito Vito.
@@ -38,9 +46,3 @@ Per tutti gli effetti da essa conseguiti, si richiama la Legge 8 marzo 1949 n. 1
 Il sottoscritto dichiara di aver preso conoscenza di tutte le condizioni generali di fornitura e di approvare specificamente le condizioni degli articoli 1, 2, 5, 7, 9, 15, 16 (3° comma), 17, 18 (1° comma), 21, e che le tariffe base del contratto s’intendono al netto degli aumenti presenti e futuri legalmente autorizzati. Inoltre il sottoscritto dichiara di impegnarsi, qualora dovesse installare delle lampade fluorescenti in luogo delle normali a filamento metallico consentite dal presente contratto, ad applicare contemporaneamente i relativi rifasatori.
 
 Soverato, 3/3/59.
-![1959-03-03 Società Elettrica delle Calabrie 11](images/19590303SocietaElettricaDelleCalabrie11.jpg)
-![1959-03-03 Società Elettrica delle Calabrie 12](images/19590303SocietaElettricaDelleCalabrie12.jpg)
-![1959-03-03 Società Elettrica delle Calabrie 13](images/19590303SocietaElettricaDelleCalabrie13.jpg)
-![1959-03-03 Società Elettrica delle Calabrie 21](images/19590303SocietaElettricaDelleCalabrie21.jpg)
-![1959-03-03 Società Elettrica delle Calabrie 22](images/19590303SocietaElettricaDelleCalabrie22.jpg)
-![1959-03-03 Società Elettrica delle Calabrie 23](images/19590303SocietaElettricaDelleCalabrie23.jpg)
