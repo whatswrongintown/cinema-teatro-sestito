@@ -13,7 +13,7 @@ tags:
 ![](images/1944-03-02_acquisto_palazzo_in_Piazza_Mario_Polerà_2.jpeg)
 ![](images/1944-03-02_acquisto_palazzo_in_Piazza_Mario_Polerà_3.jpeg)
 
-Con la presente scrittura privata da valere come a pubblico io sottoscritta Signora Maria De Luca fu Carlo prometto di vendere all’altro sottoscritto Signor Vito Sestito fu Vito una parte del mio palazzo in questo abitato di San Vito sullo Ionio in Via Umberto I e precisamente quella parte attualmente adibita ad asilo comunale ed alloggio delle suore con i relativi bassi a piano terreno, ad eccezione della prima stanza dell’alloggio delle suore confinate con il rimanente fabbricato della venditrice e la cucina attualmente in suo possesso e che corrisponde sopra il portone d’accesso alla casa venduta.
+Con la presente scrittura privata da valore come a pubblico io sottoscritta Signora Maria De Luca fu Carlo prometto di vendere all’altro sottoscritto Signor Vito Sestito fu Vito una parte del mio palazzo in questo abitato di San Vito sullo Ionio in Via Umberto I e precisamente quella parte attualmente adibita ad asilo comunale ed alloggio delle suore con i relativi bassi a piano terreno, ad eccezione della prima stanza dell’alloggio delle suore confinate con il rimanente fabbricato della venditrice e la cucina attualmente in suo possesso e che corrisponde sopra il portone d’accesso alla casa venduta.
 
 Si specifica inoltre che nella vendita andrà compreso anche il piccolo orto attaccato alla casa stessa dalla parte di tramontana e recinto di mura.
 
