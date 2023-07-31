@@ -1,5 +1,5 @@
 ---
-title: Acquisto terreno cinema in Via Comm. Doria (Parte 2)
+title: Acquisto terreno cinema in Via Comm. Doria (parte 2)
 author: Vito Sestito
 description: trascrizione dell'acquisto del terreno per il nuovo cinema
 date: '1956-03-01'
