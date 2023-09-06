@@ -30,7 +30,7 @@ Luoghi:
 * Cerrefita (2, 4, 25, 35, 38, 39, 44)
 * Feudo (4, 25, 29, 35, 38, 45, 49)
 * Caminello (4, 25, 29, 35)
-* Aricine (25, 29, 35, 39)
+* Arcine (25, 29, 35, 39)
 
 Nomi:
 * Domenico Sinopoli (1)
