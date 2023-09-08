@@ -1,8 +1,8 @@
 ---
-title: Registro spese dal 1936 al 1949
+title: Diario di Vito Sestito dal 1936 al 1949
 author: Vito Sestito
 date: '1936-02-01'
-slug: registro-spese-dal-1936-al-1949
+slug: diario-vito-sestito-dal-1936-al-1949
 categories:
   - Documenti
 tags:
@@ -37,16 +37,16 @@ Nomi:
 * Rosina Palmieri (1)
 * Francesco Perri (1)
 * “Commara” Teresina (2, 14, 23, 30)
-* Zurzolo Giuseppe (2)
-* Zurzolo Vito (2)
+* Giuseppe Zurzolo (2)
+* Vito Zurzolo (2)
 * “Compare” Vito Petruzzo (3, 5, 6, 7, 10, 16, 21)
 * Cavalieri Vecchi (6)
 * “Peppa” (2, 7)
-* Barbara (cugina?) (2, 27)
+* Barbara [cugina] (2, 27)
 * Antonio Barone (8)
 * Vitina Tavano (8)
 * Bettina Montesano (8)
-* “Colonio” Francesco N. (9)
+* Francesco N. (9)
 * Teresina Barbieri (11)
 * De Luca (11, 18)
 * Vito Pannia (12, 20, 22, 25, 29, 31, 34, 35, 38, 40, 44, 47, 49)
@@ -63,7 +63,7 @@ Nomi:
 * Antonio Perri (20)
 * Bruno Brancatella (26, 49)
 * Rosina Casalinuovo (26)
-* Maria Zurzolo (26)
+* Maria Zurzolo [zia] (26)
 * Paolillo (27)
 * Saverio De Lapa (31, 36)
 * Nicola Campanella (32)
