@@ -41,4 +41,4 @@ Sestito Vito fu Vito
 P.S. Si accettano cancellature ed abrasioni ed al 19° e 20° rigo della prima facciata leggesi rispettivamente £. 40.000 (quarantamila) e £ 95.000 (novantacinquemila).
 
 Foto del palazzo nella sua versione originale
-![foto originale palazzo piazza mario polera san vito sullo ionio](images/IMG_5962.jpg)
+![](images/1940_palazzo_piazza_mario_polera.jpg)
