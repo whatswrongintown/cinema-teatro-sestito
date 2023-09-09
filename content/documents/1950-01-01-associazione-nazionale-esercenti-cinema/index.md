@@ -12,5 +12,7 @@ tags:
   - CinemaTeatroSestito
   - Cinema
 ---
+
+Tessera Nazionale:  
 ![](images/1950_Associazione_Nazionale_Esercenti_Cinema_1.jpg)
 ![](images/1950_Associazione_Nazionale_Esercenti_Cinema_2.jpg)
