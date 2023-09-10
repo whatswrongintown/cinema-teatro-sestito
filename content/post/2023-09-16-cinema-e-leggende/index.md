@@ -22,7 +22,7 @@ La conferenza è iniziata con un viaggio nel passato, esplorando in maniera dett
 
 Ma la serata non si è conclusa nella nostalgia; con grande entusiasmo ho condiviso il nuovo progetto che si sta sviluppando dietro le quinte per il “Nuovo” Cinema Teatro Sestito. Il cinema, con la sua storica tradizione, è ora pronto a diventare molto più che un centro per semplici proiezioni; si sta trasformando in un dinamico polo culturale, uno spazio in cui la magia del racconto, sia sullo schermo che al di fuori, può continuare a prosperare.
 
-Il team di Sonati Vicinu è stato così gentile da documentare l'evento con foto e video e le loro lenti hanno catturato l'essenza della serata: la passione per il cinema, il rispetto per le storie e la comunità che ci unisce.
+Il team di Sonati Vicinu è stato così gentile da documentare l'evento con alcune foto e le loro lenti hanno catturato l'essenza della serata: la passione per il cinema, il rispetto per le storie e la comunità che ci unisce.
 
 Sonati Vicinu 2023 è stata una celebrazione di leggende e la storia del nostro cinema si è rivelata un’aggiunta appropriata a questo intreccio. Mentre avanziamo con il nuovo progetto, siamo entusiasti di invitare la comunità a far parte di questo nuovo capitolo.
 
