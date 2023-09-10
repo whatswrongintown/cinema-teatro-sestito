@@ -14,7 +14,7 @@ tags:
 
 ## Un Racconto da Sonati Vicinu 2023
 
-L'incantevole festival [Sonati Vicinu](https://sites.google.com/view/sonativicinu/edizioni/vii-edizione-2023) del 2023 è stato una celebrazione di racconti e leggende, ed è stato un onore essere invitato a partecipare. La ricca tradizione di San Vito sullo Ionio nel narrare storie ha trovato una piattaforma unica nel nostro amato cinema. Mentre si apriva il primo giorno del festival, si è aperto il sipario su un viaggio che ha unito la magia del cinema con le vicende che hanno intrecciato la nostra comunità.
+L'incantevole festival [Sonati Vicinu](https://sites.google.com/view/sonativicinu/edizioni/vii-edizione-2023) del 2023 è stato una celebrazione di racconti e leggende, ed è stato un onore essere invitato a partecipare. La ricca tradizione di San Vito sullo Ionio nel narrare storie ha trovato una piattaforma unica nel nostro amato cinema. Mentre si apriva il primo giorno del festival, saliva il sipario su un viaggio che ha unito la magia del cinema con le vicende che hanno intrecciato la nostra comunità.
 
 Il cinema a San Vito sullo Ionio è sempre stato più di un luogo per guardare film; è stato il narratore comunitario del paese. Mentre mi immergevo nella sua storia, non potevo fare a meno di riflettere su come questo iconico luogo avesse contribuito a dare forma alle differenti narrazioni che la nostra comunità è accorsa, nel tempo, ad ammirare sul grande schermo.
 
