@@ -13,8 +13,9 @@ tags:
   - Cultura
   - storia
 ---
-## Un sogno diventato realtà'
 ![](images/palazzo_storico_piazza_mario_polera-min.JPG)
+
+## Un sogno diventato realtà'
 
 Il cinema è da sempre stato un'arte che ha catturato l'immaginazione di molte persone, e per Vito Sestito non è stato da meno. Nato e cresciuto a San Vito sullo Ionio, Vito ha sempre avuto una passione per i film e il loro potere di trasportare gli spettatori in mondi fantastici.
 

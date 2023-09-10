@@ -11,8 +11,9 @@ tags:
   - SanVitoSulloIonio
   - AutoricambiSestito
 ---
-## Dalla falegnameria al cinema
 ![foto fatte per la patente](images/vito_sestito_patent_pictures.JPG)
+
+## Dalla falegnameria al cinema
 
 Mio Nonno nasce a San Vito sullo Ionio il 12 novembre del 1902 da Vito Sestito e Teresa Zurzolo. Ultimo di cinque figli, gran parte della sua infanzia rimane un mistero. Dalle poche fonti dell’epoca ho scoperto che ha completato la terza elementare[^1], e che ad un certo punto iniziò a lavorare come falegname.
 
