@@ -1,7 +1,7 @@
 ---
 title: Cinema e Leggende
 author: Vito Sestito
-date: '2023-09-16'
+date: '2023-09-10'
 slug: cinema-e-leggende
 categories:
   - Storia
