@@ -1,493 +1,530 @@
-position,const,created,modified,description,title,url,title_type,imdb_rating,runtime,year,genres,num_votes,release_date,directors
-1,tt0060070,05/04/2023,05/04/2023,,Adulterio all'italiana,https://www.imdb.com/title/tt0060070/,movie,6.4,93,1966,Comedy,204,25/03/1966,Pasquale Festa Campanile
-2,tt0048947,05/04/2023,05/04/2023,,Anastasia,https://www.imdb.com/title/tt0048947/,movie,7,105,1956,"Biography, Drama, History, Romance",8906,13/12/1956,Anatole Litvak
-3,tt0058879,05/04/2023,05/04/2023,,Agente S 03: Operazione Atlantide,https://www.imdb.com/title/tt0058879/,movie,4.7,100,1965,"Adventure, Crime, Sci-Fi",114,22/10/1965,Domenico Paolella
-4,tt0056953,05/04/2023,05/04/2023,,Coplan prend des risques,https://www.imdb.com/title/tt0056953/,movie,5.5,89,1964,"Action, Drama",73,06/05/1964,Maurice Labro
-5,tt0353260,05/04/2023,05/04/2023,,Les bras de la nuit,https://www.imdb.com/title/tt0353260/,movie,6.7,90,1961,,22,29/11/1961,Jacques Guymont
-6,tt0199301,05/04/2023,05/04/2023,,Adolescenti al sole,https://www.imdb.com/title/tt0199301/,movie,,,1964,,,14/04/1964,Giuseppe Aldo Rossi
-7,tt0055759,05/04/2023,05/04/2023,,Arsène Lupin contre Arsène Lupin,https://www.imdb.com/title/tt0055759/,movie,5.9,90,1962,"Comedy, Crime, Mystery",174,29/08/1962,Édouard Molinaro
-8,tt0046731,05/04/2023,05/04/2023,,Attila,https://www.imdb.com/title/tt0046731/,movie,5.5,80,1954,"Biography, Drama, History, War",757,27/12/1954,Pietro Francisci
-9,tt0158462,05/04/2023,05/04/2023,,Amore mio,https://www.imdb.com/title/tt0158462/,movie,6.5,95,1964,"Drama, Romance",29,,Raffaello Matarazzo
-10,tt0039319,05/04/2023,05/04/2023,,Il diavolo bianco,https://www.imdb.com/title/tt0039319/,movie,,100,1947,Drama,,31/12/1947,Nunzio Malasomma
-11,tt0191305,05/04/2023,05/04/2023,,Nadia la femme traquée,https://www.imdb.com/title/tt0191305/,movie,,86,1940,,,20/12/1940,Claude Orval
-12,tt0046735,05/04/2023,05/04/2023,,Avanzi di galera,https://www.imdb.com/title/tt0046735/,movie,5.8,94,1954,"Crime, Drama",64,18/09/1954,Vittorio Cottafavi
-13,tt0054671,05/04/2023,05/04/2023,,Battle at Bloody Beach,https://www.imdb.com/title/tt0054671/,movie,5.4,83,1961,"Drama, War",500,01/06/1961,Herbert Coleman
-14,tt0059638,05/04/2023,05/04/2023,,The Ravagers,https://www.imdb.com/title/tt0059638/,movie,4.9,88,1965,"Action, War, Drama",106,07/02/1965,Eddie Romero
-15,tt0048973,05/04/2023,05/04/2023,,Baby Doll,https://www.imdb.com/title/tt0048973/,movie,7.3,114,1956,"Comedy, Drama",7978,18/12/1956,Elia Kazan
-16,tt0268576,05/04/2023,05/04/2023,,The Right Hand of the Devil,https://www.imdb.com/title/tt0268576/,movie,5.3,75,1963,"Crime, Drama",38,31/07/1963,Aram Katcher
-17,tt0057343,05/04/2023,05/04/2023,,La máscara de Scaramouche,https://www.imdb.com/title/tt0057343/,movie,5.9,98,1963,Adventure,114,23/09/1963,Antonio Isasi-Isasmendi
-18,tt0058883,05/04/2023,05/04/2023,,Der Fluch des schwarzen Rubin,https://www.imdb.com/title/tt0058883/,movie,5,102,1965,"Action, Drama",77,17/04/1965,Manfred R. Köhler
-19,tt0043072,05/04/2023,05/04/2023,,Tripoli,https://www.imdb.com/title/tt0043072/,movie,5.7,95,1950,"Action, Adventure, History, Romance, War",485,09/11/1950,Will Price
-20,tt0056917,05/04/2023,05/04/2023,,Cent mille dollars au soleil,https://www.imdb.com/title/tt0056917/,movie,7,130,1964,"Action, Adventure, Comedy",2552,17/04/1964,Henri Verneuil
-21,tt0045966,05/04/2023,05/04/2023,,Knights of the Round Table,https://www.imdb.com/title/tt0045966/,movie,6.2,115,1953,"Action, Adventure, Drama",3901,22/12/1953,Richard Thorpe
-22,tt0040636,05/04/2023,05/04/2023,,The Naked City,https://www.imdb.com/title/tt0040636/,movie,7.6,96,1948,"Crime, Drama, Film-Noir, Mystery, Thriller",14489,03/03/1948,Jules Dassin
-23,tt0056957,05/04/2023,05/04/2023,,Le couteau dans la plaie,https://www.imdb.com/title/tt0056957/,movie,6.3,112,1962,"Crime, Drama",1148,12/12/1962,Anatole Litvak
-24,tt0056939,05/04/2023,05/04/2023,,Il comandante,https://www.imdb.com/title/tt0056939/,movie,6.7,109,1963,Comedy,133,23/12/1963,Paolo Heusch
-25,tt0058407,05/04/2023,05/04/2023,,Nihiki no mesu inu,https://www.imdb.com/title/tt0058407/,movie,,91,1964,Crime,,12/03/1964,Yûsuke Watanabe
-26,tt0055865,05/04/2023,05/04/2023,,La congiura dei dieci,https://www.imdb.com/title/tt0055865/,movie,5.8,97,1962,"Adventure, Romance",337,19/10/1962,"Etienne Périer, Baccio Bandini"
-27,tt0055484,05/04/2023,05/04/2023,,Strongroom,https://www.imdb.com/title/tt0055484/,movie,7.2,80,1962,"Crime, Drama, Thriller",564,03/06/1962,Vernon Sewell
-28,tt0060049,05/04/2023,05/04/2023,,5 tombe per un medium,https://www.imdb.com/title/tt0060049/,movie,5.5,87,1965,Horror,1117,23/06/1965,Massimo Pupillo
-29,tt0256102,05/04/2023,05/04/2023,,Istanbul macerasi,https://www.imdb.com/title/tt0256102/,movie,5.9,86,1958,"Adventure, Crime",24,24/08/1962,Carl Möhner
-30,tt0058534,05/04/2023,05/04/2023,,Roustabout,https://www.imdb.com/title/tt0058534/,movie,6,101,1964,"Drama, Music, Musical, Romance",3128,11/11/1964,John Rich
-31,tt0058706,05/04/2023,05/04/2023,,Das Ungeheuer von London-City,https://www.imdb.com/title/tt0058706/,movie,5.8,90,1964,"Crime, Horror",224,02/07/1964,Edwin Zbonek
-32,tt0050772,05/04/2023,05/04/2023,,No Road Back,https://www.imdb.com/title/tt0050772/,movie,5.7,83,1957,"Action, Crime, Drama",132,04/02/1957,Montgomery Tully
-33,tt0056937,05/04/2023,05/04/2023,,Cleopatra,https://www.imdb.com/title/tt0056937/,movie,7,192,1963,"Biography, Drama, History, Romance",35404,12/06/1963,Joseph L. Mankiewicz
-34,tt0051482,05/04/2023,05/04/2023,,"Cole Younger, Gunfighter",https://www.imdb.com/title/tt0051482/,movie,5.9,78,1958,Western,266,30/03/1958,R.G. Springsteen
-35,tt0058166,05/04/2023,05/04/2023,,Guns at Batasi,https://www.imdb.com/title/tt0058166/,movie,7.1,103,1964,"Drama, History, War",1811,24/09/1964,John Guillermin
-36,tt0052749,05/04/2023,05/04/2023,,Don't Give Up the Ship,https://www.imdb.com/title/tt0052749/,movie,6.4,89,1959,Comedy,833,03/07/1959,Norman Taurog
-37,tt0166150,05/04/2023,05/04/2023,,Con rispetto parlando,https://www.imdb.com/title/tt0166150/,movie,,98,1965,Comedy,,14/08/1965,Marcello Ciorciolini
-38,tt0031642,05/04/2023,05/04/2023,,La mia canzone al vento,https://www.imdb.com/title/tt0031642/,movie,,82,1939,"Musical, Comedy",,31/10/1939,Guido Brignone
-39,tt0031856,05/04/2023,05/04/2023,,Ricchezza senza domani,https://www.imdb.com/title/tt0031856/,movie,,82,1940,,,25/01/1940,Ferdinando Maria Poggioli
-40,tt0037793,05/04/2023,05/04/2023,,House of Dracula,https://www.imdb.com/title/tt0037793/,movie,5.7,67,1945,"Fantasy, Horror, Sci-Fi",5810,07/12/1945,Erle C. Kenton
-41,tt0040362,05/04/2023,05/04/2023,,Follie per l'opera,https://www.imdb.com/title/tt0040362/,movie,6.1,94,1948,"Comedy, Musical",74,10/08/1948,Mario Costa
-42,tt0037008,05/04/2023,05/04/2023,,Laura,https://www.imdb.com/title/tt0037008/,movie,7.9,88,1944,"Drama, Film-Noir, Mystery",49050,11/10/1944,Otto Preminger
-43,tt0026032,05/04/2023,05/04/2023,,Abdul the Damned,https://www.imdb.com/title/tt0026032/,movie,5.7,111,1935,"Drama, History",95,05/08/1935,Karl Grune
-44,tt0038183,05/04/2023,05/04/2023,,Torna... a Sorrento,https://www.imdb.com/title/tt0038183/,movie,5.7,95,1945,"Comedy, Musical",23,07/11/1945,Carlo Ludovico Bragaglia
-45,tt0025493,05/04/2023,05/04/2023,,The Merry Widow,https://www.imdb.com/title/tt0025493/,movie,7.2,99,1934,"Comedy, Musical, Romance",3084,11/10/1934,Ernst Lubitsch
-46,tt0039015,05/04/2023,05/04/2023,,Temptation,https://www.imdb.com/title/tt0039015/,movie,6.5,98,1946,"Drama, Film-Noir, Thriller",288,02/12/1946,Irving Pichel
-47,tt0028683,05/04/2023,05/04/2023,,Camille,https://www.imdb.com/title/tt0028683/,movie,7.3,109,1936,"Drama, Romance",8368,12/12/1936,George Cukor
-48,tt0023826,05/04/2023,05/04/2023,,Bondage,https://www.imdb.com/title/tt0023826/,movie,,67,1933,Drama,,22/04/1933,Alfred Santell
-49,tt0035446,05/04/2023,05/04/2023,,To Be or Not to Be,https://www.imdb.com/title/tt0035446/,movie,8.2,99,1942,"Comedy, Romance, War",39548,19/02/1942,Ernst Lubitsch
-50,tt0036983,05/04/2023,05/04/2023,,The Keys of the Kingdom,https://www.imdb.com/title/tt0036983/,movie,7.2,137,1944,"Drama, War",2900,15/12/1944,John M. Stahl
-51,tt0039682,05/04/2023,05/04/2023,,L'onorevole Angelina,https://www.imdb.com/title/tt0039682/,movie,7.1,90,1947,"Comedy, Drama",513,12/09/1947,Luigi Zampa
-52,tt0038408,05/04/2023,05/04/2023,,Le chanteur inconnu,https://www.imdb.com/title/tt0038408/,movie,6,90,1947,Drama,32,25/04/1947,André Cayatte
-53,tt0033431,05/04/2023,05/04/2023,,Il bravo di Venezia,https://www.imdb.com/title/tt0033431/,movie,5.1,85,1941,,14,17/09/1941,Carlo Campogalliani
-54,tt0032871,05/04/2023,05/04/2023,,One Million B.C.,https://www.imdb.com/title/tt0032871/,movie,5.7,80,1940,"Adventure, Fantasy, Romance, Sci-Fi",1605,05/04/1940,"Hal Roach, Hal Roach Jr."
-55,tt0034331,05/04/2023,05/04/2023,,Gli ultimi filibustieri,https://www.imdb.com/title/tt0034331/,movie,3.9,82,1943,Adventure,12,28/02/1943,Marco Elter
-56,tt0039854,05/04/2023,05/04/2023,,Sono io l'assassino,https://www.imdb.com/title/tt0039854/,movie,,92,1948,,,17/02/1948,Roberto Bianchi Montero
-57,tt0039381,05/04/2023,05/04/2023,,La figlia del capitano,https://www.imdb.com/title/tt0039381/,movie,6.6,102,1947,Adventure,46,08/10/1947,Mario Camerini
-58,tt0035740,05/04/2023,05/04/2023,,City Without Men,https://www.imdb.com/title/tt0035740/,movie,5.2,75,1943,"Crime, Drama, Film-Noir",153,14/01/1943,Sidney Salkow
-59,tt0039256,05/04/2023,05/04/2023,,I cavalieri dalle maschere nere (I beati paoli),https://www.imdb.com/title/tt0039256/,movie,5.7,,1948,"Action, Adventure, Mystery",15,02/11/1948,Pino Mercanti
-60,tt0039004,05/04/2023,05/04/2023,,La symphonie pastorale,https://www.imdb.com/title/tt0039004/,movie,6.9,110,1946,Drama,573,26/09/1946,Jean Delannoy
-61,tt0039696,05/04/2023,05/04/2023,,Il passatore,https://www.imdb.com/title/tt0039696/,movie,6.1,95,1947,"Drama, Adventure",59,22/10/1947,Duilio Coletti
-62,tt0034023,05/04/2023,05/04/2023,,Piccolo mondo antico,https://www.imdb.com/title/tt0034023/,movie,6.5,106,1941,Drama,187,10/04/1941,Mario Soldati
-63,tt0031075,05/04/2023,05/04/2023,,Ballo al castello,https://www.imdb.com/title/tt0031075/,movie,4.7,95,1939,"Drama, Romance",10,01/10/1939,Max Neufeld
-64,tt0034803,05/04/2023,05/04/2023,,La Gorgona,https://www.imdb.com/title/tt0034803/,movie,,85,1942,"Drama, History",,12/10/1942,Guido Brignone
-65,tt0034993,05/04/2023,05/04/2023,,Texas Justice,https://www.imdb.com/title/tt0034993/,movie,7.2,58,1942,"Drama, Western",29,05/06/1942,Sam Newfield
-66,tt0038570,05/04/2023,05/04/2023,,La gondola del diavolo,https://www.imdb.com/title/tt0038570/,movie,5.1,125,1946,Adventure,24,21/11/1946,Carlo Campogalliani
-67,tt0036826,05/04/2023,05/04/2023,,Fiori d'arancio,https://www.imdb.com/title/tt0036826/,movie,5.6,,1944,,8,,Dino Hobbes Cecchini
-68,tt0035260,05/04/2023,05/04/2023,,Rita da Cascia,https://www.imdb.com/title/tt0035260/,movie,,83,1943,Biography,,31/05/1943,Antonio Leonviola
-69,tt0033390,05/04/2023,05/04/2023,,Billy the Kid Trapped,https://www.imdb.com/title/tt0033390/,movie,5.1,59,1942,"Drama, Western",207,27/02/1942,Sam Newfield
-70,tt0034429,05/04/2023,05/04/2023,,Addio Kira!,https://www.imdb.com/title/tt0034429/,movie,7.4,96,1942,"Drama, Romance",113,15/09/1942,Goffredo Alessandrini
-71,tt0026348,05/04/2023,05/04/2023,,Fiat voluntas dei,https://www.imdb.com/title/tt0026348/,movie,6.3,80,1936,"Comedy, Drama",16,05/07/1936,Amleto Palermi
-72,tt0038506,05/04/2023,05/04/2023,,Les beaux jours du roi Murat,https://www.imdb.com/title/tt0038506/,movie,4.6,85,1947,"Drama, History, Musical",14,13/05/1947,Théophile Pathé
-73,tt0038493,05/04/2023,05/04/2023,,Un drama nuevo,https://www.imdb.com/title/tt0038493/,movie,6.8,92,1946,Drama,21,25/11/1946,Juan de Orduña
-74,tt0038942,05/04/2023,05/04/2023,,Sinfonia fatale,https://www.imdb.com/title/tt0038942/,movie,,91,1947,"Drama, Romance, War",,31/05/1947,Victor Stoloff
-75,tt0034777,05/04/2023,05/04/2023,,A Gentleman After Dark,https://www.imdb.com/title/tt0034777/,movie,6.6,74,1942,"Adventure, Crime, Drama",121,16/04/1942,Edwin L. Marin
-76,tt0034242,05/04/2023,05/04/2023,,Sundown,https://www.imdb.com/title/tt0034242/,movie,5.6,90,1941,"Drama, War",995,16/10/1941,Henry Hathaway
-77,tt0039781,05/04/2023,05/04/2023,,Rocambole,https://www.imdb.com/title/tt0039781/,movie,6.1,105,1947,Drama,25,31/12/1947,Jacques de Baroncelli
-78,tt0039774,05/04/2023,05/04/2023,,La revanche de Baccarat,https://www.imdb.com/title/tt0039774/,movie,5.8,95,1947,,11,06/12/1947,Jacques de Baroncelli
-79,tt0036413,05/04/2023,05/04/2023,,T'amerò sempre,https://www.imdb.com/title/tt0036413/,movie,6.5,78,1943,"Drama, Romance",41,05/11/1943,Mario Camerini
-80,tt0162234,05/04/2023,05/04/2023,,Che distinta famiglia!,https://www.imdb.com/title/tt0162234/,movie,6,78,1945,Comedy,14,03/10/1945,Mario Bonnard
-81,tt0034894,05/04/2023,05/04/2023,,Incontri di notte,https://www.imdb.com/title/tt0034894/,movie,,92,1943,,,17/03/1943,Nunzio Malasomma
-82,tt0040223,05/04/2023,05/04/2023,,La chartreuse de Parme,https://www.imdb.com/title/tt0040223/,movie,7.2,170,1948,"Drama, Romance",506,21/02/1948,Christian-Jaque
-83,tt0039059,05/04/2023,05/04/2023,,Ultimo amore,https://www.imdb.com/title/tt0039059/,movie,,106,1947,Drama,,05/04/1947,Luigi Chiarini
-84,tt0031146,05/04/2023,05/04/2023,,Centomila dollari,https://www.imdb.com/title/tt0031146/,movie,5.7,83,1940,Comedy,25,23/03/1940,Mario Camerini
-85,tt0032865,05/04/2023,05/04/2023,,Oltre l'amore,https://www.imdb.com/title/tt0032865/,movie,4.2,96,1940,Drama,7,02/09/1940,Carmine Gallone
-86,tt0038719,05/04/2023,05/04/2023,,Malacarne,https://www.imdb.com/title/tt0038719/,movie,6.2,105,1946,Drama,13,12/12/1946,Pino Mercanti
-87,tt0033588,05/04/2023,05/04/2023,,Fari nella nebbia,https://www.imdb.com/title/tt0033588/,movie,7,95,1942,Drama,77,15/02/1942,Gianni Franciolini
-88,tt0034893,05/04/2023,05/04/2023,,Les Inconnus dans la Maison,https://www.imdb.com/title/tt0034893/,movie,7,95,1942,"Crime, Drama",404,16/05/1942,Henri Decoin
-89,tt0034936,05/04/2023,05/04/2023,,Keeper of the Flame,https://www.imdb.com/title/tt0034936/,movie,6.7,100,1942,"Drama, Mystery",2973,31/12/1942,George Cukor
-90,tt0033127,05/04/2023,05/04/2023,,Sérénade,https://www.imdb.com/title/tt0033127/,movie,6,90,1940,Drama,15,28/02/1940,Jean Boyer
-91,tt0039039,05/04/2023,05/04/2023,,Il tiranno di Padova,https://www.imdb.com/title/tt0039039/,movie,5.6,,1946,,12,28/12/1946,Max Neufeld
-92,tt0039198,05/04/2023,05/04/2023,,Blonde Savage,https://www.imdb.com/title/tt0039198/,movie,4.9,62,1947,"Action, Adventure, Fantasy",195,03/10/1947,Steve Sekely
-93,tt0039342,05/04/2023,05/04/2023,,I due orfanelli,https://www.imdb.com/title/tt0039342/,movie,6.1,90,1947,Comedy,157,27/11/1947,Mario Mattoli
-94,tt0027887,05/04/2023,05/04/2023,,The Lilac Domino,https://www.imdb.com/title/tt0027887/,movie,6.4,79,1937,"Musical, Romance",15,30/04/1937,Frederic Zelnik
-95,tt0215327,05/04/2023,05/04/2023,,Il ventesimo duca,https://www.imdb.com/title/tt0215327/,movie,,78,1945,,,15/07/1945,Lucio De Caro
-96,tt0041609,05/04/2023,05/04/2023,,Il lupo della Sila,https://www.imdb.com/title/tt0041609/,movie,7.1,95,1949,Drama,117,27/12/1949,Duilio Coletti
-97,tt0038220,05/04/2023,05/04/2023,,Le vie del peccato,https://www.imdb.com/title/tt0038220/,movie,,90,1946,,,19/10/1946,Giorgio Pastina
-98,tt0202713,05/04/2023,05/04/2023,,Éternel conflit,https://www.imdb.com/title/tt0202713/,movie,5.7,95,1948,Drama,40,26/05/1948,Georges Lampin
-99,tt0026188,05/04/2023,05/04/2023,,Casta diva,https://www.imdb.com/title/tt0026188/,movie,6.1,87,1935,"Biography, Drama, Music",32,14/06/1935,Carmine Gallone
-100,tt0036214,05/04/2023,05/04/2023,,Non canto più,https://www.imdb.com/title/tt0036214/,movie,,76,1945,Comedy,,30/09/1945,Riccardo Freda
-101,tt0041119,05/04/2023,05/04/2023,,Amori e veleni,https://www.imdb.com/title/tt0041119/,movie,4.8,80,1950,"Adventure, Drama",12,21/02/1950,Giorgio Simonelli
-102,tt0037925,05/04/2023,05/04/2023,,Monaca santa,https://www.imdb.com/title/tt0037925/,movie,,85,1949,Drama,,31/07/1949,Guido Brignone
-103,tt0041320,05/04/2023,05/04/2023,,Duello senza onore,https://www.imdb.com/title/tt0041320/,movie,,105,1950,Drama,,05/01/1950,Camillo Mastrocinque
-104,tt0040244,05/04/2023,05/04/2023,,I contrabbandieri del mare,https://www.imdb.com/title/tt0040244/,movie,,86,1948,,,23/10/1948,Roberto Bianchi Montero
-105,tt0042303,05/04/2023,05/04/2023,,Campane a martello,https://www.imdb.com/title/tt0042303/,movie,6.5,109,1949,Drama,128,16/09/1949,Luigi Zampa
-106,tt0034882,05/04/2023,05/04/2023,,I Married an Angel,https://www.imdb.com/title/tt0034882/,movie,5.7,84,1942,"Comedy, Fantasy, Music, Musical, Romance",529,09/07/1942,"W.S. Van Dyke, Roy Del Ruth"
-107,tt0033017,05/04/2023,05/04/2023,,San Giovanni decollato,https://www.imdb.com/title/tt0033017/,movie,6.5,89,1940,Comedy,207,12/12/1940,"Amleto Palermi, Giorgio Bianchi"
-108,tt0039949,05/04/2023,05/04/2023,,Valahol Európában,https://www.imdb.com/title/tt0039949/,movie,7.6,100,1947,Drama,1030,23/12/1947,Géza von Radványi
-109,tt0032728,05/04/2023,05/04/2023,,The Long Voyage Home,https://www.imdb.com/title/tt0032728/,movie,6.9,105,1940,"Drama, War",4658,08/10/1940,John Ford
-110,tt0041684,05/04/2023,05/04/2023,,Napoli eterna canzone,https://www.imdb.com/title/tt0041684/,movie,,90,1949,Drama,,,Salvatore Siano
-111,tt0041739,05/04/2023,05/04/2023,,Patto col diavolo,https://www.imdb.com/title/tt0041739/,movie,,84,1950,Drama,,30/06/1950,Luigi Chiarini
-112,tt0033807,05/04/2023,05/04/2023,,The Lady from Cheyenne,https://www.imdb.com/title/tt0033807/,movie,6.1,88,1941,"Comedy, Drama, Western",157,11/04/1941,Frank Lloyd
-113,tt0040568,05/04/2023,05/04/2023,,Mare nostrum,https://www.imdb.com/title/tt0040568/,movie,6.3,90,1948,Drama,53,21/12/1948,Rafael Gil
-114,tt0041843,05/04/2023,05/04/2023,,Santo disonore,https://www.imdb.com/title/tt0041843/,movie,,90,1950,Drama,,24/03/1950,Guido Brignone
-115,tt0041974,05/04/2023,05/04/2023,,Totò cerca casa,https://www.imdb.com/title/tt0041974/,movie,6.5,79,1949,Comedy,503,09/12/1949,"Mario Monicelli, Steno"
-116,tt0024216,06/04/2023,06/04/2023,,King Kong,https://www.imdb.com/title/tt0024216/,movie,7.9,100,1933,"Adventure, Horror, Sci-Fi",87794,02/03/1933,"Ernest B. Schoedsack, Merian C. Cooper"
-117,tt0041126,06/04/2023,06/04/2023,,Antonio di Padova,https://www.imdb.com/title/tt0041126/,movie,5.5,81,1949,Drama,18,20/03/1949,Pietro Francisci
-118,tt0031876,06/04/2023,06/04/2023,,Angélica,https://www.imdb.com/title/tt0031876/,movie,5.7,95,1939,"Action, Adventure, Western",27,17/02/1939,Jean Choux
-119,tt0040640,06/04/2023,06/04/2023,,Nennella,https://www.imdb.com/title/tt0040640/,movie,,,1948,,,,Renato May
-120,tt0038492,06/04/2023,06/04/2023,,Dragonwyck,https://www.imdb.com/title/tt0038492/,movie,6.9,103,1946,"Drama, Mystery, Romance, Thriller",4937,10/04/1946,Joseph L. Mankiewicz
-121,tt0030725,06/04/2023,06/04/2023,,The Secret of Treasure Island,https://www.imdb.com/title/tt0030725/,movie,4.8,300,1938,"Action, Adventure, Crime, Romance, Sci-Fi, Thriller",220,17/03/1938,Elmer Clifton
-122,tt0165938,06/04/2023,06/04/2023,,Secrets of a Co-Ed,https://www.imdb.com/title/tt0165938/,movie,5.3,67,1942,"Crime, Drama, Music",51,26/10/1942,Joseph H. Lewis
-123,tt0041991,06/04/2023,06/04/2023,,Il trovatore,https://www.imdb.com/title/tt0041991/,movie,6.5,111,1949,Musical,40,16/04/1949,Carmine Gallone
-124,tt0035360,06/04/2023,06/04/2023,,Son of Fury: The Story of Benjamin Blake,https://www.imdb.com/title/tt0035360/,movie,7.1,98,1942,"Drama, Romance",1754,29/01/1942,John Cromwell
-125,tt0038279,06/04/2023,06/04/2023,,13 Rue Madeleine,https://www.imdb.com/title/tt0038279/,movie,6.9,95,1947,"Action, Adventure, Drama, Thriller, War",2930,15/01/1947,Henry Hathaway
-126,tt0038813,06/04/2023,06/04/2023,,La otra,https://www.imdb.com/title/tt0038813/,movie,7.5,98,1946,"Crime, Drama, Mystery, Thriller",469,20/11/1946,Roberto Gavaldón
-127,tt0200523,06/04/2023,06/04/2023,,Celos,https://www.imdb.com/title/tt0200523/,movie,7.1,95,1947,Drama,13,23/04/1947,Mario Soffici
-128,tt0022641,06/04/2023,06/04/2023,,As You Desire Me,https://www.imdb.com/title/tt0022641/,movie,6.3,70,1932,"Drama, Romance",737,28/05/1932,George Fitzmaurice
-129,tt0037672,06/04/2023,06/04/2023,,The Enchanted Forest,https://www.imdb.com/title/tt0037672/,movie,6,78,1945,"Drama, Family",193,08/12/1945,Lew Landers
-130,tt0039809,06/04/2023,06/04/2023,,Il segreto di Don Giovanni,https://www.imdb.com/title/tt0039809/,movie,,106,1947,Drama,,28/11/1947,Camillo Mastrocinque
-131,tt0043731,06/04/2023,06/04/2023,,La leggenda di Genoveffa,https://www.imdb.com/title/tt0043731/,movie,4.7,95,1952,Drama,10,06/02/1952,Arthur Maria Rabenalt
-132,tt0040774,06/04/2023,06/04/2023,,La sepolta viva,https://www.imdb.com/title/tt0040774/,movie,6,83,1949,"Drama, History",9,23/02/1949,Guido Brignone
-133,tt0038232,06/04/2023,06/04/2023,,Vértigo,https://www.imdb.com/title/tt0038232/,movie,7.7,82,1946,Drama,73,14/02/1946,Antonio Momplet
-134,tt0039536,06/04/2023,06/04/2023,,Kiss of Death,https://www.imdb.com/title/tt0039536/,movie,7.4,99,1947,"Crime, Drama, Film-Noir, Thriller",9010,13/08/1947,Henry Hathaway
-135,tt0032758,06/04/2023,06/04/2023,,Marco Visconti,https://www.imdb.com/title/tt0032758/,movie,,108,1941,Drama,,19/03/1941,Mario Bonnard
-136,tt0038046,06/04/2023,06/04/2023,,"Salome, Where She Danced",https://www.imdb.com/title/tt0038046/,movie,5.4,90,1945,"Adventure, Drama, Music, Romance, War, Western",345,17/04/1945,Charles Lamont
-137,tt0207295,06/04/2023,06/04/2023,,L'affaire du collier de la reine,https://www.imdb.com/title/tt0207295/,movie,7.1,118,1946,"Drama, History",83,11/09/1946,Marcel L'Herbier
-138,tt0035719,06/04/2023,06/04/2023,,La casa senza tempo,https://www.imdb.com/title/tt0035719/,movie,5.4,85,1945,Mystery,8,25/10/1945,Andrea Forzano
-139,tt0041365,06/04/2023,06/04/2023,,La figlia del peccato,https://www.imdb.com/title/tt0041365/,movie,,86,1949,Drama,,,Armando Ingegnero
-140,tt0041633,06/04/2023,06/04/2023,,La mano della morta,https://www.imdb.com/title/tt0041633/,movie,5.2,90,1949,Drama,13,,Carlo Campogalliani
-141,tt0039615,06/04/2023,06/04/2023,,Les maudits,https://www.imdb.com/title/tt0039615/,movie,7.1,105,1947,"Adventure, Drama, Thriller, War",974,19/09/1947,René Clément
-142,tt0178337,06/04/2023,06/04/2023,,Citizen Saint,https://www.imdb.com/title/tt0178337/,movie,,65,1947,Drama,,15/05/1947,Harold Young
-143,tt0041366,06/04/2023,06/04/2023,,La figlia della Madonna,https://www.imdb.com/title/tt0041366/,movie,,,1949,,,07/09/1949,Roberto Bianchi Montero
-144,tt0041261,06/04/2023,06/04/2023,,Il conte Ugolino,https://www.imdb.com/title/tt0041261/,movie,6.9,86,1949,Drama,36,01/11/1949,Riccardo Freda
-145,tt0024852,06/04/2023,06/04/2023,,Babes in Toyland,https://www.imdb.com/title/tt0024852/,movie,7.1,77,1934,"Comedy, Family, Fantasy, Musical",7200,09/11/1934,"Charley Rogers, Gus Meins"
-146,tt0130261,06/04/2023,06/04/2023,,Siréna,https://www.imdb.com/title/tt0130261/,movie,5.9,77,1947,Drama,87,11/04/1947,Karel Steklý
-147,tt0043075,06/04/2023,06/04/2023,,The Sound of Fury,https://www.imdb.com/title/tt0043075/,movie,7.2,91,1950,"Crime, Drama, Film-Noir, Thriller",1764,15/11/1950,Cy Endfield
-148,tt0162292,06/04/2023,06/04/2023,,Don Ricardo Returns,https://www.imdb.com/title/tt0162292/,movie,4.2,63,1946,"Drama, Music, Western",61,05/11/1946,Terry O. Morse
-149,tt0134056,06/04/2023,06/04/2023,,Ridin' the Trail,https://www.imdb.com/title/tt0134056/,movie,,57,1940,Western,,27/07/1940,Raymond K. Johnson
-150,tt0034431,06/04/2023,06/04/2023,,The Adventures of Martin Eden,https://www.imdb.com/title/tt0034431/,movie,5.9,87,1942,"Action, Adventure, Crime, Drama, Romance",152,26/02/1942,Sidney Salkow
-151,tt0038068,06/04/2023,06/04/2023,,La selva de fuego,https://www.imdb.com/title/tt0038068/,movie,6.7,76,1945,"Adventure, Drama",34,27/12/1945,Fernando de Fuentes
-152,tt0041344,06/04/2023,06/04/2023,,Il falco rosso,https://www.imdb.com/title/tt0041344/,movie,,87,1949,Drama,,05/12/1949,Carlo Ludovico Bragaglia
-153,tt0030107,06/04/2023,06/04/2023,,Ettore Fieramosca,https://www.imdb.com/title/tt0030107/,movie,6,93,1938,"Adventure, History, Romance, War",72,29/12/1938,Alessandro Blasetti
-154,tt0034672,06/04/2023,06/04/2023,,La donna è mobile,https://www.imdb.com/title/tt0034672/,movie,,76,1942,Comedy,,09/10/1942,Mario Mattoli
-155,tt0032811,06/04/2023,06/04/2023,,The Mortal Storm,https://www.imdb.com/title/tt0032811/,movie,7.7,100,1940,Drama,5700,13/06/1940,Frank Borzage
-156,tt0039241,06/04/2023,06/04/2023,,Capitan Demonio,https://www.imdb.com/title/tt0039241/,movie,3.8,90,1950,"Adventure, History",9,11/02/1950,Carlo Borghesio
-157,tt0041200,06/04/2023,06/04/2023,,Botta e risposta,https://www.imdb.com/title/tt0041200/,movie,5.1,80,1950,Comedy,55,18/02/1950,Mario Soldati
-158,tt0038016,06/04/2023,06/04/2023,,Il ratto delle sabine,https://www.imdb.com/title/tt0038016/,movie,6.1,90,1945,Comedy,111,04/12/1945,Mario Bonnard
-159,tt0046160,06/04/2023,06/04/2023,,Paolo e Francesca,https://www.imdb.com/title/tt0046160/,movie,5.8,92,1950,"Drama, History",25,28/02/1950,Raffaello Matarazzo
-160,tt0038882,06/04/2023,06/04/2023,,Rigoletto,https://www.imdb.com/title/tt0038882/,movie,7.3,105,1946,"Drama, Music, Romance",46,31/12/1946,Carmine Gallone
-161,tt0038002,06/04/2023,06/04/2023,,Pronto chi parla?,https://www.imdb.com/title/tt0038002/,movie,,80,1946,"Comedy, Romance",,22/05/1946,Carlo Ludovico Bragaglia
-162,tt0039135,06/04/2023,06/04/2023,,L'aigle à deux têtes,https://www.imdb.com/title/tt0039135/,movie,6.6,93,1948,Drama,658,22/09/1948,Jean Cocteau
-163,tt0040605,06/04/2023,06/04/2023,,The Glass Mountain,https://www.imdb.com/title/tt0040605/,movie,6.6,99,1949,Drama,293,09/03/1949,Henry Cass
-164,tt0026286,06/04/2023,06/04/2023,,Don Bosco,https://www.imdb.com/title/tt0026286/,movie,5.4,90,1936,Biography,23,17/04/1936,Goffredo Alessandrini
-165,tt0032935,06/04/2023,06/04/2023,,Der Postmeister,https://www.imdb.com/title/tt0032935/,movie,6.8,92,1940,Drama,201,24/04/1940,Gustav Ucicky
-166,tt0032307,06/04/2023,06/04/2023,,"Caravaggio, il pittore maledetto",https://www.imdb.com/title/tt0032307/,movie,,105,1941,Drama,,06/02/1941,Goffredo Alessandrini
-167,tt0039086,06/04/2023,06/04/2023,,Voglio bene soltanto a te!,https://www.imdb.com/title/tt0039086/,movie,4.5,,1946,,7,12/11/1946,Giuseppe Fatigati
-168,tt0041102,06/04/2023,06/04/2023,,Al diavolo la celebrità,https://www.imdb.com/title/tt0041102/,movie,5.8,90,1949,"Comedy, Fantasy",104,18/11/1949,"Mario Monicelli, Steno"
-169,tt0041226,06/04/2023,06/04/2023,,Canzoni per le strade,https://www.imdb.com/title/tt0041226/,movie,5.4,88,1950,,16,09/10/1950,Mario Landi
-170,tt0032200,06/04/2023,06/04/2023,,"Amami, Alfredo!",https://www.imdb.com/title/tt0032200/,movie,,92,1940,"Drama, Romance",,29/09/1940,Carmine Gallone
-171,tt0041925,06/04/2023,06/04/2023,,La strada buia,https://www.imdb.com/title/tt0041925/,movie,5.6,78,1950,"Crime, Drama",42,08/05/1950,"Sidney Salkow, Marino Girolami"
-172,tt0028221,06/04/2023,06/04/2023,,Le scarpe al sole,https://www.imdb.com/title/tt0028221/,movie,6.1,,1935,"Drama, War",19,31/08/1935,Marco Elter
-173,tt0042427,06/04/2023,06/04/2023,,L'edera,https://www.imdb.com/title/tt0042427/,movie,6.9,95,1950,Drama,24,29/11/1950,Augusto Genina
-174,tt0032302,06/04/2023,06/04/2023,,Capitan Fracassa,https://www.imdb.com/title/tt0032302/,movie,4.9,90,1940,Adventure,15,15/11/1940,Duilio Coletti
-175,tt0033489,06/04/2023,06/04/2023,,La corona di ferro,https://www.imdb.com/title/tt0033489/,movie,6.5,83,1941,"Adventure, Fantasy",407,07/09/1941,Alessandro Blasetti
-176,tt0053780,06/04/2023,06/04/2023,,Dolci inganni,https://www.imdb.com/title/tt0053780/,movie,6.8,91,1960,"Drama, Romance",390,15/10/1960,Alberto Lattuada
-177,tt0058859,06/04/2023,06/04/2023,,2+5: Missione Hydra,https://www.imdb.com/title/tt0058859/,movie,4.3,89,1966,"Adventure, Sci-Fi",516,02/10/1966,Pietro Francisci
-178,tt0060353,06/04/2023,06/04/2023,,I due sanculotti,https://www.imdb.com/title/tt0060353/,movie,6,90,1966,,61,31/12/1966,Giorgio Simonelli
-179,tt0059121,06/04/2023,06/04/2023,,I due toreri,https://www.imdb.com/title/tt0059121/,movie,5.7,110,1964,Comedy,41,31/12/1964,Giorgio Simonelli
-180,tt0057683,06/04/2023,06/04/2023,,Who's Minding the Store?,https://www.imdb.com/title/tt0057683/,movie,6.7,90,1963,Comedy,2649,27/11/1963,Frank Tashlin
-181,tt0058452,06/04/2023,06/04/2023,,Parias de la gloire,https://www.imdb.com/title/tt0058452/,movie,5.7,100,1964,"Drama, War",44,05/04/1964,Henri Decoin
-182,tt0056048,06/04/2023,06/04/2023,,Gypsy,https://www.imdb.com/title/tt0056048/,movie,7.1,143,1962,"Biography, Comedy, Drama, Musical",6681,01/11/1962,Mervyn LeRoy
-183,tt0055906,06/04/2023,06/04/2023,,Diciottenni al sole,https://www.imdb.com/title/tt0055906/,movie,5.4,100,1962,Comedy,121,18/08/1962,Camillo Mastrocinque
-184,tt0122597,06/04/2023,06/04/2023,,Maciste contro Ercole nella valle dei guai,https://www.imdb.com/title/tt0122597/,movie,5.2,90,1961,"Comedy, Fantasy, Sci-Fi",92,19/10/1961,Mario Mattoli
-185,tt0055214,06/04/2023,06/04/2023,,The Naked Edge,https://www.imdb.com/title/tt0055214/,movie,6.6,97,1961,"Crime, Mystery, Thriller",1363,28/06/1961,Michael Anderson
-186,tt0061599,06/04/2023,06/04/2023,,Due marines e un generale,https://www.imdb.com/title/tt0061599/,movie,5,96,1965,Comedy,220,02/12/1965,Luigi Scattini
-187,tt0059773,06/04/2023,06/04/2023,,Sylvia,https://www.imdb.com/title/tt0059773/,movie,6.7,115,1965,Drama,404,10/02/1965,Gordon Douglas
-188,tt0059065,06/04/2023,06/04/2023,,Crack in the World,https://www.imdb.com/title/tt0059065/,movie,5.9,96,1965,"Action, Drama, Sci-Fi, Thriller",2690,17/02/1965,Andrew Marton
-189,tt0054847,06/04/2023,06/04/2023,,El Cid,https://www.imdb.com/title/tt0054847/,movie,7.2,182,1961,"Biography, Drama, History, Romance, War",14997,24/10/1961,Anthony Mann
-190,tt0154461,06/04/2023,06/04/2023,,Et la femme créa l'amour,https://www.imdb.com/title/tt0154461/,movie,4.4,88,1966,Drama,8,25/05/1966,Fabien Collin
-191,tt0054969,06/04/2023,06/04/2023,,Los hermanos Del Hierro,https://www.imdb.com/title/tt0054969/,movie,8,95,1961,"Adventure, Drama, Western",304,05/10/1961,Ismael Rodríguez
-192,tt0044790,06/04/2023,06/04/2023,,Kansas Territory,https://www.imdb.com/title/tt0044790/,movie,6.6,65,1952,"Drama, Western",45,04/05/1952,Lewis D. Collins
-193,tt0056057,06/04/2023,06/04/2023,,The Happy Thieves,https://www.imdb.com/title/tt0056057/,movie,5.2,88,1961,"Comedy, Crime, Drama",594,20/12/1961,George Marshall
-194,tt0056448,06/04/2023,06/04/2023,,Tierra brutal,https://www.imdb.com/title/tt0056448/,movie,4.9,83,1961,"Drama, Romance, Western",225,30/11/1961,Michael Carreras
-195,tt0150548,06/04/2023,06/04/2023,,I figli del leopardo,https://www.imdb.com/title/tt0150548/,movie,5,95,1965,Comedy,64,21/04/1965,Sergio Corbucci
-196,tt0172416,06/04/2023,06/04/2023,,F.B.I. operazione Baalbeck,https://www.imdb.com/title/tt0172416/,movie,5.1,95,1964,"Action, Crime",35,30/06/1964,Marcello Giannini
-197,tt0040342,06/04/2023,06/04/2023,,Family Honeymoon,https://www.imdb.com/title/tt0040342/,movie,6.3,90,1948,"Comedy, Music, Romance",261,06/12/1948,Claude Binyon
-198,tt0050497,06/04/2023,06/04/2023,,Hell Ship Mutiny,https://www.imdb.com/title/tt0050497/,movie,4.9,66,1957,"Action, Adventure, Crime, Romance",121,06/12/1957,"Elmo Williams, Lee Sholem"
-199,tt0057078,06/04/2023,06/04/2023,,La frusta e il corpo,https://www.imdb.com/title/tt0057078/,movie,6.7,92,1963,"Horror, Romance",4331,29/08/1963,Mario Bava
-200,tt0173831,06/04/2023,06/04/2023,,Un figlio d'oggi,https://www.imdb.com/title/tt0173831/,movie,5.8,94,1961,,11,31/12/1961,"Domenico Graziano, Marino Girolami"
-201,tt0051420,06/04/2023,06/04/2023,,Blood Arrow,https://www.imdb.com/title/tt0051420/,movie,6.6,76,1958,Western,54,01/04/1958,Charles Marquis Warren
-202,tt0054870,06/04/2023,06/04/2023,,Il federale,https://www.imdb.com/title/tt0054870/,movie,7.4,102,1961,Comedy,772,23/08/1961,Luciano Salce
-203,tt0056951,06/04/2023,06/04/2023,,Constance aux enfers,https://www.imdb.com/title/tt0056951/,movie,6.1,88,1964,"Crime, Mystery",62,05/02/1964,François Villiers
-204,tt0058089,06/04/2023,06/04/2023,,Fantômas,https://www.imdb.com/title/tt0058089/,movie,6.9,104,1964,"Adventure, Comedy, Crime, Fantasy",11310,04/11/1964,André Hunebelle
-205,tt0042531,06/04/2023,06/04/2023,,The Gunfighter,https://www.imdb.com/title/tt0042531/,movie,7.7,85,1950,Western,11850,26/05/1950,Henry King
-206,tt0053752,06/04/2023,06/04/2023,,The Day They Robbed the Bank of England,https://www.imdb.com/title/tt0053752/,movie,6.6,85,1960,"Crime, Drama, Thriller",846,17/05/1960,John Guillermin
-207,tt0058140,06/04/2023,06/04/2023,,I giganti di Roma,https://www.imdb.com/title/tt0058140/,movie,5,95,1964,"Adventure, War",271,10/09/1964,Antonio Margheriti
-208,tt0178516,06/04/2023,06/04/2023,,Goliath e la schiava ribelle,https://www.imdb.com/title/tt0178516/,movie,5.4,105,1963,"Adventure, Drama, Fantasy, History",133,05/09/1963,Mario Caiano
-209,tt0032178,06/04/2023,06/04/2023,,20 Mule Team,https://www.imdb.com/title/tt0032178/,movie,6.4,84,1940,Western,266,03/05/1940,Richard Thorpe
-210,tt0134668,06/04/2023,06/04/2023,,Il gaucho,https://www.imdb.com/title/tt0134668/,movie,6.8,111,1964,Comedy,357,18/09/1964,Dino Risi
-211,tt0056975,06/04/2023,06/04/2023,,Dai tozoku,https://www.imdb.com/title/tt0056975/,movie,6.2,96,1963,"Fantasy, Action, Adventure",289,26/10/1963,Senkichi Taniguchi
-212,tt0296839,06/04/2023,06/04/2023,,Le Sahara brûle,https://www.imdb.com/title/tt0296839/,movie,,103,1961,Adventure,,18/01/1961,Michel Gast
-213,tt0059107,06/04/2023,06/04/2023,,Dingaka,https://www.imdb.com/title/tt0059107/,movie,6.7,98,1964,"Drama, Action",96,03/07/1964,Jamie Uys
-214,tt0058283,06/04/2023,06/04/2023,,Lady in a Cage,https://www.imdb.com/title/tt0058283/,movie,6.7,94,1964,"Drama, Horror, Thriller",3646,10/06/1964,Walter Grauman
-215,tt0052415,06/04/2023,06/04/2023,,The Young Lions,https://www.imdb.com/title/tt0052415/,movie,7.1,167,1958,"Action, Drama, War",8429,02/04/1958,Edward Dmytryk
-216,tt0137795,06/04/2023,06/04/2023,,Le grand bluff,https://www.imdb.com/title/tt0137795/,movie,5.2,94,1957,"Comedy, Drama",42,15/05/1957,Patrice Dally
-217,tt0052865,06/04/2023,06/04/2023,,Guardatele ma non toccatele,https://www.imdb.com/title/tt0052865/,movie,4.9,90,1959,Comedy,23,31/12/1959,Mario Mattoli
-218,tt0056710,06/04/2023,06/04/2023,,Young Guns of Texas,https://www.imdb.com/title/tt0056710/,movie,4.9,78,1962,"Drama, Western",263,30/11/1962,Maury Dexter
-219,tt0057396,06/04/2023,06/04/2023,,Palm Springs Weekend,https://www.imdb.com/title/tt0057396/,movie,5.9,100,1963,"Comedy, Drama",1079,05/11/1963,Norman Taurog
-220,tt0044419,06/04/2023,06/04/2023,,The Big Sky,https://www.imdb.com/title/tt0044419/,movie,6.9,140,1952,"Adventure, Drama, Western",4566,29/07/1952,Howard Hawks
-221,tt0057155,06/04/2023,06/04/2023,,Horror,https://www.imdb.com/title/tt0057155/,movie,5.2,88,1963,Horror,732,06/06/1963,Alberto De Martino
-222,tt0207596,07/04/2023,07/04/2023,,Mandrin,https://www.imdb.com/title/tt0207596/,movie,5.4,126,1962,Adventure,56,19/12/1962,Jean-Paul Le Chanois
-223,tt0055756,07/04/2023,07/04/2023,,Aprendiendo a morir,https://www.imdb.com/title/tt0055756/,movie,5.9,96,1962,Drama,33,04/06/1962,Pedro Lazaga
-224,tt0058229,07/04/2023,07/04/2023,,In ginocchio da te,https://www.imdb.com/title/tt0058229/,movie,6.6,110,1964,"Comedy, Musical",183,21/12/1964,Ettore Maria Fizzarotti
-225,tt0058368,07/04/2023,07/04/2023,,Le monocle rit jaune,https://www.imdb.com/title/tt0058368/,movie,6.1,100,1964,"Comedy, Thriller",262,16/09/1964,Georges Lautner
-226,tt0059323,07/04/2023,07/04/2023,,Italiani brava gente,https://www.imdb.com/title/tt0059323/,movie,7.1,137,1964,"Drama, History, War",377,16/09/1964,Giuseppe De Santis
-227,tt0179881,07/04/2023,07/04/2023,,Intrigo a Los Angeles,https://www.imdb.com/title/tt0179881/,movie,4.4,85,1964,Drama,15,22/09/1964,Romano Ferrara
-228,tt0056871,07/04/2023,07/04/2023,,Black Gold,https://www.imdb.com/title/tt0056871/,movie,5.4,98,1962,"Action, Adventure, Romance",83,21/07/1962,Leslie H. Martinson
-229,tt0057179,07/04/2023,07/04/2023,,L'incendio di Roma,https://www.imdb.com/title/tt0057179/,movie,4.8,80,1965,Drama,60,20/03/1965,Guido Malatesta
-230,tt0056107,07/04/2023,07/04/2023,,L'isola di Arturo,https://www.imdb.com/title/tt0056107/,movie,6.4,93,1962,"Drama, Romance",273,13/06/1962,Damiano Damiani
-231,tt0059317,07/04/2023,07/04/2023,,"Io uccido, tu uccidi",https://www.imdb.com/title/tt0059317/,movie,5.8,110,1965,"Comedy, Thriller",79,25/03/1965,Gianni Puccini
-232,tt0047163,07/04/2023,07/04/2023,,The Law vs. Billy the Kid,https://www.imdb.com/title/tt0047163/,movie,5,72,1954,"Drama, Western",188,01/08/1954,William Castle
-233,tt0059384,07/04/2023,07/04/2023,,Letti sbagliati,https://www.imdb.com/title/tt0059384/,movie,5.2,98,1965,Comedy,68,08/04/1965,Steno
-234,tt0053365,07/04/2023,07/04/2023,,Too Hot to Handle,https://www.imdb.com/title/tt0053365/,movie,5.9,90,1960,"Crime, Drama, Romance, Thriller",414,16/04/1960,Terence Young
-235,tt0058282,07/04/2023,07/04/2023,,Una lacrima sul viso,https://www.imdb.com/title/tt0058282/,movie,6.4,90,1967,"Comedy, Musical",46,09/07/1967,Ettore Maria Fizzarotti
-236,tt0057667,07/04/2023,07/04/2023,,Wall of Noise,https://www.imdb.com/title/tt0057667/,movie,6.1,112,1963,"Drama, Romance",280,04/09/1963,Richard Wilson
-237,tt0239594,07/04/2023,07/04/2023,,Toraoji annun haebyong,https://www.imdb.com/title/tt0239594/,movie,6.4,110,1963,"Drama, War",127,11/04/1963,Lee Man-hee
-238,tt0058202,07/04/2023,07/04/2023,,Minnesota Clay,https://www.imdb.com/title/tt0058202/,movie,6,90,1964,"Action, Drama, War, Western",839,12/11/1964,Sergio Corbucci
-239,tt0056632,07/04/2023,07/04/2023,,The Ugly American,https://www.imdb.com/title/tt0056632/,movie,6.6,120,1963,"Adventure, Drama, Thriller",2238,02/04/1963,George Englund
-240,tt0057278,07/04/2023,07/04/2023,,Maigret voit rouge,https://www.imdb.com/title/tt0057278/,movie,6.2,87,1963,"Crime, Drama",643,18/09/1963,Gilles Grangier
-241,tt0055141,07/04/2023,07/04/2023,,Marco Polo,https://www.imdb.com/title/tt0055141/,movie,5.1,103,1962,Adventure,140,13/04/1962,"Richard McNamara, Piero Pierotti, Hugo Fregonese"
-242,tt0057890,07/04/2023,07/04/2023,,The Black Torment,https://www.imdb.com/title/tt0057890/,movie,5.9,90,1964,"Horror, Mystery",741,15/10/1964,Robert Hartford-Davis
-243,tt0414992,07/04/2023,07/04/2023,,Les fortiches,https://www.imdb.com/title/tt0414992/,movie,4,90,1961,Comedy,10,04/01/1961,Georges Combret
-244,tt0058312,07/04/2023,07/04/2023,,"Maciste, gladiatore di Sparta",https://www.imdb.com/title/tt0058312/,movie,4.7,103,1964,"Adventure, Drama",218,26/03/1964,Mario Caiano
-245,tt0055252,07/04/2023,07/04/2023,,An einem Freitag um halb zwölf,https://www.imdb.com/title/tt0055252/,movie,6.2,93,1961,"Crime, Thriller, Drama",101,16/02/1961,Alvin Rakoff
-246,tt0055464,07/04/2023,07/04/2023,,Something Wild,https://www.imdb.com/title/tt0055464/,movie,6.7,113,1961,Drama,1639,20/12/1961,Jack Garfein
-247,tt0057891,07/04/2023,07/04/2023,,Blood on the Arrow,https://www.imdb.com/title/tt0057891/,movie,5,91,1964,Western,230,11/10/1964,Sidney Salkow
-248,tt0056268,07/04/2023,07/04/2023,,Les mystères de Paris,https://www.imdb.com/title/tt0056268/,movie,6.5,110,1962,"Action, Adventure",417,04/10/1962,André Hunebelle
-249,tt0057294,07/04/2023,07/04/2023,,Le massaggiatrici,https://www.imdb.com/title/tt0057294/,movie,6.1,95,1962,Comedy,109,20/09/1962,Lucio Fulci
-250,tt0290240,07/04/2023,07/04/2023,,Il magnifico gladiatore,https://www.imdb.com/title/tt0290240/,movie,5.3,95,1964,"Action, Adventure, Drama, Romance",100,31/12/1964,Alfonso Brescia
-251,tt0058885,07/04/2023,07/04/2023,,002 agenti segretissimi,https://www.imdb.com/title/tt0058885/,movie,5.6,83,1964,"Action, Comedy",175,09/10/1964,Lucio Fulci
-252,tt0059517,07/04/2023,07/04/2023,,Non son degno di te,https://www.imdb.com/title/tt0059517/,movie,5.5,116,1965,"Comedy, Musical, Romance",93,31/12/1965,Ettore Maria Fizzarotti
-253,tt0054837,07/04/2023,07/04/2023,,Les démons de minuit,https://www.imdb.com/title/tt0054837/,movie,7.6,84,1961,Drama,11,05/12/1961,"Marc Allégret, Charles Gérard"
-254,tt0039737,07/04/2023,07/04/2023,,Pursued,https://www.imdb.com/title/tt0039737/,movie,7.2,101,1947,"Drama, Western",3554,05/03/1947,Raoul Walsh
-255,tt0056375,07/04/2023,07/04/2023,,Der Schwur des Soldaten Pooley,https://www.imdb.com/title/tt0056375/,tvMovie,7.9,70,1961,"Drama, War",13,17/12/1961,Kurt Jung-Alsen
-256,tt0051984,07/04/2023,07/04/2023,,Nel blu dipinto di blu,https://www.imdb.com/title/tt0051984/,movie,7.1,103,1959,Comedy,57,13/04/1961,Piero Tellini
-257,tt0180026,09/04/2023,09/04/2023,,Operacija Ticijan,https://www.imdb.com/title/tt0180026/,movie,5.6,95,1963,"Action, Thriller",122,13/07/1963,Rados Novakovic
-258,tt0061344,09/04/2023,09/04/2023,,Oltraggio al pudore,https://www.imdb.com/title/tt0061344/,movie,7.3,90,1964,Comedy,13,09/10/1964,Silvio Amadio
-259,tt0138782,09/04/2023,09/04/2023,,Schüsse im 3/4 Takt,https://www.imdb.com/title/tt0138782/,movie,5.6,92,1965,"Action, Crime, Drama",114,09/04/1965,Alfred Weidenmann
-260,tt0054770,09/04/2023,09/04/2023,,The Crimebusters,https://www.imdb.com/title/tt0054770/,movie,6.7,88,1962,"Crime, Drama",29,19/05/1962,Boris Sagal
-261,tt0057303,09/04/2023,09/04/2023,,Le meurtrier,https://www.imdb.com/title/tt0057303/,movie,6.2,104,1963,"Crime, Drama, Thriller",166,11/01/1963,Claude Autant-Lara
-262,tt0051364,09/04/2023,09/04/2023,,"Another Time, Another Place",https://www.imdb.com/title/tt0051364/,movie,5.8,91,1958,"Drama, Romance, War",831,02/05/1958,Lewis Allen
-263,tt0048090,09/04/2023,09/04/2023,,Fort Yuma,https://www.imdb.com/title/tt0048090/,movie,5.2,78,1955,Western,439,04/10/1955,Lesley Selander
-264,tt0059248,09/04/2023,09/04/2023,,"Faites vos jeux, mesdames",https://www.imdb.com/title/tt0059248/,movie,5.4,86,1965,Thriller,55,05/04/1965,Marcel Ophüls
-265,tt0043711,09/04/2023,09/04/2023,,King of the Bullwhip,https://www.imdb.com/title/tt0043711/,movie,7.1,58,1950,"Drama, Western",93,20/12/1950,Ron Ormond
-266,tt0060483,09/04/2023,09/04/2023,,Gunpoint,https://www.imdb.com/title/tt0060483/,movie,6.1,86,1966,"Drama, Western",786,01/04/1966,Earl Bellamy
-267,tt0195173,09/04/2023,09/04/2023,,I predoni del Sahara,https://www.imdb.com/title/tt0195173/,movie,,92,1965,Adventure,,31/12/1965,Guido Malatesta
-268,tt0060790,09/04/2023,09/04/2023,,Password: Uccidete agente Gordon,https://www.imdb.com/title/tt0060790/,movie,5,95,1966,"Adventure, Action",81,30/03/1966,Sergio Grieco
-269,tt0058480,09/04/2023,09/04/2023,,Les plus belles escroqueries du monde,https://www.imdb.com/title/tt0058480/,movie,5.6,108,1964,"Comedy, Crime",487,14/08/1964,"Roman Polanski, Claude Chabrol, Jean-Luc Godard, Ugo Gregoretti, Hiromichi Horikawa"
-270,tt0058461,09/04/2023,09/04/2023,,Per un pugno di dollari,https://www.imdb.com/title/tt0058461/,movie,7.9,99,1964,"Action, Drama, Western",223098,12/09/1964,Sergio Leone
-271,tt0037522,09/04/2023,09/04/2023,,Back to Bataan,https://www.imdb.com/title/tt0037522/,movie,6.6,95,1945,"Drama, War",4179,31/05/1945,Edward Dmytryk
-272,tt0059627,09/04/2023,09/04/2023,,Questa volta parliamo di uomini,https://www.imdb.com/title/tt0059627/,movie,6,91,1965,"Comedy, Drama",152,17/03/1965,Lina Wertmüller
-273,tt0055047,09/04/2023,09/04/2023,,King of Kings,https://www.imdb.com/title/tt0055047/,movie,7,168,1961,"Biography, Drama",8539,11/10/1961,Nicholas Ray
-274,tt0046231,09/04/2023,09/04/2023,,Recoil,https://www.imdb.com/title/tt0046231/,movie,6.1,79,1953,"Crime, Drama",191,31/08/1953,John Gilling
-275,tt0060916,09/04/2023,09/04/2023,,Rose rosse per Angelica,https://www.imdb.com/title/tt0060916/,movie,5.3,110,1966,Adventure,66,09/02/1966,Steno
-276,tt0058073,09/04/2023,09/04/2023,,The Evil of Frankenstein,https://www.imdb.com/title/tt0058073/,movie,6,84,1964,Horror,4263,08/05/1964,Freddie Francis
-277,tt0055377,09/04/2023,09/04/2023,,La rivolta degli schiavi,https://www.imdb.com/title/tt0055377/,movie,5.5,100,1960,Adventure,250,30/12/1960,Nunzio Malasomma
-278,tt0056894,09/04/2023,09/04/2023,,Cairo,https://www.imdb.com/title/tt0056894/,movie,5.4,91,1963,"Crime, Drama",314,31/01/1963,Wolf Rilla
-279,tt0057443,09/04/2023,09/04/2023,,La ragazza che sapeva troppo,https://www.imdb.com/title/tt0057443/,movie,7,86,1963,"Comedy, Horror, Mystery, Romance, Thriller",4944,14/02/1963,Mario Bava
-280,tt0055935,09/04/2023,09/04/2023,,Rififi à Tokyo,https://www.imdb.com/title/tt0055935/,movie,5.8,98,1963,"Adventure, Crime, Drama, Romance",155,29/03/1963,Jacques Deray
-281,tt0041361,09/04/2023,09/04/2023,,The Fighting Kentuckian,https://www.imdb.com/title/tt0041361/,movie,6.4,100,1949,"Adventure, Romance, War, Western",3442,15/09/1949,George Waggner
-282,tt0058121,09/04/2023,09/04/2023,,Fuerte perdido,https://www.imdb.com/title/tt0058121/,movie,4.4,87,1964,Western,29,04/12/1964,José María Elorrieta
-283,tt0056377,09/04/2023,09/04/2023,,A Prize of Arms,https://www.imdb.com/title/tt0056377/,movie,6.7,105,1962,"Crime, Drama",379,12/10/1962,Cliff Owen
-284,tt0059681,09/04/2023,09/04/2023,,Saul e David,https://www.imdb.com/title/tt0059681/,movie,5.8,119,1964,"Adventure, Drama",106,31/12/1964,Marcello Baldi
-285,tt0047501,09/04/2023,09/04/2023,,Sitting Bull,https://www.imdb.com/title/tt0047501/,movie,5.7,105,1954,"Drama, Western",822,06/10/1954,Sidney Salkow
-286,tt0056395,09/04/2023,09/04/2023,,Le rat d'Amérique,https://www.imdb.com/title/tt0056395/,movie,5.5,94,1963,"Adventure, Drama",54,22/05/1963,Jean-Gabriel Albicocco
-287,tt0186544,09/04/2023,09/04/2023,,Siamo tutti pomicioni,https://www.imdb.com/title/tt0186544/,movie,5.1,100,1963,Comedy,19,,Marino Girolami
-288,tt0055488,09/04/2023,09/04/2023,,Sua Eccellenza si fermò a mangiare,https://www.imdb.com/title/tt0055488/,movie,6.7,101,1961,Comedy,293,01/04/1961,Mario Mattoli
-289,tt0056100,09/04/2023,09/04/2023,,Los inocentes,https://www.imdb.com/title/tt0056100/,movie,6.7,105,1963,Drama,93,30/06/1963,Juan Antonio Bardem
-290,tt0168201,09/04/2023,09/04/2023,,Super rapina a Milano,https://www.imdb.com/title/tt0168201/,movie,6,108,1964,"Crime, Drama",169,17/12/1964,"Adriano Celentano, Piero Vivarelli"
-291,tt0057540,09/04/2023,09/04/2023,,Il successo,https://www.imdb.com/title/tt0057540/,movie,7,104,1963,Comedy,268,24/09/1963,"Mauro Morassi, Dino Risi"
-292,tt0059098,09/04/2023,09/04/2023,,Desafío en Río Bravo,https://www.imdb.com/title/tt0059098/,movie,5.4,85,1964,"Drama, Western",98,19/11/1964,Tulio Demicheli
-293,tt0056485,09/04/2023,09/04/2023,,Shéhérazade,https://www.imdb.com/title/tt0056485/,movie,5.5,124,1963,"Adventure, Drama",178,10/05/1963,Pierre Gaspard-Huit
-294,tt0057357,09/04/2023,09/04/2023,,El Naser Salah el Dine,https://www.imdb.com/title/tt0057357/,movie,7.6,194,1963,"Action, Adventure, Drama, History, Romance, War",2711,25/02/1963,Youssef Chahine
-295,tt0055260,09/04/2023,09/04/2023,,Operation Bottleneck,https://www.imdb.com/title/tt0055260/,movie,4.7,77,1961,"Drama, War",92,08/04/1961,Edward L. Cahn
-296,tt0051179,09/04/2023,09/04/2023,,War Drums,https://www.imdb.com/title/tt0051179/,movie,5.6,75,1957,"Action, Drama, Romance, Western",367,21/03/1957,Reginald Le Borg
-297,tt0054236,09/04/2023,09/04/2023,,Recours en grâce,https://www.imdb.com/title/tt0054236/,movie,6.1,97,1960,Drama,73,20/05/1960,Laslo Benedek
-298,tt0041947,09/04/2023,09/04/2023,,Tarzan's Magic Fountain,https://www.imdb.com/title/tt0041947/,movie,5.9,73,1949,"Action, Adventure, Fantasy, Romance",628,05/02/1949,Lee Sholem
-299,tt0056556,09/04/2023,09/04/2023,,Taras Bulba,https://www.imdb.com/title/tt0056556/,movie,6.3,122,1962,"Adventure, Drama, History, Romance, War",4271,21/11/1962,J. Lee Thompson
-300,tt0057840,09/04/2023,09/04/2023,,The Americanization of Emily,https://www.imdb.com/title/tt0057840/,movie,7.3,115,1964,"Comedy, Drama, Romance, War",5415,27/10/1964,Arthur Hiller
-301,tt0210354,09/04/2023,09/04/2023,,I terribili 7,https://www.imdb.com/title/tt0210354/,movie,5.8,,1963,"Action, Crime",22,,Raffaello Matarazzo
-302,tt0279860,09/04/2023,09/04/2023,,Aventuras de las hermanas X,https://www.imdb.com/title/tt0279860/,movie,6.9,87,1963,"Action, Adventure, Drama, Western",18,26/04/1963,Federico Curiel
-303,tt0059760,09/04/2023,09/04/2023,,Uno straniero a Sacramento,https://www.imdb.com/title/tt0059760/,movie,5,95,1965,Western,35,15/06/1965,Sergio Bergonzelli
-304,tt0057570,09/04/2023,09/04/2023,,Il terrore dei mantelli rossi,https://www.imdb.com/title/tt0057570/,movie,4.1,86,1963,"Adventure, History",23,12/08/1963,Mario Costa
-305,tt0380028,09/04/2023,09/04/2023,,Tôkyô antatchaburu,https://www.imdb.com/title/tt0380028/,movie,,93,1962,"Action, Crime",,21/10/1962,Shinji Murayama
-306,tt0056470,09/04/2023,09/04/2023,,Sergeants 3,https://www.imdb.com/title/tt0056470/,movie,5.9,112,1962,"Comedy, Western",1277,10/02/1962,John Sturges
-307,tt0051201,09/04/2023,09/04/2023,,Witness for the Prosecution,https://www.imdb.com/title/tt0051201/,movie,8.4,116,1957,"Crime, Drama, Mystery, Thriller",129274,17/12/1957,Billy Wilder
-308,tt0059784,09/04/2023,09/04/2023,,Te lo leggo negli occhi,https://www.imdb.com/title/tt0059784/,movie,,103,1965,,,,Camillo Mastrocinque
-309,tt0057688,09/04/2023,09/04/2023,,Wives and Lovers,https://www.imdb.com/title/tt0057688/,movie,5.8,103,1963,"Comedy, Romance",286,28/08/1963,John Rich
-310,tt0062409,09/04/2023,09/04/2023,,Tecnica di una spia,https://www.imdb.com/title/tt0062409/,movie,4.2,82,1966,Crime,28,03/11/1966,Alberto Leonardi
-311,tt0059828,09/04/2023,09/04/2023,,I tre sergenti del Bengala,https://www.imdb.com/title/tt0059828/,movie,5.8,97,1964,"Action, Drama, War",72,29/12/1964,Umberto Lenzi
-312,tt0058158,09/04/2023,09/04/2023,,Le grain de sable,https://www.imdb.com/title/tt0058158/,movie,6,105,1964,Drama,69,27/11/1964,Pierre Kast
-313,tt0059690,09/04/2023,09/04/2023,,Se non avessi più te,https://www.imdb.com/title/tt0059690/,movie,5.8,95,1965,Musical,71,31/12/1965,Ettore Maria Fizzarotti
-314,tt0251420,09/04/2023,09/04/2023,,Sursis pour un espion,https://www.imdb.com/title/tt0251420/,movie,5.8,79,1965,Drama,34,31/03/1965,Jean Maley
-315,tt0057087,09/04/2023,09/04/2023,,Gyangu domei,https://www.imdb.com/title/tt0057087/,movie,6.7,80,1963,Action,17,31/07/1963,Kinji Fukasaku
-316,tt0057676,09/04/2023,09/04/2023,,Die weiße Spinne,https://www.imdb.com/title/tt0057676/,movie,6.1,103,1963,"Comedy, Crime, Drama",307,05/04/1963,Harald Reinl
-317,tt0136975,09/04/2023,09/04/2023,,Une grosse tête,https://www.imdb.com/title/tt0136975/,movie,5.7,90,1962,Comedy,31,09/02/1962,Claude de Givray
-318,tt0057151,09/04/2023,09/04/2023,,"L'honorable Stanislas, agent secret",https://www.imdb.com/title/tt0057151/,movie,5.5,91,1963,Comedy,70,04/09/1963,Jean-Charles Dudrumet
-319,tt0056220,09/04/2023,09/04/2023,,La mano de un hombre muerto,https://www.imdb.com/title/tt0056220/,movie,5.9,95,1962,Horror,643,31/12/1962,Jesús Franco
-320,tt0057979,09/04/2023,09/04/2023,,Los cuatreros,https://www.imdb.com/title/tt0057979/,movie,4.5,82,1965,Western,12,24/05/1965,Ramón Torrado
-321,tt0058525,09/04/2023,09/04/2023,,Rio Conchos,https://www.imdb.com/title/tt0058525/,movie,6.5,107,1964,"Action, Drama, War, Western",2142,28/10/1964,Gordon Douglas
-322,tt0051581,09/04/2023,09/04/2023,,Enchanted Island,https://www.imdb.com/title/tt0051581/,movie,4.8,93,1958,"Action, Adventure, Drama, Romance",340,08/11/1958,Allan Dwan
-323,tt0059868,09/04/2023,09/04/2023,,A Very Special Favor,https://www.imdb.com/title/tt0059868/,movie,6.2,105,1965,"Comedy, Romance",532,02/08/1965,Michael Gordon
-324,tt0032300,11/04/2023,11/04/2023,,Cantate con me,https://www.imdb.com/title/tt0032300/,movie,,83,1940,Comedy,,09/10/1940,Guido Brignone
-325,tt0043157,11/04/2023,11/04/2023,,Lo zappatore,https://www.imdb.com/title/tt0043157/,movie,6.6,80,1950,Drama,7,,Rate Furlan
-326,tt0036389,11/04/2023,11/04/2023,,La storia di una capinera,https://www.imdb.com/title/tt0036389/,movie,,,1943,Drama,,,Gennaro Righelli
-327,tt0038255,11/04/2023,11/04/2023,,Within These Walls,https://www.imdb.com/title/tt0038255/,movie,5.9,71,1945,"Action, Crime, Drama, Romance",42,13/07/1945,H. Bruce Humberstone
-328,tt0183476,11/04/2023,11/04/2023,,Malavita,https://www.imdb.com/title/tt0183476/,movie,6.4,95,1951,"Crime, Drama",85,,Rate Furlan
-329,tt0041767,11/04/2023,11/04/2023,,Prince of Foxes,https://www.imdb.com/title/tt0041767/,movie,6.9,107,1949,"Adventure, Drama, Romance",1872,08/11/1949,Henry King
-330,tt0035168,11/04/2023,11/04/2023,,I pagliacci,https://www.imdb.com/title/tt0035168/,movie,5.2,90,1943,Drama,28,23/01/1943,Giuseppe Fatigati
-331,tt0038473,11/04/2023,11/04/2023,,La devoradora,https://www.imdb.com/title/tt0038473/,movie,6.7,117,1946,Drama,50,18/04/1946,Fernando de Fuentes
-332,tt0042597,11/04/2023,11/04/2023,,Gli inesorabili,https://www.imdb.com/title/tt0042597/,movie,4.7,97,1950,Drama,34,01/11/1950,"Roberto Savarese, Camillo Mastrocinque"
-333,tt0032905,11/04/2023,11/04/2023,,Piccolo alpino,https://www.imdb.com/title/tt0032905/,movie,6.6,96,1940,"Drama, War",8,20/10/1940,Oreste Biancoli
-334,tt0034090,11/04/2023,11/04/2023,,Regina di Navarra,https://www.imdb.com/title/tt0034090/,movie,,86,1942,Drama,,30/03/1942,Carmine Gallone
-335,tt0041232,11/04/2023,11/04/2023,,Catene,https://www.imdb.com/title/tt0041232/,movie,6.7,86,1949,"Crime, Drama",431,29/10/1949,Raffaello Matarazzo
-336,tt0040198,11/04/2023,11/04/2023,,Calamità d'oro,https://www.imdb.com/title/tt0040198/,movie,,,1948,,,,Armando Fizzarotti
-337,tt0033405,11/04/2023,11/04/2023,,Blood and Sand,https://www.imdb.com/title/tt0033405/,movie,6.8,125,1941,"Drama, Romance, Sport",2979,22/05/1941,Rouben Mamoulian
-338,tt0041248,11/04/2023,11/04/2023,,Cielo sulla palude,https://www.imdb.com/title/tt0041248/,movie,6.9,111,1949,"Biography, Drama",138,01/09/1949,Augusto Genina
-339,tt0032532,11/04/2023,11/04/2023,,Giuliano de' Medici,https://www.imdb.com/title/tt0032532/,movie,,84,1941,Drama,,27/02/1941,Ladislao Vajda
-340,tt0031466,11/04/2023,11/04/2023,,I Take This Woman,https://www.imdb.com/title/tt0031466/,movie,6.4,98,1940,"Drama, Music, Mystery, Romance",683,02/02/1940,"W.S. Van Dyke, Frank Borzage, Josef von Sternberg"
-341,tt0160794,11/04/2023,11/04/2023,,La route impériale,https://www.imdb.com/title/tt0160794/,movie,5.6,98,1935,Drama,26,15/02/1935,Marcel L'Herbier
-342,tt0040389,11/04/2023,11/04/2023,,Giudicatemi!,https://www.imdb.com/title/tt0040389/,movie,,,1948,,,,"Rate Furlan, Guido Brignone, Giorgio Cristallini"
-343,tt0033964,11/04/2023,11/04/2023,,Nozze di sangue,https://www.imdb.com/title/tt0033964/,movie,6.6,85,1941,"Drama, Romance",7,17/09/1941,Goffredo Alessandrini
-344,tt0042904,11/04/2023,11/04/2023,,Romanticismo,https://www.imdb.com/title/tt0042904/,movie,,73,1949,"Drama, History, Romance",,14/12/1949,Clemente Fracassi
-345,tt0042297,11/04/2023,11/04/2023,,Il caimano del Piave,https://www.imdb.com/title/tt0042297/,movie,4.3,100,1951,"Drama, War",12,07/03/1951,Giorgio Bianchi
-346,tt0043382,11/04/2023,11/04/2023,,Carcerato,https://www.imdb.com/title/tt0043382/,movie,,94,1951,,,24/03/1951,Armando Zorri
-347,tt0032365,11/04/2023,11/04/2023,,Creo en Dios,https://www.imdb.com/title/tt0032365/,movie,3.6,105,1941,"Crime, Drama",8,09/04/1941,Fernando de Fuentes
-348,tt0039616,11/04/2023,11/04/2023,,Meet Me at Dawn,https://www.imdb.com/title/tt0039616/,movie,5.7,99,1947,"Adventure, Comedy",79,17/02/1947,Thornton Freeland
-349,tt0031507,11/04/2023,11/04/2023,,Jesse James,https://www.imdb.com/title/tt0031507/,movie,7,106,1939,"Drama, Western",4723,14/01/1939,"Irving Cummings, Henry King"
-350,tt0035752,11/04/2023,11/04/2023,,"Le comte de Monte Cristo, 1ère époque: Edmond Dantès",https://www.imdb.com/title/tt0035752/,movie,6.7,90,1943,"Adventure, Drama",184,21/01/1943,Robert Vernay
-351,tt0039391,11/04/2023,11/04/2023,,Forever Amber,https://www.imdb.com/title/tt0039391/,movie,6.5,138,1947,"Adventure, Drama, Romance",1509,22/10/1947,"Otto Preminger, John M. Stahl"
-352,tt0041409,11/04/2023,11/04/2023,,Gente così,https://www.imdb.com/title/tt0041409/,movie,,90,1950,,,05/01/1950,Fernando Cerchio
-353,tt0034588,11/04/2023,11/04/2023,,Catene invisibili,https://www.imdb.com/title/tt0034588/,movie,5.2,90,1942,Drama,19,01/04/1942,Mario Mattoli
-354,tt0041662,11/04/2023,11/04/2023,,Mr. Belvedere Goes to College,https://www.imdb.com/title/tt0041662/,movie,6.8,83,1949,Comedy,821,15/04/1949,Elliott Nugent
-355,tt0037035,11/04/2023,11/04/2023,,Madonna of the Seven Moons,https://www.imdb.com/title/tt0037035/,movie,6.2,110,1945,"Drama, Mystery",544,22/01/1945,Arthur Crabtree
-356,tt0037578,11/04/2023,11/04/2023,,Caravan,https://www.imdb.com/title/tt0037578/,movie,6.3,117,1946,"Adventure, Drama, Romance",229,13/04/1946,Arthur Crabtree
-357,tt0030393,11/04/2023,11/04/2023,,"Luciano Serra, pilota",https://www.imdb.com/title/tt0030393/,movie,5.9,102,1938,"Drama, War",97,08/08/1938,Goffredo Alessandrini
-358,tt0034688,11/04/2023,11/04/2023,,Le due orfanelle,https://www.imdb.com/title/tt0034688/,movie,5.2,85,1942,Drama,14,16/08/1942,Carmine Gallone
-359,tt0252083,11/04/2023,11/04/2023,,Venus de fuego,https://www.imdb.com/title/tt0252083/,movie,,,1948,Drama,,29/10/1948,Jaime Salvador
-360,tt0041364,11/04/2023,11/04/2023,,La figlia del mendicante,https://www.imdb.com/title/tt0041364/,movie,,93,1950,Drama,,02/09/1950,Carlo Campogalliani
-361,tt0044184,11/04/2023,11/04/2023,,La vendetta di una pazza,https://www.imdb.com/title/tt0044184/,movie,,85,1951,Drama,,23/11/1951,Pino Mercanti
-362,tt0043598,11/04/2023,11/04/2023,,La grande rinuncia,https://www.imdb.com/title/tt0043598/,movie,,98,1951,Drama,,01/09/1951,Aldo Vergano
-363,tt0039243,11/04/2023,11/04/2023,,Captain from Castile,https://www.imdb.com/title/tt0039243/,movie,6.8,140,1947,"Adventure, Drama",2107,25/12/1947,Henry King
-364,tt0197674,11/04/2023,11/04/2023,,Le maître de forges,https://www.imdb.com/title/tt0197674/,movie,6.7,,1948,Drama,10,17/03/1948,Fernand Rivers
-365,tt0044183,11/04/2023,11/04/2023,,La vendetta di Aquila Nera,https://www.imdb.com/title/tt0044183/,movie,6.3,97,1951,"Adventure, Drama",61,25/10/1951,Riccardo Freda
-366,tt0043287,11/04/2023,11/04/2023,,Anna,https://www.imdb.com/title/tt0043287/,movie,6.7,107,1951,"Drama, Romance",428,20/12/1951,Alberto Lattuada
-367,tt0042420,11/04/2023,11/04/2023,,Le due sorelle,https://www.imdb.com/title/tt0042420/,movie,,82,1950,Drama,,31/12/1950,Mario Volpe
-368,tt0043473,11/04/2023,11/04/2023,,Donne e briganti,https://www.imdb.com/title/tt0043473/,movie,5.6,85,1950,"Adventure, Drama",43,03/11/1950,Mario Soldati
-369,tt0044162,11/04/2023,11/04/2023,,Ultimo incontro,https://www.imdb.com/title/tt0044162/,movie,6.1,89,1951,Drama,41,24/10/1951,Gianni Franciolini
-370,tt0032896,11/04/2023,11/04/2023,,La peccatrice,https://www.imdb.com/title/tt0032896/,movie,6.3,88,1940,Drama,47,03/09/1940,Amleto Palermi
-371,tt0040946,11/04/2023,11/04/2023,,Wake of the Red Witch,https://www.imdb.com/title/tt0040946/,movie,6.5,106,1948,"Action, Adventure, Romance",2798,30/12/1948,Edward Ludwig
-372,tt0043741,11/04/2023,11/04/2023,,Licenza premio,https://www.imdb.com/title/tt0043741/,movie,,91,1951,Comedy,,,Max Neufeld
-373,tt0041657,11/04/2023,11/04/2023,,Monastero di Santa Chiara,https://www.imdb.com/title/tt0041657/,movie,6.7,90,1949,Drama,8,11/03/1949,Mario Sequi
-374,tt0050625,11/04/2023,11/04/2023,,Last of the Badmen,https://www.imdb.com/title/tt0050625/,movie,5.6,79,1957,Western,158,17/02/1957,Paul Landres
-375,tt0057615,11/04/2023,11/04/2023,,Umorismo in nero,https://www.imdb.com/title/tt0057615/,movie,5.5,93,1965,Comedy,42,12/04/1965,"José María Forqué, Giancarlo Zagni, Claude Autant-Lara"
-376,tt0057917,11/04/2023,11/04/2023,,The Carpetbaggers,https://www.imdb.com/title/tt0057917/,movie,6.5,150,1964,"Drama, Romance",2363,09/04/1964,Edward Dmytryk
-377,tt0058712,11/04/2023,11/04/2023,,"Ursus, il terrore dei kirghisi",https://www.imdb.com/title/tt0058712/,movie,4.5,90,1964,"Adventure, Fantasy",246,31/07/1964,"Antonio Margheriti, Ruggero Deodato"
-378,tt0051349,11/04/2023,11/04/2023,,Ambush at Cimarron Pass,https://www.imdb.com/title/tt0051349/,movie,5.2,73,1958,Western,768,11/02/1958,Jodie Copelan
-379,tt0056601,11/04/2023,11/04/2023,,The Brain,https://www.imdb.com/title/tt0056601/,movie,5.2,83,1962,"Crime, Horror, Drama, Sci-Fi",335,09/10/1962,Freddie Francis
-380,tt0057629,11/04/2023,11/04/2023,,Ursus gladiatore ribelle,https://www.imdb.com/title/tt0057629/,movie,5.3,95,1962,"Action, Adventure, Drama",72,15/11/1962,Domenico Paolella
-381,tt0061157,11/04/2023,11/04/2023,,La vita agra,https://www.imdb.com/title/tt0061157/,movie,7.1,104,1964,Comedy,382,23/04/1964,Carlo Lizzani
-382,tt0054755,11/04/2023,11/04/2023,,A Cold Wind in August,https://www.imdb.com/title/tt0054755/,movie,6.6,80,1961,Drama,393,01/05/1961,Alexander Singer
-383,tt0059836,11/04/2023,11/04/2023,,24 Hours to Kill,https://www.imdb.com/title/tt0059836/,movie,5,94,1965,"Drama, Thriller",332,28/05/1965,Peter Bezencenet
-384,tt0055717,11/04/2023,11/04/2023,,...und ewig knallen die Räuber,https://www.imdb.com/title/tt0055717/,movie,3.8,95,1962,"Action, Adventure, Comedy",41,17/12/1962,Franz Antel
-385,tt0058717,11/04/2023,11/04/2023,,Vengeance,https://www.imdb.com/title/tt0058717/,movie,5.2,79,1964,Western,31,01/04/1964,Dene Hilyard
-386,tt0056665,11/04/2023,11/04/2023,,La voglia matta,https://www.imdb.com/title/tt0056665/,movie,6.8,110,1962,"Comedy, Drama, Romance",512,15/03/1962,Luciano Salce
-387,tt0191629,11/04/2023,11/04/2023,,Viale della canzone,https://www.imdb.com/title/tt0191629/,movie,5.6,85,1965,"Musical, Animation",15,,Tullio Piacentini
-388,tt0059869,11/04/2023,11/04/2023,,Via Veneto,https://www.imdb.com/title/tt0059869/,movie,,,1964,,,23/04/1964,Giuseppe Lipartiti
-389,tt0059862,11/04/2023,11/04/2023,,La vendetta di Spartacus,https://www.imdb.com/title/tt0059862/,movie,6.2,105,1964,Adventure,67,24/09/1964,Michele Lupo
-390,tt0197997,11/04/2023,11/04/2023,,La vedovella,https://www.imdb.com/title/tt0197997/,movie,6.6,80,1965,Comedy,8,17/11/1965,Silvio Siano
-391,tt0061628,11/04/2023,11/04/2023,,Veneri in collegio,https://www.imdb.com/title/tt0061628/,movie,3.8,92,1965,Comedy,24,26/06/1965,Marino Girolami
-392,tt0276239,11/04/2023,11/04/2023,,El jinete solitario,https://www.imdb.com/title/tt0276239/,movie,,75,1958,"Drama, Western",,18/12/1958,Rafael Baledón
-393,tt0056867,11/04/2023,11/04/2023,,"Bienvenido, padre Murray",https://www.imdb.com/title/tt0056867/,movie,4.2,95,1964,Western,23,24/08/1964,Ramón Torrado
-394,tt0055928,11/04/2023,11/04/2023,,Dr. No,https://www.imdb.com/title/tt0055928/,movie,7.2,110,1962,"Action, Adventure, Thriller",172448,05/10/1962,Terence Young
-395,tt0058742,11/04/2023,11/04/2023,,Weiße Fracht für Hongkong,https://www.imdb.com/title/tt0058742/,movie,5.1,95,1964,Adventure,56,20/03/1964,"Giorgio Stegani, Helmuth Ashley"
-396,tt0056652,11/04/2023,11/04/2023,,La venganza del Zorro,https://www.imdb.com/title/tt0056652/,movie,5.7,90,1962,"Adventure, Western",56,25/06/1962,Joaquín Luis Romero Marchent
-397,tt0058777,11/04/2023,11/04/2023,,Zulu,https://www.imdb.com/title/tt0058777/,movie,7.7,138,1964,"Drama, History, War",40807,22/01/1964,Cy Endfield
-398,tt0056724,11/04/2023,11/04/2023,,Zorro alla corte di Spagna,https://www.imdb.com/title/tt0056724/,movie,6,92,1962,"Adventure, Western",61,29/06/1962,Luigi Capuano
-399,tt0059800,11/04/2023,11/04/2023,,Thunderball,https://www.imdb.com/title/tt0059800/,movie,6.9,130,1965,"Action, Adventure, Thriller",122243,09/12/1965,Terence Young
-400,tt0053018,11/04/2023,11/04/2023,,The Treasure of San Teresa,https://www.imdb.com/title/tt0053018/,movie,5.7,84,1959,"Adventure, Crime, Thriller",102,21/07/1959,Alvin Rakoff
-401,tt0058866,11/04/2023,11/04/2023,,A 008 operazione sterminio,https://www.imdb.com/title/tt0058866/,movie,5,84,1965,"Action, Drama",158,03/09/1965,Umberto Lenzi
-402,tt0059356,11/04/2023,11/04/2023,,Kid Rodelo,https://www.imdb.com/title/tt0059356/,movie,5.7,79,1966,"Drama, Western",130,01/01/1966,Richard Carlson
-403,tt0309749,11/04/2023,11/04/2023,,Jusqu'à plus soif,https://www.imdb.com/title/tt0309749/,movie,6,110,1962,Drama,12,16/05/1962,Maurice Labro
-404,tt0057914,11/04/2023,11/04/2023,,La carga de la policía montada,https://www.imdb.com/title/tt0057914/,movie,5.2,101,1965,"Adventure, Western",22,30/11/1965,Ramón Torrado
-405,tt0040533,11/04/2023,11/04/2023,,La leggenda di Faust,https://www.imdb.com/title/tt0040533/,movie,7,87,1949,"Drama, Musical",36,07/09/1949,Carmine Gallone
-406,tt0036628,11/04/2023,11/04/2023,,Bathing Beauty,https://www.imdb.com/title/tt0036628/,movie,6.4,101,1944,"Comedy, Musical",1771,27/06/1944,George Sidney
-407,tt0028505,11/04/2023,11/04/2023,,Wife vs. Secretary,https://www.imdb.com/title/tt0028505/,movie,7,88,1936,"Comedy, Drama, Romance",3609,28/02/1936,Clarence Brown
-408,tt0025948,11/04/2023,11/04/2023,,Viva Villa!,https://www.imdb.com/title/tt0025948/,movie,6.4,115,1934,Western,1488,10/04/1934,"William A. Wellman, Jack Conway, Howard Hawks"
-409,tt0037698,11/04/2023,11/04/2023,,The Fighting Guardsman,https://www.imdb.com/title/tt0037698/,movie,5.7,84,1946,"Action, Adventure, Drama, Romance",116,04/01/1946,Henry Levin
-410,tt0044607,11/04/2023,11/04/2023,,La favorita,https://www.imdb.com/title/tt0044607/,movie,5.4,88,1952,Drama,78,31/12/1952,Cesare Barlacchi
-411,tt0032976,11/04/2023,11/04/2023,,Rebecca,https://www.imdb.com/title/tt0032976/,movie,8.1,130,1940,"Drama, Film-Noir, Mystery, Romance, Thriller",140606,21/03/1940,Alfred Hitchcock
-412,tt0039954,11/04/2023,11/04/2023,,Vesna,https://www.imdb.com/title/tt0039954/,movie,7.1,104,1947,"Comedy, Musical, Romance, Sci-Fi",497,02/07/1947,Grigoriy Aleksandrov
-413,tt0034998,11/04/2023,11/04/2023,,Lucky Jordan,https://www.imdb.com/title/tt0034998/,movie,6.4,84,1942,Drama,381,16/11/1942,Frank Tuttle
-414,tt0043440,11/04/2023,11/04/2023,,Core 'ngrato,https://www.imdb.com/title/tt0043440/,movie,8.4,110,1951,"Drama, Music, Romance",34,11/10/1951,Guido Brignone
-415,tt0430467,11/04/2023,11/04/2023,,Piume al vento,https://www.imdb.com/title/tt0430467/,movie,,,1950,Drama,,17/12/1950,Ugo Amadoro
-416,tt0039694,11/04/2023,11/04/2023,,The Paradine Case,https://www.imdb.com/title/tt0039694/,movie,6.5,125,1947,"Crime, Drama, Romance, Thriller",11845,29/12/1947,Alfred Hitchcock
-417,tt0043993,11/04/2023,11/04/2023,,Santa Lucia Luntana,https://www.imdb.com/title/tt0043993/,movie,,,1951,,,,Aldo Vergano
-418,tt0038403,11/04/2023,11/04/2023,,Il cavaliere del sogno,https://www.imdb.com/title/tt0038403/,movie,6.6,99,1947,"Drama, Romance",19,21/04/1947,Camillo Mastrocinque
-419,tt0043279,11/04/2023,11/04/2023,,Amo un assassino,https://www.imdb.com/title/tt0043279/,movie,6.2,90,1951,"Crime, Drama, Mystery",24,27/11/1951,Baccio Bandini
-420,tt0034956,11/04/2023,11/04/2023,,Labbra serrate,https://www.imdb.com/title/tt0034956/,movie,,80,1942,"Mystery, Thriller",,13/11/1942,Mario Mattoli
-421,tt0043674,11/04/2023,11/04/2023,,Incantesimo tragico,https://www.imdb.com/title/tt0043674/,movie,6.2,95,1951,Drama,24,13/10/1951,Mario Sequi
-422,tt0042351,11/04/2023,11/04/2023,,Crimen y castigo,https://www.imdb.com/title/tt0042351/,movie,7,104,1951,"Drama, Crime",57,05/07/1951,Fernando de Fuentes
-423,tt0201055,11/04/2023,11/04/2023,,Salvate mia figlia,https://www.imdb.com/title/tt0201055/,movie,,91,1951,Drama,,,Sergio Corbucci
-424,tt0043363,11/04/2023,11/04/2023,,Bullfighter and the Lady,https://www.imdb.com/title/tt0043363/,movie,6.8,87,1951,"Drama, Romance, Sport",643,26/04/1951,Budd Boetticher
-425,tt0025191,11/04/2023,11/04/2023,,Golgotha,https://www.imdb.com/title/tt0025191/,movie,6.6,95,1935,"Adventure, Drama",271,12/04/1935,Julien Duvivier
-426,tt0041762,11/04/2023,11/04/2023,,La portatrice di pane,https://www.imdb.com/title/tt0041762/,movie,5.1,98,1950,Drama,16,14/09/1950,Maurice Cloche
-427,tt0043764,11/04/2023,11/04/2023,,Luna rossa,https://www.imdb.com/title/tt0043764/,movie,,85,1951,Drama,,23/11/1951,Armando Fizzarotti
-428,tt21977724,11/04/2023,11/04/2023,,Solo per te,https://www.imdb.com/title/tt21977724/,movie,,85,1938,Music,,31/12/1938,Carmine Gallone
-429,tt0042933,11/04/2023,11/04/2023,,La scogliera del peccato,https://www.imdb.com/title/tt0042933/,movie,,94,1951,Drama,,29/01/1951,Roberto Bianchi Montero
-430,tt0044484,12/04/2023,12/04/2023,,Carne inquieta,https://www.imdb.com/title/tt0044484/,movie,,,1952,Drama,,27/04/1954,Silvestro Prestifilippo
-431,tt0044010,12/04/2023,12/04/2023,,The Sea Hornet,https://www.imdb.com/title/tt0044010/,movie,6,84,1951,"Adventure, Crime, Mystery",60,06/11/1951,Joseph Kane
-432,tt0041814,12/04/2023,12/04/2023,,La rivale dell'imperatrice,https://www.imdb.com/title/tt0041814/,movie,5.4,95,1951,Drama,36,22/02/1951,"Sidney Salkow, Jacopo Comin"
-433,tt0029818,12/04/2023,12/04/2023,,Zorro Rides Again,https://www.imdb.com/title/tt0029818/,movie,6.3,212,1937,"Family, Western",322,20/11/1937,"John English, William Witney"
-434,tt0042579,12/04/2023,12/04/2023,,House by the River,https://www.imdb.com/title/tt0042579/,movie,7.1,83,1950,"Crime, Drama, Film-Noir, Thriller",3814,23/03/1950,Fritz Lang
-435,tt0044817,12/04/2023,12/04/2023,,Lady Possessed,https://www.imdb.com/title/tt0044817/,movie,6,87,1952,"Mystery, Romance, Thriller",44,08/01/1952,"Roy Kellino, William Spier"
-436,tt0029453,12/04/2023,12/04/2023,,Pépé le Moko,https://www.imdb.com/title/tt0029453/,movie,7.7,94,1937,"Crime, Drama, Romance",7797,28/01/1937,Julien Duvivier
-437,tt0041088,12/04/2023,12/04/2023,,Act of Violence,https://www.imdb.com/title/tt0041088/,movie,7.5,82,1948,"Drama, Film-Noir, Thriller",5388,21/12/1948,Fred Zinnemann
-438,tt0044161,12/04/2023,12/04/2023,,L'ultima sentenza,https://www.imdb.com/title/tt0044161/,movie,,90,1951,"Crime, Drama",,15/11/1951,Mario Bonnard
-439,tt0038645,12/04/2023,12/04/2023,,Io t'ho incontrata a Napoli,https://www.imdb.com/title/tt0038645/,movie,,74,1946,"Drama, Musical",,20/04/1946,Pietro Francisci
-440,tt0033238,12/04/2023,12/04/2023,,Waterloo Bridge,https://www.imdb.com/title/tt0033238/,movie,7.7,108,1940,"Drama, Romance, War",10494,16/05/1940,Mervyn LeRoy
-441,tt0044023,12/04/2023,12/04/2023,,I sette nani alla riscossa,https://www.imdb.com/title/tt0044023/,movie,5.6,84,1951,"Comedy, Fantasy, Family",53,29/11/1951,Paolo William Tamburella
-442,tt0033026,12/04/2023,12/04/2023,,Scarpe grosse,https://www.imdb.com/title/tt0033026/,movie,5.2,83,1940,,12,12/10/1940,Dino Falconi
-443,tt0043416,12/04/2023,12/04/2023,,Clandestino a Trieste,https://www.imdb.com/title/tt0043416/,movie,,90,1951,"Drama, Romance, War",,30/04/1951,Guido Salvini
-444,tt0163897,12/04/2023,12/04/2023,,La vispa Teresa,https://www.imdb.com/title/tt0163897/,movie,6.9,84,1943,Comedy,68,04/09/1943,Mario Mattoli
-445,tt0035084,12/04/2023,12/04/2023,,La morte civile,https://www.imdb.com/title/tt0035084/,movie,6.5,85,1942,Drama,13,23/09/1942,Ferdinando Maria Poggioli
-446,tt0035244,12/04/2023,12/04/2023,,Reap the Wild Wind,https://www.imdb.com/title/tt0035244/,movie,6.6,123,1942,"Action, Adventure, Drama, Romance",3406,18/03/1942,Cecil B. DeMille
-447,tt0042461,12/04/2023,12/04/2023,,Filomena Marturano,https://www.imdb.com/title/tt0042461/,movie,7.2,85,1950,Musical,43,20/01/1950,Luis Mottura
-448,tt0042947,12/04/2023,12/04/2023,,September Affair,https://www.imdb.com/title/tt0042947/,movie,6.8,104,1950,"Drama, Romance",956,25/08/1950,William Dieterle
-449,tt0152086,12/04/2023,12/04/2023,,Profesor Wilczur,https://www.imdb.com/title/tt0152086/,movie,7.4,88,1938,"Drama, Romance",47,18/10/1938,Michal Waszynski
-450,tt0043488,12/04/2023,12/04/2023,,I due sergenti,https://www.imdb.com/title/tt0043488/,movie,,76,1951,Comedy,,,Carlo Alberto Chiesa
-451,tt0035432,12/04/2023,12/04/2023,,This Gun for Hire,https://www.imdb.com/title/tt0035432/,movie,7.4,81,1942,"Crime, Drama, Film-Noir, Thriller",9999,24/04/1942,Frank Tuttle
-452,tt0041362,12/04/2023,12/04/2023,,Fighting Man of the Plains,https://www.imdb.com/title/tt0041362/,movie,6.4,94,1949,Western,516,13/10/1949,Edwin L. Marin
-453,tt0023729,12/04/2023,12/04/2023,,1860,https://www.imdb.com/title/tt0023729/,movie,6.6,80,1933,"Drama, History",240,12/11/1933,Alessandro Blasetti
-454,tt0034366,12/04/2023,12/04/2023,,Voglio vivere così,https://www.imdb.com/title/tt0034366/,movie,,83,1942,"Musical, Comedy",,26/01/1942,Mario Mattoli
-455,tt0030420,12/04/2023,12/04/2023,,Marionette,https://www.imdb.com/title/tt0030420/,movie,6.8,95,1939,"Comedy, Romance",19,26/01/1939,Carmine Gallone
-456,tt0045022,12/04/2023,12/04/2023,,Pentimento,https://www.imdb.com/title/tt0045022/,movie,,,1952,,,05/02/1952,Mario Costa
-457,tt0042446,12/04/2023,12/04/2023,,I falsari,https://www.imdb.com/title/tt0042446/,movie,,90,1951,"Crime, Drama",,21/09/1951,Franco Rossi
-458,tt0033062,12/04/2023,12/04/2023,,Slightly Honorable,https://www.imdb.com/title/tt0033062/,movie,6.1,85,1939,"Comedy, Crime, Drama, Music, Mystery",493,22/12/1939,Tay Garnett
-459,tt0037574,12/04/2023,12/04/2023,,"Canto, ma sottovoce...",https://www.imdb.com/title/tt0037574/,movie,6.1,85,1946,"Comedy, Romance",9,13/06/1946,Guido Brignone
-460,tt0035066,12/04/2023,12/04/2023,,"Miliardi, che follia!",https://www.imdb.com/title/tt0035066/,movie,,85,1942,Comedy,,03/09/1942,Guido Brignone
-461,tt0031334,12/04/2023,12/04/2023,,The Four Feathers,https://www.imdb.com/title/tt0031334/,movie,7.4,129,1939,"Adventure, Drama, Romance, War",6340,18/04/1939,Zoltan Korda
-462,tt0043828,12/04/2023,12/04/2023,,My Forbidden Past,https://www.imdb.com/title/tt0043828/,movie,6.1,70,1951,"Crime, Drama, Romance",1020,21/04/1951,Robert Stevenson
-463,tt0043918,12/04/2023,12/04/2023,,Don Camillo,https://www.imdb.com/title/tt0043918/,movie,7.6,107,1952,Comedy,4647,18/03/1952,Julien Duvivier
-464,tt0042826,12/04/2023,12/04/2023,,Outside the Wall,https://www.imdb.com/title/tt0042826/,movie,6.7,80,1950,"Crime, Drama, Film-Noir, Romance, Thriller",157,08/02/1950,Crane Wilbur
-465,tt0043945,12/04/2023,12/04/2023,,Quattro rose rosse,https://www.imdb.com/title/tt0043945/,movie,,99,1951,,,,Nunzio Malasomma
-466,tt0044572,12/04/2023,12/04/2023,,Due soldi di speranza,https://www.imdb.com/title/tt0044572/,movie,7,110,1952,"Comedy, Romance",663,10/04/1952,Renato Castellani
-467,tt0026071,12/04/2023,12/04/2023,,Anna Karenina,https://www.imdb.com/title/tt0026071/,movie,7,95,1935,"Drama, Music, Romance",5585,30/08/1935,Clarence Brown
-468,tt0036482,12/04/2023,12/04/2023,,Uomini e cieli,https://www.imdb.com/title/tt0036482/,movie,7.3,,1947,,20,05/01/1947,Francesco De Robertis
-469,tt0038272,12/04/2023,12/04/2023,,Zigmund Kolosovskiy,https://www.imdb.com/title/tt0038272/,movie,5.5,78,1946,Drama,16,15/08/1946,"Boris Dmokhovsky, Sigizmund Navrotsky"
-470,tt0031455,12/04/2023,12/04/2023,,The Hunchback of Notre Dame,https://www.imdb.com/title/tt0031455/,movie,7.8,116,1939,"Drama, Romance",11802,31/08/1939,William Dieterle
-471,tt0045247,12/04/2023,12/04/2023,,Totò a colori,https://www.imdb.com/title/tt0045247/,movie,7.1,104,1952,Comedy,662,08/04/1952,Steno
-472,tt0034660,12/04/2023,12/04/2023,,Don Cesare di Bazan,https://www.imdb.com/title/tt0034660/,movie,5.7,78,1942,"Adventure, Comedy",65,04/10/1942,Riccardo Freda
-473,tt0043506,12/04/2023,12/04/2023,,"Era lui, sì, sì!",https://www.imdb.com/title/tt0043506/,movie,5.9,95,1951,Comedy,80,23/11/1951,"Marino Girolami, Vittorio Metz, Marcello Marchesi"
-474,tt0046063,12/04/2023,12/04/2023,,Melodie immortali - Mascagni,https://www.imdb.com/title/tt0046063/,movie,6.5,96,1952,"Biography, Drama, Musical",33,16/12/1952,Giacomo Gentilomo
-475,tt0022958,12/04/2023,12/04/2023,,Grand Hotel,https://www.imdb.com/title/tt0022958/,movie,7.3,112,1932,"Drama, Romance",20116,12/04/1932,Edmund Goulding
-476,tt0043108,12/04/2023,12/04/2023,,Vita da cani,https://www.imdb.com/title/tt0043108/,movie,7.2,104,1950,"Comedy, Drama",316,30/09/1950,"Mario Monicelli, Steno"
-477,tt0038462,12/04/2023,12/04/2023,,Decoy,https://www.imdb.com/title/tt0038462/,movie,6.8,76,1946,"Crime, Drama, Film-Noir, Thriller",2022,14/09/1946,Jack Bernhard
-478,tt0033152,12/04/2023,12/04/2023,,The Thief of Bagdad,https://www.imdb.com/title/tt0033152/,movie,7.4,106,1940,"Adventure, Family, Fantasy, Romance",13846,14/10/1940,"Alexander Korda, Tim Whelan, Ludwig Berger, Michael Powell, Zoltan Korda, William Cameron Menzies"
-479,tt0043142,12/04/2023,12/04/2023,,Woman on the Run,https://www.imdb.com/title/tt0043142/,movie,7.2,77,1950,"Crime, Drama, Film-Noir, Thriller",4355,12/10/1950,Norman Foster
-480,tt0043805,12/04/2023,12/04/2023,,Milano miliardaria,https://www.imdb.com/title/tt0043805/,movie,5.5,90,1951,Comedy,60,04/08/1951,"Marino Girolami, Vittorio Metz, Marcello Marchesi"
-481,tt0043870,12/04/2023,12/04/2023,,O.K. Nerone,https://www.imdb.com/title/tt0043870/,movie,6.7,105,1951,Comedy,92,20/11/1951,Mario Soldati
-482,tt0034580,12/04/2023,12/04/2023,,Carmela,https://www.imdb.com/title/tt0034580/,movie,5.9,90,1942,Drama,14,03/12/1942,Flavio Calzavara
-483,tt0042960,12/04/2023,12/04/2023,,Side Street,https://www.imdb.com/title/tt0042960/,movie,7.1,83,1949,"Crime, Drama, Film-Noir, Thriller",3166,14/12/1949,Anthony Mann
-484,tt0034131,12/04/2023,12/04/2023,,Rossini,https://www.imdb.com/title/tt0034131/,movie,6,112,1942,"Biography, Musical",18,01/10/1942,Mario Bonnard
-485,tt0039377,12/04/2023,12/04/2023,,Fiesta,https://www.imdb.com/title/tt0039377/,movie,5.9,104,1947,"Drama, Musical, Romance, Sport",608,12/06/1947,Richard Thorpe
-486,tt0042634,12/04/2023,12/04/2023,,Key to the City,https://www.imdb.com/title/tt0042634/,movie,6.4,101,1950,"Comedy, Romance",818,02/02/1950,George Sidney
-487,tt0142782,12/04/2023,12/04/2023,,Prélude à la gloire,https://www.imdb.com/title/tt0142782/,movie,6.8,95,1950,Drama,26,16/06/1950,Georges Lacombe
-488,tt0033490,12/04/2023,12/04/2023,,The Corsican Brothers,https://www.imdb.com/title/tt0033490/,movie,6.5,111,1941,"Adventure, Music, Romance",727,28/11/1941,Gregory Ratoff
-489,tt0041622,12/04/2023,12/04/2023,,Malaya,https://www.imdb.com/title/tt0041622/,movie,6.5,98,1949,"Adventure, Drama, War",1395,27/12/1949,Richard Thorpe
-490,tt0043765,12/04/2023,12/04/2023,,Il lupo della frontiera,https://www.imdb.com/title/tt0043765/,movie,,87,1952,Drama,,08/03/1952,Edoardo Anton
-491,tt0041838,19/04/2023,19/04/2023,,Samson and Delilah,https://www.imdb.com/title/tt0041838/,movie,6.8,134,1949,"Drama, Family, History, Romance",8479,21/12/1949,Cecil B. DeMille
-492,tt0046281,19/04/2023,19/04/2023,,L'esclave,https://www.imdb.com/title/tt0046281/,movie,6.2,99,1953,Drama,17,02/09/1953,Yves Ciampi
+Position,Const,Created,Modified,Description,Title,URL,Title Type,IMDb Rating,Runtime (mins),Year,Genres,Num Votes,Release Date,Directors,Your Rating,Date Rated
+1,tt0060070,2023-04-05,2023-04-05,,Adulterio all'italiana,https://www.imdb.com/title/tt0060070/,movie,6.4,93,1966,Comedy,207,1966-03-25,Pasquale Festa Campanile,,
+2,tt0048947,2023-04-05,2023-04-05,,Anastasia,https://www.imdb.com/title/tt0048947/,movie,7.0,105,1956,"Biography, Drama, History, Romance",9028,1956-12-13,Anatole Litvak,,
+3,tt0058879,2023-04-05,2023-04-05,,Agente S 03: Operazione Atlantide,https://www.imdb.com/title/tt0058879/,movie,4.8,100,1965,"Adventure, Crime, Sci-Fi",117,1965-10-22,Domenico Paolella,,
+4,tt0056953,2023-04-05,2023-04-05,,Coplan prend des risques,https://www.imdb.com/title/tt0056953/,movie,5.5,89,1964,"Action, Drama",74,1964-05-06,Maurice Labro,,
+5,tt0353260,2023-04-05,2023-04-05,,Les bras de la nuit,https://www.imdb.com/title/tt0353260/,movie,6.5,90,1961,,23,1961-11-29,Jacques Guymont,,
+6,tt0199301,2023-04-05,2023-04-05,,Adolescenti al sole,https://www.imdb.com/title/tt0199301/,movie,,,1964,,,1964-04-14,Giuseppe Aldo Rossi,,
+7,tt0055759,2023-04-05,2023-04-05,,Arsène Lupin contre Arsène Lupin,https://www.imdb.com/title/tt0055759/,movie,5.8,111,1962,"Comedy, Crime, Mystery",183,1962-08-29,Édouard Molinaro,,
+8,tt0046731,2023-04-05,2023-04-05,,Attila,https://www.imdb.com/title/tt0046731/,movie,5.4,80,1954,"Biography, Drama, History, War",769,1954-12-27,Pietro Francisci,,
+9,tt0158462,2023-04-05,2023-04-05,,Amore mio,https://www.imdb.com/title/tt0158462/,movie,6.5,95,1964,"Drama, Romance",31,,Raffaello Matarazzo,,
+10,tt0039319,2023-04-05,2023-04-05,,Il diavolo bianco,https://www.imdb.com/title/tt0039319/,movie,,100,1947,Drama,,1947-12-31,Nunzio Malasomma,,
+11,tt0191305,2023-04-05,2023-04-05,,Nadia la femme traquée,https://www.imdb.com/title/tt0191305/,movie,,86,1940,,,1940-12-20,Claude Orval,,
+12,tt0046735,2023-04-05,2023-04-05,,Avanzi di galera,https://www.imdb.com/title/tt0046735/,movie,5.8,94,1954,"Crime, Drama",65,1954-09-18,Vittorio Cottafavi,,
+13,tt0054671,2023-04-05,2023-04-05,,Battle at Bloody Beach,https://www.imdb.com/title/tt0054671/,movie,5.4,83,1961,"Drama, War",506,1961-06-01,Herbert Coleman,,
+14,tt0059638,2023-04-05,2023-04-05,,The Ravagers,https://www.imdb.com/title/tt0059638/,movie,4.9,88,1965,"Action, Drama, War",109,1965-02-07,Eddie Romero,,
+15,tt0048973,2023-04-05,2023-04-05,,Baby Doll,https://www.imdb.com/title/tt0048973/,movie,7.3,114,1956,"Comedy, Drama",8084,1956-12-18,Elia Kazan,,
+16,tt0268576,2023-04-05,2023-04-05,,The Right Hand of the Devil,https://www.imdb.com/title/tt0268576/,movie,5.2,75,1963,"Crime, Drama",39,1963-07-31,Aram Katcher,,
+17,tt0057343,2023-04-05,2023-04-05,,La máscara de Scaramouche,https://www.imdb.com/title/tt0057343/,movie,5.9,98,1963,Adventure,118,1963-09-23,Antonio Isasi-Isasmendi,,
+18,tt0058883,2023-04-05,2023-04-05,,Der Fluch des schwarzen Rubin,https://www.imdb.com/title/tt0058883/,movie,4.9,102,1965,"Action, Drama",77,1965-04-17,Manfred R. Köhler,,
+19,tt0043072,2023-04-05,2023-04-05,,Tripoli,https://www.imdb.com/title/tt0043072/,movie,5.7,95,1950,"Action, Adventure, History, Romance, War",496,1950-11-09,Will Price,,
+20,tt0056917,2023-04-05,2023-04-05,,Cent mille dollars au soleil,https://www.imdb.com/title/tt0056917/,movie,7.0,130,1964,"Action, Adventure, Comedy",2617,1964-04-17,Henri Verneuil,,
+21,tt0045966,2023-04-05,2023-04-05,,Knights of the Round Table,https://www.imdb.com/title/tt0045966/,movie,6.2,115,1953,"Action, Adventure, Drama",3950,1953-12-22,Richard Thorpe,,
+22,tt0040636,2023-04-05,2023-04-05,,The Naked City,https://www.imdb.com/title/tt0040636/,movie,7.6,96,1948,"Crime, Drama, Film-Noir, Mystery, Thriller",14847,1948-03-03,Jules Dassin,,
+23,tt0056957,2023-04-05,2023-04-05,,Le couteau dans la plaie,https://www.imdb.com/title/tt0056957/,movie,6.3,112,1962,"Crime, Drama",1210,1962-12-12,Anatole Litvak,,
+24,tt0056939,2023-04-05,2023-04-05,,Il comandante,https://www.imdb.com/title/tt0056939/,movie,6.8,109,1963,Comedy,134,1963-12-23,Paolo Heusch,,
+25,tt0058407,2023-04-05,2023-04-05,,Nihiki no mesu inu,https://www.imdb.com/title/tt0058407/,movie,,91,1964,Crime,,1964-03-12,Yûsuke Watanabe,,
+26,tt0055865,2023-04-05,2023-04-05,,La congiura dei dieci,https://www.imdb.com/title/tt0055865/,movie,5.8,97,1962,"Adventure, Romance",339,1962-10-19,"Etienne Périer, Baccio Bandini",,
+27,tt0055484,2023-04-05,2023-04-05,,Strongroom,https://www.imdb.com/title/tt0055484/,movie,7.2,80,1962,"Crime, Drama, Thriller",586,1962-06-03,Vernon Sewell,,
+28,tt0060049,2023-04-05,2023-04-05,,5 tombe per un medium,https://www.imdb.com/title/tt0060049/,movie,5.5,87,1965,Horror,1138,1965-06-23,Massimo Pupillo,,
+29,tt0256102,2023-04-05,2023-04-05,,Istanbul macerasi,https://www.imdb.com/title/tt0256102/,movie,5.9,86,1958,"Adventure, Crime",24,1962-08-24,Carl Möhner,,
+30,tt0058534,2023-04-05,2023-04-05,,Roustabout,https://www.imdb.com/title/tt0058534/,movie,6.0,101,1964,"Drama, Music, Musical, Romance",3191,1964-11-11,John Rich,,
+31,tt0058706,2023-04-05,2023-04-05,,Das Ungeheuer von London-City,https://www.imdb.com/title/tt0058706/,movie,5.8,90,1964,"Crime, Horror",234,1964-07-02,Edwin Zbonek,,
+32,tt0050772,2023-04-05,2023-04-05,,No Road Back,https://www.imdb.com/title/tt0050772/,movie,5.7,83,1957,"Action, Crime, Drama",134,1957-02-04,Montgomery Tully,,
+33,tt0056937,2023-04-05,2023-04-05,,Cleopatra,https://www.imdb.com/title/tt0056937/,movie,7.0,192,1963,"Biography, Drama, History, Romance",36210,1963-06-12,Joseph L. Mankiewicz,,
+34,tt0051482,2023-04-05,2023-04-05,,"Cole Younger, Gunfighter",https://www.imdb.com/title/tt0051482/,movie,5.9,78,1958,Western,270,1958-03-30,R.G. Springsteen,,
+35,tt0058166,2023-04-05,2023-04-05,,Guns at Batasi,https://www.imdb.com/title/tt0058166/,movie,7.1,103,1964,"Drama, History, War",1868,1964-09-24,John Guillermin,,
+36,tt0052749,2023-04-05,2023-04-05,,Don't Give Up the Ship,https://www.imdb.com/title/tt0052749/,movie,6.4,89,1959,Comedy,849,1959-07-03,Norman Taurog,,
+37,tt0166150,2023-04-05,2023-04-05,,Con rispetto parlando,https://www.imdb.com/title/tt0166150/,movie,,98,1965,Comedy,,1965-08-14,Marcello Ciorciolini,,
+38,tt0031642,2023-04-05,2023-04-05,,La mia canzone al vento,https://www.imdb.com/title/tt0031642/,movie,,82,1939,"Musical, Comedy",,1939-10-31,Guido Brignone,,
+39,tt0031856,2023-04-05,2023-04-05,,Ricchezza senza domani,https://www.imdb.com/title/tt0031856/,movie,,82,1940,,,1940-01-25,Ferdinando Maria Poggioli,,
+40,tt0037793,2023-04-05,2023-04-05,,House of Dracula,https://www.imdb.com/title/tt0037793/,movie,5.7,67,1945,"Fantasy, Horror, Sci-Fi",5901,1945-12-07,Erle C. Kenton,,
+41,tt0040362,2023-04-05,2023-04-05,,Follie per l'opera,https://www.imdb.com/title/tt0040362/,movie,6.1,94,1948,"Comedy, Musical",77,1948-08-10,Mario Costa,,
+42,tt0037008,2023-04-05,2023-04-05,,Laura,https://www.imdb.com/title/tt0037008/,movie,7.9,88,1944,"Drama, Film-Noir, Mystery",49686,1944-10-11,Otto Preminger,,
+43,tt0026032,2023-04-05,2023-04-05,,Abdul the Damned,https://www.imdb.com/title/tt0026032/,movie,5.7,111,1935,"Drama, History",99,1935-05-20,Karl Grune,,
+44,tt0038183,2023-04-05,2023-04-05,,Torna... a Sorrento,https://www.imdb.com/title/tt0038183/,movie,5.7,95,1945,"Comedy, Musical",23,1945-11-07,Carlo Ludovico Bragaglia,,
+45,tt0025493,2023-04-05,2023-04-05,,The Merry Widow,https://www.imdb.com/title/tt0025493/,movie,7.2,99,1934,"Comedy, Musical, Romance",3137,1934-10-11,Ernst Lubitsch,,
+46,tt0039015,2023-04-05,2023-04-05,,Temptation,https://www.imdb.com/title/tt0039015/,movie,6.5,98,1946,"Drama, Film-Noir, Thriller",326,1946-12-02,Irving Pichel,,
+47,tt0028683,2023-04-05,2023-04-05,,Camille,https://www.imdb.com/title/tt0028683/,movie,7.3,109,1936,"Drama, Romance",8479,1936-12-12,George Cukor,,
+48,tt0023826,2023-04-05,2023-04-05,,Bondage,https://www.imdb.com/title/tt0023826/,movie,,67,1933,Drama,,1933-04-22,Alfred Santell,,
+49,tt0035446,2023-04-05,2023-04-05,,To Be or Not to Be,https://www.imdb.com/title/tt0035446/,movie,8.2,99,1942,"Comedy, Romance, War",40836,1942-02-19,Ernst Lubitsch,,
+50,tt0036983,2023-04-05,2023-04-05,,The Keys of the Kingdom,https://www.imdb.com/title/tt0036983/,movie,7.2,137,1944,"Drama, War",2964,1944-12-15,John M. Stahl,,
+51,tt0039682,2023-04-05,2023-04-05,,L'onorevole Angelina,https://www.imdb.com/title/tt0039682/,movie,7.1,90,1947,"Comedy, Drama",531,1947-09-12,Luigi Zampa,,
+52,tt0038408,2023-04-05,2023-04-05,,Le chanteur inconnu,https://www.imdb.com/title/tt0038408/,movie,6.0,90,1947,Drama,32,1947-04-25,André Cayatte,,
+53,tt0033431,2023-04-05,2023-04-05,,Il bravo di Venezia,https://www.imdb.com/title/tt0033431/,movie,5.1,85,1941,,15,1941-09-17,Carlo Campogalliani,,
+54,tt0032871,2023-04-05,2023-04-05,,One Million B.C.,https://www.imdb.com/title/tt0032871/,movie,5.7,80,1940,"Adventure, Fantasy, Romance, Sci-Fi",1634,1940-04-05,"Hal Roach Jr., Hal Roach",,
+55,tt0034331,2023-04-05,2023-04-05,,Gli ultimi filibustieri,https://www.imdb.com/title/tt0034331/,movie,3.9,82,1943,Adventure,12,1943-02-28,Marco Elter,,
+56,tt0039854,2023-04-05,2023-04-05,,Sono io l'assassino,https://www.imdb.com/title/tt0039854/,movie,,92,1948,,,1948-02-17,Roberto Bianchi Montero,,
+57,tt0039381,2023-04-05,2023-04-05,,La figlia del capitano,https://www.imdb.com/title/tt0039381/,movie,6.7,102,1947,Adventure,51,1947-10-08,Mario Camerini,,
+58,tt0035740,2023-04-05,2023-04-05,,City Without Men,https://www.imdb.com/title/tt0035740/,movie,5.2,75,1943,"Crime, Drama, Film-Noir",159,1943-01-14,Sidney Salkow,,
+59,tt0039256,2023-04-05,2023-04-05,,I cavalieri dalle maschere nere (I beati paoli),https://www.imdb.com/title/tt0039256/,movie,5.7,,1948,"Action, Adventure, Mystery",15,1948-11-02,Pino Mercanti,,
+60,tt0039004,2023-04-05,2023-04-05,,La symphonie pastorale,https://www.imdb.com/title/tt0039004/,movie,6.9,110,1946,Drama,580,1946-09-26,Jean Delannoy,,
+61,tt0039696,2023-04-05,2023-04-05,,Il passatore,https://www.imdb.com/title/tt0039696/,movie,6.1,95,1947,"Drama, Adventure",60,1947-10-22,Duilio Coletti,,
+62,tt0034023,2023-04-05,2023-04-05,,Piccolo mondo antico,https://www.imdb.com/title/tt0034023/,movie,6.4,106,1941,Drama,191,1941-04-10,Mario Soldati,,
+63,tt0031075,2023-04-05,2023-04-05,,Ballo al castello,https://www.imdb.com/title/tt0031075/,movie,4.7,95,1939,"Drama, Romance",10,1939-10-01,Max Neufeld,,
+64,tt0034803,2023-04-05,2023-04-05,,La Gorgona,https://www.imdb.com/title/tt0034803/,movie,,85,1942,"Drama, History",,1942-10-12,Guido Brignone,,
+65,tt0034993,2023-04-05,2023-04-05,,Texas Justice,https://www.imdb.com/title/tt0034993/,movie,7.1,58,1942,"Drama, Western",30,1942-06-05,Sam Newfield,,
+66,tt0038570,2023-04-05,2023-04-05,,La gondola del diavolo,https://www.imdb.com/title/tt0038570/,movie,5.1,125,1946,Adventure,24,1946-11-21,Carlo Campogalliani,,
+67,tt0036826,2023-04-05,2023-04-05,,Fiori d'arancio,https://www.imdb.com/title/tt0036826/,movie,5.6,,1944,,8,,Dino Hobbes Cecchini,,
+68,tt0035260,2023-04-05,2023-04-05,,Rita da Cascia,https://www.imdb.com/title/tt0035260/,movie,6.2,83,1943,Biography,7,1943-05-31,Antonio Leonviola,,
+69,tt0033390,2023-04-05,2023-04-05,,Billy the Kid Trapped,https://www.imdb.com/title/tt0033390/,movie,5.1,59,1942,Western,211,1942-02-27,Sam Newfield,,
+70,tt0034429,2023-04-05,2023-04-05,,Addio Kira!,https://www.imdb.com/title/tt0034429/,movie,7.4,96,1942,"Drama, Romance",118,1942-09-15,Goffredo Alessandrini,,
+71,tt0026348,2023-04-05,2023-04-05,,Fiat voluntas dei,https://www.imdb.com/title/tt0026348/,movie,6.4,80,1936,"Comedy, Drama",16,1936-07-05,Amleto Palermi,,
+72,tt0038506,2023-04-05,2023-04-05,,Les beaux jours du roi Murat,https://www.imdb.com/title/tt0038506/,movie,4.6,85,1947,"Drama, History, Musical",14,1947-05-13,Théophile Pathé,,
+73,tt0038493,2023-04-05,2023-04-05,,Un drama nuevo,https://www.imdb.com/title/tt0038493/,movie,6.8,92,1946,Drama,21,1946-11-25,Juan de Orduña,,
+74,tt0038942,2023-04-05,2023-04-05,,Sinfonia fatale,https://www.imdb.com/title/tt0038942/,movie,,91,1947,"Drama, Romance, War",,1947-05-31,Victor Stoloff,,
+75,tt0034777,2023-04-05,2023-04-05,,A Gentleman After Dark,https://www.imdb.com/title/tt0034777/,movie,6.6,74,1942,"Adventure, Crime, Drama",122,1942-04-16,Edwin L. Marin,,
+76,tt0034242,2023-04-05,2023-04-05,,Sundown,https://www.imdb.com/title/tt0034242/,movie,5.7,90,1941,"Drama, War",1005,1941-10-16,Henry Hathaway,,
+77,tt0039781,2023-04-05,2023-04-05,,Rocambole,https://www.imdb.com/title/tt0039781/,movie,6.1,105,1947,Drama,26,1947-12-31,Jacques de Baroncelli,,
+78,tt0039774,2023-04-05,2023-04-05,,La revanche de Baccarat,https://www.imdb.com/title/tt0039774/,movie,5.8,95,1947,,11,1947-12-06,Jacques de Baroncelli,,
+79,tt0036413,2023-04-05,2023-04-05,,T'amerò sempre,https://www.imdb.com/title/tt0036413/,movie,6.5,78,1943,"Drama, Romance",42,1943-11-05,Mario Camerini,,
+80,tt0162234,2023-04-05,2023-04-05,,Che distinta famiglia!,https://www.imdb.com/title/tt0162234/,movie,6.0,78,1945,Comedy,14,1945-10-03,Mario Bonnard,,
+81,tt0034894,2023-04-05,2023-04-05,,Incontri di notte,https://www.imdb.com/title/tt0034894/,movie,,92,1943,,,1943-03-17,Nunzio Malasomma,,
+82,tt0040223,2023-04-05,2023-04-05,,La chartreuse de Parme,https://www.imdb.com/title/tt0040223/,movie,7.2,170,1948,"Drama, Romance",513,1948-02-21,Christian-Jaque,,
+83,tt0039059,2023-04-05,2023-04-05,,Ultimo amore,https://www.imdb.com/title/tt0039059/,movie,,106,1947,Drama,,1947-04-05,Luigi Chiarini,,
+84,tt0031146,2023-04-05,2023-04-05,,Centomila dollari,https://www.imdb.com/title/tt0031146/,movie,5.5,83,1940,Comedy,26,1940-03-23,Mario Camerini,,
+85,tt0032865,2023-04-05,2023-04-05,,Oltre l'amore,https://www.imdb.com/title/tt0032865/,movie,4.2,96,1940,Drama,8,1940-09-02,Carmine Gallone,,
+86,tt0038719,2023-04-05,2023-04-05,,Malacarne,https://www.imdb.com/title/tt0038719/,movie,6.2,105,1946,Drama,13,1946-12-12,Pino Mercanti,,
+87,tt0033588,2023-04-05,2023-04-05,,Fari nella nebbia,https://www.imdb.com/title/tt0033588/,movie,7.0,95,1942,Drama,78,1942-02-15,Gianni Franciolini,,
+88,tt0034893,2023-04-05,2023-04-05,,Les Inconnus dans la Maison,https://www.imdb.com/title/tt0034893/,movie,7.0,95,1942,"Crime, Drama",426,1942-05-16,Henri Decoin,,
+89,tt0034936,2023-04-05,2023-04-05,,Keeper of the Flame,https://www.imdb.com/title/tt0034936/,movie,6.7,100,1942,"Drama, Mystery",3118,1942-12-31,George Cukor,,
+90,tt0033127,2023-04-05,2023-04-05,,Sérénade,https://www.imdb.com/title/tt0033127/,movie,6.0,90,1940,Drama,15,1940-02-28,Jean Boyer,,
+91,tt0039039,2023-04-05,2023-04-05,,Il tiranno di Padova,https://www.imdb.com/title/tt0039039/,movie,4.8,,1946,,12,1946-12-28,Max Neufeld,,
+92,tt0039198,2023-04-05,2023-04-05,,Blonde Savage,https://www.imdb.com/title/tt0039198/,movie,4.9,62,1947,"Action, Adventure, Fantasy",200,1947-10-03,Steve Sekely,,
+93,tt0039342,2023-04-05,2023-04-05,,I due orfanelli,https://www.imdb.com/title/tt0039342/,movie,6.1,90,1947,Comedy,158,1947-11-27,Mario Mattoli,,
+94,tt0027887,2023-04-05,2023-04-05,,The Lilac Domino,https://www.imdb.com/title/tt0027887/,movie,6.4,79,1937,"Musical, Romance",16,1937-04-30,Frederic Zelnik,,
+95,tt0215327,2023-04-05,2023-04-05,,Il ventesimo duca,https://www.imdb.com/title/tt0215327/,movie,,78,1945,,,1945-07-15,Lucio De Caro,,
+96,tt0041609,2023-04-05,2023-04-05,,Il lupo della Sila,https://www.imdb.com/title/tt0041609/,movie,6.9,95,1949,Drama,122,1949-12-27,Duilio Coletti,,
+97,tt0038220,2023-04-05,2023-04-05,,Le vie del peccato,https://www.imdb.com/title/tt0038220/,movie,,90,1946,,,1946-10-19,Giorgio Pastina,,
+98,tt0202713,2023-04-05,2023-04-05,,Éternel conflit,https://www.imdb.com/title/tt0202713/,movie,5.7,95,1948,Drama,41,1948-05-26,Georges Lampin,,
+99,tt0026188,2023-04-05,2023-04-05,,Casta diva,https://www.imdb.com/title/tt0026188/,movie,6.1,87,1935,"Biography, Drama, Music",33,1935-06-14,Carmine Gallone,,
+100,tt0036214,2023-04-05,2023-04-05,,Non canto più,https://www.imdb.com/title/tt0036214/,movie,,76,1945,Comedy,,1945-09-30,Riccardo Freda,,
+101,tt0041119,2023-04-05,2023-04-05,,Amori e veleni,https://www.imdb.com/title/tt0041119/,movie,4.7,80,1950,"Adventure, Drama",12,1950-02-21,Giorgio Simonelli,,
+102,tt0037925,2023-04-05,2023-04-05,,Monaca santa,https://www.imdb.com/title/tt0037925/,movie,,85,1949,Drama,,1949-07-31,Guido Brignone,,
+103,tt0041320,2023-04-05,2023-04-05,,Duello senza onore,https://www.imdb.com/title/tt0041320/,movie,,105,1950,Drama,,1950-01-05,Camillo Mastrocinque,,
+104,tt0040244,2023-04-05,2023-04-05,,I contrabbandieri del mare,https://www.imdb.com/title/tt0040244/,movie,,86,1948,,,1948-10-23,Roberto Bianchi Montero,,
+105,tt0042303,2023-04-05,2023-04-05,,Campane a martello,https://www.imdb.com/title/tt0042303/,movie,6.5,109,1949,Drama,132,1949-09-16,Luigi Zampa,,
+106,tt0034882,2023-04-05,2023-04-05,,I Married an Angel,https://www.imdb.com/title/tt0034882/,movie,5.7,84,1942,"Comedy, Fantasy, Music, Musical, Romance",533,1942-07-09,"W.S. Van Dyke, Roy Del Ruth",,
+107,tt0033017,2023-04-05,2023-04-05,,San Giovanni decollato,https://www.imdb.com/title/tt0033017/,movie,6.5,89,1940,Comedy,210,1940-12-12,"Amleto Palermi, Giorgio Bianchi",,
+108,tt0039949,2023-04-05,2023-04-05,,Valahol Európában,https://www.imdb.com/title/tt0039949/,movie,7.6,100,1947,Drama,1045,1947-12-23,Géza von Radványi,,
+109,tt0032728,2023-04-05,2023-04-05,,The Long Voyage Home,https://www.imdb.com/title/tt0032728/,movie,6.9,105,1940,"Drama, War",4748,1940-10-08,John Ford,,
+110,tt0041684,2023-04-05,2023-04-05,,Napoli eterna canzone,https://www.imdb.com/title/tt0041684/,movie,,90,1949,Drama,,,Silvio Siano,,
+111,tt0041739,2023-04-05,2023-04-05,,Patto col diavolo,https://www.imdb.com/title/tt0041739/,movie,,84,1949,Drama,,1949-08-31,Luigi Chiarini,,
+112,tt0033807,2023-04-05,2023-04-05,,The Lady from Cheyenne,https://www.imdb.com/title/tt0033807/,movie,6.1,88,1941,"Comedy, Drama, Western",159,1941-04-11,Frank Lloyd,,
+113,tt0040568,2023-04-05,2023-04-05,,Mare nostrum,https://www.imdb.com/title/tt0040568/,movie,6.3,90,1948,Drama,55,1948-12-21,Rafael Gil,,
+114,tt0041843,2023-04-05,2023-04-05,,Santo disonore,https://www.imdb.com/title/tt0041843/,movie,,90,1950,Drama,,1950-03-24,Guido Brignone,,
+115,tt0041974,2023-04-05,2023-04-05,,Totò cerca casa,https://www.imdb.com/title/tt0041974/,movie,6.5,79,1949,Comedy,511,1949-12-09,"Mario Monicelli, Steno",,
+116,tt0024216,2023-04-06,2023-04-06,,King Kong,https://www.imdb.com/title/tt0024216/,movie,7.9,100,1933,"Adventure, Horror, Sci-Fi",88865,1933-03-02,"Ernest B. Schoedsack, Merian C. Cooper",,
+117,tt0041126,2023-04-06,2023-04-06,,Antonio di Padova,https://www.imdb.com/title/tt0041126/,movie,5.5,81,1949,Drama,18,1949-03-20,Pietro Francisci,,
+118,tt0031876,2023-04-06,2023-04-06,,Angélica,https://www.imdb.com/title/tt0031876/,movie,5.7,95,1939,"Action, Adventure, Western",28,1939-02-17,Jean Choux,,
+119,tt0040640,2023-04-06,2023-04-06,,Nennella,https://www.imdb.com/title/tt0040640/,movie,,,1948,,,,Renato May,,
+120,tt0038492,2023-04-06,2023-04-06,,Dragonwyck,https://www.imdb.com/title/tt0038492/,movie,6.9,103,1946,"Drama, Mystery, Romance, Thriller",5038,1946-04-10,Joseph L. Mankiewicz,,
+121,tt0030725,2023-04-06,2023-04-06,,The Secret of Treasure Island,https://www.imdb.com/title/tt0030725/,movie,4.8,300,1938,"Action, Adventure, Crime, Romance, Sci-Fi, Thriller",222,1938-03-17,Elmer Clifton,,
+122,tt0165938,2023-04-06,2023-04-06,,Secrets of a Co-Ed,https://www.imdb.com/title/tt0165938/,movie,5.3,67,1942,"Crime, Drama, Music",52,1942-10-26,Joseph H. Lewis,,
+123,tt0041991,2023-04-06,2023-04-06,,Il trovatore,https://www.imdb.com/title/tt0041991/,movie,6.5,111,1949,Musical,40,1949-04-16,Carmine Gallone,,
+124,tt0035360,2023-04-06,2023-04-06,,Son of Fury: The Story of Benjamin Blake,https://www.imdb.com/title/tt0035360/,movie,7.1,98,1942,"Drama, Romance",1780,1942-01-29,John Cromwell,,
+125,tt0038279,2023-04-06,2023-04-06,,13 Rue Madeleine,https://www.imdb.com/title/tt0038279/,movie,6.9,95,1947,"Action, Adventure, Drama, Thriller, War",2978,1947-01-15,Henry Hathaway,,
+126,tt0038813,2023-04-06,2023-04-06,,La otra,https://www.imdb.com/title/tt0038813/,movie,7.5,98,1946,"Crime, Drama, Mystery, Thriller",489,1946-11-20,Roberto Gavaldón,,
+127,tt0200523,2023-04-06,2023-04-06,,Celos,https://www.imdb.com/title/tt0200523/,movie,7.2,95,1947,Drama,15,1947-04-23,Mario Soffici,,
+128,tt0022641,2023-04-06,2023-04-06,,As You Desire Me,https://www.imdb.com/title/tt0022641/,movie,6.3,70,1932,"Drama, Romance",746,1932-05-28,George Fitzmaurice,,
+129,tt0037672,2023-04-06,2023-04-06,,The Enchanted Forest,https://www.imdb.com/title/tt0037672/,movie,6.0,78,1945,"Drama, Family",195,1945-12-08,Lew Landers,,
+130,tt0039809,2023-04-06,2023-04-06,,Il segreto di Don Giovanni,https://www.imdb.com/title/tt0039809/,movie,,106,1947,Drama,,1947-11-28,Camillo Mastrocinque,,
+131,tt0043731,2023-04-06,2023-04-06,,La leggenda di Genoveffa,https://www.imdb.com/title/tt0043731/,movie,4.6,95,1952,Drama,11,1952-02-06,Arthur Maria Rabenalt,,
+132,tt0040774,2023-04-06,2023-04-06,,La sepolta viva,https://www.imdb.com/title/tt0040774/,movie,5.7,83,1949,"Drama, History",9,1949-02-23,Guido Brignone,,
+133,tt0038232,2023-04-06,2023-04-06,,Vértigo,https://www.imdb.com/title/tt0038232/,movie,7.7,82,1946,Drama,77,1946-02-14,Antonio Momplet,,
+134,tt0039536,2023-04-06,2023-04-06,,Kiss of Death,https://www.imdb.com/title/tt0039536/,movie,7.4,99,1947,"Crime, Drama, Film-Noir, Thriller",9195,1947-08-13,Henry Hathaway,,
+135,tt0032758,2023-04-06,2023-04-06,,Marco Visconti,https://www.imdb.com/title/tt0032758/,movie,,108,1941,Drama,,1941-03-19,Mario Bonnard,,
+136,tt0038046,2023-04-06,2023-04-06,,"Salome, Where She Danced",https://www.imdb.com/title/tt0038046/,movie,5.4,90,1945,"Adventure, Drama, Music, Romance, War, Western",350,1945-04-17,Charles Lamont,,
+137,tt0207295,2023-04-06,2023-04-06,,L'affaire du collier de la reine,https://www.imdb.com/title/tt0207295/,movie,7.1,118,1946,"Drama, History",85,1946-09-11,Marcel L'Herbier,,
+138,tt0035719,2023-04-06,2023-04-06,,La casa senza tempo,https://www.imdb.com/title/tt0035719/,movie,5.4,85,1945,Mystery,8,1945-10-25,Andrea Forzano,,
+139,tt0041365,2023-04-06,2023-04-06,,La figlia del peccato,https://www.imdb.com/title/tt0041365/,movie,,86,1949,Drama,,,Armando Ingegnero,,
+140,tt0041633,2023-04-06,2023-04-06,,La mano della morta,https://www.imdb.com/title/tt0041633/,movie,5.2,90,1949,Drama,13,,Carlo Campogalliani,,
+141,tt0039615,2023-04-06,2023-04-06,,Les maudits,https://www.imdb.com/title/tt0039615/,movie,7.1,105,1947,"Adventure, Drama, Thriller, War",1083,1947-09-19,René Clément,,
+142,tt0178337,2023-04-06,2023-04-06,,Citizen Saint,https://www.imdb.com/title/tt0178337/,movie,,65,1947,Drama,,1947-05-15,Harold Young,,
+143,tt0041366,2023-04-06,2023-04-06,,La figlia della Madonna,https://www.imdb.com/title/tt0041366/,movie,,,1949,,,1949-09-07,Roberto Bianchi Montero,,
+144,tt0041261,2023-04-06,2023-04-06,,Il conte Ugolino,https://www.imdb.com/title/tt0041261/,movie,6.9,86,1949,Drama,38,1949-11-01,Riccardo Freda,,
+145,tt0024852,2023-04-06,2023-04-06,,Babes in Toyland,https://www.imdb.com/title/tt0024852/,movie,7.1,77,1934,"Comedy, Family, Fantasy, Musical",7267,1934-11-09,"Charley Rogers, Gus Meins",,
+146,tt0130261,2023-04-06,2023-04-06,,Siréna,https://www.imdb.com/title/tt0130261/,movie,6.0,77,1947,Drama,91,1947-04-11,Karel Steklý,,
+147,tt0043075,2023-04-06,2023-04-06,,The Sound of Fury,https://www.imdb.com/title/tt0043075/,movie,7.2,91,1950,"Crime, Drama, Film-Noir, Thriller",1798,1950-11-15,Cy Endfield,,
+148,tt0162292,2023-04-06,2023-04-06,,Don Ricardo Returns,https://www.imdb.com/title/tt0162292/,movie,4.2,63,1946,"Drama, Music, Western",61,1946-11-05,Terry O. Morse,,
+149,tt0134056,2023-04-06,2023-04-06,,Ridin' the Trail,https://www.imdb.com/title/tt0134056/,movie,,57,1940,Western,,1940-07-27,Raymond K. Johnson,,
+150,tt0034431,2023-04-06,2023-04-06,,The Adventures of Martin Eden,https://www.imdb.com/title/tt0034431/,movie,5.9,87,1942,"Action, Adventure, Crime, Drama, Romance",154,1942-02-26,Sidney Salkow,,
+151,tt0038068,2023-04-06,2023-04-06,,La selva de fuego,https://www.imdb.com/title/tt0038068/,movie,6.7,76,1945,"Adventure, Drama",37,1945-12-27,Fernando de Fuentes,,
+152,tt0041344,2023-04-06,2023-04-06,,Il falco rosso,https://www.imdb.com/title/tt0041344/,movie,,87,1949,Drama,,1949-12-05,Carlo Ludovico Bragaglia,,
+153,tt0030107,2023-04-06,2023-04-06,,Ettore Fieramosca,https://www.imdb.com/title/tt0030107/,movie,6.0,93,1938,"Adventure, History, Romance, War",74,1938-12-29,Alessandro Blasetti,,
+154,tt0034672,2023-04-06,2023-04-06,,La donna è mobile,https://www.imdb.com/title/tt0034672/,movie,,76,1942,Comedy,,1942-10-09,Mario Mattoli,,
+155,tt0032811,2023-04-06,2023-04-06,,The Mortal Storm,https://www.imdb.com/title/tt0032811/,movie,7.7,100,1940,Drama,5791,1940-06-13,Frank Borzage,,
+156,tt0039241,2023-04-06,2023-04-06,,Capitan Demonio,https://www.imdb.com/title/tt0039241/,movie,3.8,90,1950,"Adventure, History",9,1950-02-11,Carlo Borghesio,,
+157,tt0041200,2023-04-06,2023-04-06,,Botta e risposta,https://www.imdb.com/title/tt0041200/,movie,5.0,80,1950,Comedy,57,1950-02-18,Mario Soldati,,
+158,tt0038016,2023-04-06,2023-04-06,,Il ratto delle sabine,https://www.imdb.com/title/tt0038016/,movie,6.1,90,1945,Comedy,112,1945-12-04,Mario Bonnard,,
+159,tt0046160,2023-04-06,2023-04-06,,Paolo e Francesca,https://www.imdb.com/title/tt0046160/,movie,5.8,92,1950,"Drama, History",26,1950-02-28,Raffaello Matarazzo,,
+160,tt0038882,2023-04-06,2023-04-06,,Rigoletto,https://www.imdb.com/title/tt0038882/,movie,7.4,105,1946,"Drama, Music, Romance",47,1946-12-31,Carmine Gallone,,
+161,tt0038002,2023-04-06,2023-04-06,,Pronto chi parla?,https://www.imdb.com/title/tt0038002/,movie,,80,1946,"Comedy, Romance",,1946-05-22,Carlo Ludovico Bragaglia,,
+162,tt0039135,2023-04-06,2023-04-06,,L'aigle à deux têtes,https://www.imdb.com/title/tt0039135/,movie,6.6,93,1948,Drama,667,1948-08-31,Jean Cocteau,,
+163,tt0040605,2023-04-06,2023-04-06,,The Glass Mountain,https://www.imdb.com/title/tt0040605/,movie,6.6,99,1949,Drama,297,1949-03-09,Henry Cass,,
+164,tt0026286,2023-04-06,2023-04-06,,Don Bosco,https://www.imdb.com/title/tt0026286/,movie,5.2,90,1936,Biography,24,1936-04-17,Goffredo Alessandrini,,
+165,tt0032935,2023-04-06,2023-04-06,,Der Postmeister,https://www.imdb.com/title/tt0032935/,movie,6.9,92,1940,Drama,206,1940-04-24,Gustav Ucicky,,
+166,tt0032307,2023-04-06,2023-04-06,,"Caravaggio, il pittore maledetto",https://www.imdb.com/title/tt0032307/,movie,,105,1941,Drama,,1941-02-06,Goffredo Alessandrini,,
+167,tt0039086,2023-04-06,2023-04-06,,Voglio bene soltanto a te!,https://www.imdb.com/title/tt0039086/,movie,4.2,,1946,,7,1946-11-12,Giuseppe Fatigati,,
+168,tt0041102,2023-04-06,2023-04-06,,Al diavolo la celebrità,https://www.imdb.com/title/tt0041102/,movie,5.8,90,1949,"Comedy, Fantasy",109,1949-11-18,"Mario Monicelli, Steno",,
+169,tt0041226,2023-04-06,2023-04-06,,Canzoni per le strade,https://www.imdb.com/title/tt0041226/,movie,5.4,88,1950,Drama,17,1950-10-09,Mario Landi,,
+170,tt0032200,2023-04-06,2023-04-06,,"Amami, Alfredo!",https://www.imdb.com/title/tt0032200/,movie,,92,1940,"Drama, Romance",,1940-09-29,Carmine Gallone,,
+171,tt0041925,2023-04-06,2023-04-06,,La strada buia,https://www.imdb.com/title/tt0041925/,movie,5.6,78,1950,"Crime, Drama",42,1950-05-08,"Sidney Salkow, Marino Girolami",,
+172,tt0028221,2023-04-06,2023-04-06,,Le scarpe al sole,https://www.imdb.com/title/tt0028221/,movie,6.1,,1935,"Drama, War",19,1935-08-31,Marco Elter,,
+173,tt0042427,2023-04-06,2023-04-06,,L'edera,https://www.imdb.com/title/tt0042427/,movie,6.8,95,1950,Drama,25,1950-11-29,Augusto Genina,,
+174,tt0032302,2023-04-06,2023-04-06,,Capitan Fracassa,https://www.imdb.com/title/tt0032302/,movie,4.9,90,1940,Adventure,15,1940-11-15,Duilio Coletti,,
+175,tt0033489,2023-04-06,2023-04-06,,La corona di ferro,https://www.imdb.com/title/tt0033489/,movie,6.4,83,1941,"Adventure, Fantasy",415,1941-09-07,Alessandro Blasetti,,
+176,tt0053780,2023-04-06,2023-04-06,,Dolci inganni,https://www.imdb.com/title/tt0053780/,movie,6.8,91,1960,"Drama, Romance",415,1960-10-15,Alberto Lattuada,,
+177,tt0058859,2023-04-06,2023-04-06,,2+5: Missione Hydra,https://www.imdb.com/title/tt0058859/,movie,4.3,89,1966,"Adventure, Sci-Fi",547,1966-10-02,Pietro Francisci,,
+178,tt0060353,2023-04-06,2023-04-06,,I due sanculotti,https://www.imdb.com/title/tt0060353/,movie,6.0,90,1966,,61,1966-12-31,Giorgio Simonelli,,
+179,tt0059121,2023-04-06,2023-04-06,,I due toreri,https://www.imdb.com/title/tt0059121/,movie,5.7,110,1964,Comedy,42,1964-12-31,Giorgio Simonelli,,
+180,tt0057683,2023-04-06,2023-04-06,,Who's Minding the Store?,https://www.imdb.com/title/tt0057683/,movie,6.7,90,1963,Comedy,2701,1963-11-27,Frank Tashlin,,
+181,tt0058452,2023-04-06,2023-04-06,,Parias de la gloire,https://www.imdb.com/title/tt0058452/,movie,5.7,100,1964,"Drama, War",44,1964-04-05,Henri Decoin,,
+182,tt0056048,2023-04-06,2023-04-06,,Gypsy,https://www.imdb.com/title/tt0056048/,movie,7.1,143,1962,"Biography, Comedy, Drama, Musical",6804,1962-11-01,Mervyn LeRoy,,
+183,tt0055906,2023-04-06,2023-04-06,,Diciottenni al sole,https://www.imdb.com/title/tt0055906/,movie,5.4,100,1962,Comedy,123,1962-08-18,Camillo Mastrocinque,,
+184,tt0122597,2023-04-06,2023-04-06,,Maciste contro Ercole nella valle dei guai,https://www.imdb.com/title/tt0122597/,movie,5.2,90,1961,"Comedy, Fantasy, Sci-Fi",94,1961-10-19,Mario Mattoli,,
+185,tt0055214,2023-04-06,2023-04-06,,The Naked Edge,https://www.imdb.com/title/tt0055214/,movie,6.6,97,1961,"Crime, Mystery, Thriller",1404,1961-06-28,Michael Anderson,,
+186,tt0061599,2023-04-06,2023-04-06,,Due marines e un generale,https://www.imdb.com/title/tt0061599/,movie,5.0,96,1965,Comedy,227,1965-12-02,Luigi Scattini,,
+187,tt0059773,2023-04-06,2023-04-06,,Sylvia,https://www.imdb.com/title/tt0059773/,movie,6.6,115,1965,Drama,410,1965-02-10,Gordon Douglas,,
+188,tt0059065,2023-04-06,2023-04-06,,Crack in the World,https://www.imdb.com/title/tt0059065/,movie,5.9,96,1960,"Action, Drama, Sci-Fi, Thriller",2754,1960-08-26,Andrew Marton,,
+189,tt0054847,2023-04-06,2023-04-06,,El Cid,https://www.imdb.com/title/tt0054847/,movie,7.2,182,1961,"Biography, Drama, History, Romance, War",15212,1961-10-24,Anthony Mann,,
+190,tt0154461,2023-04-06,2023-04-06,,Et la femme créa l'amour,https://www.imdb.com/title/tt0154461/,movie,4.4,88,1966,Drama,8,1966-05-25,Fabien Collin,,
+191,tt0054969,2023-04-06,2023-04-06,,Los hermanos Del Hierro,https://www.imdb.com/title/tt0054969/,movie,8.0,95,1961,"Adventure, Drama, Western",320,1961-10-05,Ismael Rodríguez,,
+192,tt0044790,2023-04-06,2023-04-06,,Kansas Territory,https://www.imdb.com/title/tt0044790/,movie,6.7,65,1952,Western,46,1952-05-04,Lewis D. Collins,,
+193,tt0056057,2023-04-06,2023-04-06,,The Happy Thieves,https://www.imdb.com/title/tt0056057/,movie,5.2,88,1961,"Comedy, Crime, Drama",602,1961-12-20,George Marshall,,
+194,tt0056448,2023-04-06,2023-04-06,,Tierra brutal,https://www.imdb.com/title/tt0056448/,movie,4.9,83,1961,"Drama, Romance, Western",230,1961-11-30,Michael Carreras,,
+195,tt0150548,2023-04-06,2023-04-06,,I figli del leopardo,https://www.imdb.com/title/tt0150548/,movie,5.0,95,1965,Comedy,65,1965-04-21,Sergio Corbucci,,
+196,tt0172416,2023-04-06,2023-04-06,,F.B.I. operazione Baalbeck,https://www.imdb.com/title/tt0172416/,movie,5.1,95,1964,"Action, Crime",35,1964-06-30,"Marcello Giannini, Hugo Fregonese",,
+197,tt0040342,2023-04-06,2023-04-06,,Family Honeymoon,https://www.imdb.com/title/tt0040342/,movie,6.3,90,1948,"Comedy, Music, Romance",264,1948-12-06,Claude Binyon,,
+198,tt0050497,2023-04-06,2023-04-06,,Hell Ship Mutiny,https://www.imdb.com/title/tt0050497/,movie,4.9,66,1957,"Action, Adventure, Crime, Romance",125,1957-12-06,"Elmo Williams, Lee Sholem",,
+199,tt0057078,2023-04-06,2023-04-06,,La frusta e il corpo,https://www.imdb.com/title/tt0057078/,movie,6.7,92,1963,"Horror, Romance",4440,1963-08-29,Mario Bava,,
+200,tt0173831,2023-04-06,2023-04-06,,Un figlio d'oggi,https://www.imdb.com/title/tt0173831/,movie,5.8,94,1961,,11,1961-12-31,"Domenico Graziano, Marino Girolami",,
+201,tt0051420,2023-04-06,2023-04-06,,Blood Arrow,https://www.imdb.com/title/tt0051420/,movie,6.4,76,1958,Western,61,1958-04-01,Charles Marquis Warren,,
+202,tt0054870,2023-04-06,2023-04-06,,Il federale,https://www.imdb.com/title/tt0054870/,movie,7.4,102,1961,Comedy,796,1961-08-23,Luciano Salce,,
+203,tt0056951,2023-04-06,2023-04-06,,Constance aux enfers,https://www.imdb.com/title/tt0056951/,movie,6.2,88,1964,"Crime, Mystery",64,1964-02-05,François Villiers,,
+204,tt0058089,2023-04-06,2023-04-06,,Fantômas,https://www.imdb.com/title/tt0058089/,movie,6.9,104,1964,"Adventure, Comedy, Crime, Fantasy",11538,1964-11-04,André Hunebelle,,
+205,tt0042531,2023-04-06,2023-04-06,,The Gunfighter,https://www.imdb.com/title/tt0042531/,movie,7.7,85,1950,Western,12110,1950-05-26,Henry King,,
+206,tt0053752,2023-04-06,2023-04-06,,The Day They Robbed the Bank of England,https://www.imdb.com/title/tt0053752/,movie,6.6,85,1960,"Crime, Drama, Thriller",858,1960-05-17,John Guillermin,,
+207,tt0058140,2023-04-06,2023-04-06,,I giganti di Roma,https://www.imdb.com/title/tt0058140/,movie,4.9,95,1964,"Adventure, War",279,1964-09-10,Antonio Margheriti,,
+208,tt0178516,2023-04-06,2023-04-06,,Goliath e la schiava ribelle,https://www.imdb.com/title/tt0178516/,movie,5.4,105,1963,"Adventure, Drama, Fantasy, History",134,1963-09-05,Mario Caiano,,
+209,tt0032178,2023-04-06,2023-04-06,,20 Mule Team,https://www.imdb.com/title/tt0032178/,movie,6.4,84,1940,Western,267,1940-05-03,Richard Thorpe,,
+210,tt0134668,2023-04-06,2023-04-06,,Il gaucho,https://www.imdb.com/title/tt0134668/,movie,6.8,111,1964,Comedy,364,1964-09-18,Dino Risi,,
+211,tt0056975,2023-04-06,2023-04-06,,Dai tôzoku,https://www.imdb.com/title/tt0056975/,movie,6.2,96,1963,"Action, Adventure, Fantasy",296,1963-10-26,Senkichi Taniguchi,,
+212,tt0296839,2023-04-06,2023-04-06,,Le Sahara brûle,https://www.imdb.com/title/tt0296839/,movie,,103,1961,Adventure,,1961-01-18,Michel Gast,,
+213,tt0059107,2023-04-06,2023-04-06,,Dingaka,https://www.imdb.com/title/tt0059107/,movie,6.7,98,1964,"Drama, Action",97,1964-07-03,Jamie Uys,,
+214,tt0058283,2023-04-06,2023-04-06,,Lady in a Cage,https://www.imdb.com/title/tt0058283/,movie,6.7,94,1964,"Drama, Horror, Thriller",3719,1964-06-10,Walter Grauman,,
+215,tt0052415,2023-04-06,2023-04-06,,The Young Lions,https://www.imdb.com/title/tt0052415/,movie,7.1,167,1958,"Action, Drama, War",8568,1958-04-02,Edward Dmytryk,,
+216,tt0137795,2023-04-06,2023-04-06,,Le grand bluff,https://www.imdb.com/title/tt0137795/,movie,5.2,94,1957,"Comedy, Drama",43,1957-05-15,Patrice Dally,,
+217,tt0052865,2023-04-06,2023-04-06,,Guardatele ma non toccatele,https://www.imdb.com/title/tt0052865/,movie,4.9,90,1959,Comedy,24,1959-12-31,Mario Mattoli,,
+218,tt0056710,2023-04-06,2023-04-06,,Young Guns of Texas,https://www.imdb.com/title/tt0056710/,movie,4.9,78,1962,"Drama, Western",268,1962-11-30,Maury Dexter,,
+219,tt0057396,2023-04-06,2023-04-06,,Palm Springs Weekend,https://www.imdb.com/title/tt0057396/,movie,5.9,100,1963,"Comedy, Drama",1124,1963-11-05,Norman Taurog,,
+220,tt0044419,2023-04-06,2023-04-06,,The Big Sky,https://www.imdb.com/title/tt0044419/,movie,6.9,140,1952,"Adventure, Drama, Western",4625,1952-07-29,Howard Hawks,,
+221,tt0057155,2023-04-06,2023-04-06,,Horror,https://www.imdb.com/title/tt0057155/,movie,5.3,88,1963,Horror,763,1963-06-06,Alberto De Martino,,
+222,tt0207596,2023-04-07,2023-04-07,,Mandrin,https://www.imdb.com/title/tt0207596/,movie,5.4,126,1962,Adventure,56,1962-12-19,Jean-Paul Le Chanois,,
+223,tt0055756,2023-04-07,2023-04-07,,Aprendiendo a morir,https://www.imdb.com/title/tt0055756/,movie,6.0,96,1962,Drama,35,1962-06-04,Pedro Lazaga,,
+224,tt0058229,2023-04-07,2023-04-07,,In ginocchio da te,https://www.imdb.com/title/tt0058229/,movie,6.5,110,1964,"Comedy, Musical",194,1964-12-21,Ettore Maria Fizzarotti,,
+225,tt0058368,2023-04-07,2023-04-07,,Le monocle rit jaune,https://www.imdb.com/title/tt0058368/,movie,6.1,100,1964,"Comedy, Thriller",271,1964-09-16,Georges Lautner,,
+226,tt0059323,2023-04-07,2023-04-07,,Italiani brava gente,https://www.imdb.com/title/tt0059323/,movie,7.1,137,1964,"Drama, History, War",384,1964-09-16,Giuseppe De Santis,,
+227,tt0179881,2023-04-07,2023-04-07,,Intrigo a Los Angeles,https://www.imdb.com/title/tt0179881/,movie,4.4,85,1964,Drama,15,1964-09-22,Romano Ferrara,,
+228,tt0056871,2023-04-07,2023-04-07,,Black Gold,https://www.imdb.com/title/tt0056871/,movie,5.4,98,1962,"Action, Adventure, Romance",84,1962-07-21,Leslie H. Martinson,,
+229,tt0057179,2023-04-07,2023-04-07,,L'incendio di Roma,https://www.imdb.com/title/tt0057179/,movie,4.8,80,1965,Drama,62,1965-03-20,Guido Malatesta,,
+230,tt0056107,2023-04-07,2023-04-07,,L'isola di Arturo,https://www.imdb.com/title/tt0056107/,movie,6.4,93,1962,"Drama, Romance",276,1962-06-13,Damiano Damiani,,
+231,tt0059317,2023-04-07,2023-04-07,,"Io uccido, tu uccidi",https://www.imdb.com/title/tt0059317/,movie,5.8,110,1965,"Comedy, Thriller",82,1965-03-25,Gianni Puccini,,
+232,tt0047163,2023-04-07,2023-04-07,,The Law vs. Billy the Kid,https://www.imdb.com/title/tt0047163/,movie,5.0,72,1954,Western,197,1954-08-01,William Castle,,
+233,tt0059384,2023-04-07,2023-04-07,,Letti sbagliati,https://www.imdb.com/title/tt0059384/,movie,5.2,98,1965,Comedy,70,1965-04-08,Steno,,
+234,tt0053365,2023-04-07,2023-04-07,,Too Hot to Handle,https://www.imdb.com/title/tt0053365/,movie,5.9,90,1960,"Crime, Drama, Romance, Thriller",419,1960-04-16,Terence Young,,
+235,tt0058282,2023-04-07,2023-04-07,,Una lacrima sul viso,https://www.imdb.com/title/tt0058282/,movie,6.5,90,1964,"Comedy, Musical",48,1964-05-21,Ettore Maria Fizzarotti,,
+236,tt0057667,2023-04-07,2023-04-07,,Wall of Noise,https://www.imdb.com/title/tt0057667/,movie,6.1,112,1963,"Drama, Romance",284,1963-09-04,Richard Wilson,,
+237,tt0239594,2023-04-07,2023-04-07,,Toraoji annun haebyong,https://www.imdb.com/title/tt0239594/,movie,6.4,110,1963,"Drama, War",131,1963-04-11,Lee Man-hee,,
+238,tt0058202,2023-04-07,2023-04-07,,Minnesota Clay,https://www.imdb.com/title/tt0058202/,movie,6.0,90,1964,"Action, Drama, War, Western",874,1964-11-12,Sergio Corbucci,,
+239,tt0056632,2023-04-07,2023-04-07,,The Ugly American,https://www.imdb.com/title/tt0056632/,movie,6.6,120,1963,"Adventure, Drama, Thriller",2276,1963-04-02,George Englund,,
+240,tt0057278,2023-04-07,2023-04-07,,Maigret voit rouge,https://www.imdb.com/title/tt0057278/,movie,6.2,87,1963,"Crime, Drama",666,1963-09-18,Gilles Grangier,,
+241,tt0055141,2023-04-07,2023-04-07,,Marco Polo,https://www.imdb.com/title/tt0055141/,movie,5.1,103,1962,Adventure,159,1962-04-13,"Richard McNamara, Piero Pierotti, Hugo Fregonese",,
+242,tt0057890,2023-04-07,2023-04-07,,The Black Torment,https://www.imdb.com/title/tt0057890/,movie,5.9,90,1964,"Horror, Mystery",771,1964-10-15,Robert Hartford-Davis,,
+243,tt0414992,2023-04-07,2023-04-07,,Les fortiches,https://www.imdb.com/title/tt0414992/,movie,4.0,90,1961,Comedy,10,1961-01-04,Georges Combret,,
+244,tt0058312,2023-04-07,2023-04-07,,"Maciste, gladiatore di Sparta",https://www.imdb.com/title/tt0058312/,movie,4.7,103,1964,"Adventure, Drama",223,1964-03-26,Mario Caiano,,
+245,tt0055252,2023-04-07,2023-04-07,,An einem Freitag um halb zwölf,https://www.imdb.com/title/tt0055252/,movie,6.2,93,1961,"Crime, Thriller, Drama",109,1961-02-16,Alvin Rakoff,,
+246,tt0055464,2023-04-07,2023-04-07,,Something Wild,https://www.imdb.com/title/tt0055464/,movie,6.7,113,1961,Drama,1715,1961-12-20,Jack Garfein,,
+247,tt0057891,2023-04-07,2023-04-07,,Blood on the Arrow,https://www.imdb.com/title/tt0057891/,movie,5.0,91,1964,Western,242,1964-10-11,Sidney Salkow,,
+248,tt0056268,2023-04-07,2023-04-07,,Les mystères de Paris,https://www.imdb.com/title/tt0056268/,movie,6.4,110,1962,"Action, Adventure",426,1962-10-04,André Hunebelle,,
+249,tt0057294,2023-04-07,2023-04-07,,Le massaggiatrici,https://www.imdb.com/title/tt0057294/,movie,6.1,95,1962,Comedy,113,1962-09-20,Lucio Fulci,,
+250,tt0290240,2023-04-07,2023-04-07,,Il magnifico gladiatore,https://www.imdb.com/title/tt0290240/,movie,5.3,95,1964,"Action, Adventure, Drama, Romance",101,1964-12-31,Alfonso Brescia,,
+251,tt0058885,2023-04-07,2023-04-07,,002 agenti segretissimi,https://www.imdb.com/title/tt0058885/,movie,5.6,83,1964,"Action, Comedy",180,1964-10-09,Lucio Fulci,,
+252,tt0059517,2023-04-07,2023-04-07,,Non son degno di te,https://www.imdb.com/title/tt0059517/,movie,5.6,116,1965,"Comedy, Musical, Romance",94,1965-12-31,Ettore Maria Fizzarotti,,
+253,tt0054837,2023-04-07,2023-04-07,,Les démons de minuit,https://www.imdb.com/title/tt0054837/,movie,,84,1961,Drama,,1961-12-05,"Marc Allégret, Charles Gérard",,
+254,tt0039737,2023-04-07,2023-04-07,,Pursued,https://www.imdb.com/title/tt0039737/,movie,7.2,101,1947,Western,3692,1947-03-05,Raoul Walsh,,
+255,tt0056375,2023-04-07,2023-04-07,,Der Schwur des Soldaten Pooley,https://www.imdb.com/title/tt0056375/,tvMovie,7.9,70,1961,"Drama, War",13,1961-12-17,Kurt Jung-Alsen,,
+256,tt0051984,2023-04-07,2023-04-07,,Nel blu dipinto di blu,https://www.imdb.com/title/tt0051984/,movie,7.0,103,1961,Comedy,61,1961-04-13,Piero Tellini,,
+257,tt0180026,2023-04-09,2023-04-09,,Operacija Ticijan,https://www.imdb.com/title/tt0180026/,movie,5.6,95,1963,"Action, Thriller",124,1963-07-13,Rados Novakovic,,
+258,tt0061344,2023-04-09,2023-04-09,,Oltraggio al pudore,https://www.imdb.com/title/tt0061344/,movie,7.3,90,1964,Comedy,13,1964-10-09,Silvio Amadio,,
+259,tt0138782,2023-04-09,2023-04-09,,Schüsse im 3/4 Takt,https://www.imdb.com/title/tt0138782/,movie,5.5,92,1965,"Action, Crime, Drama",115,1965-04-09,Alfred Weidenmann,,
+260,tt0054770,2023-04-09,2023-04-09,,The Crimebusters,https://www.imdb.com/title/tt0054770/,movie,6.7,88,1962,"Crime, Drama",29,1962-05-19,Boris Sagal,,
+261,tt0057303,2023-04-09,2023-04-09,,Le meurtrier,https://www.imdb.com/title/tt0057303/,movie,6.2,104,1963,"Crime, Drama, Thriller",173,1963-01-11,Claude Autant-Lara,,
+262,tt0051364,2023-04-09,2023-04-09,,"Another Time, Another Place",https://www.imdb.com/title/tt0051364/,movie,5.8,91,1958,"Drama, Romance, War",854,1958-05-02,Lewis Allen,,
+263,tt0048090,2023-04-09,2023-04-09,,Fort Yuma,https://www.imdb.com/title/tt0048090/,movie,5.3,78,1955,Western,461,1955-10-04,Lesley Selander,,
+264,tt0059248,2023-04-09,2023-04-09,,"Faites vos jeux, mesdames",https://www.imdb.com/title/tt0059248/,movie,5.4,86,1965,Thriller,55,1965-04-05,Marcel Ophüls,,
+265,tt0043711,2023-04-09,2023-04-09,,King of the Bullwhip,https://www.imdb.com/title/tt0043711/,movie,7.1,58,1950,Western,93,1950-12-20,Ron Ormond,,
+266,tt0060483,2023-04-09,2023-04-09,,Gunpoint,https://www.imdb.com/title/tt0060483/,movie,6.1,86,1966,"Drama, Western",829,1966-04-01,Earl Bellamy,,
+267,tt0195173,2023-04-09,2023-04-09,,I predoni del Sahara,https://www.imdb.com/title/tt0195173/,movie,,92,1965,Adventure,,1965-12-31,Guido Malatesta,,
+268,tt0060790,2023-04-09,2023-04-09,,Password: Uccidete agente Gordon,https://www.imdb.com/title/tt0060790/,movie,5.1,95,1966,"Adventure, Action",83,1966-03-30,Sergio Grieco,,
+269,tt0058480,2023-04-09,2023-04-09,,Les plus belles escroqueries du monde,https://www.imdb.com/title/tt0058480/,movie,5.6,108,1964,"Comedy, Crime",498,1964-08-14,"Claude Chabrol, Roman Polanski, Jean-Luc Godard, Ugo Gregoretti, Hiromichi Horikawa",,
+270,tt0058461,2023-04-09,2023-04-09,,Per un pugno di dollari,https://www.imdb.com/title/tt0058461/,movie,7.9,99,1964,"Action, Drama, Western",226502,1964-09-12,Sergio Leone,,
+271,tt0037522,2023-04-09,2023-04-09,,Back to Bataan,https://www.imdb.com/title/tt0037522/,movie,6.6,95,1945,"Drama, War",4286,1945-05-31,Edward Dmytryk,,
+272,tt0059627,2023-04-09,2023-04-09,,Questa volta parliamo di uomini,https://www.imdb.com/title/tt0059627/,movie,6.0,91,1965,"Comedy, Drama",155,1965-03-17,Lina Wertmüller,,
+273,tt0055047,2023-04-09,2023-04-09,,King of Kings,https://www.imdb.com/title/tt0055047/,movie,7.0,168,1961,"Biography, Drama",8639,1961-10-11,Nicholas Ray,,
+274,tt0046231,2023-04-09,2023-04-09,,Recoil,https://www.imdb.com/title/tt0046231/,movie,6.1,79,1953,"Crime, Drama",199,1953-08-31,John Gilling,,
+275,tt0060916,2023-04-09,2023-04-09,,Rose rosse per Angelica,https://www.imdb.com/title/tt0060916/,movie,5.3,110,1966,Adventure,66,1966-02-09,Steno,,
+276,tt0058073,2023-04-09,2023-04-09,,The Evil of Frankenstein,https://www.imdb.com/title/tt0058073/,movie,6.0,84,1964,Horror,4322,1964-05-08,Freddie Francis,,
+277,tt0055377,2023-04-09,2023-04-09,,La rivolta degli schiavi,https://www.imdb.com/title/tt0055377/,movie,5.4,100,1960,Adventure,291,1960-12-30,Nunzio Malasomma,,
+278,tt0056894,2023-04-09,2023-04-09,,Cairo,https://www.imdb.com/title/tt0056894/,movie,5.4,91,1963,"Crime, Drama",322,1963-01-31,Wolf Rilla,,
+279,tt0057443,2023-04-09,2023-04-09,,La ragazza che sapeva troppo,https://www.imdb.com/title/tt0057443/,movie,7.0,86,1963,"Comedy, Horror, Mystery, Romance, Thriller",5084,1963-02-14,Mario Bava,,
+280,tt0055935,2023-04-09,2023-04-09,,Rififi à Tokyo,https://www.imdb.com/title/tt0055935/,movie,5.8,98,1963,"Adventure, Crime, Drama, Romance",157,1963-03-29,Jacques Deray,,
+281,tt0041361,2023-04-09,2023-04-09,,The Fighting Kentuckian,https://www.imdb.com/title/tt0041361/,movie,6.4,100,1949,"Adventure, Drama, Romance, War, Western",3500,1949-09-15,George Waggner,,
+282,tt0058121,2023-04-09,2023-04-09,,Fuerte perdido,https://www.imdb.com/title/tt0058121/,movie,4.5,87,1964,Western,31,1964-12-04,José María Elorrieta,,
+283,tt0056377,2023-04-09,2023-04-09,,A Prize of Arms,https://www.imdb.com/title/tt0056377/,movie,6.7,105,1962,"Crime, Drama",393,1962-10-12,Cliff Owen,,
+284,tt0059681,2023-04-09,2023-04-09,,Saul e David,https://www.imdb.com/title/tt0059681/,movie,5.8,119,1964,"Adventure, Drama",109,1964-12-31,Marcello Baldi,,
+285,tt0047501,2023-04-09,2023-04-09,,Sitting Bull,https://www.imdb.com/title/tt0047501/,movie,5.7,105,1954,"Drama, Western",845,1954-10-06,Sidney Salkow,,
+286,tt0056395,2023-04-09,2023-04-09,,Le rat d'Amérique,https://www.imdb.com/title/tt0056395/,movie,5.4,94,1963,"Adventure, Drama",57,1963-05-22,Jean-Gabriel Albicocco,,
+287,tt0186544,2023-04-09,2023-04-09,,Siamo tutti pomicioni,https://www.imdb.com/title/tt0186544/,movie,5.1,100,1963,Comedy,19,,Marino Girolami,,
+288,tt0055488,2023-04-09,2023-04-09,,Sua Eccellenza si fermò a mangiare,https://www.imdb.com/title/tt0055488/,movie,6.7,101,1961,Comedy,299,1961-04-01,Mario Mattoli,,
+289,tt0056100,2023-04-09,2023-04-09,,Los inocentes,https://www.imdb.com/title/tt0056100/,movie,6.7,105,1963,Drama,114,1963-06-30,Juan Antonio Bardem,,
+290,tt0168201,2023-04-09,2023-04-09,,Super rapina a Milano,https://www.imdb.com/title/tt0168201/,movie,6.0,108,1964,"Crime, Drama",176,1964-12-17,"Piero Vivarelli, Adriano Celentano",,
+291,tt0057540,2023-04-09,2023-04-09,,Il successo,https://www.imdb.com/title/tt0057540/,movie,7.0,104,1963,Comedy,275,1963-09-24,"Mauro Morassi, Dino Risi",,
+292,tt0059098,2023-04-09,2023-04-09,,Desafío en Río Bravo,https://www.imdb.com/title/tt0059098/,movie,5.4,85,1964,"Drama, Western",100,1964-11-19,Tulio Demicheli,,
+293,tt0056485,2023-04-09,2023-04-09,,Shéhérazade,https://www.imdb.com/title/tt0056485/,movie,5.5,124,1963,"Adventure, Drama",189,1963-05-10,Pierre Gaspard-Huit,,
+294,tt0057357,2023-04-09,2023-04-09,,El Naser Salah el Dine,https://www.imdb.com/title/tt0057357/,movie,7.5,194,1963,"Action, Adventure, Drama, History, Romance, War",2816,1963-02-25,Youssef Chahine,,
+295,tt0055260,2023-04-09,2023-04-09,,Operation Bottleneck,https://www.imdb.com/title/tt0055260/,movie,4.8,77,1961,"Drama, War",99,1961-04-08,Edward L. Cahn,,
+296,tt0051179,2023-04-09,2023-04-09,,War Drums,https://www.imdb.com/title/tt0051179/,movie,5.6,75,1957,Western,377,1957-03-21,Reginald Le Borg,,
+297,tt0054236,2023-04-09,2023-04-09,,Recours en grâce,https://www.imdb.com/title/tt0054236/,movie,6.1,97,1960,Drama,74,1960-05-20,Laslo Benedek,,
+298,tt0041947,2023-04-09,2023-04-09,,Tarzan's Magic Fountain,https://www.imdb.com/title/tt0041947/,movie,5.9,73,1949,"Action, Adventure, Fantasy, Romance",635,1949-02-05,Lee Sholem,,
+299,tt0056556,2023-04-09,2023-04-09,,Taras Bulba,https://www.imdb.com/title/tt0056556/,movie,6.3,122,1962,"Adventure, Drama, History, Romance, War",4348,1962-11-21,J. Lee Thompson,,
+300,tt0057840,2023-04-09,2023-04-09,,The Americanization of Emily,https://www.imdb.com/title/tt0057840/,movie,7.3,115,1964,"Comedy, Drama, Romance, War",5501,1964-10-27,Arthur Hiller,,
+301,tt0210354,2023-04-09,2023-04-09,,I terribili 7,https://www.imdb.com/title/tt0210354/,movie,5.7,,1963,"Action, Crime",23,,Raffaello Matarazzo,,
+302,tt0279860,2023-04-09,2023-04-09,,Aventuras de las hermanas X,https://www.imdb.com/title/tt0279860/,movie,6.9,87,1963,"Action, Adventure, Drama, Western",18,1963-04-26,Federico Curiel,,
+303,tt0059760,2023-04-09,2023-04-09,,Uno straniero a Sacramento,https://www.imdb.com/title/tt0059760/,movie,5.2,95,1965,Western,36,1965-06-15,Sergio Bergonzelli,,
+304,tt0057570,2023-04-09,2023-04-09,,Il terrore dei mantelli rossi,https://www.imdb.com/title/tt0057570/,movie,3.9,86,1963,"Adventure, History",24,1963-08-12,Mario Costa,,
+305,tt0380028,2023-04-09,2023-04-09,,Tôkyô antatchaburu,https://www.imdb.com/title/tt0380028/,movie,,93,1962,"Action, Crime",,1962-10-21,Shinji Murayama,,
+306,tt0056470,2023-04-09,2023-04-09,,Sergeants 3,https://www.imdb.com/title/tt0056470/,movie,5.9,112,1962,"Comedy, Western",1303,1962-02-10,John Sturges,,
+307,tt0051201,2023-04-09,2023-04-09,,Witness for the Prosecution,https://www.imdb.com/title/tt0051201/,movie,8.4,116,1957,"Crime, Drama, Mystery, Thriller",132358,1957-12-17,Billy Wilder,,
+308,tt0059784,2023-04-09,2023-04-09,,Te lo leggo negli occhi,https://www.imdb.com/title/tt0059784/,movie,,103,1965,,,,Camillo Mastrocinque,,
+309,tt0057688,2023-04-09,2023-04-09,,Wives and Lovers,https://www.imdb.com/title/tt0057688/,movie,5.8,103,1963,"Comedy, Romance",294,1963-08-28,John Rich,,
+310,tt0062409,2023-04-09,2023-04-09,,Tecnica di una spia,https://www.imdb.com/title/tt0062409/,movie,4.2,82,1966,Crime,30,1966-11-03,Alberto Leonardi,,
+311,tt0059828,2023-04-09,2023-04-09,,I tre sergenti del Bengala,https://www.imdb.com/title/tt0059828/,movie,5.7,97,1964,"Action, Drama, War",76,1964-12-29,Umberto Lenzi,,
+312,tt0058158,2023-04-09,2023-04-09,,Le grain de sable,https://www.imdb.com/title/tt0058158/,movie,6.0,105,1964,Drama,69,1964-11-27,Pierre Kast,,
+313,tt0059690,2023-04-09,2023-04-09,,Se non avessi più te,https://www.imdb.com/title/tt0059690/,movie,5.8,95,1965,Musical,74,1965-12-31,Ettore Maria Fizzarotti,,
+314,tt0251420,2023-04-09,2023-04-09,,Sursis pour un espion,https://www.imdb.com/title/tt0251420/,movie,5.8,79,1965,Drama,34,1965-03-31,Jean Maley,,
+315,tt0057087,2023-04-09,2023-04-09,,Gyangu domei,https://www.imdb.com/title/tt0057087/,movie,6.6,80,1963,Action,18,1963-07-31,Kinji Fukasaku,,
+316,tt0057676,2023-04-09,2023-04-09,,Die weiße Spinne,https://www.imdb.com/title/tt0057676/,movie,6.1,103,1963,"Comedy, Crime, Drama",320,1963-04-05,Harald Reinl,,
+317,tt0136975,2023-04-09,2023-04-09,,Une grosse tête,https://www.imdb.com/title/tt0136975/,movie,5.7,90,1962,Comedy,31,1962-02-09,Claude de Givray,,
+318,tt0057151,2023-04-09,2023-04-09,,"L'honorable Stanislas, agent secret",https://www.imdb.com/title/tt0057151/,movie,5.6,91,1963,Comedy,71,1963-09-04,Jean-Charles Dudrumet,,
+319,tt0056220,2023-04-09,2023-04-09,,La mano de un hombre muerto,https://www.imdb.com/title/tt0056220/,movie,6.0,95,1962,Horror,652,1962-12-31,Jesús Franco,,
+320,tt0057979,2023-04-09,2023-04-09,,Los cuatreros,https://www.imdb.com/title/tt0057979/,movie,4.6,82,1965,Western,14,1965-05-24,Ramón Torrado,,
+321,tt0058525,2023-04-09,2023-04-09,,Rio Conchos,https://www.imdb.com/title/tt0058525/,movie,6.6,107,1964,"Action, Drama, War, Western",2233,1964-10-28,Gordon Douglas,,
+322,tt0051581,2023-04-09,2023-04-09,,Enchanted Island,https://www.imdb.com/title/tt0051581/,movie,4.8,93,1958,"Action, Adventure, Drama, Romance",365,1958-11-08,Allan Dwan,,
+323,tt0059868,2023-04-09,2023-04-09,,A Very Special Favor,https://www.imdb.com/title/tt0059868/,movie,6.2,105,1965,"Comedy, Romance",547,1965-08-02,Michael Gordon,,
+324,tt0032300,2023-04-11,2023-04-11,,Cantate con me,https://www.imdb.com/title/tt0032300/,movie,,83,1940,Comedy,,1940-10-09,Guido Brignone,,
+325,tt0043157,2023-04-11,2023-04-11,,Lo zappatore,https://www.imdb.com/title/tt0043157/,movie,6.6,80,1950,Drama,7,,Rate Furlan,,
+326,tt0036389,2023-04-11,2023-04-11,,La storia di una capinera,https://www.imdb.com/title/tt0036389/,movie,,,1943,Drama,,,Gennaro Righelli,,
+327,tt0038255,2023-04-11,2023-04-11,,Within These Walls,https://www.imdb.com/title/tt0038255/,movie,5.9,71,1945,"Action, Crime, Drama, Romance",45,1945-07-13,H. Bruce Humberstone,,
+328,tt0183476,2023-04-11,2023-04-11,,Malavita,https://www.imdb.com/title/tt0183476/,movie,6.4,95,1951,"Crime, Drama",86,,Rate Furlan,,
+329,tt0041767,2023-04-11,2023-04-11,,Prince of Foxes,https://www.imdb.com/title/tt0041767/,movie,6.9,107,1949,"Adventure, Drama, Romance",1903,1949-11-08,Henry King,,
+330,tt0035168,2023-04-11,2023-04-11,,I pagliacci,https://www.imdb.com/title/tt0035168/,movie,5.2,90,1943,Drama,28,1943-01-23,Giuseppe Fatigati,,
+331,tt0038473,2023-04-11,2023-04-11,,La devoradora,https://www.imdb.com/title/tt0038473/,movie,6.7,117,1946,Drama,52,1946-04-18,Fernando de Fuentes,,
+332,tt0042597,2023-04-11,2023-04-11,,Gli inesorabili,https://www.imdb.com/title/tt0042597/,movie,4.7,97,1950,Drama,34,1950-11-01,"Roberto Savarese, Camillo Mastrocinque",,
+333,tt0032905,2023-04-11,2023-04-11,,Piccolo alpino,https://www.imdb.com/title/tt0032905/,movie,6.6,96,1940,"Drama, War",8,1940-10-20,Oreste Biancoli,,
+334,tt0034090,2023-04-11,2023-04-11,,Regina di Navarra,https://www.imdb.com/title/tt0034090/,movie,,86,1942,Drama,,1942-03-30,Carmine Gallone,,
+335,tt0041232,2023-04-11,2023-04-11,,Catene,https://www.imdb.com/title/tt0041232/,movie,6.7,86,1949,"Crime, Drama",446,1949-10-29,Raffaello Matarazzo,,
+336,tt0040198,2023-04-11,2023-04-11,,Calamità d'oro,https://www.imdb.com/title/tt0040198/,movie,,,1948,,,,Armando Fizzarotti,,
+337,tt0033405,2023-04-11,2023-04-11,,Blood and Sand,https://www.imdb.com/title/tt0033405/,movie,6.8,125,1941,"Drama, Romance, Sport",3027,1941-05-22,Rouben Mamoulian,,
+338,tt0041248,2023-04-11,2023-04-11,,Cielo sulla palude,https://www.imdb.com/title/tt0041248/,movie,6.9,111,1949,"Biography, Drama",140,1949-09-01,Augusto Genina,,
+339,tt0032532,2023-04-11,2023-04-11,,Giuliano de' Medici,https://www.imdb.com/title/tt0032532/,movie,,84,1941,Drama,,1941-02-27,Ladislao Vajda,,
+340,tt0031466,2023-04-11,2023-04-11,,I Take This Woman,https://www.imdb.com/title/tt0031466/,movie,6.4,98,1940,"Drama, Music, Mystery, Romance",689,1940-02-02,"W.S. Van Dyke, Frank Borzage, Josef von Sternberg",,
+341,tt0160794,2023-04-11,2023-04-11,,La route impériale,https://www.imdb.com/title/tt0160794/,movie,5.6,98,1935,Drama,26,1935-02-15,Marcel L'Herbier,,
+342,tt0040389,2023-04-11,2023-04-11,,Giudicatemi!,https://www.imdb.com/title/tt0040389/,movie,,,1948,,,,"Rate Furlan, Guido Brignone, Giorgio Cristallini",,
+343,tt0033964,2023-04-11,2023-04-11,,Nozze di sangue,https://www.imdb.com/title/tt0033964/,movie,6.6,85,1941,"Drama, Romance",7,1941-09-17,Goffredo Alessandrini,,
+344,tt0042904,2023-04-11,2023-04-11,,Romanticismo,https://www.imdb.com/title/tt0042904/,movie,,73,1949,"Drama, History, Romance",,1949-12-14,Clemente Fracassi,,
+345,tt0042297,2023-04-11,2023-04-11,,Il caimano del Piave,https://www.imdb.com/title/tt0042297/,movie,4.3,100,1951,"Drama, War",12,1951-03-07,Giorgio Bianchi,,
+346,tt0043382,2023-04-11,2023-04-11,,Carcerato,https://www.imdb.com/title/tt0043382/,movie,,94,1951,,,1951-03-24,Armando Zorri,,
+347,tt0032365,2023-04-11,2023-04-11,,Creo en Dios,https://www.imdb.com/title/tt0032365/,movie,3.6,105,1941,"Crime, Drama",8,1941-04-09,Fernando de Fuentes,,
+348,tt0039616,2023-04-11,2023-04-11,,Meet Me at Dawn,https://www.imdb.com/title/tt0039616/,movie,5.7,99,1947,"Adventure, Comedy",79,1947-02-17,Thornton Freeland,,
+349,tt0031507,2023-04-11,2023-04-11,,Jesse James,https://www.imdb.com/title/tt0031507/,movie,7.0,106,1939,Western,4814,1939-01-14,"Irving Cummings, Henry King",,
+350,tt0035752,2023-04-11,2023-04-11,,"Le comte de Monte Cristo, 1ère époque: Edmond Dantès",https://www.imdb.com/title/tt0035752/,movie,6.7,90,1943,"Adventure, Drama",185,1943-01-21,Robert Vernay,,
+351,tt0039391,2023-04-11,2023-04-11,,Forever Amber,https://www.imdb.com/title/tt0039391/,movie,6.5,138,1947,"Adventure, Drama, Romance",1540,1947-10-22,"Otto Preminger, John M. Stahl",,
+352,tt0041409,2023-04-11,2023-04-11,,Gente così,https://www.imdb.com/title/tt0041409/,movie,,90,1950,,,1950-01-05,Fernando Cerchio,,
+353,tt0034588,2023-04-11,2023-04-11,,Catene invisibili,https://www.imdb.com/title/tt0034588/,movie,5.2,90,1942,Drama,19,1942-04-01,Mario Mattoli,,
+354,tt0041662,2023-04-11,2023-04-11,,Mr. Belvedere Goes to College,https://www.imdb.com/title/tt0041662/,movie,6.8,83,1949,Comedy,828,1949-04-15,Elliott Nugent,,
+355,tt0037035,2023-04-11,2023-04-11,,Madonna of the Seven Moons,https://www.imdb.com/title/tt0037035/,movie,6.2,110,1945,"Drama, Mystery",577,1945-01-22,Arthur Crabtree,,
+356,tt0037578,2023-04-11,2023-04-11,,Caravan,https://www.imdb.com/title/tt0037578/,movie,6.2,117,1946,"Adventure, Drama, Romance",238,1946-04-13,Arthur Crabtree,,
+357,tt0030393,2023-04-11,2023-04-11,,"Luciano Serra, pilota",https://www.imdb.com/title/tt0030393/,movie,5.9,102,1938,"Drama, War",100,1938-08-08,Goffredo Alessandrini,,
+358,tt0034688,2023-04-11,2023-04-11,,Le due orfanelle,https://www.imdb.com/title/tt0034688/,movie,5.2,85,1942,Drama,14,1942-08-16,Carmine Gallone,,
+359,tt0252083,2023-04-11,2023-04-11,,Venus de fuego,https://www.imdb.com/title/tt0252083/,movie,,,1948,"Drama, Music",,1948-10-29,Jaime Salvador,,
+360,tt0041364,2023-04-11,2023-04-11,,La figlia del mendicante,https://www.imdb.com/title/tt0041364/,movie,,93,1950,Drama,,1950-09-02,Carlo Campogalliani,,
+361,tt0044184,2023-04-11,2023-04-11,,La vendetta di una pazza,https://www.imdb.com/title/tt0044184/,movie,,85,1951,Drama,,1951-11-23,Pino Mercanti,,
+362,tt0043598,2023-04-11,2023-04-11,,La grande rinuncia,https://www.imdb.com/title/tt0043598/,movie,,98,1951,Drama,,1951-09-01,Aldo Vergano,,
+363,tt0039243,2023-04-11,2023-04-11,,Captain from Castile,https://www.imdb.com/title/tt0039243/,movie,6.7,140,1947,"Adventure, Drama",2138,1947-12-25,Henry King,,
+364,tt0197674,2023-04-11,2023-04-11,,Le maître de forges,https://www.imdb.com/title/tt0197674/,movie,6.7,,1948,Drama,11,1948-03-17,Fernand Rivers,,
+365,tt0044183,2023-04-11,2023-04-11,,La vendetta di Aquila Nera,https://www.imdb.com/title/tt0044183/,movie,6.2,97,1951,"Adventure, Drama",65,1951-10-25,Riccardo Freda,,
+366,tt0043287,2023-04-11,2023-04-11,,Anna,https://www.imdb.com/title/tt0043287/,movie,6.6,107,1951,"Drama, Romance",438,1951-12-20,Alberto Lattuada,,
+367,tt0042420,2023-04-11,2023-04-11,,Le due sorelle,https://www.imdb.com/title/tt0042420/,movie,,82,1950,Drama,,1950-12-31,Mario Volpe,,
+368,tt0043473,2023-04-11,2023-04-11,,Donne e briganti,https://www.imdb.com/title/tt0043473/,movie,5.6,85,1950,"Adventure, Drama",45,1950-11-03,Mario Soldati,,
+369,tt0044162,2023-04-11,2023-04-11,,Ultimo incontro,https://www.imdb.com/title/tt0044162/,movie,6.1,89,1951,Drama,43,1951-10-24,Gianni Franciolini,,
+370,tt0032896,2023-04-11,2023-04-11,,La peccatrice,https://www.imdb.com/title/tt0032896/,movie,6.3,88,1940,Drama,48,1940-09-03,Amleto Palermi,,
+371,tt0040946,2023-04-11,2023-04-11,,Wake of the Red Witch,https://www.imdb.com/title/tt0040946/,movie,6.5,106,1948,"Action, Adventure, Romance",2853,1948-12-30,Edward Ludwig,,
+372,tt0043741,2023-04-11,2023-04-11,,Licenza premio,https://www.imdb.com/title/tt0043741/,movie,,91,1951,Comedy,,,Max Neufeld,,
+373,tt0041657,2023-04-11,2023-04-11,,Monastero di Santa Chiara,https://www.imdb.com/title/tt0041657/,movie,7.0,90,1949,Drama,11,1949-03-11,Mario Sequi,,
+374,tt0050625,2023-04-11,2023-04-11,,Last of the Badmen,https://www.imdb.com/title/tt0050625/,movie,5.6,79,1957,Western,166,1957-02-17,Paul Landres,,
+375,tt0057615,2023-04-11,2023-04-11,,Umorismo in nero,https://www.imdb.com/title/tt0057615/,movie,5.5,93,1965,Comedy,42,1965-04-12,"José María Forqué, Claude Autant-Lara, Giancarlo Zagni",,
+376,tt0057917,2023-04-11,2023-04-11,,The Carpetbaggers,https://www.imdb.com/title/tt0057917/,movie,6.5,150,1964,"Drama, Romance",2414,1964-04-09,Edward Dmytryk,,
+377,tt0058712,2023-04-11,2023-04-11,,"Ursus, il terrore dei kirghisi",https://www.imdb.com/title/tt0058712/,movie,4.4,90,1964,"Adventure, Fantasy",252,1964-07-31,"Ruggero Deodato, Antonio Margheriti",,
+378,tt0051349,2023-04-11,2023-04-11,,Ambush at Cimarron Pass,https://www.imdb.com/title/tt0051349/,movie,5.3,73,1958,"Drama, Western",791,1958-02-11,Jodie Copelan,,
+379,tt0056601,2023-04-11,2023-04-11,,The Brain,https://www.imdb.com/title/tt0056601/,movie,5.2,83,1962,"Crime, Horror, Drama, Sci-Fi",342,1962-10-09,Freddie Francis,,
+380,tt0057629,2023-04-11,2023-04-11,,Ursus gladiatore ribelle,https://www.imdb.com/title/tt0057629/,movie,5.3,95,1962,"Action, Adventure, Drama",73,1962-11-15,Domenico Paolella,,
+381,tt0061157,2023-04-11,2023-04-11,,La vita agra,https://www.imdb.com/title/tt0061157/,movie,7.1,104,1964,Comedy,392,1964-04-23,Carlo Lizzani,,
+382,tt0054755,2023-04-11,2023-04-11,,A Cold Wind in August,https://www.imdb.com/title/tt0054755/,movie,6.6,80,1961,Drama,399,1961-05-01,Alexander Singer,,
+383,tt0059836,2023-04-11,2023-04-11,,24 Hours to Kill,https://www.imdb.com/title/tt0059836/,movie,5.0,94,1965,"Drama, Thriller",334,1965-05-28,Peter Bezencenet,,
+384,tt0055717,2023-04-11,2023-04-11,,...und ewig knallen die Räuber,https://www.imdb.com/title/tt0055717/,movie,3.7,95,1962,"Action, Adventure, Comedy",43,1962-12-17,Franz Antel,,
+385,tt0058717,2023-04-11,2023-04-11,,Vengeance,https://www.imdb.com/title/tt0058717/,movie,5.2,79,1964,Western,31,1964-04-01,Dene Hilyard,,
+386,tt0056665,2023-04-11,2023-04-11,,La voglia matta,https://www.imdb.com/title/tt0056665/,movie,6.8,110,1962,"Comedy, Drama, Romance",523,1962-03-15,Luciano Salce,,
+387,tt0191629,2023-04-11,2023-04-11,,Viale della canzone,https://www.imdb.com/title/tt0191629/,movie,5.6,85,1965,"Musical, Animation",15,,Tullio Piacentini,,
+388,tt0059869,2023-04-11,2023-04-11,,Via Veneto,https://www.imdb.com/title/tt0059869/,movie,,,1964,,,1964-04-23,Giuseppe Lipartiti,,
+389,tt0059862,2023-04-11,2023-04-11,,La vendetta di Spartacus,https://www.imdb.com/title/tt0059862/,movie,6.2,105,1964,Adventure,67,1964-09-24,Michele Lupo,,
+390,tt0197997,2023-04-11,2023-04-11,,La vedovella,https://www.imdb.com/title/tt0197997/,movie,6.6,80,1965,Comedy,8,1965-11-17,Silvio Siano,,
+391,tt0061628,2023-04-11,2023-04-11,,Veneri in collegio,https://www.imdb.com/title/tt0061628/,movie,3.8,92,1965,Comedy,24,1965-06-26,Marino Girolami,,
+392,tt0276239,2023-04-11,2023-04-11,,El jinete solitario,https://www.imdb.com/title/tt0276239/,movie,,75,1958,"Drama, Western",,1958-12-18,Rafael Baledón,,
+393,tt0056867,2023-04-11,2023-04-11,,"Bienvenido, padre Murray",https://www.imdb.com/title/tt0056867/,movie,4.2,95,1964,Western,23,1964-08-24,Ramón Torrado,,
+394,tt0055928,2023-04-11,2023-04-11,,Dr. No,https://www.imdb.com/title/tt0055928/,movie,7.2,110,1962,"Action, Adventure, Thriller",174863,1962-10-05,Terence Young,,
+395,tt0058742,2023-04-11,2023-04-11,,Weiße Fracht für Hongkong,https://www.imdb.com/title/tt0058742/,movie,5.1,95,1964,Adventure,56,1964-03-20,"Giorgio Stegani, Helmuth Ashley",,
+396,tt0056652,2023-04-11,2023-04-11,,La venganza del Zorro,https://www.imdb.com/title/tt0056652/,movie,5.7,90,1962,"Adventure, Western",59,1962-06-25,Joaquín Luis Romero Marchent,,
+397,tt0058777,2023-04-11,2023-04-11,,Zulu,https://www.imdb.com/title/tt0058777/,movie,7.7,138,1964,"Drama, History, War",41461,1964-01-22,Cy Endfield,,
+398,tt0056724,2023-04-11,2023-04-11,,Zorro alla corte di Spagna,https://www.imdb.com/title/tt0056724/,movie,6.1,92,1962,"Adventure, Western",62,1962-06-29,Luigi Capuano,,
+399,tt0059800,2023-04-11,2023-04-11,,Thunderball,https://www.imdb.com/title/tt0059800/,movie,6.9,130,1965,"Action, Adventure, Thriller",123951,1965-12-09,Terence Young,,
+400,tt0053018,2023-04-11,2023-04-11,,The Treasure of San Teresa,https://www.imdb.com/title/tt0053018/,movie,5.7,84,1959,"Adventure, Crime, Thriller",111,1959-07-21,Alvin Rakoff,,
+401,tt0058866,2023-04-11,2023-04-11,,A 008 operazione sterminio,https://www.imdb.com/title/tt0058866/,movie,5.0,84,1965,"Action, Drama",163,1965-09-03,Umberto Lenzi,,
+402,tt0059356,2023-04-11,2023-04-11,,Kid Rodelo,https://www.imdb.com/title/tt0059356/,movie,5.6,79,1966,"Drama, Western",133,1966-01-01,Richard Carlson,,
+403,tt0309749,2023-04-11,2023-04-11,,Jusqu'à plus soif,https://www.imdb.com/title/tt0309749/,movie,6.1,110,1962,Drama,13,1962-05-16,Maurice Labro,,
+404,tt0057914,2023-04-11,2023-04-11,,La carga de la policía montada,https://www.imdb.com/title/tt0057914/,movie,5.2,101,1965,"Adventure, Western",25,1965-11-30,Ramón Torrado,,
+405,tt0040533,2023-04-11,2023-04-11,,La leggenda di Faust,https://www.imdb.com/title/tt0040533/,movie,7.1,87,1949,"Drama, Musical",36,1949-09-07,Carmine Gallone,,
+406,tt0036628,2023-04-11,2023-04-11,,Bathing Beauty,https://www.imdb.com/title/tt0036628/,movie,6.4,101,1944,"Comedy, Musical",1812,1944-06-27,George Sidney,,
+407,tt0028505,2023-04-11,2023-04-11,,Wife vs. Secretary,https://www.imdb.com/title/tt0028505/,movie,7.0,88,1936,"Comedy, Drama, Romance",3721,1936-02-28,Clarence Brown,,
+408,tt0025948,2023-04-11,2023-04-11,,Viva Villa!,https://www.imdb.com/title/tt0025948/,movie,6.4,115,1934,Western,1508,1934-04-10,"William A. Wellman, Jack Conway, Howard Hawks",,
+409,tt0037698,2023-04-11,2023-04-11,,The Fighting Guardsman,https://www.imdb.com/title/tt0037698/,movie,5.7,84,1946,"Action, Adventure, Drama, Romance",117,1946-01-04,Henry Levin,,
+410,tt0044607,2023-04-11,2023-04-11,,La favorita,https://www.imdb.com/title/tt0044607/,movie,5.4,88,1952,Drama,79,1952-12-31,Cesare Barlacchi,,
+411,tt0032976,2023-04-11,2023-04-11,,Rebecca,https://www.imdb.com/title/tt0032976/,movie,8.1,130,1940,"Drama, Film-Noir, Mystery, Romance, Thriller",142907,1940-03-21,Alfred Hitchcock,,
+412,tt0039954,2023-04-11,2023-04-11,,Vesna,https://www.imdb.com/title/tt0039954/,movie,7.2,104,1947,"Comedy, Musical, Romance, Sci-Fi",506,1947-07-02,Grigoriy Aleksandrov,,
+413,tt0034998,2023-04-11,2023-04-11,,Lucky Jordan,https://www.imdb.com/title/tt0034998/,movie,6.4,84,1942,Drama,396,1942-11-16,Frank Tuttle,,
+414,tt0043440,2023-04-11,2023-04-11,,Core 'ngrato,https://www.imdb.com/title/tt0043440/,movie,8.3,110,1951,"Drama, Music, Romance",35,1951-10-11,Guido Brignone,,
+415,tt0430467,2023-04-11,2023-04-11,,Piume al vento,https://www.imdb.com/title/tt0430467/,movie,,,1950,Drama,,1950-12-17,Ugo Amadoro,,
+416,tt0039694,2023-04-11,2023-04-11,,The Paradine Case,https://www.imdb.com/title/tt0039694/,movie,6.5,125,1947,"Crime, Drama, Romance, Thriller",12022,1947-12-29,Alfred Hitchcock,,
+417,tt0043993,2023-04-11,2023-04-11,,Santa Lucia Luntana,https://www.imdb.com/title/tt0043993/,movie,,,1951,,,,Aldo Vergano,,
+418,tt0038403,2023-04-11,2023-04-11,,Il cavaliere del sogno,https://www.imdb.com/title/tt0038403/,movie,6.6,99,1947,"Drama, Romance",19,1947-04-21,Camillo Mastrocinque,,
+419,tt0043279,2023-04-11,2023-04-11,,Amo un assassino,https://www.imdb.com/title/tt0043279/,movie,6.2,90,1951,"Crime, Drama, Mystery",24,1951-11-27,Baccio Bandini,,
+420,tt0034956,2023-04-11,2023-04-11,,Labbra serrate,https://www.imdb.com/title/tt0034956/,movie,,80,1942,"Mystery, Thriller",,1942-11-13,Mario Mattoli,,
+421,tt0043674,2023-04-11,2023-04-11,,Incantesimo tragico,https://www.imdb.com/title/tt0043674/,movie,6.3,95,1951,Drama,29,1951-10-13,Mario Sequi,,
+422,tt0042351,2023-04-11,2023-04-11,,Crimen y castigo,https://www.imdb.com/title/tt0042351/,movie,7.1,104,1951,"Drama, Crime",59,1951-07-05,Fernando de Fuentes,,
+423,tt0201055,2023-04-11,2023-04-11,,Salvate mia figlia,https://www.imdb.com/title/tt0201055/,movie,,91,1951,Drama,,,Sergio Corbucci,,
+424,tt0043363,2023-04-11,2023-04-11,,Bullfighter and the Lady,https://www.imdb.com/title/tt0043363/,movie,6.8,87,1951,"Drama, Romance, Sport",657,1951-04-26,Budd Boetticher,,
+425,tt0025191,2023-04-11,2023-04-11,,Golgotha,https://www.imdb.com/title/tt0025191/,movie,6.6,95,1935,"Adventure, Drama",275,1935-04-12,Julien Duvivier,,
+426,tt0041762,2023-04-11,2023-04-11,,La portatrice di pane,https://www.imdb.com/title/tt0041762/,movie,5.1,98,1950,Drama,16,1950-09-14,Maurice Cloche,,
+427,tt0043764,2023-04-11,2023-04-11,,Luna rossa,https://www.imdb.com/title/tt0043764/,movie,,85,1951,Drama,,1951-11-23,Armando Fizzarotti,,
+428,tt21977724,2023-04-11,2023-04-11,,Solo per te,https://www.imdb.com/title/tt21977724/,movie,,85,1938,Music,,1938-12-31,Carmine Gallone,,
+429,tt0042933,2023-04-11,2023-04-11,,La scogliera del peccato,https://www.imdb.com/title/tt0042933/,movie,,94,1951,Drama,,1951-01-29,Roberto Bianchi Montero,,
+430,tt0044484,2023-04-12,2023-04-12,,Carne inquieta,https://www.imdb.com/title/tt0044484/,movie,,,1952,Drama,,1954-04-27,Silvestro Prestifilippo,,
+431,tt0044010,2023-04-12,2023-04-12,,The Sea Hornet,https://www.imdb.com/title/tt0044010/,movie,6.1,84,1951,"Adventure, Crime, Mystery",63,1951-11-06,Joseph Kane,,
+432,tt0041814,2023-04-12,2023-04-12,,La rivale dell'imperatrice,https://www.imdb.com/title/tt0041814/,movie,5.4,95,1951,Drama,36,1951-02-22,"Sidney Salkow, Jacopo Comin",,
+433,tt0029818,2023-04-12,2023-04-12,,Zorro Rides Again,https://www.imdb.com/title/tt0029818/,movie,6.3,212,1937,"Family, Western",325,1937-11-20,"John English, William Witney",,
+434,tt0042579,2023-04-12,2023-04-12,,House by the River,https://www.imdb.com/title/tt0042579/,movie,7.1,83,1950,"Crime, Drama, Film-Noir, Thriller",3909,1950-03-23,Fritz Lang,,
+435,tt0044817,2023-04-12,2023-04-12,,Lady Possessed,https://www.imdb.com/title/tt0044817/,movie,5.9,87,1952,"Mystery, Romance, Thriller",46,1952-01-08,"Roy Kellino, William Spier",,
+436,tt0029453,2023-04-12,2023-04-12,,Pépé le Moko,https://www.imdb.com/title/tt0029453/,movie,7.7,94,1937,"Crime, Drama, Romance",7880,1937-01-28,Julien Duvivier,,
+437,tt0041088,2023-04-12,2023-04-12,,Act of Violence,https://www.imdb.com/title/tt0041088/,movie,7.5,82,1948,"Drama, Film-Noir, Thriller",5530,1948-12-21,Fred Zinnemann,,
+438,tt0044161,2023-04-12,2023-04-12,,L'ultima sentenza,https://www.imdb.com/title/tt0044161/,movie,,90,1951,"Crime, Drama",,1951-11-15,Mario Bonnard,,
+439,tt0038645,2023-04-12,2023-04-12,,Io t'ho incontrata a Napoli,https://www.imdb.com/title/tt0038645/,movie,,74,1946,"Drama, Musical",,1946-04-20,Pietro Francisci,,
+440,tt0033238,2023-04-12,2023-04-12,,Waterloo Bridge,https://www.imdb.com/title/tt0033238/,movie,7.7,108,1940,"Drama, Romance, War",10651,1940-05-16,Mervyn LeRoy,,
+441,tt0044023,2023-04-12,2023-04-12,,I sette nani alla riscossa,https://www.imdb.com/title/tt0044023/,movie,5.5,84,1951,"Comedy, Fantasy, Family",55,1951-11-29,Paolo William Tamburella,,
+442,tt0033026,2023-04-12,2023-04-12,,Scarpe grosse,https://www.imdb.com/title/tt0033026/,movie,5.0,83,1940,,13,1940-10-12,Dino Falconi,,
+443,tt0043416,2023-04-12,2023-04-12,,Clandestino a Trieste,https://www.imdb.com/title/tt0043416/,movie,,90,1951,"Drama, Romance, War",,1951-04-30,Guido Salvini,,
+444,tt0163897,2023-04-12,2023-04-12,,La vispa Teresa,https://www.imdb.com/title/tt0163897/,movie,6.9,84,1943,Comedy,68,1943-09-04,Mario Mattoli,,
+445,tt0035084,2023-04-12,2023-04-12,,La morte civile,https://www.imdb.com/title/tt0035084/,movie,6.5,85,1942,Drama,13,1942-09-23,Ferdinando Maria Poggioli,,
+446,tt0035244,2023-04-12,2023-04-12,,Reap the Wild Wind,https://www.imdb.com/title/tt0035244/,movie,6.6,123,1942,"Action, Adventure, Drama, Romance",3442,1942-03-18,Cecil B. DeMille,,
+447,tt0042461,2023-04-12,2023-04-12,,Filomena Marturano,https://www.imdb.com/title/tt0042461/,movie,7.2,85,1950,Musical,43,1950-01-20,Luis Mottura,,
+448,tt0042947,2023-04-12,2023-04-12,,September Affair,https://www.imdb.com/title/tt0042947/,movie,6.8,104,1950,"Drama, Romance",976,1950-08-25,William Dieterle,,
+449,tt0152086,2023-04-12,2023-04-12,,Profesor Wilczur,https://www.imdb.com/title/tt0152086/,movie,7.4,88,1938,"Drama, Romance",47,1938-10-18,Michal Waszynski,,
+450,tt0043488,2023-04-12,2023-04-12,,I due sergenti,https://www.imdb.com/title/tt0043488/,movie,,76,1951,Comedy,,,Carlo Alberto Chiesa,,
+451,tt0035432,2023-04-12,2023-04-12,,This Gun for Hire,https://www.imdb.com/title/tt0035432/,movie,7.4,81,1942,"Crime, Drama, Film-Noir, Thriller",10304,1942-04-24,Frank Tuttle,,
+452,tt0041362,2023-04-12,2023-04-12,,Fighting Man of the Plains,https://www.imdb.com/title/tt0041362/,movie,6.4,94,1949,Western,525,1949-10-13,Edwin L. Marin,,
+453,tt0023729,2023-04-12,2023-04-12,,1860,https://www.imdb.com/title/tt0023729/,movie,6.6,80,1933,"Drama, History",246,1933-11-12,Alessandro Blasetti,,
+454,tt0034366,2023-04-12,2023-04-12,,Voglio vivere così,https://www.imdb.com/title/tt0034366/,movie,,83,1942,"Musical, Comedy",,1942-01-26,Mario Mattoli,,
+455,tt0030420,2023-04-12,2023-04-12,,Marionette,https://www.imdb.com/title/tt0030420/,movie,6.9,95,1939,"Comedy, Romance",19,1939-01-26,Carmine Gallone,,
+456,tt0045022,2023-04-12,2023-04-12,,Pentimento,https://www.imdb.com/title/tt0045022/,movie,,90,1952,Drama,,1952-02-05,Enzo Di Gianni,,
+457,tt0042446,2023-04-12,2023-04-12,,I falsari,https://www.imdb.com/title/tt0042446/,movie,,90,1951,"Crime, Drama",,1951-09-21,Franco Rossi,,
+458,tt0033062,2023-04-12,2023-04-12,,Slightly Honorable,https://www.imdb.com/title/tt0033062/,movie,6.1,85,1939,"Comedy, Crime, Drama, Music, Mystery",501,1939-12-22,Tay Garnett,,
+459,tt0037574,2023-04-12,2023-04-12,,"Canto, ma sottovoce...",https://www.imdb.com/title/tt0037574/,movie,6.0,85,1946,"Comedy, Romance",10,1946-06-13,Guido Brignone,,
+460,tt0035066,2023-04-12,2023-04-12,,"Miliardi, che follia!",https://www.imdb.com/title/tt0035066/,movie,,85,1942,Comedy,,1942-09-03,Guido Brignone,,
+461,tt0031334,2023-04-12,2023-04-12,,The Four Feathers,https://www.imdb.com/title/tt0031334/,movie,7.4,129,1939,"Adventure, Drama, Romance, War",6430,1939-04-18,Zoltan Korda,,
+462,tt0043828,2023-04-12,2023-04-12,,My Forbidden Past,https://www.imdb.com/title/tt0043828/,movie,6.1,70,1951,"Crime, Drama, Romance",1041,1951-04-21,Robert Stevenson,,
+463,tt0043918,2023-04-12,2023-04-12,,Don Camillo,https://www.imdb.com/title/tt0043918/,movie,7.6,107,1952,Comedy,4702,1952-03-18,Julien Duvivier,,
+464,tt0042826,2023-04-12,2023-04-12,,Outside the Wall,https://www.imdb.com/title/tt0042826/,movie,6.7,80,1950,"Crime, Drama, Film-Noir, Romance, Thriller",276,1950-02-08,Crane Wilbur,,
+465,tt0043945,2023-04-12,2023-04-12,,Quattro rose rosse,https://www.imdb.com/title/tt0043945/,movie,,99,1951,,,,Nunzio Malasomma,,
+466,tt0044572,2023-04-12,2023-04-12,,Due soldi di speranza,https://www.imdb.com/title/tt0044572/,movie,7.0,110,1952,"Comedy, Romance",678,1952-04-10,Renato Castellani,,
+467,tt0026071,2023-04-12,2023-04-12,,Anna Karenina,https://www.imdb.com/title/tt0026071/,movie,7.0,95,1935,"Drama, Music, Romance",5659,1935-08-30,Clarence Brown,,
+468,tt0036482,2023-04-12,2023-04-12,,Uomini e cieli,https://www.imdb.com/title/tt0036482/,movie,7.3,,1947,"Drama, Romance, War",26,1947-01-05,Francesco De Robertis,,
+469,tt0038272,2023-04-12,2023-04-12,,Zigmund Kolosovskiy,https://www.imdb.com/title/tt0038272/,movie,5.5,78,1946,Drama,16,1946-08-15,"Sigizmund Navrotsky, Boris Dmokhovsky",,
+470,tt0031455,2023-04-12,2023-04-12,,The Hunchback of Notre Dame,https://www.imdb.com/title/tt0031455/,movie,7.8,116,1939,"Drama, Romance",11936,1939-08-31,William Dieterle,,
+471,tt0045247,2023-04-12,2023-04-12,,Totò a colori,https://www.imdb.com/title/tt0045247/,movie,7.1,104,1952,Comedy,670,1952-04-08,Steno,,
+472,tt0034660,2023-04-12,2023-04-12,,Don Cesare di Bazan,https://www.imdb.com/title/tt0034660/,movie,5.7,78,1942,"Adventure, Comedy",67,1942-10-04,Riccardo Freda,,
+473,tt0043506,2023-04-12,2023-04-12,,"Era lui, sì, sì!",https://www.imdb.com/title/tt0043506/,movie,5.9,95,1951,Comedy,81,1951-11-23,"Marino Girolami, Vittorio Metz, Marcello Marchesi",,
+474,tt0046063,2023-04-12,2023-04-12,,Melodie immortali - Mascagni,https://www.imdb.com/title/tt0046063/,movie,6.5,96,1952,"Biography, Drama, Musical",33,1952-12-16,Giacomo Gentilomo,,
+475,tt0022958,2023-04-12,2023-04-12,,Grand Hotel,https://www.imdb.com/title/tt0022958/,movie,7.3,112,1932,"Drama, Romance",20344,1932-04-12,Edmund Goulding,,
+476,tt0043108,2023-04-12,2023-04-12,,Vita da cani,https://www.imdb.com/title/tt0043108/,movie,7.2,104,1950,"Comedy, Drama",323,1950-09-30,"Mario Monicelli, Steno",,
+477,tt0038462,2023-04-12,2023-04-12,,Decoy,https://www.imdb.com/title/tt0038462/,movie,6.8,76,1946,"Crime, Drama, Film-Noir, Thriller",2068,1946-09-14,Jack Bernhard,,
+478,tt0033152,2023-04-12,2023-04-12,,The Thief of Bagdad,https://www.imdb.com/title/tt0033152/,movie,7.4,106,1940,"Adventure, Family, Fantasy, Romance",14049,1940-10-14,"Alexander Korda, Ludwig Berger, Tim Whelan, Zoltan Korda, Michael Powell, William Cameron Menzies",,
+479,tt0043142,2023-04-12,2023-04-12,,Woman on the Run,https://www.imdb.com/title/tt0043142/,movie,7.2,77,1950,"Crime, Drama, Film-Noir, Thriller",4537,1950-10-12,Norman Foster,,
+480,tt0043805,2023-04-12,2023-04-12,,Milano miliardaria,https://www.imdb.com/title/tt0043805/,movie,5.5,90,1951,Comedy,61,1951-08-04,"Marino Girolami, Vittorio Metz, Marcello Marchesi",,
+481,tt0043870,2023-04-12,2023-04-12,,O.K. Nerone,https://www.imdb.com/title/tt0043870/,movie,6.7,105,1951,Comedy,92,1951-11-20,Mario Soldati,,
+482,tt0034580,2023-04-12,2023-04-12,,Carmela,https://www.imdb.com/title/tt0034580/,movie,5.9,90,1942,Drama,15,1942-12-03,Flavio Calzavara,,
+483,tt0042960,2023-04-12,2023-04-12,,Side Street,https://www.imdb.com/title/tt0042960/,movie,7.1,83,1949,"Crime, Drama, Film-Noir, Thriller",3220,1949-12-14,Anthony Mann,,
+484,tt0034131,2023-04-12,2023-04-12,,Rossini,https://www.imdb.com/title/tt0034131/,movie,6.1,112,1942,"Biography, Musical",20,1942-10-01,Mario Bonnard,,
+485,tt0039377,2023-04-12,2023-04-12,,Fiesta,https://www.imdb.com/title/tt0039377/,movie,5.9,104,1947,"Drama, Musical, Romance, Sport",614,1947-06-12,Richard Thorpe,,
+486,tt0042634,2023-04-12,2023-04-12,,Key to the City,https://www.imdb.com/title/tt0042634/,movie,6.4,101,1950,"Comedy, Romance",863,1950-02-02,George Sidney,,
+487,tt0142782,2023-04-12,2023-04-12,,Prélude à la gloire,https://www.imdb.com/title/tt0142782/,movie,6.8,95,1950,Drama,27,1950-06-16,Georges Lacombe,,
+488,tt0033490,2023-04-12,2023-04-12,,The Corsican Brothers,https://www.imdb.com/title/tt0033490/,movie,6.5,111,1941,"Adventure, Music, Romance",742,1941-11-28,Gregory Ratoff,,
+489,tt0041622,2023-04-12,2023-04-12,,Malaya,https://www.imdb.com/title/tt0041622/,movie,6.5,98,1949,"Adventure, Drama, War",1415,1949-12-27,Richard Thorpe,,
+490,tt0043765,2023-04-12,2023-04-12,,Il lupo della frontiera,https://www.imdb.com/title/tt0043765/,movie,,87,1952,Drama,,1952-03-08,Edoardo Anton,,
+491,tt0041838,2023-04-19,2023-04-19,,Samson and Delilah,https://www.imdb.com/title/tt0041838/,movie,6.8,134,1949,"Drama, Family, History, Romance",8619,1949-12-21,Cecil B. DeMille,,
+492,tt0046281,2023-04-19,2023-04-19,,L'esclave,https://www.imdb.com/title/tt0046281/,movie,6.1,99,1953,Drama,18,1953-09-02,Yves Ciampi,,
+493,tt0039106,2023-09-15,2023-09-15,,The Wife of Monte Cristo,https://www.imdb.com/title/tt0039106/,movie,6.0,83,1946,"Adventure, Drama, Romance",104,1946-04-23,Edgar G. Ulmer,,
+494,tt0035993,2023-09-15,2023-09-15,,Hers to Hold,https://www.imdb.com/title/tt0035993/,movie,6.3,94,1943,"Drama, Music, Musical, Romance, War",264,1943-07-16,Frank Ryan,,
+495,tt0036470,2023-09-15,2023-09-15,,L'ultima carrozzella,https://www.imdb.com/title/tt0036470/,movie,6.5,88,1943,Comedy,131,1943-12-31,Mario Mattoli,,
+496,tt0032454,2023-09-15,2023-09-15,,La fanciulla di Portici,https://www.imdb.com/title/tt0032454/,movie,,88,1940,Drama,,1940-10-27,Mario Bonnard,,
+497,tt0035206,2023-09-15,2023-09-15,,The Powers Girl,https://www.imdb.com/title/tt0035206/,movie,6.5,93,1943,"Biography, Drama, Music, Romance",92,1943-01-15,Norman Z. McLeod,,
+498,tt0032920,2023-09-15,2023-09-15,,Il ponte dei sospiri,https://www.imdb.com/title/tt0032920/,movie,5.1,107,1940,Drama,15,1940-06-18,Mario Bonnard,,
+499,tt0038748,2023-09-15,2023-09-15,,Montecassino,https://www.imdb.com/title/tt0038748/,movie,5.9,93,1946,"Drama, War",17,1946-09-15,Arturo Gemmiti,,
+500,tt0031332,2023-09-15,2023-09-15,,Il fornaretto di Venezia,https://www.imdb.com/title/tt0031332/,movie,,73,1939,Drama,,1939-10-23,Duilio Coletti,,
+501,tt0032182,2023-09-15,2023-09-15,,"Addio, giovinezza!",https://www.imdb.com/title/tt0032182/,movie,6.0,94,1940,Comedy,33,1940-12-24,Ferdinando Maria Poggioli,,
+502,tt0036590,2023-09-15,2023-09-15,,Alaska,https://www.imdb.com/title/tt0036590/,movie,5.3,76,1944,"Drama, Western",71,1944-11-18,George Archainbaud,,
+503,tt0032145,2023-09-15,2023-09-15,,Wuthering Heights,https://www.imdb.com/title/tt0032145/,movie,7.5,104,1939,"Drama, Romance",19189,1939-03-24,William Wyler,,
+504,tt0038155,2023-09-15,2023-09-15,,Il testimone,https://www.imdb.com/title/tt0038155/,movie,6.7,98,1946,"Crime, Drama",214,1946-02-15,Pietro Germi,,
+505,tt0038525,2023-09-15,2023-09-15,,Felicità perduta,https://www.imdb.com/title/tt0038525/,movie,,78,1946,"Crime, Drama",,1946-10-21,Filippo Walter Ratti,,
+506,tt0033076,2023-09-15,2023-09-15,,The Son of Monte Cristo,https://www.imdb.com/title/tt0033076/,movie,6.2,102,1940,"Drama, Romance",854,1940-12-05,Rowland V. Lee,,
+507,tt0034687,2023-09-15,2023-09-15,,I due Foscari,https://www.imdb.com/title/tt0034687/,movie,,85,1942,Drama,,1942-10-24,Enrico Fulchignoni,,
+508,tt0033456,2023-09-15,2023-09-15,,La cena delle beffe,https://www.imdb.com/title/tt0033456/,movie,6.7,87,1942,"Drama, Romance",242,1942-02-09,Alessandro Blasetti,,
+509,tt0033449,2023-09-15,2023-09-15,,Capitan Tempesta,https://www.imdb.com/title/tt0033449/,movie,6.0,85,1942,Adventure,17,1942-01-28,Corrado D'Errico,,
+510,tt0036210,2023-09-15,2023-09-15,,O noapte furtunoasa,https://www.imdb.com/title/tt0036210/,movie,7.5,66,1943,Comedy,319,1943-03-22,Jean Georgescu,,
+511,tt0033825,2023-09-15,2023-09-15,,Il leone di Damasco,https://www.imdb.com/title/tt0033825/,movie,4.1,85,1942,Adventure,13,1942-03-31,"Enrico Guazzoni, Corrado D'Errico",,
+512,tt0039072,2023-09-15,2023-09-15,,Un uomo ritorna,https://www.imdb.com/title/tt0039072/,movie,5.6,90,1946,Drama,51,1946-04-21,Max Neufeld,,
+513,tt0039254,2023-09-15,2023-09-15,,Caterina da Siena,https://www.imdb.com/title/tt0039254/,movie,,110,1947,"Biography, History",,,Oreste Palella,,
+514,tt0038301,2023-09-15,2023-09-15,,L'angelo e il diavolo,https://www.imdb.com/title/tt0038301/,movie,,88,1946,Comedy,,1946-09-02,Mario Camerini,,
+515,tt0037576,2023-09-15,2023-09-15,,Captain Kidd,https://www.imdb.com/title/tt0037576/,movie,6.3,90,1945,"Adventure, Biography, Drama, History",1960,1945-11-22,Rowland V. Lee,,
+516,tt0036677,2023-09-15,2023-09-15,,Buffalo Bill,https://www.imdb.com/title/tt0036677/,movie,6.4,90,1944,"Drama, Western",1656,1944-04-13,William A. Wellman,,
+517,tt0031619,2023-09-15,2023-09-15,,The Man in the Iron Mask,https://www.imdb.com/title/tt0031619/,movie,7.0,113,1939,"Adventure, History, Romance",1832,1939-06-26,James Whale,,
+518,tt0037408,2023-09-15,2023-09-15,,Two Girls and a Sailor,https://www.imdb.com/title/tt0037408/,movie,6.6,124,1944,"Comedy, Drama, Music, Romance, War",912,1944-04-27,Richard Thorpe,,
+519,tt0035099,2023-09-15,2023-09-15,,Musica proibita,https://www.imdb.com/title/tt0035099/,movie,7.6,82,1942,"Drama, Romance",13,1942-10-22,Carlo Campogalliani,,
+520,tt0039280,2023-09-15,2023-09-15,,Il corriere del re,https://www.imdb.com/title/tt0039280/,movie,,,1947,Drama,,1947-12-04,Gennaro Righelli,,
+521,tt0031074,2023-09-15,2023-09-15,,Balalaika,https://www.imdb.com/title/tt0031074/,movie,6.2,102,1939,"Musical, Romance",347,1939-12-15,Reinhold Schünzel,,
+522,tt0143686,2023-09-15,2023-09-15,,Miroir,https://www.imdb.com/title/tt0143686/,movie,6.4,90,1947,Drama,105,1947-05-02,Raymond Lamy,,
+523,tt0034762,2023-09-15,2023-09-15,,Fuga a due voci,https://www.imdb.com/title/tt0034762/,movie,7.0,66,1943,"Comedy, Musical",10,1943-02-23,Carlo Ludovico Bragaglia,,
+524,tt0039630,2023-09-15,2023-09-15,,La monaca di Monza,https://www.imdb.com/title/tt0039630/,movie,,94,1947,Drama,,1947-12-31,Raffaello Pacini,,
+525,tt0038840,2023-09-15,2023-09-15,,Pian delle stelle,https://www.imdb.com/title/tt0038840/,movie,,,1946,,,1946-09-18,Giorgio Ferroni,,
+526,tt0037144,2023-09-15,2023-09-15,,Ogni giorno è domenica,https://www.imdb.com/title/tt0037144/,movie,5.6,72,1946,,12,1946-05-15,Mario Baffico,,
+527,tt0032229,2023-09-17,2023-09-17,,Un'avventura di Salvator Rosa,https://www.imdb.com/title/tt0032229/,movie,6.2,97,1939,Adventure,92,1939-12-16,Alessandro Blasetti,,
+528,tt0040480,2023-09-17,2023-09-17,,L'isola di Montecristo,https://www.imdb.com/title/tt0040480/,movie,,90,1948,Drama,,1948-09-07,Mario Sequi,,
+529,tt0045101,2023-09-17,2023-09-17,,Il romanzo della mia vita,https://www.imdb.com/title/tt0045101/,movie,6.1,100,1952,"Biography, Drama",25,1952-12-18,Lionello De Felice,,
