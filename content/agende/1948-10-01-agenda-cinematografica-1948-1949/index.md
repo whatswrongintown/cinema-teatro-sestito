@@ -16,42 +16,40 @@ tags:
 
 In questo articolo esploreremo la stagione cinematografica che va dall'ottobre del 1948 a settembre del 1949, basandoci sull'elenco dei film ritrovati nelle agende cinematografiche del cinema (vedi le immagini nella galleria sotto l'articolo).
 
-Dalle agende cinematografiche del ‘48/‘49, possiamo contare ben 59 film unici proiettati. Il primo film di cui abbiamo la data di proiezione è [Melodia segreta](https://www.imdb.com/title/tt0191305/) (1940) di Claude Orval, proiettato il 6 ottobre 1948. Durante l'anno, se escludiano le repliche, la media di film unici proiettati ogni mese è stata di 5, ma il mese con il maggior numero di pellicole uniche in programmazione è stato febbraio.
+Dalle agende cinematografiche possiamo contare ben 95 film unici proiettati. Il primo film di cui abbiamo la data di proiezione è *[Tua per sempre](https://www.imdb.com/title/tt0035993/)* (1943, F. Ryan), proiettato l'11 febbraio 1948. Durante l'anno, se escludiano le repliche, la media di film unici proiettati ogni mese è stata di 5, ma il mese con il maggior numero di pellicole uniche in programmazione è stato novembre.
 
 
 <img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-1-1.png" width="768" style="display: block; margin: auto;" />
 
-La maggior parte dei film proiettati rientra nel genere drammatico. Tra le particolarità di questa stagione troviamo il film [La casa degli orrori](https://www.imdb.com/title/tt0037793/) (House of Dracula) del 1945 diretto da Erle C. Kenton.
+La maggior parte dei film proiettati rientra nel genere drammatico. Tra le particolarità di questa stagione troviamo il film *[La casa degli orrori](https://www.imdb.com/title/tt0037793/) (House of Dracula)* (1945,E. C. Kenton).
 
 <img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-2-1.png" width="576" style="display: block; margin: auto;" />
 
-Il film con anno di produzione più datato è [Anime alla deriva](https://www.imdb.com/title/tt0023826/) (1933) di Alfred Santell. Il cinema ha dato la possibilità agli spettatori di scoprire e apprezzare capolavori del passato, contribuendo a preservare il patrimonio cinematografico.
+Il film con anno di produzione più datato è *[Anime alla deriva](https://www.imdb.com/title/tt0023826/)* (1933, A. Santell). Il cinema ha dato la possibilità agli spettatori di scoprire e apprezzare capolavori del passato, contribuendo a preservare il patrimonio cinematografico.
 
 <img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-3-1.png" width="768" style="display: block; margin: auto;" />
 
-La durata media dei film proiettati al cinema è di 92 minuti, con i film drammatici che spesso superavano questa media. Tra i film più lunghi, che superavano le due ore abbiamo: [La Certosa di Parma](https://www.imdb.com/title/tt0040223/) (1948) di Christian-Jaque, [Le chiavi del paradiso](https://www.imdb.com/title/tt0036983/) (1944) di John M. Stahl, e [La gondola del diavolo](https://www.imdb.com/title/tt0038570/) (1946) di Carlo Campogalliani. D'altra parte, tra i film più brevi, che duravano quasi un'ora ci sono: [Fiamme sul messico](https://www.imdb.com/title/tt0034993/) (1942) di Sam Newfield, [Il mistero dei tre sosia](https://www.imdb.com/title/tt0033390/) (1942) di Sam Newfield, e [Bionda Selvaggia](https://www.imdb.com/title/tt0039198/) (1947) di Steve Sekely.
+La durata media dei film proiettati al cinema è di 92 minuti, con i film drammatici che spesso superavano questa media. Tra i film più lunghi, che superavano le due ore abbiamo: *[La Certosa di Parma](https://www.imdb.com/title/tt0040223/)* (1948, C. Jaque), *[Le chiavi del paradiso](https://www.imdb.com/title/tt0036983/)* (1944, J. M. Stahl), e *[La gondola del diavolo](https://www.imdb.com/title/tt0038570/)* (1946, C. Campogalliani). D'altra parte, tra i film più brevi, che duravano meno di un'ora ci sono: *[Fiamme sul messico](https://www.imdb.com/title/tt0034993/)* (1942, S. Newfield), *[Il mistero dei tre sosia](https://www.imdb.com/title/tt0033390/)* (1942, S. Newfield), e *[Bionda Selvaggia](https://www.imdb.com/title/tt0039198/)* (1947, S. Sekely).
 
 <img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-4-1.png" width="768" style="display: block; margin: auto;" />
 
-Basandoci sul rating degli utenti di Internet Movie Database, uno dei film più apprezzati di questa stagione è [Vogliamo Vivere](https://www.imdb.com/title/tt0035446/) (1942) del noto regista Ernst Lubitsch. Tra gli altri film di Lubitsch in questa stagione troviamo [La vedova allegra](https://www.imdb.com/title/tt0025493/) (1934).
+Basandoci sul rating degli utenti di Internet Movie Database, uno dei film più apprezzati di questa stagione è *[Vogliamo Vivere](https://www.imdb.com/title/tt0035446/)* (1942) del noto regista Ernst Lubitsch. Tra gli altri film di Lubitsch in questa stagione troviamo *[La vedova allegra](https://www.imdb.com/title/tt0025493/)* (1934).
 
-Tabella 1: I migliori film della stagione '48/'49 secondo gli utenti di IMDb:
+Tabella 1: I migliori film secondo gli utenti di IMDb:
 
-|Titolo              |Anno |Regia                 | IMDb rating|
-|:-------------------|:----|:---------------------|-----------:|
-|[Vogliamo Vivere!](https://www.imdb.com/title/tt0035446/)|1942 |Ernst Lubitsch        |         8.2|
-|[Vertigine](https://www.imdb.com/title/tt0037008/)|1944 |Otto Preminger        |         7.9|
-|[Addio Kira!](https://www.imdb.com/title/tt0034429/)|1942 |Goffredo Alessandrini |         7.4|
-|[Margherita Gauthier](https://www.imdb.com/title/tt0028683/)|1936 |George Cukor          |         7.3|
-|[La vedova allegra](https://www.imdb.com/title/tt0025493/)|1934 |Ernst Lubitsch        |         7.2|
+|Titolo                                   |Anno |Regia               | IMDb rating|
+|:----------------------------------------|:----|:-------------------|-----------:|
+|[Vogliamo Vivere!](https://www.imdb.com/title/tt0035446/)|1942 |Ernst Lubitsch      |         8.2|
+|[Vertigine](https://www.imdb.com/title/tt0037008/)|1944 |Otto Preminger      |         7.9|
+|[Musica proibita](https://www.imdb.com/title/tt0035099/)|1942 |Carlo Campogalliani |         7.6|
+|[La voce nella tempesta (Cime tempestose)](https://www.imdb.com/title/tt0032145/)|1939 |William Wyler       |         7.5|
+|[Una notte tempestosa](https://www.imdb.com/title/tt0036210/)|1943 |Jean Georgescu      |         7.5|
 
-Dei 59 film proiettati in questa stagione, ben 32 sono di produzione Italiana. Tra questi, il più vecchio è [Fiat voluntas dei](https://www.imdb.com/title/tt0026348/) (1936) di Amleto Palermi.
+Dei 95 film proiettati in questa stagione, ben 58 sono di produzione Italiana. Tra questi, il più vecchio è *[Fiat voluntas dei](https://www.imdb.com/title/tt0026348/)* (1936, A. Palermi).
 
-I film con la regia più frequente sono quelli di [Mario Camerini](https://it.wikipedia.org/wiki/Mario_Camerini) con [Centomila dollari](https://www.imdb.com/title/tt0031146/) (1940), [T’amerò sempre](https://www.imdb.com/title/tt0036413/) (1943) e [La figlia del capitano](https://www.imdb.com/title/tt0039381/) (1947). Regista molto popolare dopo l’avvento del cinema sonoro e prima dello scoppio della guerra. Le opere di Camerini sono tipicamente commedie romantiche con trame molto complesse. Nella maggior parte dei casi, i suoi film forniscono una visione ironica e critica della società borghese. I temi principali di Camerini sono le pressioni imposte all'individuo dalla società ei ruoli che le persone sono costrette a svolgere nei rapporti con gli altri.
+I film con la regia più frequente sono quelli di [Mario Camerini](https://it.wikipedia.org/wiki/Mario_Camerini) con *[Centomila dollari](https://www.imdb.com/title/tt0031146/)* (1940), *[T’amerò sempre](https://www.imdb.com/title/tt0036413/)* (1943), *[L'angelo e il diavolo](https://www.imdb.com/title/tt0038301/)* (1946) e *[La figlia del capitano](https://www.imdb.com/title/tt0039381/)* (1947). Regista molto popolare dopo l’avvento del cinema sonoro e prima dello scoppio della guerra. Le opere di Camerini sono tipicamente commedie romantiche con trame molto complesse. Nella maggior parte dei casi, i suoi film forniscono una visione ironica e critica della società borghese. I temi principali di Camerini sono le pressioni imposte all'individuo dalla società ei ruoli che le persone sono costrette a svolgere nei rapporti con gli altri.
 
-I generi cinematografici spaziano dai drammi sentimentali alle commedie, includendo alcuni film appartenenti al genere italiano dei [telefoni bianchi](https://it.wikipedia.org/wiki/Cinema_dei_telefoni_bianchi) come [Ballo al castello](https://www.imdb.com/title/tt0031075/) (1939), [La mia canzone al vento](https://www.imdb.com/title/tt0031642/) (1939), [Incontri di notte](https://www.imdb.com/title/tt0034894/) (1943), e [Fiori d'arancio](https://www.imdb.com/title/tt0036826/) (1944).
-
-Tra i tanti film proiettati in questa stagione cinematografica troviamo [Follie per l’opera](https://www.imdb.com/title/tt0040362/) (1948), un film che ha dato la possibilità alla popolazione locale di conosce l’attrice emergente [Gina Lollobrigida](https://it.wikipedia.org/wiki/Gina_Lollobrigida).
+Tra i tanti film proiettati in questa stagione cinematografica troviamo *[Follie per l’opera](https://www.imdb.com/title/tt0040362/)* (1948, M. Costa), un film che ha dato la possibilità alla popolazione locale di conosce l’attrice emergente [Gina Lollobrigida](https://it.wikipedia.org/wiki/Gina_Lollobrigida).
 
 ## Galleria immagini
 
@@ -61,21 +59,61 @@ Tra i tanti film proiettati in questa stagione cinematografica troviamo [Follie 
 ### Agenda La Settimana Incom 1948-49
 {{< image-gallery gallery_dir="/images/1948_incom" >}}
 
+### Calendario proiezioni 1948
+Nel calendario si riconoscono evidenziati in giallo 38 film.
+{{< image-gallery gallery_dir="/images/1948_01_01_calendario_proiezioni" >}}
+
 ## Lista film
 
 |Data di proiezione |Titolo                                          |
 |:------------------|:-----------------------------------------------|
+|1948-02-11         |[Tua per sempre](https://www.imdb.com/title/tt0035993/)|
+|1948-02-17         |[L'ultima carrozzella](https://www.imdb.com/title/tt0036470/)|
+|1948-02-21         |[La fanciulla di Portici](https://www.imdb.com/title/tt0032454/)|
+|1948-05-01         |[Ciao bellezza!](https://www.imdb.com/title/tt0035206/)|
+|1948-05-03         |[Il conte di Montecristo](https://www.imdb.com/title/tt0035752/)|
+|1948-05-08         |[Rosa di sangue](https://www.imdb.com/title/tt0031876/)|
+|1948-05-10         |[Il ponte dei sospiri](https://www.imdb.com/title/tt0032920/)|
+|1948-05-14         |[Montecassino](https://www.imdb.com/title/tt0038748/)|
+|1948-05-17         |[Fuga a due voci](https://www.imdb.com/title/tt0034762/)|
+|1948-05-21         |[Il fornaretto di Venezia](https://www.imdb.com/title/tt0031332/)|
+|1948-05-24         |[Addio, giovinezza!](https://www.imdb.com/title/tt0032182/)|
+|1948-06-05         |[La contessa di Montecristo](https://www.imdb.com/title/tt0039106/)|
+|1948-06-07         |[Alaska, inferno dell'oro](https://www.imdb.com/title/tt0036590/)|
+|1948-06-11         |[La voce nella tempesta (Cime tempestose)](https://www.imdb.com/title/tt0032145/)|
+|1948-06-13         |[La monaca di Monza](https://www.imdb.com/title/tt0039630/)|
+|1948-06-19         |[Il testimone](https://www.imdb.com/title/tt0038155/)|
+|1948-06-21         |[Pian delle stelle](https://www.imdb.com/title/tt0038840/)|
+|1948-06-26         |[Felicità perduta](https://www.imdb.com/title/tt0038525/)|
+|1948-07-02         |[Il figlio di Montecristo](https://www.imdb.com/title/tt0033076/)|
+|1948-07-09         |[Ogni giorno è domenica](https://www.imdb.com/title/tt0037144/)|
+|1948-07-12         |[I due Foscari](https://www.imdb.com/title/tt0034687/)|
+|1948-07-20         |[La cena delle beffe](https://www.imdb.com/title/tt0033456/)|
+|1948-08-05         |[Una notte tempestosa](https://www.imdb.com/title/tt0036210/)|
+|1948-09-10         |[Capitan Tempesta](https://www.imdb.com/title/tt0033449/)|
+|1948-09-13         |[Il leone di Damasco](https://www.imdb.com/title/tt0033825/)|
+|1948-09-19         |[Un uomo ritorna](https://www.imdb.com/title/tt0039072/)|
+|1948-09-23         |[Caterina da Siena](https://www.imdb.com/title/tt0039254/)|
 |1948-10-06         |[Melodia segreta](https://www.imdb.com/title/tt0191305/)|
 |1948-10-16         |[La mia canzone al vento](https://www.imdb.com/title/tt0031642/)|
 |1948-10-19         |[Ricchezza senza domani](https://www.imdb.com/title/tt0031856/)|
 |1948-10-22         |[La casa degli orrori](https://www.imdb.com/title/tt0037793/)|
 |1948-10-24         |[Follie per l'opera](https://www.imdb.com/title/tt0040362/)|
+|1948-11-01         |[L'angelo e il diavolo](https://www.imdb.com/title/tt0038301/)|
+|1948-11-04         |[Capitan Kidd](https://www.imdb.com/title/tt0037576/)|
 |1948-11-07         |[Vertigine](https://www.imdb.com/title/tt0037008/)|
 |1948-11-09         |[Il sultano rosso](https://www.imdb.com/title/tt0026032/)|
+|1948-11-09         |[Buffalo Bill](https://www.imdb.com/title/tt0036677/)|
 |1948-11-14         |[Torna... a Sorrento](https://www.imdb.com/title/tt0038183/)|
+|1948-11-16         |[La maschera di ferro](https://www.imdb.com/title/tt0031619/)|
+|1948-11-19         |[Due ragazze e un marinaio](https://www.imdb.com/title/tt0037408/)|
 |1948-11-20         |[La vedova allegra](https://www.imdb.com/title/tt0025493/)|
+|1948-11-22         |[Musica proibita](https://www.imdb.com/title/tt0035099/)|
 |1948-11-25         |[Tentazione](https://www.imdb.com/title/tt0039015/)|
+|1948-11-25         |[Il corriere del re](https://www.imdb.com/title/tt0039280/)|
 |1948-11-28         |[Margherita Gauthier](https://www.imdb.com/title/tt0028683/)|
+|1948-12-02         |[Balalaika](https://www.imdb.com/title/tt0031074/)|
+|1948-12-06         |[Maschera di sangue](https://www.imdb.com/title/tt0143686/)|
 |1948-12-08         |[Anime alla deriva](https://www.imdb.com/title/tt0023826/)|
 |1948-12-10         |[Vogliamo Vivere!](https://www.imdb.com/title/tt0035446/)|
 |1948-12-31         |[Le chiavi del paradiso](https://www.imdb.com/title/tt0036983/)|
