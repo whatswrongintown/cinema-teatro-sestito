@@ -1,0 +1,39 @@
+---
+title: Agenda Incam 1949-50
+author: Vito Sestito
+date: '1949-10-01'
+slug: agenda-incam-1949-50
+categories:
+  - Agende
+  - Proiezioni
+tags:
+  - AgendaCinematografica
+  - CinemaTeatroSestito
+  - FilmItaliani
+  - Film
+  - Storia
+---
+{{< image-gallery gallery_dir="/images/1949_10_01_incam_1949_50" >}}
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(tidyverse)
+
+agende <- read_csv("C:/Users/eurhope/Documents/R/cinema-teatro-sestito/static/data/programmazione_agende.csv") %>%
+          select(const, date, title, source)
+
+imdb <- read_csv("C:/Users/eurhope/Documents/R/cinema-teatro-sestito/static/data/programmazione_imdb.csv") %>%
+          select(const = Const, year = Year, directors = Directors, genres = Genres, imdb_rating = `IMDb Rating`, runtime = `Runtime (mins)`, url = URL)
+
+incam_1949_50 <- agende %>%
+          filter(str_detect(source, "Incam 1949-50")) %>%
+          left_join(imdb, by = "const")
+```
+### Lista film
+```{r echo=FALSE}
+incam_1949_50 %>%
+          arrange(date) %>%
+  mutate(title = paste0("[",title,"]","(",url,")")) %>%
+          select(date, title) %>%
+          knitr::kable(col.names = c("Data di proiezione", "Titolo"), align = c("l", "l", "l"))
+```
