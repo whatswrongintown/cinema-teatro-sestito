@@ -13,9 +13,7 @@ tags:
   - Film
   - StoriaDelCinema
 ---
-Nel calendario del 1948 si riconoscono evidenziati in giallo 38 film.
 {{< image-gallery gallery_dir="/images/1948_01_01_calendario_proiezioni" >}}
-
 
 ### Lista film
 
