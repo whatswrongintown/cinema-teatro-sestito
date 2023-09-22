@@ -11,7 +11,7 @@ Unisciti per celebrare la magia del cinema e il lascito di [Vito Sestito](/2023/
 
 Prima volta qui? esplora le varie sezioni:
 * [Articoli](/post/)
-* [Film proiettati](/agende/)
+* [Agende cinematografiche](/agende/)
 * [Documenti storici](/documents/)
 
 Non hai trovato quello che cerchi?  

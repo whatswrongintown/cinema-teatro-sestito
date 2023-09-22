@@ -1,0 +1,129 @@
+---
+title: Agenda Cinematografica 1948-1949
+author: Vito Sestito
+date: '1948-10-01'
+slug: agenda-cinematografica-1948-1949
+categories:
+  - Agende
+tags:
+  - AgendaCinematografica
+  - Cinema
+  - Film
+  - Fincine
+  - settimanaincom
+  - StoriaDelCinema
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(tidyverse)
+library(ggrepel)
+
+agende <- read_csv("C:/Users/eurhope/Documents/R/cinema-teatro-sestito/static/data/programmazione_agende.csv") %>%
+          select(const, date, title)
+
+imdb <- read_csv("C:/Users/eurhope/Documents/R/cinema-teatro-sestito/static/data/programmazione_imdb.csv") %>%
+          select(const = Const, year = Year, directors = Directors, genres = Genres, imdb_rating = `IMDb Rating`, runtime = `Runtime (mins)`, url = URL)
+
+agenda_48_49 <- agende %>%
+          filter(date <= "1949-09-30") %>%
+          left_join(imdb, by = "const") %>%
+          arrange(date) %>%
+          group_by(const) %>%
+          mutate(count = 1:n()) %>%
+          ungroup() %>%
+          filter(count == 1)
+```
+In questo articolo esploreremo la stagione cinematografica che va dall'ottobre del 1948 a settembre del 1949, basandoci sull'elenco dei film ritrovati nelle agende cinematografiche del cinema (vedi le immagini nella galleria sotto l'articolo).
+
+Dalle agende cinematografiche possiamo contare ben 95 film unici proiettati. Il primo film di cui abbiamo la data di proiezione è *[Tua per sempre](https://www.imdb.com/title/tt0035993/)* (1943, F. Ryan), proiettato l'11 febbraio 1948. Durante l'anno, se escludiano le repliche, la media di film unici proiettati ogni mese è stata di 5, ma il mese con il maggior numero di pellicole uniche in programmazione è stato novembre.
+
+
+```{r echo=FALSE, fig.height = 2.5, fig.width = 8, fig.align = "center", warning = FALSE}
+agenda_48_49 %>% ggplot(aes(format(date, "%m"))) +
+          geom_bar(stat = "count") +
+          geom_text(aes(label = ..count..), stat = "count", vjust = 1.5, colour = "white") +
+          facet_grid(~ format(date, "%Y"), space="free_x", scales="free_x", switch="x") +
+          labs(x = "Stagione Cinematografica 1948-49", y = "Frequenza") +
+          theme_classic() +
+          theme(strip.placement = "outside",
+                strip.background = element_blank(),
+                panel.spacing=unit(0,"cm"))
+
+```
+
+La maggior parte dei film proiettati rientra nel genere drammatico. Tra le particolarità di questa stagione troviamo il film *[La casa degli orrori](https://www.imdb.com/title/tt0037793/) (House of Dracula)* (1945,E. C. Kenton).
+
+```{r echo=FALSE, fig.height = 2.5, fig.width = 6, fig.align = "center", warning = FALSE}
+agenda_48_49 %>%
+          drop_na(genres) %>%
+          separate(genres, into = c("g1","g2"), sep = ",", extra = "merge", fill = "right") %>%
+mutate(g1 = if_else(g1 == "Fantasy", "Horror", g1)) %>%
+          ggplot(aes(fct_rev(fct_infreq(g1)))) +
+          geom_bar() +
+          geom_text(aes(label = ..count..), stat = "count", hjust = 1.5, colour = "white") +
+          labs(x = "Generi", y = "Frequenza") +
+          coord_flip() +
+          theme_classic()
+```
+
+Il film con anno di produzione più datato è *[Anime alla deriva](https://www.imdb.com/title/tt0023826/)* (1933, A. Santell). Il cinema ha dato la possibilità agli spettatori di scoprire e apprezzare capolavori del passato, contribuendo a preservare il patrimonio cinematografico.
+
+```{r echo=FALSE, fig.height = 2.5, fig.width = 8, fig.align = "center", warning = FALSE}
+agenda_48_49 %>% mutate(year = as_factor(year)) %>%
+          ggplot(aes(year)) +
+          geom_bar() +
+          geom_text(aes(label = ..count..), stat = "count", vjust = 1.5, colour = "white") +
+          labs(x = "Anno di Produzione", y = "Frequenza") +
+          theme_classic()
+```
+
+La durata media dei film proiettati al cinema è di 92 minuti, con i film drammatici che spesso superavano questa media. Tra i film più lunghi, che superavano le due ore abbiamo: *[La Certosa di Parma](https://www.imdb.com/title/tt0040223/)* (1948, C. Jaque), *[Le chiavi del paradiso](https://www.imdb.com/title/tt0036983/)* (1944, J. M. Stahl), e *[La gondola del diavolo](https://www.imdb.com/title/tt0038570/)* (1946, C. Campogalliani). D'altra parte, tra i film più brevi, che duravano meno di un'ora ci sono: *[Fiamme sul messico](https://www.imdb.com/title/tt0034993/)* (1942, S. Newfield), *[Il mistero dei tre sosia](https://www.imdb.com/title/tt0033390/)* (1942, S. Newfield), e *[Bionda Selvaggia](https://www.imdb.com/title/tt0039198/)* (1947, S. Sekely).
+
+```{r echo=FALSE, fig.height = 3.5, fig.width = 8, fig.align = "center", warning = FALSE}
+agenda_48_49 %>% separate(genres, into = c("Generi","g2"), sep = ",", extra = "merge", fill = "right") %>%
+          ggplot(aes(imdb_rating, runtime)) +
+          geom_point(aes(color = Generi)) +
+          geom_text_repel(aes(label = title)) +
+          theme_classic() +
+          labs(x = "IMDb rating", y = "Minuti")
+```
+
+Basandoci sul rating degli utenti di Internet Movie Database, uno dei film più apprezzati di questa stagione è *[Vogliamo Vivere](https://www.imdb.com/title/tt0035446/)* (1942) del noto regista Ernst Lubitsch. Tra gli altri film di Lubitsch in questa stagione troviamo *[La vedova allegra](https://www.imdb.com/title/tt0025493/)* (1934).
+
+Tabella 1: I migliori film secondo gli utenti di IMDb:
+```{r echo=FALSE}
+agenda_48_49 %>%
+          arrange(desc(imdb_rating)) %>%
+          slice_head(n = 5) %>%
+  mutate(title = paste0("[",title,"]","(",url,")")) %>%
+          select(title, year, directors, imdb_rating) %>%
+          knitr::kable(col.names = c("Titolo", "Anno", "Regia", "IMDb rating"), align = c("l", "l", "l", "r"))
+```
+
+Dei 95 film proiettati in questa stagione, ben 58 sono di produzione Italiana. Tra questi, il più vecchio è *[Fiat voluntas dei](https://www.imdb.com/title/tt0026348/)* (1936, A. Palermi).
+
+I film con la regia più frequente sono quelli di [Mario Camerini](https://it.wikipedia.org/wiki/Mario_Camerini) con *[Centomila dollari](https://www.imdb.com/title/tt0031146/)* (1940), *[T’amerò sempre](https://www.imdb.com/title/tt0036413/)* (1943), *[L'angelo e il diavolo](https://www.imdb.com/title/tt0038301/)* (1946) e *[La figlia del capitano](https://www.imdb.com/title/tt0039381/)* (1947). Regista molto popolare dopo l’avvento del cinema sonoro e prima dello scoppio della guerra. Le opere di Camerini sono tipicamente commedie romantiche con trame molto complesse. Nella maggior parte dei casi, i suoi film forniscono una visione ironica e critica della società borghese. I temi principali di Camerini sono le pressioni imposte all'individuo dalla società ei ruoli che le persone sono costrette a svolgere nei rapporti con gli altri.
+
+Tra i tanti film proiettati in questa stagione cinematografica troviamo *[Follie per l’opera](https://www.imdb.com/title/tt0040362/)* (1948, M. Costa), un film che ha dato la possibilità alla popolazione locale di conosce l’attrice emergente [Gina Lollobrigida](https://it.wikipedia.org/wiki/Gina_Lollobrigida).
+
+## Galleria immagini
+
+### Agenda Fincine 1948-49
+{{< image-gallery gallery_dir="/images/1948_fincine" >}}
+
+### Agenda La Settimana Incom 1948-49
+{{< image-gallery gallery_dir="/images/1948_incom" >}}
+
+### Calendario proiezioni 1948
+Nel calendario si riconoscono evidenziati in giallo 38 film.
+{{< image-gallery gallery_dir="/images/1948_01_01_calendario_proiezioni" >}}
+
+## Lista film
+```{r echo=FALSE}
+agenda_48_49 %>%
+          arrange(date) %>%
+  mutate(title = paste0("[",title,"]","(",url,")")) %>%
+          select(date, title) %>%
+          knitr::kable(col.names = c("Data di proiezione", "Titolo"), align = c("l", "l"))
+```

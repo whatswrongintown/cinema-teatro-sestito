@@ -1,0 +1,106 @@
+---
+title: Agenda Cinematografica 1949-1950
+author: Vito Sestito
+date: '1949-10-01'
+slug: agenda-cinematografica-1949-1950
+categories:
+  - Agende
+tags:
+  - AgendaCinematografica
+  - settimanaincom
+  - Storia
+  - CinemaTeatroSestito
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(tidyverse)
+library(ggrepel)
+
+agende <- read_csv("C:/Users/eurhope/Documents/R/cinema-teatro-sestito/static/data/programmazione_agende.csv") %>%
+          select(const, date, title)
+
+imdb <- read_csv("C:/Users/eurhope/Documents/R/cinema-teatro-sestito/static/data/programmazione_imdb.csv") %>%
+          select(const, year, directors, genres, imdb_rating, runtime, url)
+
+agenda_49_50 <- agende %>%
+          filter(date >= "1949-10-01" & date <= "1950-09-30") %>%
+          left_join(imdb, by = "const") %>%
+          arrange(date) %>%
+          group_by(title) %>%
+          mutate(count = 1:n()) %>%
+          ungroup() %>%
+          filter(count == 1)
+```
+La stagione del 1949-1950 è caratterizzata da un'offerta eccezionale di film, con ben 68 proiezioni uniche (una media di 6 al mese). Ottobre si è rivelato il mese più ricco, con ben 10 film, offrendo agli spettatori un'ampia scelta di pellicole da apprezzare.
+
+```{r echo=FALSE, fig.height = 2.5, fig.width = 8, fig.align = "center", warning = FALSE}
+agenda_49_50 %>% ggplot(aes(format(date, "%Y-%m"))) +
+          geom_bar(stat = "count") +
+          geom_text(aes(label = ..count..), stat = "count", vjust = 1.5, colour = "white") +
+          labs(x = "Stagione Cinematografica 1949-50", y = "Frequenza") +
+          theme_classic()
+
+```
+
+Il viaggio cinematografico di questa stagione a San Vito prende il via con [Il ventesimo duca](https://www.imdb.com/title/tt0215327/) (1945) di Lucio de Caro. Tra le particolarità di questa stagione troviamo l'entusiasmante serie [Duello col pirata nero](https://www.imdb.com/title/tt0030725/) (1938) di Elmer Clifton. La serie ha una durata di 5 ore e venne presumibilmente proiettata per l'intera settimana, offrendo agli spettatori un'avventura avvincente e coinvolgente.
+
+Il film con anno di produzione più vecchio è [Come tu mi vuoi](https://www.imdb.com/title/tt0022641/) (1932) di George Fitzmaurice. Ben 12 film proiettati durante questa stagione fanno parte all'anno di produzione 1949, questo indica come i film venivano proiettati immediatamente al cinema senza far passare anni dalla data di distribuzione. Questo rapido processo di distribuzione ha permesso al pubblico di godere di nuove opere cinematografiche e di rimanere aggiornato sulle ultime novità dell'industria del cinema.
+
+```{r echo=FALSE, fig.height = 2.5, fig.width = 8, fig.align = "center", warning = FALSE}
+agenda_49_50 %>% mutate(year = as_factor(year)) %>%
+          ggplot(aes(year)) +
+          geom_bar() +
+          geom_text(aes(label = ..count..), stat = "count", vjust = 1.5, colour = "white") +
+          labs(x = "Anno di Produzione", y = "Frequenza") +
+          theme_classic()
+```
+
+Tra i film proiettati durante questa stagione, spicca il classico senza tempo [King Kong](https://www.imdb.com/title/tt0024216/) del 1933 diretto da Ernest B. Schoedsack e Merian C. Coope. Grazie a una ridistribuzione nei cinema italiani nel 1948, il maestoso gorilla è tornato sul grande schermo, offrendo al pubblico di San Vito una combinazione sapiente di avventura, romanticismo e fantascienza, arricchita da straordinari effetti speciali che hanno regalato un'esperienza unica e senza precedenti.
+
+Un nome che ha risuonato durante questo periodo è quello del regista Guido Brignone. La sua firma si è fatta sentire nella proiezione di tre film drammatici: [Monaca santa](https://www.imdb.com/title/tt0037925/) (1949), [Santo disonore](https://www.imdb.com/title/tt0041843/) (1950), e [La sepolta viva](https://www.imdb.com/title/tt0040774/) (1950). Lo stile distintivo di Brignone avrà forse portato profondità emotiva e narrazioni avvincenti sullo schermo, lasciando un'impronta nel panorama cinematografico del paese.
+
+Se confrontiamo i dati con le classifiche di IMDb. In cima alla lista dei film più amati troviamo [King Kong](https://www.imdb.com/title/tt0024216/) (1933), [Il demone della carne](https://www.imdb.com/title/tt0038232/) (1946), [Bufera mortale](https://www.imdb.com/title/tt0032811/) (1940), [È accaduto in Europa](https://www.imdb.com/title/tt0039949/) (1947), e [Vita rubata](https://www.imdb.com/title/tt0038813/) (1946).
+
+```{r echo=FALSE, fig.height = 3.5, fig.width = 8, fig.align = "center", warning = FALSE}
+agenda_49_50 %>% separate(genres, into = c("Generi","g2"), sep = ",", extra = "merge", fill = "right") %>%
+  filter(runtime < 200) %>%
+          ggplot(aes(imdb_rating, runtime)) +
+          geom_point(aes(color = Generi)) +
+          geom_text_repel(aes(label = title)) +
+          theme_classic() +
+          labs(x = "IMDb rating", y = "Minuti")
+```
+
+La maggior parte dei film proiettati durante questa stagione fanno parte del genere drammatico, seguito dal genere comico e avventuroso.
+
+```{r echo=FALSE, fig.height = 2.5, fig.width = 6, fig.align = "center", warning = FALSE}
+agenda_49_50 %>%
+          drop_na(genres) %>%
+          separate(genres, into = c("g1","g2"), sep = ",", extra = "merge", fill = "right") %>%
+          ggplot(aes(fct_rev(fct_infreq(g1)))) +
+          geom_bar() +
+          geom_text(aes(label = ..count..), stat = "count", hjust = 1.5, colour = "white") +
+          labs(x = "Generi", y = "Frequenza") +
+          coord_flip() +
+          theme_classic()
+```
+
+Tra i 68 film proiettati, ben 28 sono stati prodotti in Italia. Tra questi spicca il primo film di Totò proiettato a San Vito, [Totò cerca casa](https://www.imdb.com/title/tt0041974/) del 1949 diretto da Mario Monicelli e Stefano Vanzina. Sempre di Totò troviamo il film [Il ratto delle sabine](https://www.imdb.com/title/tt0038016/) (1945) di Mario Bonnard.
+
+## Galleria immagini
+
+### Agenda Elettrocarbonium 1949-50
+{{< image-gallery gallery_dir="/images/1949_elettrocarbonium" >}}
+
+### Agenda La Settimana Incom 1949-50
+{{< image-gallery gallery_dir="/images/1949_incom" >}}
+
+## Lista film
+```{r echo=FALSE}
+agenda_49_50 %>%
+          arrange(date) %>%
+  mutate(title = paste0("[",title,"]","(",url,")")) %>%
+          select(date, title) %>%
+          knitr::kable(col.names = c("Data di proiezione", "Titolo"), align = c("l", "l"))
+```

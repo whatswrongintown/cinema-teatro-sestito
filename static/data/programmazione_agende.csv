@@ -1,781 +1,553 @@
-﻿date,const,title,income,source
-1948-02-11,tt0035993,Tua per sempre,,Calendario 1948
-1948-02-17,tt0036470,L'ultima carrozzella,,Calendario 1948
-1948-02-21,tt0032454,La fanciulla di Portici,,Calendario 1948
-1948-05-01,tt0035206,Ciao bellezza!,,Calendario 1948
-1948-05-03,tt0035752,Il conte di Montecristo,,Calendario 1948
-1948-05-08,tt0031876,Rosa di sangue,,Calendario 1948
-1948-05-10,tt0032920,Il ponte dei sospiri,,Calendario 1948
-1948-05-14,tt0038748,Montecassino,,Calendario 1948
-1948-05-17,tt0034762,Fuga a due voci,,Calendario 1948
-1948-05-21,tt0031332,Il fornaretto di Venezia,,Calendario 1948
-1948-05-24,tt0032182,"Addio, giovinezza!",,Calendario 1948
-1948-06-05,tt0039106,La contessa di Montecristo,,Calendario 1948
-1948-06-07,tt0036590,"Alaska, inferno dell'oro",,Calendario 1948
-1948-06-11,tt0032145,La voce nella tempesta (Cime tempestose),,Calendario 1948
-1948-06-13,tt0039630,La monaca di Monza,,Calendario 1948
-1948-06-19,tt0038155,Il testimone,,Calendario 1948
-1948-06-21,tt0038840,Pian delle stelle,,Calendario 1948
-1948-06-26,tt0038525,Felicità perduta,,Calendario 1948
-1948-07-02,tt0033076,Il figlio di Montecristo,,Calendario 1948
-1948-07-09,tt0037144,Ogni giorno è domenica,,Calendario 1948
-1948-07-12,tt0034687,I due Foscari,,Calendario 1948
-1948-07-20,tt0033456,La cena delle beffe,,Calendario 1948
-1948-08-05,tt0036210,Una notte tempestosa,,Calendario 1948
-1948-09-10,tt0033449,Capitan Tempesta,,Calendario 1948
-1948-09-13,tt0033825,Il leone di Damasco,,Calendario 1948
-1948-09-19,tt0039072,Un uomo ritorna,,Calendario 1948
-1948-09-23,tt0039254,Caterina da Siena,,Calendario 1948
-1948-10-06,tt0191305,Melodia segreta,,Incam 1948-49
-1948-10-16,tt0031642,La mia canzone al vento,7930,"Fincine 1948-49, Incam 1948-49"
-1948-10-19,tt0031856,Ricchezza senza domani,6950,Incam 1948-49
-1948-10-22,tt0037793,La casa degli orrori,5500,"Fincine 1948-49, Incam 1948-49"
-1948-10-24,tt0040362,Follie per l'opera,25000,"Fincine 1948-49, Incam 1948-49"
-1948-11-01,tt0038301,L'angelo e il diavolo,,Calendario 1948
-1948-11-04,tt0037576,Capitan Kidd,,Calendario 1948
-1948-11-07,tt0037008,Vertigine,13200,Incam 1948-49
-1948-11-09,tt0026032,Il sultano rosso,3350,Incam 1948-49
-1948-11-09,tt0036677,Buffalo Bill,,Calendario 1948
-1948-11-10,tt0032831,Figlio figlio mio!,,Calendario 1948
-1948-11-14,tt0038183,Torna... a Sorrento,21980,"Fincine 1948-49, Incam 1948-49"
-1948-11-16,tt0031619,La maschera di ferro,,Calendario 1948
-1948-11-19,tt0037408,Due ragazze e un marinaio,,Calendario 1948
-1948-11-20,tt0025493,La vedova allegra,,Fincine 1948-49
-1948-11-22,tt0035099,Musica proibita,,Calendario 1948
-1948-11-25,tt0039015,Tentazione,8000,Incam 1948-49
-1948-11-25,tt0039280,Il corriere del re,,Calendario 1948
-1948-11-28,tt0028683,Margherita Gauthier,21700,"Fincine 1948-49, Incam 1948-49"
-1948-11-30,tt0031094,Belle o brutte si sposan tutte…,,Incam 1948-49
-1948-12-02,tt0031074,Balalaika,,Calendario 1948
-1948-12-03,tt0024249,Angeli senza paradiso,,Fincine 1948-49
-1948-12-06,tt0143686,Maschera di sangue,,Calendario 1948
-1948-12-08,tt0023826,Anime alla deriva,9900,Incam 1948-49
-1948-12-10,tt0035446,Vogliamo Vivere!,,"Calendario 1948, Incam 1948-49"
-1948-12-11,tt0038540,Furia,,Fincine 1948-49
-1948-12-23,tt0036377,Bernadette,,Incam 1948-49
-1948-12-31,tt0036983,Le chiavi del paradiso,8000,Incam 1948-49
-1949-01-01,tt0039682,L'onorevole Angelina,10464,Incam 1948-49
-1949-01-09,tt0039599,Malaspina,,Incam 1948-49
-1949-01-14,tt0038408,Il cantante sconosciuto,17700,Incam 1948-49
-1949-01-18,tt0033431,Il bravo di Venezia,6000,"Fincine 1948-49, Incam 1948-49"
-1949-01-23,tt0039319,Il diavolo bianco,15000,"Fincine 1948-49, Incam 1948-49"
-1949-01-27,tt0032871,Sul sentiero dei mostri,5000,"Fincine 1948-49, Incam 1948-49"
-1949-01-28,tt0033602,Il figlio del corsaro rosso,,Incam 1948-49
-1949-02-01,tt0034331,Gli ultimi filibustieri,12500,Incam 1948-49
-1949-02-02,tt0039854,Sono io l'assassino,6000,Fincine 1948-49
-1949-02-03,tt0047905,La buona fortuna,,Incam 1948-49
-1949-02-06,tt0039381,La figlia del capitano,13000,"Fincine 1948-49, Incam 1948-49"
-1949-02-10,tt0035740,Città senza uomini,6000,"Fincine 1948-49, Incam 1948-49"
-1949-02-13,tt0039256,I cavalieri dalle maschere nere (I beati paoli),13000,"Fincine 1948-49, Incam 1948-49"
-1949-02-16,tt0039004,La sinfonia pastorale,6000,"Fincine 1948-49, Incam 1948-49"
-1949-02-20,tt0039696,Il passatore,13000,"Fincine 1948-49, Incam 1948-49"
-1949-02-23,tt0034023,Piccolo mondo antico,6000,Fincine 1948-49
-1949-02-24,tt0031075,Ballo al castello,10360,Incam 1948-49
-1949-02-27,tt0034803,La Gorgona,8000,"Fincine 1948-49, Incam 1948-49"
-1949-03-01,tt0038300,L'infernale avventura,,Incam 1948-49
-1949-03-02,tt0034993,Fiamme sul Messico,5000,Fincine 1948-49
-1949-03-06,tt0038570,La gondola del diavolo,8000,Fincine 1948-49
-1949-03-09,tt0036826,Fiori d'arancio,3000,Incam 1948-49
-1949-03-10,tt0035260,Rita da Cascia,3000,Fincine 1948-49
-1949-03-13,tt0034581,Carmen,,Incam 1948-49
-1949-03-15,tt0033390,Il mistero dei tre sosia,51675,Incam 1948-49
-1949-03-19,tt0035130,Noi vivi,,Incam 1948-49
-1949-03-23,tt0034429,Addio Kira!,23000,Incam 1948-49
-1949-03-31,tt0026348,Fiat voluntas dei,49500,Incam 1948-49
-1949-04-03,tt0038506,L'eco della gloria,13100,Incam 1948-49
-1949-04-06,tt0039561,Legge di sangue,,Incam 1948-49
-1949-04-09,tt0039086,Voglio bene soltanto a te!,,Incam 1948-49
-1949-04-13,tt0034993,Fiamme sul Messico,,Incam 1948-49
-1949-04-17,tt0038493,Tragico inganno,10300,Incam 1948-49
-1949-04-19,tt0038942,Sinfonia fatale,30350,Incam 1948-49
-1949-04-28,tt0039854,Sono io l'assassino,,Incam 1948-49
-1949-05-01,tt0040344,Fantasmi del mare,,Incam 1948-49
-1949-05-07,tt0037470,La donna della città,,Fincine 1948-49
-1949-05-10,tt0035260,Rita da Cascia,,Fincine 1948-49
-1949-05-15,tt0034777,Io la difendo,,Fincine 1948-49
-1949-05-20,tt0034242,Inferno nel deserto,5300,Incam 1948-49
-1949-05-25,tt0039781,Rocambole,8000,Incam 1948-49
-1949-05-28,tt0039774,La rivincita di Baccarat,8000,Incam 1948-49
-1949-06-03,tt0032383,La belva umana,,Incam 1948-49
-1949-06-05,tt0036413,T'amerò sempre,,Incam 1948-49
-1949-06-08,tt0162234,Che distinta famiglia!,30500,Incam 1948-49
-1949-06-10,tt0034894,Incontri di notte,,Incam 1948-49
-1949-06-18,tt0039352,Eleonora Duse,,Incam 1948-49
-1949-06-25,tt0040223,La Certosa di Parma (amanti senza speranza),,Incam 1948-49
-1949-07-03,tt0039059,Ultimo amore,,"Fincine 1948-49, Incam 1948-49"
-1949-07-09,tt0038570,La gondola del diavolo,,Incam 1948-49
-1949-07-13,tt0031949,Il sogno di Butterfly,,"Fincine 1948-49, Incam 1948-49"
-1949-07-16,tt0034022,Pia de' Tolomei,,"Fincine 1948-49, Incam 1948-49"
-1949-07-20,tt0031146,Centomila dollari,,Fincine 1948-49
-1949-07-22,tt0031642,La mia canzone al vento,,Fincine 1948-49
-1949-07-23,tt0032999,Una romantica avventura,,Incam 1948-49
-1949-07-28,tt0032865,Oltre l'amore,13725,"Fincine 1948-49, Incam 1948-49"
-1949-07-30,tt0038719,Malacarne,,"Fincine 1948-49, Incam 1948-49"
-1949-08-02,tt0033588,Fari nella nebbia,,Incam 1948-49
-1949-08-06,tt0029877,L'argine,,Incam 1948-49
-1949-08-07,tt0029975,La casa del peccato,,Incam 1948-49
-1949-08-07,tt0034893,Gioventù traviata,,Fincine 1948-49
-1949-08-14,tt0034936,Prigioniera di un segreto,,Fincine 1948-49
-1949-08-21,tt0033127,Prigione d'amore,4725,Incam 1948-49
-1949-08-27,tt0039039,Il tiranno di Padova,,Fincine 1948-49
-1949-09-04,tt0039198,Bionda selvaggia,12850,"Fincine 1948-49, Incam 1948-49"
-1949-09-11,tt0039342,I due orfanelli,45400,"Fincine 1948-49, Incam 1948-49"
-1949-09-23,tt0026188,Casta Diva,,Fincine 1948-49
-1949-09-28,tt0027887,Appuntamento alle 5,3300,Incam 1948-49
-1949-10-01,tt0027830,La figlia della jungla,,Fincine 1948-49
-1949-10-04,tt0035559,Sangue viennese,,"Elettrocarbonium 1949-50, Incam 1949-50"
-1949-10-05,tt0215327,Il ventesimo duca,,Fincine 1948-49
-1949-10-07,tt0041609,Il lupo della Sila,,"Elettrocarbonium 1949-50, Incam 1949-50"
-1949-10-12,tt0038220,Le vie del peccato,10200,Incam 1949-50
-1949-10-13,tt0037793,La casa degli orrori,,Fincine 1948-49
-1949-10-19,tt0031642,La mia canzone al vento,,Fincine 1948-49
-1949-10-20,tt0202713,L'eterno conflitto,,Incam 1949-50
-1949-10-21,tt0041119,Amori e veleni,,Incam 1949-50
-1949-10-21,tt0026188,Casta Diva,,Fincine 1948-49
-1949-10-23,tt0037925,Monaca santa,,Fincine 1948-49
-1949-10-27,tt0036214,Non canto più,,Fincine 1948-49
-1949-10-28,tt0028683,Margherita Gauthier,,Incam 1949-50
-1949-10-31,tt0040500,Fuga nella giungla,,Incam 1949-50
-1949-11-04,tt0018054,Il re dei re,,"Elettrocarbonium 1949-50, Incam 1949-50"
-1949-11-06,tt0042303,Campane a martello,,Elettrocarbonium 1949-50
-1949-11-09,tt0034882,Musica sulle nuvole,,Incam 1949-50
-1949-11-11,tt0033017,San Giovanni decollato,,"Elettrocarbonium 1949-50, Incam 1949-50"
-1949-11-16,tt0039949,È accaduto in Europa,,Incam 1949-50
-1949-11-18,tt0024249,Angeli senza paradiso,,Elettrocarbonium 1949-50
-1949-11-22,tt0039015,Tentazione,,Elettrocarbonium 1949-50
-1949-11-23,tt0032728,Lungo viaggio di ritorno,5500,Incam 1949-50
-1949-11-26,tt0041684,Napoli eterna canzone,,"Elettrocarbonium 1949-50, Incam 1949-50"
-1949-11-27,tt0028683,Margherita Gauthier,,Elettrocarbonium 1949-50
-1949-12-02,tt0041739,Patto col diavolo,,Incam 1949-50
-1949-12-04,tt0039039,Il tiranno di Padova,,Elettrocarbonium 1949-50
-1949-12-08,tt0023826,Anime alla deriva,,Elettrocarbonium 1949-50
-1949-12-08,tt0033807,La ribelle del west,7200,Incam 1949-50
-1949-12-09,tt0040568,Alba di sangue,,"Elettrocarbonium 1949-50, Incam 1949-50"
-1949-12-11,tt0038287,"Addio, mia bella Napoli!",,Elettrocarbonium 1949-50
-1949-12-11,tt0025493,La vedova allegra,,Elettrocarbonium 1949-50
-1949-12-14,tt0039403,La fumeria d'oppio,,Incam 1949-50
-1949-12-18,tt0041843,Santo disonore,,Elettrocarbonium 1949-50
-1949-12-23,tt0036377,Bernadette,,Elettrocarbonium 1949-50
-1949-12-24,tt0038882,Rigoletto,,Incam 1949-50
-1949-12-28,tt0039364,Il fabbro del convento,,Incam 1949-50
-1949-12-30,tt0036983,Le chiavi del paradiso,,Elettrocarbonium 1949-50
-1949-12-31,tt0041974,Totò cerca casa,,Incam 1949-50
-1950-01-01,tt0036983,Le chiavi del paradiso,,Incam 1949-50
-1950-01-04,tt0024216,King Kong,,"Elettrocarbonium 1949-50, Incam 1949-50"
-1950-01-06,tt0039364,Il fabbro del convento,,"Elettrocarbonium 1949-50, Incam 1949-50"
-1950-01-07,tt0035360,Il figlio della furia,,Elettrocarbonium 1949-50
-1950-01-14,tt0041126,Antonio di Padova,,"Elettrocarbonium 1949-50, Incam 1949-50"
-1950-01-20,tt0025493,La vedova allegra,,Incam 1949-50
-1950-01-20,tt0031876,Rosa di sangue,,Elettrocarbonium 1949-50
-1950-01-22,tt0025493,La vedova allegra,,Elettrocarbonium 1949-50
-1950-01-24,tt0031876,Rosa di sangue,,Incam 1949-50
-1950-01-27,tt0040640,Nennella,,"Elettrocarbonium 1949-50, Incam 1949-50"
-1950-01-28,tt0038492,Il castello di Dragonwyck,4150,"Elettrocarbonium 1949-50, Incam 1949-50"
-1950-02-01,tt0038492,Il castello di Dragonwyck,,Incam 1949-50
-1950-02-01,tt0036377,Bernadette,,Elettrocarbonium 1949-50
-1950-02-02,tt0032762,Il segno di Zorro,,Elettrocarbonium 1949-50
-1950-02-03,tt0037925,Monaca santa,,Elettrocarbonium 1949-50
-1950-02-03,tt0035752,Il conte di Montecristo,,Incam 1949-50
-1950-02-06,tt0022641,Come tu mi vuoi,,Elettrocarbonium 1949-50
-1950-02-07,tt0030725,Duello col pirata nero,,Incam 1949-50
-1950-02-10,tt0039629,Caccia all'uomo (miserabili),,Incam 1949-50
-1950-02-11,tt0033873,Duello mortale,,Elettrocarbonium 1949-50
-1950-02-11,tt0030725,Duello col pirata nero,,Elettrocarbonium 1949-50
-1950-02-14,tt0033873,Duello mortale,,Incam 1949-50
-1950-02-15,tt0165938,Difendo mia figlia,,Elettrocarbonium 1949-50
-1950-02-17,tt0041991,Il trovatore,,"Elettrocarbonium 1949-50, Incam 1949-50"
-1950-02-18,tt0038046,Salomè,,Elettrocarbonium 1949-50
-1950-02-24,tt0035360,Il figlio della furia,,Incam 1949-50
-1950-02-25,tt0038279,Il 13 non risponde,,Elettrocarbonium 1949-50
-1950-02-28,tt0038813,Vita rubata,2500,Incam 1949-50
-1950-03-04,tt0200523,Il demone della gelosia,14000,Incam 1949-50
-1950-03-07,tt0022641,Come tu mi vuoi,2600,"Elettrocarbonium 1949-50, Incam 1949-50"
-1950-03-12,tt0165938,Difendo mia figlia,7000,Incam 1949-50
-1950-03-13,tt0039809,Il segreto di don Giovanni,,Elettrocarbonium 1949-50
-1950-03-14,tt0037672,La foresta incantata,7300,"Elettrocarbonium 1949-50, Incam 1949-50"
-1950-03-15,tt0165938,Difendo mia figlia,,Elettrocarbonium 1949-50
-1950-03-17,tt0039809,Il segreto di don Giovanni,20000,Incam 1949-50
-1950-03-21,tt0039415,Genoveffa di Brabante,,Incam 1949-50
-1950-03-24,tt0040774,La sepolta viva,52000,"Elettrocarbonium 1949-50, Incam 1949-50"
-1950-03-25,tt0036960,Don Pedro il crudele,,Elettrocarbonium 1949-50
-1950-03-29,tt0038232,Il demone della carne,,Elettrocarbonium 1949-50
-1950-03-29,tt0038190,Un albero cresce a Brooklyn,,Incam 1949-50
-1950-04-01,tt0036960,Don Pedro il crudele,,Incam 1949-50
-1950-04-04,tt0038232,Il demone della carne,6450,Incam 1949-50
-1950-04-08,tt0039536,Il bacio della morte,45800,"Elettrocarbonium 1949-50, Incam 1949-50"
-1950-04-12,tt0038016,Il ratto delle sabine,,Elettrocarbonium 1949-50
-1950-04-16,tt0039415,Genoveffa di Brabante,4000,Elettrocarbonium 1949-50
-1950-04-18,tt0032758,Marco Visconti,,Elettrocarbonium 1949-50
-1950-04-20,tt0038046,Salomè,,Elettrocarbonium 1949-50
-1950-04-21,tt0037925,Monaca santa,,Elettrocarbonium 1949-50
-1950-04-22,tt0038046,Salomè,,Incam 1949-50
-1950-04-28,tt0026188,Casta Diva,15850,Incam 1949-50
-1950-04-30,tt0026188,Casta Diva,,Elettrocarbonium 1949-50
-1950-05-05,tt0207295,La collana della regina,4800,"Elettrocarbonium 1949-50, Incam 1949-50"
-1950-05-07,tt0035719,La casa senza tempo,11900,Incam 1949-50
-1950-05-12,tt0041365,La figlia del peccato - Voce è notte,14300,"Elettrocarbonium 1949-50, Incam 1949-50"
-1950-05-18,tt0036577,Abbandonata,11385,"Elettrocarbonium 1949-50, Incam 1949-50"
-1950-05-20,tt0041633,La mano della morta,11900,"Elettrocarbonium 1949-50, Incam 1949-50"
-1950-05-23,tt0039615,I maledetti,,Elettrocarbonium 1949-50
-1950-05-26,tt0039691,Pagliacci - Amore tragico,,"Elettrocarbonium 1949-50, Incam 1949-50"
-1950-06-01,tt0178337,La santa cittadina,67000,Incam 1949-50
-1950-06-08,tt0178337,La santa cittadina,,Elettrocarbonium 1949-50
-1950-06-10,tt0037925,Monaca santa,19500,"Elettrocarbonium 1949-50, Incam 1949-50"
-1950-06-14,tt0039615,I maledetti,11100,Incam 1949-50
-1950-06-16,tt0041366,La figlia della Madonna,13000,"Elettrocarbonium 1949-50, Incam 1949-50"
-1950-06-17,tt0039615,I maledetti,,Elettrocarbonium 1949-50
-1950-06-18,tt0041366,La figlia della Madonna,,Elettrocarbonium 1949-50
-1950-06-22,tt0041261,Il conte Ugolino,19100,"Elettrocarbonium 1949-50, Incam 1949-50"
-1950-06-29,tt0024852,Nel paese delle meraviglie (villaggio incantato),8000,Incam 1949-50
-1950-07-01,tt0032745,Mamma,14500,"Elettrocarbonium 1949-50, Incam 1949-50"
-1950-07-05,tt0130261,Sirena,3350,"Elettrocarbonium 1949-50, Incam 1949-50"
-1950-07-08,tt0039136,L'urlo,11300,"Elettrocarbonium 1949-50, Incam 1949-50"
-1950-07-15,tt0032468,La figlia del corsaro verde,17300,"Elettrocarbonium 1949-50, Incam 1949-50"
-1950-07-20,tt0041250,Cintura di castità,12800,"Elettrocarbonium 1949-50, Incam 1949-50"
-1950-07-28,tt0042021,Vespro siciliano,14000,Incam 1949-50
-1950-08-03,tt0039905,"Tombolo, paradiso nero",8050,Incam 1949-50
-1950-08-06,tt0039905,"Tombolo, paradiso nero",,Elettrocarbonium 1949-50
-1950-08-13,tt0162292,La spada del venticatore,13500,"Elettrocarbonium 1949-50, Incam 1949-50"
-1950-08-16,tt0039397,I fratelli Karamazoff,10700,Incam 1949-50
-1950-08-18,tt0134056,Il trionfo di Zorro,3000,Incam 1949-50
-1950-08-22,tt0034431,Martin Eden,41000,Incam 1949-50
-1950-08-24,tt0038068,Jungla in fiamme,6000,Incam 1949-50
-1950-08-30,tt0040149,Il barone Carlo Mazza,4100,Incam 1949-50
-1950-09-01,tt0041344,Il falco rosso,25000,"Elettrocarbonium 1949-50, Incam 1949-50"
-1950-09-05,tt0034672,La donna è mobile,10000,Incam 1949-50
-1950-09-09,tt0041609,Il lupo della Sila,,Elettrocarbonium 1949-50
-1950-09-13,tt0032811,Bufera mortale,8000,Incam 1949-50
-1950-09-15,tt0039241,Capitan demonio,29200,"Elettrocarbonium 1949-50, Incam 1949-50"
-1950-09-22,tt0041200,Botta e risposta,15000,"Elettrocarbonium 1949-50, Incam 1949-50"
-1950-09-29,tt0038016,Il ratto delle Sabine (professor trombone),,Incam 1949-50
-1950-12-01,tt0041739,Patto col diavolo,,Elettrocarbonium 1950-51
-1950-12-07,tt0040568,Alba di sangue,,Elettrocarbonium 1950-51
-1950-12-17,tt0046160,Paolo e Francesca,,Elettrocarbonium 1950-51
-1950-12-20,tt0040090,Gli amanti di Verona,,Elettrocarbonium 1950-51
-1950-12-25,tt0038882,Rigoletto,,Elettrocarbonium 1950-51
-1950-12-29,tt0039135,L'aquila a due teste,,Elettrocarbonium 1950-51
-1950-12-31,tt0038002,"Pronto, chi parla?",,Elettrocarbonium 1950-51
-1951-01-01,tt0039135,L'aquila a due teste,,Elettrocarbonium 1950-51
-1951-01-05,tt0040737,Riso amaro,,Elettrocarbonium 1950-51
-1951-01-06,tt0040605,La montagna di cristallo,,Elettrocarbonium 1950-51
-1951-01-14,tt0041843,Santo disonore,,Elettrocarbonium 1950-51
-1951-01-20,tt0026286,Don Bosco,,Elettrocarbonium 1950-51
-1951-02-03,tt0033105,L'isola del diavolo,,Elettrocarbonium 1950-51
-1951-02-04,tt0033380,Beatrice Cenci,,Elettrocarbonium 1950-51
-1951-02-08,tt0041588,Una lettera all'alba,,Elettrocarbonium 1950-51
-1951-02-10,tt0038297,Amanti in fuga,,Elettrocarbonium 1950-51
-1951-02-19,tt0041588,Una lettera all'alba,,Elettrocarbonium 1950-51
-1951-02-27,tt0032935,Il postiglione della steppa,,Elettrocarbonium 1950-51
-1951-03-10,tt0040090,Gli amanti di Verona,,Elettrocarbonium 1950-51
-1951-03-11,tt0045299,Una voce nel tuo cuore,,Elettrocarbonium 1950-51
-1951-03-11,tt0032407,Dopo divorzieremo,,Elettrocarbonium 1950-51
-1951-03-16,tt0038225,La vita ricomincia,,Elettrocarbonium 1950-51
-1951-03-19,tt0039308,Disperato d'amore,,Elettrocarbonium 1950-51
-1951-03-26,tt0040774,La sepolta viva,,Elettrocarbonium 1950-51
-1951-04-01,tt0032307,"Caravaggio, il pittore maledetto",,Elettrocarbonium 1950-51
-1951-04-04,tt0033177,Tosca,,Elettrocarbonium 1950-51
-1951-04-07,tt0039437,Il delfino verde,19000,"Elettrocarbonium 1950-51, Calendario 1951"
-1951-04-11,tt0039086,Voglio bene soltanto a te!,,Elettrocarbonium 1950-51
-1951-04-14,tt0041102,Al diavolo la celebrità,,"Elettrocarbonium 1950-51, Calendario 1951"
-1951-04-15,tt0041226,Canzoni per le strade,,Elettrocarbonium 1950-51
-1951-04-17,tt0032200,"Amami, Alfredo!",,Elettrocarbonium 1950-51
-1951-04-18,tt0040695,Tragedia a Santa Monica,1600,"Elettrocarbonium 1950-51, Calendario 1951"
-1951-04-22,tt0041925,La strada buia,,Elettrocarbonium 1950-51
-1951-04-23,tt0041307,Donne senza nome,,Elettrocarbonium 1950-51
-1951-04-25,tt0039135,L'aquila a due teste,6650,Calendario 1951
-1951-04-29,tt0041102,Al diavolo la celebrità,,Elettrocarbonium 1950-51
-1951-05-01,tt0028221,Le scarpe al sole,,Elettrocarbonium 1950-51
-1951-05-01,tt0039291,Cuore,6000,Calendario 1951
-1951-05-05,tt0042427,L'edera,,Elettrocarbonium 1950-51
-1951-05-08,tt0032302,Capitan Fracassa,,Elettrocarbonium 1950-51
-1951-05-11,tt0040406,Guglielmo Tell,21800,"Elettrocarbonium 1950-51, Calendario 1951"
-1951-05-19,tt0030107,Ettore Fieramosca,,Elettrocarbonium 1950-51
-1951-05-22,tt0034726,Fedora,13600,Calendario 1951
-1951-05-26,tt0042235,La bellezza del diavolo,,Elettrocarbonium 1950-51
-1951-05-27,tt0041320,Duello senza onore,21000,Calendario 1951
-1951-06-02,tt0033489,La corona di ferro,24400,"Elettrocarbonium 1950-51, Calendario 1951"
-1951-06-09,tt0041668,Il mulatto,,Elettrocarbonium 1950-51
-1951-06-12,tt0143881,La signora dalle camelie,35000,Calendario 1951
-1951-06-15,tt0035046,Mater dolorosa,9000,Calendario 1951
-1951-06-22,tt0033946,L'incompiuta,6000,Calendario 1951
-1951-06-24,tt0039750,La donna di fuoco,18300,Calendario 1951
-1951-07-05,tt0023943,Fra' Diavolo,16800,Calendario 1951
-1951-07-11,tt0023241,Follie del cinema,3500,Calendario 1951
-1951-07-14,tt0039146,L'altra,18700,Calendario 1951
-1951-07-19,tt0039600,Vendetta nel sole,13000,Calendario 1951
-1951-07-23,tt0034194,Sissignora,4800,Calendario 1951
-1951-08-10,tt0200150,Figlia mia,20000,Calendario 1951
-1951-08-14,tt0039323,La dea inginocchiata,10000,Calendario 1951
-1951-08-18,tt0035306,Senza una donna,,Calendario 1951
-1951-09-01,tt0030107,Ettore Fieramosca,15100,"Elettrocarbonium 1950-51, Calendario 1951"
-1951-09-04,tt0043076,Turri il bandito,11400,Calendario 1951
-1951-09-09,tt0038510,Enamorada,21400,"Elettrocarbonium 1950-51, Calendario 1951"
-1951-09-15,tt0039492,Il segreto del castello,21500,Calendario 1951
-1951-09-21,tt0042673,Il leone di Amalfi,14000,Calendario 1951
-1951-09-25,tt0042427,L'edera,5000,Calendario 1951
-1951-09-27,tt0032266,Boccaccio,5700,Calendario 1951
-1951-10-14,tt0041668,Il mulatto,,Calendario 1951
-1951-10-25,tt0038358,Biraghin,9500,Calendario 1951
-1951-11-01,tt0043028,La taverna della libertà,,Calendario 1951
-1951-11-10,tt0042301,Il cammino della speranza,25000,Calendario 1951
-1951-11-17,tt0043157,Lo zappatore,,"Bruzia 1951-52, Calendario 1951"
-1951-11-21,tt0043993,Santa Lucia Luntana,2300,Calendario 1951
-1951-11-23,tt0032758,Marco Visconti,,Calendario 1951
-1951-12-05,tt0042903,Il re dei cuori,,Calendario 1951
-1951-12-14,tt0216848,Il mio uomo sei tu,,Calendario 1951
-1951-12-29,tt0032300,Cantate con me,,Bruzia 1951-52
-1952-01-01,tt0036389,La storia di una capinera,31000,"Bruzia 1951-52, Calendario 1952"
-1952-01-03,tt0038255,Gli ammutinati di Sing Sing,,Bruzia 1951-52
-1952-01-04,tt0032300,Cantate con me,8000,Calendario 1952
-1952-01-05,tt0218257,L'albero stregato,25000,Calendario 1952
-1952-01-06,tt0183476,Malavita,,Bruzia 1951-52
-1952-01-12,tt0183476,Malavita,32000,Calendario 1952
-1952-01-13,tt0041767,Il principe delle volpi,,Bruzia 1951-52
-1952-01-17,tt0032200,"Amami, Alfredo!",15000,"Bruzia 1951-52, Calendario 1952"
-1952-01-19,tt0035168,I pagliacci,19500,"Bruzia 1951-52, Calendario 1952"
-1952-01-22,tt0038473,Malafemmina,15000,"Bruzia 1951-52, Calendario 1952"
-1952-01-25,tt0042597,Gli inesorabili,41300,"Bruzia 1951-52, Calendario 1952"
-1952-02-01,tt0042419,Due mogli sono troppe,15000,Calendario 1952
-1952-02-03,tt0032905,Piccolo alpino,,Bruzia 1951-52
-1952-02-05,tt0034090,Regina di Navarra,14000,"Bruzia 1951-52, Calendario 1952"
-1952-02-09,tt0041232,Catene,43500,"Bruzia 1951-52, Calendario 1952"
-1952-02-16,tt0040198,Calamità d'oro,16700,"Bruzia 1951-52, Calendario 1952"
-1952-02-18,tt0040100,Anni difficili,144000,Calendario 1952
-1952-02-22,tt0033405,Sangue e arena,,Bruzia 1951-52
-1952-02-26,tt0038255,Gli ammutinati di Sing Sing,12000,Calendario 1952
-1952-02-29,tt0041248,Cielo sulla palude,7500,Calendario 1952
-1952-03-01,tt0041248,Cielo sulla palude,44000,"Bruzia 1951-52, Calendario 1952"
-1952-03-03,tt0032532,Giuliano de' Medici,,Bruzia 1951-52
-1952-03-08,tt0031466,Questa donna è mia,13000,"Bruzia 1951-52, Calendario 1952"
-1952-03-11,tt0040389,Giudicatemi!,10000,Calendario 1952
-1952-03-11,tt0038255,Gli ammutinati di Sing Sing,,Bruzia 1951-52
-1952-03-14,tt0041979,Il tradimento,,Calendario 1952
-1952-03-15,tt0160794,Ardimento,,Bruzia 1951-52
-1952-03-16,tt0040389,Giudicatemi!,,Bruzia 1951-52
-1952-03-17,tt0031972,Sfida a Baltimora,,Bruzia 1951-52
-1952-03-20,tt0033964,Nozze di sangue,,"Bruzia 1951-52, Calendario 1952"
-1952-03-21,tt0031972,Sfida a Baltimora,7000,Calendario 1952
-1952-03-23,tt0042904,Romanticismo,46000,"Bruzia 1951-52, Calendario 1952"
-1952-03-29,tt0041226,Canzoni per le strade,13000,Bruzia 1951-52
-1952-03-31,tt0039163,Assunta Spina,12000,Calendario 1952
-1952-04-02,tt0030795,Stella del mare,6000,Calendario 1952
-1952-04-06,tt0042297,Il caimano del Piave,41000,"Bruzia 1951-52, Calendario 1952"
-1952-04-13,tt0043382,Carcerato,48000,"Bruzia 1951-52, Calendario 1952"
-1952-04-20,tt0041767,Il principe delle volpi,,"Bruzia 1951-52, Calendario 1952"
-1952-04-22,tt0032365,Credo in Dio,,Bruzia 1951-52
-1952-04-23,tt0039793,Il mostro di Rio Escondido,8000,Calendario 1952
-1952-04-25,tt0032365,Credo in Dio,25000,Calendario 1952
-1952-04-25,tt0039616,Duello all'alba,,Bruzia 1951-52
-1952-04-29,tt0032734,Lucrezia Borgia,5000,Calendario 1952
-1952-05-03,tt0031507,Jess il bandito,20000,"Bruzia 1951-52, Calendario 1952"
-1952-05-07,tt0035752,Il conte di Montecristo,15000,"Bruzia 1951-52, Calendario 1952"
-1952-05-11,tt0041643,I lancieri del deserto,17000,"Bruzia 1951-52, Calendario 1952"
-1952-05-15,tt0039391,Ambra,,Bruzia 1951-52
-1952-05-16,tt0039114,Una giovane vedova,7000,"Bruzia 1951-52, Calendario 1952"
-1952-05-17,tt0041409,Gente così,,Bruzia 1951-52
-1952-05-20,tt0038443,Davanti a lui tremava tutta Roma,,"Bruzia 1951-52, Calendario 1952"
-1952-05-22,tt0034588,Catene invisibili,,Bruzia 1951-52
-1952-05-27,tt0041662,Il sig. Belvedere va in collegio,,Bruzia 1951-52
-1952-05-27,tt0033602,Il figlio del corsaro rosso,7000,Calendario 1952
-1952-05-30,tt0024991,Cleopatra,13000,Calendario 1952
-1952-06-01,tt0024991,Cleopatra,13000,Calendario 1952
-1952-06-03,tt0401697,Non ti scordar di me,,Calendario 1952
-1952-06-08,tt0032905,Piccolo alpino,,Bruzia 1951-52
-1952-06-13,tt0042284,Il brigante Musolino,,Calendario 1952
-1952-06-22,tt0037035,La Madonna delle 7 lune,,"Bruzia 1951-52, Calendario 1952"
-1952-06-24,tt0042362,Cuori sul mare,6000,Calendario 1952
-1952-06-27,tt0042830,La mia vita per tuo figlio,,Calendario 1952
-1952-06-29,tt0037578,Zingari,,Bruzia 1951-52
-1952-07-03,tt0040522,Ladri di biciclette,10000,Calendario 1952
-1952-07-05,tt0037578,Zingari,18000,Calendario 1952
-1952-07-12,tt0040115,"Arrivederci, papà!",,Calendario 1952
-1952-07-16,tt0039734,Il principe ribelle,21500,Calendario 1952
-1952-07-19,tt0041470,Ho sognato il paradiso,,Calendario 1952
-1952-07-25,tt0042398,Il diavolo in convento,7000,Calendario 1952
-1952-08-03,tt0040222,La Cenerentola,,Calendario 1952
-1952-08-07,tt0043488,I due sergenti,,Calendario 1952
-1952-08-10,tt0034588,Catene invisibili,,Calendario 1952
-1952-08-14,tt0038787,Notorious - L'amante perduta,,Bruzia 1951-52
-1952-08-14,tt0030393,"Luciano Serra, pilota",,"Bruzia 1951-52, Calendario 1952"
-1952-08-17,tt0040719,Labbra avvelenate,,Bruzia 1951-52
-1952-08-24,tt0034688,Le due orfanelle,,"Bruzia 1951-52, Calendario 1952"
-1952-08-30,tt0032905,Piccolo alpino,,Bruzia 1951-52
-1952-08-30,tt0252083,La taverna della mala gente,,Calendario 1952
-1952-09-02,tt0032905,Piccolo alpino,,Calendario 1952
-1952-09-03,tt0252083,La taverna della mala gente,,Bruzia 1951-52
-1952-09-04,tt0038787,Notorious - L'amante perduta,,Bruzia 1951-52
-1952-09-04,tt0041991,Il trovatore,,Calendario 1952
-1952-09-05,tt0041364,La figlia del mendicante,,Bruzia 1951-52
-1952-09-06,tt0041991,Il trovatore,,Bruzia 1951-52
-1952-09-08,tt0041364,La figlia del mendicante,,Calendario 1952
-1952-09-17,tt0042383,Rocce rosse,7500,"Bruzia 1951-52, Calendario 1952"
-1952-09-20,tt0044184,La vendetta di una pazza,,"Bruzia 1951-52, Calendario 1952"
-1952-09-28,tt0043598,La grande rinuncia,,Bruzia 1951-52
-1952-10-05,tt0039243,Il capitano di Castiglia,29000,"Bruzia 1951-52, Calendario 1952"
-1952-10-07,tt0041873,Signorinella,,Calendario 1952
-1952-10-12,tt0197674,Il padrone delle ferriere,,"Bruzia 1951-52, Calendario 1952"
-1952-10-14,tt0041502,Trafficanti d'uomini,11000,Calendario 1952
-1952-10-18,tt0043463,Destino,,"Bruzia 1951-52, Calendario 1952"
-1952-10-21,tt0042052,Donna in fuga,,Calendario 1952
-1952-10-24,tt0044183,La vendetta di Aquila Nera,,Bruzia 1951-52
-1952-10-28,tt0042809,Appuntamento con la morte,,Calendario 1952
-1952-10-31,tt0043287,Anna,,Bruzia 1951-52
-1952-11-01,tt0043287,Anna,,Calendario 1952
-1952-11-02,tt0042420,Le due sorelle,,"Bruzia 1951-52, Calendario 1952"
-1952-11-08,tt0028203,Giulietta e Romeo,,"Bruzia 1951-52, Calendario 1952"
-1952-11-11,tt0026648,Lorenzino de' Medici,,Calendario 1952
-1952-11-14,tt0043473,Donne e briganti,,"Bruzia 1951-52, Calendario 1952"
-1952-11-15,tt0026415,Giuseppe Verdi,,"Bruzia 1951-52, Calendario 1952"
-1952-11-22,tt0044162,Ultimo incontro,,"Bruzia 1951-52, Calendario 1952"
-1952-11-25,tt0032896,La peccatrice,,"Bruzia 1951-52, Calendario 1952"
-1952-11-28,tt0043598,La grande rinuncia,,"Bruzia 1951-52, Calendario 1952"
-1952-12-03,tt0042303,Campane a martello,12400,"Bruzia 1951-52, Calendario 1952"
-1952-12-05,tt0044145,Trieste mia!,55000,Calendario 1952
-1952-12-08,tt0040946,La strega rossa,,Bruzia 1951-52
-1952-12-10,tt0041207,Corruzione,11500,Calendario 1952
-1952-12-13,tt0039131,Addio Mimí!,10800,"Bruzia 1952-53, Calendario 1952"
-1952-12-14,tt0043741,Licenza premio,,Bruzia 1951-52
-1952-12-16,tt0033882,I mariti (Tempesta d'anime),,Calendario 1952
-1952-12-19,tt0041657,Monastero di Santa Chiara,,"Bruzia 1951-52, Calendario 1952"
-1952-12-24,tt0043765,Il lupo della frontiera,,"Bruzia 1951-52, Bruzia 1952-53, Calendario 1952"
-1952-12-27,tt0034956,Labbra serrate,,Bruzia 1951-52
-1952-12-30,tt0040533,La leggenda di Faust,11500,"Bruzia 1952-53, Calendario 1952"
-1953-01-01,tt0040533,La leggenda di Faust,,Fedi 1952-53
-1953-01-02,tt0036628,Bellezze al bagno,,"Bruzia 1952-53, Fedi 1952-53"
-1953-01-06,tt0028505,Gelosia,,"Bruzia 1952-53, Fedi 1952-53"
-1953-01-09,tt0025948,Viva Villa!,,"Bruzia 1952-53, Fedi 1952-53"
-1953-01-13,tt0030012,Il conte di Brechard,,"Bruzia 1952-53, Fedi 1952-53"
-1953-01-15,tt0037698,Il cavaliere mascherato,,Fedi 1952-53
-1953-01-17,tt0044607,La favorita,,Fedi 1952-53
-1953-01-18,tt0034956,Labbra serrate,,Bruzia 1952-53
-1953-01-20,tt0032976,Rebecca - La prima moglie,,Fedi 1952-53
-1953-01-20,tt0041622,Malesia,,Bruzia 1952-53
-1953-01-23,tt0039954,Primavera,,"Bruzia 1952-53, Fedi 1952-53"
-1953-01-24,tt0044607,La favorita,,Bruzia 1952-53
-1953-01-27,tt0034998,Il disertore,,Fedi 1952-53
-1953-01-30,tt0043440,Core 'ngrato,,"Bruzia 1952-53, Fedi 1952-53"
-1953-02-01,tt0043440,Core 'ngrato,27300,Fedi 1952-53
-1953-02-04,tt0037462,Le bianche scogliere di Dover,8800,"Bruzia 1952-53, Fedi 1952-53"
-1953-02-06,tt0430467,Piume al vento,31000,"Bruzia 1952-53, Fedi 1952-53"
-1953-02-11,tt0039694,Il caso Paradine,8000,Fedi 1952-53
-1953-02-13,tt0043993,Santa Lucia Luntana,32000,"Bruzia 1952-53, Fedi 1952-53"
-1953-02-15,tt0038403,L'inferno degli amanti (Cavaliere del sogno),22000,"Bruzia 1952-53, Fedi 1952-53"
-1953-02-20,tt0043279,Amo un assassino,2500,"Bruzia 1952-53, Fedi 1952-53"
-1953-02-24,tt0034956,Labbra serrate,13000,Fedi 1952-53
-1953-02-24,tt0037953,O sole mio,,Bruzia 1952-53
-1953-02-27,tt0043674,Incantesimo tragico,98000,"Bruzia 1952-53, Fedi 1952-53"
-1953-03-01,tt0043674,Incantesimo tragico,17600,Fedi 1952-53
-1953-03-03,tt0042351,Delitto e castigo,7650,"Bruzia 1952-53, Fedi 1952-53"
-1953-03-06,tt0201055,Salvate mia figlia,25000,"Bruzia 1952-53, Fedi 1952-53"
-1953-03-10,tt0043363,L'amante del torero,8500,Fedi 1952-53
-1953-03-13,tt0025191,Golgota,20000,"Bruzia 1952-53, Fedi 1952-53"
-1953-03-18,tt0041762,La portatrice di pane,19000,"Bruzia 1952-53, Fedi 1952-53"
-1953-03-21,tt0043764,Luna rossa,26500,Fedi 1952-53
-1953-03-22,tt0025948,Viva Villa!,,Bruzia 1952-53
-1953-03-23,tt0143246,Fantomas,,Bruzia 1952-53
-1953-03-24,tt21977724,Solo per te,23500,Fedi 1952-53
-1953-03-28,tt0042933,La scogliera del peccato,25000,"Bruzia 1952-53, Fedi 1952-53"
-1953-04-04,tt0044484,Carne inquieta,,Fedi 1952-53
-1953-04-04,tt0033490,I vendicatori,,Bruzia 1952-53
-1953-04-07,tt0163897,La vispa Teresa,,Bruzia 1952-53
-1953-04-10,tt0044010,I pirati di Barracuda,,Fedi 1952-53
-1953-04-11,tt0044484,Carne inquieta,,Bruzia 1952-53
-1953-04-11,tt0041814,La rivale dell'imperatrice,,Fedi 1952-53
-1953-04-16,tt0029818,La maschera di Zorro,11000,"Bruzia 1952-53, Fedi 1952-53"
-1953-04-18,tt0031507,Jess il bandito,20000,Fedi 1952-53
-1953-04-21,tt0042579,Bassa marea,8000,"Bruzia 1952-53, Fedi 1952-53"
-1953-04-24,tt0044817,Adultera senza peccato,6000,Fedi 1952-53
-1953-04-25,tt0029842,Uno scozzese alla corte del Gran Kan (marco polo),31000,"Bruzia 1952-53, Fedi 1952-53"
-1953-04-27,tt0029453,Il bandito della Casbah,8000,Fedi 1952-53
-1953-05-01,tt0041088,Atto di violenza,,"Bruzia 1952-53, Fedi 1952-53"
-1953-05-02,tt0041622,Malesia,,Bruzia 1952-53
-1953-05-08,tt0043799,Le meravigliose avventure di Guerrin Meschino,,"Bruzia 1952-53, Fedi 1952-53"
-1953-05-13,tt0142782,La prima luce,,"Bruzia 1952-53, Fedi 1952-53"
-1953-05-14,tt0033238,Il ponte di Waterloo,,Bruzia 1952-53
-1953-05-15,tt0033490,I vendicatori,,"Bruzia 1952-53, Fedi 1952-53"
-1953-05-19,tt0038645,Io t'ho incontrata a Napoli,9000,"Bruzia 1952-53, Fedi 1952-53"
-1953-05-22,tt0044161,L'ultima sentenza,,"Bruzia 1952-53, Fedi 1952-53"
-1953-05-25,tt0463064,I due barbieri,10000,"Bruzia 1952-53, Fedi 1952-53"
-1953-05-29,tt0033238,Il ponte di Waterloo,25000,"Bruzia 1952-53, Fedi 1952-53"
-1953-06-03,tt0042634,La chiave della città,,Bruzia 1952-53
-1953-06-05,tt0043741,Licenza premio,,Bruzia 1952-53
-1953-06-07,tt0044023,I sette nani alla riscossa,20000,"Bruzia 1952-53, Fedi 1952-53"
-1953-06-12,tt0039377,Fiesta (La matadora),8200,"Bruzia 1952-53, Fedi 1952-53"
-1953-06-18,tt0033026,Scarpe grosse,12000,Fedi 1952-53
-1953-06-20,tt0045022,Pentimento,,Bruzia 1952-53
-1953-06-21,tt0043416,Clandestino a Trieste,18000,Fedi 1952-53
-1953-06-24,tt0163897,La vispa Teresa,20000,"Bruzia 1952-53, Fedi 1952-53"
-1953-06-27,tt0035084,La morte civile,20000,"Bruzia 1952-53, Fedi 1952-53"
-1953-06-28,tt0043533,Filumena Marturano,,Bruzia 1952-53
-1953-06-29,tt0035244,Vento selvaggio,5000,Fedi 1952-53
-1953-07-04,tt0043533,Filumena Marturano,17000,Fedi 1952-53
-1953-07-04,tt0042354,Il Cristo proibito,,Bruzia 1952-53
-1953-07-06,tt0163897,La vispa Teresa,,Bruzia 1952-53
-1953-07-07,tt0042947,Accadde in settembre,4700,Fedi 1952-53
-1953-07-10,tt0032229,Un'avventura di Salvator Rosa,,"Bruzia 1952-53, Fedi 1952-53"
-1953-07-15,tt0038225,La vita ricomincia,1300,Fedi 1952-53
-1953-07-17,tt0042446,I falsari,,Bruzia 1952-53
-1953-07-17,tt0043740,Libera uscita,5950,Fedi 1952-53
-1953-07-21,tt0034131,Rossini,,"Bruzia 1952-53, Fedi 1952-53"
-1953-07-25,tt0152086,Il vagabondo della steppa,,"Bruzia 1952-53, Fedi 1952-53"
-1953-07-27,tt0042960,La via della morte,,Bruzia 1952-53
-1953-08-01,tt0043741,Licenza premio,20000,Fedi 1952-53
-1953-08-04,tt0043488,I due sergenti,8000,Fedi 1952-53
-1953-08-07,tt0035432,Il fuorilegge,23000,Fedi 1952-53
-1953-08-15,tt0041362,L'inafferrabile,25000,Fedi 1952-53
-1953-08-25,tt0034762,Fuga a due voci,17000,Fedi 1952-53
-1953-08-30,tt0023729,1860 I mille di Garbialdi,21000,Fedi 1952-53
-1953-09-02,tt0034366,Voglio vivere così,13000,"Bruzia 1952-53, Fedi 1952-53"
-1953-09-05,tt0043870,O.K. Nerone,31000,"Bruzia 1952-53, Fedi 1952-53"
-1953-09-13,tt0034580,Carmela,19000,"Bruzia 1952-53, Fedi 1952-53"
-1953-09-15,tt0030420,Marionette,11000,"Bruzia 1952-53, Fedi 1952-53"
-1953-09-18,tt0045022,Pentimento,7500,Fedi 1952-53
-1953-09-21,tt0037574,"Canto, ma sottovoce…",,Bruzia 1952-53
-1953-09-22,tt0042446,I falsari,30000,"Bruzia 1952-53, Fedi 1952-53"
-1953-09-27,tt0043805,Milano miliardaria,21000,"Bruzia 1952-53, Fedi 1952-53"
-1953-10-02,tt0043505,Enrico Caruso - Leggenda di una voce,,"Bruzia 1952-53, Fedi 1952-53"
-1953-10-06,tt0033062,L'assassino è in casa!,,"Bruzia 1952-53, Fedi 1952-53"
-1953-10-09,tt0037574,"Canto, ma sottovoce…",8000,Fedi 1952-53
-1953-10-10,tt0031334,Le quattro piume,,Bruzia 1952-53
-1953-10-13,tt0035066,"Miliardi, che follia!",27500,"Bruzia 1952-53, Fedi 1952-53"
-1953-10-16,tt0031334,Le quattro piume,,Fedi 1952-53
-1953-10-17,tt0043945,Quattro rose rosse,,Bruzia 1952-53
-1953-10-20,tt0043828,Voglio essere tua,,Fedi 1952-53
-1953-10-23,tt0043918,Don Camillo,,"Bruzia 1952-53, Fedi 1952-53"
-1953-10-27,tt0042826,La gabbia di ferro,6200,Fedi 1952-53
-1953-10-30,tt0044572,Due soldi di speranza,,Bruzia 1952-53
-1953-11-01,tt0043945,Quattro rose rosse,14000,Fedi 1952-53
-1953-11-06,tt0043945,Quattro rose rosse,,Bruzia 1952-53
-1953-11-06,tt0044572,Due soldi di speranza,,Fedi 1952-53
-1953-11-10,tt0026071,Anna Karenina,,"Bruzia 1952-53, Fedi 1952-53"
-1953-11-13,tt0036482,Uomini e cieli,,Fedi 1952-53
-1953-11-17,tt0038272,L'uomo dai cinque volti,15000,Fedi 1952-53
-1953-11-20,tt0031455,Notre Dame,19500,"Bruzia 1952-53, Fedi 1952-53"
-1953-11-23,tt0043142,Il mistero del marito scomparso,,Bruzia 1952-53
-1953-11-26,tt0045247,Totò a colori,13500,Fedi 1952-53
-1953-11-29,tt0033152,Il ladro di Bagdad,,Bruzia 1952-53
-1953-12-02,tt0034660,Don Cesare di Bazan,12500,Fedi 1952-53
-1953-12-05,tt0043506,"Era lui, sì, sì!",26000,"Bruzia 1952-53, Fedi 1952-53"
-1953-12-09,tt0040480,L'isola di Montecristo,,"Bruzia 1952-53, Fedi 1952-53"
-1953-12-11,tt0046063,Melodie immortali - Mascagni,,"Bruzia 1952-53, Fedi 1952-53"
-1953-12-15,tt0022958,Grand Hotel,,Fedi 1952-53
-1953-12-20,tt0045101,Il romanzo della mia vita,,"Bruzia 1952-53, Fedi 1952-53"
-1953-12-21,tt0043108,Vita da cani,,Bruzia 1952-53
-1953-12-24,tt0038462,Inganno,,"Bruzia 1952-53, Fedi 1952-53"
-1953-12-26,tt0043108,Vita da cani,,Fedi 1952-53
-1953-12-30,tt0033152,Il ladro di Bagdad,,Bruzia 1952-53
-1955-03-09,tt0041838,Sansone e Dalila,,
-1957-08-09,tt0046281,Schiavitù,,
-1966-01-01,tt0059121,I due toreri,,
-1966-01-02,tt0207596,L'indomabile,,
-1966-01-05,tt0058140,I giganti di Roma,,
-1966-01-08,tt0055928,Agente 007 - Licenza di uccidere,,
-1966-01-14,tt0180026,Operazione Tiziano,,
-1966-01-15,tt0178516,Goliath e la schiava ribelle,,
-1966-01-20,tt0055756,L'implacabile cordobes,,
-1966-01-21,tt0061157,La vita agra,,
-1966-01-22,tt0055141,Marco Polo,,
-1966-01-27,tt0057890,La morte nera,,
-1966-01-28,tt0032178,Giuramento di sangue,,
-1966-01-29,tt0055377,La rivolta degli schiavi,,
-1966-02-03,tt0059248,Il pugno proibito dell'agente Warner,,
-1966-02-04,tt0051179,Tamburi di guerra,,
-1966-02-05,tt0058742,Da 077: criminali a Hong Kong,,
-1966-02-07,tt0414992,Mafiosi a Marsiglia,,
-1966-02-09,tt0054969,I fratelli di ferro,,
-1966-02-11,tt0057683,Dove vai sono guai!,,
-1966-02-12,tt0058229,In ginocchio da te,,
-1966-02-14,tt0043711,Le pistole di Zorro,,
-1966-02-16,tt0054755,Vento freddo d'agosto,,
-1966-02-17,tt0047501,La strage del 7º Cavalleggeri,,
-1966-02-18,tt0059065,Esperimento IS: il mondo si frantuma,,
-1966-02-19,tt0058312,"Maciste, gladiatore di Sparta",,
-1966-02-21,tt0054236,Tra due donne,,
-1966-02-22,tt0056652,Zorro il vendicatore,,
-1966-02-23,tt0056894,Rapina al Cairo,,
-1966-02-24,tt0056395,Il sentiero dei disperati,,
-1966-02-25,tt0047163,La legge contro Billy Kid,,
-1966-02-26,tt0186544,Siamo tutti pomicioni,,
-1966-02-27,tt0134668,Il gaucho,,
-1966-02-28,tt0057155,Horror,,
-1966-03-02,tt0055488,Sua Eccellenza si fermò a mangiare,,
-1966-03-03,tt0057615,Umorismo in nero,,
-1966-03-04,tt0056975,Il grande corsaro,,
-1966-03-05,tt0059517,Non son degno di te,,
-1966-03-07,tt0296839,I giganti dell'oro nero,,
-1966-03-09,tt0054837,La notte e il desiderio,,
-1966-03-10,tt0056917,100.000 dollari al sole,,
-1966-03-11,tt0044790,I fuorilegge del Kansas,,
-1966-03-12,tt0045966,I cavalieri della tavola rotonda,,
-1966-03-14,tt0056057,Furto su misura,,
-1966-03-16,tt0061344,Oltraggio al pudore,,
-1966-03-17,tt0056100,Sulla sabbia è passata la morte,,
-1966-03-18,tt0059384,Letti sbagliati,,
-1966-03-19,tt0055047,Il re dei re,,
-1966-03-21,tt0058452,I disperati della gloria,,
-1966-03-23,tt0040636,La città nuda,,
-1966-03-24,tt0056448,I fuorilegge della valle solitaria,,
-1966-03-26,tt0150548,I figli del leopardo,,
-1966-03-28,tt0168201,Super rapina a Milano,,
-1966-03-30,tt0056957,Il coltello nella piaga,,
-1966-04-01,tt0055252,Il mondo nella mia tasca,,
-1966-04-02,tt0054847,El Cid,,
-1966-04-04,tt0057540,Il successo,,
-1966-04-06,tt0041947,Tarzan e la fontana magica,,
-1966-04-09,tt0056556,Taras il magnifico,,
-1966-04-11,tt0056939,Il comandante,,
-1966-04-15,tt0053365,Londra a mezzanotte,,
-1966-04-16,tt0058282,Una lacrima sul viso,,
-1966-04-18,tt0055464,Momento selvaggio,,
-1966-04-20,tt0060483,Pistole roventi,,
-1966-04-21,tt0058407,Le calde amanti di Kyoto,,
-1966-04-22,tt0058368,L'ispettore spara a vista,,
-1966-04-23,tt0057917,L'uomo che non sapeva amare,,
-1966-04-25,tt0057443,La ragazza che sapeva troppo,,
-1966-04-27,tt0138782,Operazione terzo uomo,,
-1966-04-28,tt0054770,L'ombra della vendetta,,
-1966-04-29,tt0059107,Il gigante della roccia del falco,,
-1966-04-30,tt0057891,1000 dollari per un Winchester,,
-1966-05-02,tt0055935,Rififi a Tokyo,,
-1966-05-04,tt0057840,"Tempo di guerra, tempo d'amore",,
-1966-05-05,tt0172416,F.B.I. operazione Baalbeck,,
-1966-05-07,tt0059836,24 ore per uccidere,,
-1966-05-09,tt0041361,Il ritorno del kentuckiano,,
-1966-05-11,tt0058283,Un giorno di terrore,,
-1966-05-12,tt0055906,Diciottenni al sole,,
-1966-05-13,tt0039737,Notte senza fine,,
-1966-05-14,tt0055865,La congiura dei dieci,,
-1966-05-16,tt0057303,L'omicida,,
-1966-05-18,tt0054671,Battaglia sulla spiaggia insanguinata,,
-1966-05-19,tt0056268,I misteri di Parigi,,
-1966-05-21,tt0195173,I predoni del Sahara,,
-1966-05-22,tt0051364,Estasi d'amore - Operazione Love,,
-1966-05-23,tt0056953,Agente Coplan: missione spionaggio,,
-1966-05-25,tt0057294,Le massaggiatrici,,
-1966-05-28,tt0058712,"Ursus, il terrore dei kirghisi",,
-1966-05-30,tt0210354,I temibili 7,,
-1966-06-01,tt0060790,Password: Uccidete agente Gordon,,
-1966-06-02,tt0050497,I filibustieri dei mari del sud,,
-1966-06-04,tt0059098,Sfida a Rio Bravo,,
-1966-06-05,tt0056048,La donna che inventò lo strip-tease,,
-1966-06-06,tt0056375,Normandia anno '43,,
-1966-06-08,tt0380028,Tokio: divisione criminale,,
-1966-06-09,tt0052415,I giovani leoni,,
-1966-06-11,tt0056485,La schiava di Bagdad,,
-1966-06-14,tt0122597,Maciste contro Ercole nella valle dei guai ( I due pretoriani),,
-1966-06-16,tt0137795,Il grande bluff,,
-1966-06-17,tt0353260,Assassino sulla Costa Azzurra,,
-1966-06-18,tt0056470,Tre contro tutti,,
-1966-06-20,tt0055214,Il dubbio,,
-1966-06-22,tt0055484,La camera blindata,,
-1966-06-25,tt0290240,Il magnifico gladiatore,,
-1966-06-27,tt0051349,L'urlo di guerra degli apaches,,
-1966-06-29,tt0059323,Italiani brava gente,,
-1966-07-01,tt0060049,5 tombe per un medium,,
-1966-07-02,tt0058885,002 agenti segretissimi,,
-1966-07-04,tt0199301,Adolescenti al sole,,
-1966-07-08,tt0051984,Nel blu dipinto di blu,,
-1966-07-09,tt0057357,Saladino,,
-1966-07-14,tt0055260,I senza paura,,
-1966-07-15,tt0256102,La città vietata,,
-1966-07-16,tt0048090,Orizzonte di fuoco,,
-1966-07-23,tt0055717,Una vergine per il bandito,,
-1966-07-25,tt0056601,L'uomo che vinse la morte,,
-1966-07-27,tt0055759,Arsenio Lupin contro Arsenio Lupin,,
-1966-07-30,tt0058777,Zulu,,
-1966-08-01,tt0179881,Intrigo a Los Angeles,,
-1966-08-03,tt0057278,Maigret e i gangsters,,
-1966-08-05,tt0052865,Guardatele ma non toccatele,,
-1966-08-06,tt0058121,I rinnegati di Fort Grant,,
-1966-08-08,tt0051201,Testimone d'accusa,,
-1966-08-10,tt0056724,Zorro alla corte di Spagna,,
-1966-08-12,tt0058717,La violenza è la mia legge,,
-1966-08-13,tt0046731,Attila,,
-1966-08-15,tt0058534,Il cantante del luna park,,
-1966-08-16,tt0057629,Ursus gladiatore ribelle,,
-1966-08-17,tt0056377,Rapina al campo 3,,
-1966-08-19,tt0058706,Chiamate Scotland Yard 0075,,
-1966-08-20,tt0059681,Saul e David,,
-1966-08-22,tt0056665,La voglia matta,,
-1966-08-28,tt0059800,Agente 007 - Thunderball: operazione tuono,,
-1966-08-29,tt0058480,Le più belle truffe del mondo,,
-1966-08-31,tt0158462,Amore mio,,
-1966-09-02,tt0191629,Viale della canzone,,
-1966-09-03,tt0057078,La frusta e il corpo,,
-1966-09-04,tt0056871,L'impero dell'odio,,
-1966-09-08,tt0054870,Il federale,,
-1966-09-09,tt0059869,Via Veneto,,
-1966-09-10,tt0059784,Te lo leggo negli occhi,,
-1966-09-12,tt0251420,Spia S.05 missione infernale,,
-1966-09-14,tt0173831,Un figlio d'oggi,,
-1966-09-15,tt0050625,L'ultimo dei banditi,,
-1966-09-16,tt0046231,Recoil,,
-1966-09-17,tt0057179,L'incendio di Roma,,
-1966-09-19,tt0056710,I giovani fucili del Texas,,
-1966-09-19,tt0057396,Giorni caldi a Palm Springs,,
-1966-09-22,tt0058073,La rivolta di Frankenstein,,
-1966-09-23,tt0056632,Missione in oriente - Il brutto americano,,
-1966-09-24,tt0059862,La vendetta di Spartacus,,
-1966-09-26,tt0197997,La vedovella,,
-1966-09-28,tt0057688,Tra moglie e marito,,
-1966-10-01,tt0061599,Due marines e un generale,,
-1966-10-03,tt0056107,L'isola di Arturo,,
-1966-10-05,tt0059773,La doppia vita di Sylvia West,,
-1966-10-06,tt0060070,Adulterio all'italiana,,
-1966-10-07,tt0044419,Il grande cielo,,
-1966-10-08,tt0060916,Rose rosse per Angelica,,
-1966-10-10,tt0051420,La freccia di fuoco,,
-1966-10-13,tt0057087,Sparate al drago verde,,
-1966-10-14,tt0154461,...e la donna creò l'amore,,
-1966-10-15,tt0058202,Minnesota Clay,,
-1966-10-17,tt0046735,Avanzi di galera,,
-1966-10-19,tt0059638,L'armata delle belve,,
-1966-10-20,tt0050772,Club di gangsters,,
-1966-10-21,tt0048947,Anastasia,,
-1966-10-22,tt0058525,Rio Conchos,,
-1966-10-24,tt0056951,La finestra della morte,,
-1966-10-26,tt0061628,Veneri in collegio,,
-1966-10-27,tt0058879,Agente S03 operazione Atlantide,,
-1966-10-28,tt0239594,Marines Battleground,,
-1966-10-29,tt0268576,A 117 colpo grosso a Los Angeles,,
-1966-10-30,tt0056937,Cleopatra,,
-1966-11-02,tt0053018,"Larry, agente segreto",,
-1966-11-03,tt0276239,La vendetta di Zorro,,
-1966-11-05,tt0057343,Le avventure di Scaramouche,,
-1966-11-07,tt0057676,Lo strangolatore di Londra,,
-1966-11-09,tt0136975,Le sirene urlano i mitra sparano,,
-1966-11-10,tt0309749,Jusqu'à plus soif (X 3 chiamate Brigitte),,
-1966-11-11,tt0051581,I rinnegati dell'isola misteriosa,,
-1966-11-12,tt0058883,Agente S3S: operazione Uranio,,
-1966-11-12,tt0043072,I conquistatori della Sirte,,
-1966-11-14,tt0057151,Spionaggio senza frontiere,,
-1966-11-16,tt0057914,Watabanga!,,
-1966-11-18,tt0062409,Tecnica di una spia,,
-1966-11-19,tt0058089,Fantomas 70,,
-1966-11-21,tt0042531,Romantico avventuriero,,
-1966-11-25,tt0059828,I tre sergenti del Bengala,,
-1966-11-26,tt0058461,Per un pugno di dollari,,
-1966-11-28,tt0051482,Cole il fuorilegge,,
-1966-11-30,tt0058166,Cannoni a batasi,,
-1966-12-02,tt0058158,Il triangolo circolare,,
-1966-12-03,tt0056867,Vento infuocato del Texas,,
-1966-12-05,tt0056220,Sinfonia per un sadico,,
-1966-12-07,tt0053752,Furto alla banca d'Inghilterra,,
-1966-12-08,tt0058866,A 008 operazione sterminio,,
-1966-12-09,tt0048973,Baby doll - La bambola viva,,
-1966-12-10,tt0057979,Se sparo... ti uccido,,
-1966-12-10,tt0059356,Kid Rodelo,,
-1966-12-11,tt0059868,Una ragazza da sedurre,,
-1966-12-12,tt0059627,Questa volta parliamo di uomini,,
-1966-12-14,tt0053780,Dolci inganni,,
-1966-12-17,tt0059690,Se non avessi più te,,
-1966-12-19,tt0052749,C'era una volta un piccolo naviglio,,
-1966-12-21,tt0279860,Le sorelle di Zorro,,
-1966-12-22,tt0166150,Con rispetto parlando,,
-1966-12-23,tt0037522,Gli eroi del Pacifico - La pattuglia invisibile,,
-1966-12-24,tt0059760,Uno straniero a Sacramento,,
-1966-12-26,tt0057570,Il terrore dei mantelli rossi,,
-1966-12-27,tt0059317,"Io uccido, tu uccidi",,
-1966-12-28,tt0057667,Il muro dei dollari,,
-1966-12-30,tt0058859,2+5: Missione Hydra,,
-1966-12-31,tt0060353,I due sanculotti,,
+﻿date,const,title,income
+1948-02-11,tt0035993,Tua per sempre,
+1948-02-17,tt0036470,L'ultima carrozzella,
+1948-02-21,tt0032454,La fanciulla di Portici,
+1948-05-01,tt0035206,Ciao bellezza!,
+1948-05-03,tt0035752,Il conte di Montecristo,
+1948-05-08,tt0031876,Rosa di sangue,
+1948-05-10,tt0032920,Il ponte dei sospiri,
+1948-05-14,tt0038748,Montecassino,
+1948-05-17,tt0034762,Fuga a due voci,
+1948-05-21,tt0031332,Il fornaretto di Venezia,
+1948-05-24,tt0032182,"Addio, giovinezza!",
+1948-06-05,tt0039106,La contessa di Montecristo,
+1948-06-07,tt0036590,"Alaska, inferno dell'oro",
+1948-06-11,tt0032145,La voce nella tempesta (Cime tempestose),
+1948-06-13,tt0039630,La monaca di Monza,
+1948-06-19,tt0038155,Il testimone,
+1948-06-21,tt0038840,Pian delle stelle,
+1948-06-26,tt0038525,Felicità perduta,
+1948-07-02,tt0033076,Il figlio di Montecristo,
+1948-07-09,tt0037144,Ogni giorno è domenica,
+1948-07-12,tt0034687,I due Foscari,
+1948-07-20,tt0033456,La cena delle beffe,
+1948-08-05,tt0036210,Una notte tempestosa,
+1948-09-10,tt0033449,Capitan Tempesta,
+1948-09-13,tt0033825,Il leone di Damasco,
+1948-09-19,tt0039072,Un uomo ritorna,
+1948-09-23,tt0039254,Caterina da Siena,
+1948-10-06,tt0191305,Melodia segreta,
+1948-10-16,tt0031642,La mia canzone al vento,7930
+1948-10-19,tt0031856,Ricchezza senza domani,6950
+1948-10-22,tt0037793,La casa degli orrori,5500
+1948-10-24,tt0040362,Follie per l'opera,25000
+1948-11-01,tt0038301,L'angelo e il diavolo,
+1948-11-04,tt0037576,Capitan Kidd,
+1948-11-07,tt0037008,Vertigine,13200
+1948-11-09,tt0026032,Il sultano rosso,3350
+1948-11-09,tt0036677,Buffalo Bill,
+1948-11-14,tt0038183,Torna... a Sorrento,21980
+1948-11-16,tt0031619,La maschera di ferro,
+1948-11-19,tt0037408,Due ragazze e un marinaio,
+1948-11-20,tt0025493,La vedova allegra,
+1948-11-22,tt0035099,Musica proibita,
+1948-11-25,tt0039015,Tentazione,8000
+1948-11-25,tt0039280,Il corriere del re,
+1948-11-28,tt0028683,Margherita Gauthier,21700
+1948-12-02,tt0031074,Balalaika,
+1948-12-06,tt0143686,Maschera di sangue,
+1948-12-08,tt0023826,Anime alla deriva,9900
+1948-12-10,tt0035446,Vogliamo Vivere!,
+1948-12-31,tt0036983,Le chiavi del paradiso,8000
+1949-01-01,tt0039682,L'onorevole Angelina,10464
+1949-01-14,tt0038408,Il cantante sconosciuto,17700
+1949-01-18,tt0033431,Il bravo di Venezia,6000
+1949-01-23,tt0039319,Il diavolo bianco,15000
+1949-01-27,tt0032871,Sul sentiero dei mostri,5000
+1949-02-01,tt0034331,Gli ultimi filibustieri,12500
+1949-02-03,tt0039854,Sono io l'assassino,6000
+1949-02-06,tt0039381,La figlia del capitano,13000
+1949-02-10,tt0035740,Città senza uomini,6000
+1949-02-13,tt0039256,I cavalieri dalle maschere nere (I beati paoli),13000
+1949-02-16,tt0039004,La sinfonia pastorale,6000
+1949-02-20,tt0039696,Il passatore,13000
+1949-02-23,tt0034023,Piccolo mondo antico,6000
+1949-02-24,tt0031075,Ballo al castello,10360
+1949-02-27,tt0034803,La Gorgona,8000
+1949-03-02,tt0034993,Fiamme sul Messico,5000
+1949-03-06,tt0038570,La gondola del diavolo,8000
+1949-03-09,tt0036826,Fiori d'arancio,3000
+1949-03-10,tt0035260,Rita da Cascia,3000
+1949-03-15,tt0033390,Il mistero dei tre sosia,51675
+1949-03-23,tt0034429,Addio Kira!,23000
+1949-03-31,tt0026348,Fiat voluntas dei,49500
+1949-04-03,tt0038506,L'eco della gloria,13100
+1949-04-17,tt0038493,Tragico inganno,10300
+1949-04-19,tt0038942,Sinfonia fatale,30350
+1949-05-15,tt0034777,Io la difendo,
+1949-05-20,tt0034242,Inferno nel deserto,5300
+1949-05-25,tt0039781,Rocambole,8000
+1949-05-28,tt0039774,La rivincita di Baccarat,8000
+1949-06-05,tt0036413,T'amerò sempre,
+1949-06-08,tt0162234,Che distinta famiglia!,30500
+1949-06-10,tt0034894,Incontri di notte,
+1949-06-26,tt0040223,La Certosa di Parma,14025
+1949-07-03,tt0039059,Ultimo amore,
+1949-07-20,tt0031146,Centomila dollari,
+1949-07-28,tt0032865,Oltre l'amore,13725
+1949-07-30,tt0038719,Malacarne,
+1949-08-02,tt0033588,Fari nella nebbia,
+1949-08-07,tt0034893,Gioventù traviata,
+1949-08-14,tt0034936,Prigioniera di un segreto,
+1949-08-21,tt0033127,Prigione d'amore,4725
+1949-08-27,tt0039039,Il tiranno di Padova,
+1949-09-04,tt0039198,Bionda selvaggia,12850
+1949-09-11,tt0039342,I due orfanelli,45400
+1949-09-28,tt0027887,Appuntamento alle 5,3300
+1949-10-05,tt0215327,Il ventesimo duca,
+1949-10-07,tt0041609,Il lupo della Sila,
+1949-10-12,tt0038220,Le vie del peccato,10200
+1949-10-20,tt0202713,L'eterno conflitto,
+1949-10-21,tt0041119,Amori e veleni,
+1949-10-21,tt0026188,Casta Diva,
+1949-10-21,tt0036214,Non canto più,
+1949-10-23,tt0037925,Monaca santa,
+1949-10-27,tt0041320,Duello senza onore,
+1949-10-27,tt0028683,Margherita Gauthier,
+1949-11-01,tt0040244,I contrabbandieri del mare!,
+1949-11-06,tt0042303,Campane a martello,
+1949-11-09,tt0034882,Musica sulle nuvole,
+1949-11-11,tt0033017,San Giovanni decollato,
+1949-11-16,tt0039949,È accaduto in Europa,
+1949-11-23,tt0032728,Lungo viaggio di ritorno,5500
+1949-11-26,tt0041684,Napoli eterna canzone,
+1949-12-02,tt0041739,Patto col diavolo,
+1949-12-08,tt0023826,Anime alla deriva,
+1949-12-08,tt0033807,La ribelle del west,7200
+1949-12-09,tt0040568,Alba di sangue,
+1949-12-18,tt0041843,Santo disonore,
+1949-12-30,tt0036983,Le chiavi del paradiso,
+1949-12-31,tt0041974,Totò cerca casa,
+1950-01-01,tt0036983,Le chiavi del paradiso,
+1950-01-04,tt0024216,King Kong,
+1950-01-14,tt0041126,Antonio di Padova,
+1950-01-20,tt0025493,La vedova allegra,
+1950-01-24,tt0031876,Rosa di sangue,
+1950-01-27,tt0040640,Nennella,
+1950-01-28,tt0038492,Il castello di Dragonwyck,4150
+1950-02-07,tt0030725,Duello col pirata nero,
+1950-02-15,tt0165938,Difendo mia figlia,
+1950-02-17,tt0041991,Il trovatore,
+1950-02-24,tt0035360,Il figlio della furia,
+1950-02-25,tt0038279,Il 13 non risponde,
+1950-02-28,tt0038813,Vita rubata,2500
+1950-03-04,tt0200523,Il demone della gelosia,14000
+1950-03-07,tt0022641,Come tu mi vuoi,2600
+1950-03-12,tt0165938,Difendo mia figlia,7000
+1950-03-14,tt0037672,La foresta incantata,7300
+1950-03-17,tt0039809,Il segreto di don Giovanni,20000
+1950-03-24,tt0040774,La sepolta viva,52000
+1950-04-04,tt0038232,Il demone della carne,6450
+1950-04-08,tt0039536,Il bacio della morte,45800
+1950-04-18,tt0032758,Marco Visconti,
+1950-04-22,tt0038046,Salomè,
+1950-04-28,tt0026188,Casta Diva,
+1950-05-05,tt0207295,La collana della regina,4800
+1950-05-07,tt0035719,La casa senza tempo,11900
+1950-05-12,tt0041365,La figlia del peccato - Voce è notte,14300
+1950-05-18,tt0040342,Abbandonata in viaggio di nozze,11385
+1950-05-20,tt0041633,La mano della morta,11900
+1950-05-23,tt0039615,I maledetti,
+1950-06-01,tt0178337,La santa cittadina,67000
+1950-06-10,tt0037925,Monaca santa,19500
+1950-06-14,tt0039615,I maledetti,11100
+1950-06-16,tt0041366,La figlia della Madonna,13000
+1950-06-22,tt0041261,Il conte Ugolino,19100
+1950-06-29,tt0024852,Nel paese delle meraviglie,8000
+1950-07-05,tt0130261,Sirena,3350
+1950-07-08,tt0043075,L'urlo della folla,11300
+1950-08-13,tt0162292,La spada del venticatore,13500
+1950-08-18,tt0134056,Il trionfo di Zorro,3000
+1950-08-22,tt0034431,Martin Eden,41000
+1950-08-24,tt0038068,Jungla in fiamme,6000
+1950-09-01,tt0030107,Ettore Fieramosca,
+1950-09-01,tt0041344,Il falco rosso,25000
+1950-09-05,tt0034672,La donna è mobile,10000
+1950-09-13,tt0032811,Bufera mortale,8000
+1950-09-15,tt0039241,Capitan demonio,29200
+1950-09-22,tt0041200,Botta e risposta,15000
+1950-09-29,tt0038016,Il ratto delle Sabine,
+1950-12-01,tt0041739,Patto col diavolo,
+1950-12-17,tt0046160,Paolo e Francesca,
+1950-12-25,tt0038882,Rigoletto,
+1950-12-31,tt0038002,"Pronto, chi parla?",
+1951-01-01,tt0039135,L'aquila a due teste,
+1951-01-06,tt0040605,La montagna di cristallo,
+1951-01-14,tt0041843,Santo disonore,
+1951-01-20,tt0026286,Don Bosco,
+1951-02-27,tt0032935,Il postiglione della steppa,
+1951-04-01,tt0032307,"Caravaggio, il pittore maledetto",
+1951-04-11,tt0039086,Voglio bene soltanto a te!,
+1951-04-14,tt0041102,Al diavolo la celebrità,
+1951-04-15,tt0041226,Canzoni per le strade,
+1951-04-17,tt0032200,"Amami, Alfredo!",
+1951-04-22,tt0041925,La strada buia,
+1951-05-01,tt0028221,Le scarpe al sole,
+1951-05-05,tt0042427,L'edera,
+1951-05-08,tt0032302,Capitan Fracassa,
+1951-06-02,tt0033489,La corona di ferro,
+1951-11-17,tt0043157,Lo zappatore,
+1951-12-29,tt0032300,Cantate con me,
+1952-01-01,tt0036389,La storia di una capinera,
+1952-01-03,tt0038255,Gli ammutinati di Sing Sing,
+1952-01-06,tt0183476,Malavita,
+1952-01-13,tt0041767,Il principe delle volpi,
+1952-01-17,tt0032200,"Amami, Alfredo!",
+1952-01-19,tt0035168,I pagliacci,
+1952-01-22,tt0038473,Malafemmina,
+1952-01-25,tt0042597,Gli inesorabili,
+1952-02-03,tt0032905,Piccolo alpino,
+1952-02-05,tt0034090,Regina di Navarra,
+1952-02-09,tt0041232,Catene,
+1952-02-16,tt0040198,Calamità d'oro,
+1952-02-22,tt0033405,Sangue e arena,
+1952-03-01,tt0041248,Cielo sulla palude,
+1952-03-03,tt0032532,Giuliano de' Medici,
+1952-03-08,tt0031466,Questa donna è mia,
+1952-03-11,tt0038255,Gli ammutinati di Sing Sing,
+1952-03-15,tt0160794,Ardimento,
+1952-03-16,tt0040389,Giudicatemi!,
+1952-03-20,tt0033964,Nozze di sangue,
+1952-03-23,tt0042904,Romanticismo,
+1952-04-06,tt0042297,Il caimano del Piave,
+1952-04-13,tt0043382,Carcerato,
+1952-04-20,tt0041767,Il principe delle volpi,
+1952-04-22,tt0032365,Credo in Dio,
+1952-04-25,tt0039616,Duello all'alba,
+1952-05-03,tt0031507,Jess il bandito,
+1952-05-07,tt0035752,Il conte di Montecristo,
+1952-05-15,tt0039391,Ambra,
+1952-05-17,tt0041409,Gente così,
+1952-05-22,tt0034588,Catene invisibili,
+1952-05-27,tt0041662,Il sig. Belvedere va in collegio,
+1952-06-08,tt0032905,Piccolo alpino,
+1952-06-22,tt0037035,La Madonna delle 7 lune,
+1952-06-29,tt0037578,Zingari,
+1952-08-14,tt0030393,"Luciano Serra, pilota",
+1952-08-24,tt0034688,Le due orfanelle,
+1952-08-30,tt0032905,Piccolo alpino,
+1952-09-03,tt0252083,La taverna della mala gente,
+1952-09-05,tt0041364,La figlia del mendicante,
+1952-09-06,tt0041991,Il trovatore,
+1952-09-20,tt0044184,La vendetta di una pazza,
+1952-09-28,tt0043598,La grande rinuncia,
+1952-10-05,tt0039243,Il capitano di Castiglia,
+1952-10-12,tt0197674,Il padrone delle ferriere,
+1952-10-24,tt0044183,La vendetta di Aquila Nera,
+1952-10-31,tt0043287,Anna,
+1952-11-02,tt0042420,Le due sorelle,
+1952-11-14,tt0043473,Donne e briganti,
+1952-11-22,tt0044162,Ultimo incontro,
+1952-11-25,tt0032896,La peccatrice,
+1952-11-28,tt0043598,La grande rinuncia,
+1952-12-03,tt0042303,Campane a martello,
+1952-12-08,tt0040946,La strega rossa,
+1952-12-14,tt0043741,Licenza premio,
+1952-12-19,tt0041657,Monastero di Santa Chiara,
+1952-12-24,tt0043765,Il lupo della frontiera,
+1953-01-01,tt0040533,La leggenda di Faust,
+1953-01-02,tt0036628,Bellezze al bagno,
+1953-01-06,tt0028505,Gelosia,
+1953-01-09,tt0025948,Viva Villa!,
+1953-01-15,tt0037698,Il cavaliere mascherato,
+1953-01-17,tt0044607,La favorita,
+1953-01-20,tt0032976,Rebecca - La prima moglie,
+1953-01-20,tt0041622,Malesia,
+1953-01-23,tt0039954,Primavera,
+1953-01-27,tt0034998,Il disertore,
+1953-01-30,tt0043440,Core 'ngrato,
+1953-02-06,tt0430467,Piume al vento,
+1953-02-11,tt0039694,Il caso Paradine,
+1953-02-13,tt0043993,Santa Lucia Luntana,
+1953-02-15,tt0038403,L'inferno degli amanti (Cavaliere del sogno),
+1953-02-20,tt0043279,Amo un assassino,
+1953-02-24,tt0034956,Labbra serrate,
+1953-02-27,tt0043674,Incantesimo tragico,
+1953-03-03,tt0042351,Delitto e castigo,
+1953-03-06,tt0201055,Salvate mia figlia,
+1953-03-10,tt0043363,L'amante del torero,
+1953-03-13,tt0025191,Golgota,
+1953-03-18,tt0041762,La portatrice di pane,
+1953-03-21,tt0043764,Luna rossa,
+1953-03-24,tt21977724,Solo per te,
+1953-03-28,tt0042933,La scogliera del peccato,
+1953-04-04,tt0044484,Carne inquieta,
+1953-04-10,tt0044010,I pirati di Barracuda,
+1953-04-11,tt0041814,La rivale dell'imperatrice,
+1953-04-16,tt0029818,La maschera di Zorro,
+1953-04-18,tt0031507,Jess il bandito,
+1953-04-21,tt0042579,Bassa marea,
+1953-04-24,tt0044817,Adultera senza peccato,
+1953-04-27,tt0029453,Il bandito della Casbah,
+1953-05-01,tt0041088,Atto di violenza,
+1953-05-13,tt0142782,La prima luce,
+1953-05-15,tt0033490,I vendicatori,
+1953-05-19,tt0038645,Io t'ho incontrata a Napoli,
+1953-05-22,tt0044161,L'ultima sentenza,
+1953-05-29,tt0033238,Il ponte di Waterloo,
+1953-06-03,tt0042634,La chiave della città,
+1953-06-05,tt0043741,Licenza premio,
+1953-06-07,tt0044023,I sette nani alla riscossa,
+1953-06-12,tt0039377,Fiesta (La matadora),
+1953-06-18,tt0033026,Scarpe grosse,
+1953-06-21,tt0043416,Clandestino a Trieste,
+1953-06-24,tt0163897,La vispa Teresa,
+1953-06-27,tt0035084,La morte civile,
+1953-06-29,tt0035244,Vento selvaggio,
+1953-07-04,tt0042461,Filomena Marturano,
+1953-07-07,tt0042947,Accadde in settembre,
+1953-07-21,tt0034131,Rossini,
+1953-07-25,tt0152086,Il vagabondo della steppa,
+1953-07-27,tt0042960,La via della morte,
+1953-08-04,tt0043488,I due sergenti,
+1953-08-07,tt0035432,Il fuorilegge,
+1953-08-15,tt0041362,L'inafferrabile,
+1953-08-30,tt0023729,1860 I mille di Garbialdi,
+1953-09-02,tt0034366,Voglio vivere così,
+1953-09-05,tt0043870,O.K. Nerone,
+1953-09-10,tt0032229,Un'avventura di Salvator Rosa,
+1953-09-13,tt0034580,Carmela,
+1953-09-15,tt0030420,Marionette,
+1953-09-18,tt0045022,Pentimento,
+1953-09-22,tt0042446,I falsari,
+1953-09-27,tt0043805,Milano miliardaria,
+1953-10-06,tt0033062,L'assassino è in casa!,
+1953-10-09,tt0037574,"Canto, ma sottovoce…",
+1953-10-13,tt0035066,"Miliardi, che follia!",
+1953-10-16,tt0031334,Le quattro piume,
+1953-10-20,tt0043828,Voglio essere tua,
+1953-10-23,tt0043918,Don Camillo,
+1953-10-27,tt0042826,La gabbia di ferro,
+1953-10-30,tt0044572,Due soldi di speranza,
+1953-11-01,tt0043945,Quattro rose rosse,
+1953-11-06,tt0044572,Due soldi di speranza,
+1953-11-10,tt0026071,Anna Karenina,
+1953-11-13,tt0036482,Uomini e cieli,
+1953-11-17,tt0038272,L'uomo dai cinque volti,
+1953-11-20,tt0031455,Notre Dame,
+1953-11-23,tt0043142,Il mistero del marito scomparso,
+1953-11-26,tt0045247,Totò a colori,
+1953-12-02,tt0034660,Don Cesare di Bazan,
+1953-12-05,tt0043506,"Era lui, sì, sì!",
+1953-12-09,tt0040480,L'isola di Montecristo,
+1953-12-11,tt0046063,Melodie immortali - Mascagni,
+1953-12-15,tt0022958,Grand Hotel,
+1953-12-20,tt0045101,Il romanzo della mia vita,
+1953-12-24,tt0038462,Inganno,
+1953-12-26,tt0043108,Vita da cani,
+1953-12-30,tt0033152,Il ladro di Bagdad,
+1966-01-01,tt0059121,I due toreri,
+1966-01-02,tt0207596,L'indomabile,
+1966-01-05,tt0058140,I giganti di Roma,
+1966-01-08,tt0055928,Agente 007 - Licenza di uccidere,
+1966-01-14,tt0180026,Operazione Tiziano,
+1966-01-15,tt0178516,Goliath e la schiava ribelle,
+1966-01-20,tt0055756,L'implacabile cordobes,
+1966-01-21,tt0061157,La vita agra,
+1966-01-22,tt0055141,Marco Polo,
+1966-01-27,tt0057890,La morte nera,
+1966-01-28,tt0032178,Giuramento di sangue,
+1966-01-29,tt0055377,La rivolta degli schiavi,
+1966-02-03,tt0059248,Il pugno proibito dell'agente Warner,
+1966-02-04,tt0051179,Tamburi di guerra,
+1966-02-05,tt0058742,Da 077: criminali a Hong Kong,
+1966-02-07,tt0414992,Mafiosi a Marsiglia,
+1966-02-09,tt0054969,I fratelli di ferro,
+1966-02-11,tt0057683,Dove vai sono guai!,
+1966-02-12,tt0058229,In ginocchio da te,
+1966-02-14,tt0043711,Le pistole di Zorro,
+1966-02-16,tt0054755,Vento freddo d'agosto,
+1966-02-17,tt0047501,La strage del 7º Cavalleggeri,
+1966-02-18,tt0059065,Esperimento IS: il mondo si frantuma,
+1966-02-19,tt0058312,"Maciste, gladiatore di Sparta",
+1966-02-21,tt0054236,Tra due donne,
+1966-02-22,tt0056652,Zorro il vendicatore,
+1966-02-23,tt0056894,Rapina al Cairo,
+1966-02-24,tt0056395,Il sentiero dei disperati,
+1966-02-25,tt0047163,La legge contro Billy Kid,
+1966-02-26,tt0186544,Siamo tutti pomicioni,
+1966-02-27,tt0134668,Il gaucho,
+1966-02-28,tt0057155,Horror,
+1966-03-02,tt0055488,Sua Eccellenza si fermò a mangiare,
+1966-03-03,tt0057615,Umorismo in nero,
+1966-03-04,tt0056975,Il grande corsaro,
+1966-03-05,tt0059517,Non son degno di te,
+1966-03-07,tt0296839,I giganti dell'oro nero,
+1966-03-09,tt0054837,La notte e il desiderio,
+1966-03-10,tt0056917,100.000 dollari al sole,
+1966-03-11,tt0044790,I fuorilegge del Kansas,
+1966-03-12,tt0045966,I cavalieri della tavola rotonda,
+1966-03-14,tt0056057,Furto su misura,
+1966-03-16,tt0061344,Oltraggio al pudore,
+1966-03-17,tt0056100,Sulla sabbia è passata la morte,
+1966-03-18,tt0059384,Letti sbagliati,
+1966-03-19,tt0055047,Il re dei re,
+1966-03-21,tt0058452,I disperati della gloria,
+1966-03-23,tt0040636,La città nuda,
+1966-03-24,tt0056448,I fuorilegge della valle solitaria,
+1966-03-26,tt0150548,I figli del leopardo,
+1966-03-28,tt0168201,Super rapina a Milano,
+1966-03-30,tt0056957,Il coltello nella piaga,
+1966-04-01,tt0055252,Il mondo nella mia tasca,
+1966-04-02,tt0054847,El Cid,
+1966-04-04,tt0057540,Il successo,
+1966-04-06,tt0041947,Tarzan e la fontana magica,
+1966-04-09,tt0056556,Taras il magnifico,
+1966-04-11,tt0056939,Il comandante,
+1966-04-15,tt0053365,Londra a mezzanotte,
+1966-04-16,tt0058282,Una lacrima sul viso,
+1966-04-18,tt0055464,Momento selvaggio,
+1966-04-20,tt0060483,Pistole roventi,
+1966-04-21,tt0058407,Le calde amanti di Kyoto,
+1966-04-22,tt0058368,L'ispettore spara a vista,
+1966-04-23,tt0057917,L'uomo che non sapeva amare,
+1966-04-25,tt0057443,La ragazza che sapeva troppo,
+1966-04-27,tt0138782,Operazione terzo uomo,
+1966-04-28,tt0054770,L'ombra della vendetta,
+1966-04-29,tt0059107,Il gigante della roccia del falco,
+1966-04-30,tt0057891,1000 dollari per un Winchester,
+1966-05-02,tt0055935,Rififi a Tokyo,
+1966-05-04,tt0057840,"Tempo di guerra, tempo d'amore",
+1966-05-05,tt0172416,F.B.I. operazione Baalbeck,
+1966-05-07,tt0059836,24 ore per uccidere,
+1966-05-09,tt0041361,Il ritorno del kentuckiano,
+1966-05-11,tt0058283,Un giorno di terrore,
+1966-05-12,tt0055906,Diciottenni al sole,
+1966-05-13,tt0039737,Notte senza fine,
+1966-05-14,tt0055865,La congiura dei dieci,
+1966-05-16,tt0057303,L'omicida,
+1966-05-18,tt0054671,Battaglia sulla spiaggia insanguinata,
+1966-05-19,tt0056268,I misteri di Parigi,
+1966-05-21,tt0195173,I predoni del Sahara,
+1966-05-22,tt0051364,Estasi d'amore - Operazione Love,
+1966-05-23,tt0056953,Agente Coplan: missione spionaggio,
+1966-05-25,tt0057294,Le massaggiatrici,
+1966-05-28,tt0058712,"Ursus, il terrore dei kirghisi",
+1966-05-30,tt0210354,I temibili 7,
+1966-06-01,tt0060790,Password: Uccidete agente Gordon,
+1966-06-02,tt0050497,I filibustieri dei mari del sud,
+1966-06-04,tt0059098,Sfida a Rio Bravo,
+1966-06-05,tt0056048,La donna che inventò lo strip-tease,
+1966-06-06,tt0056375,Normandia anno '43,
+1966-06-08,tt0380028,Tokio: divisione criminale,
+1966-06-09,tt0052415,I giovani leoni,
+1966-06-11,tt0056485,La schiava di Bagdad,
+1966-06-14,tt0122597,Maciste contro Ercole nella valle dei guai ( I due pretoriani),
+1966-06-16,tt0137795,Il grande bluff,
+1966-06-17,tt0353260,Assassino sulla Costa Azzurra,
+1966-06-18,tt0056470,Tre contro tutti,
+1966-06-20,tt0055214,Il dubbio,
+1966-06-22,tt0055484,La camera blindata,
+1966-06-25,tt0290240,Il magnifico gladiatore,
+1966-06-27,tt0051349,L'urlo di guerra degli apaches,
+1966-06-29,tt0059323,Italiani brava gente,
+1966-07-01,tt0060049,5 tombe per un medium,
+1966-07-02,tt0058885,002 agenti segretissimi,
+1966-07-04,tt0199301,Adolescenti al sole,
+1966-07-08,tt0051984,Nel blu dipinto di blu,
+1966-07-09,tt0057357,Saladino,
+1966-07-14,tt0055260,I senza paura,
+1966-07-15,tt0256102,La città vietata,
+1966-07-16,tt0048090,Orizzonte di fuoco,
+1966-07-23,tt0055717,Una vergine per il bandito,
+1966-07-25,tt0056601,L'uomo che vinse la morte,
+1966-07-27,tt0055759,Arsenio Lupin contro Arsenio Lupin,
+1966-07-30,tt0058777,Zulu,
+1966-08-01,tt0179881,Intrigo a Los Angeles,
+1966-08-03,tt0057278,Maigret e i gangsters,
+1966-08-05,tt0052865,Guardatele ma non toccatele,
+1966-08-06,tt0058121,I rinnegati di Fort Grant,
+1966-08-08,tt0051201,Testimone d'accusa,
+1966-08-10,tt0056724,Zorro alla corte di Spagna,
+1966-08-12,tt0058717,La violenza è la mia legge,
+1966-08-13,tt0046731,Attila,
+1966-08-15,tt0058534,Il cantante del luna park,
+1966-08-16,tt0057629,Ursus gladiatore ribelle,
+1966-08-17,tt0056377,Rapina al campo 3,
+1966-08-19,tt0058706,Chiamate Scotland Yard 0075,
+1966-08-20,tt0059681,Saul e David,
+1966-08-22,tt0056665,La voglia matta,
+1966-08-28,tt0059800,Agente 007 - Thunderball: operazione tuono,
+1966-08-29,tt0058480,Le più belle truffe del mondo,
+1966-08-31,tt0158462,Amore mio,
+1966-09-02,tt0191629,Viale della canzone,
+1966-09-03,tt0057078,La frusta e il corpo,
+1966-09-04,tt0056871,L'impero dell'odio,
+1966-09-08,tt0054870,Il federale,
+1966-09-09,tt0059869,Via Veneto,
+1966-09-10,tt0059784,Te lo leggo negli occhi,
+1966-09-12,tt0251420,Spia S.05 missione infernale,
+1966-09-14,tt0173831,Un figlio d'oggi,
+1966-09-15,tt0050625,L'ultimo dei banditi,
+1966-09-16,tt0046231,Recoil,
+1966-09-17,tt0057179,L'incendio di Roma,
+1966-09-19,tt0056710,I giovani fucili del Texas,
+1966-09-19,tt0057396,Giorni caldi a Palm Springs,
+1966-09-22,tt0058073,La rivolta di Frankenstein,
+1966-09-23,tt0056632,Missione in oriente - Il brutto americano,
+1966-09-24,tt0059862,La vendetta di Spartacus,
+1966-09-26,tt0197997,La vedovella,
+1966-09-28,tt0057688,Tra moglie e marito,
+1966-10-01,tt0061599,Due marines e un generale,
+1966-10-03,tt0056107,L'isola di Arturo,
+1966-10-05,tt0059773,La doppia vita di Sylvia West,
+1966-10-06,tt0060070,Adulterio all'italiana,
+1966-10-07,tt0044419,Il grande cielo,
+1966-10-08,tt0060916,Rose rosse per Angelica,
+1966-10-10,tt0051420,La freccia di fuoco,
+1966-10-13,tt0057087,Sparate al drago verde,
+1966-10-14,tt0154461,...e la donna creò l'amore,
+1966-10-15,tt0058202,Minnesota Clay,
+1966-10-17,tt0046735,Avanzi di galera,
+1966-10-19,tt0059638,L'armata delle belve,
+1966-10-20,tt0050772,Club di gangsters,
+1966-10-21,tt0048947,Anastasia,
+1966-10-22,tt0058525,Rio Conchos,
+1966-10-24,tt0056951,La finestra della morte,
+1966-10-26,tt0061628,Veneri in collegio,
+1966-10-27,tt0058879,Agente S03 operazione Atlantide,
+1966-10-28,tt0239594,Marines Battleground,
+1966-10-29,tt0268576,A 117 colpo grosso a Los Angeles,
+1966-10-30,tt0056937,Cleopatra,
+1966-11-02,tt0053018,"Larry, agente segreto",
+1966-11-03,tt0276239,La vendetta di Zorro,
+1966-11-05,tt0057343,Le avventure di Scaramouche,
+1966-11-07,tt0057676,Lo strangolatore di Londra,
+1966-11-09,tt0136975,Le sirene urlano i mitra sparano,
+1966-11-10,tt0309749,Jusqu'à plus soif (X 3 chiamate Brigitte),
+1966-11-11,tt0051581,I rinnegati dell'isola misteriosa,
+1966-11-12,tt0058883,Agente S3S: operazione Uranio,
+1966-11-12,tt0043072,I conquistatori della Sirte,
+1966-11-14,tt0057151,Spionaggio senza frontiere,
+1966-11-16,tt0057914,Watabanga!,
+1966-11-18,tt0062409,Tecnica di una spia,
+1966-11-19,tt0058089,Fantomas 70,
+1966-11-21,tt0042531,Romantico avventuriero,
+1966-11-25,tt0059828,I tre sergenti del Bengala,
+1966-11-26,tt0058461,Per un pugno di dollari,
+1966-11-28,tt0051482,Cole il fuorilegge,
+1966-11-30,tt0058166,Cannoni a batasi,
+1966-12-02,tt0058158,Il triangolo circolare,
+1966-12-03,tt0056867,Vento infuocato del Texas,
+1966-12-05,tt0056220,Sinfonia per un sadico,
+1966-12-07,tt0053752,Furto alla banca d'Inghilterra,
+1966-12-08,tt0058866,A 008 operazione sterminio,
+1966-12-09,tt0048973,Baby doll - La bambola viva,
+1966-12-10,tt0057979,Se sparo... ti uccido,
+1966-12-10,tt0059356,Kid Rodelo,
+1966-12-11,tt0059868,Una ragazza da sedurre,
+1966-12-12,tt0059627,Questa volta parliamo di uomini,
+1966-12-14,tt0053780,Dolci inganni,
+1966-12-17,tt0059690,Se non avessi più te,
+1966-12-19,tt0052749,C'era una volta un piccolo naviglio,
+1966-12-21,tt0279860,Le sorelle di Zorro,
+1966-12-22,tt0166150,Con rispetto parlando,
+1966-12-23,tt0037522,Gli eroi del Pacifico - La pattuglia invisibile,
+1966-12-24,tt0059760,Uno straniero a Sacramento,
+1966-12-26,tt0057570,Il terrore dei mantelli rossi,
+1966-12-27,tt0059317,"Io uccido, tu uccidi",
+1966-12-28,tt0057667,Il muro dei dollari,
+1966-12-30,tt0058859,2+5: Missione Hydra,
+1966-12-31,tt0060353,I due sanculotti,
+1955-03-09,tt0041838,Sansone e Dalila,
+1957-08-09,tt0046281,Schiavitù,

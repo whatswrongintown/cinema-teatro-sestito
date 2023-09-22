@@ -1,0 +1,45 @@
+---
+title: Agenda Cinematografica 1953
+author: Vito Sestito
+date: '1953-01-01'
+slug: agenda-cinematografica-1953
+categories:
+  - Agende
+tags:
+  - AgendaCinematografica
+  - bruzia
+  - fedi
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(tidyverse)
+
+agende <- read_csv("C:/Users/eurhope/Documents/R/cinema-teatro-sestito/static/data/programmazione_agende.csv") %>%
+          select(const, date, title)
+
+imdb <- read_csv("C:/Users/eurhope/Documents/R/cinema-teatro-sestito/static/data/programmazione_imdb.csv") %>%
+          select(const, year, directors, genres, imdb_rating, runtime, url)
+
+agenda_53 <- agende %>%
+          filter(date >= "1953-01-01" & date <= "1953-12-31") %>%
+          left_join(imdb, by = "const") %>%
+          arrange(date)
+```
+
+## Galleria immagini
+
+### Agenda Bruzia 1953
+{{< image-gallery gallery_dir="/images/1953_bruzia" >}}
+
+### Agenda FEDI 1953
+{{< image-gallery gallery_dir="/images/1953_fedi" >}}
+
+## Lista film
+```{r echo=FALSE}
+agenda_53 %>%
+          arrange(date) %>%
+  mutate(title = paste0("[",title,"]","(",url,")")) %>%
+          select(date, title) %>%
+          knitr::kable(col.names = c("Data di proiezione", "Titolo"), align = c("l", "l"))
+```
