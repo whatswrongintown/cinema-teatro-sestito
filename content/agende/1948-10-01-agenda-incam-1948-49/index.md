@@ -12,6 +12,7 @@ tags:
   - FilmItaliani
   - Film
 ---
+{{< image-gallery gallery_dir="/images/1948_10_01_incam_1948_49" >}}
 
 
 ### Lista film
