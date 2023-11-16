@@ -1,0 +1,35 @@
+---
+title: Agenda Fedi 1953-54
+author: Vito Sestito
+date: '1954-01-01'
+slug: agenda-fedi-1953-54
+categories:
+  - Agende
+  - Proiezioni
+tags:
+  - AgendaCinematografica
+  - Database
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(tidyverse)
+
+agende <- read_csv("C:/Users/eurhope/Documents/R/cinema-teatro-sestito/static/data/programmazione_agende.csv") %>%
+          select(const, date, title, source)
+
+imdb <- read_csv("C:/Users/eurhope/Documents/R/cinema-teatro-sestito/static/data/programmazione_imdb.csv") %>%
+          select(const = Const, year = Year, directors = Directors, genres = Genres, imdb_rating = `IMDb Rating`, runtime = `Runtime (mins)`, url = URL)
+
+fedi_1953_54 <- agende %>%
+          filter(str_detect(source, "Fedi 1953-54")) %>%
+          left_join(imdb, by = "const")
+```
+### Lista film
+```{r echo=FALSE}
+fedi_1953_54 %>%
+          arrange(date) %>%
+  mutate(title = if_else(title == "La Gioconda", "La Gioconda", paste0("[",title,"]","(", url,")"))) %>%
+          select(date, title) %>%
+          knitr::kable(col.names = c("Data di proiezione", "Titolo"), align = c("l", "l", "l"))
+```
