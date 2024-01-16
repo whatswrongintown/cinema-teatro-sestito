@@ -10,6 +10,7 @@ tags:
   - AgendaCinematografica
   - Database
 ---
+{{< image-gallery gallery_dir="/images/1954_01_01_fedi_1953_54" >}}
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 
