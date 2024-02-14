@@ -10,7 +10,7 @@ tags:
   - Proiezioni
   - Database
 ---
-{{< image-gallery gallery_dir="/images/1958_11_01_fedi_1958_59" >}}
+
 
 ### Lista film
 
