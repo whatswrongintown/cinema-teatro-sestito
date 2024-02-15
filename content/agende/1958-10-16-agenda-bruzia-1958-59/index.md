@@ -9,7 +9,7 @@ categories:
 tags:
   - Database
 ---
-{{< image-gallery gallery_dir="/images/1958_10_16_bruzia_1958_59" >}}
+
 
 ### Lista film
 
