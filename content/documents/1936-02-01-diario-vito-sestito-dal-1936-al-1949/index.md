@@ -9,10 +9,7 @@ tags:
   - Diario
   - Commercio
 ---
-Pagine 1-25
-{{< image-gallery gallery_dir="/images/1936_diario_nonno_vito_1" >}}
-Pagine 26-50
-{{< image-gallery gallery_dir="/images/1936_diario_nonno_vito_2" >}}
+{{< image-gallery gallery_dir="/images/1936_1949_diario_nonno_vito" >}}
 
 ### Indice Analitico
 
