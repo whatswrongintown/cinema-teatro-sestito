@@ -1,7 +1,7 @@
 ---
 title: Agenda Fedi 1958-59
 author: Vito Sestito
-date: '1959-11-01'
+date: '1958-11-01'
 slug: agenda-fedi-1958-59
 categories:
   - Agende
@@ -10,7 +10,7 @@ tags:
   - Proiezioni
   - Database
 ---
-
+{{< image-gallery gallery_dir="/images/1958_11_01_fedi_1958_59" >}}
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 

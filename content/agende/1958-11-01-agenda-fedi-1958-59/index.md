@@ -1,7 +1,7 @@
 ---
 title: Agenda Fedi 1958-59
 author: Vito Sestito
-date: '1959-11-01'
+date: '1958-11-01'
 slug: agenda-fedi-1958-59
 categories:
   - Agende
@@ -10,7 +10,7 @@ tags:
   - Proiezioni
   - Database
 ---
-
+{{< image-gallery gallery_dir="/images/1958_11_01_fedi_1958_59" >}}
 
 ### Lista film
 
@@ -54,6 +54,7 @@ tags:
 |1959-02-16         |[Ore disperate](https://www.imdb.com/title/tt0047985/)|
 |1959-02-19         |[Tutto per tutto](https://www.imdb.com/title/tt0043676/)|
 |1959-02-22         |[Il giullare del re](https://www.imdb.com/title/tt0049096/)|
+|1959-02-24         |[I vampiri](https://www.imdb.com/title/tt0049429/)|
 |1959-02-26         |[Il siluro della morte](https://www.imdb.com/title/tt0046877/)|
 |1959-02-27         |[La spada invincibile](https://www.imdb.com/title/tt0216028/)|
 |1959-03-01         |[Le schiave di Cartagine](https://www.imdb.com/title/tt0049723/)|
@@ -72,6 +73,8 @@ tags:
 |1959-04-05         |[Gli implacabili](https://www.imdb.com/title/tt0048691/)|
 |1959-04-12         |[Dimentica il mio passato](https://www.imdb.com/title/tt0049145/)|
 |1959-04-14         |[L'ora scarlatta](https://www.imdb.com/title/tt0049718/)|
+|1959-04-17         |[La nonna Sabella](https://www.imdb.com/title/tt0050777/)|
+|1959-04-20         |[Odissea tragica](https://www.imdb.com/title/tt0040765/)|
 |1959-04-22         |[Canaris](https://www.imdb.com/title/tt0046819/)|
 |1959-04-25         |[Il re vagabondo](https://www.imdb.com/title/tt0049909/)|
 |1959-04-28         |[La canzone più bella](https://www.imdb.com/title/tt0050227/)|
@@ -80,8 +83,11 @@ tags:
 |1959-05-06         |[Totò, Peppino e la... Malafemmina](https://www.imdb.com/title/tt0049866/)|
 |1959-05-07         |[La tunica](https://www.imdb.com/title/tt0046247/)|
 |1959-05-13         |[La chiamavan Capinera…](https://www.imdb.com/title/tt0050248/)|
+|1959-05-17         |[I gladiatori](https://www.imdb.com/title/tt0046899/)|
 |1959-05-18         |[L'oro dei barbari](https://www.imdb.com/title/tt0297882/)|
 |1959-05-20         |[Il siluro della morte](https://www.imdb.com/title/tt0046877/)|
+|1959-05-20         |[Anastasia](https://www.imdb.com/title/tt0048947/)|
+|1959-05-22         |[Il gobbo di Notre Dame](https://www.imdb.com/title/tt0050781/)|
 |1959-05-23         |[Saranno uomini](https://www.imdb.com/title/tt0049741/)|
 |1959-05-29         |[I misteri di Parigi](https://www.imdb.com/title/tt0187299/)|
 |1959-06-02         |[Onore e sangue](https://www.imdb.com/title/tt0050801/)|
@@ -94,6 +100,7 @@ tags:
 |1959-06-23         |[Invasione degli ultracorpi](https://www.imdb.com/title/tt0049366/)|
 |1959-06-27         |[Napoli, sole mio!](https://www.imdb.com/title/tt0051979/)|
 |1959-06-30         |[Il ricatto di un padre](https://www.imdb.com/title/tt0050897/)|
+|1959-07-04         |[Il romanzo di un giovane povero](https://www.imdb.com/title/tt0051727/)|
 |1959-07-09         |[La lunga mano](https://www.imdb.com/title/tt0049845/)|
 |1959-07-12         |[Le diciottenni](https://www.imdb.com/title/tt0047995/)|
 |1959-07-14         |[Pecore nere](https://www.imdb.com/title/tt0049288/)|
@@ -136,6 +143,7 @@ tags:
 |1959-11-15         |[Uomini e lupi](https://www.imdb.com/title/tt0049905/)|
 |1959-11-22         |[Via col vento](https://www.imdb.com/title/tt0031381/)|
 |1959-11-26         |[Tre storie proibite](https://www.imdb.com/title/tt0044143/)|
+|1959-11-29         |[Io, mammeta e tu](https://www.imdb.com/title/tt0051784/)|
 |1959-12-01         |[Ossessione](https://www.imdb.com/title/tt0035160/)|
 |1959-12-07         |[Petrolio rosso](https://www.imdb.com/title/tt0050797/)|
 |1959-12-08         |[La tenda nera](https://www.imdb.com/title/tt0049014/)|
