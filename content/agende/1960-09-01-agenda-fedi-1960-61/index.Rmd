@@ -1,0 +1,38 @@
+---
+title: Agenda Fedi 1960-61
+author: Vito Sestito
+date: '1960-09-01'
+slug: agenda-fedi-1960-61
+categories:
+  - Agende
+  - Proiezioni
+  - Calendario
+tags:
+  - Database
+  - AgendaCinematografica
+---
+{{< image-gallery gallery_dir="/images/1960_09_01_fedi_1960_61" >}}
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(tidyverse)
+
+agende <- read_csv("C:/Users/eurhope/Documents/R/cinema-teatro-sestito/static/data/programmazione_agende.csv") %>%
+          select(const, date, title, source)
+
+imdb <- read_csv("C:/Users/eurhope/Documents/R/cinema-teatro-sestito/static/data/programmazione_imdb.csv") %>%
+          select(const = Const, year = Year, directors = Directors, genres = Genres, imdb_rating = `IMDb Rating`, runtime = `Runtime (mins)`, url = URL)
+
+fedi_1960_61 <- agende %>%
+          filter(str_detect(source, "Fedi 1960-61")) %>%
+          left_join(imdb, by = "const")
+```
+*(fogli mancanti per l'anno 1961)*
+### Lista film
+```{r echo=FALSE}
+fedi_1960_61 %>%
+          arrange(date) %>%
+  mutate(title = paste0("[",title,"]","(",url,")")) %>%
+          select(date, title) %>%
+          knitr::kable(col.names = c("Data di proiezione", "Titolo"), align = c("l", "l", "l"))
+```
