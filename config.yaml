@@ -4,8 +4,6 @@ title: Cinema Teatro Sestito
 theme: hugo-lithium
 googleAnalytics: 'G-55Z3NM1WJE'
 disqusShortname: ''
-build:
-  timeout: '60s'
 ignoreFiles:
   - \.Rmd$
   - \.Rmarkdown$
