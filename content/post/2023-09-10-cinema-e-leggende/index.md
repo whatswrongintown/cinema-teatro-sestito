@@ -27,9 +27,3 @@ Il team di Sonati Vicinu è stato così gentile da documentare l'evento con alcu
 Sonati Vicinu 2023 è stata una celebrazione di leggende e la storia del nostro cinema si è rivelata un’aggiunta appropriata a questo intreccio. Mentre avanziamo con il nuovo progetto, siamo entusiasti di invitare la comunità a far parte di questo nuovo capitolo.
 
 Continuate a seguirci sul nostro sito web per gli aggiornamenti e continuiamo a celebrare il ricco lascito di Vito Sestito e del suo cinema a San Vito sullo Ionio. Insieme manterremo viva la fiamma delle storie per le generazioni a venire.
-
-Foto:  
-{{< image-gallery gallery_dir="/images/2023_08_09_foto_sonati_vicinu_7_edizione" >}}
-
-Presentazione:  
-{{< image-gallery gallery_dir="/images/2023_08_09_presentatione_per_sonati_vicinu_7_edizione" >}}
