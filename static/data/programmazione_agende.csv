@@ -1451,216 +1451,381 @@
 1964-01-11,tt0053457,La guida indiana,,Fedi 1962-63
 1964-01-13,tt0047924,Missione pericolosa,,Fedi 1962-63
 1964-02-21,tt0043532,I figli di nessuno,,Fedi 1962-63
-1966-01-01,tt0059121,I due toreri,,NAONIS 1966
-1966-01-02,tt0207596,L'indomabile,,NAONIS 1966
-1966-01-05,tt0058140,I giganti di Roma,,NAONIS 1966
-1966-01-08,tt0055928,Agente 007 - Licenza di uccidere,,NAONIS 1966
-1966-01-14,tt0180026,Operazione Tiziano,,NAONIS 1966
-1966-01-15,tt0178516,Goliath e la schiava ribelle,,NAONIS 1966
-1966-01-20,tt0055756,L'implacabile cordobes,,NAONIS 1966
-1966-01-21,tt0061157,La vita agra,,NAONIS 1966
-1966-01-22,tt0055141,Marco Polo,,NAONIS 1966
-1966-01-27,tt0057890,La morte nera,,NAONIS 1966
-1966-01-28,tt0032178,Giuramento di sangue,,NAONIS 1966
-1966-01-29,tt0055377,La rivolta degli schiavi,,NAONIS 1966
-1966-02-03,tt0059248,Il pugno proibito dell'agente Warner,,NAONIS 1966
-1966-02-04,tt0051179,Tamburi di guerra,,NAONIS 1966
-1966-02-05,tt0058742,Da 077: criminali a Hong Kong,,NAONIS 1966
-1966-02-07,tt0414992,Mafiosi a Marsiglia,,NAONIS 1966
-1966-02-09,tt0054969,I fratelli di ferro,,NAONIS 1966
-1966-02-11,tt0057683,Dove vai sono guai!,,NAONIS 1966
-1966-02-12,tt0058229,In ginocchio da te,,NAONIS 1966
-1966-02-14,tt0043711,Le pistole di Zorro,,NAONIS 1966
-1966-02-16,tt0054755,Vento freddo d'agosto,,NAONIS 1966
-1966-02-17,tt0047501,La strage del 7º Cavalleggeri,,NAONIS 1966
-1966-02-18,tt0059065,Esperimento IS: il mondo si frantuma,,NAONIS 1966
-1966-02-19,tt0058312,"Maciste, gladiatore di Sparta",,NAONIS 1966
-1966-02-21,tt0054236,Tra due donne,,NAONIS 1966
-1966-02-22,tt0056652,Zorro il vendicatore,,NAONIS 1966
-1966-02-23,tt0056894,Rapina al Cairo,,NAONIS 1966
-1966-02-24,tt0056395,Il sentiero dei disperati,,NAONIS 1966
-1966-02-25,tt0047163,La legge contro Billy Kid,,NAONIS 1966
-1966-02-26,tt0186544,Siamo tutti pomicioni,,NAONIS 1966
-1966-02-27,tt0134668,Il gaucho,,NAONIS 1966
-1966-02-28,tt0057155,Horror,,NAONIS 1966
-1966-03-02,tt0055488,Sua Eccellenza si fermò a mangiare,,NAONIS 1966
-1966-03-03,tt0057615,Umorismo in nero,,NAONIS 1966
-1966-03-04,tt0056975,Il grande corsaro,,NAONIS 1966
-1966-03-05,tt0059517,Non son degno di te,,NAONIS 1966
-1966-03-07,tt0296839,I giganti dell'oro nero,,NAONIS 1966
-1966-03-09,tt0054837,La notte e il desiderio,,NAONIS 1966
-1966-03-10,tt0056917,100.000 dollari al sole,,NAONIS 1966
-1966-03-11,tt0044790,I fuorilegge del Kansas,,NAONIS 1966
-1966-03-12,tt0045966,I cavalieri della tavola rotonda,,NAONIS 1966
-1966-03-14,tt0056057,Furto su misura,,NAONIS 1966
-1966-03-16,tt0061344,Oltraggio al pudore,,NAONIS 1966
-1966-03-17,tt0056100,Sulla sabbia è passata la morte,,NAONIS 1966
-1966-03-18,tt0059384,Letti sbagliati,,NAONIS 1966
-1966-03-19,tt0055047,Il re dei re,,NAONIS 1966
-1966-03-21,tt0058452,I disperati della gloria,,NAONIS 1966
-1966-03-23,tt0040636,La città nuda,,NAONIS 1966
-1966-03-24,tt0056448,I fuorilegge della valle solitaria,,NAONIS 1966
-1966-03-26,tt0150548,I figli del leopardo,,NAONIS 1966
-1966-03-28,tt0168201,Super rapina a Milano,,NAONIS 1966
-1966-03-30,tt0056957,Il coltello nella piaga,,NAONIS 1966
-1966-04-01,tt0055252,Il mondo nella mia tasca,,NAONIS 1966
-1966-04-02,tt0054847,El Cid,,NAONIS 1966
-1966-04-04,tt0057540,Il successo,,NAONIS 1966
-1966-04-06,tt0041947,Tarzan e la fontana magica,,NAONIS 1966
-1966-04-09,tt0056556,Taras il magnifico,,NAONIS 1966
-1966-04-11,tt0056939,Il comandante,,NAONIS 1966
-1966-04-15,tt0053365,Londra a mezzanotte,,NAONIS 1966
-1966-04-16,tt0058282,Una lacrima sul viso,,NAONIS 1966
-1966-04-18,tt0055464,Momento selvaggio,,NAONIS 1966
-1966-04-20,tt0060483,Pistole roventi,,NAONIS 1966
-1966-04-21,tt0058407,Le calde amanti di Kyoto,,NAONIS 1966
-1966-04-22,tt0058368,L'ispettore spara a vista,,NAONIS 1966
-1966-04-23,tt0057917,L'uomo che non sapeva amare,,NAONIS 1966
-1966-04-25,tt0057443,La ragazza che sapeva troppo,,NAONIS 1966
-1966-04-27,tt0138782,Operazione terzo uomo,,NAONIS 1966
-1966-04-28,tt0054770,L'ombra della vendetta,,NAONIS 1966
+1966-01-01,tt0059121,I due toreri,,"NAONIS 1966, Calendario 1966"
+1966-01-02,tt0207596,L'indomabile,,"NAONIS 1966, Calendario 1966"
+1966-01-05,tt0058140,I giganti di Roma,,"NAONIS 1966, Calendario 1966"
+1966-01-08,tt0055928,Agente 007 - Licenza di uccidere,,"NAONIS 1966, Calendario 1966"
+1966-01-14,tt0180026,Operazione Tiziano,,"NAONIS 1966, Calendario 1966"
+1966-01-15,tt0178516,Goliath e la schiava ribelle,,"NAONIS 1966, Calendario 1966"
+1966-01-20,tt0055756,L'implacabile cordobes,,"NAONIS 1966, Calendario 1966"
+1966-01-21,tt0061157,La vita agra,,"NAONIS 1966, Calendario 1966"
+1966-01-22,tt0055141,Marco Polo,,"NAONIS 1966, Calendario 1966"
+1966-01-27,tt0057890,La morte nera,,"NAONIS 1966, Calendario 1966"
+1966-01-28,tt0032178,Giuramento di sangue,,"NAONIS 1966, Calendario 1966"
+1966-01-29,tt0055377,La rivolta degli schiavi,,"NAONIS 1966, Calendario 1966"
+1966-02-03,tt0059248,Il pugno proibito dell'agente Warner,,"NAONIS 1966, Calendario 1966"
+1966-02-04,tt0051179,Tamburi di guerra,,"NAONIS 1966, Calendario 1966"
+1966-02-05,tt0058742,Da 077: criminali a Hong Kong,,"NAONIS 1966, Calendario 1966"
+1966-02-07,tt0414992,Mafiosi a Marsiglia,,"NAONIS 1966, Calendario 1966"
+1966-02-09,tt0054969,I fratelli di ferro,,"NAONIS 1966, Calendario 1966"
+1966-02-10,tt0043072,I conquistatori della Sirte,,Calendario 1966
+1966-02-11,tt0057683,Dove vai sono guai!,,"NAONIS 1966, Calendario 1966"
+1966-02-12,tt0058229,In ginocchio da te,,"NAONIS 1966, Calendario 1966"
+1966-02-14,tt0043711,Le pistole di Zorro,,"NAONIS 1966, Calendario 1966"
+1966-02-16,tt0054755,Vento freddo d'agosto,,"NAONIS 1966, Calendario 1966"
+1966-02-17,tt0047501,La strage del 7º Cavalleggeri,,"NAONIS 1966, Calendario 1966"
+1966-02-18,tt0059065,Esperimento IS: il mondo si frantuma,,"NAONIS 1966, Calendario 1966"
+1966-02-19,tt0058312,"Maciste, gladiatore di Sparta",,"NAONIS 1966, Calendario 1966"
+1966-02-21,tt0054236,Tra due donne,,"NAONIS 1966, Calendario 1966"
+1966-02-22,tt0056652,Zorro il vendicatore,,"NAONIS 1966, Calendario 1966"
+1966-02-23,tt0056894,Rapina al Cairo,,"NAONIS 1966, Calendario 1966"
+1966-02-24,tt0056395,Il sentiero dei disperati,,"NAONIS 1966, Calendario 1966"
+1966-02-25,tt0047163,La legge contro Billy Kid,,"NAONIS 1966, Calendario 1966"
+1966-02-26,tt0186544,Siamo tutti pomicioni,,"NAONIS 1966, Calendario 1966"
+1966-02-27,tt0134668,Il gaucho,,"NAONIS 1966, Calendario 1966"
+1966-02-28,tt0057155,Horror,,"NAONIS 1966, Calendario 1966"
+1966-03-02,tt0055488,Sua Eccellenza si fermò a mangiare,,"NAONIS 1966, Calendario 1966"
+1966-03-03,tt0057615,Umorismo in nero,,"NAONIS 1966, Calendario 1966"
+1966-03-04,tt0056975,Il grande corsaro,,"NAONIS 1966, Calendario 1966"
+1966-03-05,tt0059517,Non son degno di te,,"NAONIS 1966, Calendario 1966"
+1966-03-07,tt0296839,I giganti dell'oro nero,,"NAONIS 1966, Calendario 1966"
+1966-03-09,tt0054837,La notte e il desiderio,,"NAONIS 1966, Calendario 1966"
+1966-03-10,tt0056917,100.000 dollari al sole,,"NAONIS 1966, Calendario 1966"
+1966-03-11,tt0044790,I fuorilegge del Kansas,,"NAONIS 1966, Calendario 1966"
+1966-03-12,tt0045966,I cavalieri della tavola rotonda,,"NAONIS 1966, Calendario 1966"
+1966-03-14,tt0056057,Furto su misura,,"NAONIS 1966, Calendario 1966"
+1966-03-16,tt0061344,Oltraggio al pudore,,"NAONIS 1966, Calendario 1966"
+1966-03-17,tt0056100,Sulla sabbia è passata la morte,,"NAONIS 1966, Calendario 1966"
+1966-03-18,tt0059384,Letti sbagliati,,"NAONIS 1966, Calendario 1966"
+1966-03-19,tt0055047,Il re dei re,,"NAONIS 1966, Calendario 1966"
+1966-03-21,tt0058452,I disperati della gloria,,"NAONIS 1966, Calendario 1966"
+1966-03-23,tt0040636,La città nuda,,"NAONIS 1966, Calendario 1966"
+1966-03-24,tt0056448,I fuorilegge della valle solitaria,,"NAONIS 1966, Calendario 1966"
+1966-03-26,tt0150548,I figli del leopardo,,"NAONIS 1966, Calendario 1966"
+1966-03-28,tt0168201,Super rapina a Milano,,"NAONIS 1966, Calendario 1966"
+1966-03-30,tt0056957,Il coltello nella piaga,,"NAONIS 1966, Calendario 1966"
+1966-04-01,tt0055252,Il mondo nella mia tasca,,"NAONIS 1966, Calendario 1966"
+1966-04-02,tt0054847,El Cid,,"NAONIS 1966, Calendario 1966"
+1966-04-04,tt0057540,Il successo,,"NAONIS 1966, Calendario 1966"
+1966-04-06,tt0041947,Tarzan e la fontana magica,,"NAONIS 1966, Calendario 1966"
+1966-04-09,tt0056556,Taras il magnifico,,"NAONIS 1966, Calendario 1966"
+1966-04-11,tt0056939,Il comandante,,"NAONIS 1966, Calendario 1966"
+1966-04-15,tt0053365,Londra a mezzanotte,,"NAONIS 1966, Calendario 1966"
+1966-04-16,tt0058282,Una lacrima sul viso,,"NAONIS 1966, Calendario 1966"
+1966-04-18,tt0055464,Momento selvaggio,,"NAONIS 1966, Calendario 1966"
+1966-04-20,tt0060483,Pistole roventi,,"NAONIS 1966, Calendario 1966"
+1966-04-21,tt0058407,Le calde amanti di Kyoto,,"NAONIS 1966, Calendario 1966"
+1966-04-22,tt0058368,L'ispettore spara a vista,,"NAONIS 1966, Calendario 1966"
+1966-04-23,tt0057917,L'uomo che non sapeva amare,,"NAONIS 1966, Calendario 1966"
+1966-04-25,tt0057443,La ragazza che sapeva troppo,,"NAONIS 1966, Calendario 1966"
+1966-04-27,tt0138782,Operazione terzo uomo,,"NAONIS 1966, Calendario 1966"
+1966-04-28,tt0054770,L'ombra della vendetta,,"NAONIS 1966, Calendario 1966"
 1966-04-29,tt0059107,Il gigante della roccia del falco,,NAONIS 1966
-1966-04-30,tt0057891,1000 dollari per un Winchester,,NAONIS 1966
-1966-05-02,tt0055935,Rififi a Tokyo,,NAONIS 1966
-1966-05-04,tt0057840,"Tempo di guerra, tempo d'amore",,NAONIS 1966
-1966-05-05,tt0172416,F.B.I. operazione Baalbeck,,NAONIS 1966
-1966-05-07,tt0059836,24 ore per uccidere,,NAONIS 1966
-1966-05-09,tt0041361,Il ritorno del kentuckiano,,NAONIS 1966
-1966-05-11,tt0058283,Un giorno di terrore,,NAONIS 1966
-1966-05-12,tt0055906,Diciottenni al sole,,NAONIS 1966
-1966-05-13,tt0039737,Notte senza fine,,NAONIS 1966
-1966-05-14,tt0055865,La congiura dei dieci,,NAONIS 1966
-1966-05-16,tt0057303,L'omicida,,NAONIS 1966
-1966-05-18,tt0054671,Battaglia sulla spiaggia insanguinata,,NAONIS 1966
-1966-05-19,tt0056268,I misteri di Parigi,,NAONIS 1966
-1966-05-21,tt0195173,I predoni del Sahara,,NAONIS 1966
-1966-05-22,tt0051364,Estasi d'amore - Operazione Love,,NAONIS 1966
-1966-05-23,tt0056953,Agente Coplan: missione spionaggio,,NAONIS 1966
-1966-05-25,tt0057294,Le massaggiatrici,,NAONIS 1966
-1966-05-28,tt0058712,"Ursus, il terrore dei kirghisi",,NAONIS 1966
+1966-04-30,tt0057891,1000 dollari per un Winchester,,"NAONIS 1966, Calendario 1966"
+1966-05-02,tt0055935,Rififi a Tokyo,,"NAONIS 1966, Calendario 1966"
+1966-05-04,tt0057840,"Tempo di guerra, tempo d'amore",,"NAONIS 1966, Calendario 1966"
+1966-05-05,tt0172416,F.B.I. operazione Baalbeck,,"NAONIS 1966, Calendario 1966"
+1966-05-07,tt0059836,24 ore per uccidere,,"NAONIS 1966, Calendario 1966"
+1966-05-09,tt0041361,Il ritorno del kentuckiano,,"NAONIS 1966, Calendario 1966"
+1966-05-11,tt0058283,Un giorno di terrore,,"NAONIS 1966, Calendario 1966"
+1966-05-12,tt0055906,Diciottenni al sole,,"NAONIS 1966, Calendario 1966"
+1966-05-13,tt0039737,Notte senza fine,,"NAONIS 1966, Calendario 1966"
+1966-05-14,tt0055865,La congiura dei dieci,,"NAONIS 1966, Calendario 1966"
+1966-05-16,tt0057303,L'omicida,,"NAONIS 1966, Calendario 1966"
+1966-05-18,tt0054671,Battaglia sulla spiaggia insanguinata,,"NAONIS 1966, Calendario 1966"
+1966-05-19,tt0056268,I misteri di Parigi,,"NAONIS 1966, Calendario 1966"
+1966-05-21,tt0195173,I predoni del Sahara,,"NAONIS 1966, Calendario 1966"
+1966-05-22,tt0051364,Estasi d'amore - Operazione Love,,"NAONIS 1966, Calendario 1966"
+1966-05-23,tt0056953,Agente Coplan: missione spionaggio,,"NAONIS 1966, Calendario 1966"
+1966-05-25,tt0057294,Le massaggiatrici,,"NAONIS 1966, Calendario 1966"
+1966-05-28,tt0058712,"Ursus, il terrore dei kirghisi",,"NAONIS 1966, Calendario 1966"
 1966-05-30,tt0210354,I temibili 7,,NAONIS 1966
-1966-06-01,tt0060790,Password: Uccidete agente Gordon,,NAONIS 1966
-1966-06-02,tt0050497,I filibustieri dei mari del sud,,NAONIS 1966
-1966-06-04,tt0059098,Sfida a Rio Bravo,,NAONIS 1966
+1966-06-01,tt0060790,Password: Uccidete agente Gordon,,"NAONIS 1966, Calendario 1966"
+1966-06-02,tt0050497,I filibustieri dei mari del sud,,"NAONIS 1966, Calendario 1966"
+1966-06-04,tt0059098,Sfida a Rio Bravo,,"NAONIS 1966, Calendario 1966"
 1966-06-05,tt0056048,La donna che inventò lo strip-tease,,NAONIS 1966
-1966-06-06,tt0056375,Normandia anno '43,,NAONIS 1966
-1966-06-08,tt0380028,Tokio: divisione criminale,,NAONIS 1966
-1966-06-09,tt0052415,I giovani leoni,,NAONIS 1966
-1966-06-11,tt0056485,La schiava di Bagdad,,NAONIS 1966
+1966-06-06,tt0056375,Normandia anno '43,,"NAONIS 1966, Calendario 1966"
+1966-06-08,tt0380028,Tokio: divisione criminale,,"NAONIS 1966, Calendario 1966"
+1966-06-09,tt0052415,I giovani leoni,,"NAONIS 1966, Calendario 1966"
+1966-06-11,tt0056485,La schiava di Bagdad,,"NAONIS 1966, Calendario 1966"
 1966-06-14,tt0122597,Maciste contro Ercole nella valle dei guai ( I due pretoriani),,NAONIS 1966
-1966-06-16,tt0137795,Il grande bluff,,NAONIS 1966
-1966-06-17,tt0353260,Assassino sulla Costa Azzurra,,NAONIS 1966
-1966-06-18,tt0056470,Tre contro tutti,,NAONIS 1966
-1966-06-20,tt0055214,Il dubbio,,NAONIS 1966
-1966-06-22,tt0055484,La camera blindata,,NAONIS 1966
-1966-06-25,tt0290240,Il magnifico gladiatore,,NAONIS 1966
-1966-06-27,tt0051349,L'urlo di guerra degli apaches,,NAONIS 1966
-1966-06-29,tt0059323,Italiani brava gente,,NAONIS 1966
-1966-07-01,tt0060049,5 tombe per un medium,,NAONIS 1966
-1966-07-02,tt0058885,002 agenti segretissimi,,NAONIS 1966
-1966-07-04,tt0199301,Adolescenti al sole,,NAONIS 1966
-1966-07-08,tt0051984,Nel blu dipinto di blu,,NAONIS 1966
-1966-07-09,tt0057357,Saladino,,NAONIS 1966
-1966-07-14,tt0055260,I senza paura,,NAONIS 1966
-1966-07-15,tt0256102,La città vietata,,NAONIS 1966
-1966-07-16,tt0048090,Orizzonte di fuoco,,NAONIS 1966
-1966-07-23,tt0055717,Una vergine per il bandito,,NAONIS 1966
-1966-07-25,tt0056601,L'uomo che vinse la morte,,NAONIS 1966
-1966-07-27,tt0055759,Arsenio Lupin contro Arsenio Lupin,,NAONIS 1966
-1966-07-30,tt0058777,Zulu,,NAONIS 1966
-1966-08-01,tt0179881,Intrigo a Los Angeles,,NAONIS 1966
-1966-08-03,tt0057278,Maigret e i gangsters,,NAONIS 1966
-1966-08-05,tt0052865,Guardatele ma non toccatele,,NAONIS 1966
-1966-08-06,tt0058121,I rinnegati di Fort Grant,,NAONIS 1966
-1966-08-08,tt0051201,Testimone d'accusa,,NAONIS 1966
-1966-08-10,tt0056724,Zorro alla corte di Spagna,,NAONIS 1966
-1966-08-12,tt0058717,La violenza è la mia legge,,NAONIS 1966
-1966-08-13,tt0046731,Attila,,NAONIS 1966
-1966-08-15,tt0058534,Il cantante del luna park,,NAONIS 1966
-1966-08-16,tt0057629,Ursus gladiatore ribelle,,NAONIS 1966
-1966-08-17,tt0056377,Rapina al campo 3,,NAONIS 1966
-1966-08-19,tt0058706,Chiamate Scotland Yard 0075,,NAONIS 1966
-1966-08-20,tt0059681,Saul e David,,NAONIS 1966
-1966-08-22,tt0056665,La voglia matta,,NAONIS 1966
-1966-08-28,tt0059800,Agente 007 - Thunderball: operazione tuono,,NAONIS 1966
-1966-08-29,tt0058480,Le più belle truffe del mondo,,NAONIS 1966
-1966-08-31,tt0158462,Amore mio,,NAONIS 1966
+1966-06-16,tt0137795,Il grande bluff,,"NAONIS 1966, Calendario 1966"
+1966-06-17,tt0353260,Assassino sulla Costa Azzurra,,"NAONIS 1966, Calendario 1966"
+1966-06-18,tt0056470,Tre contro tutti,,"NAONIS 1966, Calendario 1966"
+1966-06-20,tt0055214,Il dubbio,,"NAONIS 1966, Calendario 1966"
+1966-06-22,tt0055484,La camera blindata,,"NAONIS 1966, Calendario 1966"
+1966-06-25,tt0290240,Il magnifico gladiatore,,"NAONIS 1966, Calendario 1966"
+1966-06-27,tt0051349,L'urlo di guerra degli apaches,,"NAONIS 1966, Calendario 1966"
+1966-06-29,tt0059323,Italiani brava gente,,"NAONIS 1966, Calendario 1966"
+1966-07-01,tt0060049,5 tombe per un medium,,"NAONIS 1966, Calendario 1966"
+1966-07-02,tt0058885,002 agenti segretissimi,,"NAONIS 1966, Calendario 1966"
+1966-07-04,tt0199301,Adolescenti al sole,,"NAONIS 1966, Calendario 1966"
+1966-07-08,tt0051984,Nel blu dipinto di blu,,"NAONIS 1966, Calendario 1966"
+1966-07-09,tt0057357,Saladino,,"NAONIS 1966, Calendario 1966"
+1966-07-14,tt0055260,I senza paura,,"NAONIS 1966, Calendario 1966"
+1966-07-15,tt0256102,La città vietata,,"NAONIS 1966, Calendario 1966"
+1966-07-16,tt0048090,Orizzonte di fuoco,,"NAONIS 1966, Calendario 1966"
+1966-07-23,tt0055717,Una vergine per il bandito,,"NAONIS 1966, Calendario 1966"
+1966-07-25,tt0056601,L'uomo che vinse la morte,,"NAONIS 1966, Calendario 1966"
+1966-07-27,tt0055759,Arsenio Lupin contro Arsenio Lupin,,"NAONIS 1966, Calendario 1966"
+1966-07-30,tt0058777,Zulu,,"NAONIS 1966, Calendario 1966"
+1966-08-01,tt0179881,Intrigo a Los Angeles,,"NAONIS 1966, Calendario 1966"
+1966-08-03,tt0057278,Maigret e i gangsters,,"NAONIS 1966, Calendario 1966"
+1966-08-05,tt0052865,Guardatele ma non toccatele,,"NAONIS 1966, Calendario 1966"
+1966-08-06,tt0058121,I rinnegati di Fort Grant,,"NAONIS 1966, Calendario 1966"
+1966-08-08,tt0051201,Testimone d'accusa,,"NAONIS 1966, Calendario 1966"
+1966-08-10,tt0056724,Zorro alla corte di Spagna,,"NAONIS 1966, Calendario 1966"
+1966-08-12,tt0058717,La violenza è la mia legge,,"NAONIS 1966, Calendario 1966"
+1966-08-13,tt0046731,Attila,,"NAONIS 1966, Calendario 1966"
+1966-08-15,tt0058534,Il cantante del luna park,,"NAONIS 1966, Calendario 1966"
+1966-08-16,tt0057629,Ursus gladiatore ribelle,,"NAONIS 1966, Calendario 1966"
+1966-08-17,tt0056377,Rapina al campo 3,,"NAONIS 1966, Calendario 1966"
+1966-08-19,tt0058706,Chiamate Scotland Yard 0075,,"NAONIS 1966, Calendario 1966"
+1966-08-20,tt0059681,Saul e David,,"NAONIS 1966, Calendario 1966"
+1966-08-22,tt0056665,La voglia matta,,"NAONIS 1966, Calendario 1966"
+1966-08-28,tt0059800,Agente 007 - Thunderball: operazione tuono,,"NAONIS 1966, Calendario 1966"
+1966-08-29,tt0058480,Le più belle truffe del mondo,,"NAONIS 1966, Calendario 1966"
+1966-08-31,tt0158462,Amore mio,,"NAONIS 1966, Calendario 1966"
 1966-09-02,tt0191629,Viale della canzone,,NAONIS 1966
-1966-09-03,tt0057078,La frusta e il corpo,,NAONIS 1966
-1966-09-04,tt0056871,L'impero dell'odio,,NAONIS 1966
-1966-09-08,tt0054870,Il federale,,NAONIS 1966
-1966-09-09,tt0059869,Via Veneto,,NAONIS 1966
-1966-09-10,tt0059784,Te lo leggo negli occhi,,NAONIS 1966
-1966-09-12,tt0251420,Spia S.05 missione infernale,,NAONIS 1966
-1966-09-14,tt0173831,Un figlio d'oggi,,NAONIS 1966
-1966-09-15,tt0050625,L'ultimo dei banditi,,NAONIS 1966
-1966-09-16,tt0046231,Recoil,,NAONIS 1966
-1966-09-17,tt0057179,L'incendio di Roma,,NAONIS 1966
-1966-09-19,tt0056710,I giovani fucili del Texas,,NAONIS 1966
+1966-09-03,tt0057078,La frusta e il corpo,,"NAONIS 1966, Calendario 1966"
+1966-09-04,tt0056871,L'impero dell'odio,,"NAONIS 1966, Calendario 1966"
+1966-09-08,tt0054870,Il federale,,"NAONIS 1966, Calendario 1966"
+1966-09-09,tt0059869,Via Veneto,,"NAONIS 1966, Calendario 1966"
+1966-09-10,tt0059784,Te lo leggo negli occhi,,"NAONIS 1966, Calendario 1966"
+1966-09-12,tt0251420,Spia S.05 missione infernale,,"NAONIS 1966, Calendario 1966"
+1966-09-14,tt0173831,Un figlio d'oggi,,"NAONIS 1966, Calendario 1966"
+1966-09-15,tt0050625,L'ultimo dei banditi,,"NAONIS 1966, Calendario 1966"
+1966-09-16,tt0046231,Recoil,,"NAONIS 1966, Calendario 1966"
+1966-09-17,tt0057179,L'incendio di Roma,,"NAONIS 1966, Calendario 1966"
+1966-09-19,tt0056710,I giovani fucili del Texas,,"NAONIS 1966, Calendario 1966"
 1966-09-19,tt0057396,Giorni caldi a Palm Springs,,NAONIS 1966
-1966-09-22,tt0058073,La rivolta di Frankenstein,,NAONIS 1966
-1966-09-23,tt0056632,Missione in oriente - Il brutto americano,,NAONIS 1966
-1966-09-24,tt0059862,La vendetta di Spartacus,,NAONIS 1966
-1966-09-26,tt0197997,La vedovella,,NAONIS 1966
-1966-09-28,tt0057688,Tra moglie e marito,,NAONIS 1966
-1966-10-01,tt0061599,Due marines e un generale,,NAONIS 1966
-1966-10-03,tt0056107,L'isola di Arturo,,NAONIS 1966
-1966-10-05,tt0059773,La doppia vita di Sylvia West,,NAONIS 1966
-1966-10-06,tt0060070,Adulterio all'italiana,,NAONIS 1966
-1966-10-07,tt0044419,Il grande cielo,,NAONIS 1966
-1966-10-08,tt0060916,Rose rosse per Angelica,,NAONIS 1966
-1966-10-10,tt0051420,La freccia di fuoco,,NAONIS 1966
-1966-10-13,tt0057087,Sparate al drago verde,,NAONIS 1966
-1966-10-14,tt0154461,...e la donna creò l'amore,,NAONIS 1966
-1966-10-15,tt0058202,Minnesota Clay,,NAONIS 1966
-1966-10-17,tt0046735,Avanzi di galera,,NAONIS 1966
-1966-10-19,tt0059638,L'armata delle belve,,NAONIS 1966
-1966-10-20,tt0050772,Club di gangsters,,NAONIS 1966
-1966-10-21,tt0048947,Anastasia,,NAONIS 1966
-1966-10-22,tt0058525,Rio Conchos,,NAONIS 1966
-1966-10-24,tt0056951,La finestra della morte,,NAONIS 1966
-1966-10-26,tt0061628,Veneri in collegio,,NAONIS 1966
-1966-10-27,tt0058879,Agente S03 operazione Atlantide,,NAONIS 1966
-1966-10-28,tt0239594,Marines Battleground,,NAONIS 1966
+1966-09-22,tt0058073,La rivolta di Frankenstein,,"NAONIS 1966, Calendario 1966"
+1966-09-23,tt0056632,Missione in oriente - Il brutto americano,,"NAONIS 1966, Calendario 1966"
+1966-09-24,tt0059862,La vendetta di Spartacus,,"NAONIS 1966, Calendario 1966"
+1966-09-26,tt0197997,La vedovella,,"NAONIS 1966, Calendario 1966"
+1966-09-28,tt0057688,Tra moglie e marito,,"NAONIS 1966, Calendario 1966"
+1966-10-01,tt0061599,Due marines e un generale,,"NAONIS 1966, Calendario 1966"
+1966-10-03,tt0056107,L'isola di Arturo,,"NAONIS 1966, Calendario 1966"
+1966-10-05,tt0059773,La doppia vita di Sylvia West,,"NAONIS 1966, Calendario 1966"
+1966-10-06,tt0060070,Adulterio all'italiana,,"NAONIS 1966, Calendario 1966"
+1966-10-07,tt0044419,Il grande cielo,,"NAONIS 1966, Calendario 1966"
+1966-10-08,tt0060916,Rose rosse per Angelica,,"NAONIS 1966, Calendario 1966"
+1966-10-10,tt0051420,La freccia di fuoco,,"NAONIS 1966, Calendario 1966"
+1966-10-13,tt0057087,Sparate al drago verde,,"NAONIS 1966, Calendario 1966"
+1966-10-14,tt0154461,...e la donna creò l'amore,,"NAONIS 1966, Calendario 1966"
+1966-10-15,tt0058202,Minnesota Clay,,"NAONIS 1966, Calendario 1966"
+1966-10-17,tt0046735,Avanzi di galera,,"NAONIS 1966, Calendario 1966"
+1966-10-19,tt0059638,L'armata delle belve,,"NAONIS 1966, Calendario 1966"
+1966-10-20,tt0050772,Club di gangsters,,"NAONIS 1966, Calendario 1966"
+1966-10-21,tt0048947,Anastasia,,"NAONIS 1966, Calendario 1966"
+1966-10-22,tt0058525,Rio Conchos,,"NAONIS 1966, Calendario 1966"
+1966-10-24,tt0056951,La finestra della morte,,"NAONIS 1966, Calendario 1966"
+1966-10-26,tt0061628,Veneri in collegio,,"NAONIS 1966, Calendario 1966"
+1966-10-27,tt0058879,Agente S03 operazione Atlantide,,"NAONIS 1966, Calendario 1966"
+1966-10-28,tt0239594,Marines Battleground,,"NAONIS 1966, Calendario 1966"
 1966-10-29,tt0268576,A 117 colpo grosso a Los Angeles,,NAONIS 1966
-1966-10-30,tt0056937,Cleopatra,,NAONIS 1966
-1966-11-02,tt0053018,"Larry, agente segreto",,NAONIS 1966
-1966-11-03,tt0276239,La vendetta di Zorro,,NAONIS 1966
-1966-11-05,tt0057343,Le avventure di Scaramouche,,NAONIS 1966
-1966-11-07,tt0057676,Lo strangolatore di Londra,,NAONIS 1966
-1966-11-09,tt0136975,Le sirene urlano i mitra sparano,,NAONIS 1966
-1966-11-10,tt0309749,Jusqu'à plus soif (X 3 chiamate Brigitte),,NAONIS 1966
-1966-11-11,tt0051581,I rinnegati dell'isola misteriosa,,NAONIS 1966
-1966-11-12,tt0058883,Agente S3S: operazione Uranio,,NAONIS 1966
+1966-10-30,tt0056937,Cleopatra,,"NAONIS 1966, Calendario 1966"
+1966-11-02,tt0053018,"Larry, agente segreto",,"NAONIS 1966, Calendario 1966"
+1966-11-03,tt0276239,La vendetta di Zorro,,"NAONIS 1966, Calendario 1966"
+1966-11-05,tt0057343,Le avventure di Scaramouche,,"NAONIS 1966, Calendario 1966"
+1966-11-07,tt0057676,Lo strangolatore di Londra,,"NAONIS 1966, Calendario 1966"
+1966-11-09,tt0136975,Le sirene urlano i mitra sparano,,"NAONIS 1966, Calendario 1966"
+1966-11-10,tt0309749,Jusqu'à plus soif (X 3 chiamate Brigitte),,"NAONIS 1966, Calendario 1966"
+1966-11-11,tt0051581,I rinnegati dell'isola misteriosa,,"NAONIS 1966, Calendario 1966"
+1966-11-12,tt0058883,Agente S3S: operazione Uranio,,"NAONIS 1966, Calendario 1966"
 1966-11-12,tt0043072,I conquistatori della Sirte,,NAONIS 1966
-1966-11-14,tt0057151,Spionaggio senza frontiere,,NAONIS 1966
-1966-11-16,tt0057914,Watabanga!,,NAONIS 1966
-1966-11-18,tt0062409,Tecnica di una spia,,NAONIS 1966
-1966-11-19,tt0058089,Fantomas 70,,NAONIS 1966
+1966-11-14,tt0057151,Spionaggio senza frontiere,,"NAONIS 1966, Calendario 1966"
+1966-11-16,tt0057914,Watabanga!,,"NAONIS 1966, Calendario 1966"
+1966-11-18,tt0062409,Tecnica di una spia,,"NAONIS 1966, Calendario 1966"
+1966-11-19,tt0058089,Fantomas 70,,"NAONIS 1966, Calendario 1966"
 1966-11-21,tt0042531,Romantico avventuriero,,NAONIS 1966
-1966-11-25,tt0059828,I tre sergenti del Bengala,,NAONIS 1966
-1966-11-26,tt0058461,Per un pugno di dollari,,NAONIS 1966
-1966-11-28,tt0051482,Cole il fuorilegge,,NAONIS 1966
-1966-11-30,tt0058166,Cannoni a batasi,,NAONIS 1966
-1966-12-02,tt0058158,Il triangolo circolare,,NAONIS 1966
-1966-12-03,tt0056867,Vento infuocato del Texas,,NAONIS 1966
-1966-12-05,tt0056220,Sinfonia per un sadico,,NAONIS 1966
-1966-12-07,tt0053752,Furto alla banca d'Inghilterra,,NAONIS 1966
-1966-12-08,tt0058866,A 008 operazione sterminio,,NAONIS 1966
-1966-12-09,tt0048973,Baby doll - La bambola viva,,NAONIS 1966
-1966-12-10,tt0057979,Se sparo... ti uccido,,NAONIS 1966
+1966-11-25,tt0059828,I tre sergenti del Bengala,,"NAONIS 1966, Calendario 1966"
+1966-11-26,tt0058461,Per un pugno di dollari,,"NAONIS 1966, Calendario 1966"
+1966-11-28,tt0051482,Cole il fuorilegge,,"NAONIS 1966, Calendario 1966"
+1966-11-30,tt0058166,Cannoni a batasi,,"NAONIS 1966, Calendario 1966"
+1966-12-02,tt0058158,Il triangolo circolare,,"NAONIS 1966, Calendario 1966"
+1966-12-03,tt0056867,Vento infuocato del Texas,,"NAONIS 1966, Calendario 1966"
+1966-12-05,tt0056220,Sinfonia per un sadico,,"NAONIS 1966, Calendario 1966"
+1966-12-07,tt0053752,Furto alla banca d'Inghilterra,,"NAONIS 1966, Calendario 1966"
+1966-12-08,tt0058866,A 008 operazione sterminio,,"NAONIS 1966, Calendario 1966"
+1966-12-09,tt0048973,Baby doll - La bambola viva,,"NAONIS 1966, Calendario 1966"
+1966-12-10,tt0057979,Se sparo... ti uccido,,"NAONIS 1966, Calendario 1966"
 1966-12-10,tt0059356,Kid Rodelo,,NAONIS 1966
-1966-12-11,tt0059868,Una ragazza da sedurre,,NAONIS 1966
-1966-12-12,tt0059627,Questa volta parliamo di uomini,,NAONIS 1966
-1966-12-14,tt0053780,Dolci inganni,,NAONIS 1966
-1966-12-17,tt0059690,Se non avessi più te,,NAONIS 1966
-1966-12-19,tt0052749,C'era una volta un piccolo naviglio,,NAONIS 1966
-1966-12-21,tt0279860,Le sorelle di Zorro,,NAONIS 1966
-1966-12-22,tt0166150,Con rispetto parlando,,NAONIS 1966
-1966-12-23,tt0037522,Gli eroi del Pacifico - La pattuglia invisibile,,NAONIS 1966
-1966-12-24,tt0059760,Uno straniero a Sacramento,,NAONIS 1966
-1966-12-26,tt0057570,Il terrore dei mantelli rossi,,NAONIS 1966
-1966-12-27,tt0059317,"Io uccido, tu uccidi",,NAONIS 1966
-1966-12-28,tt0057667,Il muro dei dollari,,NAONIS 1966
-1966-12-30,tt0058859,2+5: Missione Hydra,,NAONIS 1966
-1966-12-31,tt0060353,I due sanculotti,,NAONIS 1966
+1966-12-11,tt0059868,Una ragazza da sedurre,,"NAONIS 1966, Calendario 1966"
+1966-12-12,tt0059627,Questa volta parliamo di uomini,,"NAONIS 1966, Calendario 1966"
+1966-12-14,tt0053780,Dolci inganni,,"NAONIS 1966, Calendario 1966"
+1966-12-17,tt0059690,Se non avessi più te,,"NAONIS 1966, Calendario 1966"
+1966-12-19,tt0052749,C'era una volta un piccolo naviglio,,"NAONIS 1966, Calendario 1966"
+1966-12-21,tt0279860,Le sorelle di Zorro,,"NAONIS 1966, Calendario 1966"
+1966-12-22,tt0166150,Con rispetto parlando,,"NAONIS 1966, Calendario 1966"
+1966-12-23,tt0037522,Gli eroi del Pacifico - La pattuglia invisibile,,"NAONIS 1966, Calendario 1966"
+1966-12-24,tt0059760,Uno straniero a Sacramento,,"NAONIS 1966, Calendario 1966"
+1966-12-26,tt0057570,Il terrore dei mantelli rossi,,"NAONIS 1966, Calendario 1966"
+1966-12-27,tt0059317,"Io uccido, tu uccidi",,"NAONIS 1966, Calendario 1966"
+1966-12-28,tt0057667,Il muro dei dollari,,"NAONIS 1966, Calendario 1966"
+1966-12-30,tt0058859,2+5: Missione Hydra,,"NAONIS 1966, Calendario 1966"
+1966-12-31,tt0060353,I due sanculotti,,"NAONIS 1966, Calendario 1966"
+1967-01-01,tt0060353,I due sanculotti,,Calendario 1967
+1967-01-03,tt0058567,6 donne per l'assassino,,Calendario 1967
+1967-01-04,tt0143088,Desideri nel sole,,Calendario 1967
+1967-01-06,tt0351661,Rita,,Calendario 1967
+1967-01-10,tt0057384,Gli onorevoli,,Calendario 1967
+1967-01-12,tt0057083,L'idolo di Acapulco,,Calendario 1967
+1967-01-13,tt0060140,Sciarada per quattro spie,,Calendario 1967
+1967-01-15,tt0204235,Da Istanbul ordine di uccidere,,Calendario 1967
+1967-01-18,tt0057116,Nude per amare,,Calendario 1967
+1967-01-20,tt0057257,Sfida selvaggia,,Calendario 1967
+1967-01-21,tt0044419,Il grande cielo,,Calendario 1967
+1967-01-22,tt0058862,30 Winchester per El Diablo,,Calendario 1967
+1967-01-23,tt0055738,E il vento disperse la nebbia,,Calendario 1967
+1967-01-24,tt0196090,7 donne d'oro contro due 07,,Calendario 1967
+1967-01-25,tt0057644,Agente speciale Eva: missione Sex,,Calendario 1967
+1967-01-30,tt0056825,Il ribelle dell'Anatolia (America America),,Calendario 1967
+1967-01-31,tt0055636,Capricci borghesi (Daniela),,Calendario 1967
+1967-02-02,tt0054382,Le gladiatrici,,Calendario 1967
+1967-02-03,tt0059796,I cacciatori del lago d'argento,,Calendario 1967
+1967-02-05,tt0058475,Le pistole non discutono,,Calendario 1967
+1967-02-08,tt0057834,Il poliziotto 202,,Calendario 1967
+1967-02-12,tt0057426,Intrigo a Stoccolma,,Calendario 1967
+1967-02-13,tt0150035,"Canzoni, bulli e pupe",,Calendario 1967
+1967-02-15,tt0057225,I re del sole,,Calendario 1967
+1967-02-16,tt0059166,I 7 magnifici Jerry,,Calendario 1967
+1967-02-17,tt0057511,La smania addosso,,Calendario 1967
+1967-02-19,tt0061220,"Dio, come ti amo!",,Calendario 1967
+1967-02-20,tt0054838,La spiata,,Calendario 1967
+1967-02-21,tt0058232,Il ribelle di Algeri,,Calendario 1967
+1967-02-23,tt0058043,I due gladiatori,,Calendario 1967
+1967-02-24,tt0060863,Spogliarello per una vedova,,Calendario 1967
+1967-02-26,tt0060320,L'uomo dalla pistola d'oro,,Calendario 1967
+1967-02-27,tt0057656,Nel bene e nel male,,Calendario 1967
+1967-07-02,tt0059269,Ciclone sulla Giamaica,,Calendario 1967
+1967-07-07,tt0058185,Lo sparviero dei Caraibi,,Calendario 1967
+1967-07-09,tt0054851,Ercole alla conquista di Atlantide,,Calendario 1967
+1967-07-10,tt0058323,Tra due fuochi,,Calendario 1967
+1967-07-17,tt0056921,Pelle d'oca,,Calendario 1967
+1967-07-22,tt0059337,Johnny West il mancino,,Calendario 1967
+1967-07-28,tt0045041,L'ultima freccia,,Calendario 1967
+1967-08-02,tt0059296,Sfida a Glory City,,Calendario 1967
+1967-08-05,tt0058526,La rivolta dei pretoriani,,Calendario 1967
+1967-08-09,tt0050858,Orgoglio e passione,,Calendario 1967
+1967-08-10,tt0203866,Le sedicenni,,Calendario 1967
+1967-08-11,tt0221336,La legge della Mafia,,Calendario 1967
+1967-08-15,tt0058227,FBI - operazione vipera gialla,,Calendario 1967
+1967-08-16,tt0058563,Le amanti del dr. Jekyll,,Calendario 1967
+1967-08-17,tt0164161,Le 7 cinesi d'oro,,Calendario 1967
+1967-08-19,tt0271489,Ercole l'invincibile,,Calendario 1967
+1967-08-22,tt0057500,L'avventuriero di re Artù,,Calendario 1967
+1967-08-23,tt0057974,Un priore per Scotland Yard,,Calendario 1967
+1967-08-25,tt0054305,Venere selvaggia,,Calendario 1967
+1967-08-27,tt0058345,L'ultimo gladiatore,,Calendario 1967
+1967-09-01,tt0049285,Una pistola per un vile,,Calendario 1967
+1967-09-03,tt0057038,L'eroe di Babilonia,,Calendario 1967
+1967-09-05,tt0055564,Ulisse contro Ercole,,Calendario 1967
+1967-09-07,tt0059876,Le quattro chiavi,,Calendario 1967
+1967-09-10,tt0044517,Il corsaro dell'isola verde,,Calendario 1967
+1967-09-16,tt0060125,L'armata Brancaleone,,Calendario 1967
+1967-09-19,tt0061074,Le colt cantarono la morte e fu... tempo di massacro,,Calendario 1967
+1967-09-20,tt0128447,"Sandok, il Maciste della giungla",,Calendario 1967
+1967-09-21,tt0061799,Ringo e Gringo contro tutti,,Calendario 1967
+1967-09-22,tt0059824,La città senza legge,,Calendario 1967
+1967-09-24,tt0061598,I due figli di Ringo,,Calendario 1967
+1967-09-26,tt0055938,2 samurai per 100 geishe,,Calendario 1967
+1967-09-27,tt0039511,Il ritorno di Jess il bandito,,Calendario 1967
+1967-09-28,tt0061889,Spia spione,,Calendario 1967
+1967-09-29,tt0058296,Gli impetuosi,,Calendario 1967
+1967-09-30,tt0060238,I 5 della vendetta,,Calendario 1967
+1967-10-03,tt0058123,Crisantemi per un delitto,,Calendario 1967
+1967-10-07,tt0056914,Il vendicatore del Texas,,Calendario 1967
+1967-10-10,tt0060190,Un brivido sulla pelle,,Calendario 1967
+1967-10-11,tt0050081,Berlino l'inferno dei vivi,,Calendario 1967
+1967-10-12,tt0055073,L'occhio caldo del cielo,,Calendario 1967
+1967-10-13,tt0059588,Il pianeta errante,,Calendario 1967
+1967-10-17,tt0197363,La cieca di Sorrento,,Calendario 1967
+1967-10-18,tt0056401,Una regina per Cesare,,Calendario 1967
+1967-10-19,tt0059795,Il terzo giorno,,Calendario 1967
+1967-10-20,tt0061525,L'uomo che uccise il suo carnefice,,Calendario 1967
+1967-10-22,tt0061313,"10, 000 dollari per un massacro",,Calendario 1967
+1967-10-25,tt0058617,Una storia di notte,,Calendario 1967
+1967-10-26,tt0062473,Agente 4K2 chiede aiuto,,Calendario 1967
+1967-10-27,tt0062194,Il ritorno del pistolero,,Calendario 1967
+1967-10-29,tt0053434,Ultima notte a Warlock,,Calendario 1967
+1967-10-31,tt0056451,Lo sceicco rosso,,Calendario 1967
+1967-11-01,tt0056085,La conquista del West,,Calendario 1967
+1967-11-07,tt0050496,La sfida dei fuorilegge,,Calendario 1967
+1967-11-08,tt0060736,La preda nuda,,Calendario 1967
+1967-11-09,tt0054135,Colpo grosso,,Calendario 1967
+1967-11-12,tt0063040,Un gangster venuto da Brooklyn,,Calendario 1967
+1967-11-15,tt0185891,Assalto al tesoro di stato,,Calendario 1967
+1967-11-16,tt0060271,La calda preda,,Calendario 1967
+1967-11-17,tt0056925,La spia sulla città,,Calendario 1967
+1967-11-19,tt0061175,Una bara per Ringo,,Calendario 1967
+1967-11-21,tt0041210,Il grande agguato,,Calendario 1967
+1967-11-22,tt0058868,Delitto d'amore,,Calendario 1967
+1967-11-24,tt0036065,La città rubata,,Calendario 1967
+1967-11-25,tt0060762,Le notti della violenza,,Calendario 1967
+1967-11-30,tt0049311,L'imboscata selvaggia,,Calendario 1967
+1967-12-03,tt0058019,Far West,,Calendario 1967
+1967-12-05,tt0042299,Il sentiero degli Apaches,,Calendario 1967
+1967-12-08,tt0061218,Zorro il ribelle,,Calendario 1967
+1967-12-10,tt0060325,Un dollaro tra i denti,,Calendario 1967
+1967-12-13,tt0061049,Svegliati e uccidi,,Calendario 1967
+1967-12-15,tt0054296,Sette strade al tramonto,,Calendario 1967
+1967-12-16,tt0060746,Nessuno mi può giudicare,,Calendario 1967
+1967-12-19,tt0060740,Giochi di notte,,Calendario 1967
+1967-12-20,tt0056424,Gli amanti devono imparare,,Calendario 1967
+1967-12-22,tt0033873,Duello mortale,,Calendario 1967
+1967-12-27,tt0061008,"Spara forte, più forte... non capisco!",,Calendario 1967
+1967-12-28,tt0208476,Spiaggia libera,,Calendario 1967
+1967-12-29,tt0058575,Sette ore di fuoco,,Calendario 1967
+1967-12-31,tt0063813,Voltati... ti uccido!,,Calendario 1967
+1967-03-01,tt0060155,Beau Geste,,Calendario 1967
+1967-03-02,tt0058437,L'oltraggio,,Calendario 1967
+1967-03-03,tt0054437,La vendetta di Ercole,,Calendario 1967
+1967-03-04,tt0059651,La taglia,,Calendario 1967
+1967-03-05,tt0059218,I gemelli del Texas,,Calendario 1967
+1967-03-07,tt0059089,La calda pelle,,Calendario 1967
+1967-03-09,tt0059432,Marie Chantal contro il dr. Kha,,Calendario 1967
+1967-03-10,tt0050266,Il corsaro della mezza luna,,Calendario 1967
+1967-03-11,tt0055885,Il tiranno di Siracusa,,Calendario 1967
+1967-03-13,tt0049201,La pistola sepolta,,Calendario 1967
+1967-03-14,tt0042379,La città nera,,Calendario 1967
+1967-03-16,tt0060626,Gioco mortale,,Calendario 1967
+1967-03-17,tt0059772,La spada di Alì Babà,,Calendario 1967
+1967-03-19,tt0058929,L'avventuriero della Tortuga,,Calendario 1967
+1967-03-20,tt0239806,Sfida implacabile,,Calendario 1967
+1967-03-21,tt0206792,Assassinio di una ragazza squillo,,Calendario 1967
+1967-03-22,tt0056512,Il sorpasso,,Calendario 1967
+1967-03-26,tt0060692,Mi vedrai tornare,,Calendario 1967
+1967-03-31,tt0026126,Gli allegri eroi,,Calendario 1967
+1967-04-01,tt0128358,La montagna di luce,,Calendario 1967
+1967-04-03,tt0057643,La ballata del boia,,Calendario 1967
+1967-04-05,tt0141083,Operazione dollari,,Calendario 1967
+1967-04-08,tt0060901,Ringo del Nebraska,,Calendario 1967
+1967-04-10,tt0056656,Il limite della vergogna,,Calendario 1967
+1967-04-14,tt0051436,I bucanieri,,Calendario 1967
+1967-04-16,tt0059206,Oss 117 furia a Bahia,,Calendario 1967
+1967-04-17,tt0063326,Gli amori di Angelica,,Calendario 1967
+1967-04-19,tt0057997,Chi giace nella mia bara?,,Calendario 1967
+1967-04-20,tt0053825,Stella di fuoco,,Calendario 1967
+1967-04-24,tt0055408,Argos alla riscossa,,Calendario 1967
+1967-04-27,tt0275668,La sfida dei giganti,,Calendario 1967
+1967-04-28,tt0052583,Tutte le ragazze lo sanno,,Calendario 1967
+1967-05-01,tt0050379,Addio alle armi,,Calendario 1967
+1967-05-04,tt0058861,3 colpi di Winchester per Ringo,,Calendario 1967
+1967-05-05,tt0141673,OSS 117 segretissimo,,Calendario 1967
+1967-05-12,tt0054080,L'ultimo tango,,Calendario 1967
+1967-05-13,tt0059449,Da 077: intrigo a Lisbona,,Calendario 1967
+1967-05-15,tt0049432,L'ultima caccia,,Calendario 1967
+1967-05-17,tt0208469,Una spada nell'ombra,,Calendario 1967
+1967-05-19,tt0055621,Entrate senza bussare,,Calendario 1967
+1967-05-21,tt0058632,I 4 volti della vendetta,,Calendario 1967
+1967-05-28,tt0060051,"A 077, sfida ai killers",,Calendario 1967
+1967-06-02,tt0211033,Tharus figlio di Attila,,Calendario 1967
+1967-06-04,tt0060590,"Kindar, l'invulnerabile",,Calendario 1967
+1967-06-05,tt0058091,Destino in agguato,,Calendario 1967
+1967-06-07,tt0058941,Rio diablos,,Calendario 1967
+1967-06-11,tt0055141,Marco Polo,,Calendario 1967
+1967-06-18,tt0057064,Agguato sul grande fiume,,Calendario 1967
+1967-06-19,tt0208470,Una spada per l'impero,,Calendario 1967
+1967-06-22,tt0054259,Appuntamento con la vita,,Calendario 1967
+1967-06-25,tt0061045,Superseven chiama Cairo,,Calendario 1967
