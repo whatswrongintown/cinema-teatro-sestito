@@ -1,6 +1,7 @@
 [build]
 command = 'hugo'
 publish = 'public'
+timeout = 60000
 
 [build.environment]
 HUGO_VERSION = '0.136.5'
@@ -15,5 +16,3 @@ command = 'hugo -F -b $DEPLOY_PRIME_URL'
 [context.production]
 [context.production.environment]
 HUGO_ENV = 'production'
-
-timeout = '600000'
