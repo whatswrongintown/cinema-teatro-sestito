@@ -1,7 +1,6 @@
 [build]
 command = 'hugo'
 publish = 'public'
-timeout = 60000
 
 [build.environment]
 HUGO_VERSION = '0.136.5'
