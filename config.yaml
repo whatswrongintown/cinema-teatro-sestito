@@ -15,15 +15,12 @@ permalinks:
   events: /:year/:month/:day/:slug/
 menu:
   main:
-    - name: Home
-      url: /
-      weight: 1
     - name: Il progetto
       url: /ilprogetto/
-      weight: 3
+      weight: 2
     - name: Chi sono
       url: /chisono/
-      weight: 2
+      weight: 1
 params:
   MathJaxCDN: //cdnjs.cloudflare.com/ajax/libs
   MathJaxVersion: 2.7.5
@@ -53,7 +50,7 @@ markup:
 privacy:
   googleAnalytics:
     anonymizeIP: true
-    disable: false
+    disable: true
     respectDoNotTrack: true
     useSessionStorage: true
   youtube:
