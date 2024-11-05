@@ -1,10 +1,10 @@
-# Sito web del Cinema Storico di San Vito sullo Ionio
+# Sito web del cinema storico di San Vito sullo Ionio
 
-Benvenuti sul [sito web](https://cinemateatrosestito.com/) del Cinema Storico di San Vito sullo Ionio!
+Benvenuti sul [sito web](https://cinemateatrosestito.com/) del cinema storico di San Vito sullo Ionio!
 
 ## Panoramica
 
-Il cinema è stato costruito nel 1946 ed è stato un punto di riferimento culturale della città per oltre 55 anni. Questo sito web vi condurrà attraverso la storia del cinema, dalle sue origini ai giorni nostri.
+Il cinema di San Vito è stato costruito nel 1946 ed è stato un punto di riferimento culturale del paese per oltre 55 anni. Questo sito web vi condurrà attraverso la sua storia, dalle sue origini ai giorni nostri.
 
 ## Tecnologie
 
@@ -12,10 +12,9 @@ Questo sito web è stato creato utilizzando le librerie [Hugo](https://gohugo.io
 
 ## Installazione
 
-Per eseguire questo sito web sul proprio computer locale, è necessario installare Hugo e Blogdown. Ecco i passaggi per l'installazione di Hugo e Blogdown:
+Per eseguire questo sito web sul proprio computer locale utilizzando RStudio, è necessario installare Hugo e Blogdown. Ecco i passaggi per l'installazione:
 
-1. Installare Hugo seguendo le istruzioni presenti sul sito web di [Hugo](https://gohugo.io/getting-started/installing/).
-2. Installare Blogdown eseguendo il seguente comando in RStudio: `install.packages("blogdown")`.
+1. Installare Blogdown eseguendo il seguente comando in RStudio: `install.packages("blogdown")`.
 
 ## Utilizzo
 
@@ -34,4 +33,4 @@ Se si desidera contribuire a questo sito web, è possibile fare un fork della re
 
 Questo sito web è concesso in licenza con la licenza MIT. Consultare il file `LICENSE` per ulteriori informazioni.
 
-Speriamo che vi divertiate ad esplorare la storia del Cinema Storico di San Vito sullo Ionio!
+Speriamo che vi divertiate ad esplorare la storia del cinema storico di San Vito sullo Ionio!
