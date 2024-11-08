@@ -17,9 +17,6 @@ menu:
   main:
     - name: Il progetto
       url: /ilprogetto/
-      weight: 2
-    - name: Chi sono
-      url: /chisono/
       weight: 1
 params:
   MathJaxCDN: //cdnjs.cloudflare.com/ajax/libs
