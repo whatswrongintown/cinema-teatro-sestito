@@ -10,7 +10,7 @@ tags:
   - AgendaCinematografica
   - Database
 ---
-
+{{< image-gallery gallery_dir="/images/1954_12_01_fedi_1954_55" >}}
 
 ### Lista film
 
