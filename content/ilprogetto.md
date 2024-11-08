@@ -22,7 +22,7 @@ Scopri di più sul [fondatore](/2023/04/20/la-storia-di-vito-sestito/)
 
 ## Programmazione
 
-Il cinema seguiva una programmazione classica basata sugli esistenti canali distributivi, che includeva film classici e contemporanei, così come una gamma di eventi speciali come mostre teatrali, assemblee, e proiezioni per la scuola. Nei primi anni, il cinema era basato su film storici o sui film di importanti registi del passato che hanno fatto la storia del cinema, in particolare di quello italiano. Il Cinema Teatro Sestito era più di un semplice cinema - era un centro culturale locale che ha portato le persone insieme e ha scatenato conversazioni sull'arte, la storia e la società.
+Il cinema seguiva una programmazione classica basata sugli esistenti canali distributivi, che includeva film classici e contemporanei, così come una gamma di eventi speciali come mostre teatrali, assemblee, e proiezioni per la scuola. Nei primi anni, il cinema era basato su film storici o sui film di importanti registi del passato che hanno fatto la storia del cinema, in particolare di quello italiano. Il Cinema Sestito era più di un semplice cinema - era un centro culturale locale che ha portato le persone insieme e ha scatenato conversazioni sull'arte, la storia e la società.
 
 Approfondite la programmazione nella sezione [agende](/agende/)
 
