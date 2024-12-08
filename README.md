@@ -22,7 +22,6 @@ Per utilizzare questo sito web, clonare la repository sul proprio computer local
 
 `blogdown::serve_site()`
 
-
 In questo modo verrà lanciata una versione locale del sito web nel proprio browser.
 
 ## Contributi
