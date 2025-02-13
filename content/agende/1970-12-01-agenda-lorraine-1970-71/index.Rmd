@@ -1,0 +1,37 @@
+---
+title: Agenda Lorraine 1970-71
+author: Vito Sestito
+date: '1970-12-01'
+slug: agenda-lorraine-1970-71
+categories:
+  - Agende
+  - Calendario
+  - Proiezioni
+tags:
+  - AgendaCinematografica
+  - Database
+---
+{{< image-gallery gallery_dir="/images/1970_12_01_lorraine_1970_71" >}}
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(tidyverse)
+
+agende <- read_csv("C:/Users/eurhope/Documents/R/cinema-teatro-sestito/static/data/programmazione_agende.csv") %>%
+          select(const, date, title, source)
+
+imdb <- read_csv("C:/Users/eurhope/Documents/R/cinema-teatro-sestito/static/data/programmazione_imdb.csv") %>%
+          select(const = Const, year = Year, directors = Directors, genres = Genres, imdb_rating = `IMDb Rating`, runtime = `Runtime (mins)`, url = URL)
+
+lorraine_1970_71 <- agende %>%
+          filter(str_detect(source, "Lorraine 1970-71")) %>%
+          left_join(imdb, by = "const")
+```
+### Lista film
+```{r echo=FALSE}
+lorraine_1970_71 %>%
+          arrange(date) %>%
+  mutate(title = paste0("[",title,"]","(",url,")")) %>%
+          select(date, title) %>%
+          knitr::kable(col.names = c("Data di proiezione", "Titolo"), align = c("l", "l", "l"))
+```

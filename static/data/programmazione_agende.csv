@@ -581,7 +581,7 @@
 1954-03-19,tt0045076,Redenzione,40000,Fedi 1953-54
 1954-03-23,tt0043870,O.K. Nerone,50000,Fedi 1953-54
 1954-03-29,tt0042208,Giungla d'asfalto,6000,Fedi 1953-54
-1954-04-08,,La Gioconda,12560,Fedi 1953-54
+1954-04-08,tt0040002,Il sorriso della Gioconda,12560,Fedi 1953-54
 1954-04-15,tt0044226,È l'amor che mi rovina,,Fedi 1953-54
 1954-04-17,tt0044486,Gli occhi che non sorrisero,,Fedi 1953-54
 1954-04-19,tt0040227,Che tempi!,14000,Fedi 1953-54
@@ -1444,13 +1444,111 @@
 1963-12-22,tt0053580,La battaglia di Alamo,,"Fedi 1962-63, Calendario 1963"
 1963-12-25,tt0053290,Salomone e la regina di Saba,,"Fedi 1962-63, Calendario 1963"
 1963-12-29,tt0054874,La carovana dei coraggiosi,,"Fedi 1962-63, Calendario 1963"
-1964-01-01,tt0055518,Teseo contro il minotauro,,Fedi 1962-63
-1964-01-02,tt0053762,Desiderio nella polvere,,Fedi 1962-63
-1964-01-06,tt0054875,Il figlio del capitan Blood,,Fedi 1962-63
-1964-01-07,tt0054295,I sette ladri,,Fedi 1962-63
-1964-01-11,tt0053457,La guida indiana,,Fedi 1962-63
-1964-01-13,tt0047924,Missione pericolosa,,Fedi 1962-63
+1964-01-01,tt0055518,Teseo contro il minotauro,,"Fedi 1962-63, Calendario 1964"
+1964-01-02,tt0053762,Desiderio nella polvere,,"Fedi 1962-63, Calendario 1964"
+1964-01-05,tt0055547,Il trionfo di Michele Strogoff,,Calendario 1964
+1964-01-06,tt0054875,Il figlio del capitan Blood,,"Fedi 1962-63, Calendario 1964"
+1964-01-07,tt0054295,I sette ladri,,"Fedi 1962-63, Calendario 1964"
+1964-01-11,tt0053457,La guida indiana,,"Fedi 1962-63, Calendario 1964"
+1964-01-13,tt0047924,Missione pericolosa,,"Fedi 1962-63, Calendario 1964"
+1964-01-19,tt0054757,I Comanceros,,Calendario 1964
+1964-01-22,tt0056604,Totò diabolicus,,Calendario 1964
+1964-01-26,tt0035195,La febbre dell'oro nero,,Calendario 1964
+1964-01-27,tt0054681,Il grande spettacolo,,Calendario 1964
+1964-02-02,tt0056396,Il dominatore dei 7 mari,,Calendario 1964
+1964-02-05,tt7252648,Furie rosse,,Calendario 1964
+1964-02-07,tt0038108,Nel mar dei Caraibi,,Calendario 1964
+1964-02-09,tt0046447,Tormento,,Calendario 1964
+1964-02-12,tt0033630,Fra' Diavolo,600,Calendario 1964
+1964-02-16,tt0046085,Mogambo,12000,Calendario 1964
+1964-02-19,tt0054215,Psyco,,Calendario 1964
 1964-02-21,tt0043532,I figli di nessuno,,Fedi 1962-63
+1964-02-23,tt0056217,L'uomo che uccise Liberty Valance,,Calendario 1964
+1964-02-26,tt0053632,Banditi a Orgosolo,,Calendario 1964
+1964-02-29,tt0047408,Rapsodia,12000,Calendario 1964
+1964-03-04,tt0054734,Il re dei falsari,600,Calendario 1964
+1964-03-08,tt0055963,Fuga da Zahrain,,Calendario 1964
+1964-03-11,tt0054926,Un giorno da leoni,,Calendario 1964
+1964-03-14,tt0055871,Il falso traditore,,Calendario 1964
+1964-03-19,tt0056059,Hatari!,,Calendario 1964
+1964-03-22,tt0055544,Il segreto di Montecristo,20000,Calendario 1964
+1964-03-25,tt0044205,Donne verso l'ignoto,,Calendario 1964
+1964-03-29,tt0056472,I sette gladiatori,,Calendario 1964
+1964-04-01,tt0056248,La morte sale in ascensore,,Calendario 1964
+1964-04-07,tt0039396,Il cerchio si chiude,,Calendario 1964
+1964-04-09,tt0041232,Catene,,Calendario 1964
+1964-04-13,tt0038417,Maschere e pugnali,7500,Calendario 1964
+1964-04-17,tt0043532,I figli di nessuno,,Calendario 1964
+1964-04-24,tt0045943,Giulio Cesare,,Calendario 1964
+1964-04-28,tt0043725,L'assedio di Fort Point,,Calendario 1964
+1964-05-03,tt0057268,Maciste all'inferno,,Calendario 1964
+1964-05-05,tt0044885,Il mercante di Venezia,,Calendario 1964
+1964-05-07,tt0056902,Il capitano di ferro,,Calendario 1964
+1964-05-13,tt0053226,La strada dei quartieri alti,,Calendario 1964
+1964-05-17,tt0266923,Il paladino della corte di Francia,,Calendario 1964
+1964-05-20,tt0040720,Il vagabondo della foresta,,Calendario 1964
+1964-05-24,tt0139222,I fratelli Corsi,,Calendario 1964
+1964-05-30,tt0057629,Ursus gladiatore ribelle,,Calendario 1964
+1964-06-03,tt0053142,Guerriglia nella giungla,,Calendario 1964
+1964-06-07,tt0057559,"Taras Bulba, il cosacco",,Calendario 1964
+1964-06-09,tt0040946,La strega rossa,,Calendario 1964
+1964-06-14,tt0057720,Zorro e i tre moschettieri,,Calendario 1964
+1964-06-16,tt0032383,La belva umana,,Calendario 1964
+1964-06-21,tt0051629,Il forte del massacro,,Calendario 1964
+1964-06-28,tt0046789,Lo scudo dei Falworth,,Calendario 1964
+1964-07-01,tt0054112,Lo sterminatore del West,,Calendario 1964
+1964-07-05,tt0370051,La spada dell'Islam,,Calendario 1964
+1964-07-12,tt0057018,Il duca nero,,Calendario 1964
+1964-07-19,tt0047366,La principessa del Nilo,,Calendario 1964
+1964-07-26,tt0057270,Maciste contro i mostri,,Calendario 1964
+1964-08-02,tt0054342,La storia di David,,Calendario 1964
+1964-08-10,tt0054943,I bolidi,12000,Calendario 1964
+1964-08-11,tt0329089,Follie d'estate,10000,Calendario 1964
+1964-08-12,tt0044380,I figli dei moschettieri,43000,Calendario 1964
+1964-08-16,tt0055399,Salvatore Giuliano,57000,Calendario 1964
+1964-08-19,tt0140905,Delitto implacabile,11000,Calendario 1964
+1964-08-21,tt0050113,Tutti i peccati di questo mondo,10000,Calendario 1964
+1964-08-23,tt0050381,Le fatiche di Ercole,60000,Calendario 1964
+1964-08-26,tt0055422,Il complice segreto,14500,Calendario 1964
+1964-08-28,tt0057441,Gli avamposti della gloria,800,Calendario 1964
+1964-08-30,tt0055435,Le 7 fatiche di Alì Babà,43000,Calendario 1964
+1964-09-02,tt0205714,I 10 del Texas,14000,Calendario 1964
+1964-09-04,tt0247383,Oro tragico,8000,Calendario 1964
+1964-09-05,tt0045175,Il figlio di Alì Babà,46000,Calendario 1964
+1964-09-09,tt0054701,Ponte verso il sole,10000,Calendario 1964
+1964-09-12,tt0055356,Il ratto delle sabine,46000,Calendario 1964
+1964-09-18,tt0052782,Ercole e la regina di Lidia,65000,Calendario 1964
+1964-09-23,tt0055438,L'ombra del gatto,8000,Calendario 1964
+1964-09-27,tt0054890,I quattro cavalieri dell'Apocalisse,34000,Calendario 1964
+1964-09-29,tt0055018,Suspense,6000,Calendario 1964
+1964-10-03,tt0056496,Apache in agguato,41500,Calendario 1964
+1964-10-05,tt0054687,Cronaca di un assassinio,8000,Calendario 1964
+1964-10-10,tt0057602,Le tre spade di Zorro,45000,Calendario 1964
+1964-10-14,tt0055436,7 donne dall'inferno,8000,Calendario 1964
+1964-10-17,tt0051398,Il barbaro e la geisha,31000,Calendario 1964
+1964-10-21,tt0163606,Gli avvoltoi della metropoli,10000,Calendario 1964
+1964-10-24,tt0122600,I magnifici tre,47000,Calendario 1964
+1964-10-28,tt0055402,Il grande peccato,7000,Calendario 1964
+1964-10-31,tt0056207,Maciste contro i cacciatori di teste,55000,Calendario 1964
+1964-11-03,tt0038255,Gli ammutinati di Sing Sing,12000,Calendario 1964
+1964-11-04,tt0140357,Colpo alla nuca,3000,Calendario 1964
+1964-11-08,tt0056452,Il tesoro del lago d'argento,45000,Calendario 1964
+1964-11-14,tt0056447,Storia cinese,44000,Calendario 1964
+1964-11-18,tt0057106,Uno dei tre,10000,Calendario 1964
+1964-11-22,tt0056440,Gli ammutinati di Samar,47000,Calendario 1964
+1964-11-25,tt0049286,Il vendicatore dell'Arizona,12000,Calendario 1964
+1964-11-27,tt0037366,Missione segreta,8400,Calendario 1964
+1964-11-29,tt0056228,L'uomo dalla maschera di ferro,58000,Calendario 1964
+1964-12-02,tt0053644,Ragazzo tuttofare,11000,Calendario 1964
+1964-12-06,tt0047013,Il prigioniero della miniera,43000,Calendario 1964
+1964-12-09,tt0055851,La città prigioniera,,Calendario 1964
+1964-12-11,tt0046189,I Piombi di Venezia,10000,Calendario 1964
+1964-12-13,tt0055719,L'eroe di Sparta,64000,Calendario 1964
+1964-12-16,tt0054310,Affondate la Bismarck!,8000,Calendario 1964
+1964-12-22,tt0162242,Chiamate 22-22 tenente Sheridan,14000,Calendario 1964
+1964-12-25,tt0056343,Perseo l'invincibile,92000,Calendario 1964
+1964-12-27,tt0057470,Sansone contro i pirati,74000,Calendario 1964
+1964-12-30,tt0054934,L'oro dei sette santi,18000,Calendario 1964
 1966-01-01,tt0059121,I due toreri,,"NAONIS 1966, Calendario 1966"
 1966-01-02,tt0207596,L'indomabile,,"NAONIS 1966, Calendario 1966"
 1966-01-05,tt0058140,I giganti di Roma,,"NAONIS 1966, Calendario 1966"
@@ -1698,6 +1796,57 @@
 1967-02-24,tt0060863,Spogliarello per una vedova,,Calendario 1967
 1967-02-26,tt0060320,L'uomo dalla pistola d'oro,,Calendario 1967
 1967-02-27,tt0057656,Nel bene e nel male,,Calendario 1967
+1967-03-01,tt0060155,Beau Geste,,Calendario 1967
+1967-03-02,tt0058437,L'oltraggio,,Calendario 1967
+1967-03-03,tt0054437,La vendetta di Ercole,,Calendario 1967
+1967-03-04,tt0059651,La taglia,,Calendario 1967
+1967-03-05,tt0059218,I gemelli del Texas,,Calendario 1967
+1967-03-07,tt0059089,La calda pelle,,Calendario 1967
+1967-03-09,tt0059432,Marie Chantal contro il dr. Kha,,Calendario 1967
+1967-03-10,tt0050266,Il corsaro della mezza luna,,Calendario 1967
+1967-03-11,tt0055885,Il tiranno di Siracusa,,Calendario 1967
+1967-03-13,tt0049201,La pistola sepolta,,Calendario 1967
+1967-03-14,tt0042379,La città nera,,Calendario 1967
+1967-03-16,tt0060626,Gioco mortale,,Calendario 1967
+1967-03-17,tt0059772,La spada di Alì Babà,,Calendario 1967
+1967-03-19,tt0058929,L'avventuriero della Tortuga,,Calendario 1967
+1967-03-20,tt0239806,Sfida implacabile,,Calendario 1967
+1967-03-21,tt0206792,Assassinio di una ragazza squillo,,Calendario 1967
+1967-03-22,tt0056512,Il sorpasso,,Calendario 1967
+1967-03-26,tt0060692,Mi vedrai tornare,,Calendario 1967
+1967-03-31,tt0026126,Gli allegri eroi,,Calendario 1967
+1967-04-01,tt0128358,La montagna di luce,,Calendario 1967
+1967-04-03,tt0057643,La ballata del boia,,Calendario 1967
+1967-04-05,tt0141083,Operazione dollari,,Calendario 1967
+1967-04-08,tt0060901,Ringo del Nebraska,,Calendario 1967
+1967-04-10,tt0056656,Il limite della vergogna,,Calendario 1967
+1967-04-14,tt0051436,I bucanieri,,Calendario 1967
+1967-04-16,tt0059206,Oss 117 furia a Bahia,,Calendario 1967
+1967-04-17,tt0063326,Gli amori di Angelica,,Calendario 1967
+1967-04-19,tt0057997,Chi giace nella mia bara?,,Calendario 1967
+1967-04-20,tt0053825,Stella di fuoco,,Calendario 1967
+1967-04-24,tt0055408,Argos alla riscossa,,Calendario 1967
+1967-04-27,tt0275668,La sfida dei giganti,,Calendario 1967
+1967-04-28,tt0052583,Tutte le ragazze lo sanno,,Calendario 1967
+1967-05-01,tt0050379,Addio alle armi,,Calendario 1967
+1967-05-04,tt0058861,3 colpi di Winchester per Ringo,,Calendario 1967
+1967-05-05,tt0141673,OSS 117 segretissimo,,Calendario 1967
+1967-05-12,tt0054080,L'ultimo tango,,Calendario 1967
+1967-05-13,tt0059449,Da 077: intrigo a Lisbona,,Calendario 1967
+1967-05-15,tt0049432,L'ultima caccia,,Calendario 1967
+1967-05-17,tt0208469,Una spada nell'ombra,,Calendario 1967
+1967-05-19,tt0055621,Entrate senza bussare,,Calendario 1967
+1967-05-21,tt0058632,I 4 volti della vendetta,,Calendario 1967
+1967-05-28,tt0060051,"A 077, sfida ai killers",,Calendario 1967
+1967-06-02,tt0211033,Tharus figlio di Attila,,Calendario 1967
+1967-06-04,tt0060590,"Kindar, l'invulnerabile",,Calendario 1967
+1967-06-05,tt0058091,Destino in agguato,,Calendario 1967
+1967-06-07,tt0058941,Rio diablos,,Calendario 1967
+1967-06-11,tt0055141,Marco Polo,,Calendario 1967
+1967-06-18,tt0057064,Agguato sul grande fiume,,Calendario 1967
+1967-06-19,tt0208470,Una spada per l'impero,,Calendario 1967
+1967-06-22,tt0054259,Appuntamento con la vita,,Calendario 1967
+1967-06-25,tt0061045,Superseven chiama Cairo,,Calendario 1967
 1967-07-02,tt0059269,Ciclone sulla Giamaica,,Calendario 1967
 1967-07-07,tt0058185,Lo sparviero dei Caraibi,,Calendario 1967
 1967-07-09,tt0054851,Ercole alla conquista di Atlantide,,Calendario 1967
@@ -1915,7 +2064,7 @@
 1968-11-02,tt0181613,John il bastardo,,Calendario 1968
 1968-11-05,tt0144626,Il suo nome gridava vendetta,,Calendario 1968
 1968-11-06,tt0148086,Dove si spara di più,,Calendario 1968
-1968-11-10,tt0125881,Il lungo giorno del massacro,,Calendario 1968
+1968-11-10,tt0125881,Il lungo giorno del massacro,,"Calendario 1968, Morganite 1968-69"
 1968-11-13,tt0062229,Frank Costello faccia d'angelo,,Calendario 1968
 1968-11-17,tt0060589,Uccidete Johnny Ringo,,Calendario 1968
 1968-11-18,tt0061515,Uno sconosciuto in casa,,Calendario 1968
@@ -1924,67 +2073,743 @@
 1968-11-23,tt0196881,Quanto costa morire,,Calendario 1968
 1968-11-26,tt0061610,"3 fusti, 2 bambole e... 1 tesoro",,Calendario 1968
 1968-11-27,tt0186531,I sette fratelli Cervi,,Calendario 1968
-1968-12-01,tt0060401,Il faraone,,Calendario 1968
+1968-12-01,tt0060401,Il faraone,,"Calendario 1968, Morganite 1968-69"
 1968-12-02,tt0053076,Il dottor Zigano,,Calendario 1968
 1968-12-03,tt0055818,Il ritorno di Joselito,,Calendario 1968
 1968-12-04,tt0061135,4 bassotti per 1 danese,,Calendario 1968
 1968-12-05,tt0063011,Gangsters '70,,Calendario 1968
-1968-12-07,tt0066451,I lunghi giorni dell'odio,,Calendario 1968
+1968-12-07,tt0066451,I lunghi giorni dell'odio,,"Calendario 1968, Morganite 1968-69"
 1968-12-09,tt0060084,Pochi dollari per Django,,Calendario 1968
 1968-12-10,tt0188970,Notti nude,,Calendario 1968
 1968-12-12,tt0060048,40 fucili al Passo Apache,,Calendario 1968
-1968-12-15,tt0194837,Ed ora... raccomanda l'anima a Dio!,,Calendario 1968
+1968-12-15,tt0194837,Ed ora... raccomanda l'anima a Dio!,,"Calendario 1968, Morganite 1968-69"
 1968-12-17,tt0062451,La ragazza della notte,,Calendario 1968
-1968-12-24,tt0062305,Stasera mi butto,,Calendario 1968
-1968-12-29,tt0064208,Da uomo a uomo,,Calendario 1968
-1967-03-01,tt0060155,Beau Geste,,Calendario 1967
-1967-03-02,tt0058437,L'oltraggio,,Calendario 1967
-1967-03-03,tt0054437,La vendetta di Ercole,,Calendario 1967
-1967-03-04,tt0059651,La taglia,,Calendario 1967
-1967-03-05,tt0059218,I gemelli del Texas,,Calendario 1967
-1967-03-07,tt0059089,La calda pelle,,Calendario 1967
-1967-03-09,tt0059432,Marie Chantal contro il dr. Kha,,Calendario 1967
-1967-03-10,tt0050266,Il corsaro della mezza luna,,Calendario 1967
-1967-03-11,tt0055885,Il tiranno di Siracusa,,Calendario 1967
-1967-03-13,tt0049201,La pistola sepolta,,Calendario 1967
-1967-03-14,tt0042379,La città nera,,Calendario 1967
-1967-03-16,tt0060626,Gioco mortale,,Calendario 1967
-1967-03-17,tt0059772,La spada di Alì Babà,,Calendario 1967
-1967-03-19,tt0058929,L'avventuriero della Tortuga,,Calendario 1967
-1967-03-20,tt0239806,Sfida implacabile,,Calendario 1967
-1967-03-21,tt0206792,Assassinio di una ragazza squillo,,Calendario 1967
-1967-03-22,tt0056512,Il sorpasso,,Calendario 1967
-1967-03-26,tt0060692,Mi vedrai tornare,,Calendario 1967
-1967-03-31,tt0026126,Gli allegri eroi,,Calendario 1967
-1967-04-01,tt0128358,La montagna di luce,,Calendario 1967
-1967-04-03,tt0057643,La ballata del boia,,Calendario 1967
-1967-04-05,tt0141083,Operazione dollari,,Calendario 1967
-1967-04-08,tt0060901,Ringo del Nebraska,,Calendario 1967
-1967-04-10,tt0056656,Il limite della vergogna,,Calendario 1967
-1967-04-14,tt0051436,I bucanieri,,Calendario 1967
-1967-04-16,tt0059206,Oss 117 furia a Bahia,,Calendario 1967
-1967-04-17,tt0063326,Gli amori di Angelica,,Calendario 1967
-1967-04-19,tt0057997,Chi giace nella mia bara?,,Calendario 1967
-1967-04-20,tt0053825,Stella di fuoco,,Calendario 1967
-1967-04-24,tt0055408,Argos alla riscossa,,Calendario 1967
-1967-04-27,tt0275668,La sfida dei giganti,,Calendario 1967
-1967-04-28,tt0052583,Tutte le ragazze lo sanno,,Calendario 1967
-1967-05-01,tt0050379,Addio alle armi,,Calendario 1967
-1967-05-04,tt0058861,3 colpi di Winchester per Ringo,,Calendario 1967
-1967-05-05,tt0141673,OSS 117 segretissimo,,Calendario 1967
-1967-05-12,tt0054080,L'ultimo tango,,Calendario 1967
-1967-05-13,tt0059449,Da 077: intrigo a Lisbona,,Calendario 1967
-1967-05-15,tt0049432,L'ultima caccia,,Calendario 1967
-1967-05-17,tt0208469,Una spada nell'ombra,,Calendario 1967
-1967-05-19,tt0055621,Entrate senza bussare,,Calendario 1967
-1967-05-21,tt0058632,I 4 volti della vendetta,,Calendario 1967
-1967-05-28,tt0060051,"A 077, sfida ai killers",,Calendario 1967
-1967-06-02,tt0211033,Tharus figlio di Attila,,Calendario 1967
-1967-06-04,tt0060590,"Kindar, l'invulnerabile",,Calendario 1967
-1967-06-05,tt0058091,Destino in agguato,,Calendario 1967
-1967-06-07,tt0058941,Rio diablos,,Calendario 1967
-1967-06-11,tt0055141,Marco Polo,,Calendario 1967
-1967-06-18,tt0057064,Agguato sul grande fiume,,Calendario 1967
-1967-06-19,tt0208470,Una spada per l'impero,,Calendario 1967
-1967-06-22,tt0054259,Appuntamento con la vita,,Calendario 1967
-1967-06-25,tt0061045,Superseven chiama Cairo,,Calendario 1967
+1968-12-19,tt0061758,Angeli dell'inferno sulle ruote,,Calendario 1968
+1968-12-22,tt0171038,...e venne il tempo di uccidere,,"Calendario 1968, Morganite 1968-69"
+1968-12-23,tt0058362,Jacqueline e gli uomini,,Morganite 1968-69
+1968-12-24,tt0062305,Stasera mi butto,,"Calendario 1968, Morganite 1968-69"
+1968-12-29,tt0064208,Da uomo a uomo,,"Calendario 1968, Morganite 1968-69"
+1968-12-30,tt0060516,Sesso perduto,,Morganite 1968-69
+1969-01-01,tt0061384,I barbieri di Sicilia,,Morganite 1968-69
+1969-01-02,tt0055587,Bandito sì... ma d'onore,,Morganite 1968-69
+1969-01-03,tt0061575,Dio non paga il sabato,,Morganite 1968-69
+1969-01-04,tt0148703,Sapevano solo uccidere,,Morganite 1968-69
+1969-01-06,tt0060483,Pistole roventi,,Morganite 1968-69
+1969-01-12,tt0198859,O tutto o niente,,Morganite 1968-69
+1969-01-14,tt0155678,Don Chisciotte e Sancio Panza,,Morganite 1968-69
+1969-01-15,tt0135171,Pattuglia anti gang,,Morganite 1968-69
+1969-01-16,tt0060209,Il carnevale dei ladri,,Morganite 1968-69
+1969-01-17,tt0061986,Mon amour Mon amour,,Morganite 1968-69
+1969-01-19,tt0062413,L'ultimo killer,,Morganite 1968-69
+1969-01-21,tt0061452,James Bond 007 - Casino Royale,,Morganite 1968-69
+1969-01-22,tt0172346,"La donna, il sesso e il superuomo",,Morganite 1968-69
+1969-01-23,tt0063285,Il grande inquisitore,,Morganite 1968-69
+1969-01-24,tt0060993,Fumo di Londra,,Morganite 1968-69
+1969-01-25,tt0062467,Gli occhi della notte,,Morganite 1968-69
+1969-01-26,tt0062179,L'invincibile Superman,,Morganite 1968-69
+1969-01-29,tt0060829,Le pipe,,Morganite 1968-69
+1969-01-30,tt0061992,Vivi ma non uccidere,,Morganite 1968-69
+1969-02-02,tt0061844,Lo sceriffo senza stella,,Morganite 1968-69
+1969-02-07,tt0062357,Testa di sbarco per otto implacabili,,Morganite 1968-69
+1969-02-09,tt0063568,Se incontri Sartana prega per la tua morte,,Morganite 1968-69
+1969-02-12,tt0173895,Scontro mortale,,Morganite 1968-69
+1969-02-14,tt0061419,Fbi contro gangsters,,Morganite 1968-69
+1969-02-16,tt0059711,"Shenandoah, la valle dell'onore",,Morganite 1968-69
+1969-02-18,tt0062030,Nato per uccidere,,Morganite 1968-69
+1969-02-20,tt0054342,La storia di David,,Morganite 1968-69
+1969-02-21,tt0063753,Vacanze sulla Costa Smeralda,,Morganite 1968-69
+1969-02-25,tt0061867,Il pirata del re,,Morganite 1968-69
+1969-02-26,tt0907864,Caccia senza pietà,,Morganite 1968-69
+1969-02-27,tt0171448,I commandos dell'est,,Morganite 1968-69
+1969-03-02,tt0208973,Una forca per un bastardo,,Morganite 1968-69
+1969-03-04,tt0061477,Vivere da vigliacchi morire da eroi,,Morganite 1968-69
+1969-03-05,tt0062318,I guerriglieri dell'Amazzonia,,Morganite 1968-69
+1969-03-07,tt0061832,6 pallottole per 6 carogne,,Morganite 1968-69
+1969-03-09,tt0162244,Chiedi perdono a Dio... non a me,,Morganite 1968-69
+1969-03-11,tt0061521,FBI contro Cosa Nostra,,Morganite 1968-69
+1969-03-16,tt0061710,I giorni della violenza,,Morganite 1968-69
+1969-03-17,tt0065060,T'ammazzo!... Raccomandati a Dio,,Morganite 1968-69
+1969-03-23,tt0061775,...E divenne il più spietato bandito del sud,,Morganite 1968-69
+1969-03-25,tt0061015,Voglio sposarle tutte,,Morganite 1968-69
+1969-03-27,tt0061917,La lunga fuga,,Morganite 1968-69
+1969-03-30,tt0059896,Il principe guerriero,,Morganite 1968-69
+1969-04-02,tt0062761,Brutti di notte,,Morganite 1968-69
+1969-04-03,tt0176999,Una notte per 5 rapine,,Morganite 1968-69
+1969-04-06,tt0064818,Uno straniero a Paso Bravo,,Morganite 1968-69
+1969-04-09,tt0063057,I contrabbandieri del cielo,,Morganite 1968-69
+1969-04-11,tt0136511,I ragazzi del sabato sera,,Morganite 1968-69
+1969-04-13,tt0059778,Gli eroi di Fort Worth,,Morganite 1968-69
+1969-04-15,tt0036665,Il cavaliere di Lagardere,,Morganite 1968-69
+1969-04-17,tt0061398,Il cerchio di sangue,,Morganite 1968-69
+1969-04-27,tt0061574,Dio li crea... Io li ammazzo!,,Morganite 1968-69
+1969-04-29,tt0061571,Il magnifico Texano,,Morganite 1968-69
+1969-05-04,tt0063440,Il pistolero segnato da Dio,,Morganite 1968-69
+1969-05-06,tt0062849,Dai nemici mi guardo io!,,Morganite 1968-69
+1969-05-08,tt0063634,A tutto gas,,Morganite 1968-69
+1969-05-09,tt0062341,Tarzan e il grande fiume,,Morganite 1968-69
+1969-05-11,tt0177798,Giorni di sangue,,Morganite 1968-69
+1969-05-13,tt0062659,Ammazzali tutti e torna solo,,Morganite 1968-69
+1969-05-15,tt0062810,Il cobra,,Morganite 1968-69
+1969-05-20,tt0183428,Luana la figlia delle foresta vergine,,Morganite 1968-69
+1969-05-21,tt0061841,Gioco di massacro,,Morganite 1968-69
+1969-05-25,tt0211711,Uccideva a freddo,,Morganite 1968-69
+1969-05-27,tt0061864,"Killer, adios",,Morganite 1968-69
+1969-05-28,tt0060783,Una spia di troppo,,Morganite 1968-69
+1969-05-29,tt0062499,I dolci vizi... della casta Susanna,,Morganite 1968-69
+1969-06-05,tt0171669,Pronto... c'è una certa Giuliana per te,,Morganite 1968-69
+1969-06-08,tt0061124,La grande sfida a Scotland Yard,,Morganite 1968-69
+1969-06-15,tt0062198,Il bandito nero,,Morganite 1968-69
+1969-06-19,tt0060135,U-112 assalto al Queen Mary,,Morganite 1968-69
+1969-06-21,tt0059419,Operazione maggiordomo,,Morganite 1968-69
+1969-06-25,tt0043090,L'ultima preda,,Morganite 1968-69
+1969-06-26,tt0041896,Billy il mancino,,Morganite 1968-69
+1969-06-27,tt0061594,Doppio bersaglio,,Morganite 1968-69
+1969-06-29,tt0061570,Dick Smart 2.007,,Morganite 1968-69
+1969-07-03,tt0055435,Le 7 fatiche di Alì Babà,,Morganite 1968-69
+1969-07-06,tt0182662,3 Supermen a Tokio,,Morganite 1968-69
+1969-07-08,tt0061619,El Dorado,,Morganite 1968-69
+1969-07-13,tt0062887,I diamanti che nessuno voleva rubare,,Morganite 1968-69
+1969-07-17,tt0038284,I predoni della città,,Morganite 1968-69
+1969-07-18,tt0059539,Un bacio per morire,,Morganite 1968-69
+1969-07-20,tt0166134,Colpo di sole,,Morganite 1968-69
+1969-07-22,tt0269443,Killer Kid,,Morganite 1968-69
+1969-07-27,tt0058938,Le bambole,,Morganite 1968-69
+1969-07-29,tt0063172,Gli eredi di King Kong,,Morganite 1968-69
+1969-07-31,tt0059863,La spietata colt del gringo,,Morganite 1968-69
+1969-08-02,tt0045992,Il diario di un condannato (Sotto il Sole Rovente),,Morganite 1968-69
+1969-08-05,tt0065164,Quinto: non ammazzare,,Morganite 1968-69
+1969-08-08,tt0154297,Questo corpo tanto desiderato,,Morganite 1968-69
+1969-08-09,tt0061748,Cominciò per gioco...,,Morganite 1968-69
+1969-08-10,tt0063008,Gentleman Jo... uccidi,,Morganite 1968-69
+1969-08-12,tt0498263,La vedova allegra,,Morganite 1968-69
+1969-08-13,tt0186030,"Un giovane, una giovane",,Morganite 1968-69
+1969-08-16,tt0158229,Il sole è di tutti,,Morganite 1968-69
+1969-08-19,tt0060430,7 donne per una strage,,Morganite 1968-69
+1969-08-20,tt0060315,Django,,Morganite 1968-69
+1969-08-24,tt0063139,Io ti amo,,Morganite 1968-69
+1969-08-26,tt0185874,American Secret Service,,Morganite 1968-69
+1969-08-27,tt0063270,L'uomo dall'occhio di vetro,,Morganite 1968-69
+1969-08-28,tt0060828,La paura e l'amore,,Morganite 1968-69
+1969-08-31,tt0061829,Addio Lara,,Morganite 1968-69
+1969-09-11,tt0061703,Il gigante buono,,Morganite 1968-69
+1969-09-12,tt0062207,Rapina al treno postale,,Morganite 1968-69
+1969-09-14,tt0065120,Tre croci per non morire,,Morganite 1968-69
+1969-09-17,tt0059933,Giovani iene,,Morganite 1968-69
+1969-09-18,tt0062683,Superspia K,,Morganite 1968-69
+1969-09-19,tt0060728,Matt Helm... non perdona!,,Morganite 1968-69
+1969-09-21,tt0063419,Passa Sartana... è l'ombra della tua morte,,Morganite 1968-69
+1969-09-23,tt0062249,Il sesso degli angeli,,Morganite 1968-69
+1969-09-24,tt0062130,La più grande rapina del west,,Morganite 1968-69
+1969-09-26,tt0166138,Comandamenti per un gangster,,Morganite 1968-69
+1969-09-28,tt0061623,Violenza per una monaca,,Morganite 1968-69
+1969-10-02,tt0062391,Un treno per Durango,,Morganite 1968-69
+1969-10-05,tt0158852,La più bella coppia del mondo,,Morganite 1968-69
+1969-10-07,tt0063740,Cimitero senza croci,,Morganite 1968-69
+1969-10-09,tt0150698,Il gatto selvaggio,,Morganite 1968-69
+1969-10-11,tt0060690,Django non perdona,,Morganite 1968-69
+1969-10-14,tt0063522,Rosemary's Baby,,Morganite 1968-69
+1969-10-15,tt0062652,All'ultimo sangue,,Morganite 1968-69
+1969-10-19,tt0062626,Poker di sangue,,Morganite 1968-69
+1969-10-21,tt0061709,I giorni dell'ira,,Morganite 1968-69
+1969-10-22,tt0056368,Sepolto vivo,,Morganite 1968-69
+1969-10-23,tt0061107,Il sipario strappato,,Morganite 1968-69
+1969-10-24,tt0043757,Il continente scomparso,,Morganite 1968-69
+1969-10-26,tt0062707,Banditi a Milano,,Morganite 1968-69
+1969-10-29,tt0062112,Un attico sopra l'inferno,,Morganite 1968-69
+1969-10-30,tt0062477,La vecchia legge del West,,Morganite 1968-69
+1969-10-31,tt0059740,I quattro figli di Katie Elder,,"Morganite 1968-69, Lorraine 1969-70"
+1969-11-02,tt0061197,Il giorno più lungo di Kansas City,,"Morganite 1968-69, Lorraine 1969-70"
+1969-11-04,tt0058383,Assassinio sul palcoscenico,,"Morganite 1968-69, Lorraine 1969-70"
+1969-11-06,tt0063275,Le notti di Satana,,"Morganite 1968-69, Lorraine 1969-70"
+1969-11-09,tt0215321,Vendo cara la pelle,,"Morganite 1968-69, Lorraine 1969-70"
+1969-11-11,tt0063270,L'uomo dall'occhio di vetro,,Morganite 1968-69
+1969-11-12,tt0062731,Colpo grosso alla napoletana,,Morganite 1968-69
+1969-11-16,tt0060697,1000 dollari sul nero,,"Morganite 1968-69, Lorraine 1969-70"
+1969-11-19,tt0062909,Le amanti di Dracula,,Morganite 1968-69
+1969-11-21,tt0063246,Jim l'irresistibile detective,,Morganite 1968-69
+1969-11-23,tt0064869,Quintana,,"Morganite 1968-69, Lorraine 1969-70"
+1969-11-25,tt0062218,Due stelle nella polvere,,Morganite 1968-69
+1969-11-26,tt0062863,Buio oltre il sole,,Morganite 1968-69
+1969-11-28,tt0063515,Gioco d'azzardo,,Morganite 1968-69
+1969-11-30,tt0059273,Solo contro tutti,,"Morganite 1968-69, Lorraine 1969-70"
+1969-12-02,tt0062819,Commandos,,Morganite 1968-69
+1969-12-04,tt0058409,Le professioniste,,Morganite 1968-69
+1969-12-05,tt0062629,A Ghentar si muore facile,,Morganite 1968-69
+1969-12-07,tt0049833,I dieci comandamenti,,"Morganite 1968-69, Lorraine 1969-70"
+1969-12-10,tt0058618,La strada per Forte Alamo,,Morganite 1968-69
+1969-12-11,tt0063032,Il grande silenzio,,Morganite 1968-69
+1969-12-12,tt0056174,La leggenda di Enea,,Morganite 1968-69
+1969-12-14,tt0065997,Vivo per la tua morte,,"Morganite 1968-69, Lorraine 1969-70"
+1969-12-17,tt0183451,Maciste nell'inferno di Gengis Khan,,Morganite 1968-69
+1969-12-21,tt0062807,5 per l'inferno,,"Morganite 1968-69, Lorraine 1969-70"
+1969-12-25,tt0138650,Nel sole,,"Morganite 1968-69, Lorraine 1969-70"
+1969-12-28,tt0064653,Meglio vedova,,"Morganite 1968-69, Lorraine 1969-70"
+1969-12-30,tt0139820,Nuda per un pugno di eroi,,"Morganite 1968-69, Lorraine 1969-70"
+1969-12-31,tt0139510,L'oro del mondo,,"Morganite 1968-69, Lorraine 1969-70"
+1970-01-02,tt0197807,Ramon il Messicano,,Lorraine 1969-70
+1970-01-04,tt0062151,Preparati la bara!,,"Morganite 1968-69, Lorraine 1969-70"
+1970-01-08,tt0060660,La pelle brucia,,Lorraine 1969-70
+1970-01-09,tt0210353,Il terribile ispettore,,Lorraine 1969-70
+1970-01-10,tt0062824,L'uomo dalla cravatta di cuoio,,"Morganite 1968-69, Lorraine 1969-70"
+1970-01-13,tt0065361,Una su 13,,Lorraine 1969-70
+1970-01-18,tt0060748,Nevada Smith,,Lorraine 1969-70
+1970-01-21,tt0060325,Un dollaro tra i denti,,Lorraine 1969-70
+1970-01-25,tt0057464,I tre spietati,,Lorraine 1969-70
+1970-01-27,tt0063185,L'assassinio di Sister George,,Lorraine 1969-70
+1970-01-31,tt0063775,Viva! Viva Villa!,,Lorraine 1969-70
+1970-02-08,tt0060978,7 dollari sul rosso,,Lorraine 1969-70
+1970-02-10,tt0060400,Fantomas contro Scotland Yard,,Lorraine 1969-70
+1970-02-12,tt0061541,"Ringo, il volto della vendetta",,Lorraine 1969-70
+1970-02-15,tt0061894,L'ultimo safari,,Lorraine 1969-70
+1970-02-18,tt0062120,Si salvi chi può,,Lorraine 1969-70
+1970-02-19,tt0059681,Saul e David,,Lorraine 1969-70
+1970-02-24,tt0058326,La casa degli amori particolari,,Lorraine 1969-70
+1970-02-26,tt0252432,La donna è uno spettacolo,,Lorraine 1969-70
+1970-03-01,tt0063516,Roma come Chicago (Banditi a Roma),,Lorraine 1969-70
+1970-03-03,tt0062022,Il fantasma di Londra,,Lorraine 1969-70
+1970-03-04,tt0062860,La mano che uccide,,Lorraine 1969-70
+1970-03-05,tt0061916,Il lungo duello,,Lorraine 1969-70
+1970-03-10,tt0055609,"Vulcano, figlio di Giove",,Lorraine 1969-70
+1970-03-11,tt0054637,Arrivano i titani,,Lorraine 1969-70
+1970-03-15,tt0064275,...e vennero in quattro per uccidere Sartana!,,Lorraine 1969-70
+1970-03-22,tt0158524,Un buco in fronte,,Lorraine 1969-70
+1970-03-24,tt0062712,I bastardi,,Lorraine 1969-70
+1970-03-25,tt0062099,Niente rose per OSS 117,,Lorraine 1969-70
+1970-04-01,tt0063818,L'uomo dal lungo fucile,,Lorraine 1969-70
+1970-04-02,tt0062703,La bambolona,,Lorraine 1969-70
+1970-04-05,tt0058909,Angelica alla corte del re,,Lorraine 1969-70
+1970-04-07,tt0057195,Presto... a letto!,,Lorraine 1969-70
+1970-04-08,tt0063402,Facce per l'inferno,,Lorraine 1969-70
+1970-04-12,tt0059579,Perché uccidi ancora,,Lorraine 1969-70
+1970-04-16,tt0064695,Meglio morto che vivo,,Lorraine 1969-70
+1970-04-19,tt0056904,Capitan Sinbad,,Lorraine 1969-70
+1970-04-21,tt0057549,Sinfonia per un massacro,,Lorraine 1969-70
+1970-04-25,tt0062350,Il tempo degli avvoltoi,,Lorraine 1969-70
+1970-04-28,tt0059824,La città senza legge,,Lorraine 1969-70
+1970-05-02,tt0058343,La meravigliosa Angelica,,Lorraine 1969-70
+1970-05-05,tt0062713,I cannoni di San Sebastian,,Lorraine 1969-70
+1970-05-07,tt0057560,Le tre sfide di Tarzan,,Lorraine 1969-70
+1970-05-09,tt0063482,15 forche per un assassino,,Lorraine 1969-70
+1970-05-13,tt0063586,Sette volte sette,,Lorraine 1969-70
+1970-05-17,tt0058527,La rivolta dei sette,,Lorraine 1969-70
+1970-05-19,tt0057271,"Maciste, l'eroe più grande del mondo",,Lorraine 1969-70
+1970-05-22,tt0054267,Il pirata del diavolo,,Lorraine 1969-70
+1970-05-23,tt0062706,Bandidos,,Lorraine 1969-70
+1970-05-26,tt0056042,La guerra di Troia,,Lorraine 1969-70
+1970-06-07,tt0061819,L'indomabile Angelica,,Lorraine 1969-70
+1970-06-21,tt0049432,L'ultima caccia,,Lorraine 1969-70
+1970-07-05,tt0169817,Le due facce del dollaro,,Lorraine 1969-70
+1970-07-07,tt0064629,Quando l'alba si tinge di rosso,,Lorraine 1969-70
+1970-07-18,tt0054436,La vendetta dei barbari,,Lorraine 1969-70
+1970-07-24,tt0058152,Golia alla conquista di Bagdad,,Lorraine 1969-70
+1970-07-26,tt0055116,Maciste nella terra dei ciclopi,,Lorraine 1969-70
+1970-08-06,tt0060764,Eroe vagabondo,,Lorraine 1969-70
+1970-08-09,tt0059296,Sfida a Glory City,,Lorraine 1969-70
+1970-08-11,tt0046735,Avanzi di galera,,Lorraine 1969-70
+1970-08-15,tt0126263,Dio perdoni la mia pistola,,Lorraine 1969-70
+1970-08-16,tt0063060,Uomini d'amianto contro l'inferno,,Lorraine 1969-70
+1970-08-18,tt0056641,Ursus e la ragazza tartara,,Lorraine 1969-70
+1970-08-23,tt0059737,Mezzo dollaro d'argento,,Lorraine 1969-70
+1970-08-25,tt0055564,Ulisse contro Ercole,,Lorraine 1969-70
+1970-08-26,tt0063326,Gli amori di Angelica,,Lorraine 1969-70
+1970-08-30,tt1393838,Zorro il dominatore,,Lorraine 1969-70
+1970-09-01,tt0049989,L'ultimo ribelle,,Lorraine 1969-70
+1970-09-02,tt0061012,Le spie uccidono a Beirut,,Lorraine 1969-70
+1970-09-06,tt0045966,I cavalieri della tavola rotonda,,Lorraine 1969-70
+1970-09-08,tt0062235,La tredicesima vergine,,Lorraine 1969-70
+1970-09-10,tt0047517,Pionieri della California,,Lorraine 1969-70
+1970-09-15,tt0063270,L'uomo dall'occhio di vetro,,Lorraine 1969-70
+1970-09-22,tt0056124,Giuseppe venduto dai fratelli,,Lorraine 1969-70
+1970-09-24,tt0054722,Capitani di ventura,,Lorraine 1969-70
+1970-09-27,tt0064150,La sfida dei MacKenna,,Lorraine 1969-70
+1970-09-30,tt0060628,La Colt è la mia legge,,Lorraine 1969-70
+1970-10-04,tt0060563,Johnny Oro,,Lorraine 1969-70
+1970-10-06,tt0046421,Operazione commandos,,Lorraine 1969-70
+1970-10-07,tt0056872,Sinfonia di morte,,Lorraine 1969-70
+1970-10-08,tt0053610,Atlas il trionfatore di Atene,,Lorraine 1969-70
+1970-10-09,tt0056368,Sepolto vivo,,Lorraine 1969-70
+1970-10-11,tt0064853,La taglia è tua... l'uomo l'ammazzo io,,Lorraine 1969-70
+1970-10-15,tt0058995,I magnifici brutos del West,,Lorraine 1969-70
+1970-10-18,tt0060664,L'uomo che ride,,Lorraine 1969-70
+1970-10-20,tt0059852,L'uomo mascherato contro il corsaro nero,,Lorraine 1969-70
+1970-10-21,tt0063091,Il cavallo in doppio petto,,Lorraine 1969-70
+1970-10-23,tt0051487,La congiura dei Borgia,,Lorraine 1969-70
+1970-10-25,tt0065019,"Sono Sartana, il vostro becchino",,Lorraine 1969-70
+1970-10-27,tt0186396,Le notti dei Teddy Boys,,Lorraine 1969-70
+1970-11-10,tt0197806,Il ragazzo che sapeva amare,,Lorraine 1969-70
+1970-11-11,tt0061175,Una bara per Ringo,,Lorraine 1969-70
+1970-11-14,tt0055115,Maciste contro il vampiro,,Lorraine 1969-70
+1970-11-17,tt0065134,Gli avvoltoi hanno fame,,Lorraine 1969-70
+1970-11-18,tt0059950,Il giuramento di Zorro,,Lorraine 1969-70
+1970-11-20,tt0063240,La nebbia degli orrori,,Lorraine 1969-70
+1970-11-22,tt0066464,La legge della violenza (Tutti o nessuno),,Lorraine 1969-70
+1970-11-24,tt0060922,Una raffica di piombo,,Lorraine 1969-70
+1970-11-25,tt0048517,Il figliuol prodigo,,Lorraine 1969-70
+1970-11-29,tt0054331,Spartacus,,Lorraine 1969-70
+1970-12-01,tt0054924,Il gigante di Metropolis,,Lorraine 1969-70
+1970-12-02,tt0051985,Nel segno di Roma,,Lorraine 1969-70
+1970-12-04,tt0058689,Il trionfo di Ercole,,Lorraine 1969-70
+1970-12-08,tt0122398,"Il bello, il brutto, il cretino",,Lorraine 1969-70
+1970-12-09,tt0058651,Gli invincibili tre,,Lorraine 1969-70
+1970-12-10,tt0061981,Il mio corpo per un poker,,Lorraine 1969-70
+1970-12-11,tt0172903,Fermati Hassan... questa è la resa dei conti!,,Lorraine 1969-70
+1970-12-12,tt0065155,Uno di più all'inferno,,"Lorraine 1969-70, Lorraine 1970-71"
+1970-12-15,tt0198968,Realtà romanzesca,,Lorraine 1969-70
+1970-12-17,tt0063012,I giovani tigri,,Lorraine 1969-70
+1970-12-19,tt0055257,I due volti della vendetta,,"Lorraine 1969-70, Lorraine 1970-71"
+1970-12-22,tt0171038,...e venne il tempo di uccidere,,Lorraine 1969-70
+1970-12-23,tt0062107,Pecos è qui: prega e muori!,,Lorraine 1969-70
+1970-12-24,tt0063354,I nipoti di Zorro,,"Lorraine 1969-70, Lorraine 1970-71"
+1970-12-27,tt0057036,Ercole sfida Sansone,,"Lorraine 1969-70, Lorraine 1970-71"
+1970-12-29,tt0049408,Il re ed io,,"Lorraine 1969-70, Lorraine 1970-71"
+1970-12-30,tt0057038,L'eroe di Babilonia,,Lorraine 1969-70
+1970-12-31,tt0066334,Satiricosissimo,,"Lorraine 1969-70, Lorraine 1970-71"
+1971-01-03,tt0032779,Eldorado,,"Lorraine 1970-71, Lorraine 1969-70"
+1971-01-04,tt0178516,Goliath e la schiava ribelle,,Lorraine 1970-71
+1971-01-06,tt0156193,Zingara,,"Lorraine 1970-71, Lorraine 1969-70"
+1971-01-07,tt0059826,Tre dollari di piombo,,Lorraine 1970-71
+1971-01-08,tt0197946,Tentazione,,Lorraine 1970-71
+1971-01-10,tt0063811,Costretto ad uccidere,,"Lorraine 1970-71, Lorraine 1969-70"
+1971-01-12,tt0062904,Due croci a Danger Pass,,Lorraine 1970-71
+1971-01-13,tt0065962,Bruciatelo vivo!,,Lorraine 1970-71
+1971-01-14,tt0150180,Con lui cavalca la morte,,Lorraine 1970-71
+1971-01-15,tt0058936,Io non perdono... uccido,,Lorraine 1970-71
+1971-01-17,tt0052280,La tempesta,,"Lorraine 1970-71, Lorraine 1969-70"
+1971-01-19,tt0057142,La spada del Cid,,Lorraine 1970-71
+1971-01-20,tt0061541,"Ringo, il volto della vendetta",,Lorraine 1970-71
+1971-01-21,tt0058114,6 pallottole per Ringo Kid,,Lorraine 1970-71
+1971-01-22,tt0150414,2 mattacchioni al Moulin Rouge,,Lorraine 1970-71
+1971-01-24,tt0062761,Brutti di notte,,Lorraine 1970-71
+1971-01-26,tt0062630,A qualsiasi prezzo,,Lorraine 1970-71
+1971-01-28,tt0053861,I giganti della Tessaglia,,Lorraine 1970-71
+1971-01-29,tt0061189,I selvaggi,,Lorraine 1970-71
+1971-01-31,tt0061587,Navajo Joe,,"Lorraine 1970-71, Lorraine 1969-70"
+1971-02-02,tt0060351,2 once di piombo,,Lorraine 1970-71
+1971-02-04,tt0061419,Fbi contro gangsters,,Lorraine 1970-71
+1971-02-05,tt0065070,"Tarzana, sesso selvaggio",,Lorraine 1970-71
+1971-02-07,tt0062861,Diabolik,,"Lorraine 1970-71, Lorraine 1969-70"
+1971-02-10,tt0049880,I moschettieri del re,,Lorraine 1970-71
+1971-02-11,tt0059093,Deadwood '76,,Lorraine 1970-71
+1971-02-13,tt0064393,Il fango verde,,Lorraine 1970-71
+1971-02-14,tt0065247,Zorro alla corte d'Inghilterra,,Lorraine 1970-71
+1971-02-16,tt0063636,I 6 della grande rapina,,Lorraine 1970-71
+1971-02-19,tt0062411,Odissea sulla Terra,,Lorraine 1970-71
+1971-02-21,tt0066287,Adios Cjamango,,Lorraine 1970-71
+1971-02-23,tt0066093,Monty Walsh un uomo duro a morire,,Lorraine 1970-71
+1971-02-24,tt0044380,I figli dei moschettieri,,Lorraine 1970-71
+1971-02-25,tt0045888,La maschera di cera,,Lorraine 1970-71
+1971-02-28,tt0060416,Un fiume di dollari,,Lorraine 1970-71
+1971-03-07,tt0061805,Il teschio di Londra,,Lorraine 1970-71
+1971-03-09,tt0198876,Ora X - pattuglia suicida,,Lorraine 1970-71
+1971-03-10,tt0054503,Quanto sei bella Roma,,Lorraine 1970-71
+1971-03-11,tt0064785,Il settimo flagello,,Lorraine 1970-71
+1971-03-14,tt0057464,I tre spietati,,Lorraine 1970-71
+1971-03-17,tt0054678,I due nemici,,Lorraine 1970-71
+1971-03-19,tt0156329,La bambola di Satana,,Lorraine 1970-71
+1971-03-23,tt0050199,Gli amanti del Pacifico,,Lorraine 1970-71
+1971-03-25,tt0150180,Con lui cavalca la morte,,Lorraine 1970-71
+1971-03-26,tt0063364,"Non aspettare Django, spara",,Lorraine 1970-71
+1971-03-27,tt0062969,Il figlio di Aquila Nera,,Lorraine 1970-71
+1971-03-30,tt0186532,7 monaci d'oro,,Lorraine 1970-71
+1971-04-02,tt0066396,"Spara, Gringo, spara",,Lorraine 1970-71
+1971-04-04,tt0059152,Erik il vichingo,,Lorraine 1970-71
+1971-04-06,tt0060334,Mexico amore e sangue per un gringhero,,Lorraine 1970-71
+1971-04-07,tt0065422,Arizona si scatenò... e li fece fuori tutti!,,Lorraine 1970-71
+1971-04-16,tt0060475,Le grandi vacanze,,Lorraine 1970-71
+1971-04-20,tt0052123,La rivolta dei gladiatori,,Lorraine 1970-71
+1971-04-22,tt0063024,Il gorilla di Soho,,Lorraine 1970-71
+1971-04-23,tt0062865,L'ultimo colpo in canna,,Lorraine 1970-71
+1971-04-25,tt0060126,I conquistatori degli abissi,,Lorraine 1970-71
+1971-04-27,tt0045053,Il prigioniero di Zenda,,Lorraine 1970-71
+1971-04-28,tt0048528,L'arciere del re,,Lorraine 1970-71
+1971-04-30,tt0054422,Gli ultimi giorni di Pompei,,Lorraine 1970-71
+1971-05-01,tt0059037,Cincinnati Kid,,Lorraine 1970-71
+1971-05-06,tt0057848,I sette del Texas,,Lorraine 1970-71
+1971-05-11,tt0062975,L'ora della furia,,Lorraine 1970-71
+1971-05-14,tt0062056,La morbida pelle della dolce Susanna,,Lorraine 1970-71
+1971-05-16,tt0058917,I pistoleri maledetti,,Lorraine 1970-71
+1971-05-20,tt0056473,Le sette spade del vendicatore,,Lorraine 1970-71
+1971-05-23,tt0065083,Testa o croce,,Lorraine 1970-71
+1971-05-25,tt0065499,Buon funerale amigos!... paga Sartana,,Lorraine 1970-71
+1971-05-26,tt0054263,Saffo - Venere di Lesbo,,Lorraine 1970-71
+1971-05-28,tt0045494,I fratelli senza paura,,Lorraine 1970-71
+1971-05-30,tt0061449,Caroline chérie,,Lorraine 1970-71
+1971-06-01,tt0064603,Un maggiolino tutto matto,,Lorraine 1970-71
+1971-06-04,tt0048259,Il ladro del re,,Lorraine 1970-71
+1971-06-05,tt0065775,L'impossibilità di essere normale,,Lorraine 1970-71
+1971-06-06,tt0062114,Per 100.000 dollari t'ammazzo,,Lorraine 1970-71
+1971-06-16,tt0061053,Spade senza bandiera,,Lorraine 1970-71
+1971-06-18,tt0122779,La vendetta di Ursus,,Lorraine 1970-71
+1971-06-25,tt0061729,Femmina,,Lorraine 1970-71
+1971-06-26,tt0061598,I due figli di Ringo,,Lorraine 1970-71
+1971-06-28,tt0054284,Il tesoro dei barbari,,Lorraine 1970-71
+1971-07-01,tt0052257,Gli arditi del settimo fucilieri,,Lorraine 1970-71
+1971-07-04,tt0057720,Zorro e i tre moschettieri,,Lorraine 1970-71
+1971-07-06,tt0045072,L'autocolonna rossa,,Lorraine 1970-71
+1971-07-07,tt0043991,Sangue al sole,,Lorraine 1970-71
+1971-07-09,tt0056085,La conquista del West,,Lorraine 1970-71
+1971-07-11,tt0058651,Gli invincibili tre,,Lorraine 1970-71
+1971-07-13,tt0064227,Non uccidevano mai la domenica,,Lorraine 1970-71
+1971-07-14,tt0050717,Il terrore viene d'oltretomba,,Lorraine 1970-71
+1971-07-18,tt0060821,Per un dollaro di gloria,,Lorraine 1970-71
+1971-07-20,tt0058151,Alla conquista dell'Arkansas,,Lorraine 1970-71
+1971-07-21,tt0065025,La stella del Sud,,Lorraine 1970-71
+1971-07-25,tt0269443,Killer Kid,,Lorraine 1970-71
+1971-07-27,tt0053825,Stella di fuoco,,Lorraine 1970-71
+1971-07-28,tt0134747,Gli invincibili fratelli Maciste,,Lorraine 1970-71
+1971-08-01,tt0057706,I diavoli del gran prix,,Lorraine 1970-71
+1971-08-03,tt0060725,Quel nostro grande amore,,Lorraine 1970-71
+1971-08-08,tt0065361,Una su 13,,Lorraine 1970-71
+1971-08-11,tt0056724,Zorro alla corte di Spagna,,Lorraine 1970-71
+1971-08-15,tt0058942,Una bara per lo sceriffo,,Lorraine 1970-71
+1971-08-22,tt0064146,Il cervello,,Lorraine 1970-71
+1971-08-24,tt0061775,...E divenne il più spietato bandito del sud,,Lorraine 1970-71
+1971-08-26,tt0049094,La cortigiana di Babilonia,,Lorraine 1970-71
+1971-08-29,tt0067912,Un uomo chiamato Apocalisse Joe,,Lorraine 1970-71
+1971-09-01,tt0061081,Ringo il Texano,,Lorraine 1970-71
+1971-09-05,tt0216546,Arrivano Django e Sartana... è la fine,,Lorraine 1970-71
+1971-09-08,tt0064669,Mille peccati... nessuna virtù,,Lorraine 1970-71
+1971-09-09,tt0041147,I banditi della città fantasma,,Lorraine 1970-71
+1971-09-12,tt0064350,Fräulein Doktor,,Lorraine 1970-71
+1971-09-15,tt0044706,Mezzogiorno di fuoco,,Lorraine 1970-71
+1971-09-16,tt0050266,Il corsaro della mezza luna,,Lorraine 1970-71
+1971-09-17,tt0065143,L'uccello dalle piume di cristallo,,Lorraine 1970-71
+1971-09-19,tt0216399,Wanted Sabata,,Lorraine 1970-71
+1971-09-21,tt0057440,Queste pazze pazze donne,,Lorraine 1970-71
+1971-09-22,tt0058483,Il ponte dei sospiri,,Lorraine 1970-71
+1971-09-24,tt0059241,Una vampata di violenza,,Lorraine 1970-71
+1971-09-26,tt0059578,Per qualche dollaro in più,,Lorraine 1970-71
+1971-09-28,tt0061144,Gli uomini dal passo pesante,,Lorraine 1970-71
+1971-09-30,tt0049224,Spionaggio internazionale,,Lorraine 1970-71
+1971-10-03,tt0049301,Elena di Troia,,Lorraine 1970-71
+1971-10-06,tt0063246,Jim l'irresistibile detective,,Lorraine 1970-71
+1971-10-07,tt0044141,Totò e i re di Roma,,Lorraine 1970-71
+1971-10-10,tt0070781,Uccidi Django... uccidi per primo!!!,,Lorraine 1970-71
+1971-10-12,tt0150411,Due bianchi nell'Africa nera,,Lorraine 1970-71
+1971-10-13,tt0211711,Uccideva a freddo,,Lorraine 1970-71
+1971-10-15,tt0046153,Il territorio dei fuorilegge,,Lorraine 1970-71
+1971-10-17,tt0041179,La pista di fuoco,,Lorraine 1970-71
+1971-10-19,tt0065367,Sei già cadavere Amigo... ti cerca Garringo,,Lorraine 1970-71
+1971-10-20,tt0047136,Johnny Guitar,,Lorraine 1970-71
+1971-10-22,tt0049678,La risaia,,Lorraine 1970-71
+1971-10-24,tt0063761,Vendetta per vendetta,,Lorraine 1970-71
+1971-10-26,tt0063658,Le calde palme di rio,,Lorraine 1970-71
+1971-10-27,tt0063419,Passa Sartana... è l'ombra della tua morte,,Lorraine 1970-71
+1971-10-28,tt0055254,La carica dei cento e uno,,Lorraine 1970-71
+1971-10-29,tt0059543,2 gangsters ad est di Bora Bora,,Lorraine 1970-71
+1971-10-31,tt0062742,Due occhi di ghiaccio,,Lorraine 1970-71
+1971-11-01,tt0056507,Solo contro Roma,,Lorraine 1970-71
+1971-11-03,tt0144626,Il suo nome gridava vendetta,,Lorraine 1970-71
+1971-11-05,tt0045614,Cavalleria rusticana,,Lorraine 1970-71
+1971-11-07,tt0065126,Il Grinta,,Lorraine 1970-71
+1971-11-09,tt0159359,5 marines per 100 ragazze,,Lorraine 1970-71
+1971-11-12,tt0064193,Circolo vizioso,,Lorraine 1970-71
+1971-11-14,tt0208973,Una forca per un bastardo,,Lorraine 1970-71
+1971-11-16,tt0065460,La belva,,Lorraine 1970-71
+1971-11-17,tt0066333,Sartana nella valle degli avvoltoi,,Lorraine 1970-71
+1971-11-18,tt0063848,Gangster Love,,Lorraine 1970-71
+1971-11-21,tt0065079,Ucciderò Willie Kid,,Lorraine 1970-71
+1971-11-23,tt0062861,Diabolik,,Lorraine 1970-71
+1971-11-24,tt0056893,L'ombra di Zorro,,Lorraine 1970-71
+1971-11-26,tt0061404,Bill il taciturno,,Lorraine 1970-71
+1971-11-28,tt0063501,La resa dei conti,,Lorraine 1970-71
+1971-11-30,tt0063746,L'uomo venuto per uccidere,,Lorraine 1970-71
+1971-12-01,tt0060926,009 Joe Tempesta,,Lorraine 1970-71
+1971-12-02,tt0044188,L'uomo perduto,,Lorraine 1970-71
+1971-12-04,tt0062107,Pecos è qui: prega e muori!,,Lorraine 1970-71
+1971-12-05,tt0064069,Barbagia (La società del malessere),,Lorraine 1970-71
+1971-12-07,tt0058061,Ercole contro Roma,,Lorraine 1970-71
+1971-12-08,tt0064217,Ultima notte a Cottonwood,,Lorraine 1970-71
+1971-12-11,tt0059707,7 uomini d'oro,,Lorraine 1970-71
+1971-12-12,tt0063799,Una meravigliosa realtà,,Lorraine 1970-71
+1971-12-14,tt0151422,Ma che musica maestro,,Lorraine 1970-71
+1971-12-15,tt0201046,Un gettone per il patibolo,,Lorraine 1970-71
+1971-12-19,tt0062655,L'amante di Gramigna,,Lorraine 1970-71
+1971-12-21,tt0067022,I due maghi del pallone,,Lorraine 1970-71
+1971-12-22,tt0050356,Duello nell'Atlantico,,Lorraine 1970-71
+1971-12-24,tt0062799,Chimera,,Lorraine 1970-71
+1971-12-25,tt0066312,"Rosolino Paternò, soldato...",,Lorraine 1970-71
+1971-12-26,tt0060196,"Il buono, il brutto, il cattivo",,Lorraine 1970-71
+1971-12-28,tt0064576,In fondo al buio,,Lorraine 1970-71
+1971-12-29,tt0055562,L'astronave fantasma,,Lorraine 1970-71
+1972-01-02,tt0059760,Uno straniero a Sacramento,35000,Calendario 1972
+1972-01-04,tt0062925,La battaglia del talismano verde,2600,Calendario 1972
+1972-01-06,tt0159150,Zum zum zum,62000,Calendario 1972
+1972-01-09,tt0064782,La ballata della città senza nome,3800,Calendario 1972
+1972-01-11,tt0065246,Zorro marchese di Navarra,10500,Calendario 1972
+1972-01-12,tt0066039,La mano,2000,Calendario 1972
+1972-01-15,tt0059038,5 dollari per Ringo,36000,Calendario 1972
+1972-01-20,tt0067511,Gli occhi freddi della paura,7000,Calendario 1972
+1972-01-21,tt0057086,La furia dei barbari,9500,Calendario 1972
+1972-01-23,tt0056226,"Marte, dio della guerra",40000,Calendario 1972
+1972-01-25,tt0052318,Peccatori in blue jeans,4000,Calendario 1972
+1972-01-26,tt0066384,Tropis - Uomo o scimmia?,2000,Calendario 1972
+1972-01-28,tt0058983,Il boia scarlatto,6000,Calendario 1972
+1972-01-30,tt0065032,La notte dell'agguato,34000,Calendario 1972
+1972-02-01,tt0061438,Calibro 38,7000,Calendario 1972
+1972-02-02,tt0065153,Una vedova tutta d'oro,3000,Calendario 1972
+1972-02-04,tt0061429,Quién sabe?,6000,Calendario 1972
+1972-02-06,tt0059578,Per qualche dollaro in più,49500,Calendario 1972
+1972-02-09,tt0065071,"Zan, re della giungla",2000,Calendario 1972
+1972-02-13,tt0062914,I 2 pompieri,23000,Calendario 1972
+1972-02-15,tt0063484,Ti darò un posto all'inferno,7000,Calendario 1972
+1972-02-16,tt0122779,La vendetta di Ursus,10000,Calendario 1972
+1972-02-18,tt0065905,Il castello dalle porte di fuoco,21000,Calendario 1972
+1972-02-20,tt0216546,Arrivano Django e Sartana... è la fine,36000,Calendario 1972
+1972-02-23,tt0065640,Il dio serpente,7500,Calendario 1972
+1972-02-24,tt0197790,Questo sporco mondo meraviglioso,2000,Calendario 1972
+1972-02-27,tt0161397,Un caso di coscienza,34000,Calendario 1972
+1972-03-01,tt0058311,Maciste e la regina di Samar,7000,Calendario 1972
+1972-03-02,tt0062976,5 marines per Singapore,1500,Calendario 1972
+1972-03-05,tt0058709,Là dove scende il sole,45000,Calendario 1972
+1972-03-07,tt0061776,Un uomo e una colt,6000,Calendario 1972
+1972-03-10,tt0063249,Lucrezia,5000,Calendario 1972
+1972-03-16,tt0891576,I disperati di Cuba,900,Calendario 1972
+1972-03-17,tt0028345,La fuga di Tarzan,5500,Calendario 1972
+1972-03-19,tt0215321,Vendo cara la pelle,38000,Calendario 1972
+1972-03-21,tt0057629,Ursus gladiatore ribelle,7000,Calendario 1972
+1972-03-24,tt0055182,La congiura dei potenti,2700,Calendario 1972
+1972-03-26,tt0059538,Surehand (Mano veloce),37000,Calendario 1972
+1972-03-28,tt0062311,Straniero... fatti il segno della croce!,6000,Calendario 1972
+1972-03-29,tt0056358,Ponzio Pilato,,Calendario 1972
+1972-04-02,tt0139554,Il ragazzo che sorride,60000,Calendario 1972
+1972-04-05,tt0060965,7 magnifiche pistole,4000,Calendario 1972
+1972-04-07,tt0065060,T'ammazzo!... Raccomandati a Dio,4000,Calendario 1972
+1972-04-11,tt0200096,Se vuoi vivere... spara!,7000,Calendario 1972
+1972-04-14,tt0065515,Il cadavere dagli artigli d'acciaio,6000,Calendario 1972
+1972-04-16,tt0038967,L'erede di Robin Hood,30000,Calendario 1972
+1972-04-19,tt0058165,Sfida nella valle dei Comanche,6000,Calendario 1972
+1972-04-23,tt0057604,I tre implacabili,26500,Calendario 1972
+1972-04-30,tt0058114,6 pallottole per Ringo Kid,26000,Calendario 1972
+1972-05-05,tt0066502,L'uomo venuto da Chicago,4000,Calendario 1972
+1972-05-07,tt0064186,Così dolce... così perversa,25000,Calendario 1972
+1972-05-10,tt0056902,Il capitano di ferro,2100,Calendario 1972
+1972-05-11,tt0064030,Anna dei mille giorni,26000,Calendario 1972
+1972-05-13,tt0058543,Sansone e il tesoro degli Incas,34000,Calendario 1972
+1972-05-17,tt0058858,Colpo grosso a Manila,700,Calendario 1972
+1972-05-19,tt0060697,1000 dollari sul nero,7000,Calendario 1972
+1972-05-21,tt0062064,L'odio è il mio Dio,22500,Calendario 1972
+1972-05-23,tt0064727,Il trono di fuoco,2500,Calendario 1972
+1972-05-30,tt0047490,Il re dei barbari,1000,Calendario 1972
+1972-06-01,tt0066271,Quelli belli... siamo noi,15000,Calendario 1972
+1972-06-03,tt0065496,"Brucia ragazzo, brucia",17000,Calendario 1972
+1972-06-08,tt0062629,A Ghentar si muore facile,1000,Calendario 1972
+1972-06-12,tt0063846,Zorro il cavaliere della vendetta,25000,Calendario 1972
+1972-06-13,tt0060978,7 dollari sul rosso,1000,Calendario 1972
+1972-06-15,tt0063813,Voltati... ti uccido!,45000,Calendario 1972
+1972-06-16,tt0057268,Maciste all'inferno,600,Calendario 1972
+1972-06-18,tt0157361,"Bastardo, vamos a matar",18000,Calendario 1972
+1972-06-20,tt0063191,"Dio me l'ha data, guai a chi la tocca",2500,Calendario 1972
+1972-06-22,tt0057484,Il segno di Zorro,5000,Calendario 1972
+1972-06-25,tt0064818,Uno straniero a Paso Bravo,18000,Calendario 1972
+1972-06-28,tt0059618,"Django, killer per onore",600,Calendario 1972
+1972-07-02,tt0059852,L'uomo mascherato contro il corsaro nero,20000,Calendario 1972
+1972-07-04,tt0056867,Vento infuocato del Texas,2000,Calendario 1972
+1972-07-09,tt0047188,Una pistola che canta,16000,Calendario 1972
+1972-07-11,tt0063528,Requiem per un gringo,1600,Calendario 1972
+1972-07-12,tt0145020,"Karzan, il favoloso uomo della jungla",5000,Calendario 1972
+1972-07-14,tt0067727,Terrore cieco,25000,Calendario 1972
+1972-07-16,tt0058689,Il trionfo di Ercole,24000,Calendario 1972
+1972-07-17,tt0064031,Don Franco e Don Ciccio nell'anno della contestazione,6000,Calendario 1972
+1972-07-20,tt0198859,O tutto o niente,,Calendario 1972
+1972-07-23,tt0050921,Il colosso di Bagdad,30000,Calendario 1972
+1972-07-25,tt0183449,Maciste contro i Mongoli,5000,Calendario 1972
+1972-07-26,tt0182379,Una questione d'onore,3000,Calendario 1972
+1972-07-28,tt0066064,Uomini e filo spinato,1800,Calendario 1972
+1972-07-30,tt0271489,Ercole l'invincibile,34000,Calendario 1972
+1972-08-01,tt0053346,Il terrore dei barbari,5000,Calendario 1972
+1972-08-02,tt0062429,Vado... l'ammazzo e torno,4500,Calendario 1972
+1972-08-04,tt0067128,Carter,3000,Calendario 1972
+1972-08-06,tt0059121,I due toreri,44500,Calendario 1972
+1972-08-08,tt0060084,Pochi dollari per Django,6000,Calendario 1972
+1972-08-09,tt0060978,7 dollari sul rosso,1500,Calendario 1972
+1972-08-20,tt0235608,Batwoman - L'invincibile superdonna,41000,Calendario 1972
+1972-08-27,tt0050381,Le fatiche di Ercole,45000,Calendario 1972
+1972-08-29,tt0153552,"Vino, whisky e acqua salata",7000,Calendario 1972
+1972-08-30,tt0144626,Il suo nome gridava vendetta,7000,Calendario 1972
+1972-08-31,tt0058938,Le bambole,8000,Calendario 1972
+1972-09-01,tt0146365,Le francesi si confessano,3000,Calendario 1972
+1972-09-03,tt0063724,Le dolcezze del peccato,26000,Calendario 1972
+1972-09-05,tt0061487,El Cisco,9000,Calendario 1972
+1972-09-06,tt0068323,Non predicare... spara!,7000,Calendario 1972
+1972-09-07,tt0045992,Il diario di un condannato (Sotto il Sole Rovente),5000,Calendario 1972
+1972-09-10,tt0056439,Salambò,39000,Calendario 1972
+1972-09-12,tt0073708,Ti pagherò col piombo,15000,Calendario 1972
+1972-09-13,tt0165688,Cjamango,7000,Calendario 1972
+1972-09-17,tt0065248,Zorro la maschera della vendetta,40000,Calendario 1972
+1972-09-19,tt0056451,Lo sceicco rosso,5000,Calendario 1972
+1972-09-27,tt0175634,Il furto è l'anima del commercio!?...,7000,Calendario 1972
+1972-09-28,tt0065642,"Dingus, quello sporco individuo",46000,Calendario 1972
+1972-10-01,tt0066764,Anche per Django le carogne hanno un prezzo,34000,Calendario 1972
+1972-10-04,tt0182892,La gatta giapponese,6000,Calendario 1972
+1972-10-05,tt0053345,Il terrore della maschera rossa,5000,Calendario 1972
+1972-10-08,tt0057197,Gli Argonauti,35000,Calendario 1972
+1972-10-10,tt0054416,Il mostro di Londra,7000,Calendario 1972
+1972-10-11,tt0053045,Imputazione omicidio,4000,Calendario 1972
+1972-10-12,tt0043678,L'uomo di ferro,2000,Calendario 1972
+1972-10-13,tt0062310,Lo straniero,5000,Calendario 1972
+1972-10-15,tt0057500,L'avventuriero di re Artù,29000,Calendario 1972
+1972-10-17,tt0066834,Criniera selvaggia,4000,Calendario 1972
+1972-10-18,tt0064205,Come rubare un quintale di diamanti in Russia,2000,Calendario 1972
+1972-10-26,tt0059024,Ossessione nuda,3000,Calendario 1972
+1972-10-27,tt0185891,Assalto al tesoro di stato,5500,Calendario 1972
+1972-10-28,tt0069962,Vamos a matar Sartana,28000,Calendario 1972
+1972-11-01,tt0053351,Cordura,16000,Calendario 1972
+1972-11-03,tt0064303,La ragazza condannata al piacere,7000,Calendario 1972
+1972-11-05,tt0045966,I cavalieri della tavola rotonda,20000,Calendario 1972
+1972-11-07,tt0064662,La spietata legge del ribelle,4000,Calendario 1972
+1972-11-09,tt0195133,Per un dollaro a Tucson si muore,4000,Calendario 1972
+1972-11-12,tt0054263,Saffo - Venere di Lesbo,5000,Calendario 1972
+1972-11-14,tt0051114,La vera storia di Jess il bandito,2000,Calendario 1972
+1972-11-17,tt0065571,Il conformista,3000,Calendario 1972
+1972-11-19,tt0059958,Danza di guerra per Ringo,26000,Calendario 1972
+1972-11-21,tt0056652,Zorro il vendicatore,4000,Calendario 1972
+1972-11-22,tt0057105,"Giulio Cesare, il conquistatore delle Gallie",3000,Calendario 1972
+1972-11-24,tt0057402,Le calde notti di Parigi,9000,Calendario 1972
+1972-11-26,tt0063568,Se incontri Sartana prega per la tua morte,23000,Calendario 1972
+1972-12-09,tt0066011,Love Story,92000,Calendario 1972
+1972-12-12,tt0057270,Maciste contro i mostri,10000,Calendario 1972
+1972-12-13,tt0159819,Veneri al sole,7000,Calendario 1972
+1972-12-15,tt0066001,Lo specchio delle spie,3000,Calendario 1972
+1972-12-17,tt0057259,Le lunghe navi,27500,Calendario 1972
+1972-12-23,tt0065486,Borsalino,30000,Calendario 1972
+1972-12-25,tt0066829,Bianco rosso e...,90000,Calendario 1972
+1972-12-28,tt0073708,Ti pagherò col piombo,,Calendario 1972
+1972-12-29,tt0054850,Ercole al centro della Terra,12000,Calendario 1972
+1972-12-31,tt0065900,Io non scappo... fuggo,36000,Calendario 1972
+1973-01-01,tt0056172,Lawrence d'Arabia,,Calendario 1972
+1973-01-04,tt0052670,Capitan Fuoco,9000,Calendario 1973
+1973-01-06,tt0056172,Lawrence d'Arabia,42000,Calendario 1973
+1973-01-07,tt0053128,Le notti di Lucrezia Borgia,28000,Calendario 1973
+1973-01-09,tt0061593,"Ringo, il cavaliere solitario",11000,Calendario 1973
+1973-01-12,tt0058632,I 4 volti della vendetta,9000,Calendario 1973
+1973-01-14,tt0046789,Lo scudo dei Falworth,45000,"Calendario 1972, Calendario 1973"
+1973-01-16,tt0064979,7 giorni di terrore,4000,Calendario 1973
+1973-01-21,tt0139222,I fratelli Corsi,42000,"Calendario 1972, Calendario 1973"
+1973-01-23,tt0057038,L'eroe di Babilonia,6500,Calendario 1973
+1973-01-24,tt0052123,La rivolta dei gladiatori,8000,Calendario 1973
+1973-01-25,tt0061404,Bill il taciturno,5000,Calendario 1973
+1973-01-28,tt0057908,Cadavere per signora,,Calendario 1972
+1973-01-30,tt0062763,Buckaroo (Il winchester che non perdona),6000,Calendario 1973
+1973-01-31,tt0063728,Vortice di sabbia,2000,Calendario 1973
+1973-02-01,tt0055885,Il tiranno di Siracusa,10000,Calendario 1973
+1973-02-04,tt0059219,Gengis Khan il conquistatore,36000,Calendario 1973
+1973-02-07,tt0057470,Sansone contro i pirati,9000,Calendario 1973
+1973-02-08,tt0060315,Django,11000,Calendario 1973
+1973-02-09,tt0185465,Maschi e femmine,7000,Calendario 1973
+1973-02-11,tt0043052,Indianapolis,24000,Calendario 1973
+1973-02-13,tt0043746,Artiglio insaguinato,11500,Calendario 1973
+1973-02-16,tt0065698,Omicidio al 17 piano,4000,Calendario 1973
+1973-02-22,tt0067260,7 cadaveri per Scotland Yard,4500,Calendario 1973
+1973-02-24,tt0068347,Gli scassinatori,,Calendario 1973
+1973-02-25,tt0152074,Principe coronato cercasi per ricca ereditiera,40000,Calendario 1973
+1973-03-06,tt0055548,La vendetta dei moschettieri,6500,Calendario 1973
+1973-03-08,tt0057270,Maciste contro i mostri,10000,Calendario 1973
+1973-03-09,tt0154469,Vado in guerra a far quattrini,2000,Calendario 1973
+1973-03-11,tt0067932,Venga a prendere il caffè... da noi,30000,Calendario 1973
+1973-03-13,tt0065070,"Tarzana, sesso selvaggio",6000,Calendario 1973
+1973-03-16,tt0059804,Jessy non perdona... uccide,3600,Calendario 1973
+1973-03-18,tt0058262,Contratto per uccidere,20000,Calendario 1973
+1973-03-19,tt0063308,"Un minuto per pregare, un istante per morire",36000,Calendario 1973
+1973-03-21,tt0062904,Due croci a Danger Pass,3000,Calendario 1973
+1973-03-27,tt0063747,"Un uomo, un cavallo, una pistola",4000,Calendario 1973
+1973-03-29,tt0203865,Sedia elettrica,4000,Calendario 1973
+1973-04-01,tt0061563,El desperado,32000,Calendario 1973
+1973-04-03,tt0064611,Una lunga fila di croci,700,Calendario 1973
+1973-04-04,tt0061014,Le spie vengono dal semifreddo,3000,Calendario 1973
+1973-04-11,tt0061411,Il mostro di sangue,1600,Calendario 1973
+1973-04-15,tt0066268,Quando le donne avevano la coda,32000,Calendario 1973
+1973-04-22,tt0066984,La spina dorsale del diavolo,54000,Calendario 1973
+1973-05-04,tt0063123,Il giovane selvaggio,2000,Calendario 1973
+1973-05-05,tt0183428,Luana la figlia delle foresta vergine,3000,Calendario 1973
+1973-05-06,tt0067531,Uno spaccone chiamato Hark,16000,Calendario 1973
+1973-05-11,tt0054924,Il gigante di Metropolis,2000,Calendario 1973
+1973-05-15,tt0067750,Il solitario di Rio Grande,1000,Calendario 1973
+1973-05-17,tt0049094,La cortigiana di Babilonia,4600,Calendario 1973
+1973-05-22,tt0060923,7 pistole per El Gringo,2000,Calendario 1973
+1973-05-23,tt0055627,Il leggendario X 15,1000,Calendario 1973
+1973-05-25,tt0049723,Le schiave di Cartagine,,Calendario 1973
+1973-05-27,tt0054422,Gli ultimi giorni di Pompei,29000,Calendario 1973
+1973-05-29,tt0065511,Quattro sporchi bastardi,44000,Calendario 1973
+1973-06-05,tt0054788,David e Golia,4800,Calendario 1973
+1973-06-10,tt0060339,Django cacciatore di taglie,30000,Calendario 1973
+1973-06-17,tt0055578,Ursus nella valle dei leoni,35000,Calendario 1973
+1973-06-21,tt0063763,I vigliacchi non pregano,24000,Calendario 1973
+1973-06-24,tt0144626,Il suo nome gridava vendetta,27000,Calendario 1973
+1973-06-26,tt0061012,Le spie uccidono a Beirut,,Calendario 1973
+1973-07-01,tt0057628,Ursus nella terra di fuoco,28000,Calendario 1973
+1973-07-03,tt0061144,Gli uomini dal passo pesante,600,Calendario 1973
+1973-07-05,tt0056027,Il gladiatore invincibile,2000,Calendario 1973
+1973-07-12,tt0067846,Una Venere senza nome per l'ispettore Forrester,,Calendario 1973
+1973-07-15,tt0056206,Maciste contro lo sceicco,29000,Calendario 1973
+1973-07-17,tt0067142,Gli fumavano le Colt... lo chiamavano Camposanto,,Calendario 1973
+1973-07-20,tt0065491,La tortura delle vergini,2000,Calendario 1973
+1973-07-22,tt0065555,Città violenta,21500,Calendario 1973
+1973-07-24,tt0059089,La calda pelle,1500,Calendario 1973
+1973-07-29,tt0055115,Maciste contro il vampiro,22500,Calendario 1973
+1973-07-31,tt0035438,Sparvieri di fuoco,4000,Calendario 1973
+1973-08-04,tt0157936,Lola Colt,21000,Calendario 1973
+1973-08-08,tt0066949,Il corsaro,5000,Calendario 1973
+1973-08-09,tt0049910,I vagabondi delle stelle,2000,Calendario 1973
+1973-08-12,tt0063754,"I tre che sconvolsero il West (Vado, vedo e sparo)",30000,Calendario 1973
+1973-08-14,tt0065134,Gli avvoltoi hanno fame,41000,Calendario 1973
+1973-08-19,tt0058605,Gli invincibili dieci gladiatori,46000,Calendario 1973
+1973-08-21,tt0058185,Lo sparviero dei Caraibi,6000,Calendario 1973
+1973-08-26,tt0062714,La battaglia di El Alamein,30000,Calendario 1973
+1973-08-29,tt0054436,La vendetta dei barbari,5000,Calendario 1973
+1973-09-02,tt0058688,Il trionfo dei dieci gladiatori,42500,Calendario 1973
+1973-09-04,tt0059364,12 donne d'oro,9000,Calendario 1973
+1973-09-05,tt0067411,I compari,7500,Calendario 1973
+1973-09-07,tt0070841,Il tuo piacere è il mio,13000,Calendario 1973
+1973-09-08,tt0069343,La tarantola dal ventre nero,30000,Calendario 1973
+1973-09-11,tt0150189,Continuavano a chiamarli i due piloti più matti del mondo,9400,Calendario 1973
+1973-09-13,tt0236132,Un soffio di piacere,11000,Calendario 1973
+1973-09-15,tt0068026,Tempo d'amore,5000,Calendario 1973
+1973-09-16,tt0041947,Tarzan e la fontana magica,42000,Calendario 1973
+1973-09-18,tt0067822,Sapore di donna,3000,Calendario 1973
+1973-09-19,tt0047517,Pionieri della California,4500,Calendario 1973
+1973-09-21,tt0068184,Al di là dell'odio,10000,Calendario 1973
+1973-09-23,tt0064737,Quel maledetto ponte sull'Elba,35500,Calendario 1973
+1973-09-26,tt0235608,Batwoman - L'invincibile superdonna,15000,Calendario 1973
+1973-09-28,tt0069463,La violenza: Quinto potere,6000,Calendario 1973
+1973-09-30,tt0150414,2 mattacchioni al Moulin Rouge,42000,Calendario 1973
+1973-10-02,tt0344192,La pelle a scacchi (Il distacco),1000,Calendario 1973
+1973-10-03,tt0071926,Novelle licenziose di vergini vogliose,6000,Calendario 1973
+1973-10-07,tt0065374,L'ultimo avventuriero,33000,Calendario 1973
+1973-10-09,tt0057464,I tre spietati,7000,Calendario 1973
+1973-10-11,tt0065556,La città degli acquanauti,5400,Calendario 1973
+1973-10-12,tt0065168,La vampira nuda,10000,Calendario 1973
+1973-10-14,tt0051057,Tarzan e il safari perduto,38000,Calendario 1973
+1973-10-16,tt0122195,L'ultimo zar,1400,Calendario 1973
+1973-10-17,tt0068409,I diamanti sono pericolosi,3000,Calendario 1973
+1973-10-19,tt0068581,La femme en bleu,1600,Calendario 1973
+1973-10-21,tt0065112,Topaz,35000,Calendario 1973
+1973-10-23,tt0065819,La morte viene dal passato,4000,Calendario 1973
+1973-10-24,tt0068484,Il diavolo nel cervello,2500,Calendario 1973
+1973-10-28,tt0061541,"Ringo, il volto della vendetta",42000,Calendario 1973
+1973-10-30,tt0055717,Una vergine per il bandito,4500,Calendario 1973
+1973-10-31,tt0064670,Peccatrici di provincia,8000,Calendario 1973
+1973-11-01,tt0066090,I cospiratori,15000,Calendario 1973
+1973-11-06,tt0068931,Professione: assassino,6000,Calendario 1973
+1973-11-07,tt0060068,7 pistole per un massacro,3000,Calendario 1973
+1973-11-09,tt0061448,Carmen Baby,7000,Calendario 1973
+1973-11-11,tt0122597,Maciste contro Ercole nella valle dei guai,55000,Calendario 1973
+1973-11-12,tt0153554,Violentata sulla sabbia,4000,Calendario 1973
+1973-11-20,tt0139288,L'orgia del vampiro,5000,Calendario 1973
+1973-11-21,tt0059152,Erik il vichingo,1000,Calendario 1973
+1973-11-23,tt0230639,La ragazza di Pigalle,5000,Calendario 1973
+1973-11-25,tt0066819,La notte brava del soldato Jonathan,36000,Calendario 1973
+1973-11-27,tt0074195,Le amanti proibite del Dr. Sex,5000,Calendario 1973
+1973-11-30,tt0069336,L'isola delle salamandre,7000,Calendario 1973
+1973-12-02,tt0045220,La furia di Tarzan,34000,Calendario 1973
+1973-12-04,tt0059844,Resa dei conti per un pezzo da 90,4000,Calendario 1973
+1973-12-06,tt0065063,Prendi i soldi e scappa,3000,Calendario 1973
+1973-12-08,tt0067750,Il solitario di Rio Grande,42000,Calendario 1973
+1973-12-09,tt0150411,Due bianchi nell'Africa nera,33000,Calendario 1973
+1973-12-12,tt0070055,Le favolose notti d'oriente,2000,Calendario 1973
+1973-12-13,tt0069920,I corpi presentano tracce di violenza carnale,4000,Calendario 1973
+1973-12-14,tt0067052,Champagne per due dopo il funerale,5000,Calendario 1973
+1973-12-18,tt0068768,Joe Kidd,5500,Calendario 1973
+1973-12-19,tt0068723,Alleluja e Sartana figli di... Dio,11000,Calendario 1973
+1973-12-21,tt0069121,Arma da taglio,5000,Calendario 1973
+1973-12-30,tt0068515,Jesse & Lester - Due fratelli in un posto chiamato Trinità,51000,Calendario 1973
