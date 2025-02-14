@@ -56,4 +56,3 @@ privacy:
 assetDir: static
 build:
   timeout: 60000
-
