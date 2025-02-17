@@ -10,7 +10,7 @@
 <ul class="image-gallery">
 {{ range (readDir (print "/static" $dir)) }}
   {{- $image := resources.Get (printf "%s/%s" $dir .Name) -}}
-  {{- $image2 := $image.Fit "800x600" | images.Quality 85 }}
+  {{- $image2 := $image.Fit "800x600" | images.Quality 85 -}}
   {{- $imageurl := printf "%s/%s" $dir .Name -}}
   {{- $imagetitle := index (split .Name ".") 0 -}}
     <li>
