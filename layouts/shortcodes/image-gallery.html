@@ -10,11 +10,12 @@
 <ul class="image-gallery">
 {{ range (readDir (print "/static" $dir)) }}
   {{- $image := resources.Get (printf "%s/%s" $dir .Name) -}}
+  {{- $image2 := $image.Fit "800x600" | images.Quality 85 }}
   {{- $imageurl := printf "%s/%s" $dir .Name -}}
   {{- $imagetitle := index (split .Name ".") 0 -}}
     <li>
-      <a href="{{ ($image.Fit "800x600 q50").Permalink }}" title="{{ $imagetitle }}" class="lightbox-image">
-        <img src="{{ ($image.Fill "300x300 q50").Permalink }}" alt="{{ $imagetitle }}" title="{{ $imagetitle }}">
+      <a href="{{ ($image2.Fit "800x600 q50").Permalink }}" title="{{ $imagetitle }}" class="lightbox-image">
+        <img src="{{ ($image2.Fill "300x300 q50").Permalink }}" alt="{{ $imagetitle }}" title="{{ $imagetitle }}">
       </a>
     </li>
   
