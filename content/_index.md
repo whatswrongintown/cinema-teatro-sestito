@@ -11,8 +11,8 @@ Unisciti per celebrare la magia del cinema e il lascito di [Vito Sestito](/2023/
 
 Prima volta qui? esplora le varie sezioni:
 * [Articoli](/post/)
-* [Agende cinematografiche](/agende/)
 * [Documenti storici](/documents/)
+* [Programmazione cinematografiche](/agende/)
 
 Non hai trovato quello che cerchi?  
 Vuoi condividere il tuo ricordo del cinema di San Vito?  
