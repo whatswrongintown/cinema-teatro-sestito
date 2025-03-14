@@ -31,5 +31,3 @@ Se si desidera contribuire a questo sito web, è possibile fare un fork della re
 ## Licenza
 
 Questo sito web è concesso in licenza con la licenza MIT. Consultare il file `LICENSE` per ulteriori informazioni.
-
-Speriamo che vi divertiate ad esplorare la storia del cinema storico di San Vito sullo Ionio!
