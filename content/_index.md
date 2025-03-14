@@ -15,5 +15,5 @@ Prima volta qui? esplora le varie sezioni:
 * [Documenti storici](/documents/)
 
 Non hai trovato quello che cerchi?  
-Vuoi condividere il tuo ricordo del cinema di san Vito?  
+Vuoi condividere il tuo ricordo del cinema di San Vito?  
 Non esitare a [contattarmi](mailto:whatswrongintown@gmail.com)!
