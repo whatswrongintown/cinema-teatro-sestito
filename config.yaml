@@ -21,7 +21,7 @@ params:
   MathJaxCDN: //cdnjs.cloudflare.com/ajax/libs
   MathJaxVersion: 2.7.5
   description: Un sito web dedicato al Cinema Teatro Sestito, scopri la storia affascinante dell'iconico cinema di San Vito sullo Ionio, Italia. Dalle sue origini alla chiusura, esplora i film, le storie e i ricordi che hanno reso il Cinema una cara istituzione culturale del paese. Il nostro sito web offre una ricca collezione di foto e aneddoti, oltre a informazioni sulla nostra associazione culturale e sugli eventi in programma. Unisciti a noi per celebrare la magia del cinema e il lascito di Vito Sestito, il visionario fondatore di questa gemma cinematografica.
-  favicon: images/favicon.ico
+  favicon: images/favicon.png
   highlightjsCDN: //cdnjs.cloudflare.com/ajax/libs
   highlightjsLang:
     - r
