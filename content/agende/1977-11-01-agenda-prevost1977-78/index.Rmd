@@ -1,0 +1,36 @@
+---
+title: Agenda Prevost1977-78
+author: Vito Sestito
+date: '1977-11-01'
+slug: agenda-prevost1977-78
+categories:
+  - Agende
+  - Proiezioni
+tags:
+  - AgendaCinematografica
+  - Database
+---
+{{< image-gallery gallery_dir="/images/1977_11_01_prevost_1977_78" >}}
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(tidyverse)
+
+agende <- read_csv("C:/Users/eurhope/Documents/R/cinema-teatro-sestito/static/data/programmazione_agende.csv") %>%
+          select(const, date, title, source)
+
+imdb <- read_csv("C:/Users/eurhope/Documents/R/cinema-teatro-sestito/static/data/programmazione_imdb.csv") %>%
+          select(const = Const, year = Year, directors = Directors, genres = Genres, imdb_rating = `IMDb Rating`, runtime = `Runtime (mins)`, url = URL)
+
+prevost_1977_78 <- agende %>%
+          filter(str_detect(source, "Prevost 1977-78")) %>%
+          left_join(imdb, by = "const")
+```
+### Lista film
+```{r echo=FALSE}
+prevost_1977_78 %>%
+          arrange(date) %>%
+  mutate(title = paste0("[",title,"]","(",url,")")) %>%
+          select(date, title) %>%
+          knitr::kable(col.names = c("Data di proiezione", "Titolo"), align = c("l", "l", "l"))
+```
