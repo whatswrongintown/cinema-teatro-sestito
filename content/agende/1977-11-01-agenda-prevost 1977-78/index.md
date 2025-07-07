@@ -1,8 +1,8 @@
 ---
-title: Agenda Prevost1977-78
+title: Agenda Prevost 1977-78
 author: Vito Sestito
 date: '1977-11-01'
-slug: agenda-prevost1977-78
+slug: agenda-prevost-1977-78
 categories:
   - Agende
   - Proiezioni
