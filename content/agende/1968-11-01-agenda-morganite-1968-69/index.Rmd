@@ -5,13 +5,11 @@ date: '1968-11-01'
 slug: agenda-morganite-1968-69
 categories:
   - Agende
-  - Calendario
-  - Proiezioni
 tags:
-  - AgendaCinematografica
   - Database
+  - Proiezioni
 ---
-{{< image-gallery gallery_dir="/images/1968_11_01_morganite_1968_69" >}}
+{{< image-gallery gallery_dir="/images/1968_11_01_morganite_1968_69" >}} 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 
