@@ -5,10 +5,9 @@ date: '1981-01-01'
 slug: calendario-proiezioni-1981
 categories:
   - Calendario
-  - Proiezioni
 tags:
-  - AgendaCinematografica
   - Database
+  - Proiezioni
 ---
 {{< image-gallery gallery_dir="/images/1981_01_01_calendario_proiezioni" >}}
 ```{r setup, include=FALSE}
