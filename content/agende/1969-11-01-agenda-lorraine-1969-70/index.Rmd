@@ -5,11 +5,9 @@ date: '1969-11-01'
 slug: agenda-lorraine-1969-70
 categories:
   - Agende
-  - Calendario
-  - Proiezioni
 tags:
-  - AgendaCinematografica
   - Database
+  - Proiezioni
 ---
 {{< image-gallery gallery_dir="/images/1969_11_01_lorraine_1969_70" >}}
 ```{r setup, include=FALSE}
