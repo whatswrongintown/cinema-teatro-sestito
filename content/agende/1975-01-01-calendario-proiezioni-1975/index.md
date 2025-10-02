@@ -5,10 +5,9 @@ date: '1975-01-01'
 slug: calendario-proiezioni-1975
 categories:
   - Calendario
-  - Proiezioni
 tags:
-  - AgendaCinematografica
   - Database
+  - Proiezioni
 ---
 {{< image-gallery gallery_dir="/images/1975_01_01_calendario_proiezioni" >}}
 
@@ -34,7 +33,7 @@ tags:
 |1975-02-02         |[Il massacratore cinese](https://www.imdb.com/title/tt0186112/)|
 |1975-02-06         |[Storie scellerate](https://www.imdb.com/title/tt0205430/)|
 |1975-02-07         |[Un apprezzato professionista di sicuro avvenire](https://www.imdb.com/title/tt0066778/)|
-|1975-02-09         |[Killer Kid](https://www.imdb.com/title/tt0269443/)     |
+|1975-02-09         |[Sparate a vista su Killer Kid](https://www.imdb.com/title/tt0059134/)|
 |1975-02-11         |[La morte arriva con la valigia bianca](https://www.imdb.com/title/tt0068698/)|
 |1975-02-16         |[I fantastici piccoli supermen](https://www.imdb.com/title/tt0078910/)|
 |1975-02-18         |[Il piacere e l'amore](https://www.imdb.com/title/tt0058533/)|
@@ -82,12 +81,13 @@ tags:
 |1975-06-02         |[Furto di sera bel colpo si spera](https://www.imdb.com/title/tt0175633/)|
 |1975-06-07         |[Quattro farfalle per un assassino](https://www.imdb.com/title/tt0069318/)|
 |1975-06-08         |[Perché mammà ti manda solo?](https://www.imdb.com/title/tt0068475/)|
+|1975-06-11         |[L'ultimo buscadero](https://www.imdb.com/title/tt0068786/)|
 |1975-06-15         |[La mano che nutre la morte](https://www.imdb.com/title/tt0070368/)|
 |1975-06-22         |[Allegri becchini... arriva Trinità](https://www.imdb.com/title/tt0244384/)|
 |1975-06-24         |[È una sporca faccenda, tenente Parker!](https://www.imdb.com/title/tt0071824/)|
 |1975-06-29         |[L'insolente - Il più crudele tra quelli della mala](https://www.imdb.com/title/tt0068743/)|
 |1975-07-02         |[Addio mamma](https://www.imdb.com/title/tt0061330/)    |
-|1975-07-06         |[Clint il solitario](https://www.imdb.com/title/tt0059042/)|
+|1975-07-06         |[Il ritorno di Clint il solitario](https://www.imdb.com/title/tt0069184/)|
 |1975-07-08         |[Vado... l'ammazzo e torno](https://www.imdb.com/title/tt0062429/)|
 |1975-07-13         |[La mia colt ti cerca... 4 ceri ti attendono](https://www.imdb.com/title/tt0066930/)|
 |1975-07-17         |[Sfida a Rio Bravo](https://www.imdb.com/title/tt0059098/)|
@@ -136,7 +136,7 @@ tags:
 |1975-10-21         |[La ragazzina](https://www.imdb.com/title/tt0072062/)   |
 |1975-10-23         |[Cina violenza e furore](https://www.imdb.com/title/tt0121122/)|
 |1975-10-24         |[Cleopatra Jones: licenza di uccidere](https://www.imdb.com/title/tt0069890/)|
-|1975-10-26         |[La mano vendicatrice](https://www.imdb.com/title/tt0047411/)|
+|1975-10-26         |[La mano vendicatrice continua ad uccidere](https://www.imdb.com/title/tt0978752/)|
 |1975-10-28         |[Ming, ragazzi!](https://www.imdb.com/title/tt0070646/) |
 |1975-10-31         |[Mani sporche sulla città](https://www.imdb.com/title/tt0071259/)|
 |1975-11-01         |[L'ultima neve di primavera](https://www.imdb.com/title/tt0162026/)|
@@ -150,9 +150,11 @@ tags:
 |1975-11-16         |[Ehi amigo! Tocca a te morire](https://www.imdb.com/title/tt0316759/)|
 |1975-11-20         |[Decameron proibitissimo](https://www.imdb.com/title/tt0068463/)|
 |1975-11-21         |[Le svedesi si confessano e...](https://www.imdb.com/title/tt0062619/)|
+|1975-11-23         |[Tarzan - I segreti della jungla](https://www.imdb.com/title/tt0069345/)|
 |1975-11-28         |[La pendolare](https://www.imdb.com/title/tt0068536/)   |
 |1975-11-30         |[Kung fu, l'arte di uccidere](https://www.imdb.com/title/tt0068874/)|
 |1975-12-02         |[Scorpio](https://www.imdb.com/title/tt0070653/)        |
+|1975-12-04         |[Afyon oppio](https://www.imdb.com/title/tt0068179/)    |
 |1975-12-05         |[La polizia è al servizio del cittadino?](https://www.imdb.com/title/tt0070553/)|
 |1975-12-07         |[I leoni di Pietroburgo](https://www.imdb.com/title/tt0067340/)|
 |1975-12-08         |[Blind Man](https://www.imdb.com/title/tt0066844/)      |
@@ -168,3 +170,4 @@ tags:
 |1975-12-26         |[Boon il saccheggiatore](https://www.imdb.com/title/tt0064886/)|
 |1975-12-28         |[Agente 007 - L'uomo dalla pistola d'oro](https://www.imdb.com/title/tt0071807/)|
 |1975-12-30         |[Preparati la bara!](https://www.imdb.com/title/tt0062151/)|
+|1976-01-01         |[La polizia ringrazia](https://www.imdb.com/title/tt0069109/)|
