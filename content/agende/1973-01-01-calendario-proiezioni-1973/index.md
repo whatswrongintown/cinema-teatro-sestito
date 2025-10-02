@@ -5,10 +5,9 @@ date: '1973-01-01'
 slug: calendario-proiezioni-1973
 categories:
   - Calendario
-  - Proiezioni
 tags:
-  - AgendaCinematografica
   - Database
+  - Proiezioni
 ---
 {{< image-gallery gallery_dir="/images/1973_01_01_calendario_proiezioni" >}}
 
@@ -27,6 +26,7 @@ tags:
 |1973-01-23         |[L'eroe di Babilonia](https://www.imdb.com/title/tt0057038/)|
 |1973-01-24         |[La rivolta dei gladiatori](https://www.imdb.com/title/tt0052123/)|
 |1973-01-25         |[Bill il taciturno](https://www.imdb.com/title/tt0061404/) |
+|1973-01-27         |[I due gladiatori](https://www.imdb.com/title/tt0058043/)  |
 |1973-01-30         |[Buckaroo (Il winchester che non perdona)](https://www.imdb.com/title/tt0062763/)|
 |1973-01-31         |[Vortice di sabbia](https://www.imdb.com/title/tt0063728/) |
 |1973-02-01         |[Il tiranno di Siracusa](https://www.imdb.com/title/tt0055885/)|
@@ -37,9 +37,12 @@ tags:
 |1973-02-11         |[Indianapolis](https://www.imdb.com/title/tt0043052/)      |
 |1973-02-13         |[Artiglio insaguinato](https://www.imdb.com/title/tt0043746/)|
 |1973-02-16         |[Omicidio al 17 piano](https://www.imdb.com/title/tt0065698/)|
+|1973-02-18         |[I prigionieri dell'isola insanguinata](https://www.imdb.com/title/tt0059693/)|
+|1973-02-20         |[Promessa all'alba](https://www.imdb.com/title/tt0066251/) |
 |1973-02-22         |[7 cadaveri per Scotland Yard](https://www.imdb.com/title/tt0067260/)|
 |1973-02-24         |[Gli scassinatori](https://www.imdb.com/title/tt0068347/)  |
 |1973-02-25         |[Principe coronato cercasi per ricca ereditiera](https://www.imdb.com/title/tt0152074/)|
+|1973-03-04         |[Sledge](https://www.imdb.com/title/tt0066050/)            |
 |1973-03-06         |[La vendetta dei moschettieri](https://www.imdb.com/title/tt0055548/)|
 |1973-03-08         |[Maciste contro i mostri](https://www.imdb.com/title/tt0057270/)|
 |1973-03-09         |[Vado in guerra a far quattrini](https://www.imdb.com/title/tt0154469/)|
@@ -49,20 +52,28 @@ tags:
 |1973-03-18         |[Contratto per uccidere](https://www.imdb.com/title/tt0058262/)|
 |1973-03-19         |[Un minuto per pregare, un istante per morire](https://www.imdb.com/title/tt0063308/)|
 |1973-03-21         |[Due croci a Danger Pass](https://www.imdb.com/title/tt0062904/)|
+|1973-03-25         |[Robinson nell'isola dei corsari](https://www.imdb.com/title/tt0054357/)|
 |1973-03-27         |[Un uomo, un cavallo, una pistola](https://www.imdb.com/title/tt0063747/)|
 |1973-03-29         |[Sedia elettrica](https://www.imdb.com/title/tt0203865/)   |
-|1973-04-01         |[El desperado](https://www.imdb.com/title/tt0061563/)      |
+|1973-04-01         |[Desperado Trail](https://www.imdb.com/title/tt0059915/)   |
 |1973-04-03         |[Una lunga fila di croci](https://www.imdb.com/title/tt0064611/)|
 |1973-04-04         |[Le spie vengono dal semifreddo](https://www.imdb.com/title/tt0061014/)|
+|1973-04-06         |[Eva](https://www.imdb.com/title/tt0059160/)               |
+|1973-04-08         |[Wyoming, terra selvaggia](https://www.imdb.com/title/tt0067985/)|
 |1973-04-11         |[Il mostro di sangue](https://www.imdb.com/title/tt0061411/)|
 |1973-04-15         |[Quando le donne avevano la coda](https://www.imdb.com/title/tt0066268/)|
 |1973-04-22         |[La spina dorsale del diavolo](https://www.imdb.com/title/tt0066984/)|
+|1973-04-27         |[Il vendicatore](https://www.imdb.com/title/tt0053408/)    |
+|1973-04-29         |[Cromwell](https://www.imdb.com/title/tt0065593/)          |
 |1973-05-04         |[Il giovane selvaggio](https://www.imdb.com/title/tt0063123/)|
 |1973-05-05         |[Luana la figlia delle foresta vergine](https://www.imdb.com/title/tt0183428/)|
 |1973-05-06         |[Uno spaccone chiamato Hark](https://www.imdb.com/title/tt0067531/)|
+|1973-05-08         |[Il tatuaggio](https://www.imdb.com/title/tt0062408/)      |
 |1973-05-11         |[Il gigante di Metropolis](https://www.imdb.com/title/tt0054924/)|
+|1973-05-13         |[Cadavere per signora](https://www.imdb.com/title/tt0057908/)|
 |1973-05-15         |[Il solitario di Rio Grande](https://www.imdb.com/title/tt0067750/)|
 |1973-05-17         |[La cortigiana di Babilonia](https://www.imdb.com/title/tt0049094/)|
+|1973-05-20         |[Tropis - Uomo o scimmia?](https://www.imdb.com/title/tt0066384/)|
 |1973-05-22         |[7 pistole per El Gringo](https://www.imdb.com/title/tt0060923/)|
 |1973-05-23         |[Il leggendario X 15](https://www.imdb.com/title/tt0055627/)|
 |1973-05-25         |[Le schiave di Cartagine](https://www.imdb.com/title/tt0049723/)|
@@ -77,6 +88,7 @@ tags:
 |1973-07-01         |[Ursus nella terra di fuoco](https://www.imdb.com/title/tt0057628/)|
 |1973-07-03         |[Gli uomini dal passo pesante](https://www.imdb.com/title/tt0061144/)|
 |1973-07-05         |[Il gladiatore invincibile](https://www.imdb.com/title/tt0056027/)|
+|1973-07-07         |[Operazione crepes suzette](https://www.imdb.com/title/tt0065611/)|
 |1973-07-12         |[Una Venere senza nome per l'ispettore Forrester](https://www.imdb.com/title/tt0067846/)|
 |1973-07-15         |[Maciste contro lo sceicco](https://www.imdb.com/title/tt0056206/)|
 |1973-07-17         |[Gli fumavano le Colt... lo chiamavano Camposanto](https://www.imdb.com/title/tt0067142/)|
@@ -110,8 +122,10 @@ tags:
 |1973-09-26         |[Batwoman - L'invincibile superdonna](https://www.imdb.com/title/tt0235608/)|
 |1973-09-28         |[La violenza: Quinto potere](https://www.imdb.com/title/tt0069463/)|
 |1973-09-30         |[2 mattacchioni al Moulin Rouge](https://www.imdb.com/title/tt0150414/)|
-|1973-10-02         |[La pelle a scacchi (Il distacco)](https://www.imdb.com/title/tt0344192/)|
+|1973-10-02         |[I cosacchi](https://www.imdb.com/title/tt0052703/)        |
 |1973-10-03         |[Novelle licenziose di vergini vogliose](https://www.imdb.com/title/tt0071926/)|
+|1973-10-04         |[Il cacciatore solitario](https://www.imdb.com/title/tt0069232/)|
+|1973-10-05         |[Le pistolere](https://www.imdb.com/title/tt0067637/)      |
 |1973-10-07         |[L'ultimo avventuriero](https://www.imdb.com/title/tt0065374/)|
 |1973-10-09         |[I tre spietati](https://www.imdb.com/title/tt0057464/)    |
 |1973-10-11         |[La città degli acquanauti](https://www.imdb.com/title/tt0065556/)|
@@ -127,11 +141,14 @@ tags:
 |1973-10-30         |[Una vergine per il bandito](https://www.imdb.com/title/tt0055717/)|
 |1973-10-31         |[Peccatrici di provincia](https://www.imdb.com/title/tt0064670/)|
 |1973-11-01         |[I cospiratori](https://www.imdb.com/title/tt0066090/)     |
+|1973-11-04         |[Decameron n° 2 - Le altre novelle del Boccaccio](https://www.imdb.com/title/tt0068461/)|
 |1973-11-06         |[Professione: assassino](https://www.imdb.com/title/tt0068931/)|
 |1973-11-07         |[7 pistole per un massacro](https://www.imdb.com/title/tt0060068/)|
 |1973-11-09         |[Carmen Baby](https://www.imdb.com/title/tt0061448/)       |
 |1973-11-11         |[Maciste contro Ercole nella valle dei guai](https://www.imdb.com/title/tt0122597/)|
 |1973-11-12         |[Violentata sulla sabbia](https://www.imdb.com/title/tt0153554/)|
+|1973-11-16         |[L'avventura è l'avventura](https://www.imdb.com/title/tt0066798/)|
+|1973-11-18         |[Simbad contro i sette saraceni](https://www.imdb.com/title/tt0058589/)|
 |1973-11-20         |[L'orgia del vampiro](https://www.imdb.com/title/tt0139288/)|
 |1973-11-21         |[Erik il vichingo](https://www.imdb.com/title/tt0059152/)  |
 |1973-11-23         |[La ragazza di Pigalle](https://www.imdb.com/title/tt0230639/)|
@@ -149,4 +166,8 @@ tags:
 |1973-12-18         |[Joe Kidd](https://www.imdb.com/title/tt0068768/)          |
 |1973-12-19         |[Alleluja e Sartana figli di... Dio](https://www.imdb.com/title/tt0068723/)|
 |1973-12-21         |[Arma da taglio](https://www.imdb.com/title/tt0069121/)    |
+|1973-12-23         |[Sandokan, la tigre di Mompracem](https://www.imdb.com/title/tt0057469/)|
+|1973-12-25         |[Vamos a matar compañeros](https://www.imdb.com/title/tt0066612/)|
+|1973-12-28         |[La bella Antonia, prima monica e poi dimonia](https://www.imdb.com/title/tt0068261/)|
 |1973-12-30         |[Jesse & Lester - Due fratelli in un posto chiamato Trinità](https://www.imdb.com/title/tt0068515/)|
+|1974-01-01         |[Franco e Ciccio sul sentiero di guerra](https://www.imdb.com/title/tt0123843/)|
