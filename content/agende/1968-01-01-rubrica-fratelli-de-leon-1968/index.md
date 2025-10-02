@@ -1,5 +1,5 @@
 ---
-title: Rubrica Fratelli De Leon 1968
+title: Rubrica Fratelli de Leon 1968
 author: Vito Sestito
 date: '1968-01-01'
 slug: rubrica-fratelli-de-leon-1968
