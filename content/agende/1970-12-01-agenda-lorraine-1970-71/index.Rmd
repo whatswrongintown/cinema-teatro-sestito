@@ -5,11 +5,9 @@ date: '1970-12-01'
 slug: agenda-lorraine-1970-71
 categories:
   - Agende
-  - Calendario
-  - Proiezioni
 tags:
-  - AgendaCinematografica
   - Database
+  - Proiezioni
 ---
 {{< image-gallery gallery_dir="/images/1970_12_01_lorraine_1970_71" >}}
 ```{r setup, include=FALSE}
