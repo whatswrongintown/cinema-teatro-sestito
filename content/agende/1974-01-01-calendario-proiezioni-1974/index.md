@@ -5,10 +5,9 @@ date: '1974-01-01'
 slug: calendario-proiezioni-1974
 categories:
   - Calendario
-  - Proiezioni
 tags:
-  - AgendaCinematografica
   - Database
+  - Proiezioni
 ---
 {{< image-gallery gallery_dir="/images/1974_01_01_calendario_proiezioni" >}}
 
@@ -27,6 +26,7 @@ tags:
 |1974-01-15         |[Detective privato... anche troppo](https://www.imdb.com/title/tt0069131/)                  |
 |1974-01-18         |[Le figlie di Dracula](https://www.imdb.com/title/tt0069427/)                               |
 |1974-01-20         |[La calata dei barbari](https://www.imdb.com/title/tt0063174/)                              |
+|1974-01-22         |[Getaway!](https://www.imdb.com/title/tt0068638/)                                           |
 |1974-01-24         |[Sesso in gabbia](https://www.imdb.com/title/tt0066830/)                                    |
 |1974-01-25         |[La volpe dalla coda di velluto](https://www.imdb.com/title/tt0067520/)                     |
 |1974-01-27         |[Tarzan nella valle dell'oro](https://www.imdb.com/title/tt0061067/)                        |
@@ -39,7 +39,7 @@ tags:
 |1974-02-12         |[Metti lo diavolo tuo ne lo mio inferno](https://www.imdb.com/title/tt0068940/)             |
 |1974-02-13         |[È simpatico, ma gli romperei il muso](https://www.imdb.com/title/tt0068441/)               |
 |1974-02-15         |[Valdez il mezzosangue](https://www.imdb.com/title/tt0069833/)                              |
-|1974-02-17         |[Il terrore corre sul fiume (La più Grande Avventura di Tarzan)](https://www.imdb.com/title/tt0053334/)|
+|1974-02-17         |[La più Grande Avventura di Tarzan (Il terrore corre sul fiume)](https://www.imdb.com/title/tt0053334/)|
 |1974-02-20         |[...E continuavano a fregarsi il milione di dollari](https://www.imdb.com/title/tt0068246/) |
 |1974-02-21         |[La Vanessa dalle ali bruciate](https://www.imdb.com/title/tt0067228/)                      |
 |1974-02-22         |[La spia che vide il suo cadavere](https://www.imdb.com/title/tt0068663/)                   |
@@ -65,9 +65,10 @@ tags:
 |1974-04-09         |[L'uomo, la donna e i misteri del sesso](https://www.imdb.com/title/tt0066568/)             |
 |1974-04-14         |[Er più: storia d'amore e di coltello](https://www.imdb.com/title/tt0067056/)               |
 |1974-04-19         |[Alla larga amigos, oggi ho il grilletto facile...](https://www.imdb.com/title/tt0068563/)  |
+|1974-04-20         |[Reverendo Colt](https://www.imdb.com/title/tt0066295/)                                     |
 |1974-04-21         |[Gli fumavano le Colt... lo chiamavano Camposanto](https://www.imdb.com/title/tt0067142/)   |
 |1974-04-24         |[Allegri becchini... arriva Trinità](https://www.imdb.com/title/tt0244384/)                 |
-|1974-04-28         |[Le calde notti del Decameron](https://www.imdb.com/title/tt0068329/)                       |
+|1974-04-28         |[Le calde notti di Poppea](https://www.imdb.com/title/tt0064119/)                           |
 |1974-04-30         |[Billy Jack](https://www.imdb.com/title/tt0066832/)                                         |
 |1974-05-03         |[L'Aretino nei suoi ragionamenti sulle cortigiane, le maritate e... i cornuti contenti](https://www.imdb.com/title/tt0068219/)|
 |1974-05-05         |[Golia e il cavaliere mascherato](https://www.imdb.com/title/tt0178515/)                    |
@@ -87,22 +88,24 @@ tags:
 |1974-06-16         |[Vaya con dios gringo](https://www.imdb.com/title/tt0136595/)                               |
 |1974-06-21         |[Blacula](https://www.imdb.com/title/tt0068284/)                                            |
 |1974-06-23         |[La spada di robin hood](https://www.imdb.com/title/tt0047229/)                             |
-|1974-06-25         |[Sinfonia per un sadico (La Bestia del Castello Maledetto)](https://www.imdb.com/title/tt0056220/)|
+|1974-06-25         |[La Bestia del Castello Maledetto (Sinfonia per un sadico)](https://www.imdb.com/title/tt0056220/)|
 |1974-06-28         |[7 Desideri di una vergine](https://www.imdb.com/title/tt0068237/)                          |
 |1974-06-30         |[Zorro il dominatore](https://www.imdb.com/title/tt1393838/)                                |
 |1974-07-02         |[Un uomo chiamato Volpe Bianca](https://www.imdb.com/title/tt0063798/)                      |
 |1974-07-05         |[Elena di Troia](https://www.imdb.com/title/tt0049301/)                                     |
+|1974-07-07         |[Frankenstein alla conquista della Terra](https://www.imdb.com/title/tt0059205/)            |
 |1974-07-09         |[Il pistolero segnato da Dio](https://www.imdb.com/title/tt0063440/)                        |
 |1974-07-12         |[1972: Dracula colpisce ancora!](https://www.imdb.com/title/tt0068505/)                     |
 |1974-07-14         |[Un uomo chiamato Dakota](https://www.imdb.com/title/tt0214261/)                            |
 |1974-07-21         |[Attila](https://www.imdb.com/title/tt0046731/)                                             |
+|1974-07-28         |[Lo sceriffo di Rockspring](https://www.imdb.com/title/tt0202571/)                          |
 |1974-08-04         |[Tayang: il terrore della Cina](https://www.imdb.com/title/tt0070778/)                      |
 |1974-08-11         |[Bandidos](https://www.imdb.com/title/tt0062706/)                                           |
 |1974-08-15         |[La regina del karaté](https://www.imdb.com/title/tt0199987/)                               |
-|1974-08-18         |[Kung Tze - L'uomo dalle mani d'acciaio](https://www.imdb.com/title/tt0209414/)             |
+|1974-08-18         |[L'uomo dalla mano d'acciaio contro il drago rosso](https://www.imdb.com/title/tt1342398/)  |
 |1974-08-25         |[Il giuramento di Zorro](https://www.imdb.com/title/tt0059950/)                             |
 |1974-09-01         |[Il fantasma di Londra](https://www.imdb.com/title/tt0062022/)                              |
-|1974-09-08         |[Il vendicatore](https://www.imdb.com/title/tt0053408/)                                     |
+|1974-09-08         |[Il vendicatore (L'uomo, l'orgoglio, la vendetta)](https://www.imdb.com/title/tt0062424/)   |
 |1974-09-15         |[Il terrore del Kung-Fu - Andava, ammazzava e ritornava](https://www.imdb.com/title/tt1759650/)|
 |1974-09-22         |[Tarzan in India](https://www.imdb.com/title/tt0056560/)                                    |
 |1974-09-29         |[Una sporca coppia](https://www.imdb.com/title/tt0198611/)                                  |
@@ -116,7 +119,7 @@ tags:
 |1974-10-18         |[I racconti di Viterbury - Le più allegre storie del '300](https://www.imdb.com/title/tt0070587/)|
 |1974-10-20         |[Un posto ideale per uccidere](https://www.imdb.com/title/tt0067602/)                       |
 |1974-10-22         |[La lunga notte di Tombstone](https://www.imdb.com/title/tt0062839/)                        |
-|1974-10-24         |[Rose rosse per Angelica](https://www.imdb.com/title/tt0060916/)                            |
+|1974-10-24         |[Rose rosse per il demonio](https://www.imdb.com/title/tt0066982/)                          |
 |1974-10-25         |[La mazurka le svedesi la ballano a letto](https://www.imdb.com/title/tt0066063/)           |
 |1974-10-27         |[I tre magnifici del karatè](https://www.imdb.com/title/tt1053337/)                         |
 |1974-10-29         |[La treccia che uccide](https://www.imdb.com/title/tt0188740/)                              |
@@ -131,6 +134,7 @@ tags:
 |1974-11-24         |[Sesso contro kung-fu](https://www.imdb.com/title/tt0069519/)                               |
 |1974-11-26         |[Come fu che Masuccio Salernitano, fuggendo con le brache in mano, riuscì a conservarlo sano](https://www.imdb.com/title/tt0069908/)|
 |1974-11-29         |[Odio per odio](https://www.imdb.com/title/tt0062065/)                                      |
+|1974-12-01         |[Sei già cadavere Amigo... ti cerca Garringo](https://www.imdb.com/title/tt0065367/)        |
 |1974-12-03         |[Gli artigli dello squartatore](https://www.imdb.com/title/tt0067176/)                      |
 |1974-12-06         |[E tutto in biglietti di piccolo taglio](https://www.imdb.com/title/tt0068617/)             |
 |1974-12-08         |[I kamikaze del karate](https://www.imdb.com/title/tt0068372/)                              |
@@ -145,3 +149,4 @@ tags:
 |1974-12-27         |[Gli amici degli amici hanno saputo](https://www.imdb.com/title/tt0204812/)                 |
 |1974-12-29         |[I magnifici 4 di Hong Kong](https://www.imdb.com/title/tt0191127/)                         |
 |1974-12-30         |[Mussolini ultimo atto](https://www.imdb.com/title/tt0071880/)                              |
+|1975-01-01         |[Tarzan e lo stregone](https://www.imdb.com/title/tt0052275/)                               |

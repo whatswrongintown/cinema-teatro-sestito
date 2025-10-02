@@ -5,10 +5,9 @@ date: '1974-01-01'
 slug: calendario-proiezioni-1974
 categories:
   - Calendario
-  - Proiezioni
 tags:
-  - AgendaCinematografica
   - Database
+  - Proiezioni
 ---
 {{< image-gallery gallery_dir="/images/1974_01_01_calendario_proiezioni" >}}
 ```{r setup, include=FALSE}
