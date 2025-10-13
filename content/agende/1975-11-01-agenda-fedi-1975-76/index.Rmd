@@ -5,11 +5,9 @@ date: '1975-11-01'
 slug: agenda-fedi-1975-76
 categories:
   - Agende
-  - Calendario
-  - Proiezioni
 tags:
-  - AgendaCinematografica
   - Database
+  - Proiezioni
 ---
 {{< image-gallery gallery_dir="/images/1975_11_01_fedi_1975_76" >}}
 ```{r setup, include=FALSE}
