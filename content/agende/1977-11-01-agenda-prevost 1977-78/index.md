@@ -5,10 +5,9 @@ date: '1977-11-01'
 slug: agenda-prevost-1977-78
 categories:
   - Agende
-  - Proiezioni
 tags:
-  - AgendaCinematografica
   - Database
+  - Proiezioni
 ---
 {{< image-gallery gallery_dir="/images/1977_11_01_prevost_1977_78" >}}
 
@@ -24,7 +23,7 @@ tags:
 |1977-12-11         |[Il pirata Barbanera](https://www.imdb.com/title/tt0044426/)             |
 |1977-12-18         |[Occhio alla vedova!](https://www.imdb.com/title/tt0189840/)             |
 |1977-12-25         |[Poliziotti violenti](https://www.imdb.com/title/tt0075085/)             |
-|1977-12-29         |[Jungla erotica (Africa Erotica)](https://www.imdb.com/title/tt0189634/) |
+|1977-12-29         |[Africa erotica (Jungla erotica)](https://www.imdb.com/title/tt0189634/) |
 |1977-12-31         |[Apache](https://www.imdb.com/title/tt0068429/)                          |
 |1978-01-03         |[Eva nera](https://www.imdb.com/title/tt0074501/)                        |
 |1978-01-04         |[Natale in casa d'appuntamento](https://www.imdb.com/title/tt0125945/)   |
@@ -109,7 +108,7 @@ tags:
 |1978-09-05         |[Un toro da monta](https://www.imdb.com/title/tt0075340/)                |
 |1978-09-07         |[Anno 2000 - La corsa della morte](https://www.imdb.com/title/tt0072856/)|
 |1978-09-08         |[La tigre di Hong Kong](https://www.imdb.com/title/tt2173924/)           |
-|1978-09-10         |[The Switch (Operazione Ozerov)](https://www.imdb.com/title/tt4716856/)  |
+|1978-09-10         |[Operazione ozerov (The Switch)](https://www.imdb.com/title/tt4716856/)  |
 |1978-09-12         |[Le laureande](https://www.imdb.com/title/tt1370411/)                    |
 |1978-09-14         |[Peccati sul letto di famiglia](https://www.imdb.com/title/tt0217779/)   |
 |1978-09-15         |[Maschio latino cercasi](https://www.imdb.com/title/tt0128330/)          |
@@ -120,8 +119,8 @@ tags:
 |1978-09-24         |[Vai col liscio](https://www.imdb.com/title/tt0215297/)                  |
 |1978-09-26         |[Un violento week-end di terrore](https://www.imdb.com/title/tt0075922/) |
 |1978-09-28         |[L'ammazzatina](https://www.imdb.com/title/tt0071132/)                   |
-|1978-10-01         |[Un esercito di 5 uomini](https://www.imdb.com/title/tt0064300/)         |
-|1978-10-03         |[La ragazza sotto il lenzuolo](https://www.imdb.com/title/tt0139552/)    |
+|1978-10-01         |[Mesito (Un esercito di 5 uomini)](https://www.imdb.com/title/tt0064300/)|
+|1978-10-03         |[La dottoressa sotto il lenzuolo](https://www.imdb.com/title/tt0074427/) |
 |1978-10-05         |[Kong - Uragano sulla metropoli](https://www.imdb.com/title/tt0060440/)  |
 |1978-10-06         |[Le calde labbra di Emanuelle](https://www.imdb.com/title/tt0071136/)    |
 |1978-10-08         |[Il figlio di Spartacus](https://www.imdb.com/title/tt0057060/)          |
@@ -150,6 +149,7 @@ tags:
 |1978-11-17         |[Il pistolero](https://www.imdb.com/title/tt0075213/)                    |
 |1978-11-19         |[Liberi armati pericolosi](https://www.imdb.com/title/tt0074792/)        |
 |1978-11-21         |[L'appuntamento](https://www.imdb.com/title/tt0075692/)                  |
+|1978-11-23         |[Quel maledetto giorno d'inverno... Django e Sartana all'ultimo sangue](https://www.imdb.com/title/tt0067643/)|
 |1978-11-24         |[L'ultima orgia del III Reich](https://www.imdb.com/title/tt0074569/)    |
 |1978-11-26         |[Il trucido e lo sbirro](https://www.imdb.com/title/tt0075352/)          |
 |1978-11-27         |[California](https://www.imdb.com/title/tt0075796/)                      |

@@ -5,10 +5,9 @@ date: '1977-11-01'
 slug: agenda-prevost-1977-78
 categories:
   - Agende
-  - Proiezioni
 tags:
-  - AgendaCinematografica
   - Database
+  - Proiezioni
 ---
 {{< image-gallery gallery_dir="/images/1977_11_01_prevost_1977_78" >}}
 ```{r setup, include=FALSE}
