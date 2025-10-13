@@ -5,10 +5,9 @@ date: '1976-12-01'
 slug: agenda-elettrocarbonium-1976-77
 categories:
   - Agende
-  - Proiezioni
 tags:
-  - AgendaCinematografica
   - Database
+  - Proiezioni
 ---
 {{< image-gallery gallery_dir="/images/1976_12_01_elettrocarbonium_1976_77" >}}
 
@@ -32,15 +31,17 @@ tags:
 |1976-12-26         |[Catene](https://www.imdb.com/title/tt0161402/)                                  |
 |1976-12-27         |[Maciste all'inferno](https://www.imdb.com/title/tt0057268/)                     |
 |1976-12-28         |[Le femmine sono nate per fare l'amore](https://www.imdb.com/title/tt0068235/)   |
+|1976-12-28         |[Un duro al servizio della polizia](https://www.imdb.com/title/tt0070706/)       |
 |1976-12-30         |[Di che segno sei?](https://www.imdb.com/title/tt0072871/)                       |
-|1977-01-02         |[Un duro al servizio della polizia](https://www.imdb.com/title/tt0070706/)       |
+|1976-12-31         |[Sandokan, la tigre di Mompracem](https://www.imdb.com/title/tt0057469/)         |
 |1977-01-03         |[La nipote](https://www.imdb.com/title/tt0131500/)                               |
+|1977-01-04         |[Le demone](https://www.imdb.com/title/tt0068522/)                               |
 |1977-01-06         |[La terra dimenticata dal tempo](https://www.imdb.com/title/tt0073260/)          |
 |1977-01-09         |[Operazione triangolo d'oro](https://www.imdb.com/title/tt2096636/)              |
 |1977-01-11         |[Roma violenta](https://www.imdb.com/title/tt0073633/)                           |
 |1977-01-12         |[Camp 7 - lager femminile](https://www.imdb.com/title/tt0063242/)                |
 |1977-01-13         |[Gli ultimi giorni di Pompei](https://www.imdb.com/title/tt0054422/)             |
-|1977-01-16         |[I pionieri dell'ultima frontiera](https://www.imdb.com/title/tt0061115/)        |
+|1977-01-16         |[Cacciatori di lupi (I pionieri dell'ultima frontiera)](https://www.imdb.com/title/tt0061115/)|
 |1977-01-18         |[Maruzzella](https://www.imdb.com/title/tt0049484/)                              |
 |1977-01-20         |[Emanuelle nera](https://www.imdb.com/title/tt0072930/)                          |
 |1977-01-21         |[La modella](https://www.imdb.com/title/tt0240426/)                              |
@@ -51,12 +52,14 @@ tags:
 |1977-02-01         |[La minorenne](https://www.imdb.com/title/tt0128350/)                            |
 |1977-02-02         |[Il compromesso... erotico (Menage a quattro)](https://www.imdb.com/title/tt0074338/)|
 |1977-02-04         |[La fine dell'innocenza](https://www.imdb.com/title/tt0072987/)                  |
+|1977-02-06         |[La vendetta dei Tughs](https://www.imdb.com/title/tt1463485/)                   |
 |1977-02-10         |[Emanuelle nera: Orient reportage](https://www.imdb.com/title/tt0074478/)        |
 |1977-02-13         |[Quattro mani per spaccare, quattro piedi per uccidere](https://www.imdb.com/title/tt0362326/)|
 |1977-02-15         |[Le dolci zie](https://www.imdb.com/title/tt0072894/)                            |
 |1977-02-17         |[Arrivano Joe e Margherito](https://www.imdb.com/title/tt0071162/)               |
 |1977-02-18         |[Carnalità](https://www.imdb.com/title/tt0071280/)                               |
 |1977-02-20         |[I due figli dei Trinità](https://www.imdb.com/title/tt0068514/)                 |
+|1977-02-25         |[La mogliettina (Inside Amy)](NA)                                                |
 |1977-02-27         |[I fratelli di Bruce Lee](https://www.imdb.com/title/tt1204790/)                 |
 |1977-03-01         |[La cameriera](https://www.imdb.com/title/tt0125685/)                            |
 |1977-03-03         |[Il ritorno del gladiatore più forte del mondo](https://www.imdb.com/title/tt0200036/)|
@@ -72,7 +75,7 @@ tags:
 |1977-03-24         |[Càlamo](https://www.imdb.com/title/tt0159317/)                                  |
 |1977-03-25         |[Milano odia: la polizia non può sparare](https://www.imdb.com/title/tt0071840/) |
 |1977-03-26         |[Lezioni private](https://www.imdb.com/title/tt0073286/)                         |
-|1977-03-29         |[Emanuelle e Françoise (Le sorelline)](https://www.imdb.com/title/tt0074472/)    |
+|1977-03-29         |[Le sorelline (Emanuelle e Françoise)](https://www.imdb.com/title/tt0074472/)    |
 |1977-03-31         |[Il domestico](https://www.imdb.com/title/tt0166171/)                            |
 |1977-04-01         |[Zorro alla corte d'Inghilterra](https://www.imdb.com/title/tt0065247/)          |
 |1977-04-03         |[Arizona si scatenò... e li fece fuori tutti!](https://www.imdb.com/title/tt0065422/)|
@@ -85,6 +88,7 @@ tags:
 |1977-04-19         |[L'assassino ha riservato nove poltrone](https://www.imdb.com/title/tt0071167/)  |
 |1977-04-21         |[Tarzan il magnifico](https://www.imdb.com/title/tt0054368/)                     |
 |1977-04-22         |[Prostituzione](https://www.imdb.com/title/tt0093441/)                           |
+|1977-04-24         |[Maciste contro i cacciatori di teste](https://www.imdb.com/title/tt0056207/)    |
 |1977-04-26         |[L'adolescente](https://www.imdb.com/title/tt0074093/)                           |
 |1977-04-28         |[40 gradi all'ombra del lenzuolo](https://www.imdb.com/title/tt0074086/)         |
 |1977-04-30         |[A ciascuno il suo](https://www.imdb.com/title/tt0061320/)                       |
@@ -100,6 +104,7 @@ tags:
 |1977-05-24         |[Il crollo di Roma](https://www.imdb.com/title/tt0055874/)                       |
 |1977-05-26         |[Una ragione per vivere e una per morire](https://www.imdb.com/title/tt0069159/) |
 |1977-05-27         |[Le galanti avventure di Zorro](https://www.imdb.com/title/tt0068242/)           |
+|1977-05-29         |[Il corsaro nero](https://www.imdb.com/title/tt0066950/)                         |
 |1977-05-31         |[L'albergo dei piaceri proibiti](https://www.imdb.com/title/tt0068987/)          |
 |1977-06-05         |[Mark colpisce ancora](https://www.imdb.com/title/tt0151495/)                    |
 |1977-06-07         |[La legge violenta della squadra anticrimine](https://www.imdb.com/title/tt0074785/)|
@@ -116,6 +121,7 @@ tags:
 |1977-07-17         |[Maciste contro lo sceicco](https://www.imdb.com/title/tt0056206/)               |
 |1977-07-19         |[É tempo di uccidere detective Treck](https://www.imdb.com/title/tt0072325/)     |
 |1977-07-24         |[Remo e Romolo (Storia di due figli di una lupa)](https://www.imdb.com/title/tt0075129/)|
+|1977-07-26         |[Guardiamola nuda e... poi decidiamo](https://www.imdb.com/title/tt0251937/)     |
 |1977-07-31         |[La tigre della Manciuria](https://www.imdb.com/title/tt0164415/)                |
 |1977-08-02         |[Santana il killer dal mantello nero](https://www.imdb.com/title/tt0061771/)     |
 |1977-08-05         |[Tre contro tutti](https://www.imdb.com/title/tt0056470/)                        |
@@ -144,7 +150,7 @@ tags:
 |1977-09-20         |[I sopravvissuti delle Ande](https://www.imdb.com/title/tt0075290/)              |
 |1977-09-21         |[Lager SSadis Kastrat Kommandantur](https://www.imdb.com/title/tt0074768/)       |
 |1977-09-23         |[Rabbia di vivere](https://www.imdb.com/title/tt0067268/)                        |
-|1977-09-25         |[I sette aghi d'oro](https://www.imdb.com/title/tt0071568/)                      |
+|1977-09-25         |[Missione violenta (I sette aghi d'oro)](https://www.imdb.com/title/tt0071568/)  |
 |1977-09-27         |[La campagnola bella](https://www.imdb.com/title/tt0074277/)                     |
 |1977-09-29         |[Emmanuelle bianca e nera](https://www.imdb.com/title/tt0074471/)                |
 |1977-09-30         |[La vergine, il toro e il capricorno](https://www.imdb.com/title/tt0076873/)     |
@@ -199,6 +205,6 @@ tags:
 |1977-12-25         |[Poliziotti violenti](https://www.imdb.com/title/tt0075085/)                     |
 |1977-12-26         |[Boxer Rebellion](https://www.imdb.com/title/tt0075031/)                         |
 |1977-12-27         |[L'altra metà del cielo](https://www.imdb.com/title/tt0075665/)                  |
-|1977-12-29         |[Jungla erotica (Africa Erotica)](https://www.imdb.com/title/tt0189634/)         |
+|1977-12-29         |[Africa erotica (Jungla erotica)](https://www.imdb.com/title/tt0189634/)         |
 |1977-12-30         |[Il cav. Costante Nicosia demoniaco, ovvero: Dracula in Brianza](https://www.imdb.com/title/tt0072771/)|
 |1977-12-31         |[Apache](https://www.imdb.com/title/tt0068429/)                                  |

@@ -5,10 +5,9 @@ date: '1976-12-01'
 slug: agenda-elettrocarbonium-1976-77
 categories:
   - Agende
-  - Proiezioni
 tags:
-  - AgendaCinematografica
   - Database
+  - Proiezioni
 ---
 {{< image-gallery gallery_dir="/images/1976_12_01_elettrocarbonium_1976_77" >}}
 ```{r setup, include=FALSE}
