@@ -5,9 +5,10 @@ date: '1958-10-16'
 slug: agenda-bruzia-1958-59
 categories:
   - Agende
-  - Proiezioni
 tags:
   - Database
+  - Proiezioni
+description: "Agende cinematografiche fornite dalle case distributrici. Contengono informazioni dettagliate sulla data di proiezione, titolo del film, distributore e l’ammontare degli incassi."
 ---
 {{< image-gallery gallery_dir="/images/1958_10_16_bruzia_1958_59" >}}
 ```{r setup, include=FALSE}
@@ -25,11 +26,11 @@ bruzia_1958_59 <- agende %>%
           filter(str_detect(source, "Bruzia 1958-59")) %>%
           left_join(imdb, by = "const")
 ```
-### Lista film
+### Programmazione
 ```{r echo=FALSE}
 bruzia_1958_59 %>%
           arrange(date) %>%
   mutate(title = paste0("[",title,"]","(",url,")")) %>%
           select(date, title) %>%
-          knitr::kable(col.names = c("Data di proiezione", "Titolo"), align = c("l", "l", "l"))
+          knitr::kable(col.names = c("Data", "Titolo"), align = c("l", "l", "l"))
 ```

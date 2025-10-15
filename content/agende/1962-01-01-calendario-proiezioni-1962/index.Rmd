@@ -4,11 +4,11 @@ author: Vito Sestito
 date: '1962-01-01'
 slug: calendario-proiezioni-1962
 categories:
-  - Proiezioni
-  - Calendario
+  - Calendari
 tags:
-  - AgendaCinematografica
   - Database
+  - Proiezioni
+description: "Calendari murali o da tavolo legati all’attività del cinema. Indicano la data di proiezione e il titolo dei film, insieme agli incassi registrati."
 ---
 {{< image-gallery gallery_dir="/images/1962_01_01_calendario_proiezioni" >}}
 ```{r setup, include=FALSE}
@@ -26,11 +26,11 @@ calendario_1962 <- agende %>%
           filter(str_detect(source, "Calendario 1962")) %>%
           left_join(imdb, by = "const")
 ```
-### Lista film
+### Programmazione
 ```{r echo=FALSE}
 calendario_1962 %>%
           arrange(date) %>%
   mutate(title = paste0("[",title,"]","(",url,")")) %>%
           select(date, title) %>%
-          knitr::kable(col.names = c("Data di proiezione", "Titolo"), align = c("l", "l", "l"))
+          knitr::kable(col.names = c("Data", "Titolo"), align = c("l", "l", "l"))
 ```

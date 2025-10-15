@@ -6,8 +6,9 @@ slug: agenda-fedi-1957-58
 categories:
   - Agende
 tags:
-  - Proiezioni
   - Database
+  - Proiezioni
+description: "Agende cinematografiche fornite dalle case distributrici. Contengono informazioni dettagliate sulla data di proiezione, titolo del film, distributore e l’ammontare degli incassi."
 ---
 {{< image-gallery gallery_dir="/images/1957_12_01_fedi_1957_58" >}}
 ```{r setup, include=FALSE}
@@ -25,11 +26,11 @@ fedi_1957_58 <- agende %>%
           filter(str_detect(source, "Fedi 1957-58")) %>%
           left_join(imdb, by = "const")
 ```
-### Lista film
+### Programmazione
 ```{r echo=FALSE}
 fedi_1957_58 %>%
           arrange(date) %>%
   mutate(title = paste0("[",title,"]","(",url,")")) %>%
           select(date, title) %>%
-          knitr::kable(col.names = c("Data di proiezione", "Titolo"), align = c("l", "l", "l"))
+          knitr::kable(col.names = c("Data", "Titolo"), align = c("l", "l", "l"))
 ```
