@@ -5,13 +5,10 @@ date: '1949-10-01'
 slug: agenda-incam-1949-50
 categories:
   - Agende
-  - Proiezioni
 tags:
-  - AgendaCinematografica
-  - CinemaTeatroSestito
-  - FilmItaliani
-  - Film
-  - Storia
+  - Database
+  - Proiezioni
+description: "Agende cinematografiche fornite dalle case distributrici. Contengono informazioni dettagliate sulla data di proiezione, titolo del film, distributore e l’ammontare degli incassi."
 ---
 {{< image-gallery gallery_dir="/images/1949_10_01_incam_1949_50" >}}
 ```{r setup, include=FALSE}
@@ -29,11 +26,11 @@ incam_1949_50 <- agende %>%
           filter(str_detect(source, "Incam 1949-50")) %>%
           left_join(imdb, by = "const")
 ```
-### Lista film
+### Programmazione
 ```{r echo=FALSE}
 incam_1949_50 %>%
           arrange(date) %>%
   mutate(title = paste0("[",title,"]","(",url,")")) %>%
           select(date, title) %>%
-          knitr::kable(col.names = c("Data di proiezione", "Titolo"), align = c("l", "l", "l"))
+          knitr::kable(col.names = c("Data", "Titolo"), align = c("l", "l", "l"))
 ```

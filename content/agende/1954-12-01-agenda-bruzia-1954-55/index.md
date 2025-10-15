@@ -5,14 +5,14 @@ date: '1954-12-01'
 slug: agenda-bruzia-1954-55
 categories:
   - Agende
-  - Proiezioni
 tags:
   - Database
-  - AgendaCinematografica
+  - Proiezioni
+description: "Agende cinematografiche fornite dalle case distributrici. Contengono informazioni dettagliate sulla data di proiezione, titolo del film, distributore e l’ammontare degli incassi."
 ---
 {{< image-gallery gallery_dir="/images/1954_12_01_bruzia_1954_55" >}}
 
-### Lista film
+### Programmazione
 
 |Data di proiezione |Titolo                       |
 |:------------------|:----------------------------|

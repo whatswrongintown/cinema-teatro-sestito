@@ -5,10 +5,10 @@ date: '1954-01-01'
 slug: agenda-fedi-1953-54
 categories:
   - Agende
-  - Proiezioni
 tags:
-  - AgendaCinematografica
   - Database
+  - Proiezioni
+description: "Agende cinematografiche fornite dalle case distributrici. Contengono informazioni dettagliate sulla data di proiezione, titolo del film, distributore e l’ammontare degli incassi."
 ---
 {{< image-gallery gallery_dir="/images/1954_01_01_fedi_1953_54" >}}
 ```{r setup, include=FALSE}
@@ -26,11 +26,11 @@ fedi_1953_54 <- agende %>%
           filter(str_detect(source, "Fedi 1953-54")) %>%
           left_join(imdb, by = "const")
 ```
-### Lista film
+### Programmazione
 ```{r echo=FALSE}
 fedi_1953_54 %>%
           arrange(date) %>%
-  mutate(title = if_else(title == "La Gioconda", "La Gioconda", paste0("[",title,"]","(", url,")"))) %>%
+  mutate(title = paste0("[",title,"]","(",url,")")) %>%
           select(date, title) %>%
-          knitr::kable(col.names = c("Data di proiezione", "Titolo"), align = c("l", "l", "l"))
+          knitr::kable(col.names = c("Data", "Titolo"), align = c("l", "l", "l"))
 ```
