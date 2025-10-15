@@ -4,15 +4,16 @@ author: Vito Sestito
 date: '1984-01-01'
 slug: rubrica-1984-92
 categories:
-  - Rubrica
+  - Rubriche
 tags:
   - Database
   - Proiezioni
+description: "Rubriche dove i film venivano annotati in ordine alfabetico, con data di proiezione e distributore."
 ---
 
 {{< image-gallery gallery_dir="/images/1984_01_01_rubrica_1984_92" >}}
 
-### Lista film
+### Programmazione
 
 |Data di proiezione |Titolo                                                                              |
 |:------------------|:-----------------------------------------------------------------------------------|

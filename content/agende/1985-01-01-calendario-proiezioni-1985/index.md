@@ -4,15 +4,16 @@ author: Vito Sestito
 date: '1985-01-01'
 slug: calendario-proiezioni-1985
 categories:
-  - Calendario
+  - Calendari
 tags:
   - Database
   - Proiezioni
+description: "Calendari murali o da tavolo legati all’attività del cinema. Indicano la data di proiezione e il titolo dei film, insieme agli incassi registrati."
 ---
 
 {{< image-gallery gallery_dir="/images/1985_01_01_calendario_proiezioni" >}}
 
-### Lista film
+### Programmazione
 
 |Data di proiezione |Titolo                                                           |
 |:------------------|:----------------------------------------------------------------|

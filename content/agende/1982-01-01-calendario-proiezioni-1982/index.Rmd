@@ -4,10 +4,11 @@ author: Vito Sestito
 date: '1982-01-01'
 slug: calendario-proiezioni-1982
 categories:
-  - Calendario
+  - Calendari
 tags:
   - Database
   - Proiezioni
+description: "Calendari murali o da tavolo legati all’attività del cinema. Indicano la data di proiezione e il titolo dei film, insieme agli incassi registrati."
 ---
 {{< image-gallery gallery_dir="/images/1982_01_01_calendario_proiezioni" >}}
 ```{r setup, include=FALSE}
@@ -25,7 +26,7 @@ calendario_1982 <- agende %>%
           filter(str_detect(source, "Calendario 1982")) %>%
           left_join(imdb, by = "const")
 ```
-### Lista film
+### Programmazione
 ```{r echo=FALSE}
 calendario_1982 %>%
           arrange(date) %>%
