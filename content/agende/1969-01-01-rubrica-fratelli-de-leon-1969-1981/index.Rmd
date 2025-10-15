@@ -4,12 +4,12 @@ author: Vito Sestito
 date: '1969-01-01'
 slug: rubrica-fratelli-de-leon-1969-1981
 categories:
-  - Rubrica
+  - Rubriche
 tags:
   - Database
   - Proiezioni
+description: "Rubriche dove i film venivano annotati in ordine alfabetico, con data di proiezione e distributore."
 ---
-
 {{< image-gallery gallery_dir="/images/1969_01_01_rubrica_fratelli_de_leon_1969_1981" >}}
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
@@ -26,11 +26,11 @@ rubrica_1969_1981 <- agende %>%
           filter(str_detect(source, "Rubrica 1969-1981")) %>%
           left_join(imdb, by = "const")
 ```
-### Lista film
+### Programmazione
 ```{r echo=FALSE}
 rubrica_1969_1981 %>%
           arrange(date) %>%
   mutate(title = paste0("[",title,"]","(",url,")")) %>%
           select(date, title) %>%
-          knitr::kable(col.names = c("Data di proiezione", "Titolo"), align = c("l", "l", "l"))
+          knitr::kable(col.names = c("Data", "Titolo"), align = c("l", "l", "l"))
 ```

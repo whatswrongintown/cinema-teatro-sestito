@@ -5,226 +5,226 @@ date: '1966-01-01'
 slug: agenda-naonis-1966
 categories:
   - Agende
-  - Proiezioni
 tags:
-  - AgendaCinematografica
   - Database
+  - Proiezioni
+description: "Agende cinematografiche fornite dalle case distributrici. Contengono informazioni dettagliate sulla data di proiezione, titolo del film, distributore e l’ammontare degli incassi."
 ---
 
-### Lista film
+### Programmazione
 
-|Data di proiezione |Titolo                                                         |
-|:------------------|:--------------------------------------------------------------|
-|01/01/1966         |[I due toreri](https://www.imdb.com/title/tt0059121/)          |
-|01/04/1966         |[Il mondo nella mia tasca](https://www.imdb.com/title/tt0055252/)|
-|01/06/1966         |[Password: Uccidete agente Gordon](https://www.imdb.com/title/tt0060790/)|
-|01/07/1966         |[5 tombe per un medium](https://www.imdb.com/title/tt0060049/) |
-|01/08/1966         |[Intrigo a Los Angeles](https://www.imdb.com/title/tt0179881/) |
-|01/10/1966         |[Due marines e un generale](https://www.imdb.com/title/tt0061599/)|
-|02/01/1966         |[L'indomabile](https://www.imdb.com/title/tt0207596/)          |
-|02/03/1966         |[Sua Eccellenza si fermò a mangiare](https://www.imdb.com/title/tt0055488/)|
-|02/04/1966         |[El Cid](https://www.imdb.com/title/tt0054847/)                |
-|02/05/1966         |[Rififi a Tokyo](https://www.imdb.com/title/tt0055935/)        |
-|02/06/1966         |[I filibustieri dei mari del sud](https://www.imdb.com/title/tt0050497/)|
-|02/07/1966         |[002 agenti segretissimi](https://www.imdb.com/title/tt0058885/)|
-|02/09/1966         |[Viale della canzone](https://www.imdb.com/title/tt0191629/)   |
-|02/11/1966         |[Larry, agente segreto](https://www.imdb.com/title/tt0053018/) |
-|02/12/1966         |[Il triangolo circolare](https://www.imdb.com/title/tt0058158/)|
-|03/02/1966         |[Il pugno proibito dell'agente Warner](https://www.imdb.com/title/tt0059248/)|
-|03/03/1966         |[Umorismo in nero](https://www.imdb.com/title/tt0057615/)      |
-|03/08/1966         |[Maigret e i gangsters](https://www.imdb.com/title/tt0057278/) |
-|03/09/1966         |[La frusta e il corpo](https://www.imdb.com/title/tt0057078/)  |
-|03/10/1966         |[L'isola di Arturo](https://www.imdb.com/title/tt0056107/)     |
-|03/11/1966         |[La vendetta di Zorro](https://www.imdb.com/title/tt0276239/)  |
-|03/12/1966         |[Vento infuocato del Texas](https://www.imdb.com/title/tt0056867/)|
-|04/02/1966         |[Tamburi di guerra](https://www.imdb.com/title/tt0051179/)     |
-|04/03/1966         |[Il grande corsaro](https://www.imdb.com/title/tt0056975/)     |
-|04/04/1966         |[Il successo](https://www.imdb.com/title/tt0057540/)           |
-|04/05/1966         |[Tempo di guerra, tempo d'amore](https://www.imdb.com/title/tt0057840/)|
-|04/06/1966         |[Sfida a Rio Bravo](https://www.imdb.com/title/tt0059098/)     |
-|04/07/1966         |[Adolescenti al sole](https://www.imdb.com/title/tt0199301/)   |
-|04/09/1966         |[L'impero dell'odio](https://www.imdb.com/title/tt0056871/)    |
-|05/01/1966         |[I giganti di Roma](https://www.imdb.com/title/tt0058140/)     |
-|05/02/1966         |[Da 077: criminali a Hong Kong](https://www.imdb.com/title/tt0058742/)|
-|05/03/1966         |[Non son degno di te](https://www.imdb.com/title/tt0059517/)   |
-|05/05/1966         |[F.B.I. operazione Baalbeck](https://www.imdb.com/title/tt0172416/)|
-|05/06/1966         |[La donna che inventò lo strip-tease](https://www.imdb.com/title/tt0056048/)|
-|05/08/1966         |[Guardatele ma non toccatele](https://www.imdb.com/title/tt0052865/)|
-|05/10/1966         |[La doppia vita di Sylvia West](https://www.imdb.com/title/tt0059773/)|
-|05/11/1966         |[Le avventure di Scaramouche](https://www.imdb.com/title/tt0057343/)|
-|05/12/1966         |[Sinfonia per un sadico](https://www.imdb.com/title/tt0056220/)|
-|06/04/1966         |[Tarzan e la fontana magica](https://www.imdb.com/title/tt0041947/)|
-|06/06/1966         |[Normandia anno '43](https://www.imdb.com/title/tt0056375/)    |
-|06/08/1966         |[I rinnegati di Fort Grant](https://www.imdb.com/title/tt0058121/)|
-|06/10/1966         |[Adulterio all'italiana](https://www.imdb.com/title/tt0060070/)|
-|07/02/1966         |[Mafiosi a Marsiglia](https://www.imdb.com/title/tt0414992/)   |
-|07/03/1966         |[I giganti dell'oro nero](https://www.imdb.com/title/tt0296839/)|
-|07/05/1966         |[24 ore per uccidere](https://www.imdb.com/title/tt0059836/)   |
-|07/10/1966         |[Il grande cielo](https://www.imdb.com/title/tt0044419/)       |
-|07/11/1966         |[Lo strangolatore di Londra](https://www.imdb.com/title/tt0057676/)|
-|07/12/1966         |[Furto alla banca d'Inghilterra](https://www.imdb.com/title/tt0053752/)|
-|08/01/1966         |[Agente 007 - Licenza di uccidere](https://www.imdb.com/title/tt0055928/)|
-|08/06/1966         |[Tokio: divisione criminale](https://www.imdb.com/title/tt0380028/)|
-|08/07/1966         |[Nel blu dipinto di blu](https://www.imdb.com/title/tt0051984/)|
-|08/08/1966         |[Testimone d'accusa](https://www.imdb.com/title/tt0051201/)    |
-|08/09/1966         |[Il federale](https://www.imdb.com/title/tt0054870/)           |
-|08/10/1966         |[Rose rosse per Angelica](https://www.imdb.com/title/tt0060916/)|
-|08/12/1966         |[A 008 operazione sterminio](https://www.imdb.com/title/tt0058866/)|
-|09/02/1966         |[I fratelli di ferro](https://www.imdb.com/title/tt0054969/)   |
-|09/03/1966         |[La notte e il desiderio](https://www.imdb.com/title/tt0054837/)|
-|09/04/1966         |[Taras il magnifico](https://www.imdb.com/title/tt0056556/)    |
-|09/05/1966         |[Il ritorno del kentuckiano](https://www.imdb.com/title/tt0041361/)|
-|09/06/1966         |[I giovani leoni](https://www.imdb.com/title/tt0052415/)       |
-|09/07/1966         |[Saladino](https://www.imdb.com/title/tt0057357/)              |
-|09/09/1966         |[Via Veneto](https://www.imdb.com/title/tt0059869/)            |
-|09/11/1966         |[Le sirene urlano i mitra sparano](https://www.imdb.com/title/tt0136975/)|
-|09/12/1966         |[Baby doll - La bambola viva](https://www.imdb.com/title/tt0048973/)|
-|10/03/1966         |[100.000 dollari al sole](https://www.imdb.com/title/tt0056917/)|
-|10/08/1966         |[Zorro alla corte di Spagna](https://www.imdb.com/title/tt0056724/)|
-|10/09/1966         |[Te lo leggo negli occhi](https://www.imdb.com/title/tt0059784/)|
-|10/10/1966         |[La freccia di fuoco](https://www.imdb.com/title/tt0051420/)   |
-|10/11/1966         |[Jusqu'à plus soif (X 3 chiamate Brigitte)](https://www.imdb.com/title/tt0309749/)|
-|10/12/1966         |[Se sparo... ti uccido](https://www.imdb.com/title/tt0057979/) |
-|10/12/1966         |[Kid Rodelo](https://www.imdb.com/title/tt0059356/)            |
-|11/02/1966         |[Dove vai sono guai!](https://www.imdb.com/title/tt0057683/)   |
-|11/03/1966         |[I fuorilegge del Kansas](https://www.imdb.com/title/tt0044790/)|
-|11/04/1966         |[Il comandante](https://www.imdb.com/title/tt0056939/)         |
-|11/05/1966         |[Un giorno di terrore](https://www.imdb.com/title/tt0058283/)  |
-|11/06/1966         |[La schiava di Bagdad](https://www.imdb.com/title/tt0056485/)  |
-|11/11/1966         |[I rinnegati dell'isola misteriosa](https://www.imdb.com/title/tt0051581/)|
-|11/12/1966         |[Una ragazza da sedurre](https://www.imdb.com/title/tt0059868/)|
-|12/02/1966         |[In ginocchio da te](https://www.imdb.com/title/tt0058229/)    |
-|12/03/1966         |[I cavalieri della tavola rotonda](https://www.imdb.com/title/tt0045966/)|
-|12/05/1966         |[Diciottenni al sole](https://www.imdb.com/title/tt0055906/)   |
-|12/08/1966         |[La violenza è la mia legge](https://www.imdb.com/title/tt0058717/)|
-|12/09/1966         |[Spia S.05 missione infernale](https://www.imdb.com/title/tt0251420/)|
-|12/11/1966         |[Agente S3S: operazione Uranio](https://www.imdb.com/title/tt0058883/)|
-|12/11/1966         |[I conquistatori della Sirte](https://www.imdb.com/title/tt0043072/)|
-|12/12/1966         |[Questa volta parliamo di uomini](https://www.imdb.com/title/tt0059627/)|
-|13/05/1966         |[Notte senza fine](https://www.imdb.com/title/tt0039737/)      |
-|13/08/1966         |[Attila](https://www.imdb.com/title/tt0046731/)                |
-|13/10/1966         |[Sparate al drago verde](https://www.imdb.com/title/tt0057087/)|
-|14/01/1966         |[Operazione Tiziano](https://www.imdb.com/title/tt0180026/)    |
-|14/02/1966         |[Le pistole di Zorro](https://www.imdb.com/title/tt0043711/)   |
-|14/03/1966         |[Furto su misura](https://www.imdb.com/title/tt0056057/)       |
-|14/05/1966         |[La congiura dei dieci](https://www.imdb.com/title/tt0055865/) |
-|14/06/1966         |[Maciste contro Ercole nella valle dei guai ( I due pretoriani)](https://www.imdb.com/title/tt0122597/)|
-|14/07/1966         |[I senza paura](https://www.imdb.com/title/tt0055260/)         |
-|14/09/1966         |[Un figlio d'oggi](https://www.imdb.com/title/tt0173831/)      |
-|14/10/1966         |[...e la donna creò l'amore](https://www.imdb.com/title/tt0154461/)|
-|14/11/1966         |[Spionaggio senza frontiere](https://www.imdb.com/title/tt0057151/)|
-|14/12/1966         |[Dolci inganni](https://www.imdb.com/title/tt0053780/)         |
-|15/01/1966         |[Goliath e la schiava ribelle](https://www.imdb.com/title/tt0178516/)|
-|15/04/1966         |[Londra a mezzanotte](https://www.imdb.com/title/tt0053365/)   |
-|15/07/1966         |[La città vietata](https://www.imdb.com/title/tt0256102/)      |
-|15/08/1966         |[Il cantante del luna park](https://www.imdb.com/title/tt0058534/)|
-|15/09/1966         |[L'ultimo dei banditi](https://www.imdb.com/title/tt0050625/)  |
-|15/10/1966         |[Minnesota Clay](https://www.imdb.com/title/tt0058202/)        |
-|16/02/1966         |[Vento freddo d'agosto](https://www.imdb.com/title/tt0054755/) |
-|16/03/1966         |[Oltraggio al pudore](https://www.imdb.com/title/tt0061344/)   |
-|16/04/1966         |[Una lacrima sul viso](https://www.imdb.com/title/tt0058282/)  |
-|16/05/1966         |[L'omicida](https://www.imdb.com/title/tt0057303/)             |
-|16/06/1966         |[Il grande bluff](https://www.imdb.com/title/tt0137795/)       |
-|16/07/1966         |[Orizzonte di fuoco](https://www.imdb.com/title/tt0048090/)    |
-|16/08/1966         |[Ursus gladiatore ribelle](https://www.imdb.com/title/tt0057629/)|
-|16/09/1966         |[Recoil](https://www.imdb.com/title/tt0046231/)                |
-|16/11/1966         |[Watabanga!](https://www.imdb.com/title/tt0057914/)            |
-|17/02/1966         |[La strage del 7º Cavalleggeri](https://www.imdb.com/title/tt0047501/)|
-|17/03/1966         |[Sulla sabbia è passata la morte](https://www.imdb.com/title/tt0056100/)|
-|17/06/1966         |[Assassino sulla Costa Azzurra](https://www.imdb.com/title/tt0353260/)|
-|17/08/1966         |[Rapina al campo 3](https://www.imdb.com/title/tt0056377/)     |
-|17/09/1966         |[L'incendio di Roma](https://www.imdb.com/title/tt0057179/)    |
-|17/10/1966         |[Avanzi di galera](https://www.imdb.com/title/tt0046735/)      |
-|17/12/1966         |[Se non avessi più te](https://www.imdb.com/title/tt0059690/)  |
-|18/02/1966         |[Esperimento IS: il mondo si frantuma](https://www.imdb.com/title/tt0059065/)|
-|18/03/1966         |[Letti sbagliati](https://www.imdb.com/title/tt0059384/)       |
-|18/04/1966         |[Momento selvaggio](https://www.imdb.com/title/tt0055464/)     |
-|18/05/1966         |[Battaglia sulla spiaggia insanguinata](https://www.imdb.com/title/tt0054671/)|
-|18/06/1966         |[Tre contro tutti](https://www.imdb.com/title/tt0056470/)      |
-|18/11/1966         |[Tecnica di una spia](https://www.imdb.com/title/tt0062409/)   |
-|19/02/1966         |[Maciste, gladiatore di Sparta](https://www.imdb.com/title/tt0058312/)|
-|19/03/1966         |[Il re dei re](https://www.imdb.com/title/tt0055047/)          |
-|19/05/1966         |[I misteri di Parigi](https://www.imdb.com/title/tt0056268/)   |
-|19/08/1966         |[Chiamate Scotland Yard 0075](https://www.imdb.com/title/tt0058706/)|
-|19/09/1966         |[I giovani fucili del Texas](https://www.imdb.com/title/tt0056710/)|
-|19/09/1966         |[Giorni caldi a Palm Springs](https://www.imdb.com/title/tt0057396/)|
-|19/10/1966         |[L'armata delle belve](https://www.imdb.com/title/tt0059638/)  |
-|19/11/1966         |[Fantomas 70](https://www.imdb.com/title/tt0058089/)           |
-|19/12/1966         |[C'era una volta un piccolo naviglio](https://www.imdb.com/title/tt0052749/)|
-|20/01/1966         |[L'implacabile cordobes](https://www.imdb.com/title/tt0055756/)|
-|20/04/1966         |[Pistole roventi](https://www.imdb.com/title/tt0060483/)       |
-|20/06/1966         |[Il dubbio](https://www.imdb.com/title/tt0055214/)             |
-|20/08/1966         |[Saul e David](https://www.imdb.com/title/tt0059681/)          |
-|20/10/1966         |[Club di gangsters](https://www.imdb.com/title/tt0050772/)     |
-|21/01/1966         |[La vita agra](https://www.imdb.com/title/tt0061157/)          |
-|21/02/1966         |[Tra due donne](https://www.imdb.com/title/tt0054236/)         |
-|21/03/1966         |[I disperati della gloria](https://www.imdb.com/title/tt0058452/)|
-|21/04/1966         |[Le calde amanti di Kyoto](https://www.imdb.com/title/tt0058407/)|
-|21/05/1966         |[I predoni del Sahara](https://www.imdb.com/title/tt0195173/)  |
-|21/10/1966         |[Anastasia](https://www.imdb.com/title/tt0048947/)             |
-|21/11/1966         |[Romantico avventuriero](https://www.imdb.com/title/tt0042531/)|
-|21/12/1966         |[Le sorelle di Zorro](https://www.imdb.com/title/tt0279860/)   |
-|22/01/1966         |[Marco Polo](https://www.imdb.com/title/tt0055141/)            |
-|22/02/1966         |[Zorro il vendicatore](https://www.imdb.com/title/tt0056652/)  |
-|22/04/1966         |[L'ispettore spara a vista](https://www.imdb.com/title/tt0058368/)|
-|22/05/1966         |[Estasi d'amore - Operazione Love](https://www.imdb.com/title/tt0051364/)|
-|22/06/1966         |[La camera blindata](https://www.imdb.com/title/tt0055484/)    |
-|22/08/1966         |[La voglia matta](https://www.imdb.com/title/tt0056665/)       |
-|22/09/1966         |[La rivolta di Frankenstein](https://www.imdb.com/title/tt0058073/)|
-|22/10/1966         |[Rio Conchos](https://www.imdb.com/title/tt0058525/)           |
-|22/12/1966         |[Con rispetto parlando](https://www.imdb.com/title/tt0166150/) |
-|23/02/1966         |[Rapina al Cairo](https://www.imdb.com/title/tt0056894/)       |
-|23/03/1966         |[La città nuda](https://www.imdb.com/title/tt0040636/)         |
-|23/04/1966         |[L'uomo che non sapeva amare](https://www.imdb.com/title/tt0057917/)|
-|23/05/1966         |[Agente Coplan: missione spionaggio](https://www.imdb.com/title/tt0056953/)|
-|23/07/1966         |[Una vergine per il bandito](https://www.imdb.com/title/tt0055717/)|
-|23/09/1966         |[Missione in oriente - Il brutto americano](https://www.imdb.com/title/tt0056632/)|
-|23/12/1966         |[Gli eroi del Pacifico - La pattuglia invisibile](https://www.imdb.com/title/tt0037522/)|
-|24/02/1966         |[Il sentiero dei disperati](https://www.imdb.com/title/tt0056395/)|
-|24/03/1966         |[I fuorilegge della valle solitaria](https://www.imdb.com/title/tt0056448/)|
-|24/09/1966         |[La vendetta di Spartacus](https://www.imdb.com/title/tt0059862/)|
-|24/10/1966         |[La finestra della morte](https://www.imdb.com/title/tt0056951/)|
-|24/12/1966         |[Uno straniero a Sacramento](https://www.imdb.com/title/tt0059760/)|
-|25/02/1966         |[La legge contro Billy Kid](https://www.imdb.com/title/tt0047163/)|
-|25/04/1966         |[La ragazza che sapeva troppo](https://www.imdb.com/title/tt0057443/)|
-|25/05/1966         |[Le massaggiatrici](https://www.imdb.com/title/tt0057294/)     |
-|25/06/1966         |[Il magnifico gladiatore](https://www.imdb.com/title/tt0290240/)|
-|25/07/1966         |[L'uomo che vinse la morte](https://www.imdb.com/title/tt0056601/)|
-|25/11/1966         |[I tre sergenti del Bengala](https://www.imdb.com/title/tt0059828/)|
-|26/02/1966         |[Siamo tutti pomicioni](https://www.imdb.com/title/tt0186544/) |
-|26/03/1966         |[I figli del leopardo](https://www.imdb.com/title/tt0150548/)  |
-|26/09/1966         |[La vedovella](https://www.imdb.com/title/tt0197997/)          |
-|26/10/1966         |[Veneri in collegio](https://www.imdb.com/title/tt0061628/)    |
-|26/11/1966         |[Per un pugno di dollari](https://www.imdb.com/title/tt0058461/)|
-|26/12/1966         |[Il terrore dei mantelli rossi](https://www.imdb.com/title/tt0057570/)|
-|27/01/1966         |[La morte nera](https://www.imdb.com/title/tt0057890/)         |
-|27/02/1966         |[Il gaucho](https://www.imdb.com/title/tt0134668/)             |
-|27/04/1966         |[Operazione terzo uomo](https://www.imdb.com/title/tt0138782/) |
-|27/06/1966         |[L'urlo di guerra degli apaches](https://www.imdb.com/title/tt0051349/)|
-|27/07/1966         |[Arsenio Lupin contro Arsenio Lupin](https://www.imdb.com/title/tt0055759/)|
-|27/10/1966         |[Agente S03 operazione Atlantide](https://www.imdb.com/title/tt0058879/)|
-|27/12/1966         |[Io uccido, tu uccidi](https://www.imdb.com/title/tt0059317/)  |
-|28/01/1966         |[Giuramento di sangue](https://www.imdb.com/title/tt0032178/)  |
-|28/02/1966         |[Horror](https://www.imdb.com/title/tt0057155/)                |
-|28/03/1966         |[Super rapina a Milano](https://www.imdb.com/title/tt0168201/) |
-|28/04/1966         |[L'ombra della vendetta](https://www.imdb.com/title/tt0054770/)|
-|28/05/1966         |[Ursus, il terrore dei kirghisi](https://www.imdb.com/title/tt0058712/)|
-|28/08/1966         |[Agente 007 - Thunderball: operazione tuono](https://www.imdb.com/title/tt0059800/)|
-|28/09/1966         |[Tra moglie e marito](https://www.imdb.com/title/tt0057688/)   |
-|28/10/1966         |[Marines Battleground](https://www.imdb.com/title/tt0239594/)  |
-|28/11/1966         |[Cole il fuorilegge](https://www.imdb.com/title/tt0051482/)    |
-|28/12/1966         |[Il muro dei dollari](https://www.imdb.com/title/tt0057667/)   |
-|29/01/1966         |[La rivolta degli schiavi](https://www.imdb.com/title/tt0055377/)|
-|29/04/1966         |[Il gigante della roccia del falco](https://www.imdb.com/title/tt0059107/)|
-|29/06/1966         |[Italiani brava gente](https://www.imdb.com/title/tt0059323/)  |
-|29/08/1966         |[Le più belle truffe del mondo](https://www.imdb.com/title/tt0058480/)|
-|29/10/1966         |[A 117 colpo grosso a Los Angeles](https://www.imdb.com/title/tt0268576/)|
-|30/03/1966         |[Il coltello nella piaga](https://www.imdb.com/title/tt0056957/)|
-|30/04/1966         |[1000 dollari per un Winchester](https://www.imdb.com/title/tt0057891/)|
-|30/05/1966         |[I temibili 7](https://www.imdb.com/title/tt0210354/)          |
-|30/07/1966         |[Zulu](https://www.imdb.com/title/tt0058777/)                  |
-|30/10/1966         |[Cleopatra](https://www.imdb.com/title/tt0056937/)             |
-|30/11/1966         |[Cannoni a batasi](https://www.imdb.com/title/tt0058166/)      |
-|30/12/1966         |[2+5: Missione Hydra](https://www.imdb.com/title/tt0058859/)   |
-|31/08/1966         |[Amore mio](https://www.imdb.com/title/tt0158462/)             |
-|31/12/1966         |[I due sanculotti](https://www.imdb.com/title/tt0060353/)      |
+|Data       |Titolo                                                         |
+|:----------|:--------------------------------------------------------------|
+|1966-01-01 |[I due toreri](https://www.imdb.com/title/tt0059121/)          |
+|1966-01-02 |[L'indomabile](https://www.imdb.com/title/tt0207596/)          |
+|1966-01-05 |[I giganti di Roma](https://www.imdb.com/title/tt0058140/)     |
+|1966-01-08 |[Agente 007 - Licenza di uccidere](https://www.imdb.com/title/tt0055928/)|
+|1966-01-14 |[Operazione Tiziano](https://www.imdb.com/title/tt0180026/)    |
+|1966-01-15 |[Goliath e la schiava ribelle](https://www.imdb.com/title/tt0178516/)|
+|1966-01-20 |[L'implacabile cordobes](https://www.imdb.com/title/tt0055756/)|
+|1966-01-21 |[La vita agra](https://www.imdb.com/title/tt0061157/)          |
+|1966-01-22 |[Marco Polo](https://www.imdb.com/title/tt0055141/)            |
+|1966-01-27 |[La morte nera](https://www.imdb.com/title/tt0057890/)         |
+|1966-01-28 |[Giuramento di sangue](https://www.imdb.com/title/tt0032178/)  |
+|1966-01-29 |[La rivolta degli schiavi](https://www.imdb.com/title/tt0055377/)|
+|1966-02-03 |[Il pugno proibito dell'agente Warner](https://www.imdb.com/title/tt0059248/)|
+|1966-02-04 |[Tamburi di guerra](https://www.imdb.com/title/tt0051179/)     |
+|1966-02-05 |[Da 077: criminali a Hong Kong](https://www.imdb.com/title/tt0058742/)|
+|1966-02-07 |[Mafiosi a Marsiglia](https://www.imdb.com/title/tt0414992/)   |
+|1966-02-09 |[I fratelli di ferro](https://www.imdb.com/title/tt0054969/)   |
+|1966-02-11 |[Dove vai sono guai!](https://www.imdb.com/title/tt0057683/)   |
+|1966-02-12 |[In ginocchio da te](https://www.imdb.com/title/tt0058229/)    |
+|1966-02-14 |[Le pistole di Zorro](https://www.imdb.com/title/tt0043711/)   |
+|1966-02-16 |[Vento freddo d'agosto](https://www.imdb.com/title/tt0054755/) |
+|1966-02-17 |[La strage del 7º Cavalleggeri](https://www.imdb.com/title/tt0047501/)|
+|1966-02-18 |[Esperimento IS: il mondo si frantuma](https://www.imdb.com/title/tt0059065/)|
+|1966-02-19 |[Maciste, gladiatore di Sparta](https://www.imdb.com/title/tt0058312/)|
+|1966-02-21 |[Tra due donne](https://www.imdb.com/title/tt0054236/)         |
+|1966-02-22 |[Zorro il vendicatore](https://www.imdb.com/title/tt0056652/)  |
+|1966-02-23 |[Rapina al Cairo](https://www.imdb.com/title/tt0056894/)       |
+|1966-02-24 |[Il sentiero dei disperati](https://www.imdb.com/title/tt0056395/)|
+|1966-02-25 |[La legge contro Billy Kid](https://www.imdb.com/title/tt0047163/)|
+|1966-02-26 |[Siamo tutti pomicioni](https://www.imdb.com/title/tt0186544/) |
+|1966-02-27 |[Il gaucho](https://www.imdb.com/title/tt0134668/)             |
+|1966-02-28 |[Horror](https://www.imdb.com/title/tt0057155/)                |
+|1966-03-02 |[Sua Eccellenza si fermò a mangiare](https://www.imdb.com/title/tt0055488/)|
+|1966-03-03 |[Umorismo in nero](https://www.imdb.com/title/tt0057615/)      |
+|1966-03-04 |[Il grande corsaro](https://www.imdb.com/title/tt0056975/)     |
+|1966-03-05 |[Non son degno di te](https://www.imdb.com/title/tt0059517/)   |
+|1966-03-07 |[I giganti dell'oro nero](https://www.imdb.com/title/tt0296839/)|
+|1966-03-09 |[La notte e il desiderio](https://www.imdb.com/title/tt0054837/)|
+|1966-03-10 |[100.000 dollari al sole](https://www.imdb.com/title/tt0056917/)|
+|1966-03-11 |[I fuorilegge del Kansas](https://www.imdb.com/title/tt0044790/)|
+|1966-03-12 |[I cavalieri della tavola rotonda](https://www.imdb.com/title/tt0045966/)|
+|1966-03-14 |[Furto su misura](https://www.imdb.com/title/tt0056057/)       |
+|1966-03-16 |[Oltraggio al pudore](https://www.imdb.com/title/tt0061344/)   |
+|1966-03-17 |[Sulla sabbia è passata la morte](https://www.imdb.com/title/tt0056100/)|
+|1966-03-18 |[Letti sbagliati](https://www.imdb.com/title/tt0059384/)       |
+|1966-03-19 |[Il re dei re](https://www.imdb.com/title/tt0055047/)          |
+|1966-03-21 |[I disperati della gloria](https://www.imdb.com/title/tt0058452/)|
+|1966-03-23 |[La città nuda](https://www.imdb.com/title/tt0040636/)         |
+|1966-03-24 |[I fuorilegge della valle solitaria](https://www.imdb.com/title/tt0056448/)|
+|1966-03-26 |[I figli del leopardo](https://www.imdb.com/title/tt0150548/)  |
+|1966-03-28 |[Super rapina a Milano](https://www.imdb.com/title/tt0168201/) |
+|1966-03-30 |[Il coltello nella piaga](https://www.imdb.com/title/tt0056957/)|
+|1966-04-01 |[Il mondo nella mia tasca](https://www.imdb.com/title/tt0055252/)|
+|1966-04-02 |[El Cid](https://www.imdb.com/title/tt0054847/)                |
+|1966-04-04 |[Il successo](https://www.imdb.com/title/tt0057540/)           |
+|1966-04-06 |[Tarzan e la fontana magica](https://www.imdb.com/title/tt0041947/)|
+|1966-04-09 |[Taras il magnifico](https://www.imdb.com/title/tt0056556/)    |
+|1966-04-11 |[Il comandante](https://www.imdb.com/title/tt0056939/)         |
+|1966-04-15 |[Londra a mezzanotte](https://www.imdb.com/title/tt0053365/)   |
+|1966-04-16 |[Una lacrima sul viso](https://www.imdb.com/title/tt0058282/)  |
+|1966-04-18 |[Momento selvaggio](https://www.imdb.com/title/tt0055464/)     |
+|1966-04-20 |[Pistole roventi](https://www.imdb.com/title/tt0060483/)       |
+|1966-04-21 |[Le calde amanti di Kyoto](https://www.imdb.com/title/tt0058407/)|
+|1966-04-22 |[L'ispettore spara a vista](https://www.imdb.com/title/tt0058368/)|
+|1966-04-23 |[L'uomo che non sapeva amare](https://www.imdb.com/title/tt0057917/)|
+|1966-04-25 |[La ragazza che sapeva troppo](https://www.imdb.com/title/tt0057443/)|
+|1966-04-27 |[Operazione terzo uomo](https://www.imdb.com/title/tt0138782/) |
+|1966-04-28 |[L'ombra della vendetta](https://www.imdb.com/title/tt0054770/)|
+|1966-04-29 |[Il gigante della roccia del falco](https://www.imdb.com/title/tt0059107/)|
+|1966-04-30 |[1000 dollari per un Winchester](https://www.imdb.com/title/tt0057891/)|
+|1966-05-02 |[Rififi a Tokyo](https://www.imdb.com/title/tt0055935/)        |
+|1966-05-04 |[Tempo di guerra, tempo d'amore](https://www.imdb.com/title/tt0057840/)|
+|1966-05-05 |[F.B.I. operazione Baalbeck](https://www.imdb.com/title/tt0172416/)|
+|1966-05-06 |[La donna che inventò lo strip-tease](https://www.imdb.com/title/tt0056048/)|
+|1966-05-07 |[24 ore per uccidere](https://www.imdb.com/title/tt0059836/)   |
+|1966-05-09 |[Il ritorno del kentuckiano](https://www.imdb.com/title/tt0041361/)|
+|1966-05-11 |[Un giorno di terrore](https://www.imdb.com/title/tt0058283/)  |
+|1966-05-12 |[Diciottenni al sole](https://www.imdb.com/title/tt0055906/)   |
+|1966-05-13 |[Notte senza fine](https://www.imdb.com/title/tt0039737/)      |
+|1966-05-14 |[La congiura dei dieci](https://www.imdb.com/title/tt0055865/) |
+|1966-05-16 |[L'omicida](https://www.imdb.com/title/tt0057303/)             |
+|1966-05-18 |[Battaglia sulla spiaggia insanguinata](https://www.imdb.com/title/tt0054671/)|
+|1966-05-19 |[I misteri di Parigi](https://www.imdb.com/title/tt0056268/)   |
+|1966-05-21 |[I predoni del Sahara](https://www.imdb.com/title/tt0195173/)  |
+|1966-05-22 |[Estasi d'amore - Operazione Love](https://www.imdb.com/title/tt0051364/)|
+|1966-05-23 |[Agente Coplan: missione spionaggio](https://www.imdb.com/title/tt0056953/)|
+|1966-05-25 |[Le massaggiatrici](https://www.imdb.com/title/tt0057294/)     |
+|1966-05-28 |[Ursus, il terrore dei kirghisi](https://www.imdb.com/title/tt0058712/)|
+|1966-05-30 |[I temibili 7](https://www.imdb.com/title/tt0210354/)          |
+|1966-06-01 |[Password: Uccidete agente Gordon](https://www.imdb.com/title/tt0060790/)|
+|1966-06-02 |[I filibustieri dei mari del sud](https://www.imdb.com/title/tt0050497/)|
+|1966-06-04 |[Sfida a Rio Bravo](https://www.imdb.com/title/tt0059098/)     |
+|1966-06-06 |[Normandia anno '43](https://www.imdb.com/title/tt0056375/)    |
+|1966-06-08 |[Tokio: divisione criminale](https://www.imdb.com/title/tt0380028/)|
+|1966-06-09 |[I giovani leoni](https://www.imdb.com/title/tt0052415/)       |
+|1966-06-11 |[La schiava di Bagdad](https://www.imdb.com/title/tt0056485/)  |
+|1966-06-14 |[Maciste contro Ercole nella valle dei guai ( I due pretoriani)](https://www.imdb.com/title/tt0122597/)|
+|1966-06-16 |[Il grande bluff](https://www.imdb.com/title/tt0137795/)       |
+|1966-06-17 |[Assassino sulla Costa Azzurra](https://www.imdb.com/title/tt0353260/)|
+|1966-06-18 |[Tre contro tutti](https://www.imdb.com/title/tt0056470/)      |
+|1966-06-20 |[Il dubbio](https://www.imdb.com/title/tt0055214/)             |
+|1966-06-22 |[La camera blindata](https://www.imdb.com/title/tt0055484/)    |
+|1966-06-25 |[Il magnifico gladiatore](https://www.imdb.com/title/tt0290240/)|
+|1966-06-27 |[L'urlo di guerra degli apaches](https://www.imdb.com/title/tt0051349/)|
+|1966-06-29 |[Italiani brava gente](https://www.imdb.com/title/tt0059323/)  |
+|1966-07-01 |[5 tombe per un medium](https://www.imdb.com/title/tt0060049/) |
+|1966-07-02 |[002 agenti segretissimi](https://www.imdb.com/title/tt0058885/)|
+|1966-07-04 |[Adolescenti al sole](https://www.imdb.com/title/tt0199301/)   |
+|1966-07-08 |[Nel blu dipinto di blu](https://www.imdb.com/title/tt0051984/)|
+|1966-07-09 |[Saladino](https://www.imdb.com/title/tt0057357/)              |
+|1966-07-14 |[I senza paura](https://www.imdb.com/title/tt0055260/)         |
+|1966-07-15 |[La città vietata](https://www.imdb.com/title/tt0256102/)      |
+|1966-07-16 |[Orizzonte di fuoco](https://www.imdb.com/title/tt0048090/)    |
+|1966-07-23 |[Una vergine per il bandito](https://www.imdb.com/title/tt0055717/)|
+|1966-07-25 |[L'uomo che vinse la morte](https://www.imdb.com/title/tt0056601/)|
+|1966-07-27 |[Arsenio Lupin contro Arsenio Lupin](https://www.imdb.com/title/tt0055759/)|
+|1966-07-30 |[Zulu](https://www.imdb.com/title/tt0058777/)                  |
+|1966-08-01 |[Intrigo a Los Angeles](https://www.imdb.com/title/tt0179881/) |
+|1966-08-03 |[Maigret e i gangsters](https://www.imdb.com/title/tt0057278/) |
+|1966-08-05 |[Guardatele ma non toccatele](https://www.imdb.com/title/tt0052865/)|
+|1966-08-06 |[I rinnegati di Fort Grant](https://www.imdb.com/title/tt0058121/)|
+|1966-08-08 |[Testimone d'accusa](https://www.imdb.com/title/tt0051201/)    |
+|1966-08-10 |[Zorro alla corte di Spagna](https://www.imdb.com/title/tt0056724/)|
+|1966-08-12 |[La violenza è la mia legge](https://www.imdb.com/title/tt0058717/)|
+|1966-08-13 |[Attila](https://www.imdb.com/title/tt0046731/)                |
+|1966-08-15 |[Il cantante del luna park](https://www.imdb.com/title/tt0058534/)|
+|1966-08-16 |[Ursus gladiatore ribelle](https://www.imdb.com/title/tt0057629/)|
+|1966-08-17 |[Rapina al campo 3](https://www.imdb.com/title/tt0056377/)     |
+|1966-08-19 |[Chiamate Scotland Yard 0075](https://www.imdb.com/title/tt0058706/)|
+|1966-08-20 |[Saul e David](https://www.imdb.com/title/tt0059681/)          |
+|1966-08-22 |[La voglia matta](https://www.imdb.com/title/tt0056665/)       |
+|1966-08-28 |[008: Operazione ritmo](https://www.imdb.com/title/tt0190940/) |
+|1966-08-29 |[Le più belle truffe del mondo](https://www.imdb.com/title/tt0058480/)|
+|1966-08-31 |[Amore mio](https://www.imdb.com/title/tt0158462/)             |
+|1966-09-02 |[Viale della canzone](https://www.imdb.com/title/tt0191629/)   |
+|1966-09-03 |[La frusta e il corpo](https://www.imdb.com/title/tt0057078/)  |
+|1966-09-04 |[L'impero dell'odio](https://www.imdb.com/title/tt0056871/)    |
+|1966-09-08 |[Il federale](https://www.imdb.com/title/tt0054870/)           |
+|1966-09-09 |[Via Veneto](https://www.imdb.com/title/tt0059869/)            |
+|1966-09-10 |[Te lo leggo negli occhi](https://www.imdb.com/title/tt0059784/)|
+|1966-09-12 |[Spia S.05 missione infernale](https://www.imdb.com/title/tt0251420/)|
+|1966-09-14 |[Un figlio d'oggi](https://www.imdb.com/title/tt0173831/)      |
+|1966-09-15 |[L'ultimo dei banditi](https://www.imdb.com/title/tt0050625/)  |
+|1966-09-16 |[Recoil](https://www.imdb.com/title/tt0046231/)                |
+|1966-09-17 |[L'incendio di Roma](https://www.imdb.com/title/tt0057179/)    |
+|1966-09-19 |[I giovani fucili del Texas](https://www.imdb.com/title/tt0056710/)|
+|1966-09-22 |[La rivolta di Frankenstein](https://www.imdb.com/title/tt0058073/)|
+|1966-09-23 |[Missione in oriente - Il brutto americano](https://www.imdb.com/title/tt0056632/)|
+|1966-09-24 |[La vendetta di Spartacus](https://www.imdb.com/title/tt0059862/)|
+|1966-09-25 |[Tra moglie e marito](https://www.imdb.com/title/tt0057688/)   |
+|1966-09-26 |[La vedovella](https://www.imdb.com/title/tt0197997/)          |
+|1966-09-28 |[Giorni caldi a Palm Springs](https://www.imdb.com/title/tt0057396/)|
+|1966-10-01 |[Due marines e un generale](https://www.imdb.com/title/tt0061599/)|
+|1966-10-03 |[L'isola di Arturo](https://www.imdb.com/title/tt0056107/)     |
+|1966-10-05 |[La doppia vita di Sylvia West](https://www.imdb.com/title/tt0059773/)|
+|1966-10-06 |[Adulterio all'italiana](https://www.imdb.com/title/tt0060070/)|
+|1966-10-07 |[Il grande cielo](https://www.imdb.com/title/tt0044419/)       |
+|1966-10-08 |[Rose rosse per Angelica](https://www.imdb.com/title/tt0060916/)|
+|1966-10-10 |[La freccia di fuoco](https://www.imdb.com/title/tt0051420/)   |
+|1966-10-12 |[Kid Rodelo](https://www.imdb.com/title/tt0059356/)            |
+|1966-10-13 |[Sparate al drago verde](https://www.imdb.com/title/tt0057087/)|
+|1966-10-14 |[...e la donna creò l'amore](https://www.imdb.com/title/tt0154461/)|
+|1966-10-15 |[Minnesota Clay](https://www.imdb.com/title/tt0058202/)        |
+|1966-10-17 |[Avanzi di galera](https://www.imdb.com/title/tt0046735/)      |
+|1966-10-19 |[L'armata delle belve](https://www.imdb.com/title/tt0059638/)  |
+|1966-10-20 |[Club di gangsters](https://www.imdb.com/title/tt0050772/)     |
+|1966-10-21 |[Anastasia](https://www.imdb.com/title/tt0048947/)             |
+|1966-10-22 |[Rio Conchos](https://www.imdb.com/title/tt0058525/)           |
+|1966-10-24 |[La finestra della morte](https://www.imdb.com/title/tt0056951/)|
+|1966-10-26 |[Veneri in collegio](https://www.imdb.com/title/tt0061628/)    |
+|1966-10-27 |[Agente S03 operazione Atlantide](https://www.imdb.com/title/tt0058879/)|
+|1966-10-28 |[Marines Battleground](https://www.imdb.com/title/tt0239594/)  |
+|1966-10-29 |[A 117 colpo grosso a Los Angeles](https://www.imdb.com/title/tt0268576/)|
+|1966-10-30 |[Cleopatra](https://www.imdb.com/title/tt0056937/)             |
+|1966-11-02 |[Larry, agente segreto](https://www.imdb.com/title/tt0053018/) |
+|1966-11-03 |[La vendetta di Zorro](https://www.imdb.com/title/tt0276239/)  |
+|1966-11-05 |[Le avventure di Scaramouche](https://www.imdb.com/title/tt0057343/)|
+|1966-11-07 |[Lo strangolatore di Londra](https://www.imdb.com/title/tt0057676/)|
+|1966-11-09 |[Le sirene urlano i mitra sparano](https://www.imdb.com/title/tt0136975/)|
+|1966-11-10 |[X 3 chiamate Brigitte (Jusqu'à plus soif)](https://www.imdb.com/title/tt0309749/)|
+|1966-11-11 |[I rinnegati dell'isola misteriosa](https://www.imdb.com/title/tt0051581/)|
+|1966-11-12 |[Agente S3S: operazione Uranio](https://www.imdb.com/title/tt0058883/)|
+|1966-11-12 |[I conquistatori della Sirte](https://www.imdb.com/title/tt0043072/)|
+|1966-11-14 |[Spionaggio senza frontiere](https://www.imdb.com/title/tt0057151/)|
+|1966-11-16 |[Watabanga!](https://www.imdb.com/title/tt0057914/)            |
+|1966-11-18 |[Tecnica di una spia](https://www.imdb.com/title/tt0062409/)   |
+|1966-11-19 |[Fantomas 70](https://www.imdb.com/title/tt0058089/)           |
+|1966-11-21 |[Il fuorilegge del Texas (Romantico avventuriero)](https://www.imdb.com/title/tt0042531/)|
+|1966-11-25 |[I tre sergenti del Bengala](https://www.imdb.com/title/tt0059828/)|
+|1966-11-26 |[Per un pugno di dollari](https://www.imdb.com/title/tt0058461/)|
+|1966-11-28 |[Cole il fuorilegge](https://www.imdb.com/title/tt0051482/)    |
+|1966-11-30 |[Cannoni a batasi](https://www.imdb.com/title/tt0058166/)      |
+|1966-12-02 |[Il triangolo circolare](https://www.imdb.com/title/tt0058158/)|
+|1966-12-03 |[Vento infuocato del Texas](https://www.imdb.com/title/tt0056867/)|
+|1966-12-05 |[Sinfonia per un sadico](https://www.imdb.com/title/tt0056220/)|
+|1966-12-07 |[Furto alla banca d'Inghilterra](https://www.imdb.com/title/tt0053752/)|
+|1966-12-08 |[A 008 operazione sterminio](https://www.imdb.com/title/tt0058866/)|
+|1966-12-09 |[Baby doll - La bambola viva](https://www.imdb.com/title/tt0048973/)|
+|1966-12-10 |[Se sparo... ti uccido](https://www.imdb.com/title/tt0057979/) |
+|1966-12-12 |[Questa volta parliamo di uomini](https://www.imdb.com/title/tt0059627/)|
+|1966-12-14 |[Dolci inganni](https://www.imdb.com/title/tt0053780/)         |
+|1966-12-16 |[Una ragazza da sedurre](https://www.imdb.com/title/tt0059868/)|
+|1966-12-17 |[Se non avessi più te](https://www.imdb.com/title/tt0059690/)  |
+|1966-12-19 |[C'era una volta un piccolo naviglio](https://www.imdb.com/title/tt0052749/)|
+|1966-12-21 |[Le sorelle di Zorro](https://www.imdb.com/title/tt0279860/)   |
+|1966-12-22 |[Con rispetto parlando](https://www.imdb.com/title/tt0166150/) |
+|1966-12-23 |[Gli eroi del Pacifico - La pattuglia invisibile](https://www.imdb.com/title/tt0037522/)|
+|1966-12-24 |[Uno straniero a Sacramento](https://www.imdb.com/title/tt0059760/)|
+|1966-12-26 |[Il terrore dei mantelli rossi](https://www.imdb.com/title/tt0057570/)|
+|1966-12-27 |[Io uccido, tu uccidi](https://www.imdb.com/title/tt0059317/)  |
+|1966-12-28 |[Il muro dei dollari](https://www.imdb.com/title/tt0057667/)   |
+|1966-12-30 |[2+5: Missione Hydra](https://www.imdb.com/title/tt0058859/)   |
+|1966-12-31 |[I due sanculotti](https://www.imdb.com/title/tt0060353/)      |
