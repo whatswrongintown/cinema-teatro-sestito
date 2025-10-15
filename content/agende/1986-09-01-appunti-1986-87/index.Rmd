@@ -10,7 +10,7 @@ tags:
   - Proiezioni
 description: "Appunti su blocchi o fogli, con i film registrati per mese. Riportano gli incassi dei film quando disponibili."
 ---
-{{< image-gallery gallery_dir="/images/1986_09_01_cif_1986_87" >}}
+{{< image-gallery gallery_dir="/images/1986_09_01_appunti_cif_1986_87" >}}
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 
