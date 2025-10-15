@@ -8,6 +8,7 @@ categories:
 tags:
   - Database
   - Proiezioni
+description: "Agende cinematografiche fornite dalle case distributrici. Contengono informazioni dettagliate sulla data di proiezione, titolo del film, distributore e l’ammontare degli incassi."
 ---
 {{< image-gallery gallery_dir="/images/1977_11_01_prevost_1977_78" >}}
 ```{r setup, include=FALSE}
@@ -25,7 +26,7 @@ prevost_1977_78 <- agende %>%
           filter(str_detect(source, "Prevost 1977-78")) %>%
           left_join(imdb, by = "const")
 ```
-### Lista film
+### Programmazione
 ```{r echo=FALSE}
 prevost_1977_78 %>%
           arrange(date) %>%

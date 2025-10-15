@@ -4,15 +4,16 @@ author: Vito Sestito
 date: '1974-01-01'
 slug: rubrica-fratelli-de-leon-1974-75
 categories:
-  - Rubrica
+  - Rubriche
 tags:
   - Database
   - Proiezioni
+description: "Rubriche dove i film venivano annotati in ordine alfabetico, con data di proiezione e distributore."
 ---
 
 {{< image-gallery gallery_dir="/images/1974_01_01_rubrica_fratelli_de_leon_1974_75" >}}
 
-### Lista film
+### Programmazione
 
 |Data di proiezione |Titolo                                                                                      |
 |:------------------|:-------------------------------------------------------------------------------------------|

@@ -8,10 +8,11 @@ categories:
 tags:
   - Database
   - Proiezioni
+description: "Agende cinematografiche fornite dalle case distributrici. Contengono informazioni dettagliate sulla data di proiezione, titolo del film, distributore e l’ammontare degli incassi."
 ---
 {{< image-gallery gallery_dir="/images/1975_11_01_fedi_1975_76" >}}
 
-### Lista film
+### Programmazione
 
 |Data di proiezione |Titolo                                                             |
 |:------------------|:------------------------------------------------------------------|

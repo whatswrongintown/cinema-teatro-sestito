@@ -4,10 +4,11 @@ author: Vito Sestito
 date: '1978-01-01'
 slug: rubrica-fratelli-de-leon-1978-79
 categories:
-  - Rubrica
+  - Rubriche
 tags:
   - Database
   - Proiezioni
+description: "Rubriche dove i film venivano annotati in ordine alfabetico, con data di proiezione e distributore."
 ---
 
 {{< image-gallery gallery_dir="/images/1978_01_01_rubrica_fratelli_de_leon_1978_79" >}}
@@ -26,7 +27,7 @@ rubrica_1978_79 <- agende %>%
           filter(str_detect(source, "Rubrica 1978-79")) %>%
           left_join(imdb, by = "const")
 ```
-### Lista film
+### Programmazione
 ```{r echo=FALSE}
 rubrica_1978_79 %>%
           arrange(date) %>%

@@ -4,10 +4,11 @@ author: Vito Sestito
 date: '1970-01-01'
 slug: rubrica-fratelli-de-leon-1970-1980
 categories:
-  - Agende
+  - Rubriche
 tags:
   - Database
   - Proiezioni
+description: "Rubriche dove i film venivano annotati in ordine alfabetico, con data di proiezione e distributore."
 ---
 
 {{< image-gallery gallery_dir="/images/1970_01_01_rubrica_fratelli_de_leon_1970_1980" >}}
@@ -26,11 +27,11 @@ rubrica_1970_1980 <- agende %>%
           filter(str_detect(source, "Rubrica 1970-1980")) %>%
           left_join(imdb, by = "const")
 ```
-### Lista film
+### Programmazione
 ```{r echo=FALSE}
 rubrica_1970_1980 %>%
           arrange(date) %>%
   mutate(title = paste0("[",title,"]","(",url,")")) %>%
           select(date, title) %>%
-          knitr::kable(col.names = c("Data di proiezione", "Titolo"), align = c("l", "l", "l"))
+          knitr::kable(col.names = c("Data", "Titolo"), align = c("l", "l", "l"))
 ```
