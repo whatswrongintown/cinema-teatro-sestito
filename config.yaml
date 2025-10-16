@@ -8,14 +8,14 @@ ignoreFiles:
   - \.knit\.md$
   - \.utf8\.md$
 permalinks:
-  post: /:year/:month/:day/:slug/
-  documents: /:year/:month/:day/:slug/
+  articoli: /:year/:month/:day/:slug/
+  documenti-storici: /:year/:month/:day/:slug/
   association: /:year/:month/:day/:slug/
-  events: /:year/:month/:day/:slug/
+  eventi: /:year/:month/:day/:slug/
 menu:
   main:
-    - name: Il progetto
-      url: /ilprogetto/
+    - name: Progetto
+      url: /progetto/
       weight: 1
 params:
   MathJaxCDN: //cdnjs.cloudflare.com/ajax/libs

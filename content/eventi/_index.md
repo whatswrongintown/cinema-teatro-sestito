@@ -6,4 +6,8 @@ description: "Mostre, proiezioni e iniziative legate al Cinema Teatro Sestito e 
 layout: "section"
 slug: "eventi"
 ---
+Questa sezione ospita informazioni sugli eventi culturali collegati al Cinema Teatro Sestito: mostre, proiezioni, festival o incontri pubblici.
+
+Un punto di contatto tra il lavoro d’archivio e la vita culturale contemporanea del paese.
+
 Al momento non ci sono eventi in programma.
