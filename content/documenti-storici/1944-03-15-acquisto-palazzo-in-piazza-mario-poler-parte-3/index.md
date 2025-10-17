@@ -4,10 +4,10 @@ author: Vito Sestito
 date: '1944-03-15'
 slug: acquisto-palazzo-in-piazza-mario-poler-parte-3
 categories:
-  - Documenti
+  - Proprietà
 tags:
-  - Storia
-  - PiazzaMarioPolera
+  - Legale
+description: "Note di trascrizione dell’atto notarile a favore dei coniugi Vito Sestito e Teresa Aiello, relativo alla vendita di una parte del fabbricato in Via Umberto I da Maria De Luca e Rosina Madonna. Il documento descrive la suddivisione dei vani, l’orto annesso, i limiti catastali e le condizioni di usufrutto e nuda proprietà, con indicazione della rendita catastale e dei diritti delle venditrici."
 ---
 ![](images/1944-03-15_acquisto_palazzo_in_Piazza_Mario_Polerà_1.jpeg)
 ![](images/1944-03-15_acquisto_palazzo_in_Piazza_Mario_Polerà_2.jpeg)

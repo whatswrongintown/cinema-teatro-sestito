@@ -5,12 +5,9 @@ description: trascrizione dell'abilitazione del cinema di San Vito sullo Ionio d
 date: '1959-06-30'
 slug: abilitazione-cinema-via-comm-doria
 categories:
-  - Documenti
+  - Autorizzazioni
 tags:
-  - CinemaTeatroSestito
-  - Film
-  - PreservazionePatrimonioCulturale
-  - StoriaDelCinema
+  - Abilitazione
 ---
 
 ![1959-06-30 Abilitazione sala cinema Via Comm Doria 1](images/19590630Abilitazionesalacinema1.jpg)

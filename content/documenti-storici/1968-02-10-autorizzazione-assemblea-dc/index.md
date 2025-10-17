@@ -5,11 +5,9 @@ description: trascrizione del documento per la comunicazione dell'assemblea loca
 date: '1968-02-10'
 slug: autorizzazione-assemblea-dc
 categories:
-  - Documenti
+  - Autorizzazioni
 tags:
-  - CinemaTeatroSestito
-  - PreservazionePatrimonioCulturale
-  - Storia
+  - Politica
 ---
 
 ![1968-02-10 Autorizzazione Assemblea DC al cinema](images/19680210AutorizzazioneAssembleaDCalcinema.jpg)

@@ -5,11 +5,9 @@ description: lettera del petre di San Vito sullo Ionio indirizzata al cinema per
 date: '1957-08-10'
 slug: lettera-del-sacerdote-gerardo-mongiardo
 categories:
-  - Documenti
+  - Corrispondenza
 tags:
-  - CinemaTeatroSestito
-  - SanVitoSulloIonio
-  - StoriaDelCinema
+  - Chiesa
 ---
 
 ![1957-08-10 Lettera del Sacerdote Gerardo Mongiardo](images/19570810letteraSacMongiardo.jpg)

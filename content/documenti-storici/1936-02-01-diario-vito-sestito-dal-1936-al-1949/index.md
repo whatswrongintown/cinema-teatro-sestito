@@ -4,10 +4,9 @@ author: Vito Sestito
 date: '1936-02-01'
 slug: diario-vito-sestito-dal-1936-al-1949
 categories:
-  - Documenti
+  - Personali
 tags:
-  - Diario
-  - Commercio
+  - Diari
 ---
 {{< image-gallery gallery_dir="/images/1936_1949_diario_nonno_vito" >}}
 

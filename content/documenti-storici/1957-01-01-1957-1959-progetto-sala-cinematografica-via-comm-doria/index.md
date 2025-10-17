@@ -5,11 +5,10 @@ description: progetto architettonico del 1957 per nuovo cinema a San Vito sullo 
 date: '1957-01-01'
 slug: 1957-1959-progetto-sala-cinematografica-via-comm-doria
 categories:
-  - Documenti
+  - Progetti
 tags:
-  - CinemaTeatroSestito
-  - PreservazionePatrimonioCulturale
-  - SanVitoSulloIonio
+  - Edilizia
+  - Architettura
 ---
 
 ![1957-1959 Progetto sala Cinematografica Via Comm. Doria 1](images/19571959ProgettosalaCinematografica1.jpg)

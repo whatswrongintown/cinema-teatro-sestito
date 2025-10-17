@@ -4,11 +4,9 @@ author: Vito Sestito
 date: '1958-09-03'
 slug: intonaci-cinema-via-doria
 categories:
-  - Documenti
+  - Contratti
 tags:
-  - Storia
-  - StoriaDelCinema
-  - CinemaTeatroSestito
+  - Edilizia
 ---
 ![](images/1958_09_03_Intonaci_Cinema_Via_Doria_1.jpg)
 ![](images/1958_09_03_Intonaci_Cinema_Via_Doria_2.jpg)

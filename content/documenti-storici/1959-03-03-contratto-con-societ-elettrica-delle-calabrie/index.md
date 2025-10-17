@@ -5,12 +5,9 @@ description: contratto per la fornitura di energia dalla Sicetà Elettrica delle
 date: '1959-03-03'
 slug: contratto-con-societ-elettrica-delle-calabrie
 categories:
-  - Documenti
+  - Contratti
 tags:
-  - Cinema
-  - CinemaTeatroSestito
-  - PreservazionePatrimonioCulturale
-  - StoriaDelCinema
+  - Elettricità
 ---
 
 ![1959-03-03 Società Elettrica delle Calabrie 11](images/19590303SocietaElettricaDelleCalabrie11.jpg)

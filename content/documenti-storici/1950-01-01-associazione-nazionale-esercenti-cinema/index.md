@@ -4,13 +4,9 @@ author: Vito Sestito
 date: '1950-01-01'
 slug: associazione-nazionale-esercenti-cinema
 categories:
-  - Storia
-  - Documenti
+  - Personali
 tags:
-  - StoriaDelCinema
-  - Storia
-  - CinemaTeatroSestito
-  - Cinema
+  - Abilitazione
 ---
 
 Tessera Nazionale:  

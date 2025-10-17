@@ -5,11 +5,9 @@ description: trascrizione dell'acquisto del terreno per il nuovo cinema
 date: '1956-04-07'
 slug: acquisto-orto-cinema-in-via-comm-doria
 categories:
-  - Documenti
+  - Proprietà
 tags:
-  - CinemaTeatroSestito
-  - SanVitoSulloIonio
-  - PreservazionePatrimonioCulturale
+  - Legali
 ---
 
 ![1956-04-07 Acquisto orto cinema in Via Comm. Doria 1](images/19560407AcquistoOrtoCinema1.jpg)

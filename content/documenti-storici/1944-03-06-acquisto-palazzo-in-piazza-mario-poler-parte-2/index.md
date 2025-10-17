@@ -4,10 +4,10 @@ author: Vito Sestito
 date: '1944-03-06'
 slug: acquisto-palazzo-in-piazza-mario-poler-parte-2
 categories:
-  - Documenti
+  - Proprietà
 tags:
-  - Storia
-  - PiazzaMarioPolera
+  - Legale
+description: "Documento con cui si attesta che i coniugi Vito Sestito e Teresa Aiello hanno versato la differenza di 75.000 lire per l’acquisto del fabbricato precedentemente venduto, come stabilito nell’atto notarile del Notaio Menichini. Viene rilasciata ampia e definitiva quietanza, dichiarando null’altro a pretendere."
 ---
 ![](images/1944-03-06_acquisto_palazzo_in_Piazza_Mario_Polerà.jpeg)
 

@@ -5,12 +5,9 @@ description: trascrizione dell'acquisto del terreno per il nuovo cinema
 date: '1955-12-26'
 slug: acquisto-terreno-cinema-in-via-comm-doria
 categories:
-  - Documenti
+  - Proprietà
 tags:
-  - Cinema
-  - CinemaTeatroSestito
-  - FilmItaliani
-  - PreservazionePatrimonioCulturale
+  - Legali
 ---
 
 ![1955-12-26 Acquisto terreno cinema in Via Comm. Doria 1](images/19551225AcquistoTerrenoCinema1.jpg)

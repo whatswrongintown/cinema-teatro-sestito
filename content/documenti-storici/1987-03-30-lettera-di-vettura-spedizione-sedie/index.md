@@ -4,12 +4,10 @@ author: Vito Sestito
 date: '1987-03-30'
 slug: lettera-di-vettura-spedizione-sedie
 categories:
-  - Storia
-  - Documenti
+  - Corrispondenza
 tags:
-  - CinemaTeatroSestito
-  - Cinema
-  - StoriaDelCinema
+  - Trasporto
+  - Sedie
 ---
 ![](images/1987_03_30_Lettera_di_Vettura_Spedizione_Sedie.jpg)
 
