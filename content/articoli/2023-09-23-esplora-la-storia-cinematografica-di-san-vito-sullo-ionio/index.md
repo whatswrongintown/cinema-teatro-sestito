@@ -4,13 +4,10 @@ author: Vito Sestito
 date: '2023-09-23'
 slug: esplora-la-storia-cinematografica-di-san-vito-sullo-ionio
 categories:
-  - Agende
-  - Proiezioni
+  - Analisi
 tags:
-  - AgendaCinematografica
-  - Proiezioni
   - Database
-  - StoriaDelCinema
+  - Proiezioni
 ---
 Qui trovate uno strumento per immergervi nell'affascinante mondo del Cinema Teatro Sestito. Il database interattivo è progettato per offrirvi un accesso senza precedenti al ricco database dei film proiettati nello storico cinema di San Vito.
 
