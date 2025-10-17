@@ -10,6 +10,8 @@ La **programmazione cinematografica** del Cinema Teatro Sestito rappresenta il c
 La sezione è divisa in due parti principali:
 
 - 📖 **[Fonti](/programmazione-cinematografica/fonti/)** - una panoramica delle agende, rubriche, calendari e appunti originali utilizzati per ricostruire la programmazione.
-- 🗓️ **[Anni](/programmazione-cinematografica/anni/)** - un elenco di pagine organizzate cronologicamente, dove è possibile esplorare i programmi cinematografici mese per mese.
+- 📅 **[Anni](/programmazione-cinematografica/anni/)** - un elenco di pagine organizzate cronologicamente, dove è possibile esplorare i programmi cinematografici mese per mese.
+
+---
 
 Questa raccolta nasce dal desiderio di restituire al pubblico la memoria di un cinema di provincia, specchio della vita quotidiana e delle trasformazioni culturali della Calabria del dopoguerra.
