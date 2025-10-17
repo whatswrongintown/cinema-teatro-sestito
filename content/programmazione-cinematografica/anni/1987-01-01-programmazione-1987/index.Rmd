@@ -1,0 +1,32 @@
+---
+title: Programmazione 1987
+author: Vito Sestito
+date: '1987-01-01'
+slug: programmazione-1987
+categories:
+  - programmazione-per-anni
+---
+
+
+Questa pagina raccoglie le proiezioni del 1987.
+
+
+```{r setup, include=FALSE}
+library(dplyr)
+library(knitr)
+library(readr)
+library(lubridate)
+proiezioni <- read_csv("C:/Users/eurhope/Documents/R/cinema-teatro-sestito/static/data/programmazione_agende.csv") %>% 
+  mutate(anno = year(ymd(date)))
+```
+
+
+```{r echo=FALSE}
+proiezioni %>% 
+  filter(anno == 1987) %>% 
+  select(date, title) %>% 
+  rename(Data = date, Titolo = title) %>% 
+  arrange(Data) %>% 
+  kable()
+```
+

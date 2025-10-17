@@ -1,0 +1,32 @@
+---
+title: Programmazione 1983
+author: Vito Sestito
+date: '1983-01-01'
+slug: programmazione-1983
+categories:
+  - programmazione-per-anni
+---
+
+
+Questa pagina raccoglie le proiezioni del 1983.
+
+
+```{r setup, include=FALSE}
+library(dplyr)
+library(knitr)
+library(readr)
+library(lubridate)
+proiezioni <- read_csv("C:/Users/eurhope/Documents/R/cinema-teatro-sestito/static/data/programmazione_agende.csv") %>% 
+  mutate(anno = year(ymd(date)))
+```
+
+
+```{r echo=FALSE}
+proiezioni %>% 
+  filter(anno == 1983) %>% 
+  select(date, title) %>% 
+  rename(Data = date, Titolo = title) %>% 
+  arrange(Data) %>% 
+  kable()
+```
+
