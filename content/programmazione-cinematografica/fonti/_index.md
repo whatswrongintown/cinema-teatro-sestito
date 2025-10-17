@@ -15,4 +15,6 @@ Le principali tipologie di fonti sono:
 3. 📅  **[Rubriche](/categories/rubriche/)** - Registri alfabetici in cui venivano elencati i film proiettati, con l’indicazione della data e del distributore.
 4. ✍️  **[Appunti](/categories/appunti/)** - Blocchi o fogli sciolti su cui erano annotati i film mese per mese, talvolta accompagnati dai relativi incassi.
 
+---
+
 Ogni fonte racconta una parte diversa della storia del cinema, rivelando non solo i titoli proiettati, ma anche le abitudini, le relazioni e il lavoro quotidiano che animava la sala di San Vito sullo Ionio.
