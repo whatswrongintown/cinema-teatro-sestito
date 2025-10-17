@@ -61,5 +61,5 @@ Il lascito di Vito vive ancora a San Vito, sia il cinema che il negozio di ricam
 [^2]: Folgio di Congedo Illimitato. Catanzaro. 1923. [Link al documento](/1923/10/09/congedo-fine-leva-vito-sestito/)
 [^3]: Se vuoi saperne di più sulle origini del cinema leggi questo [articolo](/2023/04/27/la-nascita-del-cinema-a-san-vito-un-sogno-diventato-realt/)
 [^4]: Attestato d'esercizio di rimcabi. San Vito sullo Ionio. 1961. [Link al documento](/1961/08/01/attestato-d-eserzizio-ricambi-in-pizza-mario-poler/)
-[^5]: [Link](/agende/) alla sezione sulle agende cinematografiche
+[^5]: [Link](/programmazione-cinematografica/) alla sezione sulle agende cinematografiche
 [^6]: Diario di Vito dal 1939 al 1949. San Vito sullo Ionio. 1936. [Link al documento](/1936/02/01/diario-vito-sestito-dal-1936-al-1949/)
