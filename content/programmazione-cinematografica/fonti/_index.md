@@ -6,18 +6,13 @@ description: "Le diverse tipologie di documenti utilizzate per ricostruire la pr
 layout: "section"
 slug: "fonti"
 ---
-# Fonti della programmazione
-
-Questa sezione raccoglie e descrive le diverse **fonti originali** che hanno permesso di ricostruire la programmazione cinematografica del Cinema Teatro Sestito.
+Questa sezione raccoglie e descrive le diverse **fonti originali** che hanno permesso di ricostruire la programmazione cinematografica del Cinema.
 
 Le principali tipologie di fonti sono:
 
-1. 🗒️ **Agende** — Quaderni e registri dove venivano annotati i film in programmazione, spesso con note su incassi, pubblico o commenti personali.
-2. 📰 **Rubriche** — Pagine e ritagli provenienti da riviste o giornali locali che riportavano gli spettacoli del cinema.
-3. 📅 **Calendari** — Fogli o volantini mensili distribuiti al pubblico con la programmazione ufficiale.
-4. ✍️ **Appunti** — Annotazioni sparse, bozze di locandine o elenchi manoscritti usati per organizzare le proiezioni.
+1. 🗒️ **[Agende](/categories/agende/)** - Agende cinematografiche distribuite dalle case di distribuzione. Riportano, giorno per giorno, i film programmati, il distributore e gli incassi registrati.
+2. 📰 **[Calendari](/categories/calendari/)** - Calendari murali o da tavolo utilizzati per annotare la programmazione del cinema. Indicano le date di proiezione, i titoli e, in molti casi, gli incassi.
+3. 📅  **[Rubriche](/categories/rubriche/)** - Registri alfabetici in cui venivano elencati i film proiettati, con l’indicazione della data e del distributore.
+4. ✍️  **[Appunti](/categories/appunti/)** - Blocchi o fogli sciolti su cui erano annotati i film mese per mese, talvolta accompagnati dai relativi incassi.
 
-> Ogni fonte racconta una parte diversa della storia del cinema, rivelando non solo i titoli proiettati,  
-> ma anche le abitudini, le relazioni e il lavoro quotidiano che animava la sala di San Vito.
-
-Scopri di più nelle sottosezioni dedicate, dove ogni categoria è accompagnata da esempi visivi e note archivistiche.
+Ogni fonte racconta una parte diversa della storia del cinema, rivelando non solo i titoli proiettati, ma anche le abitudini, le relazioni e il lavoro quotidiano che animava la sala di San Vito sullo Ionio.
