@@ -7,69 +7,96 @@ categories:
   - programmazione-per-anni
 ---
 
+<img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-1-1.png" width="768" /><img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-1-2.png" width="768" />
 
-Questa pagina raccoglie le proiezioni del 1948.
+### Febbraio
 
+|           |                        |
+|:----------|:-----------------------|
+|1948-02-11 |[Tua per sempre](https://www.imdb.com/title/tt0035993/)|
+|1948-02-17 |[L'ultima carrozzella](https://www.imdb.com/title/tt0036470/)|
+|1948-02-21 |[La fanciulla di Portici](https://www.imdb.com/title/tt0032454/)|
+### Maggio
 
+|           |                         |
+|:----------|:------------------------|
+|1948-05-01 |[Ciao bellezza!](https://www.imdb.com/title/tt0035206/)|
+|1948-05-03 |[Il conte di Montecristo](https://www.imdb.com/title/tt0035752/)|
+|1948-05-08 |[Rosa di sangue](https://www.imdb.com/title/tt0031876/)|
+|1948-05-10 |[Il ponte dei sospiri](https://www.imdb.com/title/tt0032920/)|
+|1948-05-14 |[Montecassino](https://www.imdb.com/title/tt0038748/)|
+|1948-05-17 |[Fuga a due voci](https://www.imdb.com/title/tt0034762/)|
+|1948-05-21 |[Il fornaretto di Venezia](https://www.imdb.com/title/tt0031332/)|
+|1948-05-24 |[Addio, giovinezza!](https://www.imdb.com/title/tt0032182/)|
+### Giugno
 
-
-
-
-|Data       |Titolo                                   |
+|           |                                         |
 |:----------|:----------------------------------------|
-|1948-02-11 |Tua per sempre                           |
-|1948-02-17 |L'ultima carrozzella                     |
-|1948-02-21 |La fanciulla di Portici                  |
-|1948-05-01 |Ciao bellezza!                           |
-|1948-05-03 |Il conte di Montecristo                  |
-|1948-05-08 |Rosa di sangue                           |
-|1948-05-10 |Il ponte dei sospiri                     |
-|1948-05-14 |Montecassino                             |
-|1948-05-17 |Fuga a due voci                          |
-|1948-05-21 |Il fornaretto di Venezia                 |
-|1948-05-24 |Addio, giovinezza!                       |
-|1948-06-05 |La contessa di Montecristo               |
-|1948-06-07 |Alaska, inferno dell'oro                 |
-|1948-06-11 |La voce nella tempesta (Cime tempestose) |
-|1948-06-13 |La monaca di Monza                       |
-|1948-06-19 |Il testimone                             |
-|1948-06-21 |Pian delle stelle                        |
-|1948-06-26 |Felicità perduta                         |
-|1948-07-02 |Il figlio di Montecristo                 |
-|1948-07-09 |Ogni giorno è domenica                   |
-|1948-07-12 |I due Foscari                            |
-|1948-07-20 |La cena delle beffe                      |
-|1948-08-05 |Una notte tempestosa                     |
-|1948-09-10 |Capitan Tempesta                         |
-|1948-09-13 |Il leone di Damasco                      |
-|1948-09-19 |Un uomo ritorna                          |
-|1948-09-23 |Caterina da Siena                        |
-|1948-10-06 |Melodia segreta                          |
-|1948-10-16 |La mia canzone al vento                  |
-|1948-10-19 |Ricchezza senza domani                   |
-|1948-10-22 |La casa degli orrori                     |
-|1948-10-24 |Follie per l'opera                       |
-|1948-11-01 |L'angelo e il diavolo                    |
-|1948-11-04 |Capitan Kidd                             |
-|1948-11-07 |Vertigine                                |
-|1948-11-09 |Il sultano rosso                         |
-|1948-11-09 |Buffalo Bill                             |
-|1948-11-10 |Figlio figlio mio!                       |
-|1948-11-14 |Torna... a Sorrento                      |
-|1948-11-16 |La maschera di ferro                     |
-|1948-11-19 |Due ragazze e un marinaio                |
-|1948-11-20 |La vedova allegra                        |
-|1948-11-22 |Musica proibita                          |
-|1948-11-25 |Tentazione                               |
-|1948-11-25 |Il corriere del re                       |
-|1948-11-28 |Margherita Gauthier                      |
-|1948-11-30 |Belle o brutte si sposan tutte…          |
-|1948-12-02 |Balalaika                                |
-|1948-12-03 |Angeli senza paradiso                    |
-|1948-12-06 |Maschera di sangue                       |
-|1948-12-08 |Anime alla deriva                        |
-|1948-12-10 |Vogliamo Vivere!                         |
-|1948-12-11 |Furia                                    |
-|1948-12-23 |Bernadette                               |
-|1948-12-31 |Le chiavi del paradiso                   |
+|1948-06-05 |[La contessa di Montecristo](https://www.imdb.com/title/tt0039106/)|
+|1948-06-07 |[Alaska, inferno dell'oro](https://www.imdb.com/title/tt0036590/)|
+|1948-06-11 |[La voce nella tempesta (Cime tempestose)](https://www.imdb.com/title/tt0032145/)|
+|1948-06-13 |[La monaca di Monza](https://www.imdb.com/title/tt0039630/)|
+|1948-06-19 |[Il testimone](https://www.imdb.com/title/tt0038155/)|
+|1948-06-21 |[Pian delle stelle](https://www.imdb.com/title/tt0038840/)|
+|1948-06-26 |[Felicità perduta](https://www.imdb.com/title/tt0038525/)|
+### Luglio
 
+|           |                         |
+|:----------|:------------------------|
+|1948-07-02 |[Il figlio di Montecristo](https://www.imdb.com/title/tt0033076/)|
+|1948-07-09 |[Ogni giorno è domenica](https://www.imdb.com/title/tt0037144/)|
+|1948-07-12 |[I due Foscari](https://www.imdb.com/title/tt0034687/)|
+|1948-07-20 |[La cena delle beffe](https://www.imdb.com/title/tt0033456/)|
+### Agosto
+
+|           |                     |
+|:----------|:--------------------|
+|1948-08-05 |[Una notte tempestosa](https://www.imdb.com/title/tt0036210/)|
+### Settembre
+
+|           |                    |
+|:----------|:-------------------|
+|1948-09-10 |[Capitan Tempesta](https://www.imdb.com/title/tt0033449/)|
+|1948-09-13 |[Il leone di Damasco](https://www.imdb.com/title/tt0033825/)|
+|1948-09-19 |[Un uomo ritorna](https://www.imdb.com/title/tt0039072/)|
+|1948-09-23 |[Caterina da Siena](https://www.imdb.com/title/tt0039254/)|
+### Ottobre
+
+|           |                        |
+|:----------|:-----------------------|
+|1948-10-06 |[Melodia segreta](https://www.imdb.com/title/tt0191305/)|
+|1948-10-16 |[La mia canzone al vento](https://www.imdb.com/title/tt0031642/)|
+|1948-10-19 |[Ricchezza senza domani](https://www.imdb.com/title/tt0031856/)|
+|1948-10-22 |[La casa degli orrori](https://www.imdb.com/title/tt0037793/)|
+|1948-10-24 |[Follie per l'opera](https://www.imdb.com/title/tt0040362/)|
+### Novembre
+
+|           |                                |
+|:----------|:-------------------------------|
+|1948-11-01 |[L'angelo e il diavolo](https://www.imdb.com/title/tt0038301/)|
+|1948-11-04 |[Capitan Kidd](https://www.imdb.com/title/tt0037576/)|
+|1948-11-07 |[Vertigine](https://www.imdb.com/title/tt0037008/)|
+|1948-11-09 |[Il sultano rosso](https://www.imdb.com/title/tt0026032/)|
+|1948-11-09 |[Buffalo Bill](https://www.imdb.com/title/tt0036677/)|
+|1948-11-10 |[Figlio figlio mio!](https://www.imdb.com/title/tt0032831/)|
+|1948-11-14 |[Torna... a Sorrento](https://www.imdb.com/title/tt0038183/)|
+|1948-11-16 |[La maschera di ferro](https://www.imdb.com/title/tt0031619/)|
+|1948-11-19 |[Due ragazze e un marinaio](https://www.imdb.com/title/tt0037408/)|
+|1948-11-20 |[La vedova allegra](https://www.imdb.com/title/tt0025493/)|
+|1948-11-22 |[Musica proibita](https://www.imdb.com/title/tt0035099/)|
+|1948-11-25 |[Tentazione](https://www.imdb.com/title/tt0039015/)|
+|1948-11-25 |[Il corriere del re](https://www.imdb.com/title/tt0039280/)|
+|1948-11-28 |[Margherita Gauthier](https://www.imdb.com/title/tt0028683/)|
+|1948-11-30 |[Belle o brutte si sposan tutte…](https://www.imdb.com/title/tt0031094/)|
+### Dicembre
+
+|           |                       |
+|:----------|:----------------------|
+|1948-12-02 |[Balalaika](https://www.imdb.com/title/tt0031074/)|
+|1948-12-03 |[Angeli senza paradiso](https://www.imdb.com/title/tt0024249/)|
+|1948-12-06 |[Maschera di sangue](https://www.imdb.com/title/tt0143686/)|
+|1948-12-08 |[Anime alla deriva](https://www.imdb.com/title/tt0023826/)|
+|1948-12-10 |[Vogliamo Vivere!](https://www.imdb.com/title/tt0035446/)|
+|1948-12-11 |[Furia](https://www.imdb.com/title/tt0038540/)|
+|1948-12-23 |[Bernadette](https://www.imdb.com/title/tt0036377/)|
+|1948-12-31 |[Le chiavi del paradiso](https://www.imdb.com/title/tt0036983/)|
