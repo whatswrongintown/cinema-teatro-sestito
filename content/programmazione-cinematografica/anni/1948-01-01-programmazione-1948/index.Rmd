@@ -5,6 +5,8 @@ date: '1948-01-01'
 slug: programmazione-1948
 categories:
   - programmazione-per-anni
+params:
+  anno: 1948
 ---
 ```{r setup, include=FALSE}
 library(dplyr)
@@ -16,20 +18,19 @@ library(ggplot2)
 library(tidyr)
 library(ggrepel)
 library(scales)
+library(treemap)
 
 Sys.setlocale("LC_TIME", "it_IT.UTF-8")
 
 # Dati filtrati per l'anno 1948
 imdb <- read_csv(here("static/data/programmazione_imdb.csv")) %>%
-  select(const = Const, year = Year, directors = Directors,
-  genres = Genres, imdb_rating = `IMDb Rating`, imdb_votes = `Num Votes`, runtime = `Runtime (mins)`,
-  url = URL)
+  select(const = Const, year = Year, directors = Directors, genres = Genres, imdb_rating = `IMDb Rating`, imdb_votes = `Num Votes`, runtime = `Runtime (mins)`, url = URL)
 
 proiezioni_anno <- read_csv(here("static/data/programmazione_agende.csv")) %>% 
   mutate(anno = year(ymd(date))) %>% 
   left_join(imdb, by = "const") %>% 
   mutate(Titolo = paste0("[", title, "](", url, ")")) %>% 
-  filter(anno == 1948) %>% 
+  filter(anno == params$anno) %>% 
   rename(Data = date) %>% 
   arrange(Data)
 ```
@@ -62,8 +63,18 @@ proiezioni_anno %>%
                 panel.spacing=unit(0,"cm"),
                 plot.margin = margin(t = 20, r = 10, b = 10, l = 10)) +
   coord_cartesian(clip = "off")
-```
 
+proiezioni_anno %>%
+          separate_rows(genres, sep = ",\\s*") %>%
+          count(genres) %>%
+          treemap(
+                    index = "genres",
+                    vSize = "n",
+                    title = "Composizione dei generi",
+                    palette = "Set3"
+          )
+```
+---
 ### Febbraio
 ```{r echo=FALSE}
 proiezioni_anno %>%
