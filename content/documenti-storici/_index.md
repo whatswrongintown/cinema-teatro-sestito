@@ -11,13 +11,13 @@ Attraverso scritture private, atti notarili, progetti architettonici, corrispond
 
 ### Categorie principali
 
-1. ✉️ **[Corrispondenza](/categories/Corrispondenza/)** — Lettere e comunicazioni ufficiali legate all’attività del cinema.  
-2. 🪪 **[Autorizzazioni](/categories/Autorizzazioni/)** — Permessi, licenze e attestati rilasciati per l’esercizio di attività cinematografiche, commerciali o politiche.  
-3. 📜 **[Contratti](/categories/Contratti/)** — Scritture private, accordi e convenzioni stipulate con imprese, società elettriche o di pubblicità.  
-4. 🧱 **[Progetti](/categories/Progetti/)** — Elaborati tecnici e disegni architettonici relativi alla costruzione e all’espansione della sala cinematografica.  
-5. 🏛️ **[Proprietà](/categories/Proprietà/)** — Atti notarili, registri e trascrizioni riguardanti l’acquisto dei terreni e degli immobili legati al cinema.  
-6. ⚖️ **[Giudiziario](/categories/Giudiziario/)** — Documenti legali e procedimenti amministrativi.  
-7. 👤 **[Personali](/categories/Personali/)** — Documenti biografici di Vito Sestito: diari, attestati scolastici, congedo militare e materiali privati.
+1. ✉️ **[Corrispondenza](/categories/Corrispondenza/)** - Lettere e comunicazioni ufficiali legate all’attività del cinema.  
+2. 🪪 **[Autorizzazioni](/categories/Autorizzazioni/)** - Permessi, licenze e attestati rilasciati per l’esercizio di attività cinematografiche, commerciali o politiche.  
+3. 📜 **[Contratti](/categories/Contratti/)** - Scritture private, accordi e convenzioni stipulate con imprese, società elettriche o di pubblicità.  
+4. 🧱 **[Progetti](/categories/Progetti/)** - Elaborati tecnici e disegni architettonici relativi alla costruzione e all’espansione della sala cinematografica.  
+5. 🏛️ **[Proprietà](/categories/Proprietà/)** - Atti notarili, registri e trascrizioni riguardanti l’acquisto dei terreni e degli immobili legati al cinema.  
+6. ⚖️ **[Giudiziario](/categories/Giudiziario/)** - Documenti legali e procedimenti amministrativi.  
+7. 👤 **[Personali](/categories/Personali/)** - Documenti biografici di Vito Sestito: diari, attestati scolastici, congedo militare e materiali privati.
 
 ---
 
