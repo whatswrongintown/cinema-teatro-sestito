@@ -1,0 +1,66 @@
+---
+title: Fedi 1960-61
+author: Vito Sestito
+date: '1960-10-01'
+slug: fedi-1960-61
+categories:
+  - Agende
+description: Agende cinematografiche fornite dalle case distributrici. Contengono informazioni dettagliate sulla data di proiezione, titolo del film, distributore e l’ammontare degli incassi.
+---
+
+
+{{< image-gallery gallery_dir="/images/1960_10_01_fedi_1960_61" >}}
+
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(here)
+library(knitr)
+
+# Dati IMDb
+imdb <- read_csv(here("static/data/programmazione_imdb.csv")) %>% 
+  select(const = Const, url = URL)
+
+# Dati fonte
+proiezioni_fonte <- read_csv(here("static/data/programmazione_agende.csv")) %>%
+  select(const, date, title, source) %>%
+  filter(str_detect(source, "Fedi 1960-61")) %>%
+  left_join(imdb, by = "const") %>%
+  mutate(title = paste0("[", title, "](", url, ")"))
+```
+
+
+### Ottobre
+
+```{r echo=FALSE}
+library(knitr)
+proiezioni_fonte %>% 
+  filter(lubridate::month(date) == 10) %>% 
+  select(date, title) %>% 
+  arrange(date) %>% 
+  kable(col.names = c("", ""))
+```
+
+### Novembre
+
+```{r echo=FALSE}
+library(knitr)
+proiezioni_fonte %>% 
+  filter(lubridate::month(date) == 11) %>% 
+  select(date, title) %>% 
+  arrange(date) %>% 
+  kable(col.names = c("", ""))
+```
+
+### Dicembre
+
+```{r echo=FALSE}
+library(knitr)
+proiezioni_fonte %>% 
+  filter(lubridate::month(date) == 12) %>% 
+  select(date, title) %>% 
+  arrange(date) %>% 
+  kable(col.names = c("", ""))
+```
+
+

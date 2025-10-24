@@ -1,0 +1,101 @@
+---
+title: Bruzia 1954-55
+author: Vito Sestito
+date: '1954-12-01'
+slug: bruzia-1954-55
+categories:
+  - Agende
+description: Agende cinematografiche fornite dalle case distributrici. Contengono informazioni dettagliate sulla data di proiezione, titolo del film, distributore e l’ammontare degli incassi.
+---
+
+
+{{< image-gallery gallery_dir="/images/1954_12_01_bruzia_1954_55" >}}
+
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(here)
+library(knitr)
+
+# Dati IMDb
+imdb <- read_csv(here("static/data/programmazione_imdb.csv")) %>% 
+  select(const = Const, url = URL)
+
+# Dati fonte
+proiezioni_fonte <- read_csv(here("static/data/programmazione_agende.csv")) %>%
+  select(const, date, title, source) %>%
+  filter(str_detect(source, "Bruzia 1954-55")) %>%
+  left_join(imdb, by = "const") %>%
+  mutate(title = paste0("[", title, "](", url, ")"))
+```
+
+
+## 1954
+### Dicembre
+
+```{r echo=FALSE}
+library(knitr)
+proiezioni_fonte %>% 
+  filter(lubridate::year(date) == 1954, lubridate::month(date) == 12) %>% 
+  select(date, title) %>% 
+  arrange(date) %>% 
+  kable(col.names = c("", ""))
+```
+
+## 1955
+### Gennaio
+
+```{r echo=FALSE}
+library(knitr)
+proiezioni_fonte %>% 
+  filter(lubridate::year(date) == 1955, lubridate::month(date) == 1) %>% 
+  select(date, title) %>% 
+  arrange(date) %>% 
+  kable(col.names = c("", ""))
+```
+
+### Giugno
+
+```{r echo=FALSE}
+library(knitr)
+proiezioni_fonte %>% 
+  filter(lubridate::year(date) == 1955, lubridate::month(date) == 6) %>% 
+  select(date, title) %>% 
+  arrange(date) %>% 
+  kable(col.names = c("", ""))
+```
+
+### Agosto
+
+```{r echo=FALSE}
+library(knitr)
+proiezioni_fonte %>% 
+  filter(lubridate::year(date) == 1955, lubridate::month(date) == 8) %>% 
+  select(date, title) %>% 
+  arrange(date) %>% 
+  kable(col.names = c("", ""))
+```
+
+### Novembre
+
+```{r echo=FALSE}
+library(knitr)
+proiezioni_fonte %>% 
+  filter(lubridate::year(date) == 1955, lubridate::month(date) == 11) %>% 
+  select(date, title) %>% 
+  arrange(date) %>% 
+  kable(col.names = c("", ""))
+```
+
+### Dicembre
+
+```{r echo=FALSE}
+library(knitr)
+proiezioni_fonte %>% 
+  filter(lubridate::year(date) == 1955, lubridate::month(date) == 12) %>% 
+  select(date, title) %>% 
+  arrange(date) %>% 
+  kable(col.names = c("", ""))
+```
+
+
