@@ -8,33 +8,38 @@ slug: "progetto"
 ---
 
 ## Introduzione
-Benvenuti sul sito web del *Cinema Teatro Sestito*. Il sito web è dedicato alla storia del cinema di San Vito sullo Ionio, un cinema storico nel Sud Italia.
+
+Questo sito è dedicato al *Cinema Teatro Sestito*, storica sala cinematografica situata a San Vito sullo Ionio, in Calabria. Il progetto nasce con l’intento di documentare, valorizzare e rendere accessibile la memoria di un luogo che ha rappresentato, per decenni, un punto di riferimento culturale e sociale per la comunità locale.
 
 ## Storia
 
-Il cinema è stato fondato da Vito Sestito nel 1946, diventando rapidamente luogo di incontro per la popolazione locale e dei comuni vicini, offrendo un'esperienza unica e preziosa che non poteva essere trovata altrove. Nel corso degli anni il cinema Sestito ha affrontato numerose sfide, tra cui l'ascesa della televisione e dei cambiamenti nelle abitudini di visione del medium. In risposta, si è adattato ed evoluto, introducendo nuove strategie di programmazione e continuando ad offrire un'esperienza cinematografica attuale agli spettatori locali. L’ultima proiezione del cinema Sestito avviene nel 2005, segnando la fine di un’era; per fortuna il suo lascito vive ancora oggi, come testimonianza del potere duraturo del cinema e del ruolo che esso svolge nella formazione della nostra cultura e delle nostre comunità.
+Fondato nel 1946 da Vito Sestito, il cinema ha svolto un ruolo centrale nella vita pubblica del paese, configurandosi come spazio di aggregazione e di fruizione culturale. La sua attività si è sviluppata in un contesto in continua trasformazione, affrontando sfide significative come l’avvento della televisione, la diffusione dell’home video e i cambiamenti nei modelli di consumo audiovisivo.
 
-Scopri di più sulla storia del cinema in questa [serie di articoli](/categories/storia/)
+Nel corso del tempo, il Cinema Sestito ha adottato strategie di adattamento che gli hanno consentito di mantenere una presenza attiva sul territorio, fino alla sua ultima proiezione nel 2004. Sebbene la sala abbia cessato l’attività, il suo lascito culturale continua a vivere attraverso i ricordi, i materiali d’archivio e le testimonianze raccolte in questo sito.
+
+Per un approfondimento storico, si rimanda alla [serie di articoli](/categories/storia/).
 
 ## Fondatore
 
-Vito Sestito, il fondatore del cinema, è sempre stato per me un visionario che ha riconosciuto il potenziale del cinema come forma d'arte e forza culturale potente. Ha lavorato instancabilmente per creare uno spazio in cui i Sanvitesi potessero incontrarsi e condividere la magia del cinema. Il contributo di Vito alla comunità locale e all'industria cinematografica continua ad ispirarmi ancora oggi.
+Vito Sestito, fondatore e gestore della sala, ha incarnato una visione del cinema come strumento di crescita culturale e coesione sociale. La sua opera si è distinta per l’impegno costante nel promuovere la fruizione cinematografica in un contesto periferico, contribuendo alla formazione di una cultura visiva condivisa. Il suo contributo, tanto alla comunità locale quanto alla storia del cinema italiano di provincia, rappresenta un esempio significativo di imprenditoria culturale.
 
-Scopri di più sul [fondatore](/2023/04/20/la-storia-di-vito-sestito/)
+Approfondisci la figura del [fondatore](/2023/04/20/la-storia-di-vito-sestito/).
 
 ## Programmazione
 
-La programmazione ha attraversato una significativa evoluzione nel corso dei decenni, riflettendo i mutamenti culturali, economici e sociali del contesto locale e nazionale. Inizialmente orientata verso opere storiche e film d’autore - in particolare del panorama italiano del dopoguerra - la selezione cinematografica si allineava ai circuiti distributivi tradizionali, includendo anche eventi collaterali come proiezioni scolastiche, assemblee e spettacoli teatrali.
+La programmazione del Cinema Teatro Sestito si è sempre contraddistinta per una spiccata originalità e per la volontà di sorprendere il pubblico con scelte fuori dagli schemi convenzionali. Fin dai primi anni, la selezione dei film ha privilegiato titoli insoliti, opere di difficile reperibilità e generi poco rappresentati nei circuiti mainstream, configurando la sala come uno spazio di visione alternativa rispetto all’offerta cinematografica dominante, pur mantenendo un legame con il cinema d’autore e con alcune produzioni storiche italiane del dopoguerra.
 
-A partire dagli anni Settanta, tuttavia, si osserva una progressiva trasformazione dell’offerta, con un incremento di pellicole appartenenti ai generi erotico, exploitation e pornografico, in linea con le dinamiche dei cosiddetti cinema di seconda visione o *grindhouse*. Questa transizione, lungi dall’essere un’anomalia, rappresenta una risposta adattiva alle pressioni del mercato, alla domanda del pubblico e alla marginalizzazione economica delle sale nei piccoli centri.
+A partire dagli anni Settanta, si assiste a una svolta significativa: la sala adotta una programmazione più popolare e commerciale, con un crescente ricorso a pellicole erotiche, exploitation e pornografiche, in linea con le dinamiche dei cinema di seconda visione o *grindhouse*. In questo stesso periodo, il cinema amplia le proprie funzioni sociali, ospitando proiezioni scolastiche, assemblee pubbliche e spettacoli teatrali, rafforzando il suo ruolo di spazio polifunzionale e di aggregazione comunitaria.
 
-Nonostante - o forse proprio in virtù di - questa traiettoria eterogenea, il Cinema Sestito ha mantenuto un ruolo centrale nella vita culturale di San Vito sullo Ionio, fungendo da spazio di aggregazione, consumo culturale e osservazione delle trasformazioni sociali attraverso il filtro del grande schermo.
+Questa trasformazione, lungi dall’essere marginale, riflette le pressioni del mercato e le esigenze di sostenibilità economica in un contesto di progressiva periferizzazione culturale. Nonostante tale eterogeneità, il Cinema Sestito ha continuato a svolgere una funzione aggregativa e culturale, offrendo uno spazio di osservazione delle trasformazioni sociali attraverso il medium cinematografico.
 
-Approfondite la programmazione nella [sezione](/programmazione-cinematografica/)
+Per ulteriori dettagli, visita la [sezione dedicata alla programmazione storica](/programmazione-cinematografica/).
 
 ## Eredità
 
-Per molti Sanvitesi, l'eredità del Cinema Teatro Sestito vive ancora oggi, come testimonianza del potere duraturo del cinema e del ruolo che esso ha svolto nella formazione della nostra cultura e della nostra comunità. Il cinema era un luogo di incontro amato che ha portato le persone insieme e ha creato ricordi duraturi. Il suo impatto sulla comunità locale è immensurabile.
+L’eredità del Cinema Sestito si manifesta oggi nella memoria collettiva dei cittadini di San Vito sullo Ionio, nei materiali conservati e nelle testimonianze raccolte. La sala ha rappresentato un luogo di socializzazione, di formazione culturale e di costruzione identitaria. Il suo impatto sulla comunità locale è testimoniato non solo dalla durata della sua attività, ma anche dalla persistenza del suo ricordo come spazio simbolico e affettivo.
+
+Questo sito intende contribuire alla conservazione e alla valorizzazione di tale patrimonio, rendendolo accessibile alle generazioni presenti e future.
 
 <!-- ## Associazione Culturale 
 
