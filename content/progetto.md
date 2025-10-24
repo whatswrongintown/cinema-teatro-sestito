@@ -8,7 +8,7 @@ slug: "progetto"
 ---
 
 ## Introduzione
-Benvenuti sul sito web del *Cinema Teatro Sestito* e dell’associazione culturale *Nuovo Cinema Teatro Sestito*. Il sito web è dedicato alla storia del cinema di San Vito sullo Ionio, un cinema storico nel Sud Italia, e alla nuova associazione culturale che si impegna a promuovere e preservarne la struttura e la storia.
+Benvenuti sul sito web del *Cinema Teatro Sestito*. Il sito web è dedicato alla storia del cinema di San Vito sullo Ionio, un cinema storico nel Sud Italia.
 
 ## Storia
 
@@ -24,7 +24,11 @@ Scopri di più sul [fondatore](/2023/04/20/la-storia-di-vito-sestito/)
 
 ## Programmazione
 
-Il cinema seguiva una programmazione classica basata sugli esistenti canali distributivi, che includeva film classici e contemporanei, così come una gamma di eventi speciali come mostre teatrali, assemblee, e proiezioni per la scuola. Nei primi anni, il cinema era basato su film storici o sui film di importanti registi del passato che hanno fatto la storia del cinema, in particolare di quello italiano. Il Cinema Sestito era più di un semplice cinema - era un centro culturale locale che ha portato le persone insieme e ha scatenato conversazioni sull'arte, la storia e la società.
+La programmazione ha attraversato una significativa evoluzione nel corso dei decenni, riflettendo i mutamenti culturali, economici e sociali del contesto locale e nazionale. Inizialmente orientata verso opere storiche e film d’autore - in particolare del panorama italiano del dopoguerra - la selezione cinematografica si allineava ai circuiti distributivi tradizionali, includendo anche eventi collaterali come proiezioni scolastiche, assemblee e spettacoli teatrali.
+
+A partire dagli anni Settanta, tuttavia, si osserva una progressiva trasformazione dell’offerta, con un incremento di pellicole appartenenti ai generi erotico, exploitation e pornografico, in linea con le dinamiche dei cosiddetti cinema di seconda visione o *grindhouse*. Questa transizione, lungi dall’essere un’anomalia, rappresenta una risposta adattiva alle pressioni del mercato, alla domanda del pubblico e alla marginalizzazione economica delle sale nei piccoli centri.
+
+Nonostante - o forse proprio in virtù di - questa traiettoria eterogenea, il Cinema Sestito ha mantenuto un ruolo centrale nella vita culturale di San Vito sullo Ionio, fungendo da spazio di aggregazione, consumo culturale e osservazione delle trasformazioni sociali attraverso il filtro del grande schermo.
 
 Approfondite la programmazione nella [sezione](/programmazione-cinematografica/)
 
