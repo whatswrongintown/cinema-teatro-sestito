@@ -9,16 +9,24 @@ params:
   anno: 1948
 ---
 
+
+
+
+
 <img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-1-1.png" width="768" /><img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-1-2.png" width="768" /><img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-1-3.png" width="768" />
----
-### Febbraio
+
+
+### Febbraio[^1]
+
 
 |           |                        |
 |:----------|:-----------------------|
 |1948-02-11 |[Tua per sempre](https://www.imdb.com/title/tt0035993/)|
 |1948-02-17 |[L'ultima carrozzella](https://www.imdb.com/title/tt0036470/)|
 |1948-02-21 |[La fanciulla di Portici](https://www.imdb.com/title/tt0032454/)|
+
 ### Maggio
+
 
 |           |                         |
 |:----------|:------------------------|
@@ -30,7 +38,9 @@ params:
 |1948-05-17 |[Fuga a due voci](https://www.imdb.com/title/tt0034762/)|
 |1948-05-21 |[Il fornaretto di Venezia](https://www.imdb.com/title/tt0031332/)|
 |1948-05-24 |[Addio, giovinezza!](https://www.imdb.com/title/tt0032182/)|
+
 ### Giugno
+
 
 |           |                                         |
 |:----------|:----------------------------------------|
@@ -41,7 +51,9 @@ params:
 |1948-06-19 |[Il testimone](https://www.imdb.com/title/tt0038155/)|
 |1948-06-21 |[Pian delle stelle](https://www.imdb.com/title/tt0038840/)|
 |1948-06-26 |[Felicità perduta](https://www.imdb.com/title/tt0038525/)|
+
 ### Luglio
+
 
 |           |                         |
 |:----------|:------------------------|
@@ -49,12 +61,16 @@ params:
 |1948-07-09 |[Ogni giorno è domenica](https://www.imdb.com/title/tt0037144/)|
 |1948-07-12 |[I due Foscari](https://www.imdb.com/title/tt0034687/)|
 |1948-07-20 |[La cena delle beffe](https://www.imdb.com/title/tt0033456/)|
+
 ### Agosto
+
 
 |           |                     |
 |:----------|:--------------------|
 |1948-08-05 |[Una notte tempestosa](https://www.imdb.com/title/tt0036210/)|
+
 ### Settembre
+
 
 |           |                    |
 |:----------|:-------------------|
@@ -62,7 +78,9 @@ params:
 |1948-09-13 |[Il leone di Damasco](https://www.imdb.com/title/tt0033825/)|
 |1948-09-19 |[Un uomo ritorna](https://www.imdb.com/title/tt0039072/)|
 |1948-09-23 |[Caterina da Siena](https://www.imdb.com/title/tt0039254/)|
+
 ### Ottobre
+
 
 |           |                        |
 |:----------|:-----------------------|
@@ -71,7 +89,9 @@ params:
 |1948-10-19 |[Ricchezza senza domani](https://www.imdb.com/title/tt0031856/)|
 |1948-10-22 |[La casa degli orrori](https://www.imdb.com/title/tt0037793/)|
 |1948-10-24 |[Follie per l'opera](https://www.imdb.com/title/tt0040362/)|
+
 ### Novembre
+
 
 |           |                                |
 |:----------|:-------------------------------|
@@ -90,7 +110,9 @@ params:
 |1948-11-25 |[Il corriere del re](https://www.imdb.com/title/tt0039280/)|
 |1948-11-28 |[Margherita Gauthier](https://www.imdb.com/title/tt0028683/)|
 |1948-11-30 |[Belle o brutte si sposan tutte…](https://www.imdb.com/title/tt0031094/)|
+
 ### Dicembre
+
 
 |           |                       |
 |:----------|:----------------------|
@@ -102,3 +124,6 @@ params:
 |1948-12-11 |[Furia](https://www.imdb.com/title/tt0038540/)|
 |1948-12-23 |[Bernadette](https://www.imdb.com/title/tt0036377/)|
 |1948-12-31 |[Le chiavi del paradiso](https://www.imdb.com/title/tt0036983/)|
+
+[^1]: Fonti: [Calendario 1948](/1948/02/01/calendario-1948/), [Fincine 1948-49](/1948/10/01/fincine-1948-49/), [Incam 1948-49](/1948/10/01/incam-1948-49/)
+

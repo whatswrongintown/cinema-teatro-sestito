@@ -5,28 +5,202 @@ date: '1975-01-01'
 slug: programmazione-1975
 categories:
   - programmazione-per-anni
+params:
+  anno: 1975
 ---
 
 
-Questa pagina raccoglie le proiezioni del 1975.
-
-
 ```{r setup, include=FALSE}
-library(dplyr)
+library(tidyverse)
 library(knitr)
-library(readr)
-library(lubridate)
-proiezioni <- read_csv("C:/Users/eurhope/Documents/R/cinema-teatro-sestito/static/data/programmazione_agende.csv") %>% 
-  mutate(anno = year(ymd(date)))
+library(here)
+library(ggrepel)
+library(scales)
+library(treemap)
+
+# Imposta la lingua italiana per i nomi dei mesi
+Sys.setlocale("LC_TIME", "it_IT.UTF-8")
+
+# Dati filtrati per l'anno 1975
+imdb <- read_csv(here("static/data/programmazione_imdb.csv")) %>% 
+  select(const = Const, year = Year, directors = Directors, genres = Genres, imdb_rating = `IMDb Rating`, imdb_votes = `Num Votes`, runtime = `Runtime (mins)`, url = URL) 
+
+Sys.setlocale("LC_TIME", "it_IT.UTF-8") 
+
+proiezioni_anno <- read_csv(here("static/data/programmazione_agende.csv")) %>% 
+  mutate(anno = year(ymd(date))) %>% 
+  left_join(imdb, by = "const") %>% 
+  mutate(Titolo = paste0("[", title, "](", url, ")")) %>% 
+  filter(anno == params$anno) %>% 
+  rename(Data = date) %>% 
+  arrange(Data)
 ```
 
+
+```{r echo=FALSE, warning=FALSE, fig.width=8, fig.height=3}
+
+totale <- nrow(proiezioni_anno) 
+
+proiezioni_anno %>%
+  mutate(mese = month(Data, label = TRUE, abbr = FALSE), mese = str_to_title(as.character(mese)), mese = factor(mese, levels = unique(mese[order(month(Data))]))) %>%
+  count(mese) %>%
+  ggplot(aes(x = mese, y = n)) +
+  geom_col(fill = "steelblue") +
+  geom_text(aes(label = n), vjust = -0.5, size = 4) +
+  labs(y = "Numero di film proiettati", x = "", subtitle = paste("Totale proiezioni:", totale)) +
+  theme_classic() +
+  theme(strip.placement = "outside",
+        strip.background = element_blank(),
+        panel.spacing=unit(0,"cm"),
+        plot.margin = margin(t = 20, r = 10, b = 10, l = 10)) +
+  coord_cartesian(clip = "off")
+
+proiezioni_anno %>%
+  drop_na(imdb_rating, imdb_votes) %>%
+  ggplot(aes(imdb_votes, imdb_rating)) +
+  geom_point(colour = "steelblue", size = 2) +
+  geom_text_repel(aes(label = title)) +
+  scale_x_log10(labels = comma) +
+  scale_y_continuous(breaks = 1:10) +
+  labs(y = "Valutazioni medie IMDb", x = "Numero di voti (log)") +
+  theme_classic() +
+  theme(strip.placement = "outside",
+        strip.background = element_blank(),
+        panel.spacing=unit(0,"cm"),
+        plot.margin = margin(t = 20, r = 10, b = 10, l = 10)) +
+  coord_cartesian(clip = "off")
+
+proiezioni_anno %>%
+  separate_rows(genres, sep = ",\\s*") %>%
+  count(genres) %>%
+  treemap(
+    index = "genres",
+    vSize = "n",
+    title = "Composizione dei generi",
+    palette = "Set3"
+  )
+```
+
+
+### Gennaio[^1]
 
 ```{r echo=FALSE}
-proiezioni %>% 
-  filter(anno == 1975) %>% 
-  select(date, title) %>% 
-  rename(Data = date, Titolo = title) %>% 
+proiezioni_anno %>% 
+  filter(month(Data) == 1) %>% 
+  select(Data, Titolo) %>% 
   arrange(Data) %>% 
-  kable()
+  kable(col.names = c("", ""))
 ```
+
+### Febbraio
+
+```{r echo=FALSE}
+proiezioni_anno %>% 
+  filter(month(Data) == 2) %>% 
+  select(Data, Titolo) %>% 
+  arrange(Data) %>% 
+  kable(col.names = c("", ""))
+```
+
+### Marzo
+
+```{r echo=FALSE}
+proiezioni_anno %>% 
+  filter(month(Data) == 3) %>% 
+  select(Data, Titolo) %>% 
+  arrange(Data) %>% 
+  kable(col.names = c("", ""))
+```
+
+### Aprile
+
+```{r echo=FALSE}
+proiezioni_anno %>% 
+  filter(month(Data) == 4) %>% 
+  select(Data, Titolo) %>% 
+  arrange(Data) %>% 
+  kable(col.names = c("", ""))
+```
+
+### Maggio
+
+```{r echo=FALSE}
+proiezioni_anno %>% 
+  filter(month(Data) == 5) %>% 
+  select(Data, Titolo) %>% 
+  arrange(Data) %>% 
+  kable(col.names = c("", ""))
+```
+
+### Giugno
+
+```{r echo=FALSE}
+proiezioni_anno %>% 
+  filter(month(Data) == 6) %>% 
+  select(Data, Titolo) %>% 
+  arrange(Data) %>% 
+  kable(col.names = c("", ""))
+```
+
+### Luglio
+
+```{r echo=FALSE}
+proiezioni_anno %>% 
+  filter(month(Data) == 7) %>% 
+  select(Data, Titolo) %>% 
+  arrange(Data) %>% 
+  kable(col.names = c("", ""))
+```
+
+### Agosto
+
+```{r echo=FALSE}
+proiezioni_anno %>% 
+  filter(month(Data) == 8) %>% 
+  select(Data, Titolo) %>% 
+  arrange(Data) %>% 
+  kable(col.names = c("", ""))
+```
+
+### Settembre
+
+```{r echo=FALSE}
+proiezioni_anno %>% 
+  filter(month(Data) == 9) %>% 
+  select(Data, Titolo) %>% 
+  arrange(Data) %>% 
+  kable(col.names = c("", ""))
+```
+
+### Ottobre
+
+```{r echo=FALSE}
+proiezioni_anno %>% 
+  filter(month(Data) == 10) %>% 
+  select(Data, Titolo) %>% 
+  arrange(Data) %>% 
+  kable(col.names = c("", ""))
+```
+
+### Novembre
+
+```{r echo=FALSE}
+proiezioni_anno %>% 
+  filter(month(Data) == 11) %>% 
+  select(Data, Titolo) %>% 
+  arrange(Data) %>% 
+  kable(col.names = c("", ""))
+```
+
+### Dicembre
+
+```{r echo=FALSE}
+proiezioni_anno %>% 
+  filter(month(Data) == 12) %>% 
+  select(Data, Titolo) %>% 
+  arrange(Data) %>% 
+  kable(col.names = c("", ""))
+```
+
+[^1]: Fonti: [Calendario 1974](/1974/01/01/calendario-1974/), [Calendario 1975](/1975/01/01/calendario-1975/), [Fedi 1975-76](/1975/11/01/fedi-1975-76/), [Rubrica 1974-75](/1974/01/01/rubrica-1974-75/)
 
