@@ -4,13 +4,17 @@ author: "Vito Sestito"
 date: "2023-04-21"
 description: "Il sito web dedicato al Cinema Teatro Sestito, fornisce una ricca collezione di foto, storie e ricordi dell'iconico cinema di San Vito sullo Ionio, insieme a informazioni sull'associazione culturale e sugli eventi in programma."
 ---
-Questo è un sito web dedicato al **Cinema Teatro Sestito**, l'iconico cinema di San Vito sullo Ionio.
+![](/./_index_files/1956_progetto_cinema.png)
 
-Dalle sue [origini](/2023/04/27/la-nascita-del-cinema-a-san-vito-un-sogno-diventato-realt/) alla chiusura, esplora i film, le storie e i ricordi che hanno reso il cinema una cara istituzione culturale del paese. Il sito web offre una ricca collezione di foto e aneddoti, oltre a informazioni sull’associazione culturale e sugli eventi in programma.
+Il **Cinema Teatro Sestito** di *San Vito sullo Ionio* è stato per oltre mezzo secolo un punto di incontro, di emozioni e di visioni condivise.
 
-Unisciti per celebrare la magia del cinema e il lascito di [Vito Sestito](/2023/04/20/la-storia-di-vito-sestito/), il visionario fondatore di questa gemma cinematografica.
+Nato nel secondo dopoguerra per iniziativa di [Vito Sestito](/2023/04/20/la-storia-di-vito-sestito/), il cinema ha accompagnato la vita del paese attraverso una programmazione audace e anticonvensionale, capace di mescolare i grandi titoli della storia del cinema, con titoli di nicchia e di frontiera. In questo equilibrio irregolare risiede gran parte del suo fascino e del suo valore storico.
 
-Cosa puoi trovare qui:
+Questo sito raccoglie e restituisce quella storia: locandine, fotografie, documenti e testimonianze compongono un archivio digitale in continua espansione, pensato per preservare il patrimonio di un’esperienza che ha intrecciato arte, comunità e quotidianità.
+
+Sebbene oggi le sue luci siano spente, il Cinema Sestito continua a vivere attraverso la ricerca, la memoria e la possibilità *- sempre aperta -* di un ritorno.
+
+**Esplora**:
 * [Programmazione storica](/programmazione-cinematografica/)
 * [Locandine d'epoca](/) *(sezione in costruzione)*.
 * [Articoli e racconti](/articoli/)
