@@ -33,7 +33,7 @@ A partire dagli anni Settanta, si assiste a una svolta significativa: la sala ad
 
 Questa trasformazione, lungi dall’essere marginale, riflette le pressioni del mercato e le esigenze di sostenibilità economica in un contesto di progressiva periferizzazione culturale. Nonostante tale eterogeneità, il Cinema Sestito ha continuato a svolgere una funzione aggregativa e culturale, offrendo uno spazio di osservazione delle trasformazioni sociali attraverso il medium cinematografico.
 
-Per ulteriori dettagli, visita la [sezione dedicata alla programmazione storica](/programmazione-cinematografica/).
+Per ulteriori dettagli, visita la sezione dedicata alla [programmazione storica](/programmazione-cinematografica/).
 
 ## Eredità
 
