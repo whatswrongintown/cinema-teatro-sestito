@@ -9,7 +9,7 @@ description: Calendari murali o da tavolo legati all’attività del cinema. Ind
 ---
 
 
-> ⚠️ Questa fonte non è stata scansionata.
+{{< image-gallery gallery_dir="/images/1962_12_01_calendario_1963" >}}
 
 
 ```{r setup, include=FALSE}
