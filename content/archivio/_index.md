@@ -21,7 +21,7 @@ Attraverso scritture private, atti notarili, progetti architettonici, corrispond
 6. ⚖️ **[Giudiziario](/categories/Giudiziario/)** – Documentazione legale e procedimenti amministrativi connessi all’attività della sala o a controversie civili.
 7. 👤 **[Personali](/categories/Personali/)** – Materiali biografici relativi alla famiglia Sestito: attestati, diari, e documenti militari.
 8. 🎭 **[Spettacoli](/categories/Spettacoli/)** – Materiale promozionale, locandine e documenti organizzativi relativi a eventi teatrali, musicali e culturali ospitati nella struttura.
-9. 🎞️ **[Attrezzature](/categories/attrezzature/)** - Macchinari, proiettori, pellicole, arredi e materiali tecnici impiegati nell’attività cinematografica.
+9. 🎞️ **[Attrezzature](/categories/Attrezzature/)** - Macchinari, proiettori, pellicole, arredi e materiali tecnici impiegati nell’attività cinematografica.
 
 ---
 
