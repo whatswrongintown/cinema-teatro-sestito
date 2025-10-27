@@ -15,10 +15,10 @@ Questo sito raccoglie e restituisce quella storia: locandine, fotografie, docume
 Sebbene oggi le sue luci siano spente, il Cinema Sestito continua a vivere attraverso la ricerca, la memoria e la possibilità *- sempre aperta -* di un ritorno.
 
 **Esplora**:
-* [Programmazione storica](/programmazione-cinematografica/)
+* [Programmazione storica](/programmazione-storica/)
 * [Locandine d'epoca](/) *(sezione in costruzione)*.
 * [Articoli e racconti](/articoli/)
-* [Documenti d’archivio](/documenti-storici/)
+* [Archivio](/archivio/)
 
 ---
 

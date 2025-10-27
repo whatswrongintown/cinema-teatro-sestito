@@ -9,10 +9,9 @@ ignoreFiles:
   - \.utf8\.md$
 permalinks:
   articoli: /:year/:month/:day/:slug/
-  documenti-storici: /:year/:month/:day/:slug/
-  association: /:year/:month/:day/:slug/
+  archivio: /:year/:month/:day/:slug/
   eventi: /:year/:month/:day/:slug/
-  programmazione-cinematografica: /:year/:month/:day/:slug/
+  programmazione-storica: /:year/:month/:day/:slug/
 menu:
   main:
     - name: Progetto

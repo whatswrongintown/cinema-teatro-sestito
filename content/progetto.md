@@ -33,18 +33,10 @@ A partire dagli anni Settanta, si assiste a una svolta significativa: la sala ad
 
 Questa trasformazione, lungi dall’essere marginale, riflette le pressioni del mercato e le esigenze di sostenibilità economica in un contesto di progressiva periferizzazione culturale. Nonostante tale eterogeneità, il Cinema Sestito ha continuato a svolgere una funzione aggregativa e culturale, offrendo uno spazio di osservazione delle trasformazioni sociali attraverso il medium cinematografico.
 
-Per ulteriori dettagli, visita la sezione dedicata alla [programmazione storica](/programmazione-cinematografica/).
+Per ulteriori dettagli, visita la sezione dedicata alla [programmazione storica](/programmazione-storica/).
 
 ## Eredità
 
 L’eredità del Cinema Sestito si manifesta oggi nella memoria collettiva dei cittadini di San Vito sullo Ionio, nei materiali conservati e nelle testimonianze raccolte. La sala ha rappresentato un luogo di socializzazione, di formazione culturale e di costruzione identitaria. Il suo impatto sulla comunità locale è testimoniato non solo dalla durata della sua attività, ma anche dalla persistenza del suo ricordo come spazio simbolico e affettivo.
 
 Questo sito intende contribuire alla conservazione e alla valorizzazione di tale patrimonio, rendendolo accessibile alle generazioni presenti e future.
-
-<!-- ## Associazione Culturale 
-
-L’associazione culturale si impegna a preservare e promuovere l'eredità del Cinema Teatro Sestito. Credo che il cinema sia una forma d'arte vitale che riflette la nostra società e modella le nostre prospettive. Celebrando la storia del cinema e il suo contributo alla comunità locale, spero di ispirare le future generazioni ad apprezzare e impegnarsi per mantenere il patrimonio culturale locale.
-
-Vi invito ad unirvi all’associazione culturale e ad aiutarmi a continuare la mia missione di preservare e promuovere il cinema. Come membro, avrai accesso ad eventi esclusivi, proiezioni e opportunità per interagire con altri appassionati di cinema. L'iscrizione è aperta a tutti e richiede solo una modesta quota annuale. Per saperne di più e diventare un membro, leggi tutte le informazioni nella [sezione dedicata](/association/) *(questa sezione è ancora una bozza fino al momento della costituzione)*. Per rimanere aggiornato sull'avvio dell'associazione inviami una [mail](mailto:whatswrongintown@gmail.com).
-
-*[Vito Sestito](/chisono/)* -->
