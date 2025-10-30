@@ -193,5 +193,5 @@ params:
 |1964-12-27 |[Sansone contro i pirati](https://www.imdb.com/title/tt0057470/)|
 |1964-12-30 |[L'oro dei sette santi](https://www.imdb.com/title/tt0054934/)|
 
-[^1]: Fonti: [Calendario 1964](/1964/01/01/calendario-1964/), [Fedi 1962-63](/1962/11/01/fedi-1962-63/)
+[^1]: Fonti: [Fedi 1962-63](/1962/11/01/fedi-1962-63/), [Rapidtransport 1964](/1964/01/01/rapidtransport-1964/)
 

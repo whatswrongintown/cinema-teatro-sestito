@@ -1,15 +1,15 @@
 ---
-title: Calendario 1964
+title: Rapidtransport 1964
 author: Vito Sestito
 date: '1964-01-01'
-slug: calendario-1964
+slug: rapidtransport-1964
 categories:
-  - Calendari
-description: Calendari murali o da tavolo legati all’attività del cinema. Indicano la data di proiezione e il titolo dei film, insieme agli incassi registrati.
+  - Agende
+description: Agende cinematografiche fornite dalle case distributrici. Contengono informazioni dettagliate sulla data di proiezione, titolo del film, distributore e l’ammontare degli incassi.
 ---
 
 
-{{< image-gallery gallery_dir="/images/1964_01_01_calendario_1964" >}}
+{{< image-gallery gallery_dir="/images/1964_01_01_rapidtransport_1964" >}}
 
 
 
@@ -44,6 +44,7 @@ description: Calendari murali o da tavolo legati all’attività del cinema. Ind
 |1964-02-12 |[Fra' Diavolo](https://www.imdb.com/title/tt0033630/)|
 |1964-02-16 |[Mogambo](https://www.imdb.com/title/tt0046085/)|
 |1964-02-19 |[Psyco](https://www.imdb.com/title/tt0054215/)|
+|1964-02-21 |[I figli di nessuno](https://www.imdb.com/title/tt0043532/)|
 |1964-02-23 |[L'uomo che uccise Liberty Valance](https://www.imdb.com/title/tt0056217/)|
 |1964-02-26 |[Banditi a Orgosolo](https://www.imdb.com/title/tt0053632/)|
 |1964-02-29 |[Rapsodia](https://www.imdb.com/title/tt0047408/)|

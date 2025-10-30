@@ -303,5 +303,5 @@ params:
 |1966-12-30 |[2+5: Missione Hydra](https://www.imdb.com/title/tt0058859/)|
 |1966-12-31 |[I due sanculotti](https://www.imdb.com/title/tt0060353/)|
 
-[^1]: Fonti: [Calendario 1966](/1966/01/01/calendario-1966/), [Ceat 1966](/1966/01/01/ceat-1966/), [NAONIS 1966](/1966/01/01/naonis-1966/)
+[^1]: Fonti: [Calendario 1966](/1966/01/01/calendario-1966/), [Ceat 1966](/1966/01/01/ceat-1966/), [NAONIS 1966](/1966/01/01/naonis-1966/), [Rapidtransport 1965](/1965/01/01/rapidtransport-1965/)
 

@@ -62,7 +62,7 @@ proiezioni_anno %>%
   geom_text_repel(aes(label = title)) +
   scale_x_log10(labels = comma) +
   scale_y_continuous(breaks = 1:10) +
-  labs(y = "Valutazioni medie IMDb", x = "Numero di voti (log)") +
+  labs(y = "Valutazioni medie IMDb", x = "Numero di voti (log)", caption = "Information courtesy of IMDb (https://www.imdb.com)") +
   theme_classic() +
   theme(strip.placement = "outside",
         strip.background = element_blank(),
@@ -202,5 +202,5 @@ proiezioni_anno %>%
   kable(col.names = c("", ""))
 ```
 
-[^1]: Fonti: [Calendario 1966](/1966/01/01/calendario-1966/), [Ceat 1966](/1966/01/01/ceat-1966/), [NAONIS 1966](/1966/01/01/naonis-1966/)
+[^1]: Fonti: [Calendario 1966](/1966/01/01/calendario-1966/), [Ceat 1966](/1966/01/01/ceat-1966/), [NAONIS 1966](/1966/01/01/naonis-1966/), [Rapidtransport 1965](/1965/01/01/rapidtransport-1965/)
 

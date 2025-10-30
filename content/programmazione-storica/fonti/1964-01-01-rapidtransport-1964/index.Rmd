@@ -1,15 +1,15 @@
 ---
-title: Calendario 1964
+title: Rapidtransport 1964
 author: Vito Sestito
 date: '1964-01-01'
-slug: calendario-1964
+slug: rapidtransport-1964
 categories:
-  - Calendari
-description: Calendari murali o da tavolo legati all’attività del cinema. Indicano la data di proiezione e il titolo dei film, insieme agli incassi registrati.
+  - Agende
+description: Agende cinematografiche fornite dalle case distributrici. Contengono informazioni dettagliate sulla data di proiezione, titolo del film, distributore e l’ammontare degli incassi.
 ---
 
 
-{{< image-gallery gallery_dir="/images/1964_01_01_calendario_1964" >}}
+{{< image-gallery gallery_dir="/images/1964_01_01_rapidtransport_1964" >}}
 
 
 ```{r setup, include=FALSE}
@@ -24,7 +24,7 @@ imdb <- read_csv(here("static/data/programmazione_imdb.csv")) %>%
 # Dati fonte
 proiezioni_fonte <- read_csv(here("static/data/programmazione_agende.csv")) %>%
   select(const, date, title, source) %>%
-  filter(str_detect(source, "Calendario 1964")) %>%
+  filter(str_detect(source, "Rapidtransport 1964")) %>%
   left_join(imdb, by = "const") %>%
   mutate(title = paste0("[", title, "](", url, ")"))
 ```
@@ -32,7 +32,7 @@ proiezioni_fonte <- read_csv(here("static/data/programmazione_agende.csv")) %>%
 
 ### Gennaio
 
-```{r echo=FALSE}
+```{r echo=FALSE, warning=FALSE}
 library(knitr)
 proiezioni_fonte %>% 
   filter(lubridate::month(date) == 1) %>% 
@@ -43,7 +43,7 @@ proiezioni_fonte %>%
 
 ### Febbraio
 
-```{r echo=FALSE}
+```{r echo=FALSE, warning=FALSE}
 library(knitr)
 proiezioni_fonte %>% 
   filter(lubridate::month(date) == 2) %>% 
@@ -54,7 +54,7 @@ proiezioni_fonte %>%
 
 ### Marzo
 
-```{r echo=FALSE}
+```{r echo=FALSE, warning=FALSE}
 library(knitr)
 proiezioni_fonte %>% 
   filter(lubridate::month(date) == 3) %>% 
@@ -65,7 +65,7 @@ proiezioni_fonte %>%
 
 ### Aprile
 
-```{r echo=FALSE}
+```{r echo=FALSE, warning=FALSE}
 library(knitr)
 proiezioni_fonte %>% 
   filter(lubridate::month(date) == 4) %>% 
@@ -76,7 +76,7 @@ proiezioni_fonte %>%
 
 ### Maggio
 
-```{r echo=FALSE}
+```{r echo=FALSE, warning=FALSE}
 library(knitr)
 proiezioni_fonte %>% 
   filter(lubridate::month(date) == 5) %>% 
@@ -87,7 +87,7 @@ proiezioni_fonte %>%
 
 ### Giugno
 
-```{r echo=FALSE}
+```{r echo=FALSE, warning=FALSE}
 library(knitr)
 proiezioni_fonte %>% 
   filter(lubridate::month(date) == 6) %>% 
@@ -98,7 +98,7 @@ proiezioni_fonte %>%
 
 ### Luglio
 
-```{r echo=FALSE}
+```{r echo=FALSE, warning=FALSE}
 library(knitr)
 proiezioni_fonte %>% 
   filter(lubridate::month(date) == 7) %>% 
@@ -109,7 +109,7 @@ proiezioni_fonte %>%
 
 ### Agosto
 
-```{r echo=FALSE}
+```{r echo=FALSE, warning=FALSE}
 library(knitr)
 proiezioni_fonte %>% 
   filter(lubridate::month(date) == 8) %>% 
@@ -120,7 +120,7 @@ proiezioni_fonte %>%
 
 ### Settembre
 
-```{r echo=FALSE}
+```{r echo=FALSE, warning=FALSE}
 library(knitr)
 proiezioni_fonte %>% 
   filter(lubridate::month(date) == 9) %>% 
@@ -131,7 +131,7 @@ proiezioni_fonte %>%
 
 ### Ottobre
 
-```{r echo=FALSE}
+```{r echo=FALSE, warning=FALSE}
 library(knitr)
 proiezioni_fonte %>% 
   filter(lubridate::month(date) == 10) %>% 
@@ -142,7 +142,7 @@ proiezioni_fonte %>%
 
 ### Novembre
 
-```{r echo=FALSE}
+```{r echo=FALSE, warning=FALSE}
 library(knitr)
 proiezioni_fonte %>% 
   filter(lubridate::month(date) == 11) %>% 
@@ -153,7 +153,7 @@ proiezioni_fonte %>%
 
 ### Dicembre
 
-```{r echo=FALSE}
+```{r echo=FALSE, warning=FALSE}
 library(knitr)
 proiezioni_fonte %>% 
   filter(lubridate::month(date) == 12) %>% 

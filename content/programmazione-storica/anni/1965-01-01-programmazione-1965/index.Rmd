@@ -1,12 +1,12 @@
 ---
-title: Programmazione 1963
+title: Programmazione 1965
 author: Vito Sestito
-date: '1963-01-01'
-slug: programmazione-1963
+date: '1965-01-01'
+slug: programmazione-1965
 categories:
   - programmazione-per-anni
 params:
-  anno: 1963
+  anno: 1965
 ---
 
 
@@ -21,7 +21,7 @@ library(treemap)
 # Imposta la lingua italiana per i nomi dei mesi
 Sys.setlocale("LC_TIME", "it_IT.UTF-8")
 
-# Dati filtrati per l'anno 1963
+# Dati filtrati per l'anno 1965
 imdb <- read_csv(here("static/data/programmazione_imdb.csv")) %>% 
   select(const = Const, year = Year, directors = Directors, genres = Genres, imdb_rating = `IMDb Rating`, imdb_votes = `Num Votes`, runtime = `Runtime (mins)`, url = URL) 
 
@@ -202,5 +202,5 @@ proiezioni_anno %>%
   kable(col.names = c("", ""))
 ```
 
-[^1]: Fonti: [Calendario 1963](/1962/12/01/calendario-1963/), [Fedi 1962-63](/1962/11/01/fedi-1962-63/)
+[^1]: Fonti: [Rapidtransport 1965](/1965/01/01/rapidtransport-1965/)
 
