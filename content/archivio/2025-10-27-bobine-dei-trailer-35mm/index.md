@@ -4,7 +4,7 @@ author: Vito Sestito
 date: '2025-10-27'
 slug: bobine-dei-trailer-35mm
 categories:
-  - Attrezzature
+  - attrezzature
 description: "Schede e documentazione delle bobine promozionali in pellicola 35mm conservate nell’archivio del Cinema Teatro Sestito."
 ---
 

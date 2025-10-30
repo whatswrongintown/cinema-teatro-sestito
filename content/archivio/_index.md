@@ -13,15 +13,15 @@ Attraverso scritture private, atti notarili, progetti architettonici, corrispond
 
 ### Categorie principali
 
-1. ✉️ **[Corrispondenza](/categories/Corrispondenza/)** – Lettere e comunicazioni ufficiali relative alla gestione del cinema e ai rapporti con enti pubblici, distributori e collaboratori.
-2. 🪪 **[Autorizzazioni](/categories/Autorizzazioni/)** – Permessi, licenze e certificazioni rilasciati per l’esercizio di attività cinematografiche, commerciali o politiche.
-3. 📜 **[Contratti](/categories/Contratti/)** – Scritture private, accordi e convenzioni stipulati con imprese, fornitori di servizi, società elettriche e agenzie pubblicitarie.
-4. 🧱 **[Progetti](/categories/Progetti/)** – Elaborati tecnici, planimetrie e disegni architettonici relativi alla costruzione, ristrutturazione e ampliamento della sala.
-5. 🏛️ **[Proprietà](/categories/Proprietà/)** – Atti notarili, registri catastali e trascrizioni riguardanti l’acquisizione e la gestione dei beni immobili legati al cinema.
-6. ⚖️ **[Giudiziario](/categories/Giudiziario/)** – Documentazione legale e procedimenti amministrativi connessi all’attività della sala o a controversie civili.
-7. 👤 **[Personali](/categories/Personali/)** – Materiali biografici relativi alla famiglia Sestito: attestati, diari, e documenti militari.
-8. 🎭 **[Spettacoli](/categories/Spettacoli/)** – Materiale promozionale, locandine e documenti organizzativi relativi a eventi teatrali, musicali e culturali ospitati nella struttura.
-9. 🎞️ **[Attrezzature](/categories/Attrezzature/)** - Macchinari, proiettori, pellicole, arredi e materiali tecnici impiegati nell’attività cinematografica.
+1. ✉️ **[Corrispondenza](/categories/corrispondenza/)** – Lettere e comunicazioni ufficiali relative alla gestione del cinema e ai rapporti con enti pubblici, distributori e collaboratori.
+2. 🪪 **[Autorizzazioni](/categories/autorizzazioni/)** – Permessi, licenze e certificazioni rilasciati per l’esercizio di attività cinematografiche, commerciali o politiche.
+3. 📜 **[Contratti](/categories/contratti/)** – Scritture private, accordi e convenzioni stipulati con imprese, fornitori di servizi, società elettriche e agenzie pubblicitarie.
+4. 🧱 **[Progetti](/categories/progetti/)** – Elaborati tecnici, planimetrie e disegni architettonici relativi alla costruzione, ristrutturazione e ampliamento della sala.
+5. 🏛️ **[Proprietà](/categories/proprietà/)** – Atti notarili, registri catastali e trascrizioni riguardanti l’acquisizione e la gestione dei beni immobili legati al cinema.
+6. ⚖️ **[Giudiziario](/categories/giudiziario/)** – Documentazione legale e procedimenti amministrativi connessi all’attività della sala o a controversie civili.
+7. 👤 **[Personali](/categories/personali/)** – Materiali biografici relativi alla famiglia Sestito: attestati, diari, e documenti militari.
+8. 🎭 **[Spettacoli](/categories/spettacoli/)** – Materiale promozionale, locandine e documenti organizzativi relativi a eventi teatrali, musicali e culturali ospitati nella struttura.
+9. 🎞️ **[Attrezzature](/categories/attrezzature/)** - Macchinari, proiettori, pellicole, arredi e materiali tecnici impiegati nell’attività cinematografica.
 
 ---
 
