@@ -1,5 +1,5 @@
 baseurl: https://cinemateatrosestito.com/
-languageCode: en-us
+languageCode: it-IT
 title: Cinema Teatro Sestito
 ignoreFiles:
   - \.Rmd$
@@ -18,17 +18,9 @@ menu:
       url: /progetto/
       weight: 1
 params:
-  MathJaxCDN: //cdnjs.cloudflare.com/ajax/libs
-  MathJaxVersion: 2.7.5
   description: Un sito web dedicato al Cinema di San Vito sullo Ionio. Dalle sue origini alla chiusura, esplora i film, le storie e i ricordi che hanno reso il Cinema una cara istituzione culturale del paese.
   defaultImage: "/images/_index_files/1956_progetto_cinema.webp"
   favicon: images/favicon.png
-  highlightjsCDN: //cdnjs.cloudflare.com/ajax/libs
-  highlightjsLang:
-    - r
-    - yaml
-  highlightjsTheme: github
-  highlightjsVersion: 9.12.0
   logo:
     alt: avatar
     height: 50
