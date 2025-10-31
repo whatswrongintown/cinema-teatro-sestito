@@ -5,8 +5,10 @@ date: "2025-10-16"
 description: "Le diverse tipologie di documenti utilizzate per ricostruire la programmazione del Cinema Teatro Sestito."
 layout: "section"
 slug: "fonti"
+image: "/images/programmazione-storica/fonti/_index_files/agenda_fedi_54_55.webp"
 ---
-Questa sezione raccoglie e descrive le diverse **fonti originali** che hanno permesso di ricostruire la programmazione cinematografica del Cinema.
+![](/programmazione-storica/fonti/_index_files/agenda_fedi_54_55.webp)
+Questa sezione raccoglie e descrive le diverse **fonti originali** che hanno permesso di ricostruire la programmazione cinematografica.
 
 Le principali tipologie di fonti sono:
 
@@ -14,6 +16,8 @@ Le principali tipologie di fonti sono:
 2. 📰 **[Calendari](/categories/calendari/)** - Calendari murali o da tavolo utilizzati per annotare la programmazione del cinema. Indicano le date di proiezione, i titoli e, in molti casi, gli incassi.
 3. 📅  **[Rubriche](/categories/rubriche/)** - Registri alfabetici in cui venivano elencati i film proiettati, con l’indicazione della data e del distributore.
 4. ✍️  **[Appunti](/categories/appunti/)** - Blocchi o fogli sciolti su cui erano annotati i film mese per mese, talvolta accompagnati dai relativi incassi.
+
+![](/programmazione-storica/fonti/_index_files/fonti_per_decennio.png)
 
 ---
 
