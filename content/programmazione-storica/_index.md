@@ -4,6 +4,7 @@ author: "Vito Sestito"
 date: "2023-04-21"
 description: "Archivio delle proiezioni del Cinema Teatro Sestito dal 1948 al 2004, ricostruito attraverso le fonti originali conservate dalla famiglia Sestito."
 slug: "programmazione-storica"
+image: "/images/programmazione-storica/_index_files/avvolgitore_prevost.jpg"
 ---
 ![](/programmazione-storica/_index_files/avvolgitore_prevost.jpg)
 
