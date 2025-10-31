@@ -9,7 +9,7 @@ description: Appunti su blocchi o fogli, con i film registrati per mese. Riporta
 ---
 
 
-> ⚠️ Questa fonte non è stata scansionata.
+{{< image-gallery gallery_dir="/images/2000_09_01_appunti_victory_2000" >}}
 
 
 ```{r setup, include=FALSE}
@@ -33,7 +33,7 @@ proiezioni_fonte <- read_csv(here("static/data/programmazione_agende.csv")) %>%
 ## 2000
 ### Settembre
 
-```{r echo=FALSE}
+```{r echo=FALSE, warning=FALSE}
 library(knitr)
 proiezioni_fonte %>% 
   filter(lubridate::year(date) == 2000, lubridate::month(date) == 9) %>% 
@@ -44,7 +44,7 @@ proiezioni_fonte %>%
 
 ### Ottobre
 
-```{r echo=FALSE}
+```{r echo=FALSE, warning=FALSE}
 library(knitr)
 proiezioni_fonte %>% 
   filter(lubridate::year(date) == 2000, lubridate::month(date) == 10) %>% 
@@ -55,7 +55,7 @@ proiezioni_fonte %>%
 
 ### Novembre
 
-```{r echo=FALSE}
+```{r echo=FALSE, warning=FALSE}
 library(knitr)
 proiezioni_fonte %>% 
   filter(lubridate::year(date) == 2000, lubridate::month(date) == 11) %>% 
@@ -66,7 +66,7 @@ proiezioni_fonte %>%
 
 ### Dicembre
 
-```{r echo=FALSE}
+```{r echo=FALSE, warning=FALSE}
 library(knitr)
 proiezioni_fonte %>% 
   filter(lubridate::year(date) == 2000, lubridate::month(date) == 12) %>% 
@@ -78,7 +78,7 @@ proiezioni_fonte %>%
 ## 2001
 ### Gennaio
 
-```{r echo=FALSE}
+```{r echo=FALSE, warning=FALSE}
 library(knitr)
 proiezioni_fonte %>% 
   filter(lubridate::year(date) == 2001, lubridate::month(date) == 1) %>% 
@@ -89,7 +89,7 @@ proiezioni_fonte %>%
 
 ### Febbraio
 
-```{r echo=FALSE}
+```{r echo=FALSE, warning=FALSE}
 library(knitr)
 proiezioni_fonte %>% 
   filter(lubridate::year(date) == 2001, lubridate::month(date) == 2) %>% 
@@ -100,7 +100,7 @@ proiezioni_fonte %>%
 
 ### Marzo
 
-```{r echo=FALSE}
+```{r echo=FALSE, warning=FALSE}
 library(knitr)
 proiezioni_fonte %>% 
   filter(lubridate::year(date) == 2001, lubridate::month(date) == 3) %>% 
@@ -111,7 +111,7 @@ proiezioni_fonte %>%
 
 ### Aprile
 
-```{r echo=FALSE}
+```{r echo=FALSE, warning=FALSE}
 library(knitr)
 proiezioni_fonte %>% 
   filter(lubridate::year(date) == 2001, lubridate::month(date) == 4) %>% 
@@ -122,7 +122,7 @@ proiezioni_fonte %>%
 
 ### Giugno
 
-```{r echo=FALSE}
+```{r echo=FALSE, warning=FALSE}
 library(knitr)
 proiezioni_fonte %>% 
   filter(lubridate::year(date) == 2001, lubridate::month(date) == 6) %>% 
@@ -133,7 +133,7 @@ proiezioni_fonte %>%
 
 ### Settembre
 
-```{r echo=FALSE}
+```{r echo=FALSE, warning=FALSE}
 library(knitr)
 proiezioni_fonte %>% 
   filter(lubridate::year(date) == 2001, lubridate::month(date) == 9) %>% 
@@ -144,7 +144,7 @@ proiezioni_fonte %>%
 
 ### Ottobre
 
-```{r echo=FALSE}
+```{r echo=FALSE, warning=FALSE}
 library(knitr)
 proiezioni_fonte %>% 
   filter(lubridate::year(date) == 2001, lubridate::month(date) == 10) %>% 
@@ -155,7 +155,7 @@ proiezioni_fonte %>%
 
 ### Novembre
 
-```{r echo=FALSE}
+```{r echo=FALSE, warning=FALSE}
 library(knitr)
 proiezioni_fonte %>% 
   filter(lubridate::year(date) == 2001, lubridate::month(date) == 11) %>% 
@@ -166,7 +166,7 @@ proiezioni_fonte %>%
 
 ### Dicembre
 
-```{r echo=FALSE}
+```{r echo=FALSE, warning=FALSE}
 library(knitr)
 proiezioni_fonte %>% 
   filter(lubridate::year(date) == 2001, lubridate::month(date) == 12) %>% 
@@ -178,7 +178,7 @@ proiezioni_fonte %>%
 ## 2002
 ### Gennaio
 
-```{r echo=FALSE}
+```{r echo=FALSE, warning=FALSE}
 library(knitr)
 proiezioni_fonte %>% 
   filter(lubridate::year(date) == 2002, lubridate::month(date) == 1) %>% 
@@ -189,7 +189,7 @@ proiezioni_fonte %>%
 
 ### Febbraio
 
-```{r echo=FALSE}
+```{r echo=FALSE, warning=FALSE}
 library(knitr)
 proiezioni_fonte %>% 
   filter(lubridate::year(date) == 2002, lubridate::month(date) == 2) %>% 
@@ -200,7 +200,7 @@ proiezioni_fonte %>%
 
 ### Marzo
 
-```{r echo=FALSE}
+```{r echo=FALSE, warning=FALSE}
 library(knitr)
 proiezioni_fonte %>% 
   filter(lubridate::year(date) == 2002, lubridate::month(date) == 3) %>% 
@@ -211,7 +211,7 @@ proiezioni_fonte %>%
 
 ### Aprile
 
-```{r echo=FALSE}
+```{r echo=FALSE, warning=FALSE}
 library(knitr)
 proiezioni_fonte %>% 
   filter(lubridate::year(date) == 2002, lubridate::month(date) == 4) %>% 
@@ -222,7 +222,7 @@ proiezioni_fonte %>%
 
 ### Dicembre
 
-```{r echo=FALSE}
+```{r echo=FALSE, warning=FALSE}
 library(knitr)
 proiezioni_fonte %>% 
   filter(lubridate::year(date) == 2002, lubridate::month(date) == 12) %>% 
@@ -234,7 +234,7 @@ proiezioni_fonte %>%
 ## 2003
 ### Gennaio
 
-```{r echo=FALSE}
+```{r echo=FALSE, warning=FALSE}
 library(knitr)
 proiezioni_fonte %>% 
   filter(lubridate::year(date) == 2003, lubridate::month(date) == 1) %>% 
@@ -245,7 +245,7 @@ proiezioni_fonte %>%
 
 ### Febbraio
 
-```{r echo=FALSE}
+```{r echo=FALSE, warning=FALSE}
 library(knitr)
 proiezioni_fonte %>% 
   filter(lubridate::year(date) == 2003, lubridate::month(date) == 2) %>% 
@@ -256,7 +256,7 @@ proiezioni_fonte %>%
 
 ### Marzo
 
-```{r echo=FALSE}
+```{r echo=FALSE, warning=FALSE}
 library(knitr)
 proiezioni_fonte %>% 
   filter(lubridate::year(date) == 2003, lubridate::month(date) == 3) %>% 
@@ -267,7 +267,7 @@ proiezioni_fonte %>%
 
 ### Aprile
 
-```{r echo=FALSE}
+```{r echo=FALSE, warning=FALSE}
 library(knitr)
 proiezioni_fonte %>% 
   filter(lubridate::year(date) == 2003, lubridate::month(date) == 4) %>% 
@@ -278,7 +278,7 @@ proiezioni_fonte %>%
 
 ### Ottobre
 
-```{r echo=FALSE}
+```{r echo=FALSE, warning=FALSE}
 library(knitr)
 proiezioni_fonte %>% 
   filter(lubridate::year(date) == 2003, lubridate::month(date) == 10) %>% 
@@ -289,7 +289,7 @@ proiezioni_fonte %>%
 
 ### Novembre
 
-```{r echo=FALSE}
+```{r echo=FALSE, warning=FALSE}
 library(knitr)
 proiezioni_fonte %>% 
   filter(lubridate::year(date) == 2003, lubridate::month(date) == 11) %>% 
@@ -300,7 +300,7 @@ proiezioni_fonte %>%
 
 ### Dicembre
 
-```{r echo=FALSE}
+```{r echo=FALSE, warning=FALSE}
 library(knitr)
 proiezioni_fonte %>% 
   filter(lubridate::year(date) == 2003, lubridate::month(date) == 12) %>% 
@@ -312,7 +312,7 @@ proiezioni_fonte %>%
 ## 2004
 ### Gennaio
 
-```{r echo=FALSE}
+```{r echo=FALSE, warning=FALSE}
 library(knitr)
 proiezioni_fonte %>% 
   filter(lubridate::year(date) == 2004, lubridate::month(date) == 1) %>% 
@@ -323,7 +323,7 @@ proiezioni_fonte %>%
 
 ### Febbraio
 
-```{r echo=FALSE}
+```{r echo=FALSE, warning=FALSE}
 library(knitr)
 proiezioni_fonte %>% 
   filter(lubridate::year(date) == 2004, lubridate::month(date) == 2) %>% 
@@ -334,7 +334,7 @@ proiezioni_fonte %>%
 
 ### Marzo
 
-```{r echo=FALSE}
+```{r echo=FALSE, warning=FALSE}
 library(knitr)
 proiezioni_fonte %>% 
   filter(lubridate::year(date) == 2004, lubridate::month(date) == 3) %>% 
@@ -345,7 +345,7 @@ proiezioni_fonte %>%
 
 ### Aprile
 
-```{r echo=FALSE}
+```{r echo=FALSE, warning=FALSE}
 library(knitr)
 proiezioni_fonte %>% 
   filter(lubridate::year(date) == 2004, lubridate::month(date) == 4) %>% 
@@ -356,7 +356,7 @@ proiezioni_fonte %>%
 
 ### Maggio
 
-```{r echo=FALSE}
+```{r echo=FALSE, warning=FALSE}
 library(knitr)
 proiezioni_fonte %>% 
   filter(lubridate::year(date) == 2004, lubridate::month(date) == 5) %>% 

@@ -9,7 +9,7 @@ description: Appunti su blocchi o fogli, con i film registrati per mese. Riporta
 ---
 
 
-> ⚠️ Questa fonte non è stata scansionata.
+{{< image-gallery gallery_dir="/images/2000_09_01_appunti_victory_2000" >}}
 
 
 
