@@ -12,18 +12,18 @@ tags:
 ---
 ![](images/03_sonati_vicinu_2023.JPG)
 
-## Un Racconto da Sonati Vicinu 2023
+## Riflessioni da Sonati Vicinu 2023
 
-L'incantevole festival [Sonati Vicinu](https://sites.google.com/view/sonativicinu/edizioni/vii-edizione-2023) del 2023 è stato una celebrazione di racconti e leggende, ed è stato un onore essere invitato a partecipare. La ricca tradizione di San Vito sullo Ionio nel narrare storie ha trovato una piattaforma unica nel nostro amato cinema. Mentre si apriva il primo giorno del festival, si alzava il sipario su un viaggio che ha unito la magia del cinema con le vicende che hanno intrecciato la nostra comunità.
+La settima edizione del festival [Sonati Vicinu](https://sites.google.com/view/sonativicinu/edizioni/vii-edizione-2023), tenutasi nel 2023, ha rappresentato una significativa occasione di incontro tra tradizione orale, memoria collettiva e pratiche culturali contemporanee. All’interno di questo contesto, il Cinema Sestito ha assunto un ruolo centrale, non solo come luogo fisico, ma come dispositivo narrativo capace di mediare tra passato e presente.
 
-Il cinema a San Vito sullo Ionio è sempre stato più di un luogo per guardare film; è stato il narratore comunitario del paese. Mentre mi immergevo nella sua storia, non potevo fare a meno di riflettere su come questo iconico luogo avesse contribuito a dare forma alle differenti narrazioni che la nostra comunità è accorsa, nel tempo, ad ammirare sul grande schermo.
+Il cinema di San Vito sullo Ionio, sin dalla sua fondazione, ha svolto una funzione che va oltre la semplice proiezione di film: è stato uno spazio di costruzione identitaria, di trasmissione simbolica e di aggregazione sociale. La conferenza inaugurale del festival ha offerto l’opportunità di ripercorrere le [origini](/2023/04/27/la-nascita-del-cinema-a-san-vito-un-sogno-diventato-realt/) della sala, fondata nel 1946 da [Vito Sestito](/2023/04/20/la-storia-di-vito-sestito/), e di analizzarne il ruolo nella formazione di una cultura visiva condivisa.
 
-La conferenza è iniziata con un viaggio nel passato, esplorando in maniera dettagliata le [origini](/2023/04/27/la-nascita-del-cinema-a-san-vito-un-sogno-diventato-realt/) del cinema fino ad arrivare agli anni d’oro. Dai suoi esordi ad opera di [Vito Sestito](/2023/04/20/la-storia-di-vito-sestito/) nel 1946, al suo ruolo fondamentale per la nostra comunità, il pubblico è stato coinvolto nella ricca storia del piccolo cinema locale.
+L’intervento ha evidenziato come il cinema abbia contribuito, nel corso dei decenni, a dare forma alle narrazioni locali, accogliendo sullo schermo storie che rispecchiavano *- o talvolta sfidavano -* l’immaginario della comunità. In questo senso, il cinema  si configura come un archivio vivente, capace di dialogare con le leggende e i racconti tramandati oralmente.
 
-Ma la serata non si è conclusa nella nostalgia; con grande entusiasmo ho condiviso il nuovo progetto che si sta sviluppando dietro le quinte per il “Nuovo” Cinema Teatro Sestito. Il cinema, con la sua storica tradizione, è ora pronto a diventare molto più che un centro per semplici proiezioni; si sta trasformando in un dinamico polo culturale, uno spazio in cui la magia del racconto, sia sullo schermo che al di fuori, può continuare a prosperare.
+Il team di Sonati Vicinu ha documentato l’evento con grande cura, restituendo attraverso le immagini l’atmosfera della serata: la partecipazione attiva del pubblico, il valore attribuito alla memoria e il desiderio condiviso di costruire nuovi spazi per la cultura.
 
-Il team di Sonati Vicinu è stato così gentile da documentare l'evento con alcune foto e le loro lenti hanno catturato l'essenza della serata: la passione per il cinema, il rispetto per le storie e la comunità che ci unisce.
+{{< image-gallery gallery_dir="/images/2023_08_09_sonati_vicinu_7a_edizione" >}}
 
-Sonati Vicinu 2023 è stata una celebrazione di leggende e la storia del nostro cinema si è rivelata un’aggiunta appropriata a questo intreccio. Mentre avanziamo con il nuovo progetto, siamo entusiasti di invitare la comunità a far parte di questo nuovo capitolo.
+---
 
-Continuate a seguirci sul nostro sito web per gli aggiornamenti e continuiamo a celebrare il ricco lascito di Vito Sestito e del suo cinema a San Vito sullo Ionio. Insieme manterremo viva la fiamma delle storie per le generazioni a venire.
+Per aggiornamenti e approfondimenti, si rimanda alle sezioni dedicate del sito. Il lascito di Vito Sestito continua a vivere attraverso le storie che il cinema ha ospitato e che, ancora oggi, ci aiutano a comprendere chi siamo e da dove veniamo.
