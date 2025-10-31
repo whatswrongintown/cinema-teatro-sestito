@@ -8,11 +8,10 @@ categories:
 tags:
   - Ricordi
 ---
+In questa intervista, Stefano Sestito - figlio di Vito Sestito e depositario della memoria familiare - ripercorre le tappe fondamentali della storia del Cinema, offrendo una narrazione personale che si intreccia con la storia culturale del paese.
 
-Qualche anno fa è stata fatta un’intervista a Stefano Sestito, profondamente legato all'eredità cinematografica del paese. In questa intervista, Stefano ci porta in un viaggio nel tempo, ripercorrendo la straordinaria storia di suo padre, Vito Sestito, e l'evoluzione del cinema a San Vito sullo Ionio.
+Il racconto si configura come una fonte orale di rilievo, utile per comprendere l’evoluzione della sala cinematografica, le scelte gestionali adottate nel tempo e il ruolo del cinema come spazio di aggregazione e trasformazione sociale. L’intervista restituisce non solo dati storici, ma anche la dimensione affettiva e identitaria che il cinema ha assunto per la comunità di San Vito sullo Ionio.
 
-L’intervista con Stefano ci offre uno sguardo affascinante sulla storia cinematografica di paese. È una storia di passione, innovazione e un profondo apprezzamento per il potere trasformativo del cinema. Il suo impatto sulla comunità e i ricordi che ha creato rimarranno per sempre nel cuore degli abitanti.
+### Testimonianza orale sulla storia del Cinema Sestito
 
-### Cinema Teatro Sestito: il cinema dei sanvitesi di B. Danieli
-
-{{< youtube id="g02xkyQeQFs" autoplay="true" title="Cinema Teatro Sestito Il cinema dei sanvitesi" >}}
+{{< youtube id="g02xkyQeQFs" autoplay="false" title="Cinema Teatro Sestito Il cinema dei sanvitesi" >}}
