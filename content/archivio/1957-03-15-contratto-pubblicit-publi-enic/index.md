@@ -2,7 +2,7 @@
 title: Contratto pubblicità Publi-Enic
 author: Vito Sestito
 description: contratto pubblicitario esclusivo per la Publi-Enic
-date: '1958-03-15'
+date: '1957-03-15'
 slug: contratto-pubblicit-publi-enic
 categories:
   - Contratti
