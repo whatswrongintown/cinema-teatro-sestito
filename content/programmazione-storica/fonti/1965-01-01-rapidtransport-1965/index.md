@@ -233,7 +233,7 @@ description: Agende cinematografiche fornite dalle case distributrici. Contengon
 |1965-12-15 |[Il ribelle di Castelmonte](https://www.imdb.com/title/tt0200021/)|
 |1965-12-16 |[L'alba, il giorno e la notte](https://www.imdb.com/title/tt0047807/)|
 |1965-12-17 |[Mani insanguinate](https://www.imdb.com/title/tt0042964/)|
-|1965-12-19 |[Romeo e Giulietta](NA)                          |
+|1965-12-19 |[Romeo e Giulietta](https://www.imdb.com/title/tt0050441/)|
 |1965-12-22 |[La freccia sulla croce](https://www.imdb.com/title/tt0048754/)|
 |1965-12-23 |[Sentenza che scotta](https://www.imdb.com/title/tt0052623/)|
 |1965-12-25 |[Ulisse](https://www.imdb.com/title/tt0047630/)  |
