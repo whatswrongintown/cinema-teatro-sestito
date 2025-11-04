@@ -25,7 +25,7 @@ L’iniziativa si deve a **Vito Sestito**, artigiano e imprenditore locale, la c
           
 Negli anni immediatamente successivi alla guerra, molte famiglie catanzaresi rientrarono nelle loro abitazioni trovandole danneggiate o saccheggiate. Tale situazione generò una forte domanda di legname e di servizi di falegnameria. Fu proprio in questo contesto che Sestito, proprietario di una segheria, iniziò a collaborare con i gestori del **Cinema Masceri**. In segno di riconoscenza, questi ultimi lo invitarono alle proiezioni serali, esperienza che avrebbe segnato l’inizio della sua avventura cinematografica.
 
-Rientrato a San Vito, Vito decise di offrire ai suoi concittadini la possibilità di condividere quella stessa emozione. Con l’aiuto della **famiglia Parentela** — soci del Teatro Masceri — e di alcuni proiezionisti catanzaresi, acquistò una **macchina da proiezione** e individuò il luogo ideale: un orto di sua proprietà in **Piazza Mario Polerà**, accanto alla sua abitazione[^2]. 
+Rientrato a San Vito, Vito decise di offrire ai suoi concittadini la possibilità di condividere quella stessa emozione. Con l’aiuto della **famiglia Parentela** - soci del Teatro Masceri - e di alcuni proiezionisti catanzaresi, acquistò una **macchina da proiezione** e individuò il luogo ideale: un orto di sua proprietà in **Piazza Mario Polerà**, accanto alla sua abitazione[^2]. 
 
 ![](images/1940_palazzo_piazza_mario_polera.jpg)
 
@@ -38,6 +38,8 @@ La struttura era suddivisa in quattro ambienti: ingresso, cabina di proiezione, 
 ## L’autorizzazione e i primi successi
 
 Dopo diversi mesi di lavoro e burocrazia, il **19 marzo 1949** il prefetto di Catanzaro rilasciò a Vito Sestito l’autorizzazione ufficiale per gli spettacoli pubblici[^3]. L’inaugurazione del **Cinema di Piazza Mario Polerà** fu accolta con entusiasmo: la notizia si diffuse rapidamente nei paesi vicini, e la piccola sala non riusciva a contenere tutti gli spettatori. Si rese così necessario un **calendario d’ingresso per paese**, un sistema ingegnoso che dimostra la straordinaria partecipazione popolare.
+
+![](images/le_prime_stagioni_del_cinema.png)
 
 Ogni proiezione era preceduta da brevi intermezzi musicali e da ["La Settimana Incom"](https://www.archivioluce.com/la-settimana-incom/), cinegiornale che diffondeva notizie di attualità e sport, simbolo della nuova Italia repubblicana.
 
@@ -54,6 +56,8 @@ Nel 1955 i **Carabinieri di San Vito** redassero un **processo verbale** contro 
 Negli anni Cinquanta il cinema dovette spesso confrontarsi con la morale cattolica e con il controllo della Chiesa locale. In numerose occasioni, l’**arciprete Gerardo Mongiardo** intervenne per contestare la proiezione di film ritenuti immorali o inappropriati. Particolarmente significativa è una **lettera del 1957** in cui l’arciprete si lamenta per la proiezione di [Schiavitù](https://www.imdb.com/title/tt0046281/) (Yves Ciampi, 1953), vietato ai minori di sedici anni. Mongiardo ammoniva Sestito a evitare in futuro pellicole “contrarie alla moralità pubblica”, minacciando di rivolgersi alle autorità in caso contrario[^5].
 
 Tali episodi rivelano il delicato equilibrio tra iniziativa culturale, controllo morale e autorità ecclesiastica, tipico delle realtà provinciali dell’Italia del tempo.
+
+![](images/distribuzione_film_rating.png)
 
 ## Verso un nuovo cinema
 
