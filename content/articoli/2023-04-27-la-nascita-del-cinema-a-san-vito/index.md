@@ -41,9 +41,7 @@ Dopo diversi mesi di lavoro e burocrazia, il **19 marzo 1949** il prefetto di Ca
 
 Ogni proiezione era preceduta da brevi intermezzi musicali e da ["La Settimana Incom"](https://www.archivioluce.com/la-settimana-incom/), cinegiornale che diffondeva notizie di attualità e sport, simbolo della nuova Italia repubblicana.
 
-<img src="images/1949IncamAgendaCinematoGrafica1.jpg" alt="1949 Incam Agenda Cinematografica" style="max-width:20%;min-width:20%;"/> 
-          &nbsp;&nbsp;&nbsp;&nbsp;
-<img src="images/la_settimana_incam.jpg" alt="Copertina della settimana Incam" style="max-width:20%;min-width:20%;"/>
+{{< image-gallery gallery_dir="/images/2023_04_27_la_settimana_incam" >}}
 
 ## Le difficoltà della gestione
 
