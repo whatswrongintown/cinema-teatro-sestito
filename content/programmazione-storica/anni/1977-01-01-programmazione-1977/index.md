@@ -13,7 +13,7 @@ params:
 
 
 
-<img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-1-1.png" width="768" /><img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-1-2.png" width="768" /><img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-1-3.png" width="768" />
+<img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-1-1.png" width="768" /><img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-1-2.png" width="768" />
 
 
 ### Gennaio[^1]
@@ -52,7 +52,7 @@ params:
 |1977-02-17 |[Arrivano Joe e Margherito](https://www.imdb.com/title/tt0071162/)|
 |1977-02-18 |[Carnalità](https://www.imdb.com/title/tt0071280/)    |
 |1977-02-20 |[I due figli dei Trinità](https://www.imdb.com/title/tt0068514/)|
-|1977-02-25 |[La mogliettina (Inside Amy)](NA)                     |
+|1977-02-25 |[La mogliettina (Inside Amy)](https://www.imdb.com/title/tt0128673/)|
 |1977-02-27 |[I fratelli di Bruce Lee](https://www.imdb.com/title/tt1204790/)|
 
 ### Marzo
