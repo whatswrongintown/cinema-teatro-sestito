@@ -49,7 +49,7 @@ Questo sito web intende valorizzare tale eredità, offrendo uno spazio di ricerc
 
 [^1]: Attestato terza elementare. San Vito sullo Ionio. 1915. [Link al documento](/1915/08/20/attestato-scuola-elementare-vito-sestito/)
 [^2]: Foglio di Congedo Illimitato. Catanzaro. 1923. [Link al documento](/1923/10/09/congedo-fine-leva-vito-sestito/)
-[^3]: [Articolo](/2023/04/27/la-nascita-del-cinema-a-san-vito-un-sogno-diventato-realt/) sulle origini del cinema  
+[^3]: [Articolo](/2023/04/27/la-nascita-del-cinema-a-san-vito/) sulle origini del cinema  
 [^4]: Attestato d'esercizio ricambi. San Vito sullo Ionio. 1961. [Link al documento](/1961/08/01/attestato-d-eserzizio-ricambi-in-pizza-mario-poler/)
 [^5]: [Link](/programmazione-storica/fonti/) alla sezione sulle fonti della programmazione cinematografica
 [^6]: Diario di Vito dal 1936 al 1949. San Vito sullo Ionio. [Link al documento](/1936/02/01/diario-vito-sestito-dal-1936-al-1949/)
