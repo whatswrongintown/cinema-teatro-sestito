@@ -13,7 +13,7 @@ params:
 
 
 
-<img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-1-1.png" width="768" /><img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-1-2.png" width="768" /><img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-1-3.png" width="768" />
+<img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-1-1.png" width="768" /><img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-1-2.png" width="768" />
 
 
 ### Gennaio[^1]
@@ -233,7 +233,7 @@ params:
 |1965-12-15 |[Il ribelle di Castelmonte](https://www.imdb.com/title/tt0200021/)|
 |1965-12-16 |[L'alba, il giorno e la notte](https://www.imdb.com/title/tt0047807/)|
 |1965-12-17 |[Mani insanguinate](https://www.imdb.com/title/tt0042964/)|
-|1965-12-19 |[Romeo e Giulietta](NA)                          |
+|1965-12-19 |[Romeo e Giulietta](https://www.imdb.com/title/tt0050441/)|
 |1965-12-22 |[La freccia sulla croce](https://www.imdb.com/title/tt0048754/)|
 |1965-12-23 |[Sentenza che scotta](https://www.imdb.com/title/tt0052623/)|
 |1965-12-25 |[Ulisse](https://www.imdb.com/title/tt0047630/)  |
