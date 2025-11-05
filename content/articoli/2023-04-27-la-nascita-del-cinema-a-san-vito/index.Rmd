@@ -13,7 +13,48 @@ tags:
           - Dopoguerra
 ---
 
+```{r setup, include=FALSE}
+# Librerie ----
+library(tidyverse)
+library(here)
+library(showtext)
+library(viridis)
 
+# Impostazioni grafiche: font Merriweather ----
+font_add_google("Merriweather", "merriweather")
+showtext_auto()
+
+theme_set(
+          theme_minimal(base_family = "merriweather") +
+                    theme(
+                              plot.title = element_text(size = 28),
+                              plot.subtitle = element_text(size = 24),
+                              plot.caption = element_text(size = 16),
+                              axis.title = element_text(size = 24),
+                              axis.text = element_text(size = 20),
+                              panel.grid.major = element_blank(),
+                              panel.grid.minor = element_blank()
+                    )
+)
+
+# ---- Caricamento dati ----
+proiezioni <- read_csv(here("static/data/programmazione_agende.csv")) %>%
+          rename(title2=title)
+
+imdb <- read_csv(here("static/data/programmazione_imdb.csv")) %>%
+          select(const = Const, year = Year, title = Title, directors = Directors, genres = Genres, imdb_rating = `IMDb Rating`, imdb_num_votes = `Num Votes`, runtime = `Runtime (mins)`, url = URL)
+
+paesi <- read_csv(here("static/data/programmazione_paesi.csv"))
+
+df <- proiezioni %>%
+          left_join(imdb, by = "const") %>%
+          left_join(paesi, by = "const") %>%
+          mutate(
+                    anno_proiezione = year(date),
+                    decennio = floor(anno_proiezione / 10) * 10,
+                    is_adult = if_else(!is.na(is_adult), TRUE, FALSE)
+          )
+```
 
 ![](images/1950_palazzo_piazza_mario_polera.webp)
 
@@ -41,7 +82,19 @@ La struttura era suddivisa in quattro ambienti: ingresso, cabina di proiezione, 
 
 Dopo diversi mesi di lavoro e burocrazia, il **19 marzo 1949** il prefetto di Catanzaro rilasciò a Vito Sestito l’autorizzazione ufficiale per gli spettacoli pubblici[^3]. L’inaugurazione del **Cinema di Piazza Mario Polerà** fu accolta con entusiasmo: la notizia si diffuse rapidamente nei paesi vicini, e la piccola sala non riusciva a contenere tutti gli spettatori. Si rese così necessario un **calendario d’ingresso per paese**, un sistema ingegnoso che dimostra la straordinaria partecipazione popolare.
 
-<img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-1-1.png" width="768" />
+```{r echo=FALSE, warning=FALSE, fig.width=8, fig.height=3}
+df %>% filter(anno_proiezione >= 1948 & anno_proiezione <= 1957) %>%
+          count(anno_proiezione) %>%
+          ggplot(aes(x = anno_proiezione, y = n)) +
+          geom_col(fill = "#CBF8DF") +
+          scale_x_continuous(breaks = 1948:1957) +
+          labs(
+                    title = "Le prime stagioni del Cinema (1948–1957)",
+                    subtitle = "Numero di film proposti per anno",
+                    x = "Anni",
+                    y = "Numero di film"
+          )
+```
 
 Ogni proiezione era preceduta da brevi intermezzi musicali e da "[La Settimana Incom](https://www.archivioluce.com/la-settimana-incom/)", cinegiornale che diffondeva notizie di attualità e sport, simbolo della nuova Italia repubblicana.
 
@@ -61,7 +114,39 @@ Negli anni Cinquanta il cinema dovette spesso confrontarsi con la morale cattoli
 
 Tali episodi rivelano il delicato equilibrio tra iniziativa culturale, controllo morale e autorità ecclesiastica, tipico delle realtà provinciali dell’Italia del tempo.
 
-<img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-2-1.png" width="768" />
+```{r echo=FALSE, warning=FALSE, fig.width=8, fig.height=3}
+df %>% filter(anno_proiezione >= 1948 & anno_proiezione <= 1957) %>%
+          filter(!is.na(rated)) %>%
+          mutate(rating_livello = case_when(
+                    rated %in% c("15", "K-16", "TV-14") ~ "Vietato ai minori",
+                    rated %in% c("13", "PG", "S") ~ "Parzialmente vietato",
+                    rated %in% c("12", "6") ~ "Accesso limitato",
+                    rated %in% c("Approved", "Passed", "G") ~ "Accesso libero",
+                    TRUE ~ "Altro"
+          )) %>%
+          mutate(rated = factor(rated, levels = c("15", "K-16", "TV-14", "13", "PG", "S", "12", "6", "Approved", "Passed", "G"))) %>%
+          count(anno_proiezione, rated) %>%
+          ggplot(aes(x = factor(anno_proiezione), y = n, fill = rated)) +
+          geom_bar(stat = "identity") +
+          scale_fill_viridis_d(option = "G") +
+          labs(
+                    title = "Distribuzione dei film per rating (1948–1957)",
+                    subtitle = 'Classificazioni sopra "PG" indicano film inadatti alla gioventù e alla morale pubblica',
+                    x = "Anni",
+                    y = "Numero di film",
+                    fill = "",
+          ) +
+          theme(
+                              plot.title = element_text(size = 28),
+                              plot.subtitle = element_text(size = 20),
+                              plot.caption = element_text(size = 16),
+                              legend.text=element_text(size = 16),
+                              axis.title = element_text(size = 24),
+                              axis.text = element_text(size = 20),
+                              panel.grid.major = element_blank(),
+                              panel.grid.minor = element_blank()
+                    )
+```
 
 ## Verso un nuovo cinema
 
