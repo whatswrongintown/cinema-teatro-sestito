@@ -1,9 +1,9 @@
 ---
-title: "La nascita del cinema a San Vito (1946–1957)"
-author: "Vito Sestito"
-date: "2023-04-27"
+title: La nascita del cinema a San Vito (1946–1957)
+author: Vito Sestito
+date: '2023-04-27'
 description: "Un’analisi storica dei primi anni del cinema a San Vito sullo Ionio, dalle origini ai primi successi."
-slug: "la-nascita-del-cinema-a-san-vito"
+slug: la-nascita-del-cinema-a-san-vito
 categories:
           - Storia
 tags:
