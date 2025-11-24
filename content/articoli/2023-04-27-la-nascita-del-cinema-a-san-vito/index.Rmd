@@ -56,7 +56,7 @@ df <- proiezioni %>%
           )
 ```
 
-![](images/1950_palazzo_piazza_mario_polera.webp)
+![](images/1940_palazzo_piazza_mario_polera.webp)
 
 ## Un sogno che diventa realtà
 
@@ -69,8 +69,6 @@ L’iniziativa si deve a **[Vito Sestito](/2023/04/20/la-storia-di-vito-sestito/
 Negli anni immediatamente successivi alla guerra, molte famiglie catanzaresi rientrarono nelle loro abitazioni trovandole danneggiate o saccheggiate. Tale situazione generò una forte domanda di legname e di servizi di falegnameria. Fu proprio in questo contesto che Sestito, proprietario di una segheria, iniziò a collaborare con i gestori del **Cinema Masceri**. In segno di riconoscenza, questi ultimi lo invitarono alle proiezioni serali, esperienza che avrebbe segnato l’inizio della sua avventura cinematografica.
 
 Rientrato a San Vito, Vito decise di offrire ai suoi concittadini la possibilità di condividere quella stessa emozione. Con l’aiuto della **famiglia Parentela** - soci del Teatro Masceri - e di alcuni proiezionisti catanzaresi, acquistò una **macchina da proiezione** e individuò il luogo ideale: un orto di sua proprietà in **Piazza Mario Polerà**, accanto alla sua abitazione[^2]. 
-
-![](images/1940_palazzo_piazza_mario_polera.webp)
 
 ## La costruzione della sala
 
