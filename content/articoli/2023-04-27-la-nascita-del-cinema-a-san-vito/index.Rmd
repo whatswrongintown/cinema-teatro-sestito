@@ -104,7 +104,7 @@ Gestire un cinema in un contesto rurale nel dopoguerra comportava notevoli diffi
 
 Nel 1955 i **Carabinieri di San Vito** redassero un **processo verbale** contro Sestito per aver venduto un numero di biglietti superiore alla capienza della sala in occasione della proiezione di [Sansone e Dalila](https://www.imdb.com/title/tt0041838/) (Cecil B. DeMille, 1949). L’episodio, pur rappresentando una violazione formale, testimonia il grande successo del cinema e la sua centralità nella vita sociale del paese[^4].
 
-![](images/1950_Associazione_Nazionale_Esercenti_Cinema_1.jpg)
+{{< image-gallery gallery_dir="/images/2023_04_27_le_difficoltà_della_gestione" >}}
 
 ## Il rapporto con la Chiesa e la moralità pubblica
 
