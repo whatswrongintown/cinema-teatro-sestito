@@ -115,14 +115,14 @@ Tali episodi rivelano il delicato equilibrio tra iniziativa culturale, controllo
 ```{r echo=FALSE, warning=FALSE, fig.width=8, fig.height=3}
 df %>% filter(anno_proiezione >= 1948 & anno_proiezione <= 1957) %>%
           filter(!is.na(rated)) %>%
-          mutate(rating_livello = case_when(
-                    rated %in% c("15", "K-16", "TV-14") ~ "Vietato ai minori",
-                    rated %in% c("13", "PG", "S") ~ "Parzialmente vietato",
-                    rated %in% c("12", "6") ~ "Accesso limitato",
-                    rated %in% c("Approved", "Passed", "G") ~ "Accesso libero",
+          mutate(rated = case_when(
+                    rated == "18" ~ "18+",
+                    rated %in% c("15", "14", "K-16", "TV-14", "13") ~ "16+",
+                    rated %in% c("PG", "S", "12", "6") ~ "PG",
+                    rated %in% c("Approved", "Passed", "G") ~ "Per tutti",
                     TRUE ~ "Altro"
           )) %>%
-          mutate(rated = factor(rated, levels = c("15", "K-16", "TV-14", "13", "PG", "S", "12", "6", "Approved", "Passed", "G"))) %>%
+          mutate(rated = factor(rated, levels = c("18+", "16+", "PG", "Per tutti"))) %>%
           count(anno_proiezione, rated) %>%
           ggplot(aes(x = factor(anno_proiezione), y = n, fill = rated)) +
           geom_bar(stat = "identity") +
