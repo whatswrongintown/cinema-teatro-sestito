@@ -1,7 +1,7 @@
 ---
 title: Fedi 1953-54
 author: Vito Sestito
-date: '1954-01-01'
+date: '1953-12-01'
 slug: fedi-1953-54
 categories:
   - Agende
@@ -9,12 +9,21 @@ description: Agende cinematografiche fornite dalle case distributrici. Contengon
 ---
 
 
-{{< image-gallery gallery_dir="/images/1954_01_01_fedi_1953_54" >}}
+{{< image-gallery gallery_dir="/images/1953_12_01_fedi_1953_54" >}}
 
 
 
 
 
+## 1953
+### Dicembre
+
+
+|           |                   |
+|:----------|:------------------|
+|1953-12-30 |[Il ladro di Bagdad](https://www.imdb.com/title/tt0033152/)|
+
+## 1954
 ### Gennaio
 
 
@@ -30,6 +39,7 @@ description: Agende cinematografiche fornite dalle case distributrici. Contengon
 
 |           |                       |
 |:----------|:----------------------|
+|1954-02-03 |[Confini senza pace](https://www.imdb.com/title/tt0026613/)|
 |1954-02-12 |[Il libro della giungla](https://www.imdb.com/title/tt0034928/)|
 |1954-02-16 |[Rose nere](https://www.imdb.com/title/tt0038141/)|
 |1954-02-19 |[L'angelo del peccato](https://www.imdb.com/title/tt0043285/)|
@@ -39,11 +49,12 @@ description: Agende cinematografiche fornite dalle case distributrici. Contengon
 ### Marzo
 
 
-|           |                      |
-|:----------|:---------------------|
+|           |                                    |
+|:----------|:-----------------------------------|
 |1954-03-02 |[Maria di Magdala](https://www.imdb.com/title/tt0042971/)|
 |1954-03-05 |[La chiave della città](https://www.imdb.com/title/tt0042634/)|
 |1954-03-09 |[Malesia](https://www.imdb.com/title/tt0041622/)|
+|1954-03-13 |[La storia del fornaretto di Venezia](https://www.imdb.com/title/tt0045195/)|
 |1954-03-15 |[La città atomica](https://www.imdb.com/title/tt0044382/)|
 |1954-03-17 |[Genghis Khan](https://www.imdb.com/title/tt0291939/)|
 |1954-03-19 |[Redenzione](https://www.imdb.com/title/tt0045076/)|
@@ -55,6 +66,8 @@ description: Agende cinematografiche fornite dalle case distributrici. Contengon
 
 |           |                            |
 |:----------|:---------------------------|
+|1954-04-01 |[Il prigioniero di Fort Ross](https://www.imdb.com/title/tt0039667/)|
+|1954-04-06 |[L'avventuriera di Tangeri](https://www.imdb.com/title/tt0043827/)|
 |1954-04-08 |[Il sorriso della Gioconda](https://www.imdb.com/title/tt0040002/)|
 |1954-04-15 |[È l'amor che mi rovina](https://www.imdb.com/title/tt0044226/)|
 |1954-04-17 |[Gli occhi che non sorrisero](https://www.imdb.com/title/tt0044486/)|
@@ -68,12 +81,13 @@ description: Agende cinematografiche fornite dalle case distributrici. Contengon
 
 |           |                              |
 |:----------|:-----------------------------|
-|1954-05-01 |[Addio, figlio mio!](https://www.imdb.com/title/tt0046681/)|
+|1954-05-04 |[Macario contro Zagomar](https://www.imdb.com/title/tt0036123/)|
 |1954-05-07 |[L'età dell'amore](https://www.imdb.com/title/tt0045739/)|
 |1954-05-14 |[Le due verità](https://www.imdb.com/title/tt0043489/)|
 |1954-05-18 |[La primula rossa del Sud](https://www.imdb.com/title/tt0046492/)|
 |1954-05-21 |[10 canzoni d'amore da salvare](https://www.imdb.com/title/tt0045689/)|
 |1954-05-29 |[Wanda, la peccatrice](https://www.imdb.com/title/tt0045311/)|
+|1954-05-31 |[Perdonami!](https://www.imdb.com/title/tt0045024/)|
 
 ### Giugno
 
@@ -84,8 +98,10 @@ description: Agende cinematografiche fornite dalle case distributrici. Contengon
 |1954-06-04 |[Il Giuda](https://www.imdb.com/title/tt0044772/)|
 |1954-06-07 |[La via della morte](https://www.imdb.com/title/tt0042960/)|
 |1954-06-09 |[Perdonami se ho peccato](https://www.imdb.com/title/tt0045174/)|
+|1954-06-11 |[La figlia di Nettuno](https://www.imdb.com/title/tt0041687/)|
 |1954-06-16 |[Il capitano nero](https://www.imdb.com/title/tt0042307/)|
 |1954-06-26 |[Amor non ho! Però, però..](https://www.imdb.com/title/tt0043280/)|
+|1954-06-29 |[La trappola di fuoco](https://www.imdb.com/title/tt0045254/)|
 
 ### Luglio
 
@@ -95,15 +111,15 @@ description: Agende cinematografiche fornite dalle case distributrici. Contengon
 |1954-07-01 |[Le ragazze di Piazza di Spagna](https://www.imdb.com/title/tt0045066/)|
 |1954-07-08 |[I due derelitti](https://www.imdb.com/title/tt0043487/)|
 |1954-07-13 |[La regina di Saba](https://www.imdb.com/title/tt0045078/)|
+|1954-07-19 |[L'erede di Robin Hood](https://www.imdb.com/title/tt0038967/)|
 |1954-07-27 |[Maschera nera](https://www.imdb.com/title/tt0185464/)|
 |1954-07-30 |[I grandi peccatori (L'eterna catena)](https://www.imdb.com/title/tt0044598/)|
 
 ### Agosto
 
 
-|           |                                     |
-|:----------|:------------------------------------|
-|1954-08-01 |[I grandi peccatori (L'eterna catena)](https://www.imdb.com/title/tt0044598/)|
+|           |                          |
+|:----------|:-------------------------|
 |1954-08-03 |[I pirati di Capri](https://www.imdb.com/title/tt0041749/)|
 |1954-08-07 |[A fil di spada](https://www.imdb.com/title/tt0044317/)|
 |1954-08-10 |[Sos jungla](https://www.imdb.com/title/tt0040596/)|
@@ -123,6 +139,7 @@ description: Agende cinematografiche fornite dalle case distributrici. Contengon
 |1954-09-13 |[Cirano di Bergerac](https://www.imdb.com/title/tt0042367/)|
 |1954-09-17 |[Gioventù alla sbarra](https://www.imdb.com/title/tt0044660/)|
 |1954-09-20 |[Il folle di Marechiaro](https://www.imdb.com/title/tt0208970/)|
+|1954-09-23 |[tt0044059](https://www.imdb.com/title/tt0044059/)|
 
 ### Ottobre
 
