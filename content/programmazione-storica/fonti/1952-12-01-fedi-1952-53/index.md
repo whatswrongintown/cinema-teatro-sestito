@@ -1,7 +1,7 @@
 ---
 title: Fedi 1952-53
 author: Vito Sestito
-date: '1953-01-01'
+date: '1952-12-01'
 slug: fedi-1952-53
 categories:
   - Agende
@@ -9,18 +9,26 @@ description: Agende cinematografiche fornite dalle case distributrici. Contengon
 ---
 
 
-{{< image-gallery gallery_dir="/images/1953_01_01_fedi_1952_53" >}}
+{{< image-gallery gallery_dir="/images/1952_12_01_fedi_1952_53" >}}
 
 
 
 
 
+## 1952
+### Dicembre
+
+
+|           |                     |
+|:----------|:--------------------|
+|1952-12-30 |[La leggenda di Faust](https://www.imdb.com/title/tt0040533/)|
+
+## 1953
 ### Gennaio
 
 
 |           |                          |
 |:----------|:-------------------------|
-|1953-01-01 |[La leggenda di Faust](https://www.imdb.com/title/tt0040533/)|
 |1953-01-02 |[Bellezze al bagno](https://www.imdb.com/title/tt0036628/)|
 |1953-01-06 |[Gelosia](https://www.imdb.com/title/tt0028505/)|
 |1953-01-09 |[Viva Villa!](https://www.imdb.com/title/tt0025948/)|
@@ -37,7 +45,6 @@ description: Agende cinematografiche fornite dalle case distributrici. Contengon
 
 |           |                                             |
 |:----------|:--------------------------------------------|
-|1953-02-01 |[Core 'ngrato](https://www.imdb.com/title/tt0043440/)|
 |1953-02-04 |[Le bianche scogliere di Dover](https://www.imdb.com/title/tt0037462/)|
 |1953-02-06 |[Piume al vento](https://www.imdb.com/title/tt0430467/)|
 |1953-02-11 |[Il caso Paradine](https://www.imdb.com/title/tt0039694/)|
@@ -52,7 +59,6 @@ description: Agende cinematografiche fornite dalle case distributrici. Contengon
 
 |           |                         |
 |:----------|:------------------------|
-|1953-03-01 |[Incantesimo tragico](https://www.imdb.com/title/tt0043674/)|
 |1953-03-03 |[Delitto e castigo](https://www.imdb.com/title/tt0042351/)|
 |1953-03-06 |[Salvate mia figlia](https://www.imdb.com/title/tt0201055/)|
 |1953-03-10 |[L'amante del torero](https://www.imdb.com/title/tt0043363/)|
@@ -96,6 +102,7 @@ description: Agende cinematografiche fornite dalle case distributrici. Contengon
 
 |           |                           |
 |:----------|:--------------------------|
+|1953-06-01 |[Capitani coraggiosi](https://www.imdb.com/title/tt0028691/)|
 |1953-06-07 |[I sette nani alla riscossa](https://www.imdb.com/title/tt0044023/)|
 |1953-06-12 |[Fiesta (La matadora)](https://www.imdb.com/title/tt0039377/)|
 |1953-06-18 |[Scarpe grosse](https://www.imdb.com/title/tt0033026/)|
@@ -150,8 +157,8 @@ description: Agende cinematografiche fornite dalle case distributrici. Contengon
 |1953-10-02 |[Enrico Caruso - Leggenda di una voce](https://www.imdb.com/title/tt0043505/)|
 |1953-10-06 |[L'assassino è in casa!](https://www.imdb.com/title/tt0033062/)|
 |1953-10-09 |[Canto, ma sottovoce…](https://www.imdb.com/title/tt0037574/)|
+|1953-10-10 |[Le quattro piume](https://www.imdb.com/title/tt0031334/)|
 |1953-10-13 |[Miliardi, che follia!](https://www.imdb.com/title/tt0035066/)|
-|1953-10-16 |[Le quattro piume](https://www.imdb.com/title/tt0031334/)|
 |1953-10-20 |[Voglio essere tua](https://www.imdb.com/title/tt0043828/)|
 |1953-10-23 |[Don Camillo](https://www.imdb.com/title/tt0043918/)|
 |1953-10-27 |[La gabbia di ferro](https://www.imdb.com/title/tt0042826/)|
@@ -159,9 +166,10 @@ description: Agende cinematografiche fornite dalle case distributrici. Contengon
 ### Novembre
 
 
-|           |                        |
-|:----------|:-----------------------|
+|           |                             |
+|:----------|:----------------------------|
 |1953-11-01 |[Quattro rose rosse](https://www.imdb.com/title/tt0043945/)|
+|1953-11-03 |[Romanzo di un giovane povero](https://www.imdb.com/title/tt0035267/)|
 |1953-11-06 |[Due soldi di speranza](https://www.imdb.com/title/tt0044572/)|
 |1953-11-10 |[Anna Karenina](https://www.imdb.com/title/tt0026071/)|
 |1953-11-13 |[Uomini e cieli](https://www.imdb.com/title/tt0036482/)|
@@ -179,8 +187,10 @@ description: Agende cinematografiche fornite dalle case distributrici. Contengon
 |1953-12-09 |[L'isola di Montecristo](https://www.imdb.com/title/tt0040480/)|
 |1953-12-11 |[Melodie immortali - Mascagni](https://www.imdb.com/title/tt0046063/)|
 |1953-12-15 |[Grand Hotel](https://www.imdb.com/title/tt0022958/)|
+|1953-12-16 |[Labbra avvelenate](https://www.imdb.com/title/tt0040719/)|
 |1953-12-20 |[Il romanzo della mia vita](https://www.imdb.com/title/tt0045101/)|
 |1953-12-24 |[Inganno](https://www.imdb.com/title/tt0038462/)|
 |1953-12-26 |[Vita da cani](https://www.imdb.com/title/tt0043108/)|
+|1953-12-30 |[Il ladro di Bagdad](https://www.imdb.com/title/tt0033152/)|
 
 
