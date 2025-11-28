@@ -87,12 +87,12 @@ description: Calendari murali o da tavolo legati all’attività del cinema. Ind
 
 |           |                           |
 |:----------|:--------------------------|
-|1952-06-01 |[Cleopatra](https://www.imdb.com/title/tt0024991/)|
 |1952-06-03 |[Non ti scordar di me](https://www.imdb.com/title/tt0401697/)|
 |1952-06-13 |[Il brigante Musolino](https://www.imdb.com/title/tt0042284/)|
 |1952-06-22 |[La Madonna delle 7 lune](https://www.imdb.com/title/tt0037035/)|
 |1952-06-24 |[Cuori sul mare](https://www.imdb.com/title/tt0042362/)|
 |1952-06-27 |[La mia vita per tuo figlio](https://www.imdb.com/title/tt0042830/)|
+|1952-06-29 |[Zingari](https://www.imdb.com/title/tt0037578/)|
 
 ### Luglio
 
@@ -100,7 +100,6 @@ description: Calendari murali o da tavolo legati all’attività del cinema. Ind
 |           |                       |
 |:----------|:----------------------|
 |1952-07-03 |[Ladri di biciclette](https://www.imdb.com/title/tt0040522/)|
-|1952-07-05 |[Zingari](https://www.imdb.com/title/tt0037578/)|
 |1952-07-12 |[Arrivederci, papà!](https://www.imdb.com/title/tt0040115/)|
 |1952-07-16 |[Il principe ribelle](https://www.imdb.com/title/tt0039734/)|
 |1952-07-19 |[Ho sognato il paradiso](https://www.imdb.com/title/tt0041470/)|
@@ -116,6 +115,7 @@ description: Calendari murali o da tavolo legati all’attività del cinema. Ind
 |1952-08-10 |[Catene invisibili](https://www.imdb.com/title/tt0034588/)|
 |1952-08-14 |[Luciano Serra, pilota](https://www.imdb.com/title/tt0030393/)|
 |1952-08-24 |[Le due orfanelle](https://www.imdb.com/title/tt0034688/)|
+|1952-08-30 |[Piccolo alpino](https://www.imdb.com/title/tt0032905/)|
 |1952-08-30 |[La taverna della mala gente](https://www.imdb.com/title/tt0252083/)|
 
 ### Settembre
@@ -123,9 +123,8 @@ description: Calendari murali o da tavolo legati all’attività del cinema. Ind
 
 |           |                         |
 |:----------|:------------------------|
-|1952-09-02 |[Piccolo alpino](https://www.imdb.com/title/tt0032905/)|
 |1952-09-04 |[Il trovatore](https://www.imdb.com/title/tt0041991/)|
-|1952-09-08 |[La figlia del mendicante](https://www.imdb.com/title/tt0041364/)|
+|1952-09-05 |[La figlia del mendicante](https://www.imdb.com/title/tt0041364/)|
 |1952-09-17 |[Rocce rosse](https://www.imdb.com/title/tt0042383/)|
 |1952-09-20 |[La vendetta di una pazza](https://www.imdb.com/title/tt0044184/)|
 
@@ -141,13 +140,13 @@ description: Calendari murali o da tavolo legati all’attività del cinema. Ind
 |1952-10-18 |[Destino](https://www.imdb.com/title/tt0043463/)|
 |1952-10-21 |[Donna in fuga](https://www.imdb.com/title/tt0042052/)|
 |1952-10-28 |[Appuntamento con la morte](https://www.imdb.com/title/tt0042809/)|
+|1952-10-31 |[Anna](https://www.imdb.com/title/tt0043287/)|
 
 ### Novembre
 
 
 |           |                     |
 |:----------|:--------------------|
-|1952-11-01 |[Anna](https://www.imdb.com/title/tt0043287/)|
 |1952-11-02 |[Le due sorelle](https://www.imdb.com/title/tt0042420/)|
 |1952-11-08 |[Giulietta e Romeo](https://www.imdb.com/title/tt0028203/)|
 |1952-11-11 |[Lorenzino de' Medici](https://www.imdb.com/title/tt0026648/)|
