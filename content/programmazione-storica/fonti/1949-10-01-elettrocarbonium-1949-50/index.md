@@ -47,6 +47,7 @@ description: Agende cinematografiche fornite dalle case distributrici. Contengon
 |1949-12-09 |[Alba di sangue](https://www.imdb.com/title/tt0040568/)|
 |1949-12-11 |[Addio, mia bella Napoli!](https://www.imdb.com/title/tt0038287/)|
 |1949-12-11 |[La vedova allegra](https://www.imdb.com/title/tt0025493/)|
+|1949-12-14 |[Anna e il re del Siam](https://www.imdb.com/title/tt0038303/)|
 |1949-12-18 |[Santo disonore](https://www.imdb.com/title/tt0041843/)|
 |1949-12-23 |[Bernadette](https://www.imdb.com/title/tt0036377/)|
 |1949-12-30 |[Le chiavi del paradiso](https://www.imdb.com/title/tt0036983/)|
@@ -69,8 +70,8 @@ description: Agende cinematografiche fornite dalle case distributrici. Contengon
 ### Febbraio
 
 
-|           |                       |
-|:----------|:----------------------|
+|           |                        |
+|:----------|:-----------------------|
 |1950-02-01 |[Bernadette](https://www.imdb.com/title/tt0036377/)|
 |1950-02-02 |[Il segno di Zorro](https://www.imdb.com/title/tt0032762/)|
 |1950-02-03 |[Monaca santa](https://www.imdb.com/title/tt0037925/)|
@@ -81,6 +82,7 @@ description: Agende cinematografiche fornite dalle case distributrici. Contengon
 |1950-02-17 |[Il trovatore](https://www.imdb.com/title/tt0041991/)|
 |1950-02-18 |[Salomè](https://www.imdb.com/title/tt0038046/)|
 |1950-02-25 |[Il 13 non risponde](https://www.imdb.com/title/tt0038279/)|
+|1950-02-25 |[La carovana dei ribelli](https://www.imdb.com/title/tt0036890/)|
 
 ### Marzo
 
@@ -106,7 +108,7 @@ description: Agende cinematografiche fornite dalle case distributrici. Contengon
 |1950-04-18 |[Marco Visconti](https://www.imdb.com/title/tt0032758/)|
 |1950-04-20 |[Salomè](https://www.imdb.com/title/tt0038046/)|
 |1950-04-21 |[Monaca santa](https://www.imdb.com/title/tt0037925/)|
-|1950-04-30 |[Casta Diva](https://www.imdb.com/title/tt0026188/)|
+|1950-04-28 |[Casta Diva](https://www.imdb.com/title/tt0026188/)|
 
 ### Maggio
 
@@ -125,11 +127,10 @@ description: Agende cinematografiche fornite dalle case distributrici. Contengon
 
 |           |                        |
 |:----------|:-----------------------|
-|1950-06-08 |[La santa cittadina](https://www.imdb.com/title/tt0178337/)|
+|1950-06-01 |[La santa cittadina](https://www.imdb.com/title/tt0178337/)|
 |1950-06-10 |[Monaca santa](https://www.imdb.com/title/tt0037925/)|
+|1950-06-14 |[I maledetti](https://www.imdb.com/title/tt0039615/)|
 |1950-06-16 |[La figlia della Madonna](https://www.imdb.com/title/tt0041366/)|
-|1950-06-17 |[I maledetti](https://www.imdb.com/title/tt0039615/)|
-|1950-06-18 |[La figlia della Madonna](https://www.imdb.com/title/tt0041366/)|
 |1950-06-22 |[Il conte Ugolino](https://www.imdb.com/title/tt0041261/)|
 
 ### Luglio
@@ -148,7 +149,7 @@ description: Agende cinematografiche fornite dalle case distributrici. Contengon
 
 |           |                         |
 |:----------|:------------------------|
-|1950-08-06 |[Tombolo, paradiso nero](https://www.imdb.com/title/tt0039905/)|
+|1950-08-03 |[Tombolo, paradiso nero](https://www.imdb.com/title/tt0039905/)|
 |1950-08-13 |[La spada del venticatore](https://www.imdb.com/title/tt0162292/)|
 
 ### Settembre
