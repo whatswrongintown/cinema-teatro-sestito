@@ -21,7 +21,9 @@ description: Agende cinematografiche fornite dalle case distributrici. Contengon
 
 |           |                        |
 |:----------|:-----------------------|
+|1948-10-02 |[La figlia della jungla](https://www.imdb.com/title/tt0033776/)|
 |1948-10-06 |[Melodia segreta](https://www.imdb.com/title/tt0191305/)|
+|1948-10-09 |[Passaggio conteso](https://www.imdb.com/title/tt0031234/)|
 |1948-10-16 |[La mia canzone al vento](https://www.imdb.com/title/tt0031642/)|
 |1948-10-19 |[Ricchezza senza domani](https://www.imdb.com/title/tt0031856/)|
 |1948-10-22 |[La casa degli orrori](https://www.imdb.com/title/tt0037793/)|
@@ -44,8 +46,12 @@ description: Agende cinematografiche fornite dalle case distributrici. Contengon
 
 |           |                       |
 |:----------|:----------------------|
+|1948-12-03 |[Angeli senza paradiso](https://www.imdb.com/title/tt0024249/)|
 |1948-12-08 |[Anime alla deriva](https://www.imdb.com/title/tt0023826/)|
 |1948-12-10 |[Vogliamo Vivere!](https://www.imdb.com/title/tt0035446/)|
+|1948-12-11 |[Furia](https://www.imdb.com/title/tt0038540/)|
+|1948-12-13 |[Anna e il re del Siam](https://www.imdb.com/title/tt0038303/)|
+|1948-12-17 |[In nome della legge](https://www.imdb.com/title/tt0022645/)|
 |1948-12-23 |[Bernadette](https://www.imdb.com/title/tt0036377/)|
 |1948-12-31 |[Le chiavi del paradiso](https://www.imdb.com/title/tt0036983/)|
 
