@@ -1,0 +1,79 @@
+---
+title: Programmazione storica
+author: Vito Sestito
+date: '2023-04-21'
+description: "Archivio delle proiezioni del Cinema Teatro Sestito dal 1948 al 2004, ricostruito attraverso le fonti originali conservate dalla famiglia Sestito."
+slug: "programmazione-storica"
+image: "/images/programmazione-storica/_index_files/avvolgitore_prevost.jpg"
+---
+
+```{r setup, include=FALSE}
+# Librerie ----
+library(tidyverse)
+library(here)
+library(showtext)
+library(viridis)
+
+# Impostazioni grafiche: font Merriweather ----
+font_add_google("Merriweather", "merriweather")
+showtext_auto()
+
+theme_set(
+          theme_minimal(base_family = "merriweather") +
+                    theme(
+                              plot.title = element_text(size = 28),
+                              plot.subtitle = element_text(size = 24),
+                              plot.caption = element_text(size = 16),
+                              axis.title = element_text(size = 24),
+                              axis.text = element_text(size = 20),
+                              panel.grid.major = element_blank(),
+                              panel.grid.minor = element_blank()
+                    )
+)
+
+# ---- Caricamento dati ----
+proiezioni <- read_csv(here("static/data/programmazione_agende.csv")) %>%
+          rename(title2=title)
+
+imdb <- read_csv(here("static/data/programmazione_imdb.csv")) %>%
+          select(const = Const, year = Year, title = Title, directors = Directors, genres = Genres, imdb_rating = `IMDb Rating`, imdb_num_votes = `Num Votes`, runtime = `Runtime (mins)`, url = URL)
+
+paesi <- read_csv(here("static/data/programmazione_paesi.csv"))
+
+df <- proiezioni %>%
+          left_join(imdb, by = "const") %>%
+          left_join(paesi, by = "const") %>%
+          mutate(
+                    anno_proiezione = year(date),
+                    decennio = floor(anno_proiezione / 10) * 10,
+                    is_adult = if_else(!is.na(is_adult), TRUE, FALSE)
+          )
+```
+
+![](/programmazione-storica/_index_files/avvolgitore_prevost.jpg)
+
+La **programmazione cinematografica** del Cinema Sestito costituisce una delle componenti centrali dell’archivio documentario, offrendo una testimonianza diretta della vita culturale e sociale di San Vito sullo Ionio nel secondo dopoguerra. Attraverso l’analisi di fonti primarie - tra cui registri, appunti, e calendari - è stato possibile ricostruire, anno per anno, l’offerta filmica della sala e le sue trasformazioni nel tempo.
+
+L’insieme dei dati raccolti consente di osservare l’evoluzione del gusto del pubblico locale, le strategie distributive adottate, e le modalità con cui il cinema ha risposto alle dinamiche economiche e culturali del territorio. La varietà dei titoli proposti, spesso non allineati ai circuiti mainstream, riflette una programmazione eterogenea e talvolta audace, che ha contribuito a definire l’identità della sala come spazio di visione non convenzionale.
+
+```{r echo=FALSE, warning=FALSE, fig.width=8, fig.height=3}
+df %>% filter(!(anno_proiezione %in% c(1960, 1961))) %>%
+          count(anno_proiezione) %>%
+          ggplot(aes(x = anno_proiezione, y = n)) +
+          geom_line(color = "#CBF8DF", linewidth = 1.5) +
+          labs(
+                    title = "Un viaggio nella sala buia",
+                    subtitle = "Frequenza dei film proposti dal 1948 al 2004",
+                    x = "Anni",
+                    y = "Numero di film"
+          )
+```
+
+La sezione è articolata in due aree principali:
+
+- 📖 **[Fonti](/programmazione-storica/fonti/)** – Rassegna delle agende, rubriche, calendari e appunti originali utilizzati per la ricostruzione della programmazione.
+- 📅 **[Anni](/programmazione-storica/anni/)** – Serie di pagine organizzate cronologicamente, che documentano i programmi cinematografici mese per mese dal 1948 al 2004.
+
+---
+
+Questa raccolta nasce dall’intento di restituire alla comunità e agli studiosi la memoria storica di un cinema di provincia, inteso come specchio delle pratiche culturali quotidiane e delle trasformazioni sociali della Calabria nel corso del Novecento.
