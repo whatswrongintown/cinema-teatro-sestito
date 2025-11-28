@@ -41,6 +41,7 @@ description: Agende cinematografiche fornite dalle case distributrici. Contengon
 |:----------|:---------------------|
 |1948-12-03 |[Angeli senza paradiso](https://www.imdb.com/title/tt0024249/)|
 |1948-12-11 |[Furia](https://www.imdb.com/title/tt0038540/)|
+|1948-12-17 |[In nome della legge](https://www.imdb.com/title/tt0022645/)|
 
 ## 1949
 ### Gennaio
