@@ -35,26 +35,30 @@ description: Agende cinematografiche fornite dalle case distributrici. Contengon
 ### Gennaio
 
 
-|           |                      |
-|:----------|:---------------------|
-|1955-01-01 |[Sensualità](https://www.imdb.com/title/tt0045138/)|
+|           |                                    |
+|:----------|:-----------------------------------|
+|1955-01-04 |[Luisa Sanfelice (La giustiziata)](https://www.imdb.com/title/tt0035000/)|
 |1955-01-06 |[Il boia di Lilla](https://www.imdb.com/title/tt0044433/)|
 |1955-01-08 |[Bagliori ad oriente](https://www.imdb.com/title/tt0046427/)|
 |1955-01-10 |[L'espresso di Pechino](https://www.imdb.com/title/tt0043912/)|
 |1955-01-12 |[Le tre spie](https://www.imdb.com/title/tt0028767/)|
 |1955-01-15 |[La corda di sabbia](https://www.imdb.com/title/tt0041822/)|
 |1955-01-18 |[Volga in fiamme](https://www.imdb.com/title/tt0142969/)|
+|1955-01-21 |[Perdonami!](https://www.imdb.com/title/tt0045024/)|
+|1955-01-30 |[La prigioniera della torre di fuoco](https://www.imdb.com/title/tt0045050/)|
 
 ### Febbraio
 
 
-|           |                            |
-|:----------|:---------------------------|
+|           |                                       |
+|:----------|:--------------------------------------|
+|1955-02-02 |[Buongiorno, elefante!](https://www.imdb.com/title/tt0043986/)|
 |1955-02-04 |[Il sogno dei miei vent'anni](https://www.imdb.com/title/tt0044782/)|
 |1955-02-07 |[Corsari della terra](https://www.imdb.com/title/tt0039994/)|
 |1955-02-12 |[Il ritorno dei vendicatori](https://www.imdb.com/title/tt0045539/)|
 |1955-02-14 |[La stirpe di Caino](https://www.imdb.com/title/tt0041218/)|
 |1955-02-15 |[L'eredità di Fernandel](https://www.imdb.com/title/tt0040114/)|
+|1955-02-16 |[Jim della giungla e gli uomini scimmia](https://www.imdb.com/title/tt0044777/)|
 |1955-02-26 |[La spia del lago](https://www.imdb.com/title/tt0042310/)|
 
 ### Marzo
@@ -83,6 +87,7 @@ description: Agende cinematografiche fornite dalle case distributrici. Contengon
 |1955-04-04 |[Notte senza stelle](https://www.imdb.com/title/tt0043855/)|
 |1955-04-10 |[Sansone e Dalila](https://www.imdb.com/title/tt0041838/)|
 |1955-04-14 |[Mandy (La piccola sordomuta)](https://www.imdb.com/title/tt0045654/)|
+|1955-04-16 |[Spartaco](https://www.imdb.com/title/tt0045183/)|
 |1955-04-23 |[Madonna delle rose](https://www.imdb.com/title/tt0047202/)|
 |1955-04-27 |[Il falco rosso](https://www.imdb.com/title/tt0041344/)|
 |1955-04-30 |[Ai margini della metropoli](https://www.imdb.com/title/tt0044338/)|
@@ -90,14 +95,15 @@ description: Agende cinematografiche fornite dalle case distributrici. Contengon
 ### Maggio
 
 
-|           |                           |
-|:----------|:--------------------------|
+|           |                             |
+|:----------|:----------------------------|
 |1955-05-01 |[Ai margini della metropoli](https://www.imdb.com/title/tt0044338/)|
 |1955-05-07 |[Giuseppe Verdi](https://www.imdb.com/title/tt0045821/)|
 |1955-05-09 |[La valle del destino](https://www.imdb.com/title/tt0038213/)|
 |1955-05-15 |[La nemica](https://www.imdb.com/title/tt0044959/)|
 |1955-05-18 |[Bellezze in moto-scooter](https://www.imdb.com/title/tt0044411/)|
 |1955-05-20 |[Amanti del passato](https://www.imdb.com/title/tt0045500/)|
+|1955-05-24 |[L'amore segreto di Madeleine](https://www.imdb.com/title/tt0042700/)|
 |1955-05-28 |[La lupa](https://www.imdb.com/title/tt0044858/)|
 |1955-05-30 |[Cielo tempestoso](https://www.imdb.com/title/tt0042333/)|
 
@@ -123,6 +129,7 @@ description: Agende cinematografiche fornite dalle case distributrici. Contengon
 |:----------|:--------------------------------------|
 |1955-07-03 |[Riscatto](https://www.imdb.com/title/tt0046244/)|
 |1955-07-05 |[La corona nera](https://www.imdb.com/title/tt0042346/)|
+|1955-07-08 |[Anna Bolena](https://www.imdb.com/title/tt0043388/)|
 |1955-07-12 |[Ritratto di un assassino](https://www.imdb.com/title/tt0041763/)|
 |1955-07-16 |[Non ho paura di vivere](https://www.imdb.com/title/tt0044975/)|
 |1955-07-19 |[Passione fatale](https://www.imdb.com/title/tt0198894/)|
@@ -134,12 +141,15 @@ description: Agende cinematografiche fornite dalle case distributrici. Contengon
 
 |           |                             |
 |:----------|:----------------------------|
+|1955-08-02 |[Buffalo Bill a Roma](https://www.imdb.com/title/tt0041214/)|
 |1955-08-06 |[Il brigante](https://www.imdb.com/title/tt0045595/)|
 |1955-08-09 |[Angoscia](https://www.imdb.com/title/tt0036855/)|
+|1955-08-11 |[Pagliacci - Amore tragico](https://www.imdb.com/title/tt0039691/)|
 |1955-08-14 |[Ultimo perdono](https://www.imdb.com/title/tt0214230/)|
 |1955-08-20 |[Amore rosso (Marianna Sirca)](https://www.imdb.com/title/tt0044349/)|
 |1955-08-24 |[I morti non pagano tasse](https://www.imdb.com/title/tt0044922/)|
 |1955-08-26 |[Cristoforo Colombo](https://www.imdb.com/title/tt0041247/)|
+|1955-08-30 |[Maria Malibran](https://www.imdb.com/title/tt0035038/)|
 
 ### Settembre
 
@@ -179,6 +189,7 @@ description: Agende cinematografiche fornite dalle case distributrici. Contengon
 |1955-11-08 |[In amore si pecca in due](https://www.imdb.com/title/tt0045908/)|
 |1955-11-12 |[Quo Vadis](https://www.imdb.com/title/tt0043949/)|
 |1955-11-16 |[La regina della Sierra Morena](https://www.imdb.com/title/tt0041324/)|
+|1955-11-18 |[Senza peccato](https://www.imdb.com/title/tt0193154/)|
 |1955-11-21 |[Dramma nella Kasbah](https://www.imdb.com/title/tt0045705/)|
 |1955-11-25 |[I figli di nessuno](https://www.imdb.com/title/tt0043532/)|
 |1955-11-30 |[Vittime del peccato](https://www.imdb.com/title/tt0043115/)|
