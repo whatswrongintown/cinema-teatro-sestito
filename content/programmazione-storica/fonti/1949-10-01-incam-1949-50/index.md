@@ -19,11 +19,12 @@ description: Agende cinematografiche fornite dalle case distributrici. Contengon
 ### Ottobre
 
 
-|           |                    |
-|:----------|:-------------------|
+|           |                                          |
+|:----------|:-----------------------------------------|
 |1949-10-04 |[Sangue viennese](https://www.imdb.com/title/tt0035559/)|
 |1949-10-07 |[Il lupo della Sila](https://www.imdb.com/title/tt0041609/)|
 |1949-10-12 |[Le vie del peccato](https://www.imdb.com/title/tt0038220/)|
+|1949-10-15 |[La vita intima di Marcantonio e Cleopatra](https://www.imdb.com/title/tt0243004/)|
 |1949-10-20 |[L'eterno conflitto](https://www.imdb.com/title/tt0202713/)|
 |1949-10-21 |[Amori e veleni](https://www.imdb.com/title/tt0041119/)|
 |1949-10-28 |[Margherita Gauthier](https://www.imdb.com/title/tt0028683/)|
@@ -38,6 +39,7 @@ description: Agende cinematografiche fornite dalle case distributrici. Contengon
 |1949-11-09 |[Musica sulle nuvole](https://www.imdb.com/title/tt0034882/)|
 |1949-11-11 |[San Giovanni decollato](https://www.imdb.com/title/tt0033017/)|
 |1949-11-16 |[È accaduto in Europa](https://www.imdb.com/title/tt0039949/)|
+|1949-11-18 |[La forza del destino](https://www.imdb.com/title/tt0041385/)|
 |1949-11-23 |[Lungo viaggio di ritorno](https://www.imdb.com/title/tt0032728/)|
 |1949-11-26 |[Napoli eterna canzone](https://www.imdb.com/title/tt0041684/)|
 
@@ -49,7 +51,10 @@ description: Agende cinematografiche fornite dalle case distributrici. Contengon
 |1949-12-02 |[Patto col diavolo](https://www.imdb.com/title/tt0041739/)|
 |1949-12-08 |[La ribelle del west](https://www.imdb.com/title/tt0033807/)|
 |1949-12-09 |[Alba di sangue](https://www.imdb.com/title/tt0040568/)|
+|1949-12-12 |[Il sepolcro indiano](https://www.imdb.com/title/tt0030271/)|
 |1949-12-14 |[La fumeria d'oppio](https://www.imdb.com/title/tt0039403/)|
+|1949-12-17 |[Paolo e Francesca](https://www.imdb.com/title/tt0046160/)|
+|1949-12-21 |[Gli amanti di Verona](https://www.imdb.com/title/tt0040090/)|
 |1949-12-24 |[Rigoletto](https://www.imdb.com/title/tt0038882/)|
 |1949-12-28 |[Il fabbro del convento](https://www.imdb.com/title/tt0039364/)|
 |1949-12-31 |[Totò cerca casa](https://www.imdb.com/title/tt0041974/)|
@@ -116,6 +121,7 @@ description: Agende cinematografiche fornite dalle case distributrici. Contengon
 |1950-05-05 |[La collana della regina](https://www.imdb.com/title/tt0207295/)|
 |1950-05-07 |[La casa senza tempo](https://www.imdb.com/title/tt0035719/)|
 |1950-05-12 |[La figlia del peccato - Voce è notte](https://www.imdb.com/title/tt0041365/)|
+|1950-05-16 |[La parola alla spada](https://www.imdb.com/title/tt0195208/)|
 |1950-05-18 |[Abbandonata](https://www.imdb.com/title/tt0036577/)|
 |1950-05-20 |[La mano della morta](https://www.imdb.com/title/tt0041633/)|
 |1950-05-26 |[Pagliacci - Amore tragico](https://www.imdb.com/title/tt0039691/)|
@@ -164,6 +170,7 @@ description: Agende cinematografiche fornite dalle case distributrici. Contengon
 |:----------|:------------------------------------------|
 |1950-09-01 |[Il falco rosso](https://www.imdb.com/title/tt0041344/)|
 |1950-09-05 |[La donna è mobile](https://www.imdb.com/title/tt0034672/)|
+|1950-09-08 |[Il figlio di d'Artagnan](https://www.imdb.com/title/tt0041367/)|
 |1950-09-13 |[Bufera mortale](https://www.imdb.com/title/tt0032811/)|
 |1950-09-15 |[Capitan demonio](https://www.imdb.com/title/tt0039241/)|
 |1950-09-22 |[Botta e risposta](https://www.imdb.com/title/tt0041200/)|
