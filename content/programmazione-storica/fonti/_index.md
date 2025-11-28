@@ -7,6 +7,9 @@ layout: "section"
 slug: "fonti"
 image: "/images/programmazione-storica/fonti/_index_files/agenda_fedi_54_55.webp"
 ---
+
+
+
 ![](/programmazione-storica/fonti/_index_files/agenda_fedi_54_55.webp)
 Questa sezione raccoglie e descrive le diverse **fonti originali** che hanno permesso di ricostruire la programmazione cinematografica.
 
@@ -17,7 +20,7 @@ Le principali tipologie di fonti sono:
 3. 📅  **[Rubriche](/categories/rubriche/)** - Registri alfabetici in cui venivano elencati i film proiettati, con l’indicazione della data e del distributore.
 4. ✍️  **[Appunti](/categories/appunti/)** - Blocchi o fogli sciolti su cui erano annotati i film mese per mese, talvolta accompagnati dai relativi incassi.
 
-![](/programmazione-storica/fonti/_index_files/fonti_per_decennio.png)
+<img src="/programmazione-storica/fonti/_index_files/figure-html/unnamed-chunk-1-1.png" width="768" />
 
 ---
 

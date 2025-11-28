@@ -1,0 +1,94 @@
+---
+title: "Programmazione per anni"
+author: "Vito Sestito"
+date: '2025-10-16'
+description: "Consulta la programmazione del Cinema Teatro Sestito organizzata per anno, dal 1948 al 2004."
+slug: "anni"
+type: "programmazione-storica/anni"
+---
+
+```{r setup, include=FALSE}
+# Librerie ----
+library(tidyverse)
+library(here)
+library(showtext)
+library(viridis)
+
+# Impostazioni grafiche: font Merriweather ----
+font_add_google("Merriweather", "merriweather")
+showtext_auto()
+
+theme_set(
+          theme_minimal(base_family = "merriweather") +
+                    theme(
+                              plot.title = element_text(size = 28, hjust = 0.5),
+                              plot.subtitle = element_text(size = 24),
+                              plot.caption = element_text(size = 16),
+                              axis.title = element_text(size = 24),
+                              axis.text = element_text(size = 20),
+                              legend.title = element_text(size = 24),
+                              legend.text = element_text(size = 20),
+                              panel.grid.major = element_blank(),
+                              panel.grid.minor = element_blank()
+                    )
+)
+
+# ---- Caricamento dati ----
+proiezioni <- read_csv(here("static/data/programmazione_agende.csv")) %>%
+          rename(title2=title)
+
+imdb <- read_csv(here("static/data/programmazione_imdb.csv")) %>%
+          select(const = Const, year = Year, title = Title, directors = Directors, genres = Genres, imdb_rating = `IMDb Rating`, imdb_num_votes = `Num Votes`, runtime = `Runtime (mins)`, url = URL)
+
+paesi <- read_csv(here("static/data/programmazione_paesi.csv"))
+
+df <- proiezioni %>%
+          left_join(imdb, by = "const") %>%
+          left_join(paesi, by = "const") %>%
+          mutate(
+                    anno_proiezione = year(date),
+                    decennio = floor(anno_proiezione / 10) * 10,
+                    is_adult = if_else(!is.na(is_adult), TRUE, FALSE)
+          )
+```
+
+![](/programmazione-storica/anni/_index_files/img_anni_section.jpg)  
+
+In questa sezione si trovano le **pagine dedicate ai singoli anni** di attività.
+
+📆 Ogni pagina annuale include:
+
+- L’andamento mensile delle proiezioni
+- Un’analisi tra il numero di voti e le valutazioni dei film
+- Un elenco dei film proiettati mese per mese  
+
+Questa cronologia permette di seguire la storia del cinema come un racconto continuo, che attraversa decenni di cultura, tecnologia e società, tra trasformazioni tecnologiche e nuove forme di intrattenimento.
+
+```{r echo=FALSE, warning=FALSE, fig.width=8, fig.height=3}
+# Crea una variabile logica: TRUE se tra i paesi c'è l'Italia
+films_italia <- df %>%
+          mutate(is_italian = str_detect(country, regex("Italy", ignore_case = TRUE)))
+
+# Conta quanti film italiani e non italiani per decennio
+italia_vs_estero <- films_italia %>%
+          group_by(decennio, is_italian) %>%
+          summarise(n = n(), .groups = "drop") %>%
+          mutate(tipo = if_else(is_italian, "Italia", "Estero"))
+
+# Grafico  – Percentuali
+italia_vs_estero_perc <- italia_vs_estero %>%
+          group_by(decennio) %>%
+          mutate(percentuale = n / sum(n) * 100)
+
+ggplot(italia_vs_estero_perc, aes(x = decennio, y = percentuale, fill = tipo)) +
+          geom_col() +
+          scale_fill_manual(values = c("Italia" = "#CBF8DF", "Estero" = "grey90")) +
+          labs(
+                    title = "Cinema italiano vs estero: evoluzione per decennio",
+                    x = "Decennio",
+                    y = "% sul totale",
+                    fill = ""
+          )
+```
+
+---

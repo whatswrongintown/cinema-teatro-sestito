@@ -1,0 +1,107 @@
+---
+title: "Fonti della programmazione"
+author: "Vito Sestito"
+date: "2025-10-16"
+description: "Le diverse tipologie di documenti utilizzate per ricostruire la programmazione del Cinema Teatro Sestito."
+layout: "section"
+slug: "fonti"
+image: "/images/programmazione-storica/fonti/_index_files/agenda_fedi_54_55.webp"
+---
+
+```{r setup, include=FALSE}
+# Librerie ----
+library(tidyverse)
+library(here)
+library(showtext)
+library(viridis)
+
+# Impostazioni grafiche: font Merriweather ----
+font_add_google("Merriweather", "merriweather")
+showtext_auto()
+
+theme_set(
+          theme_minimal(base_family = "merriweather") +
+                    theme(
+                              plot.title = element_text(size = 28, hjust = 0.5),
+                              plot.subtitle = element_text(size = 24),
+                              plot.caption = element_text(size = 16),
+                              axis.title = element_text(size = 24),
+                              axis.text = element_text(size = 20),
+                              legend.title = element_text(size = 24),
+                              legend.text = element_text(size = 20),
+                              panel.grid.major = element_blank(),
+                              panel.grid.minor = element_blank()
+                    )
+)
+
+# ---- Caricamento dati ----
+proiezioni <- read_csv(here("static/data/programmazione_agende.csv")) %>%
+          rename(title2=title)
+
+imdb <- read_csv(here("static/data/programmazione_imdb.csv")) %>%
+          select(const = Const, year = Year, title = Title, directors = Directors, genres = Genres, imdb_rating = `IMDb Rating`, imdb_num_votes = `Num Votes`, runtime = `Runtime (mins)`, url = URL)
+
+paesi <- read_csv(here("static/data/programmazione_paesi.csv"))
+
+df <- proiezioni %>%
+          left_join(imdb, by = "const") %>%
+          left_join(paesi, by = "const") %>%
+          mutate(
+                    anno_proiezione = year(date),
+                    decennio = floor(anno_proiezione / 10) * 10,
+                    is_adult = if_else(!is.na(is_adult), TRUE, FALSE)
+          )
+```
+
+![](/programmazione-storica/fonti/_index_files/agenda_fedi_54_55.webp)
+Questa sezione raccoglie e descrive le diverse **fonti originali** che hanno permesso di ricostruire la programmazione cinematografica.
+
+Le principali tipologie di fonti sono:
+
+1. 🗒️ **[Agende](/categories/agende/)** - Agende cinematografiche distribuite dalle case di distribuzione. Riportano, giorno per giorno, i film programmati, il distributore e gli incassi registrati.
+2. 📰 **[Calendari](/categories/calendari/)** - Calendari murali o da tavolo utilizzati per annotare la programmazione del cinema. Indicano le date di proiezione, i titoli e, in molti casi, gli incassi.
+3. 📅  **[Rubriche](/categories/rubriche/)** - Registri alfabetici in cui venivano elencati i film proiettati, con l’indicazione della data e del distributore.
+4. ✍️  **[Appunti](/categories/appunti/)** - Blocchi o fogli sciolti su cui erano annotati i film mese per mese, talvolta accompagnati dai relativi incassi.
+
+```{r echo=FALSE, warning=FALSE, fig.width=8, fig.height=3}
+fonti_long <- df %>%
+          separate_rows(source, sep = ",") %>%
+          mutate(
+                    source = str_trim(source),
+                    tipo_fonte = case_when(
+                              str_detect(str_to_lower(source), "cif") ~ "Appunti",
+                              str_detect(str_to_lower(source), "italautogamma") ~ "Appunti",
+                              str_detect(str_to_lower(source), "europe") ~ "Appunti",
+                              str_detect(str_to_lower(source), "victory") ~ "Appunti",
+                              str_detect(str_to_lower(source), "calendario") ~ "Calendari",
+                              str_detect(str_to_lower(source), "rubric") ~ "Rubriche",
+                              TRUE ~ "Agende"
+                    ),
+                    anno_fonte = str_extract(source, "\\d{4}(?:-\\d{2})?"),
+                    anno_fonte2 = year(date)
+          )
+
+# ---- Heatmap per tipo di fonte e decennio ----
+fonti_heatmap <- fonti_long %>%
+          count(tipo_fonte, decennio)
+
+# ---- Ordine personalizzato delle fonti ----
+fonti_heatmap <- fonti_heatmap %>%
+          mutate(tipo_fonte = factor(tipo_fonte,
+                                     levels = c("Appunti", "Rubriche", "Calendari", "Agende")))
+
+# ---- Grafico ----
+ggplot(fonti_heatmap, aes(x = decennio, y = tipo_fonte, fill = n)) +
+          geom_tile(color = "white") +
+          scale_fill_viridis_c() +
+          labs(
+                    title = "Presenza delle fonti per decennio",
+                    x = "Anni",
+                    y = "Fonti",
+                    fill = "N° film"
+          )
+```
+
+---
+
+Ogni fonte racconta una parte diversa della storia del cinema, rivelando non solo i titoli proiettati, ma anche le abitudini, le relazioni e il lavoro quotidiano che animava la sala di San Vito sullo Ionio.
