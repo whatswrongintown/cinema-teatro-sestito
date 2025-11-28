@@ -59,6 +59,7 @@ description: Agende cinematografiche fornite dalle case distributrici. Contengon
 |1959-01-08 |[Maria Antonietta](https://www.imdb.com/title/tt0048355/)|
 |1959-01-09 |[Operazione mistero](https://www.imdb.com/title/tt0047073/)|
 |1959-01-12 |[I due capitani](https://www.imdb.com/title/tt0048056/)|
+|1959-01-17 |[Le pioggie di Ranchipur](https://www.imdb.com/title/tt0048538/)|
 |1959-01-20 |[Il mantello rosso](https://www.imdb.com/title/tt0048349/)|
 |1959-01-24 |[Vivendo cantando... che male ti fò?](https://www.imdb.com/title/tt0051146/)|
 |1959-01-27 |[Il ricatto più vile](https://www.imdb.com/title/tt0049656/)|
@@ -88,9 +89,9 @@ description: Agende cinematografiche fornite dalle case distributrici. Contengon
 |           |                                  |
 |:----------|:---------------------------------|
 |1959-03-01 |[Le schiave di Cartagine](https://www.imdb.com/title/tt0049723/)|
+|1959-03-04 |[Uragano su Yalù](https://www.imdb.com/title/tt0044398/)|
 |1959-03-08 |[Mezzogiorno di... Fifa](https://www.imdb.com/title/tt0049593/)|
 |1959-03-09 |[La febbre del petrolio](https://www.imdb.com/title/tt0032273/)|
-|1959-03-10 |[Supplizio](https://www.imdb.com/title/tt0049652/)|
 |1959-03-12 |[Peppino e la vecchia signora](https://www.imdb.com/title/tt0158847/)|
 |1959-03-14 |[Il principe coraggioso](https://www.imdb.com/title/tt0047365/)|
 |1959-03-16 |[La casa del corvo](https://www.imdb.com/title/tt0043782/)|
@@ -107,8 +108,10 @@ description: Agende cinematografiche fornite dalle case distributrici. Contengon
 |           |                         |
 |:----------|:------------------------|
 |1959-04-05 |[Gli implacabili](https://www.imdb.com/title/tt0048691/)|
+|1959-04-07 |[Supplizio](https://www.imdb.com/title/tt0049652/)|
 |1959-04-12 |[Dimentica il mio passato](https://www.imdb.com/title/tt0049145/)|
 |1959-04-14 |[L'ora scarlatta](https://www.imdb.com/title/tt0049718/)|
+|1959-04-15 |[L'oro dei barbari](https://www.imdb.com/title/tt0297882/)|
 |1959-04-17 |[La nonna Sabella](https://www.imdb.com/title/tt0050777/)|
 |1959-04-20 |[Odissea tragica](https://www.imdb.com/title/tt0040765/)|
 |1959-04-22 |[Canaris](https://www.imdb.com/title/tt0046819/)|
@@ -124,13 +127,13 @@ description: Agende cinematografiche fornite dalle case distributrici. Contengon
 |1959-05-03 |[La Venere di Cheronea](https://www.imdb.com/title/tt0052351/)|
 |1959-05-06 |[Totò, Peppino e la... Malafemmina](https://www.imdb.com/title/tt0049866/)|
 |1959-05-07 |[La tunica](https://www.imdb.com/title/tt0046247/)|
+|1959-05-12 |[Il siluro della morte](https://www.imdb.com/title/tt0046877/)|
 |1959-05-13 |[La chiamavan Capinera…](https://www.imdb.com/title/tt0050248/)|
 |1959-05-17 |[I gladiatori](https://www.imdb.com/title/tt0046899/)|
-|1959-05-18 |[L'oro dei barbari](https://www.imdb.com/title/tt0297882/)|
-|1959-05-20 |[Il siluro della morte](https://www.imdb.com/title/tt0046877/)|
 |1959-05-20 |[Anastasia](https://www.imdb.com/title/tt0048947/)|
 |1959-05-22 |[Il gobbo di Notre Dame](https://www.imdb.com/title/tt0050781/)|
 |1959-05-23 |[Saranno uomini](https://www.imdb.com/title/tt0049741/)|
+|1959-05-27 |[Simba](https://www.imdb.com/title/tt0048620/)|
 |1959-05-29 |[I misteri di Parigi](https://www.imdb.com/title/tt0187299/)|
 
 ### Giugno
@@ -171,15 +174,18 @@ description: Agende cinematografiche fornite dalle case distributrici. Contengon
 
 |           |                           |
 |:----------|:--------------------------|
-|1959-08-01 |[L'ultima violenza](https://www.imdb.com/title/tt0051125/)|
+|1959-08-02 |[L'ultima violenza](https://www.imdb.com/title/tt0051125/)|
 |1959-08-04 |[Incatenata dal destino](https://www.imdb.com/title/tt0048203/)|
 |1959-08-08 |[Non sono più Guaglione](https://www.imdb.com/title/tt0052009/)|
+|1959-08-10 |[Godzilla](https://www.imdb.com/title/tt0047034/)|
 |1959-08-15 |[I violenti](https://www.imdb.com/title/tt0049849/)|
 |1959-08-17 |[I nottambuli](https://www.imdb.com/title/tt0043357/)|
+|1959-08-19 |[Il dottor Jekyll](https://www.imdb.com/title/tt0043515/)|
 |1959-08-20 |[Il mostro dell'isola](https://www.imdb.com/title/tt0046097/)|
 |1959-08-22 |[Guardia, ladro e cameriera](https://www.imdb.com/title/tt0051685/)|
 |1959-08-24 |[Donna da uccidere](https://www.imdb.com/title/tt0049196/)|
 |1959-08-27 |[L'isola della vendetta](https://www.imdb.com/title/tt0137437/)|
+|1959-08-29 |[Buongiorno, elefante!](https://www.imdb.com/title/tt0043986/)|
 
 ### Settembre
 
@@ -191,6 +197,7 @@ description: Agende cinematografiche fornite dalle case distributrici. Contengon
 |1959-09-05 |[Rascel-Fifì](https://www.imdb.com/title/tt0050887/)|
 |1959-09-08 |[Piccola santa](https://www.imdb.com/title/tt0047352/)|
 |1959-09-09 |[Destinazione Piovarolo](https://www.imdb.com/title/tt0047986/)|
+|1959-09-13 |[La trovatella](https://www.imdb.com/title/tt0021695/)|
 |1959-09-19 |[Sissi - La giovane imperatrice](https://www.imdb.com/title/tt0049762/)|
 |1959-09-21 |[Una donna libera](https://www.imdb.com/title/tt0168690/)|
 |1959-09-26 |[Oltre il destino](https://www.imdb.com/title/tt0048210/)|
@@ -216,9 +223,11 @@ description: Agende cinematografiche fornite dalle case distributrici. Contengon
 
 |           |                    |
 |:----------|:-------------------|
+|1959-11-03 |[Marito e moglie](https://www.imdb.com/title/tt0044887/)|
 |1959-11-05 |[Sangue sul deserto](https://www.imdb.com/title/tt0311012/)|
 |1959-11-06 |[Salomè](https://www.imdb.com/title/tt0046269/)|
 |1959-11-15 |[Uomini e lupi](https://www.imdb.com/title/tt0049905/)|
+|1959-11-17 |[Donna da uccidere](https://www.imdb.com/title/tt0049196/)|
 |1959-11-22 |[Via col vento](https://www.imdb.com/title/tt0031381/)|
 |1959-11-26 |[Tre storie proibite](https://www.imdb.com/title/tt0044143/)|
 |1959-11-29 |[Io, mammeta e tu](https://www.imdb.com/title/tt0051784/)|
