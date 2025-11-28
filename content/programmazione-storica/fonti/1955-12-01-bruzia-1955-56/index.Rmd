@@ -1,7 +1,7 @@
 ---
 title: Bruzia 1955-56
 author: Vito Sestito
-date: '1956-01-01'
+date: '1955-12-01'
 slug: bruzia-1955-56
 categories:
   - Agende
@@ -9,7 +9,7 @@ description: Agende cinematografiche fornite dalle case distributrici. Contengon
 ---
 
 
-{{< image-gallery gallery_dir="/images/1956_01_01_bruzia_1955_56" >}}
+{{< image-gallery gallery_dir="/images/1955_12_01_bruzia_1955_56" >}}
 
 
 ```{r setup, include=FALSE}
@@ -30,12 +30,25 @@ proiezioni_fonte <- read_csv(here("static/data/programmazione_agende.csv")) %>%
 ```
 
 
-### Gennaio
+## 1955
+### Dicembre
 
-```{r echo=FALSE}
+```{r echo=FALSE, warning=FALSE}
 library(knitr)
 proiezioni_fonte %>% 
-  filter(lubridate::month(date) == 1) %>% 
+  filter(lubridate::year(date) == 1955, lubridate::month(date) == 12) %>% 
+  select(date, title) %>% 
+  arrange(date) %>% 
+  kable(col.names = c("", ""))
+```
+
+## 1956
+### Gennaio
+
+```{r echo=FALSE, warning=FALSE}
+library(knitr)
+proiezioni_fonte %>% 
+  filter(lubridate::year(date) == 1956, lubridate::month(date) == 1) %>% 
   select(date, title) %>% 
   arrange(date) %>% 
   kable(col.names = c("", ""))
@@ -43,10 +56,10 @@ proiezioni_fonte %>%
 
 ### Febbraio
 
-```{r echo=FALSE}
+```{r echo=FALSE, warning=FALSE}
 library(knitr)
 proiezioni_fonte %>% 
-  filter(lubridate::month(date) == 2) %>% 
+  filter(lubridate::year(date) == 1956, lubridate::month(date) == 2) %>% 
   select(date, title) %>% 
   arrange(date) %>% 
   kable(col.names = c("", ""))
@@ -54,10 +67,10 @@ proiezioni_fonte %>%
 
 ### Marzo
 
-```{r echo=FALSE}
+```{r echo=FALSE, warning=FALSE}
 library(knitr)
 proiezioni_fonte %>% 
-  filter(lubridate::month(date) == 3) %>% 
+  filter(lubridate::year(date) == 1956, lubridate::month(date) == 3) %>% 
   select(date, title) %>% 
   arrange(date) %>% 
   kable(col.names = c("", ""))
@@ -65,10 +78,10 @@ proiezioni_fonte %>%
 
 ### Aprile
 
-```{r echo=FALSE}
+```{r echo=FALSE, warning=FALSE}
 library(knitr)
 proiezioni_fonte %>% 
-  filter(lubridate::month(date) == 4) %>% 
+  filter(lubridate::year(date) == 1956, lubridate::month(date) == 4) %>% 
   select(date, title) %>% 
   arrange(date) %>% 
   kable(col.names = c("", ""))
@@ -76,10 +89,10 @@ proiezioni_fonte %>%
 
 ### Maggio
 
-```{r echo=FALSE}
+```{r echo=FALSE, warning=FALSE}
 library(knitr)
 proiezioni_fonte %>% 
-  filter(lubridate::month(date) == 5) %>% 
+  filter(lubridate::year(date) == 1956, lubridate::month(date) == 5) %>% 
   select(date, title) %>% 
   arrange(date) %>% 
   kable(col.names = c("", ""))
@@ -87,10 +100,10 @@ proiezioni_fonte %>%
 
 ### Giugno
 
-```{r echo=FALSE}
+```{r echo=FALSE, warning=FALSE}
 library(knitr)
 proiezioni_fonte %>% 
-  filter(lubridate::month(date) == 6) %>% 
+  filter(lubridate::year(date) == 1956, lubridate::month(date) == 6) %>% 
   select(date, title) %>% 
   arrange(date) %>% 
   kable(col.names = c("", ""))
@@ -98,10 +111,10 @@ proiezioni_fonte %>%
 
 ### Luglio
 
-```{r echo=FALSE}
+```{r echo=FALSE, warning=FALSE}
 library(knitr)
 proiezioni_fonte %>% 
-  filter(lubridate::month(date) == 7) %>% 
+  filter(lubridate::year(date) == 1956, lubridate::month(date) == 7) %>% 
   select(date, title) %>% 
   arrange(date) %>% 
   kable(col.names = c("", ""))
@@ -109,10 +122,10 @@ proiezioni_fonte %>%
 
 ### Agosto
 
-```{r echo=FALSE}
+```{r echo=FALSE, warning=FALSE}
 library(knitr)
 proiezioni_fonte %>% 
-  filter(lubridate::month(date) == 8) %>% 
+  filter(lubridate::year(date) == 1956, lubridate::month(date) == 8) %>% 
   select(date, title) %>% 
   arrange(date) %>% 
   kable(col.names = c("", ""))
@@ -120,10 +133,10 @@ proiezioni_fonte %>%
 
 ### Settembre
 
-```{r echo=FALSE}
+```{r echo=FALSE, warning=FALSE}
 library(knitr)
 proiezioni_fonte %>% 
-  filter(lubridate::month(date) == 9) %>% 
+  filter(lubridate::year(date) == 1956, lubridate::month(date) == 9) %>% 
   select(date, title) %>% 
   arrange(date) %>% 
   kable(col.names = c("", ""))
@@ -131,10 +144,10 @@ proiezioni_fonte %>%
 
 ### Ottobre
 
-```{r echo=FALSE}
+```{r echo=FALSE, warning=FALSE}
 library(knitr)
 proiezioni_fonte %>% 
-  filter(lubridate::month(date) == 10) %>% 
+  filter(lubridate::year(date) == 1956, lubridate::month(date) == 10) %>% 
   select(date, title) %>% 
   arrange(date) %>% 
   kable(col.names = c("", ""))
@@ -142,10 +155,10 @@ proiezioni_fonte %>%
 
 ### Novembre
 
-```{r echo=FALSE}
+```{r echo=FALSE, warning=FALSE}
 library(knitr)
 proiezioni_fonte %>% 
-  filter(lubridate::month(date) == 11) %>% 
+  filter(lubridate::year(date) == 1956, lubridate::month(date) == 11) %>% 
   select(date, title) %>% 
   arrange(date) %>% 
   kable(col.names = c("", ""))
@@ -153,10 +166,10 @@ proiezioni_fonte %>%
 
 ### Dicembre
 
-```{r echo=FALSE}
+```{r echo=FALSE, warning=FALSE}
 library(knitr)
 proiezioni_fonte %>% 
-  filter(lubridate::month(date) == 12) %>% 
+  filter(lubridate::year(date) == 1956, lubridate::month(date) == 12) %>% 
   select(date, title) %>% 
   arrange(date) %>% 
   kable(col.names = c("", ""))
