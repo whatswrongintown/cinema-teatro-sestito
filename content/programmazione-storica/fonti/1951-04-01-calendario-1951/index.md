@@ -20,6 +20,7 @@ description: Calendari murali o da tavolo legati all’attività del cinema. Ind
 
 |           |                        |
 |:----------|:-----------------------|
+|1951-04-04 |[Tosca](https://www.imdb.com/title/tt0033177/)|
 |1951-04-07 |[Il delfino verde](https://www.imdb.com/title/tt0039437/)|
 |1951-04-14 |[Al diavolo la celebrità](https://www.imdb.com/title/tt0041102/)|
 |1951-04-18 |[Tragedia a Santa Monica](https://www.imdb.com/title/tt0040695/)|
@@ -82,10 +83,11 @@ description: Calendari murali o da tavolo legati all’attività del cinema. Ind
 ### Ottobre
 
 
-|           |           |
-|:----------|:----------|
+|           |                           |
+|:----------|:--------------------------|
 |1951-10-14 |[Il mulatto](https://www.imdb.com/title/tt0041668/)|
 |1951-10-25 |[Biraghin](https://www.imdb.com/title/tt0038358/)|
+|1951-10-26 |[Non c'è pace tra gli ulivi](https://www.imdb.com/title/tt0042794/)|
 
 ### Novembre
 
