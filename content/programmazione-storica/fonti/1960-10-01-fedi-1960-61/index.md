@@ -21,6 +21,7 @@ description: Agende cinematografiche fornite dalle case distributrici. Contengon
 |           |                            |
 |:----------|:---------------------------|
 |1960-10-01 |[La congiura dei Borgia](https://www.imdb.com/title/tt0051487/)|
+|1960-10-08 |[I dieci comandamenti](https://www.imdb.com/title/tt0049833/)|
 |1960-10-13 |[Il figlio del Dott. Jekyll](https://www.imdb.com/title/tt0044061/)|
 |1960-10-16 |[Lo scorticatore](https://www.imdb.com/title/tt0052162/)|
 |1960-10-20 |[Un ettaro di cielo](https://www.imdb.com/title/tt0052789/)|
@@ -40,6 +41,7 @@ description: Agende cinematografiche fornite dalle case distributrici. Contengon
 |1960-11-11 |[Il vizio e la notte](https://www.imdb.com/title/tt0051568/)|
 |1960-11-12 |[Tarzan e il safari perduto](https://www.imdb.com/title/tt0051057/)|
 |1960-11-19 |[Il padrone delle ferriere](https://www.imdb.com/title/tt0052042/)|
+|1960-11-26 |[Quo Vadis](https://www.imdb.com/title/tt0043949/)|
 |1960-11-29 |[La conquista dello spazio](https://www.imdb.com/title/tt0047947/)|
 
 ### Dicembre

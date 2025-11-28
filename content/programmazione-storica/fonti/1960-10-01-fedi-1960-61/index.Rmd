@@ -32,7 +32,7 @@ proiezioni_fonte <- read_csv(here("static/data/programmazione_agende.csv")) %>%
 
 ### Ottobre
 
-```{r echo=FALSE}
+```{r echo=FALSE, warning=FALSE}
 library(knitr)
 proiezioni_fonte %>% 
   filter(lubridate::month(date) == 10) %>% 
@@ -43,7 +43,7 @@ proiezioni_fonte %>%
 
 ### Novembre
 
-```{r echo=FALSE}
+```{r echo=FALSE, warning=FALSE}
 library(knitr)
 proiezioni_fonte %>% 
   filter(lubridate::month(date) == 11) %>% 
@@ -54,7 +54,7 @@ proiezioni_fonte %>%
 
 ### Dicembre
 
-```{r echo=FALSE}
+```{r echo=FALSE, warning=FALSE}
 library(knitr)
 proiezioni_fonte %>% 
   filter(lubridate::month(date) == 12) %>% 
