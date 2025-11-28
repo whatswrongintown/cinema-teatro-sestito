@@ -96,6 +96,7 @@ description: Agende cinematografiche fornite dalle case distributrici. Contengon
 |:----------|:---------------------------------|
 |1963-04-01 |[Estasi d'amore - Operazione Love](https://www.imdb.com/title/tt0051364/)|
 |1963-04-06 |[Il grande spettacolo](https://www.imdb.com/title/tt0054681/)|
+|1963-04-08 |[L'urlo dei comanches](https://www.imdb.com/title/tt0051628/)|
 |1963-04-14 |[Orazi e Curiazi](https://www.imdb.com/title/tt0055264/)|
 |1963-04-16 |[La rivincita di Zorro](https://www.imdb.com/title/tt0052424/)|
 |1963-04-21 |[Lampi nel sole](https://www.imdb.com/title/tt0053359/)|
@@ -234,12 +235,14 @@ description: Agende cinematografiche fornite dalle case distributrici. Contengon
 |1964-01-07 |[I sette ladri](https://www.imdb.com/title/tt0054295/)|
 |1964-01-11 |[La guida indiana](https://www.imdb.com/title/tt0053457/)|
 |1964-01-13 |[Missione pericolosa](https://www.imdb.com/title/tt0047924/)|
+|1964-01-22 |[Totò diabolicus](https://www.imdb.com/title/tt0056604/)|
 
 ### Febbraio
 
 
 |           |                   |
 |:----------|:------------------|
+|1964-02-09 |[Tormento](https://www.imdb.com/title/tt0046447/)|
 |1964-02-21 |[I figli di nessuno](https://www.imdb.com/title/tt0043532/)|
 
 

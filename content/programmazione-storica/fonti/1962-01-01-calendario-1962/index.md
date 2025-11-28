@@ -33,6 +33,7 @@ description: Calendari murali o da tavolo legati all’attività del cinema. Ind
 |1962-02-03 |[Come prima](https://www.imdb.com/title/tt0052817/)|
 |1962-02-06 |[Il boia](https://www.imdb.com/title/tt0052877/)|
 |1962-02-09 |[Lo strangolatore folle](https://www.imdb.com/title/tt0051706/)|
+|1962-02-11 |[Malinconico autunno](https://www.imdb.com/title/tt0051442/)|
 |1962-02-12 |[I fucilieri del Bengala](https://www.imdb.com/title/tt0046767/)|
 |1962-02-17 |[Il terrore corre sul fiume](https://www.imdb.com/title/tt0053334/)|
 |1962-02-20 |[La legge](https://www.imdb.com/title/tt0051852/)|
@@ -69,6 +70,7 @@ description: Calendari murali o da tavolo legati all’attività del cinema. Ind
 |1962-04-22 |[La battaglia di Maratona](https://www.imdb.com/title/tt0052604/)|
 |1962-04-23 |[La vendetta del corsaro](https://www.imdb.com/title/tt0044182/)|
 |1962-04-28 |[La contessa azzurra](https://www.imdb.com/title/tt0166548/)|
+|1962-04-29 |[L'attentato](https://www.imdb.com/title/tt0053465/)|
 
 ### Maggio
 
@@ -176,6 +178,7 @@ description: Calendari murali o da tavolo legati all’attività del cinema. Ind
 |           |                              |
 |:----------|:-----------------------------|
 |1962-12-04 |[Il mistero dei tre continenti](https://www.imdb.com/title/tt0053906/)|
+|1962-12-08 |[Il ritorno di Texas John](https://www.imdb.com/title/tt0052868/)|
 |1962-12-16 |[Sangue e arena](https://www.imdb.com/title/tt0033405/)|
 |1962-12-18 |[Delitto in pieno sole](https://www.imdb.com/title/tt0054189/)|
 |1962-12-22 |[La storia di Ruth](https://www.imdb.com/title/tt0054343/)|

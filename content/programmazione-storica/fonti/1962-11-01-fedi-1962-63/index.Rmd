@@ -33,7 +33,7 @@ proiezioni_fonte <- read_csv(here("static/data/programmazione_agende.csv")) %>%
 ## 1962
 ### Novembre
 
-```{r echo=FALSE}
+```{r echo=FALSE, warning=FALSE}
 library(knitr)
 proiezioni_fonte %>% 
   filter(lubridate::year(date) == 1962, lubridate::month(date) == 11) %>% 
@@ -44,7 +44,7 @@ proiezioni_fonte %>%
 
 ### Dicembre
 
-```{r echo=FALSE}
+```{r echo=FALSE, warning=FALSE}
 library(knitr)
 proiezioni_fonte %>% 
   filter(lubridate::year(date) == 1962, lubridate::month(date) == 12) %>% 
@@ -56,7 +56,7 @@ proiezioni_fonte %>%
 ## 1963
 ### Gennaio
 
-```{r echo=FALSE}
+```{r echo=FALSE, warning=FALSE}
 library(knitr)
 proiezioni_fonte %>% 
   filter(lubridate::year(date) == 1963, lubridate::month(date) == 1) %>% 
@@ -67,7 +67,7 @@ proiezioni_fonte %>%
 
 ### Febbraio
 
-```{r echo=FALSE}
+```{r echo=FALSE, warning=FALSE}
 library(knitr)
 proiezioni_fonte %>% 
   filter(lubridate::year(date) == 1963, lubridate::month(date) == 2) %>% 
@@ -78,7 +78,7 @@ proiezioni_fonte %>%
 
 ### Marzo
 
-```{r echo=FALSE}
+```{r echo=FALSE, warning=FALSE}
 library(knitr)
 proiezioni_fonte %>% 
   filter(lubridate::year(date) == 1963, lubridate::month(date) == 3) %>% 
@@ -89,7 +89,7 @@ proiezioni_fonte %>%
 
 ### Aprile
 
-```{r echo=FALSE}
+```{r echo=FALSE, warning=FALSE}
 library(knitr)
 proiezioni_fonte %>% 
   filter(lubridate::year(date) == 1963, lubridate::month(date) == 4) %>% 
@@ -100,7 +100,7 @@ proiezioni_fonte %>%
 
 ### Maggio
 
-```{r echo=FALSE}
+```{r echo=FALSE, warning=FALSE}
 library(knitr)
 proiezioni_fonte %>% 
   filter(lubridate::year(date) == 1963, lubridate::month(date) == 5) %>% 
@@ -111,7 +111,7 @@ proiezioni_fonte %>%
 
 ### Giugno
 
-```{r echo=FALSE}
+```{r echo=FALSE, warning=FALSE}
 library(knitr)
 proiezioni_fonte %>% 
   filter(lubridate::year(date) == 1963, lubridate::month(date) == 6) %>% 
@@ -122,7 +122,7 @@ proiezioni_fonte %>%
 
 ### Luglio
 
-```{r echo=FALSE}
+```{r echo=FALSE, warning=FALSE}
 library(knitr)
 proiezioni_fonte %>% 
   filter(lubridate::year(date) == 1963, lubridate::month(date) == 7) %>% 
@@ -133,7 +133,7 @@ proiezioni_fonte %>%
 
 ### Agosto
 
-```{r echo=FALSE}
+```{r echo=FALSE, warning=FALSE}
 library(knitr)
 proiezioni_fonte %>% 
   filter(lubridate::year(date) == 1963, lubridate::month(date) == 8) %>% 
@@ -144,7 +144,7 @@ proiezioni_fonte %>%
 
 ### Settembre
 
-```{r echo=FALSE}
+```{r echo=FALSE, warning=FALSE}
 library(knitr)
 proiezioni_fonte %>% 
   filter(lubridate::year(date) == 1963, lubridate::month(date) == 9) %>% 
@@ -155,7 +155,7 @@ proiezioni_fonte %>%
 
 ### Ottobre
 
-```{r echo=FALSE}
+```{r echo=FALSE, warning=FALSE}
 library(knitr)
 proiezioni_fonte %>% 
   filter(lubridate::year(date) == 1963, lubridate::month(date) == 10) %>% 
@@ -166,7 +166,7 @@ proiezioni_fonte %>%
 
 ### Novembre
 
-```{r echo=FALSE}
+```{r echo=FALSE, warning=FALSE}
 library(knitr)
 proiezioni_fonte %>% 
   filter(lubridate::year(date) == 1963, lubridate::month(date) == 11) %>% 
@@ -177,7 +177,7 @@ proiezioni_fonte %>%
 
 ### Dicembre
 
-```{r echo=FALSE}
+```{r echo=FALSE, warning=FALSE}
 library(knitr)
 proiezioni_fonte %>% 
   filter(lubridate::year(date) == 1963, lubridate::month(date) == 12) %>% 
@@ -189,7 +189,7 @@ proiezioni_fonte %>%
 ## 1964
 ### Gennaio
 
-```{r echo=FALSE}
+```{r echo=FALSE, warning=FALSE}
 library(knitr)
 proiezioni_fonte %>% 
   filter(lubridate::year(date) == 1964, lubridate::month(date) == 1) %>% 
@@ -200,7 +200,7 @@ proiezioni_fonte %>%
 
 ### Febbraio
 
-```{r echo=FALSE}
+```{r echo=FALSE, warning=FALSE}
 library(knitr)
 proiezioni_fonte %>% 
   filter(lubridate::year(date) == 1964, lubridate::month(date) == 2) %>% 
