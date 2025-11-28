@@ -13,7 +13,7 @@ type: "programmazione-storica/anni"
 
 In questa sezione si trovano le **pagine dedicate ai singoli anni** di attività.
 
-📆 Ogni pagina annuale include:
+📆 Ogni pagina include:
 
 - L’andamento mensile delle proiezioni
 - Un’analisi tra il numero di voti e le valutazioni dei film
