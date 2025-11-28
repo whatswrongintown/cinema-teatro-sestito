@@ -71,12 +71,14 @@ description: Agende cinematografiche fornite dalle case distributrici. Contengon
 |1952-03-20 |[Nozze di sangue](https://www.imdb.com/title/tt0033964/)|
 |1952-03-23 |[Romanticismo](https://www.imdb.com/title/tt0042904/)|
 |1952-03-29 |[Canzoni per le strade](https://www.imdb.com/title/tt0041226/)|
+|1952-03-31 |[Assunta Spina](https://www.imdb.com/title/tt0039163/)|
 
 ### Aprile
 
 
 |           |                        |
 |:----------|:-----------------------|
+|1952-04-02 |[Stella del mare](https://www.imdb.com/title/tt0030795/)|
 |1952-04-06 |[Il caimano del Piave](https://www.imdb.com/title/tt0042297/)|
 |1952-04-13 |[Carcerato](https://www.imdb.com/title/tt0043382/)|
 |1952-04-20 |[Il principe delle volpi](https://www.imdb.com/title/tt0041767/)|
@@ -117,16 +119,16 @@ description: Agende cinematografiche fornite dalle case distributrici. Contengon
 |1952-08-17 |[Labbra avvelenate](https://www.imdb.com/title/tt0040719/)|
 |1952-08-24 |[Le due orfanelle](https://www.imdb.com/title/tt0034688/)|
 |1952-08-30 |[Piccolo alpino](https://www.imdb.com/title/tt0032905/)|
+|1952-08-30 |[La taverna della mala gente](https://www.imdb.com/title/tt0252083/)|
 
 ### Settembre
 
 
 |           |                             |
 |:----------|:----------------------------|
-|1952-09-03 |[La taverna della mala gente](https://www.imdb.com/title/tt0252083/)|
 |1952-09-04 |[Notorious - L'amante perduta](https://www.imdb.com/title/tt0038787/)|
+|1952-09-04 |[Il trovatore](https://www.imdb.com/title/tt0041991/)|
 |1952-09-05 |[La figlia del mendicante](https://www.imdb.com/title/tt0041364/)|
-|1952-09-06 |[Il trovatore](https://www.imdb.com/title/tt0041991/)|
 |1952-09-17 |[Rocce rosse](https://www.imdb.com/title/tt0042383/)|
 |1952-09-20 |[La vendetta di una pazza](https://www.imdb.com/title/tt0044184/)|
 |1952-09-28 |[La grande rinuncia](https://www.imdb.com/title/tt0043598/)|
