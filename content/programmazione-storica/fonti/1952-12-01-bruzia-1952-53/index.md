@@ -35,10 +35,10 @@ description: Agende cinematografiche fornite dalle case distributrici. Contengon
 |1953-01-06 |[Gelosia](https://www.imdb.com/title/tt0028505/)|
 |1953-01-09 |[Viva Villa!](https://www.imdb.com/title/tt0025948/)|
 |1953-01-13 |[Il conte di Brechard](https://www.imdb.com/title/tt0030012/)|
+|1953-01-17 |[La favorita](https://www.imdb.com/title/tt0044607/)|
 |1953-01-18 |[Labbra serrate](https://www.imdb.com/title/tt0034956/)|
 |1953-01-20 |[Malesia](https://www.imdb.com/title/tt0041622/)|
 |1953-01-23 |[Primavera](https://www.imdb.com/title/tt0039954/)|
-|1953-01-24 |[La favorita](https://www.imdb.com/title/tt0044607/)|
 |1953-01-30 |[Core 'ngrato](https://www.imdb.com/title/tt0043440/)|
 
 ### Febbraio
@@ -57,12 +57,13 @@ description: Agende cinematografiche fornite dalle case distributrici. Contengon
 ### Marzo
 
 
-|           |                         |
-|:----------|:------------------------|
+|           |                            |
+|:----------|:---------------------------|
 |1953-03-03 |[Delitto e castigo](https://www.imdb.com/title/tt0042351/)|
 |1953-03-06 |[Salvate mia figlia](https://www.imdb.com/title/tt0201055/)|
 |1953-03-13 |[Golgota](https://www.imdb.com/title/tt0025191/)|
 |1953-03-18 |[La portatrice di pane](https://www.imdb.com/title/tt0041762/)|
+|1953-03-19 |[Il prigioniero di Fort Ross](https://www.imdb.com/title/tt0039667/)|
 |1953-03-22 |[Viva Villa!](https://www.imdb.com/title/tt0025948/)|
 |1953-03-23 |[Fantomas](https://www.imdb.com/title/tt0143246/)|
 |1953-03-28 |[La scogliera del peccato](https://www.imdb.com/title/tt0042933/)|
@@ -153,7 +154,8 @@ description: Agende cinematografiche fornite dalle case distributrici. Contengon
 
 |           |                                |
 |:----------|:-------------------------------|
-|1953-11-06 |[Quattro rose rosse](https://www.imdb.com/title/tt0043945/)|
+|1953-11-01 |[Quattro rose rosse](https://www.imdb.com/title/tt0043945/)|
+|1953-11-03 |[Romanzo di un giovane povero](https://www.imdb.com/title/tt0035267/)|
 |1953-11-10 |[Anna Karenina](https://www.imdb.com/title/tt0026071/)|
 |1953-11-20 |[Notre Dame](https://www.imdb.com/title/tt0031455/)|
 |1953-11-23 |[Il mistero del marito scomparso](https://www.imdb.com/title/tt0043142/)|
@@ -167,9 +169,10 @@ description: Agende cinematografiche fornite dalle case distributrici. Contengon
 |1953-12-05 |[Era lui, sì, sì!](https://www.imdb.com/title/tt0043506/)|
 |1953-12-09 |[L'isola di Montecristo](https://www.imdb.com/title/tt0040480/)|
 |1953-12-11 |[Melodie immortali - Mascagni](https://www.imdb.com/title/tt0046063/)|
+|1953-12-16 |[Labbra avvelenate](https://www.imdb.com/title/tt0040719/)|
 |1953-12-20 |[Il romanzo della mia vita](https://www.imdb.com/title/tt0045101/)|
-|1953-12-21 |[Vita da cani](https://www.imdb.com/title/tt0043108/)|
 |1953-12-24 |[Inganno](https://www.imdb.com/title/tt0038462/)|
+|1953-12-26 |[Vita da cani](https://www.imdb.com/title/tt0043108/)|
 |1953-12-30 |[Il ladro di Bagdad](https://www.imdb.com/title/tt0033152/)|
 
 
