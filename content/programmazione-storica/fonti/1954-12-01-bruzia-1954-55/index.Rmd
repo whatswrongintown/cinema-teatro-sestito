@@ -33,7 +33,7 @@ proiezioni_fonte <- read_csv(here("static/data/programmazione_agende.csv")) %>%
 ## 1954
 ### Dicembre
 
-```{r echo=FALSE}
+```{r echo=FALSE, warning=FALSE}
 library(knitr)
 proiezioni_fonte %>% 
   filter(lubridate::year(date) == 1954, lubridate::month(date) == 12) %>% 
@@ -45,7 +45,7 @@ proiezioni_fonte %>%
 ## 1955
 ### Gennaio
 
-```{r echo=FALSE}
+```{r echo=FALSE, warning=FALSE}
 library(knitr)
 proiezioni_fonte %>% 
   filter(lubridate::year(date) == 1955, lubridate::month(date) == 1) %>% 
@@ -56,7 +56,7 @@ proiezioni_fonte %>%
 
 ### Giugno
 
-```{r echo=FALSE}
+```{r echo=FALSE, warning=FALSE}
 library(knitr)
 proiezioni_fonte %>% 
   filter(lubridate::year(date) == 1955, lubridate::month(date) == 6) %>% 
@@ -67,7 +67,7 @@ proiezioni_fonte %>%
 
 ### Agosto
 
-```{r echo=FALSE}
+```{r echo=FALSE, warning=FALSE}
 library(knitr)
 proiezioni_fonte %>% 
   filter(lubridate::year(date) == 1955, lubridate::month(date) == 8) %>% 
@@ -78,7 +78,7 @@ proiezioni_fonte %>%
 
 ### Novembre
 
-```{r echo=FALSE}
+```{r echo=FALSE, warning=FALSE}
 library(knitr)
 proiezioni_fonte %>% 
   filter(lubridate::year(date) == 1955, lubridate::month(date) == 11) %>% 
@@ -89,7 +89,7 @@ proiezioni_fonte %>%
 
 ### Dicembre
 
-```{r echo=FALSE}
+```{r echo=FALSE, warning=FALSE}
 library(knitr)
 proiezioni_fonte %>% 
   filter(lubridate::year(date) == 1955, lubridate::month(date) == 12) %>% 
