@@ -1,7 +1,7 @@
 ---
 title: Calendario 1948
 author: Vito Sestito
-date: '1948-02-01'
+date: '1948-01-01'
 slug: calendario-1948
 categories:
   - Calendari
@@ -9,7 +9,7 @@ description: Calendari murali o da tavolo legati all’attività del cinema. Ind
 ---
 
 
-{{< image-gallery gallery_dir="/images/1948_02_01_calendario_1948" >}}
+{{< image-gallery gallery_dir="/images/1948_01_01_calendario_1948" >}}
 
 
 ```{r setup, include=FALSE}
@@ -30,9 +30,20 @@ proiezioni_fonte <- read_csv(here("static/data/programmazione_agende.csv")) %>%
 ```
 
 
+### Gennaio
+
+```{r echo=FALSE, warning=FALSE}
+library(knitr)
+proiezioni_fonte %>% 
+  filter(lubridate::month(date) == 1) %>% 
+  select(date, title) %>% 
+  arrange(date) %>% 
+  kable(col.names = c("", ""))
+```
+
 ### Febbraio
 
-```{r echo=FALSE}
+```{r echo=FALSE, warning=FALSE}
 library(knitr)
 proiezioni_fonte %>% 
   filter(lubridate::month(date) == 2) %>% 
@@ -43,7 +54,7 @@ proiezioni_fonte %>%
 
 ### Maggio
 
-```{r echo=FALSE}
+```{r echo=FALSE, warning=FALSE}
 library(knitr)
 proiezioni_fonte %>% 
   filter(lubridate::month(date) == 5) %>% 
@@ -54,7 +65,7 @@ proiezioni_fonte %>%
 
 ### Giugno
 
-```{r echo=FALSE}
+```{r echo=FALSE, warning=FALSE}
 library(knitr)
 proiezioni_fonte %>% 
   filter(lubridate::month(date) == 6) %>% 
@@ -65,7 +76,7 @@ proiezioni_fonte %>%
 
 ### Luglio
 
-```{r echo=FALSE}
+```{r echo=FALSE, warning=FALSE}
 library(knitr)
 proiezioni_fonte %>% 
   filter(lubridate::month(date) == 7) %>% 
@@ -76,7 +87,7 @@ proiezioni_fonte %>%
 
 ### Agosto
 
-```{r echo=FALSE}
+```{r echo=FALSE, warning=FALSE}
 library(knitr)
 proiezioni_fonte %>% 
   filter(lubridate::month(date) == 8) %>% 
@@ -87,7 +98,7 @@ proiezioni_fonte %>%
 
 ### Settembre
 
-```{r echo=FALSE}
+```{r echo=FALSE, warning=FALSE}
 library(knitr)
 proiezioni_fonte %>% 
   filter(lubridate::month(date) == 9) %>% 
@@ -98,7 +109,7 @@ proiezioni_fonte %>%
 
 ### Novembre
 
-```{r echo=FALSE}
+```{r echo=FALSE, warning=FALSE}
 library(knitr)
 proiezioni_fonte %>% 
   filter(lubridate::month(date) == 11) %>% 
@@ -109,7 +120,7 @@ proiezioni_fonte %>%
 
 ### Dicembre
 
-```{r echo=FALSE}
+```{r echo=FALSE, warning=FALSE}
 library(knitr)
 proiezioni_fonte %>% 
   filter(lubridate::month(date) == 12) %>% 

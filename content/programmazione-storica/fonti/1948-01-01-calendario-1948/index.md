@@ -1,7 +1,7 @@
 ---
 title: Calendario 1948
 author: Vito Sestito
-date: '1948-02-01'
+date: '1948-01-01'
 slug: calendario-1948
 categories:
   - Calendari
@@ -9,11 +9,18 @@ description: Calendari murali o da tavolo legati all’attività del cinema. Ind
 ---
 
 
-{{< image-gallery gallery_dir="/images/1948_02_01_calendario_1948" >}}
+{{< image-gallery gallery_dir="/images/1948_01_01_calendario_1948" >}}
 
 
 
 
+
+### Gennaio
+
+
+|           |                          |
+|:----------|:-------------------------|
+|1948-01-06 |[Ore 9: Lezione di chimica](https://www.imdb.com/title/tt0035158/)|
 
 ### Febbraio
 
@@ -95,10 +102,12 @@ description: Calendari murali o da tavolo legati all’attività del cinema. Ind
 ### Dicembre
 
 
-|           |                   |
-|:----------|:------------------|
+|           |                        |
+|:----------|:-----------------------|
 |1948-12-02 |[Balalaika](https://www.imdb.com/title/tt0031074/)|
 |1948-12-06 |[Maschera di sangue](https://www.imdb.com/title/tt0143686/)|
 |1948-12-10 |[Vogliamo Vivere!](https://www.imdb.com/title/tt0035446/)|
+|1948-12-14 |[Partenza ore 7](https://www.imdb.com/title/tt0037974/)|
+|1948-12-22 |[Il cardinale Lambertini](https://www.imdb.com/title/tt0024953/)|
 
 
