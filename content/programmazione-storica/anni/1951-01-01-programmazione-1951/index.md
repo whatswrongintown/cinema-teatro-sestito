@@ -132,10 +132,11 @@ params:
 ### Ottobre
 
 
-|           |           |
-|:----------|:----------|
+|           |                           |
+|:----------|:--------------------------|
 |1951-10-14 |[Il mulatto](https://www.imdb.com/title/tt0041668/)|
 |1951-10-25 |[Biraghin](https://www.imdb.com/title/tt0038358/)|
+|1951-10-26 |[Non c'è pace tra gli ulivi](https://www.imdb.com/title/tt0042794/)|
 
 ### Novembre
 

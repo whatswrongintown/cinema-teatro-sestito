@@ -86,7 +86,17 @@ proiezioni_anno %>%
 ```
 
 
-### Febbraio[^1]
+### Gennaio[^1]
+
+```{r echo=FALSE}
+proiezioni_anno %>% 
+  filter(month(Data) == 1) %>% 
+  select(Data, Titolo) %>% 
+  arrange(Data) %>% 
+  kable(col.names = c("", ""))
+```
+
+### Febbraio
 
 ```{r echo=FALSE}
 proiezioni_anno %>% 
@@ -176,5 +186,5 @@ proiezioni_anno %>%
   kable(col.names = c("", ""))
 ```
 
-[^1]: Fonti: [Calendario 1948](/1948/02/01/calendario-1948/), [Fincine 1948-49](/1948/10/01/fincine-1948-49/), [Incam 1948-49](/1948/10/01/incam-1948-49/)
+[^1]: Fonti: [Calendario 1948](/1948/01/01/calendario-1948/), [Fincine 1948-49](/1948/10/01/fincine-1948-49/), [Incam 1948-49](/1948/10/01/incam-1948-49/)
 

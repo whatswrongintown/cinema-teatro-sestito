@@ -206,5 +206,5 @@ proiezioni_anno %>%
   kable(col.names = c("", ""))
 ```
 
-[^1]: Fonti: [Bruzia 1951-52](/1951/11/01/bruzia-1951-52/), [Bruzia 1952-53](/1952/12/01/bruzia-1952-53/), [Calendario 1952](/1952/01/01/calendario-1952/)
+[^1]: Fonti: [Bruzia 1951-52](/1951/11/01/bruzia-1951-52/), [Bruzia 1952-53](/1952/12/01/bruzia-1952-53/), [Calendario 1952](/1952/01/01/calendario-1952/), [Fedi 1952-53](/1952/12/01/fedi-1952-53/)
 

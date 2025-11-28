@@ -54,6 +54,7 @@ params:
 |1950-02-18 |[Salomè](https://www.imdb.com/title/tt0038046/)|
 |1950-02-24 |[Il figlio della furia](https://www.imdb.com/title/tt0035360/)|
 |1950-02-25 |[Il 13 non risponde](https://www.imdb.com/title/tt0038279/)|
+|1950-02-25 |[La carovana dei ribelli](https://www.imdb.com/title/tt0036890/)|
 |1950-02-28 |[Vita rubata](https://www.imdb.com/title/tt0038813/)|
 
 ### Marzo
@@ -89,7 +90,6 @@ params:
 |1950-04-21 |[Monaca santa](https://www.imdb.com/title/tt0037925/)|
 |1950-04-22 |[Salomè](https://www.imdb.com/title/tt0038046/)|
 |1950-04-28 |[Casta Diva](https://www.imdb.com/title/tt0026188/)|
-|1950-04-30 |[Casta Diva](https://www.imdb.com/title/tt0026188/)|
 
 ### Maggio
 
@@ -99,6 +99,7 @@ params:
 |1950-05-05 |[La collana della regina](https://www.imdb.com/title/tt0207295/)|
 |1950-05-07 |[La casa senza tempo](https://www.imdb.com/title/tt0035719/)|
 |1950-05-12 |[La figlia del peccato - Voce è notte](https://www.imdb.com/title/tt0041365/)|
+|1950-05-16 |[La parola alla spada](https://www.imdb.com/title/tt0195208/)|
 |1950-05-18 |[Abbandonata](https://www.imdb.com/title/tt0036577/)|
 |1950-05-20 |[La mano della morta](https://www.imdb.com/title/tt0041633/)|
 |1950-05-23 |[I maledetti](https://www.imdb.com/title/tt0039615/)|
@@ -110,12 +111,9 @@ params:
 |           |                                                 |
 |:----------|:------------------------------------------------|
 |1950-06-01 |[La santa cittadina](https://www.imdb.com/title/tt0178337/)|
-|1950-06-08 |[La santa cittadina](https://www.imdb.com/title/tt0178337/)|
 |1950-06-10 |[Monaca santa](https://www.imdb.com/title/tt0037925/)|
 |1950-06-14 |[I maledetti](https://www.imdb.com/title/tt0039615/)|
 |1950-06-16 |[La figlia della Madonna](https://www.imdb.com/title/tt0041366/)|
-|1950-06-17 |[I maledetti](https://www.imdb.com/title/tt0039615/)|
-|1950-06-18 |[La figlia della Madonna](https://www.imdb.com/title/tt0041366/)|
 |1950-06-22 |[Il conte Ugolino](https://www.imdb.com/title/tt0041261/)|
 |1950-06-29 |[Nel paese delle meraviglie (villaggio incantato)](https://www.imdb.com/title/tt0024852/)|
 
@@ -137,7 +135,6 @@ params:
 |           |                         |
 |:----------|:------------------------|
 |1950-08-03 |[Tombolo, paradiso nero](https://www.imdb.com/title/tt0039905/)|
-|1950-08-06 |[Tombolo, paradiso nero](https://www.imdb.com/title/tt0039905/)|
 |1950-08-13 |[La spada del venticatore](https://www.imdb.com/title/tt0162292/)|
 |1950-08-16 |[I fratelli Karamazoff](https://www.imdb.com/title/tt0039397/)|
 |1950-08-18 |[Il trionfo di Zorro](https://www.imdb.com/title/tt0134056/)|
@@ -152,6 +149,7 @@ params:
 |:----------|:------------------------------------------|
 |1950-09-01 |[Il falco rosso](https://www.imdb.com/title/tt0041344/)|
 |1950-09-05 |[La donna è mobile](https://www.imdb.com/title/tt0034672/)|
+|1950-09-08 |[Il figlio di d'Artagnan](https://www.imdb.com/title/tt0041367/)|
 |1950-09-09 |[Il lupo della Sila](https://www.imdb.com/title/tt0041609/)|
 |1950-09-13 |[Bufera mortale](https://www.imdb.com/title/tt0032811/)|
 |1950-09-15 |[Capitan demonio](https://www.imdb.com/title/tt0039241/)|

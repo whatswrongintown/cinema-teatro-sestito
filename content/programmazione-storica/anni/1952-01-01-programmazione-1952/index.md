@@ -105,7 +105,6 @@ params:
 
 |           |                           |
 |:----------|:--------------------------|
-|1952-06-01 |[Cleopatra](https://www.imdb.com/title/tt0024991/)|
 |1952-06-03 |[Non ti scordar di me](https://www.imdb.com/title/tt0401697/)|
 |1952-06-08 |[Piccolo alpino](https://www.imdb.com/title/tt0032905/)|
 |1952-06-13 |[Il brigante Musolino](https://www.imdb.com/title/tt0042284/)|
@@ -120,7 +119,6 @@ params:
 |           |                       |
 |:----------|:----------------------|
 |1952-07-03 |[Ladri di biciclette](https://www.imdb.com/title/tt0040522/)|
-|1952-07-05 |[Zingari](https://www.imdb.com/title/tt0037578/)|
 |1952-07-12 |[Arrivederci, papà!](https://www.imdb.com/title/tt0040115/)|
 |1952-07-16 |[Il principe ribelle](https://www.imdb.com/title/tt0039734/)|
 |1952-07-19 |[Ho sognato il paradiso](https://www.imdb.com/title/tt0041470/)|
@@ -146,13 +144,9 @@ params:
 
 |           |                             |
 |:----------|:----------------------------|
-|1952-09-02 |[Piccolo alpino](https://www.imdb.com/title/tt0032905/)|
-|1952-09-03 |[La taverna della mala gente](https://www.imdb.com/title/tt0252083/)|
 |1952-09-04 |[Notorious - L'amante perduta](https://www.imdb.com/title/tt0038787/)|
 |1952-09-04 |[Il trovatore](https://www.imdb.com/title/tt0041991/)|
 |1952-09-05 |[La figlia del mendicante](https://www.imdb.com/title/tt0041364/)|
-|1952-09-06 |[Il trovatore](https://www.imdb.com/title/tt0041991/)|
-|1952-09-08 |[La figlia del mendicante](https://www.imdb.com/title/tt0041364/)|
 |1952-09-17 |[Rocce rosse](https://www.imdb.com/title/tt0042383/)|
 |1952-09-20 |[La vendetta di una pazza](https://www.imdb.com/title/tt0044184/)|
 |1952-09-28 |[La grande rinuncia](https://www.imdb.com/title/tt0043598/)|
@@ -177,7 +171,6 @@ params:
 
 |           |                     |
 |:----------|:--------------------|
-|1952-11-01 |[Anna](https://www.imdb.com/title/tt0043287/)|
 |1952-11-02 |[Le due sorelle](https://www.imdb.com/title/tt0042420/)|
 |1952-11-08 |[Giulietta e Romeo](https://www.imdb.com/title/tt0028203/)|
 |1952-11-11 |[Lorenzino de' Medici](https://www.imdb.com/title/tt0026648/)|
@@ -204,5 +197,5 @@ params:
 |1952-12-27 |[Labbra serrate](https://www.imdb.com/title/tt0034956/)|
 |1952-12-30 |[La leggenda di Faust](https://www.imdb.com/title/tt0040533/)|
 
-[^1]: Fonti: [Bruzia 1951-52](/1951/11/01/bruzia-1951-52/), [Bruzia 1952-53](/1952/12/01/bruzia-1952-53/), [Calendario 1952](/1952/01/01/calendario-1952/)
+[^1]: Fonti: [Bruzia 1951-52](/1951/11/01/bruzia-1951-52/), [Bruzia 1952-53](/1952/12/01/bruzia-1952-53/), [Calendario 1952](/1952/01/01/calendario-1952/), [Fedi 1952-53](/1952/12/01/fedi-1952-53/)
 

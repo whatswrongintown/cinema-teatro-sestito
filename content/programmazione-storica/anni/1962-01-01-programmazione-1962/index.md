@@ -27,6 +27,7 @@ params:
 |1962-01-13 |[Revak, lo schiavo di Cartagine](https://www.imdb.com/title/tt0053634/)|
 |1962-01-16 |[L'arma del delitto](https://www.imdb.com/title/tt0051184/)|
 |1962-01-20 |[La vendetta dei barbari](https://www.imdb.com/title/tt0054436/)|
+|1962-01-23 |[Il capro espiatorio](https://www.imdb.com/title/tt0053247/)|
 |1962-01-27 |[La maja desnuda](https://www.imdb.com/title/tt0051891/)|
 
 ### Febbraio
@@ -37,6 +38,7 @@ params:
 |1962-02-03 |[Come prima](https://www.imdb.com/title/tt0052817/)|
 |1962-02-06 |[Il boia](https://www.imdb.com/title/tt0052877/)|
 |1962-02-09 |[Lo strangolatore folle](https://www.imdb.com/title/tt0051706/)|
+|1962-02-11 |[Malinconico autunno](https://www.imdb.com/title/tt0051442/)|
 |1962-02-12 |[I fucilieri del Bengala](https://www.imdb.com/title/tt0046767/)|
 |1962-02-17 |[Il terrore corre sul fiume](https://www.imdb.com/title/tt0053334/)|
 |1962-02-20 |[La legge](https://www.imdb.com/title/tt0051852/)|
@@ -75,8 +77,8 @@ params:
 |1962-04-16 |[La cavalcata della vendetta](https://www.imdb.com/title/tt0050900/)|
 |1962-04-22 |[La battaglia di Maratona](https://www.imdb.com/title/tt0052604/)|
 |1962-04-23 |[La vendetta del corsaro](https://www.imdb.com/title/tt0044182/)|
-|1962-04-28 |[Costa Azzurra](https://www.imdb.com/title/tt0052704/)|
 |1962-04-28 |[La contessa azzurra](https://www.imdb.com/title/tt0166548/)|
+|1962-04-29 |[L'attentato](https://www.imdb.com/title/tt0053465/)|
 
 ### Maggio
 
@@ -88,6 +90,7 @@ params:
 |1962-05-13 |[La vendetta di Ursus](https://www.imdb.com/title/tt0122779/)|
 |1962-05-15 |[Ombre rosse](https://www.imdb.com/title/tt0031971/)|
 |1962-05-19 |[I pirati della costa](https://www.imdb.com/title/tt0054185/)|
+|1962-05-21 |[Il vampiro](https://www.imdb.com/title/tt0051150/)|
 |1962-05-24 |[Un eroe del nostro tempo](https://www.imdb.com/title/tt0171276/)|
 |1962-05-27 |[I bucanieri](https://www.imdb.com/title/tt0051436/)|
 |1962-05-31 |[Rasputin](https://www.imdb.com/title/tt0047393/)|

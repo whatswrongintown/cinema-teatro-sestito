@@ -206,5 +206,5 @@ proiezioni_anno %>%
   kable(col.names = c("", ""))
 ```
 
-[^1]: Fonti: [Bruzia 1955-56](/1956/01/01/bruzia-1955-56/), [Bruzia 1956-57](/1956/10/01/bruzia-1956-57/)
+[^1]: Fonti: [Bruzia 1955-56](/1955/12/01/bruzia-1955-56/), [Bruzia 1956-57](/1956/10/01/bruzia-1956-57/)
 

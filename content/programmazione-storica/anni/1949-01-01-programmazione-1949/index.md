@@ -141,14 +141,15 @@ params:
 ### Ottobre
 
 
-|           |                        |
-|:----------|:-----------------------|
+|           |                                          |
+|:----------|:-----------------------------------------|
 |1949-10-01 |[La figlia della jungla](https://www.imdb.com/title/tt0027830/)|
 |1949-10-04 |[Sangue viennese](https://www.imdb.com/title/tt0035559/)|
 |1949-10-05 |[Il ventesimo duca](https://www.imdb.com/title/tt0215327/)|
 |1949-10-07 |[Il lupo della Sila](https://www.imdb.com/title/tt0041609/)|
 |1949-10-12 |[Le vie del peccato](https://www.imdb.com/title/tt0038220/)|
 |1949-10-13 |[La casa degli orrori](https://www.imdb.com/title/tt0037793/)|
+|1949-10-15 |[La vita intima di Marcantonio e Cleopatra](https://www.imdb.com/title/tt0243004/)|
 |1949-10-19 |[La mia canzone al vento](https://www.imdb.com/title/tt0031642/)|
 |1949-10-20 |[L'eterno conflitto](https://www.imdb.com/title/tt0202713/)|
 |1949-10-21 |[Amori e veleni](https://www.imdb.com/title/tt0041119/)|
@@ -169,6 +170,7 @@ params:
 |1949-11-11 |[San Giovanni decollato](https://www.imdb.com/title/tt0033017/)|
 |1949-11-16 |[È accaduto in Europa](https://www.imdb.com/title/tt0039949/)|
 |1949-11-18 |[Angeli senza paradiso](https://www.imdb.com/title/tt0024249/)|
+|1949-11-18 |[La forza del destino](https://www.imdb.com/title/tt0041385/)|
 |1949-11-22 |[Tentazione](https://www.imdb.com/title/tt0039015/)|
 |1949-11-23 |[Lungo viaggio di ritorno](https://www.imdb.com/title/tt0032728/)|
 |1949-11-26 |[Napoli eterna canzone](https://www.imdb.com/title/tt0041684/)|
@@ -186,8 +188,12 @@ params:
 |1949-12-09 |[Alba di sangue](https://www.imdb.com/title/tt0040568/)|
 |1949-12-11 |[Addio, mia bella Napoli!](https://www.imdb.com/title/tt0038287/)|
 |1949-12-11 |[La vedova allegra](https://www.imdb.com/title/tt0025493/)|
+|1949-12-12 |[Il sepolcro indiano](https://www.imdb.com/title/tt0030271/)|
+|1949-12-14 |[Anna e il re del Siam](https://www.imdb.com/title/tt0038303/)|
 |1949-12-14 |[La fumeria d'oppio](https://www.imdb.com/title/tt0039403/)|
+|1949-12-17 |[Paolo e Francesca](https://www.imdb.com/title/tt0046160/)|
 |1949-12-18 |[Santo disonore](https://www.imdb.com/title/tt0041843/)|
+|1949-12-21 |[Gli amanti di Verona](https://www.imdb.com/title/tt0040090/)|
 |1949-12-23 |[Bernadette](https://www.imdb.com/title/tt0036377/)|
 |1949-12-24 |[Rigoletto](https://www.imdb.com/title/tt0038882/)|
 |1949-12-28 |[Il fabbro del convento](https://www.imdb.com/title/tt0039364/)|

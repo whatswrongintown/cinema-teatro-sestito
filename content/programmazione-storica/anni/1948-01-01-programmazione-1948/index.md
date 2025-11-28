@@ -16,7 +16,14 @@ params:
 <img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-1-1.png" width="768" /><img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-1-2.png" width="768" />
 
 
-### Febbraio[^1]
+### Gennaio[^1]
+
+
+|           |                          |
+|:----------|:-------------------------|
+|1948-01-06 |[Ore 9: Lezione di chimica](https://www.imdb.com/title/tt0035158/)|
+
+### Febbraio
 
 
 |           |                        |
@@ -84,7 +91,9 @@ params:
 
 |           |                        |
 |:----------|:-----------------------|
+|1948-10-02 |[La figlia della jungla](https://www.imdb.com/title/tt0033776/)|
 |1948-10-06 |[Melodia segreta](https://www.imdb.com/title/tt0191305/)|
+|1948-10-09 |[Passaggio conteso](https://www.imdb.com/title/tt0031234/)|
 |1948-10-16 |[La mia canzone al vento](https://www.imdb.com/title/tt0031642/)|
 |1948-10-19 |[Ricchezza senza domani](https://www.imdb.com/title/tt0031856/)|
 |1948-10-22 |[La casa degli orrori](https://www.imdb.com/title/tt0037793/)|
@@ -114,16 +123,20 @@ params:
 ### Dicembre
 
 
-|           |                       |
-|:----------|:----------------------|
+|           |                        |
+|:----------|:-----------------------|
 |1948-12-02 |[Balalaika](https://www.imdb.com/title/tt0031074/)|
 |1948-12-03 |[Angeli senza paradiso](https://www.imdb.com/title/tt0024249/)|
 |1948-12-06 |[Maschera di sangue](https://www.imdb.com/title/tt0143686/)|
 |1948-12-08 |[Anime alla deriva](https://www.imdb.com/title/tt0023826/)|
 |1948-12-10 |[Vogliamo Vivere!](https://www.imdb.com/title/tt0035446/)|
 |1948-12-11 |[Furia](https://www.imdb.com/title/tt0038540/)|
+|1948-12-13 |[Anna e il re del Siam](https://www.imdb.com/title/tt0038303/)|
+|1948-12-14 |[Partenza ore 7](https://www.imdb.com/title/tt0037974/)|
+|1948-12-17 |[In nome della legge](https://www.imdb.com/title/tt0022645/)|
+|1948-12-22 |[Il cardinale Lambertini](https://www.imdb.com/title/tt0024953/)|
 |1948-12-23 |[Bernadette](https://www.imdb.com/title/tt0036377/)|
 |1948-12-31 |[Le chiavi del paradiso](https://www.imdb.com/title/tt0036983/)|
 
-[^1]: Fonti: [Calendario 1948](/1948/02/01/calendario-1948/), [Fincine 1948-49](/1948/10/01/fincine-1948-49/), [Incam 1948-49](/1948/10/01/incam-1948-49/)
+[^1]: Fonti: [Calendario 1948](/1948/01/01/calendario-1948/), [Fincine 1948-49](/1948/10/01/fincine-1948-49/), [Incam 1948-49](/1948/10/01/incam-1948-49/)
 

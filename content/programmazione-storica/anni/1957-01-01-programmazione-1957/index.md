@@ -28,6 +28,7 @@ params:
 |1957-01-15 |[Papà Pacifico](https://www.imdb.com/title/tt0047329/)|
 |1957-01-19 |[Manon Lescaut](https://www.imdb.com/title/tt12756958/)|
 |1957-01-22 |[Alvaro piuttosto corsaro](https://www.imdb.com/title/tt0046700/)|
+|1957-01-26 |[Amleto](https://www.imdb.com/title/tt0040416/)|
 |1957-01-28 |[La strada del mistero](https://www.imdb.com/title/tt0042771/)|
 
 ### Febbraio
@@ -38,8 +39,10 @@ params:
 |1957-02-03 |[Fratelli d'Italia](https://www.imdb.com/title/tt0044634/)|
 |1957-02-05 |[Vendicherò il mio passato](https://www.imdb.com/title/tt0044849/)|
 |1957-02-10 |[Il Cristo proibito](https://www.imdb.com/title/tt0042354/)|
+|1957-02-12 |[La lunga attesa](https://www.imdb.com/title/tt0040446/)|
 |1957-02-13 |[Fiamme nella jungla](https://www.imdb.com/title/tt0039001/)|
 |1957-02-17 |[Giulio Cesare](https://www.imdb.com/title/tt0045943/)|
+|1957-02-19 |[Scarpette rosse](https://www.imdb.com/title/tt0040725/)|
 |1957-02-22 |[Core 'ngrato](https://www.imdb.com/title/tt0043440/)|
 |1957-02-24 |[Capitan Fantasma](https://www.imdb.com/title/tt0045602/)|
 |1957-02-26 |[I confini del proibito](https://www.imdb.com/title/tt0046006/)|
@@ -52,6 +55,7 @@ params:
 |:----------|:-----------------------------------|
 |1957-03-02 |[Torna piccina mia!](https://www.imdb.com/title/tt0048738/)|
 |1957-03-05 |[Allo sbaraglio](https://www.imdb.com/title/tt0043590/)|
+|1957-03-07 |[La frusta d'argento](https://www.imdb.com/title/tt0046317/)|
 |1957-03-09 |[Te stò aspettanno](https://www.imdb.com/title/tt0051060/)|
 |1957-03-12 |[Ivan (il figlio del diavolo bianco)](https://www.imdb.com/title/tt0045923/)|
 |1957-03-15 |[I miracoli non si ripetono](https://www.imdb.com/title/tt0042737/)|
@@ -75,6 +79,7 @@ params:
 |1957-04-20 |[Aida](https://www.imdb.com/title/tt0045483/)|
 |1957-04-22 |[Saluti e baci](https://www.imdb.com/title/tt0045118/)|
 |1957-04-27 |[La valle dei Maori](https://www.imdb.com/title/tt0047467/)|
+|1957-04-29 |[Il figlio dell'uomo](https://www.imdb.com/title/tt0046976/)|
 |1957-04-30 |[I ribelli dei sette mari](https://www.imdb.com/title/tt0032304/)|
 
 ### Maggio
@@ -88,6 +93,7 @@ params:
 |1957-05-16 |[Siluri umani](https://www.imdb.com/title/tt0038089/)|
 |1957-05-21 |[Passione](https://www.imdb.com/title/tt0046169/)|
 |1957-05-23 |[F.B.I. divisione criminale](https://www.imdb.com/title/tt0046115/)|
+|1957-05-25 |[L'eroe della Vandea](https://www.imdb.com/title/tt0045732/)|
 |1957-05-28 |[Miseria e nobiltà](https://www.imdb.com/title/tt0047238/)|
 
 ### Giugno
@@ -111,8 +117,11 @@ params:
 |           |                           |
 |:----------|:--------------------------|
 |1957-07-03 |[Il re dei pellirosse](https://www.imdb.com/title/tt0027869/)|
+|1957-07-07 |[Canzone proibita](https://www.imdb.com/title/tt0049052/)|
+|1957-07-10 |[La mano vendicatrice](https://www.imdb.com/title/tt0047411/)|
 |1957-07-11 |[Uomini sul fondo](https://www.imdb.com/title/tt0034346/)|
 |1957-07-13 |[Il maestro di Don Giovanni](https://www.imdb.com/title/tt0046024/)|
+|1957-07-15 |[La donna del destino](https://www.imdb.com/title/tt0050306/)|
 |1957-07-18 |[Stella di Rio](https://www.imdb.com/title/tt0048658/)|
 |1957-07-20 |[Storia di una minorenne](https://www.imdb.com/title/tt0049799/)|
 |1957-07-23 |[Terra nera](https://www.imdb.com/title/tt0036038/)|
@@ -128,6 +137,7 @@ params:
 |1957-08-03 |[Stella dell'India](https://www.imdb.com/title/tt0046362/)|
 |1957-08-06 |[Schiavitù](https://www.imdb.com/title/tt0046281/)|
 |1957-08-08 |[Il figlio di d'Artagnan](https://www.imdb.com/title/tt0041367/)|
+|1957-08-13 |[Il ladro di Bagdad](https://www.imdb.com/title/tt0033152/)|
 |1957-08-18 |[Mambo](https://www.imdb.com/title/tt0047207/)|
 |1957-08-20 |[La cieca di Sorrento](https://www.imdb.com/title/tt0044498/)|
 |1957-08-24 |[La pista degli elefanti](https://www.imdb.com/title/tt0046951/)|
@@ -142,11 +152,13 @@ params:
 |:----------|:-----------------------------|
 |1957-09-03 |[Di qua, di là del Piave](https://www.imdb.com/title/tt0045685/)|
 |1957-09-05 |[Il capitano nero](https://www.imdb.com/title/tt0042307/)|
+|1957-09-07 |[Donne e arena](https://www.imdb.com/title/tt0045593/)|
 |1957-09-09 |[I volontari del Texas](https://www.imdb.com/title/tt0029646/)|
 |1957-09-12 |[Delitto sulla spiaggia](https://www.imdb.com/title/tt0048064/)|
 |1957-09-15 |[Quando la moglie è in vacanza](https://www.imdb.com/title/tt0048605/)|
 |1957-09-16 |[Rimorso che uccide](https://www.imdb.com/title/tt0201285/)|
 |1957-09-18 |[La pista di fuoco](https://www.imdb.com/title/tt0041179/)|
+|1957-09-21 |[L'amore di Norma](https://www.imdb.com/title/tt0042196/)|
 |1957-09-23 |[La figlia di Caino](https://www.imdb.com/title/tt0048614/)|
 |1957-09-25 |[Giustizia per gli indios](https://www.imdb.com/title/tt0029001/)|
 |1957-09-28 |[Dietro la maschera](https://www.imdb.com/title/tt0040167/)|
@@ -161,7 +173,9 @@ params:
 |1957-10-05 |[L'avventuriero di Siviglia](https://www.imdb.com/title/tt0045527/)|
 |1957-10-10 |[Non ho paura di vivere](https://www.imdb.com/title/tt0044975/)|
 |1957-10-13 |[La lancia che uccide](https://www.imdb.com/title/tt0046808/)|
+|1957-10-15 |[Arrivò l'alba](https://www.imdb.com/title/tt0046124/)|
 |1957-10-22 |[Tragica incertezza](https://www.imdb.com/title/tt0042980/)|
+|1957-10-26 |[Lo scudo dei Falworth](https://www.imdb.com/title/tt0046789/)|
 
 ### Novembre
 
@@ -172,6 +186,7 @@ params:
 |1957-11-02 |[Il cavaliere della valle solitaria](https://www.imdb.com/title/tt0046303/)|
 |1957-11-05 |[Cielo tempestoso](https://www.imdb.com/title/tt0042333/)|
 |1957-11-07 |[L'età dell'amore](https://www.imdb.com/title/tt0045739/)|
+|1957-11-08 |[Maria Walewska](https://www.imdb.com/title/tt0028739/)|
 |1957-11-11 |[Capitano ardente](https://www.imdb.com/title/tt0044473/)|
 |1957-11-14 |[Le due tigri](https://www.imdb.com/title/tt0033562/)|
 |1957-11-16 |[Il prigioniero di Zenda](https://www.imdb.com/title/tt0045053/)|
@@ -180,6 +195,7 @@ params:
 |1957-11-23 |[Don Camillo](https://www.imdb.com/title/tt0043918/)|
 |1957-11-26 |[Il prezzo del dovere](https://www.imdb.com/title/tt0044324/)|
 |1957-11-27 |[Scandalo alla ribalta](https://www.imdb.com/title/tt0197612/)|
+|1957-11-29 |[I fuorilegge](https://www.imdb.com/title/tt0041397/)|
 
 ### Dicembre
 
@@ -197,6 +213,8 @@ params:
 |1957-12-16 |[Sul ponte dei sospiri](https://www.imdb.com/title/tt0045207/)|
 |1957-12-18 |[La domenica della buona gente](https://www.imdb.com/title/tt0045695/)|
 |1957-12-20 |[Suor Maria](https://www.imdb.com/title/tt0048676/)|
+|1957-12-24 |[Guaglione](https://www.imdb.com/title/tt0050462/)|
+|1957-12-28 |[Tradita](https://www.imdb.com/title/tt0047607/)|
 |1957-12-29 |[La principessa delle Canarie](https://www.imdb.com/title/tt0047367/)|
 
 [^1]: Fonti: [Bruzia 1956-57](/1956/10/01/bruzia-1956-57/), [Fedi 1957-58](/1957/12/01/fedi-1957-58/)

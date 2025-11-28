@@ -49,6 +49,7 @@ params:
 
 |           |                             |
 |:----------|:----------------------------|
+|1963-03-01 |[Tarantella napoletana](https://www.imdb.com/title/tt0046403/)|
 |1963-03-03 |[Il cenerentolo](https://www.imdb.com/title/tt0053716/)|
 |1963-03-05 |[Il canale della morte](https://www.imdb.com/title/tt0053654/)|
 |1963-03-10 |[Riccardo cuor di leone](https://www.imdb.com/title/tt0047150/)|
@@ -67,6 +68,7 @@ params:
 |:----------|:---------------------------------|
 |1963-04-01 |[Estasi d'amore - Operazione Love](https://www.imdb.com/title/tt0051364/)|
 |1963-04-06 |[Il grande spettacolo](https://www.imdb.com/title/tt0054681/)|
+|1963-04-08 |[L'urlo dei comanches](https://www.imdb.com/title/tt0051628/)|
 |1963-04-14 |[Orazi e Curiazi](https://www.imdb.com/title/tt0055264/)|
 |1963-04-16 |[La rivincita di Zorro](https://www.imdb.com/title/tt0052424/)|
 |1963-04-21 |[Lampi nel sole](https://www.imdb.com/title/tt0053359/)|
