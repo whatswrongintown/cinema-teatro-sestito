@@ -30,6 +30,8 @@ description: Agende cinematografiche fornite dalle case distributrici. Contengon
 |1957-12-15 |[Niagara](https://www.imdb.com/title/tt0046126/)|
 |1957-12-16 |[Sul ponte dei sospiri](https://www.imdb.com/title/tt0045207/)|
 |1957-12-20 |[Suor Maria](https://www.imdb.com/title/tt0048676/)|
+|1957-12-24 |[Guaglione](https://www.imdb.com/title/tt0050462/)|
+|1957-12-28 |[Tradita](https://www.imdb.com/title/tt0047607/)|
 |1957-12-29 |[La principessa delle Canarie](https://www.imdb.com/title/tt0047367/)|
 
 ## 1958
@@ -41,6 +43,8 @@ description: Agende cinematografiche fornite dalle case distributrici. Contengon
 |1958-01-02 |[Il re si diverte](https://www.imdb.com/title/tt0034085/)|
 |1958-01-05 |[Orlando e i Paladini di Francia](https://www.imdb.com/title/tt0049584/)|
 |1958-01-07 |[Gli innocenti pagano](https://www.imdb.com/title/tt0043675/)|
+|1958-01-09 |[Carmen](https://www.imdb.com/title/tt0034581/)|
+|1958-01-10 |[I deportati di Botany Bay](https://www.imdb.com/title/tt0045574/)|
 |1958-01-15 |[Notte senza stelle](https://www.imdb.com/title/tt0043855/)|
 |1958-01-20 |[Foglio di via](https://www.imdb.com/title/tt0046990/)|
 |1958-01-21 |[Rosa di sangue](https://www.imdb.com/title/tt0031876/)|
@@ -58,10 +62,13 @@ description: Agende cinematografiche fornite dalle case distributrici. Contengon
 |1958-02-05 |[Capitan Tempesta](https://www.imdb.com/title/tt0033449/)|
 |1958-02-06 |[Il bravo di Venezia](https://www.imdb.com/title/tt0033431/)|
 |1958-02-07 |[Sombrero](https://www.imdb.com/title/tt0046344/)|
+|1958-02-10 |[Disperata ricerca](https://www.imdb.com/title/tt0044543/)|
 |1958-02-12 |[La valle delle aquile](https://www.imdb.com/title/tt0044178/)|
+|1958-02-14 |[Diritto di nascere](https://www.imdb.com/title/tt0043460/)|
 |1958-02-17 |[Il medico dei pazzi](https://www.imdb.com/title/tt0047224/)|
 |1958-02-21 |[Manon Lescaut](https://www.imdb.com/title/tt0032756/)|
 |1958-02-22 |[L'amante di Paride](https://www.imdb.com/title/tt0045499/)|
+|1958-02-24 |[Versailles](https://www.imdb.com/title/tt0047484/)|
 |1958-02-25 |[Desperado](https://www.imdb.com/title/tt0046905/)|
 |1958-02-28 |[Gli amanti del Tago](https://www.imdb.com/title/tt0047818/)|
 
@@ -72,6 +79,7 @@ description: Agende cinematografiche fornite dalle case distributrici. Contengon
 |:----------|:----------------------------|
 |1958-03-02 |[Giuramento d'amore](https://www.imdb.com/title/tt0048120/)|
 |1958-03-05 |[I gioielli di Madame de …](https://www.imdb.com/title/tt0046022/)|
+|1958-03-06 |[La croce di Lorena](https://www.imdb.com/title/tt0035769/)|
 |1958-03-07 |[Il pescatore della Louisiana](https://www.imdb.com/title/tt0043053/)|
 |1958-03-10 |[Gli eroi della domenica](https://www.imdb.com/title/tt0045734/)|
 |1958-03-11 |[La colpa del marinaio](https://www.imdb.com/title/tt0045201/)|
@@ -80,6 +88,7 @@ description: Agende cinematografiche fornite dalle case distributrici. Contengon
 |1958-03-21 |[Operazione Mitra](https://www.imdb.com/title/tt0043888/)|
 |1958-03-24 |[Maruzzella](https://www.imdb.com/title/tt0049484/)|
 |1958-03-27 |[Barriti nella jungla](https://www.imdb.com/title/tt0043352/)|
+|1958-03-30 |[Lo sconosciuto](https://www.imdb.com/title/tt0044166/)|
 
 ### Aprile
 
@@ -105,6 +114,8 @@ description: Agende cinematografiche fornite dalle case distributrici. Contengon
 |1958-05-01 |[Cessate il fuoco!](https://www.imdb.com/title/tt0045616/)|
 |1958-05-06 |[Il più comico spettacolo del mondo](https://www.imdb.com/title/tt0046191/)|
 |1958-05-08 |[Alina](https://www.imdb.com/title/tt0042190/)|
+|1958-05-09 |[Suonno d'ammore](https://www.imdb.com/title/tt0048675/)|
+|1958-05-14 |[Nagana](https://www.imdb.com/title/tt0048409/)|
 |1958-05-18 |[Totò lascia o raddoppia?](https://www.imdb.com/title/tt0049867/)|
 |1958-05-24 |[Moglie e buoi…](https://www.imdb.com/title/tt0049514/)|
 |1958-05-27 |[Gli eroi sono stanchi](https://www.imdb.com/title/tt0048187/)|
@@ -177,6 +188,7 @@ description: Agende cinematografiche fornite dalle case distributrici. Contengon
 |1958-10-07 |[Il grande peccatore](https://www.imdb.com/title/tt0041430/)|
 |1958-10-11 |[L'ultima volta che vidi Parigi](https://www.imdb.com/title/tt0047162/)|
 |1958-10-14 |[All'ombra del patibolo](https://www.imdb.com/title/tt0048570/)|
+|1958-10-16 |[Il grido delle aquile](https://www.imdb.com/title/tt0049728/)|
 |1958-10-18 |[Anche gli eroi piangono](https://www.imdb.com/title/tt0049640/)|
 |1958-10-19 |[Fuga nel sole](https://www.imdb.com/title/tt0048100/)|
 |1958-10-21 |[La torre crudele](https://www.imdb.com/title/tt0049109/)|
@@ -205,5 +217,6 @@ description: Agende cinematografiche fornite dalle case distributrici. Contengon
 |1958-12-03 |[La legge del silenzio](https://www.imdb.com/title/tt0041181/)|
 |1958-12-07 |[L'uomo di paglia](https://www.imdb.com/title/tt0051142/)|
 |1958-12-14 |[Operazione Normandia](https://www.imdb.com/title/tt0049117/)|
+|1958-12-25 |[Il figliuol prodigo](https://www.imdb.com/title/tt0048517/)|
 
 
