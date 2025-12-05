@@ -1,0 +1,29 @@
+{{ partial "header.html" . }}
+
+<main class="content" role="main">
+
+  {{ if .Content }}
+  <article class="article">
+    {{ if .Title }}
+    <h1 class="article-title">{{ .Title }}</h1>
+    {{ end }}
+    <div class="article-content">
+      {{ .Content }}
+    </div>
+  </article>
+  {{ end }}
+
+<div class="article-content">
+  <ul>
+    {{ range sort .Pages "Title" }}
+      <li style="display:inline; margin-right:0.5em;">
+        <a href="{{ .RelPermalink }}" class="archive-item-link">{{ .Title }}</a>
+      </li>
+    {{ end }}
+  </ul>
+</div>
+
+
+</main>
+
+{{ partial "footer.html" . }}

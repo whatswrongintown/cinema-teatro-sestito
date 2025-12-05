@@ -15,10 +15,10 @@ Questa sezione raccoglie e descrive le diverse **fonti originali** che hanno per
 
 Le principali tipologie di fonti sono:
 
-1. 🗒️ **[Agende](/categories/agende/)** - Agende cinematografiche distribuite dalle case di distribuzione. Riportano, giorno per giorno, i film programmati, il distributore e gli incassi registrati.
-2. 📰 **[Calendari](/categories/calendari/)** - Calendari murali o da tavolo utilizzati per annotare la programmazione del cinema. Indicano le date di proiezione, i titoli e, in molti casi, gli incassi.
-3. 📅  **[Rubriche](/categories/rubriche/)** - Registri alfabetici in cui venivano elencati i film proiettati, con l’indicazione della data e del distributore.
-4. ✍️  **[Appunti](/categories/appunti/)** - Blocchi o fogli sciolti su cui erano annotati i film mese per mese, talvolta accompagnati dai relativi incassi.
+1. 🗒️ **[Agende](/categories/agende/)** cinematografiche distribuite dalle case di distribuzione. Riportano, giorno per giorno, i film programmati, il distributore e gli incassi registrati.
+2. 📰 **[Calendari](/categories/calendari/)** murali o da tavolo utilizzati per annotare la programmazione del cinema. Indicano le date di proiezione, i titoli e, in molti casi, gli incassi.
+3. 📅  **[Rubriche](/categories/rubriche/)** in cui venivano elencati in ordine alfabetico i film proiettati, con l’indicazione della data, incasso e in alcuni casi del distributore.
+4. ✍️  **[Appunti](/categories/appunti/)**, blocchi o fogli sciolti su cui erano annotati i film mese per mese, talvolta accompagnati dai relativi incassi.
 
 <img src="/programmazione-storica/fonti/_index_files/figure-html/unnamed-chunk-1-1.png" width="768" />
 

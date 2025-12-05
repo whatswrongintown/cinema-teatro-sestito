@@ -1,0 +1,116 @@
+---
+title: "Paesi di produzione"
+author: "Vito Sestito"
+date: '2025-12-02'
+description: "Consulta la programmazione del Cinema Sestito organizzata per paesi di produzione"
+slug: "paesi-di-produzione"
+type: "programmazione-storica/paesi-di-produzione"
+---
+
+```{r setup, include=FALSE}
+# Librerie ----
+library(tidyverse)
+library(here)
+library(showtext)
+library(viridis)
+
+# Impostazioni grafiche: font Merriweather ----
+font_add_google("Merriweather", "merriweather")
+showtext_auto()
+
+theme_set(
+          theme_minimal(base_family = "merriweather") +
+                    theme(
+                              plot.title = element_text(size = 28, hjust = 0.5),
+                              plot.subtitle = element_text(size = 24),
+                              plot.caption = element_text(size = 16),
+                              axis.title = element_text(size = 24),
+                              axis.text = element_text(size = 20),
+                              legend.title = element_text(size = 24),
+                              legend.text = element_text(size = 20),
+                              panel.grid.major = element_blank(),
+                              panel.grid.minor = element_blank()
+                    )
+)
+
+# ---- Caricamento dati ----
+proiezioni <- read_csv(here("static/data/programmazione_agende.csv")) %>%
+          rename(title2=title)
+
+imdb <- read_csv(here("static/data/programmazione_imdb.csv")) %>%
+          select(const = Const, year = Year, title = Title, directors = Directors, genres = Genres, imdb_rating = `IMDb Rating`, imdb_num_votes = `Num Votes`, runtime = `Runtime (mins)`, url = URL)
+
+paesi <- read_csv(here("static/data/programmazione_paesi.csv"))
+
+df <- proiezioni %>%
+          left_join(imdb, by = "const") %>%
+          left_join(paesi, by = "const") %>%
+          mutate(
+                    anno_proiezione = year(date),
+                    decennio = floor(anno_proiezione / 10) * 10,
+                    is_adult = if_else(!is.na(is_adult), TRUE, FALSE)
+          )
+```
+
+L’analisi dei paesi di produzione dei film proiettati al cinema Sestito consente di osservare l’evoluzione delle dinamiche industriali e distributive. Il *primo grafico* presenta un confronto percentuale tra film italiani ed esteri aggregato per decennio, mettendo in evidenza alcune tendenze strutturali decisive per comprendere la storia della sala e il suo rapporto con il sistema produttivo nazionale.
+
+```{r echo=FALSE, warning=FALSE, fig.width=8, fig.height=3}
+# Crea una variabile logica: TRUE se tra i paesi c'è l'Italia
+films_italia <- df %>%
+          separate_rows(country, sep = ",") %>%
+          mutate(is_italian = str_detect(country, regex("Italy", ignore_case = TRUE)))
+
+# Conta quanti film italiani e non italiani per decennio
+italia_vs_estero <- films_italia %>%
+          group_by(decennio, is_italian) %>%
+          summarise(n = n(), .groups = "drop") %>%
+          mutate(tipo = if_else(is_italian, "Italia", "Estero"))
+
+# Grafico  – Percentuali
+italia_vs_estero_perc <- italia_vs_estero %>%
+          group_by(decennio) %>%
+          mutate(percentuale = n / sum(n) * 100)
+
+ggplot(italia_vs_estero_perc, aes(x = decennio, y = percentuale, fill = tipo)) +
+          geom_col() +
+          scale_fill_manual(values = c("Italia" = "#CBF8DF", "Estero" = "grey90")) +
+          labs(
+                    title = "Cinema italiano vs estero: evoluzione per decennio",
+                    x = "Decennio",
+                    y = "% sul totale",
+                    fill = ""
+          )
+```
+
+Nei primi decenni di attività, la sala mostra una forte presenza di film di produzione italiana, che rappresentano almeno la metà delle opere distribuite. Questa prevalenza riflette il ruolo centrale che la cinematografia nazionale ricoprì nell’immediato dopoguerra, sostenuta da un sistema produttivo vivace, da politiche culturali di rilancio e da un pubblico fortemente identificato nei modelli narrativi e sociali offerti dal cinema italiano del tempo. A partire dagli anni Ottanta, e in modo ancora più marcato nei decenni successivi, si osserva invece un progressivo declino della quota di film italiani. Tale tendenza rispecchia fenomeni più ampi: la crisi strutturale dell’industria cinematografica nazionale, la crescente penetrazione dei prodotti statunitensi nel mercato europeo e la progressiva standardizzazione delle pratiche distributive che ha favorito la centralità dei cataloghi hollywoodiani.
+
+Un ulteriore elemento rilevante riguarda la natura delle coproduzioni internazionali, particolarmente diffuse nel cinema europeo dagli anni Cinquanta in poi. Poiché i dati disponibili non permettono di determinare la quota effettiva di partecipazione di ciascun paese, ogni film viene conteggiato nominalmente in tutte le categorie di produzione indicate. Ne consegue che la rappresentazione percentuale mostra la presenza formale dei paesi nella programmazione, senza misurarne il peso economico o creativo all’interno dei progetti.
+
+Per offrire una prospettiva complementare, il *secondo grafico* mostra il numero di paesi produttori rappresentati in ciascun decennio. Questo indicatore consente di valutare la diversità geografica dell’offerta cinematografica della sala al di là del confronto Italia/estero. Il grafico evidenzia un andamento curvilineo: un primo periodo in cui la programmazione comprende film provenienti da circa 10–20 paesi (anni ’40–’50), seguito da un ampliamento significativo negli anni ’60 e soprattutto negli anni ’70, quando si raggiunge il massimo di circa 50 paesi rappresentati. Tale espansione riflette la crescente globalizzazione del mercato, l’intensificarsi delle coproduzioni internazionali e l’arrivo di film provenienti da aree extraeuropee.
+
+```{r echo=FALSE, warning=FALSE, fig.width=8, fig.height=3}
+df %>%
+  # Se country contiene più paesi, separali in righe distinte
+  mutate(country = str_split(country, ",")) %>%
+  unnest(country) %>%
+  mutate(country = str_trim(country)) %>%
+  
+  # Conta il numero di paesi distinti per decennio
+  distinct(decennio, country) %>%
+  count(decennio, name = "n_paesi") %>%
+  
+  # Grafico
+  ggplot(aes(x = factor(decennio), y = n_paesi, group = 1)) +
+  geom_line(color = "#CBF8DF", linewidth = 1.5) +
+  labs(
+    title = "Numero di paesi rappresentati nella programmazione per decennio",
+    x = "Decennio",
+    y = "Numero di paesi distinti"
+  )
+```
+
+Dagli anni ’80 in poi, la curva mostra un progressivo declino, da leggere non solo come una riduzione delle provenienze geografiche, ma anche in relazione alla diminuzione del numero totale di film proiettati nella sala negli ultimi decenni della sua attività. La contrazione della programmazione riduce inevitabilmente anche la varietà dei paesi rappresentati, segnando una fase di chiusura dopo il periodo di massima apertura internazionale.
+
+Nel complesso, l’analisi combinata dei due grafici restituisce una lettura stratificata dell’evoluzione della sala: da un cinema inizialmente radicato nella produzione nazionale, a un luogo progressivamente aperto alla circolazione internazionale dei film, fino a una fase finale di contrazione legata a dinamiche economiche, tecnologiche e demografiche del territorio. Tale prospettiva sottolinea come le trasformazioni della programmazione riflettano, in forma locale, le traiettorie più ampie dell’industria cinematografica europea e globale.
+
+---

@@ -1,0 +1,142 @@
+---
+title: "Generi cinematografici"
+author: "Vito Sestito"
+date: '2025-12-02'
+description: "Consulta la programmazione del Cinema Sestito organizzata per generi cinematografici"
+slug: "generi"
+type: "programmazione-storica/generi"
+---
+
+```{r setup, include=FALSE}
+# Librerie ----
+library(tidyverse)
+library(here)
+library(showtext)
+
+# Impostazioni grafiche: font Merriweather ----
+font_add_google("Merriweather", "merriweather")
+showtext_auto()
+
+theme_set(
+          theme_minimal(base_family = "merriweather") +
+                    theme(
+                              plot.title = element_text(size = 28, hjust = 0.5),
+                              plot.subtitle = element_text(size = 24),
+                              plot.caption = element_text(size = 16),
+                              axis.title = element_text(size = 24),
+                              axis.text = element_text(size = 20),
+                              legend.title = element_text(size = 24),
+                              legend.text = element_text(size = 20),
+                              panel.grid.major = element_blank(),
+                              panel.grid.minor = element_blank()
+                    )
+)
+
+# ---- Caricamento dati ----
+proiezioni <- read_csv(here("static/data/programmazione_agende.csv")) %>%
+          rename(title2=title)
+
+imdb <- read_csv(here("static/data/programmazione_imdb.csv")) %>%
+          select(const = Const, year = Year, title = Title, directors = Directors, genres = Genres, imdb_rating = `IMDb Rating`, imdb_num_votes = `Num Votes`, runtime = `Runtime (mins)`, url = URL)
+
+paesi <- read_csv(here("static/data/programmazione_paesi.csv"))
+
+df <- proiezioni %>%
+          left_join(imdb, by = "const") %>%
+          left_join(paesi, by = "const") %>%
+          mutate(
+                    anno_proiezione = year(date),
+                    decennio = floor(anno_proiezione / 10) * 10,
+                    is_adult = if_else(!is.na(is_adult), TRUE, FALSE)
+          )
+```
+
+L’analisi dei generi cinematografici proiettati nel corso dell’attività del cinema Sestito offre uno sguardo privilegiato sulle trasformazioni culturali e sociali. Il primo strumento interpretativo è un grafico dei generi per decennio, costruito a partire da un dataset opportunamente “ripulito” eliminando la categoria drammatico quando associata ad altri generi. Questa operazione consente di ridurre una distorsione frequente nelle classificazioni enciclopediche, in cui “drammatico” tende a funzionare come categoria-ombrello sovrapposta a generi più specifici.
+
+Il risultato è una rappresentazione più nitida delle tendenze effettive: emergono infatti tre poli dominanti: commedia, avventura e azione, che rispecchiano le preferenze del pubblico popolare e la tipologia di prodotti più frequentemente distribuiti nelle sale di provincia. Il grafico evidenzia inoltre come la varietà dei generi rifletta non solo mode cinematografiche, ma anche l’adattamento economico e culturale della sala rispetto ai mutamenti dell’offerta nazionale e internazionale.
+
+```{r echo=FALSE, warning=FALSE, fig.width=8, fig.height=5}
+# 1. Espandi i generi
+df_clean <- df %>%
+          separate_rows(genres, sep = ",") %>%
+          mutate(genres = str_trim(genres)) %>%
+          
+          # rimuovi "drammatico" SOLO se ci sono altri generi
+          group_by(const) %>%
+          filter(!(genres == "Drammatico" & n() > 1)) %>%
+          ungroup() %>%
+          filter(!is.na(genres))
+
+# 2. Calcola ordine globale dei generi (dal più frequente al meno)
+ordine_generi <- df_clean %>%
+  count(genres, sort = TRUE) %>% 
+  pull(genres)
+
+df_clean %>%
+          count(decennio, genres) %>%
+          group_by(decennio) %>%
+          mutate(prop = n / sum(n)) %>%
+          ungroup() %>%
+          mutate(genres = factor(genres, levels = ordine_generi)) %>%  # <— ordine globale
+          ggplot(aes(x = as.factor(decennio), y = genres, fill = prop)) +
+          geom_tile(color = "white") +
+          scale_fill_gradient(low = "grey90", high = "#CBF8DF") +
+          scale_y_discrete(limits = rev) +
+          labs(
+                    title = "Dominanza dei generi per decennio",
+                    x = "Decennio",
+                    y = "Genere",
+                    fill = "Percentuale"
+          )
+```
+
+Un fenomeno di particolare rilevanza è l’incremento dei titoli classificati come “Per adulti”, che diviene evidente a partire dagli anni Settanta e raggiunge il suo apice tra gli anni Ottanta. La presenza consistente di tali film nella programmazione si inserisce in un contesto storico più ampio: la diffusione del cinema erotico e pornografico nella cosiddetta golden age italiana, quando molte piccole sale, soprattutto in aree rurali e periferiche, adottarono questo tipo di programmazione come strategia di sopravvivenza economica, di fronte alla competizione televisiva e alla trasformazione delle abitudini spettatoriali.
+
+```{r echo=FALSE, warning=FALSE, fig.width=8, fig.height=3}
+# --- 1. Prepara il dataset ---
+df_year <- df %>%
+          mutate(
+                    date = as.Date(date),
+                    year = year(date),
+                    is_adult = ifelse(str_detect(genres, "Per adulti"), "Adulto", "Non adulto")
+          ) %>%
+          mutate(is_adult = if_else(is.na(is_adult), "Non adulto", is_adult))
+
+# --- 2. Calcolo percentuale annuale ---
+df_yearly_pct <- df_year %>%
+          group_by(year) %>%
+          summarise(
+                    totale = n(),
+                    adulti = sum(is_adult == "Adulto"),
+                    perc_adulti = adulti / totale * 100,
+                    .groups = "drop"
+          ) %>%
+          mutate(perc_adulti = if_else(is.na(perc_adulti), 0, perc_adulti))
+
+# --- 3. Grafico ---
+ggplot(df_yearly_pct, aes(x = year, y = perc_adulti)) +
+          geom_area(fill = "#CBF8DF", alpha = 0.8) +
+          geom_hline(yintercept = 50, linetype = "dashed", color = "red") +
+          labs(
+                    title = "Percentuale annuale di film per adulti nella programmazione",
+                    subtitle = "Linea tratteggiata = soglia del 50%",
+                    x = "Anno",
+                    y = "Percentuale (%)"
+          ) +
+          theme_minimal(base_family = "merriweather") +
+          theme(
+                    plot.title = element_text(size = 28),
+                    plot.subtitle = element_text(size = 24),
+                    plot.caption = element_text(size = 16),
+                    axis.title = element_text(size = 24),
+                    axis.text = element_text(size = 20),
+                    legend.title = element_text(size = 24),
+                    legend.text = element_text(size = 20),
+                    panel.grid.major = element_blank(),
+                    panel.grid.minor = element_blank()
+          )
+```
+
+Nel suo insieme, la distribuzione dei generi mette dunque in luce non solo le preferenze del pubblico, ma anche le pressioni commerciali, i processi di adattamento e le dinamiche socio-culturali che hanno modellato la programmazione per oltre mezzo secolo.
+
+---
