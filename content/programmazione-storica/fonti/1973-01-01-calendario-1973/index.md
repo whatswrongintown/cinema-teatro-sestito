@@ -10,7 +10,7 @@ description: Calendari murali o da tavolo legati all’attività del cinema. Ind
 
 
 {{< image-gallery gallery_dir="/images/1973_01_01_calendario_1973" >}}
-
+<!-- Tabelle generate automaticamente. -->
 
 ## 1973
 
@@ -227,7 +227,7 @@ description: Calendari murali o da tavolo legati all’attività del cinema. Ind
 | 1973-12-23 | [Sandokan, la tigre di Mompracem](https://www.imdb.com/title/tt0057469/) |
 | 1973-12-25 | [Vamos a matar compañeros](https://www.imdb.com/title/tt0066612/) |
 | 1973-12-28 | [La bella Antonia, prima monica e poi dimonia](https://www.imdb.com/title/tt0068261/) |
-| 1973-12-30 | [Jesse & Lester - Due fratelli in un posto chiamato Trinità](https://www.imdb.com/title/tt0068515/) |
+| 1973-12-30 | [Jesse &amp; Lester - Due fratelli in un posto chiamato Trinità](https://www.imdb.com/title/tt0068515/) |
 
 ## 1974
 
@@ -236,5 +236,4 @@ description: Calendari murali o da tavolo legati all’attività del cinema. Ind
 |  |  |
 |---|---|
 | 1974-01-01 | [Franco e Ciccio sul sentiero di guerra](https://www.imdb.com/title/tt0123843/) |
-
 

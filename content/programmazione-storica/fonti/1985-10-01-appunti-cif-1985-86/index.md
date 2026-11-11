@@ -10,7 +10,7 @@ description: Appunti su blocchi o fogli, con i film registrati per mese. Riporta
 
 
 {{< image-gallery gallery_dir="/images/1985_10_01_appunti_cif_1985_86" >}}
-
+<!-- Tabelle generate automaticamente. -->
 
 ## 1985
 
@@ -117,5 +117,4 @@ description: Appunti su blocchi o fogli, con i film registrati per mese. Riporta
 |  |  |
 |---|---|
 | 1986-06-01 | [Miami Supercops (I poliziotti dell'ottava strada)](https://www.imdb.com/title/tt0089591/) |
-
 

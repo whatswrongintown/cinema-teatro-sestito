@@ -10,7 +10,7 @@ description: Calendari murali o da tavolo legati all’attività del cinema. Ind
 
 
 {{< image-gallery gallery_dir="/images/1984_01_01_calendario_1984" >}}
-
+<!-- Tabelle generate automaticamente. -->
 
 ### Gennaio
 
@@ -114,5 +114,4 @@ description: Calendari murali o da tavolo legati all’attività del cinema. Ind
 | 1984-12-16 | [Indiscrezioni erotiche di un letto malizioso](https://www.imdb.com/title/tt0228728/) |
 | 1984-12-22 | [Giochi di notte](https://www.imdb.com/title/tt0060740/) |
 | 1984-12-23 | [Bruce Lee il dominatore](https://www.imdb.com/title/tt0074246/) |
-
 

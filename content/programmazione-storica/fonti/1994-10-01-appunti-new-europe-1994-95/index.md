@@ -10,7 +10,7 @@ description: Appunti su blocchi o fogli, con i film registrati per mese. Riporta
 
 
 {{< image-gallery gallery_dir="/images/1994_10_01_appunti_new_europe_1994_95" >}}
-
+<!-- Tabelle generate automaticamente. -->
 
 ## 1994
 
@@ -75,5 +75,4 @@ description: Appunti su blocchi o fogli, con i film registrati per mese. Riporta
 |  |  |
 |---|---|
 | 1995-06-04 | [Nightmare - Nuovo incubo](https://www.imdb.com/title/tt0111686/) |
-
 

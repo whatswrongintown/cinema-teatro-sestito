@@ -10,7 +10,7 @@ description: Calendari murali o da tavolo legati all’attività del cinema. Ind
 
 
 {{< image-gallery gallery_dir="/images/1967_01_01_calendario_1967" >}}
-
+<!-- Tabelle generate automaticamente. -->
 
 ### Gennaio
 
@@ -280,5 +280,4 @@ description: Calendari murali o da tavolo legati all’attività del cinema. Ind
 | 1967-12-28 | [Spiaggia libera](https://www.imdb.com/title/tt0208476/) |
 | 1967-12-29 | [Sette ore di fuoco](https://www.imdb.com/title/tt0058575/) |
 | 1967-12-31 | [Voltati... ti uccido!](https://www.imdb.com/title/tt0063813/) |
-
 

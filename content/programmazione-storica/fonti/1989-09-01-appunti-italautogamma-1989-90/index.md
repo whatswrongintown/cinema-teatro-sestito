@@ -10,7 +10,7 @@ description: Appunti su blocchi o fogli, con i film registrati per mese. Riporta
 
 
 {{< image-gallery gallery_dir="/images/1989_09_01_appunti_italautogamma_1989_90" >}}
-
+<!-- Tabelle generate automaticamente. -->
 
 ## 1989
 
@@ -110,9 +110,8 @@ description: Appunti su blocchi o fogli, con i film registrati per mese. Riporta
 |  |  |
 |---|---|
 | 1990-05-06 | [La baita dell'amore](https://www.imdb.com/title/tt0279667/) |
-| 1990-05-13 | [Tango & Cash](https://www.imdb.com/title/tt0098439/) |
+| 1990-05-13 | [Tango &amp; Cash](https://www.imdb.com/title/tt0098439/) |
 | 1990-05-20 | [Tesoro, mi si sono ristretti i ragazzi](https://www.imdb.com/title/tt0097523/) |
 | 1990-05-20 | [Indietro tutta!](https://www.imdb.com/title/tt12118414/) |
 | 1990-05-27 | [La bambola assassina](https://www.imdb.com/title/tt0094862/) |
-
 

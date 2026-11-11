@@ -10,7 +10,7 @@ description: Rubriche dove i film venivano annotati in ordine alfabetico, con da
 
 
 {{< image-gallery gallery_dir="/images/1967_01_01_rubrica_1967" >}}
-
+<!-- Tabelle generate automaticamente. -->
 
 ### Gennaio
 
@@ -283,5 +283,4 @@ description: Rubriche dove i film venivano annotati in ordine alfabetico, con da
 | 1967-12-28 | [Spiaggia libera](https://www.imdb.com/title/tt0208476/) |
 | 1967-12-29 | [Sette ore di fuoco](https://www.imdb.com/title/tt0058575/) |
 | 1967-12-31 | [Voltati... ti uccido!](https://www.imdb.com/title/tt0063813/) |
-
 

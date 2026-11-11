@@ -10,7 +10,7 @@ description: Calendari murali o da tavolo legati all’attività del cinema. Ind
 
 
 {{< image-gallery gallery_dir="/images/1985_01_01_calendario_1985" >}}
-
+<!-- Tabelle generate automaticamente. -->
 
 ### Gennaio
 
@@ -35,7 +35,7 @@ description: Calendari murali o da tavolo legati all’attività del cinema. Ind
 |---|---|
 | 1985-03-09 | [Bruce Lee: l'ira del drago colpisce anche l'Occidente](https://www.imdb.com/title/tt0165117/) |
 | 1985-03-10 | [Beatrix - La schiava del sesso](https://www.imdb.com/title/tt0202818/) |
-| 1985-03-16 | [Voglie erotiche di una porno pizzaiola (Hot & Saucy Pizza Girls)](https://www.imdb.com/title/tt0127113/) |
+| 1985-03-16 | [Voglie erotiche di una porno pizzaiola (Hot &amp; Saucy Pizza Girls)](https://www.imdb.com/title/tt0127113/) |
 | 1985-03-17 | [Fotografando Patrizia](https://www.imdb.com/title/tt0089163/) |
 | 1985-03-24 | [Ninja la furia umana](https://www.imdb.com/title/tt0086192/) |
 | 1985-03-28 | [Guerre stradali](https://www.imdb.com/title/tt0084616/) |
@@ -63,33 +63,4 @@ description: Calendari murali o da tavolo legati all’attività del cinema. Ind
 | 1985-10-26 | [Omicidio a luci rosse](https://www.imdb.com/title/tt0086984/) |
 | 1985-10-27 | [Jhoanna farfalla in calore (Skin-Flicks)](https://www.imdb.com/title/tt0079913/) |
 | 1985-10-29 | [Vacanze in America](https://www.imdb.com/title/tt0090247/) |
-
-### Novembre
-
-|  |  |
-|---|---|
-| 1985-11-01 | [Sotto tiro](https://www.imdb.com/title/tt0086510/) |
-| 1985-11-02 | [The Karate Kid - Per vincere domani](https://www.imdb.com/title/tt0087538/) |
-| 1985-11-05 | [Cuori nella tormenta](https://www.imdb.com/title/tt0144155/) |
-| 1985-11-11 | [Non ci resta che piangere](https://www.imdb.com/title/tt0087814/) |
-| 1985-11-17 | [Quella viziosa di Susan](https://www.imdb.com/title/tt0206874/) |
-| 1985-11-18 | [Terminator](https://www.imdb.com/title/tt0088247/) |
-| 1985-11-21 | [Tradimento](https://www.imdb.com/title/tt0084812/) |
-| 1985-11-23 | [Zattere, pupe, porcelloni e gommoni](https://www.imdb.com/title/tt0088333/) |
-| 1985-11-25 | [Lui è peggio di me](https://www.imdb.com/title/tt0087653/) |
-
-### Dicembre
-
-|  |  |
-|---|---|
-| 1985-12-05 | [Phenomena](https://www.imdb.com/title/tt0087909/) |
-| 1985-12-06 | [Scuola di polizia](https://www.imdb.com/title/tt0087928/) |
-| 1985-12-08 | [Ethan](https://www.imdb.com/title/tt0303977/) |
-| 1985-12-09 | [Ghostbusters (Acchiappafantasmi)](https://www.imdb.com/title/tt0087332/) |
-| 1985-12-13 | [Bruce Lee l'invincibile del kung fu](https://www.imdb.com/title/tt0081216/) |
-| 1985-12-26 | [Amarsi un po'...](https://www.imdb.com/title/tt0086881/) |
-| 1985-12-27 | [Bruce Lee la tigre indomabile](https://www.imdb.com/title/tt0075167/) |
-| 1985-12-29 | [Calde](https://www.imdb.com/title/tt4290202/) |
-| 1985-12-30 | [Urla del silenzio](https://www.imdb.com/title/tt0087553/) |
-
 

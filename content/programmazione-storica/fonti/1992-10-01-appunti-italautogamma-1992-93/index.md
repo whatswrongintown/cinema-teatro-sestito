@@ -10,7 +10,7 @@ description: Appunti su blocchi o fogli, con i film registrati per mese. Riporta
 
 
 {{< image-gallery gallery_dir="/images/1992_10_01_appunti_italautogamma_1992_93" >}}
-
+<!-- Tabelle generate automaticamente. -->
 
 ## 1992
 
@@ -72,5 +72,4 @@ description: Appunti su blocchi o fogli, con i film registrati per mese. Riporta
 |---|---|
 | 1993-04-11 | [Mamma, ho riperso l'aereo: Mi sono smarrito a New York](https://www.imdb.com/title/tt0104431/) |
 | 1993-04-25 | [Fantastica Moana](https://www.imdb.com/title/tt0208946/) |
-
 

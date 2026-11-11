@@ -10,7 +10,7 @@ description: Calendari murali o da tavolo legati all’attività del cinema. Ind
 
 
 {{< image-gallery gallery_dir="/images/1979_01_01_calendario_1979" >}}
-
+<!-- Tabelle generate automaticamente. -->
 
 ### Gennaio
 
@@ -159,5 +159,4 @@ description: Calendari murali o da tavolo legati all’attività del cinema. Ind
 | 1979-12-25 | [Incredibile viaggio verso l'ignoto](https://www.imdb.com/title/tt0072951/) |
 | 1979-12-28 | [Abissi](https://www.imdb.com/title/tt0075925/) |
 | 1979-12-30 | [Shalako](https://www.imdb.com/title/tt0063592/) |
-
 

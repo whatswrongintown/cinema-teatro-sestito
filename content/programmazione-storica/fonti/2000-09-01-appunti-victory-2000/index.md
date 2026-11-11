@@ -10,7 +10,7 @@ description: Appunti su blocchi o fogli, con i film registrati per mese. Riporta
 
 
 {{< image-gallery gallery_dir="/images/2000_09_01_appunti_victory_2000" >}}
-
+<!-- Tabelle generate automaticamente. -->
 
 ## 2000
 
@@ -26,7 +26,7 @@ description: Appunti su blocchi o fogli, con i film registrati per mese. Riporta
 |  |  |
 |---|---|
 | 2000-10-01 | [Scream 3](https://www.imdb.com/title/tt0134084/) |
-| 2000-10-08 | [Io, me & Irene](https://www.imdb.com/title/tt0183505/) |
+| 2000-10-08 | [Io, me &amp; Irene](https://www.imdb.com/title/tt0183505/) |
 | 2000-10-15 | [Fantasia 2000](https://www.imdb.com/title/tt0120910/) |
 | 2000-10-22 | [Final Destination](https://www.imdb.com/title/tt0195714/) |
 
@@ -141,7 +141,7 @@ description: Appunti su blocchi o fogli, con i film registrati per mese. Riporta
 
 |  |  |
 |---|---|
-| 2002-04-28 | [Monsters & Co.](https://www.imdb.com/title/tt0198781/) |
+| 2002-04-28 | [Monsters &amp; Co.](https://www.imdb.com/title/tt0198781/) |
 
 ### Dicembre
 
@@ -234,5 +234,4 @@ description: Appunti su blocchi o fogli, con i film registrati per mese. Riporta
 |  |  |
 |---|---|
 | 2004-05-02 | [La passione di Cristo](https://www.imdb.com/title/tt0335345/) |
-
 

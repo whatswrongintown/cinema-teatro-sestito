@@ -10,7 +10,7 @@ description: Calendari murali o da tavolo legati all’attività del cinema. Ind
 
 
 {{< image-gallery gallery_dir="/images/2003_01_01_calendario_2003" >}}
-
+<!-- Tabelle generate automaticamente. -->
 
 ### Gennaio
 
@@ -58,5 +58,4 @@ description: Calendari murali o da tavolo legati all’attività del cinema. Ind
 |  |  |
 |---|---|
 | 2003-12-28 | [Natale in India](https://www.imdb.com/title/tt0392494/) |
-
 

@@ -10,7 +10,7 @@ description: Agende cinematografiche fornite dalle case distributrici. Contengon
 
 
 {{< image-gallery gallery_dir="/images/1960_10_01_fedi_1960_61" >}}
-
+<!-- Tabelle generate automaticamente. -->
 
 ### Ottobre
 
@@ -52,5 +52,4 @@ description: Agende cinematografiche fornite dalle case distributrici. Contengon
 | 1960-12-12 | [Mogli pericolose](https://www.imdb.com/title/tt0051941/) |
 | 1960-12-12 | [Le insaziabili](https://www.imdb.com/title/tt0051780/) |
 | 1960-12-15 | [Sergente d'ispezione](https://www.imdb.com/title/tt0052184/) |
-
 

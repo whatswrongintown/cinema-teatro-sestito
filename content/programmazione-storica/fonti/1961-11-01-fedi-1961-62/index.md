@@ -10,7 +10,7 @@ description: Agende cinematografiche fornite dalle case distributrici. Contengon
 
 
 {{< image-gallery gallery_dir="/images/1961_11_01_fedi_1961_62" >}}
-
+<!-- Tabelle generate automaticamente. -->
 
 ## 1961
 
@@ -209,5 +209,4 @@ description: Agende cinematografiche fornite dalle case distributrici. Contengon
 | 1962-12-22 | [La storia di Ruth](https://www.imdb.com/title/tt0054343/) |
 | 1962-12-25 | [Romolo e Remo](https://www.imdb.com/title/tt0057460/) |
 | 1962-12-31 | [Francesco d'Assisi](https://www.imdb.com/title/tt0054892/) |
-
 

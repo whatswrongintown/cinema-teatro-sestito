@@ -10,7 +10,7 @@ description: Calendari murali o da tavolo legati all’attività del cinema. Ind
 
 
 > ⚠️ Questa fonte non è stata scansionata.
-
+<!-- Tabelle generate automaticamente. -->
 
 ### Gennaio
 
@@ -60,7 +60,7 @@ description: Calendari murali o da tavolo legati all’attività del cinema. Ind
 |  |  |
 |---|---|
 | 2000-10-01 | [Scream 3](https://www.imdb.com/title/tt0134084/) |
-| 2000-10-08 | [Io, me & Irene](https://www.imdb.com/title/tt0183505/) |
+| 2000-10-08 | [Io, me &amp; Irene](https://www.imdb.com/title/tt0183505/) |
 | 2000-10-15 | [Fantasia 2000](https://www.imdb.com/title/tt0120910/) |
 | 2000-10-22 | [Final Destination](https://www.imdb.com/title/tt0195714/) |
 
@@ -80,5 +80,4 @@ description: Calendari murali o da tavolo legati all’attività del cinema. Ind
 | 2000-12-10 | [Scary Movie - Senza paura, senza vergogna... senza cervello!](https://www.imdb.com/title/tt0175142/) |
 | 2000-12-24 | [Dinosauri](https://www.imdb.com/title/tt0130623/) |
 | 2000-12-26 | [Body Guards - Guardie del corpo](https://www.imdb.com/title/tt0269009/) |
-
 

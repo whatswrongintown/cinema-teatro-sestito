@@ -10,7 +10,7 @@ description: Calendari murali o da tavolo legati all’attività del cinema. Ind
 
 
 > ⚠️ Questa fonte non è stata scansionata.
-
+<!-- Tabelle generate automaticamente. -->
 
 ### Gennaio
 
@@ -57,5 +57,4 @@ description: Calendari murali o da tavolo legati all’attività del cinema. Ind
 | 1994-12-04 | [Il mostro](https://www.imdb.com/title/tt0110570/) |
 | 1994-12-18 | [True Lies](https://www.imdb.com/title/tt0111503/) |
 | 1994-12-25 | [Lo specialista](https://www.imdb.com/title/tt0111255/) |
-
 

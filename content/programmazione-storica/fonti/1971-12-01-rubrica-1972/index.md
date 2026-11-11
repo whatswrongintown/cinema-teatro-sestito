@@ -10,7 +10,7 @@ description: Rubriche dove i film venivano annotati in ordine alfabetico, con da
 
 
 {{< image-gallery gallery_dir="/images/1971_12_01_rubrica_1972" >}}
-
+<!-- Tabelle generate automaticamente. -->
 
 ## 1971
 
@@ -157,7 +157,7 @@ description: Rubriche dove i film venivano annotati in ordine alfabetico, con da
 |---|---|
 | 1972-08-01 | [Il terrore dei barbari](https://www.imdb.com/title/tt0053346/) |
 | 1972-08-02 | [Vado... l'ammazzo e torno](https://www.imdb.com/title/tt0062429/) |
-| 1972-08-03 | [Bob & Carol & Ted & Alice](https://www.imdb.com/title/tt0064100/) |
+| 1972-08-03 | [Bob &amp; Carol &amp; Ted &amp; Alice](https://www.imdb.com/title/tt0064100/) |
 | 1972-08-04 | [Carter](https://www.imdb.com/title/tt0067128/) |
 | 1972-08-06 | [I due toreri](https://www.imdb.com/title/tt0059121/) |
 | 1972-08-08 | [Pochi dollari per Django](https://www.imdb.com/title/tt0060084/) |
@@ -248,5 +248,4 @@ description: Rubriche dove i film venivano annotati in ordine alfabetico, con da
 | 1972-12-28 | [Ti pagherò col piombo](https://www.imdb.com/title/tt0073708/) |
 | 1972-12-29 | [Ercole al centro della Terra](https://www.imdb.com/title/tt0054850/) |
 | 1972-12-31 | [Io non scappo... fuggo](https://www.imdb.com/title/tt0065900/) |
-
 

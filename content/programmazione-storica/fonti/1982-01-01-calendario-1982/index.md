@@ -10,7 +10,7 @@ description: Calendari murali o da tavolo legati all’attività del cinema. Ind
 
 
 {{< image-gallery gallery_dir="/images/1982_01_01_calendario_1982" >}}
-
+<!-- Tabelle generate automaticamente. -->
 
 ### Gennaio
 
@@ -163,5 +163,4 @@ description: Calendari murali o da tavolo legati all’attività del cinema. Ind
 | 1982-12-26 | [1997: fuga da New York](https://www.imdb.com/title/tt0082340/) |
 | 1982-12-29 | [Lezioni maliziose](https://www.imdb.com/title/tt0082948/) |
 | 1982-12-31 | [Lo squartatore di New York](https://www.imdb.com/title/tt0084719/) |
-
 

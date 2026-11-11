@@ -10,7 +10,7 @@ description: Rubriche dove i film venivano annotati in ordine alfabetico, con da
 
 
 {{< image-gallery gallery_dir="/images/1984_01_01_rubrica_1984_92" >}}
-
+<!-- Tabelle generate automaticamente. -->
 
 ## 1984
 
@@ -139,7 +139,7 @@ description: Rubriche dove i film venivano annotati in ordine alfabetico, con da
 |---|---|
 | 1985-03-09 | [Bruce Lee: l'ira del drago colpisce anche l'Occidente](https://www.imdb.com/title/tt0165117/) |
 | 1985-03-10 | [Beatrix - La schiava del sesso](https://www.imdb.com/title/tt0202818/) |
-| 1985-03-16 | [Voglie erotiche di una porno pizzaiola (Hot & Saucy Pizza Girls)](https://www.imdb.com/title/tt0127113/) |
+| 1985-03-16 | [Voglie erotiche di una porno pizzaiola (Hot &amp; Saucy Pizza Girls)](https://www.imdb.com/title/tt0127113/) |
 | 1985-03-17 | [Fotografando Patrizia](https://www.imdb.com/title/tt0089163/) |
 | 1985-03-24 | [Ninja la furia umana](https://www.imdb.com/title/tt0086192/) |
 | 1985-03-28 | [Guerre stradali](https://www.imdb.com/title/tt0084616/) |
@@ -723,7 +723,7 @@ description: Rubriche dove i film venivano annotati in ordine alfabetico, con da
 |  |  |
 |---|---|
 | 1990-05-06 | [La baita dell'amore](https://www.imdb.com/title/tt0279667/) |
-| 1990-05-13 | [Tango & Cash](https://www.imdb.com/title/tt0098439/) |
+| 1990-05-13 | [Tango &amp; Cash](https://www.imdb.com/title/tt0098439/) |
 | 1990-05-20 | [Tesoro, mi si sono ristretti i ragazzi](https://www.imdb.com/title/tt0097523/) |
 | 1990-05-20 | [Indietro tutta!](https://www.imdb.com/title/tt12118414/) |
 | 1990-05-27 | [La bambola assassina](https://www.imdb.com/title/tt0094862/) |
@@ -939,5 +939,4 @@ description: Rubriche dove i film venivano annotati in ordine alfabetico, con da
 | 1992-04-25 | [Giustizia a tutti i costi](https://www.imdb.com/title/tt0102614/) |
 | 1992-04-26 | [La famiglia Addams](https://www.imdb.com/title/tt0101272/) |
 | 1992-04-26 | [Esperienze innaturali di Lorain](https://www.imdb.com/title/tt0311643/) |
-
 

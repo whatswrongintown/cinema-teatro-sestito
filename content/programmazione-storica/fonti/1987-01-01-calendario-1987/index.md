@@ -10,7 +10,7 @@ description: Calendari murali o da tavolo legati all’attività del cinema. Ind
 
 
 > ⚠️ Questa fonte non è stata scansionata.
-
+<!-- Tabelle generate automaticamente. -->
 
 ### Gennaio
 
@@ -158,5 +158,4 @@ description: Calendari murali o da tavolo legati all’attività del cinema. Ind
 | 1987-12-25 | [Il siciliano](https://www.imdb.com/title/tt0093966/) |
 | 1987-12-27 | [L'iniziazione](https://www.imdb.com/title/tt0092995/) |
 | 1987-12-27 | [Marilyn, mon amour](https://www.imdb.com/title/tt0143615/) |
-
 

@@ -10,7 +10,7 @@ description: Agende cinematografiche fornite dalle case distributrici. Contengon
 
 
 {{< image-gallery gallery_dir="/images/1962_11_01_fedi_1962_63" >}}
-
+<!-- Tabelle generate automaticamente. -->
 
 ## 1962
 
@@ -228,5 +228,4 @@ description: Agende cinematografiche fornite dalle case distributrici. Contengon
 |---|---|
 | 1964-02-09 | [Tormento](https://www.imdb.com/title/tt0046447/) |
 | 1964-02-21 | [I figli di nessuno](https://www.imdb.com/title/tt0043532/) |
-
 

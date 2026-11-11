@@ -10,7 +10,7 @@ description: Agende cinematografiche fornite dalle case distributrici. Contengon
 
 
 {{< image-gallery gallery_dir="/images/1964_01_01_rapidtransport_1964" >}}
-
+<!-- Tabelle generate automaticamente. -->
 
 ### Gennaio
 
@@ -176,5 +176,4 @@ description: Agende cinematografiche fornite dalle case distributrici. Contengon
 | 1964-12-25 | [Perseo l'invincibile](https://www.imdb.com/title/tt0056343/) |
 | 1964-12-27 | [Sansone contro i pirati](https://www.imdb.com/title/tt0057470/) |
 | 1964-12-30 | [L'oro dei sette santi](https://www.imdb.com/title/tt0054934/) |
-
 

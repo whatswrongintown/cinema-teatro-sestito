@@ -10,7 +10,7 @@ description: Appunti su blocchi o fogli, con i film registrati per mese. Riporta
 
 
 {{< image-gallery gallery_dir="/images/1991_09_01_appunti_italautogamma_1991_92" >}}
-
+<!-- Tabelle generate automaticamente. -->
 
 ## 1991
 
@@ -116,5 +116,4 @@ description: Appunti su blocchi o fogli, con i film registrati per mese. Riporta
 | 1992-05-03 | [Così fan tutte](https://www.imdb.com/title/tt0104014/) |
 | 1992-05-10 | [Le donne di Mandingo](https://www.imdb.com/title/tt0144877/) |
 | 1992-05-17 | [I delitti del gatto nero](https://www.imdb.com/title/tt0100740/) |
-
 

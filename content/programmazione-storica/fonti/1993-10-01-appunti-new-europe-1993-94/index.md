@@ -10,7 +10,7 @@ description: Appunti su blocchi o fogli, con i film registrati per mese. Riporta
 
 
 {{< image-gallery gallery_dir="/images/1993_10_01_appunti_new_europe_1993_94" >}}
-
+<!-- Tabelle generate automaticamente. -->
 
 ## 1993
 
@@ -65,5 +65,4 @@ description: Appunti su blocchi o fogli, con i film registrati per mese. Riporta
 |---|---|
 | 1994-04-01 | [La famiglia Addams 2](https://www.imdb.com/title/tt0106220/) |
 | 1994-04-17 | [Senza tregua](https://www.imdb.com/title/tt0107076/) |
-
 

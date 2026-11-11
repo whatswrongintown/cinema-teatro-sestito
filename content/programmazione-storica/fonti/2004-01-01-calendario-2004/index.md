@@ -10,7 +10,7 @@ description: Calendari murali o da tavolo legati all’attività del cinema. Ind
 
 
 > ⚠️ Questa fonte non è stata scansionata.
-
+<!-- Tabelle generate automaticamente. -->
 
 ### Gennaio
 
@@ -45,5 +45,4 @@ description: Calendari murali o da tavolo legati all’attività del cinema. Ind
 |  |  |
 |---|---|
 | 2004-05-02 | [La passione di Cristo](https://www.imdb.com/title/tt0335345/) |
-
 

@@ -10,7 +10,7 @@ description: Calendari murali o da tavolo legati all’attività del cinema. Ind
 
 
 > ⚠️ Questa fonte non è stata scansionata.
-
+<!-- Tabelle generate automaticamente. -->
 
 ### Gennaio
 
@@ -132,5 +132,4 @@ description: Calendari murali o da tavolo legati all’attività del cinema. Ind
 | 1988-12-11 | [Il ragazzo dal kimono d'oro](https://www.imdb.com/title/tt0166674/) |
 | 1988-12-17 | [La creatura](https://www.imdb.com/title/tt0096344/) |
 | 1988-12-26 | [L'alieno](https://www.imdb.com/title/tt0093185/) |
-
 

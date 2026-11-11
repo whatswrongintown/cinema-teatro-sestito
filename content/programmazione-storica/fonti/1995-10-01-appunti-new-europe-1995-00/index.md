@@ -10,7 +10,7 @@ description: Appunti su blocchi o fogli, con i film registrati per mese. Riporta
 
 
 {{< image-gallery gallery_dir="/images/1995_10_01_appunti_new_europe_1995_00" >}}
-
+<!-- Tabelle generate automaticamente. -->
 
 ## 1995
 
@@ -18,7 +18,7 @@ description: Appunti su blocchi o fogli, con i film registrati per mese. Riporta
 
 |  |  |
 |---|---|
-| 1995-10-15 | [Scemo & più scemo](https://www.imdb.com/title/tt0109686/) |
+| 1995-10-15 | [Scemo &amp; più scemo](https://www.imdb.com/title/tt0109686/) |
 | 1995-10-22 | [La storia infinita 3](https://www.imdb.com/title/tt0110647/) |
 | 1995-10-29 | [Frankenstein di Mary Shelley](https://www.imdb.com/title/tt0109836/) |
 
@@ -114,7 +114,7 @@ description: Appunti su blocchi o fogli, con i film registrati per mese. Riporta
 
 |  |  |
 |---|---|
-| 1997-09-28 | [Batman & Robin](https://www.imdb.com/title/tt0118688/) |
+| 1997-09-28 | [Batman &amp; Robin](https://www.imdb.com/title/tt0118688/) |
 
 ### Ottobre
 
@@ -255,7 +255,7 @@ description: Appunti su blocchi o fogli, con i film registrati per mese. Riporta
 
 |  |  |
 |---|---|
-| 1999-11-07 | [Asterix & Obelix contro Cesare](https://www.imdb.com/title/tt0133385/) |
+| 1999-11-07 | [Asterix &amp; Obelix contro Cesare](https://www.imdb.com/title/tt0133385/) |
 | 1999-11-14 | [Star Wars: Episodio I - La minaccia fantasma](https://www.imdb.com/title/tt0120915/) |
 | 1999-11-21 | [Notting Hill](https://www.imdb.com/title/tt0125439/) |
 | 1999-11-28 | [Amore a prima vista](https://www.imdb.com/title/tt0202792/) |
@@ -306,5 +306,4 @@ description: Appunti su blocchi o fogli, con i film registrati per mese. Riporta
 |  |  |
 |---|---|
 | 2000-06-04 | [Stuart Little - Un topolino in gamba](https://www.imdb.com/title/tt0164912/) |
-
 

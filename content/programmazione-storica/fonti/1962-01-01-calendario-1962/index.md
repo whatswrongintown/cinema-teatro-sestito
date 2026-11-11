@@ -10,7 +10,7 @@ description: Calendari murali o da tavolo legati all’attività del cinema. Ind
 
 
 {{< image-gallery gallery_dir="/images/1962_01_01_calendario_1962" >}}
-
+<!-- Tabelle generate automaticamente. -->
 
 ### Gennaio
 
@@ -167,5 +167,4 @@ description: Calendari murali o da tavolo legati all’attività del cinema. Ind
 | 1962-12-16 | [Sangue e arena](https://www.imdb.com/title/tt0033405/) |
 | 1962-12-18 | [Delitto in pieno sole](https://www.imdb.com/title/tt0054189/) |
 | 1962-12-22 | [La storia di Ruth](https://www.imdb.com/title/tt0054343/) |
-
 

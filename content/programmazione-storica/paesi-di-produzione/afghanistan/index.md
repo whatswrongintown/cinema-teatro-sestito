@@ -1,19 +1,21 @@
 ---
-title: "Afghanistan"
-author: "Vito Sestito"
-date: "2025-12-02"
-slug: "afghanistan"
+title: Afghanistan
+author: Vito Sestito
+slug: afghanistan
+url: /programmazione-storica/paesi-di-produzione/afghanistan/
 categories:
-  - Paesi di produzione
+- Paesi di produzione
 tags:
-  - Programmazione
-description: "Film suddivisi per Paesi di produzione raggruppati per anno di proiezione."
+- Programmazione
+description: Film prodotti in Afghanistan nella programmazione del Cinema Teatro Sestito,
+  suddivisi per anno.
 ---
 
+<!-- Tabelle generate automaticamente. -->
 
 ### 1967
 
-|          |                                |
-|:---------|:-------------------------------|
-|1967-06-11 |[Le meravigliose avventure di Marco Polo (Lo scacchiere di Dio)](https://www.imdb.com/title/tt0059429/)|
+|  |  |
+|---|---|
+| 1967-06-11 | [Le meravigliose avventure di Marco Polo (Lo scacchiere di Dio)](https://www.imdb.com/title/tt0059429/) |
 

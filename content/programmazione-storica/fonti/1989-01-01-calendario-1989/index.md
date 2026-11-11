@@ -10,7 +10,7 @@ description: Calendari murali o da tavolo legati all’attività del cinema. Ind
 
 
 > ⚠️ Questa fonte non è stata scansionata.
-
+<!-- Tabelle generate automaticamente. -->
 
 ### Gennaio
 
@@ -114,5 +114,4 @@ description: Calendari murali o da tavolo legati all’attività del cinema. Ind
 | 1989-12-17 | [Moana la scandalosa](https://www.imdb.com/title/tt0393489/) |
 | 1989-12-25 | [L'angelo del sesso](https://www.imdb.com/title/tt0124730/) |
 | 1989-12-25 | [Willow](https://www.imdb.com/title/tt0096446/) |
-
 

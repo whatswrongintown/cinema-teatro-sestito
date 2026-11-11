@@ -10,7 +10,7 @@ description: Agende cinematografiche fornite dalle case distributrici. Contengon
 
 
 {{< image-gallery gallery_dir="/images/1965_01_01_rapidtransport_1965" >}}
-
+<!-- Tabelle generate automaticamente. -->
 
 ## 1965
 
@@ -234,5 +234,4 @@ description: Agende cinematografiche fornite dalle case distributrici. Contengon
 |  |  |
 |---|---|
 | 1966-01-01 | [I due toreri](https://www.imdb.com/title/tt0059121/) |
-
 

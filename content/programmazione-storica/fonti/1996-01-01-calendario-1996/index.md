@@ -10,7 +10,7 @@ description: Calendari murali o da tavolo legati all’attività del cinema. Ind
 
 
 > ⚠️ Questa fonte non è stata scansionata.
-
+<!-- Tabelle generate automaticamente. -->
 
 ### Gennaio
 
@@ -68,5 +68,4 @@ description: Calendari murali o da tavolo legati all’attività del cinema. Ind
 | 1996-12-15 | [Il corvo 2](https://www.imdb.com/title/tt0115986/) |
 | 1996-12-22 | [Spia e lascia spiare](https://www.imdb.com/title/tt0117723/) |
 | 1996-12-29 | [Il gobbo di Notre Dame](https://www.imdb.com/title/tt0116583/) |
-
 

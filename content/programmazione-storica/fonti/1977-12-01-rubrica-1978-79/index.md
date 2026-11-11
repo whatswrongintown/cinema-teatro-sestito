@@ -10,7 +10,7 @@ description: Rubriche dove i film venivano annotati in ordine alfabetico, con da
 
 
 > ⚠️ Questa fonte non è stata scansionata.
-
+<!-- Tabelle generate automaticamente. -->
 
 ## 1977
 
@@ -372,5 +372,4 @@ description: Rubriche dove i film venivano annotati in ordine alfabetico, con da
 | 1979-12-25 | [Incredibile viaggio verso l'ignoto](https://www.imdb.com/title/tt0072951/) |
 | 1979-12-28 | [Abissi](https://www.imdb.com/title/tt0075925/) |
 | 1979-12-30 | [Shalako](https://www.imdb.com/title/tt0063592/) |
-
 

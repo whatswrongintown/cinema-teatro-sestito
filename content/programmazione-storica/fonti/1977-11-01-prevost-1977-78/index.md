@@ -10,7 +10,7 @@ description: Agende cinematografiche fornite dalle case distributrici. Contengon
 
 
 {{< image-gallery gallery_dir="/images/1977_11_01_prevost_1977_78" >}}
-
+<!-- Tabelle generate automaticamente. -->
 
 ## 1977
 
@@ -236,5 +236,4 @@ description: Agende cinematografiche fornite dalle case distributrici. Contengon
 | 1978-12-26 | [Keoma](https://www.imdb.com/title/tt0074740/) |
 | 1978-12-27 | [5 donne per l'assassino](https://www.imdb.com/title/tt0071086/) |
 | 1978-12-31 | [Vamos a matar compañeros](https://www.imdb.com/title/tt0066612/) |
-
 

@@ -10,7 +10,7 @@ description: Rubriche dove i film venivano annotati in ordine alfabetico, con da
 
 
 {{< image-gallery gallery_dir="/images/1969_12_01_rubrica_1970_1980" >}}
-
+<!-- Tabelle generate automaticamente. -->
 
 ## 1969
 
@@ -367,5 +367,4 @@ description: Rubriche dove i film venivano annotati in ordine alfabetico, con da
 | 1980-12-28 | [Yang l'implacabile del karatè](https://www.imdb.com/title/tt1234658/) |
 | 1980-12-29 | [Bruce Lee l'invincibile del kung fu](https://www.imdb.com/title/tt0081216/) |
 | 1980-12-30 | [Ilsa la belva del deserto](https://www.imdb.com/title/tt0074670/) |
-
 

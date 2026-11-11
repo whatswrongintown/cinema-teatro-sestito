@@ -10,7 +10,7 @@ description: Rubriche dove i film venivano annotati in ordine alfabetico, con da
 
 
 {{< image-gallery gallery_dir="/images/1982_01_01_rubrica_1982_83" >}}
-
+<!-- Tabelle generate automaticamente. -->
 
 ## 1982
 
@@ -307,5 +307,4 @@ description: Rubriche dove i film venivano annotati in ordine alfabetico, con da
 | 1983-12-25 | [Giochi erotici in famiglia](https://www.imdb.com/title/tt0080181/) |
 | 1983-12-27 | [L'esorcista](https://www.imdb.com/title/tt0070047/) |
 | 1983-12-30 | [La lussuria (Luxure)](https://www.imdb.com/title/tt0074830/) |
-
 

@@ -10,7 +10,7 @@ description: Calendari murali o da tavolo legati all’attività del cinema. Ind
 
 
 {{< image-gallery gallery_dir="/images/1983_01_01_calendario_1983" >}}
-
+<!-- Tabelle generate automaticamente. -->
 
 ### Gennaio
 
@@ -154,5 +154,4 @@ description: Calendari murali o da tavolo legati all’attività del cinema. Ind
 | 1983-12-25 | [Giochi erotici in famiglia](https://www.imdb.com/title/tt0080181/) |
 | 1983-12-27 | [L'esorcista](https://www.imdb.com/title/tt0070047/) |
 | 1983-12-30 | [La lussuria (Luxure)](https://www.imdb.com/title/tt0074830/) |
-
 

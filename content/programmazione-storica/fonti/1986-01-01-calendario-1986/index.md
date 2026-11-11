@@ -10,7 +10,7 @@ description: Calendari murali o da tavolo legati all’attività del cinema. Ind
 
 
 > ⚠️ Questa fonte non è stata scansionata.
-
+<!-- Tabelle generate automaticamente. -->
 
 ### Gennaio
 
@@ -118,5 +118,4 @@ description: Calendari murali o da tavolo legati all’attività del cinema. Ind
 | 1986-12-27 | [Commando](https://www.imdb.com/title/tt0088944/) |
 | 1986-12-28 | [Turbamento di una minorenne](https://www.imdb.com/title/tt0065363/) |
 | 1986-12-28 | [Yuppies - I giovani di successo](https://www.imdb.com/title/tt0091114/) |
-
 

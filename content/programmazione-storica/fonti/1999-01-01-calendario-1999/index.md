@@ -10,7 +10,7 @@ description: Calendari murali o da tavolo legati all’attività del cinema. Ind
 
 
 > ⚠️ Questa fonte non è stata scansionata.
-
+<!-- Tabelle generate automaticamente. -->
 
 ### Gennaio
 
@@ -64,7 +64,7 @@ description: Calendari murali o da tavolo legati all’attività del cinema. Ind
 
 |  |  |
 |---|---|
-| 1999-11-07 | [Asterix & Obelix contro Cesare](https://www.imdb.com/title/tt0133385/) |
+| 1999-11-07 | [Asterix &amp; Obelix contro Cesare](https://www.imdb.com/title/tt0133385/) |
 | 1999-11-14 | [Star Wars: Episodio I - La minaccia fantasma](https://www.imdb.com/title/tt0120915/) |
 | 1999-11-21 | [Notting Hill](https://www.imdb.com/title/tt0125439/) |
 | 1999-11-28 | [Amore a prima vista](https://www.imdb.com/title/tt0202792/) |
@@ -77,5 +77,4 @@ description: Calendari murali o da tavolo legati all’attività del cinema. Ind
 | 1999-12-12 | [American Pie - Il primo assaggio non si scorda mai](https://www.imdb.com/title/tt0163651/) |
 | 1999-12-19 | [The Sixth Sense - Il sesto senso](https://www.imdb.com/title/tt0167404/) |
 | 1999-12-26 | [Tarzan](https://www.imdb.com/title/tt0120855/) |
-
 

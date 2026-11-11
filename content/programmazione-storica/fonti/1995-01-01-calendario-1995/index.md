@@ -10,7 +10,7 @@ description: Calendari murali o da tavolo legati all’attività del cinema. Ind
 
 
 > ⚠️ Questa fonte non è stata scansionata.
-
+<!-- Tabelle generate automaticamente. -->
 
 ### Gennaio
 
@@ -52,7 +52,7 @@ description: Calendari murali o da tavolo legati all’attività del cinema. Ind
 
 |  |  |
 |---|---|
-| 1995-10-15 | [Scemo & più scemo](https://www.imdb.com/title/tt0109686/) |
+| 1995-10-15 | [Scemo &amp; più scemo](https://www.imdb.com/title/tt0109686/) |
 | 1995-10-22 | [La storia infinita 3](https://www.imdb.com/title/tt0110647/) |
 | 1995-10-29 | [Frankenstein di Mary Shelley](https://www.imdb.com/title/tt0109836/) |
 
@@ -71,5 +71,4 @@ description: Calendari murali o da tavolo legati all’attività del cinema. Ind
 | 1995-12-08 | [Io no spik inglish](https://www.imdb.com/title/tt0113436/) |
 | 1995-12-20 | [Waterworld](https://www.imdb.com/title/tt0114898/) |
 | 1995-12-26 | [Mortal Kombat](https://www.imdb.com/title/tt0113855/) |
-
 

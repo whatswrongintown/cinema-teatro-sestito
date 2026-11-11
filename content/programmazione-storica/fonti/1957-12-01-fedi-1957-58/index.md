@@ -10,7 +10,7 @@ description: Agende cinematografiche fornite dalle case distributrici. Contengon
 
 
 {{< image-gallery gallery_dir="/images/1957_12_01_fedi_1957_58" >}}
-
+<!-- Tabelle generate automaticamente. -->
 
 ## 1957
 
@@ -204,5 +204,4 @@ description: Agende cinematografiche fornite dalle case distributrici. Contengon
 | 1958-12-07 | [L'uomo di paglia](https://www.imdb.com/title/tt0051142/) |
 | 1958-12-14 | [Operazione Normandia](https://www.imdb.com/title/tt0049117/) |
 | 1958-12-25 | [Il figliuol prodigo](https://www.imdb.com/title/tt0048517/) |
-
 

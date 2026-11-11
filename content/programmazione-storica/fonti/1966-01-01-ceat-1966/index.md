@@ -10,7 +10,7 @@ description: Agende cinematografiche fornite dalle case distributrici. Contengon
 
 
 > ⚠️ Questa fonte non è stata scansionata.
-
+<!-- Tabelle generate automaticamente. -->
 
 ### Gennaio
 
@@ -284,5 +284,4 @@ description: Agende cinematografiche fornite dalle case distributrici. Contengon
 | 1966-12-28 | [Il muro dei dollari](https://www.imdb.com/title/tt0057667/) |
 | 1966-12-30 | [2+5: Missione Hydra](https://www.imdb.com/title/tt0058859/) |
 | 1966-12-31 | [I due sanculotti](https://www.imdb.com/title/tt0060353/) |
-
 

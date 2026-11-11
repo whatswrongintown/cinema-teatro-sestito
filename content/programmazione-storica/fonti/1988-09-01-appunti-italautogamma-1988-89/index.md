@@ -10,7 +10,7 @@ description: Appunti su blocchi o fogli, con i film registrati per mese. Riporta
 
 
 {{< image-gallery gallery_dir="/images/1988_09_01_appunti_italautogamma_1988_89" >}}
-
+<!-- Tabelle generate automaticamente. -->
 
 ## 1988
 
@@ -116,5 +116,4 @@ description: Appunti su blocchi o fogli, con i film registrati per mese. Riporta
 | 1989-05-01 | [Compagni di scuola](https://www.imdb.com/title/tt0094901/) |
 | 1989-05-21 | [Il tempo delle mele 3](https://www.imdb.com/title/tt0096523/) |
 | 1989-05-25 | [L'orso](https://www.imdb.com/title/tt0095800/) |
-
 

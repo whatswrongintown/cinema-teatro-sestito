@@ -10,7 +10,7 @@ description: Agende cinematografiche fornite dalle case distributrici. Contengon
 
 
 {{< image-gallery gallery_dir="/images/1975_11_01_fedi_1975_76" >}}
-
+<!-- Tabelle generate automaticamente. -->
 
 ## 1975
 
@@ -249,5 +249,4 @@ description: Agende cinematografiche fornite dalle case distributrici. Contengon
 | 1976-12-28 | [Un duro al servizio della polizia](https://www.imdb.com/title/tt0070706/) |
 | 1976-12-30 | [Di che segno sei?](https://www.imdb.com/title/tt0072871/) |
 | 1976-12-31 | [Sandokan, la tigre di Mompracem](https://www.imdb.com/title/tt0057469/) |
-
 

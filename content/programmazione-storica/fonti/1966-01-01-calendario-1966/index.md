@@ -10,7 +10,7 @@ description: Calendari murali o da tavolo legati all’attività del cinema. Ind
 
 
 {{< image-gallery gallery_dir="/images/1966_01_01_calendario_1966" >}}
-
+<!-- Tabelle generate automaticamente. -->
 
 ### Gennaio
 
@@ -280,5 +280,4 @@ description: Calendari murali o da tavolo legati all’attività del cinema. Ind
 | 1966-12-28 | [Il muro dei dollari](https://www.imdb.com/title/tt0057667/) |
 | 1966-12-30 | [2+5: Missione Hydra](https://www.imdb.com/title/tt0058859/) |
 | 1966-12-31 | [I due sanculotti](https://www.imdb.com/title/tt0060353/) |
-
 

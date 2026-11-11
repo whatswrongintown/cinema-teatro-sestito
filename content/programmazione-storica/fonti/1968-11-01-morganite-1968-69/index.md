@@ -10,7 +10,7 @@ description: Agende cinematografiche fornite dalle case distributrici. Contengon
 
 
 {{< image-gallery gallery_dir="/images/1968_11_01_morganite_1968_69" >}}
-
+<!-- Tabelle generate automaticamente. -->
 
 ## 1968
 
@@ -290,5 +290,4 @@ description: Agende cinematografiche fornite dalle case distributrici. Contengon
 |---|---|
 | 1970-01-04 | [Preparati la bara!](https://www.imdb.com/title/tt0062151/) |
 | 1970-01-10 | [L'uomo dalla cravatta di cuoio](https://www.imdb.com/title/tt0062824/) |
-
 

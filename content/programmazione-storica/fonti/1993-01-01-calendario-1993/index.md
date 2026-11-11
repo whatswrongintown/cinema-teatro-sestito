@@ -10,7 +10,7 @@ description: Calendari murali o da tavolo legati all’attività del cinema. Ind
 
 
 > ⚠️ Questa fonte non è stata scansionata.
-
+<!-- Tabelle generate automaticamente. -->
 
 ### Gennaio
 
@@ -71,5 +71,4 @@ description: Calendari murali o da tavolo legati all’attività del cinema. Ind
 | 1993-12-12 | [Giovanni Falcone](https://www.imdb.com/title/tt0126320/) |
 | 1993-12-19 | [Cimitero vivente 2](https://www.imdb.com/title/tt0105128/) |
 | 1993-12-26 | [Cliffhanger - L'ultima sfida](https://www.imdb.com/title/tt0106582/) |
-
 

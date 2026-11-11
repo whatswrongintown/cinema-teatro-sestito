@@ -10,7 +10,7 @@ description: Calendari murali o da tavolo legati all’attività del cinema. Ind
 
 
 {{< image-gallery gallery_dir="/images/1962_12_01_calendario_1963" >}}
-
+<!-- Tabelle generate automaticamente. -->
 
 ## 1962
 
@@ -183,5 +183,4 @@ description: Calendari murali o da tavolo legati all’attività del cinema. Ind
 | 1963-12-22 | [La battaglia di Alamo](https://www.imdb.com/title/tt0053580/) |
 | 1963-12-25 | [Salomone e la regina di Saba](https://www.imdb.com/title/tt0053290/) |
 | 1963-12-29 | [La carovana dei coraggiosi](https://www.imdb.com/title/tt0054874/) |
-
 

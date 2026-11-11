@@ -10,7 +10,7 @@ description: Rubriche dove i film venivano annotati in ordine alfabetico, con da
 
 
 {{< image-gallery gallery_dir="/images/1974_01_01_rubrica_1974_75" >}}
-
+<!-- Tabelle generate automaticamente. -->
 
 ## 1974
 
@@ -426,5 +426,4 @@ description: Rubriche dove i film venivano annotati in ordine alfabetico, con da
 |  |  |
 |---|---|
 | 1976-01-01 | [La polizia ringrazia](https://www.imdb.com/title/tt0069109/) |
-
 

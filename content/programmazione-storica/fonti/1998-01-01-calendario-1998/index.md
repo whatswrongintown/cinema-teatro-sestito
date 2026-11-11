@@ -10,7 +10,7 @@ description: Calendari murali o da tavolo legati all’attività del cinema. Ind
 
 
 > ⚠️ Questa fonte non è stata scansionata.
-
+<!-- Tabelle generate automaticamente. -->
 
 ### Gennaio
 
@@ -70,5 +70,4 @@ description: Calendari murali o da tavolo legati all’attività del cinema. Ind
 |---|---|
 | 1998-12-06 | [Salvate il soldato Ryan](https://www.imdb.com/title/tt0120815/) |
 | 1998-12-27 | [Mulan](https://www.imdb.com/title/tt0120762/) |
-
 

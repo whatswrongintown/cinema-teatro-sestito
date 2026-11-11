@@ -10,7 +10,7 @@ description: Agende cinematografiche fornite dalle case distributrici. Contengon
 
 
 > ⚠️ Questa fonte non è stata scansionata.
-
+<!-- Tabelle generate automaticamente. -->
 
 ## 1968
 
@@ -286,5 +286,4 @@ description: Agende cinematografiche fornite dalle case distributrici. Contengon
 | 1969-01-03 | [Dio non paga il sabato](https://www.imdb.com/title/tt0061575/) |
 | 1969-01-04 | [Sapevano solo uccidere](https://www.imdb.com/title/tt0148703/) |
 | 1969-01-06 | [Pistole roventi](https://www.imdb.com/title/tt0060483/) |
-
 

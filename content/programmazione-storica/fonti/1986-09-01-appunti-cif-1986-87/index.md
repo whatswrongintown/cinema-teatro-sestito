@@ -10,7 +10,7 @@ description: Appunti su blocchi o fogli, con i film registrati per mese. Riporta
 
 
 {{< image-gallery gallery_dir="/images/1986_09_01_appunti_cif_1986_87" >}}
-
+<!-- Tabelle generate automaticamente. -->
 
 ## 1986
 
@@ -129,5 +129,4 @@ description: Appunti su blocchi o fogli, con i film registrati per mese. Riporta
 | 1987-05-16 | [Bruce Lee il leggendario](https://www.imdb.com/title/tt0082673/) |
 | 1987-05-17 | [Noi uomini duri](https://www.imdb.com/title/tt0093645/) |
 | 1987-05-31 | [Platoon](https://www.imdb.com/title/tt0091763/) |
-
 

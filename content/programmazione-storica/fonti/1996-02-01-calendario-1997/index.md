@@ -10,7 +10,7 @@ description: Calendari murali o da tavolo legati all’attività del cinema. Ind
 
 
 > ⚠️ Questa fonte non è stata scansionata.
-
+<!-- Tabelle generate automaticamente. -->
 
 ## 1996
 
@@ -47,7 +47,7 @@ description: Calendari murali o da tavolo legati all’attività del cinema. Ind
 
 |  |  |
 |---|---|
-| 1997-09-28 | [Batman & Robin](https://www.imdb.com/title/tt0118688/) |
+| 1997-09-28 | [Batman &amp; Robin](https://www.imdb.com/title/tt0118688/) |
 
 ### Ottobre
 
@@ -72,5 +72,4 @@ description: Calendari murali o da tavolo legati all’attività del cinema. Ind
 | 1997-12-14 | [Il quinto elemento](https://www.imdb.com/title/tt0119116/) |
 | 1997-12-21 | [Mr. Bean - L'ultima catastrofe](https://www.imdb.com/title/tt0118689/) |
 | 1997-12-28 | [Hercules](https://www.imdb.com/title/tt0119282/) |
-
 

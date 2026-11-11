@@ -10,7 +10,7 @@ description: Agende cinematografiche fornite dalle case distributrici. Contengon
 
 
 {{< image-gallery gallery_dir="/images/1959_02_01_bruzia_1958_59" >}}
-
+<!-- Tabelle generate automaticamente. -->
 
 ### Febbraio
 
@@ -171,5 +171,4 @@ description: Agende cinematografiche fornite dalle case distributrici. Contengon
 | 1959-12-26 | [Destino di una imperatrice](https://www.imdb.com/title/tt0050974/) |
 | 1959-12-27 | [Quando volano le cicogne](https://www.imdb.com/title/tt0050634/) |
 | 1959-12-30 | [Nel segno di Roma](https://www.imdb.com/title/tt0051985/) |
-
 

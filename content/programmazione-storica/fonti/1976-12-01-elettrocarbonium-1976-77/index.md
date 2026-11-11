@@ -10,7 +10,7 @@ description: Agende cinematografiche fornite dalle case distributrici. Contengon
 
 
 {{< image-gallery gallery_dir="/images/1976_12_01_elettrocarbonium_1976_77" >}}
-
+<!-- Tabelle generate automaticamente. -->
 
 ## 1976
 
@@ -273,5 +273,4 @@ description: Agende cinematografiche fornite dalle case distributrici. Contengon
 | 1977-12-29 | [Africa erotica (Jungla erotica)](https://www.imdb.com/title/tt0189634/) |
 | 1977-12-30 | [Il cav. Costante Nicosia demoniaco, ovvero: Dracula in Brianza](https://www.imdb.com/title/tt0072771/) |
 | 1977-12-31 | [Apache](https://www.imdb.com/title/tt0068429/) |
-
 

@@ -10,7 +10,7 @@ description: Calendari murali o da tavolo legati all’attività del cinema. Ind
 
 
 > ⚠️ Questa fonte non è stata scansionata.
-
+<!-- Tabelle generate automaticamente. -->
 
 ### Gennaio
 
@@ -36,7 +36,7 @@ description: Calendari murali o da tavolo legati all’attività del cinema. Ind
 
 |  |  |
 |---|---|
-| 2002-04-28 | [Monsters & Co.](https://www.imdb.com/title/tt0198781/) |
+| 2002-04-28 | [Monsters &amp; Co.](https://www.imdb.com/title/tt0198781/) |
 
 ### Dicembre
 
@@ -44,5 +44,4 @@ description: Calendari murali o da tavolo legati all’attività del cinema. Ind
 |---|---|
 | 2002-12-15 | [Pinocchio](https://www.imdb.com/title/tt0255477/) |
 | 2002-12-26 | [La leggenda di Al, John e Jack](https://www.imdb.com/title/tt0345561/) |
-
 

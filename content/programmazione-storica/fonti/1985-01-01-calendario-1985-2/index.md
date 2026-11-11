@@ -10,7 +10,7 @@ description: Calendari murali o da tavolo legati all’attività del cinema. Ind
 
 
 > ⚠️ Questa fonte non è stata scansionata.
-
+<!-- Tabelle generate automaticamente. -->
 
 ### Gennaio
 
@@ -35,7 +35,7 @@ description: Calendari murali o da tavolo legati all’attività del cinema. Ind
 |---|---|
 | 1985-03-09 | [Bruce Lee: l'ira del drago colpisce anche l'Occidente](https://www.imdb.com/title/tt0165117/) |
 | 1985-03-10 | [Beatrix - La schiava del sesso](https://www.imdb.com/title/tt0202818/) |
-| 1985-03-16 | [Voglie erotiche di una porno pizzaiola (Hot & Saucy Pizza Girls)](https://www.imdb.com/title/tt0127113/) |
+| 1985-03-16 | [Voglie erotiche di una porno pizzaiola (Hot &amp; Saucy Pizza Girls)](https://www.imdb.com/title/tt0127113/) |
 | 1985-03-17 | [Fotografando Patrizia](https://www.imdb.com/title/tt0089163/) |
 | 1985-03-24 | [Ninja la furia umana](https://www.imdb.com/title/tt0086192/) |
 | 1985-03-28 | [Guerre stradali](https://www.imdb.com/title/tt0084616/) |
@@ -91,5 +91,4 @@ description: Calendari murali o da tavolo legati all’attività del cinema. Ind
 | 1985-12-27 | [Bruce Lee la tigre indomabile](https://www.imdb.com/title/tt0075167/) |
 | 1985-12-29 | [Calde](https://www.imdb.com/title/tt4290202/) |
 | 1985-12-30 | [Urla del silenzio](https://www.imdb.com/title/tt0087553/) |
-
 

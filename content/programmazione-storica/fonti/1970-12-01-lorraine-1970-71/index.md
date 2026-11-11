@@ -10,7 +10,7 @@ description: Agende cinematografiche fornite dalle case distributrici. Contengon
 
 
 {{< image-gallery gallery_dir="/images/1970_12_01_lorraine_1970_71" >}}
-
+<!-- Tabelle generate automaticamente. -->
 
 ## 1970
 
@@ -270,5 +270,4 @@ description: Agende cinematografiche fornite dalle case distributrici. Contengon
 | 1971-12-26 | [Il buono, il brutto, il cattivo](https://www.imdb.com/title/tt0060196/) |
 | 1971-12-28 | [In fondo al buio](https://www.imdb.com/title/tt0064576/) |
 | 1971-12-29 | [L'astronave fantasma](https://www.imdb.com/title/tt0055562/) |
-
 

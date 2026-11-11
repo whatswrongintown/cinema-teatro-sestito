@@ -10,7 +10,7 @@ description: Calendari murali o da tavolo legati all’attività del cinema. Ind
 
 
 > ⚠️ Questa fonte non è stata scansionata.
-
+<!-- Tabelle generate automaticamente. -->
 
 ### Gennaio
 
@@ -58,7 +58,7 @@ description: Calendari murali o da tavolo legati all’attività del cinema. Ind
 |  |  |
 |---|---|
 | 1990-05-06 | [La baita dell'amore](https://www.imdb.com/title/tt0279667/) |
-| 1990-05-13 | [Tango & Cash](https://www.imdb.com/title/tt0098439/) |
+| 1990-05-13 | [Tango &amp; Cash](https://www.imdb.com/title/tt0098439/) |
 | 1990-05-20 | [Tesoro, mi si sono ristretti i ragazzi](https://www.imdb.com/title/tt0097523/) |
 | 1990-05-20 | [Indietro tutta!](https://www.imdb.com/title/tt12118414/) |
 | 1990-05-27 | [La bambola assassina](https://www.imdb.com/title/tt0094862/) |
@@ -114,5 +114,4 @@ description: Calendari murali o da tavolo legati all’attività del cinema. Ind
 | 1990-12-30 | [Revenge - Vendetta](https://www.imdb.com/title/tt0100485/) |
 | 1990-12-30 | [La trappola di Venere](https://www.imdb.com/title/tt0096372/) |
 | 1990-12-31 | [Gremlins 2 - La nuova stirpe](https://www.imdb.com/title/tt0099700/) |
-
 

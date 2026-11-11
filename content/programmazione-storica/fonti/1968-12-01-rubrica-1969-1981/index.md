@@ -10,7 +10,7 @@ description: Rubriche dove i film venivano annotati in ordine alfabetico, con da
 
 
 {{< image-gallery gallery_dir="/images/1968_12_01_rubrica_1969_1981" >}}
-
+<!-- Tabelle generate automaticamente. -->
 
 ## 1968
 
@@ -416,5 +416,4 @@ description: Rubriche dove i film venivano annotati in ordine alfabetico, con da
 | 1981-12-26 | [Piedone l'africano](https://www.imdb.com/title/tt0076544/) |
 | 1981-12-27 | [La febbre del sabato sera](https://www.imdb.com/title/tt0076666/) |
 | 1981-12-31 | [Il cacciatore di squali](https://www.imdb.com/title/tt0078925/) |
-
 

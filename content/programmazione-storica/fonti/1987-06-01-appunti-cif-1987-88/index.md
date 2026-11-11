@@ -10,7 +10,7 @@ description: Appunti su blocchi o fogli, con i film registrati per mese. Riporta
 
 
 {{< image-gallery gallery_dir="/images/1987_06_01_appunti_cif_1987_88" >}}
-
+<!-- Tabelle generate automaticamente. -->
 
 ## 1987
 
@@ -167,5 +167,4 @@ description: Appunti su blocchi o fogli, con i film registrati per mese. Riporta
 | 1988-05-21 | [I vizi segreti degli italiani quando credono di non essere visti](https://www.imdb.com/title/tt0201317/) |
 | 1988-05-22 | [La Bamba](https://www.imdb.com/title/tt0093378/) |
 | 1988-05-29 | [Non stop sempre buio in sala](https://www.imdb.com/title/tt0089990/) |
-
 

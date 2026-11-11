@@ -10,7 +10,7 @@ description: Calendari murali o da tavolo legati all’attività del cinema. Ind
 
 
 {{< image-gallery gallery_dir="/images/1971_12_01_calendario_1972" >}}
-
+<!-- Tabelle generate automaticamente. -->
 
 ## 1971
 
@@ -156,7 +156,7 @@ description: Calendari murali o da tavolo legati all’attività del cinema. Ind
 |---|---|
 | 1972-08-01 | [Il terrore dei barbari](https://www.imdb.com/title/tt0053346/) |
 | 1972-08-02 | [Vado... l'ammazzo e torno](https://www.imdb.com/title/tt0062429/) |
-| 1972-08-03 | [Bob & Carol & Ted & Alice](https://www.imdb.com/title/tt0064100/) |
+| 1972-08-03 | [Bob &amp; Carol &amp; Ted &amp; Alice](https://www.imdb.com/title/tt0064100/) |
 | 1972-08-04 | [Carter](https://www.imdb.com/title/tt0067128/) |
 | 1972-08-06 | [I due toreri](https://www.imdb.com/title/tt0059121/) |
 | 1972-08-08 | [Pochi dollari per Django](https://www.imdb.com/title/tt0060084/) |
@@ -256,5 +256,4 @@ description: Calendari murali o da tavolo legati all’attività del cinema. Ind
 | 1973-01-14 | [Lo scudo dei Falworth](https://www.imdb.com/title/tt0046789/) |
 | 1973-01-21 | [I fratelli Corsi](https://www.imdb.com/title/tt0139222/) |
 | 1973-01-28 | [Cadavere per signora](https://www.imdb.com/title/tt0057908/) |
-
 

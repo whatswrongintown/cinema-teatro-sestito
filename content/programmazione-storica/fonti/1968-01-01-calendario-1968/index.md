@@ -10,7 +10,7 @@ description: Calendari murali o da tavolo legati all’attività del cinema. Ind
 
 
 {{< image-gallery gallery_dir="/images/1968_01_01_calendario_1968" >}}
-
+<!-- Tabelle generate automaticamente. -->
 
 ### Gennaio
 
@@ -273,5 +273,4 @@ description: Calendari murali o da tavolo legati all’attività del cinema. Ind
 | 1968-12-24 | [Stasera mi butto](https://www.imdb.com/title/tt0062305/) |
 | 1968-12-26 | [Ayako](https://www.imdb.com/title/tt0059554/) |
 | 1968-12-29 | [Da uomo a uomo](https://www.imdb.com/title/tt0064208/) |
-
 

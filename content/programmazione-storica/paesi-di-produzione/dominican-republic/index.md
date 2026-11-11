@@ -1,31 +1,33 @@
 ---
-title: "Dominican Republic"
-author: "Vito Sestito"
-date: "2025-12-02"
-slug: "dominican-republic"
+title: Dominican Republic
+author: Vito Sestito
+slug: dominican-republic
+url: /programmazione-storica/paesi-di-produzione/dominican-republic/
 categories:
-  - Paesi di produzione
+- Paesi di produzione
 tags:
-  - Programmazione
-description: "Film suddivisi per Paesi di produzione raggruppati per anno di proiezione."
+- Programmazione
+description: Film prodotti in Dominican Republic nella programmazione del Cinema Teatro
+  Sestito, suddivisi per anno.
 ---
 
+<!-- Tabelle generate automaticamente. -->
 
 ### 1976
 
-|          |                                |
-|:---------|:-------------------------------|
-|1976-04-29 |[La testa del serpente](https://www.imdb.com/title/tt0069887/)|
+|  |  |
+|---|---|
+| 1976-04-29 | [La testa del serpente](https://www.imdb.com/title/tt0069887/) |
 
 ### 1982
 
-|          |                                |
-|:---------|:-------------------------------|
-|1982-01-12 |[Orgasmo nero](https://www.imdb.com/title/tt0081727/)|
+|  |  |
+|---|---|
+| 1982-01-12 | [Orgasmo nero](https://www.imdb.com/title/tt0081727/) |
 
 ### 1990
 
-|          |                                |
-|:---------|:-------------------------------|
-|1990-10-13 |[Que viva el merengue y la lambada](https://www.imdb.com/title/tt0390408/)|
+|  |  |
+|---|---|
+| 1990-10-13 | [La lambada (Que viva el merengue y la lambada)](https://www.imdb.com/title/tt0390408/) |
 

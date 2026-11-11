@@ -10,7 +10,7 @@ description: Calendari murali o da tavolo legati all’attività del cinema. Ind
 
 
 {{< image-gallery gallery_dir="/images/1975_01_01_calendario_1975" >}}
-
+<!-- Tabelle generate automaticamente. -->
 
 ## 1975
 
@@ -236,5 +236,4 @@ description: Calendari murali o da tavolo legati all’attività del cinema. Ind
 |  |  |
 |---|---|
 | 1976-01-01 | [La polizia ringrazia](https://www.imdb.com/title/tt0069109/) |
-
 

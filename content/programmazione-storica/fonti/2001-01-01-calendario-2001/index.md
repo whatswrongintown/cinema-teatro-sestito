@@ -10,7 +10,7 @@ description: Calendari murali o da tavolo legati all’attività del cinema. Ind
 
 
 > ⚠️ Questa fonte non è stata scansionata.
-
+<!-- Tabelle generate automaticamente. -->
 
 ### Gennaio
 
@@ -77,5 +77,4 @@ description: Calendari murali o da tavolo legati all’attività del cinema. Ind
 | 2001-12-02 | [American Pie 2](https://www.imdb.com/title/tt0252866/) |
 | 2001-12-23 | [Atlantis - L'impero perduto](https://www.imdb.com/title/tt0230011/) |
 | 2001-12-26 | [Il principe e il pirata](https://www.imdb.com/title/tt0305981/) |
-
 

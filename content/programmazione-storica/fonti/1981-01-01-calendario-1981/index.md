@@ -10,7 +10,7 @@ description: Calendari murali o da tavolo legati all’attività del cinema. Ind
 
 
 {{< image-gallery gallery_dir="/images/1981_01_01_calendario_1981" >}}
-
+<!-- Tabelle generate automaticamente. -->
 
 ### Gennaio
 
@@ -155,5 +155,4 @@ description: Calendari murali o da tavolo legati all’attività del cinema. Ind
 | 1981-12-26 | [Piedone l'africano](https://www.imdb.com/title/tt0076544/) |
 | 1981-12-27 | [La febbre del sabato sera](https://www.imdb.com/title/tt0076666/) |
 | 1981-12-31 | [Il cacciatore di squali](https://www.imdb.com/title/tt0078925/) |
-
 

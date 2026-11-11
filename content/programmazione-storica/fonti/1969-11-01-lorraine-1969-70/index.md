@@ -10,7 +10,7 @@ description: Agende cinematografiche fornite dalle case distributrici. Contengon
 
 
 {{< image-gallery gallery_dir="/images/1969_11_01_lorraine_1969_70" >}}
-
+<!-- Tabelle generate automaticamente. -->
 
 ## 1969
 
@@ -265,5 +265,4 @@ description: Agende cinematografiche fornite dalle case distributrici. Contengon
 |  |  |
 |---|---|
 | 1971-02-07 | [Diabolik](https://www.imdb.com/title/tt0062861/) |
-
 

@@ -10,7 +10,7 @@ description: Appunti su blocchi o fogli, con i film registrati per mese. Riporta
 
 
 {{< image-gallery gallery_dir="/images/1990_09_01_appunti_italautogamma_1990_91" >}}
-
+<!-- Tabelle generate automaticamente. -->
 
 ## 1990
 
@@ -132,5 +132,4 @@ description: Appunti su blocchi o fogli, con i film registrati per mese. Riporta
 | 1991-06-02 | [Balla coi lupi](https://www.imdb.com/title/tt0099348/) |
 | 1991-06-09 | [Senti chi parla 2](https://www.imdb.com/title/tt0100050/) |
 | 1991-06-16 | [Un fantasma per amico](https://www.imdb.com/title/tt0099750/) |
-
 

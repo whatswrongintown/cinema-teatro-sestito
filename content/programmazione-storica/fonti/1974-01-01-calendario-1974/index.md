@@ -10,7 +10,7 @@ description: Calendari murali o da tavolo legati all’attività del cinema. Ind
 
 
 {{< image-gallery gallery_dir="/images/1974_01_01_calendario_1974" >}}
-
+<!-- Tabelle generate automaticamente. -->
 
 ## 1974
 
@@ -215,5 +215,4 @@ description: Calendari murali o da tavolo legati all’attività del cinema. Ind
 |  |  |
 |---|---|
 | 1975-01-01 | [Tarzan e lo stregone](https://www.imdb.com/title/tt0052275/) |
-
 
