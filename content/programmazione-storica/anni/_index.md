@@ -16,7 +16,7 @@ Questa articolazione cronologica permette di osservare con precisione l’evoluz
 
 Al centro della pagina è inserito un grafico lineare, che rappresenta l’andamento complessivo del numero di film proposti nel corso dell’intero arco temporale. La visualizzazione consente di individuare immediatamente i periodi di maggiore intensità programmatoria, le fasi di contrazione e gli effetti delle trasformazioni economiche, culturali e tecnologiche che hanno inciso sull’attività del cinema.
 
-<img src="/programmazione-storica/anni/_index_files/figure-html/unnamed-chunk-1-1.png" width="768" />
+![plot of chunk unnamed-chunk-1](/programmazione-storica/anni/_index_files/figure-html/unnamed-chunk-1-1.png)
 
 La ricostruzione annuale è completa per tutti gli anni considerati, ad eccezione del 1960 e del 1961, per i quali il materiale d’archivio risulta parziale.
 
