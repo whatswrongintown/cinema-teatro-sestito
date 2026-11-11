@@ -10,7 +10,7 @@ description: Agende cinematografiche fornite dalle case distributrici. Contengon
 
 
 {{< image-gallery gallery_dir="/images/1948_10_01_fincine_1948_49" >}}
-
+<!-- Tabelle generate automaticamente. -->
 
 ## 1948
 
@@ -116,5 +116,4 @@ description: Agende cinematografiche fornite dalle case distributrici. Contengon
 | 1949-10-21 | [Casta Diva](https://www.imdb.com/title/tt0026188/) |
 | 1949-10-23 | [Monaca santa](https://www.imdb.com/title/tt0037925/) |
 | 1949-10-27 | [Non canto più](https://www.imdb.com/title/tt0036214/) |
-
 

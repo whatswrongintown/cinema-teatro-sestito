@@ -10,7 +10,7 @@ description: Agende cinematografiche fornite dalle case distributrici. Contengon
 
 
 {{< image-gallery gallery_dir="/images/1951_11_01_bruzia_1951_52" >}}
-
+<!-- Tabelle generate automaticamente. -->
 
 ## 1951
 
@@ -154,5 +154,4 @@ description: Agende cinematografiche fornite dalle case distributrici. Contengon
 | 1952-12-19 | [Monastero di Santa Chiara](https://www.imdb.com/title/tt0041657/) |
 | 1952-12-24 | [Il lupo della frontiera](https://www.imdb.com/title/tt0043765/) |
 | 1952-12-27 | [Labbra serrate](https://www.imdb.com/title/tt0034956/) |
-
 

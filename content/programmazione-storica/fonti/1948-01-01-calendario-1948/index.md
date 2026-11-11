@@ -10,7 +10,7 @@ description: Calendari murali o da tavolo legati all’attività del cinema. Ind
 
 
 {{< image-gallery gallery_dir="/images/1948_01_01_calendario_1948" >}}
-
+<!-- Tabelle generate automaticamente. -->
 
 ### Gennaio
 
@@ -97,5 +97,4 @@ description: Calendari murali o da tavolo legati all’attività del cinema. Ind
 | 1948-12-10 | [Vogliamo Vivere!](https://www.imdb.com/title/tt0035446/) |
 | 1948-12-14 | [Partenza ore 7](https://www.imdb.com/title/tt0037974/) |
 | 1948-12-22 | [Il cardinale Lambertini](https://www.imdb.com/title/tt0024953/) |
-
 

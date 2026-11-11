@@ -62,6 +62,7 @@ Le principali tipologie di fonti sono:
 2. 📰 **[Calendari](/categories/calendari/)** murali o da tavolo utilizzati per annotare la programmazione del cinema. Indicano le date di proiezione, i titoli e, in molti casi, gli incassi.
 3. 📅  **[Rubriche](/categories/rubriche/)** in cui venivano elencati in ordine alfabetico i film proiettati, con l’indicazione della data, incasso e in alcuni casi del distributore.
 4. ✍️  **[Appunti](/categories/appunti/)**, blocchi o fogli sciolti su cui erano annotati i film mese per mese, talvolta accompagnati dai relativi incassi.
+5. 🎞️ **[Note sui manifesti](/categories/note-sui-manifesti/)**, date di proiezione annotate sul retro dei manifesti cinematografici; i film sono elencati per anno e mese.
 
 ```{r echo=FALSE, warning=FALSE, fig.width=8, fig.height=3}
 fonti_long <- df %>%
@@ -73,6 +74,7 @@ fonti_long <- df %>%
                               str_detect(str_to_lower(source), "italautogamma") ~ "Appunti",
                               str_detect(str_to_lower(source), "europe") ~ "Appunti",
                               str_detect(str_to_lower(source), "victory") ~ "Appunti",
+                              str_detect(str_to_lower(source), "^nota_su_manifesto$") ~ "Note sui manifesti",
                               str_detect(str_to_lower(source), "calendario") ~ "Calendari",
                               str_detect(str_to_lower(source), "rubric") ~ "Rubriche",
                               TRUE ~ "Agende"
@@ -88,7 +90,7 @@ fonti_heatmap <- fonti_long %>%
 # ---- Ordine personalizzato delle fonti ----
 fonti_heatmap <- fonti_heatmap %>%
           mutate(tipo_fonte = factor(tipo_fonte,
-                                     levels = c("Appunti", "Rubriche", "Calendari", "Agende")))
+                                     levels = c("Appunti", "Rubriche", "Calendari", "Agende", "Note sui manifesti")))
 
 # ---- Grafico ----
 ggplot(fonti_heatmap, aes(x = decennio, y = tipo_fonte, fill = n)) +

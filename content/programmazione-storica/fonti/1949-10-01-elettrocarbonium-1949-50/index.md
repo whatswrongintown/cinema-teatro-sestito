@@ -10,7 +10,7 @@ description: Agende cinematografiche fornite dalle case distributrici. Contengon
 
 
 {{< image-gallery gallery_dir="/images/1949_10_01_elettrocarbonium_1949_50" >}}
-
+<!-- Tabelle generate automaticamente. -->
 
 ## 1949
 
@@ -148,5 +148,4 @@ description: Agende cinematografiche fornite dalle case distributrici. Contengon
 | 1950-09-09 | [Il lupo della Sila](https://www.imdb.com/title/tt0041609/) |
 | 1950-09-15 | [Capitan demonio](https://www.imdb.com/title/tt0039241/) |
 | 1950-09-22 | [Botta e risposta](https://www.imdb.com/title/tt0041200/) |
-
 

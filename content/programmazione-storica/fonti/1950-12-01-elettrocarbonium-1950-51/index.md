@@ -10,7 +10,7 @@ description: Agende cinematografiche fornite dalle case distributrici. Contengon
 
 
 {{< image-gallery gallery_dir="/images/1950_12_01_elettrocarbonium_1950_51" >}}
-
+<!-- Tabelle generate automaticamente. -->
 
 ## 1950
 
@@ -100,5 +100,4 @@ description: Agende cinematografiche fornite dalle case distributrici. Contengon
 |---|---|
 | 1951-09-01 | [Ettore Fieramosca](https://www.imdb.com/title/tt0030107/) |
 | 1951-09-09 | [Enamorada](https://www.imdb.com/title/tt0038510/) |
-
 

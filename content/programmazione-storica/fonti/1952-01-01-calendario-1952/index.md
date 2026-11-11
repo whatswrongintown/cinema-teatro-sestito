@@ -10,7 +10,7 @@ description: Calendari murali o da tavolo legati all’attività del cinema. Ind
 
 
 {{< image-gallery gallery_dir="/images/1952_01_01_calendario_1952" >}}
-
+<!-- Tabelle generate automaticamente. -->
 
 ### Gennaio
 
@@ -154,5 +154,4 @@ description: Calendari murali o da tavolo legati all’attività del cinema. Ind
 | 1952-12-19 | [Monastero di Santa Chiara](https://www.imdb.com/title/tt0041657/) |
 | 1952-12-24 | [Il lupo della frontiera](https://www.imdb.com/title/tt0043765/) |
 | 1952-12-30 | [La leggenda di Faust](https://www.imdb.com/title/tt0040533/) |
-
 

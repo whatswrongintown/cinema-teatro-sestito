@@ -10,7 +10,7 @@ description: Agende cinematografiche fornite dalle case distributrici. Contengon
 
 
 {{< image-gallery gallery_dir="/images/1953_12_01_fedi_1953_54" >}}
-
+<!-- Tabelle generate automaticamente. -->
 
 ## 1953
 
@@ -171,5 +171,4 @@ description: Agende cinematografiche fornite dalle case distributrici. Contengon
 | 1954-12-24 | [Luci della ribalta](https://www.imdb.com/title/tt0044837/) |
 | 1954-12-29 | [L'ingiusta condanna](https://www.imdb.com/title/tt0044748/) |
 | 1954-12-31 | [Sensualità](https://www.imdb.com/title/tt0045138/) |
-
 

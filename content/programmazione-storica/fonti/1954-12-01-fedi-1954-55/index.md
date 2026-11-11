@@ -10,7 +10,7 @@ description: Agende cinematografiche fornite dalle case distributrici. Contengon
 
 
 {{< image-gallery gallery_dir="/images/1954_12_01_fedi_1954_55" >}}
-
+<!-- Tabelle generate automaticamente. -->
 
 ## 1954
 
@@ -194,5 +194,4 @@ description: Agende cinematografiche fornite dalle case distributrici. Contengon
 | 1955-12-26 | [Canto per te](https://www.imdb.com/title/tt0045596/) |
 | 1955-12-28 | [Labbra proibite](https://www.imdb.com/title/tt0045981/) |
 | 1955-12-31 | [Vortice](https://www.imdb.com/title/tt0046525/) |
-
 

@@ -10,7 +10,7 @@ description: Agende cinematografiche fornite dalle case distributrici. Contengon
 
 
 {{< image-gallery gallery_dir="/images/1949_10_01_incam_1949_50" >}}
-
+<!-- Tabelle generate automaticamente. -->
 
 ## 1949
 
@@ -162,5 +162,4 @@ description: Agende cinematografiche fornite dalle case distributrici. Contengon
 | 1950-09-15 | [Capitan demonio](https://www.imdb.com/title/tt0039241/) |
 | 1950-09-22 | [Botta e risposta](https://www.imdb.com/title/tt0041200/) |
 | 1950-09-29 | [Il ratto delle Sabine (professor trombone)](https://www.imdb.com/title/tt0038016/) |
-
 

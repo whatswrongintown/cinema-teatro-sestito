@@ -10,7 +10,7 @@ description: Calendari murali o da tavolo legati all’attività del cinema. Ind
 
 
 {{< image-gallery gallery_dir="/images/1951_04_01_calendario_1951" >}}
-
+<!-- Tabelle generate automaticamente. -->
 
 ### Aprile
 
@@ -95,5 +95,4 @@ description: Calendari murali o da tavolo legati all’attività del cinema. Ind
 |---|---|
 | 1951-12-05 | [Il re dei cuori](https://www.imdb.com/title/tt0042903/) |
 | 1951-12-14 | [Il mio uomo sei tu](https://www.imdb.com/title/tt0216848/) |
-
 

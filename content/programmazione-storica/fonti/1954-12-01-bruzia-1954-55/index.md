@@ -10,7 +10,7 @@ description: Agende cinematografiche fornite dalle case distributrici. Contengon
 
 
 {{< image-gallery gallery_dir="/images/1954_12_01_bruzia_1954_55" >}}
-
+<!-- Tabelle generate automaticamente. -->
 
 ## 1954
 
@@ -65,5 +65,4 @@ description: Agende cinematografiche fornite dalle case distributrici. Contengon
 | 1955-12-20 | [Balocchi e profumi](https://www.imdb.com/title/tt0045536/) |
 | 1955-12-24 | [Maddalena](https://www.imdb.com/title/tt0046023/) |
 | 1955-12-28 | [Labbra proibite](https://www.imdb.com/title/tt0045981/) |
-
 

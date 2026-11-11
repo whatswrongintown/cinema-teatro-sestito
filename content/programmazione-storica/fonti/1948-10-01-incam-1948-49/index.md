@@ -10,7 +10,7 @@ description: Agende cinematografiche fornite dalle case distributrici. Contengon
 
 
 {{< image-gallery gallery_dir="/images/1948_10_01_incam_1948_49" >}}
-
+<!-- Tabelle generate automaticamente. -->
 
 ## 1948
 
@@ -150,5 +150,4 @@ description: Agende cinematografiche fornite dalle case distributrici. Contengon
 | 1949-09-04 | [Bionda selvaggia](https://www.imdb.com/title/tt0039198/) |
 | 1949-09-11 | [I due orfanelli](https://www.imdb.com/title/tt0039342/) |
 | 1949-09-28 | [Appuntamento alle 5](https://www.imdb.com/title/tt0027887/) |
-
 
