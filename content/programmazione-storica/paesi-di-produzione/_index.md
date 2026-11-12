@@ -11,7 +11,7 @@ type: "programmazione-storica/paesi-di-produzione"
 
 L’analisi dei paesi di produzione dei film proiettati al cinema Sestito consente di osservare l’evoluzione delle dinamiche industriali e distributive. Il *primo grafico* presenta un confronto percentuale tra film italiani ed esteri aggregato per decennio, mettendo in evidenza alcune tendenze strutturali decisive per comprendere la storia della sala e il suo rapporto con il sistema produttivo nazionale.
 
-![plot of chunk unnamed-chunk-1](/programmazione-storica/paesi-di-produzione/_index_files/figure-html/unnamed-chunk-1-1.png)
+<img src="/programmazione-storica/paesi-di-produzione/_index_files/figure-html/unnamed-chunk-1-1.png" width="768" />
 
 Nei primi decenni di attività, la sala mostra una forte presenza di film di produzione italiana, che rappresentano almeno la metà delle opere distribuite. Questa prevalenza riflette il ruolo centrale che la cinematografia nazionale ricoprì nell’immediato dopoguerra, sostenuta da un sistema produttivo vivace, da politiche culturali di rilancio e da un pubblico fortemente identificato nei modelli narrativi e sociali offerti dal cinema italiano del tempo. A partire dagli anni Ottanta, e in modo ancora più marcato nei decenni successivi, si osserva invece un progressivo declino della quota di film italiani. Tale tendenza rispecchia fenomeni più ampi: la crisi strutturale dell’industria cinematografica nazionale, la crescente penetrazione dei prodotti statunitensi nel mercato europeo e la progressiva standardizzazione delle pratiche distributive che ha favorito la centralità dei cataloghi hollywoodiani.
 
@@ -19,7 +19,7 @@ Un ulteriore elemento rilevante riguarda la natura delle coproduzioni internazio
 
 Per offrire una prospettiva complementare, il *secondo grafico* mostra il numero di paesi produttori rappresentati in ciascun decennio. Questo indicatore consente di valutare la diversità geografica dell’offerta cinematografica della sala al di là del confronto Italia/estero. Il grafico evidenzia un andamento curvilineo: un primo periodo in cui la programmazione comprende film provenienti da circa 10–20 paesi (anni ’40–’50), seguito da un ampliamento significativo negli anni ’60 e soprattutto negli anni ’70, quando si raggiunge il massimo di circa 50 paesi rappresentati. Tale espansione riflette la crescente globalizzazione del mercato, l’intensificarsi delle coproduzioni internazionali e l’arrivo di film provenienti da aree extraeuropee.
 
-![plot of chunk unnamed-chunk-2](/programmazione-storica/paesi-di-produzione/_index_files/figure-html/unnamed-chunk-2-1.png)
+<img src="/programmazione-storica/paesi-di-produzione/_index_files/figure-html/unnamed-chunk-2-1.png" width="768" />
 
 Dagli anni ’80 in poi, la curva mostra un progressivo declino, da leggere non solo come una riduzione delle provenienze geografiche, ma anche in relazione alla diminuzione del numero totale di film proiettati nella sala negli ultimi decenni della sua attività. La contrazione della programmazione riduce inevitabilmente anche la varietà dei paesi rappresentati, segnando una fase di chiusura dopo il periodo di massima apertura internazionale.
 

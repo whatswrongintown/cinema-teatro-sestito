@@ -21,7 +21,7 @@ Le principali tipologie di fonti sono:
 4. ✍️  **[Appunti](/categories/appunti/)**, blocchi o fogli sciolti su cui erano annotati i film mese per mese, talvolta accompagnati dai relativi incassi.
 5. 🎞️ **[Note sui manifesti](/categories/note-sui-manifesti/)**, date di proiezione annotate sul retro dei manifesti cinematografici; i film sono elencati per anno e mese.
 
-![plot of chunk unnamed-chunk-1](/programmazione-storica/fonti/_index_files/figure-html/unnamed-chunk-1-1.png)
+<img src="/programmazione-storica/fonti/_index_files/figure-html/unnamed-chunk-1-1.png" width="768" />
 
 ---
 

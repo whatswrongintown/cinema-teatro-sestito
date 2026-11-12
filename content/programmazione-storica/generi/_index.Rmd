@@ -125,13 +125,13 @@ ggplot(df_yearly_pct, aes(x = year, y = perc_adulti)) +
           ) +
           theme_minimal(base_family = "merriweather") +
           theme(
-                    plot.title = element_text(size = 28),
-                    plot.subtitle = element_text(size = 24),
-                    plot.caption = element_text(size = 16),
-                    axis.title = element_text(size = 24),
-                    axis.text = element_text(size = 20),
-                    legend.title = element_text(size = 24),
-                    legend.text = element_text(size = 20),
+                    plot.title = element_text(size = 16),
+                    plot.subtitle = element_text(size = 12),
+                    plot.caption = element_text(size = 9),
+                    axis.title = element_text(size = 11),
+                    axis.text = element_text(size = 10),
+                    legend.title = element_text(size = 11),
+                    legend.text = element_text(size = 10),
                     panel.grid.major = element_blank(),
                     panel.grid.minor = element_blank()
           )
