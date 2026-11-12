@@ -356,7 +356,7 @@ render_anni_index <- function(project_root, section) {
       do.call(showtext::showtext_opts, previous_showtext)
     }, add = TRUE)
     # La risoluzione di knitr e showtext deve coincidere per evitare testi ingranditi.
-    knitr::opts_chunk$set(dpi = 96)
+    knitr::opts_chunk$set(dpi = 96, fig.retina = 1)
     showtext::showtext_opts(dpi = 96)
       input <- file.path(root, section, "_index.Rmd")
       output <- file.path(root, section, "_index.md")

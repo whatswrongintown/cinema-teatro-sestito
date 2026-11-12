@@ -42,7 +42,6 @@ To update specific pages, use their titles or database values. Names are case-in
 source("R/update-fonti.R")
 update_fonti(sources = "Calendario 1951", render_index = FALSE)
 update_fonti(sources = c("Incam 1948-49", "Calendario 1951"), render_index = FALSE)
-
 source("R/update-generi.R")
 update_generi(genres = "Commedia", render_index = FALSE)
 source("R/update-paesi.R")
@@ -64,13 +63,6 @@ To regenerate all annual pages and their charts without updating other sections:
 ```r
 source("R/update-anni.R")
 update_anni()
-```
-
-To check the generators, run from the project root:
-
-```text
-Rscript R/test-generate-anni.R
-Rscript R/test-update-programmazione-storica.R
 ```
 
 ## License
