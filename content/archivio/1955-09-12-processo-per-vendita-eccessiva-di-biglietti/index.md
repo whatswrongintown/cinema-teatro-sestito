@@ -7,7 +7,7 @@ slug: processo-per-vendita-eccessiva-di-biglietti
 categories:
   - Giudiziario
 tags:
-  - Legali
+  - Legale
 ---
 
 ![1955-09-12 Processo per vendita eccessiva di biglietti 1](images/19550912Processoverbale1.jpg)

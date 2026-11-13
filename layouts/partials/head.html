@@ -9,13 +9,14 @@
 {{ else }}
     <title>{{ .Title }}{{ with .Params.subtitle }} - {{ . }} {{ end }} - {{ .Site.Title }}</title>
     <meta property="og:title" content="{{ .Title }} - {{ .Site.Title }}">
+    <meta property="og:type" content="article">
 {{ end }}
 
 <!-- Favicon -->
 {{ with .Site.Params.favicon }}
   <link rel="icon" type="image/png" href="{{ . | absURL }}">
 {{ end }}
-<link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="{{ "images/apple-touch-icon.png" | absURL }}">
 
 <!-- Meta Description -->
 {{ if eq .RelPermalink "/" }}
@@ -27,11 +28,9 @@
 {{ end }}
 
 <!-- Open Graph Metadata -->
-<meta property="og:title" content="{{ .Title }}">
 <meta property="og:description" content="{{ .Description | default .Site.Params.description }}">
 <meta property="og:url" content="{{ .Permalink }}">
-<meta property="og:image" content="{{ .Params.image | absURL | default (.Site.Params.defaultImage | absURL) }}">
-<meta property="og:type" content="article">
+<meta property="og:image" content="{{ .Params.image | default .Site.Params.defaultImage | absURL }}">
 
 <!-- RSS Feed -->
 {{ with .OutputFormats.Get "RSS" }}

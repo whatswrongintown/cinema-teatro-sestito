@@ -7,7 +7,7 @@ slug: acquisto-terreno-cinema-in-via-comm-doria-parte-2
 categories:
   - Proprietà
 tags:
-  - Legali
+  - Legale
 ---
 
 ![1956-03-01 Acquisto terreno cinema in Via Comm. Doria](images/195603AcquistoTerrenoCinema2.jpg)

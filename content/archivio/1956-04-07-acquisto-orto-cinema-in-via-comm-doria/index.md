@@ -7,7 +7,7 @@ slug: acquisto-orto-cinema-in-via-comm-doria
 categories:
   - Proprietà
 tags:
-  - Legali
+  - Legale
 ---
 
 ![1956-04-07 Acquisto orto cinema in Via Comm. Doria 1](images/19560407AcquistoOrtoCinema1.jpg)

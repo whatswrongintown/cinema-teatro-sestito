@@ -5,7 +5,7 @@ author: Vito Sestito
 date: '1970-12-29'
 slug: spettacolo-teatrale-quel-capoccione-di-annibale
 categories:
-  - spettacoli
+  - Spettacoli
 tags:
   - Teatro
 ---
