@@ -19,7 +19,7 @@ menu:
       weight: 1
 params:
   description: Un sito web dedicato al Cinema di San Vito sullo Ionio. Dalle sue origini alla chiusura, esplora i film, le storie e i ricordi che hanno reso il Cinema una cara istituzione culturale del paese.
-  defaultImage: "/images/_index_files/1956_progetto_cinema.webp"
+  defaultImage: "/_index_files/1956_progetto_cinema.webp"
   favicon: images/favicon.png
   logo:
     alt: avatar
