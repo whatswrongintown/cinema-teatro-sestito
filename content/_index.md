@@ -5,7 +5,7 @@ date: "2023-04-21"
 description: "Il sito fornisce una ricca collezione di foto, storie e ricordi dell'iconico cinema di San Vito sullo Ionio, insieme a informazioni sull'associazione culturale e sugli eventi in programma."
 image: "/_index_files/1956_progetto_cinema.webp"
 ---
-![](/./_index_files/1956_progetto_cinema.webp)
+![Prospetto del progetto architettonico del nuovo cinema di Via Doria, 1956](/./_index_files/1956_progetto_cinema.webp)
 
 Il **Cinema Teatro Sestito** di *San Vito sullo Ionio* è stato per oltre mezzo secolo un punto di incontro, di emozioni e di visioni condivise.
 
