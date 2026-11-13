@@ -46,5 +46,3 @@ privacy:
     disable: false
     privacyEnhanced: true
 assetDir: static
-build:
-  timeout: 600000
