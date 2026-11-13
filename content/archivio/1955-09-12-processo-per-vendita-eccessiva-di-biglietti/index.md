@@ -3,6 +3,7 @@ title: Processo per vendita eccessiva di biglietti
 author: Vito Sestito
 description: "Copia conforme, rilasciata il 12 settembre 1955, del verbale dei Carabinieri per l'eccesso di spettatori durante la proiezione di Sansone e Dalila."
 date: '1955-09-12'
+image: "/1955/09/12/processo-per-vendita-eccessiva-di-biglietti/images/19550912Processoverbale1.jpg"
 slug: processo-per-vendita-eccessiva-di-biglietti
 categories:
   - Giudiziario

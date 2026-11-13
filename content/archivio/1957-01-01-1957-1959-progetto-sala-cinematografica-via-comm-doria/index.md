@@ -3,6 +3,7 @@ title: 1957-1959 Progetto sala Cinematografica Via Comm. Doria
 author: Vito Sestito
 description: progetto architettonico del 1957 per nuovo cinema a San Vito sullo Ionio
 date: '1957-01-01'
+image: "/1957/01/01/1957-1959-progetto-sala-cinematografica-via-comm-doria/images/19571959ProgettosalaCinematografica1.jpg"
 slug: 1957-1959-progetto-sala-cinematografica-via-comm-doria
 categories:
   - Progetti

@@ -1,5 +1,6 @@
 ---
 title: Acquisto palazzo in Piazza Mario Polerà (parte 3)
+image: "/1944/03/15/acquisto-palazzo-in-piazza-mario-poler-parte-3/images/1944-03-15_acquisto_palazzo_in_Piazza_Mario_Polerà_1.jpeg"
 author: Vito Sestito
 date: '1944-03-15'
 slug: acquisto-palazzo-in-piazza-mario-poler-parte-3

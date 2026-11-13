@@ -1,6 +1,7 @@
 ---
 title: Associazione Nazionale Esercenti Cinema
 description: "Tessera associativa del 1950 dell'Associazione Nazionale Esercenti Cinema intestata a Vito Sestito."
+image: "/1950/01/01/associazione-nazionale-esercenti-cinema/images/1950_Associazione_Nazionale_Esercenti_Cinema_1.jpg"
 author: Vito Sestito
 date: '1950-01-01'
 slug: associazione-nazionale-esercenti-cinema

@@ -1,6 +1,7 @@
 ---
 title: Congedo fine leva Vito Sestito
 description: "Foglio di congedo illimitato di Vito Sestito, rilasciato al termine del servizio militare nel 1923."
+image: "/1923/10/09/congedo-fine-leva-vito-sestito/images/01_1923-10-09_Congedo_illimitato_fine_leva_Vito_Sestito.jpg"
 author: Vito Sestito
 date: '1923-10-09'
 slug: congedo-fine-leva-vito-sestito

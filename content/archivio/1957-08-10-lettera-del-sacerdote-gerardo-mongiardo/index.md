@@ -3,6 +3,7 @@ title: Lettera del Sacerdote Gerardo Mongiardo
 author: Vito Sestito
 description: "Lettera dell'arciprete Gerardo Mongiardo a Vito Sestito sulle proiezioni di un film vietato ai minori di 16 anni e sul rispetto del divieto."
 date: '1957-08-10'
+image: "/1957/08/10/lettera-del-sacerdote-gerardo-mongiardo/images/19570810letteraSacMongiardo.jpg"
 slug: lettera-del-sacerdote-gerardo-mongiardo
 categories:
   - Corrispondenza

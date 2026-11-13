@@ -3,6 +3,7 @@ title: Abilitazione Cinema Via Comm. Doria
 author: Vito Sestito
 description: trascrizione dell'abilitazione del cinema di San Vito sullo Ionio del 1959
 date: '1959-06-30'
+image: "/1959/06/30/abilitazione-cinema-via-comm-doria/images/19590630Abilitazionesalacinema1.jpg"
 slug: abilitazione-cinema-via-comm-doria
 categories:
   - Autorizzazioni

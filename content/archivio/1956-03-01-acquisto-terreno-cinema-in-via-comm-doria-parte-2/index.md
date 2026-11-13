@@ -3,6 +3,7 @@ title: Acquisto terreno cinema in Via Comm. Doria (parte 2)
 author: Vito Sestito
 description: "Dichiarazione integrativa del marzo 1956 che attesta il pagamento a saldo del terreno acquistato dai coniugi Sestito e Aiello in via Comm. Doria."
 date: '1956-03-01'
+image: "/1956/03/01/acquisto-terreno-cinema-in-via-comm-doria-parte-2/images/195603AcquistoTerrenoCinema2.jpg"
 slug: acquisto-terreno-cinema-in-via-comm-doria-parte-2
 categories:
   - Proprietà

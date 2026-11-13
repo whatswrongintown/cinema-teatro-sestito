@@ -1,5 +1,6 @@
 ---
 title: Abilitazione del cinema in Piazza Mario Polerà
+image: "/1949/03/19/abilitazione-cinema-in-piazza-mario-poler/images/19490319abilitazionecinema.jpg"
 author: Vito Sestito
 description: articolo che trascrive il documento di abilitazione del cinema nel 1949
 date: '1949-03-19'

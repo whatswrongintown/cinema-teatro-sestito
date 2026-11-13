@@ -2,6 +2,7 @@
 title: Bobine dei trailer-35mm
 author: Vito Sestito
 date: '2025-10-27'
+image: "/2025/10/27/bobine-dei-trailer-35mm/images/IMG_0177.jpg"
 slug: bobine-dei-trailer-35mm
 categories:
   - Attrezzature

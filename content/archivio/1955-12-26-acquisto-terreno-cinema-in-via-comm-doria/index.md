@@ -3,6 +3,7 @@ title: Acquisto terreno cinema in Via Comm. Doria (parte 1)
 author: Vito Sestito
 description: "Scrittura privata del 26 dicembre 1955 per la vendita a Vito Sestito di un appezzamento in localita' Aria, tra via Squillace e Comm. Doria."
 date: '1955-12-26'
+image: "/1955/12/26/acquisto-terreno-cinema-in-via-comm-doria/images/19551225AcquistoTerrenoCinema1.jpg"
 slug: acquisto-terreno-cinema-in-via-comm-doria
 categories:
   - Proprietà

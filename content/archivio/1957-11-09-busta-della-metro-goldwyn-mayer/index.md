@@ -3,6 +3,7 @@ title: Busta della Metro Goldwyn Mayer
 description: "Busta della Metro-Goldwyn-Mayer indirizzata al Cinema Sestito di San Vito Jonio, datata 9 novembre 1957."
 author: Vito Sestito
 date: '1957-11-09'
+image: "/1957/11/09/busta-della-metro-goldwyn-mayer/images/1957_11_09_busta_lettera_metro_goldwyn_mayer_1.png"
 slug: busta-della-metro-goldwyn-mayer
 categories:
   - Corrispondenza
