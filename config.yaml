@@ -1,12 +1,6 @@
 baseurl: https://cinemateatrosestito.com/
 languageCode: it-IT
 title: Cinema Teatro Sestito
-ignoreFiles:
-  - \.Rmd$
-  - \.Rmarkdown$
-  - _cache$
-  - \.knit\.md$
-  - \.utf8\.md$
 permalinks:
   articoli: /:year/:month/:day/:slug/
   archivio: /:year/:month/:day/:slug/
@@ -47,6 +41,14 @@ privacy:
     privacyEnhanced: true
 module:
   mounts:
+    - source: content
+      target: content
+      excludeFiles:
+        - '**/*.Rmd'
+        - '**/*.Rmarkdown'
+        - '**/*_cache/**'
+        - '**/*.knit.md'
+        - '**/*.utf8.md'
     - source: static
       target: assets
     - source: static
