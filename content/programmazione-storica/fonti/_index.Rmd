@@ -5,7 +5,7 @@ date: "2025-10-16"
 description: "Le diverse tipologie di documenti utilizzate per ricostruire la programmazione del Cinema Teatro Sestito."
 layout: "section"
 slug: "fonti"
-image: "/images/programmazione-storica/fonti/_index_files/agenda_fedi_54_55.webp"
+image: "/programmazione-storica/fonti/_index_files/agenda_fedi_54_55.webp"
 ---
 
 ```{r setup, include=FALSE}
