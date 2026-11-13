@@ -10,9 +10,9 @@ tags:
   - Legale
   - Espansione
 ---
-![](images/1953-02-01_sala_adiacente_al_cinema_1.jpeg)
-![](images/1953-02-01_sala_adiacente_al_cinema_2.jpeg)
-![](images/1953-02-01_sala_adiacente_al_cinema_3.jpeg)
+![Prima pagina della scrittura privata del 1 febbraio 1953 per costruire una saletta accanto al cinema](images/1953-02-01_sala_adiacente_al_cinema_1.jpeg)
+![Pagina intermedia della scrittura privata del 1953 con le clausole sulle opere e sui confini tra le proprietà](images/1953-02-01_sala_adiacente_al_cinema_2.jpeg)
+![Pagina conclusiva della scrittura privata del 1953, con le clausole sui lucernari e le firme delle parti](images/1953-02-01_sala_adiacente_al_cinema_3.jpeg)
 
 Oggi 1° febbraio 1953, in S. Vito Ionio tra la Signora Maria De Luca fu Carlo proprietaria, ed il Sig. Sestito Vito fu Vito si è addivenuto al seguente contratto con la presente scrittura privata da valore ad ogni effetto di legge come pubblica:
 1) La Signora Maria De Luca cede al Sig. Sestito Vito il diritto di poter costruire una saletta in cemento su di uno spazio di terreno compreso tra i fabbricati di proprietà di essa Signora De Luca e quello del Sestito e più precisamente su quello spazio prospiciente alla terrazza di proprietà della Signora De Luca medesima.

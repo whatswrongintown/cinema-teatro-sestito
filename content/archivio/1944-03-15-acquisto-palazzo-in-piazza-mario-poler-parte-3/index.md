@@ -9,8 +9,8 @@ tags:
   - Legale
 description: "Note di trascrizione dell’atto notarile a favore dei coniugi Vito Sestito e Teresa Aiello, relativo alla vendita di una parte del fabbricato in Via Umberto I da Maria De Luca e Rosina Madonna. Il documento descrive la suddivisione dei vani, l’orto annesso, i limiti catastali e le condizioni di usufrutto e nuda proprietà, con indicazione della rendita catastale e dei diritti delle venditrici."
 ---
-![](images/1944-03-15_acquisto_palazzo_in_Piazza_Mario_Polerà_1.jpeg)
-![](images/1944-03-15_acquisto_palazzo_in_Piazza_Mario_Polerà_2.jpeg)
+![Pagina della nota di trascrizione dell'atto di vendita del fabbricato, con francobolli annullati in alto](images/1944-03-15_acquisto_palazzo_in_Piazza_Mario_Polerà_1.jpeg)
+![Pagina della nota di trascrizione con timbro di registrazione e annotazioni del marzo 1944](images/1944-03-15_acquisto_palazzo_in_Piazza_Mario_Polerà_2.jpeg)
 
 10565 Conservatoria dei Registri Immobiliari di Catanzaro.
 

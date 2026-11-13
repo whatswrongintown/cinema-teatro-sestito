@@ -8,7 +8,7 @@ categories:
 description: "Schede e documentazione delle bobine promozionali in pellicola 35mm conservate nell’archivio del Cinema Teatro Sestito."
 ---
 
-![](images/IMG_0177.jpg)
+![Bobine promozionali in pellicola 35 mm con le etichette originali visibili](images/IMG_0177.jpg)
 
 ## Introduzione
 

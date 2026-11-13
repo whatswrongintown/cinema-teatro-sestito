@@ -9,9 +9,9 @@ tags:
   - Legale
 description: "Scrittura privata con cui la Signora Maria De Luca fu Carlo promette di vendere a Vito Sestito fu Vito una parte del proprio palazzo in Via Umberto I, a San Vito sullo Ionio. L’immobile comprende l’area adibita ad asilo comunale e alloggio delle suore, con i relativi bassi a piano terreno e un piccolo orto recintato. Il prezzo di vendita è fissato a 140.000 lire, con pagamento dilazionato e immissione in possesso alla stipula notarile. L’accordo stabilisce anche un impegno del compratore alla realizzazione di arredi per la venditrice."
 ---
-![](images/1944-03-02_acquisto_palazzo_in_Piazza_Mario_Polerà_1.jpeg)
-![](images/1944-03-02_acquisto_palazzo_in_Piazza_Mario_Polerà_2.jpeg)
-![](images/1944-03-02_acquisto_palazzo_in_Piazza_Mario_Polerà_3.jpeg)
+![Prima pagina della scrittura privata del 2 marzo 1944: Maria De Luca promette di vendere a Vito Sestito una parte del palazzo in Via Umberto I](images/1944-03-02_acquisto_palazzo_in_Piazza_Mario_Polerà_1.jpeg)
+![Pagina interna della scrittura privata del 1944 con le clausole della vendita e il timbro di registrazione](images/1944-03-02_acquisto_palazzo_in_Piazza_Mario_Polerà_2.jpeg)
+![Pagina conclusiva della scrittura privata del 2 marzo 1944, con le clausole finali e le firme di Maria De Luca e Vito Sestito](images/1944-03-02_acquisto_palazzo_in_Piazza_Mario_Polerà_3.jpeg)
 
 Con la presente scrittura privata da valore come a pubblico io sottoscritta Signora Maria De Luca fu Carlo prometto di vendere all’altro sottoscritto Signor Vito Sestito fu Vito una parte del mio palazzo in questo abitato di San Vito sullo Ionio in Via Umberto I e precisamente quella parte attualmente adibita ad asilo comunale ed alloggio delle suore con i relativi bassi a piano terreno, ad eccezione della prima stanza dell’alloggio delle suore confinate con il rimanente fabbricato della venditrice e la cucina attualmente in suo possesso e che corrisponde sopra il portone d’accesso alla casa venduta.
 
@@ -41,4 +41,4 @@ Sestito Vito fu Vito
 P.S. Si accettano cancellature ed abrasioni ed al 19° e 20° rigo della prima facciata leggesi rispettivamente £. 40.000 (quarantamila) e £ 95.000 (novantacinquemila).
 
 Foto del palazzo nella sua versione originale
-![](images/1940_palazzo_piazza_mario_polera.jpg)
+![Fotografia d'epoca del palazzo in Piazza Mario Polerà a San Vito sullo Ionio, datata 1940](images/1940_palazzo_piazza_mario_polera.jpg)
