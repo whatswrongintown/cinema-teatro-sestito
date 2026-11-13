@@ -45,4 +45,9 @@ privacy:
   youtube:
     disable: false
     privacyEnhanced: true
-assetDir: static
+module:
+  mounts:
+    - source: static
+      target: assets
+    - source: static
+      target: static
