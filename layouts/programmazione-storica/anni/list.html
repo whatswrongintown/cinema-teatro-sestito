@@ -26,16 +26,18 @@
     {{ end }}
 
     {{ range sort $decadi }}
-      <h5 class="archive-title" style="font-size:1.4rem;">Programmazione {{ . }}</h5>
+      <h2 class="archive-title" style="font-size:1.4rem;">Programmazione {{ . }}</h2>
       {{ $decade := . }}
-      {{ range sort $pages "Date" }}
-        {{ $year := .Date.Format "2006" | int }}
-        {{ if eq (printf "%d" (mul (div $year 10) 10)) $decade }}
-        <li style="display:inline; margin-right:0.5em;">
+      <ul class="archive-years" style="list-style:none; padding-left:0;">
+        {{ range sort $pages "Date" }}
+          {{ $year := .Date.Format "2006" | int }}
+          {{ if eq (printf "%d" (mul (div $year 10) 10)) $decade }}
+          <li style="display:inline; margin-right:0.5em;">
             <a href="{{ .RelPermalink }}" class="archive-item-link">{{ .Date.Format "2006" }}</a>
-        </li>
+          </li>
+          {{ end }}
         {{ end }}
-      {{ end }}
+      </ul>
     {{ end }}
   </div>
 

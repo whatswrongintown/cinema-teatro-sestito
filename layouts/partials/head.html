@@ -2,35 +2,66 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 {{ hugo.Generator }}
 
-{{ if eq .RelPermalink "/" }}
-    <title>{{ .Site.Title }}</title>
-    <meta property="og:title" content="{{ .Site.Title }}">
-    <meta property="og:type" content="website">
-{{ else }}
-    <title>{{ .Title }}{{ with .Params.subtitle }} - {{ . }} {{ end }} - {{ .Site.Title }}</title>
-    <meta property="og:title" content="{{ .Title }} - {{ .Site.Title }}">
-    <meta property="og:type" content="article">
+{{- $pageTitle := .Title -}}
+{{- with .Params.subtitle -}}
+  {{- $pageTitle = printf "%s - %s" $pageTitle . -}}
+{{- end -}}
+{{- $socialTitle := .Site.Title -}}
+{{- if not .IsHome -}}
+  {{- $socialTitle = printf "%s - %s" $pageTitle .Site.Title -}}
+{{- end -}}
+{{- $description := .Description -}}
+{{- if not $description -}}
+  {{- if eq .Kind "term" -}}
+    {{- if eq .Data.Singular "category" -}}
+      {{- $description = printf "Pagine del sito associate alla categoria %s." .Title -}}
+    {{- else if eq .Data.Singular "tag" -}}
+      {{- $description = printf "Pagine del sito associate al tag %s." .Title -}}
+    {{- else -}}
+      {{- $description = printf "Pagine del sito associate al termine %s." .Title -}}
+    {{- end -}}
+  {{- else if eq .Kind "taxonomy" -}}
+    {{- if eq .Data.Plural "categories" -}}
+      {{- $description = "Indice delle categorie del sito Cinema Teatro Sestito." -}}
+    {{- else if eq .Data.Plural "tags" -}}
+      {{- $description = "Indice dei tag del sito Cinema Teatro Sestito." -}}
+    {{- else -}}
+      {{- $description = printf "Indice dei termini %s del sito Cinema Teatro Sestito." .Data.Plural -}}
+    {{- end -}}
+  {{- else if .Summary -}}
+    {{- $description = .Summary | plainify -}}
+  {{- else -}}
+    {{- $description = .Site.Params.description -}}
+  {{- end -}}
 {{ end }}
+
+{{- $socialImage := .Params.image | default .Site.Params.defaultImage | absURL -}}
+{{- $ogType := "website" -}}
+{{- if and .IsPage (not .IsSection) -}}
+  {{- $ogType = "article" -}}
+{{- end -}}
+
+<title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ $pageTitle }} - {{ .Site.Title }}{{ end }}</title>
+<meta name="description" content="{{ $description }}">
+<link rel="canonical" href="{{ .Permalink }}">
+
+<!-- Open Graph Metadata -->
+<meta property="og:title" content="{{ $socialTitle }}">
+<meta property="og:type" content="{{ $ogType }}">
+<meta property="og:site_name" content="{{ .Site.Title }}">
+<meta property="og:description" content="{{ $description }}">
+<meta property="og:url" content="{{ .Permalink }}">
+<meta property="og:image" content="{{ $socialImage }}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ $socialTitle }}">
+<meta name="twitter:description" content="{{ $description }}">
+<meta name="twitter:image" content="{{ $socialImage }}">
 
 <!-- Favicon -->
 {{ with .Site.Params.favicon }}
   <link rel="icon" type="image/png" href="{{ . | absURL }}">
 {{ end }}
 <link rel="apple-touch-icon" sizes="180x180" href="{{ "images/apple-touch-icon.png" | absURL }}">
-
-<!-- Meta Description -->
-{{ if eq .RelPermalink "/" }}
-    <meta name="description" content="{{ .Site.Params.description }}">
-{{ else }}
-    {{ if .Description }}
-    <meta name="description" content="{{ .Description }}">
-    {{ end }}
-{{ end }}
-
-<!-- Open Graph Metadata -->
-<meta property="og:description" content="{{ .Description | default .Site.Params.description }}">
-<meta property="og:url" content="{{ .Permalink }}">
-<meta property="og:image" content="{{ .Params.image | default .Site.Params.defaultImage | absURL }}">
 
 <!-- RSS Feed -->
 {{ with .OutputFormats.Get "RSS" }}
