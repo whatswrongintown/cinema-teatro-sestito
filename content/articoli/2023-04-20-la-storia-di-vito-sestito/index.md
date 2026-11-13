@@ -4,6 +4,7 @@ author: Vito Sestito
 date: '2023-04-20'
 description: articolo dedicato al fondatore del cinema di San Vito sullo Ionio
 slug: la-storia-di-vito-sestito
+image: "/2023/04/20/la-storia-di-vito-sestito/images/vito_sestito_patent_pictures.webp"
 categories:
   - Storia
 tags:

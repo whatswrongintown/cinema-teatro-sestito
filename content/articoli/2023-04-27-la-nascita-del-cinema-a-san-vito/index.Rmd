@@ -4,6 +4,7 @@ author: Vito Sestito
 date: '2023-04-27'
 description: "Un’analisi storica dei primi anni del cinema a San Vito sullo Ionio, dalle origini ai primi successi."
 slug: la-nascita-del-cinema-a-san-vito
+image: "/2023/04/27/la-nascita-del-cinema-a-san-vito/images/1940_palazzo_piazza_mario_polera.webp"
 categories:
           - Storia
 tags:

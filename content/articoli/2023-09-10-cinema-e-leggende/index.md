@@ -4,6 +4,7 @@ description: "Resoconto dell'incontro al festival Sonati Vicinu 2023 sul ruolo d
 author: Vito Sestito
 date: '2023-09-10'
 slug: cinema-e-leggende
+image: "/2023/09/10/cinema-e-leggende/images/03_sonati_vicinu_2023.JPG"
 categories:
   - Storia
 tags:
