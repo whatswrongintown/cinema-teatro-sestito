@@ -12,7 +12,7 @@ tags:
   - Evento
   - Festival
 ---
-![](images/03_sonati_vicinu_2023.JPG)
+![Incontro pubblico al festival Sonati Vicinu 2023, con relatori e pubblico riuniti in una piazza illuminata](images/03_sonati_vicinu_2023.JPG)
 
 ## Riflessioni da Sonati Vicinu 2023
 

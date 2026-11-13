@@ -16,7 +16,7 @@ tags:
 
 
 
-![](images/1940_palazzo_piazza_mario_polera.webp)
+![Fotografia del palazzo in Piazza Mario Polerà nel 1940, con freccia e riquadro che indicano l'area del futuro cinema](images/1940_palazzo_piazza_mario_polera.webp)
 
 ## Un sogno che diventa realtà
 
@@ -40,7 +40,7 @@ La struttura era suddivisa in quattro ambienti: ingresso, cabina di proiezione, 
 
 Dopo diversi mesi di lavoro e burocrazia, il **19 marzo 1949** il prefetto di Catanzaro rilasciò a Vito Sestito l’autorizzazione ufficiale per gli spettacoli pubblici[^3]. L’inaugurazione del **Cinema di Piazza Mario Polerà** fu accolta con entusiasmo: la notizia si diffuse rapidamente nei paesi vicini, e la piccola sala non riusciva a contenere tutti gli spettatori. Si rese così necessario un **calendario d’ingresso per paese**, un sistema ingegnoso che dimostra la straordinaria partecipazione popolare.
 
-<img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-1-1.png" alt="" width="768" />
+<img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-1-1.png" alt="Voci di programmazione registrate per anno dal 1948 al 1957" width="768" />
 
 Ogni proiezione era preceduta da brevi intermezzi musicali e da "[La Settimana Incom](https://www.archivioluce.com/la-settimana-incom/)", cinegiornale che diffondeva notizie di attualità e sport, simbolo della nuova Italia repubblicana.
 
@@ -60,7 +60,7 @@ Negli anni Cinquanta il cinema dovette spesso confrontarsi con la morale cattoli
 
 Tali episodi rivelano il delicato equilibrio tra iniziativa culturale, controllo morale e autorità ecclesiastica, tipico delle realtà provinciali dell’Italia del tempo.
 
-<img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-2-1.png" alt="" width="768" />
+<img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-2-1.png" alt="Voci di programmazione registrate per anno, suddivise per classificazione, dal 1948 al 1957" width="768" />
 
 ## Verso un nuovo cinema
 
