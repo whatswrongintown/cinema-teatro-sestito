@@ -1,5 +1,6 @@
 ---
 title: Gli anni d’oro del Cinema Teatro Sestito (1957-1979)
+description: "Ricostruzione degli anni 1957-1979 del Cinema Teatro Sestito: costruzione della nuova sala, vita culturale della comunita' e primi segnali di declino."
 author: Vito Sestito
 date: '2025-11-05'
 slug: gli-anni-d-oro-del-cinema-teatro-sestito

@@ -1,5 +1,6 @@
 ---
 title: Esplora la storia del cinema attraverso le sue proiezioni
+description: "Applicazione interattiva per esplorare i film proiettati al Cinema Teatro Sestito e consultare i dati della programmazione storica."
 author: Vito Sestito
 date: '2023-09-23'
 slug: esplora-la-storia-cinematografica-di-san-vito-sullo-ionio

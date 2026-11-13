@@ -1,5 +1,6 @@
 ---
 title: Cinema e Leggende
+description: "Resoconto dell'incontro al festival Sonati Vicinu 2023 sul ruolo del Cinema Sestito nella memoria e nelle leggende della comunita' di San Vito sullo Ionio."
 author: Vito Sestito
 date: '2023-09-10'
 slug: cinema-e-leggende

@@ -1,5 +1,6 @@
 ---
 title: Lettera di Vettura Spedizione Sedie
+description: "Lettera di vettura del 30 marzo 1987 per la spedizione di 30 colli di sedie al Cinema Sestito, affidata a Puma Trasporti."
 author: Vito Sestito
 date: '1987-03-30'
 slug: lettera-di-vettura-spedizione-sedie

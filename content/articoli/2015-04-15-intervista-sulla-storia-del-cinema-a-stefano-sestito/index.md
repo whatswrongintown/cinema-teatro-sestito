@@ -1,5 +1,6 @@
 ---
 title: 'Intervista a Stefano Sestito sulla storia del cinema'
+description: "Intervista a Stefano Sestito sulla storia del Cinema Teatro Sestito, le scelte gestionali e il ruolo della sala nella comunita' di San Vito sullo Ionio."
 author: Benny Danieli
 date: '2015-04-15'
 slug: intervista-sulla-storia-del-cinema-a-stefano-sestito

@@ -1,5 +1,6 @@
 ---
 title: Diario di Vito Sestito dal 1936 al 1949
+description: "Indice analitico del diario di Vito Sestito dal 1936 al 1949, con i nomi, i paesi e i luoghi citati nelle pagine."
 author: Vito Sestito
 date: '1936-02-01'
 slug: diario-vito-sestito-dal-1936-al-1949

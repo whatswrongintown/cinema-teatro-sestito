@@ -1,7 +1,7 @@
 ---
 title: Contratto con Società Elettrica delle Calabrie
 author: Vito Sestito
-description: contratto per la fornitura di energia dalla Sicetà Elettrica delle Calabrie
+description: "Contratto del 3 marzo 1959 tra Vito Sestito e la Societa' Elettrica delle Calabrie per la fornitura di energia al cinema di Via V. Doria."
 date: '1959-03-03'
 slug: contratto-con-societ-elettrica-delle-calabrie
 categories:

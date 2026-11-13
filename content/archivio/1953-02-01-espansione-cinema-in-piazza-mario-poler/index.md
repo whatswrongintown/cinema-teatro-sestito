@@ -1,5 +1,6 @@
 ---
 title: Espansione cinema in Piazza Mario Polerà
+description: "Scrittura privata del 1 febbraio 1953 che concede a Vito Sestito di costruire una saletta e altre opere accanto al cinema in Piazza Mario Polerà."
 author: Vito Sestito
 date: '1953-02-01'
 slug: espansione-cinema-in-piazza-mario-poler
