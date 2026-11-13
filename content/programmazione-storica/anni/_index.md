@@ -5,6 +5,7 @@ date: '2025-10-16'
 description: "Consulta la programmazione del Cinema Teatro Sestito organizzata per anno, dal 1948 al 2004."
 slug: "anni"
 type: "programmazione-storica/anni"
+image: "/programmazione-storica/anni/_index_files/img_anni_section.jpg"
 ---
 
 
