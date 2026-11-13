@@ -32,10 +32,8 @@ markup:
       unsafe: yes
 privacy:
   googleAnalytics:
-    anonymizeIP: true
     disable: true
     respectDoNotTrack: true
-    useSessionStorage: true
   youtube:
     disable: false
     privacyEnhanced: true
