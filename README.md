@@ -12,6 +12,22 @@ Open the RStudio project and run:
 blogdown::serve_site()
 ```
 
+## R Environment
+
+The project uses `renv` to record R package versions in `renv.lock`. Open the
+project with R 4.6.2; `.Rprofile` activates the project library. On a new
+machine, restore the packages with:
+
+```r
+renv::restore()
+```
+
+After the first setup, restart the R session so the project library is active.
+On a new machine, the first restore may require an internet connection if the
+packages are not already cached. `renv` does not install R itself. Netlify
+builds the existing Markdown files and assets with Hugo; it does not restore R
+packages or knit `.Rmd` files.
+
 ## Update Historical Programming
 
 The database consists of three CSV files in [static/data/](static/data/): screenings and sources (`programmazione_agende.csv`), IMDb film details and genres (`programmazione_imdb.csv`), and production countries (`programmazione_paesi.csv`).
