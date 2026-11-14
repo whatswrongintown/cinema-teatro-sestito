@@ -1,6 +1,6 @@
 # Controlla che i pacchetti necessari siano installati prima di generare le pagine.
 check_paesi_packages <- function() {
-  packages <- c("readr", "dplyr", "purrr", "stringr", "ggplot2", "ggrepel", "scales", "yaml", "showtext")
+  packages <- c("readr", "dplyr", "purrr", "stringr", "yaml", "tibble", "tidyr")
   missing <- packages[!vapply(packages, requireNamespace, logical(1), quietly = TRUE)]
   if (length(missing)) {
     stop("Pacchetti R mancanti: ", paste(missing, collapse = ", "), call. = FALSE)
@@ -206,6 +206,23 @@ paesi_description <- function(prefix, title) {
   c(prefix[seq_len(fields - 1)], replacement, prefix[seq.int(fields + 1, length(prefix))])
 }
 
+# Imposta l'immagine condivisa dalle pagine dei paesi senza riscrivere gli altri metadati.
+paesi_image <- function(prefix) {
+  boundary <- which(prefix == "---")[2]
+  metadata <- yaml::yaml.load(paste(prefix[2:(boundary - 1)], collapse = "\n"))
+  fields <- which(grepl("^image[[:space:]]*:", prefix[seq_len(boundary - 1)]))
+  image <- "/programmazione-storica/paesi-di-produzione/_index_files/figure-html/italia-estero-per-decennio-1.png"
+  replacement <- paste0('image: "', image, '"')
+  if (!length(fields)) return(append(prefix, replacement, after = boundary - 1))
+  if (length(fields) != 1L) stop("Campo image duplicato nei metadati.", call. = FALSE)
+  line_value <- tryCatch(yaml::yaml.load(prefix[fields])$image, error = function(error) NULL)
+  if (!identical(metadata$image, line_value)) {
+    stop("Campo image multilinea o non valido nei metadati.", call. = FALSE)
+  }
+  prefix[fields] <- replacement
+  prefix
+}
+
 paesi_permalink <- function(prefix, slug) {
   boundary <- which(prefix == "---")[2]
   metadata <- yaml::yaml.load(paste(prefix[2:(boundary - 1)], collapse = "\n"))
@@ -285,38 +302,20 @@ prepare_paesi_pages <- function(data, section, directory, selection = NULL) {
                        description = paste0("Film prodotti in ", page$title, " nella programmazione del Cinema Teatro Sestito, suddivisi per anno."))
       prefix <- c("---", strsplit(yaml::as.yaml(metadata), "\n", fixed = TRUE)[[1]], "---", "")
     }
+    prefix <- paesi_image(prefix)
     table <- paesi_table(rows, "anno")
     list(path = page$path, lines = c(prefix, "<!-- Tabelle generate automaticamente. -->", "", table))
   })
 }
 
-check_paesi_section <- function(project_root, section, render_index) {
+check_paesi_section <- function(project_root, section) {
   project_root <- normalizePath(project_root, mustWork = TRUE)
   check_paesi_packages()
-  packages <- c("tibble", "tidyr", if (render_index) c("tidyverse", "knitr", "here", "viridis"))
-  missing <- packages[!vapply(packages, requireNamespace, logical(1), quietly = TRUE)]
-  if (length(missing)) stop("Pacchetti R mancanti: ", paste(missing, collapse = ", "), call. = FALSE)
-  font <- file.path(project_root, "static", "fonts", "merriweather-v13-latin-regular.woff")
-  if (render_index && !file.exists(font)) {
-    stop("Carattere Merriweather mancante: ", font, call. = FALSE)
-  }
-  root <- file.path(project_root, "content", "programmazione-storica")
-  if (render_index) {
-    read_paesi_csv(file.path(project_root, "static", "data", "programmazione_imdb.csv"),
-                  c("Const", "Year", "Title", "Directors", "Genres", "IMDb Rating",
-                    "Num Votes", "Runtime (mins)", "URL"))
-    read_paesi_csv(file.path(project_root, "static", "data", "programmazione_paesi.csv"),
-                  c("const", "country", "is_adult"))
-    index <- file.path(root, section, "_index.Rmd")
-    if (!file.exists(index)) {
-      stop("File R Markdown mancante: ", index, call. = FALSE)
-    }
-  }
   invisible(project_root)
 }
 
-prepare_paesi_section <- function(project_root, section, column, render_index, selection = NULL) {
-  project_root <- check_paesi_section(project_root, section, render_index)
+prepare_paesi_section <- function(project_root, section, column, selection = NULL) {
+  project_root <- check_paesi_section(project_root, section)
   data <- load_paesi_data(project_root, section)
   directory <- file.path(project_root, "content", "programmazione-storica", section)
   prepare_paesi_pages(split_paesi_values(data, column), section, directory, selection)
@@ -330,47 +329,9 @@ write_paesi_pages <- function(pages) {
   invisible(pages)
 }
 
-render_paesi_index <- function(project_root, section) {
-    project_root <- normalizePath(project_root, mustWork = TRUE)
-    root <- file.path(project_root, "content", "programmazione-storica")
-    font <- file.path(project_root, "static", "fonts", "merriweather-v13-latin-regular.woff")
-    previous_chunks <- knitr::opts_chunk$get()
-    previous_knit <- knitr::opts_knit$get()
-    previous_showtext <- showtext::showtext_opts()
-    on.exit({
-      do.call(knitr::opts_chunk$set, previous_chunks)
-      do.call(knitr::opts_knit$set, previous_knit)
-      do.call(showtext::showtext_opts, previous_showtext)
-    }, add = TRUE)
-    # La risoluzione di knitr e showtext deve coincidere per evitare testi ingranditi.
-    knitr::opts_chunk$set(dpi = 96)
-    showtext::showtext_opts(dpi = 96)
-      input <- file.path(root, section, "_index.Rmd")
-      output <- file.path(root, section, "_index.md")
-      figure_dir <- file.path(project_root, "static", "programmazione-storica", section, "_index_files", "figure-html")
-      dir.create(figure_dir, recursive = TRUE, showWarnings = FALSE)
-      knitr::opts_chunk$set(fig.path = paste0(gsub("\\\\", "/", figure_dir), "/"))
-      knitr::opts_knit$set(root.dir = project_root)
-      temporary <- tempfile(fileext = ".md")
-      # Usa i dati del progetto scelto e il font locale invece di scaricarlo.
-      knit_env <- new.env(parent = globalenv())
-      knit_env$here <- function(...) file.path(project_root, ...)
-      knit_env$font_add_google <- function(name, family) sysfonts::font_add(family, font)
-      knitr::knit(input, output = temporary, envir = knit_env, quiet = TRUE)
-      lines <- readLines(temporary, encoding = "UTF-8", warn = FALSE)
-      # Converte i percorsi locali dei grafici in indirizzi utilizzabili dal sito.
-      lines <- gsub(paste0(gsub("\\\\", "/", figure_dir), "/"),
-                    paste0("/programmazione-storica/", section, "/_index_files/figure-html/"),
-                    lines, fixed = TRUE)
-      writeLines(enc2utf8(lines), output, useBytes = TRUE)
-      unlink(temporary)
-}
-
-
-update_paesi <- function(project_root = ".", render_index = TRUE, countries = NULL) {
-  pages <- prepare_paesi_section(project_root, "paesi-di-produzione", "country", render_index, countries)
+update_paesi <- function(project_root = ".", countries = NULL) {
+  pages <- prepare_paesi_section(project_root, "paesi-di-produzione", "country", countries)
   write_paesi_pages(pages)
-  if (render_index) render_paesi_index(project_root, "paesi-di-produzione")
   invisible(pages)
 }
 

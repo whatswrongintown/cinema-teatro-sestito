@@ -262,6 +262,10 @@ generate_anni <- function(project_root = ".", years = NULL,
       "---", paste("title: Programmazione", year), "author: Vito Sestito",
       sprintf("date: '%d-01-01'", year), paste0("slug: programmazione-", year),
       paste0("description: Programmazione cinematografica del Cinema Teatro Sestito nel ", year, "."),
+      paste0(
+        "image: \"/", year, "/01/01/programmazione-", year,
+        "/index_files/figure-html/proiezioni-mensili.png\""
+      ),
       "categories:", "  - programmazione-per-anni", "params:",
       paste("  anno:", year), "---", "",
       "<!-- Generato da R/update-anni.R; modificare i dati, non questa pagina. -->", "",
@@ -318,70 +322,14 @@ generate_anni <- function(project_root = ".", years = NULL,
   invisible(pages)
 }
 
-check_anni_section <- function(project_root, section, render_index) {
+check_anni_section <- function(project_root, section) {
   project_root <- normalizePath(project_root, mustWork = TRUE)
   check_anni_packages()
-  packages <- c("tibble", "tidyr", if (render_index) c("tidyverse", "knitr", "here", "viridis"))
-  missing <- packages[!vapply(packages, requireNamespace, logical(1), quietly = TRUE)]
-  if (length(missing)) stop("Pacchetti R mancanti: ", paste(missing, collapse = ", "), call. = FALSE)
-  font <- file.path(project_root, "static", "fonts", "merriweather-v13-latin-regular.woff")
-  if (render_index && !file.exists(font)) {
-    stop("Carattere Merriweather mancante: ", font, call. = FALSE)
-  }
-  root <- file.path(project_root, "content", "programmazione-storica")
-  if (render_index) {
-    read_anni_csv(file.path(project_root, "static", "data", "programmazione_imdb.csv"),
-                  c("Const", "Year", "Title", "Directors", "Genres", "IMDb Rating",
-                    "Num Votes", "Runtime (mins)", "URL"))
-    read_anni_csv(file.path(project_root, "static", "data", "programmazione_paesi.csv"),
-                  c("const", "country", "is_adult"))
-    index <- file.path(root, section, "_index.Rmd")
-    if (!file.exists(index)) {
-      stop("File R Markdown mancante: ", index, call. = FALSE)
-    }
-  }
   invisible(project_root)
 }
 
-render_anni_index <- function(project_root, section) {
-    project_root <- normalizePath(project_root, mustWork = TRUE)
-    root <- file.path(project_root, "content", "programmazione-storica")
-    font <- file.path(project_root, "static", "fonts", "merriweather-v13-latin-regular.woff")
-    previous_chunks <- knitr::opts_chunk$get()
-    previous_knit <- knitr::opts_knit$get()
-    previous_showtext <- showtext::showtext_opts()
-    on.exit({
-      do.call(knitr::opts_chunk$set, previous_chunks)
-      do.call(knitr::opts_knit$set, previous_knit)
-      do.call(showtext::showtext_opts, previous_showtext)
-    }, add = TRUE)
-    # La risoluzione di knitr e showtext deve coincidere per evitare testi ingranditi.
-    knitr::opts_chunk$set(dpi = 96, fig.retina = 1)
-    showtext::showtext_opts(dpi = 96)
-      input <- file.path(root, section, "_index.Rmd")
-      output <- file.path(root, section, "_index.md")
-      figure_dir <- file.path(project_root, "static", "programmazione-storica", section, "_index_files", "figure-html")
-      dir.create(figure_dir, recursive = TRUE, showWarnings = FALSE)
-      knitr::opts_chunk$set(fig.path = paste0(gsub("\\\\", "/", figure_dir), "/"))
-      knitr::opts_knit$set(root.dir = project_root)
-      temporary <- tempfile(fileext = ".md")
-      # Usa i dati del progetto scelto e il font locale invece di scaricarlo.
-      knit_env <- new.env(parent = globalenv())
-      knit_env$here <- function(...) file.path(project_root, ...)
-      knit_env$font_add_google <- function(name, family) sysfonts::font_add(family, font)
-      knitr::knit(input, output = temporary, envir = knit_env, quiet = TRUE)
-      lines <- readLines(temporary, encoding = "UTF-8", warn = FALSE)
-      # Converte i percorsi locali dei grafici in indirizzi utilizzabili dal sito.
-      lines <- gsub(paste0(gsub("\\\\", "/", figure_dir), "/"),
-                    paste0("/programmazione-storica/", section, "/_index_files/figure-html/"),
-                    lines, fixed = TRUE)
-      writeLines(enc2utf8(lines), output, useBytes = TRUE)
-      unlink(temporary)
-}
-
-
-update_anni <- function(project_root = ".", render_index = TRUE, years = NULL) {
-  project_root <- check_anni_section(project_root, "anni", render_index)
+update_anni <- function(project_root = ".", years = NULL) {
+  project_root <- check_anni_section(project_root, "anni")
   data <- load_anni_data(project_root)
   directory <- file.path(project_root, "content", "programmazione-storica", "anni")
   year_dirs <- basename(list.dirs(directory, recursive = FALSE))
@@ -392,7 +340,6 @@ update_anni <- function(project_root = ".", render_index = TRUE, years = NULL) {
             call. = FALSE)
   }
   pages <- generate_anni(project_root = project_root, years = years)
-  if (render_index) render_anni_index(project_root, "anni")
   invisible(pages)
 }
 

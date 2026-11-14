@@ -194,24 +194,81 @@ fonti_prefix <- function(path) {
   prefix[seq_len(max(c(0, which(nzchar(trimws(prefix))))))]
 }
 
-fonti_description <- function(prefix, title) {
-  boundary <- which(prefix == "---")[2]
-  metadata <- yaml::yaml.load(paste(prefix[2:(boundary - 1)], collapse = "\n"))
-  current <- metadata$description
-  if (!is.null(current) && (!is.character(current) || length(current) != 1L ||
-                            is.na(current) || nzchar(trimws(current)))) return(prefix)
-  description <- paste0("Programmazione cinematografica del Cinema Teatro Sestito documentata da ", title, ".")
-  replacement <- strsplit(yaml::as.yaml(list(description = description)), "\n", fixed = TRUE)[[1]]
-  fields <- which(grepl("^description[[:space:]]*:", prefix[seq_len(boundary - 1)]))
-  if (!length(fields)) return(append(prefix, replacement, after = boundary - 1))
-  if (length(fields) != 1L) return(prefix)
-  line_value <- tryCatch(yaml::yaml.load(prefix[fields])$description, error = function(error) NA)
-  if (!identical(current, line_value)) return(prefix)
-  c(prefix[seq_len(fields - 1)], replacement, prefix[seq.int(fields + 1, length(prefix))])
+# Trova la prima immagine nella cartella statica per una fonte
+find_first_image <- function(project_root, date_slug) {
+  # date_slug è nel formato "1948_01_01_calendario_1948"
+  image_dir <- file.path(project_root, "static", "images", date_slug)
+  if (!dir.exists(image_dir)) {
+    return(NA_character_)
+  }
+  
+  # Cerca file immagine (png, jpg, webp)
+  images <- list.files(
+    image_dir,
+    pattern = "\\.(png|jpg|jpeg|webp)$",
+    ignore.case = TRUE,
+    full.names = FALSE
+  )
+  
+  if (length(images) == 0) {
+    return(NA_character_)
+  }
+  
+  # Restituisce il percorso Hugo della prima immagine (in ordine alfabetico)
+  first_image <- sort(images)[1]
+  paste0("/images/", date_slug, "/", first_image)
 }
 
+fonti_description <- function(prefix, title, project_root = NULL, date_slug = NULL) {
+  boundary <- which(prefix == "---")[2]
+  metadata <- yaml::yaml.load(paste(prefix[2:(boundary - 1)], collapse = "\n"))
+  
+  # Mantieni la description e image esistenti se valide
+  new_fields <- list()
+  
+  # Mantieni la description esistente se valida, altrimenti non modificarla
+  current_desc <- metadata$description
+  if (is.character(current_desc) && length(current_desc) == 1L && 
+      !is.na(current_desc) && nzchar(trimws(current_desc))) {
+    # Descrizione già presente, non toccarla
+  }
+  
+  # Aggiungi l'immagine se disponibile
+  if (!is.null(project_root) && !is.null(date_slug)) {
+    image_path <- find_first_image(project_root, date_slug)
+    if (!is.na(image_path)) {
+      new_fields$image <- image_path
+    }
+  }
+  
+  # Se non c'è niente da aggiungere, ritorna il prefix originale
+  if (length(new_fields) == 0) {
+    return(prefix)
+  }
+  
+  # Trova se il campo image esiste già
+  image_line_idx <- which(grepl("^image[[:space:]]*:", prefix[seq_len(boundary - 1)]))
+  
+  if (length(image_line_idx) == 0) {
+    # Image non esiste, aggiungilo prima del marcatore "---" finale
+    # Crea manualmente la riga YAML per l'immagine
+    yaml_lines <- paste0("image: ", new_fields$image)
+    return(append(prefix, yaml_lines, after = boundary - 1))
+  } else if (length(image_line_idx) == 1) {
+    # Image esiste, sostituiscilo
+    new_prefix <- prefix
+    new_prefix[image_line_idx] <- paste0("image: ", new_fields$image)
+    return(new_prefix)
+  }
+  
+  # Se ci sono più di un campo image, non modificare
+  return(prefix)
+}
+
+
+
 # Prepara le pagine di una sezione in memoria, senza ancora scriverle su disco.
-prepare_fonti_pages <- function(data, section, directory, selection = NULL) {
+prepare_fonti_pages <- function(data, section, directory, project_root, selection = NULL) {
   pages <- read_fonti_pages(directory)
   if (anyDuplicated(pages$key)) {
     stop("Titoli duplicati in ", directory, call. = FALSE)
@@ -248,42 +305,30 @@ prepare_fonti_pages <- function(data, section, directory, selection = NULL) {
     page <- pages[index, ]
     rows <- data |>
       dplyr::filter(key == page$key)
-    prefix <- fonti_description(fonti_prefix(page$path), page$title)
+    # Estrae il date_slug dal percorso della cartella
+    # Es: "/path/1948-01-01-calendario-1948/index.md" -> "1948_01_01_calendario_1948"
+    folder_name <- basename(dirname(page$path))
+    date_slug <- gsub("-", "_", folder_name)  # Converte i trattini in underscore
+    prefix <- fonti_description(fonti_prefix(page$path), page$title, project_root, date_slug)
     table <- fonti_source_table(rows)
     list(path = page$path, lines = c(prefix, "<!-- Tabelle generate automaticamente. -->", "", table))
   })
 }
 
-check_fonti_section <- function(project_root, section, render_index) {
+check_fonti_section <- function(project_root, section) {
   project_root <- normalizePath(project_root, mustWork = TRUE)
   check_fonti_packages()
-  packages <- c("tibble", "tidyr", if (render_index) c("tidyverse", "knitr", "here", "viridis"))
+  packages <- c("tibble", "tidyr")
   missing <- packages[!vapply(packages, requireNamespace, logical(1), quietly = TRUE)]
   if (length(missing)) stop("Pacchetti R mancanti: ", paste(missing, collapse = ", "), call. = FALSE)
-  font <- file.path(project_root, "static", "fonts", "merriweather-v13-latin-regular.woff")
-  if (render_index && !file.exists(font)) {
-    stop("Carattere Merriweather mancante: ", font, call. = FALSE)
-  }
-  root <- file.path(project_root, "content", "programmazione-storica")
-  if (render_index) {
-    read_fonti_csv(file.path(project_root, "static", "data", "programmazione_imdb.csv"),
-                  c("Const", "Year", "Title", "Directors", "Genres", "IMDb Rating",
-                    "Num Votes", "Runtime (mins)", "URL"))
-    read_fonti_csv(file.path(project_root, "static", "data", "programmazione_paesi.csv"),
-                  c("const", "country", "is_adult"))
-    index <- file.path(root, section, "_index.Rmd")
-    if (!file.exists(index)) {
-      stop("File R Markdown mancante: ", index, call. = FALSE)
-    }
-  }
   invisible(project_root)
 }
 
-prepare_fonti_section <- function(project_root, section, column, render_index, selection = NULL) {
-  project_root <- check_fonti_section(project_root, section, render_index)
+prepare_fonti_section <- function(project_root, section, column, selection = NULL) {
+  project_root <- check_fonti_section(project_root, section)
   data <- load_fonti_data(project_root, section)
   directory <- file.path(project_root, "content", "programmazione-storica", section)
-  prepare_fonti_pages(split_fonti_values(data, column), section, directory, selection)
+  prepare_fonti_pages(split_fonti_values(data, column), section, directory, project_root, selection)
 }
 
 write_fonti_pages <- function(pages) {
@@ -331,15 +376,11 @@ render_fonti_index <- function(project_root, section) {
 }
 
 
-update_fonti <- function(project_root = ".", render_index = TRUE, sources = NULL) {
-  if (!render_index && is.character(sources) &&
-      any(stringr::str_to_lower(stringr::str_trim(sources)) == "note_su_manifesti", na.rm = TRUE)) {
-    stop("note_su_manifesti richiede render_index = TRUE.", call. = FALSE)
-  }
-  pages <- prepare_fonti_section(project_root, "fonti", "source", render_index, sources)
+update_fonti <- function(project_root = ".", sources = NULL) {
+  pages <- prepare_fonti_section(project_root, "fonti", "source", selection = sources)
   write_fonti_pages(pages)
-  if (render_index) render_fonti_index(project_root, "fonti")
   invisible(pages)
 }
 
-if (sys.nframe() == 0L) update_fonti()
+# Esegui: update_fonti()
+# Oppure per una fonte specifica: update_fonti(sources = "Calendario 1948")
