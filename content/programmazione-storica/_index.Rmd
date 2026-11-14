@@ -63,6 +63,7 @@ La sezione è articolata in più aree tematiche per facilitare la consultazione 
 - 🌍 **[Paesi di produzione](/programmazione-storica/paesi-di-produzione/)** - Pagine che mostrano la provenienza dei film.
 - 🎬 **[Generi](/programmazione-storica/generi/)** - Suddivisione dei film per genere cinematografico, per seguire l’evoluzione dei gusti e delle tendenze.
 
+Per conoscere le fonti, i criteri di identificazione dei film e i limiti dei dati, consulta la [metodologia di ricostruzione della programmazione](/2026/11/11/metodologia-ricostruzione-programmazione/).
 
 ---
 

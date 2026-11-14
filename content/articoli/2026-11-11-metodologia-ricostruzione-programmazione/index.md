@@ -13,7 +13,7 @@ tags:
 ---
 ![Esempio di calendario dove venivano segnati i film](images/hero_image.png)
 
-La ricostruzione della programmazione storica del Cinema è partita da un insieme di documenti conservati nell'archivio di famiglia. Si tratta principalmente di agende, calendari e appunti utilizzati nel corso degli anni per annotare i film proiettati nella sala.
+La ricostruzione della [programmazione storica](/programmazione-storica/) del Cinema è partita da un insieme di documenti conservati nell'archivio di famiglia. Si tratta principalmente di agende, calendari e appunti utilizzati nel corso degli anni per annotare i film proiettati nella sala.
 
 Questi materiali hanno permesso di ricostruire una parte significativa dell'attività del cinema, ma non costituiscono un registro completo delle proiezioni. Per questo motivo, il lavoro non si è limitato alla trascrizione dei titoli: è stato necessario confrontare le diverse fonti, identificare i film, organizzare le informazioni e stabilire criteri per rendere consultabile il materiale, mantenendo traccia delle incertezze e dei limiti della documentazione.
 
@@ -65,7 +65,7 @@ Anche alcune agende delle case di distribuzione contengono materiali di questo t
 
 > ![film destinati alla programmazione](images/film_destinati_alla_programmazione.png)
 
-> Le agende delle [case di distribuzione](/1948-10-01/fincine-1948-49/) riportavano anche informazioni sui film destinati alla programmazione.
+> Le agende delle [case di distribuzione](/1948/10/01/fincine-1948-49/) riportavano anche informazioni sui film destinati alla programmazione.
 
 <!-- FOTO: pagina di un'agenda di una casa di distribuzione con la presentazione dei film. Didascalia: Le agende delle case di distribuzione riportavano anche informazioni sui film destinati alla programmazione. -->
 
@@ -91,7 +91,7 @@ In altre occasioni, una stessa giornata presenta più titoli. Quando le informaz
 
 ## L'identificazione dei film
 
-Per identificare i film sono partito dal titolo così come riportato nelle annotazioni manoscritte. Quando il titolo era sufficientemente leggibile, ho utilizzato la ricerca avanzata di IMDb, limitando i risultati ai film usciti nell'anno della fonte o negli anni precedenti.
+Per identificare i film sono partito dal titolo così come riportato nelle annotazioni manoscritte. Quando il titolo era sufficientemente leggibile, ho utilizzato la [ricerca avanzata di IMDb](https://www.imdb.com/search/title/), limitando i risultati ai film usciti nell'anno della fonte o negli anni precedenti.
 
 L'anno riportato sull'agenda è stato considerato un limite temporale superiore, non necessariamente l'anno di uscita del film. La programmazione estiva delle sale poteva infatti includere anche pellicole distribuite nelle stagioni precedenti, riproposte al pubblico dopo qualche tempo.
 
@@ -109,7 +109,7 @@ Le scansioni dei documenti sono disponibili nella sezione [Fonti](/programmazion
 
 Una volta identificati i film, ho utilizzato gli identificativi IMDb per collegare al database alcune informazioni aggiuntive. L'IMDb ID, cioè il codice identificativo assegnato da IMDb a ciascun film, è stato utilizzato come chiave per associare le informazioni provenienti dalle diverse fonti.
 
-I collegamenti alle schede dei film, i generi e le valutazioni sono stati ricavati da IMDb, mentre i paesi di produzione sono stati ottenuti tramite OMDb API. Questi dati non sono quindi trascrizioni delle agende, ma metadati aggiunti successivamente per arricchire le informazioni e consentire una lettura più articolata della programmazione.
+I collegamenti alle schede dei film, i generi e le valutazioni sono stati ricavati da IMDb, mentre i paesi di produzione sono stati ottenuti tramite [OMDb API](https://www.omdbapi.com/). Questi dati non sono quindi trascrizioni delle agende, ma metadati aggiunti successivamente per arricchire le informazioni e consentire una lettura più articolata della programmazione.
 
 Le tabelle e i grafici presenti nel sito rappresentano le voci registrate nel database, non il numero effettivo delle proiezioni. Se un film compare in più date, viene conteggiato più volte, una per ciascuna voce. Tuttavia, le fonti non permettono di stabilire in modo sistematico quante proiezioni dello stesso film siano state effettuate nell'arco di una giornata.
 
