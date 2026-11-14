@@ -9,8 +9,8 @@ tags:
 - Programmazione
 description: Film prodotti in France nella programmazione del Cinema Teatro Sestito,
   suddivisi per anno.
+image: "/programmazione-storica/paesi-di-produzione/_index_files/figure-html/unnamed-chunk-1-1.png"
 ---
-
 <!-- Tabelle generate automaticamente. -->
 
 ### 1948
