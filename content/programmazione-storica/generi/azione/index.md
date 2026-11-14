@@ -9,8 +9,8 @@ tags:
 - Programmazione
 description: Film di genere Azione nella programmazione del Cinema Teatro Sestito,
   suddivisi per anno.
+image: "/programmazione-storica/generi/_index_files/figure-html/unnamed-chunk-1-1.png"
 ---
-
 <!-- Tabelle generate automaticamente. -->
 
 ### 1948
