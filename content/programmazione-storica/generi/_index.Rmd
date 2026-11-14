@@ -3,6 +3,7 @@ title: "Generi cinematografici"
 author: "Vito Sestito"
 date: '2025-12-02'
 description: "Consulta la programmazione del Cinema Sestito organizzata per generi cinematografici"
+image: "/programmazione-storica/generi/_index_files/figure-html/unnamed-chunk-1-1.png"
 slug: "generi"
 type: "programmazione-storica/generi"
 ---

@@ -3,6 +3,7 @@ title: "Paesi di produzione"
 author: "Vito Sestito"
 date: '2025-12-02'
 description: "Consulta la programmazione del Cinema Sestito organizzata per paesi di produzione"
+image: "/programmazione-storica/paesi-di-produzione/_index_files/figure-html/unnamed-chunk-1-1.png"
 slug: "paesi-di-produzione"
 type: "programmazione-storica/paesi-di-produzione"
 ---
