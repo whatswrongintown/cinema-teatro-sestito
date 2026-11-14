@@ -4,6 +4,7 @@ author: Vito Sestito
 date: '1971-01-01'
 slug: programmazione-1971
 description: Programmazione cinematografica del Cinema Teatro Sestito nel 1971.
+image: "/1971/01/01/programmazione-1971/index_files/figure-html/proiezioni-mensili.png"
 categories:
   - programmazione-per-anni
 params:

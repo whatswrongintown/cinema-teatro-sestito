@@ -4,6 +4,7 @@ author: Vito Sestito
 date: '1963-01-01'
 slug: programmazione-1963
 description: Programmazione cinematografica del Cinema Teatro Sestito nel 1963.
+image: "/1963/01/01/programmazione-1963/index_files/figure-html/proiezioni-mensili.png"
 categories:
   - programmazione-per-anni
 params:

@@ -4,6 +4,7 @@ author: Vito Sestito
 date: '1966-01-01'
 slug: programmazione-1966
 description: Programmazione cinematografica del Cinema Teatro Sestito nel 1966.
+image: "/1966/01/01/programmazione-1966/index_files/figure-html/proiezioni-mensili.png"
 categories:
   - programmazione-per-anni
 params:

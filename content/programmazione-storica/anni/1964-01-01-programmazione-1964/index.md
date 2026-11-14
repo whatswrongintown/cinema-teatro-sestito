@@ -4,6 +4,7 @@ author: Vito Sestito
 date: '1964-01-01'
 slug: programmazione-1964
 description: Programmazione cinematografica del Cinema Teatro Sestito nel 1964.
+image: "/1964/01/01/programmazione-1964/index_files/figure-html/proiezioni-mensili.png"
 categories:
   - programmazione-per-anni
 params:

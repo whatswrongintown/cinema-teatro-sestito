@@ -4,6 +4,7 @@ author: Vito Sestito
 date: '1948-01-01'
 slug: programmazione-1948
 description: Programmazione cinematografica del Cinema Teatro Sestito nel 1948.
+image: "/1948/01/01/programmazione-1948/index_files/figure-html/proiezioni-mensili.png"
 categories:
   - programmazione-per-anni
 params:

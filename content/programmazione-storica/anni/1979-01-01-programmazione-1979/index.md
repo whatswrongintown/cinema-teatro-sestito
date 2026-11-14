@@ -4,6 +4,7 @@ author: Vito Sestito
 date: '1979-01-01'
 slug: programmazione-1979
 description: Programmazione cinematografica del Cinema Teatro Sestito nel 1979.
+image: "/1979/01/01/programmazione-1979/index_files/figure-html/proiezioni-mensili.png"
 categories:
   - programmazione-per-anni
 params:

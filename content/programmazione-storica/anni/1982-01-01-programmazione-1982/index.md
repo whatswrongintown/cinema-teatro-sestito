@@ -4,6 +4,7 @@ author: Vito Sestito
 date: '1982-01-01'
 slug: programmazione-1982
 description: Programmazione cinematografica del Cinema Teatro Sestito nel 1982.
+image: "/1982/01/01/programmazione-1982/index_files/figure-html/proiezioni-mensili.png"
 categories:
   - programmazione-per-anni
 params:

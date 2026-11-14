@@ -4,6 +4,7 @@ author: Vito Sestito
 date: '1993-01-01'
 slug: programmazione-1993
 description: Programmazione cinematografica del Cinema Teatro Sestito nel 1993.
+image: "/1993/01/01/programmazione-1993/index_files/figure-html/proiezioni-mensili.png"
 categories:
   - programmazione-per-anni
 params:

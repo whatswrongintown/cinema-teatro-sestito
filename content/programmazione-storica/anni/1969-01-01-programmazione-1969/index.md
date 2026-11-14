@@ -4,6 +4,7 @@ author: Vito Sestito
 date: '1969-01-01'
 slug: programmazione-1969
 description: Programmazione cinematografica del Cinema Teatro Sestito nel 1969.
+image: "/1969/01/01/programmazione-1969/index_files/figure-html/proiezioni-mensili.png"
 categories:
   - programmazione-per-anni
 params:

@@ -4,6 +4,7 @@ author: Vito Sestito
 date: '2001-01-01'
 slug: programmazione-2001
 description: Programmazione cinematografica del Cinema Teatro Sestito nel 2001.
+image: "/2001/01/01/programmazione-2001/index_files/figure-html/proiezioni-mensili.png"
 categories:
   - programmazione-per-anni
 params:

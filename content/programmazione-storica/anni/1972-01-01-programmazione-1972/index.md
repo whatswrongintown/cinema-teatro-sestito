@@ -4,6 +4,7 @@ author: Vito Sestito
 date: '1972-01-01'
 slug: programmazione-1972
 description: Programmazione cinematografica del Cinema Teatro Sestito nel 1972.
+image: "/1972/01/01/programmazione-1972/index_files/figure-html/proiezioni-mensili.png"
 categories:
   - programmazione-per-anni
 params:

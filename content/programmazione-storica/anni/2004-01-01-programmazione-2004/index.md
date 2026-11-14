@@ -4,6 +4,7 @@ author: Vito Sestito
 date: '2004-01-01'
 slug: programmazione-2004
 description: Programmazione cinematografica del Cinema Teatro Sestito nel 2004.
+image: "/2004/01/01/programmazione-2004/index_files/figure-html/proiezioni-mensili.png"
 categories:
   - programmazione-per-anni
 params:
