@@ -4,13 +4,14 @@ description: "Ricostruzione degli anni 1957-1979 del Cinema Teatro Sestito: cost
 author: Vito Sestito
 date: '2025-11-05'
 slug: gli-anni-d-oro-del-cinema-teatro-sestito
-image: "/2025/11/05/gli-anni-d-oro-del-cinema-teatro-sestito/images/1957_progetto_cinema_via_doria.webp"
+image: "/2025/11/05/gli-anni-d-oro-del-cinema-teatro-sestito/images/cinema_via_doria_ai.png"
 categories:
   - Storia
 tags: ["San Vito sullo Ionio", "storia locale", "cinema di paese"]
 ---
 
 
+![Ciname originale in Via Doria ricreato con l'AI](images/cinema_via_doria_ai.png)
 
 Il periodo compreso tra il 1957 e il 1979 rappresenta per il *Cinema Sestito* la fase di massimo splendore e, al tempo stesso, l’inizio di un lento declino. Dopo gli anni pionieristici della fondazione[^1], il cinema di San Vito sullo Ionio divenne un punto di riferimento culturale e sociale per l’intera area limitrofa, accogliendo un numero crescente di spettatori e consolidando la propria funzione di luogo d’incontro e di modernità.
 
