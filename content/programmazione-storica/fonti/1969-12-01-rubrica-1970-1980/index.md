@@ -6,6 +6,7 @@ slug: rubrica-1970-1980
 categories:
   - Rubriche
 description: Rubriche dove i film venivano annotati in ordine alfabetico, con data di proiezione e distributore.
+image: /images/1969_12_01_rubrica_1970_1980/1970_01_01_rubrica_fratelli_de_leon_1970_1980_01.png
 ---
 
 

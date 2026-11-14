@@ -6,6 +6,7 @@ slug: lorraine-1969-70
 categories:
   - Agende
 description: Agende cinematografiche fornite dalle case distributrici. Contengono informazioni dettagliate sulla data di proiezione, titolo del film, distributore e l’ammontare degli incassi.
+image: /images/1969_11_01_lorraine_1969_70/1969_11_01_lorraine_1969_70_01.png
 ---
 
 

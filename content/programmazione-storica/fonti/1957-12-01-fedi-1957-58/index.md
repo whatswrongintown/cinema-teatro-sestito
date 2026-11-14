@@ -6,6 +6,7 @@ slug: fedi-1957-58
 categories:
   - Agende
 description: Agende cinematografiche fornite dalle case distributrici. Contengono informazioni dettagliate sulla data di proiezione, titolo del film, distributore e l’ammontare degli incassi.
+image: /images/1957_12_01_fedi_1957_58/1957_12_01_fedi_1957_58_01.png
 ---
 
 

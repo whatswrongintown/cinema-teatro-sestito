@@ -6,6 +6,7 @@ slug: prevost-1977-78
 categories:
   - Agende
 description: Agende cinematografiche fornite dalle case distributrici. Contengono informazioni dettagliate sulla data di proiezione, titolo del film, distributore e l’ammontare degli incassi.
+image: /images/1977_11_01_prevost_1977_78/1977_11_01_prevost_1977_78_01.png
 ---
 
 

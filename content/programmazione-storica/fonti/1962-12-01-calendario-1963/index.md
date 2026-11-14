@@ -6,6 +6,7 @@ slug: calendario-1963
 categories:
   - Calendari
 description: Calendari murali o da tavolo legati all’attività del cinema. Indicano la data di proiezione e il titolo dei film, insieme agli incassi registrati.
+image: /images/1962_12_01_calendario_1963/1962_12_01_calendario_proiezioni_01.png
 ---
 
 

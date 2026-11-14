@@ -6,6 +6,7 @@ slug: rubrica-1972
 categories:
   - Rubriche
 description: Rubriche dove i film venivano annotati in ordine alfabetico, con data di proiezione e distributore.
+image: /images/1971_12_01_rubrica_1972/1972_01_01_rubrica_fratelli_de_leon_01.png
 ---
 
 

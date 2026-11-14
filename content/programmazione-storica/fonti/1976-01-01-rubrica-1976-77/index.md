@@ -6,6 +6,7 @@ slug: rubrica-1976-77
 categories:
   - Rubriche
 description: Rubriche dove i film venivano annotati in ordine alfabetico, con data di proiezione e distributore.
+image: /images/1976_01_01_rubrica_1976_77/1976_01_01_rubrica_fratelli_de_leon_1976_77_01.png
 ---
 
 

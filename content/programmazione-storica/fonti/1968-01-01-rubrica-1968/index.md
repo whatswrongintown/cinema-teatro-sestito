@@ -6,6 +6,7 @@ slug: rubrica-1968
 categories:
   - Rubriche
 description: Rubriche dove i film venivano annotati in ordine alfabetico, con data di proiezione e distributore.
+image: /images/1968_01_01_rubrica_1968/1968_01_01_rubrica_fratelli_de_leon_01.png
 ---
 
 

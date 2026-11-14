@@ -6,6 +6,7 @@ slug: calendario-1972
 categories:
   - Calendari
 description: Calendari murali o da tavolo legati all’attività del cinema. Indicano la data di proiezione e il titolo dei film, insieme agli incassi registrati.
+image: /images/1971_12_01_calendario_1972/1972_01_01_calendario_proiezioni_01.png
 ---
 
 

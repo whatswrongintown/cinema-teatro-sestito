@@ -6,6 +6,7 @@ slug: rubrica-1982-83
 categories:
   - Rubriche
 description: Rubriche dove i film venivano annotati in ordine alfabetico, con data di proiezione e distributore.
+image: /images/1982_01_01_rubrica_1982_83/1982_01_01_rubrica_fratelli_de_leon_1982_83_01.png
 ---
 
 

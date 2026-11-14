@@ -6,6 +6,7 @@ slug: fedi-1953-54
 categories:
   - Agende
 description: Agende cinematografiche fornite dalle case distributrici. Contengono informazioni dettagliate sulla data di proiezione, titolo del film, distributore e l’ammontare degli incassi.
+image: /images/1953_12_01_fedi_1953_54/1953_12_01_fedi_1953_54_01.png
 ---
 
 

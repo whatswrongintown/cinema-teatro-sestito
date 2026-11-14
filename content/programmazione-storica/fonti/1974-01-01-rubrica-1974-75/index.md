@@ -6,6 +6,7 @@ slug: rubrica-1974-75
 categories:
   - Rubriche
 description: Rubriche dove i film venivano annotati in ordine alfabetico, con data di proiezione e distributore.
+image: /images/1974_01_01_rubrica_1974_75/1974_01_01_rubrica_fratelli_de_leon_1974_75_01.png
 ---
 
 

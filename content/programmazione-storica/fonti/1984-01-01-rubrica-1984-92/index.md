@@ -6,6 +6,7 @@ slug: rubrica-1984-92
 categories:
   - Rubriche
 description: Rubriche dove i film venivano annotati in ordine alfabetico, con data di proiezione e distributore.
+image: /images/1984_01_01_rubrica_1984_92/1984_01_01_rubrica_1984_92_01.png
 ---
 
 

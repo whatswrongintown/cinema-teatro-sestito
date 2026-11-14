@@ -6,6 +6,7 @@ slug: rubrica-1971
 categories:
   - Rubriche
 description: Rubriche dove i film venivano annotati in ordine alfabetico, con data di proiezione e distributore.
+image: /images/1970_12_01_rubrica_1971/1971_01_01_rubrica_fratelli_de_leon_01.png
 ---
 
 

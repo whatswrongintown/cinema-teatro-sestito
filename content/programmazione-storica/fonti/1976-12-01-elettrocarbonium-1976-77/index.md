@@ -6,6 +6,7 @@ slug: elettrocarbonium-1976-77
 categories:
   - Agende
 description: Agende cinematografiche fornite dalle case distributrici. Contengono informazioni dettagliate sulla data di proiezione, titolo del film, distributore e l’ammontare degli incassi.
+image: /images/1976_12_01_elettrocarbonium_1976_77/1976_12_01_elettrocarbonium_1976_77_01.png
 ---
 
 

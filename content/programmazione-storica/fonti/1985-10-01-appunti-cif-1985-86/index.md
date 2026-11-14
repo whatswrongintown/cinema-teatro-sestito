@@ -6,6 +6,7 @@ slug: appunti-cif-1985-86
 categories:
   - Appunti
 description: Appunti su blocchi o fogli, con i film registrati per mese. Riportano gli incassi dei film quando disponibili.
+image: /images/1985_10_01_appunti_cif_1985_86/1985_10_01_appunti_cif_1985_86_01.png
 ---
 
 

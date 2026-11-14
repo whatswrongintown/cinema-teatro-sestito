@@ -6,6 +6,7 @@ slug: appunti-victory-2000
 categories:
   - Appunti
 description: Appunti su blocchi o fogli, con i film registrati per mese. Riportano gli incassi dei film quando disponibili.
+image: /images/2000_09_01_appunti_victory_2000/2000_09_01_appunti_victory_2000_04_01.png
 ---
 
 

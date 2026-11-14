@@ -6,6 +6,7 @@ slug: fedi-1960-61
 categories:
   - Agende
 description: Agende cinematografiche fornite dalle case distributrici. Contengono informazioni dettagliate sulla data di proiezione, titolo del film, distributore e l’ammontare degli incassi.
+image: /images/1960_10_01_fedi_1960_61/1960_10_01_fedi_1960_61_01.png
 ---
 
 

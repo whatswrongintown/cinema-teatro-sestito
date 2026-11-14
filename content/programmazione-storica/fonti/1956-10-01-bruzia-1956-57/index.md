@@ -6,6 +6,7 @@ slug: bruzia-1956-57
 categories:
   - Agende
 description: Agende cinematografiche fornite dalle case distributrici. Contengono informazioni dettagliate sulla data di proiezione, titolo del film, distributore e l’ammontare degli incassi.
+image: /images/1956_10_01_bruzia_1956_57/1956_10_01_bruzia_1956_57_01.png
 ---
 
 

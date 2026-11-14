@@ -6,6 +6,7 @@ slug: incam-1948-49
 categories:
   - Agende
 description: Agende cinematografiche fornite dalle case distributrici. Contengono informazioni dettagliate sulla data di proiezione, titolo del film, distributore e l’ammontare degli incassi.
+image: /images/1948_10_01_incam_1948_49/1948_10_01_incam_1948_49_01.png
 ---
 
 

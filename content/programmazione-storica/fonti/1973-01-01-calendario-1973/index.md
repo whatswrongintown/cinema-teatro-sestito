@@ -6,6 +6,7 @@ slug: calendario-1973
 categories:
   - Calendari
 description: Calendari murali o da tavolo legati all’attività del cinema. Indicano la data di proiezione e il titolo dei film, insieme agli incassi registrati.
+image: /images/1973_01_01_calendario_1973/1973_01_01_calendario_proiezioni_01.png
 ---
 
 

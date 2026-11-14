@@ -6,6 +6,7 @@ slug: fedi-1975-76
 categories:
   - Agende
 description: Agende cinematografiche fornite dalle case distributrici. Contengono informazioni dettagliate sulla data di proiezione, titolo del film, distributore e l’ammontare degli incassi.
+image: /images/1975_11_01_fedi_1975_76/1975_11_01_fedi_1975_76_01.png
 ---
 
 

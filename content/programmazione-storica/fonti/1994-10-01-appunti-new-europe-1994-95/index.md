@@ -6,6 +6,7 @@ slug: appunti-new-europe-1994-95
 categories:
   - Appunti
 description: Appunti su blocchi o fogli, con i film registrati per mese. Riportano gli incassi dei film quando disponibili.
+image: /images/1994_10_01_appunti_new_europe_1994_95/1994_10_01_appunti_new_europe_1994_95_01.png
 ---
 
 

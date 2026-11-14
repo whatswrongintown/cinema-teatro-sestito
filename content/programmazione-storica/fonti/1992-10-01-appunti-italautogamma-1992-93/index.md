@@ -6,6 +6,7 @@ slug: appunti-italautogamma-1992-93
 categories:
   - Appunti
 description: Appunti su blocchi o fogli, con i film registrati per mese. Riportano gli incassi dei film quando disponibili.
+image: /images/1992_10_01_appunti_italautogamma_1992_93/1992_09_01_appunti_italautogamma_1992_93_01.png
 ---
 
 

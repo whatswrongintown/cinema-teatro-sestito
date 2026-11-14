@@ -6,6 +6,7 @@ slug: rubrica-1969-1981
 categories:
   - Rubriche
 description: Rubriche dove i film venivano annotati in ordine alfabetico, con data di proiezione e distributore.
+image: /images/1968_12_01_rubrica_1969_1981/1969_01_01_rubrica_fratelli_de_leon_1969_1981_01.png
 ---
 
 

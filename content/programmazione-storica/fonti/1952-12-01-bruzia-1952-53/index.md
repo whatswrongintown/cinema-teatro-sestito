@@ -6,6 +6,7 @@ slug: bruzia-1952-53
 categories:
   - Agende
 description: Agende cinematografiche fornite dalle case distributrici. Contengono informazioni dettagliate sulla data di proiezione, titolo del film, distributore e l’ammontare degli incassi.
+image: /images/1952_12_01_bruzia_1952_53/1952_12_01_bruzia_1952_53_01.png
 ---
 
 

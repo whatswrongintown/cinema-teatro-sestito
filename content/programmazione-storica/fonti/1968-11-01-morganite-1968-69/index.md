@@ -6,6 +6,7 @@ slug: morganite-1968-69
 categories:
   - Agende
 description: Agende cinematografiche fornite dalle case distributrici. Contengono informazioni dettagliate sulla data di proiezione, titolo del film, distributore e l’ammontare degli incassi.
+image: /images/1968_11_01_morganite_1968_69/1968_11_01_morganite_1968_69_01.png
 ---
 
 

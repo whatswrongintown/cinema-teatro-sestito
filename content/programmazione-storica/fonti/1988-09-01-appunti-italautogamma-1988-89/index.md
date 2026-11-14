@@ -6,6 +6,7 @@ slug: appunti-italautogamma-1988-89
 categories:
   - Appunti
 description: Appunti su blocchi o fogli, con i film registrati per mese. Riportano gli incassi dei film quando disponibili.
+image: /images/1988_09_01_appunti_italautogamma_1988_89/1988_09_01_appunti_italautogamma_1988_89_01.png
 ---
 
 

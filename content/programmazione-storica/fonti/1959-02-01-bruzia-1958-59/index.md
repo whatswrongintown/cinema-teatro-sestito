@@ -6,6 +6,7 @@ slug: bruzia-1958-59
 categories:
   - Agende
 description: Agende cinematografiche fornite dalle case distributrici. Contengono informazioni dettagliate sulla data di proiezione, titolo del film, distributore e l’ammontare degli incassi.
+image: /images/1959_02_01_bruzia_1958_59/1959_02_01_bruzia_1958_59_01.png
 ---
 
 

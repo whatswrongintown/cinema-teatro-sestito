@@ -6,6 +6,7 @@ slug: calendario-2003
 categories:
   - Calendari
 description: Calendari murali o da tavolo legati all’attività del cinema. Indicano la data di proiezione e il titolo dei film, insieme agli incassi registrati.
+image: /images/2003_01_01_calendario_2003/2003_01_01_calendario_proiezioni_01.png
 ---
 
 

@@ -6,6 +6,7 @@ slug: rapidtransport-1964
 categories:
   - Agende
 description: Agende cinematografiche fornite dalle case distributrici. Contengono informazioni dettagliate sulla data di proiezione, titolo del film, distributore e l’ammontare degli incassi.
+image: /images/1964_01_01_rapidtransport_1964/1964_01_01_rapidtransport_01.png
 ---
 
 

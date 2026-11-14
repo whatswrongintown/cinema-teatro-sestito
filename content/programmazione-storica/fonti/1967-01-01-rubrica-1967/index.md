@@ -6,6 +6,7 @@ slug: rubrica-1967
 categories:
   - Rubriche
 description: Rubriche dove i film venivano annotati in ordine alfabetico, con data di proiezione e distributore.
+image: /images/1967_01_01_rubrica_1967/1967_01_01_rubrica_01.png
 ---
 
 
