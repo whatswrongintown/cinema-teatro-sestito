@@ -4,14 +4,6 @@ The [Cinema Teatro Sestito website](https://cinemateatrosestito.com/) documents 
 
 The site uses [Hugo](https://gohugo.io/), [R](https://www.r-project.org/) and [blogdown](https://github.com/rstudio/blogdown). It uses Hugo 0.136.5 and a theme derived from [hugo-lithium-theme](https://github.com/jrutheiser/hugo-lithium-theme), modified by Yihui Xie.
 
-## Preview
-
-Open the RStudio project and run:
-
-```r
-blogdown::serve_site()
-```
-
 ## R Environment
 
 The project uses `renv` to record R package versions in `renv.lock`. Open the
@@ -28,58 +20,71 @@ packages are not already cached. `renv` does not install R itself. Netlify
 builds the existing Markdown files and assets with Hugo; it does not restore R
 packages or knit `.Rmd` files.
 
+## Preview
+
+Open the RStudio project and run:
+
+```r
+blogdown::serve_site()
+```
+
 ## Update Historical Programming
 
-The database consists of three CSV files in [static/data/](static/data/): screenings and sources (`programmazione_agende.csv`), IMDb film details and genres (`programmazione_imdb.csv`), and production countries (`programmazione_paesi.csv`).
+The database consists of three CSV files in [static/data/](static/data/):
 
-After updating the CSV files, run the following from the project root:
+- `programmazione_agende.csv`: screenings and sources.
+- `programmazione_imdb.csv`: IMDb film details and genres.
+- `programmazione_paesi.csv`: production countries.
+
+### Update all sections
+
+After updating the CSV files, run this from the project root:
 
 ```r
 source("R/update-programmazione-storica.R")
 update_programmazione_storica()
 ```
 
-This updates the year pages and charts, source tables, genre and country pages, and section indexes. New sources need an existing source page with a title matching the `source` value in the database, except for `note_su_manifesti`. Add that value to the same `source` column, separated by commas when there are multiple sources. Its screenings appear directly on the sources index, grouped by year and month, without a separate source page.
+This updates annual pages and charts, source tables, and genre and country pages.
 
-To update just one section, run the corresponding file from the project root:
+### Update individual sections or pages
 
-```text
-Rscript R/update-anni.R
-Rscript R/update-fonti.R
-Rscript R/update-generi.R
-Rscript R/update-paesi.R
-```
-
-Each section script is independent and updates only its section and index. The full-update script calls all four. In R, source the relevant file and call `update_anni()`, `update_fonti()`, `update_generi()`, or `update_paesi()`. Pass `render_index = FALSE` to skip that section's index; `update_anni(years = c(1948, 1960))` limits the annual pages to selected years.
-
-To update specific pages, use their titles or database values. Names are case-insensitive, and multiple names can be supplied:
+From the project root, source the relevant script and call its function. With no selection, it updates all pages in that section. Alternatively, supply years or page titles/database values to update only those pages:
 
 ```r
+source("R/update-anni.R")
+update_anni()                              # All years
+update_anni(years = c(1948, 1960))         # Selected years
+
 source("R/update-fonti.R")
-update_fonti(sources = "Calendario 1951", render_index = FALSE)
-update_fonti(sources = c("Incam 1948-49", "Calendario 1951"), render_index = FALSE)
+update_fonti()                             # All sources
+update_fonti(sources = c("Incam 1948-49", "Calendario 1951"))
+
 source("R/update-generi.R")
-update_generi(genres = "Commedia", render_index = FALSE)
+update_generi()                            # All genres
+update_generi(genres = "Commedia")
+
 source("R/update-paesi.R")
-update_paesi(countries = "Italy", render_index = FALSE)
-source("R/update-anni.R")
-update_anni(years = c(1948, 1960), render_index = FALSE)
+update_paesi()                             # All countries
+update_paesi(countries = "Italy")
 ```
 
-With `render_index = FALSE`, only the selected pages are updated. By default, the entire section index and its charts are also regenerated from all the data. To update the poster-note table, which is part of the sources index rather than a separate page, use `update_fonti(sources = "note_su_manifesti")` with index rendering enabled.
+Names are case-insensitive, and multiple names can be supplied. The annual, genre and country scripts can also be run directly with `Rscript R/update-anni.R`, `Rscript R/update-generi.R` or `Rscript R/update-paesi.R`.
 
-Generated pages, tables, charts and indexes are overwritten. Edit index text in the corresponding `_index.Rmd` files, and review it when the data changes: the script does not rewrite the interpretation. Old year pages and charts are not deleted automatically.
+### Sources and section indexes
 
-Annual pages receive a year-specific description. Source pages without a description receive one based on the source title; existing source descriptions are preserved. New genre and country pages receive title-specific descriptions, and the previous generic generated descriptions are replaced during updates. Custom descriptions are preserved.
+New sources need an existing source page whose title matches the database's `source` value. Separate multiple sources in that column with commas. The exception is `note_su_manifesti`: its screenings appear in the sources index, grouped by year and month, rather than on a separate page.
 
-Genre and country pages use stable, section-based URLs (for example, `/programmazione-storica/generi/commedia/`) instead of deriving their URLs from a placeholder date. When an existing page is migrated, its previous dated URL is retained as a Hugo alias.
+The update scripts do not render section indexes. To update an index and its charts, knit its `_index.Rmd` separately in RStudio. Edit and review the index text there when data changes; the scripts do not rewrite its interpretation.
 
-To regenerate all annual pages and their charts without updating other sections:
+### Generated content and metadata
 
-```r
-source("R/update-anni.R")
-update_anni()
-```
+Generated pages, tables and annual charts are overwritten; old annual pages and charts are not deleted automatically.
+
+- Annual pages receive year-specific descriptions and use their monthly chart as the YAML `image`.
+- Source descriptions are preserved. When available, the first image in the corresponding static folder is used as the YAML `image`.
+- New genre and country pages receive title-specific descriptions; previous generic descriptions are replaced, while custom descriptions are preserved. Their YAML `image` points to the first chart of the corresponding section.
+- Genre and country pages use stable, section-based URLs (for example, `/programmazione-storica/generi/commedia/`). When an existing page is migrated, its previous dated URL is retained as a Hugo alias.
 
 ## License
 
