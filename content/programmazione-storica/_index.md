@@ -9,7 +9,7 @@ image: "/programmazione-storica/_index_files/avvolgitore_prevost.jpg"
 
 
 
-![](/programmazione-storica/_index_files/avvolgitore_prevost.jpg)
+![Avvolgitore cinematografico Prevost](/programmazione-storica/_index_files/avvolgitore_prevost.jpg)
 
 La **programmazione cinematografica** del cinema Sestito costituisce una delle componenti centrali dell’archivio documentario, offrendo una testimonianza diretta della vita culturale e sociale di San Vito sullo Ionio nel secondo dopoguerra. Attraverso l’analisi di fonti primarie - tra cui registri, appunti, e calendari - è stato possibile ricostruire, anno per anno, l’offerta filmica della sala e le sue trasformazioni nel tempo.
 

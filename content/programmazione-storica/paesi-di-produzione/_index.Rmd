@@ -55,7 +55,7 @@ df <- proiezioni %>%
 
 L’analisi dei paesi di produzione dei film proiettati al cinema Sestito consente di osservare l’evoluzione delle dinamiche industriali e distributive. Il *primo grafico* presenta un confronto percentuale tra film italiani ed esteri aggregato per decennio, mettendo in evidenza alcune tendenze strutturali decisive per comprendere la storia della sala e il suo rapporto con il sistema produttivo nazionale.
 
-```{r italia-estero-per-decennio, echo=FALSE, warning=FALSE, fig.width=8, fig.height=3}
+```{r italia-estero-per-decennio, echo=FALSE, warning=FALSE, fig.width=8, fig.height=3, fig.alt="Percentuale di film italiani ed esteri per decennio"}
 # Crea una variabile logica: TRUE se tra i paesi c'è l'Italia
 films_italia <- df %>%
           separate_rows(country, sep = ",") %>%
@@ -89,7 +89,7 @@ Un ulteriore elemento rilevante riguarda la natura delle coproduzioni internazio
 
 Per offrire una prospettiva complementare, il *secondo grafico* mostra il numero di paesi produttori rappresentati in ciascun decennio. Questo indicatore consente di valutare la diversità geografica dell’offerta cinematografica della sala al di là del confronto Italia/estero. Il grafico evidenzia un andamento curvilineo: un primo periodo in cui la programmazione comprende film provenienti da circa 10–20 paesi (anni ’40–’50), seguito da un ampliamento significativo negli anni ’60 e soprattutto negli anni ’70, quando si raggiunge il massimo di circa 50 paesi rappresentati. Tale espansione riflette la crescente globalizzazione del mercato, l’intensificarsi delle coproduzioni internazionali e l’arrivo di film provenienti da aree extraeuropee.
 
-```{r paesi-per-decennio, echo=FALSE, warning=FALSE, fig.width=8, fig.height=3}
+```{r paesi-per-decennio, echo=FALSE, warning=FALSE, fig.width=8, fig.height=3, fig.alt="Numero di paesi di produzione rappresentati per decennio"}
 df %>%
   # Se country contiene più paesi, separali in righe distinte
   mutate(country = str_split(country, ",")) %>%

@@ -10,7 +10,7 @@ image: "/programmazione-storica/fonti/_index_files/agenda_fedi_54_55.webp"
 
 
 
-![](/programmazione-storica/fonti/_index_files/agenda_fedi_54_55.webp)
+![Copertina del calendario di programmazione Fedi 1954-1955](/programmazione-storica/fonti/_index_files/agenda_fedi_54_55.webp)
 Questa sezione raccoglie e descrive le diverse **fonti originali** che hanno permesso di ricostruire la programmazione cinematografica.
 
 Le principali tipologie di fonti sono:
@@ -21,7 +21,7 @@ Le principali tipologie di fonti sono:
 4. ✍️  **[Appunti](/categories/appunti/)**, blocchi o fogli sciolti su cui erano annotati i film mese per mese, talvolta accompagnati dai relativi incassi.
 5. 🎞️ **[Note sui manifesti](/categories/note-sui-manifesti/)**, date di proiezione annotate sul retro dei manifesti cinematografici; i film sono elencati per anno e mese.
 
-<img src="/programmazione-storica/fonti/_index_files/figure-html/unnamed-chunk-1-1.png" alt="" width="768" />
+<img src="/programmazione-storica/fonti/_index_files/figure-html/unnamed-chunk-1-1.png" alt="Presenza delle tipologie di fonti per decennio" width="768" />
 
 ---
 
