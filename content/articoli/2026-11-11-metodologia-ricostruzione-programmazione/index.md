@@ -4,12 +4,14 @@ author: "Vito Sestito"
 date: "2026-11-11"
 description: "Fonti, criteri di identificazione dei film e limiti della ricostruzione della programmazione del Cinema Teatro Sestito."
 slug: "metodologia-ricostruzione-programmazione"
+image: "/2026/11/11/metodologia-ricostruzione-programmazione/images/hero_image.png"
 categories:
   - Ricerca storica
 tags:
   - Programmazione
   - Fonti
 ---
+![Esempio di calendario dove venivano segnati i film](images/hero_image.png)
 
 La ricostruzione della programmazione storica del Cinema è partita da un insieme di documenti conservati nell'archivio di famiglia. Si tratta principalmente di agende, calendari e appunti utilizzati nel corso degli anni per annotare i film proiettati nella sala.
 
@@ -33,7 +35,9 @@ Anche le modalità di registrazione mostrano una certa continuità. Mio padre ha
 
 La lettura dei titoli non è sempre stata immediata. In particolare, nelle agende più vecchie si trovano spesso titoli abbreviati, grafie meno facilmente interpretabili o denominazioni che non corrispondono necessariamente a quelle oggi più conosciute. In alcuni casi, quindi, l'identificazione del film ha richiesto il confronto con altre fonti.
 
-<!-- FOTO: una pagina che mostri chiaramente una delle grafie presenti nelle agende. Didascalia: Un esempio delle annotazioni manoscritte utilizzate per ricostruire la programmazione. -->
+> ![Esempio delle annotazioni manoscritte utilizzate per ricostruire la programmazione](images/firma_1.png)
+
+> Un esempio delle annotazioni manoscritte utilizzate per ricostruire la programmazione.
 
 ## Non soltanto titoli di film
 
@@ -47,9 +51,21 @@ Queste agende, oltre a documentare la programmazione, conservano quindi tracce d
 
 Anche alcune agende delle case di distribuzione contengono materiali di questo tipo: presentazioni dei film in uscita durante l'anno e informazioni sui riconoscimenti ottenuti dalle pellicole.
 
+> ![Materiale promozionale Fedi](images/materiale_promozionale.png)
+
+> Materiale promozionale dell'azienda Fedi conservato all'interno di una delle [agende](/1958/11/01/fedi-1958-59/).
+
 <!-- FOTO: pubblicità dei prodotti Fedi nelle prime pagine di un'agenda. Didascalia: Materiale promozionale dell'azienda Fedi conservato all'interno di una delle agende. -->
 
+> ![Informazioni tecniche attrezzatura Fedi](images/informazioni_tecniche.png)
+
+> Le informazioni tecniche e le indicazioni sull'utilizzo delle apparecchiature presenti nelle agende [Fedi](/1962/11/01/fedi-1962-63/).
+
 <!-- FOTO: pagina con informazioni tecniche sui proiettori. Didascalia: Le informazioni tecniche e le indicazioni sull'utilizzo delle apparecchiature presenti nelle agende Fedi. -->
+
+> ![film destinati alla programmazione](images/film_destinati_alla_programmazione.png)
+
+> Le agende delle [case di distribuzione](/1948-10-01/fincine-1948-49/) riportavano anche informazioni sui film destinati alla programmazione.
 
 <!-- FOTO: pagina di un'agenda di una casa di distribuzione con la presentazione dei film. Didascalia: Le agende delle case di distribuzione riportavano anche informazioni sui film destinati alla programmazione. -->
 
@@ -58,6 +74,10 @@ Anche alcune agende delle case di distribuzione contengono materiali di questo t
 Il primo passaggio è stato la digitalizzazione dei documenti. Ho scansionato personalmente le agende e i calendari, conservando le scansioni originali in formato PDF. Per facilitare il lavoro di identificazione ho creato anche delle copie di consultazione, nelle quali i titoli riconosciuti sono stati evidenziati in giallo.
 
 La digitalizzazione è avvenuta in momenti diversi, nell'arco di circa tre anni. La ricerca dei singoli film ha richiesto infatti tempi variabili: alcuni titoli sono stati identificati rapidamente, mentre altri hanno richiesto confronti e verifiche più lunghe, soprattutto quando la grafia era poco leggibile o il titolo risultava incompleto.
+
+> ![Copie di lavoro sulla programmazione storica delle proiezioni](images/copie_di_lavoro.png)
+
+> Le [copie](/1951/04/01/calendario-1951/) di consultazione utilizzate durante il lavoro di identificazione dei film
 
 <!-- FOTO: confronto tra una scansione originale e una copia di lavoro con i titoli evidenziati. Didascalia: Le copie di consultazione utilizzate durante il lavoro di identificazione dei film. -->
 
