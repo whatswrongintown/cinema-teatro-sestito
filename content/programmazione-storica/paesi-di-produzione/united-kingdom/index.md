@@ -9,7 +9,7 @@ tags:
 - Programmazione
 description: Film prodotti in United Kingdom nella programmazione del Cinema Teatro
   Sestito, suddivisi per anno.
-image: "/programmazione-storica/paesi-di-produzione/_index_files/figure-html/unnamed-chunk-1-1.png"
+image: "/programmazione-storica/paesi-di-produzione/_index_files/figure-html/italia-estero-per-decennio-1.png"
 ---
 <!-- Tabelle generate automaticamente. -->
 
