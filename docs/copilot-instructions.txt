@@ -1,0 +1,7 @@
+Questo è il sito del Cinema Teatro Sestito, realizzato con R blogdown e Hugo.
+
+Non modificare mai i file dentro la cartella `public/` perché vengono sovrascritti da Hugo.
+
+I contenuti e gli articoli si trovano in `content/`, mentre i template sono in `layouts/`.
+
+Quando scrivi o correggi articoli e schede film, usa un tono accogliente, chiaro e professionale in italiano.
