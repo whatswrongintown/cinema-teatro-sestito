@@ -1,0 +1,108 @@
+CINEMA TEATRO SESTITO - PROJECT STATUS (single entry point)
+Last review: 2026-11-16
+
+Read this file first and update it whenever a decision is made.
+Detail lives elsewhere:
+  docs/historical-programming.md   R scripts, data and generated pages
+  docs/ideas/website-improvement-ideas.txt   poster collection, search, form, breadcrumbs
+  docs/log/                        condensed audit logs (phase 1 and 2, historical)
+Conventions: documents in English (only copilot-instructions.txt is in Italian);
+status words TODO / DOING / DONE / DEFERRED; findings carry a date.
+
+1. PROJECT AT A GLANCE
+- Hugo 0.136.5 Extended (pinned in netlify.toml and .Rprofile) + R/blogdown.
+- Netlify runs `hugo` only. It does NOT run R or knit .Rmd: what is committed
+  (.md, images, CSV) is what gets published.
+- Historical programming: 3 CSVs in static/data -> R scripts in R/ write the
+  pages, tables and PNG charts locally -> commit -> Netlify publishes.
+- Content: 7 articles, ~85 archive files, ~360 programming files, 57 year pages
+  (1948-2004), 23 genres, 63 countries, 93 sources, 5,290 dated screening rows.
+- Do not edit public/ or resources/ (ignored, regenerated). Generated programming
+  pages are overwritten by the R scripts: change the data, not the pages.
+- Tone for content: welcoming, clear, professional Italian.
+
+2. R SCRIPTS (rewritten 2026-11-16)
+DONE
+- update-anni/fonti/generi/paesi.R rewritten in base R (plus yaml for metadata,
+  showtext/sysfonts for the font). Output identical to the previous tidyverse
+  scripts (241 pages unchanged on a full run on a copy); about 20 s instead of
+  about 40 s, and no network needed.
+- Charts use Merriweather from static/fonts/ (no font_add_google). The yearly
+  charts use a base R label placement instead of ggrepel.
+- update-indici.R draws the six summary charts of the four section indexes
+  (anni, fonti, generi x2, paesi x2) as PNG, with the same numbers and text
+  proportions as the former _index.Rmd. It runs with every full section update.
+  Chart files were renamed: film-per-anno-1.png, fonti-per-decennio-1.png.
+- update-fonti.R is ready for the source "Note sui manifesti" (one source page;
+  accepted database values and page rules: docs/historical-programming.md).
+TODO
+- Delete the four obsolete section _index.Rmd (anni, fonti, generi, paesi) once
+  the regenerated charts have been reviewed on the site. The Rmd of the root
+  programmazione-storica index has no charts and can go too. The two article
+  .Rmd files are not affected.
+- When the poster data arrive: create the "Note sui manifesti" source page
+  (category "Note sui manifesti" fixes /categories/note-sui-manifesti/, a 404 today).
+- Full script run on the real project (everything so far was tested on copies).
+
+3. OPEN ITEMS
+Blocked on the poster database:
+  - One country-CSV ID (tt0052704) has no IMDb row (deferred).
+  - Placeholders: "Locandine d'epoca" (home links to "/"), empty Eventi.
+  - /categories/note-sui-manifesti/ is 404 (see above).
+Verification not done:
+  - A full Hugo build after the head.html changes (canonical, Twitter Card,
+    og:type, taxonomy descriptions): run `hugo` once and inspect the <head>.
+    Hugo is not installed in the sessions used so far.
+Small technical leftovers (optional, none urgent):
+  - lightbox.css is loaded in <body> (footer.html); scripts use absolute /js/.
+  - Alt text: Programmazione storica charts, nav logo ("avatar"), gallery
+    captions derived from file names.
+  - image-gallery shortcode gives a generic error on bad input.
+  - sitemap lastmod never checked.
+  - Index text still to review: the charts now come from R, the wording around
+    them is unchanged.
+Chart wording and denominators: charts count screening rows ("N° film" counts
+source-screening associations); the genre heat-map drops repeated Drammatico-only
+films (62 films / 126 rows); 104 rows without genre count as "not adult"; the
+country share uses 7,126 associations. Decision: explain in the methodology
+article (2026-11-11), no recalculation.
+Hugo upgrade path (not planned): excludeFiles -> files (needed for >= 0.153,
+removed in 0.169), languageCode -> locale (>= 0.158). Test in a copy first, then
+align netlify.toml and .Rprofile.
+
+4. DECISIONS (do not re-open without reason)
+- Keep params.anno in year pages. Keep generic favicons in root and static/images.
+- Keep goldmark unsafe: true (inline HTML, one iframe).
+- Netlify stays Hugo-only. renv is not used (it slowed the project down).
+- Keep the Eventi section available. Only "Progetto" stays in the top menu.
+- Legacy R generators are removed (recoverable from GitHub history).
+- No analytics (disabled, DNT respected).
+- Only the owner maintains the site; visitors are mainly locals.
+- Contact: form plus visible email. Poster rights: confirmed for all scans.
+- Charts: explain denominators in the methodology article, no recalculation.
+
+5. OBSERVATIONS (for future work)
+- Navigation: the main menu has one entry; Archivio, Articoli and Programmazione
+  storica are reached from the home text or /sitemap/, so breadcrumbs matter.
+- content/sitemap.md is hand-made: update it when sections are added.
+- netlify.toml uses `hugo -F` for deploy previews and branch deploys, so
+  future-dated content appears there but not in production.
+- Single pages show "N min read" in English and ISO dates; /categories/ and
+  /tags/ headings are in English and group undated pages under year 0001.
+- /categories/{generi,paesi-di-produzione,programmazione-per-anni} and
+  /tags/programmazione duplicate section lists: keep, hide (noindex) or give
+  them a template.
+- The public email address appears in config, footer, home and the sitemap page.
+- The poster database (manifesti_archivio.csv) is described in the ideas file.
+
+6. ROADMAP (housekeeping first)
+ 0. Housekeeping. DONE 2026-11-16: robots.txt; footer GitHub link; sitemap page;
+    README and docs simplified; R scripts rewritten. TODO: one full Hugo build.
+ 1. Breadcrumbs: no data needed, helps all 400+ pages.
+ 2. Contact / memories form (Netlify Forms) and the visible email; needs a
+    privacy notice and a separate, optional publication permission.
+ 3. Poster collection pilot: ONE size column of manifesti_archivio.csv and the
+    film page first, then the five browse views. Images are converted in a
+    separate R project.
+ 4. Search over films (programming first, posters later).
+ 5. Later: timeline, "help identify this item", curated collections.

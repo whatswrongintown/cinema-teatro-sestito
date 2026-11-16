@@ -1,0 +1,280 @@
+WEBSITE IMPROVEMENT IDEAS AND TECHNICAL PLAN
+Working notes, 2026-11-15, condensed 2026-11-16
+
+Nothing here is an implementation decision unless it appears in
+docs/project-status.txt. Priorities: see the roadmap there.
+
+FOUNDATION
+- Hugo 0.136.5 + R/blogdown, deployed with Netlify (Hugo only, no R). Static is
+  mounted both as assets and as static, so anything placed in static/ is public.
+- Historical programming is organised by year, source, genre and country; the
+  screening CSV links films through `const`, the IMDb CSV through `Const`.
+  Links between datasets must be verified, not assumed.
+- The home page describes the poster section as under construction. The existing
+  image-gallery shortcode makes square 300x300 thumbnails and filename captions,
+  which do not suit a poster catalogue.
+
+1. IDEAS
+
+1.1 Memories and contact
+A form where visitors send a private message, including memories of the cinema.
+- Italian form: message (required), optional name, optional email for a reply.
+  Confirmation after sending and a clear error on failure.
+- Messages go to the owner, not onto the site. Publication needs a separate,
+  optional permission, and attribution or anonymity agreed with the author.
+- Privacy notice: what is collected, why, who receives it, retention, deletion.
+  Minimise sensitive data; add spam protection (honeypot) and email notification.
+- Netlify Forms handles a static HTML form (name, data-netlify=true, form
+  detection enabled, redeploy; submissions appear in the dashboard). The owner
+  reports 100 submissions per month on the current plan: check the account and
+  the behaviour at the limit. Test on a real deploy (hidden form-name field,
+  notifications, spam handling, thank-you page). Submissions are never shown
+  publicly or committed.
+  Docs: https://docs.netlify.com/manage/forms/setup/
+        https://docs.netlify.com/manage/forms/submissions/
+        https://docs.netlify.com/manage/forms/spam-filters/
+- Implementation: a Markdown contact page with a shortcode (or dedicated layout)
+  that renders the form; works without JavaScript.
+
+1.2 Search
+Make films in the programming (later posters) easy to find: search box, useful
+results, a no-results state.
+- Fields: Italian and original titles, film ID, screening year, genre, country;
+  for posters also title, size and handmade status. Decide on case, accents,
+  partial matches and typos.
+- Decide whether a result is a film, a screening, a poster or a mix, and avoid
+  one result per screening unless intended. Do not confuse release year with
+  screening year.
+- Approach: a build-time JSON index (from R or a Hugo output template) with only
+  public fields, record type and labels; a small client-side script normalises
+  case and accents. Measure index size and load time. Typo tolerance needs an
+  extra library. Render results safely, handle empty/loading/error states, give
+  keyboard and label support, and keep the browse pages as the no-JavaScript
+  fallback. A hosted search service only if scale justifies its privacy and cost.
+
+1.3 Breadcrumbs
+Home > Programmazione storica > Anni > 1958. Use the content hierarchy (Hugo page
+ancestors and .RelPermalink, Home first), not URL segments: some permalinks are
+dated. Accessible nav label, ordered list, aria-current on the current page, none
+on the home page. Add it to every list and single layout (check each page kind)
+and test dated URLs and aliases.
+Docs: https://gohugo.io/methods/page/ancestors/
+
+1.4 Vintage poster collection
+Known: 1,797 images, 3.88 GB, photographed with an iPhone SE (2nd generation),
+no copies. Folders by poster size, e.g. folder "fotobuste 50x70" with file
+"tt0038338_50x70_01": film code, size, number (different numbers are different
+posters of the same film). Some films use local codes instead of IMDb codes.
+"tt0047517_70x100_r_01" has "r" for a poster handmade by the owner's grandfather.
+Paths in these notes omit extensions; keep real ones.
+
+The owner's poster database is manifesti_archivio.csv (not in the project; inspect
+it first). Columns: position, const, title, original_title, year, directos,
+location, archivio, locandina_33x70, fotobusta_70x50, manifesto_70x100,
+manifesto_100x140, manifesto_140x200, pieghevole, comment, retro. It has one
+column per poster format, not one row per image: reshape it into one row per
+poster item. Check "retro" (back of the poster) and the "const" values that are
+local codes.
+
+Five views of the same collection (no separate copies of the data):
+1. By screening year: films screened that year, with all screening dates and
+   sources when a film was shown more than once; link to the existing year and
+   source pages with real Hugo links. Posters without a matched screening are
+   reachable elsewhere and labelled.
+2. By film name: alphabetical index with a defined Italian sorting rule; equal
+   titles with different film IDs stay separate.
+3. By genre: one list per genre, grouped by film; a film may appear in several
+   genres; unknown genres are not invented. Keep it separate from the existing
+   programming genre pages and link the two where useful.
+4. By poster size: an editorial explanation of the physical formats, then a page
+   for each format present; keep format and dimensions in separate fields and
+   handle unknown sizes explicitly.
+5. By film, all versions: every poster image of the film, grouped by size and
+   variant, with a handmade label and documented screening dates. A page per
+   poster can follow if items need richer notes or shareable links.
+
+Visitor experience: browsable gallery with uncropped thumbnails, title, size and
+handmade marker; filters only on reliable metadata; a detail view with a larger
+image, description or transcription, real dimensions, attribution and provenance
+(unknown kept distinct from confirmed), useful alt text; links to related
+screenings and other posters of the same film when the match is verified; a
+curated introduction to the grandfather's handmade work.
+
+Catalogue model (validate against the real files):
+- Film: film key, titles, optional IMDb ID, release year, genres. Keep local
+  codes as they are; never treat them as IMDb IDs.
+- Poster item: stable local ID, film link if known, size, variant, handmade
+  status, notes, rights status. One film can have several different posters; the
+  sequence number is not a count of copies.
+- Image: scan linked to its item, with the real relative path and the view
+  (front/back); an item can have several scans. Screening dates written on a
+  poster are sourced evidence, not confirmed dates.
+- Screening: date, film key, recorded title and source from
+  programmazione_agende.csv, with the existing methodology caveats.
+Keep IDs and file names stable; do not rename, move or overwrite originals
+before agreeing a convention; if files are renamed, keep an old-to-new mapping.
+Check rights for digitised artwork before publication (ownership of the physical
+poster alone may not be enough; the owner confirms all scans can be published).
+
+1.5 Other ideas
+- Interactive timeline linking screenings, stories and archive items.
+- "Help identify this item": corrections reviewed before publication.
+- Curated collections: handmade posters, a decade, a genre, a local story.
+- Accessibility: keyboard navigation, legible text, image alt text, phone layout.
+
+2. TECHNICAL PLAN (proposal, nothing built or tested)
+
+2.1 Responsibilities
+- The poster database and the CSVs stay the authoritative inputs. A local R step
+  (run when data change) validates and joins them and writes Hugo-ready data,
+  pages and web images; Markdown holds editorial text; Hugo layouts and partials
+  render lists, film pages and a shared poster card; an optional shortcode embeds
+  a few posters in articles (unknown ID or missing image = build error).
+- The collection must work without JavaScript. If generation ever has to run on
+  Netlify, an R environment and build step must be added explicitly.
+
+2.2 Proposed files (illustrative; do not create before the model and URLs are agreed)
+  R/update-manifesti.R          validation, joins, page and data generation
+  data/manifesti.json           optional Hugo-ready lookup
+  content/manifesti/_index.md   introduction and links to the five views
+  content/manifesti/film/<film-id>/index.md   generated film pages
+  content/manifesti/anni|generi|formati/...   generated or editorial indexes
+  layouts/manifesti/..., layouts/partials/..., layouts/shortcodes/...
+  static/ or assets/            web images, depending on the image choice
+Keep manually written introductions apart from generated files, document what an
+updater may overwrite, and never edit generated pages by hand.
+
+2.3 Matching and validation
+- Join the poster film code to `const` (screenings) and `Const` (IMDb) only after
+  checking that each code is the same film. Multiple posters and screenings per
+  film multiply rows in a naive join: group by film, keep individual posters and
+  screenings, deduplicate only where justified. Split genres like the existing
+  genre script. Report unmatched and ambiguous records; never assign a plausible
+  match silently.
+- Before writing anything: required fields, unique poster keys, duplicate image
+  paths, valid dimensions and dates, conflicting film IDs, local code mapping,
+  missing files, safe relative paths. Produce a reviewable summary (totals,
+  unmatched IDs, missing genres, errors) and stop on errors that would give wrong
+  links or broken images. Test on a small sample first.
+
+2.4 Hugo data and layouts
+- Prototype: R generates one Markdown page per film plus the year, genre and size
+  pages; front matter has the film key; a JSON lookup holds the larger
+  relationships (.Site.Data reads JSON, not CSV, in Hugo 0.136.5). Alternative:
+  read CSV with resources.Get and transform.Unmarshal (rows as strings; no
+  targetType option in 0.136.5; static/data CSVs are already global resources).
+  Data files alone do not create pages.
+- Stable URLs built on film or item IDs, with aliases if a URL changes; use
+  .RelPermalink for links. Split long lists by year, letter, genre or size and
+  consider pagination (it works on page collections). Static filters on separate
+  pages keep working without JavaScript.
+  Docs: https://gohugo.io/content-management/data-sources/
+        https://gohugo.io/functions/transform/unmarshal/
+        https://gohugo.io/templates/pagination/
+
+2.5 Image pipeline and deployment
+- Originals stay outside the website, backed up separately. Check file types,
+  EXIF orientation, dimensions and quality first.
+- Web derivatives without cropping: thumbnails and larger views, aspect ratio
+  preserved, no enlargement, no private EXIF/location data; give width/height and
+  lazy loading, and link to the large view, not the master. Hugo can resize at
+  build time (the gallery uses Fit and square Fill), but test time and memory
+  before processing 1,797 photos; use the same derivative URL everywhere.
+- Do not put masters in static/ (it is published); consider an assets-only
+  location or prebuilt web copies. Measure repository size, deploy size, build
+  time and page weight on Netlify, with a sample and then in full. Committed
+  files are simple but make Git larger; external object storage or image hosting
+  adds cost, configuration and backups. Check real account limits.
+  Docs: https://gohugo.io/content-management/image-processing/
+
+2.6 Converting the JPEGs in a separate R project
+The owner prefers to convert the photos in a separate R project and copy only
+web-ready images into the site. This keeps the 3.88 GB out of the repository and
+avoids reconverting on each Hugo build.
+Starting derivatives (to be confirmed on samples):
+- Gallery: fit within 400 x 400 px, WebP quality 75-80.
+- Large view: fit within 1600 x 1600 px, WebP quality 80-85.
+- 50x70 and 70x100 in the names are physical sizes, not pixels: keep them. WebP
+  is a candidate, not a requirement: compare with JPEG for legibility of printed
+  and handwritten text, colour and size.
+Workflow:
+1. New RStudio project; originals in a separate read-only, backed-up location;
+   a new empty output folder outside both the originals and the site.
+2. Install magick and check that its ImageMagick build writes WebP (otherwise
+   fix it or use JPEG).
+3. Inventory recursively (paths, extensions, pixel sizes, byte sizes, count);
+   report non-JPEG files, unreadable images and name collisions after the
+   extension change, including case-insensitive ones on Windows. Never skip a
+   file silently.
+4. Test representative photos (portrait/landscape, faded, small print, the "r"
+   example, EXIF rotation): apply orientation before stripping metadata, check
+   colour and readability in a browser, confirm location data is gone, and check
+   the effect of dropping colour profiles.
+5. Process the whole collection one source at a time from the oriented original
+   (not the thumbnail from the large WebP), keeping folder structure and file
+   stem; only the extension changes:
+     originals\fotobuste 50x70\tt0038338_50x70_01.jpg
+     web-output\gallery\fotobuste 50x70\tt0038338_50x70_01.webp
+     web-output\large\fotobuste 50x70\tt0038338_50x70_01.webp
+   (an example, not a decision on URLs; handle spaces in folder names when
+   building links).
+6. Save a manifest outside the public site: original path, derivative paths,
+   dimensions, byte sizes, settings; reconcile it with the poster database.
+7. Check that the count matches (currently 1,797, to verify) and every image has
+   exactly one readable derivative per size; report failures, duplicates, wrong
+   orientation and odd sizes; stop on errors.
+8. Copy only approved derivatives and public data into the site; check every
+   image URL in a Hugo preview and a Netlify deploy preview.
+
+One-image experiment (illustrative, not a batch converter):
+
+  install.packages("magick")   # once, if needed
+  library(magick)
+  input <- file.choose()
+  output_dir <- choose.dir(caption = "Choose an empty sample output folder")
+  if (is.na(output_dir) || !nzchar(output_dir)) stop("No output folder chosen")
+  gallery <- file.path(output_dir, "sample-gallery.webp")
+  large <- file.path(output_dir, "sample-large.webp")
+  if (file.exists(gallery) || file.exists(large)) {
+    stop("Sample output already exists; choose an empty folder")
+  }
+  original <- image_orient(image_read(input))
+  image_write(image_strip(image_resize(original, "400x400>")),
+              path = gallery, format = "webp", quality = 78)
+  image_write(image_strip(image_resize(original, "1600x1600>")),
+              path = large, format = "webp", quality = 82)
+  print(image_info(image_read(gallery)))
+  print(image_info(image_read(large)))
+
+">" prevents enlargement; orientation is applied before metadata removal. Open
+both files and compare with the original, and inspect the metadata separately.
+The real batch script needs a dry-run inventory and collision report, must never
+overwrite originals or existing outputs, stops with the affected path on error,
+keeps a progress/error report, and uses a new output folder per full run.
+Docs: https://docs.ropensci.org/magick/reference/editing.html
+      https://docs.ropensci.org/magick/reference/transform.html
+      https://docs.ropensci.org/magick/reference/geometry.html
+
+2.7 Implementation order
+1. Inspect a sample of the poster database and file names (a local ID, a handmade
+   item, a film with several sizes); agree labels, rights, identifiers and public
+   metadata.
+2. Proof of concept: validate the joins in R, generate a few film and browse
+   pages, render uncropped thumbnails. Test films with several dates, no matching
+   screening, missing genre, several variants; compare counts with the source.
+3. Measure image and build costs; choose storage, derivatives, navigation and
+   pagination; check direct URLs, missing-file diagnostics, mobile and keyboard
+   use, alt text and no-JavaScript browsing.
+4. Scale to the full collection, review the mismatch report, build with Hugo
+   0.136.5, verify a Netlify deploy preview, document the update and backup flow.
+5. Add breadcrumbs, the form and search in an agreed order, each tested on a
+   deploy preview. (Check any Hugo API against 0.136.5 before adopting it.)
+
+OPEN QUESTIONS
+1. What do the local codes look like, and is there a list mapping each to a film?
+2. Are sizes always in centimetres, and does each image show one whole poster, a
+   detail or the back?
+3. Should search start with screenings, posters or both, and what would visitors
+   type or filter by?
+Answered so far: the owner would like to publish selected memories later, with
+permission.
