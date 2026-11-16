@@ -1,6 +1,7 @@
 # Controlla che i pacchetti necessari siano installati prima di generare le pagine.
+# Oltre a R base servono yaml (metadati delle schede) e showtext/sysfonts (font nei grafici).
 check_paesi_packages <- function() {
-  packages <- c("readr", "dplyr", "purrr", "stringr", "yaml", "tibble", "tidyr")
+  packages <- c("yaml", "showtext", "sysfonts")
   missing <- packages[!vapply(packages, requireNamespace, logical(1), quietly = TRUE)]
   if (length(missing)) {
     stop("Pacchetti R mancanti: ", paste(missing, collapse = ", "), call. = FALSE)
@@ -9,13 +10,15 @@ check_paesi_packages <- function() {
 
 # Legge un CSV come testo e controlla che non contenga errori o colonne mancanti.
 read_paesi_csv <- function(path, required) {
-  data <- readr::read_csv(
-    path, col_types = readr::cols(.default = readr::col_character()),
-    locale = readr::locale(encoding = "UTF-8"), show_col_types = FALSE
+  data <- tryCatch(
+    utils::read.csv(
+      path, colClasses = "character", na.strings = c("", "NA"), check.names = FALSE,
+      strip.white = TRUE, fill = FALSE, comment.char = "", encoding = "UTF-8",
+      stringsAsFactors = FALSE
+    ),
+    error = function(error) stop("CSV non valido: ", path, call. = FALSE)
   )
-  if (nrow(readr::problems(data))) {
-    stop("CSV non valido: ", path, call. = FALSE)
-  }
+  names(data) <- sub("^\ufeff", "", names(data))
   missing <- setdiff(required, names(data))
   if (length(missing)) {
     stop("Colonne mancanti in ", path, ": ", paste(missing, collapse = ", "),
@@ -36,17 +39,24 @@ escape_paesi_text <- function(text) {
   gsub("[\r\n]", " ", text)
 }
 
+paesi_trim <- function(x) trimws(x, whitespace = "[\\h\\v]")
+
+paesi_cache <- new.env(parent = emptyenv())
+
 # Carica le proiezioni e i dati IMDb, verifica i valori e li unisce per film.
+# Il risultato resta in memoria finche' i file CSV non cambiano.
 load_paesi_screenings <- function(project_root) {
   directory <- file.path(project_root, "static", "data")
-  screenings <- read_paesi_csv(
-    file.path(directory, "programmazione_agende.csv"),
-    c("date", "const", "title", "source")
-  )
-  imdb <- read_paesi_csv(
-    file.path(directory, "programmazione_imdb.csv"),
-    c("Const", "IMDb Rating", "Num Votes", "URL")
-  )
+  paths <- file.path(directory, c("programmazione_agende.csv", "programmazione_imdb.csv",
+                                  "programmazione_paesi.csv"))
+  info <- file.info(paths)
+  signature <- paste(normalizePath(paths, mustWork = FALSE), info$size,
+                     as.numeric(info$mtime), collapse = "|")
+  if (identical(paesi_cache$signature, signature)) {
+    return(paesi_cache$data)
+  }
+  screenings <- read_paesi_csv(paths[1], c("date", "const", "title", "source"))
+  imdb <- read_paesi_csv(paths[2], c("Const", "IMDb Rating", "Num Votes", "URL"))
   if (!nrow(screenings)) {
     stop("Il database delle proiezioni e' vuoto.", call. = FALSE)
   }
@@ -64,45 +74,46 @@ load_paesi_screenings <- function(project_root) {
   if (anyNA(imdb$Const) || any(!nzchar(imdb$Const)) || anyDuplicated(imdb$Const)) {
     stop("Gli identificativi IMDb devono essere presenti e univoci.", call. = FALSE)
   }
-  rating <- as.numeric(imdb[["IMDb Rating"]])
-  votes <- as.numeric(imdb[["Num Votes"]])
+  rating <- suppressWarnings(as.numeric(imdb[["IMDb Rating"]]))
+  votes <- suppressWarnings(as.numeric(imdb[["Num Votes"]]))
   if (any(!is.na(imdb[["IMDb Rating"]]) & !is.finite(rating)) ||
       any(!is.na(imdb[["Num Votes"]]) & !is.finite(votes)) ||
       any(rating < 0 | rating > 10, na.rm = TRUE) ||
       any(votes < 0 | votes != floor(votes), na.rm = TRUE)) {
     stop("Valutazioni o numeri di voti IMDb non validi.", call. = FALSE)
   }
-  # Aggiunge anno, mese e dati IMDb a ogni proiezione, mantenendo le ripetizioni.
-  films <- data.frame(
-    const = imdb$Const, imdb_rating = rating, imdb_votes = votes,
-    url = imdb$URL, stringsAsFactors = FALSE
-  )
-  screenings <- screenings |>
-    dplyr::mutate(
-      date = dates,
-      anno = as.integer(format(date, "%Y")),
-      mese = as.integer(format(date, "%m"))
-    ) |>
-    dplyr::left_join(films, by = "const")
-  missing_url_count <- screenings |>
-    dplyr::filter(is.na(url) | !nzchar(url)) |>
-    nrow()
+  # Aggiunge anno, mese e URL IMDb a ogni proiezione, mantenendo le ripetizioni.
+  screenings$date_text <- screenings$date
+  screenings$date <- dates
+  screenings$anno <- as.integer(substr(screenings$date_text, 1L, 4L))
+  screenings$mese <- as.integer(substr(screenings$date_text, 6L, 7L))
+  screenings$url <- imdb$URL[match(screenings$const, imdb$Const)]
+  missing_url_count <- sum(is.na(screenings$url) | !nzchar(screenings$url))
   if (missing_url_count > 0) {
     warning(missing_url_count,
             " proiezioni senza URL IMDb: il titolo restera' senza collegamento.",
             call. = FALSE)
   }
-  dplyr::arrange(screenings, date)
+  screenings <- screenings[order(screenings$date), , drop = FALSE]
+  rownames(screenings) <- NULL
+  # Un identificativo duplicato nei paesi moltiplicherebbe le righe nell'unione.
+  countries <- read_paesi_csv(paths[3], c("const", "country"))
+  if (anyNA(countries$const) || any(!nzchar(countries$const)) ||
+      anyDuplicated(countries$const)) {
+    stop("Gli identificativi dei paesi devono essere presenti e univoci.",
+         call. = FALSE)
+  }
+  screenings$country <- countries$country[match(screenings$const, countries$const)]
+  paesi_cache$signature <- signature
+  paesi_cache$data <- screenings
+  screenings
 }
 
 # Legge titolo e percorso delle pagine esistenti nella sezione indicata.
 read_paesi_pages <- function(directory) {
   files <- list.files(directory, pattern = "^index\\.md$", recursive = TRUE,
                       full.names = TRUE)
-  if (!length(files)) {
-    return(tibble::tibble(path = character(), title = character(), key = character()))
-  }
-  purrr::map_dfr(files, function(path) {
+  titles <- vapply(files, function(path) {
     lines <- readLines(path, encoding = "UTF-8", warn = FALSE)
     boundaries <- which(lines == "---")
     if (length(boundaries) < 2 || boundaries[1] != 1) {
@@ -113,56 +124,47 @@ read_paesi_pages <- function(directory) {
         is.na(metadata$title) || !nzchar(trimws(metadata$title))) {
       stop("Titolo mancante: ", path, call. = FALSE)
     }
-    tibble::tibble(path = path, title = metadata$title,
-                   key = stringr::str_to_lower(stringr::str_trim(metadata$title)))
-  })
+    metadata$title
+  }, character(1), USE.NAMES = FALSE)
+  data.frame(path = files, title = titles, key = tolower(paesi_trim(titles)),
+             stringsAsFactors = FALSE)
 }
 
 # Separa fonti, generi o paesi elencati nella stessa cella del database.
 split_paesi_values <- function(data, column) {
   # Crea una riga per valore, elimina spazi e valori vuoti e rimuove i duplicati
   # dello stesso valore per la stessa proiezione.
-  data |>
-    dplyr::mutate(value = stringr::str_split(.data[[column]], ",")) |>
-    tidyr::unnest_longer(value) |>
-    dplyr::mutate(value = stringr::str_trim(value)) |>
-    dplyr::filter(!is.na(value), value != "") |>
-    dplyr::mutate(key = stringr::str_to_lower(value)) |>
-    dplyr::distinct(screening_id, key, .keep_all = TRUE)
+  pieces <- strsplit(data[[column]], ",", fixed = TRUE)
+  row <- rep.int(seq_len(nrow(data)), lengths(pieces))
+  value <- paesi_trim(unlist(pieces, use.names = FALSE))
+  keep <- !is.na(value) & nzchar(value)
+  row <- row[keep]
+  value <- value[keep]
+  key <- tolower(value)
+  keep <- !duplicated(paste(data$screening_id[row], key, sep = "\r"))
+  result <- data[row[keep], , drop = FALSE]
+  result$value <- value[keep]
+  result$key <- key[keep]
+  result
 }
 
 load_paesi_data <- function(project_root, section = NULL) {
-  directory <- file.path(project_root, "static", "data")
-  screenings <- load_paesi_screenings(project_root) |>
-    dplyr::mutate(screening_id = dplyr::row_number())
-  countries <- read_paesi_csv(file.path(directory, "programmazione_paesi.csv"),
-                             c("const", "country"))
-  # Un identificativo duplicato nei paesi moltiplicherebbe le righe nel join.
-  if (anyNA(countries$const) || any(!nzchar(countries$const)) ||
-      anyDuplicated(countries$const)) {
-    stop("Gli identificativi dei paesi devono essere presenti e univoci.",
-         call. = FALSE)
-  }
-  dplyr::left_join(screenings, dplyr::select(countries, const, country), by = "const")
+  data <- load_paesi_screenings(project_root)
+  data$screening_id <- seq_len(nrow(data))
+  # Riga della tabella Markdown: data e titolo, con il collegamento IMDb se presente.
+  title <- escape_paesi_text(data$title)
+  linked <- !is.na(data$url) & nzchar(data$url)
+  title[linked] <- paste0("[", title[linked], "](", data$url[linked], ")")
+  data$row_text <- paste0("| ", data$date_text, " | ", title, " |")
+  data
 }
 
-# Costruisce tabelle Markdown raggruppate per anno o mese, con eventuali link IMDb.
-paesi_table <- function(data, group_column, heading_level = "###") {
-  groups <- sort(unique(data[[group_column]]))
-  purrr::map(groups, function(group) {
-    rows <- data |>
-      dplyr::filter(.data[[group_column]] == group) |>
-      dplyr::mutate(
-        display_title = escape_paesi_text(title),
-        display_title = dplyr::if_else(
-          !is.na(url) & nzchar(url),
-          paste0("[", display_title, "](", url, ")"), display_title
-        )
-      )
-    c(paste(heading_level, group), "", "|  |  |", "|---|---|",
-      paste0("| ", format(rows$date, "%Y-%m-%d"), " | ", rows$display_title, " |"), "")
-  }) |>
-    unlist(use.names = FALSE)
+# Costruisce una tabella Markdown per ogni anno.
+paesi_table <- function(data) {
+  by_year <- split(data$row_text, data$anno)
+  unlist(lapply(names(by_year), function(year) {
+    c(paste("###", year), "", "|  |  |", "|---|---|", by_year[[year]], "")
+  }), use.names = FALSE)
 }
 
 # Conserva metadati, descrizioni e gallerie che precedono le tabelle generate.
@@ -239,9 +241,7 @@ paesi_permalink <- function(prefix, slug) {
 # Trasforma il nome di un nuovo genere o paese in un nome adatto alla cartella.
 paesi_slug <- function(value) {
   ascii <- iconv(value, from = "UTF-8", to = "ASCII//TRANSLIT")
-  slug <- stringr::str_to_lower(ascii) |>
-    stringr::str_replace_all("[^a-z0-9]+", "-") |>
-    stringr::str_replace_all("^-|-$", "")
+  slug <- gsub("^-|-$", "", gsub("[^a-z0-9]+", "-", tolower(ascii)))
   if (anyNA(slug) || any(!nzchar(slug))) {
     stop("Impossibile creare uno slug per: ", paste(value, collapse = ", "), call. = FALSE)
   }
@@ -259,52 +259,50 @@ prepare_paesi_pages <- function(data, section, directory, selection = NULL) {
         any(!nzchar(trimws(selection)))) {
       stop("Specificare uno o piu nomi non vuoti per ", section, ".", call. = FALSE)
     }
-    keys <- unique(stringr::str_to_lower(stringr::str_trim(selection)))
-    available <- union(pages$key, data$key)
-    unknown_keys <- setdiff(keys, available)
+    keys <- unique(tolower(paesi_trim(selection)))
+    unknown_keys <- setdiff(keys, union(pages$key, data$key))
     if (length(unknown_keys)) {
       stop("Nomi non trovati in ", section, ": ", paste(unknown_keys, collapse = ", "), call. = FALSE)
     }
-    pages <- dplyr::filter(pages, key %in% keys)
-    data <- dplyr::filter(data, key %in% keys)
+    pages <- pages[pages$key %in% keys, , drop = FALSE]
+    data <- data[data$key %in% keys, , drop = FALSE]
   }
-  values <- data |>
-    dplyr::distinct(key, value)
+  values <- data[!duplicated(paste(data$key, data$value, sep = "\r")), c("key", "value")]
   if (anyDuplicated(values$key)) {
     stop("Nomi ambigui in ", section, call. = FALSE)
   }
-  unknown <- dplyr::anti_join(values, pages, by = "key")
+  unknown <- values[!values$key %in% pages$key, , drop = FALSE]
   if (nrow(unknown)) {
-    unknown <- unknown |>
-      dplyr::mutate(slug = paesi_slug(value),
-                    path = file.path(directory, slug, "index.md"), title = value)
+    unknown$path <- file.path(directory, paesi_slug(unknown$value), "index.md")
     if (anyDuplicated(unknown$path) || any(unknown$path %in% pages$path) ||
         any(file.exists(unknown$path))) {
       stop("Slug duplicato o pagina esistente in ", section, call. = FALSE)
     }
-    pages <- dplyr::bind_rows(pages, dplyr::select(unknown, path, title, key))
+    pages <- rbind(pages, data.frame(path = unknown$path, title = unknown$value,
+                                     key = unknown$key, stringsAsFactors = FALSE))
   }
   # Mantiene la parte iniziale delle pagine esistenti e sostituisce le tabelle.
-  purrr::map(seq_len(nrow(pages)), function(index) {
-    page <- pages[index, ]
-    rows <- data |>
-      dplyr::filter(key == page$key)
-    if (file.exists(page$path)) {
-      prefix <- paesi_prefix(page$path)
-      prefix <- paesi_permalink(prefix, basename(dirname(page$path)))
-      prefix <- paesi_description(prefix, page$title)
+  by_key <- split(seq_len(nrow(data)), data$key)
+  lapply(seq_len(nrow(pages)), function(index) {
+    path <- pages$path[index]
+    title <- pages$title[index]
+    rows <- data[by_key[[pages$key[index]]], , drop = FALSE]
+    if (file.exists(path)) {
+      prefix <- paesi_prefix(path)
+      prefix <- paesi_permalink(prefix, basename(dirname(path)))
+      prefix <- paesi_description(prefix, title)
     } else {
-      metadata <- list(title = page$title, author = "Vito Sestito",
-                       slug = basename(dirname(page$path)),
-                       url = paste0("/programmazione-storica/paesi-di-produzione/", basename(dirname(page$path)), "/"),
+      slug <- basename(dirname(path))
+      metadata <- list(title = title, author = "Vito Sestito", slug = slug,
+                       url = paste0("/programmazione-storica/paesi-di-produzione/", slug, "/"),
                        categories = list("Paesi di produzione"),
                        tags = list("Programmazione"),
-                       description = paste0("Film prodotti in ", page$title, " nella programmazione del Cinema Teatro Sestito, suddivisi per anno."))
+                       description = paste0("Film prodotti in ", title, " nella programmazione del Cinema Teatro Sestito, suddivisi per anno."))
       prefix <- c("---", strsplit(yaml::as.yaml(metadata), "\n", fixed = TRUE)[[1]], "---", "")
     }
     prefix <- paesi_image(prefix)
-    table <- paesi_table(rows, "anno")
-    list(path = page$path, lines = c(prefix, "<!-- Tabelle generate automaticamente. -->", "", table))
+    list(path = path, lines = c(prefix, "<!-- Tabelle generate automaticamente. -->", "",
+                                paesi_table(rows)))
   })
 }
 
@@ -332,7 +330,15 @@ write_paesi_pages <- function(pages) {
 update_paesi <- function(project_root = ".", countries = NULL) {
   pages <- prepare_paesi_section(project_root, "paesi-di-produzione", "country", countries)
   write_paesi_pages(pages)
+  if (is.null(countries)) update_paesi_index(project_root)
   invisible(pages)
+}
+
+# Rigenera i grafici della pagina indice della sezione (vedi R/update-indici.R).
+update_paesi_index <- function(project_root = ".") {
+  helpers <- new.env(parent = globalenv())
+  sys.source(file.path(project_root, "R", "update-indici.R"), envir = helpers)
+  helpers$update_indici(project_root, "paesi")
 }
 
 if (sys.nframe() == 0L) update_paesi()

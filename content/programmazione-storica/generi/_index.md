@@ -8,8 +8,6 @@ slug: "generi"
 type: "programmazione-storica/generi"
 ---
 
-
-
 L’analisi dei generi cinematografici proiettati nel corso dell’attività del cinema Sestito offre uno sguardo privilegiato sulle trasformazioni culturali e sociali. Il primo strumento interpretativo è un grafico dei generi per decennio, costruito a partire da un dataset opportunamente “ripulito” eliminando la categoria drammatico quando associata ad altri generi. Questa operazione consente di ridurre una distorsione frequente nelle classificazioni enciclopediche, in cui “drammatico” tende a funzionare come categoria-ombrello sovrapposta a generi più specifici.
 
 Il risultato è una rappresentazione più nitida delle tendenze effettive: emergono infatti tre poli dominanti: commedia, avventura e azione, che rispecchiano le preferenze del pubblico popolare e la tipologia di prodotti più frequentemente distribuiti nelle sale di provincia. Il grafico evidenzia inoltre come la varietà dei generi rifletta non solo mode cinematografiche, ma anche l’adattamento economico e culturale della sala rispetto ai mutamenti dell’offerta nazionale e internazionale.

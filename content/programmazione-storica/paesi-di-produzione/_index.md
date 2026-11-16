@@ -8,8 +8,6 @@ slug: "paesi-di-produzione"
 type: "programmazione-storica/paesi-di-produzione"
 ---
 
-
-
 L’analisi dei paesi di produzione dei film proiettati al cinema Sestito consente di osservare l’evoluzione delle dinamiche industriali e distributive. Il *primo grafico* presenta un confronto percentuale tra film italiani ed esteri aggregato per decennio, mettendo in evidenza alcune tendenze strutturali decisive per comprendere la storia della sala e il suo rapporto con il sistema produttivo nazionale.
 
 <img src="/programmazione-storica/paesi-di-produzione/_index_files/figure-html/italia-estero-per-decennio-1.png" width="768" alt="Percentuale di film italiani ed esteri per decennio" />
