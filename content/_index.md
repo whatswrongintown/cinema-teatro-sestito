@@ -23,6 +23,4 @@ Sebbene oggi le sue luci siano spente, il Cinema Sestito continua a vivere attra
 
 ---
 
-Non hai trovato quello che cerchi?  
-Vuoi condividere il tuo ricordo del cinema di San Vito?  
-Non esitare a [contattarmi](mailto:whatswrongintown@gmail.com)!
+{{< contact-form >}}

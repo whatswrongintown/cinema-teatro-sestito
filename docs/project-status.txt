@@ -1,5 +1,5 @@
 CINEMA TEATRO SESTITO - PROJECT STATUS (single entry point)
-Last review: 2026-11-16
+Last review: 2026-11-17
 
 Read this file first and update it whenever a decision is made.
 Detail lives elsewhere:
@@ -35,29 +35,35 @@ DONE
   Chart files were renamed: film-per-anno-1.png, fonti-per-decennio-1.png.
 - update-fonti.R is ready for the source "Note sui manifesti" (one source page;
   accepted database values and page rules: docs/historical-programming.md).
+DONE
+- Full R generator workflow completed 2026-11-17 in an isolated Git worktree
+  using the project data. Generated Markdown pages were unchanged; three summary
+  chart PNGs had small binary differences and were not copied into this worktree.
 TODO
-- Delete the four obsolete section _index.Rmd (anni, fonti, generi, paesi) once
-  the regenerated charts have been reviewed on the site. The Rmd of the root
-  programmazione-storica index has no charts and can go too. The two article
-  .Rmd files are not affected.
 - When the poster data arrive: create the "Note sui manifesti" source page
   (category "Note sui manifesti" fixes /categories/note-sui-manifesti/, a 404 today).
-- Full script run on the real project (everything so far was tested on copies).
 
 3. OPEN ITEMS
 Blocked on the poster database:
   - One country-CSV ID (tt0052704) has no IMDb row (deferred).
   - Placeholders: "Locandine d'epoca" (home links to "/"), empty Eventi.
   - /categories/note-sui-manifesti/ is 404 (see above).
-Verification not done:
-  - A full Hugo build after the head.html changes (canonical, Twitter Card,
-    og:type, taxonomy descriptions): run `hugo` once and inspect the <head>.
-    Hugo is not installed in the sessions used so far.
+Verification:
+  - DONE 2026-11-16: Full Hugo 0.136.5 Extended build succeeded (401 pages,
+    2,620 processed images); checked generated home <head> for canonical,
+    Twitter Card and og:type. Temporary build output was removed.
+  - DONE 2026-11-17: Full Hugo 0.136.5 Extended build with breadcrumbs and the
+    home form succeeded (403 pages, 2,620 processed images). Checked the home,
+    privacy, archive and dated year-page breadcrumbs; the home has no breadcrumb.
+    All 77 existing image galleries build. A missing gallery path produced a
+    path-specific error without a secondary generic readDir error.
+  - Privacy notice approved 2026-11-17. Form remains in local preview until
+    Netlify form detection, notifications, plan limits, spam handling and a real
+    deploy-preview submission are verified.
 Small technical leftovers (optional, none urgent):
   - lightbox.css is loaded in <body> (footer.html); scripts use absolute /js/.
   - Alt text: Programmazione storica charts, nav logo ("avatar"), gallery
     captions derived from file names.
-  - image-gallery shortcode gives a generic error on bad input.
   - sitemap lastmod never checked.
   - Index text still to review: the charts now come from R, the wording around
     them is unchanged.
@@ -78,7 +84,9 @@ align netlify.toml and .Rprofile.
 - Legacy R generators are removed (recoverable from GitHub history).
 - No analytics (disabled, DNT respected).
 - Only the owner maintains the site; visitors are mainly locals.
-- Contact: form plus visible email. Poster rights: confirmed for all scans.
+- Contact: homepage form plus visible email. Messages stay private; the optional
+  follow-up checkbox is not permission to publish. Poster rights: confirmed for
+  all scans.
 - Charts: explain denominators in the methodology article, no recalculation.
 
 5. OBSERVATIONS (for future work)
@@ -97,10 +105,13 @@ align netlify.toml and .Rprofile.
 
 6. ROADMAP (housekeeping first)
  0. Housekeeping. DONE 2026-11-16: robots.txt; footer GitHub link; sitemap page;
-    README and docs simplified; R scripts rewritten. TODO: one full Hugo build.
- 1. Breadcrumbs: no data needed, helps all 400+ pages.
- 2. Contact / memories form (Netlify Forms) and the visible email; needs a
-    privacy notice and a separate, optional publication permission.
+    README and docs simplified; R scripts rewritten. DONE 2026-11-16: one full
+    Hugo build (output removed).
+ 1. Breadcrumbs. DONE 2026-11-17: accessible hierarchy-based breadcrumbs just
+    below, and outside, the navigation header; verified on nested and dated pages.
+ 2. Contact / memories form. DOING 2026-11-17: local homepage preview, approved
+    privacy notice and confirmation page are ready. Verify Netlify settings and
+    a deploy-preview submission before public launch.
  3. Poster collection pilot: ONE size column of manifesti_archivio.csv and the
     film page first, then the five browse views. Images are converted in a
     separate R project.

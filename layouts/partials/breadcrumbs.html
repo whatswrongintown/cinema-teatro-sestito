@@ -1,0 +1,13 @@
+{{- if and (not .IsHome) (ne .Kind "404") -}}
+<nav class="breadcrumbs" aria-label="Percorso di navigazione">
+  <ol>
+    <li><a href="{{ "/" | relURL }}">Home</a></li>
+    {{- range .Ancestors.Reverse -}}
+      {{- if not .IsHome }}
+    <li><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>
+      {{- end -}}
+    {{- end }}
+    <li><span aria-current="page">{{ .LinkTitle }}</span></li>
+  </ol>
+</nav>
+{{- end -}}

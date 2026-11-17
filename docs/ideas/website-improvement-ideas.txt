@@ -1,5 +1,5 @@
 WEBSITE IMPROVEMENT IDEAS AND TECHNICAL PLAN
-Working notes, 2026-11-15, condensed 2026-11-16
+Working notes, 2026-11-15, condensed 2026-11-17
 
 Nothing here is an implementation decision unless it appears in
 docs/project-status.txt. Priorities: see the roadmap there.
@@ -33,8 +33,16 @@ A form where visitors send a private message, including memories of the cinema.
   Docs: https://docs.netlify.com/manage/forms/setup/
         https://docs.netlify.com/manage/forms/submissions/
         https://docs.netlify.com/manage/forms/spam-filters/
-- Implementation: a Markdown contact page with a shortcode (or dedicated layout)
-  that renders the form; works without JavaScript.
+- Implementation choice: a Hugo shortcode embedded on the homepage; it must work
+  without JavaScript.
+- Local preview implemented 2026-11-17: the form shortcode is at the end of the
+  homepage; only the final contact invitation was replaced. It has a required
+  message, optional name/email, a honeypot, and an optional follow-up request
+  about possible publication. That request is not publication permission.
+  `content/privacy.md` was approved by the owner on 2026-11-17, and
+  `content/grazie.md` is the confirmation page. Before public launch, verify
+  Netlify detection, notification recipient, plan limits, spam handling, and
+  submission behavior on a deploy preview.
 
 1.2 Search
 Make films in the programming (later posters) easy to find: search box, useful
@@ -59,6 +67,10 @@ dated. Accessible nav label, ordered list, aria-current on the current page, non
 on the home page. Add it to every list and single layout (check each page kind)
 and test dated URLs and aliases.
 Docs: https://gohugo.io/methods/page/ancestors/
+Implementation completed 2026-11-17: `layouts/partials/breadcrumbs.html` is
+rendered just below and outside the navigation header, and styled in
+`static/css/main.css`. Hugo page ancestors provide the hierarchy; the home page
+is excluded. Nested and dated routes were checked in a full build.
 
 1.4 Vintage poster collection
 Known: 1,797 images, 3.88 GB, photographed with an iPhone SE (2nd generation),
@@ -267,8 +279,10 @@ Docs: https://docs.ropensci.org/magick/reference/editing.html
    use, alt text and no-JavaScript browsing.
 4. Scale to the full collection, review the mismatch report, build with Hugo
    0.136.5, verify a Netlify deploy preview, document the update and backup flow.
-5. Add breadcrumbs, the form and search in an agreed order, each tested on a
-   deploy preview. (Check any Hugo API against 0.136.5 before adopting it.)
+5. Breadcrumbs are implemented and build-tested. The homepage form is in local
+   preview and its privacy notice is approved; verify Netlify settings/submission
+   on a deploy preview before public launch. Search remains future work. (Check
+   any Hugo API against 0.136.5 before adopting it.)
 
 OPEN QUESTIONS
 1. What do the local codes look like, and is there a list mapping each to a film?

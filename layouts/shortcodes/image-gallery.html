@@ -1,3 +1,38 @@
+{{- $dir := .Get "gallery_dir" -}}
+{{- if not $dir -}}
+  {{- errorf "image-gallery shortcode in %q: missing required gallery_dir argument" .Page.File.Path -}}
+{{- else -}}
+  {{- $relativeDir := strings.TrimPrefix "/" $dir -}}
+  {{- if or (not (strings.HasPrefix $relativeDir "images/")) (strings.Contains $relativeDir "..") (strings.Contains $relativeDir "\\") -}}
+    {{- errorf "image-gallery shortcode in %q: gallery_dir %q must be a path under /images without parent-directory segments" .Page.File.Path $dir -}}
+  {{- else -}}
+    {{- $dir = printf "/%s" $relativeDir -}}
+    {{- $directory := printf "/static%s" $dir -}}
+    {{- if not (fileExists $directory) -}}
+      {{- errorf "image-gallery shortcode in %q: gallery directory %q does not exist under static/" .Page.File.Path $dir -}}
+    {{- else -}}
+      {{- $entries := readDir $directory -}}
+      {{- if not $entries -}}
+        {{- errorf "image-gallery shortcode in %q: gallery directory %q is empty" .Page.File.Path $dir -}}
+      {{- else -}}
+        {{- $supportedExtensions := slice ".jpg" ".jpeg" ".png" ".gif" ".webp" ".tif" ".tiff" ".bmp" -}}
+        {{- $imageCount := 0 -}}
+        {{- $validEntries := true -}}
+        {{- range $entries -}}
+          {{- if .IsDir -}}
+            {{- errorf "image-gallery shortcode in %q: nested directory %q in gallery %q is not supported" $.Page.File.Path .Name $dir -}}
+            {{- $validEntries = false -}}
+          {{- else -}}
+            {{- $extension := path.Ext .Name | strings.ToLower -}}
+            {{- if not (in $supportedExtensions $extension) -}}
+              {{- errorf "image-gallery shortcode in %q: unsupported file %q in gallery %q" $.Page.File.Path .Name $dir -}}
+              {{- $validEntries = false -}}
+            {{- else -}}
+              {{- $imageCount = add $imageCount 1 -}}
+            {{- end -}}
+          {{- end -}}
+        {{- end -}}
+        {{- if and $validEntries (gt $imageCount 0) -}}
 <style>
     .image-gallery {overflow: auto; margin-left: 0; padding-left: 0;}
     .image-gallery li {float: left; display: block; margin: 0 0 1% 1%; width: 19%;}
@@ -6,16 +41,25 @@
     .image-gallery li a img {width: 100%; display: block;}
 </style>
 
-{{ $dir := string (.Get "gallery_dir") }}
 <ul class="image-gallery">
-{{ range (readDir (print "/static" $dir)) }}
-  {{- $image := resources.Get (printf "%s/%s" $dir .Name) -}}
-  {{- $imageurl := printf "%s/%s" $dir .Name -}}
-  {{- $imagetitle := index (split .Name ".") 0 -}}
-    <li>
-      <a href="{{ ($image.Fit "1600x1600 q50").Permalink }}" title="{{ $imagetitle }}" class="lightbox-image">
-        <img src="{{ ($image.Fill "300x300 q50").Permalink }}" alt="{{ $imagetitle }}" title="{{ $imagetitle }}">
-      </a>
-    </li>
-{{ end }}
+  {{- range $entries -}}
+    {{- $image := resources.Get (printf "%s/%s" $dir .Name) -}}
+    {{- if not $image -}}
+      {{- errorf "image-gallery shortcode in %q: unable to load image %q from gallery %q" $.Page.File.Path .Name $dir -}}
+    {{- else -}}
+      {{- $imagetitle := index (split .Name ".") 0 -}}
+  <li>
+    <a href="{{ ($image.Fit "1600x1600 q50").Permalink }}" title="{{ $imagetitle }}" class="lightbox-image">
+      <img src="{{ ($image.Fill "300x300 q50").Permalink }}" alt="{{ $imagetitle }}" title="{{ $imagetitle }}">
+    </a>
+  </li>
+    {{- end -}}
+  {{- end -}}
 </ul>
+        {{- else if and $validEntries (eq $imageCount 0) -}}
+          {{- errorf "image-gallery shortcode in %q: gallery directory %q contains no supported images" .Page.File.Path $dir -}}
+        {{- end -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}

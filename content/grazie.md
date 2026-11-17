@@ -1,0 +1,9 @@
+---
+title: "Grazie per il tuo messaggio"
+description: "Conferma dell'invio del messaggio al Cinema Teatro Sestito."
+---
+
+Grazie per aver condiviso il tuo messaggio. È stato inviato in privato al
+gestore del sito; non sarà pubblicato senza un accordo separato.
+
+[Torna alla pagina iniziale](/)
