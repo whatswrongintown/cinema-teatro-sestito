@@ -31,7 +31,7 @@ The existing contact form remains working, as confirmed by the owner.
 
 | ID | Work | Priority | Prerequisite / scheduling |
 | --- | --- | --- | --- |
-| [O01](#o01-robots-configuration) | Reconcile robots output | P2, doing | Local builds verified; recheck after deployment |
+| [O01](#o01-robots-configuration) | Reconcile robots output | Done | Local builds and live response verified |
 | [O02](#o02-poster-navigation) | Fix placeholder and unsupported links | P1 interim; P2 final | Final source/catalogue links need real content |
 | [O03](#o03-country-and-imdb-reconciliation) | Resolve country-only film ID | P2, deferred | Verified external/poster evidence |
 | [O04](#o04-chart-explanations) | Explain chart conventions accurately | P1 | Read-only calculation check |
@@ -45,31 +45,28 @@ The existing contact form remains working, as confirmed by the owner.
 | [P01](#p01-short-breadcrumb-labels) | Shorten selected breadcrumb labels | P3, deferred | Agree which labels should change |
 | [P02](#p02-lightbox-asset-placement) | Normalize lightbox asset loading | P3, deferred | None; coordinate with O05 |
 | [M01](#m01-form-and-privacy-maintenance) | Monitor form, usage and retention | P1, ongoing | Owner/dashboard access |
-| [F01](#f01-cinema-image-attachments) | Add optional image attachments | P2 | Upload/access/billing decisions first |
+| [F01](#f01-cinema-image-attachments) | Add optional image attachments | Deferred | Owner prefers email for photos for now |
 | [F02](#f02-poster-collection-pilot) | Deliver a poster catalogue pilot | P2, blocked on data | Database, images and agreed identifiers |
 | [F03](#f03-film-search) | Add film search | P3 | Agree result model; need not wait for posters |
 | [F04](#f04-later-editorial-features) | Timeline, identification, collections | P3, deferred | Choose one feature and its content |
 | [F05](#f05-integrated-programming-dashboard) | Integrate the database explorer | P2, proposed | Agree pilot, filter/count/ranking rules and performance targets |
 
 Suggested order: run a V01 baseline and continue M01; address O05, O02's
-interim links and O04; then the remaining ready P2 checks/corrections. F01 is the
-next requested form enhancement, not a repair of a broken text form. Begin O03,
+interim links and O04; then the remaining ready P2 checks/corrections. F01 is
+deferred in favor of email for photos, not a repair of a broken text form. Begin O03,
 O02's final phase and F02 when the necessary source data arrive. Run V01 again
 for affected page types after each implementation batch. P3 work can stay deferred.
 
 ## O01: Robots configuration
 
-**Status:** DOING. The live `/robots.txt` returned HTTP 404 on 2026-11-17.
+**Status:** DONE. The live `/robots.txt` initially returned HTTP 404 on 2026-11-17.
 [config.yaml](../config.yaml) now enables Hugo's built-in robots output;
 production and preview builds using Hugo 0.136.5 both generated `User-agent: *`
 with no disallow rules. The production build also generated `sitemap.xml`.
 The earlier audit's claim that robots.txt was added is historical and does not
-describe the current source or the observed live response.
-
-**Remaining:** deploy through the normal owner-approved workflow, then confirm
-the public `/robots.txt` returns HTTP 200 and the intended content. Record that
-result in project status before marking O01 DONE. A robots file does not
-guarantee indexing or search-result sitelinks.
+describe the earlier source or live response. After deployment on 2026-11-17,
+the public `/robots.txt` returned HTTP 200 and `User-agent: *`, with no disallow
+rules. A robots file does not guarantee indexing or search-result sitelinks.
 
 ## O02: Poster navigation
 
@@ -457,8 +454,10 @@ because one test passed; the current form's working status remains valid.
 
 ## F01: Cinema-image attachments
 
-**Priority:** P2, requested enhancement. **Depends on:** agreed limits, access,
-privacy/rights handling and acceptable Legacy Starter usage costs.
+**Status:** Deferred 2026-11-17: the owner prefers visitors to use the existing
+email link or arrange photo delivery after contact. No form uploads are enabled.
+If revisited, this depends on agreed limits, access, privacy/rights handling and
+acceptable Legacy Starter usage costs.
 
 **Files to modify:** [contact-form.html](../layouts/shortcodes/contact-form.html),
 [main.css](../static/css/main.css), [privacy.md](../content/privacy.md), and

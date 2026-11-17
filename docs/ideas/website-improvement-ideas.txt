@@ -62,12 +62,25 @@ https://docs.netlify.com/manage/accounts-and-billing/billing/billing-for-legacy-
 https://docs.netlify.com/manage/accounts-and-billing/billing/billing-for-legacy-plans/billing-faq-for-legacy-plans/
 https://docs.netlify.com/manage/forms/usage-and-billing/
 
-1.1.2 Cinema-image attachments - TODO, requested 2026-11-17, not implemented
+1.1.2 Cinema-image attachments - DEFERRED 2026-11-17, not implemented
 Goal: visitors can optionally attach cinema-related images to their message.
 The existing text form must keep working, including without JavaScript.
-- Decide allowed image formats, number of upload fields, per-file cap and total
-  site cap before implementation; no values are agreed yet. Other document
-  types are not in the initial scope. Phone photos may need preparation.
+- The owner chose to use the existing email link for photos, or arrange their
+  delivery after contact, instead of implementing uploads for now. If revisited,
+  formats, limits and security need agreement. Other document types are not in
+  the initial scope. Phone photos may need preparation.
+- The form invitation now mentions cinema visits, theatrical shows, anecdotes
+  and photos, without promising an attachment field.
+- The owner identified Netlify's VGS plugin. Netlify recommends VGS for uploads
+  containing personal information; its plugin configures VGS vault routes rather
+  than securing uploads by merely installing it. Its GitHub repository was
+  archived on 2026-02-24, and current photo-upload support, maintenance and
+  applicable terms need confirmation. VGS's pricing page lists plans starting
+  at $1,000/month and says users can get started free; the actual terms for this
+  use are unknown. Do not install or activate it without a separate decision.
+  https://www.netlify.com/integrations/very-good-security/build-plugin/
+  https://github.com/verygoodsecurity/netlify-plugin-vgs
+  https://www.verygoodsecurity.com/pricing
 - Consider native HTML file inputs and multipart/form-data encoding. Netlify
   currently supports one file per upload field; several files require several
   fields, not reliance on a single multiple-file field.

@@ -46,6 +46,10 @@ DONE - Website features
 - 2026-11-17: hierarchy-based breadcrumbs below and outside the navigation
   header; home and 404 excluded. Uses .LinkTitle, not URL segments. Breadcrumb
   links use a thinner green underline and the content links' hover/focus highlight.
+  The owner confirmed the breadcrumb styling works in production.
+- O01 DONE 2026-11-17: Hugo's built-in robots.txt is enabled. After deployment,
+  the live file returned HTTP 200 with "User-agent: *" and no disallow rules.
+  Production and preview builds produced the same rules; sitemap.xml is separate.
 - 2026-11-17: gallery shortcode now validates missing/invalid paths, empty
   directories, nested directories, unsupported files and resource lookup.
   The former generic gallery-input-error issue is resolved; lightbox interaction
@@ -70,12 +74,6 @@ DONE - Previously recorded build checks (not repeated in this review)
   secondary generic readDir error. Temporary build output was removed.
 
 3. ACTUAL OPEN ITEMS
-DOING O01 - Robots source/configuration discrepancy
-  Live /robots.txt returned HTTP 404 on 2026-11-17. Hugo's built-in generation
-  is now enabled in config.yaml; production and preview builds with Hugo 0.136.5
-  both generated "User-agent: *" without disallow rules. The production build
-  also generated sitemap.xml. After deployment, verify the live /robots.txt
-  returns HTTP 200 with the intended content before marking this DONE.
 TODO O02 - Poster-related navigation
   Home "Locandine d'epoca" points to "/"; content/sitemap.md has an empty link.
   Fonti still links to /categories/note-sui-manifesti/ without backing content.
@@ -153,9 +151,14 @@ DOING M01 - Routine form/privacy operations
   copy and align netlify.toml/.Rprofile if an upgrade is separately authorized.
 
 6. ROADMAP (future features are not current defects)
-TODO F01 - Cinema-image attachments to the working contact form
-  Owner requested optional image submission on 2026-11-17. Not implemented.
-  Decide formats/count/site limits; preserve text-only and no-JavaScript use.
+DEFERRED F01 - Cinema-image attachments to the working contact form
+  Owner chose on 2026-11-17 to use the existing email link or arrange photos
+  after contact instead. Form uploads are not implemented or enabled.
+  If revisited, preserve text-only and no-JavaScript use.
+  The form invitation now mentions cinema visits, theatrical shows, anecdotes
+  and photographs without claiming that attachments are available.
+  The owner identified Netlify's VGS plugin; its repository is archived and
+  current pricing/support for photo uploads needs confirmation before use.
   Documented Netlify limits: one file per field, 8 MB total request, 30-second
   upload timeout; the monthly upload allowance is separate. Review validation,
   access, metadata/privacy, retention, rights and separate publication permission
