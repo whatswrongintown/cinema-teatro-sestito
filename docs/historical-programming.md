@@ -25,6 +25,11 @@ The scripts check dates (`YYYY-MM-DD`), required columns and unique IDs, and sto
 on errors. Several sources, genres or countries in one cell are separated by
 commas; names are case-insensitive.
 
+Read-only CSV check on 2026-11-17: 5,290 screening rows, 4,567 distinct screening
+film IDs and IMDb records, and 4,568 country records. Every screening ID has an
+IMDb row; the extra country ID `tt0052704` still needs reconciliation with the
+poster data. It is deferred, not silently deleted or assigned a guessed match.
+
 ## Scripts
 
 | Script | Function | What it writes |
@@ -71,13 +76,17 @@ selection leaves them untouched.
 
 ## Note sui manifesti
 
-One source page, `content/programmazione-storica/fonti/<folder>/index.md`, titled
+The required future source page,
+`content/programmazione-storica/fonti/<folder>/index.md`, titled
 `Note sui manifesti` (or `Note su manifesti`), lists the screenings whose date is
 written on the film poster, by year and month. The database value can be
 `note_su_manifesti`, `Note sui manifesti` or `Note su manifesti` (also singular):
 all fill that page. The annual pages link the source to it; until the page exists
 they link to the sources index. Give the page the category `Note sui manifesti`
 so that `/categories/note-sui-manifesti/` works.
+
+That page/category has not yet been created in this copy. The Fonti index still
+links to the category without backing content; do not describe the link as fixed.
 
 ## Section index charts
 
@@ -92,12 +101,33 @@ charts are PNG files in
 | generi | `generi-per-decennio-1.png`, `film-per-adulti-per-anno-1.png` |
 | paesi-di-produzione | `italia-estero-per-decennio-1.png`, `paesi-per-decennio-1.png` |
 
-The `_index.Rmd` files of these indexes are no longer needed.
+The obsolete programming section `_index.Rmd` files have been removed. The two
+article `index.Rmd` sources remain; this change does not replace their workflow.
 
 Chart conventions: 1536 px wide (8 in at 192 dpi), the same text proportions as
 the former knitr charts, and the same numbers as the original tidyverse code.
 The sources chart classifies a source by name (Appunti, Rubriche, Calendari,
 Note sui manifesti; everything else counts as Agende).
+
+### Interpretation and remaining editorial work
+
+Charts count dated database entries, not distinct films or a known count of
+daily projections. Source charts count source-entry associations; country charts
+count country-entry associations, including coproductions. The methodology
+article already explains those distinctions.
+
+The existing genre calculation removes `Drammatico` when a film has more than
+one expanded row, so it also removes repeated Drammatico-only films, not just
+films with several genres. Missing genres count as not adult in the adult-share
+calculation. The methodology/index prose does not yet fully explain these two
+behaviors; see O04 in [project status](project-status.txt).
+
+Earlier analysis recorded 62 films / 126 rows affected by the repeated
+Drammatico-only exclusion, 104 missing-genre rows, and 7,126 country associations.
+These detailed figures were not recalculated in the documentation review.
+Decision: explain the conventions and review chart prose, not recalculate charts.
+The scripts do not rewrite editorial introductions; do not edit generated tables
+to try to fix explanatory text.
 
 ## Checks done on the rewrite (2026-11-16)
 
@@ -108,3 +138,15 @@ Note sui manifesti; everything else counts as Agende).
   the published charts within a few pixels.
 - A full update takes about 20 s, against about 40 s for the previous scripts
   (measured without the font download, which made them slower still).
+
+## Recorded follow-up and review limits (2026-11-17)
+
+The project status records a full generator run in an isolated Git worktree
+using project data: generated Markdown was unchanged; three summary chart PNGs
+had small binary differences and were not copied back. This is a previously
+recorded check, not a generator run repeated for this documentation update.
+
+The current review checked source documentation and CSV counts/ID coverage. It
+did not regenerate pages/charts or run a fresh Hugo build. Old annual pages
+intentionally remain with a warning if their data disappear; review them manually
+when the warning occurs rather than treating retention as a new generator bug.

@@ -26,9 +26,16 @@ This regenerates the annual pages, the tables in source, genre and country pages
 ## Documentation
 
 - [docs/project-status.txt](docs/project-status.txt): current status, open items, decisions and roadmap (start here).
+- [docs/implementation-guide.md](docs/implementation-guide.md): priorities, dependencies, resolution steps, affected/new files and acceptance checks for every open status item.
 - [docs/historical-programming.md](docs/historical-programming.md): the R scripts, the data and the generated pages.
-- [docs/ideas/](docs/ideas/): ideas and technical plan (poster collection, search, contact form, breadcrumbs).
-- [docs/log/](docs/log/): condensed audit logs.
+- [docs/ideas/website-improvement-ideas.txt](docs/ideas/website-improvement-ideas.txt): implemented feature notes, future image attachments, Legacy Starter references, and poster/search proposals.
+- [docs/logs/](docs/logs/): dated historical audits, not the current backlog.
+
+Hierarchy-based breadcrumbs and explicit gallery-input validation are implemented.
+The homepage contact form is working according to the owner's Netlify check on
+2026-11-17. Cinema-image attachments are requested but not implemented; the poster
+catalogue and film search also remain future work. The status document separates
+confirmed issues from pending checks and optional enhancements.
 
 ## License
 

@@ -1,8 +1,10 @@
 WEBSITE IMPROVEMENT IDEAS AND TECHNICAL PLAN
-Working notes, 2026-11-15, condensed 2026-11-17
+Working notes, 2026-11-15, reviewed and reorganised 2026-11-17
 
 Nothing here is an implementation decision unless it appears in
-docs/project-status.txt. Priorities: see the roadmap there.
+docs/project-status.txt. Current issues and priorities live there; this file
+holds feature details, provider references and future proposals. Historical
+audits remain in docs/logs/. DONE / TODO / DEFERRED describe current feature state.
 
 FOUNDATION
 - Hugo 0.136.5 + R/blogdown, deployed with Netlify (Hugo only, no R). Static is
@@ -14,37 +16,85 @@ FOUNDATION
   image-gallery shortcode makes square 300x300 thumbnails and filename captions,
   which do not suit a poster catalogue.
 
-1. IDEAS
+1. CURRENT FEATURES AND PLANNED ENHANCEMENTS
 
-1.1 Memories and contact
-A form where visitors send a private message, including memories of the cinema.
-- Italian form: message (required), optional name, optional email for a reply.
-  Confirmation after sending and a clear error on failure.
-- Messages go to the owner, not onto the site. Publication needs a separate,
-  optional permission, and attribution or anonymity agreed with the author.
-- Privacy notice: what is collected, why, who receives it, retention, deletion.
-  Minimise sensitive data; add spam protection (honeypot) and email notification.
-- Netlify Forms handles a static HTML form (name, data-netlify=true, form
-  detection enabled, redeploy; submissions appear in the dashboard). The owner
-  reports 100 submissions per month on the current plan: check the account and
-  the behaviour at the limit. Test on a real deploy (hidden form-name field,
-  notifications, spam handling, thank-you page). Submissions are never shown
-  publicly or committed.
-  Docs: https://docs.netlify.com/manage/forms/setup/
-        https://docs.netlify.com/manage/forms/submissions/
-        https://docs.netlify.com/manage/forms/spam-filters/
-- Implementation choice: a Hugo shortcode embedded on the homepage; it must work
-  without JavaScript.
-- Local preview implemented 2026-11-17: the form shortcode is at the end of the
-  homepage; only the final contact invitation was replaced. It has a required
-  message, optional name/email, a honeypot, and an optional follow-up request
-  about possible publication. That request is not publication permission.
-  `content/privacy.md` was approved by the owner on 2026-11-17, and
-  `content/grazie.md` is the confirmation page. Before public launch, verify
-  Netlify detection, notification recipient, plan limits, spam handling, and
-  submission behavior on a deploy preview.
+1.1 Memories and contact - DONE, owner-verified working 2026-11-17
+- The homepage Hugo shortcode layouts/shortcodes/contact-form.html accepts a
+  private message (required), optional name and optional reply email. It works
+  without JavaScript and includes Netlify metadata, a hidden form-name field,
+  a honeypot, a privacy link and a confirmation-page action.
+- The optional follow-up request about publication is not publication permission.
+  Agree publication, credit or anonymity separately with the author. A reply
+  email is needed if the visitor wishes to be contacted.
+- content/privacy.md was approved by the owner on 2026-11-17;
+  content/grazie.md is the confirmation page.
+- On 2026-11-17 the owner confirmed Netlify was checked and everything works.
+  This supersedes the earlier local-preview/launch-blocker status. It is not
+  evidence of an assistant-run test of every notification, spam or error case.
+- Monitor submissions/spam and account usage as routine maintenance; follow the
+  approved retention/deletion practices. Messages are not automatically published
+  or committed. The shortcode is unconditional, not preview-gated.
+Docs: https://docs.netlify.com/manage/forms/setup/
+      https://docs.netlify.com/manage/forms/submissions/
+      https://docs.netlify.com/manage/forms/spam-filters/
 
-1.2 Search
+1.1.1 Legacy Starter context - official references checked 2026-11-17
+The owner identifies the account as Legacy Starter. Do not substitute newer
+credit-based plan terms, including their unlimited Forms offering.
+- Legacy plans apply to accounts predating September 4, 2025. The published
+  table lists 100 form submissions per site/month; the FAQ describes Forms
+  Level 0 as 100 submissions plus 10 MB of uploaded files per month. Forms usage
+  counts verified submissions and the files uploaded through them.
+- Monthly uploads are a separate metered allowance, not a per-file size limit
+  or an unlimited lifetime storage promise. The dashboard is authoritative for
+  older grandfathered terms and the active Forms level; it was not inspected by
+  the assistant. Do not assume the account must still be on Level 0.
+- Legacy Starter metered usage can trigger automatic add-on upgrades/extra
+  charges. Legacy Free has different hard-limit behavior. Do not promise that
+  reaching an allowance merely rejects the next submission or cannot cost money.
+- For deployment context, the published Starter table lists 100 GB monthly
+  bandwidth and 300 monthly build minutes, with overages. These are not upload
+  limits or evidence of a current problem.
+- No migration is proposed: moving a team to credit-based pricing is documented
+  as irreversible. Keep account settings and billing unchanged for this task.
+Sources:
+https://docs.netlify.com/manage/accounts-and-billing/billing/billing-for-legacy-plans/legacy-pricing-plans/
+https://docs.netlify.com/manage/accounts-and-billing/billing/billing-for-legacy-plans/billing-faq-for-legacy-plans/
+https://docs.netlify.com/manage/forms/usage-and-billing/
+
+1.1.2 Cinema-image attachments - TODO, requested 2026-11-17, not implemented
+Goal: visitors can optionally attach cinema-related images to their message.
+The existing text form must keep working, including without JavaScript.
+- Decide allowed image formats, number of upload fields, per-file cap and total
+  site cap before implementation; no values are agreed yet. Other document
+  types are not in the initial scope. Phone photos may need preparation.
+- Consider native HTML file inputs and multipart/form-data encoding. Netlify
+  currently supports one file per upload field; several files require several
+  fields, not reliance on a single multiple-file field.
+- Netlify's documented ceiling is 8 MB for the whole form request, not per
+  image, and uploads time out after 30 seconds. The monthly Forms upload
+  allowance is separate; allow for form fields/encoding in any chosen file cap.
+- Give accessible labels and clear size/format instructions. Plan reliable file
+  validation and visible oversized/unsupported/failed/timeout feedback; a browser
+  accept hint alone does not validate uploaded content. Test mobile use too.
+- Review upload abuse/spam handling, personal data and image metadata/location
+  information. Keep owner review before any publication: do not automatically
+  copy submissions into static/, the repository or a public gallery.
+- Review the privacy notice and actual storage/access/retention/deletion behavior
+  before enabling uploads. Receiving an image is not permission to publish it;
+  separately agree rights, attribution and publication.
+- Netlify supplies file links in submission details, email notifications, CSV
+  exports and the API. Do not promise authenticated-only access without checking.
+  Its docs say uploads can remain accessible by direct URL for 24 hours after
+  deleting a form; do not promise immediate erasure.
+- When separately authorized, test success/failure, notification links, deletion
+  behavior and monthly accounting on a real deploy. No upload field, processing,
+  account change or submission test is part of this documentation-only update.
+Sources:
+https://docs.netlify.com/manage/forms/setup/#file-uploads
+https://docs.netlify.com/manage/forms/submissions/#file-uploads
+
+1.2 Search - TODO, not implemented
 Make films in the programming (later posters) easy to find: search box, useful
 results, a no-results state.
 - Fields: Italian and original titles, film ID, screening year, genre, country;
@@ -60,19 +110,22 @@ results, a no-results state.
   keyboard and label support, and keep the browse pages as the no-JavaScript
   fallback. A hosted search service only if scale justifies its privacy and cost.
 
-1.3 Breadcrumbs
-Home > Programmazione storica > Anni > 1958. Use the content hierarchy (Hugo page
-ancestors and .RelPermalink, Home first), not URL segments: some permalinks are
-dated. Accessible nav label, ordered list, aria-current on the current page, none
-on the home page. Add it to every list and single layout (check each page kind)
-and test dated URLs and aliases.
+1.3 Breadcrumbs - DONE 2026-11-17; optional short labels DEFERRED
+layouts/partials/breadcrumbs.html is called once from the shared header, just
+below and outside the navigation header. It uses Hugo ancestors and .RelPermalink
+rather than dated URL segments, starts with Home, and excludes home and 404.
+Markup has a labelled nav, ordered list and aria-current on the non-linked
+current item. static/css/main.css provides wrapping, a thin green link underline
+and the same green hover/focus highlight as page content.
+- Labels use .LinkTitle: existing titles by default, standard linkTitle front
+  matter when supplied. No special breadcrumbTitle parameter or year-only label
+  was implemented. Shorter labels remain optional, not a hierarchy defect.
+- Nested and dated routes were checked in the earlier recorded full build.
+  Fresh taxonomy/alias, mobile and assistive-technology checks were not repeated
+  in the documentation review; keep them separate from a known implementation bug.
 Docs: https://gohugo.io/methods/page/ancestors/
-Implementation completed 2026-11-17: `layouts/partials/breadcrumbs.html` is
-rendered just below and outside the navigation header, and styled in
-`static/css/main.css`. Hugo page ancestors provide the hierarchy; the home page
-is excluded. Nested and dated routes were checked in a full build.
 
-1.4 Vintage poster collection
+1.4 Vintage poster collection - TODO, proposal
 Known: 1,797 images, 3.88 GB, photographed with an iPhone SE (2nd generation),
 no copies. Folders by poster size, e.g. folder "fotobuste 50x70" with file
 "tt0038338_50x70_01": film code, size, number (different numbers are different
@@ -128,13 +181,213 @@ before agreeing a convention; if files are renamed, keep an old-to-new mapping.
 Check rights for digitised artwork before publication (ownership of the physical
 poster alone may not be enough; the owner confirms all scans can be published).
 
-1.5 Other ideas
+1.5 Integrated programming dashboard - TODO F05, requested 2026-11-17
+Documentation and an R starter example only; no dashboard, standalone R script,
+dependency installation, generated dataset or navigation change is implemented.
+
+Goal and placement
+- Add "Esplora i dati" as another area inside Programmazione storica, alongside
+  Anni, Fonti, Generi and Paesi di produzione. Suggested route, not approved:
+  /programmazione-storica/esplora/. Keep the Progetto-only top menu unchanged.
+- Rebuild the database explorer currently embedded in the article below, rather
+  than making an article the only way to discover it:
+  https://cinemateatrosestito.com/2023/09/23/esplora-la-storia-cinematografica-di-san-vito-sullo-ionio/
+  https://whatswrongintown.shinyapps.io/programmazione_film_shiny/
+- On 2026-11-17 an HTML fetch exposed the existing app's title, screening-year
+  control, Grafici/Riepilogo/Tabella tabs, chart selector, unique-film summary,
+  top/bottom five IMDb rankings, director frequency and director/genre controls.
+  This confirms the visible interface, not working reactivity, chart contents or
+  the original R implementation. The Shiny source is not in this checkout.
+- Preserve the article URL and introduction; once the replacement is verified,
+  link to the new explorer there instead of leaving two competing dashboards.
+  Do not remove the working iframe or retire the hosted app before that check.
+
+Recommended architecture: R prepares data, the browser provides interaction
+- Keep the three CSVs authoritative. Run R locally to validate and export only
+  the required public fields to JSON; commit the output with the site. Hugo
+  builds the page, and JavaScript filters the data and redraws charts/tables
+  inside the existing site layout, fonts, breadcrumbs and navigation.
+- No running R process, Shiny server, iframe or additional dashboard hosting is
+  needed for filters, grouped counts, rankings and a browsable table. Netlify
+  continues to run Hugo only. New statistical calculations must either be
+  prepared in R or implemented in JavaScript; arbitrary R code cannot run in an
+  ordinary static page.
+- Start with a year range, title search, director and genre filters; summary
+  cards, one screenings-by-year chart and a paginated table. Source and country
+  filters, further charts, exports and shareable filter URLs can follow after
+  their definitions are agreed. This is a proposed pilot, not agreed scope.
+- Prefer native controls and a small shared filter state. Select at most the
+  chart/table libraries actually needed, serve their assets locally, and avoid
+  a heavy application framework by default. Share validated film data/helpers
+  with F03 where useful; the dashboard need not wait for global film search.
+
+Alternatives
+- R htmlwidgets (e.g. plotly, DT, crosstalk) can generate static interactive HTML.
+  Crosstalk can link supported widgets without Shiny, but arbitrary reactive R
+  expressions do not become browser-side computations. A useful R-first
+  prototype, with potentially heavier assets and more styling/integration work.
+- Quarto static dashboards (without Shiny server mode) can publish pages with
+  supported browser-side widgets. Another R-first authoring option, not an R
+  runtime on Netlify; a separate page/iframe will not automatically inherit the
+  Hugo navigation and design. Check tooling compatibility before adoption.
+- Shinylive can run compatible R/Shiny code in the browser through WebAssembly,
+  without shinyapps.io. Evaluate initial download/startup cost, browser support
+  and package/data compatibility; it is not automatically the lightest choice.
+- Self-hosted Shiny (or another managed Shiny host) avoids shinyapps.io but still
+  needs an R server, updates, resources and hosting operations. A styled embed
+  does not remove that dependency. Reserve it for genuinely server-side needs.
+
+Data definitions and safeguards
+- Distinguish dated archival entries from unique films and from an unknown
+  actual number of individual daily projections. Count films by stable ID,
+  not title; repeated appearances must not inflate IMDb rankings.
+- Filter dated entries first; use their distinct film IDs for film summaries.
+  Keep screening year separate from release year. Explain incomplete coverage
+  (including 1960/1961), missing metadata and IMDb's externally sourced ratings.
+  Low ratings do not mean "worst locally received": choose neutral Italian labels,
+  a minimum-vote rule and a tie-break order before implementing top/bottom lists.
+- Keep multi-valued genres, directors, sources and countries as relationships,
+  not a Cartesian join that multiplies screening counts. Apply one shared filter
+  state to all views. Agree AND/OR rules and whether genre charts count entries,
+  unique films or associations. Do not copy or silently change the legacy genre
+  exclusions documented under O04; define and label dashboard measures separately.
+- Validate unique film keys, strict dates and unmatched joins before exporting.
+  Retain missing ratings/genres as missing, not zero or invented categories.
+  The known country-only ID is still O03, not permission to discard records.
+- Limit the public export to needed fields. Existing CSVs are already public;
+  reducing the export does not make those originals private. Check IMDb
+  attribution/use terms; do not fetch fresh metadata from visitors' browsers.
+- Measure JSON bytes, library weight and mobile load/filter time before deciding
+  whether to split data by year. Provide Italian labels, keyboard access,
+  responsive charts, a readable table, and loading/empty/error states.
+  Keep links to existing browse pages as the no-JavaScript fallback.
+
+R starter example (base R; exploratory, read-only)
+Run from the project root. This returns separate screening and film tables,
+without generating pages, changing the CSVs or using the legacy chart pipeline.
+It intentionally leaves comma-separated metadata intact; the eventual exporter
+must normalise those relationships before multi-value filtering. Country data,
+UI, ranking rules, JSON refresh integration and production tests are not included.
+The marked block can be copied into an R session; no new script is installed.
+
+BEGIN DASHBOARD R STARTER
+dashboard_data <- function(project_root = ".") {
+  read_data <- function(filename, required) {
+    path <- file.path(project_root, "static", "data", filename)
+    x <- utils::read.csv(
+      path, colClasses = "character", na.strings = c("", "NA"),
+      check.names = FALSE, strip.white = TRUE, fill = FALSE,
+      comment.char = "", fileEncoding = "UTF-8-BOM"
+    )
+    missing <- setdiff(required, names(x))
+    if (length(missing)) {
+      stop("Missing columns in ", filename, ": ", paste(missing, collapse = ", "))
+    }
+    x
+  }
+  entries <- read_data("programmazione_agende.csv",
+                       c("date", "const", "title", "source"))
+  films <- read_data("programmazione_imdb.csv",
+                    c("Const", "Title", "Original Title", "Year", "Genres",
+                      "Directors", "IMDb Rating", "Num Votes"))
+  valid_ids <- function(x) !anyNA(x) && all(nzchar(trimws(x)))
+  if (!valid_ids(entries$const) || !valid_ids(films$Const) ||
+      anyDuplicated(films$Const)) {
+    stop("Missing film IDs or duplicate IMDb IDs.")
+  }
+  dates <- as.Date(entries$date, format = "%Y-%m-%d")
+  if (anyNA(dates) || any(format(dates, "%Y-%m-%d") != entries$date)) {
+    stop("Screening dates must be valid YYYY-MM-DD values.")
+  }
+  unmatched <- setdiff(entries$const, films$Const)
+  if (length(unmatched)) {
+    stop("Screening film IDs missing from IMDb: ", paste(unmatched, collapse = ", "))
+  }
+  number <- function(x, field, lower, upper = Inf, integer = FALSE) {
+    value <- suppressWarnings(as.numeric(x))
+    bad <- !is.na(x) & (is.na(value) | !is.finite(value) |
+                        value < lower | value > upper)
+    if (integer) bad <- bad | (!is.na(value) & value != floor(value))
+    if (any(bad)) stop("Invalid numeric values in ", field)
+    value
+  }
+  list(
+    screenings = data.frame(
+      date = format(dates, "%Y-%m-%d"),
+      screening_year = as.integer(format(dates, "%Y")),
+      film_id = entries$const, recorded_title = entries$title,
+      source = entries$source
+    ),
+    films = data.frame(
+      film_id = films$Const, title = films$Title,
+      original_title = films[["Original Title"]],
+      release_year = number(films$Year, "Year", 1, 9999, integer = TRUE),
+      genres = films$Genres, directors = films$Directors,
+      imdb_rating = number(films[["IMDb Rating"]], "IMDb Rating", 0, 10),
+      imdb_votes = number(films[["Num Votes"]], "Num Votes", 0, integer = TRUE)
+    )
+  )
+}
+END DASHBOARD R STARTER
+
+Example exploration after evaluating the block:
+  data <- dashboard_data()
+  selected <- subset(data$screenings, screening_year >= 1950 & screening_year <= 1959)
+  nrow(selected)                         # dated entries, not daily projections
+  length(unique(selected$film_id))       # unique films in this selection
+  table(selected$screening_year)
+  selected_films <- data$films[data$films$film_id %in% selected$film_id, ]
+
+Optional later JSON step, only after reviewing the public fields, installing
+jsonlite explicitly if needed and agreeing the output location:
+  jsonlite::write_json(data, "dashboard-prototype.json", dataframe = "rows",
+                       na = "null", auto_unbox = TRUE, pretty = FALSE)
+This writes a local prototype, not a published dashboard. Copying it into static/
+would publish it; do not add it there until the export contract is agreed.
+
+Starter verification, 2026-11-17:
+- The exact marked block was executed read-only with R 4.5.2 against the project
+  CSVs: 5,290 dated entries, 4,567 film records and complete screening-to-film ID
+  coverage. Repeated film appearances remain separate entries. The 1950-1959
+  example returns 1,089 entries and 948 unique films.
+- Assertions checked these totals, unique film keys, repeated appearances, join
+  coverage, separate year fields and exclusion of income/personal-rating fields.
+  No export or source-data write was performed. The PowerShell host wrapper
+  subsequently reported a constrained-language SetShouldExit error; the R
+  assertions and completion output had already succeeded.
+- This is a starter/data-shape check, not browser, JSON-export, invalid-input
+  fixture, full dashboard or Hugo-build verification.
+
+Next implementation decisions and acceptance
+- Agree pilot views, counting/filter/ranking rules and performance targets.
+  Inspect original Shiny source if available; otherwise rebuild the agreed
+  behavior, not an assumed line-for-line port.
+- Proposed future files: R/update-dashboard.R, static/data/dashboard.json,
+  content/programmazione-storica/esplora/index.md with an explicit url to avoid
+  the section's dated permalink rule, layouts/shortcodes/programming-dashboard.html,
+  static/js/programming-dashboard.js and scoped styling in static/css/main.css.
+  These files are not created by this note. Update the section introduction,
+  editorial sitemap and original article only when the replacement is ready.
+- Define how full and partial R updates refresh this dataset, without changing
+  existing generated pages or historical chart definitions.
+- Verify filter combinations against R reference counts, repeated-film handling,
+  missing metadata, zero results, reset, failed data loading, mobile/keyboard
+  use and the agreed performance targets. Build with Hugo 0.136.5 and verify the
+  exact route, old article URL and no-Shiny operation before migration.
+
+1.6 Other ideas
 - Interactive timeline linking screenings, stories and archive items.
 - "Help identify this item": corrections reviewed before publication.
 - Curated collections: handmade posters, a decade, a genre, a local story.
 - Accessibility: keyboard navigation, legible text, image alt text, phone layout.
+  Current lightbox controls lack keyboard semantics, Escape and focus handling;
+  other navigation still lacks some visible focus states, but the owner chose
+  to keep the other navigation styles and close O06 on 2026-11-17; breadcrumb
+  links were subsequently aligned with content-link styling. Gallery path/input
+  validation is fixed, but filename-based alt text and five-column phone usability
+  need separate work/checks. See project-status.txt O05-O07 and V01.
 
-2. TECHNICAL PLAN (proposal, nothing built or tested)
+2. POSTER TECHNICAL PLAN (proposal, poster pipeline not built or tested)
 
 2.1 Responsibilities
 - The poster database and the CSVs stay the authoritative inputs. A local R step
@@ -279,10 +532,11 @@ Docs: https://docs.ropensci.org/magick/reference/editing.html
    use, alt text and no-JavaScript browsing.
 4. Scale to the full collection, review the mismatch report, build with Hugo
    0.136.5, verify a Netlify deploy preview, document the update and backup flow.
-5. Breadcrumbs are implemented and build-tested. The homepage form is in local
-   preview and its privacy notice is approved; verify Netlify settings/submission
-   on a deploy preview before public launch. Search remains future work. (Check
-   any Hugo API against 0.136.5 before adopting it.)
+5. Breadcrumbs are implemented and build-tested. The text form is implemented,
+   its privacy notice is approved, and the owner confirmed Netlify works on
+   2026-11-17. Image attachments (section 1.1.2) and search remain separate future
+   enhancements; their priority is in project-status.txt. Check any Hugo API
+   against 0.136.5 before adopting it.
 
 OPEN QUESTIONS
 1. What do the local codes look like, and is there a list mapping each to a film?
@@ -291,4 +545,6 @@ OPEN QUESTIONS
 3. Should search start with screenings, posters or both, and what would visitors
    type or filter by?
 Answered so far: the owner would like to publish selected memories later, with
-permission.
+permission. The current text form works per the owner's Netlify check; the next
+requested form enhancement is optional cinema-image attachments, not other
+document types initially. Formats, count and site-specific limits remain open.

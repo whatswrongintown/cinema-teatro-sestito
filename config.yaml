@@ -1,6 +1,7 @@
 baseurl: https://cinemateatrosestito.com/
 languageCode: it-IT
 title: Cinema Teatro Sestito
+enableRobotsTXT: true
 permalinks:
   articoli: /:year/:month/:day/:slug/
   archivio: /:year/:month/:day/:slug/
