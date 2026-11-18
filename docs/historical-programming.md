@@ -47,6 +47,7 @@ update_programmazione_storica()            # after changing the CSV files
 
 source("R/update-anni.R")
 update_anni(years = c(1948, 1960))         # selected years only
+update_anni(years = 1960, lastmod = "2026-11-18") # when data/content changed
 
 source("R/update-fonti.R")
 update_fonti(sources = "Calendario 1951")
@@ -58,6 +59,10 @@ update_indici(sections = "generi")         # anni, fonti, generi or paesi
 Each section script can also be run with `Rscript R/update-<section>.R`.
 Updating a section without a selection also regenerates its index charts; a
 selection leaves them untouched.
+
+The sitemap uses only explicit `lastmod` front matter. For a meaningful annual
+page/data update, pass the editorial modification date through `update_anni()`.
+Do not set it merely because Hugo or an unchanged data set was rebuilt.
 
 ## Pages and metadata
 

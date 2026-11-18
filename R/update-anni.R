@@ -358,10 +358,22 @@ anni_charts <- function(screenings, year, months, images, family) {
 }
 
 # Costruisce la pagina Markdown di un anno: metadati, grafici, tabelle mensili e fonti.
-anni_page_lines <- function(data, year, months, source_links) {
+anni_page_lines <- function(data, year, months, source_links, lastmod = NULL) {
+  if (!is.null(lastmod)) {
+    if (!is.character(lastmod) || length(lastmod) != 1L ||
+        !grepl("^[0-9]{4}-[0-9]{2}-[0-9]{2}$", lastmod)) {
+      stop("lastmod deve essere una data YYYY-MM-DD.", call. = FALSE)
+    }
+    parsed_lastmod <- as.Date(lastmod, format = "%Y-%m-%d")
+    if (is.na(parsed_lastmod) || format(parsed_lastmod, "%Y-%m-%d") != lastmod) {
+      stop("lastmod non e' una data valida.", call. = FALSE)
+    }
+  }
   lines <- c(
     "---", paste("title: Programmazione", year), "author: Vito Sestito",
-    sprintf("date: '%d-01-01'", year), paste0("slug: programmazione-", year),
+    sprintf("date: '%d-01-01'", year),
+    if (!is.null(lastmod)) paste0("lastmod: '", lastmod, "'"),
+    paste0("slug: programmazione-", year),
     paste0("description: Programmazione cinematografica del Cinema Teatro Sestito nel ", year, "."),
     paste0(
       "image: \"/", year, "/01/01/programmazione-", year,
@@ -407,7 +419,7 @@ anni_page_lines <- function(data, year, months, source_links) {
 generate_anni <- function(project_root = ".", years = NULL,
                           output_dir = file.path(
                             project_root, "content", "programmazione-storica", "anni"
-                          )) {
+                          ), lastmod = NULL) {
   check_anni_packages()
   project_root <- normalizePath(project_root, mustWork = TRUE)
   screenings <- load_anni_data(project_root)
@@ -452,7 +464,7 @@ generate_anni <- function(project_root = ".", years = NULL,
     }
     anni_charts(data, year, months, images, family)
     path <- file.path(directory, "index.md")
-    writeLines(enc2utf8(anni_page_lines(data, year, months, source_links)), path,
+    writeLines(enc2utf8(anni_page_lines(data, year, months, source_links, lastmod)), path,
                useBytes = TRUE)
     pages <- c(pages, path)
     message("Generata programmazione ", year, ": ", nrow(data), " proiezioni.")
@@ -466,7 +478,7 @@ check_anni_section <- function(project_root, section) {
   invisible(project_root)
 }
 
-update_anni <- function(project_root = ".", years = NULL) {
+update_anni <- function(project_root = ".", years = NULL, lastmod = NULL) {
   project_root <- check_anni_section(project_root, "anni")
   data <- load_anni_data(project_root)
   directory <- file.path(project_root, "content", "programmazione-storica", "anni")
@@ -477,7 +489,7 @@ update_anni <- function(project_root = ".", years = NULL) {
     warning("Pagine annuali senza dati non rimosse: ", paste(old_years, collapse = ", "),
             call. = FALSE)
   }
-  pages <- generate_anni(project_root = project_root, years = years)
+  pages <- generate_anni(project_root = project_root, years = years, lastmod = lastmod)
   if (is.null(years)) update_anni_index(project_root)
   invisible(pages)
 }

@@ -2,6 +2,7 @@
 title: "Informativa privacy"
 author: "Vito Sestito"
 description: "Informazioni sui messaggi inviati tramite il modulo del sito."
+lastmod: "2026-11-17"
 ---
 
 Il modulo raccoglie il messaggio che scegli di inviare e, se li inserisci,

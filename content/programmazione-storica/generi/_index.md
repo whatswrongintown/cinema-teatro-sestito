@@ -2,6 +2,7 @@
 title: "Generi cinematografici"
 author: "Vito Sestito"
 date: '2025-12-02'
+lastmod: '2026-11-16'
 description: "Consulta la programmazione del Cinema Sestito organizzata per generi cinematografici"
 image: "/programmazione-storica/generi/_index_files/hero_banner_generi.jpg"
 slug: "generi"

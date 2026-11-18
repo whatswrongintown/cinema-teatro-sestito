@@ -2,6 +2,7 @@
 title: "Benvenuti"
 author: "Vito Sestito"
 date: "2023-04-21"
+lastmod: "2026-11-17"
 description: "Il sito fornisce una ricca collezione di foto, storie e ricordi dell'iconico cinema di San Vito sullo Ionio, insieme a informazioni sull'associazione culturale e sugli eventi in programma."
 image: "/_index_files/1956_progetto_cinema.webp"
 ---

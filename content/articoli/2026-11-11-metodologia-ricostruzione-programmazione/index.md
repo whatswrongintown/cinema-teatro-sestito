@@ -2,6 +2,7 @@
 title: "Come ho ricostruito la programmazione del cinema"
 author: "Vito Sestito"
 date: "2026-11-11"
+lastmod: "2026-11-14"
 description: "Fonti, criteri di identificazione dei film e limiti della ricostruzione della programmazione del Cinema Teatro Sestito."
 slug: "metodologia-ricostruzione-programmazione"
 image: "/2026/11/11/metodologia-ricostruzione-programmazione/images/hero_image.png"
