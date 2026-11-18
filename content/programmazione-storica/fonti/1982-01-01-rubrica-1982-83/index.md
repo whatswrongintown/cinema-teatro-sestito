@@ -7,6 +7,10 @@ categories:
   - Rubriche
 description: Rubriche dove i film venivano annotati in ordine alfabetico, con data di proiezione e distributore.
 image: /images/1982_01_01_rubrica_1982_83/1982_01_01_rubrica_fratelli_de_leon_1982_83_01.png
+galleryDescriptions:
+  /images/1982_01_01_rubrica_1982_83:
+    pageAlt: "Scansioni della fonte «Rubrica 1982-83» utilizzata per ricostruire la programmazione del Cinema Sestito."
+lastmod: '2026-11-18'
 ---
 
 
@@ -308,4 +312,3 @@ image: /images/1982_01_01_rubrica_1982_83/1982_01_01_rubrica_fratelli_de_leon_19
 | 1983-12-25 | [Giochi erotici in famiglia](https://www.imdb.com/title/tt0080181/) |
 | 1983-12-27 | [L'esorcista](https://www.imdb.com/title/tt0070047/) |
 | 1983-12-30 | [La lussuria (Luxure)](https://www.imdb.com/title/tt0074830/) |
-

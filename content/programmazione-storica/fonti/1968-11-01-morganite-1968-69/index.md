@@ -7,6 +7,10 @@ categories:
   - Agende
 description: Agende cinematografiche fornite dalle case distributrici. Contengono informazioni dettagliate sulla data di proiezione, titolo del film, distributore e l’ammontare degli incassi.
 image: /images/1968_11_01_morganite_1968_69/1968_11_01_morganite_1968_69_01.png
+galleryDescriptions:
+  /images/1968_11_01_morganite_1968_69:
+    pageAlt: "Scansioni della fonte «Morganite 1968-69» utilizzata per ricostruire la programmazione del Cinema Sestito."
+lastmod: '2026-11-18'
 ---
 
 
@@ -291,4 +295,3 @@ image: /images/1968_11_01_morganite_1968_69/1968_11_01_morganite_1968_69_01.png
 |---|---|
 | 1970-01-04 | [Preparati la bara!](https://www.imdb.com/title/tt0062151/) |
 | 1970-01-10 | [L'uomo dalla cravatta di cuoio](https://www.imdb.com/title/tt0062824/) |
-

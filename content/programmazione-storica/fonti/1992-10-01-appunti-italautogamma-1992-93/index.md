@@ -1,4 +1,4 @@
----
+﻿---
 title: Italautogamma 1992-93
 author: Vito Sestito
 date: '1992-10-01'
@@ -7,6 +7,10 @@ categories:
   - Appunti
 description: Appunti su blocchi o fogli, con i film registrati per mese. Riportano gli incassi dei film quando disponibili.
 image: /images/1992_10_01_appunti_italautogamma_1992_93/1992_09_01_appunti_italautogamma_1992_93_01.png
+galleryDescriptions:
+  /images/1992_10_01_appunti_italautogamma_1992_93:
+    pageAlt: "Scansioni della fonte «Italautogamma 1992-93» utilizzata per ricostruire la programmazione del Cinema Sestito."
+lastmod: '2026-11-18'
 ---
 
 
@@ -73,4 +77,3 @@ image: /images/1992_10_01_appunti_italautogamma_1992_93/1992_09_01_appunti_itala
 |---|---|
 | 1993-04-11 | [Mamma, ho riperso l'aereo: Mi sono smarrito a New York](https://www.imdb.com/title/tt0104431/) |
 | 1993-04-25 | [Fantastica Moana](https://www.imdb.com/title/tt0208946/) |
-

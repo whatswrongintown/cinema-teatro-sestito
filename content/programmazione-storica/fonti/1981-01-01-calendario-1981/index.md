@@ -7,6 +7,10 @@ categories:
   - Calendari
 description: Calendari murali o da tavolo legati all’attività del cinema. Indicano la data di proiezione e il titolo dei film, insieme agli incassi registrati.
 image: /images/1981_01_01_calendario_1981/1981_01_01_calendario_proiezioni_01.png
+galleryDescriptions:
+  /images/1981_01_01_calendario_1981:
+    pageAlt: "Scansioni della fonte «Calendario 1981» utilizzata per ricostruire la programmazione del Cinema Sestito."
+lastmod: '2026-11-18'
 ---
 
 
@@ -156,4 +160,3 @@ image: /images/1981_01_01_calendario_1981/1981_01_01_calendario_proiezioni_01.pn
 | 1981-12-26 | [Piedone l'africano](https://www.imdb.com/title/tt0076544/) |
 | 1981-12-27 | [La febbre del sabato sera](https://www.imdb.com/title/tt0076666/) |
 | 1981-12-31 | [Il cacciatore di squali](https://www.imdb.com/title/tt0078925/) |
-

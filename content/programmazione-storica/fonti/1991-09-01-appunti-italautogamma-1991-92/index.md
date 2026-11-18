@@ -7,6 +7,10 @@ categories:
   - Appunti
 description: Appunti su blocchi o fogli, con i film registrati per mese. Riportano gli incassi dei film quando disponibili.
 image: /images/1991_09_01_appunti_italautogamma_1991_92/1991_09_01_appunti_italautogamma_1991_92_01.png
+galleryDescriptions:
+  /images/1991_09_01_appunti_italautogamma_1991_92:
+    pageAlt: "Scansioni della fonte «Italautogamma 1991-92» utilizzata per ricostruire la programmazione del Cinema Sestito."
+lastmod: '2026-11-18'
 ---
 
 
@@ -117,4 +121,3 @@ image: /images/1991_09_01_appunti_italautogamma_1991_92/1991_09_01_appunti_itala
 | 1992-05-03 | [Così fan tutte](https://www.imdb.com/title/tt0104014/) |
 | 1992-05-10 | [Le donne di Mandingo](https://www.imdb.com/title/tt0144877/) |
 | 1992-05-17 | [I delitti del gatto nero](https://www.imdb.com/title/tt0100740/) |
-

@@ -7,6 +7,10 @@ categories:
   - Calendari
 description: Calendari murali o da tavolo legati all’attività del cinema. Indicano la data di proiezione e il titolo dei film, insieme agli incassi registrati.
 image: /images/1984_01_01_calendario_1984/1984_01_01_calendario_proiezioni_01.png
+galleryDescriptions:
+  /images/1984_01_01_calendario_1984:
+    pageAlt: "Scansioni della fonte «Calendario 1984» utilizzata per ricostruire la programmazione del Cinema Sestito."
+lastmod: '2026-11-18'
 ---
 
 
@@ -115,4 +119,3 @@ image: /images/1984_01_01_calendario_1984/1984_01_01_calendario_proiezioni_01.pn
 | 1984-12-16 | [Indiscrezioni erotiche di un letto malizioso](https://www.imdb.com/title/tt0228728/) |
 | 1984-12-22 | [Giochi di notte](https://www.imdb.com/title/tt0060740/) |
 | 1984-12-23 | [Bruce Lee il dominatore](https://www.imdb.com/title/tt0074246/) |
-

@@ -7,6 +7,10 @@ categories:
   - Agende
 description: Agende cinematografiche fornite dalle case distributrici. Contengono informazioni dettagliate sulla data di proiezione, titolo del film, distributore e l’ammontare degli incassi.
 image: /images/1949_10_01_elettrocarbonium_1949_50/1949_10_01_elettrocarbonium_1949_50_01.png
+galleryDescriptions:
+  /images/1949_10_01_elettrocarbonium_1949_50:
+    pageAlt: "Scansioni della fonte «Elettrocarbonium 1949-50» utilizzata per ricostruire la programmazione del Cinema Sestito."
+lastmod: '2026-11-18'
 ---
 
 
@@ -149,4 +153,3 @@ image: /images/1949_10_01_elettrocarbonium_1949_50/1949_10_01_elettrocarbonium_1
 | 1950-09-09 | [Il lupo della Sila](https://www.imdb.com/title/tt0041609/) |
 | 1950-09-15 | [Capitan demonio](https://www.imdb.com/title/tt0039241/) |
 | 1950-09-22 | [Botta e risposta](https://www.imdb.com/title/tt0041200/) |
-

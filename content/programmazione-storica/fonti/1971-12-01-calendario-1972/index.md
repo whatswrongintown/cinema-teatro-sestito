@@ -7,6 +7,10 @@ categories:
   - Calendari
 description: Calendari murali o da tavolo legati all’attività del cinema. Indicano la data di proiezione e il titolo dei film, insieme agli incassi registrati.
 image: /images/1971_12_01_calendario_1972/1972_01_01_calendario_proiezioni_01.png
+galleryDescriptions:
+  /images/1971_12_01_calendario_1972:
+    pageAlt: "Scansioni della fonte «Calendario 1972» utilizzata per ricostruire la programmazione del Cinema Sestito."
+lastmod: '2026-11-18'
 ---
 
 
@@ -257,4 +261,3 @@ image: /images/1971_12_01_calendario_1972/1972_01_01_calendario_proiezioni_01.pn
 | 1973-01-14 | [Lo scudo dei Falworth](https://www.imdb.com/title/tt0046789/) |
 | 1973-01-21 | [I fratelli Corsi](https://www.imdb.com/title/tt0139222/) |
 | 1973-01-28 | [Cadavere per signora](https://www.imdb.com/title/tt0057908/) |
-

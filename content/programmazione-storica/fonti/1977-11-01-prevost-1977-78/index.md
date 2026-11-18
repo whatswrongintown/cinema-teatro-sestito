@@ -7,6 +7,10 @@ categories:
   - Agende
 description: Agende cinematografiche fornite dalle case distributrici. Contengono informazioni dettagliate sulla data di proiezione, titolo del film, distributore e l’ammontare degli incassi.
 image: /images/1977_11_01_prevost_1977_78/1977_11_01_prevost_1977_78_01.png
+galleryDescriptions:
+  /images/1977_11_01_prevost_1977_78:
+    pageAlt: "Scansioni della fonte «Prevost 1977-78» utilizzata per ricostruire la programmazione del Cinema Sestito."
+lastmod: '2026-11-18'
 ---
 
 
@@ -237,4 +241,3 @@ image: /images/1977_11_01_prevost_1977_78/1977_11_01_prevost_1977_78_01.png
 | 1978-12-26 | [Keoma](https://www.imdb.com/title/tt0074740/) |
 | 1978-12-27 | [5 donne per l'assassino](https://www.imdb.com/title/tt0071086/) |
 | 1978-12-31 | [Vamos a matar compañeros](https://www.imdb.com/title/tt0066612/) |
-

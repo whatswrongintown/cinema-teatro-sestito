@@ -7,6 +7,10 @@ categories:
   - Calendari
 description: Calendari murali o da tavolo legati all’attività del cinema. Indicano la data di proiezione e il titolo dei film, insieme agli incassi registrati.
 image: /images/1967_01_01_calendario_1967/1967_01_01_calendario_proiezioni_01.png
+galleryDescriptions:
+  /images/1967_01_01_calendario_1967:
+    pageAlt: "Scansioni della fonte «Calendario 1967» utilizzata per ricostruire la programmazione del Cinema Sestito."
+lastmod: '2026-11-18'
 ---
 
 
@@ -281,4 +285,3 @@ image: /images/1967_01_01_calendario_1967/1967_01_01_calendario_proiezioni_01.pn
 | 1967-12-28 | [Spiaggia libera](https://www.imdb.com/title/tt0208476/) |
 | 1967-12-29 | [Sette ore di fuoco](https://www.imdb.com/title/tt0058575/) |
 | 1967-12-31 | [Voltati... ti uccido!](https://www.imdb.com/title/tt0063813/) |
-

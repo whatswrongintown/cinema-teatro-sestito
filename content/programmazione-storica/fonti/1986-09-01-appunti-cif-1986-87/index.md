@@ -7,6 +7,10 @@ categories:
   - Appunti
 description: Appunti su blocchi o fogli, con i film registrati per mese. Riportano gli incassi dei film quando disponibili.
 image: /images/1986_09_01_appunti_cif_1986_87/1986_09_01_appunti_cif_1986_87_01.png
+galleryDescriptions:
+  /images/1986_09_01_appunti_cif_1986_87:
+    pageAlt: "Scansioni della fonte «CIF 1986-87» utilizzata per ricostruire la programmazione del Cinema Sestito."
+lastmod: '2026-11-18'
 ---
 
 
@@ -130,4 +134,3 @@ image: /images/1986_09_01_appunti_cif_1986_87/1986_09_01_appunti_cif_1986_87_01.
 | 1987-05-16 | [Bruce Lee il leggendario](https://www.imdb.com/title/tt0082673/) |
 | 1987-05-17 | [Noi uomini duri](https://www.imdb.com/title/tt0093645/) |
 | 1987-05-31 | [Platoon](https://www.imdb.com/title/tt0091763/) |
-

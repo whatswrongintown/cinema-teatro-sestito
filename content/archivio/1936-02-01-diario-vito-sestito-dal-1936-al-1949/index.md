@@ -9,6 +9,10 @@ categories:
   - Personali
 tags:
   - Diari
+galleryDescriptions:
+  /images/1936_1949_diario_nonno_vito:
+    pageAlt: "Scansioni consecutive delle pagine del diario di Vito Sestito dal 1936 al 1949."
+lastmod: '2026-11-18'
 ---
 {{< image-gallery gallery_dir="/images/1936_1949_diario_nonno_vito" >}}
 

@@ -7,6 +7,10 @@ categories:
   - Calendari
 description: Calendari murali o da tavolo legati all’attività del cinema. Indicano la data di proiezione e il titolo dei film, insieme agli incassi registrati.
 image: /images/1966_01_01_calendario_1966/1966_01_01_calendario_proiezioni_01.png
+galleryDescriptions:
+  /images/1966_01_01_calendario_1966:
+    pageAlt: "Scansioni della fonte «Calendario 1966» utilizzata per ricostruire la programmazione del Cinema Sestito."
+lastmod: '2026-11-18'
 ---
 
 
@@ -281,4 +285,3 @@ image: /images/1966_01_01_calendario_1966/1966_01_01_calendario_proiezioni_01.pn
 | 1966-12-28 | [Il muro dei dollari](https://www.imdb.com/title/tt0057667/) |
 | 1966-12-30 | [2+5: Missione Hydra](https://www.imdb.com/title/tt0058859/) |
 | 1966-12-31 | [I due sanculotti](https://www.imdb.com/title/tt0060353/) |
-

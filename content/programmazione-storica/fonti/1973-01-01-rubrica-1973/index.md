@@ -7,6 +7,10 @@ categories:
   - Rubriche
 description: Rubriche dove i film venivano annotati in ordine alfabetico, con data di proiezione e distributore.
 image: /images/1973_01_01_rubrica_1973/1973_01_01_rubrica_fratelli_de_leon_01.png
+galleryDescriptions:
+  /images/1973_01_01_rubrica_1973:
+    pageAlt: "Scansioni della fonte «Rubrica 1973» utilizzata per ricostruire la programmazione del Cinema Sestito."
+lastmod: '2026-11-18'
 ---
 
 
@@ -236,4 +240,3 @@ image: /images/1973_01_01_rubrica_1973/1973_01_01_rubrica_fratelli_de_leon_01.pn
 |  |  |
 |---|---|
 | 1974-01-01 | [Franco e Ciccio sul sentiero di guerra](https://www.imdb.com/title/tt0123843/) |
-

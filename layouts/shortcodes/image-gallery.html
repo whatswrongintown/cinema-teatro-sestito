@@ -43,6 +43,9 @@
               {{- $imageDescriptions = .images | default dict -}}
             {{- end -}}
           {{- end -}}
+          {{- if and (not $pageAlt) (eq (len $imageDescriptions) 0) -}}
+            {{- warnf "image-gallery shortcode in %q: gallery %q has no galleryDescriptions metadata; using filename fallback" .Page.File.Path $dir -}}
+          {{- end -}}
 <style>
     .image-gallery {overflow: auto; margin-left: 0; padding-left: 0;}
     .image-gallery li {float: left; display: block; margin: 0 0 1% 1%; width: 19%;}

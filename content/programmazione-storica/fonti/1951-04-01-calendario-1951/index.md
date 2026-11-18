@@ -7,6 +7,10 @@ categories:
   - Calendari
 description: Calendari murali o da tavolo legati all’attività del cinema. Indicano la data di proiezione e il titolo dei film, insieme agli incassi registrati.
 image: /images/1951_04_01_calendario_1951/1951_04_01_calendario_proiezioni_01.png
+galleryDescriptions:
+  /images/1951_04_01_calendario_1951:
+    pageAlt: "Scansioni della fonte «Calendario 1951» utilizzata per ricostruire la programmazione del Cinema Sestito."
+lastmod: '2026-11-18'
 ---
 
 
@@ -96,4 +100,3 @@ image: /images/1951_04_01_calendario_1951/1951_04_01_calendario_proiezioni_01.pn
 |---|---|
 | 1951-12-05 | [Il re dei cuori](https://www.imdb.com/title/tt0042903/) |
 | 1951-12-14 | [Il mio uomo sei tu](https://www.imdb.com/title/tt0216848/) |
-

@@ -7,6 +7,10 @@ categories:
   - Rubriche
 description: Rubriche dove i film venivano annotati in ordine alfabetico, con data di proiezione e distributore.
 image: /images/1969_12_01_rubrica_1970_1980/1970_01_01_rubrica_fratelli_de_leon_1970_1980_01.png
+galleryDescriptions:
+  /images/1969_12_01_rubrica_1970_1980:
+    pageAlt: "Scansioni della fonte «Rubrica 1970-1980» utilizzata per ricostruire la programmazione del Cinema Sestito."
+lastmod: '2026-11-18'
 ---
 
 
@@ -368,4 +372,3 @@ image: /images/1969_12_01_rubrica_1970_1980/1970_01_01_rubrica_fratelli_de_leon_
 | 1980-12-28 | [Yang l'implacabile del karatè](https://www.imdb.com/title/tt1234658/) |
 | 1980-12-29 | [Bruce Lee l'invincibile del kung fu](https://www.imdb.com/title/tt0081216/) |
 | 1980-12-30 | [Ilsa la belva del deserto](https://www.imdb.com/title/tt0074670/) |
-

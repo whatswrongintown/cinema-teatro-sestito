@@ -108,7 +108,7 @@ DONE O05 - Lightbox keyboard accessibility (2026-11-18)
   that the corrected viewer worked in a local serve_site() preview. No YouTube
   or Vimeo link exists in current content, so dormant support was preserved but
   not claimed as live-browser verified.
-TODO O07 - Remaining generic image alternatives
+DONE O07 - Meaningful gallery alternatives (2026-11-18)
   On 2026-11-18, the logo alt was changed from "avatar" to
   "Cinema Teatro Sestito - Home"; a Hugo 0.136.5 build confirmed the rendered
   image alt. The owner narrowed the remaining scope: provide meaningful
@@ -117,11 +117,13 @@ TODO O07 - Remaining generic image alternatives
   filename fallback. Descriptions will live in page front matter, not in the
   image files or a central global catalogue. The shortcode will still discover
   the physical image files from its gallery directory. The mechanism is
-  implemented and the four-image Settimana Incom gallery is the initial
-  pilot. Individual descriptions take precedence over a page-level description
-  and the filename fallback; the lightbox preserves the image alt. On
-  2026-11-18, the owner confirmed that the pilot works in serve_site(). The
-  broader editorial-description rollout remains open.
+  implemented across all 76 gallery pages and 77 gallery invocations. Individual
+  descriptions take precedence over a concise page-level description and the
+  filename fallback; the lightbox preserves the image alt. Distinct editorial
+  subjects have individual descriptions, while repetitive source/diary/trailer
+  sequences use page-level alternatives. A future gallery without metadata emits
+  a path-specific build warning. On 2026-11-18, the owner confirmed the pilot
+  works in serve_site().
 DONE O08 - Localization and taxonomy browsing (2026-11-18)
   On 2026-11-18, article reading time was changed from "min read" to "min di
   lettura". The owner reviewed the remaining date and taxonomy behavior in a

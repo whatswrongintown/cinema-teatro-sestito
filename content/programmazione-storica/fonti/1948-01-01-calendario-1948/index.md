@@ -7,6 +7,10 @@ categories:
   - Calendari
 description: Calendari murali o da tavolo legati all’attività del cinema. Indicano la data di proiezione e il titolo dei film, insieme agli incassi registrati.
 image: /images/1948_01_01_calendario_1948/1948_01_01_calendario_proiezioni_01.png
+galleryDescriptions:
+  /images/1948_01_01_calendario_1948:
+    pageAlt: "Scansioni della fonte «Calendario 1948» utilizzata per ricostruire la programmazione del Cinema Sestito."
+lastmod: '2026-11-18'
 ---
 
 
@@ -98,4 +102,3 @@ image: /images/1948_01_01_calendario_1948/1948_01_01_calendario_proiezioni_01.pn
 | 1948-12-10 | [Vogliamo Vivere!](https://www.imdb.com/title/tt0035446/) |
 | 1948-12-14 | [Partenza ore 7](https://www.imdb.com/title/tt0037974/) |
 | 1948-12-22 | [Il cardinale Lambertini](https://www.imdb.com/title/tt0024953/) |
-

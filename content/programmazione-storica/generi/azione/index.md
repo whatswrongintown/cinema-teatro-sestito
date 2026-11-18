@@ -71,7 +71,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 |  |  |
 |---|---|
 | 1954-02-12 | [Il libro della giungla](https://www.imdb.com/title/tt0034928/) |
-| 1954-03-15 | [La città atomica](https://www.imdb.com/title/tt0044382/) |
+| 1954-03-15 | [La citt« atomica](https://www.imdb.com/title/tt0044382/) |
 | 1954-03-17 | [Genghis Khan](https://www.imdb.com/title/tt0291939/) |
 | 1954-04-01 | [Il prigioniero di Fort Ross](https://www.imdb.com/title/tt0039667/) |
 | 1954-08-03 | [I pirati di Capri](https://www.imdb.com/title/tt0041749/) |
@@ -216,7 +216,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1964-07-01 | [Lo sterminatore del West](https://www.imdb.com/title/tt0054112/) |
 | 1964-07-26 | [Maciste contro i mostri](https://www.imdb.com/title/tt0057270/) |
 | 1964-08-28 | [Gli avamposti della gloria](https://www.imdb.com/title/tt0057441/) |
-| 1964-09-05 | [Il figlio di Alì Babà](https://www.imdb.com/title/tt0045175/) |
+| 1964-09-05 | [Il figlio di Al» Bab«](https://www.imdb.com/title/tt0045175/) |
 | 1964-10-31 | [Maciste contro i cacciatori di teste](https://www.imdb.com/title/tt0056207/) |
 | 1964-11-03 | [Gli ammutinati di Sing Sing](https://www.imdb.com/title/tt0038255/) |
 | 1964-12-06 | [Il prigioniero della miniera](https://www.imdb.com/title/tt0047013/) |
@@ -240,7 +240,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1965-06-20 | [Sansone contro il corsaro nero](https://www.imdb.com/title/tt0140531/) |
 | 1965-08-29 | [Maciste nell'inferno di Gengis Khan](https://www.imdb.com/title/tt0183451/) |
 | 1965-09-18 | [Il mistero dell'isola maledetta](https://www.imdb.com/title/tt0187303/) |
-| 1965-10-24 | [Il giorno più lungo](https://www.imdb.com/title/tt0056197/) |
+| 1965-10-24 | [Il giorno pi» lungo](https://www.imdb.com/title/tt0056197/) |
 | 1965-12-15 | [Il ribelle di Castelmonte](https://www.imdb.com/title/tt0200021/) |
 | 1965-12-27 | [La porta della Cina](https://www.imdb.com/title/tt0050252/) |
 
@@ -354,10 +354,10 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1968-04-08 | [Le folli veneri di Akira](https://www.imdb.com/title/tt0377733/) |
 | 1968-04-14 | [Il marchio di Kriminal](https://www.imdb.com/title/tt0061952/) |
 | 1968-04-19 | [Arrriva Dorellik](https://www.imdb.com/title/tt0062677/) |
-| 1968-06-01 | [Là dove scende il fiume](https://www.imdb.com/title/tt0044413/) |
+| 1968-06-01 | [L« dove scende il fiume](https://www.imdb.com/title/tt0044413/) |
 | 1968-06-08 | [Un milione di dollari per sette assassini](https://www.imdb.com/title/tt0071843/) |
 | 1968-06-15 | [Straniero... fatti il segno della croce!](https://www.imdb.com/title/tt0062311/) |
-| 1968-06-20 | [Gli assassini del karatè](https://www.imdb.com/title/tt0061858/) |
+| 1968-06-20 | [Gli assassini del karat»](https://www.imdb.com/title/tt0061858/) |
 | 1968-06-23 | [Missione Caracas](https://www.imdb.com/title/tt0059452/) |
 | 1968-06-26 | [Tiffany memorandum](https://www.imdb.com/title/tt0211040/) |
 | 1968-06-30 | [La vendetta di Fu Man Chu](https://www.imdb.com/title/tt0063764/) |
@@ -394,13 +394,13 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1969-05-28 | [Una spia di troppo](https://www.imdb.com/title/tt0060783/) |
 | 1969-06-19 | [U-112 assalto al Queen Mary](https://www.imdb.com/title/tt0060135/) |
 | 1969-06-29 | [Dick Smart 2.007](https://www.imdb.com/title/tt0061570/) |
-| 1969-07-27 | [Layton... bambole e karatè](https://www.imdb.com/title/tt0060620/) |
+| 1969-07-27 | [Layton... bambole e karat«](https://www.imdb.com/title/tt0060620/) |
 | 1969-07-29 | [Gli eredi di King Kong](https://www.imdb.com/title/tt0063172/) |
 | 1969-08-01 | [Un maggiordomo nel Far West](https://www.imdb.com/title/tt0061333/) |
 | 1969-08-20 | [Django](https://www.imdb.com/title/tt0060315/) |
 | 1969-09-18 | [Superspia K](https://www.imdb.com/title/tt0062683/) |
 | 1969-09-19 | [Matt Helm... non perdona!](https://www.imdb.com/title/tt0060728/) |
-| 1969-09-21 | [Passa Sartana... è l'ombra della tua morte](https://www.imdb.com/title/tt0063419/) |
+| 1969-09-21 | [Passa Sartana... » l'ombra della tua morte](https://www.imdb.com/title/tt0063419/) |
 | 1969-10-01 | [Arrest!](https://www.imdb.com/title/tt0063067/) |
 | 1969-10-21 | [I giorni dell'ira](https://www.imdb.com/title/tt0061709/) |
 | 1969-11-26 | [Buio oltre il sole](https://www.imdb.com/title/tt0062863/) |
@@ -428,7 +428,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1970-05-05 | [I cannoni di San Sebastian](https://www.imdb.com/title/tt0062713/) |
 | 1970-05-07 | [Le tre sfide di Tarzan](https://www.imdb.com/title/tt0057560/) |
 | 1970-05-09 | [15 forche per un assassino](https://www.imdb.com/title/tt0063482/) |
-| 1970-05-19 | [Maciste, l'eroe più grande del mondo](https://www.imdb.com/title/tt0057271/) |
+| 1970-05-19 | [Maciste, l'eroe pi« grande del mondo](https://www.imdb.com/title/tt0057271/) |
 | 1970-05-22 | [Il pirata del diavolo](https://www.imdb.com/title/tt0054267/) |
 | 1970-05-28 | [L'ultimo dei Vikinghi](https://www.imdb.com/title/tt0054423/) |
 | 1970-05-31 | [La vendetta di Ercole](https://www.imdb.com/title/tt0054437/) |
@@ -442,13 +442,13 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1970-09-02 | [Le spie uccidono a Beirut](https://www.imdb.com/title/tt0061012/) |
 | 1970-09-06 | [I cavalieri della tavola rotonda](https://www.imdb.com/title/tt0045966/) |
 | 1970-09-24 | [Capitani di ventura](https://www.imdb.com/title/tt0054722/) |
-| 1970-09-30 | [La Colt è la mia legge](https://www.imdb.com/title/tt0060628/) |
+| 1970-09-30 | [La Colt » la mia legge](https://www.imdb.com/title/tt0060628/) |
 | 1970-10-08 | [Atlas il trionfatore di Atene](https://www.imdb.com/title/tt0053610/) |
 | 1970-10-25 | [Sono Sartana, il vostro becchino](https://www.imdb.com/title/tt0065019/) |
 | 1970-12-06 | [Tarzan e il figlio della giungla](https://www.imdb.com/title/tt0063673/) |
 | 1970-12-09 | [Gli invincibili tre](https://www.imdb.com/title/tt0058651/) |
 | 1970-12-10 | [The belle starr story (Il mio corpo per un poker)](https://www.imdb.com/title/tt0061981/) |
-| 1970-12-11 | [Fermati Hassan... questa è la resa dei conti!](https://www.imdb.com/title/tt0172903/) |
+| 1970-12-11 | [Fermati Hassan... questa « la resa dei conti!](https://www.imdb.com/title/tt0172903/) |
 | 1970-12-18 | [Ringo del Nebraska](https://www.imdb.com/title/tt0060901/) |
 
 ### 1971
@@ -481,18 +481,18 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1971-07-11 | [Gli invincibili tre](https://www.imdb.com/title/tt0058651/) |
 | 1971-07-28 | [Gli invincibili fratelli Maciste](https://www.imdb.com/title/tt0134747/) |
 | 1971-08-01 | [I diavoli del gran prix](https://www.imdb.com/title/tt0057706/) |
-| 1971-08-25 | [Le carabine del rio negro (Lampião, O Rei do Cangaço)](https://www.imdb.com/title/tt0184659/) |
+| 1971-08-25 | [Le carabine del rio negro (Lampi»o, O Rei do Canga«o)](https://www.imdb.com/title/tt0184659/) |
 | 1971-08-26 | [La cortigiana di Babilonia](https://www.imdb.com/title/tt0049094/) |
 | 1971-08-29 | [Un uomo chiamato Apocalisse Joe](https://www.imdb.com/title/tt0067912/) |
 | 1971-09-19 | [Wanted Sabata](https://www.imdb.com/title/tt0216399/) |
 | 1971-09-24 | [Una vampata di violenza](https://www.imdb.com/title/tt0059241/) |
-| 1971-10-27 | [Passa Sartana... è l'ombra della tua morte](https://www.imdb.com/title/tt0063419/) |
+| 1971-10-27 | [Passa Sartana... » l'ombra della tua morte](https://www.imdb.com/title/tt0063419/) |
 | 1971-11-01 | [Solo contro Roma](https://www.imdb.com/title/tt0056507/) |
 | 1971-11-16 | [La belva](https://www.imdb.com/title/tt0065460/) |
 | 1971-11-24 | [L'ombra di Zorro](https://www.imdb.com/title/tt0056893/) |
-| 1971-12-05 | [Barbagia (La società del malessere)](https://www.imdb.com/title/tt0064069/) |
+| 1971-12-05 | [Barbagia (La societ« del malessere)](https://www.imdb.com/title/tt0064069/) |
 | 1971-12-22 | [Duello nell'Atlantico](https://www.imdb.com/title/tt0050356/) |
-| 1971-12-25 | [Rosolino Paternò, soldato...](https://www.imdb.com/title/tt0066312/) |
+| 1971-12-25 | [Rosolino Patern», soldato...](https://www.imdb.com/title/tt0066312/) |
 | 1971-12-29 | [L'astronave fantasma](https://www.imdb.com/title/tt0055562/) |
 
 ### 1972
@@ -500,10 +500,10 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 |  |  |
 |---|---|
 | 1972-01-23 | [Marte, dio della guerra](https://www.imdb.com/title/tt0056226/) |
-| 1972-02-04 | [Quién sabe?](https://www.imdb.com/title/tt0061429/) |
-| 1972-02-15 | [Ti darò un posto all'inferno](https://www.imdb.com/title/tt0063484/) |
+| 1972-02-04 | [Qui«n sabe?](https://www.imdb.com/title/tt0061429/) |
+| 1972-02-15 | [Ti dar» un posto all'inferno](https://www.imdb.com/title/tt0063484/) |
 | 1972-02-16 | [La vendetta di Ursus](https://www.imdb.com/title/tt0122779/) |
-| 1972-02-20 | [Arrivano Django e Sartana... è la fine](https://www.imdb.com/title/tt0216546/) |
+| 1972-02-20 | [Arrivano Django e Sartana... « la fine](https://www.imdb.com/title/tt0216546/) |
 | 1972-03-17 | [La fuga di Tarzan](https://www.imdb.com/title/tt0028345/) |
 | 1972-03-21 | [Ursus gladiatore ribelle](https://www.imdb.com/title/tt0057629/) |
 | 1972-03-24 | [La congiura dei potenti](https://www.imdb.com/title/tt0055182/) |
@@ -519,7 +519,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1972-08-02 | [Vado... l'ammazzo e torno](https://www.imdb.com/title/tt0062429/) |
 | 1972-08-20 | [Batwoman - L'invincibile superdonna](https://www.imdb.com/title/tt0235608/) |
 | 1972-09-03 | [Le dolcezze del peccato](https://www.imdb.com/title/tt0063724/) |
-| 1972-09-10 | [Salambò](https://www.imdb.com/title/tt0056439/) |
+| 1972-09-10 | [Salamb»](https://www.imdb.com/title/tt0056439/) |
 | 1972-09-14 | [Professione: assassino](https://www.imdb.com/title/tt0068931/) |
 | 1972-10-01 | [Anche per Django le carogne hanno un prezzo](https://www.imdb.com/title/tt0066764/) |
 | 1972-10-08 | [Gli Argonauti](https://www.imdb.com/title/tt0057197/) |
@@ -555,7 +555,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1973-06-26 | [Le spie uccidono a Beirut](https://www.imdb.com/title/tt0061012/) |
 | 1973-07-01 | [Ursus nella terra di fuoco](https://www.imdb.com/title/tt0057628/) |
 | 1973-07-05 | [Il gladiatore invincibile](https://www.imdb.com/title/tt0056027/) |
-| 1973-07-22 | [Città violenta](https://www.imdb.com/title/tt0065555/) |
+| 1973-07-22 | [Citt« violenta](https://www.imdb.com/title/tt0065555/) |
 | 1973-08-04 | [Lola Colt](https://www.imdb.com/title/tt0157936/) |
 | 1973-08-08 | [Il corsaro](https://www.imdb.com/title/tt0066949/) |
 | 1973-08-21 | [Lo sparviero dei Caraibi](https://www.imdb.com/title/tt0058185/) |
@@ -567,7 +567,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1973-10-02 | [I cosacchi](https://www.imdb.com/title/tt0052703/) |
 | 1973-10-05 | [Le pistolere](https://www.imdb.com/title/tt0067637/) |
 | 1973-10-07 | [L'ultimo avventuriero](https://www.imdb.com/title/tt0065374/) |
-| 1973-10-11 | [La città degli acquanauti](https://www.imdb.com/title/tt0065556/) |
+| 1973-10-11 | [La citt» degli acquanauti](https://www.imdb.com/title/tt0065556/) |
 | 1973-10-14 | [Tarzan e il safari perduto](https://www.imdb.com/title/tt0051057/) |
 | 1973-10-30 | [Una vergine per il bandito](https://www.imdb.com/title/tt0055717/) |
 | 1973-11-06 | [Professione: assassino](https://www.imdb.com/title/tt0068931/) |
@@ -576,7 +576,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1973-12-02 | [La furia di Tarzan](https://www.imdb.com/title/tt0045220/) |
 | 1973-12-21 | [Arma da taglio](https://www.imdb.com/title/tt0069121/) |
 | 1973-12-23 | [Sandokan, la tigre di Mompracem](https://www.imdb.com/title/tt0057469/) |
-| 1973-12-25 | [Vamos a matar compañeros](https://www.imdb.com/title/tt0066612/) |
+| 1973-12-25 | [Vamos a matar compa«eros](https://www.imdb.com/title/tt0066612/) |
 
 ### 1974
 
@@ -586,7 +586,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1974-01-22 | [Getaway!](https://www.imdb.com/title/tt0068638/) |
 | 1974-01-24 | [Sesso in gabbia](https://www.imdb.com/title/tt0066830/) |
 | 1974-02-15 | [Valdez il mezzosangue](https://www.imdb.com/title/tt0069833/) |
-| 1974-02-17 | [La più Grande Avventura di Tarzan (Il terrore corre sul fiume)](https://www.imdb.com/title/tt0053334/) |
+| 1974-02-17 | [La pi» Grande Avventura di Tarzan (Il terrore corre sul fiume)](https://www.imdb.com/title/tt0053334/) |
 | 1974-02-22 | [La spia che vide il suo cadavere](https://www.imdb.com/title/tt0068663/) |
 | 1974-03-26 | [Le tre sfide di Tarzan](https://www.imdb.com/title/tt0057560/) |
 | 1974-04-04 | [Melinda](https://www.imdb.com/title/tt0068934/) |
@@ -594,10 +594,10 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1974-05-05 | [Golia e il cavaliere mascherato](https://www.imdb.com/title/tt0178515/) |
 | 1974-05-17 | [Forza 'G'](https://www.imdb.com/title/tt0067113/) |
 | 1974-05-26 | [Zorro e i tre moschettieri](https://www.imdb.com/title/tt0057720/) |
-| 1974-05-28 | [Wang Yu, il violento del karatè](https://www.imdb.com/title/tt0072426/) |
+| 1974-05-28 | [Wang Yu, il violento del karat«](https://www.imdb.com/title/tt0072426/) |
 | 1974-06-09 | [Sandok, il Maciste della giungla](https://www.imdb.com/title/tt0128447/) |
 | 1974-08-04 | [Tayang: il terrore della Cina](https://www.imdb.com/title/tt0070778/) |
-| 1974-08-15 | [La regina del karaté](https://www.imdb.com/title/tt0199987/) |
+| 1974-08-15 | [La regina del karat»](https://www.imdb.com/title/tt0199987/) |
 | 1974-08-18 | [L'uomo dalla mano d'acciaio contro il drago rosso](https://www.imdb.com/title/tt1342398/) |
 | 1974-09-08 | [Il vendicatore (L'uomo, l'orgoglio, la vendetta)](https://www.imdb.com/title/tt0062424/) |
 | 1974-09-15 | [Il terrore del Kung-Fu - Andava, ammazzava e ritornava](https://www.imdb.com/title/tt1759650/) |
@@ -607,9 +607,9 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1974-10-08 | [Violenza contro la violenza](https://www.imdb.com/title/tt0068295/) |
 | 1974-10-15 | [Uccidete il padrino](https://www.imdb.com/title/tt0064231/) |
 | 1974-10-22 | [La lunga notte di Tombstone](https://www.imdb.com/title/tt0062839/) |
-| 1974-10-27 | [I tre magnifici del karatè](https://www.imdb.com/title/tt1053337/) |
+| 1974-10-27 | [I tre magnifici del karat«](https://www.imdb.com/title/tt1053337/) |
 | 1974-10-29 | [La treccia che uccide](https://www.imdb.com/title/tt0188740/) |
-| 1974-11-01 | [...Più forte ragazzi!](https://www.imdb.com/title/tt0069095/) |
+| 1974-11-01 | [...Pi» forte ragazzi!](https://www.imdb.com/title/tt0069095/) |
 | 1974-11-10 | [Sette contro uno](https://www.imdb.com/title/tt0199877/) |
 | 1974-11-14 | [Metti... che ti rompo il muso](https://www.imdb.com/title/tt0198749/) |
 | 1974-11-24 | [Sesso contro kung-fu](https://www.imdb.com/title/tt0069519/) |
@@ -623,12 +623,12 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 |  |  |
 |---|---|
 | 1975-01-01 | [Tarzan e lo stregone](https://www.imdb.com/title/tt0052275/) |
-| 1975-01-02 | [Rubare alla mafia è un suicidio](https://www.imdb.com/title/tt0068168/) |
+| 1975-01-02 | [Rubare alla mafia « un suicidio](https://www.imdb.com/title/tt0068168/) |
 | 1975-01-04 | [...E poi lo chiamarono il magnifico](https://www.imdb.com/title/tt0068524/) |
 | 1975-01-10 | [Lo chiamavano Sergente Blu](https://www.imdb.com/title/tt0070091/) |
 | 1975-01-14 | [Professione: assassino](https://www.imdb.com/title/tt0068931/) |
-| 1975-01-17 | [Pugni, pirati e karatè](https://www.imdb.com/title/tt0198939/) |
-| 1975-01-19 | [Chen ...e continuò a massacrare a colpi di kung fu](https://www.imdb.com/title/tt8403560/) |
+| 1975-01-17 | [Pugni, pirati e karat»](https://www.imdb.com/title/tt0198939/) |
+| 1975-01-19 | [Chen ...e continu« a massacrare a colpi di kung fu](https://www.imdb.com/title/tt8403560/) |
 | 1975-01-21 | [4 bastardi per un posto all'inferno](https://www.imdb.com/title/tt0066365/) |
 | 1975-01-23 | [La furia del vento giallo](https://www.imdb.com/title/tt0199763/) |
 | 1975-01-24 | [Harlem detectives](https://www.imdb.com/title/tt0068403/) |
@@ -651,8 +651,8 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1975-05-25 | [Sulle orme di Bruce Lee](https://www.imdb.com/title/tt0373986/) |
 | 1975-05-29 | [Quel maledetto colpo al Rio Grande Express](https://www.imdb.com/title/tt0070825/) |
 | 1975-06-01 | [Quelle sporche anime dannate](https://www.imdb.com/title/tt0196889/) |
-| 1975-06-24 | [È una sporca faccenda, tenente Parker!](https://www.imdb.com/title/tt0071824/) |
-| 1975-06-29 | [L'insolente - Il più crudele tra quelli della mala](https://www.imdb.com/title/tt0068743/) |
+| 1975-06-24 | [» una sporca faccenda, tenente Parker!](https://www.imdb.com/title/tt0071824/) |
+| 1975-06-29 | [L'insolente - Il pi« crudele tra quelli della mala](https://www.imdb.com/title/tt0068743/) |
 | 1975-07-08 | [Vado... l'ammazzo e torno](https://www.imdb.com/title/tt0062429/) |
 | 1975-07-20 | [Kung-fu urlo di morte](https://www.imdb.com/title/tt1931444/) |
 | 1975-08-10 | [Dal Giappone con furore](https://www.imdb.com/title/tt0164750/) |
@@ -674,7 +674,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1975-11-16 | [Ehi amigo! Tocca a te morire](https://www.imdb.com/title/tt0316759/) |
 | 1975-11-30 | [Kung fu, l'arte di uccidere](https://www.imdb.com/title/tt0068874/) |
 | 1975-12-02 | [Scorpio](https://www.imdb.com/title/tt0070653/) |
-| 1975-12-05 | [La polizia è al servizio del cittadino?](https://www.imdb.com/title/tt0070553/) |
+| 1975-12-05 | [La polizia » al servizio del cittadino?](https://www.imdb.com/title/tt0070553/) |
 | 1975-12-07 | [I leoni di Pietroburgo](https://www.imdb.com/title/tt0067340/) |
 | 1975-12-14 | [Wang Yu la tigre del kung-fu](https://www.imdb.com/title/tt1223465/) |
 | 1975-12-21 | [L'uomo dalle due ombre](https://www.imdb.com/title/tt0066970/) |
@@ -685,7 +685,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 
 |  |  |
 |---|---|
-| 1976-01-18 | [Attenti a Quei Due… Chiamate Londra (London Conspiracy)](https://www.imdb.com/title/tt0309807/) |
+| 1976-01-18 | [Attenti a Quei Due« Chiamate Londra (London Conspiracy)](https://www.imdb.com/title/tt0309807/) |
 | 1976-01-23 | [La polizia ha le mani legate](https://www.imdb.com/title/tt0072008/) |
 | 1976-01-25 | [Le tre sfide di Tarzan](https://www.imdb.com/title/tt0057560/) |
 | 1976-02-01 | [Il conte di Montecristo](https://www.imdb.com/title/tt0054761/) |
@@ -695,7 +695,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1976-03-12 | [Manone il ladrone](https://www.imdb.com/title/tt0198711/) |
 | 1976-03-14 | [L'ultimo dei Vikinghi](https://www.imdb.com/title/tt0054423/) |
 | 1976-03-21 | [La morte nella mano](https://www.imdb.com/title/tt0065999/) |
-| 1976-03-23 | [Fatevi vivi, la polizia non interverrà](https://www.imdb.com/title/tt0195699/) |
+| 1976-03-23 | [Fatevi vivi, la polizia non interverr»](https://www.imdb.com/title/tt0195699/) |
 | 1976-04-04 | [Anche i cinesi mangiano fagioli (Il segreto della palma d'acciaio)](https://www.imdb.com/title/tt1404408/) |
 | 1976-04-06 | [Una calibro 20 per lo specialista](https://www.imdb.com/title/tt0072288/) |
 | 1976-04-11 | [Chan il duro del kung fu](https://www.imdb.com/title/tt0066477/) |
@@ -740,7 +740,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1977-02-17 | [Arrivano Joe e Margherito](https://www.imdb.com/title/tt0071162/) |
 | 1977-02-27 | [I fratelli di Bruce Lee](https://www.imdb.com/title/tt1204790/) |
 | 1977-03-06 | [Godzilla contro i robot](https://www.imdb.com/title/tt0071565/) |
-| 1977-03-10 | [Karaté a Shangai](https://www.imdb.com/title/tt0165204/) |
+| 1977-03-10 | [Karat« a Shangai](https://www.imdb.com/title/tt0165204/) |
 | 1977-03-20 | [I duri di Hong Kong](https://www.imdb.com/title/tt0164378/) |
 | 1977-04-12 | [Porgi l'altra guancia](https://www.imdb.com/title/tt0072012/) |
 | 1977-04-14 | [Gli invincibili tre](https://www.imdb.com/title/tt0058651/) |
@@ -754,7 +754,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1977-07-05 | [Doc Savage, l'uomo di bronzo](https://www.imdb.com/title/tt0072886/) |
 | 1977-07-10 | [La rivolta del Drago](https://www.imdb.com/title/tt0164455/) |
 | 1977-07-12 | [Hong Kong lasciapassare per un massacro](https://www.imdb.com/title/tt1361599/) |
-| 1977-07-19 | [É tempo di uccidere detective Treck](https://www.imdb.com/title/tt0072325/) |
+| 1977-07-19 | [» tempo di uccidere detective Treck](https://www.imdb.com/title/tt0072325/) |
 | 1977-07-26 | [Guardiamola nuda e... poi decidiamo](https://www.imdb.com/title/tt0251937/) |
 | 1977-07-31 | [La tigre della Manciuria](https://www.imdb.com/title/tt0164415/) |
 | 1977-08-07 | [Vivi o preferibilmente morti](https://www.imdb.com/title/tt0065185/) |
@@ -803,11 +803,11 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1978-02-26 | [Il padrino cinese e gli ultimi giorni di Bruce Lee](https://www.imdb.com/title/tt0165160/) |
 | 1978-03-09 | [La pietra che scotta](https://www.imdb.com/title/tt0068718/) |
 | 1978-03-12 | [Bruce Lee contro i supermen](https://www.imdb.com/title/tt0072744/) |
-| 1978-03-28 | [La polizia è sconfitta](https://www.imdb.com/title/tt0078336/) |
+| 1978-03-28 | [La polizia « sconfitta](https://www.imdb.com/title/tt0078336/) |
 | 1978-04-05 | [Il drago si scatena](https://www.imdb.com/title/tt0068310/) |
 | 1978-05-14 | [Le Amazzoni - Donne d'amore e di guerra](https://www.imdb.com/title/tt0069700/) |
 | 1978-05-19 | [Pugni feroci](https://www.imdb.com/title/tt1234731/) |
-| 1978-05-30 | [Ehi amico... c'è Sabata. Hai chiuso!](https://www.imdb.com/title/tt0064916/) |
+| 1978-05-30 | [Ehi amico... c'» Sabata. Hai chiuso!](https://www.imdb.com/title/tt0064916/) |
 | 1978-06-11 | [Il dragone nero](https://www.imdb.com/title/tt0202026/) |
 | 1978-06-25 | [Smashing il racket del crimine](https://www.imdb.com/title/tt0065826/) |
 | 1978-07-22 | [I cannoni di San Sebastian](https://www.imdb.com/title/tt0062713/) |
@@ -829,7 +829,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1978-11-03 | [E venne il giorno dei limoni neri](https://www.imdb.com/title/tt0065681/) |
 | 1978-11-12 | [Uomini si nasce poliziotti si muore](https://www.imdb.com/title/tt0075375/) |
 | 1978-12-13 | [Il mucchio selvaggio](https://www.imdb.com/title/tt0065214/) |
-| 1978-12-31 | [Vamos a matar compañeros](https://www.imdb.com/title/tt0066612/) |
+| 1978-12-31 | [Vamos a matar compa«eros](https://www.imdb.com/title/tt0066612/) |
 
 ### 1979
 
@@ -841,8 +841,8 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1979-01-22 | [Il gigante dell'Himalaya](https://www.imdb.com/title/tt0076164/) |
 | 1979-01-28 | [Anche gli angeli mangiano fagioli](https://www.imdb.com/title/tt0069713/) |
 | 1979-01-30 | [I due superpiedi quasi piatti](https://www.imdb.com/title/tt0074442/) |
-| 1979-02-04 | [Storia di karatè, pugni e fagioli](https://www.imdb.com/title/tt0070307/) |
-| 1979-02-11 | [...Più forte ragazzi!](https://www.imdb.com/title/tt0069095/) |
+| 1979-02-04 | [Storia di karat», pugni e fagioli](https://www.imdb.com/title/tt0070307/) |
+| 1979-02-11 | [...Pi« forte ragazzi!](https://www.imdb.com/title/tt0069095/) |
 | 1979-02-15 | [Eva, la Venere selvaggia](https://www.imdb.com/title/tt0062946/) |
 | 1979-02-18 | [La conquista del West](https://www.imdb.com/title/tt0056085/) |
 | 1979-02-22 | [Schiave nell'isola del piacere](https://www.imdb.com/title/tt0071712/) |
@@ -865,7 +865,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1979-11-02 | [La furia del drago](https://www.imdb.com/title/tt0827709/) |
 | 1979-11-11 | [Bruce Lee il maestro](https://www.imdb.com/title/tt0071253/) |
 | 1979-11-18 | [Il commissario di ferro](https://www.imdb.com/title/tt0077363/) |
-| 1979-12-06 | [La polizia è sconfitta](https://www.imdb.com/title/tt0078336/) |
+| 1979-12-06 | [La polizia » sconfitta](https://www.imdb.com/title/tt0078336/) |
 | 1979-12-07 | [Sinbad e l'occhio della tigre](https://www.imdb.com/title/tt0076716/) |
 | 1979-12-18 | [Messaggi da forze sconosciute](https://www.imdb.com/title/tt0078975/) |
 | 1979-12-30 | [Shalako](https://www.imdb.com/title/tt0063592/) |
@@ -885,12 +885,12 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1980-02-10 | [Pugni feroci](https://www.imdb.com/title/tt1234731/) |
 | 1980-02-22 | [Il massacratore cinese](https://www.imdb.com/title/tt0186112/) |
 | 1980-03-16 | [Goodbye Bruce Lee, nel suo ultimo gioco della morte](https://www.imdb.com/title/tt0073061/) |
-| 1980-03-23 | [Più forte di Bruce Lee](https://www.imdb.com/title/tt1437851/) |
+| 1980-03-23 | [Pi« forte di Bruce Lee](https://www.imdb.com/title/tt1437851/) |
 | 1980-03-30 | [Tayang: il terrore della Cina](https://www.imdb.com/title/tt0070778/) |
 | 1980-04-06 | [La tigre della Manciuria](https://www.imdb.com/title/tt0164415/) |
 | 1980-04-13 | [Chen: La furia scatenata](https://www.imdb.com/title/tt0070564/) |
 | 1980-04-21 | [Nel mirino di Black Aphrodite](https://www.imdb.com/title/tt0075759/) |
-| 1980-04-27 | [La regina del karaté](https://www.imdb.com/title/tt0199987/) |
+| 1980-04-27 | [La regina del karat»](https://www.imdb.com/title/tt0199987/) |
 | 1980-09-09 | [Bruce Lee il campione](https://www.imdb.com/title/tt0062936/) |
 | 1980-09-11 | [Brigata ragazze squillo](https://www.imdb.com/title/tt1360757/) |
 | 1980-09-14 | [Esce il drago, entra la tigre](https://www.imdb.com/title/tt0074506/) |
@@ -899,7 +899,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1980-10-07 | [Erotication](https://www.imdb.com/title/tt0185277/) |
 | 1980-10-12 | [L'uomo dalla mano d'acciaio contro il drago rosso](https://www.imdb.com/title/tt2861404/) |
 | 1980-10-15 | [Il giovane Tigre](https://www.imdb.com/title/tt0124836/) |
-| 1980-10-19 | [A colpi di karaté](https://www.imdb.com/title/tt1431700/) |
+| 1980-10-19 | [A colpi di karat«](https://www.imdb.com/title/tt1431700/) |
 | 1980-11-02 | [La morte nella mano](https://www.imdb.com/title/tt0065999/) |
 | 1980-11-16 | [Wan Chung colpisce ancora](https://www.imdb.com/title/tt0200017/) |
 | 1980-11-23 | [Kung fu, l'arte di uccidere](https://www.imdb.com/title/tt0068874/) |
@@ -921,7 +921,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1981-02-11 | [Squadra volante](https://www.imdb.com/title/tt0072200/) |
 | 1981-02-15 | [Un esercito di 5 uomini](https://www.imdb.com/title/tt0064300/) |
 | 1981-02-22 | [Viva la muerte... tua!](https://www.imdb.com/title/tt0067303/) |
-| 1981-03-15 | [Storia di karatè, pugni e fagioli](https://www.imdb.com/title/tt0070307/) |
+| 1981-03-15 | [Storia di karat», pugni e fagioli](https://www.imdb.com/title/tt0070307/) |
 | 1981-03-26 | [Piedone a Hong Kong](https://www.imdb.com/title/tt0073541/) |
 | 1981-03-29 | [...Altrimenti ci arrabbiamo!](https://www.imdb.com/title/tt0069697/) |
 | 1981-04-03 | [Bruce Lee la tigre indomabile](https://www.imdb.com/title/tt0075167/) |
@@ -932,12 +932,12 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1981-09-13 | [Il colpo maestro di Bruce Lee](https://www.imdb.com/title/tt0122029/) |
 | 1981-09-18 | [Bruce Lee la bestia umana](https://www.imdb.com/title/tt0079076/) |
 | 1981-09-20 | [Cuore di leone, palma d'acciaio](https://www.imdb.com/title/tt0079311/) |
-| 1981-09-21 | [Pornogiochi al casinò](https://www.imdb.com/title/tt0231537/) |
+| 1981-09-21 | [Pornogiochi al casin«](https://www.imdb.com/title/tt0231537/) |
 | 1981-09-26 | [Bruce Lee: l'ira del drago colpisce anche l'Occidente](https://www.imdb.com/title/tt0165117/) |
 | 1981-10-03 | [Bruce Lee il campione](https://www.imdb.com/title/tt0062936/) |
 | 1981-10-10 | [Bruce Lee il grande eroe](https://www.imdb.com/title/tt0080475/) |
 | 1981-10-20 | [Bruce Lee supercampione](https://www.imdb.com/title/tt0077850/) |
-| 1981-10-31 | [Bruce Lee, l'uomo più forte del mondo](https://www.imdb.com/title/tt0083233/) |
+| 1981-10-31 | [Bruce Lee, l'uomo pi» forte del mondo](https://www.imdb.com/title/tt0083233/) |
 | 1981-11-02 | [Bruce Lee la vendetta del drago nero](https://www.imdb.com/title/tt0072858/) |
 | 1981-11-03 | [I due superpiedi quasi piatti](https://www.imdb.com/title/tt0074442/) |
 | 1981-11-09 | [Bruce Lee: Chen l'immortale](https://www.imdb.com/title/tt0189151/) |
@@ -955,7 +955,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1982-01-09 | [Bruce Lee la vendetta del drago nero](https://www.imdb.com/title/tt0072858/) |
 | 1982-01-16 | [Io sto con gli ippopotami](https://www.imdb.com/title/tt0079351/) |
 | 1982-01-30 | [Il corsaro nero](https://www.imdb.com/title/tt0074349/) |
-| 1982-02-03 | [Bruce Lee, l'uomo più forte del mondo](https://www.imdb.com/title/tt0083233/) |
+| 1982-02-03 | [Bruce Lee, l'uomo pi« forte del mondo](https://www.imdb.com/title/tt0083233/) |
 | 1982-02-06 | [L'uomo puma](https://www.imdb.com/title/tt0081693/) |
 | 1982-02-27 | [L'uomo della grande muraglia](https://www.imdb.com/title/tt1753918/) |
 | 1982-03-13 | [Bruce Lee il grande eroe](https://www.imdb.com/title/tt0080475/) |
@@ -973,11 +973,11 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1982-10-04 | [L'urlo di Chen terrorizza anche l'occidente](https://www.imdb.com/title/tt0068935/) |
 | 1982-10-09 | [Bruce Lee la vendetta del drago nero](https://www.imdb.com/title/tt0072858/) |
 | 1982-11-19 | [La rivincita dell'incredibile Hulk](https://www.imdb.com/title/tt0095368/) |
-| 1982-11-20 | [Bruce Lee il pugno più forte del mondo](https://www.imdb.com/title/tt1754934/) |
+| 1982-11-20 | [Bruce Lee il pugno pi» forte del mondo](https://www.imdb.com/title/tt1754934/) |
 | 1982-11-21 | [Zorro mezzo e mezzo](https://www.imdb.com/title/tt0083366/) |
 | 1982-11-30 | [Squadra antigangsters](https://www.imdb.com/title/tt0079943/) |
 | 1982-12-10 | [L'invincibile ninja](https://www.imdb.com/title/tt0082332/) |
-| 1982-12-11 | [I giganti del karaté](https://www.imdb.com/title/tt0071619/) |
+| 1982-12-11 | [I giganti del karat«](https://www.imdb.com/title/tt0071619/) |
 | 1982-12-15 | [Milano... difendersi o morire](https://www.imdb.com/title/tt0077930/) |
 | 1982-12-21 | [Jacky Chan la mano che uccide](https://www.imdb.com/title/tt0079315/) |
 | 1982-12-26 | [1997: fuga da New York](https://www.imdb.com/title/tt0082340/) |
@@ -999,7 +999,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1983-03-27 | [Squadra antimafia](https://www.imdb.com/title/tt0078312/) |
 | 1983-04-12 | [Scontro di titani](https://www.imdb.com/title/tt0082186/) |
 | 1983-09-23 | [Il giustiziere della notte 2](https://www.imdb.com/title/tt0082250/) |
-| 1983-10-23 | [Terrore in città](https://www.imdb.com/title/tt0084684/) |
+| 1983-10-23 | [Terrore in citt»](https://www.imdb.com/title/tt0084684/) |
 | 1983-10-27 | [La selvaggia mano di Bruce Lee](https://www.imdb.com/title/tt0420278/) |
 | 1983-11-13 | [La spada a tre lame](https://www.imdb.com/title/tt0084749/) |
 | 1983-11-19 | [Il Falcone](https://www.imdb.com/title/tt0082356/) |
@@ -1022,7 +1022,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1984-03-23 | [Vigilante](https://www.imdb.com/title/tt0084867/) |
 | 1984-04-03 | [2019 - Dopo la caduta di New York](https://www.imdb.com/title/tt0085125/) |
 | 1984-04-05 | [Tron](https://www.imdb.com/title/tt0084827/) |
-| 1984-04-23 | [Il duro più duro](https://www.imdb.com/title/tt0086461/) |
+| 1984-04-23 | [Il duro pi« duro](https://www.imdb.com/title/tt0086461/) |
 | 1984-10-02 | [I vendicatori della notte](https://www.imdb.com/title/tt0086625/) |
 | 1984-11-04 | [Rambo](https://www.imdb.com/title/tt0083944/) |
 | 1984-12-23 | [Bruce Lee il dominatore](https://www.imdb.com/title/tt0074246/) |
@@ -1037,7 +1037,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1985-03-28 | [Guerre stradali](https://www.imdb.com/title/tt0084616/) |
 | 1985-03-29 | [Nati con la camicia](https://www.imdb.com/title/tt0085601/) |
 | 1985-03-31 | [Bruce Lee terrore d'oriente](https://www.imdb.com/title/tt0201175/) |
-| 1985-09-24 | [Non c'è due senza quattro](https://www.imdb.com/title/tt0087481/) |
+| 1985-09-24 | [Non c'» due senza quattro](https://www.imdb.com/title/tt0087481/) |
 | 1985-10-07 | [Rombo di tuono](https://www.imdb.com/title/tt0087727/) |
 | 1985-10-19 | [Una magnum per McQuade](https://www.imdb.com/title/tt0085862/) |
 | 1985-11-02 | [The Karate Kid - Per vincere domani](https://www.imdb.com/title/tt0087538/) |
@@ -1261,8 +1261,8 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 |  |  |
 |---|---|
 | 2000-01-23 | [Giorni contati](https://www.imdb.com/title/tt0146675/) |
-| 2000-01-30 | [Il 13º guerriero](https://www.imdb.com/title/tt0120657/) |
-| 2000-05-20 | [Pokémon il film - Mewtwo contro Mew](https://www.imdb.com/title/tt0190641/) |
+| 2000-01-30 | [Il 13« guerriero](https://www.imdb.com/title/tt0120657/) |
+| 2000-05-20 | [Pok»mon il film - Mewtwo contro Mew](https://www.imdb.com/title/tt0190641/) |
 | 2000-09-17 | [Mission: Impossible II](https://www.imdb.com/title/tt0120755/) |
 | 2000-09-24 | [Il patriota](https://www.imdb.com/title/tt0187393/) |
 | 2000-11-26 | [L'uomo senza ombra](https://www.imdb.com/title/tt0164052/) |
@@ -1271,7 +1271,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 
 |  |  |
 |---|---|
-| 2001-02-18 | [Pokémon 2 - La forza di uno](https://www.imdb.com/title/tt0210234/) |
+| 2001-02-18 | [Pok�mon 2 - La forza di uno](https://www.imdb.com/title/tt0210234/) |
 | 2001-04-22 | [La tigre e il dragone](https://www.imdb.com/title/tt0190332/) |
 | 2001-06-10 | [La mummia - Il ritorno](https://www.imdb.com/title/tt0209163/) |
 | 2001-06-17 | [Il corvo 3 - Salvation](https://www.imdb.com/title/tt0132910/) |

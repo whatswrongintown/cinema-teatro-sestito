@@ -7,6 +7,10 @@ categories:
   - Agende
 description: Agende cinematografiche fornite dalle case distributrici. Contengono informazioni dettagliate sulla data di proiezione, titolo del film, distributore e l’ammontare degli incassi.
 image: /images/1964_01_01_rapidtransport_1964/1964_01_01_rapidtransport_01.png
+galleryDescriptions:
+  /images/1964_01_01_rapidtransport_1964:
+    pageAlt: "Scansioni della fonte «Rapidtransport 1964» utilizzata per ricostruire la programmazione del Cinema Sestito."
+lastmod: '2026-11-18'
 ---
 
 
@@ -177,4 +181,3 @@ image: /images/1964_01_01_rapidtransport_1964/1964_01_01_rapidtransport_01.png
 | 1964-12-25 | [Perseo l'invincibile](https://www.imdb.com/title/tt0056343/) |
 | 1964-12-27 | [Sansone contro i pirati](https://www.imdb.com/title/tt0057470/) |
 | 1964-12-30 | [L'oro dei sette santi](https://www.imdb.com/title/tt0054934/) |
-

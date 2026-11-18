@@ -7,6 +7,10 @@ categories:
   - Agende
 description: Agende cinematografiche fornite dalle case distributrici. Contengono informazioni dettagliate sulla data di proiezione, titolo del film, distributore e l’ammontare degli incassi.
 image: /images/1956_10_01_bruzia_1956_57/1956_10_01_bruzia_1956_57_01.png
+galleryDescriptions:
+  /images/1956_10_01_bruzia_1956_57:
+    pageAlt: "Scansioni della fonte «Bruzia 1956-57» utilizzata per ricostruire la programmazione del Cinema Sestito."
+lastmod: '2026-11-18'
 ---
 
 
@@ -236,4 +240,3 @@ image: /images/1956_10_01_bruzia_1956_57/1956_10_01_bruzia_1956_57_01.png
 | 1957-12-24 | [Guaglione](https://www.imdb.com/title/tt0050462/) |
 | 1957-12-28 | [Tradita](https://www.imdb.com/title/tt0047607/) |
 | 1957-12-29 | [La principessa delle Canarie](https://www.imdb.com/title/tt0047367/) |
-

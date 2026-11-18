@@ -25,6 +25,13 @@ galleryDescriptions:
         alt: "Retro di un'agenda Incom con annotazione manoscritta dedicata a Sandro Pallavicini e testo promozionale."
       la_settimana_incam_04.jpg:
         alt: "Documento commerciale Incom con titolo La Settimana Incom, elenco di produzioni e marchio Record Incom Sport."
+  /images/2023_04_27_le_difficoltà_della_gestione:
+    pageAlt: "Documenti e illustrazione relativi alla gestione del cinema negli anni Cinquanta."
+    images:
+      1950_Associazione_Nazionale_Esercenti_Cinema_1.jpg:
+        alt: "Tessera dell’Associazione Generale Italiana dello Spettacolo intestata a Vito Sestito per la stagione 1950, con fotografia e timbri."
+      sansone_dalila.webp:
+        alt: "Locandina di Sansone e Dalila con Hedy Lamarr e Victor Mature, prodotta e diretta da Cecil B. DeMille."
 ---
 
 

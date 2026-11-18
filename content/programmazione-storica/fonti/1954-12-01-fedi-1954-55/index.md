@@ -7,6 +7,10 @@ categories:
   - Agende
 description: Agende cinematografiche fornite dalle case distributrici. Contengono informazioni dettagliate sulla data di proiezione, titolo del film, distributore e l’ammontare degli incassi.
 image: /images/1954_12_01_fedi_1954_55/1954_12_01_fedi_1954_55_01.png
+galleryDescriptions:
+  /images/1954_12_01_fedi_1954_55:
+    pageAlt: "Scansioni della fonte «Fedi 1954-55» utilizzata per ricostruire la programmazione del Cinema Sestito."
+lastmod: '2026-11-18'
 ---
 
 
@@ -195,4 +199,3 @@ image: /images/1954_12_01_fedi_1954_55/1954_12_01_fedi_1954_55_01.png
 | 1955-12-26 | [Canto per te](https://www.imdb.com/title/tt0045596/) |
 | 1955-12-28 | [Labbra proibite](https://www.imdb.com/title/tt0045981/) |
 | 1955-12-31 | [Vortice](https://www.imdb.com/title/tt0046525/) |
-

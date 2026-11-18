@@ -11,6 +11,15 @@ tags:
   - CinemaTeatroSestito
   - San Vito sullo Ionio
   - AutoricambiSestito
+galleryDescriptions:
+  /images/1924_06_07_cartolina_gruppo_amici_sestito_vito:
+    pageAlt: "Fronte e retro della cartolina fotografica del 1924 dedicata a Vito Sestito e al suo gruppo di amici."
+    images:
+      1924_06_07_cartolina_gruppo_amici_sestito_vito_01.webp:
+        alt: "Fotografia di gruppo del 1924 con Vito Sestito e amici seduti e in piedi davanti a un fondale."
+      1924_06_07_cartolina_gruppo_amici_sestito_vito_02.webp:
+        alt: "Retro della cartolina del 1924, indirizzata a un destinatario e con annotazioni e timbri postali."
+lastmod: '2026-11-18'
 ---
 ![foto fatte per la patente](images/vito_sestito_patent_pictures.webp)
 

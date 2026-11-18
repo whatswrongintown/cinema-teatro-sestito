@@ -7,6 +7,10 @@ categories:
   - Agende
 description: Agende cinematografiche fornite dalle case distributrici. Contengono informazioni dettagliate sulla data di proiezione, titolo del film, distributore e l’ammontare degli incassi.
 image: /images/1953_12_01_fedi_1953_54/1953_12_01_fedi_1953_54_01.png
+galleryDescriptions:
+  /images/1953_12_01_fedi_1953_54:
+    pageAlt: "Scansioni della fonte «Fedi 1953-54» utilizzata per ricostruire la programmazione del Cinema Sestito."
+lastmod: '2026-11-18'
 ---
 
 
@@ -172,4 +176,3 @@ image: /images/1953_12_01_fedi_1953_54/1953_12_01_fedi_1953_54_01.png
 | 1954-12-24 | [Luci della ribalta](https://www.imdb.com/title/tt0044837/) |
 | 1954-12-29 | [L'ingiusta condanna](https://www.imdb.com/title/tt0044748/) |
 | 1954-12-31 | [Sensualità](https://www.imdb.com/title/tt0045138/) |
-

@@ -7,6 +7,10 @@ categories:
   - Calendari
 description: Calendari murali o da tavolo legati all’attività del cinema. Indicano la data di proiezione e il titolo dei film, insieme agli incassi registrati.
 image: /images/1975_01_01_calendario_1975/1975_01_01_calendario_proiezioni_01.png
+galleryDescriptions:
+  /images/1975_01_01_calendario_1975:
+    pageAlt: "Scansioni della fonte «Calendario 1975» utilizzata per ricostruire la programmazione del Cinema Sestito."
+lastmod: '2026-11-18'
 ---
 
 
@@ -237,4 +241,3 @@ image: /images/1975_01_01_calendario_1975/1975_01_01_calendario_proiezioni_01.pn
 |  |  |
 |---|---|
 | 1976-01-01 | [La polizia ringrazia](https://www.imdb.com/title/tt0069109/) |
-

@@ -7,6 +7,10 @@ categories:
   - Agende
 description: Agende cinematografiche fornite dalle case distributrici. Contengono informazioni dettagliate sulla data di proiezione, titolo del film, distributore e l’ammontare degli incassi.
 image: /images/1951_11_01_bruzia_1951_52/1951_11_01_bruzia_1951_52_01.png
+galleryDescriptions:
+  /images/1951_11_01_bruzia_1951_52:
+    pageAlt: "Scansioni della fonte «Bruzia 1951-52» utilizzata per ricostruire la programmazione del Cinema Sestito."
+lastmod: '2026-11-18'
 ---
 
 
@@ -155,4 +159,3 @@ image: /images/1951_11_01_bruzia_1951_52/1951_11_01_bruzia_1951_52_01.png
 | 1952-12-19 | [Monastero di Santa Chiara](https://www.imdb.com/title/tt0041657/) |
 | 1952-12-24 | [Il lupo della frontiera](https://www.imdb.com/title/tt0043765/) |
 | 1952-12-27 | [Labbra serrate](https://www.imdb.com/title/tt0034956/) |
-

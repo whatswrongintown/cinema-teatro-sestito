@@ -7,6 +7,10 @@ categories:
   - Appunti
 description: Appunti su blocchi o fogli, con i film registrati per mese. Riportano gli incassi dei film quando disponibili.
 image: /images/1993_10_01_appunti_new_europe_1993_94/1993_09_01_appunti_new_europe_1993_94_01.png
+galleryDescriptions:
+  /images/1993_10_01_appunti_new_europe_1993_94:
+    pageAlt: "Scansioni della fonte «New Europe 1993-94» utilizzata per ricostruire la programmazione del Cinema Sestito."
+lastmod: '2026-11-18'
 ---
 
 
@@ -66,4 +70,3 @@ image: /images/1993_10_01_appunti_new_europe_1993_94/1993_09_01_appunti_new_euro
 |---|---|
 | 1994-04-01 | [La famiglia Addams 2](https://www.imdb.com/title/tt0106220/) |
 | 1994-04-17 | [Senza tregua](https://www.imdb.com/title/tt0107076/) |
-

@@ -7,6 +7,10 @@ categories:
   - Rubriche
 description: Rubriche dove i film venivano annotati in ordine alfabetico, con data di proiezione e distributore.
 image: /images/1976_01_01_rubrica_1976_77/1976_01_01_rubrica_fratelli_de_leon_1976_77_01.png
+galleryDescriptions:
+  /images/1976_01_01_rubrica_1976_77:
+    pageAlt: "Scansioni della fonte «Rubrica 1976-77» utilizzata per ricostruire la programmazione del Cinema Sestito."
+lastmod: '2026-11-18'
 ---
 
 
@@ -463,4 +467,3 @@ image: /images/1976_01_01_rubrica_1976_77/1976_01_01_rubrica_fratelli_de_leon_19
 | 1977-12-29 | [Africa erotica (Jungla erotica)](https://www.imdb.com/title/tt0189634/) |
 | 1977-12-30 | [Il cav. Costante Nicosia demoniaco, ovvero: Dracula in Brianza](https://www.imdb.com/title/tt0072771/) |
 | 1977-12-31 | [Apache](https://www.imdb.com/title/tt0068429/) |
-

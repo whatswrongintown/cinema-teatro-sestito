@@ -7,6 +7,10 @@ categories:
   - Agende
 description: Agende cinematografiche fornite dalle case distributrici. Contengono informazioni dettagliate sulla data di proiezione, titolo del film, distributore e l’ammontare degli incassi.
 image: /images/1954_12_01_bruzia_1954_55/1954_12_01_bruzia_1954_55_01.png
+galleryDescriptions:
+  /images/1954_12_01_bruzia_1954_55:
+    pageAlt: "Scansioni della fonte «Bruzia 1954-55» utilizzata per ricostruire la programmazione del Cinema Sestito."
+lastmod: '2026-11-18'
 ---
 
 
@@ -66,4 +70,3 @@ image: /images/1954_12_01_bruzia_1954_55/1954_12_01_bruzia_1954_55_01.png
 | 1955-12-20 | [Balocchi e profumi](https://www.imdb.com/title/tt0045536/) |
 | 1955-12-24 | [Maddalena](https://www.imdb.com/title/tt0046023/) |
 | 1955-12-28 | [Labbra proibite](https://www.imdb.com/title/tt0045981/) |
-

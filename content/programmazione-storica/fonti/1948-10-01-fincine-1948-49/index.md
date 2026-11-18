@@ -7,6 +7,10 @@ categories:
   - Agende
 description: Agende cinematografiche fornite dalle case distributrici. Contengono informazioni dettagliate sulla data di proiezione, titolo del film, distributore e l’ammontare degli incassi.
 image: /images/1948_10_01_fincine_1948_49/1948_10_01_fincine_1948_49_01.png
+galleryDescriptions:
+  /images/1948_10_01_fincine_1948_49:
+    pageAlt: "Scansioni della fonte «Fincine 1948-49» utilizzata per ricostruire la programmazione del Cinema Sestito."
+lastmod: '2026-11-18'
 ---
 
 
@@ -117,4 +121,3 @@ image: /images/1948_10_01_fincine_1948_49/1948_10_01_fincine_1948_49_01.png
 | 1949-10-21 | [Casta Diva](https://www.imdb.com/title/tt0026188/) |
 | 1949-10-23 | [Monaca santa](https://www.imdb.com/title/tt0037925/) |
 | 1949-10-27 | [Non canto più](https://www.imdb.com/title/tt0036214/) |
-

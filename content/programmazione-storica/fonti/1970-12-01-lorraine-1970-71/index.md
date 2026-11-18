@@ -7,6 +7,10 @@ categories:
   - Agende
 description: Agende cinematografiche fornite dalle case distributrici. Contengono informazioni dettagliate sulla data di proiezione, titolo del film, distributore e l’ammontare degli incassi.
 image: /images/1970_12_01_lorraine_1970_71/1970_12_01_lorraine_1970_71_01.png
+galleryDescriptions:
+  /images/1970_12_01_lorraine_1970_71:
+    pageAlt: "Scansioni della fonte «Lorraine 1970-71» utilizzata per ricostruire la programmazione del Cinema Sestito."
+lastmod: '2026-11-18'
 ---
 
 
@@ -271,4 +275,3 @@ image: /images/1970_12_01_lorraine_1970_71/1970_12_01_lorraine_1970_71_01.png
 | 1971-12-26 | [Il buono, il brutto, il cattivo](https://www.imdb.com/title/tt0060196/) |
 | 1971-12-28 | [In fondo al buio](https://www.imdb.com/title/tt0064576/) |
 | 1971-12-29 | [L'astronave fantasma](https://www.imdb.com/title/tt0055562/) |
-

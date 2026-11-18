@@ -7,6 +7,10 @@ categories:
   - Agende
 description: Agende cinematografiche fornite dalle case distributrici. Contengono informazioni dettagliate sulla data di proiezione, titolo del film, distributore e l’ammontare degli incassi.
 image: /images/1948_10_01_incam_1948_49/1948_10_01_incam_1948_49_01.png
+galleryDescriptions:
+  /images/1948_10_01_incam_1948_49:
+    pageAlt: "Scansioni della fonte «Incam 1948-49» utilizzata per ricostruire la programmazione del Cinema Sestito."
+lastmod: '2026-11-18'
 ---
 
 
@@ -151,4 +155,3 @@ image: /images/1948_10_01_incam_1948_49/1948_10_01_incam_1948_49_01.png
 | 1949-09-04 | [Bionda selvaggia](https://www.imdb.com/title/tt0039198/) |
 | 1949-09-11 | [I due orfanelli](https://www.imdb.com/title/tt0039342/) |
 | 1949-09-28 | [Appuntamento alle 5](https://www.imdb.com/title/tt0027887/) |
-

@@ -7,6 +7,10 @@ categories:
   - Agende
 description: Agende cinematografiche fornite dalle case distributrici. Contengono informazioni dettagliate sulla data di proiezione, titolo del film, distributore e l’ammontare degli incassi.
 image: /images/1950_12_01_elettrocarbonium_1950_51/1950_12_01_elettrocarbonium_1950_51_01.png
+galleryDescriptions:
+  /images/1950_12_01_elettrocarbonium_1950_51:
+    pageAlt: "Scansioni della fonte «Elettrocarbonium 1950-51» utilizzata per ricostruire la programmazione del Cinema Sestito."
+lastmod: '2026-11-18'
 ---
 
 
@@ -101,4 +105,3 @@ image: /images/1950_12_01_elettrocarbonium_1950_51/1950_12_01_elettrocarbonium_1
 |---|---|
 | 1951-09-01 | [Ettore Fieramosca](https://www.imdb.com/title/tt0030107/) |
 | 1951-09-09 | [Enamorada](https://www.imdb.com/title/tt0038510/) |
-

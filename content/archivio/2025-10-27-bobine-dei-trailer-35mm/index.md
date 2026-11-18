@@ -7,6 +7,10 @@ slug: bobine-dei-trailer-35mm
 categories:
   - Attrezzature
 description: "Schede e documentazione delle bobine promozionali in pellicola 35mm conservate nell’archivio del Cinema Teatro Sestito."
+galleryDescriptions:
+  /images/2025_10_27_trailer_35mm:
+    pageAlt: "Fotografie delle bobine promozionali in pellicola 35 mm e delle rispettive etichette conservate nell’archivio del cinema."
+lastmod: '2026-11-18'
 ---
 
 ![Bobine promozionali in pellicola 35 mm con le etichette originali visibili](images/IMG_0177.jpg)

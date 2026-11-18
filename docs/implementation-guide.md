@@ -38,7 +38,7 @@ The existing contact form remains working, as confirmed by the owner.
 | [O04](#o04-chart-explanations) | Explain chart conventions accurately | Deferred | Resume with a fresh check after the database is finalized |
 | [O05](#o05-lightbox-keyboard-accessibility) | Make lightbox keyboard-accessible | Done | Build and integrated-browser checks passed on 2026-11-18 |
 | [O06](#o06-visible-focus) | Existing navigation focus styles | Closed | Owner chose to keep current styles |
-| [O07](#o07-image-alternatives) | Improve logo/gallery alternatives | P2 | Editorial descriptions; coordinate with O05 |
+| [O07](#o07-image-alternatives) | Improve logo/gallery alternatives | Done | All 77 gallery invocations covered 2026-11-18 |
 | [O08](#o08-localization-and-taxonomies) | Localize and improve taxonomy browsing | Done | Reading time updated; current dates/taxonomies accepted 2026-11-18 |
 | [V01](#v01-rendering-and-interaction-checks) | Build and interaction verification | P1 | Baseline first; repeat after affected changes |
 | [V02](#v02-sitemap-lastmod) | Verify sitemap dates | Done | Explicit editorial dates only; verified on 2026-11-18 |
@@ -248,6 +248,7 @@ Lightbox keyboard accessibility remains a separate open item (O05).
 
 ## O07: Image alternatives
 
+**Status:** DONE on 2026-11-18.
 **Priority:** P2. **Depends on:** owner/editor descriptions of the scans.
 **Progress:** The logo-only portion was completed on 2026-11-18. The image-only
 home link now uses the meaningful Italian name `Cinema Teatro Sestito - Home`.
@@ -255,9 +256,10 @@ On 2026-11-18, the owner narrowed the remaining gallery scope: describe
 editorial images with distinct subjects individually; for repetitive
 programming-source scans, use a concise page-level alternative and retain the
 existing filename fallback where a more specific description is unavailable.
-The shortcode and lightbox support are implemented. The four-image Settimana
-Incom gallery is the initial pilot and awaits editorial review; other galleries
-also remain to be reviewed. On 2026-11-18, the owner confirmed that the pilot
+The shortcode and lightbox support are implemented. All 76 pages and 77 gallery
+invocations now have front-matter metadata. Distinct editorial images have
+individual descriptions; repetitive source, diary and trailer sequences use
+concise page-level alternatives. On 2026-11-18, the owner confirmed the pilot
 works correctly in a local `serve_site()` preview.
 
 Descriptions belong in the front matter of the Markdown page that invokes the
@@ -312,9 +314,7 @@ modified only as their descriptions are reviewed.
 
 **Done when:** reviewed editorial images use accurate distinct alternatives;
 repetitive source series use concise page-level alternatives; the lightbox
-preserves them; and remaining fallbacks are explicit rather than represented as
-finished editorial descriptions. Record any unconverted gallery rather than
-declaring it all done.
+preserves them; and a future gallery without metadata emits an explicit warning.
 
 ## O08: Localization and taxonomies
 

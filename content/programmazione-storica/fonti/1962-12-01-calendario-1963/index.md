@@ -7,6 +7,10 @@ categories:
   - Calendari
 description: Calendari murali o da tavolo legati all’attività del cinema. Indicano la data di proiezione e il titolo dei film, insieme agli incassi registrati.
 image: /images/1962_12_01_calendario_1963/1962_12_01_calendario_proiezioni_01.png
+galleryDescriptions:
+  /images/1962_12_01_calendario_1963:
+    pageAlt: "Scansioni della fonte «Calendario 1963» utilizzata per ricostruire la programmazione del Cinema Sestito."
+lastmod: '2026-11-18'
 ---
 
 
@@ -184,4 +188,3 @@ image: /images/1962_12_01_calendario_1963/1962_12_01_calendario_proiezioni_01.pn
 | 1963-12-22 | [La battaglia di Alamo](https://www.imdb.com/title/tt0053580/) |
 | 1963-12-25 | [Salomone e la regina di Saba](https://www.imdb.com/title/tt0053290/) |
 | 1963-12-29 | [La carovana dei coraggiosi](https://www.imdb.com/title/tt0054874/) |
-

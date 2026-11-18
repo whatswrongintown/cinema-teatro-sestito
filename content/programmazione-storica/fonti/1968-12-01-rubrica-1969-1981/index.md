@@ -7,6 +7,10 @@ categories:
   - Rubriche
 description: Rubriche dove i film venivano annotati in ordine alfabetico, con data di proiezione e distributore.
 image: /images/1968_12_01_rubrica_1969_1981/1969_01_01_rubrica_fratelli_de_leon_1969_1981_01.png
+galleryDescriptions:
+  /images/1968_12_01_rubrica_1969_1981:
+    pageAlt: "Scansioni della fonte «Rubrica 1969-1981» utilizzata per ricostruire la programmazione del Cinema Sestito."
+lastmod: '2026-11-18'
 ---
 
 
@@ -417,4 +421,3 @@ image: /images/1968_12_01_rubrica_1969_1981/1969_01_01_rubrica_fratelli_de_leon_
 | 1981-12-26 | [Piedone l'africano](https://www.imdb.com/title/tt0076544/) |
 | 1981-12-27 | [La febbre del sabato sera](https://www.imdb.com/title/tt0076666/) |
 | 1981-12-31 | [Il cacciatore di squali](https://www.imdb.com/title/tt0078925/) |
-

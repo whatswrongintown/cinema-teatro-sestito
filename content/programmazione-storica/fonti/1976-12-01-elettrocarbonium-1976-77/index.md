@@ -7,6 +7,10 @@ categories:
   - Agende
 description: Agende cinematografiche fornite dalle case distributrici. Contengono informazioni dettagliate sulla data di proiezione, titolo del film, distributore e l’ammontare degli incassi.
 image: /images/1976_12_01_elettrocarbonium_1976_77/1976_12_01_elettrocarbonium_1976_77_01.png
+galleryDescriptions:
+  /images/1976_12_01_elettrocarbonium_1976_77:
+    pageAlt: "Scansioni della fonte «Elettrocarbonium 1976-77» utilizzata per ricostruire la programmazione del Cinema Sestito."
+lastmod: '2026-11-18'
 ---
 
 
@@ -274,4 +278,3 @@ image: /images/1976_12_01_elettrocarbonium_1976_77/1976_12_01_elettrocarbonium_1
 | 1977-12-29 | [Africa erotica (Jungla erotica)](https://www.imdb.com/title/tt0189634/) |
 | 1977-12-30 | [Il cav. Costante Nicosia demoniaco, ovvero: Dracula in Brianza](https://www.imdb.com/title/tt0072771/) |
 | 1977-12-31 | [Apache](https://www.imdb.com/title/tt0068429/) |
-

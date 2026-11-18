@@ -7,6 +7,10 @@ categories:
   - Agende
 description: Agende cinematografiche fornite dalle case distributrici. Contengono informazioni dettagliate sulla data di proiezione, titolo del film, distributore e l’ammontare degli incassi.
 image: /images/1958_11_01_fedi_1958_59/1958_11_01_fedi_1958_59_01.png
+galleryDescriptions:
+  /images/1958_11_01_fedi_1958_59:
+    pageAlt: "Scansioni della fonte «Fedi 1958-59» utilizzata per ricostruire la programmazione del Cinema Sestito."
+lastmod: '2026-11-18'
 ---
 
 
@@ -234,4 +238,3 @@ image: /images/1958_11_01_fedi_1958_59/1958_11_01_fedi_1958_59_01.png
 | 1959-12-26 | [Destino di una imperatrice](https://www.imdb.com/title/tt0050974/) |
 | 1959-12-27 | [Quando volano le cicogne](https://www.imdb.com/title/tt0050634/) |
 | 1959-12-30 | [Nel segno di Roma](https://www.imdb.com/title/tt0051985/) |
-

@@ -7,6 +7,10 @@ categories:
   - Appunti
 description: Appunti su blocchi o fogli, con i film registrati per mese. Riportano gli incassi dei film quando disponibili.
 image: /images/2000_09_01_appunti_victory_2000/2000_09_01_appunti_victory_2000_04_01.png
+galleryDescriptions:
+  /images/2000_09_01_appunti_victory_2000:
+    pageAlt: "Scansioni della fonte «Victory 2000» utilizzata per ricostruire la programmazione del Cinema Sestito."
+lastmod: '2026-11-18'
 ---
 
 
@@ -235,4 +239,3 @@ image: /images/2000_09_01_appunti_victory_2000/2000_09_01_appunti_victory_2000_0
 |  |  |
 |---|---|
 | 2004-05-02 | [La passione di Cristo](https://www.imdb.com/title/tt0335345/) |
-

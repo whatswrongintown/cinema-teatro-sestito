@@ -47,11 +47,11 @@ image: "/programmazione-storica/paesi-di-produzione/_index_files/figure-html/ita
 
 |  |  |
 |---|---|
-| 1971-08-25 | [Le carabine del rio negro (Lampião, O Rei do Cangaço)](https://www.imdb.com/title/tt0184659/) |
+| 1971-08-25 | [Le carabine del rio negro (Lampi«o, O Rei do Canga»o)](https://www.imdb.com/title/tt0184659/) |
 
 ### 1985
 
 |  |  |
 |---|---|
-| 1985-09-24 | [Non c'è due senza quattro](https://www.imdb.com/title/tt0087481/) |
+| 1985-09-24 | [Non c'� due senza quattro](https://www.imdb.com/title/tt0087481/) |
 

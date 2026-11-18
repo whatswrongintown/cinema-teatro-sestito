@@ -7,6 +7,10 @@ categories:
   - Appunti
 description: Appunti su blocchi o fogli, con i film registrati per mese. Riportano gli incassi dei film quando disponibili.
 image: /images/1987_06_01_appunti_cif_1987_88/1987_08_01_appunti_cif_1987_88_01.png
+galleryDescriptions:
+  /images/1987_06_01_appunti_cif_1987_88:
+    pageAlt: "Scansioni della fonte «CIF 1987-88» utilizzata per ricostruire la programmazione del Cinema Sestito."
+lastmod: '2026-11-18'
 ---
 
 
@@ -168,4 +172,3 @@ image: /images/1987_06_01_appunti_cif_1987_88/1987_08_01_appunti_cif_1987_88_01.
 | 1988-05-21 | [I vizi segreti degli italiani quando credono di non essere visti](https://www.imdb.com/title/tt0201317/) |
 | 1988-05-22 | [La Bamba](https://www.imdb.com/title/tt0093378/) |
 | 1988-05-29 | [Non stop sempre buio in sala](https://www.imdb.com/title/tt0089990/) |
-

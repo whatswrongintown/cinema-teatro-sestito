@@ -7,6 +7,10 @@ categories:
   - Appunti
 description: Appunti su blocchi o fogli, con i film registrati per mese. Riportano gli incassi dei film quando disponibili.
 image: /images/1990_09_01_appunti_italautogamma_1990_91/1990_09_01_appunti_italautogamma_1990_91_01.png
+galleryDescriptions:
+  /images/1990_09_01_appunti_italautogamma_1990_91:
+    pageAlt: "Scansioni della fonte «Italautogamma 1990-91» utilizzata per ricostruire la programmazione del Cinema Sestito."
+lastmod: '2026-11-18'
 ---
 
 
@@ -133,4 +137,3 @@ image: /images/1990_09_01_appunti_italautogamma_1990_91/1990_09_01_appunti_itala
 | 1991-06-02 | [Balla coi lupi](https://www.imdb.com/title/tt0099348/) |
 | 1991-06-09 | [Senti chi parla 2](https://www.imdb.com/title/tt0100050/) |
 | 1991-06-16 | [Un fantasma per amico](https://www.imdb.com/title/tt0099750/) |
-

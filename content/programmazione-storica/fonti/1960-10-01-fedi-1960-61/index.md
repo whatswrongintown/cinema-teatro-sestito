@@ -7,6 +7,10 @@ categories:
   - Agende
 description: Agende cinematografiche fornite dalle case distributrici. Contengono informazioni dettagliate sulla data di proiezione, titolo del film, distributore e l’ammontare degli incassi.
 image: /images/1960_10_01_fedi_1960_61/1960_10_01_fedi_1960_61_01.png
+galleryDescriptions:
+  /images/1960_10_01_fedi_1960_61:
+    pageAlt: "Scansioni della fonte «Fedi 1960-61» utilizzata per ricostruire la programmazione del Cinema Sestito."
+lastmod: '2026-11-18'
 ---
 
 
@@ -53,4 +57,3 @@ image: /images/1960_10_01_fedi_1960_61/1960_10_01_fedi_1960_61_01.png
 | 1960-12-12 | [Mogli pericolose](https://www.imdb.com/title/tt0051941/) |
 | 1960-12-12 | [Le insaziabili](https://www.imdb.com/title/tt0051780/) |
 | 1960-12-15 | [Sergente d'ispezione](https://www.imdb.com/title/tt0052184/) |
-

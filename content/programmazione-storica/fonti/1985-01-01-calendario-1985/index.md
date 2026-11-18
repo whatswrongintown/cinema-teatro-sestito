@@ -7,6 +7,10 @@ categories:
   - Calendari
 description: Calendari murali o da tavolo legati all’attività del cinema. Indicano la data di proiezione e il titolo dei film, insieme agli incassi registrati.
 image: /images/1985_01_01_calendario_1985/1985_01_01_calendario_proiezioni_01.png
+galleryDescriptions:
+  /images/1985_01_01_calendario_1985:
+    pageAlt: "Scansioni della fonte «Calendario 1985» utilizzata per ricostruire la programmazione del Cinema Sestito."
+lastmod: '2026-11-18'
 ---
 
 
@@ -64,4 +68,3 @@ image: /images/1985_01_01_calendario_1985/1985_01_01_calendario_proiezioni_01.pn
 | 1985-10-26 | [Omicidio a luci rosse](https://www.imdb.com/title/tt0086984/) |
 | 1985-10-27 | [Jhoanna farfalla in calore (Skin-Flicks)](https://www.imdb.com/title/tt0079913/) |
 | 1985-10-29 | [Vacanze in America](https://www.imdb.com/title/tt0090247/) |
-

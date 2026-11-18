@@ -7,6 +7,10 @@ categories:
   - Rubriche
 description: Rubriche dove i film venivano annotati in ordine alfabetico, con data di proiezione e distributore.
 image: /images/1984_01_01_rubrica_1984_92/1984_01_01_rubrica_1984_92_01.png
+galleryDescriptions:
+  /images/1984_01_01_rubrica_1984_92:
+    pageAlt: "Scansioni della fonte «Rubrica 1984-92» utilizzata per ricostruire la programmazione del Cinema Sestito."
+lastmod: '2026-11-18'
 ---
 
 
@@ -940,4 +944,3 @@ image: /images/1984_01_01_rubrica_1984_92/1984_01_01_rubrica_1984_92_01.png
 | 1992-04-25 | [Giustizia a tutti i costi](https://www.imdb.com/title/tt0102614/) |
 | 1992-04-26 | [La famiglia Addams](https://www.imdb.com/title/tt0101272/) |
 | 1992-04-26 | [Esperienze innaturali di Lorain](https://www.imdb.com/title/tt0311643/) |
-

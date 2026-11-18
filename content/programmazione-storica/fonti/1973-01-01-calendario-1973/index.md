@@ -7,6 +7,10 @@ categories:
   - Calendari
 description: Calendari murali o da tavolo legati all’attività del cinema. Indicano la data di proiezione e il titolo dei film, insieme agli incassi registrati.
 image: /images/1973_01_01_calendario_1973/1973_01_01_calendario_proiezioni_01.png
+galleryDescriptions:
+  /images/1973_01_01_calendario_1973:
+    pageAlt: "Scansioni della fonte «Calendario 1973» utilizzata per ricostruire la programmazione del Cinema Sestito."
+lastmod: '2026-11-18'
 ---
 
 
@@ -237,4 +241,3 @@ image: /images/1973_01_01_calendario_1973/1973_01_01_calendario_proiezioni_01.pn
 |  |  |
 |---|---|
 | 1974-01-01 | [Franco e Ciccio sul sentiero di guerra](https://www.imdb.com/title/tt0123843/) |
-

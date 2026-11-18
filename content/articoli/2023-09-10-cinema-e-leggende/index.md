@@ -11,6 +11,19 @@ tags:
   - SonatiVicinu
   - Evento
   - Festival
+galleryDescriptions:
+  /images/2023_08_09_sonati_vicinu_7a_edizione:
+    pageAlt: "Fotografie dell’incontro pubblico sul cinema durante la settima edizione di Sonati Vicinu nel 2023."
+    images:
+      2023_08_09_sonati_vicinu_7a_edizione_01.webp:
+        alt: "Incontro serale di Sonati Vicinu con pubblico, relatori e una persona in costume verde davanti al manifesto del festival."
+      2023_08_09_sonati_vicinu_7a_edizione_02.webp:
+        alt: "Due relatori seduti durante la presentazione al festival Sonati Vicinu, uno dei quali parla al microfono."
+      2023_08_09_sonati_vicinu_7a_edizione_03.webp:
+        alt: "Vista complessiva dell’incontro Sonati Vicinu, con relatori davanti al pubblico riunito in una piazza."
+      2023_08_09_sonati_vicinu_7a_edizione_04.webp:
+        alt: "Relatori e partecipante in costume durante l’incontro pubblico del festival Sonati Vicinu 2023."
+lastmod: '2026-11-18'
 ---
 ![Incontro pubblico al festival Sonati Vicinu 2023, con relatori e pubblico riuniti in una piazza illuminata](images/03_sonati_vicinu_2023.JPG)
 

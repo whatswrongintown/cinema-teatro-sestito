@@ -3,12 +3,26 @@ title: Gli anni d’oro del Cinema Teatro Sestito (1957-1979)
 description: "Ricostruzione degli anni 1957-1979 del Cinema Teatro Sestito: costruzione della nuova sala, vita culturale della comunita' e primi segnali di declino."
 author: Vito Sestito
 date: '2025-11-05'
-lastmod: '2026-11-14'
+lastmod: '2026-11-18'
 slug: gli-anni-d-oro-del-cinema-teatro-sestito
 image: "/2025/11/05/gli-anni-d-oro-del-cinema-teatro-sestito/images/cinema_via_doria_ai.png"
 categories:
   - Storia
 tags: ["San Vito sullo Ionio", "storia locale", "cinema di paese"]
+galleryDescriptions:
+  /images/matrimoni_al_cinema:
+    pageAlt: "Fotografie di ricevimenti nuziali allestiti nella sala del Cinema Teatro Sestito."
+    images:
+      matrimonio_al_cinema_01.webp:
+        alt: "Foto di gruppo di un matrimonio con invitati sul palco e davanti allo schermo del Cinema Sestito."
+      matrimonio_al_cinema_02.webp:
+        alt: "Sposi con familiari e invitati in posa davanti allo schermo del Cinema Sestito."
+      matrimonio_al_cinema_03.webp:
+        alt: "Ritratto di gruppo con sposi e familiari durante un ricevimento nel Cinema Sestito."
+      matrimonio_al_cinema_04.webp:
+        alt: "Gruppo di invitati, con uno sposo e una bambina al centro, durante un matrimonio nel cinema."
+      matrimonio_al_cinema_05.webp:
+        alt: "Sposa, parenti e altri invitati in posa durante un ricevimento nel Cinema Sestito."
 ---
 
 
@@ -84,4 +98,3 @@ Il ventennio 1957–1979 costituisce il cuore pulsante della storia del Cinema d
 [^6]: Prefettura di Catanzaro, *Autorizzazione all’apertura del locale cinematografico*, 6 giugno 1959. [Link al documento](/1959/06/30/abilitazione-cinema-via-comm-doria/)
 [^7]: Agenda *Bruzia 1958-59*, San Vito sullo Ionio, 1 febbraio 1959. [Link al documento](/1959/02/01/bruzia-1958-59/)
   
-

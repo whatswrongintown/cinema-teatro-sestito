@@ -7,6 +7,10 @@ categories:
   - Agende
 description: Agende cinematografiche fornite dalle case distributrici. Contengono informazioni dettagliate sulla data di proiezione, titolo del film, distributore e l’ammontare degli incassi.
 image: /images/1975_11_01_fedi_1975_76/1975_11_01_fedi_1975_76_01.png
+galleryDescriptions:
+  /images/1975_11_01_fedi_1975_76:
+    pageAlt: "Scansioni della fonte «Fedi 1975-76» utilizzata per ricostruire la programmazione del Cinema Sestito."
+lastmod: '2026-11-18'
 ---
 
 
@@ -250,4 +254,3 @@ image: /images/1975_11_01_fedi_1975_76/1975_11_01_fedi_1975_76_01.png
 | 1976-12-28 | [Un duro al servizio della polizia](https://www.imdb.com/title/tt0070706/) |
 | 1976-12-30 | [Di che segno sei?](https://www.imdb.com/title/tt0072871/) |
 | 1976-12-31 | [Sandokan, la tigre di Mompracem](https://www.imdb.com/title/tt0057469/) |
-

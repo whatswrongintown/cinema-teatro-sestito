@@ -7,6 +7,10 @@ categories:
   - Calendari
 description: Calendari murali o da tavolo legati all’attività del cinema. Indicano la data di proiezione e il titolo dei film, insieme agli incassi registrati.
 image: /images/1962_01_01_calendario_1962/1962_01_01_calendario_proiezioni_01.png
+galleryDescriptions:
+  /images/1962_01_01_calendario_1962:
+    pageAlt: "Scansioni della fonte «Calendario 1962» utilizzata per ricostruire la programmazione del Cinema Sestito."
+lastmod: '2026-11-18'
 ---
 
 
@@ -168,4 +172,3 @@ image: /images/1962_01_01_calendario_1962/1962_01_01_calendario_proiezioni_01.pn
 | 1962-12-16 | [Sangue e arena](https://www.imdb.com/title/tt0033405/) |
 | 1962-12-18 | [Delitto in pieno sole](https://www.imdb.com/title/tt0054189/) |
 | 1962-12-22 | [La storia di Ruth](https://www.imdb.com/title/tt0054343/) |
-

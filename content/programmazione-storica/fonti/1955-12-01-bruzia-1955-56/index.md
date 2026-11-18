@@ -7,6 +7,10 @@ categories:
   - Agende
 description: Agende cinematografiche fornite dalle case distributrici. Contengono informazioni dettagliate sulla data di proiezione, titolo del film, distributore e l’ammontare degli incassi.
 image: /images/1955_12_01_bruzia_1955_56/1955_12_01_bruzia_1955_56_01.png
+galleryDescriptions:
+  /images/1955_12_01_bruzia_1955_56:
+    pageAlt: "Scansioni della fonte «Bruzia 1955-56» utilizzata per ricostruire la programmazione del Cinema Sestito."
+lastmod: '2026-11-18'
 ---
 
 
@@ -193,4 +197,3 @@ image: /images/1955_12_01_bruzia_1955_56/1955_12_01_bruzia_1955_56_01.png
 | 1956-12-09 | [Processo alla città](https://www.imdb.com/title/tt0045054/) |
 | 1956-12-11 | [Vendicata!](https://www.imdb.com/title/tt0048780/) |
 | 1956-12-15 | [Viva Zapata!](https://www.imdb.com/title/tt0045296/) |
-

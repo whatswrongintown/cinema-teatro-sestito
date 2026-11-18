@@ -7,6 +7,10 @@ categories:
   - Rubriche
 description: Rubriche dove i film venivano annotati in ordine alfabetico, con data di proiezione e distributore.
 image: /images/1970_12_01_rubrica_1971/1971_01_01_rubrica_fratelli_de_leon_01.png
+galleryDescriptions:
+  /images/1970_12_01_rubrica_1971:
+    pageAlt: "Scansioni della fonte «Rubrica 1971» utilizzata per ricostruire la programmazione del Cinema Sestito."
+lastmod: '2026-11-18'
 ---
 
 
@@ -266,4 +270,3 @@ image: /images/1970_12_01_rubrica_1971/1971_01_01_rubrica_fratelli_de_leon_01.pn
 | 1971-12-26 | [Il buono, il brutto, il cattivo](https://www.imdb.com/title/tt0060196/) |
 | 1971-12-28 | [In fondo al buio](https://www.imdb.com/title/tt0064576/) |
 | 1971-12-29 | [L'astronave fantasma](https://www.imdb.com/title/tt0055562/) |
-

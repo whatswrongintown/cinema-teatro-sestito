@@ -7,6 +7,10 @@ categories:
   - Agende
 description: Agende cinematografiche fornite dalle case distributrici. Contengono informazioni dettagliate sulla data di proiezione, titolo del film, distributore e l’ammontare degli incassi.
 image: /images/1962_11_01_fedi_1962_63/1962_11_01_fedi_1962_63_01.png
+galleryDescriptions:
+  /images/1962_11_01_fedi_1962_63:
+    pageAlt: "Scansioni della fonte «Fedi 1962-63» utilizzata per ricostruire la programmazione del Cinema Sestito."
+lastmod: '2026-11-18'
 ---
 
 
@@ -229,4 +233,3 @@ image: /images/1962_11_01_fedi_1962_63/1962_11_01_fedi_1962_63_01.png
 |---|---|
 | 1964-02-09 | [Tormento](https://www.imdb.com/title/tt0046447/) |
 | 1964-02-21 | [I figli di nessuno](https://www.imdb.com/title/tt0043532/) |
-
