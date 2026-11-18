@@ -74,9 +74,7 @@ A partire dai primi anni Settanta, la situazione cominciò lentamente a cambiare
 
 Il cinema, tuttavia, non cessò di rappresentare un punto di riferimento per la comunità, continuando a ospitare spettacoli teatrali, manifestazioni scolastiche e incontri pubblici. L’identità del luogo - tra cultura, memoria e socialità - rimase intatta, anche in un’epoca di trasformazioni e difficoltà economiche.
 
-## Conclusione
-
-Il ventennio 1957–1979 costituisce il cuore pulsante della storia del *Cinema Sestito*. In questi anni, la sala non solo raggiunse la sua massima espansione, ma divenne anche uno spazio simbolico di progresso e coesione sociale. La costruzione del nuovo edificio, il sostegno della cittadinanza e la qualità della programmazione proiettano l’esperienza di San Vito oltre i confini locali, rendendola parte integrante della più ampia storia del cinema popolare italiano del Novecento.
+Il ventennio 1957–1979 costituisce il cuore pulsante della storia del Cinema di San Vito. In questi anni, la sala non solo raggiunse la sua massima espansione, ma divenne anche uno spazio simbolico di progresso e coesione sociale. La costruzione del nuovo edificio, il sostegno della cittadinanza e la qualità della programmazione proiettano l’esperienza di San Vito oltre i confini locali, rendendola parte integrante della più ampia storia del cinema popolare italiano del Novecento.
 
 [^1]: La nascita del cinema a San Vito sullo Ionio. [Link all'articolo](/2023/04/27/la-nascita-del-cinema-a-san-vito/)
 [^2]: *Acquisto terreni in Via Comm. Doria*, San Vito sullo Ionio, 1955. [Parte 1](/1955/12/26/acquisto-terreno-cinema-in-via-comm-doria/); [Parte 2](/1956/03/01/acquisto-terreno-cinema-in-via-comm-doria-parte-2/)
