@@ -23,6 +23,10 @@ update_programmazione_storica()
 
 This regenerates the annual pages, the tables in source, genre and country pages, and the charts of the section indexes. Single sections or pages can be updated too; see [docs/historical-programming.md](docs/historical-programming.md).
 
+The embedded Shiny dashboard is deployed separately; see
+[docs/historical-programming.md](docs/historical-programming.md#shiny-dashboard) for its
+local run and deployment instructions.
+
 ## Documentation
 
 - [docs/project-status.txt](docs/project-status.txt): current status, open items, decisions and roadmap (start here).

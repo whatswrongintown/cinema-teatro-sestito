@@ -360,6 +360,7 @@ an unapproved removal of content.
 
 ## V01: Rendering and interaction checks
 
+**Status:** DONE on 2026-11-18 for the documented local matrix.
 **Priority:** P1. **Depends on:** pinned Hugo available; affected fixes for final retest.
 **Gallery check:** On 2026-11-18, the owner confirmed that the gallery works
 well in a local `serve_site()` review. No responsive gallery code change is
@@ -397,6 +398,23 @@ fixtures belong in explicitly named temporary locations and are not source files
 **Done when:** the relevant build/interaction matrix passes with recorded evidence.
 Close only the checks actually completed; do not overwrite historical results or
 claim a new Netlify submission test from a local build.
+
+**Verification:** Hugo 0.136.5 completed both a normal production build and a
+separate `-F` preview build. Each generated 404 pages and 2,620 processed images.
+Representative Home, Progetto, privacy/confirmation, archive, article, annual,
+source, genre/country, taxonomy and 404 pages contained title/canonical/Open
+Graph metadata; Home and 404 remained breadcrumb-free. Sitemap, robots and one
+generated alias were present. All 339 generated HTML pages resolved their local
+asset references. Root-relative internal destinations resolved except the
+single poster-notes link owned by deferred O02.
+
+At 320, 375, 768 and 1280 px, nine representative pages completed 36 browser
+checks with zero horizontal overflow. Keyboard lightbox opening, focus
+containment, next navigation, Escape closing and focus restoration passed with
+O07 descriptions. A temporary invalid-gallery fixture produced a message naming
+both the shortcode page and missing gallery directory; the fixture was removed.
+These local checks do not claim a new Netlify form submission, provider dashboard,
+screen-reader session or external mobile-device/network test.
 
 ## V02: Sitemap lastmod
 
@@ -731,6 +749,17 @@ Dedicated layouts/JS are conditional on separately agreed interaction requiremen
 Keep the other branches DEFERRED; one published page does not finish all of F04.
 
 ## F05: Integrated programming dashboard
+
+**Current owner decision, 2026-11-18:** retain the existing Shiny app and
+iframe; the native Hugo replacement below is superseded and is retained only as
+historical design material. The revised app is in `R\shinyapp_dashboard`.
+Run locally with `shiny::runApp("R/shinyapp_dashboard")` from the project root.
+It reads the website CSVs, counts dated entries and distinct films separately,
+uses base-R plots, and retains the three Shiny tabs. For the deployment/staging
+procedure see the Shiny dashboard section in the README. No deployment has been
+performed as part of the local revision.
+
+### Superseded native-dashboard proposal
 
 **Priority:** P2, proposed. **Depends on:** agreed pilot views, counting/filter
 semantics, IMDb-ranking rules and performance targets. Does not require posters

@@ -132,14 +132,18 @@ DONE O08 - Localization and taxonomy browsing (2026-11-18)
   not block this decision.
 
 4. REMAINING CHECKS, MAINTENANCE AND OPTIONAL POLISH
-TODO V01 - Unrepeated rendering/interaction checks
-  New production/preview builds, taxonomy/alias output, mobile wrapping/gallery
-  usability and keyboard/screen-reader behavior were not checked in this pass.
-  On 2026-11-18, the owner confirmed that the gallery works well in a local
-  serve_site() review, so no responsive gallery fix is required at present.
-  Record this as a gallery-specific confirmation, not completion of the full
-  production/preview, taxonomy, alias and viewport matrix. Earlier builds remain
-  dated evidence, not new test results.
+DONE V01 - Rendering and interaction checks (2026-11-18)
+  Hugo 0.136.5 production and -F preview builds passed at 404 pages and 2,620
+  processed images. Representative Home, Progetto, privacy/confirmation,
+  archive, article, annual/source, genre/country, taxonomy and 404 outputs had
+  title/canonical/Open Graph metadata; Home and 404 correctly had no breadcrumbs.
+  Sitemap, robots, alias output, all generated local assets and internal links
+  passed, except the known deferred O02 poster-notes destination. Nine
+  representative pages at 320, 375, 768 and 1280 px had no horizontal overflow.
+  Keyboard lightbox focus trapping/navigation/Escape/focus restoration and
+  meaningful O07 alternatives passed. A temporary missing gallery reproduced a
+  path-specific shortcode error and was removed. No Netlify submission or
+  external form-limit scenario was tested.
 DONE V02 - Explicit sitemap lastmod policy (2026-11-18).
   Hugo now reads lastmod only from explicit front matter; it no longer treats a
   page's historical publication/document date as its modification date. Twelve
@@ -206,38 +210,18 @@ TODO F02 - Poster collection pilot
 TODO F03 - Film search (programming first, posters later)
   Define result granularity, scope and matching behavior before implementation.
 DEFERRED F04 - Timeline, identification help and curated collections.
-TODO F05 - Integrated historical-programming dashboard
-  Owner placement decision 2026-11-18: the native dashboard replaces the iframe
-  INSIDE the existing 2023 explorer article. Keep its historical URL, date, slug
-  and title; rewrite its body with Italian navigation/control/interpretation
-  guidance. The earlier separate /programmazione-storica/esplora/ proposal is
-  superseded. Programmazione storica and sitemap will link to the article.
-  Documentation only at the owner's request: ideas/website-improvement-ideas.txt
-  section 1.5 contains the 2026-11-18 review of the temporarily supplied Shiny
-  source, feature inventory, migration pitfalls, data contract, staged native
-  page ideas, alternatives, a base-R starter and proposed acceptance checks.
-  The legacy app keeps only the first input entry per film before filtering
-  years; its genre counts and director groups are not reliable parity targets.
-  Its CSV snapshot has 5,055 entries / 4,359 films / 4,358 IMDb records, unlike
-  the website's 5,290 / 4,567 / 4,567. Use static/data as authoritative; the
-  temporary shinyapp folder is reference-only and can later be removed.
-  Recommended, not yet approved for implementation: local R -> public JSON ->
-  Hugo page with browser-side filters/charts/table, without a Shiny server.
-  Easiest proposed dashboard slice: year selector, dated-entry/unique-film
-  counts and paginated entry table; shared filters and charts can follow.
-  The design proposal now specifies the existing local Merriweather/Lato fonts,
-  mint/dark-green colours, shared Hugo shell and narrow editorial layout.
-  Fresh static/data analysis supports coverage-calendar, recurring-film and
-  documentary-source interactions; ranked ideas and caveats are in section 1.5.
-  Baseline implementation: 4 new files + 4 modified website files; with the
-  three maintained docs, 4 new + 7 modified (11 total). Optional full-updater
-  integration adds one modification; tests/library assets/later link lookups
-  are scope-dependent additions. The guide and ideas list the files explicitly.
-  Workflow includes article guidance, per-chart instructions, methodology and
-  source notes, plus checking that the prose matches actual delivered controls.
-  Agree measures, filters, rankings and migration scope before building. Preserve
-  the existing article URL/iframe until the replacement is verified; no live
-  website, R script, dependency or data-export change is part of this update.
+TODO F05 - Improve the existing Shiny historical-programming dashboard
+  Owner decision 2026-11-18: retain Shiny and the existing article iframe; the
+  previous native Hugo replacement proposal was abandoned. R/shinyapp_dashboard
+  contains the revised app, which uses the website's static/data CSVs locally,
+  keeps repeated dated entries and derives distinct-film counts separately.
+  Base-R charts use local fonts and the site's mint/green palette. The year
+  filter affects all tabs; director/genre filters apply to the table only.
+  Local changes do not update shinyapps.io automatically. The deployment script
+  stages current CSVs and fonts for the hosted app; deploy separately and verify
+  the existing iframe/URL after deployment. Old Shiny snapshots are removed;
+  the deployment record is retained. The earlier native-dashboard notes in the
+  guide and ideas file are historical alternatives, not the current plan.
 
 7. REVIEW LIMITS AND DOCUMENTATION MAINTENANCE
 - This pass inspected source/docs and checked CSV counts/ID coverage, not every

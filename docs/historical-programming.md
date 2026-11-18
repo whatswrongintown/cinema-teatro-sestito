@@ -64,6 +64,42 @@ The sitemap uses only explicit `lastmod` front matter. For a meaningful annual
 page/data update, pass the editorial modification date through `update_anni()`.
 Do not set it merely because Hugo or an unchanged data set was rebuilt.
 
+## Shiny dashboard
+
+The historical-programming article embeds a separately hosted Shiny app. From
+the project root, install the R packages `shiny`, `DT`, `showtext`, and
+`sysfonts`, then run it locally:
+
+```r
+shiny::runApp("R/shinyapp_dashboard")
+```
+
+The dashboard reads the authoritative programming and IMDb CSVs from
+`static/data/` and local fonts from `static/fonts/`. The year selector affects
+all tabs; director and genre filters affect only the table. Monthly counts
+represent dated entries, while genre and director summaries count distinct films.
+The IMDb chart shows recorded film titles where space permits, using the annual
+charts' label-placement helper. Its values table lists all rated films with
+positive vote counts, including those without a visible label.
+
+To publish to the existing shinyapps.io app, configure the `rsconnect` account
+first and, from the project root, explicitly run:
+
+```r
+source("R/shinyapp_dashboard/deploy.R")
+deploy_dashboard()
+```
+
+This stages the app, current CSVs, fonts and shared annual-chart helper in a
+temporary deployment bundle, using the existing deployment record. The bundle
+is removed afterwards. Changes to `static/data/` require a new deployment;
+a Hugo/Netlify build alone does not update the hosted app. Verify the app and
+embedded iframe after deployment. Run the local data and staging checks with:
+
+```r
+source("R/shinyapp_dashboard/test-dashboard.R")
+```
+
 ## Pages and metadata
 
 - Generated tables, annual pages and charts are overwritten: change the data, not

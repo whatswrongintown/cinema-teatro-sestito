@@ -196,6 +196,12 @@ Check rights for digitised artwork before publication (ownership of the physical
 poster alone may not be enough; the owner confirms all scans can be published).
 
 1.5 Integrated programming dashboard - TODO F05, requested 2026-11-17
+CURRENT DECISION 2026-11-18: retain Shiny and the existing article iframe.
+The app now lives in R/shinyapp_dashboard and reads static/data locally; the
+deployment script stages current CSVs and fonts for shinyapps.io. The native
+Hugo replacement and documentation-only statements below are historical
+proposals, not the current implementation plan. The revised app has not been
+deployed automatically.
 Documentation and an R starter example only; no dashboard, standalone R script,
 dependency installation, generated dataset or navigation change is implemented.
 On 2026-11-18 the owner supplied shinyapp/ temporarily for inspection and asked
