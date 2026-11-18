@@ -1,5 +1,6 @@
 WEBSITE IMPROVEMENT IDEAS AND TECHNICAL PLAN
 Working notes, 2026-11-15, reviewed and reorganised 2026-11-17
+Dashboard source, website design and current-data reviews: 2026-11-18
 
 Nothing here is an implementation decision unless it appears in
 docs/project-status.txt. Current issues and priorities live there; this file
@@ -197,23 +198,88 @@ poster alone may not be enough; the owner confirms all scans can be published).
 1.5 Integrated programming dashboard - TODO F05, requested 2026-11-17
 Documentation and an R starter example only; no dashboard, standalone R script,
 dependency installation, generated dataset or navigation change is implemented.
+On 2026-11-18 the owner supplied shinyapp/ temporarily for inspection and asked
+for this proposal to be grounded in its source. The inventory below is retained
+here so the folder can later be removed without losing the design findings.
+Do not make any future website build, export or test depend on that folder.
 
 Goal and placement
-- Add "Esplora i dati" as another area inside Programmazione storica, alongside
-  Anni, Fonti, Generi and Paesi di produzione. Suggested route, not approved:
-  /programmazione-storica/esplora/. Keep the Progetto-only top menu unchanged.
-- Rebuild the database explorer currently embedded in the article below, rather
-  than making an article the only way to discover it:
+- Owner decision, 2026-11-18: the native dashboard lives INSIDE the existing
+  article below and replaces its Shiny iframe in place. This supersedes the
+  earlier proposed /programmazione-storica/esplora/ page; do not create that page
+  or a second dashboard. Keep the Progetto-only top menu unchanged.
+- Make the article discoverable from Programmazione storica and the editorial
+  sitemap with an "Esplora i dati" link to the existing article:
   https://cinemateatrosestito.com/2023/09/23/esplora-la-storia-cinematografica-di-san-vito-sullo-ionio/
   https://whatswrongintown.shinyapps.io/programmazione_film_shiny/
 - On 2026-11-17 an HTML fetch exposed the existing app's title, screening-year
   control, Grafici/Riepilogo/Tabella tabs, chart selector, unique-film summary,
   top/bottom five IMDb rankings, director frequency and director/genre controls.
-  This confirms the visible interface, not working reactivity, chart contents or
-  the original R implementation. The Shiny source is not in this checkout.
-- Preserve the article URL and introduction; once the replacement is verified,
-  link to the new explorer there instead of leaving two competing dashboards.
-  Do not remove the working iframe or retire the hosted app before that check.
+  That earlier check confirmed only the visible interface. On 2026-11-18 the
+  local shinyapp/app.R and its two CSV snapshots were inspected read-only.
+  This source review is not a runtime test or proof that the hosted deployment
+  runs the same version.
+- Preserve the article URL, date, slug and title. Rewrite its introductory/body
+  text to guide dashboard use; replacing the iframe with a link is NOT the plan.
+  Prepare and verify the replacement in a local/deploy preview before publishing
+  the in-article shortcode. Retire the hosted app only with separate approval.
+
+Source inventory and migration lessons (2026-11-18)
+- Inputs: programmazione-agende.csv and programmazione-imdb.csv relative to the
+  app working directory. There is no country input. The supplied folder also
+  contains deployment metadata; none is required by the native replacement.
+- Packages: shiny, ggplot2, ggrepel, dplyr, readr, tidyr, lubridate, scales,
+  forcats and DT (called through its namespace). The UI imports a Google font.
+  These are legacy dependencies, not packages to install for the replacement;
+  prefer the website's local fonts and locally served browser assets.
+- The pipeline full-joins entries to IMDb by const/Const, groups by film ID,
+  assigns count = 1:n(), keeps count == 1, then sorts by date and drops missing
+  sources. Thus it retains the first input row per film, NOT all appearances,
+  and NOT necessarily the earliest date if input order changes. The year filter
+  is applied afterwards: a later repeat cannot be discovered in its own year.
+- Grafici: year selection and chart selection control monthly bars, genre bars,
+  or an IMDb rating/vote scatterplot (logarithmic vote axis, film title labels).
+  Monthly bars therefore count retained film rows by month, not dated entries;
+  with "Tutti" selected they pool those months across years.
+- Genre bars first take distinct complete genre strings and only then split
+  them. They count genre-label combinations rather than films or entries.
+  Both genre and director choice lists split into at most seven components;
+  the new exporter should use arrays without an arbitrary seven-value ceiling.
+- Riepilogo: retained-row total labelled unique films; highest/lowest IMDb
+  scores; director frequency. top_n() includes ties, so a "five" list can exceed
+  five rows. There is no minimum-vote rule or explicit tie-break contract.
+  Director frequency groups the whole director string, so a co-directing pair
+  is a different group from either director individually.
+- Tabella: date, recorded title linked to IMDb, directors and genres; DT adds
+  its standard table search, ordering and pagination. The year affects every
+  tab, but director and genre controls affect only this table. Those two use
+  grep(), i.e. regular-expression/substring matching rather than exact
+  membership. Do not copy this inconsistent filter scope or regex behavior.
+- Release year, runtime, rating and votes are loaded; runtime and release year
+  are not displayed in the main table. Original titles, source filtering,
+  countries, a year range and persistent filter URLs are not current features.
+
+Data comparison, read-only snapshot on 2026-11-18:
+  Input                         Dated entries  Film IDs  IMDb records
+  supplied Shiny CSVs            5,055          4,359     4,358
+  website static/data CSVs       5,290          4,567     4,567
+- Shiny dates span 1948-02-11 through 2004-05-02; the website starts 1948-01-06.
+  The Shiny entry CSV has no rating column; the website entry CSV does.
+  The two pairs of files have different SHA-256 hashes, not just different names.
+- In the Shiny snapshot, sources are nonblank and IMDb IDs are unique, but
+  tt0128673 has no IMDb record. The full join retains its entry with missing
+  metadata; production export must report this kind of gap explicitly.
+  The website currently has complete entry-to-IMDb coverage. Do not copy the
+  temporary CSVs over static/data or use their totals as current acceptance data.
+- The first-row selection reduces 5,055 entries to 4,359 film rows, losing 696
+  repeat appearances. Example: tt0201175 ("Bruce Lee terrore d'oriente") occurs
+  on 1981-02-02, 1981-05-17, 1982-09-18, 1985-03-31 and 1987-01-31; only the
+  first row survives. The native model should retain all five dated entries
+  and count one unique film when all these dates are selected.
+- Counts, schemas, join gaps and this example were checked with PowerShell
+  Import-Csv; R/Shiny and the hosted app were not run. The shell wrapper emitted
+  a constrained-language SetShouldExit error after printing the results; this
+  is not a successful app/build test.
 
 Recommended architecture: R prepares data, the browser provides interaction
 - Keep the three CSVs authoritative. Run R locally to validate and export only
@@ -225,14 +291,353 @@ Recommended architecture: R prepares data, the browser provides interaction
   continues to run Hugo only. New statistical calculations must either be
   prepared in R or implemented in JavaScript; arbitrary R code cannot run in an
   ordinary static page.
-- Start with a year range, title search, director and genre filters; summary
-  cards, one screenings-by-year chart and a paginated table. Source and country
+- Target an exploration pilot with a year range, title search, director and
+  genre filters, summary cards, one entries-by-year chart and a paginated table.
+  Build the smaller first slice below before that pilot. Source and country
   filters, further charts, exports and shareable filter URLs can follow after
   their definitions are agreed. This is a proposed pilot, not agreed scope.
 - Prefer native controls and a small shared filter state. Select at most the
   chart/table libraries actually needed, serve their assets locally, and avoid
   a heavy application framework by default. Share validated film data/helpers
   with F03 where useful; the dashboard need not wait for global film search.
+
+Native visual integration: concrete website design contract (2026-11-18)
+The explorer should look like another archival page, not an embedded analytics
+product. These are implementation proposals grounded in static/css/fonts.css,
+static/css/main.css, layouts/partials/head.html and layouts/_default/single.html.
+No CSS or templates are changed by this note.
+
+- Page shell: render a shortcode inside the existing article, reusing
+  the existing head, logo, Progetto navigation, breadcrumbs, title and footer.
+  Its hierarchy stays Home > Articoli > the existing article title; a link from
+  Programmazione storica does not change Hugo ancestry. Keep the normal article
+  date/reading-time treatment initially. Preserve its dated permalink; no iframe,
+  separate Bootstrap theme, Shiny chrome or second navigation bar.
+- Typography: reuse the existing local Merriweather regular font for prose and
+  table text, and local Lato regular for headings, chart axes/legends and compact
+  UI labels. Controls should inherit their surrounding font instead of browser
+  defaults. Keep the existing 34/42 px page-title treatment and content type
+  scale (16 px, becoming 19 px at 600 px); use rem-based chart labels, not tiny
+  fixed labels. Do not import Google fonts or add new font families/weights.
+- For SVG, inherit the chosen chart font; for a canvas library, explicitly pass
+  the computed font and theme colours and redraw after local fonts are ready.
+  HTML/CSS inheritance alone does not theme canvas text or a library tooltip.
+- Existing palette to reuse, with proposed dashboard-scoped CSS variables:
+    --dashboard-ink: #222       headings, labels and table headers
+    --dashboard-text: #333      prose and values
+    --dashboard-muted: #666     secondary explanatory text
+    --dashboard-accent: #286a4a primary controls, chart marks, focus outline
+    --dashboard-accent-hover: #1e5038
+    --dashboard-highlight: #CBF8DF selected backgrounds and link highlights
+    --dashboard-surface: #f5f5f5
+    --dashboard-rule: #e5e5e5   decorative separators, not control boundaries
+    --dashboard-control: #aaa  existing form-control border colour
+  The white page stays white. Use dark text on mint, not white text on mint;
+  mint alone is too pale for essential chart marks against white. Give selected
+  bars/cells a dark outline and labels as well as a colour change. Use a dark
+  sequential green scale for counts, with a separate neutral zero/no-entry
+  state. For multiple series, use labels, line styles/patterns or small
+  multiples rather than inventing a 23-colour genre rainbow. Verify contrast
+  in the actual chart/control sizes; palette reuse is not proof of compliance.
+- Match existing form controls: 10 px padding, 3 px corner radius, visible
+  labels and dark-green buttons; mirror the 2 px green focus ring with 2 px
+  offset. Reuse styles through a small shared selector only if it preserves the
+  contact form unchanged; otherwise scope matching rules to .programming-dashboard.
+  Preserve the site's mint underline/hover treatment for source/methodology links.
+- Composition: keep the current 700 px content width, 15 px side padding and
+  editorial spacing. Start with stacked chart/table sections and two restrained
+  count blocks, not a full-screen admin grid or a sidebar. At desktop widths
+  put only compact filter controls side by side; stack them on phones. A future
+  wider explorer layout requires its own page-only class and validation, never
+  a global widening of .content or navigation.
+- Tables: use semantic headers, quiet horizontal separators, wrapping titles
+  and real labelled sort/pagination buttons. On phones show essential columns
+  (date/title) with an expandable metadata row; if horizontal scrolling remains
+  necessary, contain and label it rather than letting the whole page overflow.
+  Do not simply shrink a seven-column desktop table to unreadable text.
+- Charts: white/transparent background, light grid lines, no heavy frame,
+  gradients or shadows, Italian labels and number/date formatting. Use a
+  viewBox/responsive sizing and concise captions with unit and denominator.
+  Provide a nearby "Mostra i valori" table, not a hover-only tooltip. A focused
+  mark and pointer-selected mark must expose the same value and filter action.
+- Load the explorer's JS/data/chart assets only when its shortcode is present;
+  reuse the global font/main styles already loaded by the head. Prefer native
+  HTML and SVG for the first bar chart; evaluate a locally served library only
+  for more demanding views. This is native integration, not a new app framework.
+
+Proposed visitor journey and delivery slices (not yet approved)
+1. Smallest useful slice: one native page with a screening-year selector
+   (including "Tutti"), counts for dated entries AND unique films, reset, and
+   a sortable/paginated entry table. Columns: recorded title, entry date,
+   release year, directors, genres and documentary sources; IMDb is an optional
+   external link, not a local film page assumed to exist. Show missing metadata
+   explicitly. Preserve repeated entries in the table. This validates the data
+   contract and the key Shiny correction before introducing chart libraries.
+2. Exploration pilot: extend that shared state to a year range, title search,
+   exact director/genre choices and one entries-by-year chart. Recompute all
+   counts, chart and table from the same selected entries; reset pagination
+   when filters change. Use labelled stacked sections initially; three tabs
+   are not necessary just to imitate Shiny.
+3. Optional parity slice: monthly counts (all 12 months, including zero),
+   genre distribution, IMDb scatterplot, neutral highest/lowest-rated lists
+   and individual-director frequency. Add each only after its measure and
+   missing-data/tie rules are agreed. Sparse labels or focusable point details
+   can replace thousands of overlapping scatterplot title labels; supply a
+   table/text equivalent rather than requiring hover.
+4. Later database exploration: source/country filters; a year-by-month coverage
+   heatmap highlighting 1960-1961; shareable filter URLs and filtered download.
+   A zero-entry month means "no recorded entry", not "cinema closed". Income,
+   inferred attendance and local audience taste are out of scope until the
+   underlying meanings and evidence support them.
+The year-selector slice is the easiest dashboard implementation, not a complete
+replacement for all Shiny views. The owner should choose the migration scope
+before the hosted app is retired.
+
+Concrete file budget for the in-article first implementation (2026-11-18)
+Baseline: FOUR new files and FOUR modified existing website files (eight files).
+Including the THREE existing docs maintained for F05 gives FOUR new and SEVEN
+modified files (eleven total). These are planned future implementation counts,
+not files changed by this documentation update. The baseline uses native
+HTML/SVG, a standalone export command and shortcode-local deferred JS loading.
+
+Create:
+1. R\update-dashboard.R - validate authoritative CSVs and write the public export.
+2. static\data\dashboard.json - generated, committed public dataset, not hand-edited.
+3. layouts\shortcodes\programming-dashboard.html - native controls, chart/table
+   containers, accessible status/fallback and page-only script loading.
+4. static\js\programming-dashboard.js - shared state, filtering, rendering,
+   pagination and native chart interaction.
+
+Modify website files:
+1. content\articoli\2023-09-23-esplora-la-storia-cinematografica-di-san-vito-sullo-ionio\index.md
+   - guided Italian article text and shortcode replacing the iframe.
+2. static\css\main.css - scoped dashboard styles matching the site.
+3. content\programmazione-storica\_index.md - discovery link to the article.
+4. content\sitemap.md - explicit explorer/article discovery link.
+
+Maintain docs/project-status.txt, docs/implementation-guide.md and this ideas
+file as the three documentation modifications. No new content page, separate
+CSS file, shared-template edit, source CSV change or Shiny-folder dependency is
+required by this baseline. The existing article needs no explicit url override.
+Optional full-updater integration would add ONE modified file,
+R\update-programmazione-storica.R (five website modifications; eight with docs).
+Additional test files, third-party library assets or a Hugo archive-link lookup
+would increase the budget if the agreed scope requires them; do not call this
+the guaranteed count for every future chart or drill-through feature. Add tests
+for introduced behavior when implementing and record the actual final inventory.
+
+Article editorial workflow: a guided explorer, not just an embedded component
+1. Before coding, outline Italian text for the agreed first slice: what the
+   archive contains, date range and a clear dated-entries versus unique-films
+   distinction. Replace the current broad "accesso senza precedenti" invitation
+   with concise, factual guidance; do not promise unbuilt controls or charts.
+2. Before the shortcode add "Come esplorare i dati": choose an anno (or Tutti),
+   read the two counts, sort/page the table and reset. Add title/genre/director
+   instructions only in the slice that actually introduces those controls.
+3. Give each implemented chart a short question-led heading, a caption with its
+   measure and a visible explanation of click/keyboard selection. Keep the
+   control instructions next to the relevant view, not buried in a long preface.
+   The reusable shortcode owns control labels, dynamic counts and UI status;
+   the article owns editorial guidance and interpretation, avoiding duplicate
+   hard-coded instructions/counts that drift apart.
+4. Add "Come leggere i risultati": repeated appearances, overlapping categories,
+   unknown metadata, 1960/1961 gaps, and IMDb scores not measuring local reception.
+   Link the methodology article with Hugo references and existing archive browse
+   pages; do not infer directly attested/reconstructed dates from absent flags.
+5. Add a brief "Fonti e aggiornamento" note naming archival data and external
+   metadata with appropriate attribution. Show the real dataset revision if
+   available; do not change the original publication date to the latest build
+   date or duplicate snapshot totals in prose without a refresh mechanism.
+6. Put the shortcode in place of the iframe only in the candidate replacement.
+   Review prose, controls and fallback together in the article's actual layout;
+   the no-JavaScript/load-error experience must still explain where to browse.
+   Check anchor headings, mobile reading order and keyboard navigation. Preserve
+   the historical URL, date, slug, title and existing category/tag associations;
+   revise description only if needed to accurately describe the delivered slice.
+7. After acceptance publish the article plus its two discovery links together.
+   Add new instructions as later views ship, and remove obsolete Shiny references
+   from visitor-facing text. Publishing the replacement does not by itself
+   authorize deleting the hosted app or the owner's temporary reference folder.
+
+Current static/data analysis supporting additional ideas (2026-11-18)
+Fresh read-only analysis with base R 4.5.2 of all three website CSVs, not the
+temporary Shiny snapshot. Counts refer to these inputs, not complete historical
+activity. Dates, unique metadata keys and date/film pairs, and full entry-to-IMDb
+and entry-to-country coverage were asserted. CSV sizes are 437,784, 909,249 and
+160,273 bytes respectively; these are source sizes, not a measured JSON budget.
+
+- 5,290 dated entries, 4,567 films, 5,183 distinct dates, 57 years
+  (1948-01-06 through 2004-05-02). Of 684 calendar year/month cells across
+  1948-2004, 559 contain entries. This grid includes months after the last
+  recorded entry; distinguish those boundary periods from internal gaps.
+  1960 has 26 entries, all October-December; 1961 has 18, all November-December.
+- Monthly pooled counts January-December:
+  574, 485, 515, 423, 377, 266, 258, 306, 404, 548, 550, 584.
+  This is an observed archive pattern, not a measured seasonal attendance curve.
+- 3,961 films have one entry; 606 recur, contributing 723 entries beyond one
+  per film; the maximum is five entries per film. Of all films, 518 occur in
+  more than one calendar year. A recurring-film view has real content to expose.
+- 93 documentary source labels and 10,288 entry/source associations. Entries
+  with 1/2/3/4 labels: 1,280 / 3,045 / 942 / 23; 4,010 have several labels.
+- 23 genres and 11,877 entry/genre associations before any legacy exclusions;
+  96 films / 104 entries lack genres. Largest entry-level associations:
+  Drammatico 2,923, Commedia 1,279, Avventura 1,122 and Azione 1,002.
+- 63 country labels, 7,126 entry/country associations and 1,490 entries linked
+  to more than one country. Examples: Italy 2,744, United States 1,635,
+  France 827. Keep historical labels (e.g. West Germany) rather than silently
+  merging them into modern states. The extra country-only ID is still tt0052704.
+- 2,046 distinct named directors after splitting/trimming; 383 films have
+  several directors, and nine lack a director. Count each film once per named
+  director, not once per co-director string.
+- IMDb ratings are present for 4,289 films (2.2-9.3), missing for 278 films /
+  317 entries. Vote counts range from 0 to 2,160,504; 4,289 films have a rating
+  and positive votes. A 100-vote threshold leaves 3,037 rated films; 1,000 votes
+  leaves 1,422. These are sensitivity examples, not an approved default.
+  Runtime is missing for 139 films / 156 entries.
+- Entry year precedes IMDb year in 17 entries / 14 films. Among the remaining
+  entries, the year-gap quartiles are 1 / 3 / 6 years. These are entry-weighted,
+  include repeat appearances, and are not time since Italian theatrical release.
+- Income is populated in 4,652 entries, including 27 zero values; 638 are blank.
+  Currency, period and comparability remain unresolved, so no income chart is
+  proposed for the pilot.
+
+The R checks completed and printed their assertion-success marker. The shell
+wrapper then emitted its known constrained-language SetShouldExit error; this
+is evidence for the read-only calculations, not a successful Hugo/browser test.
+Recompute this snapshot and reference expectations if the inputs change.
+
+Additional charts, ranked by usefulness (proposals, not new commitments)
+A. Coverage calendar: highest-value addition after the first native slice.
+   Question: "Which periods are represented in the surviving database?"
+   Show years as rows and all 12 months as columns, counting dated entries.
+   Include 1960/1961 with explicit incomplete-documentation notes rather than
+   omitting them as the static annual index currently does. Use separate styling
+   for zero entries and periods beyond the observed date range; partial boundary
+   months/years need a note. Never label blank cells "closed".
+   Selecting a month filters the entry table and summary, while the calendar
+   retains surrounding context and outlines the selection. Its distribution
+   uses all other active filters, omitting only its own year/month constraint;
+   state this exception visibly so the selected table count and context grid
+   are not mistaken for contradictory results. Provide labelled year/month
+   controls as the keyboard/screen-reader alternative to hundreds of tab stops.
+   Keep this chart on demand on phones rather than render an unreadable 57-row
+   overview first. The ordinary annual chart remains the simpler first chart.
+B. Returning films: highest-value new film interaction, modest chart complexity.
+   Question: "Which films returned, and when?"
+   Start with a ranked list by entry count and an expandable chronological
+   list per film: all dates, recorded titles, documentary sources and links to
+   existing year/source pages. Label the count "presenze nel database", not
+   number of daily shows. Define recurrence within the selected period; an
+   optional "intera storia del film" expansion must be labelled as outside the
+   current selection. The 606 recurring films and 518 multi-year cases justify
+   this view; an elaborate timeline graphic is not required.
+C. Monthly profile: useful, simple extension of the existing Shiny bars.
+   Question: "How are recorded entries distributed through the calendar?"
+   Show 12 labelled bars, including zero, for the selected years; distinguish a
+   pooled count from any per-year average. Optionally compare two periods only
+   when each period's number of years and entry total are displayed. Do not
+   silently normalise unequal or incompletely documented periods. Month selection
+   updates shared filter state; explicitly label if it means that month across
+   every selected year. Do not claim winter/summer attendance or opening hours.
+D. Genres through time: useful second-stage distribution, not a taste measure.
+   Start with a top-N horizontal bar chart, then optional decade small multiples.
+   Toggle dated-entry/genre associations versus distinct-film/genre associations;
+   show missing-genre films separately and retain Drammatico. If displaying
+   percentages, use the selected entry/film total as denominator, disclose
+   whether unknowns are included, and warn that multiple genres can sum above
+   100%. A selected genre updates all views; explain any self-filter-excluding
+   context distribution as for the calendar. Do not copy O04's legacy exclusions.
+E. Country distribution: horizontal bars before a map.
+   Filter by exact existing country labels, show coproduction notes and the
+   chosen entry/film denominator. Multi-country totals overlap. A world map
+   would require historical geography and introduces misleading boundaries;
+   it is not justified for the pilot. Country selection links to the existing
+   country page as well as applying a filter.
+F. Documentary source trail: make the archive, not just IMDb, explorable.
+   An expandable table row shows every linked source; selecting one can filter
+   all entries that list it and offer "Apri la fonte" to inspect the scan page.
+   An optional 1/2/3/4-source bar chart uses the full source list per selected
+   entry (even if a source filter is active). Multiple labels mean recorded
+   associations, not independent confirmations or a confidence score.
+   Existing source naming classifications can support a later decade view only
+   after their meaning is reviewed. Do not equate 93 labels to 93 physical items.
+G. Metadata coverage and IMDb: secondary context, not the main historical story.
+   Show selected-film denominators beside missing rating/genre/runtime counts.
+   In a scatterplot render one point per selected film, log votes only when
+   positive; expose missing/excluded counts, focusable details and a table.
+   Let visitors see the impact of an explicit minimum-vote threshold on neutral
+   rating lists; show eligible count. Prefer a director top-N list with exact
+   individual-director filtering to a crowded network graph.
+H. Entry/release-year gap: defer beyond the pilot.
+   Could show a coarse year-gap histogram with separate missing/review buckets.
+   First review the 17 negative cases and choose entry-level versus first-known-
+   entry-per-film measurement. Never call it a precise distribution delay or
+   evidence of an identification error. Do not silently drop negatives.
+
+Shared interactions connecting the dashboard to the archive
+- Keep filters, chart selections and the table in one state; show removable
+  Italian filter chips and "Azzera filtri". Add optional source/country/month
+  fields only with matching schema and tests; do not hide active chart filters.
+  Announce the changed entry/film counts politely without moving keyboard focus.
+- Separate the metric toggle from filtering: the table always represents dated
+  entries. Unique-film counts per year/month can sum above the distinct-film
+  count for the whole selection because a film can occur in several bins.
+  Label any chart-specific metric and context-filter exception explicitly.
+- Offer "Apri l'anno", "Apri la fonte", "Apri il genere" and "Apri il paese"
+  with real Hugo-resolved page destinations. The date-based annual/source URLs
+  must not be reconstructed from a slug guess; export verified links from Hugo
+  or add a build-time lookup keyed by year/exact metadata label.
+- A film's expanded row can collect its other dated appearances, IMDb link and
+  original title; no new local film-detail pages or poster joins are necessary.
+  Link documentary evidence without asserting that the CSV identifies directly
+  attested versus reconstructed dates: it does not contain such a flag.
+- Put a short methodology/coverage note above the charts and a link beside each
+  specialised measure. Use neutral Italian labels rather than "best/worst",
+  "popularity locally" or "most successful".
+- Later, encode only validated filter values in a shareable URL and support
+  Back/Forward/reset; useful for links from year/genre/source pages. Agree the
+  query contract before creating those inbound links. An optional filtered CSV
+  should export the same dated rows as the table, with safe spreadsheet cells
+  and documented fields/attribution, not the private/unneeded IMDb columns.
+
+Proposed export and filter contract
+- One versioned JSON payload initially, with schema_version and separate films
+  and entries arrays; measure its actual uncompressed/compressed size before
+  adding data splitting, a worker or heavier dependencies.
+- Film record: film_id, metadata title, original_title, release_year, arrays of
+  directors/genres/countries, nullable imdb_rating/imdb_votes and validated IMDb
+  URL. Entry record: film_id, ISO date, recorded_title and a sources array.
+  Keep both titles: archival wording can differ from IMDb. Do not export income,
+  personal IMDb ratings, account fields or deployment metadata without a reason.
+- Current date/film pairs are unique, but confirm an entry-key policy before
+  using that pair as a permanent ID; a future same-day entry must not be silently
+  collapsed. Film IDs, not titles or array positions, join the two collections.
+- Split/trim multi-valued fields using existing dataset conventions; validate
+  numeric ranges and dates, output missing values as null, and report unmatched
+  country records separately from the dashboard's entry-backed film set (O03).
+  Avoid publishing a misleading new data-update timestamp on an unchanged run;
+  use a schema version and input fingerprints for reproducibility.
+- Proposed semantics: AND across filter types; exact membership within director
+  and genre arrays; OR within a type if multi-select is later introduced.
+  Title matching can normalise case/accents and search recorded, metadata and
+  original titles. Do not interpret user text as a regular expression.
+- Select entries by date/source and joined film predicates, then derive distinct
+  film IDs. Use those IDs for ratings, scatter points and director frequency.
+  Count a co-directed film once per named director; chart association totals
+  can exceed unique-film totals and must say so.
+- Proposed ranking rule for review: distinct films with nonmissing rating/votes
+  and an owner-agreed vote threshold, sorted by rating descending, votes
+  descending, then stable film ID ascending; take at most five. Low-score lists
+  use rating ascending with the same tie-breaks. Expose the threshold and
+  eligible-film count. Exclude and
+  report missing/nonpositive votes for a logarithmic scatter axis.
+- Genre charts should count unique film/genre associations in the selection,
+  keep Drammatico, and report unclassified films separately. This is a proposed
+  NEW dashboard measure, not a repair/recalculation of the static O04 charts.
+- Render CSV-derived text as text, not concatenated HTML as in the Shiny tables.
+  Validate link protocols/destinations. Fetch data only on the explorer page;
+  expose loading, no-results and failure states with a retry option, plus links
+  to the existing Anni/Fonti/Generi/Paesi pages when JS/data are unavailable.
 
 Alternatives
 - R htmlwidgets (e.g. plotly, DT, crosstalk) can generate static interactive HTML.
@@ -373,20 +778,41 @@ Starter verification, 2026-11-17:
 
 Next implementation decisions and acceptance
 - Agree pilot views, counting/filter/ranking rules and performance targets.
-  Inspect original Shiny source if available; otherwise rebuild the agreed
-  behavior, not an assumed line-for-line port.
-- Proposed future files: R/update-dashboard.R, static/data/dashboard.json,
-  content/programmazione-storica/esplora/index.md with an explicit url to avoid
-  the section's dated permalink rule, layouts/shortcodes/programming-dashboard.html,
-  static/js/programming-dashboard.js and scoped styling in static/css/main.css.
-  These files are not created by this note. Update the section introduction,
-  editorial sitemap and original article only when the replacement is ready.
+  The supplied Shiny source is now inventoried above; use it as a feature
+  reference, not a line-for-line port or the authoritative current database.
+- Proposed future files and exact baseline counts are listed above: four new,
+  four modified website files, plus three maintained docs. The existing article
+  hosts the shortcode; do not create a new explorer page. Rewrite its guidance
+  through the editorial workflow and update discovery links when ready.
 - Define how full and partial R updates refresh this dataset, without changing
-  existing generated pages or historical chart definitions.
+  existing generated pages or historical chart definitions. Initially provide
+  an explicit standalone exporter after any CSV change; integrate it into the
+  full updater only after validation, without requiring the temporary shinyapp/
+  folder. Partial section updates must not silently imply the JSON is current.
 - Verify filter combinations against R reference counts, repeated-film handling,
   missing metadata, zero results, reset, failed data loading, mobile/keyboard
   use and the agreed performance targets. Build with Hugo 0.136.5 and verify the
-  exact route, old article URL and no-Shiny operation before migration.
+  existing article URL, in-article rendering and no-Shiny operation before migration.
+- Current website reference totals are 5,290 entries and 4,567 unique films;
+  the existing read-only starter gives 1,089 entries / 948 films for 1950-1959.
+  Recompute references if inputs change. Add a repeated-film/multiple-year case,
+  exact co-director/genre matching, rating ties, null metadata and invalid export
+  fixtures; these should detect the legacy reductions and grouping mistakes.
+- Agree measurable payload and mobile load/filter budgets before library choice;
+  record device/network/dataset and measured results rather than claiming the
+  small database guarantees responsiveness. Check 320/375 px layouts, keyboard
+  filtering/reset/pagination, accessible chart alternatives and blocked Shiny
+  requests. Keep the iframe until the agreed replacement scope passes.
+- Visual acceptance for the native design proposal: verify the same local font
+  files and computed families as other site pages, no Google-font/Bootstrap/Shiny
+  requests, palette/focus consistency, no whole-page horizontal overflow at
+  320/375/768 px, readable chart labels and equivalent keyboard/table access.
+  Check SVG/canvas/tooltips after fonts finish loading and after resizing.
+- New chart acceptance: reconcile calendar cells and monthly bars to selected
+  entry counts; verify recurring-film dates, individual co-directors, multi-
+  source/country totals, explicit unknowns and non-additive film counts. Test
+  context distributions separately from selected-result counts. For every
+  drill-through link, verify the generated route reaches its intended page.
 
 1.6 Other ideas
 - Interactive timeline linking screenings, stories and archive items.

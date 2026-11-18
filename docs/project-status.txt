@@ -1,5 +1,5 @@
 CINEMA TEATRO SESTITO - PROJECT STATUS (single entry point)
-Last review: 2026-11-17
+Last review: 2026-11-18 (dashboard source/design/data review and next-task recommendation)
 
 Read this file first and update it whenever a decision is made.
 Documentation map:
@@ -12,6 +12,11 @@ Conventions: documents in English (only copilot-instructions.txt is in Italian);
 status words TODO / DOING / DONE / DEFERRED; findings carry a date.
 For recommended priorities and step-by-step resolution of each open ID, use
 docs/implementation-guide.md. Its proposals do not change an item's status.
+Easiest implementation next: the logo-only part of O07, replacing "avatar" in
+config.yaml with a meaningful Italian home-link label. The template already
+uses that value, so no JS, data or layout change is needed. This would not close
+the gallery portion of O07. V02 is a small standalone investigation if a whole
+open check is preferred; it does not yet have a confirmed defect to fix.
 
 1. PROJECT AT A GLANCE
 - Hugo 0.136.5 Extended (pinned in netlify.toml and .Rprofile) + R/blogdown.
@@ -104,31 +109,51 @@ DONE O05 - Lightbox keyboard accessibility (2026-11-18)
   or Vimeo link exists in current content, so dormant support was preserved but
   not claimed as live-browser verified.
 TODO O07 - Remaining generic image alternatives
-  Logo alt is "avatar"; gallery alt/title text comes from file names. Do not
-  confuse this with the already improved programming section/chart alt text.
-TODO O08 - Localization and taxonomy browsing
-  Reading time says "min read"; dates are ISO-formatted; taxonomy labels use
-  defaults rather than Italian terminology. Category/tag lists use generic date
-  grouping and duplicate several programming-section views. Decide whether to
-  retain, customize or noindex those views; check the earlier year-0001 finding.
+  On 2026-11-18, the logo alt was changed from "avatar" to
+  "Cinema Teatro Sestito - Home"; a Hugo 0.136.5 build confirmed the rendered
+  image alt. The owner narrowed the remaining scope: provide meaningful
+  alternatives for editorial images with distinct subjects; for repetitive
+  programming-source scans, use concise page-level descriptions and retain the
+  filename fallback. Descriptions will live in page front matter, not in the
+  image files or a central global catalogue. The shortcode will still discover
+  the physical image files from its gallery directory. The mechanism is
+  implemented and the four-image Settimana Incom gallery is the initial
+  pilot. Individual descriptions take precedence over a page-level description
+  and the filename fallback; the lightbox preserves the image alt. On
+  2026-11-18, the owner confirmed that the pilot works in serve_site(). The
+  broader editorial-description rollout remains open.
+DONE O08 - Localization and taxonomy browsing (2026-11-18)
+  On 2026-11-18, article reading time was changed from "min read" to "min di
+  lettura". The owner reviewed the remaining date and taxonomy behavior in a
+  local serve_site() preview and chose to retain the current ISO dates, labels
+  and taxonomy year grouping as acceptable. The earlier year-0001 concern does
+  not block this decision.
 
 4. REMAINING CHECKS, MAINTENANCE AND OPTIONAL POLISH
 TODO V01 - Unrepeated rendering/interaction checks
   New production/preview builds, taxonomy/alias output, mobile wrapping/gallery
   usability and keyboard/screen-reader behavior were not checked in this pass.
-  Gallery CSS uses five columns at all widths; inspect before calling it a
-  layout failure. Earlier builds remain dated evidence, not new test results.
-TODO V02 - sitemap.xml lastmod accuracy has not been checked.
+  On 2026-11-18, the owner confirmed that the gallery works well in a local
+  serve_site() review, so no responsive gallery fix is required at present.
+  Record this as a gallery-specific confirmation, not completion of the full
+  production/preview, taxonomy, alias and viewport matrix. Earlier builds remain
+  dated evidence, not new test results.
+DONE V02 - Explicit sitemap lastmod policy (2026-11-18).
+  Hugo now reads lastmod only from explicit front matter; it no longer treats a
+  page's historical publication/document date as its modification date. Twelve
+  recently edited editorial pages received verified commit-based dates. Pages
+  without trustworthy editorial modification dates omit lastmod. The annual R
+  generator accepts an optional validated date for future data/content updates.
 DONE V03 - Footer GitHub destination normalized (2026-11-18).
   config.yaml now uses whatswrongintown/cinema-teatro-sestito without .git.
   A Hugo 0.136.5 build emitted the normalized URL, which returned HTTP 200.
-DEFERRED P01 - Optional shorter breadcrumb labels
-  Current implementation uses .LinkTitle (standard linkTitle override). The
-  earlier proposal's year-only/custom breadcrumbTitle behavior was not added.
-  This is optional polish, not a broken hierarchy.
-DEFERRED P02 - Lightbox asset placement/portability
-  lightbox.css is linked in the body/footer; asset paths are root-relative.
-  These work for a root-domain deploy and are not confirmed broken links.
+DONE P01 - Shorter programming breadcrumb labels (2026-11-18)
+  The four programming indexes now use standard linkTitle values: Anni, Fonti,
+  Generi and Paesi. Full headings and URLs remain unchanged. Annual detail pages
+  retain their existing labels; no R generator or breadcrumb template changed.
+DONE P02 - Lightbox asset placement/portability (2026-11-18)
+  lightbox.css is now loaded from the shared head, while lightbox.js remains in
+  the footer. Both asset URLs use Hugo's relURL helper for portable base paths.
 DOING M01 - Routine form/privacy operations
   Monitor spam and usage; retain/delete messages according to the approved
   notice. Optional publication follow-up is not permission to publish.
@@ -180,13 +205,35 @@ TODO F03 - Film search (programming first, posters later)
   Define result granularity, scope and matching behavior before implementation.
 DEFERRED F04 - Timeline, identification help and curated collections.
 TODO F05 - Integrated historical-programming dashboard
-  Requested 2026-11-17: add "Esplora i dati" within Programmazione storica,
-  replacing the article-only discovery of the existing embedded Shiny explorer.
+  Owner placement decision 2026-11-18: the native dashboard replaces the iframe
+  INSIDE the existing 2023 explorer article. Keep its historical URL, date, slug
+  and title; rewrite its body with Italian navigation/control/interpretation
+  guidance. The earlier separate /programmazione-storica/esplora/ proposal is
+  superseded. Programmazione storica and sitemap will link to the article.
   Documentation only at the owner's request: ideas/website-improvement-ideas.txt
-  contains alternatives, a base-R data starter and proposed acceptance checks.
+  section 1.5 contains the 2026-11-18 review of the temporarily supplied Shiny
+  source, feature inventory, migration pitfalls, data contract, staged native
+  page ideas, alternatives, a base-R starter and proposed acceptance checks.
+  The legacy app keeps only the first input entry per film before filtering
+  years; its genre counts and director groups are not reliable parity targets.
+  Its CSV snapshot has 5,055 entries / 4,359 films / 4,358 IMDb records, unlike
+  the website's 5,290 / 4,567 / 4,567. Use static/data as authoritative; the
+  temporary shinyapp folder is reference-only and can later be removed.
   Recommended, not yet approved for implementation: local R -> public JSON ->
   Hugo page with browser-side filters/charts/table, without a Shiny server.
-  Agree measures, filters, rankings and pilot scope before building. Preserve
+  Easiest proposed dashboard slice: year selector, dated-entry/unique-film
+  counts and paginated entry table; shared filters and charts can follow.
+  The design proposal now specifies the existing local Merriweather/Lato fonts,
+  mint/dark-green colours, shared Hugo shell and narrow editorial layout.
+  Fresh static/data analysis supports coverage-calendar, recurring-film and
+  documentary-source interactions; ranked ideas and caveats are in section 1.5.
+  Baseline implementation: 4 new files + 4 modified website files; with the
+  three maintained docs, 4 new + 7 modified (11 total). Optional full-updater
+  integration adds one modification; tests/library assets/later link lookups
+  are scope-dependent additions. The guide and ideas list the files explicitly.
+  Workflow includes article guidance, per-chart instructions, methodology and
+  source notes, plus checking that the prose matches actual delivered controls.
+  Agree measures, filters, rankings and migration scope before building. Preserve
   the existing article URL/iframe until the replacement is verified; no live
   website, R script, dependency or data-export change is part of this update.
 

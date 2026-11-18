@@ -1,4 +1,5 @@
 {{- $dir := .Get "gallery_dir" -}}
+{{- $galleryDescriptions := .Page.Params.galleryDescriptions -}}
 {{- if not $dir -}}
   {{- errorf "image-gallery shortcode in %q: missing required gallery_dir argument" .Page.File.Path -}}
 {{- else -}}
@@ -33,6 +34,15 @@
           {{- end -}}
         {{- end -}}
         {{- if and $validEntries (gt $imageCount 0) -}}
+          {{- $pageAlt := "" -}}
+          {{- $imageDescriptions := dict -}}
+          {{- with $galleryDescriptions -}}
+            {{- $description := index . $dir -}}
+            {{- with $description -}}
+              {{- $pageAlt = .pageAlt | default "" -}}
+              {{- $imageDescriptions = .images | default dict -}}
+            {{- end -}}
+          {{- end -}}
 <style>
     .image-gallery {overflow: auto; margin-left: 0; padding-left: 0;}
     .image-gallery li {float: left; display: block; margin: 0 0 1% 1%; width: 19%;}
@@ -48,9 +58,15 @@
       {{- errorf "image-gallery shortcode in %q: unable to load image %q from gallery %q" $.Page.File.Path .Name $dir -}}
     {{- else -}}
       {{- $imagetitle := index (split .Name ".") 0 -}}
+      {{- $alt := $pageAlt | default $imagetitle -}}
+      {{- $caption := "" -}}
+      {{- with (index $imageDescriptions .Name) -}}
+        {{- $alt = .alt | default $alt -}}
+        {{- $caption = .caption | default "" -}}
+      {{- end -}}
   <li>
-    <a href="{{ ($image.Fit "1600x1600 q50").Permalink }}" title="{{ $imagetitle }}" class="lightbox-image">
-      <img src="{{ ($image.Fill "300x300 q50").Permalink }}" alt="{{ $imagetitle }}" title="{{ $imagetitle }}">
+    <a href="{{ ($image.Fit "1600x1600 q50").Permalink }}" title="{{ $alt }}"{{ with $caption }} data-caption="{{ . }}"{{ end }} class="lightbox-image">
+      <img src="{{ ($image.Fill "300x300 q50").Permalink }}" alt="{{ $alt }}" title="{{ $caption | default $alt }}">
     </a>
   </li>
     {{- end -}}

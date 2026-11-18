@@ -1,6 +1,7 @@
 # Prioritized implementation guide
 
-Prepared on 2026-11-17 from [project status](project-status.txt). This guide covers
+Prepared on 2026-11-17 from [project status](project-status.txt), with next-task
+and Shiny-source findings added on 2026-11-18. This guide covers
 the open, deferred and ongoing items, plus the owner's decision on O06.
 It describes future work; writing the guide does not implement or resolve it.
 The existing contact form remains working, as confirmed by the owner.
@@ -38,12 +39,12 @@ The existing contact form remains working, as confirmed by the owner.
 | [O05](#o05-lightbox-keyboard-accessibility) | Make lightbox keyboard-accessible | Done | Build and integrated-browser checks passed on 2026-11-18 |
 | [O06](#o06-visible-focus) | Existing navigation focus styles | Closed | Owner chose to keep current styles |
 | [O07](#o07-image-alternatives) | Improve logo/gallery alternatives | P2 | Editorial descriptions; coordinate with O05 |
-| [O08](#o08-localization-and-taxonomies) | Localize and improve taxonomy browsing | P2 | Agree duplicate-view policy |
+| [O08](#o08-localization-and-taxonomies) | Localize and improve taxonomy browsing | Done | Reading time updated; current dates/taxonomies accepted 2026-11-18 |
 | [V01](#v01-rendering-and-interaction-checks) | Build and interaction verification | P1 | Baseline first; repeat after affected changes |
-| [V02](#v02-sitemap-lastmod) | Verify sitemap dates | P2 | Pinned Hugo available |
+| [V02](#v02-sitemap-lastmod) | Verify sitemap dates | Done | Explicit editorial dates only; verified on 2026-11-18 |
 | [V03](#v03-footer-github-link) | Verify footer repository destination | Done | Normalized URL built and returned HTTP 200 on 2026-11-18 |
-| [P01](#p01-short-breadcrumb-labels) | Shorten selected breadcrumb labels | P3, deferred | Agree which labels should change |
-| [P02](#p02-lightbox-asset-placement) | Normalize lightbox asset loading | P3, deferred | None; coordinate with O05 |
+| [P01](#p01-short-breadcrumb-labels) | Shorten selected breadcrumb labels | Done | Four programming section labels verified 2026-11-18 |
+| [P02](#p02-lightbox-asset-placement) | Normalize lightbox asset loading | Done | Head placement and portable URLs verified 2026-11-18 |
 | [M01](#m01-form-and-privacy-maintenance) | Monitor form, usage and retention | P1, ongoing | Owner/dashboard access |
 | [F01](#f01-cinema-image-attachments) | Add optional image attachments | Deferred | Owner prefers email for photos for now |
 | [F02](#f02-poster-collection-pilot) | Deliver a poster catalogue pilot | P2, blocked on data | Database, images and agreed identifiers |
@@ -57,6 +58,22 @@ photos, not a repair of a broken text form. On 2026-11-18, the owner also
 deferred all of O02 and O04 until the poster/database work is finalized. Begin
 O02, O03, O04 and F02 when the necessary source data arrive. Run V01 again for
 affected page types after each implementation batch. P3 work can stay deferred.
+
+### Easiest next task (2026-11-18)
+
+The logo-only part of O07 was completed on 2026-11-18: `avatar` in
+[config.yaml](../config.yaml) is now `Cinema Teatro Sestito - Home`. The existing
+[navigation template](../layouts/partials/nav.html) uses that configured alt text,
+and a Hugo 0.136.5 build confirmed the rendered image alt and home-link name.
+This is partial O07 progress, not completion of the gallery alternatives.
+
+For an entire standalone open check, **V02** is a relatively small investigation:
+build and inspect representative sitemap dates before deciding whether any
+correction is necessary. It is not a known one-line fix. O02/O04 remain deferred,
+V03/O05 are already done, and a complete native dashboard is a larger feature.
+Within F05, the smallest useful slice is the year selector, two counts and entry
+table described below, not all of Shiny at once. These are recommendations only;
+this documentation update does not implement any of them.
 
 ## O01: Robots configuration
 
@@ -232,41 +249,81 @@ Lightbox keyboard accessibility remains a separate open item (O05).
 ## O07: Image alternatives
 
 **Priority:** P2. **Depends on:** owner/editor descriptions of the scans.
+**Progress:** The logo-only portion was completed on 2026-11-18. The image-only
+home link now uses the meaningful Italian name `Cinema Teatro Sestito - Home`.
+On 2026-11-18, the owner narrowed the remaining gallery scope: describe
+editorial images with distinct subjects individually; for repetitive
+programming-source scans, use a concise page-level alternative and retain the
+existing filename fallback where a more specific description is unavailable.
+The shortcode and lightbox support are implemented. The four-image Settimana
+Incom gallery is the initial pilot and awaits editorial review; other galleries
+also remain to be reviewed. On 2026-11-18, the owner confirmed that the pilot
+works correctly in a local `serve_site()` preview.
 
-**Files to modify:** [config.yaml](../config.yaml),
+Descriptions belong in the front matter of the Markdown page that invokes the
+shortcode. The shortcode continues to receive `gallery_dir`, read the actual
+files from that directory and locate the relevant metadata for the current page.
+No image file is renamed and there is no separate global description catalogue.
+This keeps editorial text beside the content it describes and allows reused
+images to receive context appropriate to each page.
+
+Proposed shape:
+
+```yaml
+galleryDescriptions:
+  /images/example-gallery:
+    pageAlt: "Scansioni del calendario conservato nell'archivio Sestito."
+    images:
+      example_03.png:
+        alt: "Retro del documento con un'annotazione manoscritta."
+```
+
+**Files modified for the mechanism/pilot:**
 [image-gallery.html](../layouts/shortcodes/image-gallery.html),
 [lightbox.js](../static/js/lightbox.js), and the front matter of pages that use
-the gallery. [nav.html](../layouts/partials/nav.html) only needs modification if
-the link needs an accessible label beyond the configurable image alt.
-**Files to create:** none required for the recommended page-front-matter approach.
+the gallery. [config.yaml](../config.yaml) needed no further change because the
+logo alternative was completed separately. Additional editorial pages will be
+modified only as their descriptions are reviewed.
+**Files created:** the review-only pilot note
+[o07-image-description-test.md](o07-image-description-test.md).
 
 **Steps**
 
 1. Give the home-logo link a meaningful Italian accessible name through its
    existing configurable alt text; do not keep "avatar" as its purpose.
-2. Define a small editorial mapping in gallery-page front matter from image
-   filename to a meaningful description, with an optional distinct caption.
-   Identify which gallery/page each key belongs to, including reused galleries.
-3. Teach the existing shortcode to use that mapping and report missing required
-   descriptions clearly. Populate descriptions before making missing metadata a
-   build error; do not silently relabel filenames as finished accessibility work.
-4. Preserve descriptions through the lightbox: its current initialization replaces
-   some link titles with filenames. Read the intended description rather than
-   overwriting it, and keep thumbnail, viewer and caption roles distinct.
+2. Define a small editorial mapping in the invoking page's front matter. Use a
+   page-level alternative for repetitive source-series scans and image-specific
+   entries only for distinct editorial subjects. Identify reused galleries.
+3. The existing shortcode now uses that mapping with the agreed fallback order.
+   Unreviewed images keep their filenames and are recorded as fallbacks rather
+   than represented as finished descriptions.
+4. Preserve descriptions through the lightbox: its current initialization
+   replaces some link titles with filenames. Read the selected description
+   rather than overwriting it, and keep thumbnail, viewer and caption roles
+   distinct. An individual description takes precedence over the page-level
+   description, which takes precedence over the filename fallback.
 5. For source pages whose editorial prefix is preserved, keep descriptions before
    the generated-table marker. If any target page is fully generated, modify its
    authoritative generator instead of manually editing output.
 6. Test filenames with spaces/dots, reused scans and special characters.
    Build all galleries and inspect descriptions with a screen reader. Do not
-   redo already descriptive programming charts merely for coverage.
+   redo already descriptive programming charts merely for coverage. Do not
+   require hundreds of near-identical source pages to invent unique prose.
 
-**Done when:** updated galleries have accurate editorial alternatives preserved
-in the viewer, missing metadata is actionable, and generation does not erase it.
-Record any remaining unconverted galleries rather than declaring them all done.
+**Done when:** reviewed editorial images use accurate distinct alternatives;
+repetitive source series use concise page-level alternatives; the lightbox
+preserves them; and remaining fallbacks are explicit rather than represented as
+finished editorial descriptions. Record any unconverted gallery rather than
+declaring it all done.
 
 ## O08: Localization and taxonomies
 
+**Status:** DONE on 2026-11-18.
 **Priority:** P2. **Depends on:** an agreed policy for duplicate taxonomy views.
+**Progress:** On 2026-11-18, article reading time was localized from `min read`
+to `min di lettura`. The owner reviewed the date and taxonomy pages with
+`serve_site()` and accepted the existing ISO dates, labels and year grouping.
+The earlier `0001` concern is therefore closed without template changes.
 
 **Files to modify:** [single.html](../layouts/_default/single.html),
 [list.html](../layouts/_default/list.html), and conditionally
@@ -304,6 +361,10 @@ an unapproved removal of content.
 ## V01: Rendering and interaction checks
 
 **Priority:** P1. **Depends on:** pinned Hugo available; affected fixes for final retest.
+**Gallery check:** On 2026-11-18, the owner confirmed that the gallery works
+well in a local `serve_site()` review. No responsive gallery code change is
+required at present. This does not close V01's production/preview, taxonomy,
+alias, keyboard/screen-reader or full viewport matrix.
 
 **Files to modify:** normally only [project-status.txt](project-status.txt) with
 dated outcomes. Application files change only through the specific failing item's
@@ -339,6 +400,7 @@ claim a new Netlify submission test from a local build.
 
 ## V02: Sitemap lastmod
 
+**Status:** DONE on 2026-11-18 with an explicit-editorial-date policy.
 **Priority:** P2. **Depends on:** pinned Hugo available; accurate editorial dates.
 
 **Files to modify:** none until the discrepancy is reproduced. If required,
@@ -347,6 +409,23 @@ For fully generated annual metadata, modify [update-anni.R](../R/update-anni.R)
 and regenerate rather than hand-edit pages.
 **Files to create:** none expected. A custom `layouts\sitemap.xml` is a last-resort
 proposal only if built-in configuration cannot express the agreed policy.
+
+**Implemented policy:** [config.yaml](../config.yaml) now resolves the Hugo
+`lastmod` field only from explicit `lastmod` front matter. Pages without an
+explicit, trustworthy editorial modification date omit the sitemap value rather
+than presenting a historical `date` as a modification. Twelve recently edited
+editorial pages received dates verified from their latest meaningful commits.
+
+When a generated annual page is meaningfully changed, pass an explicit value to
+[update-anni.R](../R/update-anni.R), for example
+`update_anni(years = 1960, lastmod = "2026-11-18")`. The generator validates
+`YYYY-MM-DD` and writes that date to the generated front matter. Do not update
+`lastmod` merely because the site or an unchanged data set was rebuilt.
+
+**Verification:** Hugo 0.136.5 emitted the explicit date for the methodology
+article and omitted `lastmod` for an annual page, a source page and Progetto,
+none of which has an explicit modification date. A direct R test confirmed that
+the generator writes a valid date and rejects an invalid calendar date.
 
 **Steps**
 
@@ -395,7 +474,14 @@ social-link or navigation changes.
 
 ## P01: Short breadcrumb labels
 
-**Priority:** P3, deferred. **Depends on:** agreement on the labels to shorten.
+**Status:** DONE on 2026-11-18.
+**Priority:** P3. **Depends on:** agreement on the labels to shorten.
+
+The four programming section indexes use standard `linkTitle` values:
+`Anni`, `Fonti`, `Generi`, and `Paesi`. Full headings and URLs are unchanged.
+Annual detail pages retain their existing labels; the R generator was not
+modified. Hugo 0.136.5 verification covered representative landing and nested
+pages, including full headings, short breadcrumbs and canonical URLs.
 
 **Files to modify:** the four relevant programming subsection `_index.md` files
 under [programmazione-storica](../content/programmazione-storica/) for section
@@ -419,6 +505,9 @@ Other editorial pages change only if individually selected.
 full titles/routes and unaffected navigation remain correct.
 
 ## P02: Lightbox asset placement
+
+**Status:** DONE on 2026-11-18. The stylesheet is loaded in the shared head,
+the script remains at the end of the body, and both paths use Hugo's `relURL`.
 
 **Priority:** P3, deferred. **Depends on:** none; coordinate with O05.
 
@@ -651,40 +740,108 @@ or completion of F03. The owner selected documentation only on 2026-11-17.
 [website improvement ideas](ideas/website-improvement-ideas.txt).
 The recommended architecture is local R data preparation and browser-side
 interaction within Hugo, not another hosted Shiny iframe.
+That section now preserves the 2026-11-18 source inventory and CSV comparison
+from the owner's temporary Shiny folder; it is the durable reference after that
+folder is removed. Source inspection did not run Shiny or verify its deployment.
+It also contains a fresh read-only analysis of all three website CSVs, an exact
+native font/colour/layout contract, ranked additional chart ideas and archive
+drill-through interactions. These remain proposals, not approved feature scope.
 
-**Files to modify when implementation is authorized:**
+**Placement decided by the owner on 2026-11-18:** replace the iframe INSIDE the
+existing article with the native dashboard shortcode. Preserve its historical
+URL, date, slug and title; rewrite its body to guide exploration. The earlier
+separate `/programmazione-storica/esplora/` proposal is superseded.
+
+**Baseline file budget:** **4 created + 4 modified website files** (8 total).
+Maintaining the three existing F05 docs makes that **4 created + 7 modified**
+(11 total). This documentation-only turn changes those three docs, not the site.
+
+**Four website files to modify when implementation is authorized:**
 [programming introduction](../content/programmazione-storica/_index.md),
 [editorial sitemap](../content/sitemap.md),
 [original dashboard article](../content/articoli/2023-09-23-esplora-la-storia-cinematografica-di-san-vito-sullo-ionio/index.md),
-[main.css](../static/css/main.css) and the agreed refresh entry point in
-[R](../R/). Do not change generated annual tables or legacy chart measures.
-**Files to create:** proposed `R\update-dashboard.R`,
+[main.css](../static/css/main.css). Do not change generated annual tables or
+legacy chart measures. The section/sitemap link to the article, not a new page.
+**Four files to create:** proposed `R\update-dashboard.R`,
 `static\data\dashboard.json`,
-`content\programmazione-storica\esplora\index.md`,
 `layouts\shortcodes\programming-dashboard.html` and
-`static\js\programming-dashboard.js`. Use an explicit page URL to avoid dated
-section permalinks. None is created by this documentation update.
+`static\js\programming-dashboard.js`. The shortcode loads its deferred script
+only where used; native HTML/SVG avoids additional library assets initially.
+No head/footer/single template changes or separate content/CSS files are needed.
+**Three docs to maintain:** [project status](project-status.txt), this guide and
+[website improvement ideas](ideas/website-improvement-ideas.txt).
+Optional full-updater integration adds one modified existing file,
+[update-programmazione-storica.R](../R/update-programmazione-storica.R), making
+5 website modifications (8 including docs). New tests, library assets and later
+Hugo link lookups are scope-dependent additions, not hidden in the baseline.
+Record the actual inventory when implementing; no implementation files are
+created by this documentation update.
 
 **Steps**
 
-1. Inventory the current Shiny behavior/source if available and agree a minimal
-   replacement. Define dated entries versus unique films, multi-value filter
-   logic, missing metadata, coverage caveats and rating/vote/tie-break rules.
+1. Use the recorded Shiny inventory to agree a minimal replacement. The source
+   review is complete: year/chart controls, three charts, summaries/rankings,
+   director frequency and a searchable table are documented. Do not port the
+   first-entry-per-film reduction, distinct-genre-string counts, whole-string
+   director grouping, regex filters or table-only director/genre filter scope.
+   Define dated entries versus unique films, multi-value filter logic, missing
+   metadata, coverage caveats and rating/vote/tie-break rules.
+   Outline the article's Italian guidance before implementing: short introduction,
+   "Come esplorare i dati", chart-specific instructions, "Come leggere i risultati"
+   and "Fonti e aggiornamento". Follow the detailed editorial workflow in section
+   1.5 of the ideas file. Do not write instructions for unbuilt features.
 2. Validate CSV joins and prepare separate film/screening data with only needed
    public fields. Normalise multi-value relationships without multiplying entry
    counts. Reuse shared validated data with F03 where appropriate, not a second
-   competing film catalogue. Keep O03/O04's existing scope and decisions intact.
+   competing film catalogue. Use the website CSVs, not the older Shiny snapshots
+   (5,055 entries, 4,359 films and one missing IMDb match). Export separate entry
+   and film arrays, normalised relationship arrays, nullable numeric metadata
+   and a schema version. Keep O03/O04's existing scope and decisions intact.
 3. Generate JSON locally, commit it, and document refresh behavior for both full
-   and partial updates. Netlify remains Hugo-only; no R runtime is deployed.
-4. Build the Italian explorer within the existing layout, with shared filters,
-   summary/chart/table views, keyboard support and loading/empty/failure states.
-   Keep existing browse links as the no-JavaScript fallback.
+   and partial updates. Start with an explicit standalone exporter after CSV
+   changes, then agree full-updater integration; partial section generation must
+   not silently leave a supposedly current JSON snapshot. Netlify remains
+   Hugo-only; no R runtime or dependency on the temporary folder is deployed.
+4. Build the Italian explorer within the existing layout. First slice: year
+   selector, dated-entry and unique-film counts, reset and paginated entry
+   table, with keyboard support and loading/empty/failure states. Next add
+   shared title/director/genre/year-range filters and an entries-by-year chart.
+   Monthly/genre/scatter charts, rankings and individual-director frequency are
+   later slices if agreed. Keep browse links as the no-JavaScript fallback.
+   Reuse the normal Hugo shell and local Merriweather/Lato fonts; mirror the
+   existing mint/dark-green palette and form controls with dashboard-scoped
+   styles. Keep the 700 px content column initially. Explicitly theme chart
+   labels/tooltips as well as HTML; do not embed a separately themed app.
+   Implement and review inside the existing article, not a separate page.
+   Keep article date/reading time and its normal Home > Articoli breadcrumb.
+   Replace the iframe with the shortcode in the candidate version and rewrite
+   the article body to explain the delivered controls, measures and limitations.
+   Keep UI labels/dynamic counts in the shortcode, editorial explanations in
+   the article; avoid duplicated hard-coded totals. Preserve category/tag metadata
+   and adjust description only if needed to match the delivered slice.
+   Recommended next additions are a year/month coverage calendar and recurring-
+   film/source detail expansion, followed by monthly/genre/country views. See
+   the detailed proposal for measures, evidence, priorities and caveats.
 5. Compare interactive results with R reference counts for repeated films,
    missing fields, combined filters and zero results. Verify mobile/keyboard
    use, data-load failure handling and the agreed size/load/interaction targets.
-6. Build with Hugo 0.136.5, verify the non-dated route and add the section/sitemap
-   links. Preserve the article URL and replace its iframe with a link only after
-   verification. Retire the old app separately, with the owner's approval.
+   Current all-data references: 5,290 entries / 4,567 films; the recorded starter
+   gives 1,089 / 948 for 1950-1959. Recompute after data changes. Test that a film
+   repeated across years stays visible in each relevant year, genre/director
+   matches are exact and rating ties follow the agreed limit/order.
+   Validate palette contrast, local fonts, responsive charts/tables, zero versus
+   out-of-range calendar cells, any context-filter exception, and real Hugo
+   destinations for archive drill-through links. Do not imply that pooled
+   seasonality, IMDb votes or source counts measure attendance or confidence.
+6. Build with Hugo 0.136.5 and verify the native dashboard and guidance at the
+   unchanged article URL, with no Shiny iframe. Check article heading/anchor
+   navigation, mobile reading order, keyboard use and no-JavaScript/data-error
+   fallback; verify that instructions match the delivered controls and that
+   methodology/archive links work. Check operation with Shiny requests blocked.
+   Publish article and section/sitemap links together only after the agreed
+   migration scope passes, not merely the first slice. Retire the old app
+   separately, with the owner's approval; do not replace the iframe with a link
+   to an unrequested second dashboard page.
 
 **Done when:** the agreed explorer works without contacting Shiny, matches the
 reference measures, fits the site, meets accessibility/performance checks and

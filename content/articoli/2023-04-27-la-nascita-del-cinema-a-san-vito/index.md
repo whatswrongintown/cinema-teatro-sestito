@@ -2,7 +2,7 @@
 title: La nascita del cinema a San Vito (1946–1957)
 author: Vito Sestito
 date: '2023-04-27'
-lastmod: '2026-11-14'
+lastmod: '2026-11-18'
 description: "Un’analisi storica dei primi anni del cinema a San Vito sullo Ionio, dalle origini ai primi successi."
 slug: la-nascita-del-cinema-a-san-vito
 image: "/2023/04/27/la-nascita-del-cinema-a-san-vito/images/1940_palazzo_piazza_mario_polera.webp"
@@ -13,6 +13,18 @@ tags:
           - Cultura
           - Calabria
           - Dopoguerra
+galleryDescriptions:
+  /images/2023_04_27_la_settimana_incam:
+    pageAlt: "Scansione di materiale della Settimana Incom conservato dall'archivio del cinema."
+    images:
+      la_settimana_incam_01.jpg:
+        alt: "Agenda cinematografica Incom per la stagione 1948-1949, con annotazioni manoscritte nella parte superiore."
+      la_settimana_incam_02.jpg:
+        alt: "Elenco della Settimana Incom con titoli, luoghi e date; i nomi delle città sono evidenziati in colore."
+      la_settimana_incam_03.png:
+        alt: "Retro di un'agenda Incom con annotazione manoscritta dedicata a Sandro Pallavicini e testo promozionale."
+      la_settimana_incam_04.jpg:
+        alt: "Documento commerciale Incom con titolo La Settimana Incom, elenco di produzioni e marchio Record Incom Sport."
 ---
 
 

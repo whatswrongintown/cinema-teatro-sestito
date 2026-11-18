@@ -49,8 +49,9 @@ document.addEventListener("DOMContentLoaded", function() {
         var image = element.querySelector('img');
         var href = element.getAttribute('href') || '';
         var filename = href.split('/').pop().split('.')[0];
-        return element.getAttribute('title') ||
-            (image && image.getAttribute('alt')) ||
+        return (image && image.getAttribute('alt')) ||
+            element.getAttribute('data-caption') ||
+            element.getAttribute('title') ||
             filename ||
             'Elemento multimediale';
     }
