@@ -74,26 +74,35 @@ DONE - Previously recorded build checks (not repeated in this review)
   secondary generic readDir error. Temporary build output was removed.
 
 3. ACTUAL OPEN ITEMS
-TODO O02 - Poster-related navigation
+DEFERRED O02 - Poster-related navigation
   Home "Locandine d'epoca" points to "/"; content/sitemap.md has an empty link.
   Fonti still links to /categories/note-sui-manifesti/ without backing content.
+  On 2026-11-18, the owner deferred both the interim link cleanup and the final
+  source/category work until poster and database decisions are finalized.
   Create the planned "Note sui manifesti" source/category when data are ready.
   See historical-programming.md; do not invent a source or poster catalogue.
 DEFERRED O03 - Country/IMDb reconciliation
   tt0052704 is still present only in programmazione_paesi.csv. Resume with
   poster data. All screening IDs currently have IMDb records.
-TODO O04 - Chart explanations, not recalculation
+DEFERRED O04 - Chart explanations, not recalculation
   Methodology already explains dated rows, source associations and coproductions.
   It does not yet explain repeated Drammatico-only exclusions or missing-genre
   handling in adult shares. Genre-index wording says only multi-genre films
   lose Drammatico, while code also drops repeated Drammatico-only entries.
   Earlier analysis recorded 62 films / 126 such rows, 104 missing-genre rows
   treated as not adult, and 7,126 country associations. These figures were not
-  recalculated in this pass. Review index prose/denominators against the code.
-TODO O05 - Lightbox keyboard accessibility
-  Close/previous/next are anchors without href/button semantics; no Escape
-  handling or focus management is implemented. Gallery validation did not fix
-  this. Keep browser testing separate from this confirmed source observation.
+  recalculated in this pass. On 2026-11-18, the owner deferred this review until
+  the database is finalized, so a single fresh analysis can use the final data.
+DONE O05 - Lightbox keyboard accessibility (2026-11-18)
+  Close/previous/next now use labelled Italian buttons, the viewer has dialog
+  semantics, focus is contained and restored, and Escape closes it. The existing
+  image links still work without JavaScript; mouse and gallery navigation remain
+  available. Hugo 0.136.5 and an integrated-browser preview passed representative
+  JPEG/PNG/WebP, repeated-open, navigation, focus and closing checks, including
+  the close control at a 425-by-443 viewport. On 2026-11-18, the owner confirmed
+  that the corrected viewer worked in a local serve_site() preview. No YouTube
+  or Vimeo link exists in current content, so dormant support was preserved but
+  not claimed as live-browser verified.
 TODO O07 - Remaining generic image alternatives
   Logo alt is "avatar"; gallery alt/title text comes from file names. Do not
   confuse this with the already improved programming section/chart alt text.
@@ -110,9 +119,9 @@ TODO V01 - Unrepeated rendering/interaction checks
   Gallery CSS uses five columns at all widths; inspect before calling it a
   layout failure. Earlier builds remain dated evidence, not new test results.
 TODO V02 - sitemap.xml lastmod accuracy has not been checked.
-TODO V03 - Footer GitHub destination ends in .git in current config.
-  Verify reachability/redirect and intended browser destination; do not label it
-  a confirmed 404. The shell HEAD attempt failed at DNS resolution.
+DONE V03 - Footer GitHub destination normalized (2026-11-18).
+  config.yaml now uses whatswrongintown/cinema-teatro-sestito without .git.
+  A Hugo 0.136.5 build emitted the normalized URL, which returned HTTP 200.
 DEFERRED P01 - Optional shorter breadcrumb labels
   Current implementation uses .LinkTitle (standard linkTitle override). The
   earlier proposal's year-only/custom breadcrumbTitle behavior was not added.

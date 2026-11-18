@@ -32,16 +32,16 @@ The existing contact form remains working, as confirmed by the owner.
 | ID | Work | Priority | Prerequisite / scheduling |
 | --- | --- | --- | --- |
 | [O01](#o01-robots-configuration) | Reconcile robots output | Done | Local builds and live response verified |
-| [O02](#o02-poster-navigation) | Fix placeholder and unsupported links | P1 interim; P2 final | Final source/catalogue links need real content |
+| [O02](#o02-poster-navigation) | Fix placeholder and unsupported links | Deferred | Resume after poster/database decisions are finalized |
 | [O03](#o03-country-and-imdb-reconciliation) | Resolve country-only film ID | P2, deferred | Verified external/poster evidence |
-| [O04](#o04-chart-explanations) | Explain chart conventions accurately | P1 | Read-only calculation check |
-| [O05](#o05-lightbox-keyboard-accessibility) | Make lightbox keyboard-accessible | P1 | None; coordinate with O07 |
+| [O04](#o04-chart-explanations) | Explain chart conventions accurately | Deferred | Resume with a fresh check after the database is finalized |
+| [O05](#o05-lightbox-keyboard-accessibility) | Make lightbox keyboard-accessible | Done | Build and integrated-browser checks passed on 2026-11-18 |
 | [O06](#o06-visible-focus) | Existing navigation focus styles | Closed | Owner chose to keep current styles |
 | [O07](#o07-image-alternatives) | Improve logo/gallery alternatives | P2 | Editorial descriptions; coordinate with O05 |
 | [O08](#o08-localization-and-taxonomies) | Localize and improve taxonomy browsing | P2 | Agree duplicate-view policy |
 | [V01](#v01-rendering-and-interaction-checks) | Build and interaction verification | P1 | Baseline first; repeat after affected changes |
 | [V02](#v02-sitemap-lastmod) | Verify sitemap dates | P2 | Pinned Hugo available |
-| [V03](#v03-footer-github-link) | Verify footer repository destination | P2 | Working external connection |
+| [V03](#v03-footer-github-link) | Verify footer repository destination | Done | Normalized URL built and returned HTTP 200 on 2026-11-18 |
 | [P01](#p01-short-breadcrumb-labels) | Shorten selected breadcrumb labels | P3, deferred | Agree which labels should change |
 | [P02](#p02-lightbox-asset-placement) | Normalize lightbox asset loading | P3, deferred | None; coordinate with O05 |
 | [M01](#m01-form-and-privacy-maintenance) | Monitor form, usage and retention | P1, ongoing | Owner/dashboard access |
@@ -51,11 +51,12 @@ The existing contact form remains working, as confirmed by the owner.
 | [F04](#f04-later-editorial-features) | Timeline, identification, collections | P3, deferred | Choose one feature and its content |
 | [F05](#f05-integrated-programming-dashboard) | Integrate the database explorer | P2, proposed | Agree pilot, filter/count/ranking rules and performance targets |
 
-Suggested order: run a V01 baseline and continue M01; address O05, O02's
-interim links and O04; then the remaining ready P2 checks/corrections. F01 is
-deferred in favor of email for photos, not a repair of a broken text form. Begin O03,
-O02's final phase and F02 when the necessary source data arrive. Run V01 again
-for affected page types after each implementation batch. P3 work can stay deferred.
+Suggested order: run a V01 baseline and continue M01; then address the
+remaining ready P2 checks/corrections. F01 is deferred in favor of email for
+photos, not a repair of a broken text form. On 2026-11-18, the owner also
+deferred all of O02 and O04 until the poster/database work is finalized. Begin
+O02, O03, O04 and F02 when the necessary source data arrive. Run V01 again for
+affected page types after each implementation batch. P3 work can stay deferred.
 
 ## O01: Robots configuration
 
@@ -70,8 +71,11 @@ rules. A robots file does not guarantee indexing or search-result sitelinks.
 
 ## O02: Poster navigation
 
-**Priority:** P1 for the interim misleading links; P2 for full content delivery.
-**Depends on:** real poster/source evidence for final pages; not for interim cleanup.
+**Status:** DEFERRED on 2026-11-18. The owner chose to keep the current links and
+text unchanged until the poster and database decisions are finalized.
+**Priority:** Resume after data finalization.
+**Depends on:** finalized poster/database content and source evidence. This now
+applies to both the interim link cleanup and the full content delivery.
 
 **Files to modify:** [home](../content/_index.md),
 [editorial sitemap](../content/sitemap.md), and
@@ -140,7 +144,9 @@ Otherwise retain DEFERRED; no generator rewrite is assumed.
 
 ## O04: Chart explanations
 
-**Priority:** P1. **Depends on:** a read-only check of the current data and chart code.
+**Status:** DEFERRED on 2026-11-18 until the database is finalized.
+**Priority:** Resume with a fresh read-only analysis after data finalization.
+**Depends on:** the finalized database and a fresh check of the chart code.
 
 **Files to modify:** the
 [methodology article](../content/articoli/2026-11-11-metodologia-ricostruzione-programmazione/index.md)
@@ -173,6 +179,9 @@ decision and is not the solution planned here.
 
 ## O05: Lightbox keyboard accessibility
 
+**Status:** DONE on 2026-11-18 for the image lightbox currently used by the site.
+No YouTube or Vimeo link exists in current content; dormant handlers remain but
+were not represented as live-content verification.
 **Priority:** P1. **Depends on:** none; coordinate descriptions with O07.
 
 **Files to modify:** [lightbox.js](../static/js/lightbox.js) and
@@ -202,6 +211,14 @@ new library or parallel viewer.
 **Done when:** a keyboard-only visitor can open, navigate and close the viewer
 without losing focus or entering the obscured page, while mouse/video behavior
 and ordinary image links still work.
+
+**Verification:** Hugo 0.136.5 built successfully. A local VS Code integrated
+browser preview checked labelled dialog controls, inert background, focus
+containment/restoration, Escape and button closing, previous/next navigation,
+repeated open/close cycles, and JPEG/PNG/WebP galleries without page errors.
+The close control was also checked at a 425-by-443 viewport so both diagonal
+strokes remain fully inside the visible button. The owner subsequently
+confirmed the corrected implementation worked in a local `serve_site()` preview.
 
 ## O06: Visible focus
 
@@ -351,6 +368,8 @@ the inspection establishes that existing output is correct with no code change.
 
 ## V03: Footer GitHub link
 
+**Status:** DONE on 2026-11-18. [config.yaml](../config.yaml) no longer includes
+`.git`; Hugo 0.136.5 emitted the normalized URL and GitHub returned HTTP 200.
 **Priority:** P2, small ready check once external access works.
 **Depends on:** working network and confirmation of the intended repository.
 
