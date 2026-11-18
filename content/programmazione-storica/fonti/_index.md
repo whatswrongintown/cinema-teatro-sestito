@@ -1,8 +1,9 @@
 ---
 title: "Fonti della programmazione"
+linkTitle: "Fonti"
 author: "Vito Sestito"
 date: "2025-10-16"
-lastmod: '2026-11-16'
+lastmod: '2026-11-18'
 description: "Le diverse tipologie di documenti utilizzate per ricostruire la programmazione del Cinema Teatro Sestito."
 layout: "section"
 slug: "fonti"

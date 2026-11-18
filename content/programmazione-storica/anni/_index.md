@@ -1,8 +1,9 @@
 ---
 title: "Programmazione per anni"
+linkTitle: "Anni"
 author: "Vito Sestito"
 date: '2025-10-16'
-lastmod: '2026-11-16'
+lastmod: '2026-11-18'
 description: "Consulta la programmazione del Cinema Teatro Sestito organizzata per anno, dal 1948 al 2004."
 slug: "anni"
 type: "programmazione-storica/anni"
