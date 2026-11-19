@@ -1,9 +1,0 @@
-Questo è il sito del Cinema Teatro Sestito, realizzato con R blogdown e Hugo.
-
-Stato del progetto, decisioni e attività aperte: `docs/project-status.txt`. Gli script R della programmazione storica sono descritti in `docs/historical-programming.md`.
-
-Non modificare mai i file dentro la cartella `public/` perché vengono sovrascritti da Hugo.
-
-I contenuti e gli articoli si trovano in `content/`, mentre i template sono in `layouts/`. Le pagine della programmazione storica (anni, fonti, generi, paesi) e i grafici dei relativi indici sono generati dagli script in `R/`: per cambiarli modifica i dati in `static/data/`, non le pagine.
-
-Quando scrivi o correggi articoli e schede film, usa un tono accogliente, chiaro e professionale in italiano.
