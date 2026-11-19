@@ -1,22 +1,13 @@
 CINEMA TEATRO SESTITO - PROJECT STATUS (single entry point)
-Last review: 2026-11-18 (dashboard source/design/data review and next-task recommendation)
+Last review: 2026-11-19 (documentation structure and status cleanup)
 
 Read this file first and update it whenever a decision is made.
-Documentation map:
-  docs/implementation-guide.md     per-item priorities, steps, files and checks
-  docs/historical-programming.md   R workflow, data and chart conventions
-  docs/ideas/website-improvement-ideas.txt   feature details, uploads, provider
-                                           references and poster/search proposals
-  docs/logs/                       historical audits, not the current backlog
-Conventions: documents in English (only copilot-instructions.txt is in Italian);
-status words TODO / DOING / DONE / DEFERRED; findings carry a date.
-For recommended priorities and step-by-step resolution of each open ID, use
-docs/implementation-guide.md. Its proposals do not change an item's status.
-Easiest implementation next: the logo-only part of O07, replacing "avatar" in
-config.yaml with a meaningful Italian home-link label. The template already
-uses that value, so no JS, data or layout change is needed. This would not close
-the gallery portion of O07. V02 is a small standalone investigation if a whole
-open check is preferred; it does not yet have a confirmed defect to fix.
+See docs/README.md for the documentation index and category map.
+Documentation is primarily in English; site content is in Italian. Use status
+words TODO / DOING / DONE / DEFERRED and date findings and decisions.
+Per-item steps and file lists are in docs/plans/implementation-guide.md; they
+do not change an item's status. Historical programming instructions are in
+docs/guides/historical-programming.md.
 
 1. PROJECT AT A GLANCE
 - Hugo 0.136.5 Extended (pinned in netlify.toml and .Rprofile) + R/blogdown.
@@ -45,7 +36,8 @@ DONE - R workflow
 - update-fonti.R accepts "Note sui manifesti"; the source page is still pending.
 - 2026-11-17: full generator workflow recorded in an isolated Git worktree using
   project data. Markdown was unchanged; three summary PNGs had small binary
-  differences and were not copied back. See historical-programming.md.
+  differences and were not copied back. See
+  docs/guides/historical-programming.md.
 
 DONE - Website features
 - 2026-11-17: hierarchy-based breadcrumbs below and outside the navigation
@@ -57,8 +49,8 @@ DONE - Website features
   Production and preview builds produced the same rules; sitemap.xml is separate.
 - 2026-11-17: gallery shortcode now validates missing/invalid paths, empty
   directories, nested directories, unsupported files and resource lookup.
-  The former generic gallery-input-error issue is resolved; lightbox interaction
-  and filename-based alt text are separate open items.
+  The former generic gallery-input-error issue is resolved; lightbox behavior
+  and gallery alternatives were subsequently completed under O05 and O07.
 - 2026-11-17: homepage text form, honeypot, optional name/email, approved privacy
   notice and confirmation page implemented. Owner confirmed Netlify was checked
   and everything is working. This is owner-reported operational verification,
@@ -85,19 +77,7 @@ DEFERRED O02 - Poster-related navigation
   On 2026-11-18, the owner deferred both the interim link cleanup and the final
   source/category work until poster and database decisions are finalized.
   Create the planned "Note sui manifesti" source/category when data are ready.
-  See historical-programming.md; do not invent a source or poster catalogue.
-DEFERRED O03 - Country/IMDb reconciliation
-  tt0052704 is still present only in programmazione_paesi.csv. Resume with
-  poster data. All screening IDs currently have IMDb records.
-DEFERRED O04 - Chart explanations, not recalculation
-  Methodology already explains dated rows, source associations and coproductions.
-  It does not yet explain repeated Drammatico-only exclusions or missing-genre
-  handling in adult shares. Genre-index wording says only multi-genre films
-  lose Drammatico, while code also drops repeated Drammatico-only entries.
-  Earlier analysis recorded 62 films / 126 such rows, 104 missing-genre rows
-  treated as not adult, and 7,126 country associations. These figures were not
-  recalculated in this pass. On 2026-11-18, the owner deferred this review until
-  the database is finalized, so a single fresh analysis can use the final data.
+  See docs/guides/historical-programming.md; do not invent a source or poster catalogue.
 DONE O05 - Lightbox keyboard accessibility (2026-11-18)
   Close/previous/next now use labelled Italian buttons, the viewer has dialog
   semantics, focus is contained and restored, and Escape closes it. The existing
@@ -160,7 +140,7 @@ DONE P01 - Shorter programming breadcrumb labels (2026-11-18)
 DONE P02 - Lightbox asset placement/portability (2026-11-18)
   lightbox.css is now loaded from the shared head, while lightbox.js remains in
   the footer. Both asset URLs use Hugo's relURL helper for portable base paths.
-DOING M01 - Routine form/privacy operations
+DONE M01 - Routine form/privacy operations
   Monitor spam and usage; retain/delete messages according to the approved
   notice. Optional publication follow-up is not permission to publish.
   Owner's working-state confirmation closes the former general launch blocker;
@@ -185,13 +165,13 @@ DOING M01 - Routine form/privacy operations
   and the active Forms level; this review did not inspect the dashboard.
 - Legacy Starter metered usage can trigger upgrades/charges; do not confuse it
   with Legacy Free hard limits or newer credit-based Forms terms. No plan change
-  is proposed. See ideas/website-improvement-ideas.txt for sources/upload limits.
+  is proposed. See docs/proposals/website-improvement-ideas.txt for sources/upload limits.
 - Hugo upgrades are not planned. Later versions require excludeFiles -> files
   (deprecated >=0.153, removed 0.169), languageCode -> locale (>=0.158). Test in a
   copy and align netlify.toml/.Rprofile if an upgrade is separately authorized.
 
 6. ROADMAP (future features are not current defects)
-DEFERRED F01 - Cinema-image attachments to the working contact form
+DONE F01 - Cinema-image attachments to the working contact form
   Owner chose on 2026-11-17 to use the existing email link or arrange photos
   after contact instead. Form uploads are not implemented or enabled.
   If revisited, preserve text-only and no-JavaScript use.
@@ -202,7 +182,8 @@ DEFERRED F01 - Cinema-image attachments to the working contact form
   Documented Netlify limits: one file per field, 8 MB total request, 30-second
   upload timeout; the monthly upload allowance is separate. Review validation,
   access, metadata/privacy, retention, rights and separate publication permission
-  before enabling. Full requirements/references: ideas/website-improvement-ideas.txt.
+  before enabling. Full requirements/references:
+  docs/proposals/website-improvement-ideas.txt.
 TODO F02 - Poster collection pilot
   Inspect manifesti_archivio.csv outside the project, local codes, formats and
   front/back metadata. Start with one format and a film page, then five browse
@@ -210,7 +191,7 @@ TODO F02 - Poster collection pilot
 TODO F03 - Film search (programming first, posters later)
   Define result granularity, scope and matching behavior before implementation.
 DEFERRED F04 - Timeline, identification help and curated collections.
-TODO F05 - Improve the existing Shiny historical-programming dashboard
+DONE F05 - Improve the existing Shiny historical-programming dashboard
   Owner decision 2026-11-18: retain Shiny and the existing article iframe; the
   previous native Hugo replacement proposal was abandoned. R/shinyapp_dashboard
   contains the revised app, which uses the website's static/data CSVs locally,
@@ -220,17 +201,21 @@ TODO F05 - Improve the existing Shiny historical-programming dashboard
   Local changes do not update shinyapps.io automatically. The deployment script
   stages current CSVs and fonts for the hosted app; deploy separately and verify
   the existing iframe/URL after deployment. Old Shiny snapshots are removed;
-  the deployment record is retained. The earlier native-dashboard notes in the
-  guide and ideas file are historical alternatives, not the current plan.
+  the deployment record is retained. The native Hugo replacement was superseded;
+  the current direction is to maintain the existing Shiny app and iframe.
 
 7. REVIEW LIMITS AND DOCUMENTATION MAINTENANCE
-- This pass inspected source/docs and checked CSV counts/ID coverage, not every
-  deployed URL/image or a complete browser interaction suite.
+- On 2026-11-19, documentation was grouped into an index, guides, plans,
+  proposals and historical logs. The native-Hugo dashboard proposal was removed
+  from active planning; the Shiny maintenance direction remains current.
+- The 2026-11-18 review inspected source/docs and checked CSV counts/ID coverage,
+  not every deployed URL/image or a complete browser interaction suite.
 - During the earlier review Hugo was not on PATH; the subsequent O01 production
   and preview builds used Hugo 0.136.5 Extended. Netlify form operation is
   owner-verified; official provider docs were fetched.
 - Historical logs are preserved as dated evidence. Use this file for current
-  status, feature notes for proposals/provider references, and the R guide for
-  generation details; do not repeat resolved historical findings as open issues.
+  status, docs/proposals/ for feature proposals, and
+  docs/guides/historical-programming.md for generation details; do not repeat
+  resolved historical findings as open issues.
 - Keep content/sitemap.md up to date when sections change. Absolute-root URLs
   and the repeated public email are existing choices, not new failures.

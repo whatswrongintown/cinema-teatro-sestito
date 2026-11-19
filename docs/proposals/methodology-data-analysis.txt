@@ -1,5 +1,6 @@
 METHODOLOGY ARTICLE: DATA ANALYSIS AND POSSIBLE IMPROVEMENTS
 Working notes, 2026-11-17. Proposals and questions, not implementation decisions.
+Current priorities and the O04 status are in docs/project-status.txt.
 
 Scope
 -----
@@ -153,7 +154,7 @@ Lower priority / needs a decision:
   entries, distinct films or associations. Percentages based on associations
   do not mean percentages of unique films or production shares.
 * Before reusing the existing genre index, review its conventions documented in
-  docs/historical-programming.md: its Drammatico exclusion also affects
+  docs/guides/historical-programming.md: its Drammatico exclusion also affects
   repeated Drammatico-only films, and the adult-share calculation treats
   missing genres as not adult. A new methodology graphic should define its
   own intended missing-data and multi-genre handling rather than inherit these

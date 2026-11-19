@@ -8,9 +8,10 @@ Project status, decisions, and open tasks are documented in:
 
 - `docs/project-status.txt`
 
-Documentation for the historical programming scripts is available in:
+The documentation index and guides are in `docs/README.md`. Documentation for
+the historical programming scripts is available in:
 
-- `docs/historical-programming.md`
+- `docs/guides/historical-programming.md`
 
 Always consult these files before proposing structural changes.
 

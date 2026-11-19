@@ -60,7 +60,7 @@ PROMPT 3 - HISTORICAL PROGRAMMING AND CSV
   the project root.
 - Update 2026-11-16: the scripts were rewritten in base R with identical results;
   the index charts are produced by R/update-indici.R
-  (docs/historical-programming.md). The scripts were re-run on a copy.
+  (docs/guides/historical-programming.md). The scripts were re-run on a copy.
 
 PROMPT 4 - IMAGES AND SEO
 - 209 image references (14 image front matter fields) with no missing files; 80

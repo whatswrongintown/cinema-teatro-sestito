@@ -12,13 +12,25 @@ using a customised theme derived from hugo-lithium-theme.
 
 Netlify runs Hugo only. Generated files are committed to the repository because Netlify does not execute R scripts during deployment.
 
-## Preview
+## Local Setup and Build
 
-Open the RStudio project and run:
+Install R and the `blogdown` package. The project pins Hugo 0.136.5 in
+`.Rprofile`; install that version through blogdown:
+
+```r
+install.packages("blogdown")
+blogdown::install_hugo(version = "0.136.5")
+```
+
+Open the RStudio project, then preview or build the site:
 
 ```r
 blogdown::serve_site()
+blogdown::build_site()
 ```
+
+Regenerate any required Markdown and charts locally and commit them before
+deployment.
 
 ## Update Historical Programming
 
@@ -37,24 +49,13 @@ This regenerates:
 - country pages
 - index charts
 
-For detailed information, see:
-
-- `docs/historical-programming.md`
+See the [historical programming guide](docs/guides/historical-programming.md)
+for requirements, partial updates, and dashboard deployment.
 
 ## Project Documentation
 
-Detailed project documentation is maintained in the `docs/` directory.
-
-Start here:
-
-- `docs/project-status.txt`
-
-Additional documentation:
-
-- `docs/implementation-guide.md`
-- `docs/historical-programming.md`
-- `docs/ideas/website-improvement-ideas.txt`
-- `docs/logs/`
+The [documentation index](docs/README.md) links to current status, guides,
+plans, proposals, and historical audit logs.
 
 Project decisions, implementation details, development history, workflows, and future plans should be documented in `docs/`, not in this README.
 
@@ -66,7 +67,7 @@ layouts/    Hugo templates and layouts
 static/     Static assets and source datasets
 R/          R scripts used for content generation
 docs/       Project documentation
-public/     Generated Hugo output (do not edit)
+public/     Generated Hugo output
 resources/  Hugo cache and generated resources
 ```
 

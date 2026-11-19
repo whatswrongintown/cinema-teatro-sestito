@@ -66,4 +66,4 @@ DEFERRED OR OPEN
        "Locandine d'epoca" on the home page links to the home page itself.
 [ ] 22 The link /categories/note-sui-manifesti/ (Fonti index) returns 404 until
        some content has that category. It is solved by the "Note sui manifesti"
-       source page (docs/historical-programming.md).
+       source page (docs/guides/historical-programming.md).
