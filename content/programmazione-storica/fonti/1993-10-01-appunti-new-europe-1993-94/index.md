@@ -6,15 +6,15 @@ slug: appunti-new-europe-1993-94
 categories:
   - Appunti
 description: Appunti su blocchi o fogli, con i film registrati per mese. Riportano gli incassi dei film quando disponibili.
-image: /images/1993_10_01_appunti_new_europe_1993_94/1993_09_01_appunti_new_europe_1993_94_01.png
+image: /images/programmazione_storica/1993_09_01_appunti_new_europe_1993_94/1993_09_01_appunti_new_europe_1993_94_01.webp
 galleryDescriptions:
-  /images/1993_10_01_appunti_new_europe_1993_94:
+  /images/programmazione_storica/1993_09_01_appunti_new_europe_1993_94:
     pageAlt: "Scansioni della fonte «New Europe 1993-94» utilizzata per ricostruire la programmazione del Cinema Sestito."
 lastmod: '2026-11-18'
 ---
 
 
-{{< image-gallery gallery_dir="/images/1993_10_01_appunti_new_europe_1993_94" >}}
+{{< image-gallery gallery_dir="/images/programmazione_storica/1993_09_01_appunti_new_europe_1993_94" >}}
 <!-- Tabelle generate automaticamente. -->
 
 ## 1993

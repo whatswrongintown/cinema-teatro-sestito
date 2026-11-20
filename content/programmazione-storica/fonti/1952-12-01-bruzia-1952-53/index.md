@@ -6,15 +6,15 @@ slug: bruzia-1952-53
 categories:
   - Agende
 description: Agende cinematografiche fornite dalle case distributrici. Contengono informazioni dettagliate sulla data di proiezione, titolo del film, distributore e l’ammontare degli incassi.
-image: /images/1952_12_01_bruzia_1952_53/1952_12_01_bruzia_1952_53_01.png
+image: /images/programmazione_storica/1952_12_01_bruzia_1952_53/1952_12_01_bruzia_1952_53_01.webp
 galleryDescriptions:
-  /images/1952_12_01_bruzia_1952_53:
+  /images/programmazione_storica/1952_12_01_bruzia_1952_53:
     pageAlt: "Scansioni della fonte «Bruzia 1952-53» utilizzata per ricostruire la programmazione del Cinema Sestito."
 lastmod: '2026-11-18'
 ---
 
 
-{{< image-gallery gallery_dir="/images/1952_12_01_bruzia_1952_53" >}}
+{{< image-gallery gallery_dir="/images/programmazione_storica/1952_12_01_bruzia_1952_53" >}}
 <!-- Tabelle generate automaticamente. -->
 
 ## 1952

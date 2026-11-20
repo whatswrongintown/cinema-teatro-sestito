@@ -230,7 +230,7 @@ fonti_prefix <- function(path) {
 # Trova la prima immagine nella cartella statica per una fonte.
 # date_slug ha il formato "1948_01_01_calendario_1948".
 find_first_image <- function(project_root, date_slug) {
-  image_dir <- file.path(project_root, "static", "images", date_slug)
+  image_dir <- file.path(project_root, "static", "images", "programmazione_storica", date_slug)
   if (!dir.exists(image_dir)) {
     return(NA_character_)
   }
@@ -240,7 +240,7 @@ find_first_image <- function(project_root, date_slug) {
     return(NA_character_)
   }
   # Restituisce il percorso Hugo della prima immagine, in ordine alfabetico.
-  paste0("/images/", date_slug, "/", sort(images)[1])
+  paste0("/images/programmazione_storica/", date_slug, "/", sort(images)[1])
 }
 
 # Aggiunge o aggiorna il campo image nei metadati quando la cartella delle immagini esiste.
@@ -263,6 +263,103 @@ fonti_description <- function(prefix, title, project_root = NULL, date_slug = NU
     prefix[image_line_idx] <- replacement
   }
   prefix
+}
+
+# Nomi dei PDF verificati rispetto alle scansioni delle quattro gallerie originali.
+fonti_gallery_exceptions <- c(
+  "1968_11_01_morganite_1968_69" = "1968_11_01_carboni_morganite_1968_69",
+  "1969_11_01_lorraine_1969_70" = "1969_11_01_carboni_lorraine_1969_70",
+  "1970_12_01_lorraine_1970_71" = "1970_12_01_carboni_lorraine_1970_71",
+  "1994_10_01_appunti_new_europe_1994_95" = "1994_10_01_appunti_new_europe_1994_94"
+)
+
+fonti_gallery_images <- function(directory) {
+  if (!dir.exists(directory)) return(character())
+  files <- list.files(directory, pattern = "\\.(png|jpe?g|webp|gif|bmp|tiff?)$",
+                      ignore.case = TRUE)
+  files[!dir.exists(file.path(directory, files))]
+}
+
+# Conserva il testo editoriale e aggiorna soltanto i riferimenti a una galleria verificata.
+fonti_gallery_prefix <- function(prefix, image_root, page_path) {
+  gallery_lines <- grep("\\{\\{[<%][[:space:]]*image-gallery\\b", prefix, perl = TRUE)
+  if (!length(gallery_lines)) return(list(prefix = prefix, gallery = FALSE, slug = NULL))
+  if (length(gallery_lines) != 1L) {
+    warning("Gallerie multiple non aggiornate in ", page_path, call. = FALSE)
+    return(list(prefix = prefix, gallery = TRUE, slug = NULL))
+  }
+  line <- gallery_lines[1]
+  match <- regexec("gallery_dir[[:space:]]*=[[:space:]]*['\"]([^'\"]+)['\"]",
+                   prefix[line], perl = TRUE)
+  parts <- regmatches(prefix[line], match)[[1]]
+  if (length(parts) != 2L) {
+    warning("Percorso della galleria non riconosciuto in ", page_path, call. = FALSE)
+    return(list(prefix = prefix, gallery = TRUE, slug = NULL))
+  }
+  old_path <- parts[2]
+  new_root <- file.path(image_root, "programmazione_storica")
+  new_prefix <- "/images/programmazione_storica/"
+  boundary <- which(prefix == "---")[2]
+  metadata <- yaml::yaml.load(paste(prefix[2:(boundary - 1L)], collapse = "\n"))
+  descriptions <- metadata$galleryDescriptions
+  if (grepl("^/images/programmazione_storica/[^/]+$", old_path)) {
+    slug <- basename(old_path)
+    if (!length(fonti_gallery_images(file.path(new_root, slug))) ||
+        (!is.null(descriptions) && !old_path %in% names(descriptions))) {
+      warning("Galleria senza immagini o descrizione corrispondente: ",
+              old_path, " in ", page_path, call. = FALSE)
+      slug <- NULL
+    }
+    return(list(prefix = prefix, gallery = TRUE, slug = slug))
+  }
+  if (!grepl("^/images/[^/]+$", old_path)) {
+    warning("Percorso della galleria non riconosciuto: ", old_path, call. = FALSE)
+    return(list(prefix = prefix, gallery = TRUE, slug = NULL))
+  }
+  old_slug <- basename(old_path)
+  old_files <- fonti_gallery_images(file.path(image_root, old_slug))
+  folders <- list.dirs(new_root, full.names = FALSE, recursive = FALSE)
+  stems <- sub("_[0-9]+$", "", tools::file_path_sans_ext(old_files))
+  if (old_slug %in% names(fonti_gallery_exceptions)) {
+    candidates <- intersect(unname(fonti_gallery_exceptions[old_slug]), folders)
+  } else if (old_slug %in% folders) {
+    candidates <- old_slug
+  } else {
+    candidates <- intersect(unique(stems), folders)
+  }
+  if (length(candidates) != 1L || !length(old_files) ||
+      length(fonti_gallery_images(file.path(new_root, candidates[1]))) != length(old_files)) {
+    warning("Galleria non aggiornata (corrispondenza mancante, ambigua o incompleta): ",
+            old_path, " in ", page_path, call. = FALSE)
+    return(list(prefix = prefix, gallery = TRUE, slug = NULL))
+  }
+  slug <- candidates[1]
+  new_path <- paste0(new_prefix, slug)
+  if (!is.null(descriptions) && !old_path %in% names(descriptions) &&
+      !new_path %in% names(descriptions)) {
+    warning("Descrizione della galleria non trovata: ", old_path, " in ",
+            page_path, call. = FALSE)
+    return(list(prefix = prefix, gallery = TRUE, slug = NULL))
+  }
+  if (!is.null(descriptions) && old_path %in% names(descriptions)) {
+    if (length(descriptions[[old_path]]$images)) {
+      warning("Galleria con descrizioni per immagine da aggiornare manualmente: ",
+              old_path, " in ", page_path, call. = FALSE)
+      return(list(prefix = prefix, gallery = TRUE, slug = NULL))
+    }
+    if (new_path %in% names(descriptions)) {
+      stop("Descrizioni duplicate per la galleria in ", page_path, call. = FALSE)
+    }
+    keys <- c(paste0(old_path, ":"), paste0('"', old_path, '":'),
+              paste0("'", old_path, "':"))
+    key_lines <- which(trimws(prefix[seq_len(boundary - 1L)]) %in% keys)
+    if (length(key_lines) != 1L) {
+      stop("Chiave galleryDescriptions non riconosciuta in ", page_path, call. = FALSE)
+    }
+    prefix[key_lines] <- sub(old_path, new_path, prefix[key_lines], fixed = TRUE)
+  }
+  prefix[line] <- sub(old_path, new_path, prefix[line], fixed = TRUE)
+  list(prefix = prefix, gallery = TRUE, slug = slug)
 }
 
 # Crea automaticamente una pagina di fonte mancante con titolo e metadata di base.
@@ -346,7 +443,13 @@ prepare_fonti_pages <- function(data, section, directory, project_root, selectio
     # Il percorso della cartella, ad esempio "1948-01-01-calendario-1948", diventa
     # il nome della cartella delle immagini "1948_01_01_calendario_1948".
     date_slug <- gsub("-", "_", basename(dirname(path)), fixed = TRUE)
-    prefix <- fonti_description(fonti_prefix(path), pages$title[index], project_root, date_slug)
+    gallery <- fonti_gallery_prefix(fonti_prefix(path),
+                                    file.path(project_root, "static", "images"), path)
+    prefix <- gallery$prefix
+    if (!gallery$gallery || !is.null(gallery$slug)) {
+      image_slug <- if (gallery$gallery) gallery$slug else date_slug
+      prefix <- fonti_description(prefix, pages$title[index], project_root, image_slug)
+    }
     list(path = path, lines = c(prefix, "<!-- Tabelle generate automaticamente. -->", "",
                                 fonti_source_table(rows)))
   })
@@ -389,3 +492,4 @@ update_fonti_index <- function(project_root = ".") {
 
 # Esegui: update_fonti()
 # Oppure per una fonte specifica: update_fonti(sources = "Calendario 1948")
+if (sys.nframe() == 0L) update_fonti()

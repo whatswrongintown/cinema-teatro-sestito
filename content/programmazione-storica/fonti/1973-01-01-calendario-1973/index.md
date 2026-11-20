@@ -6,15 +6,15 @@ slug: calendario-1973
 categories:
   - Calendari
 description: Calendari murali o da tavolo legati all’attività del cinema. Indicano la data di proiezione e il titolo dei film, insieme agli incassi registrati.
-image: /images/1973_01_01_calendario_1973/1973_01_01_calendario_proiezioni_01.png
+image: /images/programmazione_storica/1973_01_01_calendario_proiezioni/1973_01_01_calendario_proiezioni_01.webp
 galleryDescriptions:
-  /images/1973_01_01_calendario_1973:
+  /images/programmazione_storica/1973_01_01_calendario_proiezioni:
     pageAlt: "Scansioni della fonte «Calendario 1973» utilizzata per ricostruire la programmazione del Cinema Sestito."
 lastmod: '2026-11-18'
 ---
 
 
-{{< image-gallery gallery_dir="/images/1973_01_01_calendario_1973" >}}
+{{< image-gallery gallery_dir="/images/programmazione_storica/1973_01_01_calendario_proiezioni" >}}
 <!-- Tabelle generate automaticamente. -->
 
 ## 1973

@@ -6,15 +6,15 @@ slug: appunti-italautogamma-1988-89
 categories:
   - Appunti
 description: Appunti su blocchi o fogli, con i film registrati per mese. Riportano gli incassi dei film quando disponibili.
-image: /images/1988_09_01_appunti_italautogamma_1988_89/1988_09_01_appunti_italautogamma_1988_89_01.png
+image: /images/programmazione_storica/1988_09_01_appunti_italautogamma_1988_89/1988_09_01_appunti_italautogamma_1988_89_01.webp
 galleryDescriptions:
-  /images/1988_09_01_appunti_italautogamma_1988_89:
+  /images/programmazione_storica/1988_09_01_appunti_italautogamma_1988_89:
     pageAlt: "Scansioni della fonte «Italautogamma 1988-89» utilizzata per ricostruire la programmazione del Cinema Sestito."
 lastmod: '2026-11-18'
 ---
 
 
-{{< image-gallery gallery_dir="/images/1988_09_01_appunti_italautogamma_1988_89" >}}
+{{< image-gallery gallery_dir="/images/programmazione_storica/1988_09_01_appunti_italautogamma_1988_89" >}}
 <!-- Tabelle generate automaticamente. -->
 
 ## 1988

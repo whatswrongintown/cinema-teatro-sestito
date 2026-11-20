@@ -6,15 +6,15 @@ slug: calendario-1948
 categories:
   - Calendari
 description: Calendari murali o da tavolo legati all’attività del cinema. Indicano la data di proiezione e il titolo dei film, insieme agli incassi registrati.
-image: /images/1948_01_01_calendario_1948/1948_01_01_calendario_proiezioni_01.png
+image: /images/programmazione_storica/1948_01_01_calendario_proiezioni/1948_01_01_calendario_proiezioni_01.webp
 galleryDescriptions:
-  /images/1948_01_01_calendario_1948:
+  /images/programmazione_storica/1948_01_01_calendario_proiezioni:
     pageAlt: "Scansioni della fonte «Calendario 1948» utilizzata per ricostruire la programmazione del Cinema Sestito."
 lastmod: '2026-11-18'
 ---
 
 
-{{< image-gallery gallery_dir="/images/1948_01_01_calendario_1948" >}}
+{{< image-gallery gallery_dir="/images/programmazione_storica/1948_01_01_calendario_proiezioni" >}}
 <!-- Tabelle generate automaticamente. -->
 
 ### Gennaio

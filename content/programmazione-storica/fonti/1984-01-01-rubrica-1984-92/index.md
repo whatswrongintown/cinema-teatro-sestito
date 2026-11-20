@@ -6,15 +6,15 @@ slug: rubrica-1984-92
 categories:
   - Rubriche
 description: Rubriche dove i film venivano annotati in ordine alfabetico, con data di proiezione e distributore.
-image: /images/1984_01_01_rubrica_1984_92/1984_01_01_rubrica_1984_92_01.png
+image: /images/programmazione_storica/1984_01_01_rubrica_1984_92/1984_01_01_rubrica_1984_92_01.webp
 galleryDescriptions:
-  /images/1984_01_01_rubrica_1984_92:
+  /images/programmazione_storica/1984_01_01_rubrica_1984_92:
     pageAlt: "Scansioni della fonte «Rubrica 1984-92» utilizzata per ricostruire la programmazione del Cinema Sestito."
 lastmod: '2026-11-18'
 ---
 
 
-{{< image-gallery gallery_dir="/images/1984_01_01_rubrica_1984_92" >}}
+{{< image-gallery gallery_dir="/images/programmazione_storica/1984_01_01_rubrica_1984_92" >}}
 <!-- Tabelle generate automaticamente. -->
 
 ## 1984
@@ -159,6 +159,7 @@ lastmod: '2026-11-18'
 |---|---|
 | 1985-09-15 | [Il peccato di Lola](https://www.imdb.com/title/tt0089790/) |
 | 1985-09-21 | [Il ritorno dei morti viventi](https://www.imdb.com/title/tt0089907/) |
+| 1985-09-22 | [Hard confidential story](https://www.imdb.com/title/tt0195342/) |
 | 1985-09-24 | [Non c'è due senza quattro](https://www.imdb.com/title/tt0087481/) |
 
 ### Ottobre

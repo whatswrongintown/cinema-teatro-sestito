@@ -10,6 +10,8 @@ Base R plus `yaml` (page metadata) and `showtext` / `sysfonts` (chart font).
 Charts use Merriweather, always read from
 `static/fonts/merriweather-v13-latin-regular.woff`: no download, and the scripts
 stop with an error if the file is missing. `renv` is not used.
+The optional PDF image conversion also needs `pdftools` and `magick`, with
+WebP support in ImageMagick.
 
 ## Data
 
@@ -40,6 +42,7 @@ poster data. It is deferred, not silently deleted or assigned a guessed match.
 | `R/update-paesi.R` | `update_paesi(countries = NULL)` | country pages (tables by year) |
 | `R/update-indici.R` | `update_indici(sections)` | the summary charts shown in the section indexes |
 | `R/update-programmazione-storica.R` | `update_programmazione_storica()` | everything above, checking all sections before writing |
+| `R/fonti_pdf_to_images.R` | `fonti_pdf_to_images()` | WebP images for each PDF in `programmazione_storica_pdf/` |
 
 ```r
 source("R/update-programmazione-storica.R")
@@ -63,6 +66,39 @@ selection leaves them untouched.
 The sitemap uses only explicit `lastmod` front matter. For a meaningful annual
 page/data update, pass the editorial modification date through `update_anni()`.
 Do not set it merely because Hugo or an unchanged data set was rebuilt.
+
+## Source PDF images
+
+From the project root, install `pdftools` and `magick`, then run:
+
+```r
+source("R/fonti_pdf_to_images.R")
+fonti_pdf_to_images()
+```
+
+Alternatively run `Rscript R/fonti_pdf_to_images.R`. Each PDF is rendered one
+page at a time at 200 dpi, then saved as lossy sRGB WebP (quality 85, maximum
+width 1800 pixels, without metadata). Images are written to
+`static/images/programmazione_storica/<pdf-name>/`; the PDF name is lowercased
+and spaces and hyphens become underscores. Pages are numbered starting at 01,
+using additional digits for PDFs with 100 or more pages.
+
+Before regenerating a PDF, the script deletes existing image files in its output
+folder. It reports failures and continues with the remaining PDFs; a failed PDF
+may leave a partial image set. PDFs that normalize to the same folder are
+rejected to avoid overwriting one another. The command-line script exits with an
+error if any PDF failed. Commit the desired generated images for publication.
+Run the focused conversion checks with `Rscript tests/test-fonti-pdf-to-images.R`.
+
+The PDF converter does not change content. After conversion, run
+`update_fonti()` to update the source pages' `image`, gallery shortcode and
+`galleryDescriptions` key together. Existing source-page folder names can differ
+from PDF names, so the updater matches the original image filenames to the new
+folders and includes four verified exceptions. It retains the old references and
+warns if the match is ambiguous, images are missing or page counts differ.
+Existing per-image descriptions require manual review before migration; the
+updater preserves them rather than assigning descriptions to the wrong pages.
+Run the gallery checks with `Rscript tests/test-update-fonti-galleries.R`.
 
 ## Shiny dashboard
 
@@ -110,7 +146,10 @@ source("R/shinyapp_dashboard/test-dashboard.R")
   page needs front matter and the line `<!-- Tabelle generate automaticamente. -->`
   before the tables; its title must match the `source` value. A missing page makes
   `update_fonti()` stop with "Creare prima le schede delle fonti".
-- Source pages take the first image of `static/images/<folder>/` as `image`.
+- Source pages use the first image in the matched
+  `static/images/programmazione_storica/<folder>/` gallery as `image`. Where no
+  gallery match can be verified, existing references are preserved and a warning
+  is shown.
 - New genre and country pages are created from the database, with a title-specific
   description. Their URLs are section-based (`/programmazione-storica/generi/commedia/`);
   an older dated URL is kept as a Hugo alias.

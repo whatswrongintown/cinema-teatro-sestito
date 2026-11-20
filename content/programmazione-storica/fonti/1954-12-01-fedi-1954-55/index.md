@@ -6,15 +6,15 @@ slug: fedi-1954-55
 categories:
   - Agende
 description: Agende cinematografiche fornite dalle case distributrici. Contengono informazioni dettagliate sulla data di proiezione, titolo del film, distributore e l’ammontare degli incassi.
-image: /images/1954_12_01_fedi_1954_55/1954_12_01_fedi_1954_55_01.png
+image: /images/programmazione_storica/1954_12_01_fedi_1954_55/1954_12_01_fedi_1954_55_01.webp
 galleryDescriptions:
-  /images/1954_12_01_fedi_1954_55:
+  /images/programmazione_storica/1954_12_01_fedi_1954_55:
     pageAlt: "Scansioni della fonte «Fedi 1954-55» utilizzata per ricostruire la programmazione del Cinema Sestito."
 lastmod: '2026-11-18'
 ---
 
 
-{{< image-gallery gallery_dir="/images/1954_12_01_fedi_1954_55" >}}
+{{< image-gallery gallery_dir="/images/programmazione_storica/1954_12_01_fedi_1954_55" >}}
 <!-- Tabelle generate automaticamente. -->
 
 ## 1954

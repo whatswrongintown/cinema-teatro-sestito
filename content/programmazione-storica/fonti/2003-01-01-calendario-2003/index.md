@@ -6,15 +6,15 @@ slug: calendario-2003
 categories:
   - Calendari
 description: Calendari murali o da tavolo legati all’attività del cinema. Indicano la data di proiezione e il titolo dei film, insieme agli incassi registrati.
-image: /images/2003_01_01_calendario_2003/2003_01_01_calendario_proiezioni_01.png
+image: /images/programmazione_storica/2003_01_01_calendario_proiezioni/2003_01_01_calendario_proiezioni_01.webp
 galleryDescriptions:
-  /images/2003_01_01_calendario_2003:
+  /images/programmazione_storica/2003_01_01_calendario_proiezioni:
     pageAlt: "Scansioni della fonte «Calendario 2003» utilizzata per ricostruire la programmazione del Cinema Sestito."
 lastmod: '2026-11-18'
 ---
 
 
-{{< image-gallery gallery_dir="/images/2003_01_01_calendario_2003" >}}
+{{< image-gallery gallery_dir="/images/programmazione_storica/2003_01_01_calendario_proiezioni" >}}
 <!-- Tabelle generate automaticamente. -->
 
 ### Gennaio
