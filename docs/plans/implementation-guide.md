@@ -18,7 +18,7 @@ contact form remains working, as confirmed by the owner.
   Conditional files must not be changed unless that branch is actually needed.
   Paths in code spans are repository-relative Windows paths. Linked paths refer
   to existing files; proposed paths are deliberately not links.
-- For every completed change, update its ID in [project status](../project-status.txt)
+- For every completed change, update its ID in [project status](../project-status.md)
   with evidence and date. Update this guide and the relevant feature/R notes if
   the agreed approach changes. Those documentation updates are additional to the
   implementation file lists below.

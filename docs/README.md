@@ -1,6 +1,6 @@
 # Project documentation
 
-Start with [project status](project-status.txt) for current decisions, open
+Start with [project status](project-status.md) for current decisions, open
 items and completed work. Use the documents below for detail; proposals and
 historical audits do not override the status record.
 
@@ -8,10 +8,10 @@ historical audits do not override the status record.
 | --- | --- | --- |
 | Guide | [Historical programming](guides/historical-programming.md) | CSV inputs, R generation, generated output, and Shiny workflow |
 | Plan | [Implementation guide](plans/implementation-guide.md) | Steps and files for open, deferred, and ongoing work |
-| Proposal | [Website improvement ideas](proposals/website-improvement-ideas.txt) | Feature proposals, provider references, and poster planning |
-| Proposal | [Methodology data analysis](proposals/methodology-data-analysis.txt) | Dated data snapshot and possible additions to the methodology article |
-| History | [Phase 1 audit](logs/phase_1_know_the_project.txt) | Dated project inventory and decisions from the audit |
-| History | [Phase 2 audit](logs/phase_2_check_the_functioning.txt) | Dated checks of site behavior and generated output |
+| Proposal | [Website improvement ideas](proposals/website-improvement-ideas.md) | Feature proposals, provider references, and poster planning |
+| Proposal | [Methodology data analysis](proposals/methodology-data-analysis.md) | Dated data snapshot and possible additions to the methodology article |
+| History | [Phase 1 audit](logs/phase_1_know_the_project.md) | Dated project inventory and decisions from the audit |
+| History | [Phase 2 audit](logs/phase_2_check_the_functioning.md) | Dated checks of site behavior and generated output |
 
 ## Documentation rules
 

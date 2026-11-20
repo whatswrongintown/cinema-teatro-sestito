@@ -6,7 +6,7 @@ This repository contains the website of Cinema Teatro Sestito, built with R, blo
 
 Project status, decisions, and open tasks are documented in:
 
-- `docs/project-status.txt`
+- `docs/project-status.md`
 
 The documentation index and guides are in `docs/README.md`. Documentation for
 the historical programming scripts is available in:

@@ -1,13 +1,13 @@
-WEBSITE IMPROVEMENT IDEAS AND TECHNICAL PLAN
+# WEBSITE IMPROVEMENT IDEAS AND TECHNICAL PLAN
 Working notes, 2026-11-15, reviewed and reorganised 2026-11-17
 Dashboard source, website design and current-data reviews: 2026-11-18
 
 Nothing here is an implementation decision unless it appears in
-docs/project-status.txt. Current issues and priorities live there; this file
+docs/project-status.md. Current issues and priorities live there; this file
 holds feature details, provider references and future proposals. Historical
 audits remain in docs/logs/. DONE / TODO / DEFERRED describe current feature state.
 
-FOUNDATION
+## FOUNDATION
 - Hugo 0.136.5 + R/blogdown, deployed with Netlify (Hugo only, no R). Static is
   mounted both as assets and as static, so anything placed in static/ is public.
 - Historical programming is organised by year, source, genre and country; the
@@ -17,9 +17,9 @@ FOUNDATION
   image-gallery shortcode makes square 300x300 thumbnails and filename captions,
   which do not suit a poster catalogue.
 
-1. CURRENT FEATURES AND PLANNED ENHANCEMENTS
+## 1. CURRENT FEATURES AND PLANNED ENHANCEMENTS
 
-1.1 Memories and contact - DONE, owner-verified working 2026-11-17
+### 1.1 Memories and contact - DONE, owner-verified working 2026-11-17
 - The homepage Hugo shortcode layouts/shortcodes/contact-form.html accepts a
   private message (required), optional name and optional reply email. It works
   without JavaScript and includes Netlify metadata, a hidden form-name field,
@@ -39,7 +39,7 @@ Docs: https://docs.netlify.com/manage/forms/setup/
       https://docs.netlify.com/manage/forms/submissions/
       https://docs.netlify.com/manage/forms/spam-filters/
 
-1.1.1 Legacy Starter context - official references checked 2026-11-17
+#### 1.1.1 Legacy Starter context - official references checked 2026-11-17
 The owner identifies the account as Legacy Starter. Do not substitute newer
 credit-based plan terms, including their unlimited Forms offering.
 - Legacy plans apply to accounts predating September 4, 2025. The published
@@ -63,7 +63,7 @@ https://docs.netlify.com/manage/accounts-and-billing/billing/billing-for-legacy-
 https://docs.netlify.com/manage/accounts-and-billing/billing/billing-for-legacy-plans/billing-faq-for-legacy-plans/
 https://docs.netlify.com/manage/forms/usage-and-billing/
 
-1.1.2 Cinema-image attachments - DEFERRED 2026-11-17, not implemented
+#### 1.1.2 Cinema-image attachments - DEFERRED 2026-11-17, not implemented
 Goal: visitors can optionally attach cinema-related images to their message.
 The existing text form must keep working, including without JavaScript.
 - The owner chose to use the existing email link for photos, or arrange their
@@ -108,7 +108,7 @@ Sources:
 https://docs.netlify.com/manage/forms/setup/#file-uploads
 https://docs.netlify.com/manage/forms/submissions/#file-uploads
 
-1.2 Search - TODO, not implemented
+### 1.2 Search - TODO, not implemented
 Make films in the programming (later posters) easy to find: search box, useful
 results, a no-results state.
 - Fields: Italian and original titles, film ID, screening year, genre, country;
@@ -124,7 +124,7 @@ results, a no-results state.
   keyboard and label support, and keep the browse pages as the no-JavaScript
   fallback. A hosted search service only if scale justifies its privacy and cost.
 
-1.3 Breadcrumbs - DONE 2026-11-18
+### 1.3 Breadcrumbs - DONE 2026-11-18
 layouts/partials/breadcrumbs.html is called once from the shared header, just
 below and outside the navigation header. It uses Hugo ancestors and .RelPermalink
 rather than dated URL segments, starts with Home, and excludes home and 404.
@@ -140,7 +140,7 @@ and the same green hover/focus highlight as page content.
   in the documentation review; keep them separate from a known implementation bug.
 Docs: https://gohugo.io/methods/page/ancestors/
 
-1.4 Vintage poster collection - TODO, proposal
+### 1.4 Vintage poster collection - TODO, proposal
 Known: 1,797 images, 3.88 GB, photographed with an iPhone SE (2nd generation),
 no copies. Folders by poster size, e.g. folder "fotobuste 50x70" with file
 "tt0038338_50x70_01": film code, size, number (different numbers are different
@@ -196,7 +196,7 @@ before agreeing a convention; if files are renamed, keep an old-to-new mapping.
 Check rights for digitised artwork before publication (ownership of the physical
 poster alone may not be enough; the owner confirms all scans can be published).
 
-1.5 Shiny dashboard maintenance - TODO F05, current direction 2026-11-18
+### 1.5 Shiny dashboard maintenance - TODO F05, current direction 2026-11-18
 The owner chose to retain the existing Shiny app and its article iframe. The
 proposed native Hugo replacement is superseded and is no longer an active plan.
 
@@ -209,21 +209,21 @@ requires explicit approval and verification of the hosted app and iframe.
 
 Agree a specific improvement and its expected behavior before changing the app.
 Record implementation and verification under F05 in
-[project status](../project-status.txt). Do not restore the superseded native
+[project status](../project-status.md). Do not restore the superseded native
 Hugo design or make the website depend on a second dashboard implementation.
-1.6 Other ideas
+### 1.6 Other ideas
 - Interactive timeline linking screenings, stories and archive items.
 - "Help identify this item": corrections reviewed before publication.
 - Curated collections: handmade posters, a decade, a genre, a local story.
 - Accessibility follow-up: O05 lightbox keyboard behavior and O07 gallery
  alternatives are complete. O06 remains closed by owner decision: other
  navigation focus styles are retained, while breadcrumbs use the content-link
- focus treatment. See docs/project-status.txt for completed checks and remaining
+ focus treatment. See docs/project-status.md for completed checks and remaining
  follow-up.
 
-2. POSTER TECHNICAL PLAN (proposal, poster pipeline not built or tested)
+## 2. POSTER TECHNICAL PLAN (proposal, poster pipeline not built or tested)
 
-2.1 Responsibilities
+### 2.1 Responsibilities
 - The poster database and the CSVs stay the authoritative inputs. A local R step
   (run when data change) validates and joins them and writes Hugo-ready data,
   pages and web images; Markdown holds editorial text; Hugo layouts and partials
@@ -232,7 +232,8 @@ Hugo design or make the website depend on a second dashboard implementation.
 - The collection must work without JavaScript. If generation ever has to run on
   Netlify, an R environment and build step must be added explicitly.
 
-2.2 Proposed files (illustrative; do not create before the model and URLs are agreed)
+### 2.2 Proposed files (illustrative; do not create before the model and URLs are agreed)
+```text
   R/update-manifesti.R          validation, joins, page and data generation
   data/manifesti.json           optional Hugo-ready lookup
   content/manifesti/_index.md   introduction and links to the five views
@@ -240,10 +241,11 @@ Hugo design or make the website depend on a second dashboard implementation.
   content/manifesti/anni|generi|formati/...   generated or editorial indexes
   layouts/manifesti/..., layouts/partials/..., layouts/shortcodes/...
   static/ or assets/            web images, depending on the image choice
+```
 Keep manually written introductions apart from generated files, document what an
 updater may overwrite, and never edit generated pages by hand.
 
-2.3 Matching and validation
+### 2.3 Matching and validation
 - Join the poster film code to `const` (screenings) and `Const` (IMDb) only after
   checking that each code is the same film. Multiple posters and screenings per
   film multiply rows in a naive join: group by film, keep individual posters and
@@ -256,7 +258,7 @@ updater may overwrite, and never edit generated pages by hand.
   unmatched IDs, missing genres, errors) and stop on errors that would give wrong
   links or broken images. Test on a small sample first.
 
-2.4 Hugo data and layouts
+### 2.4 Hugo data and layouts
 - Prototype: R generates one Markdown page per film plus the year, genre and size
   pages; front matter has the film key; a JSON lookup holds the larger
   relationships (.Site.Data reads JSON, not CSV, in Hugo 0.136.5). Alternative:
@@ -271,7 +273,7 @@ updater may overwrite, and never edit generated pages by hand.
         https://gohugo.io/functions/transform/unmarshal/
         https://gohugo.io/templates/pagination/
 
-2.5 Image pipeline and deployment
+### 2.5 Image pipeline and deployment
 - Originals stay outside the website, backed up separately. Check file types,
   EXIF orientation, dimensions and quality first.
 - Web derivatives without cropping: thumbnails and larger views, aspect ratio
@@ -286,7 +288,7 @@ updater may overwrite, and never edit generated pages by hand.
   adds cost, configuration and backups. Check real account limits.
   Docs: https://gohugo.io/content-management/image-processing/
 
-2.6 Converting the JPEGs in a separate R project
+### 2.6 Converting the JPEGs in a separate R project
 The owner prefers to convert the photos in a separate R project and copy only
 web-ready images into the site. This keeps the 3.88 GB out of the repository and
 avoids reconverting on each Hugo build.
@@ -312,9 +314,11 @@ Workflow:
 5. Process the whole collection one source at a time from the oriented original
    (not the thumbnail from the large WebP), keeping folder structure and file
    stem; only the extension changes:
-     originals\fotobuste 50x70\tt0038338_50x70_01.jpg
-     web-output\gallery\fotobuste 50x70\tt0038338_50x70_01.webp
-     web-output\large\fotobuste 50x70\tt0038338_50x70_01.webp
+   ```text
+   originals\fotobuste 50x70\tt0038338_50x70_01.jpg
+   web-output\gallery\fotobuste 50x70\tt0038338_50x70_01.webp
+   web-output\large\fotobuste 50x70\tt0038338_50x70_01.webp
+   ```
    (an example, not a decision on URLs; handle spaces in folder names when
    building links).
 6. Save a manifest outside the public site: original path, derivative paths,
@@ -327,23 +331,25 @@ Workflow:
 
 One-image experiment (illustrative, not a batch converter):
 
-  install.packages("magick")   # once, if needed
-  library(magick)
-  input <- file.choose()
-  output_dir <- choose.dir(caption = "Choose an empty sample output folder")
-  if (is.na(output_dir) || !nzchar(output_dir)) stop("No output folder chosen")
-  gallery <- file.path(output_dir, "sample-gallery.webp")
-  large <- file.path(output_dir, "sample-large.webp")
-  if (file.exists(gallery) || file.exists(large)) {
-    stop("Sample output already exists; choose an empty folder")
-  }
-  original <- image_orient(image_read(input))
-  image_write(image_strip(image_resize(original, "400x400>")),
-              path = gallery, format = "webp", quality = 78)
-  image_write(image_strip(image_resize(original, "1600x1600>")),
-              path = large, format = "webp", quality = 82)
-  print(image_info(image_read(gallery)))
-  print(image_info(image_read(large)))
+```r
+install.packages("magick")   # once, if needed
+library(magick)
+input <- file.choose()
+output_dir <- choose.dir(caption = "Choose an empty sample output folder")
+if (is.na(output_dir) || !nzchar(output_dir)) stop("No output folder chosen")
+gallery <- file.path(output_dir, "sample-gallery.webp")
+large <- file.path(output_dir, "sample-large.webp")
+if (file.exists(gallery) || file.exists(large)) {
+  stop("Sample output already exists; choose an empty folder")
+}
+original <- image_orient(image_read(input))
+image_write(image_strip(image_resize(original, "400x400>")),
+            path = gallery, format = "webp", quality = 78)
+image_write(image_strip(image_resize(original, "1600x1600>")),
+            path = large, format = "webp", quality = 82)
+print(image_info(image_read(gallery)))
+print(image_info(image_read(large)))
+```
 
 ">" prevents enlargement; orientation is applied before metadata removal. Open
 both files and compare with the original, and inspect the metadata separately.
@@ -354,7 +360,7 @@ Docs: https://docs.ropensci.org/magick/reference/editing.html
       https://docs.ropensci.org/magick/reference/transform.html
       https://docs.ropensci.org/magick/reference/geometry.html
 
-2.7 Implementation order
+### 2.7 Implementation order
 1. Inspect a sample of the poster database and file names (a local ID, a handmade
    item, a film with several sizes); agree labels, rights, identifiers and public
    metadata.
@@ -369,10 +375,10 @@ Docs: https://docs.ropensci.org/magick/reference/editing.html
 5. Breadcrumbs are implemented and build-tested. The text form is implemented,
    its privacy notice is approved, and the owner confirmed Netlify works on
    2026-11-17. Image attachments (section 1.1.2) and search remain separate future
-   enhancements; their priority is in docs/project-status.txt. Check any Hugo API
+   enhancements; their priority is in docs/project-status.md. Check any Hugo API
    against 0.136.5 before adopting it.
 
-OPEN QUESTIONS
+## OPEN QUESTIONS
 1. What do the local codes look like, and is there a list mapping each to a film?
 2. Are sizes always in centimetres, and does each image show one whole poster, a
    detail or the back?

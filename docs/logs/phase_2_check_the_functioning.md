@@ -1,8 +1,8 @@
-PHASE 2 - CHECKING HOW THE SITE WORKS (condensed log)
+# PHASE 2 - CHECKING HOW THE SITE WORKS (condensed log)
 Four technical audits started on 2026-11-13, read-only; later corrections are
-marked as such. Current status and decisions: docs/project-status.txt.
+marked as such. Current status and decisions: docs/project-status.md.
 
-PROMPT 1 - TAXONOMIES AND SECTIONS
+## PROMPT 1 - TAXONOMIES AND SECTIONS
 - Default taxonomies (categories, tags): 19 categories (269 assignments) and 34
   tags (132). Terms live under /categories/ and /tags/, without a dedicated
   layout (generic list grouped by year).
@@ -22,7 +22,7 @@ PROMPT 1 - TAXONOMIES AND SECTIONS
   /categories/note-sui-manifesti/ returns 404 (Phase 1, item 22). The /sitemap/
   page has a link without a destination for "Locandine d'epoca" (item 7).
 
-PROMPT 2 - TEMPLATES AND SHORTCODES
+## PROMPT 2 - TEMPLATES AND SHORTCODES
 - 15 local templates, no themes/ folder: the layouts derive from Hugo Lithium and
   are adapted. Own shortcodes: image-gallery and blogdown/postref (relref and
   youtube are built in). No duplicated or unused templates.
@@ -38,7 +38,7 @@ PROMPT 2 - TEMPLATES AND SHORTCODES
   .Site.LanguageCode deprecated in recent versions; root-relative URLs in the
   footer and 404 page (fine for a root deploy).
 
-PROMPT 3 - HISTORICAL PROGRAMMING AND CSV
+## PROMPT 3 - HISTORICAL PROGRAMMING AND CSV
 - Data: 5,290 valid dates (YYYY-MM-DD), no fully duplicated rows or date+const
   duplicates; 4,567 distinct const values, all with an IMDb record and URL; 606
   films recur on several dates (723 entries beyond the first). The CSVs are UTF-8
@@ -62,7 +62,7 @@ PROMPT 3 - HISTORICAL PROGRAMMING AND CSV
   the index charts are produced by R/update-indici.R
   (docs/guides/historical-programming.md). The scripts were re-run on a copy.
 
-PROMPT 4 - IMAGES AND SEO
+## PROMPT 4 - IMAGES AND SEO
 - 209 image references (14 image front matter fields) with no missing files; 80
   image-gallery calls on 77 existing folders. 1,357 images in static (about
   386.5 MiB: 1,246 PNG, 91 JPG, 15 WebP, 4 SVG, 1 ICO), none above 1 MiB.

@@ -1,4 +1,4 @@
-CINEMA TEATRO SESTITO - PROJECT STATUS (single entry point)
+# CINEMA TEATRO SESTITO - PROJECT STATUS (single entry point)
 Last review: 2026-11-19 (documentation structure and status cleanup)
 
 Read this file first and update it whenever a decision is made.
@@ -9,7 +9,7 @@ Per-item steps and file lists are in docs/plans/implementation-guide.md; they
 do not change an item's status. Historical programming instructions are in
 docs/guides/historical-programming.md.
 
-1. PROJECT AT A GLANCE
+## 1. PROJECT AT A GLANCE
 - Hugo 0.136.5 Extended (pinned in netlify.toml and .Rprofile) + R/blogdown.
 - Netlify runs Hugo only, not R or knitr. Commit generated Markdown and charts.
 - Historical programming: 3 CSVs in static/data -> local R scripts -> pages,
@@ -24,8 +24,8 @@ docs/guides/historical-programming.md.
   output, change the data and run the R scripts; preserve editorial introductions.
 - Tone for site content: welcoming, clear, professional Italian.
 
-2. COMPLETED AND VERIFIED WORK
-DONE - R workflow
+## 2. COMPLETED AND VERIFIED WORK
+### DONE - R workflow
 - 2026-11-16: update-anni/fonti/generi/paesi.R rewritten in base R, with yaml for
   metadata and showtext/sysfonts for the local Merriweather font. The recorded
   copy comparison left 241 Markdown pages unchanged; full updates took about
@@ -39,7 +39,7 @@ DONE - R workflow
   differences and were not copied back. See
   docs/guides/historical-programming.md.
 
-DONE - Website features
+### DONE - Website features
 - 2026-11-17: hierarchy-based breadcrumbs below and outside the navigation
   header; home and 404 excluded. Uses .LinkTitle, not URL segments. Breadcrumb
   links use a thinner green underline and the content links' hover/focus highlight.
@@ -62,7 +62,7 @@ DONE - Website features
 - Programming section images/charts already have descriptive alt text. Do not
   carry forward the old blanket statement that these alt texts are missing.
 
-DONE - Previously recorded build checks (not repeated in this review)
+### DONE - Previously recorded build checks (not repeated in this review)
 - 2026-11-16: Hugo 0.136.5 Extended build, 401 pages and 2,620 processed images;
   generated home head checked for canonical, Twitter Card and og:type.
 - 2026-11-17: build with form/breadcrumbs, 403 pages and 2,620 processed images;
@@ -70,15 +70,15 @@ DONE - Previously recorded build checks (not repeated in this review)
   All 77 galleries built; a missing path gave a path-specific error without a
   secondary generic readDir error. Temporary build output was removed.
 
-3. ACTUAL OPEN ITEMS
-DEFERRED O02 - Poster-related navigation
+## 3. ACTUAL OPEN ITEMS
+### DEFERRED O02 - Poster-related navigation
   Home "Locandine d'epoca" points to "/"; content/sitemap.md has an empty link.
   Fonti still links to /categories/note-sui-manifesti/ without backing content.
   On 2026-11-18, the owner deferred both the interim link cleanup and the final
   source/category work until poster and database decisions are finalized.
   Create the planned "Note sui manifesti" source/category when data are ready.
   See docs/guides/historical-programming.md; do not invent a source or poster catalogue.
-DONE O05 - Lightbox keyboard accessibility (2026-11-18)
+### DONE O05 - Lightbox keyboard accessibility (2026-11-18)
   Close/previous/next now use labelled Italian buttons, the viewer has dialog
   semantics, focus is contained and restored, and Escape closes it. The existing
   image links still work without JavaScript; mouse and gallery navigation remain
@@ -88,7 +88,7 @@ DONE O05 - Lightbox keyboard accessibility (2026-11-18)
   that the corrected viewer worked in a local serve_site() preview. No YouTube
   or Vimeo link exists in current content, so dormant support was preserved but
   not claimed as live-browser verified.
-DONE O07 - Meaningful gallery alternatives (2026-11-18)
+### DONE O07 - Meaningful gallery alternatives (2026-11-18)
   On 2026-11-18, the logo alt was changed from "avatar" to
   "Cinema Teatro Sestito - Home"; a Hugo 0.136.5 build confirmed the rendered
   image alt. The owner narrowed the remaining scope: provide meaningful
@@ -104,15 +104,15 @@ DONE O07 - Meaningful gallery alternatives (2026-11-18)
   sequences use page-level alternatives. A future gallery without metadata emits
   a path-specific build warning. On 2026-11-18, the owner confirmed the pilot
   works in serve_site().
-DONE O08 - Localization and taxonomy browsing (2026-11-18)
+### DONE O08 - Localization and taxonomy browsing (2026-11-18)
   On 2026-11-18, article reading time was changed from "min read" to "min di
   lettura". The owner reviewed the remaining date and taxonomy behavior in a
   local serve_site() preview and chose to retain the current ISO dates, labels
   and taxonomy year grouping as acceptable. The earlier year-0001 concern does
   not block this decision.
 
-4. REMAINING CHECKS, MAINTENANCE AND OPTIONAL POLISH
-DONE V01 - Rendering and interaction checks (2026-11-18)
+## 4. REMAINING CHECKS, MAINTENANCE AND OPTIONAL POLISH
+### DONE V01 - Rendering and interaction checks (2026-11-18)
   Hugo 0.136.5 production and -F preview builds passed at 404 pages and 2,620
   processed images. Representative Home, Progetto, privacy/confirmation,
   archive, article, annual/source, genre/country, taxonomy and 404 outputs had
@@ -124,30 +124,30 @@ DONE V01 - Rendering and interaction checks (2026-11-18)
   meaningful O07 alternatives passed. A temporary missing gallery reproduced a
   path-specific shortcode error and was removed. No Netlify submission or
   external form-limit scenario was tested.
-DONE V02 - Explicit sitemap lastmod policy (2026-11-18).
+### DONE V02 - Explicit sitemap lastmod policy (2026-11-18).
   Hugo now reads lastmod only from explicit front matter; it no longer treats a
   page's historical publication/document date as its modification date. Twelve
   recently edited editorial pages received verified commit-based dates. Pages
   without trustworthy editorial modification dates omit lastmod. The annual R
   generator accepts an optional validated date for future data/content updates.
-DONE V03 - Footer GitHub destination normalized (2026-11-18).
+### DONE V03 - Footer GitHub destination normalized (2026-11-18).
   config.yaml now uses whatswrongintown/cinema-teatro-sestito without .git.
   A Hugo 0.136.5 build emitted the normalized URL, which returned HTTP 200.
-DONE P01 - Shorter programming breadcrumb labels (2026-11-18)
+### DONE P01 - Shorter programming breadcrumb labels (2026-11-18)
   The four programming indexes now use standard linkTitle values: Anni, Fonti,
   Generi and Paesi. Full headings and URLs remain unchanged. Annual detail pages
   retain their existing labels; no R generator or breadcrumb template changed.
-DONE P02 - Lightbox asset placement/portability (2026-11-18)
+### DONE P02 - Lightbox asset placement/portability (2026-11-18)
   lightbox.css is now loaded from the shared head, while lightbox.js remains in
   the footer. Both asset URLs use Hugo's relURL helper for portable base paths.
-DONE M01 - Routine form/privacy operations
+### DONE M01 - Routine form/privacy operations
   Monitor spam and usage; retain/delete messages according to the approved
   notice. Optional publication follow-up is not permission to publish.
   Owner's working-state confirmation closes the former general launch blocker;
   it does not assert testing of every exceptional failure or limit scenario.
   The form is not feature-flagged: deploying its shortcode publishes it.
 
-5. DECISIONS AND PROVIDER CONTEXT
+## 5. DECISIONS AND PROVIDER CONTEXT
 - Keep params.anno and the generic root/static favicons.
 - Keep goldmark unsafe: true (inline HTML, one iframe).
 - Netlify stays Hugo-only; renv remains unused. Legacy R generators are removed
@@ -165,13 +165,13 @@ DONE M01 - Routine form/privacy operations
   and the active Forms level; this review did not inspect the dashboard.
 - Legacy Starter metered usage can trigger upgrades/charges; do not confuse it
   with Legacy Free hard limits or newer credit-based Forms terms. No plan change
-  is proposed. See docs/proposals/website-improvement-ideas.txt for sources/upload limits.
+  is proposed. See docs/proposals/website-improvement-ideas.md for sources/upload limits.
 - Hugo upgrades are not planned. Later versions require excludeFiles -> files
   (deprecated >=0.153, removed 0.169), languageCode -> locale (>=0.158). Test in a
   copy and align netlify.toml/.Rprofile if an upgrade is separately authorized.
 
-6. ROADMAP (future features are not current defects)
-DONE F01 - Cinema-image attachments to the working contact form
+## 6. ROADMAP (future features are not current defects)
+### DONE F01 - Cinema-image attachments to the working contact form
   Owner chose on 2026-11-17 to use the existing email link or arrange photos
   after contact instead. Form uploads are not implemented or enabled.
   If revisited, preserve text-only and no-JavaScript use.
@@ -183,15 +183,15 @@ DONE F01 - Cinema-image attachments to the working contact form
   upload timeout; the monthly upload allowance is separate. Review validation,
   access, metadata/privacy, retention, rights and separate publication permission
   before enabling. Full requirements/references:
-  docs/proposals/website-improvement-ideas.txt.
-TODO F02 - Poster collection pilot
+  docs/proposals/website-improvement-ideas.md.
+### TODO F02 - Poster collection pilot
   Inspect manifesti_archivio.csv outside the project, local codes, formats and
   front/back metadata. Start with one format and a film page, then five browse
   views. Convert images in a separate R project; validate joins and scale costs.
-TODO F03 - Film search (programming first, posters later)
+### TODO F03 - Film search (programming first, posters later)
   Define result granularity, scope and matching behavior before implementation.
-DEFERRED F04 - Timeline, identification help and curated collections.
-DONE F05 - Improve the existing Shiny historical-programming dashboard
+### DEFERRED F04 - Timeline, identification help and curated collections.
+### DONE F05 - Improve the existing Shiny historical-programming dashboard
   Owner decision 2026-11-18: retain Shiny and the existing article iframe; the
   previous native Hugo replacement proposal was abandoned. R/shinyapp_dashboard
   contains the revised app, which uses the website's static/data CSVs locally,
@@ -204,7 +204,7 @@ DONE F05 - Improve the existing Shiny historical-programming dashboard
   the deployment record is retained. The native Hugo replacement was superseded;
   the current direction is to maintain the existing Shiny app and iframe.
 
-7. REVIEW LIMITS AND DOCUMENTATION MAINTENANCE
+## 7. REVIEW LIMITS AND DOCUMENTATION MAINTENANCE
 - On 2026-11-19, documentation was grouped into an index, guides, plans,
   proposals and historical logs. The native-Hugo dashboard proposal was removed
   from active planning; the Shiny maintenance direction remains current.

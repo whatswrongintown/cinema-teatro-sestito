@@ -1,9 +1,8 @@
-METHODOLOGY ARTICLE: DATA ANALYSIS AND POSSIBLE IMPROVEMENTS
+# METHODOLOGY ARTICLE: DATA ANALYSIS AND POSSIBLE IMPROVEMENTS
 Working notes, 2026-11-17. Proposals and questions, not implementation decisions.
-Current priorities and the O04 status are in docs/project-status.txt.
+Current priorities and the O04 status are in docs/project-status.md.
 
-Scope
------
+## Scope
 This note examines content/articoli/2026-11-11-metodologia-ricostruzione-programmazione/index.md
 and all three CSV files in static/data. It proposes ways to make the article's
 account of the resulting database more tangible. No changes to the article,
@@ -15,8 +14,7 @@ were treated as missing; comma-separated values were split and trimmed for the
 association counts. Counts describe the files, not the complete historical
 activity of the cinema.
 
-1. What the article already explains
-------------------------------------
+## 1. What the article already explains
 The article describes the discovery and condition of the documents, the
 different handwriting, scanning and working copies, transcription, comparison
 of sources, IMDb identification and enrichment with IMDb and OMDb metadata.
@@ -34,8 +32,7 @@ The files do not themselves record a flag for directly attested versus
 reconstructed dates, excluded titles, or the number of illegible/missing
 documents. Their proportions cannot be calculated from these CSVs alone.
 
-2. What is in the current data
-------------------------------
+## 2. What is in the current data
 * programmazione_agende.csv: 5,290 dated title entries, from 1948-01-06 to
   2004-05-02, covering all 57 calendar years in that range. There are 4,567
   distinct const values and 5,183 distinct dates. No date/const pair is
@@ -86,23 +83,24 @@ comma-separated cell or joined metadata field. Comparisons with IMDb Year use
 calendar years, not the exact release date. No sources outside the repository
 were consulted to validate individual films or archival evidence.
 
-3. Suggested article additions, in priority order
--------------------------------------------------
-A. Database structure and a compact summary
+## 3. Suggested article additions, in priority order
+### A. Database structure and a compact summary
    Place after "Dalle fonti al database" or at the start of "Metadati, tabelle
    e grafici". Describe one dated entry, its possible multiple documentary
    sources, the shared film identifier and the separate IMDb and OMDb
    enrichment. A small diagram or table can show:
 
-     archival documents -> dated entries (date, title, ID, sources)
-                        -> ID links to IMDb metadata and OMDb country metadata
+```text
+archival documents -> dated entries (date, title, ID, sources)
+                   -> ID links to IMDb metadata and OMDb country metadata
+```
 
    Show the snapshot's entry count, distinct film-ID count and date range, with
    a date and a sentence that the figures describe identified, recorded
    material only. Source labels represent links in the data, not necessarily a
    separate table of documents. Do not suggest IMDb/OMDb are archival proof.
 
-B. Coverage and gaps by year or month
+### B. Coverage and gaps by year or month
    A year-by-month heatmap of entry counts would make uneven coverage visible.
    Label the measure "voci datate nel database", show zero-entry months as
    "nessuna voce registrata" rather than "chiuso", and annotate 1960-1961.
@@ -117,7 +115,7 @@ B. Coverage and gaps by year or month
    not described as an unchanged reuse. Decide whether to link to existing
    charts instead of duplicating them.
 
-C. How much source corroboration is recorded
+### C. How much source corroboration is recorded
    A small bar chart of entries with 1, 2, 3 or more listed source labels, or a
    table of entry-source associations by source type and decade, could
    illustrate cross-checking. State the denominator and count an entry once in
@@ -126,7 +124,7 @@ C. How much source corroboration is recorded
    The existing source chart already groups labels by naming rules; check
    whether that classification is suitable before reusing its output.
 
-D. Metadata completeness and join transparency
+### D. Metadata completeness and join transparency
    A compact table can contrast total entries with entries having IMDb genres,
    scores, country and income, showing both numerator and denominator. Explain
    the entry-level join and optionally provide film-level completeness
@@ -135,7 +133,7 @@ D. Metadata completeness and join transparency
    unmatched country ID in technical notes rather than silently dropping it.
    Scores are IMDb users' ratings, not historical ratings by the local audience.
 
-E. One traceable example
+### E. One traceable example
    With the author's choice of a suitable source, illustrate a manuscript
    annotation -> interpreted title/date -> database row -> linked film
    metadata. Identify exactly which parts are transcribed, reconstructed or
@@ -143,7 +141,7 @@ E. One traceable example
    example or assert that a date was reconstructed unless the evidence and
    editorial decision are known.
 
-Lower priority / needs a decision:
+### Lower priority / needs a decision
 * Release-to-programming delay: IMDb Year versus entry year can give a coarse
   year difference, not a precise elapsed time or necessarily the Italian
   release date. Review the 17 negative cases first, report exclusions and
@@ -165,8 +163,7 @@ Lower priority / needs a decision:
   attendance and missing data limit comparisons; no conclusion about audience
   size or taste follows directly from raw income.
 
-4. Possible future R workflow (not implemented)
-----------------------------------------------
+## 4. Possible future R workflow (not implemented)
 Read the three local CSVs, validate required columns, dates, IDs and unique
 metadata keys, then report unmatched IDs and missing values explicitly. Keep
 the entry-level table intact when joining film metadata; expand multi-valued
@@ -184,8 +181,7 @@ site build; the documented Netlify deployment runs Hugo, not R, so generated
 assets and Markdown would need to be persisted with the site. Do not overwrite
 or silently resolve data discrepancies.
 
-5. Questions for the author
----------------------------
+## 5. Questions for the author
 1. Is the article primarily for general readers, researchers, or both? How
    much technical explanation should remain in the article versus a linked
    technical note?
@@ -206,8 +202,7 @@ or silently resolve data discrepancies.
    separate results file for editorial insertion, or update a marked section of
    the article automatically? How often should the figures be refreshed?
 
-6. Author's initial answers
---------------------------
+## 6. Author's initial answers
 * The intended audience is both general readers and researchers. All proposed
   additions seem important; database structure may be a useful starting point.
 * Include 1960-1961 in a new coverage chart with a clear warning.
@@ -225,8 +220,7 @@ or silently resolve data discrepancies.
 These answers guide a future proposal; they do not authorize implementing the
 script or changing the article now. The other questions above remain open.
 
-7. Proposed summary for the historical programming landing page
-----------------------------------------------------------------
+## 7. Proposed summary for the historical programming landing page
 The author suggests putting a concise explanation of the database directly in
 content/programmazione-storica/_index.md, rather than only in the methodology
 article. The figures below are a snapshot and need refreshing when the data

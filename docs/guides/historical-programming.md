@@ -161,7 +161,7 @@ The existing genre calculation removes `Drammatico` when a film has more than
 one expanded row, so it also removes repeated Drammatico-only films, not just
 films with several genres. Missing genres count as not adult in the adult-share
 calculation. The methodology/index prose does not yet fully explain these two
-behaviors; see O04 in [project status](../project-status.txt).
+behaviors; see O04 in [project status](../project-status.md).
 
 Earlier analysis recorded 62 films / 126 rows affected by the repeated
 Drammatico-only exclusion, 104 missing-genre rows, and 7,126 country associations.
