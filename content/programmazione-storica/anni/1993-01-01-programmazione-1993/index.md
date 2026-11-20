@@ -27,14 +27,17 @@ I voti IMDb descrivono le valutazioni degli utenti IMDb, non il pubblico o gli i
 | 1993-01-06 | [Io speriamo che me la cavo](https://www.imdb.com/title/tt0107225/) |
 | 1993-01-10 | [I sonnambuli](https://www.imdb.com/title/tt0105428/) |
 | 1993-01-10 | [Pretty Anal](https://www.imdb.com/title/tt0159670/) |
+| 1993-01-10 | Incontri intimi di coppie viziose |
 | 1993-01-24 | [Resa dei conti a Little Tokyo](https://www.imdb.com/title/tt0102915/) |
 | 1993-01-30 | [La bella e la bestia](https://www.imdb.com/title/tt0101414/) |
+| 1993-01-31 | [Le superscatenate](https://www.imdb.com/title/tt0098648/) |
 | 1993-01-31 | [Scanners 2 - Il nuovo ordine](https://www.imdb.com/title/tt0102848/) |
 
 ### Febbraio
 
 |           |                                       |
 |:----------|:--------------------------------------|
+| 1993-02-07 | [Orgia libera](https://www.imdb.com/title/tt10784464/) |
 | 1993-02-14 | [Mutande pazze](https://www.imdb.com/title/tt0104948/) |
 
 ### Marzo
@@ -80,5 +83,5 @@ I voti IMDb descrivono le valutazioni degli utenti IMDb, non il pubblico o gli i
 | 1993-12-19 | [Cimitero vivente 2](https://www.imdb.com/title/tt0105128/) |
 | 1993-12-26 | [Cliffhanger - L'ultima sfida](https://www.imdb.com/title/tt0106582/) |
 
-[^1]: Fonti: [Calendario 1993]({{< relref "programmazione-storica/fonti/1993-01-01-calendario-1993/index.md" >}}), [Italautogamma 1992-93]({{< relref "programmazione-storica/fonti/1992-10-01-appunti-italautogamma-1992-93/index.md" >}}), [New Europe 1993-94]({{< relref "programmazione-storica/fonti/1993-10-01-appunti-new-europe-1993-94/index.md" >}})
+[^1]: Fonti: [Calendario 1993]({{< relref "programmazione-storica/fonti/1993-01-01-calendario-1993/index.md" >}}), [Italautogamma 1992-93]({{< relref "programmazione-storica/fonti/1992-10-01-appunti-italautogamma-1992-93/index.md" >}}), [New Europe 1993-94]({{< relref "programmazione-storica/fonti/1993-10-01-appunti-new-europe-1993-94/index.md" >}}), [Note sui manifesti]({{< relref "programmazione-storica/fonti/1965-01-01-note-sui-manifesti/index.md" >}})
 

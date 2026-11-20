@@ -60,6 +60,7 @@ lastmod: '2026-11-18'
 | 1987-10-10 | [Nessuna pietà](https://www.imdb.com/title/tt0091637/) |
 | 1987-10-11 | [Babe](https://www.imdb.com/title/tt0083606/) |
 | 1987-10-17 | [Porno anomalia](https://www.imdb.com/title/tt0263626/) |
+| 1987-10-18 | [Corpi d'amore porno](https://www.imdb.com/title/tt0076235/) |
 | 1987-10-18 | [Super Fantozzi](https://www.imdb.com/title/tt0090101/) |
 | 1987-10-24 | [America di notte 2 (Mondo Sexualis USA)](https://www.imdb.com/title/tt0276340/) |
 | 1987-10-25 | [Predator](https://www.imdb.com/title/tt0093773/) |
@@ -76,12 +77,14 @@ lastmod: '2026-11-18'
 | 1987-11-08 | [Telefono rosso](https://www.imdb.com/title/tt0210330/) |
 | 1987-11-12 | [I barbari](https://www.imdb.com/title/tt0092615/) |
 | 1987-11-13 | [Senza limiti](https://www.imdb.com/title/tt0076197/) |
+| 1987-11-14 | [Bruce Lee il dominatore](https://www.imdb.com/title/tt0074246/) |
 | 1987-11-15 | [Il caso Moro](https://www.imdb.com/title/tt0090805/) |
 | 1987-11-15 | [Supermaschio per mogli viziose](https://www.imdb.com/title/tt0157532/) |
 | 1987-11-21 | [Spettri](https://www.imdb.com/title/tt0094015/) |
 | 1987-11-22 | [Rimini Rimini](https://www.imdb.com/title/tt0093864/) |
 | 1987-11-26 | [Il portiere di notte](https://www.imdb.com/title/tt0071910/) |
 | 1987-11-29 | [La casa 2](https://www.imdb.com/title/tt0092991/) |
+| 1987-11-29 | Movie Fantasy |
 
 ### Dicembre
 
@@ -120,6 +123,7 @@ lastmod: '2026-11-18'
 |---|---|
 | 1988-02-07 | [Soldati - 365 all'alba](https://www.imdb.com/title/tt0094003/) |
 | 1988-02-09 | [Creepshow 2](https://www.imdb.com/title/tt0092796/) |
+| 1988-02-10 | [Flash excitation blue](https://www.imdb.com/title/tt0316886/) |
 | 1988-02-10 | [Il caldo letto della vergine](https://www.imdb.com/title/tt15035936/) |
 | 1988-02-12 | [Mr. Crocodile Dundee](https://www.imdb.com/title/tt0090555/) |
 | 1988-02-14 | [Beverly Hills Cop II - Un piedipiatti a Beverly Hills II](https://www.imdb.com/title/tt0092644/) |
@@ -161,6 +165,7 @@ lastmod: '2026-11-18'
 | 1988-04-17 | [La sfida erotica](https://www.imdb.com/title/tt0213237/) |
 | 1988-04-23 | [Senza via di scampo](https://www.imdb.com/title/tt0093640/) |
 | 1988-04-24 | [Io e mia sorella](https://www.imdb.com/title/tt0093274/) |
+| 1988-04-25 | Marina e le sue voglie |
 | 1988-04-26 | [Sottozero](https://www.imdb.com/title/tt0094010/) |
 
 ### Maggio
@@ -168,7 +173,9 @@ lastmod: '2026-11-18'
 |  |  |
 |---|---|
 | 1988-05-01 | [Giochi bestiali nel mondo - Animal games](https://www.imdb.com/title/tt0329118/) |
+| 1988-05-01 | Corpi caldi |
 | 1988-05-07 | [La monaca di Monza](https://www.imdb.com/title/tt0091540/) |
 | 1988-05-21 | [I vizi segreti degli italiani quando credono di non essere visti](https://www.imdb.com/title/tt0201317/) |
 | 1988-05-22 | [La Bamba](https://www.imdb.com/title/tt0093378/) |
 | 1988-05-29 | [Non stop sempre buio in sala](https://www.imdb.com/title/tt0089990/) |
+

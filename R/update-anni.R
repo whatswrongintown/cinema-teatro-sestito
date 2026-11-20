@@ -111,6 +111,12 @@ load_anni_data <- function(project_root) {
       stop("Valori mancanti nella colonna delle proiezioni: ", column, call. = FALSE)
     }
   }
+  missing_const_count <- sum(is.na(screenings$const) | !nzchar(trimws(screenings$const)))
+  if (missing_const_count > 0) {
+    warning(missing_const_count,
+            " proiezioni senza identificativo IMDb: il titolo restera' senza collegamento.",
+            call. = FALSE)
+  }
   # Le date devono essere valide; gli identificativi IMDb devono essere univoci.
   dates <- as.Date(screenings$date, format = "%Y-%m-%d")
   if (anyNA(dates) || any(format(dates, "%Y-%m-%d") != screenings$date)) {
@@ -129,7 +135,9 @@ load_anni_data <- function(project_root) {
     stop("Valutazioni o numeri di voti IMDb non validi.", call. = FALSE)
   }
   # Aggiunge anno, mese e dati IMDb a ogni proiezione, mantenendo le ripetizioni.
-  position <- match(screenings$const, imdb$Const)
+  has_const <- !is.na(screenings$const) & nzchar(trimws(screenings$const))
+  position <- rep(NA, nrow(screenings))
+  position[has_const] <- match(screenings$const[has_const], imdb$Const)
   screenings$date_text <- screenings$date
   screenings$date <- dates
   screenings$anno <- as.integer(substr(screenings$date_text, 1L, 4L))

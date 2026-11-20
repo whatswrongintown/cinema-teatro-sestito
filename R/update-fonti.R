@@ -93,6 +93,12 @@ load_fonti_screenings <- function(project_root) {
       stop("Valori mancanti nella colonna delle proiezioni: ", column, call. = FALSE)
     }
   }
+  missing_const_count <- sum(is.na(screenings$const) | !nzchar(trimws(screenings$const)))
+  if (missing_const_count > 0) {
+    warning(missing_const_count,
+            " proiezioni senza identificativo IMDb: i titoli appariranno senza collegamento.",
+            call. = FALSE)
+  }
   # Le date devono essere valide; gli identificativi IMDb devono essere univoci.
   dates <- as.Date(screenings$date, format = "%Y-%m-%d")
   if (anyNA(dates) || any(format(dates, "%Y-%m-%d") != screenings$date)) {
@@ -111,11 +117,13 @@ load_fonti_screenings <- function(project_root) {
     stop("Valutazioni o numeri di voti IMDb non validi.", call. = FALSE)
   }
   # Aggiunge anno, mese e URL IMDb a ogni proiezione, mantenendo le ripetizioni.
+  has_const <- !is.na(screenings$const) & nzchar(trimws(screenings$const))
   screenings$date_text <- screenings$date
   screenings$date <- dates
   screenings$anno <- as.integer(substr(screenings$date_text, 1L, 4L))
   screenings$mese <- as.integer(substr(screenings$date_text, 6L, 7L))
-  screenings$url <- imdb$URL[match(screenings$const, imdb$Const)]
+  screenings$url <- NA_character_
+  screenings$url[has_const] <- imdb$URL[match(screenings$const[has_const], imdb$Const)]
   missing_url_count <- sum(is.na(screenings$url) | !nzchar(screenings$url))
   if (missing_url_count > 0) {
     warning(missing_url_count,
@@ -257,6 +265,44 @@ fonti_description <- function(prefix, title, project_root = NULL, date_slug = NU
   prefix
 }
 
+# Crea automaticamente una pagina di fonte mancante con titolo e metadata di base.
+create_missing_fonti_page <- function(value, directory, project_root) {
+  # Genera slug dal titolo: convert to lowercase, replace spaces/special chars with hyphens
+  slug <- tolower(fonti_trim(value))
+  slug <- gsub("[^a-z0-9]+", "-", slug)
+  slug <- sub("^-|-$", "", slug)
+  
+  # Usa la data della prima proiezione di questa fonte come data della pagina
+  date_text <- "1965-01-01"
+  folder_name <- paste0(date_text, "-", slug)
+  page_path <- file.path(directory, folder_name, "index.md")
+  
+  # Crea la cartella
+  dir.create(dirname(page_path), recursive = TRUE, showWarnings = FALSE)
+  
+  # Front matter template
+  front_matter <- paste0(
+    "---\n",
+    "title: ", value, "\n",
+    "author: Vito Sestito\n",
+    "date: '", date_text, "'\n",
+    "slug: ", slug, "\n",
+    "categories:\n",
+    "  - ", value, "\n",
+    "description: Screenings from this source in the cinema archive.\n",
+    "---\n",
+    "\n",
+    "<!-- Tabelle generate automaticamente. -->\n"
+  )
+  
+  # Scrivi il file
+  writeLines(enc2utf8(front_matter), page_path, useBytes = TRUE)
+  
+  # Restituisci il titolo della pagina creata
+  message("Creata automaticamente pagina: ", page_path)
+  value
+}
+
 # Prepara le pagine di una sezione in memoria, senza ancora scriverle su disco.
 prepare_fonti_pages <- function(data, section, directory, project_root, selection = NULL) {
   pages <- read_fonti_pages(directory)
@@ -285,8 +331,12 @@ prepare_fonti_pages <- function(data, section, directory, project_root, selectio
   }
   unknown <- values$value[!values$key %in% pages$key]
   if (length(unknown)) {
-    stop("Creare prima le schede delle fonti: ", paste(unknown, collapse = ", "),
-         call. = FALSE)
+    # Auto-crea le pagine mancanti
+    for (val in unknown) {
+      create_missing_fonti_page(val, directory, project_root)
+    }
+    # Rileggi le pagine dopo aver creato le nuove
+    pages <- read_fonti_pages(directory)
   }
   # Mantiene la parte iniziale delle pagine esistenti e sostituisce le tabelle.
   by_key <- split(seq_len(nrow(data)), data$key)

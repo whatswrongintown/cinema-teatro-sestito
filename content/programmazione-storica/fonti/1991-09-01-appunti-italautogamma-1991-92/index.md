@@ -25,6 +25,7 @@ lastmod: '2026-11-18'
 |---|---|
 | 1991-09-15 | [Taboo American Style 1: The Ruthless Beginning](https://www.imdb.com/title/tt0128683/) |
 | 1991-09-22 | [La setta](https://www.imdb.com/title/tt0100581/) |
+| 1991-09-22 | Una moglie da sballo |
 | 1991-09-29 | [Volere volare](https://www.imdb.com/title/tt0103223/) |
 | 1991-09-29 | [Taboo American Style 2: The Story Continues](https://www.imdb.com/title/tt0128684/) |
 
@@ -64,8 +65,9 @@ lastmod: '2026-11-18'
 | 1991-12-08 | [Le età di Lulù](https://www.imdb.com/title/tt0099484/) |
 | 1991-12-08 | [Scappatella con il morto](https://www.imdb.com/title/tt0100611/) |
 | 1991-12-15 | [The Doors](https://www.imdb.com/title/tt0101761/) |
+| 1991-12-15 | [Avide lingue](https://www.imdb.com/title/tt0195293/) |
 | 1991-12-22 | [Ritorno alla laguna blu](https://www.imdb.com/title/tt0102782/) |
-| 1991-12-22 | [Dirty Girls](https://www.imdb.com/title/tt14993278/) |
+| 1991-12-22 | [Dirty Girls](https://www.imdb.com/title/tt0178379/) |
 | 1991-12-29 | [Piedipiatti](https://www.imdb.com/title/tt0102668/) |
 | 1991-12-29 | [Alexandra... oltre i confini del sesso](https://www.imdb.com/title/tt0196326/) |
 
@@ -87,7 +89,9 @@ lastmod: '2026-11-18'
 |  |  |
 |---|---|
 | 1992-02-02 | [Le comiche 2](https://www.imdb.com/title/tt0103991/) |
+| 1992-02-02 | [Il miele dell'amante regina](https://www.imdb.com/title/tt0444336/) |
 | 1992-02-09 | [Vacanze di Natale '91](https://www.imdb.com/title/tt0105717/) |
+| 1992-02-09 | [Provocazione carnale](https://www.imdb.com/title/tt0189799/) |
 | 1992-02-16 | [La creatura del cimitero](https://www.imdb.com/title/tt0099697/) |
 | 1992-02-23 | [Donne con le gonne](https://www.imdb.com/title/tt0104122/) |
 | 1992-02-23 | [Vergini corpi frementi](https://www.imdb.com/title/tt0126098/) |
@@ -96,20 +100,24 @@ lastmod: '2026-11-18'
 
 |  |  |
 |---|---|
-| 1992-03-01 | [Femmine sfrenate](https://www.imdb.com/title/tt0096037/) |
 | 1992-03-01 | [Robin Hood - Principe dei ladri](https://www.imdb.com/title/tt0102798/) |
+| 1992-03-01 | [Femmine sfrenate](https://www.imdb.com/title/tt0178877/) |
 | 1992-03-08 | [Forza d'urto](https://www.imdb.com/title/tt0102984/) |
+| 1992-03-08 | [Viziose asolescenti](https://www.imdb.com/title/tt0125175/) |
 | 1992-03-15 | [Dove comincia la notte](https://www.imdb.com/title/tt0155681/) |
 | 1992-03-22 | [A volte ritornano](https://www.imdb.com/title/tt0102960/) |
-| 1992-03-29 | [Robin Hood - La leggenda](https://www.imdb.com/title/tt0102797/) |
+| 1992-03-22 | Voluttuose deviazioni carnali |
 | 1992-03-29 | [Delirio di femmine viziose](https://www.imdb.com/title/tt0088160/) |
+| 1992-03-29 | [Robin Hood - La leggenda](https://www.imdb.com/title/tt0102797/) |
 
 ### Aprile
 
 |  |  |
 |---|---|
+| 1992-04-05 | [Febbre di lingue viziose](https://www.imdb.com/title/tt0139593/) |
 | 1992-04-12 | [Tutti i vizzi de mia moglie](https://www.imdb.com/title/tt8006450/) |
 | 1992-04-19 | [La notte dei morti viventi](https://www.imdb.com/title/tt0100258/) |
+| 1992-04-19 | [Solange la calda bocca](https://www.imdb.com/title/tt0459021/) |
 | 1992-04-25 | [Giustizia a tutti i costi](https://www.imdb.com/title/tt0102614/) |
 | 1992-04-26 | [La famiglia Addams](https://www.imdb.com/title/tt0101272/) |
 | 1992-04-26 | [Esperienze innaturali di Lorain](https://www.imdb.com/title/tt0311643/) |
@@ -121,3 +129,5 @@ lastmod: '2026-11-18'
 | 1992-05-03 | [Così fan tutte](https://www.imdb.com/title/tt0104014/) |
 | 1992-05-10 | [Le donne di Mandingo](https://www.imdb.com/title/tt0144877/) |
 | 1992-05-17 | [I delitti del gatto nero](https://www.imdb.com/title/tt0100740/) |
+| 1992-05-24 | [Angelica, marchesa di Sodoma](https://www.imdb.com/title/tt1233204/) |
+

@@ -84,19 +84,19 @@ image: "/programmazione-storica/paesi-di-produzione/_index_files/figure-html/ita
 | 1950-01-20 | [La vedova allegra](https://www.imdb.com/title/tt0025493/) |
 | 1950-01-22 | [La vedova allegra](https://www.imdb.com/title/tt0025493/) |
 | 1950-01-28 | [Il castello di Dragonwyck](https://www.imdb.com/title/tt0038492/) |
-| 1950-02-01 | [Il castello di Dragonwyck](https://www.imdb.com/title/tt0038492/) |
 | 1950-02-01 | [Bernadette](https://www.imdb.com/title/tt0036377/) |
+| 1950-02-01 | [Il castello di Dragonwyck](https://www.imdb.com/title/tt0038492/) |
 | 1950-02-02 | [Il segno di Zorro](https://www.imdb.com/title/tt0032762/) |
 | 1950-02-06 | [Come tu mi vuoi](https://www.imdb.com/title/tt0022641/) |
 | 1950-02-07 | [Duello col pirata nero](https://www.imdb.com/title/tt0030725/) |
-| 1950-02-11 | [Duello mortale](https://www.imdb.com/title/tt0033873/) |
 | 1950-02-11 | [Duello col pirata nero](https://www.imdb.com/title/tt0030725/) |
+| 1950-02-11 | [Duello mortale](https://www.imdb.com/title/tt0033873/) |
 | 1950-02-14 | [Duello mortale](https://www.imdb.com/title/tt0033873/) |
 | 1950-02-15 | [Difendo mia figlia](https://www.imdb.com/title/tt0165938/) |
 | 1950-02-18 | [Salomè](https://www.imdb.com/title/tt0038046/) |
 | 1950-02-24 | [Il figlio della furia](https://www.imdb.com/title/tt0035360/) |
-| 1950-02-25 | [Il 13 non risponde](https://www.imdb.com/title/tt0038279/) |
 | 1950-02-25 | [La carovana dei ribelli](https://www.imdb.com/title/tt0036890/) |
+| 1950-02-25 | [Il 13 non risponde](https://www.imdb.com/title/tt0038279/) |
 | 1950-03-07 | [Come tu mi vuoi](https://www.imdb.com/title/tt0022641/) |
 | 1950-03-12 | [Difendo mia figlia](https://www.imdb.com/title/tt0165938/) |
 | 1950-03-14 | [La foresta incantata](https://www.imdb.com/title/tt0037672/) |
@@ -1129,7 +1129,6 @@ image: "/programmazione-storica/paesi-di-produzione/_index_files/figure-html/ita
 | 1973-11-01 | [I cospiratori](https://www.imdb.com/title/tt0066090/) |
 | 1973-11-06 | [Professione: assassino](https://www.imdb.com/title/tt0068931/) |
 | 1973-11-09 | [Carmen Baby](https://www.imdb.com/title/tt0061448/) |
-| 1973-11-20 | [L'orgia del vampiro](https://www.imdb.com/title/tt0139288/) |
 | 1973-11-25 | [La notte brava del soldato Jonathan](https://www.imdb.com/title/tt0066819/) |
 | 1973-11-27 | [Le amanti proibite del Dr. Sex](https://www.imdb.com/title/tt0074195/) |
 | 1973-11-30 | [L'isola delle salamandre](https://www.imdb.com/title/tt0069336/) |
@@ -1409,6 +1408,7 @@ image: "/programmazione-storica/paesi-di-produzione/_index_files/figure-html/ita
 | 1983-04-17 | [Sweet savage - Dolce selvaggia](https://www.imdb.com/title/tt0079975/) |
 | 1983-09-23 | [Il giustiziere della notte 2](https://www.imdb.com/title/tt0082250/) |
 | 1983-09-29 | [Sweet savage - Dolce selvaggia](https://www.imdb.com/title/tt0079975/) |
+| 1983-09-30 | [Le notti di Salem](https://www.imdb.com/title/tt0079844/) |
 | 1983-10-16 | [Conan il barbaro](https://www.imdb.com/title/tt0082198/) |
 | 1983-10-23 | [Terrore in città](https://www.imdb.com/title/tt0084684/) |
 | 1983-10-28 | [Excalibur](https://www.imdb.com/title/tt0082348/) |
@@ -1430,8 +1430,9 @@ image: "/programmazione-storica/paesi-di-produzione/_index_files/figure-html/ita
 | 1984-01-12 | [Cacciatori di squali](https://www.imdb.com/title/tt0049751/) |
 | 1984-01-22 | [I nuovi barbari](https://www.imdb.com/title/tt0084424/) |
 | 1984-01-28 | [American porno teenager (Teenage Sex Kitten)](https://www.imdb.com/title/tt0197010/) |
-| 1984-02-04 | [Casanova II](https://www.imdb.com/title/tt0188486/) |
+| 1984-02-04 | [Casanova 82](https://www.imdb.com/title/tt0123638/) |
 | 1984-02-25 | [Un lupo mannaro americano a Londra](https://www.imdb.com/title/tt0082010/) |
+| 1984-03-03 | [Benedizione mortale](https://www.imdb.com/title/tt0082245/) |
 | 1984-03-23 | [Vigilante](https://www.imdb.com/title/tt0084867/) |
 | 1984-03-24 | [Pornofantasie di un superdotato](https://www.imdb.com/title/tt0127161/) |
 | 1984-03-25 | [Un'estate pazzesca](https://www.imdb.com/title/tt0086352/) |
@@ -1443,16 +1444,24 @@ image: "/programmazione-storica/paesi-di-produzione/_index_files/figure-html/ita
 | 1984-10-02 | [I vendicatori della notte](https://www.imdb.com/title/tt0086625/) |
 | 1984-10-21 | [La Vetrina del Piacere (Tout pour jouir)](https://www.imdb.com/title/tt0178949/) |
 | 1984-11-04 | [Rambo](https://www.imdb.com/title/tt0083944/) |
+| 1984-11-18 | [Segretaria particolare](https://www.imdb.com/title/tt0257153/) |
+| 1984-12-30 | [Quella porno erotica di mia moglie](https://www.imdb.com/title/tt0125914/) |
 
 ### 1985
 
 |  |  |
 |---|---|
+| 1985-01-01 | [Finalmente arrivò l'amore](https://www.imdb.com/title/tt0072665/) |
 | 1985-02-23 | [Mantidi in amore](https://www.imdb.com/title/tt0078821/) |
+| 1985-02-24 | [L'altro vizio della porno bocca, incontri proibiti](https://www.imdb.com/title/tt0079599/) |
+| 1985-03-08 | [La moglie ingorda](https://www.imdb.com/title/tt0127801/) |
 | 1985-03-16 | [Voglie erotiche di una porno pizzaiola (Hot &amp; Saucy Pizza Girls)](https://www.imdb.com/title/tt0127113/) |
 | 1985-03-24 | [Ninja la furia umana](https://www.imdb.com/title/tt0086192/) |
 | 1985-03-29 | [Nati con la camicia](https://www.imdb.com/title/tt0085601/) |
+| 1985-05-04 | [Tron](https://www.imdb.com/title/tt0084827/) |
+| 1985-09-14 | [Marilyn l'insaziabile](https://www.imdb.com/title/tt0080927/) |
 | 1985-09-21 | [Il ritorno dei morti viventi](https://www.imdb.com/title/tt0089907/) |
+| 1985-09-22 | [Hard confidential story](https://www.imdb.com/title/tt0195342/) |
 | 1985-10-06 | [Sheena regina della giungla](https://www.imdb.com/title/tt0088103/) |
 | 1985-10-07 | [Rombo di tuono](https://www.imdb.com/title/tt0087727/) |
 | 1985-10-19 | [Una magnum per McQuade](https://www.imdb.com/title/tt0085862/) |
@@ -1466,6 +1475,7 @@ image: "/programmazione-storica/paesi-di-produzione/_index_files/figure-html/ita
 | 1985-12-06 | [Scuola di polizia](https://www.imdb.com/title/tt0087928/) |
 | 1985-12-08 | [Ethan](https://www.imdb.com/title/tt0303977/) |
 | 1985-12-09 | [Ghostbusters (Acchiappafantasmi)](https://www.imdb.com/title/tt0087332/) |
+| 1985-12-10 | [La seduzione di Lynne](https://www.imdb.com/title/tt0127824/) |
 
 ### 1986
 
@@ -1473,6 +1483,7 @@ image: "/programmazione-storica/paesi-di-produzione/_index_files/figure-html/ita
 |---|---|
 | 1986-01-03 | [Gremlins](https://www.imdb.com/title/tt0087363/) |
 | 1986-01-10 | [Porky's III - La rivincita!](https://www.imdb.com/title/tt0089826/) |
+| 1986-01-12 | [Le super bocche](https://www.imdb.com/title/tt0127875/) |
 | 1986-01-27 | [Il cavaliere pallido](https://www.imdb.com/title/tt0089767/) |
 | 1986-01-31 | [Il codice del silenzio](https://www.imdb.com/title/tt0088936/) |
 | 1986-02-09 | [Rambo 2 - La vendetta](https://www.imdb.com/title/tt0089880/) |
@@ -1483,6 +1494,7 @@ image: "/programmazione-storica/paesi-di-produzione/_index_files/figure-html/ita
 | 1986-05-18 | [Dune](https://www.imdb.com/title/tt0087182/) |
 | 1986-06-01 | [Miami Supercops (I poliziotti dell'ottava strada)](https://www.imdb.com/title/tt0089591/) |
 | 1986-09-20 | [Conan il distruttore](https://www.imdb.com/title/tt0087078/) |
+| 1986-09-21 | American porno story |
 | 1986-10-19 | [9 settimane e 1/2](https://www.imdb.com/title/tt0091635/) |
 | 1986-10-25 | [Explorers](https://www.imdb.com/title/tt0089114/) |
 | 1986-11-01 | [Piramide di paura](https://www.imdb.com/title/tt0090357/) |
@@ -1508,15 +1520,18 @@ image: "/programmazione-storica/paesi-di-produzione/_index_files/figure-html/ita
 | 1987-02-21 | [French Erotica](https://www.imdb.com/title/tt0211597/) |
 | 1987-03-01 | [Top Gun](https://www.imdb.com/title/tt0092099/) |
 | 1987-03-01 | [Oriental Hawaii](https://www.imdb.com/title/tt0188984/) |
-| 1987-03-22 | [Karate Kid II - La storia continua...](https://www.imdb.com/title/tt0091326/) |
 | 1987-03-22 | [Safari d'amore](https://www.imdb.com/title/tt0087916/) |
+| 1987-03-22 | [Karate Kid II - La storia continua...](https://www.imdb.com/title/tt0091326/) |
 | 1987-03-29 | [Grosso guaio a Chinatown](https://www.imdb.com/title/tt0090728/) |
+| 1987-04-04 | [L'invincibile ninja](https://www.imdb.com/title/tt0082332/) |
 | 1987-04-04 | [Guerriero americano](https://www.imdb.com/title/tt0088708/) |
 | 1987-04-20 | [King David](https://www.imdb.com/title/tt0089420/) |
 | 1987-04-26 | [Over the Top](https://www.imdb.com/title/tt0093692/) |
 | 1987-05-02 | [A 30 secondi dalla fine](https://www.imdb.com/title/tt0089941/) |
 | 1987-05-03 | [Femmine scatenate](https://www.imdb.com/title/tt0081596/) |
+| 1987-05-10 | [Forza: 5](https://www.imdb.com/title/tt0082399/) |
 | 1987-05-10 | [I 5 della squadra d'assalto](https://www.imdb.com/title/tt0090693/) |
+| 1987-05-16 | [Bruce Lee il campione](https://www.imdb.com/title/tt0062936/) |
 | 1987-05-31 | [Platoon](https://www.imdb.com/title/tt0091763/) |
 | 1987-06-07 | [Lady Dynamite](https://www.imdb.com/title/tt0125331/) |
 | 1987-08-12 | [Rambo 2 - La vendetta](https://www.imdb.com/title/tt0089880/) |
@@ -1546,8 +1561,11 @@ image: "/programmazione-storica/paesi-di-produzione/_index_files/figure-html/ita
 | 1988-01-03 | [Full Metal Jacket](https://www.imdb.com/title/tt0093058/) |
 | 1988-01-06 | [La casa 2](https://www.imdb.com/title/tt0092991/) |
 | 1988-01-16 | [Morte a 33 giri](https://www.imdb.com/title/tt0092112/) |
+| 1988-01-20 | [Le super bocche](https://www.imdb.com/title/tt0127875/) |
+| 1988-01-21 | [La portiera d'albergo](https://www.imdb.com/title/tt0081090/) |
 | 1988-01-21 | [Arma letale](https://www.imdb.com/title/tt0093409/) |
 | 1988-01-30 | [Il sergente di fuoco](https://www.imdb.com/title/tt0092854/) |
+| 1988-02-07 | [Justine una minorenne deliziosa…](https://www.imdb.com/title/tt0125296/) |
 | 1988-02-09 | [Creepshow 2](https://www.imdb.com/title/tt0092796/) |
 | 1988-02-12 | [Mr. Crocodile Dundee](https://www.imdb.com/title/tt0090555/) |
 | 1988-02-14 | [Beverly Hills Cop II - Un piedipiatti a Beverly Hills II](https://www.imdb.com/title/tt0092644/) |
@@ -1557,6 +1575,7 @@ image: "/programmazione-storica/paesi-di-produzione/_index_files/figure-html/ita
 | 1988-02-28 | [Sogni indecenti](https://www.imdb.com/title/tt0199034/) |
 | 1988-03-06 | [Highlander - L'ultimo immortale](https://www.imdb.com/title/tt0091203/) |
 | 1988-03-19 | [Superfantagenio](https://www.imdb.com/title/tt0090601/) |
+| 1988-03-20 | [La moglie ingorda](https://www.imdb.com/title/tt0127801/) |
 | 1988-03-25 | [Il giorno della luna nera](https://www.imdb.com/title/tt0090735/) |
 | 1988-03-25 | [Slamdance - Il delitto di mezzanotte](https://www.imdb.com/title/tt0093986/) |
 | 1988-04-01 | [Assassination](https://www.imdb.com/title/tt0092585/) |
@@ -1565,15 +1584,19 @@ image: "/programmazione-storica/paesi-di-produzione/_index_files/figure-html/ita
 | 1988-04-16 | [The believers: I credenti del male](https://www.imdb.com/title/tt0092632/) |
 | 1988-04-23 | [Senza via di scampo](https://www.imdb.com/title/tt0093640/) |
 | 1988-05-22 | [La Bamba](https://www.imdb.com/title/tt0093378/) |
+| 1988-10-02 | [La professionista del piacere](https://www.imdb.com/title/tt0195025/) |
 | 1988-10-08 | [Goduria carnale](https://www.imdb.com/title/tt0076198/) |
 | 1988-10-10 | [Biancaneve e i sette nani](https://www.imdb.com/title/tt0093999/) |
 | 1988-10-15 | [Senza inibizioni](https://www.imdb.com/title/tt0087944/) |
-| 1988-11-06 | [L'implacabile](https://www.imdb.com/title/tt0093894/) |
 | 1988-11-06 | [Una donna scandalosa](https://www.imdb.com/title/tt0085719/) |
+| 1988-11-06 | [L'implacabile](https://www.imdb.com/title/tt0093894/) |
 | 1988-11-19 | [Fantasmi II (Phantasm II)](https://www.imdb.com/title/tt0095863/) |
+| 1988-11-27 | [Il piacere dell'atto sessuale](https://www.imdb.com/title/tt0197290/) |
 | 1988-12-02 | [Il ristorante all'angolo](https://www.imdb.com/title/tt0092669/) |
 | 1988-12-03 | [La vedova nera](https://www.imdb.com/title/tt0090738/) |
+| 1988-12-11 | [Bruce Lee il campione](https://www.imdb.com/title/tt0062936/) |
 | 1988-12-17 | [La creatura](https://www.imdb.com/title/tt0096344/) |
+| 1988-12-18 | [Belle, erotiche e maliziose](https://www.imdb.com/title/tt0122903/) |
 | 1988-12-26 | [L'alieno](https://www.imdb.com/title/tt0093185/) |
 
 ### 1989
@@ -1588,14 +1611,20 @@ image: "/programmazione-storica/paesi-di-produzione/_index_files/figure-html/ita
 | 1989-01-29 | [Danko](https://www.imdb.com/title/tt0095963/) |
 | 1989-02-11 | [Alba d'acciaio](https://www.imdb.com/title/tt0094033/) |
 | 1989-02-18 | [Voglia di vincere 2](https://www.imdb.com/title/tt0094118/) |
+| 1989-02-26 | Girls U.S.A. |
 | 1989-02-26 | [Il principe cerca moglie](https://www.imdb.com/title/tt0094898/) |
 | 1989-03-07 | [Corto circuito 2](https://www.imdb.com/title/tt0096101/) |
+| 1989-03-18 | [Infermiere disposte a tutto](https://www.imdb.com/title/tt0145174/) |
 | 1989-03-21 | [Chi ha incastrato Roger Rabbit](https://www.imdb.com/title/tt0096438/) |
 | 1989-04-02 | [Collegiali incestuose](https://www.imdb.com/title/tt0090026/) |
 | 1989-04-11 | [Mr. Crocodile Dundee II](https://www.imdb.com/title/tt0092493/) |
 | 1989-04-30 | [Rambo III](https://www.imdb.com/title/tt0095956/) |
+| 1989-05-07 | [Perversioni sessuali a Las Vegas](https://www.imdb.com/title/tt0191448/) |
+| 1989-05-14 | [Infermiere disposte a tutto](https://www.imdb.com/title/tt0145174/) |
 | 1989-05-25 | [L'orso](https://www.imdb.com/title/tt0095800/) |
 | 1989-09-16 | [Nightmare 4 - Il non risveglio](https://www.imdb.com/title/tt0095742/) |
+| 1989-09-24 | [Gattine in amore](https://www.imdb.com/title/tt0189511/) |
+| 1989-10-08 | [Folli desideri erotici](https://www.imdb.com/title/tt0134562/) |
 | 1989-10-14 | [Ho sposato un'aliena](https://www.imdb.com/title/tt0095687/) |
 | 1989-10-22 | [Ammazzavampiri 2](https://www.imdb.com/title/tt0097390/) |
 | 1989-11-07 | [High Spirits - Fantasmi da legare](https://www.imdb.com/title/tt0095304/) |
@@ -1605,8 +1634,8 @@ image: "/programmazione-storica/paesi-di-produzione/_index_files/figure-html/ita
 | 1989-12-09 | [Cocktail](https://www.imdb.com/title/tt0094889/) |
 | 1989-12-12 | [I gemelli](https://www.imdb.com/title/tt0096320/) |
 | 1989-12-17 | [Rain Man - L'uomo della pioggia](https://www.imdb.com/title/tt0095953/) |
-| 1989-12-25 | [L'angelo del sesso](https://www.imdb.com/title/tt0124730/) |
 | 1989-12-25 | [Willow](https://www.imdb.com/title/tt0096446/) |
+| 1989-12-25 | [L'angelo del sesso](https://www.imdb.com/title/tt0124730/) |
 
 ### 1990
 
@@ -1620,12 +1649,14 @@ image: "/programmazione-storica/paesi-di-produzione/_index_files/figure-html/ita
 | 1990-02-05 | [Ghostbusters II](https://www.imdb.com/title/tt0097428/) |
 | 1990-02-26 | [Johnny il bello](https://www.imdb.com/title/tt0097626/) |
 | 1990-03-03 | [Furia cieca](https://www.imdb.com/title/tt0096945/) |
+| 1990-03-05 | [Soprannaturale](https://www.imdb.com/title/tt0096340/) |
 | 1990-03-06 | [Karate Kid III - La sfida finale](https://www.imdb.com/title/tt0097647/) |
 | 1990-03-11 | [Ritorno al futuro - Parte II](https://www.imdb.com/title/tt0096874/) |
 | 1990-03-18 | [Indiana Jones e l'ultima crociata](https://www.imdb.com/title/tt0097576/) |
 | 1990-04-01 | [Perversioni Internazionali](https://www.imdb.com/title/tt0137551/) |
-| 1990-04-22 | [Calde voglie insaziabili](https://www.imdb.com/title/tt0095058/) |
+| 1990-04-29 | [Conturbanti esperienze di una ragazzina in calore](https://www.imdb.com/title/tt0124693/) |
 | 1990-05-13 | [Tango &amp; Cash](https://www.imdb.com/title/tt0098439/) |
+| 1990-05-20 | [Di dietro tutta, femmine corrotte dal piacere](https://www.imdb.com/title/tt0085367/) |
 | 1990-05-20 | [Tesoro, mi si sono ristretti i ragazzi](https://www.imdb.com/title/tt0097523/) |
 | 1990-05-27 | [La bambola assassina](https://www.imdb.com/title/tt0094862/) |
 | 1990-09-17 | [Nightmare 5 - Il mito](https://www.imdb.com/title/tt0097981/) |
@@ -1664,8 +1695,9 @@ image: "/programmazione-storica/paesi-di-produzione/_index_files/figure-html/ita
 | 1991-02-23 | [Tartarughe Ninja alla riscossa](https://www.imdb.com/title/tt0100758/) |
 | 1991-02-24 | [Cacciatore bianco, cuore nero](https://www.imdb.com/title/tt0100928/) |
 | 1991-03-03 | [Ghost - Fantasma](https://www.imdb.com/title/tt0099653/) |
-| 1991-03-10 | [Rocky V](https://www.imdb.com/title/tt0100507/) |
+| 1991-03-03 | [Il piacere dell'atto sessuale](https://www.imdb.com/title/tt0197290/) |
 | 1991-03-10 | [Cicciolina e Moana 'Mondiali'](https://www.imdb.com/title/tt0099267/) |
+| 1991-03-10 | [Rocky V](https://www.imdb.com/title/tt0100507/) |
 | 1991-03-17 | [Erotic Dreams](https://www.imdb.com/title/tt0129909/) |
 | 1991-03-24 | [Atto di forza](https://www.imdb.com/title/tt0100802/) |
 | 1991-03-30 | [Un uomo innocente](https://www.imdb.com/title/tt0097579/) |
@@ -1690,7 +1722,9 @@ image: "/programmazione-storica/paesi-di-produzione/_index_files/figure-html/ita
 | 1991-12-01 | [Colpi proibiti](https://www.imdb.com/title/tt0099385/) |
 | 1991-12-08 | [Scappatella con il morto](https://www.imdb.com/title/tt0100611/) |
 | 1991-12-15 | [The Doors](https://www.imdb.com/title/tt0101761/) |
+| 1991-12-15 | [Avide lingue](https://www.imdb.com/title/tt0195293/) |
 | 1991-12-22 | [Ritorno alla laguna blu](https://www.imdb.com/title/tt0102782/) |
+| 1991-12-22 | [Dirty Girls](https://www.imdb.com/title/tt0178379/) |
 | 1991-12-29 | [Alexandra... oltre i confini del sesso](https://www.imdb.com/title/tt0196326/) |
 
 ### 1992
@@ -1698,18 +1732,25 @@ image: "/programmazione-storica/paesi-di-produzione/_index_files/figure-html/ita
 |  |  |
 |---|---|
 | 1992-01-19 | [Terminator 2 - Il giorno del giudizio](https://www.imdb.com/title/tt0103064/) |
+| 1992-02-09 | [Una donna scandalosa](https://www.imdb.com/title/tt0085719/) |
+| 1992-02-09 | [Provocazione carnale](https://www.imdb.com/title/tt0189799/) |
 | 1992-02-16 | [La creatura del cimitero](https://www.imdb.com/title/tt0099697/) |
 | 1992-02-23 | [Vergini corpi frementi](https://www.imdb.com/title/tt0126098/) |
-| 1992-03-01 | [Femmine sfrenate](https://www.imdb.com/title/tt0096037/) |
 | 1992-03-01 | [Robin Hood - Principe dei ladri](https://www.imdb.com/title/tt0102798/) |
+| 1992-03-01 | [Femmine sfrenate](https://www.imdb.com/title/tt0178877/) |
 | 1992-03-08 | [Forza d'urto](https://www.imdb.com/title/tt0102984/) |
+| 1992-03-08 | [Viziose asolescenti](https://www.imdb.com/title/tt0125175/) |
 | 1992-03-22 | [A volte ritornano](https://www.imdb.com/title/tt0102960/) |
-| 1992-03-29 | [Robin Hood - La leggenda](https://www.imdb.com/title/tt0102797/) |
+| 1992-03-22 | Voluttuose deviazioni carnali |
+| 1992-03-29 | [Lunghi e duri per i… turbamenti erotici di Pamela](https://www.imdb.com/title/tt0081593/) |
 | 1992-03-29 | [Delirio di femmine viziose](https://www.imdb.com/title/tt0088160/) |
+| 1992-03-29 | [Robin Hood - La leggenda](https://www.imdb.com/title/tt0102797/) |
+| 1992-04-05 | [Febbre di lingue viziose](https://www.imdb.com/title/tt0139593/) |
 | 1992-04-19 | [La notte dei morti viventi](https://www.imdb.com/title/tt0100258/) |
 | 1992-04-25 | [Giustizia a tutti i costi](https://www.imdb.com/title/tt0102614/) |
 | 1992-04-26 | [La famiglia Addams](https://www.imdb.com/title/tt0101272/) |
 | 1992-05-17 | [I delitti del gatto nero](https://www.imdb.com/title/tt0100740/) |
+| 1992-09-20 | [Sesso morboso... sesso violento](https://www.imdb.com/title/tt0189795/) |
 | 1992-10-04 | [Beethoven](https://www.imdb.com/title/tt0103786/) |
 | 1992-10-11 | [Cape Fear - Il promontorio della paura](https://www.imdb.com/title/tt0101540/) |
 | 1992-10-18 | [Fermati, o mamma spara](https://www.imdb.com/title/tt0105477/) |
@@ -1717,6 +1758,7 @@ image: "/programmazione-storica/paesi-di-produzione/_index_files/figure-html/ita
 | 1992-11-01 | [Nightmare 6 - La fine](https://www.imdb.com/title/tt0101917/) |
 | 1992-11-29 | [Batman - Il ritorno](https://www.imdb.com/title/tt0103776/) |
 | 1992-12-06 | [Double Impact - La vendetta finale](https://www.imdb.com/title/tt0101764/) |
+| 1992-12-06 | [Avide lingue](https://www.imdb.com/title/tt0195293/) |
 | 1992-12-27 | [Cuori ribelli](https://www.imdb.com/title/tt0104231/) |
 
 ### 1993
@@ -1727,6 +1769,7 @@ image: "/programmazione-storica/paesi-di-produzione/_index_files/figure-html/ita
 | 1993-01-10 | [Pretty Anal](https://www.imdb.com/title/tt0159670/) |
 | 1993-01-24 | [Resa dei conti a Little Tokyo](https://www.imdb.com/title/tt0102915/) |
 | 1993-01-30 | [La bella e la bestia](https://www.imdb.com/title/tt0101414/) |
+| 1993-01-31 | [Le superscatenate](https://www.imdb.com/title/tt0098648/) |
 | 1993-03-07 | [Guardia del corpo](https://www.imdb.com/title/tt0103855/) |
 | 1993-04-11 | [Mamma, ho riperso l'aereo: Mi sono smarrito a New York](https://www.imdb.com/title/tt0104431/) |
 | 1993-10-10 | [Tesoro, mi si è allargato il ragazzino](https://www.imdb.com/title/tt0104437/) |

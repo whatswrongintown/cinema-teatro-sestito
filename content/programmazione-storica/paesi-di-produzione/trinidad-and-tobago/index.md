@@ -19,3 +19,15 @@ image: "/programmazione-storica/paesi-di-produzione/_index_files/figure-html/ita
 |---|---|
 | 1976-06-20 | [Il corpo](https://www.imdb.com/title/tt0071362/) |
 
+### 1984
+
+|  |  |
+|---|---|
+| 1984-12-22 | [Il corpo](https://www.imdb.com/title/tt0071362/) |
+
+### 1988
+
+|  |  |
+|---|---|
+| 1988-01-10 | [Il corpo](https://www.imdb.com/title/tt0071362/) |
+

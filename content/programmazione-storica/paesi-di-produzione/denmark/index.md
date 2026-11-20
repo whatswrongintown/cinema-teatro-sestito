@@ -45,3 +45,9 @@ image: "/programmazione-storica/paesi-di-produzione/_index_files/figure-html/ita
 |---|---|
 | 1986-12-28 | [Turbamento di una minorenne](https://www.imdb.com/title/tt0065363/) |
 
+### 1989
+
+|  |  |
+|---|---|
+| 1989-01-06 | [Le ragazze super particolari](https://www.imdb.com/title/tt5508022/) |
+

@@ -23,15 +23,17 @@ lastmod: '2026-11-18'
 
 |  |  |
 |---|---|
+| 1986-09-14 | Le ninfomani |
 | 1986-09-20 | [Conan il distruttore](https://www.imdb.com/title/tt0087078/) |
+| 1986-09-21 | American porno story |
 
 ### Ottobre
 
 |  |  |
 |---|---|
 | 1986-10-12 | [La chiave del piacere](https://www.imdb.com/title/tt0212603/) |
-| 1986-10-19 | [Calde mogli in provincia](https://www.imdb.com/title/tt0230117/) |
 | 1986-10-19 | [9 settimane e 1/2](https://www.imdb.com/title/tt0091635/) |
+| 1986-10-19 | [Calde mogli in provincia](https://www.imdb.com/title/tt0230117/) |
 | 1986-10-25 | [Explorers](https://www.imdb.com/title/tt0089114/) |
 | 1986-10-26 | [Sicarius - Febbre di sesso](https://www.imdb.com/title/tt0070779/) |
 
@@ -46,6 +48,7 @@ lastmod: '2026-11-18'
 | 1986-11-17 | [Unico indizio la luna piena](https://www.imdb.com/title/tt0090021/) |
 | 1986-11-21 | [Diavolo in corpo](https://www.imdb.com/title/tt0090944/) |
 | 1986-11-22 | [Space Vampires](https://www.imdb.com/title/tt0089489/) |
+| 1986-11-23 | [Super sexy show](https://www.imdb.com/title/tt0072125/) |
 | 1986-11-24 | [Il pentito](https://www.imdb.com/title/tt0091744/) |
 | 1986-11-29 | [Voglia di guardare](https://www.imdb.com/title/tt0092180/) |
 | 1986-11-30 | [Il giustiziere della notte 3](https://www.imdb.com/title/tt0089003/) |
@@ -78,10 +81,10 @@ lastmod: '2026-11-18'
 | 1987-01-10 | [Chi è sepolto in quella casa?](https://www.imdb.com/title/tt0091223/) |
 | 1987-01-13 | [Il mostro di Firenze](https://www.imdb.com/title/tt0188071/) |
 | 1987-01-17 | [Bruce Lee il leggendario](https://www.imdb.com/title/tt0082673/) |
-| 1987-01-18 | [Dèmoni 2... l'incubo ritorna](https://www.imdb.com/title/tt0090930/) |
 | 1987-01-18 | [Bestialità](https://www.imdb.com/title/tt0074201/) |
-| 1987-01-25 | [Marina](https://www.imdb.com/title/tt1227879/) |
+| 1987-01-18 | [Dèmoni 2... l'incubo ritorna](https://www.imdb.com/title/tt0090930/) |
 | 1987-01-25 | [Cobra](https://www.imdb.com/title/tt0090859/) |
+| 1987-01-25 | [Marina](https://www.imdb.com/title/tt1227879/) |
 | 1987-01-31 | [Bruce Lee terrore d'oriente](https://www.imdb.com/title/tt0201175/) |
 
 ### Febbraio
@@ -90,8 +93,8 @@ lastmod: '2026-11-18'
 |---|---|
 | 1987-02-01 | [Lussuria](https://www.imdb.com/title/tt0091454/) |
 | 1987-02-08 | [Scuola di polizia 3: Tutto da rifare](https://www.imdb.com/title/tt0091777/) |
-| 1987-02-15 | [Il burbero](https://www.imdb.com/title/tt0092709/) |
 | 1987-02-15 | [La venexiana](https://www.imdb.com/title/tt0092157/) |
+| 1987-02-15 | [Il burbero](https://www.imdb.com/title/tt0092709/) |
 | 1987-02-21 | [French Erotica](https://www.imdb.com/title/tt0211597/) |
 | 1987-02-22 | [Il nome della rosa](https://www.imdb.com/title/tt0091605/) |
 | 1987-02-22 | [Noi e l'amore - comportamento sessuale variante](https://www.imdb.com/title/tt0198836/) |
@@ -103,11 +106,11 @@ lastmod: '2026-11-18'
 | 1987-03-01 | [Top Gun](https://www.imdb.com/title/tt0092099/) |
 | 1987-03-01 | [Oriental Hawaii](https://www.imdb.com/title/tt0188984/) |
 | 1987-03-12 | [Banane al cioccolato](https://www.imdb.com/title/tt0204873/) |
-| 1987-03-15 | [7 chili in 7 giorni](https://www.imdb.com/title/tt0091925/) |
 | 1987-03-15 | [La monaca nel peccato](https://www.imdb.com/title/tt0091539/) |
+| 1987-03-15 | [7 chili in 7 giorni](https://www.imdb.com/title/tt0091925/) |
 | 1987-03-21 | [L'assassino è ancora tra noi](https://www.imdb.com/title/tt0088745/) |
-| 1987-03-22 | [Karate Kid II - La storia continua...](https://www.imdb.com/title/tt0091326/) |
 | 1987-03-22 | [Safari d'amore](https://www.imdb.com/title/tt0087916/) |
+| 1987-03-22 | [Karate Kid II - La storia continua...](https://www.imdb.com/title/tt0091326/) |
 | 1987-03-28 | [Sensi](https://www.imdb.com/title/tt0091921/) |
 | 1987-03-29 | [Grosso guaio a Chinatown](https://www.imdb.com/title/tt0090728/) |
 
@@ -128,9 +131,10 @@ lastmod: '2026-11-18'
 |  |  |
 |---|---|
 | 1987-05-02 | [A 30 secondi dalla fine](https://www.imdb.com/title/tt0089941/) |
-| 1987-05-03 | [Italian Fast Food](https://www.imdb.com/title/tt0179905/) |
 | 1987-05-03 | [Femmine scatenate](https://www.imdb.com/title/tt0081596/) |
+| 1987-05-03 | [Italian Fast Food](https://www.imdb.com/title/tt0179905/) |
 | 1987-05-10 | [I 5 della squadra d'assalto](https://www.imdb.com/title/tt0090693/) |
 | 1987-05-16 | [Bruce Lee il leggendario](https://www.imdb.com/title/tt0082673/) |
 | 1987-05-17 | [Noi uomini duri](https://www.imdb.com/title/tt0093645/) |
 | 1987-05-31 | [Platoon](https://www.imdb.com/title/tt0091763/) |
+

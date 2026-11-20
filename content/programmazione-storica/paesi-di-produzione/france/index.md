@@ -479,6 +479,7 @@ image: "/programmazione-storica/paesi-di-produzione/_index_files/figure-html/ita
 | 1967-11-16 | [La calda preda](https://www.imdb.com/title/tt0060271/) |
 | 1967-11-17 | [La spia sulla città](https://www.imdb.com/title/tt0056925/) |
 | 1967-12-13 | [Svegliati e uccidi](https://www.imdb.com/title/tt0061049/) |
+| 1967-12-21 | [L'harem](https://www.imdb.com/title/tt0063042/) |
 
 ### 1968
 
@@ -606,7 +607,6 @@ image: "/programmazione-storica/paesi-di-produzione/_index_files/figure-html/ita
 | 1971-01-28 | [I giganti della Tessaglia](https://www.imdb.com/title/tt0053861/) |
 | 1971-02-07 | [Diabolik](https://www.imdb.com/title/tt0062861/) |
 | 1971-04-02 | [Spara, Gringo, spara](https://www.imdb.com/title/tt0066396/) |
-| 1971-04-11 | [Le avventure di Ulisse](https://www.imdb.com/title/tt0064750/) |
 | 1971-04-14 | [L'uomo dalla maschera di ferro](https://www.imdb.com/title/tt0056228/) |
 | 1971-04-16 | [Le grandi vacanze](https://www.imdb.com/title/tt0060475/) |
 | 1971-04-20 | [La rivolta dei gladiatori](https://www.imdb.com/title/tt0052123/) |
@@ -859,6 +859,7 @@ image: "/programmazione-storica/paesi-di-produzione/_index_files/figure-html/ita
 | 1979-05-13 | [I desideri erotici di Christine](https://www.imdb.com/title/tt0066914/) |
 | 1979-05-19 | [La calda bestia](https://www.imdb.com/title/tt0218380/) |
 | 1979-11-27 | [Ragazze a pagamento](https://www.imdb.com/title/tt1082822/) |
+| 1979-12-26 | Pornoexhibition |
 
 ### 1980
 
@@ -887,6 +888,7 @@ image: "/programmazione-storica/paesi-di-produzione/_index_files/figure-html/ita
 |---|---|
 | 1981-01-25 | [Ecco l'impero dei sensi](https://www.imdb.com/title/tt0074102/) |
 | 1981-02-18 | [Porno Revolution](https://www.imdb.com/title/tt0461840/) |
+| 1981-02-24 | La moglie in calore |
 | 1981-03-01 | [Il mio nome è Nessuno](https://www.imdb.com/title/tt0070215/) |
 | 1981-04-02 | [Clarissa](https://www.imdb.com/title/tt0078302/) |
 | 1981-04-05 | [Il soldato di ventura](https://www.imdb.com/title/tt0073726/) |
@@ -915,6 +917,7 @@ image: "/programmazione-storica/paesi-di-produzione/_index_files/figure-html/ita
 | 1982-02-14 | [La pornogola (Perversités suédoises)](https://www.imdb.com/title/tt0378555/) |
 | 1982-02-20 | [Super Penetration Love](https://www.imdb.com/title/tt0178408/) |
 | 1982-02-28 | [Vedova in calore](https://www.imdb.com/title/tt0195427/) |
+| 1982-03-12 | Porno erotic movie |
 | 1982-03-26 | [I desideri erotici di Christine](https://www.imdb.com/title/tt0066914/) |
 | 1982-04-02 | [Flash excitation blue (Sette femmine per un sadico)](https://www.imdb.com/title/tt0316886/) |
 | 1982-04-24 | [Il lupo e l'agnello](https://www.imdb.com/title/tt0081089/) |
@@ -932,6 +935,7 @@ image: "/programmazione-storica/paesi-di-produzione/_index_files/figure-html/ita
 | 1983-01-02 | [Labbra insaziabili (Ça aide beaucoup)](https://www.imdb.com/title/tt35652748/) |
 | 1983-01-17 | [Topo d'albergo (La fureur sexuelle)](https://www.imdb.com/title/tt1180766/) |
 | 1983-01-22 | [Orgasmo pornografico](https://www.imdb.com/title/tt0178818/) |
+| 1983-01-30 | [Porno libido](https://www.imdb.com/title/tt0077777/) |
 | 1983-01-30 | [Il marchese del Grillo](https://www.imdb.com/title/tt0082714/) |
 | 1983-02-07 | [Dammene ancora (Ça glisse par les deux trous)](https://www.imdb.com/title/tt8374276/) |
 | 1983-02-15 | [Pornopensieri](https://www.imdb.com/title/tt0272188/) |
@@ -944,6 +948,7 @@ image: "/programmazione-storica/paesi-di-produzione/_index_files/figure-html/ita
 | 1983-09-18 | [Primizie pornografiche (Fais-m'en plus)](https://www.imdb.com/title/tt1327719/) |
 | 1983-09-25 | [Il “giornalista”… e la sua star (Une si jolie petite chatte)](https://www.imdb.com/title/tt8391724/) |
 | 1983-10-20 | [Mia moglie l'eroticissima](https://www.imdb.com/title/tt0178656/) |
+| 1983-10-21 | [Pornografia campagnola](https://www.imdb.com/title/tt0079796/) |
 | 1983-10-29 | [La Vetrina del Piacere (Tout pour jouir)](https://www.imdb.com/title/tt0178949/) |
 | 1983-11-12 | [Tenere cugine](https://www.imdb.com/title/tt0081614/) |
 | 1983-11-18 | [Porno Revolution](https://www.imdb.com/title/tt0461840/) |
@@ -958,7 +963,9 @@ image: "/programmazione-storica/paesi-di-produzione/_index_files/figure-html/ita
 |  |  |
 |---|---|
 | 1984-01-14 | [Le quattro porno amiche (Bourgeoises déchaînées)](https://www.imdb.com/title/tt1346252/) |
+| 1984-02-05 | [Blue Movie Sexycompulsion](https://www.imdb.com/title/tt0075464/) |
 | 1984-02-19 | [Sexy Erotic Job](https://www.imdb.com/title/tt0141446/) |
+| 1984-02-20 | [Erotic sex orgasm](https://www.imdb.com/title/tt0188573/) |
 | 1984-02-24 | [Vindicator (La guerra del ferro: Ironmaster)](https://www.imdb.com/title/tt0084036/) |
 | 1984-02-26 | [Febbre erotica del piacere](https://www.imdb.com/title/tt0283566/) |
 | 1984-03-04 | [Sexy diabolic story](https://www.imdb.com/title/tt0072019/) |
@@ -968,8 +975,11 @@ image: "/programmazione-storica/paesi-di-produzione/_index_files/figure-html/ita
 | 1984-09-30 | [Lolita, la governante erotica](https://www.imdb.com/title/tt1389445/) |
 | 1984-10-12 | [L'estate assassina](https://www.imdb.com/title/tt0086655/) |
 | 1984-10-14 | [Canadesi supersex](https://www.imdb.com/title/tt0148540/) |
+| 1984-10-19 | [Pornoshow a Montecarlo](https://www.imdb.com/title/tt0127854/) |
 | 1984-10-21 | [La Vetrina del Piacere (Tout pour jouir)](https://www.imdb.com/title/tt0178949/) |
+| 1984-10-28 | [Porno libido](https://www.imdb.com/title/tt0077777/) |
 | 1984-11-01 | [Super Sexual Fantasy (Confidences d'une petite culotte)](https://www.imdb.com/title/tt8374372/) |
+| 1984-11-18 | [Segretaria particolare](https://www.imdb.com/title/tt0257153/) |
 | 1984-12-02 | [Traffico erotico](https://www.imdb.com/title/tt0065264/) |
 | 1984-12-16 | [Indiscrezioni erotiche di un letto malizioso](https://www.imdb.com/title/tt0228728/) |
 
@@ -980,15 +990,23 @@ image: "/programmazione-storica/paesi-di-produzione/_index_files/figure-html/ita
 | 1985-01-13 | [Quel Certo Piacere](https://www.imdb.com/title/tt0218172/) |
 | 1985-01-27 | [Tommy e Laurie](https://www.imdb.com/title/tt0197022/) |
 | 1985-03-10 | [Beatrix - La schiava del sesso](https://www.imdb.com/title/tt0202818/) |
+| 1985-04-03 | [2019 - Dopo la caduta di New York](https://www.imdb.com/title/tt0085125/) |
+| 1985-11-17 | [Corpi d'amore porno](https://www.imdb.com/title/tt0076235/) |
+| 1985-12-01 | Perversion |
+| 1985-12-22 | [Hard Love: Le pornoadolescenti](https://www.imdb.com/title/tt0256116/) |
+| 1985-12-29 | [Sono una p… topo d'albergo](https://www.imdb.com/title/tt1180766/) |
 | 1985-12-29 | [Calde](https://www.imdb.com/title/tt4290202/) |
 
 ### 1986
 
 |  |  |
 |---|---|
+| 1986-01-01 | [Exhibition 80](https://www.imdb.com/title/tt0424074/) |
+| 1986-01-05 | [Le segrete esperienze di Luca e Fanny](https://www.imdb.com/title/tt0081481/) |
 | 1986-01-17 | [Il futuro è donna](https://www.imdb.com/title/tt0087310/) |
 | 1986-03-02 | [Amour braque - Amore balordo](https://www.imdb.com/title/tt0088714/) |
 | 1986-03-23 | [L'immorale](https://www.imdb.com/title/tt0080916/) |
+| 1986-09-14 | Le ninfomani |
 | 1986-10-26 | [Sicarius - Febbre di sesso](https://www.imdb.com/title/tt0070779/) |
 | 1986-11-21 | [Diavolo in corpo](https://www.imdb.com/title/tt0090944/) |
 | 1986-12-14 | [Gioia morbosa del sesso (La fessée ou Les mémoires de monsieur Léon maître-fesseur)](https://www.imdb.com/title/tt0230209/) |
@@ -1001,6 +1019,7 @@ image: "/programmazione-storica/paesi-di-produzione/_index_files/figure-html/ita
 | 1987-04-11 | [La bonne](https://www.imdb.com/title/tt0090763/) |
 | 1987-09-06 | [L'iniziazione](https://www.imdb.com/title/tt0092995/) |
 | 1987-09-13 | [Pirati](https://www.imdb.com/title/tt0091757/) |
+| 1987-10-18 | [Corpi d'amore porno](https://www.imdb.com/title/tt0076235/) |
 | 1987-11-13 | [Senza limiti](https://www.imdb.com/title/tt0076197/) |
 | 1987-11-26 | [Il portiere di notte](https://www.imdb.com/title/tt0071910/) |
 | 1987-12-18 | [Un ragazzo di Calabria](https://www.imdb.com/title/tt0092694/) |
@@ -1010,21 +1029,31 @@ image: "/programmazione-storica/paesi-di-produzione/_index_files/figure-html/ita
 
 |  |  |
 |---|---|
+| 1988-02-10 | [Flash excitation blue](https://www.imdb.com/title/tt0316886/) |
+| 1988-02-21 | [Quelle morbide calde labbra](https://www.imdb.com/title/tt0165332/) |
 | 1988-04-17 | [I miei primi 40 anni](https://www.imdb.com/title/tt0093535/) |
 | 1988-09-17 | [Voglia d'amore](https://www.imdb.com/title/tt0087512/) |
 | 1988-10-01 | [Saint Tropez Vice](https://www.imdb.com/title/tt0093908/) |
 | 1988-10-15 | [Senza inibizioni](https://www.imdb.com/title/tt0087944/) |
 | 1988-10-22 | [Discesa all'inferno](https://www.imdb.com/title/tt0090933/) |
+| 1988-11-20 | [Porno libido](https://www.imdb.com/title/tt0077777/) |
 | 1988-12-11 | [Bocche calde - Sesso in condominio](https://www.imdb.com/title/tt34624089/) |
+| 1988-12-23 | [Erotic sex orgasm](https://www.imdb.com/title/tt0188573/) |
+| 1988-12-25 | [Hard Love: Le pornoadolescenti](https://www.imdb.com/title/tt0256116/) |
 
 ### 1989
 
 |  |  |
 |---|---|
+| 1989-01-01 | [Adolescenti vogliose](https://www.imdb.com/title/tt1839398/) |
+| 1989-01-06 | [Le ragazze super particolari](https://www.imdb.com/title/tt5508022/) |
 | 1989-01-29 | [Candice Candy](https://www.imdb.com/title/tt0134436/) |
+| 1989-03-05 | [Febbre erotica del piacere](https://www.imdb.com/title/tt0283566/) |
+| 1989-03-19 | [Aspettami, sto venendo](https://www.imdb.com/title/tt35677963/) |
 | 1989-03-26 | [Una Novizia nel porno-harem](https://www.imdb.com/title/tt34624317/) |
 | 1989-05-21 | [Il tempo delle mele 3](https://www.imdb.com/title/tt0096523/) |
 | 1989-05-25 | [L'orso](https://www.imdb.com/title/tt0095800/) |
+| 1989-10-22 | [Corpi d'amore porno](https://www.imdb.com/title/tt0076235/) |
 | 1989-11-05 | [Asterix contro Cesare](https://www.imdb.com/title/tt0088748/) |
 
 ### 1990
@@ -1051,6 +1080,7 @@ image: "/programmazione-storica/paesi-di-produzione/_index_files/figure-html/ita
 | 1992-01-19 | [Terminator 2 - Il giorno del giudizio](https://www.imdb.com/title/tt0103064/) |
 | 1992-04-12 | [Tutti i vizzi de mia moglie](https://www.imdb.com/title/tt8006450/) |
 | 1992-04-26 | [Esperienze innaturali di Lorain](https://www.imdb.com/title/tt0311643/) |
+| 1992-05-24 | [Angelica, marchesa di Sodoma](https://www.imdb.com/title/tt1233204/) |
 
 ### 1993
 

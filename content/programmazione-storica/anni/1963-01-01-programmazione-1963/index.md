@@ -154,8 +154,8 @@ I voti IMDb descrivono le valutazioni degli utenti IMDb, non il pubblico o gli i
 | 1963-10-19 | [Gli sparvieri dello stretto](https://www.imdb.com/title/tt0046286/) |
 | 1963-10-21 | [L'altro uomo (Delitto per delitto)](https://www.imdb.com/title/tt0044079/) |
 | 1963-10-26 | [Il canto dell'usignolo](https://www.imdb.com/title/tt0050924/) |
-| 1963-10-28 | [Avventura a Malaga](https://www.imdb.com/title/tt0054053/) |
 | 1963-10-28 | [La cortigiana di Babilonia](https://www.imdb.com/title/tt0049094/) |
+| 1963-10-28 | [Avventura a Malaga](https://www.imdb.com/title/tt0054053/) |
 | 1963-10-30 | [Sindacato assassini](https://www.imdb.com/title/tt0054102/) |
 | 1963-10-31 | [La cortigiana di Babilonia](https://www.imdb.com/title/tt0049094/) |
 

@@ -83,6 +83,7 @@ image: "/programmazione-storica/paesi-di-produzione/_index_files/figure-html/ita
 
 |  |  |
 |---|---|
+| 1984-01-14 | [Le 4 pornoamiche](https://www.imdb.com/title/tt0140239/) |
 | 1984-02-26 | [Febbre erotica del piacere](https://www.imdb.com/title/tt0283566/) |
 | 1984-03-18 | [La casa di Mary](https://www.imdb.com/title/tt0084739/) |
 | 1984-04-08 | [Porky's II - Il giorno dopo](https://www.imdb.com/title/tt0086129/) |
@@ -107,14 +108,20 @@ image: "/programmazione-storica/paesi-di-produzione/_index_files/figure-html/ita
 
 |  |  |
 |---|---|
+| 1988-01-30 | [Le 4 pornoamiche](https://www.imdb.com/title/tt0140239/) |
 | 1988-04-16 | [The believers: I credenti del male](https://www.imdb.com/title/tt0092632/) |
+
+### 1989
+
+|  |  |
+|---|---|
+| 1989-03-05 | [Febbre erotica del piacere](https://www.imdb.com/title/tt0283566/) |
 
 ### 1990
 
 |  |  |
 |---|---|
 | 1990-02-25 | [Ricordi di notte](https://www.imdb.com/title/tt0204594/) |
-| 1990-04-22 | [Calde voglie insaziabili](https://www.imdb.com/title/tt0095058/) |
 | 1990-10-07 | [Non aprite quel cancello 2](https://www.imdb.com/title/tt0099636/) |
 
 ### 1992

@@ -256,8 +256,8 @@ I voti IMDb descrivono le valutazioni degli utenti IMDb, non il pubblico o gli i
 | 1966-11-09 | [Le sirene urlano i mitra sparano](https://www.imdb.com/title/tt0136975/) |
 | 1966-11-10 | [X 3 chiamate Brigitte (Jusqu'à plus soif)](https://www.imdb.com/title/tt0309749/) |
 | 1966-11-11 | [I rinnegati dell'isola misteriosa](https://www.imdb.com/title/tt0051581/) |
-| 1966-11-12 | [Agente S3S: operazione Uranio](https://www.imdb.com/title/tt0058883/) |
 | 1966-11-12 | [I conquistatori della Sirte](https://www.imdb.com/title/tt0043072/) |
+| 1966-11-12 | [Agente S3S: operazione Uranio](https://www.imdb.com/title/tt0058883/) |
 | 1966-11-14 | [Spionaggio senza frontiere](https://www.imdb.com/title/tt0057151/) |
 | 1966-11-16 | [Watabanga!](https://www.imdb.com/title/tt0057914/) |
 | 1966-11-18 | [Tecnica di una spia](https://www.imdb.com/title/tt0062409/) |

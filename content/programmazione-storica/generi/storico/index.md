@@ -206,6 +206,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1963-04-14 | [Orazi e Curiazi](https://www.imdb.com/title/tt0055264/) |
 | 1963-04-21 | [Lampi nel sole](https://www.imdb.com/title/tt0053359/) |
 | 1963-06-14 | [La regina delle piramidi](https://www.imdb.com/title/tt0048283/) |
+| 1963-06-16 | [Il trionfo di Maciste](https://www.imdb.com/title/tt0149295/) |
 | 1963-06-30 | [Giulio Cesare](https://www.imdb.com/title/tt0045943/) |
 | 1963-08-31 | [Giuseppe venduto dai fratelli](https://www.imdb.com/title/tt0056124/) |
 | 1963-09-08 | [Il trionfo di Pancho Villa](https://www.imdb.com/title/tt0244475/) |
@@ -232,6 +233,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1964-12-11 | [I Piombi di Venezia](https://www.imdb.com/title/tt0046189/) |
 | 1964-12-13 | [L'eroe di Sparta](https://www.imdb.com/title/tt0055719/) |
 | 1964-12-16 | [Affondate la Bismarck!](https://www.imdb.com/title/tt0054310/) |
+| 1964-12-25 | [Perseo l'invincibile](https://www.imdb.com/title/tt0056343/) |
 
 ### 1965
 
@@ -281,7 +283,9 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1967-05-15 | [L'ultima carica](https://www.imdb.com/title/tt0211712/) |
 | 1967-07-27 | [Gli eroi di Antropoid](https://www.imdb.com/title/tt0174476/) |
 | 1967-08-22 | [L'avventuriero di re Artù](https://www.imdb.com/title/tt0057500/) |
+| 1967-08-27 | [L'ultimo gladiatore](https://www.imdb.com/title/tt0058345/) |
 | 1967-08-29 | [La vendetta dei barbari](https://www.imdb.com/title/tt0054436/) |
+| 1967-09-05 | [Ulisse contro Ercole](https://www.imdb.com/title/tt0055564/) |
 | 1967-09-16 | [L'armata Brancaleone](https://www.imdb.com/title/tt0060125/) |
 | 1967-10-18 | [Una regina per Cesare](https://www.imdb.com/title/tt0056401/) |
 
@@ -302,6 +306,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1969-03-30 | [Il principe guerriero](https://www.imdb.com/title/tt0059896/) |
 | 1969-06-10 | [I daci](https://www.imdb.com/title/tt0060482/) |
 | 1969-08-31 | [Addio Lara](https://www.imdb.com/title/tt0061829/) |
+| 1969-10-10 | [Il vendicatore](https://www.imdb.com/title/tt0053408/) |
 | 1969-12-07 | [I dieci comandamenti](https://www.imdb.com/title/tt0049833/) |
 | 1969-12-16 | [Fräulein Doktor](https://www.imdb.com/title/tt0064350/) |
 
@@ -313,6 +318,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1970-05-02 | [La meravigliosa Angelica](https://www.imdb.com/title/tt0058343/) |
 | 1970-05-26 | [La guerra di Troia](https://www.imdb.com/title/tt0056042/) |
 | 1970-07-18 | [La vendetta dei barbari](https://www.imdb.com/title/tt0054436/) |
+| 1970-08-25 | [Ulisse contro Ercole](https://www.imdb.com/title/tt0055564/) |
 | 1970-08-26 | [Gli amori di Angelica](https://www.imdb.com/title/tt0063326/) |
 | 1970-09-22 | [Giuseppe venduto dai fratelli](https://www.imdb.com/title/tt0056124/) |
 | 1970-10-06 | [Operazione commandos](https://www.imdb.com/title/tt0046421/) |
@@ -358,6 +364,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1973-01-07 | [Le notti di Lucrezia Borgia](https://www.imdb.com/title/tt0053128/) |
 | 1973-01-14 | [Lo scudo dei Falworth](https://www.imdb.com/title/tt0046789/) |
 | 1973-02-04 | [Gengis Khan il conquistatore](https://www.imdb.com/title/tt0059219/) |
+| 1973-04-27 | [Il vendicatore](https://www.imdb.com/title/tt0053408/) |
 | 1973-04-29 | [Cromwell](https://www.imdb.com/title/tt0065593/) |
 | 1973-05-23 | [Il leggendario X 15](https://www.imdb.com/title/tt0055627/) |
 | 1973-05-27 | [Gli ultimi giorni di Pompei](https://www.imdb.com/title/tt0054422/) |
@@ -406,6 +413,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 |---|---|
 | 1977-01-13 | [Gli ultimi giorni di Pompei](https://www.imdb.com/title/tt0054422/) |
 | 1977-05-08 | [Zorro marchese di Navarra](https://www.imdb.com/title/tt0065246/) |
+| 1977-10-28 | [Il trionfo di Maciste](https://www.imdb.com/title/tt0149295/) |
 
 ### 1978
 
@@ -447,7 +455,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 |  |  |
 |---|---|
 | 1984-01-09 | [Attila flagello di Dio](https://www.imdb.com/title/tt0080393/) |
-| 1984-02-04 | [Casanova II](https://www.imdb.com/title/tt0188486/) |
+| 1984-03-31 | [State buoni se potete](https://www.imdb.com/title/tt0086358/) |
 
 ### 1985
 
@@ -460,6 +468,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 
 |  |  |
 |---|---|
+| 1986-03-08 | [Bruce Lee la tigre indomabile](https://www.imdb.com/title/tt0075167/) |
 | 1986-11-24 | [Il pentito](https://www.imdb.com/title/tt0091744/) |
 
 ### 1987

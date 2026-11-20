@@ -1,4 +1,4 @@
-﻿---
+---
 title: New Europe 1994-95
 author: Vito Sestito
 date: '1994-10-01'
@@ -80,3 +80,4 @@ lastmod: '2026-11-18'
 |  |  |
 |---|---|
 | 1995-06-04 | [Nightmare - Nuovo incubo](https://www.imdb.com/title/tt0111686/) |
+

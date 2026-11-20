@@ -40,23 +40,23 @@ I voti IMDb descrivono le valutazioni degli utenti IMDb, non il pubblico o gli i
 
 |           |                                       |
 |:----------|:--------------------------------------|
-| 1950-02-01 | [Il castello di Dragonwyck](https://www.imdb.com/title/tt0038492/) |
 | 1950-02-01 | [Bernadette](https://www.imdb.com/title/tt0036377/) |
+| 1950-02-01 | [Il castello di Dragonwyck](https://www.imdb.com/title/tt0038492/) |
 | 1950-02-02 | [Il segno di Zorro](https://www.imdb.com/title/tt0032762/) |
-| 1950-02-03 | [Monaca santa](https://www.imdb.com/title/tt0037925/) |
 | 1950-02-03 | [Il conte di Montecristo](https://www.imdb.com/title/tt0035752/) |
+| 1950-02-03 | [Monaca santa](https://www.imdb.com/title/tt0037925/) |
 | 1950-02-06 | [Come tu mi vuoi](https://www.imdb.com/title/tt0022641/) |
 | 1950-02-07 | [Duello col pirata nero](https://www.imdb.com/title/tt0030725/) |
 | 1950-02-10 | [Caccia all'uomo (miserabili)](https://www.imdb.com/title/tt0039629/) |
-| 1950-02-11 | [Duello mortale](https://www.imdb.com/title/tt0033873/) |
 | 1950-02-11 | [Duello col pirata nero](https://www.imdb.com/title/tt0030725/) |
+| 1950-02-11 | [Duello mortale](https://www.imdb.com/title/tt0033873/) |
 | 1950-02-14 | [Duello mortale](https://www.imdb.com/title/tt0033873/) |
 | 1950-02-15 | [Difendo mia figlia](https://www.imdb.com/title/tt0165938/) |
 | 1950-02-17 | [Il trovatore](https://www.imdb.com/title/tt0041991/) |
 | 1950-02-18 | [Salomè](https://www.imdb.com/title/tt0038046/) |
 | 1950-02-24 | [Il figlio della furia](https://www.imdb.com/title/tt0035360/) |
-| 1950-02-25 | [Il 13 non risponde](https://www.imdb.com/title/tt0038279/) |
 | 1950-02-25 | [La carovana dei ribelli](https://www.imdb.com/title/tt0036890/) |
+| 1950-02-25 | [Il 13 non risponde](https://www.imdb.com/title/tt0038279/) |
 | 1950-02-28 | [Vita rubata](https://www.imdb.com/title/tt0038813/) |
 
 ### Marzo
@@ -73,8 +73,8 @@ I voti IMDb descrivono le valutazioni degli utenti IMDb, non il pubblico o gli i
 | 1950-03-21 | [Genoveffa di Brabante](https://www.imdb.com/title/tt0039415/) |
 | 1950-03-24 | [La sepolta viva](https://www.imdb.com/title/tt0040774/) |
 | 1950-03-25 | [Don Pedro il crudele](https://www.imdb.com/title/tt0036960/) |
-| 1950-03-29 | [Il demone della carne](https://www.imdb.com/title/tt0038232/) |
 | 1950-03-29 | [Un albero cresce a Brooklyn](https://www.imdb.com/title/tt0038190/) |
+| 1950-03-29 | [Il demone della carne](https://www.imdb.com/title/tt0038232/) |
 
 ### Aprile
 

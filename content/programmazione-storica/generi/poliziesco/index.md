@@ -36,8 +36,8 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 |  |  |
 |---|---|
 | 1950-02-07 | [Duello col pirata nero](https://www.imdb.com/title/tt0030725/) |
-| 1950-02-11 | [Duello mortale](https://www.imdb.com/title/tt0033873/) |
 | 1950-02-11 | [Duello col pirata nero](https://www.imdb.com/title/tt0030725/) |
+| 1950-02-11 | [Duello mortale](https://www.imdb.com/title/tt0033873/) |
 | 1950-02-14 | [Duello mortale](https://www.imdb.com/title/tt0033873/) |
 | 1950-02-15 | [Difendo mia figlia](https://www.imdb.com/title/tt0165938/) |
 | 1950-02-28 | [Vita rubata](https://www.imdb.com/title/tt0038813/) |
@@ -258,6 +258,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1963-04-23 | [L'inchiesta dell'ispettore Morgan](https://www.imdb.com/title/tt0052634/) |
 | 1963-05-27 | [Furto alla banca d'Inghilterra](https://www.imdb.com/title/tt0053752/) |
 | 1963-07-01 | [Acqua alla gola](https://www.imdb.com/title/tt0050246/) |
+| 1963-08-17 | [Oro nella polvere](https://www.imdb.com/title/tt0052282/) |
 | 1963-10-01 | [La grande rapina di Boston](https://www.imdb.com/title/tt0054693/) |
 | 1963-10-21 | [L'altro uomo (Delitto per delitto)](https://www.imdb.com/title/tt0044079/) |
 | 1963-10-28 | [Avventura a Malaga](https://www.imdb.com/title/tt0054053/) |
@@ -277,6 +278,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1964-01-07 | [I sette ladri](https://www.imdb.com/title/tt0054295/) |
 | 1964-01-13 | [Missione pericolosa](https://www.imdb.com/title/tt0047924/) |
 | 1964-01-22 | [Totò diabolicus](https://www.imdb.com/title/tt0056604/) |
+| 1964-02-26 | [Banditi a Orgosolo](https://www.imdb.com/title/tt0053632/) |
 | 1964-03-04 | [Il re dei falsari](https://www.imdb.com/title/tt0054734/) |
 | 1964-04-07 | [Il cerchio si chiude](https://www.imdb.com/title/tt0039396/) |
 | 1964-04-09 | [Catene](https://www.imdb.com/title/tt0041232/) |
@@ -294,6 +296,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 |  |  |
 |---|---|
 | 1965-01-27 | [F.B.I. sesso e violenza](https://www.imdb.com/title/tt0161071/) |
+| 1965-01-28 | [Super rapina a Milano](https://www.imdb.com/title/tt0168201/) |
 | 1965-03-10 | [L'uomo che morì tre volte](https://www.imdb.com/title/tt0056216/) |
 | 1965-03-14 | [Il fornaretto di Venezia](https://www.imdb.com/title/tt0057068/) |
 | 1965-03-31 | [Il giustiziere dei tropici](https://www.imdb.com/title/tt0046462/) |
@@ -309,7 +312,9 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1965-09-29 | [L'impero del mitra](https://www.imdb.com/title/tt0174676/) |
 | 1965-10-01 | [Preda bionda](https://www.imdb.com/title/tt0127575/) |
 | 1965-10-22 | [Forza bruta](https://www.imdb.com/title/tt0039224/) |
+| 1965-11-12 | [X 21 spionaggio atomico](https://www.imdb.com/title/tt0058334/) |
 | 1965-12-10 | [L'arma del delitto](https://www.imdb.com/title/tt0051184/) |
+| 1965-12-13 | [Totò contro i quattro](https://www.imdb.com/title/tt0057594/) |
 | 1965-12-23 | [Sentenza che scotta](https://www.imdb.com/title/tt0052623/) |
 
 ### 1966
@@ -354,6 +359,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1966-11-18 | [Tecnica di una spia](https://www.imdb.com/title/tt0062409/) |
 | 1966-11-19 | [Fantomas 70](https://www.imdb.com/title/tt0058089/) |
 | 1966-12-07 | [Furto alla banca d'Inghilterra](https://www.imdb.com/title/tt0053752/) |
+| 1966-12-27 | [Io uccido, tu uccidi](https://www.imdb.com/title/tt0059317/) |
 
 ### 1967
 
@@ -369,7 +375,9 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1967-03-02 | [L'oltraggio](https://www.imdb.com/title/tt0058437/) |
 | 1967-03-09 | [Marie Chantal contro il dr. Kha](https://www.imdb.com/title/tt0059432/) |
 | 1967-03-14 | [La città nera](https://www.imdb.com/title/tt0042379/) |
+| 1967-04-10 | [Il limite della vergogna](https://www.imdb.com/title/tt0056656/) |
 | 1967-04-19 | [Chi giace nella mia bara?](https://www.imdb.com/title/tt0057997/) |
+| 1967-04-24 | [Argos alla riscossa](https://www.imdb.com/title/tt0055408/) |
 | 1967-07-14 | [Cerimonia infernale](https://www.imdb.com/title/tt0056918/) |
 | 1967-07-17 | [Pelle d'oca](https://www.imdb.com/title/tt0056921/) |
 | 1967-08-11 | [La legge della Mafia](https://www.imdb.com/title/tt0221336/) |
@@ -385,6 +393,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1967-11-17 | [La spia sulla città](https://www.imdb.com/title/tt0056925/) |
 | 1967-11-23 | [Il gobbo di Londra](https://www.imdb.com/title/tt0060192/) |
 | 1967-12-13 | [Svegliati e uccidi](https://www.imdb.com/title/tt0061049/) |
+| 1967-12-21 | [L'harem](https://www.imdb.com/title/tt0063042/) |
 | 1967-12-27 | [Spara forte, più forte... non capisco!](https://www.imdb.com/title/tt0061008/) |
 
 ### 1968
@@ -529,6 +538,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 |---|---|
 | 1972-01-20 | [Gli occhi freddi della paura](https://www.imdb.com/title/tt0067511/) |
 | 1972-01-28 | [Il boia scarlatto](https://www.imdb.com/title/tt0058983/) |
+| 1972-02-02 | [Una vedova tutta d'oro](https://www.imdb.com/title/tt0065153/) |
 | 1972-03-16 | [I disperati di Cuba](https://www.imdb.com/title/tt0891576/) |
 | 1972-05-05 | [L'uomo venuto da Chicago](https://www.imdb.com/title/tt0066502/) |
 | 1972-05-17 | [Colpo grosso a Manila](https://www.imdb.com/title/tt0058858/) |
@@ -577,6 +587,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 |---|---|
 | 1974-01-11 | [F.B.I. operazione gatto](https://www.imdb.com/title/tt0059793/) |
 | 1974-01-22 | [Getaway!](https://www.imdb.com/title/tt0068638/) |
+| 1974-01-25 | [La volpe dalla coda di velluto](https://www.imdb.com/title/tt0067520/) |
 | 1974-02-22 | [La spia che vide il suo cadavere](https://www.imdb.com/title/tt0068663/) |
 | 1974-03-05 | [L'assassino colpisce all'alba](https://www.imdb.com/title/tt0065536/) |
 | 1974-03-20 | [L'uomo perduto](https://www.imdb.com/title/tt0064602/) |
@@ -734,6 +745,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1978-05-12 | [...a tutte le auto della polizia...](https://www.imdb.com/title/tt0072590/) |
 | 1978-05-16 | [Genova a mano armata](https://www.imdb.com/title/tt0076387/) |
 | 1978-05-21 | [Anche gli angeli tirano di destro](https://www.imdb.com/title/tt0071139/) |
+| 1978-05-28 | [La gang dei dobermann colpisce ancora](https://www.imdb.com/title/tt0069944/) |
 | 1978-06-25 | [Smashing il racket del crimine](https://www.imdb.com/title/tt0065826/) |
 | 1978-07-09 | [Un asso nella mia manica](https://www.imdb.com/title/tt0072600/) |
 | 1978-08-15 | [Torino violenta](https://www.imdb.com/title/tt0078408/) |
@@ -776,6 +788,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1979-11-02 | [La furia del drago](https://www.imdb.com/title/tt0827709/) |
 | 1979-11-18 | [Il commissario di ferro](https://www.imdb.com/title/tt0077363/) |
 | 1979-12-06 | [La polizia è sconfitta](https://www.imdb.com/title/tt0078336/) |
+| 1979-12-09 | [Il vangelo secondo Simone e Matteo](https://www.imdb.com/title/tt0073854/) |
 
 ### 1980
 
@@ -799,6 +812,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1980-11-02 | [La morte nella mano](https://www.imdb.com/title/tt0065999/) |
 | 1980-11-04 | [Adiós gringo](https://www.imdb.com/title/tt0060067/) |
 | 1980-11-13 | [Play Motel](https://www.imdb.com/title/tt0148615/) |
+| 1980-11-30 | [La gang dei dobermann colpisce ancora](https://www.imdb.com/title/tt0069944/) |
 
 ### 1981
 
@@ -813,6 +827,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1981-05-03 | [Liberi armati pericolosi](https://www.imdb.com/title/tt0074792/) |
 | 1981-05-24 | [Anche gli angeli mangiano fagioli](https://www.imdb.com/title/tt0069713/) |
 | 1981-09-21 | [Pornogiochi al casinò](https://www.imdb.com/title/tt0231537/) |
+| 1981-10-24 | [Charleston](https://www.imdb.com/title/tt0077319/) |
 | 1981-11-03 | [I due superpiedi quasi piatti](https://www.imdb.com/title/tt0074442/) |
 | 1981-11-05 | [Prestazioni particolari](https://www.imdb.com/title/tt0252847/) |
 | 1981-11-10 | [Apriti con amore](https://www.imdb.com/title/tt0074507/) |
@@ -873,18 +888,23 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 |---|---|
 | 1984-01-10 | [L'ultima sfida di Bruce Lee](https://www.imdb.com/title/tt0076709/) |
 | 1984-03-23 | [Vigilante](https://www.imdb.com/title/tt0084867/) |
+| 1984-03-30 | [Pornoereditiere cercasi](https://www.imdb.com/title/tt0200115/) |
+| 1984-04-14 | [Il vero e il falso](https://www.imdb.com/title/tt0067941/) |
 | 1984-04-17 | [Bad Boys](https://www.imdb.com/title/tt0085210/) |
 | 1984-09-29 | [Profumo di vergine](https://www.imdb.com/title/tt0198340/) |
 | 1984-10-02 | [I vendicatori della notte](https://www.imdb.com/title/tt0086625/) |
 | 1984-11-25 | [Eroticofollia (Malocchio)](https://www.imdb.com/title/tt0071471/) |
+| 1984-11-30 | [Le evase](https://www.imdb.com/title/tt0077520/) |
 | 1984-12-23 | [Bruce Lee il dominatore](https://www.imdb.com/title/tt0074246/) |
 
 ### 1985
 
 |  |  |
 |---|---|
+| 1985-01-27 | [Pornoereditiere cercasi](https://www.imdb.com/title/tt0200115/) |
 | 1985-02-17 | [Calore nel ventre](https://www.imdb.com/title/tt0288704/) |
 | 1985-03-24 | [Ninja la furia umana](https://www.imdb.com/title/tt0086192/) |
+| 1985-10-04 | [Un corpo da vendere](https://www.imdb.com/title/tt0289511/) |
 | 1985-10-15 | [Pizza Connection](https://www.imdb.com/title/tt0089813/) |
 | 1985-10-19 | [Una magnum per McQuade](https://www.imdb.com/title/tt0085862/) |
 | 1985-10-22 | [I due carabinieri](https://www.imdb.com/title/tt0087181/) |
@@ -910,12 +930,15 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1987-01-13 | [Il mostro di Firenze](https://www.imdb.com/title/tt0188071/) |
 | 1987-01-25 | [Cobra](https://www.imdb.com/title/tt0090859/) |
 | 1987-03-21 | [L'assassino è ancora tra noi](https://www.imdb.com/title/tt0088745/) |
+| 1987-03-22 | [Dal Giappone con furore](https://www.imdb.com/title/tt0164750/) |
+| 1987-04-04 | [L'invincibile ninja](https://www.imdb.com/title/tt0082332/) |
 | 1987-04-05 | [Shanghai Surprise](https://www.imdb.com/title/tt0091934/) |
 | 1987-04-12 | [Scuola di ladri](https://www.imdb.com/title/tt0091911/) |
 | 1987-05-10 | [I 5 della squadra d'assalto](https://www.imdb.com/title/tt0090693/) |
 | 1987-08-31 | [Scuola di polizia 4: Cittadini in... guardia](https://www.imdb.com/title/tt0093756/) |
 | 1987-10-10 | [Nessuna pietà](https://www.imdb.com/title/tt0091637/) |
 | 1987-10-17 | [Porno anomalia](https://www.imdb.com/title/tt0263626/) |
+| 1987-11-14 | [Bruce Lee il dominatore](https://www.imdb.com/title/tt0074246/) |
 | 1987-11-15 | [Il caso Moro](https://www.imdb.com/title/tt0090805/) |
 | 1987-12-25 | [Il siciliano](https://www.imdb.com/title/tt0093966/) |
 
@@ -946,8 +969,10 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 |---|---|
 | 1989-01-09 | [Scuola di polizia 5: Destinazione Miami](https://www.imdb.com/title/tt0095882/) |
 | 1989-01-29 | [Danko](https://www.imdb.com/title/tt0095963/) |
+| 1989-02-26 | [Pornoereditiere cercasi](https://www.imdb.com/title/tt0200115/) |
 | 1989-03-21 | [Chi ha incastrato Roger Rabbit](https://www.imdb.com/title/tt0096438/) |
 | 1989-09-23 | [Natura contro (Paradiso infernale)](https://www.imdb.com/title/tt0161849/) |
+| 1989-10-01 | [Le evase](https://www.imdb.com/title/tt0077520/) |
 | 1989-10-19 | [Sotto il vestito niente II](https://www.imdb.com/title/tt0096144/) |
 | 1989-12-03 | [Mery per sempre](https://www.imdb.com/title/tt0097870/) |
 | 1989-12-12 | [I gemelli](https://www.imdb.com/title/tt0096320/) |
@@ -956,11 +981,13 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 
 |  |  |
 |---|---|
+| 1990-01-07 | [Batman](https://www.imdb.com/title/tt0096895/) |
 | 1990-01-30 | [Sorvegliato speciale](https://www.imdb.com/title/tt0097770/) |
 | 1990-02-17 | [Il bambino e il poliziotto](https://www.imdb.com/title/tt0096884/) |
 | 1990-02-26 | [Johnny il bello](https://www.imdb.com/title/tt0097626/) |
 | 1990-03-03 | [Furia cieca](https://www.imdb.com/title/tt0096945/) |
 | 1990-05-13 | [Tango &amp; Cash](https://www.imdb.com/title/tt0098439/) |
+| 1990-05-20 | [Di dietro tutta, femmine corrotte dal piacere](https://www.imdb.com/title/tt0085367/) |
 | 1990-09-23 | [Mery per sempre](https://www.imdb.com/title/tt0097870/) |
 | 1990-10-21 | [Le superscatenate](https://www.imdb.com/title/tt0098648/) |
 | 1990-10-22 | [Volevo i pantaloni](https://www.imdb.com/title/tt0100886/) |
@@ -1000,6 +1027,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 |  |  |
 |---|---|
 | 1993-01-24 | [Resa dei conti a Little Tokyo](https://www.imdb.com/title/tt0102915/) |
+| 1993-01-31 | [Le superscatenate](https://www.imdb.com/title/tt0098648/) |
 | 1993-04-11 | [Mamma, ho riperso l'aereo: Mi sono smarrito a New York](https://www.imdb.com/title/tt0104431/) |
 | 1993-10-24 | [RoboCop 3](https://www.imdb.com/title/tt0107978/) |
 | 1993-11-07 | [Il fuggitivo](https://www.imdb.com/title/tt0106977/) |

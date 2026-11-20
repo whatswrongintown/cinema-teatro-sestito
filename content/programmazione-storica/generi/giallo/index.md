@@ -34,8 +34,8 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 |  |  |
 |---|---|
 | 1950-01-28 | [Il castello di Dragonwyck](https://www.imdb.com/title/tt0038492/) |
-| 1950-02-01 | [Il castello di Dragonwyck](https://www.imdb.com/title/tt0038492/) |
 | 1950-02-01 | [Bernadette](https://www.imdb.com/title/tt0036377/) |
+| 1950-02-01 | [Il castello di Dragonwyck](https://www.imdb.com/title/tt0038492/) |
 | 1950-02-28 | [Vita rubata](https://www.imdb.com/title/tt0038813/) |
 | 1950-05-07 | [La casa senza tempo](https://www.imdb.com/title/tt0035719/) |
 
@@ -155,6 +155,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 |---|---|
 | 1963-02-09 | [I 39 scalini](https://www.imdb.com/title/tt0053354/) |
 | 1963-04-23 | [L'inchiesta dell'ispettore Morgan](https://www.imdb.com/title/tt0052634/) |
+| 1963-06-16 | [Il trionfo di Maciste](https://www.imdb.com/title/tt0149295/) |
 | 1963-07-01 | [Acqua alla gola](https://www.imdb.com/title/tt0050246/) |
 | 1963-11-04 | [La casa dei sette falchi](https://www.imdb.com/title/tt0052908/) |
 | 1963-11-11 | [Acqua alla gola](https://www.imdb.com/title/tt0050246/) |
@@ -175,6 +176,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1964-08-26 | [Il complice segreto](https://www.imdb.com/title/tt0055422/) |
 | 1964-09-23 | [L'ombra del gatto](https://www.imdb.com/title/tt0055438/) |
 | 1964-09-29 | [Suspense](https://www.imdb.com/title/tt0055018/) |
+| 1964-12-25 | [Perseo l'invincibile](https://www.imdb.com/title/tt0056343/) |
 
 ### 1965
 
@@ -212,6 +214,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1967-01-13 | [Sciarada per quattro spie](https://www.imdb.com/title/tt0060140/) |
 | 1967-02-12 | [Intrigo a Stoccolma](https://www.imdb.com/title/tt0057426/) |
 | 1967-03-14 | [La città nera](https://www.imdb.com/title/tt0042379/) |
+| 1967-04-24 | [Argos alla riscossa](https://www.imdb.com/title/tt0055408/) |
 | 1967-06-04 | [Kindar, l'invulnerabile](https://www.imdb.com/title/tt0060590/) |
 | 1967-06-05 | [Destino in agguato](https://www.imdb.com/title/tt0058091/) |
 | 1967-10-19 | [Il terzo giorno](https://www.imdb.com/title/tt0059795/) |
@@ -311,6 +314,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 
 |  |  |
 |---|---|
+| 1974-01-25 | [La volpe dalla coda di velluto](https://www.imdb.com/title/tt0067520/) |
 | 1974-02-22 | [La spia che vide il suo cadavere](https://www.imdb.com/title/tt0068663/) |
 | 1974-03-05 | [L'assassino colpisce all'alba](https://www.imdb.com/title/tt0065536/) |
 | 1974-03-08 | [Anche i dottori ce l'hanno](https://www.imdb.com/title/tt0067217/) |
@@ -353,6 +357,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1977-04-22 | [Prostituzione](https://www.imdb.com/title/tt0093441/) |
 | 1977-04-30 | [A ciascuno il suo](https://www.imdb.com/title/tt0061320/) |
 | 1977-06-12 | [Gente di rispetto](https://www.imdb.com/title/tt0072123/) |
+| 1977-10-28 | [Il trionfo di Maciste](https://www.imdb.com/title/tt0149295/) |
 | 1977-12-08 | [Candidato all'obitorio](https://www.imdb.com/title/tt0075263/) |
 
 ### 1978
@@ -420,6 +425,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 |---|---|
 | 1984-01-10 | [L'ultima sfida di Bruce Lee](https://www.imdb.com/title/tt0076709/) |
 | 1984-01-11 | [Chi vive in quella casa?](https://www.imdb.com/title/tt0077357/) |
+| 1984-04-14 | [Il vero e il falso](https://www.imdb.com/title/tt0067941/) |
 | 1984-10-12 | [L'estate assassina](https://www.imdb.com/title/tt0086655/) |
 | 1984-11-25 | [Eroticofollia (Malocchio)](https://www.imdb.com/title/tt0071471/) |
 | 1984-12-23 | [Bruce Lee il dominatore](https://www.imdb.com/title/tt0074246/) |
@@ -450,6 +456,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1987-03-21 | [L'assassino è ancora tra noi](https://www.imdb.com/title/tt0088745/) |
 | 1987-10-27 | [Le foto di Gioia](https://www.imdb.com/title/tt0093043/) |
 | 1987-11-01 | [Spiritika](https://www.imdb.com/title/tt0090327/) |
+| 1987-11-14 | [Bruce Lee il dominatore](https://www.imdb.com/title/tt0074246/) |
 | 1987-12-13 | [Camping del terrore](https://www.imdb.com/title/tt0090788/) |
 
 ### 1988

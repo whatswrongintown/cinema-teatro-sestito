@@ -104,6 +104,7 @@ image: "/programmazione-storica/paesi-di-produzione/_index_files/figure-html/ita
 | 1978-03-12 | [Bruce Lee contro i supermen](https://www.imdb.com/title/tt0072744/) |
 | 1978-04-05 | [Il drago si scatena](https://www.imdb.com/title/tt0068310/) |
 | 1978-05-19 | [Pugni feroci](https://www.imdb.com/title/tt1234731/) |
+| 1978-08-22 | Colpo per colpo |
 | 1978-10-31 | [Le arti marziali di Bruce Lee](https://www.imdb.com/title/tt1033604/) |
 
 ### 1979
@@ -148,6 +149,7 @@ image: "/programmazione-storica/paesi-di-produzione/_index_files/figure-html/ita
 
 |  |  |
 |---|---|
+| 1981-01-06 | Colpo per colpo |
 | 1981-01-15 | [Colpo fatale](https://www.imdb.com/title/tt0186088/) |
 | 1981-01-30 | [Bruce Lee il maestro](https://www.imdb.com/title/tt0071253/) |
 | 1981-04-03 | [Bruce Lee la tigre indomabile](https://www.imdb.com/title/tt0075167/) |
@@ -203,14 +205,17 @@ image: "/programmazione-storica/paesi-di-produzione/_index_files/figure-html/ita
 |---|---|
 | 1985-01-22 | [Bruce Lee l'immortale campione](https://www.imdb.com/title/tt0165741/) |
 | 1985-03-09 | [Bruce Lee: l'ira del drago colpisce anche l'Occidente](https://www.imdb.com/title/tt0165117/) |
-| 1985-12-13 | [Bruce Lee l'invincibile del kung fu](https://www.imdb.com/title/tt0081216/) |
+| 1985-03-23 | [Bruce Lee l'invincibile del kung fu](https://www.imdb.com/title/tt0081216/) |
+| 1985-12-13 | [Bruce Lee l'invincibile del kung fu](https://www.imdb.com/title/tt0079903/) |
 | 1985-12-27 | [Bruce Lee la tigre indomabile](https://www.imdb.com/title/tt0075167/) |
 
 ### 1986
 
 |  |  |
 |---|---|
+| 1986-03-08 | [Bruce Lee la tigre indomabile](https://www.imdb.com/title/tt0075167/) |
 | 1986-03-08 | [L'urlo di Bruce Lee terrorizza ancora](https://www.imdb.com/title/tt0196113/) |
+| 1986-04-19 | [L'urlo di Bruce Lee terrorizza ancora](https://www.imdb.com/title/tt0196113/) |
 | 1986-12-13 | [Bruce Lee l'immortale campione](https://www.imdb.com/title/tt0165741/) |
 
 ### 1987
@@ -218,7 +223,16 @@ image: "/programmazione-storica/paesi-di-produzione/_index_files/figure-html/ita
 |  |  |
 |---|---|
 | 1987-01-17 | [Bruce Lee il leggendario](https://www.imdb.com/title/tt0082673/) |
+| 1987-01-31 | [Il colpo maestro di Bruce Lee](https://www.imdb.com/title/tt0122029/) |
+| 1987-05-16 | [Bruce Lee il campione](https://www.imdb.com/title/tt0062936/) |
 | 1987-05-16 | [Bruce Lee il leggendario](https://www.imdb.com/title/tt0082673/) |
+| 1987-11-14 | [Bruce Lee il dominatore](https://www.imdb.com/title/tt0074246/) |
+
+### 1988
+
+|  |  |
+|---|---|
+| 1988-12-11 | [Bruce Lee il campione](https://www.imdb.com/title/tt0062936/) |
 
 ### 1991
 

@@ -29,6 +29,7 @@ I voti IMDb descrivono le valutazioni degli utenti IMDb, non il pubblico o gli i
 | 1991-01-13 | [Amori particolari transessuali](https://www.imdb.com/title/tt2321179/) |
 | 1991-01-19 | [L'albero del male](https://www.imdb.com/title/tt0099710/) |
 | 1991-01-20 | [Ancora 48 ore](https://www.imdb.com/title/tt0099044/) |
+| 1991-01-20 | Le fanciulle del sesso proibito |
 | 1991-01-27 | [Ragazzi fuori](https://www.imdb.com/title/tt0100454/) |
 
 ### Febbraio
@@ -49,17 +50,22 @@ I voti IMDb descrivono le valutazioni degli utenti IMDb, non il pubblico o gli i
 |:----------|:--------------------------------------|
 | 1991-03-03 | [Esperienze erotiche di giovani donne](https://www.imdb.com/title/tt0068989/) |
 | 1991-03-03 | [Ghost - Fantasma](https://www.imdb.com/title/tt0099653/) |
-| 1991-03-10 | [Rocky V](https://www.imdb.com/title/tt0100507/) |
+| 1991-03-03 | [Il piacere dell'atto sessuale](https://www.imdb.com/title/tt0197290/) |
 | 1991-03-10 | [Cicciolina e Moana 'Mondiali'](https://www.imdb.com/title/tt0099267/) |
+| 1991-03-10 | [Rocky V](https://www.imdb.com/title/tt0100507/) |
 | 1991-03-17 | [Le comiche](https://www.imdb.com/title/tt0099293/) |
 | 1991-03-17 | [Erotic Dreams](https://www.imdb.com/title/tt0129909/) |
 | 1991-03-24 | [Atto di forza](https://www.imdb.com/title/tt0100802/) |
+| 1991-03-24 | Desiderio di vizi bestiali |
 | 1991-03-30 | [Un uomo innocente](https://www.imdb.com/title/tt0097579/) |
+| 1991-03-31 | [Il grande momento …bestiale](https://www.imdb.com/title/tt0202887/) |
+| 1991-03-31 | Tutto animal |
 
 ### Aprile
 
 |           |                                       |
 |:----------|:--------------------------------------|
+| 1991-04-07 | Flavia… Rome Bestial Luxury |
 | 1991-04-07 | [Stasera a casa di Alice](https://www.imdb.com/title/tt0100683/) |
 | 1991-04-14 | [Fantozzi alla riscossa](https://www.imdb.com/title/tt0099545/) |
 | 1991-04-21 | [Nikita](https://www.imdb.com/title/tt0100263/) |
@@ -74,8 +80,8 @@ I voti IMDb descrivono le valutazioni degli utenti IMDb, non il pubblico o gli i
 | 1991-05-05 | [Il tè nel deserto](https://www.imdb.com/title/tt0100594/) |
 | 1991-05-12 | [Vacanze di Natale '90](https://www.imdb.com/title/tt0129511/) |
 | 1991-05-19 | [Mamma, ho perso l'aereo](https://www.imdb.com/title/tt0099785/) |
-| 1991-05-26 | [Occhio alla perestrojka](https://www.imdb.com/title/tt0129271/) |
 | 1991-05-26 | [Spogliando Valeria](https://www.imdb.com/title/tt0096959/) |
+| 1991-05-26 | [Occhio alla perestrojka](https://www.imdb.com/title/tt0129271/) |
 
 ### Giugno
 
@@ -91,6 +97,7 @@ I voti IMDb descrivono le valutazioni degli utenti IMDb, non il pubblico o gli i
 |:----------|:--------------------------------------|
 | 1991-09-15 | [Taboo American Style 1: The Ruthless Beginning](https://www.imdb.com/title/tt0128683/) |
 | 1991-09-22 | [La setta](https://www.imdb.com/title/tt0100581/) |
+| 1991-09-22 | Una moglie da sballo |
 | 1991-09-29 | [Volere volare](https://www.imdb.com/title/tt0103223/) |
 | 1991-09-29 | [Taboo American Style 2: The Story Continues](https://www.imdb.com/title/tt0128684/) |
 
@@ -117,6 +124,7 @@ I voti IMDb descrivono le valutazioni degli utenti IMDb, non il pubblico o gli i
 | 1991-11-09 | [La casa 7](https://www.imdb.com/title/tt0097527/) |
 | 1991-11-10 | [Tartarughe Ninja II - Il segreto di Ooze](https://www.imdb.com/title/tt0103060/) |
 | 1991-11-10 | [Slip caldo e bagnato](https://www.imdb.com/title/tt32851729/) |
+| 1991-11-15 | [Un bestiale… triangolo erotico](https://www.imdb.com/title/tt0204265/) |
 | 1991-11-17 | [Edward mani di forbice](https://www.imdb.com/title/tt0099487/) |
 | 1991-11-23 | [La carne](https://www.imdb.com/title/tt0101548/) |
 | 1991-11-24 | [Ultrà](https://www.imdb.com/title/tt0100835/) |
@@ -130,10 +138,11 @@ I voti IMDb descrivono le valutazioni degli utenti IMDb, non il pubblico o gli i
 | 1991-12-08 | [Le età di Lulù](https://www.imdb.com/title/tt0099484/) |
 | 1991-12-08 | [Scappatella con il morto](https://www.imdb.com/title/tt0100611/) |
 | 1991-12-15 | [The Doors](https://www.imdb.com/title/tt0101761/) |
+| 1991-12-15 | [Avide lingue](https://www.imdb.com/title/tt0195293/) |
 | 1991-12-22 | [Ritorno alla laguna blu](https://www.imdb.com/title/tt0102782/) |
-| 1991-12-22 | [Dirty Girls](https://www.imdb.com/title/tt14993278/) |
+| 1991-12-22 | [Dirty Girls](https://www.imdb.com/title/tt0178379/) |
 | 1991-12-29 | [Piedipiatti](https://www.imdb.com/title/tt0102668/) |
 | 1991-12-29 | [Alexandra... oltre i confini del sesso](https://www.imdb.com/title/tt0196326/) |
 
-[^1]: Fonti: [Calendario 1991]({{< relref "programmazione-storica/fonti/1991-01-01-calendario-1991/index.md" >}}), [Italautogamma 1990-91]({{< relref "programmazione-storica/fonti/1990-09-01-appunti-italautogamma-1990-91/index.md" >}}), [Italautogamma 1991-92]({{< relref "programmazione-storica/fonti/1991-09-01-appunti-italautogamma-1991-92/index.md" >}}), [Rubrica 1984-92]({{< relref "programmazione-storica/fonti/1984-01-01-rubrica-1984-92/index.md" >}})
+[^1]: Fonti: [Calendario 1991]({{< relref "programmazione-storica/fonti/1991-01-01-calendario-1991/index.md" >}}), [Italautogamma 1990-91]({{< relref "programmazione-storica/fonti/1990-09-01-appunti-italautogamma-1990-91/index.md" >}}), [Italautogamma 1991-92]({{< relref "programmazione-storica/fonti/1991-09-01-appunti-italautogamma-1991-92/index.md" >}}), [Note sui manifesti]({{< relref "programmazione-storica/fonti/1965-01-01-note-sui-manifesti/index.md" >}}), [Rubrica 1984-92]({{< relref "programmazione-storica/fonti/1984-01-01-rubrica-1984-92/index.md" >}})
 

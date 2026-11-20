@@ -33,6 +33,7 @@ lastmod: '2026-11-18'
 | 1985-02-03 | [Inquietudine morbosa di una moglie](https://www.imdb.com/title/tt1407301/) |
 | 1985-02-17 | [Calore nel ventre](https://www.imdb.com/title/tt0288704/) |
 | 1985-02-23 | [Mantidi in amore](https://www.imdb.com/title/tt0078821/) |
+| 1985-02-24 | [Myriam - Una femmina da letto](https://www.imdb.com/title/tt0084372/) |
 
 ### Marzo
 
@@ -53,18 +54,22 @@ lastmod: '2026-11-18'
 |---|---|
 | 1985-09-15 | [Il peccato di Lola](https://www.imdb.com/title/tt0089790/) |
 | 1985-09-21 | [Il ritorno dei morti viventi](https://www.imdb.com/title/tt0089907/) |
+| 1985-09-22 | [Hard confidential story](https://www.imdb.com/title/tt0195342/) |
 | 1985-09-24 | [Non c'è due senza quattro](https://www.imdb.com/title/tt0087481/) |
 
 ### Ottobre
 
 |  |  |
 |---|---|
+| 1985-10-04 | [Un corpo da vendere](https://www.imdb.com/title/tt0289511/) |
 | 1985-10-06 | [Sheena regina della giungla](https://www.imdb.com/title/tt0088103/) |
 | 1985-10-07 | [Rombo di tuono](https://www.imdb.com/title/tt0087727/) |
 | 1985-10-13 | [Nido d'amore](https://www.imdb.com/title/tt0212259/) |
 | 1985-10-15 | [Pizza Connection](https://www.imdb.com/title/tt0089813/) |
 | 1985-10-19 | [Una magnum per McQuade](https://www.imdb.com/title/tt0085862/) |
+| 1985-10-20 | Experiences of couples in love |
 | 1985-10-22 | [I due carabinieri](https://www.imdb.com/title/tt0087181/) |
 | 1985-10-26 | [Omicidio a luci rosse](https://www.imdb.com/title/tt0086984/) |
 | 1985-10-27 | [Jhoanna farfalla in calore (Skin-Flicks)](https://www.imdb.com/title/tt0079913/) |
 | 1985-10-29 | [Vacanze in America](https://www.imdb.com/title/tt0090247/) |
+

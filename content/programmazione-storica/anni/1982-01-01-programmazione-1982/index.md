@@ -47,6 +47,7 @@ I voti IMDb descrivono le valutazioni degli utenti IMDb, non il pubblico o gli i
 
 |           |                                       |
 |:----------|:--------------------------------------|
+| 1982-02-02 | L'appel Gloria e Paul |
 | 1982-02-03 | [Bruce Lee, l'uomo più forte del mondo](https://www.imdb.com/title/tt0083233/) |
 | 1982-02-04 | [Sexual Pink Ladies](https://www.imdb.com/title/tt0082907/) |
 | 1982-02-05 | [Justine, una minorenne deliziosa...](https://www.imdb.com/title/tt0125296/) |
@@ -67,6 +68,7 @@ I voti IMDb descrivono le valutazioni degli utenti IMDb, non il pubblico o gli i
 | 1982-03-06 | [Fico d'India](https://www.imdb.com/title/tt0194876/) |
 | 1982-03-07 | [Belle erotiche e maliziose (American Pie)](https://www.imdb.com/title/tt0122903/) |
 | 1982-03-09 | [Zappatore](https://www.imdb.com/title/tt0081800/) |
+| 1982-03-12 | Porno erotic movie |
 | 1982-03-13 | [Bruce Lee il grande eroe](https://www.imdb.com/title/tt0080475/) |
 | 1982-03-20 | [Bruce Lee: l'ira del drago colpisce anche l'Occidente](https://www.imdb.com/title/tt0165117/) |
 | 1982-03-21 | [Barracuda](https://www.imdb.com/title/tt0077210/) |
@@ -172,5 +174,5 @@ I voti IMDb descrivono le valutazioni degli utenti IMDb, non il pubblico o gli i
 | 1982-12-29 | [Lezioni maliziose](https://www.imdb.com/title/tt0082948/) |
 | 1982-12-31 | [Lo squartatore di New York](https://www.imdb.com/title/tt0084719/) |
 
-[^1]: Fonti: [Calendario 1982]({{< relref "programmazione-storica/fonti/1982-01-01-calendario-1982/index.md" >}}), [Rubrica 1982-83]({{< relref "programmazione-storica/fonti/1982-01-01-rubrica-1982-83/index.md" >}})
+[^1]: Fonti: [Calendario 1982]({{< relref "programmazione-storica/fonti/1982-01-01-calendario-1982/index.md" >}}), [Note sui manifesti]({{< relref "programmazione-storica/fonti/1965-01-01-note-sui-manifesti/index.md" >}}), [Rubrica 1982-83]({{< relref "programmazione-storica/fonti/1982-01-01-rubrica-1982-83/index.md" >}})
 

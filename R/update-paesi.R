@@ -65,6 +65,12 @@ load_paesi_screenings <- function(project_root) {
       stop("Valori mancanti nella colonna delle proiezioni: ", column, call. = FALSE)
     }
   }
+  missing_const_count <- sum(is.na(screenings$const) | !nzchar(trimws(screenings$const)))
+  if (missing_const_count > 0) {
+    warning(missing_const_count,
+            " proiezioni senza identificativo IMDb: i titoli appariranno senza collegamento.",
+            call. = FALSE)
+  }
   # Le date devono essere valide; gli identificativi IMDb devono essere univoci.
   dates <- as.Date(screenings$date, format = "%Y-%m-%d")
   if (anyNA(dates) || any(format(dates, "%Y-%m-%d") != screenings$date)) {
@@ -87,7 +93,9 @@ load_paesi_screenings <- function(project_root) {
   screenings$date <- dates
   screenings$anno <- as.integer(substr(screenings$date_text, 1L, 4L))
   screenings$mese <- as.integer(substr(screenings$date_text, 6L, 7L))
-  screenings$url <- imdb$URL[match(screenings$const, imdb$Const)]
+  has_const <- !is.na(screenings$const) & nzchar(trimws(screenings$const))
+  screenings$url <- NA_character_
+  screenings$url[has_const] <- imdb$URL[match(screenings$const[has_const], imdb$Const)]
   missing_url_count <- sum(is.na(screenings$url) | !nzchar(screenings$url))
   if (missing_url_count > 0) {
     warning(missing_url_count,
@@ -103,7 +111,8 @@ load_paesi_screenings <- function(project_root) {
     stop("Gli identificativi dei paesi devono essere presenti e univoci.",
          call. = FALSE)
   }
-  screenings$country <- countries$country[match(screenings$const, countries$const)]
+  screenings$country <- NA_character_
+  screenings$country[has_const] <- countries$country[match(screenings$const[has_const], countries$const)]
   paesi_cache$signature <- signature
   paesi_cache$data <- screenings
   screenings

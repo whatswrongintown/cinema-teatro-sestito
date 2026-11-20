@@ -42,7 +42,7 @@ lastmod: '2026-11-18'
 
 |  |  |
 |---|---|
-| 1984-02-04 | [Casanova II](https://www.imdb.com/title/tt0188486/) |
+| 1984-02-04 | [Casanova 82](https://www.imdb.com/title/tt0123638/) |
 | 1984-02-11 | [Banana Joe](https://www.imdb.com/title/tt0082045/) |
 | 1984-02-12 | [Blue Erotic Movie](https://www.imdb.com/title/tt0080822/) |
 | 1984-02-18 | [Interceptor - Il guerriero della strada](https://www.imdb.com/title/tt0082694/) |
@@ -118,6 +118,7 @@ lastmod: '2026-11-18'
 | 1984-12-16 | [Indiscrezioni erotiche di un letto malizioso](https://www.imdb.com/title/tt0228728/) |
 | 1984-12-22 | [Giochi di notte](https://www.imdb.com/title/tt0060740/) |
 | 1984-12-23 | [Bruce Lee il dominatore](https://www.imdb.com/title/tt0074246/) |
+| 1984-12-30 | [Quella porno erotica di mia moglie](https://www.imdb.com/title/tt0125914/) |
 
 ## 1985
 
@@ -137,6 +138,7 @@ lastmod: '2026-11-18'
 | 1985-02-03 | [Inquietudine morbosa di una moglie](https://www.imdb.com/title/tt1407301/) |
 | 1985-02-17 | [Calore nel ventre](https://www.imdb.com/title/tt0288704/) |
 | 1985-02-23 | [Mantidi in amore](https://www.imdb.com/title/tt0078821/) |
+| 1985-02-24 | [Myriam - Una femmina da letto](https://www.imdb.com/title/tt0084372/) |
 
 ### Marzo
 
@@ -190,11 +192,12 @@ lastmod: '2026-11-18'
 
 |  |  |
 |---|---|
+| 1985-12-01 | Perversion |
 | 1985-12-05 | [Phenomena](https://www.imdb.com/title/tt0087909/) |
 | 1985-12-06 | [Scuola di polizia](https://www.imdb.com/title/tt0087928/) |
 | 1985-12-08 | [Ethan](https://www.imdb.com/title/tt0303977/) |
 | 1985-12-09 | [Ghostbusters (Acchiappafantasmi)](https://www.imdb.com/title/tt0087332/) |
-| 1985-12-13 | [Bruce Lee l'invincibile del kung fu](https://www.imdb.com/title/tt0081216/) |
+| 1985-12-13 | [Bruce Lee l'invincibile del kung fu](https://www.imdb.com/title/tt0079903/) |
 | 1985-12-26 | [Amarsi un po'...](https://www.imdb.com/title/tt0086881/) |
 | 1985-12-27 | [Bruce Lee la tigre indomabile](https://www.imdb.com/title/tt0075167/) |
 | 1985-12-29 | [Calde](https://www.imdb.com/title/tt4290202/) |
@@ -266,15 +269,17 @@ lastmod: '2026-11-18'
 
 |  |  |
 |---|---|
+| 1986-09-14 | Le ninfomani |
 | 1986-09-20 | [Conan il distruttore](https://www.imdb.com/title/tt0087078/) |
+| 1986-09-21 | American porno story |
 
 ### Ottobre
 
 |  |  |
 |---|---|
 | 1986-10-12 | [La chiave del piacere](https://www.imdb.com/title/tt0212603/) |
-| 1986-10-19 | [Calde mogli in provincia](https://www.imdb.com/title/tt0230117/) |
 | 1986-10-19 | [9 settimane e 1/2](https://www.imdb.com/title/tt0091635/) |
+| 1986-10-19 | [Calde mogli in provincia](https://www.imdb.com/title/tt0230117/) |
 | 1986-10-25 | [Explorers](https://www.imdb.com/title/tt0089114/) |
 | 1986-10-26 | [Sicarius - Febbre di sesso](https://www.imdb.com/title/tt0070779/) |
 
@@ -289,6 +294,7 @@ lastmod: '2026-11-18'
 | 1986-11-17 | [Unico indizio la luna piena](https://www.imdb.com/title/tt0090021/) |
 | 1986-11-21 | [Diavolo in corpo](https://www.imdb.com/title/tt0090944/) |
 | 1986-11-22 | [Space Vampires](https://www.imdb.com/title/tt0089489/) |
+| 1986-11-23 | [Super sexy show](https://www.imdb.com/title/tt0072125/) |
 | 1986-11-24 | [Il pentito](https://www.imdb.com/title/tt0091744/) |
 | 1986-11-29 | [Voglia di guardare](https://www.imdb.com/title/tt0092180/) |
 | 1986-11-30 | [Il giustiziere della notte 3](https://www.imdb.com/title/tt0089003/) |
@@ -321,10 +327,10 @@ lastmod: '2026-11-18'
 | 1987-01-10 | [Chi è sepolto in quella casa?](https://www.imdb.com/title/tt0091223/) |
 | 1987-01-13 | [Il mostro di Firenze](https://www.imdb.com/title/tt0188071/) |
 | 1987-01-17 | [Bruce Lee il leggendario](https://www.imdb.com/title/tt0082673/) |
-| 1987-01-18 | [Dèmoni 2... l'incubo ritorna](https://www.imdb.com/title/tt0090930/) |
 | 1987-01-18 | [Bestialità](https://www.imdb.com/title/tt0074201/) |
-| 1987-01-25 | [Marina](https://www.imdb.com/title/tt1227879/) |
+| 1987-01-18 | [Dèmoni 2... l'incubo ritorna](https://www.imdb.com/title/tt0090930/) |
 | 1987-01-25 | [Cobra](https://www.imdb.com/title/tt0090859/) |
+| 1987-01-25 | [Marina](https://www.imdb.com/title/tt1227879/) |
 | 1987-01-31 | [Bruce Lee terrore d'oriente](https://www.imdb.com/title/tt0201175/) |
 
 ### Febbraio
@@ -333,8 +339,8 @@ lastmod: '2026-11-18'
 |---|---|
 | 1987-02-01 | [Lussuria](https://www.imdb.com/title/tt0091454/) |
 | 1987-02-08 | [Scuola di polizia 3: Tutto da rifare](https://www.imdb.com/title/tt0091777/) |
-| 1987-02-15 | [Il burbero](https://www.imdb.com/title/tt0092709/) |
 | 1987-02-15 | [La venexiana](https://www.imdb.com/title/tt0092157/) |
+| 1987-02-15 | [Il burbero](https://www.imdb.com/title/tt0092709/) |
 | 1987-02-21 | [French Erotica](https://www.imdb.com/title/tt0211597/) |
 | 1987-02-22 | [Il nome della rosa](https://www.imdb.com/title/tt0091605/) |
 | 1987-02-22 | [Noi e l'amore - comportamento sessuale variante](https://www.imdb.com/title/tt0198836/) |
@@ -346,11 +352,11 @@ lastmod: '2026-11-18'
 | 1987-03-01 | [Top Gun](https://www.imdb.com/title/tt0092099/) |
 | 1987-03-01 | [Oriental Hawaii](https://www.imdb.com/title/tt0188984/) |
 | 1987-03-12 | [Banane al cioccolato](https://www.imdb.com/title/tt0204873/) |
-| 1987-03-15 | [7 chili in 7 giorni](https://www.imdb.com/title/tt0091925/) |
 | 1987-03-15 | [La monaca nel peccato](https://www.imdb.com/title/tt0091539/) |
+| 1987-03-15 | [7 chili in 7 giorni](https://www.imdb.com/title/tt0091925/) |
 | 1987-03-21 | [L'assassino è ancora tra noi](https://www.imdb.com/title/tt0088745/) |
-| 1987-03-22 | [Karate Kid II - La storia continua...](https://www.imdb.com/title/tt0091326/) |
 | 1987-03-22 | [Safari d'amore](https://www.imdb.com/title/tt0087916/) |
+| 1987-03-22 | [Karate Kid II - La storia continua...](https://www.imdb.com/title/tt0091326/) |
 | 1987-03-28 | [Sensi](https://www.imdb.com/title/tt0091921/) |
 | 1987-03-29 | [Grosso guaio a Chinatown](https://www.imdb.com/title/tt0090728/) |
 
@@ -371,8 +377,8 @@ lastmod: '2026-11-18'
 |  |  |
 |---|---|
 | 1987-05-02 | [A 30 secondi dalla fine](https://www.imdb.com/title/tt0089941/) |
-| 1987-05-03 | [Italian Fast Food](https://www.imdb.com/title/tt0179905/) |
 | 1987-05-03 | [Femmine scatenate](https://www.imdb.com/title/tt0081596/) |
+| 1987-05-03 | [Italian Fast Food](https://www.imdb.com/title/tt0179905/) |
 | 1987-05-10 | [I 5 della squadra d'assalto](https://www.imdb.com/title/tt0090693/) |
 | 1987-05-16 | [Bruce Lee il leggendario](https://www.imdb.com/title/tt0082673/) |
 | 1987-05-17 | [Noi uomini duri](https://www.imdb.com/title/tt0093645/) |
@@ -442,6 +448,7 @@ lastmod: '2026-11-18'
 | 1987-11-22 | [Rimini Rimini](https://www.imdb.com/title/tt0093864/) |
 | 1987-11-26 | [Il portiere di notte](https://www.imdb.com/title/tt0071910/) |
 | 1987-11-29 | [La casa 2](https://www.imdb.com/title/tt0092991/) |
+| 1987-11-29 | Movie Fantasy |
 
 ### Dicembre
 
@@ -521,6 +528,7 @@ lastmod: '2026-11-18'
 | 1988-04-17 | [La sfida erotica](https://www.imdb.com/title/tt0213237/) |
 | 1988-04-23 | [Senza via di scampo](https://www.imdb.com/title/tt0093640/) |
 | 1988-04-24 | [Io e mia sorella](https://www.imdb.com/title/tt0093274/) |
+| 1988-04-25 | Marina e le sue voglie |
 | 1988-04-26 | [Sottozero](https://www.imdb.com/title/tt0094010/) |
 
 ### Maggio
@@ -528,6 +536,7 @@ lastmod: '2026-11-18'
 |  |  |
 |---|---|
 | 1988-05-01 | [Giochi bestiali nel mondo - Animal games](https://www.imdb.com/title/tt0329118/) |
+| 1988-05-01 | Corpi caldi |
 | 1988-05-07 | [La monaca di Monza](https://www.imdb.com/title/tt0091540/) |
 | 1988-05-21 | [I vizi segreti degli italiani quando credono di non essere visti](https://www.imdb.com/title/tt0201317/) |
 | 1988-05-22 | [La Bamba](https://www.imdb.com/title/tt0093378/) |
@@ -548,19 +557,21 @@ lastmod: '2026-11-18'
 | 1988-10-01 | [Saint Tropez Vice](https://www.imdb.com/title/tt0093908/) |
 | 1988-10-02 | [Ciao ma'...](https://www.imdb.com/title/tt0164000/) |
 | 1988-10-08 | [Goduria carnale](https://www.imdb.com/title/tt0076198/) |
+| 1988-10-09 | Passioni sfrenate |
 | 1988-10-10 | [Biancaneve e i sette nani](https://www.imdb.com/title/tt0093999/) |
 | 1988-10-15 | [Senza inibizioni](https://www.imdb.com/title/tt0087944/) |
 | 1988-10-16 | [Teresa](https://www.imdb.com/title/tt0094121/) |
 | 1988-10-22 | [Discesa all'inferno](https://www.imdb.com/title/tt0090933/) |
 | 1988-10-23 | [Com'è dura l'avventura](https://www.imdb.com/title/tt0094896/) |
+| 1988-10-23 | La professoressa erotica |
 | 1988-10-29 | [Quella villa in fondo al parco](https://www.imdb.com/title/tt0095942/) |
 
 ### Novembre
 
 |  |  |
 |---|---|
-| 1988-11-06 | [L'implacabile](https://www.imdb.com/title/tt0093894/) |
 | 1988-11-06 | [Una donna scandalosa](https://www.imdb.com/title/tt0085719/) |
+| 1988-11-06 | [L'implacabile](https://www.imdb.com/title/tt0093894/) |
 | 1988-11-12 | [Profumo](https://www.imdb.com/title/tt0093789/) |
 | 1988-11-13 | [Da grande](https://www.imdb.com/title/tt0164519/) |
 | 1988-11-19 | [Fantasmi II (Phantasm II)](https://www.imdb.com/title/tt0095863/) |
@@ -584,8 +595,10 @@ lastmod: '2026-11-18'
 |  |  |
 |---|---|
 | 1989-01-01 | [Fievel sbarca in America](https://www.imdb.com/title/tt0090633/) |
+| 1989-01-01 | [Adolescenti vogliose](https://www.imdb.com/title/tt1839398/) |
 | 1989-01-02 | [Il signore della morte](https://www.imdb.com/title/tt0082495/) |
 | 1989-01-06 | [Bye Bye Baby](https://www.imdb.com/title/tt0094820/) |
+| 1989-01-06 | [Le ragazze super particolari](https://www.imdb.com/title/tt5508022/) |
 | 1989-01-08 | [I racconti sensuali di Cicciolina](https://www.imdb.com/title/tt0197793/) |
 | 1989-01-09 | [Scuola di polizia 5: Destinazione Miami](https://www.imdb.com/title/tt0095882/) |
 | 1989-01-14 | [Rambo III](https://www.imdb.com/title/tt0095956/) |
@@ -605,6 +618,7 @@ lastmod: '2026-11-18'
 | 1989-02-12 | [Una storia ambigua](https://www.imdb.com/title/tt0147550/) |
 | 1989-02-18 | [Voglia di vincere 2](https://www.imdb.com/title/tt0094118/) |
 | 1989-02-19 | [Il set del piacere](https://www.imdb.com/title/tt0213235/) |
+| 1989-02-26 | Girls U.S.A. |
 | 1989-02-26 | [Il principe cerca moglie](https://www.imdb.com/title/tt0094898/) |
 
 ### Marzo
@@ -613,6 +627,7 @@ lastmod: '2026-11-18'
 |---|---|
 | 1989-03-07 | [Corto circuito 2](https://www.imdb.com/title/tt0096101/) |
 | 1989-03-12 | [Bestialità](https://www.imdb.com/title/tt0074201/) |
+| 1989-03-18 | [Infermiere disposte a tutto](https://www.imdb.com/title/tt0145174/) |
 | 1989-03-21 | [Chi ha incastrato Roger Rabbit](https://www.imdb.com/title/tt0096438/) |
 | 1989-03-22 | [Don Bosco](https://www.imdb.com/title/tt0095051/) |
 | 1989-03-26 | [Una Novizia nel porno-harem](https://www.imdb.com/title/tt34624317/) |
@@ -623,6 +638,7 @@ lastmod: '2026-11-18'
 |---|---|
 | 1989-04-02 | [Collegiali incestuose](https://www.imdb.com/title/tt0090026/) |
 | 1989-04-11 | [Mr. Crocodile Dundee II](https://www.imdb.com/title/tt0092493/) |
+| 1989-04-16 | [Le prestazioni di Vanessa](https://www.imdb.com/title/tt0220139/) |
 | 1989-04-23 | [La voglia](https://www.imdb.com/title/tt0126719/) |
 | 1989-04-30 | [Rambo III](https://www.imdb.com/title/tt0095956/) |
 
@@ -631,7 +647,9 @@ lastmod: '2026-11-18'
 |  |  |
 |---|---|
 | 1989-05-01 | [Compagni di scuola](https://www.imdb.com/title/tt0094901/) |
+| 1989-05-07 | [Perversioni sessuali a Las Vegas](https://www.imdb.com/title/tt0191448/) |
 | 1989-05-21 | [Il tempo delle mele 3](https://www.imdb.com/title/tt0096523/) |
+| 1989-05-21 | Le p… nipotine del collegio svedese |
 | 1989-05-25 | [L'orso](https://www.imdb.com/title/tt0095800/) |
 
 ### Settembre
@@ -641,6 +659,7 @@ lastmod: '2026-11-18'
 | 1989-09-16 | [Nightmare 4 - Il non risveglio](https://www.imdb.com/title/tt0095742/) |
 | 1989-09-17 | [Una calda femmina da letto](https://www.imdb.com/title/tt0180502/) |
 | 1989-09-23 | [Natura contro (Paradiso infernale)](https://www.imdb.com/title/tt0161849/) |
+| 1989-09-24 | [Gattine in amore](https://www.imdb.com/title/tt0189511/) |
 | 1989-09-26 | [Roba da ricchi](https://www.imdb.com/title/tt0093869/) |
 
 ### Ottobre
@@ -650,24 +669,29 @@ lastmod: '2026-11-18'
 | 1989-10-01 | [Una scatenata moglie insaziabile](https://www.imdb.com/title/tt7705824/) |
 | 1989-10-03 | [La chiesa](https://www.imdb.com/title/tt0094860/) |
 | 1989-10-05 | [Rimini Rimini - Un anno dopo](https://www.imdb.com/title/tt0200030/) |
+| 1989-10-08 | [Folli desideri erotici](https://www.imdb.com/title/tt0134562/) |
 | 1989-10-10 | [Mondo cane 2000 - L'incredibile](https://www.imdb.com/title/tt0140385/) |
 | 1989-10-14 | [Ho sposato un'aliena](https://www.imdb.com/title/tt0095687/) |
+| 1989-10-15 | La moglie e la bestia |
 | 1989-10-19 | [Sotto il vestito niente II](https://www.imdb.com/title/tt0096144/) |
 | 1989-10-22 | [Ammazzavampiri 2](https://www.imdb.com/title/tt0097390/) |
+| 1989-10-22 | Una sfrenata moglie in calore |
 | 1989-10-29 | [La casa 3](https://www.imdb.com/title/tt0093090/) |
+| 1989-10-29 | Amore dal vivo |
 
 ### Novembre
 
 |  |  |
 |---|---|
-| 1989-11-05 | [Il vizio preferito di mia moglie](https://www.imdb.com/title/tt0126718/) |
 | 1989-11-05 | [Asterix contro Cesare](https://www.imdb.com/title/tt0088748/) |
+| 1989-11-05 | [Il vizio preferito di mia moglie](https://www.imdb.com/title/tt0126718/) |
 | 1989-11-07 | [High Spirits - Fantasmi da legare](https://www.imdb.com/title/tt0095304/) |
 | 1989-11-12 | [Piaceri insaziabili di mogli in calore](https://www.imdb.com/title/tt0095526/) |
 | 1989-11-16 | [Francesco](https://www.imdb.com/title/tt0097383/) |
 | 1989-11-19 | [Provocazione](https://www.imdb.com/title/tt0095920/) |
 | 1989-11-21 | [Scuola di mostri](https://www.imdb.com/title/tt0093560/) |
 | 1989-11-25 | [Il buio si avvicina](https://www.imdb.com/title/tt0093605/) |
+| 1989-11-26 | Tutto animal |
 
 ### Dicembre
 
@@ -675,6 +699,7 @@ lastmod: '2026-11-18'
 |---|---|
 | 1989-12-03 | [Mery per sempre](https://www.imdb.com/title/tt0097870/) |
 | 1989-12-09 | [Cocktail](https://www.imdb.com/title/tt0094889/) |
+| 1989-12-10 | La zia in calore |
 | 1989-12-12 | [I gemelli](https://www.imdb.com/title/tt0096320/) |
 | 1989-12-17 | [Rain Man - L'uomo della pioggia](https://www.imdb.com/title/tt0095953/) |
 | 1989-12-17 | [Moana la scandalosa](https://www.imdb.com/title/tt0393489/) |
@@ -710,9 +735,12 @@ lastmod: '2026-11-18'
 |  |  |
 |---|---|
 | 1990-03-03 | [Furia cieca](https://www.imdb.com/title/tt0096945/) |
+| 1990-03-04 | [I peccati della notte](https://www.imdb.com/title/tt0089071/) |
 | 1990-03-06 | [Karate Kid III - La sfida finale](https://www.imdb.com/title/tt0097647/) |
 | 1990-03-11 | [Ritorno al futuro - Parte II](https://www.imdb.com/title/tt0096874/) |
+| 1990-03-11 | Orgasmo... sensazioni... rabbia… |
 | 1990-03-18 | [Indiana Jones e l'ultima crociata](https://www.imdb.com/title/tt0097576/) |
+| 1990-03-18 | Caldi incontri di una moglie infuocata |
 | 1990-03-25 | [Vicende intime n. 1](https://www.imdb.com/title/tt0216355/) |
 
 ### Aprile
@@ -721,7 +749,9 @@ lastmod: '2026-11-18'
 |---|---|
 | 1990-04-01 | [Perversioni Internazionali](https://www.imdb.com/title/tt0137551/) |
 | 1990-04-08 | [Vicende intime n. 2](https://www.imdb.com/title/tt0216356/) |
-| 1990-04-22 | [Calde voglie insaziabili](https://www.imdb.com/title/tt0095058/) |
+| 1990-04-15 | Guardando quell'animale di mia moglie |
+| 1990-04-22 | Calde voglie insaziabili |
+| 1990-04-29 | [Conturbanti esperienze di una ragazzina in calore](https://www.imdb.com/title/tt0124693/) |
 
 ### Maggio
 
@@ -729,8 +759,9 @@ lastmod: '2026-11-18'
 |---|---|
 | 1990-05-06 | [La baita dell'amore](https://www.imdb.com/title/tt0279667/) |
 | 1990-05-13 | [Tango &amp; Cash](https://www.imdb.com/title/tt0098439/) |
+| 1990-05-15 | Calde gocce di ruggiada sul mio corpo |
+| 1990-05-20 | [Di dietro tutta, femmine corrotte dal piacere](https://www.imdb.com/title/tt0085367/) |
 | 1990-05-20 | [Tesoro, mi si sono ristretti i ragazzi](https://www.imdb.com/title/tt0097523/) |
-| 1990-05-20 | [Indietro tutta!](https://www.imdb.com/title/tt12118414/) |
 | 1990-05-27 | [La bambola assassina](https://www.imdb.com/title/tt0094862/) |
 
 ### Settembre
@@ -748,6 +779,7 @@ lastmod: '2026-11-18'
 |  |  |
 |---|---|
 | 1990-10-07 | [Non aprite quel cancello 2](https://www.imdb.com/title/tt0099636/) |
+| 1990-10-07 | [Un mondo di tentazioni](https://www.imdb.com/title/tt0778869/) |
 | 1990-10-08 | [Senti chi parla](https://www.imdb.com/title/tt0097778/) |
 | 1990-10-13 | [La lambada (Que viva el merengue y la lambada)](https://www.imdb.com/title/tt0390408/) |
 | 1990-10-14 | [La casa 4](https://www.imdb.com/title/tt0096453/) |
@@ -781,8 +813,8 @@ lastmod: '2026-11-18'
 | 1990-12-15 | [Pretty Woman](https://www.imdb.com/title/tt0100405/) |
 | 1990-12-23 | [Dick Tracy](https://www.imdb.com/title/tt0099422/) |
 | 1990-12-23 | [Femmine](https://www.imdb.com/title/tt15752988/) |
-| 1990-12-30 | [Revenge - Vendetta](https://www.imdb.com/title/tt0100485/) |
 | 1990-12-30 | [La trappola di Venere](https://www.imdb.com/title/tt0096372/) |
+| 1990-12-30 | [Revenge - Vendetta](https://www.imdb.com/title/tt0100485/) |
 | 1990-12-31 | [Gremlins 2 - La nuova stirpe](https://www.imdb.com/title/tt0099700/) |
 
 ## 1991
@@ -816,17 +848,20 @@ lastmod: '2026-11-18'
 |---|---|
 | 1991-03-03 | [Esperienze erotiche di giovani donne](https://www.imdb.com/title/tt0068989/) |
 | 1991-03-03 | [Ghost - Fantasma](https://www.imdb.com/title/tt0099653/) |
-| 1991-03-10 | [Rocky V](https://www.imdb.com/title/tt0100507/) |
 | 1991-03-10 | [Cicciolina e Moana 'Mondiali'](https://www.imdb.com/title/tt0099267/) |
+| 1991-03-10 | [Rocky V](https://www.imdb.com/title/tt0100507/) |
 | 1991-03-17 | [Le comiche](https://www.imdb.com/title/tt0099293/) |
 | 1991-03-17 | [Erotic Dreams](https://www.imdb.com/title/tt0129909/) |
 | 1991-03-24 | [Atto di forza](https://www.imdb.com/title/tt0100802/) |
+| 1991-03-24 | Desiderio di vizi bestiali |
 | 1991-03-30 | [Un uomo innocente](https://www.imdb.com/title/tt0097579/) |
+| 1991-03-31 | [Il grande momento …bestiale](https://www.imdb.com/title/tt0202887/) |
 
 ### Aprile
 
 |  |  |
 |---|---|
+| 1991-04-07 | Flavia… Rome Bestial Luxury |
 | 1991-04-07 | [Stasera a casa di Alice](https://www.imdb.com/title/tt0100683/) |
 | 1991-04-14 | [Fantozzi alla riscossa](https://www.imdb.com/title/tt0099545/) |
 | 1991-04-21 | [Nikita](https://www.imdb.com/title/tt0100263/) |
@@ -841,8 +876,8 @@ lastmod: '2026-11-18'
 | 1991-05-05 | [Il tè nel deserto](https://www.imdb.com/title/tt0100594/) |
 | 1991-05-12 | [Vacanze di Natale '90](https://www.imdb.com/title/tt0129511/) |
 | 1991-05-19 | [Mamma, ho perso l'aereo](https://www.imdb.com/title/tt0099785/) |
-| 1991-05-26 | [Occhio alla perestrojka](https://www.imdb.com/title/tt0129271/) |
 | 1991-05-26 | [Spogliando Valeria](https://www.imdb.com/title/tt0096959/) |
+| 1991-05-26 | [Occhio alla perestrojka](https://www.imdb.com/title/tt0129271/) |
 
 ### Giugno
 
@@ -858,6 +893,7 @@ lastmod: '2026-11-18'
 |---|---|
 | 1991-09-15 | [Taboo American Style 1: The Ruthless Beginning](https://www.imdb.com/title/tt0128683/) |
 | 1991-09-22 | [La setta](https://www.imdb.com/title/tt0100581/) |
+| 1991-09-22 | Una moglie da sballo |
 | 1991-09-29 | [Volere volare](https://www.imdb.com/title/tt0103223/) |
 | 1991-09-29 | [Taboo American Style 2: The Story Continues](https://www.imdb.com/title/tt0128684/) |
 
@@ -897,8 +933,9 @@ lastmod: '2026-11-18'
 | 1991-12-08 | [Le età di Lulù](https://www.imdb.com/title/tt0099484/) |
 | 1991-12-08 | [Scappatella con il morto](https://www.imdb.com/title/tt0100611/) |
 | 1991-12-15 | [The Doors](https://www.imdb.com/title/tt0101761/) |
+| 1991-12-15 | [Avide lingue](https://www.imdb.com/title/tt0195293/) |
 | 1991-12-22 | [Ritorno alla laguna blu](https://www.imdb.com/title/tt0102782/) |
-| 1991-12-22 | [Dirty Girls](https://www.imdb.com/title/tt14993278/) |
+| 1991-12-22 | [Dirty Girls](https://www.imdb.com/title/tt0178379/) |
 | 1991-12-29 | [Piedipiatti](https://www.imdb.com/title/tt0102668/) |
 | 1991-12-29 | [Alexandra... oltre i confini del sesso](https://www.imdb.com/title/tt0196326/) |
 
@@ -919,7 +956,9 @@ lastmod: '2026-11-18'
 |  |  |
 |---|---|
 | 1992-02-02 | [Le comiche 2](https://www.imdb.com/title/tt0103991/) |
+| 1992-02-02 | [Il miele dell'amante regina](https://www.imdb.com/title/tt0444336/) |
 | 1992-02-09 | [Vacanze di Natale '91](https://www.imdb.com/title/tt0105717/) |
+| 1992-02-09 | [Provocazione carnale](https://www.imdb.com/title/tt0189799/) |
 | 1992-02-16 | [La creatura del cimitero](https://www.imdb.com/title/tt0099697/) |
 | 1992-02-23 | [Donne con le gonne](https://www.imdb.com/title/tt0104122/) |
 | 1992-02-23 | [Vergini corpi frementi](https://www.imdb.com/title/tt0126098/) |
@@ -930,17 +969,22 @@ lastmod: '2026-11-18'
 |---|---|
 | 1992-03-01 | [Robin Hood - Principe dei ladri](https://www.imdb.com/title/tt0102798/) |
 | 1992-03-08 | [Forza d'urto](https://www.imdb.com/title/tt0102984/) |
+| 1992-03-08 | [Viziose asolescenti](https://www.imdb.com/title/tt0125175/) |
 | 1992-03-15 | [Dove comincia la notte](https://www.imdb.com/title/tt0155681/) |
 | 1992-03-22 | [A volte ritornano](https://www.imdb.com/title/tt0102960/) |
-| 1992-03-29 | [Robin Hood - La leggenda](https://www.imdb.com/title/tt0102797/) |
+| 1992-03-22 | Voluttuose deviazioni carnali |
 | 1992-03-29 | [Delirio di femmine viziose](https://www.imdb.com/title/tt0088160/) |
+| 1992-03-29 | [Robin Hood - La leggenda](https://www.imdb.com/title/tt0102797/) |
 
 ### Aprile
 
 |  |  |
 |---|---|
+| 1992-04-05 | [Febbre di lingue viziose](https://www.imdb.com/title/tt0139593/) |
 | 1992-04-12 | [Tutti i vizzi de mia moglie](https://www.imdb.com/title/tt8006450/) |
 | 1992-04-19 | [La notte dei morti viventi](https://www.imdb.com/title/tt0100258/) |
+| 1992-04-19 | [Solange la calda bocca](https://www.imdb.com/title/tt0459021/) |
 | 1992-04-25 | [Giustizia a tutti i costi](https://www.imdb.com/title/tt0102614/) |
 | 1992-04-26 | [La famiglia Addams](https://www.imdb.com/title/tt0101272/) |
 | 1992-04-26 | [Esperienze innaturali di Lorain](https://www.imdb.com/title/tt0311643/) |
+

@@ -283,5 +283,5 @@ I voti IMDb descrivono le valutazioni degli utenti IMDb, non il pubblico o gli i
 | 1968-12-29 | [Da uomo a uomo](https://www.imdb.com/title/tt0064208/) |
 | 1968-12-30 | [Sesso perduto](https://www.imdb.com/title/tt0060516/) |
 
-[^1]: Fonti: [Agenda 1968]({{< relref "programmazione-storica/fonti/1968-01-01-agenda-1968/index.md" >}}), [Calendario 1968]({{< relref "programmazione-storica/fonti/1968-01-01-calendario-1968/index.md" >}}), [Morganite 1968-69]({{< relref "programmazione-storica/fonti/1968-11-01-morganite-1968-69/index.md" >}}), [Rubrica 1968]({{< relref "programmazione-storica/fonti/1968-01-01-rubrica-1968/index.md" >}}), [Rubrica 1969-1981]({{< relref "programmazione-storica/fonti/1968-12-01-rubrica-1969-1981/index.md" >}})
+[^1]: Fonti: [Agenda 1968]({{< relref "programmazione-storica/fonti/1968-01-01-agenda-1968/index.md" >}}), [Calendario 1968]({{< relref "programmazione-storica/fonti/1968-01-01-calendario-1968/index.md" >}}), [Morganite 1968-69]({{< relref "programmazione-storica/fonti/1968-11-01-morganite-1968-69/index.md" >}}), [Note sui manifesti]({{< relref "programmazione-storica/fonti/1965-01-01-note-sui-manifesti/index.md" >}}), [Rubrica 1968]({{< relref "programmazione-storica/fonti/1968-01-01-rubrica-1968/index.md" >}}), [Rubrica 1969-1981]({{< relref "programmazione-storica/fonti/1968-12-01-rubrica-1969-1981/index.md" >}})
 

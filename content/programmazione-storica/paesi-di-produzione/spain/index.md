@@ -234,6 +234,7 @@ image: "/programmazione-storica/paesi-di-produzione/_index_files/figure-html/ita
 | 1967-11-17 | [La spia sulla città](https://www.imdb.com/title/tt0056925/) |
 | 1967-11-19 | [Una bara per Ringo](https://www.imdb.com/title/tt0061175/) |
 | 1967-11-22 | [Delitto d'amore](https://www.imdb.com/title/tt0058868/) |
+| 1967-11-26 | [Djurado](https://www.imdb.com/title/tt0061583/) |
 | 1967-12-29 | [Sette ore di fuoco](https://www.imdb.com/title/tt0058575/) |
 | 1967-12-31 | [Voltati... ti uccido!](https://www.imdb.com/title/tt0063813/) |
 
@@ -443,6 +444,7 @@ image: "/programmazione-storica/paesi-di-produzione/_index_files/figure-html/ita
 | 1973-10-09 | [I tre spietati](https://www.imdb.com/title/tt0057464/) |
 | 1973-10-28 | [Ringo, il volto della vendetta](https://www.imdb.com/title/tt0061541/) |
 | 1973-11-07 | [7 pistole per un massacro](https://www.imdb.com/title/tt0060068/) |
+| 1973-11-20 | [L'orgia notturna dei vampiri](https://www.imdb.com/title/tt0069047/) |
 | 1973-11-21 | [Erik il vichingo](https://www.imdb.com/title/tt0059152/) |
 | 1973-12-23 | [Sandokan, la tigre di Mompracem](https://www.imdb.com/title/tt0057469/) |
 | 1973-12-25 | [Vamos a matar compañeros](https://www.imdb.com/title/tt0066612/) |
@@ -642,11 +644,18 @@ image: "/programmazione-storica/paesi-di-produzione/_index_files/figure-html/ita
 | 1986-01-13 | [Tex e il signore degli abissi](https://www.imdb.com/title/tt0090150/) |
 | 1986-01-26 | [La gabbia](https://www.imdb.com/title/tt0091097/) |
 
+### 1987
+
+|  |  |
+|---|---|
+| 1987-03-13 | [I peccati di una monaca](https://www.imdb.com/title/tt0076205/) |
+
 ### 1988
 
 |  |  |
 |---|---|
 | 1988-09-17 | [Voglia d'amore](https://www.imdb.com/title/tt0087512/) |
+| 1988-09-24 | [La donna della calda terra](https://www.imdb.com/title/tt0077958/) |
 
 ### 1990
 

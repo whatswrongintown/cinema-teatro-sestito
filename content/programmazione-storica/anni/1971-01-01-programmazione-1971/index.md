@@ -27,7 +27,7 @@ I voti IMDb descrivono le valutazioni degli utenti IMDb, non il pubblico o gli i
 | 1971-01-03 | [Eldorado](https://www.imdb.com/title/tt0032779/) |
 | 1971-01-04 | [Goliath e la schiava ribelle](https://www.imdb.com/title/tt0178516/) |
 | 1971-01-06 | [Zingara](https://www.imdb.com/title/tt0156193/) |
-| 1971-01-07 | [Ti pagher« col piombo](https://www.imdb.com/title/tt0073708/) |
+| 1971-01-07 | [Ti pagherò col piombo](https://www.imdb.com/title/tt0073708/) |
 | 1971-01-08 | [Tentazioni proibite](https://www.imdb.com/title/tt0059791/) |
 | 1971-01-10 | [Costretto ad uccidere](https://www.imdb.com/title/tt0063811/) |
 | 1971-01-12 | [Due croci a Danger Pass](https://www.imdb.com/title/tt0062904/) |
@@ -92,9 +92,9 @@ I voti IMDb descrivono le valutazioni degli utenti IMDb, non il pubblico o gli i
 | 1971-04-02 | [Spara, Gringo, spara](https://www.imdb.com/title/tt0066396/) |
 | 1971-04-04 | [Erik il vichingo](https://www.imdb.com/title/tt0059152/) |
 | 1971-04-06 | [Mexico amore e sangue per un gringhero](https://www.imdb.com/title/tt0060334/) |
-| 1971-04-07 | [Arizona si scaten»... e li fece fuori tutti!](https://www.imdb.com/title/tt0065422/) |
-| 1971-04-11 | [Le avventure di Ulisse](https://www.imdb.com/title/tt0064750/) |
-| 1971-04-12 | [La cortina di bamb«](https://www.imdb.com/title/tt0062704/) |
+| 1971-04-07 | [Arizona si scatenò... e li fece fuori tutti!](https://www.imdb.com/title/tt0065422/) |
+| 1971-04-11 | Le avventure di Ulisse |
+| 1971-04-12 | [La cortina di bambù](https://www.imdb.com/title/tt0062704/) |
 | 1971-04-14 | [L'uomo dalla maschera di ferro](https://www.imdb.com/title/tt0056228/) |
 | 1971-04-16 | [Le grandi vacanze](https://www.imdb.com/title/tt0060475/) |
 | 1971-04-18 | [Gungala la vergine della giungla](https://www.imdb.com/title/tt0178543/) |
@@ -121,16 +121,16 @@ I voti IMDb descrivono le valutazioni degli utenti IMDb, non il pubblico o gli i
 | 1971-05-25 | [Buon funerale amigos!... paga Sartana](https://www.imdb.com/title/tt0065499/) |
 | 1971-05-26 | [Saffo - Venere di Lesbo](https://www.imdb.com/title/tt0054263/) |
 | 1971-05-28 | [I fratelli senza paura](https://www.imdb.com/title/tt0045494/) |
-| 1971-05-30 | [Caroline ch»rie](https://www.imdb.com/title/tt0061449/) |
+| 1971-05-30 | [Caroline chérie](https://www.imdb.com/title/tt0061449/) |
 
 ### Giugno
 
 |           |                                       |
 |:----------|:--------------------------------------|
 | 1971-06-01 | [Un maggiolino tutto matto](https://www.imdb.com/title/tt0064603/) |
-| 1971-06-02 | [Una pelle pi« calda del sole](https://www.imdb.com/title/tt0062417/) |
+| 1971-06-02 | [Una pelle più calda del sole](https://www.imdb.com/title/tt0062417/) |
 | 1971-06-04 | [Il ladro del re](https://www.imdb.com/title/tt0048259/) |
-| 1971-06-05 | [L'impossibilit» di essere normale](https://www.imdb.com/title/tt0065775/) |
+| 1971-06-05 | [L'impossibilità di essere normale](https://www.imdb.com/title/tt0065775/) |
 | 1971-06-06 | [Il dolce corpo di Deborah](https://www.imdb.com/title/tt0064243/) |
 | 1971-06-10 | [10, 000 dollari per un massacro](https://www.imdb.com/title/tt0061313/) |
 | 1971-06-13 | [Luana la figlia delle foresta vergine](https://www.imdb.com/title/tt0183428/) |
@@ -172,8 +172,8 @@ I voti IMDb descrivono le valutazioni degli utenti IMDb, non il pubblico o gli i
 | 1971-08-13 | [Johnny Banco](https://www.imdb.com/title/tt0061845/) |
 | 1971-08-15 | [Una bara per lo sceriffo](https://www.imdb.com/title/tt0058942/) |
 | 1971-08-22 | [Il cervello](https://www.imdb.com/title/tt0064146/) |
-| 1971-08-24 | [...E divenne il pi« spietato bandito del sud](https://www.imdb.com/title/tt0061775/) |
-| 1971-08-25 | [Le carabine del rio negro (Lampi»o, O Rei do Canga«o)](https://www.imdb.com/title/tt0184659/) |
+| 1971-08-24 | [...E divenne il più spietato bandito del sud](https://www.imdb.com/title/tt0061775/) |
+| 1971-08-25 | [Le carabine del rio negro (Lampião, O Rei do Cangaço)](https://www.imdb.com/title/tt0184659/) |
 | 1971-08-26 | [La cortigiana di Babilonia](https://www.imdb.com/title/tt0049094/) |
 | 1971-08-29 | [Un uomo chiamato Apocalisse Joe](https://www.imdb.com/title/tt0067912/) |
 
@@ -183,9 +183,9 @@ I voti IMDb descrivono le valutazioni degli utenti IMDb, non il pubblico o gli i
 |:----------|:--------------------------------------|
 | 1971-09-01 | [Ringo il Texano](https://www.imdb.com/title/tt0061081/) |
 | 1971-09-05 | [Quel maledetto giorno d'inverno... Django e Sartana all'ultimo sangue](https://www.imdb.com/title/tt0067643/) |
-| 1971-09-08 | [Mille peccati... nessuna virt»](https://www.imdb.com/title/tt0064669/) |
-| 1971-09-09 | [I banditi della citt« fantasma](https://www.imdb.com/title/tt0041147/) |
-| 1971-09-12 | [Fr»ulein Doktor](https://www.imdb.com/title/tt0064350/) |
+| 1971-09-08 | [Mille peccati... nessuna virtù](https://www.imdb.com/title/tt0064669/) |
+| 1971-09-09 | [I banditi della città fantasma](https://www.imdb.com/title/tt0041147/) |
+| 1971-09-12 | [Fräulein Doktor](https://www.imdb.com/title/tt0064350/) |
 | 1971-09-15 | [Mezzogiorno di fuoco](https://www.imdb.com/title/tt0044706/) |
 | 1971-09-16 | [Il corsaro della mezza luna](https://www.imdb.com/title/tt0050266/) |
 | 1971-09-17 | [L'uccello dalle piume di cristallo](https://www.imdb.com/title/tt0065143/) |
@@ -193,7 +193,7 @@ I voti IMDb descrivono le valutazioni degli utenti IMDb, non il pubblico o gli i
 | 1971-09-21 | [Queste pazze pazze donne](https://www.imdb.com/title/tt0057440/) |
 | 1971-09-22 | [Il ponte dei sospiri](https://www.imdb.com/title/tt0058483/) |
 | 1971-09-24 | [Una vampata di violenza](https://www.imdb.com/title/tt0059241/) |
-| 1971-09-26 | [Per qualche dollaro in pi«](https://www.imdb.com/title/tt0059578/) |
+| 1971-09-26 | [Per qualche dollaro in più](https://www.imdb.com/title/tt0059578/) |
 | 1971-09-28 | [Gli uomini dal passo pesante](https://www.imdb.com/title/tt0061144/) |
 | 1971-09-29 | [Una domenica d'estate](https://www.imdb.com/title/tt0055919/) |
 | 1971-09-30 | [Spionaggio internazionale](https://www.imdb.com/title/tt0049224/) |
@@ -205,18 +205,18 @@ I voti IMDb descrivono le valutazioni degli utenti IMDb, non il pubblico o gli i
 | 1971-10-03 | [Elena di Troia](https://www.imdb.com/title/tt0049301/) |
 | 1971-10-06 | [Jim l'irresistibile detective](https://www.imdb.com/title/tt0063246/) |
 | 1971-10-07 | [Il re di Roma, Aquila imperiale](https://www.imdb.com/title/tt0055219/) |
-| 1971-10-08 | [L'amore » come il sole](https://www.imdb.com/title/tt0172116/) |
+| 1971-10-08 | [L'amore è come il sole](https://www.imdb.com/title/tt0172116/) |
 | 1971-10-10 | [Uccidi Django... uccidi per primo!!!](https://www.imdb.com/title/tt0070781/) |
 | 1971-10-12 | [Due bianchi nell'Africa nera](https://www.imdb.com/title/tt0150411/) |
 | 1971-10-13 | [Uccideva a freddo](https://www.imdb.com/title/tt0211711/) |
 | 1971-10-15 | [Il territorio dei fuorilegge](https://www.imdb.com/title/tt0046153/) |
 | 1971-10-17 | [Sfida sulla pista di fuoco](https://www.imdb.com/title/tt0062788/) |
-| 1971-10-19 | [Sei gi« cadavere Amigo... ti cerca Garringo](https://www.imdb.com/title/tt0065367/) |
+| 1971-10-19 | [Sei già cadavere Amigo... ti cerca Garringo](https://www.imdb.com/title/tt0065367/) |
 | 1971-10-20 | [Johnny Guitar](https://www.imdb.com/title/tt0047136/) |
 | 1971-10-22 | [La risaia](https://www.imdb.com/title/tt0049678/) |
 | 1971-10-24 | [Vendetta per vendetta](https://www.imdb.com/title/tt0063761/) |
 | 1971-10-26 | [Le calde palme di rio](https://www.imdb.com/title/tt0063658/) |
-| 1971-10-27 | [Passa Sartana... » l'ombra della tua morte](https://www.imdb.com/title/tt0063419/) |
+| 1971-10-27 | [Passa Sartana... è l'ombra della tua morte](https://www.imdb.com/title/tt0063419/) |
 | 1971-10-28 | [La carica dei cento e uno](https://www.imdb.com/title/tt0055254/) |
 | 1971-10-29 | [2 gangsters ad est di Bora Bora](https://www.imdb.com/title/tt0059543/) |
 | 1971-10-31 | [Due occhi di ghiaccio](https://www.imdb.com/title/tt0062742/) |
@@ -235,7 +235,7 @@ I voti IMDb descrivono le valutazioni degli utenti IMDb, non il pubblico o gli i
 | 1971-11-16 | [La belva](https://www.imdb.com/title/tt0065460/) |
 | 1971-11-17 | [Sartana nella valle degli avvoltoi](https://www.imdb.com/title/tt0066333/) |
 | 1971-11-18 | [Gangster Love](https://www.imdb.com/title/tt0063848/) |
-| 1971-11-21 | [Uccider« Willie Kid](https://www.imdb.com/title/tt0065079/) |
+| 1971-11-21 | [Ucciderò Willie Kid](https://www.imdb.com/title/tt0065079/) |
 | 1971-11-23 | [Superargo contro Diabolikus](https://www.imdb.com/title/tt0062319/) |
 | 1971-11-24 | [L'ombra di Zorro](https://www.imdb.com/title/tt0056893/) |
 | 1971-11-26 | [Bill il taciturno](https://www.imdb.com/title/tt0061404/) |
@@ -248,19 +248,19 @@ I voti IMDb descrivono le valutazioni degli utenti IMDb, non il pubblico o gli i
 |:----------|:--------------------------------------|
 | 1971-12-01 | [009 Joe Tempesta](https://www.imdb.com/title/tt0060926/) |
 | 1971-12-02 | [L'uomo perduto](https://www.imdb.com/title/tt0044188/) |
-| 1971-12-04 | [Pecos » qui: prega e muori!](https://www.imdb.com/title/tt0062107/) |
-| 1971-12-05 | [Barbagia (La societ« del malessere)](https://www.imdb.com/title/tt0064069/) |
+| 1971-12-04 | [Pecos è qui: prega e muori!](https://www.imdb.com/title/tt0062107/) |
+| 1971-12-05 | [Barbagia (La società del malessere)](https://www.imdb.com/title/tt0064069/) |
 | 1971-12-07 | [Ercole contro Roma](https://www.imdb.com/title/tt0058061/) |
 | 1971-12-08 | [Ultima notte a Cottonwood](https://www.imdb.com/title/tt0064217/) |
 | 1971-12-11 | [7 uomini d'oro](https://www.imdb.com/title/tt0059707/) |
-| 1971-12-12 | [Una meravigliosa realt»](https://www.imdb.com/title/tt0063799/) |
+| 1971-12-12 | [Una meravigliosa realtà](https://www.imdb.com/title/tt0063799/) |
 | 1971-12-14 | [Ma che musica maestro](https://www.imdb.com/title/tt0151422/) |
 | 1971-12-15 | [Un gettone per il patibolo](https://www.imdb.com/title/tt0201046/) |
 | 1971-12-19 | [L'amante di Gramigna](https://www.imdb.com/title/tt0062655/) |
 | 1971-12-21 | [I due maghi del pallone](https://www.imdb.com/title/tt0067022/) |
 | 1971-12-22 | [Duello nell'Atlantico](https://www.imdb.com/title/tt0050356/) |
 | 1971-12-24 | [Chimera](https://www.imdb.com/title/tt0062799/) |
-| 1971-12-25 | [Rosolino Patern�, soldato...](https://www.imdb.com/title/tt0066312/) |
+| 1971-12-25 | [Rosolino Paternò, soldato...](https://www.imdb.com/title/tt0066312/) |
 | 1971-12-26 | [Il buono, il brutto, il cattivo](https://www.imdb.com/title/tt0060196/) |
 | 1971-12-28 | [In fondo al buio](https://www.imdb.com/title/tt0064576/) |
 | 1971-12-29 | [L'astronave fantasma](https://www.imdb.com/title/tt0055562/) |

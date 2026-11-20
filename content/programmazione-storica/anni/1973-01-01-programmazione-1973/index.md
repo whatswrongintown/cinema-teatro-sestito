@@ -210,7 +210,7 @@ I voti IMDb descrivono le valutazioni degli utenti IMDb, non il pubblico o gli i
 | 1973-11-12 | [Violentata sulla sabbia](https://www.imdb.com/title/tt0153554/) |
 | 1973-11-16 | [L'avventura è l'avventura](https://www.imdb.com/title/tt0066798/) |
 | 1973-11-18 | [Simbad contro i sette saraceni](https://www.imdb.com/title/tt0058589/) |
-| 1973-11-20 | [L'orgia del vampiro](https://www.imdb.com/title/tt0139288/) |
+| 1973-11-20 | [L'orgia notturna dei vampiri](https://www.imdb.com/title/tt0069047/) |
 | 1973-11-21 | [Erik il vichingo](https://www.imdb.com/title/tt0059152/) |
 | 1973-11-23 | [La ragazza di Pigalle](https://www.imdb.com/title/tt0230639/) |
 | 1973-11-25 | [La notte brava del soldato Jonathan](https://www.imdb.com/title/tt0066819/) |

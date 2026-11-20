@@ -125,6 +125,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1963-02-23 | [Le meraviglie di Aladino](https://www.imdb.com/title/tt0055178/) |
 | 1963-03-03 | [Il cenerentolo](https://www.imdb.com/title/tt0053716/) |
 | 1963-05-12 | [Maciste nella terra dei ciclopi](https://www.imdb.com/title/tt0055116/) |
+| 1963-06-16 | [Il trionfo di Maciste](https://www.imdb.com/title/tt0149295/) |
 | 1963-07-06 | [Ercole al centro della Terra](https://www.imdb.com/title/tt0054850/) |
 | 1963-08-10 | [Ercole alla conquista di Atlantide](https://www.imdb.com/title/tt0054851/) |
 
@@ -219,7 +220,6 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1971-02-10 | [I moschettieri del re](https://www.imdb.com/title/tt0049880/) |
 | 1971-02-19 | [Odissea sulla Terra](https://www.imdb.com/title/tt0062411/) |
 | 1971-04-04 | [Erik il vichingo](https://www.imdb.com/title/tt0059152/) |
-| 1971-04-11 | [Le avventure di Ulisse](https://www.imdb.com/title/tt0064750/) |
 
 ### 1972
 
@@ -283,6 +283,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1977-03-06 | [Godzilla contro i robot](https://www.imdb.com/title/tt0071565/) |
 | 1977-06-19 | [Maciste contro i mostri](https://www.imdb.com/title/tt0057270/) |
 | 1977-07-05 | [Doc Savage, l'uomo di bronzo](https://www.imdb.com/title/tt0072886/) |
+| 1977-10-28 | [Il trionfo di Maciste](https://www.imdb.com/title/tt0149295/) |
 | 1977-10-30 | [Mako - Lo squalo della morte](https://www.imdb.com/title/tt0074845/) |
 | 1977-11-13 | [Il trionfo di King Kong](https://www.imdb.com/title/tt0056142/) |
 | 1977-11-20 | [Sinbad il marinaio](https://www.imdb.com/title/tt0039826/) |
@@ -311,7 +312,6 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 
 |  |  |
 |---|---|
-| 1980-01-01 | [Le 7 città di Atlantide (I signori della guerra di Atlantide)](https://www.imdb.com/title/tt0078474/) |
 | 1980-10-28 | [Supersonic Man](https://www.imdb.com/title/tt0079971/) |
 
 ### 1981
@@ -347,7 +347,6 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 |  |  |
 |---|---|
 | 1984-01-08 | [Pink Floyd: The Wall](https://www.imdb.com/title/tt0084503/) |
-| 1984-02-04 | [Casanova II](https://www.imdb.com/title/tt0188486/) |
 | 1984-03-30 | [Pandora... il sapore della carne](https://www.imdb.com/title/tt0082879/) |
 
 ### 1985
@@ -355,6 +354,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 |  |  |
 |---|---|
 | 1985-10-06 | [Sheena regina della giungla](https://www.imdb.com/title/tt0088103/) |
+| 1985-10-13 | [Nido d'amore](https://www.imdb.com/title/tt0212259/) |
 | 1985-11-11 | [Non ci resta che piangere](https://www.imdb.com/title/tt0087814/) |
 | 1985-12-09 | [Ghostbusters (Acchiappafantasmi)](https://www.imdb.com/title/tt0087332/) |
 
@@ -400,8 +400,8 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1989-11-07 | [High Spirits - Fantasmi da legare](https://www.imdb.com/title/tt0095304/) |
 | 1989-11-12 | [Piaceri insaziabili di mogli in calore](https://www.imdb.com/title/tt0095526/) |
 | 1989-11-21 | [Scuola di mostri](https://www.imdb.com/title/tt0093560/) |
-| 1989-12-25 | [L'angelo del sesso](https://www.imdb.com/title/tt0124730/) |
 | 1989-12-25 | [Willow](https://www.imdb.com/title/tt0096446/) |
+| 1989-12-25 | [L'angelo del sesso](https://www.imdb.com/title/tt0124730/) |
 
 ### 1990
 

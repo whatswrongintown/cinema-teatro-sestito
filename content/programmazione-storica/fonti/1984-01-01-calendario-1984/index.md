@@ -40,7 +40,7 @@ lastmod: '2026-11-18'
 
 |  |  |
 |---|---|
-| 1984-02-04 | [Casanova II](https://www.imdb.com/title/tt0188486/) |
+| 1984-02-04 | [Casanova 82](https://www.imdb.com/title/tt0123638/) |
 | 1984-02-11 | [Banana Joe](https://www.imdb.com/title/tt0082045/) |
 | 1984-02-12 | [Blue Erotic Movie](https://www.imdb.com/title/tt0080822/) |
 | 1984-02-18 | [Interceptor - Il guerriero della strada](https://www.imdb.com/title/tt0082694/) |
@@ -119,3 +119,5 @@ lastmod: '2026-11-18'
 | 1984-12-16 | [Indiscrezioni erotiche di un letto malizioso](https://www.imdb.com/title/tt0228728/) |
 | 1984-12-22 | [Giochi di notte](https://www.imdb.com/title/tt0060740/) |
 | 1984-12-23 | [Bruce Lee il dominatore](https://www.imdb.com/title/tt0074246/) |
+| 1984-12-30 | [Quella porno erotica di mia moglie](https://www.imdb.com/title/tt0125914/) |
+

@@ -218,7 +218,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1973-09-18 | [Sapore di donna](https://www.imdb.com/title/tt0067822/) |
 | 1973-09-26 | [Batwoman - L'invincibile superdonna](https://www.imdb.com/title/tt0235608/) |
 | 1973-10-12 | [La vampira nuda](https://www.imdb.com/title/tt0065168/) |
-| 1973-11-20 | [L'orgia del vampiro](https://www.imdb.com/title/tt0139288/) |
+| 1973-11-20 | [L'orgia notturna dei vampiri](https://www.imdb.com/title/tt0069047/) |
 | 1973-11-27 | [Le amanti proibite del Dr. Sex](https://www.imdb.com/title/tt0074195/) |
 | 1973-12-13 | [I corpi presentano tracce di violenza carnale](https://www.imdb.com/title/tt0069920/) |
 
@@ -227,7 +227,6 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 |  |  |
 |---|---|
 | 1974-01-18 | [Le figlie di Dracula](https://www.imdb.com/title/tt0069427/) |
-| 1974-01-25 | [La volpe dalla coda di velluto](https://www.imdb.com/title/tt0067520/) |
 | 1974-02-07 | [La vendetta dei morti viventi](https://www.imdb.com/title/tt0069165/) |
 | 1974-05-14 | [Una tomba aperta... una bara vuota](https://www.imdb.com/title/tt0068343/) |
 | 1974-06-21 | [Blacula](https://www.imdb.com/title/tt0068284/) |
@@ -342,6 +341,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1980-03-03 | [Casa privata per le SS](https://www.imdb.com/title/tt0083017/) |
 | 1980-03-13 | [Ilsa la belva del deserto](https://www.imdb.com/title/tt0074670/) |
 | 1980-05-11 | [Suspiria](https://www.imdb.com/title/tt0076786/) |
+| 1980-09-11 | [Brigata ragazze squillo](https://www.imdb.com/title/tt1360757/) |
 | 1980-11-13 | [Play Motel](https://www.imdb.com/title/tt0148615/) |
 | 1980-11-28 | [Killer nelle notti di pioggia](https://www.imdb.com/title/tt1227194/) |
 | 1980-12-24 | [Due ragazze porno... così](https://www.imdb.com/title/tt0379930/) |
@@ -355,6 +355,8 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1981-01-09 | [Blue Movie](https://www.imdb.com/title/tt0077252/) |
 | 1981-09-22 | [Apocalypse domani](https://www.imdb.com/title/tt0080379/) |
 | 1981-09-24 | [Vendetta napoletana (Maria)](https://www.imdb.com/title/tt0245262/) |
+| 1981-10-13 | [Porno Esotic Love](https://www.imdb.com/title/tt0126620/) |
+| 1981-10-18 | [Hard Sensation](https://www.imdb.com/title/tt0189568/) |
 | 1981-12-04 | [Porno Holocaust](https://www.imdb.com/title/tt0235686/) |
 
 ### 1982
@@ -387,6 +389,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1983-03-15 | [Due ragazze porno... così](https://www.imdb.com/title/tt0379930/) |
 | 1983-04-16 | [Le notti di Salem](https://www.imdb.com/title/tt0079844/) |
 | 1983-09-24 | [Compleanno di sangue](https://www.imdb.com/title/tt0082498/) |
+| 1983-09-30 | [Le notti di Salem](https://www.imdb.com/title/tt0079844/) |
 | 1983-10-23 | [Terrore in città](https://www.imdb.com/title/tt0084684/) |
 | 1983-10-30 | [Piraña paura](https://www.imdb.com/title/tt0082910/) |
 | 1983-11-13 | [La spada a tre lame](https://www.imdb.com/title/tt0084749/) |
@@ -402,8 +405,10 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1984-01-01 | [Il signore della morte](https://www.imdb.com/title/tt0082495/) |
 | 1984-01-11 | [Chi vive in quella casa?](https://www.imdb.com/title/tt0077357/) |
 | 1984-02-25 | [Un lupo mannaro americano a Londra](https://www.imdb.com/title/tt0082010/) |
+| 1984-03-03 | [Benedizione mortale](https://www.imdb.com/title/tt0082245/) |
 | 1984-03-04 | [Sexy diabolic story](https://www.imdb.com/title/tt0072019/) |
 | 1984-03-18 | [La casa di Mary](https://www.imdb.com/title/tt0084739/) |
+| 1984-03-30 | [Pandora... il sapore della carne](https://www.imdb.com/title/tt0082879/) |
 | 1984-04-28 | [La bestia in calore](https://www.imdb.com/title/tt0076649/) |
 | 1984-11-25 | [Eroticofollia (Malocchio)](https://www.imdb.com/title/tt0071471/) |
 
@@ -411,8 +416,10 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 
 |  |  |
 |---|---|
+| 1985-02-24 | [L'altro vizio della porno bocca, incontri proibiti](https://www.imdb.com/title/tt0079599/) |
 | 1985-09-15 | [Il peccato di Lola](https://www.imdb.com/title/tt0089790/) |
 | 1985-09-21 | [Il ritorno dei morti viventi](https://www.imdb.com/title/tt0089907/) |
+| 1985-10-13 | [Nido d'amore](https://www.imdb.com/title/tt0212259/) |
 | 1985-12-05 | [Phenomena](https://www.imdb.com/title/tt0087909/) |
 
 ### 1986
@@ -423,6 +430,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1986-01-13 | [Tex e il signore degli abissi](https://www.imdb.com/title/tt0090150/) |
 | 1986-01-25 | [Inferno in diretta](https://www.imdb.com/title/tt0089338/) |
 | 1986-03-15 | [La casa in Hell Street](https://www.imdb.com/title/tt0088066/) |
+| 1986-03-16 | [Hard Sensation](https://www.imdb.com/title/tt0189568/) |
 | 1986-11-17 | [Unico indizio la luna piena](https://www.imdb.com/title/tt0090021/) |
 | 1986-11-22 | [Space Vampires](https://www.imdb.com/title/tt0089489/) |
 | 1986-12-02 | [Brivido](https://www.imdb.com/title/tt0091499/) |
@@ -434,8 +442,8 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 |---|---|
 | 1987-01-06 | [Dèmoni](https://www.imdb.com/title/tt0089013/) |
 | 1987-01-10 | [Chi è sepolto in quella casa?](https://www.imdb.com/title/tt0091223/) |
-| 1987-01-18 | [Dèmoni 2... l'incubo ritorna](https://www.imdb.com/title/tt0090930/) |
 | 1987-01-18 | [Bestialità](https://www.imdb.com/title/tt0074201/) |
+| 1987-01-18 | [Dèmoni 2... l'incubo ritorna](https://www.imdb.com/title/tt0090930/) |
 | 1987-03-15 | [La monaca nel peccato](https://www.imdb.com/title/tt0091539/) |
 | 1987-03-21 | [L'assassino è ancora tra noi](https://www.imdb.com/title/tt0088745/) |
 | 1987-08-13 | [Aliens - Scontro finale](https://www.imdb.com/title/tt0090605/) |
@@ -446,6 +454,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1987-10-27 | [Le foto di Gioia](https://www.imdb.com/title/tt0093043/) |
 | 1987-11-01 | [Spiritika](https://www.imdb.com/title/tt0090327/) |
 | 1987-11-06 | [Dimensione terrore](https://www.imdb.com/title/tt0091630/) |
+| 1987-11-15 | [Supermaschio per mogli viziose](https://www.imdb.com/title/tt0157532/) |
 | 1987-11-21 | [Spettri](https://www.imdb.com/title/tt0094015/) |
 | 1987-11-29 | [La casa 2](https://www.imdb.com/title/tt0092991/) |
 | 1987-12-12 | [Non aprite quella porta - Parte 2](https://www.imdb.com/title/tt0092076/) |
@@ -459,6 +468,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1988-01-06 | [La casa 2](https://www.imdb.com/title/tt0092991/) |
 | 1988-01-16 | [Morte a 33 giri](https://www.imdb.com/title/tt0092112/) |
 | 1988-02-09 | [Creepshow 2](https://www.imdb.com/title/tt0092796/) |
+| 1988-02-10 | [Flash excitation blue](https://www.imdb.com/title/tt0316886/) |
 | 1988-03-13 | [Opera](https://www.imdb.com/title/tt0093677/) |
 | 1988-04-16 | [The believers: I credenti del male](https://www.imdb.com/title/tt0092632/) |
 | 1988-10-29 | [Quella villa in fondo al parco](https://www.imdb.com/title/tt0095942/) |
@@ -489,6 +499,8 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 |  |  |
 |---|---|
 | 1990-01-13 | [Lo strano caso del Dr. Frankenstein](https://www.imdb.com/title/tt0095173/) |
+| 1990-03-05 | [Soprannaturale](https://www.imdb.com/title/tt0096340/) |
+| 1990-05-20 | [Di dietro tutta, femmine corrotte dal piacere](https://www.imdb.com/title/tt0085367/) |
 | 1990-05-27 | [La bambola assassina](https://www.imdb.com/title/tt0094862/) |
 | 1990-09-17 | [Nightmare 5 - Il mito](https://www.imdb.com/title/tt0097981/) |
 | 1990-09-30 | [Critters 2](https://www.imdb.com/title/tt0094919/) |

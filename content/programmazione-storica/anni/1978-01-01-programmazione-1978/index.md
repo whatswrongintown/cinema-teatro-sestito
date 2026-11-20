@@ -134,6 +134,7 @@ I voti IMDb descrivono le valutazioni degli utenti IMDb, non il pubblico o gli i
 |           |                                       |
 |:----------|:--------------------------------------|
 | 1978-08-15 | [Torino violenta](https://www.imdb.com/title/tt0078408/) |
+| 1978-08-22 | Colpo per colpo |
 | 1978-08-23 | [Diamante Lobo](https://www.imdb.com/title/tt0074575/) |
 | 1978-08-27 | [Rollercar - Sessanta secondi e vai!](https://www.imdb.com/title/tt0071571/) |
 | 1978-08-29 | [5 per l'inferno](https://www.imdb.com/title/tt0062807/) |

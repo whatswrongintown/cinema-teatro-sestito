@@ -64,7 +64,6 @@ image: "/programmazione-storica/paesi-di-produzione/_index_files/figure-html/ita
 |  |  |
 |---|---|
 | 1991-04-25 | [La storia infinita 2](https://www.imdb.com/title/tt0100240/) |
-| 1991-12-22 | [Dirty Girls](https://www.imdb.com/title/tt14993278/) |
 
 ### 1992
 

@@ -156,8 +156,8 @@ lastmod: '2026-11-18'
 | 1962-11-01 | [Chi si ferma è perduto](https://www.imdb.com/title/tt0053709/) |
 | 1962-11-03 | [La zingara rossa](https://www.imdb.com/title/tt0051692/) |
 | 1962-11-10 | [Il ladro di Bagdad](https://www.imdb.com/title/tt0054013/) |
-| 1962-11-13 | [Le notti dei Teddy Boys](https://www.imdb.com/title/tt0186396/) |
 | 1962-11-13 | [Giungla d'asfalto](https://www.imdb.com/title/tt0042208/) |
+| 1962-11-13 | [Le notti dei Teddy Boys](https://www.imdb.com/title/tt0186396/) |
 | 1962-11-17 | [Il coraggio e la sfida](https://www.imdb.com/title/tt0054740/) |
 | 1962-11-20 | [Il sentiero della vendetta](https://www.imdb.com/title/tt0051686/) |
 | 1962-11-25 | [Rosmunda e Alboino](https://www.imdb.com/title/tt0056427/) |
@@ -172,3 +172,4 @@ lastmod: '2026-11-18'
 | 1962-12-16 | [Sangue e arena](https://www.imdb.com/title/tt0033405/) |
 | 1962-12-18 | [Delitto in pieno sole](https://www.imdb.com/title/tt0054189/) |
 | 1962-12-22 | [La storia di Ruth](https://www.imdb.com/title/tt0054343/) |
+

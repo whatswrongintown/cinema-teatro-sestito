@@ -34,6 +34,7 @@ lastmod: '2026-11-18'
 |  |  |
 |---|---|
 | 1990-10-07 | [Non aprite quel cancello 2](https://www.imdb.com/title/tt0099636/) |
+| 1990-10-07 | [Un mondo di tentazioni](https://www.imdb.com/title/tt0778869/) |
 | 1990-10-08 | [Senti chi parla](https://www.imdb.com/title/tt0097778/) |
 | 1990-10-13 | [La lambada (Que viva el merengue y la lambada)](https://www.imdb.com/title/tt0390408/) |
 | 1990-10-14 | [La casa 4](https://www.imdb.com/title/tt0096453/) |
@@ -67,8 +68,8 @@ lastmod: '2026-11-18'
 | 1990-12-15 | [Pretty Woman](https://www.imdb.com/title/tt0100405/) |
 | 1990-12-23 | [Dick Tracy](https://www.imdb.com/title/tt0099422/) |
 | 1990-12-23 | [Femmine](https://www.imdb.com/title/tt15752988/) |
-| 1990-12-30 | [Revenge - Vendetta](https://www.imdb.com/title/tt0100485/) |
 | 1990-12-30 | [La trappola di Venere](https://www.imdb.com/title/tt0096372/) |
+| 1990-12-30 | [Revenge - Vendetta](https://www.imdb.com/title/tt0100485/) |
 | 1990-12-31 | [Gremlins 2 - La nuova stirpe](https://www.imdb.com/title/tt0099700/) |
 
 ## 1991
@@ -102,17 +103,20 @@ lastmod: '2026-11-18'
 |---|---|
 | 1991-03-03 | [Esperienze erotiche di giovani donne](https://www.imdb.com/title/tt0068989/) |
 | 1991-03-03 | [Ghost - Fantasma](https://www.imdb.com/title/tt0099653/) |
-| 1991-03-10 | [Rocky V](https://www.imdb.com/title/tt0100507/) |
 | 1991-03-10 | [Cicciolina e Moana 'Mondiali'](https://www.imdb.com/title/tt0099267/) |
+| 1991-03-10 | [Rocky V](https://www.imdb.com/title/tt0100507/) |
 | 1991-03-17 | [Le comiche](https://www.imdb.com/title/tt0099293/) |
 | 1991-03-17 | [Erotic Dreams](https://www.imdb.com/title/tt0129909/) |
 | 1991-03-24 | [Atto di forza](https://www.imdb.com/title/tt0100802/) |
+| 1991-03-24 | Desiderio di vizi bestiali |
 | 1991-03-30 | [Un uomo innocente](https://www.imdb.com/title/tt0097579/) |
+| 1991-03-31 | [Il grande momento …bestiale](https://www.imdb.com/title/tt0202887/) |
 
 ### Aprile
 
 |  |  |
 |---|---|
+| 1991-04-07 | Flavia… Rome Bestial Luxury |
 | 1991-04-07 | [Stasera a casa di Alice](https://www.imdb.com/title/tt0100683/) |
 | 1991-04-14 | [Fantozzi alla riscossa](https://www.imdb.com/title/tt0099545/) |
 | 1991-04-21 | [Nikita](https://www.imdb.com/title/tt0100263/) |
@@ -127,8 +131,8 @@ lastmod: '2026-11-18'
 | 1991-05-05 | [Il tè nel deserto](https://www.imdb.com/title/tt0100594/) |
 | 1991-05-12 | [Vacanze di Natale '90](https://www.imdb.com/title/tt0129511/) |
 | 1991-05-19 | [Mamma, ho perso l'aereo](https://www.imdb.com/title/tt0099785/) |
-| 1991-05-26 | [Occhio alla perestrojka](https://www.imdb.com/title/tt0129271/) |
 | 1991-05-26 | [Spogliando Valeria](https://www.imdb.com/title/tt0096959/) |
+| 1991-05-26 | [Occhio alla perestrojka](https://www.imdb.com/title/tt0129271/) |
 
 ### Giugno
 
@@ -137,3 +141,4 @@ lastmod: '2026-11-18'
 | 1991-06-02 | [Balla coi lupi](https://www.imdb.com/title/tt0099348/) |
 | 1991-06-09 | [Senti chi parla 2](https://www.imdb.com/title/tt0100050/) |
 | 1991-06-16 | [Un fantasma per amico](https://www.imdb.com/title/tt0099750/) |
+

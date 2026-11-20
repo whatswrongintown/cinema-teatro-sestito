@@ -86,7 +86,7 @@ description: Calendari murali o da tavolo legati all’attività del cinema. Ind
 | 1985-12-06 | [Scuola di polizia](https://www.imdb.com/title/tt0087928/) |
 | 1985-12-08 | [Ethan](https://www.imdb.com/title/tt0303977/) |
 | 1985-12-09 | [Ghostbusters (Acchiappafantasmi)](https://www.imdb.com/title/tt0087332/) |
-| 1985-12-13 | [Bruce Lee l'invincibile del kung fu](https://www.imdb.com/title/tt0081216/) |
+| 1985-12-13 | [Bruce Lee l'invincibile del kung fu](https://www.imdb.com/title/tt0079903/) |
 | 1985-12-26 | [Amarsi un po'...](https://www.imdb.com/title/tt0086881/) |
 | 1985-12-27 | [Bruce Lee la tigre indomabile](https://www.imdb.com/title/tt0075167/) |
 | 1985-12-29 | [Calde](https://www.imdb.com/title/tt4290202/) |

@@ -31,7 +31,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1948-06-11 | [La voce nella tempesta (Cime tempestose)](https://www.imdb.com/title/tt0032145/) |
 | 1948-06-13 | [La monaca di Monza](https://www.imdb.com/title/tt0039630/) |
 | 1948-06-19 | [Il testimone](https://www.imdb.com/title/tt0038155/) |
-| 1948-06-26 | [Felicit« perduta](https://www.imdb.com/title/tt0038525/) |
+| 1948-06-26 | [Felicità perduta](https://www.imdb.com/title/tt0038525/) |
 | 1948-07-02 | [Il figlio di Montecristo](https://www.imdb.com/title/tt0033076/) |
 | 1948-07-12 | [I due Foscari](https://www.imdb.com/title/tt0034687/) |
 | 1948-07-20 | [La cena delle beffe](https://www.imdb.com/title/tt0033456/) |
@@ -47,6 +47,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1948-11-25 | [Tentazione](https://www.imdb.com/title/tt0039015/) |
 | 1948-11-25 | [Il corriere del re](https://www.imdb.com/title/tt0039280/) |
 | 1948-11-28 | [Margherita Gauthier](https://www.imdb.com/title/tt0028683/) |
+| 1948-12-02 | [Balalaika](https://www.imdb.com/title/tt0031074/) |
 | 1948-12-03 | [Angeli senza paradiso](https://www.imdb.com/title/tt0024249/) |
 | 1948-12-06 | [Maschera di sangue](https://www.imdb.com/title/tt0143686/) |
 | 1948-12-08 | [Anime alla deriva](https://www.imdb.com/title/tt0023826/) |
@@ -63,7 +64,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1949-01-01 | [L'onorevole Angelina](https://www.imdb.com/title/tt0039682/) |
 | 1949-01-14 | [Il cantante sconosciuto](https://www.imdb.com/title/tt0038408/) |
 | 1949-01-23 | [Il diavolo bianco](https://www.imdb.com/title/tt0039319/) |
-| 1949-02-10 | [Citt» senza uomini](https://www.imdb.com/title/tt0035740/) |
+| 1949-02-10 | [Città senza uomini](https://www.imdb.com/title/tt0035740/) |
 | 1949-02-16 | [La sinfonia pastorale](https://www.imdb.com/title/tt0039004/) |
 | 1949-02-20 | [Il passatore](https://www.imdb.com/title/tt0039696/) |
 | 1949-02-23 | [Piccolo mondo antico](https://www.imdb.com/title/tt0034023/) |
@@ -81,12 +82,12 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1949-04-17 | [Tragico inganno](https://www.imdb.com/title/tt0038493/) |
 | 1949-04-19 | [Sinfonia fatale](https://www.imdb.com/title/tt0038942/) |
 | 1949-05-01 | [Fantasmi del mare](https://www.imdb.com/title/tt0040344/) |
-| 1949-05-07 | [La donna della citt«](https://www.imdb.com/title/tt0037470/) |
+| 1949-05-07 | [La donna della città](https://www.imdb.com/title/tt0037470/) |
 | 1949-05-15 | [Io la difendo](https://www.imdb.com/title/tt0034777/) |
 | 1949-05-20 | [Inferno nel deserto](https://www.imdb.com/title/tt0034242/) |
 | 1949-05-25 | [Rocambole](https://www.imdb.com/title/tt0039781/) |
 | 1949-06-03 | [La belva umana](https://www.imdb.com/title/tt0032383/) |
-| 1949-06-05 | [T'amer» sempre](https://www.imdb.com/title/tt0036413/) |
+| 1949-06-05 | [T'amerò sempre](https://www.imdb.com/title/tt0036413/) |
 | 1949-06-18 | [Eleonora Duse](https://www.imdb.com/title/tt0039352/) |
 | 1949-06-25 | [La Certosa di Parma (amanti senza speranza)](https://www.imdb.com/title/tt0040223/) |
 | 1949-07-03 | [Ultimo amore](https://www.imdb.com/title/tt0039059/) |
@@ -96,19 +97,19 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1949-07-30 | [Malacarne](https://www.imdb.com/title/tt0038719/) |
 | 1949-08-02 | [Fari nella nebbia](https://www.imdb.com/title/tt0033588/) |
 | 1949-08-06 | [L'argine](https://www.imdb.com/title/tt0029877/) |
-| 1949-08-07 | [Giovent« traviata](https://www.imdb.com/title/tt0034893/) |
+| 1949-08-07 | [Gioventù traviata](https://www.imdb.com/title/tt0034893/) |
 | 1949-08-14 | [Prigioniera di un segreto](https://www.imdb.com/title/tt0034936/) |
 | 1949-08-21 | [Prigione d'amore](https://www.imdb.com/title/tt0033127/) |
 | 1949-09-23 | [Casta Diva](https://www.imdb.com/title/tt0026188/) |
 | 1949-10-07 | [Il lupo della Sila](https://www.imdb.com/title/tt0041609/) |
 | 1949-10-20 | [L'eterno conflitto](https://www.imdb.com/title/tt0202713/) |
-| 1949-10-21 | [Amori e veleni](https://www.imdb.com/title/tt0041119/) |
 | 1949-10-21 | [Casta Diva](https://www.imdb.com/title/tt0026188/) |
+| 1949-10-21 | [Amori e veleni](https://www.imdb.com/title/tt0041119/) |
 | 1949-10-23 | [Monaca santa](https://www.imdb.com/title/tt0037925/) |
 | 1949-10-28 | [Margherita Gauthier](https://www.imdb.com/title/tt0028683/) |
 | 1949-11-04 | [Il re dei re](https://www.imdb.com/title/tt0018054/) |
 | 1949-11-06 | [Campane a martello](https://www.imdb.com/title/tt0042303/) |
-| 1949-11-16 | [» accaduto in Europa](https://www.imdb.com/title/tt0039949/) |
+| 1949-11-16 | [È accaduto in Europa](https://www.imdb.com/title/tt0039949/) |
 | 1949-11-18 | [Angeli senza paradiso](https://www.imdb.com/title/tt0024249/) |
 | 1949-11-18 | [La forza del destino](https://www.imdb.com/title/tt0041385/) |
 | 1949-11-22 | [Tentazione](https://www.imdb.com/title/tt0039015/) |
@@ -138,20 +139,20 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1950-01-20 | [Rosa di sangue](https://www.imdb.com/title/tt0031876/) |
 | 1950-01-24 | [Rosa di sangue](https://www.imdb.com/title/tt0031876/) |
 | 1950-01-28 | [Il castello di Dragonwyck](https://www.imdb.com/title/tt0038492/) |
-| 1950-02-01 | [Il castello di Dragonwyck](https://www.imdb.com/title/tt0038492/) |
 | 1950-02-01 | [Bernadette](https://www.imdb.com/title/tt0036377/) |
+| 1950-02-01 | [Il castello di Dragonwyck](https://www.imdb.com/title/tt0038492/) |
 | 1950-02-02 | [Il segno di Zorro](https://www.imdb.com/title/tt0032762/) |
-| 1950-02-03 | [Monaca santa](https://www.imdb.com/title/tt0037925/) |
 | 1950-02-03 | [Il conte di Montecristo](https://www.imdb.com/title/tt0035752/) |
+| 1950-02-03 | [Monaca santa](https://www.imdb.com/title/tt0037925/) |
 | 1950-02-06 | [Come tu mi vuoi](https://www.imdb.com/title/tt0022641/) |
 | 1950-02-10 | [Caccia all'uomo (miserabili)](https://www.imdb.com/title/tt0039629/) |
 | 1950-02-11 | [Duello mortale](https://www.imdb.com/title/tt0033873/) |
 | 1950-02-14 | [Duello mortale](https://www.imdb.com/title/tt0033873/) |
 | 1950-02-15 | [Difendo mia figlia](https://www.imdb.com/title/tt0165938/) |
-| 1950-02-18 | [Salom«](https://www.imdb.com/title/tt0038046/) |
+| 1950-02-18 | [Salomè](https://www.imdb.com/title/tt0038046/) |
 | 1950-02-24 | [Il figlio della furia](https://www.imdb.com/title/tt0035360/) |
-| 1950-02-25 | [Il 13 non risponde](https://www.imdb.com/title/tt0038279/) |
 | 1950-02-25 | [La carovana dei ribelli](https://www.imdb.com/title/tt0036890/) |
+| 1950-02-25 | [Il 13 non risponde](https://www.imdb.com/title/tt0038279/) |
 | 1950-02-28 | [Vita rubata](https://www.imdb.com/title/tt0038813/) |
 | 1950-03-04 | [Il demone della gelosia](https://www.imdb.com/title/tt0200523/) |
 | 1950-03-07 | [Come tu mi vuoi](https://www.imdb.com/title/tt0022641/) |
@@ -163,19 +164,19 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1950-03-21 | [Genoveffa di Brabante](https://www.imdb.com/title/tt0039415/) |
 | 1950-03-24 | [La sepolta viva](https://www.imdb.com/title/tt0040774/) |
 | 1950-03-25 | [Don Pedro il crudele](https://www.imdb.com/title/tt0036960/) |
-| 1950-03-29 | [Il demone della carne](https://www.imdb.com/title/tt0038232/) |
 | 1950-03-29 | [Un albero cresce a Brooklyn](https://www.imdb.com/title/tt0038190/) |
+| 1950-03-29 | [Il demone della carne](https://www.imdb.com/title/tt0038232/) |
 | 1950-04-01 | [Don Pedro il crudele](https://www.imdb.com/title/tt0036960/) |
 | 1950-04-04 | [Il demone della carne](https://www.imdb.com/title/tt0038232/) |
 | 1950-04-08 | [Il bacio della morte](https://www.imdb.com/title/tt0039536/) |
 | 1950-04-16 | [Genoveffa di Brabante](https://www.imdb.com/title/tt0039415/) |
 | 1950-04-18 | [Marco Visconti](https://www.imdb.com/title/tt0032758/) |
-| 1950-04-20 | [Salom»](https://www.imdb.com/title/tt0038046/) |
+| 1950-04-20 | [Salomè](https://www.imdb.com/title/tt0038046/) |
 | 1950-04-21 | [Monaca santa](https://www.imdb.com/title/tt0037925/) |
-| 1950-04-22 | [Salom«](https://www.imdb.com/title/tt0038046/) |
+| 1950-04-22 | [Salomè](https://www.imdb.com/title/tt0038046/) |
 | 1950-04-28 | [Casta Diva](https://www.imdb.com/title/tt0026188/) |
 | 1950-05-05 | [La collana della regina](https://www.imdb.com/title/tt0207295/) |
-| 1950-05-12 | [La figlia del peccato - Voce » notte](https://www.imdb.com/title/tt0041365/) |
+| 1950-05-12 | [La figlia del peccato - Voce è notte](https://www.imdb.com/title/tt0041365/) |
 | 1950-05-16 | [La parola alla spada](https://www.imdb.com/title/tt0195208/) |
 | 1950-05-18 | [Abbandonata](https://www.imdb.com/title/tt0036577/) |
 | 1950-05-20 | [La mano della morta](https://www.imdb.com/title/tt0041633/) |
@@ -196,7 +197,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1950-08-18 | [Il trionfo di Zorro](https://www.imdb.com/title/tt0134056/) |
 | 1950-08-22 | [Martin Eden](https://www.imdb.com/title/tt0034431/) |
 | 1950-08-24 | [Jungla in fiamme](https://www.imdb.com/title/tt0038068/) |
-| 1950-09-01 | [Il«falco rosso](https://www.imdb.com/title/tt0041344/) |
+| 1950-09-01 | [Il falco rosso](https://www.imdb.com/title/tt0041344/) |
 | 1950-09-09 | [Il lupo della Sila](https://www.imdb.com/title/tt0041609/) |
 | 1950-09-13 | [Bufera mortale](https://www.imdb.com/title/tt0032811/) |
 | 1950-12-01 | [Patto col diavolo](https://www.imdb.com/title/tt0041739/) |
@@ -255,7 +256,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1951-09-21 | [Il leone di Amalfi](https://www.imdb.com/title/tt0042673/) |
 | 1951-09-25 | [L'edera](https://www.imdb.com/title/tt0042427/) |
 | 1951-10-14 | [Il mulatto](https://www.imdb.com/title/tt0041668/) |
-| 1951-10-26 | [Non c'» pace tra gli ulivi](https://www.imdb.com/title/tt0042794/) |
+| 1951-10-26 | [Non c'è pace tra gli ulivi](https://www.imdb.com/title/tt0042794/) |
 | 1951-11-10 | [Il cammino della speranza](https://www.imdb.com/title/tt0042301/) |
 | 1951-11-17 | [Lo zappatore](https://www.imdb.com/title/tt0043157/) |
 | 1951-11-23 | [Marco Visconti](https://www.imdb.com/title/tt0032758/) |
@@ -284,7 +285,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1952-02-29 | [Cielo sulla palude](https://www.imdb.com/title/tt0041248/) |
 | 1952-03-01 | [Cielo sulla palude](https://www.imdb.com/title/tt0041248/) |
 | 1952-03-03 | [Giuliano de' Medici](https://www.imdb.com/title/tt0032532/) |
-| 1952-03-08 | [Questa donna « mia](https://www.imdb.com/title/tt0031466/) |
+| 1952-03-08 | [Questa donna è mia](https://www.imdb.com/title/tt0031466/) |
 | 1952-03-11 | [Gli ammutinati di Sing Sing](https://www.imdb.com/title/tt0038255/) |
 | 1952-03-14 | [Il tradimento](https://www.imdb.com/title/tt0041979/) |
 | 1952-03-15 | [Ardimento](https://www.imdb.com/title/tt0160794/) |
@@ -317,8 +318,8 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1952-07-16 | [Il principe ribelle](https://www.imdb.com/title/tt0039734/) |
 | 1952-07-19 | [Ho sognato il paradiso](https://www.imdb.com/title/tt0041470/) |
 | 1952-08-10 | [Catene invisibili](https://www.imdb.com/title/tt0034588/) |
-| 1952-08-14 | [Notorious - L'amante perduta](https://www.imdb.com/title/tt0038787/) |
 | 1952-08-14 | [Luciano Serra, pilota](https://www.imdb.com/title/tt0030393/) |
+| 1952-08-14 | [Notorious - L'amante perduta](https://www.imdb.com/title/tt0038787/) |
 | 1952-08-17 | [Labbra avvelenate](https://www.imdb.com/title/tt0040719/) |
 | 1952-08-24 | [Le due orfanelle](https://www.imdb.com/title/tt0034688/) |
 | 1952-08-30 | [Piccolo alpino](https://www.imdb.com/title/tt0032905/) |
@@ -346,7 +347,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1952-11-28 | [La grande rinuncia](https://www.imdb.com/title/tt0043598/) |
 | 1952-12-03 | [Campane a martello](https://www.imdb.com/title/tt0042303/) |
 | 1952-12-10 | [Corruzione](https://www.imdb.com/title/tt0041207/) |
-| 1952-12-13 | [Addio Mim»!](https://www.imdb.com/title/tt0039131/) |
+| 1952-12-13 | [Addio Mimí!](https://www.imdb.com/title/tt0039131/) |
 | 1952-12-19 | [Monastero di Santa Chiara](https://www.imdb.com/title/tt0041657/) |
 | 1952-12-24 | [Il lupo della frontiera](https://www.imdb.com/title/tt0043765/) |
 | 1952-12-30 | [La leggenda di Faust](https://www.imdb.com/title/tt0040533/) |
@@ -381,8 +382,8 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1953-03-22 | [Viva Villa!](https://www.imdb.com/title/tt0025948/) |
 | 1953-03-28 | [La scogliera del peccato](https://www.imdb.com/title/tt0042933/) |
 | 1953-04-04 | [Carne inquieta](https://www.imdb.com/title/tt0044484/) |
-| 1953-04-11 | [Carne inquieta](https://www.imdb.com/title/tt0044484/) |
 | 1953-04-11 | [La rivale dell'imperatrice](https://www.imdb.com/title/tt0041814/) |
+| 1953-04-11 | [Carne inquieta](https://www.imdb.com/title/tt0044484/) |
 | 1953-04-16 | [La maschera di Zorro](https://www.imdb.com/title/tt0029818/) |
 | 1953-04-18 | [Jess il bandito](https://www.imdb.com/title/tt0031507/) |
 | 1953-04-21 | [Bassa marea](https://www.imdb.com/title/tt0042579/) |
@@ -402,8 +403,8 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1953-06-27 | [La morte civile](https://www.imdb.com/title/tt0035084/) |
 | 1953-06-28 | [Filumena Marturano](https://www.imdb.com/title/tt0043533/) |
 | 1953-06-29 | [Vento selvaggio](https://www.imdb.com/title/tt0035244/) |
-| 1953-07-04 | [Filumena Marturano](https://www.imdb.com/title/tt0043533/) |
 | 1953-07-04 | [Il Cristo proibito](https://www.imdb.com/title/tt0042354/) |
+| 1953-07-04 | [Filumena Marturano](https://www.imdb.com/title/tt0043533/) |
 | 1953-07-07 | [Accadde in settembre](https://www.imdb.com/title/tt0042947/) |
 | 1953-07-15 | [La vita ricomincia](https://www.imdb.com/title/tt0038225/) |
 | 1953-07-17 | [I falsari](https://www.imdb.com/title/tt0042446/) |
@@ -416,7 +417,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1953-09-18 | [Pentimento](https://www.imdb.com/title/tt0045022/) |
 | 1953-09-22 | [I falsari](https://www.imdb.com/title/tt0042446/) |
 | 1953-10-02 | [Enrico Caruso - Leggenda di una voce](https://www.imdb.com/title/tt0043505/) |
-| 1953-10-06 | [L'assassino « in casa!](https://www.imdb.com/title/tt0033062/) |
+| 1953-10-06 | [L'assassino è in casa!](https://www.imdb.com/title/tt0033062/) |
 | 1953-10-10 | [Le quattro piume](https://www.imdb.com/title/tt0031334/) |
 | 1953-10-20 | [Voglio essere tua](https://www.imdb.com/title/tt0043828/) |
 | 1953-10-27 | [La gabbia di ferro](https://www.imdb.com/title/tt0042826/) |
@@ -448,7 +449,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1954-02-26 | [La cieca di Sorrento](https://www.imdb.com/title/tt0044498/) |
 | 1954-03-02 | [Maria di Magdala](https://www.imdb.com/title/tt0042971/) |
 | 1954-03-09 | [Malesia](https://www.imdb.com/title/tt0041622/) |
-| 1954-03-15 | [La citt» atomica](https://www.imdb.com/title/tt0044382/) |
+| 1954-03-15 | [La città atomica](https://www.imdb.com/title/tt0044382/) |
 | 1954-03-19 | [Redenzione](https://www.imdb.com/title/tt0045076/) |
 | 1954-03-29 | [Giungla d'asfalto](https://www.imdb.com/title/tt0042208/) |
 | 1954-04-01 | [Il prigioniero di Fort Ross](https://www.imdb.com/title/tt0039667/) |
@@ -456,7 +457,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1954-04-17 | [Gli occhi che non sorrisero](https://www.imdb.com/title/tt0044486/) |
 | 1954-04-23 | [L'ereditiera](https://www.imdb.com/title/tt0041452/) |
 | 1954-04-29 | [Addio, figlio mio!](https://www.imdb.com/title/tt0046681/) |
-| 1954-05-14 | [Le due verit«](https://www.imdb.com/title/tt0043489/) |
+| 1954-05-14 | [Le due verità](https://www.imdb.com/title/tt0043489/) |
 | 1954-05-18 | [La primula rossa del Sud](https://www.imdb.com/title/tt0046492/) |
 | 1954-05-29 | [Wanda, la peccatrice](https://www.imdb.com/title/tt0045311/) |
 | 1954-05-31 | [Perdonami!](https://www.imdb.com/title/tt0045024/) |
@@ -479,20 +480,20 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1954-09-07 | [Il folle di Marechiaro](https://www.imdb.com/title/tt0208970/) |
 | 1954-09-10 | [I Piombi di Venezia](https://www.imdb.com/title/tt0046189/) |
 | 1954-09-13 | [Cirano di Bergerac](https://www.imdb.com/title/tt0042367/) |
-| 1954-09-17 | [Giovent» alla sbarra](https://www.imdb.com/title/tt0044660/) |
+| 1954-09-17 | [Gioventù alla sbarra](https://www.imdb.com/title/tt0044660/) |
 | 1954-09-20 | [Il folle di Marechiaro](https://www.imdb.com/title/tt0208970/) |
 | 1954-10-01 | [Il tenente Giorgio](https://www.imdb.com/title/tt0045224/) |
 | 1954-10-08 | [La regina di Saba](https://www.imdb.com/title/tt0045078/) |
 | 1954-10-12 | [La monaca di Monza](https://www.imdb.com/title/tt0039630/) |
 | 1954-10-18 | [Ergastolo](https://www.imdb.com/title/tt0045358/) |
 | 1954-10-23 | [Art. 519 codice penale](https://www.imdb.com/title/tt0044374/) |
-| 1954-10-28 | [La citt« canora](https://www.imdb.com/title/tt0044501/) |
+| 1954-10-28 | [La città canora](https://www.imdb.com/title/tt0044501/) |
 | 1954-11-01 | [Prigionieri delle tenebre](https://www.imdb.com/title/tt0045051/) |
 | 1954-11-12 | [La leggenda del piave](https://www.imdb.com/title/tt0044833/) |
 | 1954-11-19 | [Condannatelo!](https://www.imdb.com/title/tt0045642/) |
 | 1954-11-26 | [Sul ponte dei sospiri](https://www.imdb.com/title/tt0045207/) |
-| 1954-11-30 | [Verginit»](https://www.imdb.com/title/tt0045288/) |
-| 1954-12-01 | [Verginit«](https://www.imdb.com/title/tt0045288/) |
+| 1954-11-30 | [Verginità](https://www.imdb.com/title/tt0045288/) |
+| 1954-12-01 | [Verginità](https://www.imdb.com/title/tt0045288/) |
 | 1954-12-02 | [Solo per te Lucia](https://www.imdb.com/title/tt0045170/) |
 | 1954-12-04 | [Anna perdonami](https://www.imdb.com/title/tt0045509/) |
 | 1954-12-07 | [La colpa di una madre](https://www.imdb.com/title/tt0044508/) |
@@ -501,7 +502,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1954-12-18 | [I figli non si vendono](https://www.imdb.com/title/tt0044615/) |
 | 1954-12-20 | [Camicie rosse](https://www.imdb.com/title/tt0044467/) |
 | 1954-12-24 | [Luci della ribalta](https://www.imdb.com/title/tt0044837/) |
-| 1954-12-31 | [Sensualit»](https://www.imdb.com/title/tt0045138/) |
+| 1954-12-31 | [Sensualità](https://www.imdb.com/title/tt0045138/) |
 
 ### 1955
 
@@ -548,7 +549,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1955-07-05 | [La corona nera](https://www.imdb.com/title/tt0042346/) |
 | 1955-07-08 | [Anna Bolena](https://www.imdb.com/title/tt0043388/) |
 | 1955-07-12 | [Ritratto di un assassino](https://www.imdb.com/title/tt0041763/) |
-| 1955-07-23 | [Amarti « il mio peccato (Suor Celeste)](https://www.imdb.com/title/tt0045501/) |
+| 1955-07-23 | [Amarti è il mio peccato (Suor Celeste)](https://www.imdb.com/title/tt0045501/) |
 | 1955-07-26 | [Capitan Furia](https://www.imdb.com/title/tt0031137/) |
 | 1955-08-02 | [Buffalo Bill a Roma](https://www.imdb.com/title/tt0041214/) |
 | 1955-08-06 | [Il brigante](https://www.imdb.com/title/tt0045595/) |
@@ -559,7 +560,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1955-08-26 | [Cristoforo Colombo](https://www.imdb.com/title/tt0041247/) |
 | 1955-08-30 | [Maria Malibran](https://www.imdb.com/title/tt0035038/) |
 | 1955-09-05 | [Il sacco di Roma](https://www.imdb.com/title/tt0046263/) |
-| 1955-09-07 | [Pap» ti ricordo](https://www.imdb.com/title/tt0045008/) |
+| 1955-09-07 | [Papà ti ricordo](https://www.imdb.com/title/tt0045008/) |
 | 1955-09-09 | [Ripudiata](https://www.imdb.com/title/tt0047418/) |
 | 1955-09-13 | [Il grande valzer](https://www.imdb.com/title/tt0030202/) |
 | 1955-09-20 | [In amore si pecca in due](https://www.imdb.com/title/tt0045908/) |
@@ -590,7 +591,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 |---|---|
 | 1956-01-02 | [Ultima illusione](https://www.imdb.com/title/tt0047631/) |
 | 1956-01-06 | [Teodora, imperatrice di Bisanzio](https://www.imdb.com/title/tt0047567/) |
-| 1956-01-09 | [Giovent« alla sbarra](https://www.imdb.com/title/tt0044660/) |
+| 1956-01-09 | [Gioventù alla sbarra](https://www.imdb.com/title/tt0044660/) |
 | 1956-01-11 | [La giovane guardia](https://www.imdb.com/title/tt0040601/) |
 | 1956-01-16 | [Europa '51](https://www.imdb.com/title/tt0043511/) |
 | 1956-01-23 | [La notte ha mille occhi](https://www.imdb.com/title/tt0040643/) |
@@ -636,18 +637,19 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1956-07-07 | [Ti ho sempre amato!](https://www.imdb.com/title/tt0046430/) |
 | 1956-07-09 | [Donne verso l'ignoto](https://www.imdb.com/title/tt0044205/) |
 | 1956-07-26 | [Lucrezia Borgia](https://www.imdb.com/title/tt0044857/) |
-| 1956-08-04 | [Non c'» pace tra gli ulivi](https://www.imdb.com/title/tt0042794/) |
+| 1956-08-04 | [Non c'è pace tra gli ulivi](https://www.imdb.com/title/tt0042794/) |
 | 1956-08-11 | [Tua per la vita](https://www.imdb.com/title/tt0047621/) |
 | 1956-08-15 | [Il nido di falasco](https://www.imdb.com/title/tt0042787/) |
 | 1956-08-18 | [Il peccato di Anna](https://www.imdb.com/title/tt0045017/) |
 | 1956-08-22 | [Fra' Diavolo](https://www.imdb.com/title/tt0033630/) |
 | 1956-09-01 | [Moloch il dio della vendetta](https://www.imdb.com/title/tt0046349/) |
+| 1956-09-04 | [Fanfan la Tulipe](https://www.imdb.com/title/tt0044602/) |
 | 1956-09-06 | [I miserabili](https://www.imdb.com/title/tt0044907/) |
 | 1956-09-11 | [I sette peccati capitali](https://www.imdb.com/title/tt0044025/) |
 | 1956-09-15 | [Appassionatamente](https://www.imdb.com/title/tt0046720/) |
 | 1956-09-17 | [Il tesoro di Rommel](https://www.imdb.com/title/tt0048709/) |
 | 1956-09-26 | [Processo in Vaticano - la vita di S. Teresa di Lisieux](https://www.imdb.com/title/tt0159676/) |
-| 1956-09-28 | [Piet« per chi cade](https://www.imdb.com/title/tt0046188/) |
+| 1956-09-28 | [Pietà per chi cade](https://www.imdb.com/title/tt0046188/) |
 | 1956-10-01 | [Disperato addio](https://www.imdb.com/title/tt0047999/) |
 | 1956-10-02 | [Rosalba](https://www.imdb.com/title/tt0270615/) |
 | 1956-10-04 | [Bufera mortale](https://www.imdb.com/title/tt0032811/) |
@@ -661,7 +663,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1956-11-06 | [La muta di Portici](https://www.imdb.com/title/tt0044934/) |
 | 1956-11-14 | [Fiamme sulla laguna](https://www.imdb.com/title/tt0041357/) |
 | 1956-11-27 | [Forzuto](https://www.imdb.com/title/tt0020459/) |
-| 1956-12-09 | [Processo alla citt»](https://www.imdb.com/title/tt0045054/) |
+| 1956-12-09 | [Processo alla città](https://www.imdb.com/title/tt0045054/) |
 | 1956-12-11 | [Vendicata!](https://www.imdb.com/title/tt0048780/) |
 | 1956-12-15 | [Viva Zapata!](https://www.imdb.com/title/tt0045296/) |
 | 1956-12-22 | [Il grande gaucho](https://www.imdb.com/title/tt0045316/) |
@@ -679,7 +681,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1957-01-26 | [Amleto](https://www.imdb.com/title/tt0040416/) |
 | 1957-01-28 | [La strada del mistero](https://www.imdb.com/title/tt0042771/) |
 | 1957-02-03 | [Fratelli d'Italia](https://www.imdb.com/title/tt0044634/) |
-| 1957-02-05 | [Vendicher« il mio passato](https://www.imdb.com/title/tt0044849/) |
+| 1957-02-05 | [Vendicherò il mio passato](https://www.imdb.com/title/tt0044849/) |
 | 1957-02-10 | [Il Cristo proibito](https://www.imdb.com/title/tt0042354/) |
 | 1957-02-12 | [La lunga attesa](https://www.imdb.com/title/tt0040446/) |
 | 1957-02-13 | [Fiamme nella jungla](https://www.imdb.com/title/tt0039001/) |
@@ -690,7 +692,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1957-02-26 | [I confini del proibito](https://www.imdb.com/title/tt0046006/) |
 | 1957-03-02 | [Torna piccina mia!](https://www.imdb.com/title/tt0048738/) |
 | 1957-03-05 | [Allo sbaraglio](https://www.imdb.com/title/tt0043590/) |
-| 1957-03-09 | [Te st» aspettanno](https://www.imdb.com/title/tt0051060/) |
+| 1957-03-09 | [Te stò aspettanno](https://www.imdb.com/title/tt0051060/) |
 | 1957-03-12 | [Ivan (il figlio del diavolo bianco)](https://www.imdb.com/title/tt0045923/) |
 | 1957-03-15 | [I miracoli non si ripetono](https://www.imdb.com/title/tt0042737/) |
 | 1957-03-23 | [Il figlio conteso](https://www.imdb.com/title/tt0046915/) |
@@ -709,7 +711,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1957-06-04 | [Terra straniera](https://www.imdb.com/title/tt0046410/) |
 | 1957-06-08 | [La canzone del cuore](https://www.imdb.com/title/tt0159336/) |
 | 1957-06-13 | [Giovanna la pazza](https://www.imdb.com/title/tt0040544/) |
-| 1957-06-15 | [Andrea Ch«nier](https://www.imdb.com/title/tt0047829/) |
+| 1957-06-15 | [Andrea Chénier](https://www.imdb.com/title/tt0047829/) |
 | 1957-06-18 | [La spiaggia](https://www.imdb.com/title/tt0046352/) |
 | 1957-06-23 | [La regina Margot](https://www.imdb.com/title/tt0047401/) |
 | 1957-06-26 | [Il fiume rosso](https://www.imdb.com/title/tt0040724/) |
@@ -720,7 +722,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1957-07-11 | [Uomini sul fondo](https://www.imdb.com/title/tt0034346/) |
 | 1957-07-23 | [Terra nera](https://www.imdb.com/title/tt0036038/) |
 | 1957-07-30 | [L'ebreo errante](https://www.imdb.com/title/tt0039348/) |
-| 1957-08-06 | [Schiavit»](https://www.imdb.com/title/tt0046281/) |
+| 1957-08-06 | [Schiavitù](https://www.imdb.com/title/tt0046281/) |
 | 1957-08-18 | [Mambo](https://www.imdb.com/title/tt0047207/) |
 | 1957-08-20 | [La cieca di Sorrento](https://www.imdb.com/title/tt0044498/) |
 | 1957-08-24 | [La pista degli elefanti](https://www.imdb.com/title/tt0046951/) |
@@ -737,7 +739,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1957-10-01 | [Passione nuda](https://www.imdb.com/title/tt0045010/) |
 | 1957-10-03 | [Vestire gli ignudi](https://www.imdb.com/title/tt0046505/) |
 | 1957-10-13 | [La lancia che uccide](https://www.imdb.com/title/tt0046808/) |
-| 1957-10-15 | [Arriv« l'alba](https://www.imdb.com/title/tt0046124/) |
+| 1957-10-15 | [Arrivò l'alba](https://www.imdb.com/title/tt0046124/) |
 | 1957-10-22 | [Tragica incertezza](https://www.imdb.com/title/tt0042980/) |
 | 1957-11-01 | [Aquila nera](https://www.imdb.com/title/tt0038306/) |
 | 1957-11-02 | [Il cavaliere della valle solitaria](https://www.imdb.com/title/tt0046303/) |
@@ -749,7 +751,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1957-11-26 | [Il prezzo del dovere](https://www.imdb.com/title/tt0044324/) |
 | 1957-11-27 | [Scandalo alla ribalta](https://www.imdb.com/title/tt0197612/) |
 | 1957-11-29 | [I fuorilegge](https://www.imdb.com/title/tt0041397/) |
-| 1957-12-02 | [Sensualit»](https://www.imdb.com/title/tt0045138/) |
+| 1957-12-02 | [Sensualità](https://www.imdb.com/title/tt0045138/) |
 | 1957-12-07 | [La rossa](https://www.imdb.com/title/tt0048566/) |
 | 1957-12-09 | [Tosca](https://www.imdb.com/title/tt0049864/) |
 | 1957-12-11 | [L'angelo scarlatto](https://www.imdb.com/title/tt0045126/) |
@@ -783,7 +785,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1958-02-24 | [Versailles](https://www.imdb.com/title/tt0047484/) |
 | 1958-02-25 | [Desperado](https://www.imdb.com/title/tt0046905/) |
 | 1958-02-28 | [Gli amanti del Tago](https://www.imdb.com/title/tt0047818/) |
-| 1958-03-05 | [I gioielli di Madame de «](https://www.imdb.com/title/tt0046022/) |
+| 1958-03-05 | [I gioielli di Madame de …](https://www.imdb.com/title/tt0046022/) |
 | 1958-03-06 | [La croce di Lorena](https://www.imdb.com/title/tt0035769/) |
 | 1958-03-10 | [Gli eroi della domenica](https://www.imdb.com/title/tt0045734/) |
 | 1958-03-11 | [La colpa del marinaio](https://www.imdb.com/title/tt0045201/) |
@@ -800,7 +802,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1958-04-30 | [Odissea tragica](https://www.imdb.com/title/tt0040765/) |
 | 1958-05-08 | [Alina](https://www.imdb.com/title/tt0042190/) |
 | 1958-05-09 | [Suonno d'ammore](https://www.imdb.com/title/tt0048675/) |
-| 1958-05-24 | [Moglie e buoi»](https://www.imdb.com/title/tt0049514/) |
+| 1958-05-24 | [Moglie e buoi…](https://www.imdb.com/title/tt0049514/) |
 | 1958-05-27 | [Gli eroi sono stanchi](https://www.imdb.com/title/tt0048187/) |
 | 1958-06-04 | [Presentimento](https://www.imdb.com/title/tt0050857/) |
 | 1958-06-11 | [Il drago verde](https://www.imdb.com/title/tt0045219/) |
@@ -811,7 +813,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1958-07-05 | [Giamaica](https://www.imdb.com/title/tt0045927/) |
 | 1958-07-08 | [I guastatori delle dighe](https://www.imdb.com/title/tt0046889/) |
 | 1958-07-12 | [La freccia insanguinata](https://www.imdb.com/title/tt0045518/) |
-| 1958-07-15 | [Frustateli senza piet«](https://www.imdb.com/title/tt0045653/) |
+| 1958-07-15 | [Frustateli senza pietà](https://www.imdb.com/title/tt0045653/) |
 | 1958-07-18 | [L'angelo delle Alpi](https://www.imdb.com/title/tt0050130/) |
 | 1958-07-25 | [Il bacio di Giuda](https://www.imdb.com/title/tt0046769/) |
 | 1958-07-29 | [La valle dei monsoni](https://www.imdb.com/title/tt0033159/) |
@@ -832,6 +834,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1958-10-16 | [Il grido delle aquile](https://www.imdb.com/title/tt0049728/) |
 | 1958-10-18 | [Anche gli eroi piangono](https://www.imdb.com/title/tt0049640/) |
 | 1958-10-19 | [Fuga nel sole](https://www.imdb.com/title/tt0048100/) |
+| 1958-10-21 | [La torre crudele](https://www.imdb.com/title/tt0049109/) |
 | 1958-10-26 | [Diana la cortigiana](https://www.imdb.com/title/tt0049140/) |
 | 1958-11-05 | [I colpevoli](https://www.imdb.com/title/tt0049085/) |
 | 1958-11-08 | [Duello di spie](https://www.imdb.com/title/tt0048588/) |
@@ -843,7 +846,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1958-12-09 | [Tragica luna di miele](https://www.imdb.com/title/tt0032571/) |
 | 1958-12-11 | [Piccola santa](https://www.imdb.com/title/tt0047352/) |
 | 1958-12-14 | [Operazione Normandia](https://www.imdb.com/title/tt0049117/) |
-| 1958-12-19 | [L'uomo che non » mai esistito](https://www.imdb.com/title/tt0049471/) |
+| 1958-12-19 | [L'uomo che non è mai esistito](https://www.imdb.com/title/tt0049471/) |
 | 1958-12-24 | [Le notti di Cabiria](https://www.imdb.com/title/tt0050783/) |
 | 1958-12-25 | [Il figliuol prodigo](https://www.imdb.com/title/tt0048517/) |
 | 1958-12-27 | [Il covo dei contrabbandieri](https://www.imdb.com/title/tt0048387/) |
@@ -852,14 +855,14 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 
 |  |  |
 |---|---|
-| 1959-01-06 | [La donna pi« bella del mondo](https://www.imdb.com/title/tt0048006/) |
+| 1959-01-06 | [La donna più bella del mondo](https://www.imdb.com/title/tt0048006/) |
 | 1959-01-08 | [Maria Antonietta](https://www.imdb.com/title/tt0048355/) |
 | 1959-01-09 | [Operazione mistero](https://www.imdb.com/title/tt0047073/) |
 | 1959-01-12 | [I due capitani](https://www.imdb.com/title/tt0048056/) |
 | 1959-01-17 | [Le pioggie di Ranchipur](https://www.imdb.com/title/tt0048538/) |
-| 1959-01-27 | [Il ricatto pi» vile](https://www.imdb.com/title/tt0049656/) |
+| 1959-01-27 | [Il ricatto più vile](https://www.imdb.com/title/tt0049656/) |
 | 1959-02-02 | [La marcia del disonore](https://www.imdb.com/title/tt0045097/) |
-| 1959-02-04 | [Solo Dio mi fermer«](https://www.imdb.com/title/tt0050990/) |
+| 1959-02-04 | [Solo Dio mi fermerà](https://www.imdb.com/title/tt0050990/) |
 | 1959-02-07 | [Michele Strogoff](https://www.imdb.com/title/tt0049501/) |
 | 1959-02-11 | [Il tenente dinamite](https://www.imdb.com/title/tt0045637/) |
 | 1959-02-16 | [Ore disperate](https://www.imdb.com/title/tt0047985/) |
@@ -882,7 +885,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1959-04-15 | [L'oro dei barbari](https://www.imdb.com/title/tt0297882/) |
 | 1959-04-20 | [Odissea tragica](https://www.imdb.com/title/tt0040765/) |
 | 1959-04-22 | [Canaris](https://www.imdb.com/title/tt0046819/) |
-| 1959-04-28 | [La canzone pi» bella](https://www.imdb.com/title/tt0050227/) |
+| 1959-04-28 | [La canzone più bella](https://www.imdb.com/title/tt0050227/) |
 | 1959-04-30 | [Rabbia in corpo](https://www.imdb.com/title/tt0136484/) |
 | 1959-05-03 | [La Venere di Cheronea](https://www.imdb.com/title/tt0052351/) |
 | 1959-05-07 | [La tunica](https://www.imdb.com/title/tt0046247/) |
@@ -906,12 +909,13 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1959-07-14 | [Pecore nere](https://www.imdb.com/title/tt0049288/) |
 | 1959-07-15 | [Prigioniero della paura](https://www.imdb.com/title/tt0050383/) |
 | 1959-07-18 | [Caccia al ladro](https://www.imdb.com/title/tt0048728/) |
-| 1959-07-21 | [Il dado « tratto](https://www.imdb.com/title/tt0050913/) |
+| 1959-07-21 | [Il dado è tratto](https://www.imdb.com/title/tt0050913/) |
 | 1959-07-26 | [Il riscatto degli indiani](https://www.imdb.com/title/tt0050299/) |
 | 1959-07-28 | [Dino](https://www.imdb.com/title/tt0050316/) |
 | 1959-07-30 | [Ergastolo](https://www.imdb.com/title/tt0045358/) |
-| 1959-08-01 | [Processo alla citt»](https://www.imdb.com/title/tt0045054/) |
+| 1959-08-01 | [Processo alla città](https://www.imdb.com/title/tt0045054/) |
 | 1959-08-02 | [L'ultima violenza](https://www.imdb.com/title/tt0051125/) |
+| 1959-08-10 | [Godzilla](https://www.imdb.com/title/tt0047034/) |
 | 1959-08-15 | [I violenti](https://www.imdb.com/title/tt0049849/) |
 | 1959-08-24 | [Donna da uccidere](https://www.imdb.com/title/tt0049196/) |
 | 1959-09-03 | [Condannatelo!](https://www.imdb.com/title/tt0045642/) |
@@ -922,13 +926,14 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1959-10-06 | [Nabonga](https://www.imdb.com/title/tt0037115/) |
 | 1959-10-10 | [I tre moschettieri](https://www.imdb.com/title/tt0040876/) |
 | 1959-10-14 | [La legge della strada](https://www.imdb.com/title/tt0049448/) |
-| 1959-10-16 | [5 contro il casin«](https://www.imdb.com/title/tt0048077/) |
+| 1959-10-16 | [5 contro il casinò](https://www.imdb.com/title/tt0048077/) |
 | 1959-10-18 | [La mina](https://www.imdb.com/title/tt0050705/) |
 | 1959-10-20 | [La vena d'oro](https://www.imdb.com/title/tt0048779/) |
 | 1959-10-28 | [Alta marea a mezzogiorno](https://www.imdb.com/title/tt0050507/) |
 | 1959-10-29 | [La barriera della legge](https://www.imdb.com/title/tt0149804/) |
 | 1959-10-30 | [Il figliuol prodigo](https://www.imdb.com/title/tt0048517/) |
-| 1959-11-06 | [Salom»](https://www.imdb.com/title/tt0046269/) |
+| 1959-11-05 | [Sangue sul deserto](https://www.imdb.com/title/tt0311012/) |
+| 1959-11-06 | [Salomè](https://www.imdb.com/title/tt0046269/) |
 | 1959-11-15 | [Uomini e lupi](https://www.imdb.com/title/tt0049905/) |
 | 1959-11-17 | [Donna da uccidere](https://www.imdb.com/title/tt0049196/) |
 | 1959-11-22 | [Via col vento](https://www.imdb.com/title/tt0031381/) |
@@ -989,6 +994,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1962-01-13 | [Revak, lo schiavo di Cartagine](https://www.imdb.com/title/tt0053634/) |
 | 1962-01-20 | [La vendetta dei barbari](https://www.imdb.com/title/tt0054436/) |
 | 1962-01-27 | [La maja desnuda](https://www.imdb.com/title/tt0051891/) |
+| 1962-02-03 | [Come prima](https://www.imdb.com/title/tt0052817/) |
 | 1962-02-06 | [Il boia](https://www.imdb.com/title/tt0052877/) |
 | 1962-02-11 | [Malinconico autunno](https://www.imdb.com/title/tt0051442/) |
 | 1962-02-20 | [La legge](https://www.imdb.com/title/tt0051852/) |
@@ -1040,8 +1046,8 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1962-10-22 | [SOS Pacific](https://www.imdb.com/title/tt0053234/) |
 | 1962-10-27 | [Il grande pescatore](https://www.imdb.com/title/tt0052627/) |
 | 1962-11-03 | [La zingara rossa](https://www.imdb.com/title/tt0051692/) |
-| 1962-11-13 | [Le notti dei Teddy Boys](https://www.imdb.com/title/tt0186396/) |
 | 1962-11-13 | [Giungla d'asfalto](https://www.imdb.com/title/tt0042208/) |
+| 1962-11-13 | [Le notti dei Teddy Boys](https://www.imdb.com/title/tt0186396/) |
 | 1962-11-17 | [Il coraggio e la sfida](https://www.imdb.com/title/tt0054740/) |
 | 1962-11-20 | [Il sentiero della vendetta](https://www.imdb.com/title/tt0051686/) |
 | 1962-11-27 | [Il commissario Maigret](https://www.imdb.com/title/tt0050669/) |
@@ -1107,8 +1113,8 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1963-10-15 | [Sabotaggio](https://www.imdb.com/title/tt0053770/) |
 | 1963-10-19 | [Gli sparvieri dello stretto](https://www.imdb.com/title/tt0046286/) |
 | 1963-10-21 | [L'altro uomo (Delitto per delitto)](https://www.imdb.com/title/tt0044079/) |
-| 1963-10-28 | [Avventura a Malaga](https://www.imdb.com/title/tt0054053/) |
 | 1963-10-28 | [La cortigiana di Babilonia](https://www.imdb.com/title/tt0049094/) |
+| 1963-10-28 | [Avventura a Malaga](https://www.imdb.com/title/tt0054053/) |
 | 1963-10-30 | [Sindacato assassini](https://www.imdb.com/title/tt0054102/) |
 | 1963-10-31 | [La cortigiana di Babilonia](https://www.imdb.com/title/tt0049094/) |
 | 1963-11-01 | [Avventura a Malaga](https://www.imdb.com/title/tt0054053/) |
@@ -1196,13 +1202,15 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1964-11-08 | [Il tesoro del lago d'argento](https://www.imdb.com/title/tt0056452/) |
 | 1964-11-14 | [Storia cinese](https://www.imdb.com/title/tt0056447/) |
 | 1964-11-18 | [Uno dei tre](https://www.imdb.com/title/tt0057106/) |
+| 1964-11-22 | [Gli ammutinati di Samar](https://www.imdb.com/title/tt0056440/) |
 | 1964-11-27 | [Missione segreta](https://www.imdb.com/title/tt0037366/) |
 | 1964-12-06 | [Il prigioniero della miniera](https://www.imdb.com/title/tt0047013/) |
-| 1964-12-09 | [La citt« prigioniera](https://www.imdb.com/title/tt0055851/) |
+| 1964-12-09 | [La città prigioniera](https://www.imdb.com/title/tt0055851/) |
 | 1964-12-11 | [I Piombi di Venezia](https://www.imdb.com/title/tt0046189/) |
 | 1964-12-13 | [L'eroe di Sparta](https://www.imdb.com/title/tt0055719/) |
 | 1964-12-16 | [Affondate la Bismarck!](https://www.imdb.com/title/tt0054310/) |
 | 1964-12-22 | [Chiamate 22-22 tenente Sheridan](https://www.imdb.com/title/tt0162242/) |
+| 1964-12-25 | [Perseo l'invincibile](https://www.imdb.com/title/tt0056343/) |
 
 ### 1965
 
@@ -1210,9 +1218,10 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 |---|---|
 | 1965-01-06 | [Golia e il cavaliere mascherato](https://www.imdb.com/title/tt0178515/) |
 | 1965-01-10 | [Zorro contro Maciste](https://www.imdb.com/title/tt0057467/) |
-| 1965-01-20 | [Quando l'amore » veleno](https://www.imdb.com/title/tt0051858/) |
+| 1965-01-20 | [Quando l'amore è veleno](https://www.imdb.com/title/tt0051858/) |
 | 1965-01-24 | [L'ultimo ribelle](https://www.imdb.com/title/tt0049989/) |
 | 1965-01-27 | [F.B.I. sesso e violenza](https://www.imdb.com/title/tt0161071/) |
+| 1965-01-28 | [Super rapina a Milano](https://www.imdb.com/title/tt0168201/) |
 | 1965-01-29 | [Taxi da battaglia](https://www.imdb.com/title/tt0047861/) |
 | 1965-01-31 | [Maciste contro i Mongoli](https://www.imdb.com/title/tt0183449/) |
 | 1965-02-03 | [Il passo del diavolo](https://www.imdb.com/title/tt0042395/) |
@@ -1221,12 +1230,11 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1965-02-12 | [Vento caldo](https://www.imdb.com/title/tt0055279/) |
 | 1965-02-13 | [L'invincibile della prateria](https://www.imdb.com/title/tt0053711/) |
 | 1965-02-17 | [La primula rossa del Sud](https://www.imdb.com/title/tt0046492/) |
-| 1965-02-19 | [L'assalto delle frecce rosse](https://www.imdb.com/title/tt0044045/) |
 | 1965-02-21 | [D'Artagnan contro i 3 moschettieri](https://www.imdb.com/title/tt0167862/) |
 | 1965-02-24 | [Terra selvaggia](https://www.imdb.com/title/tt0033389/) |
 | 1965-02-28 | [Sansone e il tesoro degli Incas](https://www.imdb.com/title/tt0058543/) |
 | 1965-03-05 | [L'ora del grande attacco](https://www.imdb.com/title/tt0045513/) |
-| 1965-03-10 | [L'uomo che mor« tre volte](https://www.imdb.com/title/tt0056216/) |
+| 1965-03-10 | [L'uomo che morì tre volte](https://www.imdb.com/title/tt0056216/) |
 | 1965-03-14 | [Il fornaretto di Venezia](https://www.imdb.com/title/tt0057068/) |
 | 1965-03-16 | [La valanga dei tanks](https://www.imdb.com/title/tt0051052/) |
 | 1965-03-18 | [SOS York](https://www.imdb.com/title/tt0053369/) |
@@ -1245,9 +1253,8 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1965-05-02 | [Sodoma e Gomorra](https://www.imdb.com/title/tt0056504/) |
 | 1965-05-05 | [Picnic](https://www.imdb.com/title/tt0048491/) |
 | 1965-05-09 | [I trecento di Fort Canby](https://www.imdb.com/title/tt0055524/) |
-| 1965-05-12 | [Il delitto Dupr»](https://www.imdb.com/title/tt0132892/) |
+| 1965-05-12 | [Il delitto Dupré](https://www.imdb.com/title/tt0132892/) |
 | 1965-05-19 | [90 minuti dopo mezzanotte](https://www.imdb.com/title/tt0056275/) |
-| 1965-05-21 | [Pistole calde a Tucson](https://www.imdb.com/title/tt0051691/) |
 | 1965-05-23 | [I segreti di Filadelfia](https://www.imdb.com/title/tt0053462/) |
 | 1965-05-28 | [Mademoiselle](https://www.imdb.com/title/tt14986800/) |
 | 1965-06-03 | [I sequestrati di Altona](https://www.imdb.com/title/tt0056468/) |
@@ -1276,8 +1283,8 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1965-08-24 | [Asfalto nero](https://www.imdb.com/title/tt0055418/) |
 | 1965-08-29 | [Maciste nell'inferno di Gengis Khan](https://www.imdb.com/title/tt0183451/) |
 | 1965-09-05 | [Buffalo Bill, l'eroe del far west](https://www.imdb.com/title/tt0057904/) |
-| 1965-09-12 | [L'amore « una cosa meravigliosa](https://www.imdb.com/title/tt0048316/) |
-| 1965-09-15 | [Uccider» alle sette](https://www.imdb.com/title/tt0055870/) |
+| 1965-09-12 | [L'amore è una cosa meravigliosa](https://www.imdb.com/title/tt0048316/) |
+| 1965-09-15 | [Ucciderò alle sette](https://www.imdb.com/title/tt0055870/) |
 | 1965-09-18 | [Il mistero dell'isola maledetta](https://www.imdb.com/title/tt0187303/) |
 | 1965-09-23 | [Il triangolo del delitto](https://www.imdb.com/title/tt0154551/) |
 | 1965-09-26 | [La lancia che uccide](https://www.imdb.com/title/tt0046808/) |
@@ -1288,11 +1295,11 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1965-10-19 | [L'agguato degli apaches](https://www.imdb.com/title/tt0042586/) |
 | 1965-10-21 | [Pistole infallibili](https://www.imdb.com/title/tt0045573/) |
 | 1965-10-22 | [Forza bruta](https://www.imdb.com/title/tt0039224/) |
-| 1965-10-24 | [Il giorno pi« lungo](https://www.imdb.com/title/tt0056197/) |
+| 1965-10-24 | [Il giorno più lungo](https://www.imdb.com/title/tt0056197/) |
 | 1965-10-28 | [La dura legge](https://www.imdb.com/title/tt0058429/) |
 | 1965-11-01 | [Divorzio all'italiana](https://www.imdb.com/title/tt0055913/) |
 | 1965-11-02 | [Ostaggi dei banditi](https://www.imdb.com/title/tt0049791/) |
-| 1965-11-10 | [Finch» dura la tempesta](https://www.imdb.com/title/tt0055790/) |
+| 1965-11-10 | [Finché dura la tempesta](https://www.imdb.com/title/tt0055790/) |
 | 1965-11-12 | [X 21 spionaggio atomico](https://www.imdb.com/title/tt0058334/) |
 | 1965-11-14 | [I tre centurioni](https://www.imdb.com/title/tt0211060/) |
 | 1965-11-17 | [L'urlo dei Marines](https://www.imdb.com/title/tt0055520/) |
@@ -1319,7 +1326,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1966-02-09 | [I fratelli di ferro](https://www.imdb.com/title/tt0054969/) |
 | 1966-02-14 | [Le pistole di Zorro](https://www.imdb.com/title/tt0043711/) |
 | 1966-02-16 | [Vento freddo d'agosto](https://www.imdb.com/title/tt0054755/) |
-| 1966-02-17 | [La strage del 7« Cavalleggeri](https://www.imdb.com/title/tt0047501/) |
+| 1966-02-17 | [La strage del 7º Cavalleggeri](https://www.imdb.com/title/tt0047501/) |
 | 1966-02-18 | [Esperimento IS: il mondo si frantuma](https://www.imdb.com/title/tt0059065/) |
 | 1966-02-19 | [Maciste, gladiatore di Sparta](https://www.imdb.com/title/tt0058312/) |
 | 1966-02-21 | [Tra due donne](https://www.imdb.com/title/tt0054236/) |
@@ -1331,10 +1338,10 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1966-03-11 | [I fuorilegge del Kansas](https://www.imdb.com/title/tt0044790/) |
 | 1966-03-12 | [I cavalieri della tavola rotonda](https://www.imdb.com/title/tt0045966/) |
 | 1966-03-14 | [Furto su misura](https://www.imdb.com/title/tt0056057/) |
-| 1966-03-17 | [Sulla sabbia » passata la morte](https://www.imdb.com/title/tt0056100/) |
+| 1966-03-17 | [Sulla sabbia è passata la morte](https://www.imdb.com/title/tt0056100/) |
 | 1966-03-19 | [Il re dei re](https://www.imdb.com/title/tt0055047/) |
 | 1966-03-21 | [I disperati della gloria](https://www.imdb.com/title/tt0058452/) |
-| 1966-03-23 | [La citt« nuda](https://www.imdb.com/title/tt0040636/) |
+| 1966-03-23 | [La città nuda](https://www.imdb.com/title/tt0040636/) |
 | 1966-03-24 | [I fuorilegge della valle solitaria](https://www.imdb.com/title/tt0056448/) |
 | 1966-03-28 | [Super rapina a Milano](https://www.imdb.com/title/tt0168201/) |
 | 1966-03-30 | [Il coltello nella piaga](https://www.imdb.com/title/tt0056957/) |
@@ -1351,7 +1358,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1966-04-30 | [1000 dollari per un Winchester](https://www.imdb.com/title/tt0057891/) |
 | 1966-05-02 | [Rififi a Tokyo](https://www.imdb.com/title/tt0055935/) |
 | 1966-05-04 | [Tempo di guerra, tempo d'amore](https://www.imdb.com/title/tt0057840/) |
-| 1966-05-06 | [La donna che invent» lo strip-tease](https://www.imdb.com/title/tt0056048/) |
+| 1966-05-06 | [La donna che inventò lo strip-tease](https://www.imdb.com/title/tt0056048/) |
 | 1966-05-07 | [24 ore per uccidere](https://www.imdb.com/title/tt0059836/) |
 | 1966-05-09 | [Il ritorno del kentuckiano](https://www.imdb.com/title/tt0041361/) |
 | 1966-05-11 | [Un giorno di terrore](https://www.imdb.com/title/tt0058283/) |
@@ -1380,7 +1387,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1966-08-06 | [I rinnegati di Fort Grant](https://www.imdb.com/title/tt0058121/) |
 | 1966-08-08 | [Testimone d'accusa](https://www.imdb.com/title/tt0051201/) |
 | 1966-08-10 | [Zorro alla corte di Spagna](https://www.imdb.com/title/tt0056724/) |
-| 1966-08-12 | [La violenza « la mia legge](https://www.imdb.com/title/tt0058717/) |
+| 1966-08-12 | [La violenza è la mia legge](https://www.imdb.com/title/tt0058717/) |
 | 1966-08-13 | [Attila](https://www.imdb.com/title/tt0046731/) |
 | 1966-08-15 | [Il cantante del luna park](https://www.imdb.com/title/tt0058534/) |
 | 1966-08-16 | [Ursus gladiatore ribelle](https://www.imdb.com/title/tt0057629/) |
@@ -1399,7 +1406,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1966-10-07 | [Il grande cielo](https://www.imdb.com/title/tt0044419/) |
 | 1966-10-10 | [La freccia di fuoco](https://www.imdb.com/title/tt0051420/) |
 | 1966-10-12 | [Kid Rodelo](https://www.imdb.com/title/tt0059356/) |
-| 1966-10-14 | [...e la donna cre» l'amore](https://www.imdb.com/title/tt0154461/) |
+| 1966-10-14 | [...e la donna creò l'amore](https://www.imdb.com/title/tt0154461/) |
 | 1966-10-15 | [Minnesota Clay](https://www.imdb.com/title/tt0058202/) |
 | 1966-10-17 | [Avanzi di galera](https://www.imdb.com/title/tt0046735/) |
 | 1966-10-19 | [L'armata delle belve](https://www.imdb.com/title/tt0059638/) |
@@ -1411,7 +1418,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1966-10-30 | [Cleopatra](https://www.imdb.com/title/tt0056937/) |
 | 1966-11-03 | [La vendetta di Zorro](https://www.imdb.com/title/tt0276239/) |
 | 1966-11-07 | [Lo strangolatore di Londra](https://www.imdb.com/title/tt0057676/) |
-| 1966-11-10 | [X 3 chiamate Brigitte (Jusqu'« plus soif)](https://www.imdb.com/title/tt0309749/) |
+| 1966-11-10 | [X 3 chiamate Brigitte (Jusqu'à plus soif)](https://www.imdb.com/title/tt0309749/) |
 | 1966-11-11 | [I rinnegati dell'isola misteriosa](https://www.imdb.com/title/tt0051581/) |
 | 1966-11-12 | [Agente S3S: operazione Uranio](https://www.imdb.com/title/tt0058883/) |
 | 1966-11-16 | [Watabanga!](https://www.imdb.com/title/tt0057914/) |
@@ -1427,7 +1434,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1966-12-10 | [Se sparo... ti uccido](https://www.imdb.com/title/tt0057979/) |
 | 1966-12-12 | [Questa volta parliamo di uomini](https://www.imdb.com/title/tt0059627/) |
 | 1966-12-14 | [Dolci inganni](https://www.imdb.com/title/tt0053780/) |
-| 1966-12-17 | [Se non avessi pi» te](https://www.imdb.com/title/tt0059690/) |
+| 1966-12-17 | [Se non avessi più te](https://www.imdb.com/title/tt0059690/) |
 | 1966-12-21 | [Le sorelle di Zorro](https://www.imdb.com/title/tt0279860/) |
 | 1966-12-23 | [Gli eroi del Pacifico - La pattuglia invisibile](https://www.imdb.com/title/tt0037522/) |
 | 1966-12-24 | [Uno straniero a Sacramento](https://www.imdb.com/title/tt0059760/) |
@@ -1447,13 +1454,14 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1967-01-16 | [Il diavolo in corpo](https://www.imdb.com/title/tt0038476/) |
 | 1967-01-17 | [Le vendicatrici di Zorro](https://www.imdb.com/title/tt0280177/) |
 | 1967-01-19 | [Il cacciatore di indiani](https://www.imdb.com/title/tt0048204/) |
+| 1967-01-20 | [Sfida selvaggia](https://www.imdb.com/title/tt0057257/) |
 | 1967-01-21 | [Il grande cielo](https://www.imdb.com/title/tt0044419/) |
 | 1967-01-22 | [30 Winchester per El Diablo](https://www.imdb.com/title/tt0058862/) |
 | 1967-01-23 | [E il vento disperse la nebbia](https://www.imdb.com/title/tt0055738/) |
 | 1967-01-25 | [Agente speciale Eva: missione Sex](https://www.imdb.com/title/tt0057644/) |
 | 1967-01-26 | [Appuntamento al Km. 424](https://www.imdb.com/title/tt0047982/) |
 | 1967-01-28 | [Il vangelo secondo Matteo](https://www.imdb.com/title/tt0058715/) |
-| 1967-01-29 | [Lass« qualcuno mi ama](https://www.imdb.com/title/tt0049778/) |
+| 1967-01-29 | [Lassù qualcuno mi ama](https://www.imdb.com/title/tt0049778/) |
 | 1967-01-30 | [Il ribelle dell'Anatolia (America America)](https://www.imdb.com/title/tt0056825/) |
 | 1967-01-31 | [Capricci borghesi (Daniela by Night)](https://www.imdb.com/title/tt0055636/) |
 | 1967-02-02 | [Le gladiatrici](https://www.imdb.com/title/tt0054382/) |
@@ -1474,7 +1482,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1967-03-06 | [Nel bene e nel male](https://www.imdb.com/title/tt0057656/) |
 | 1967-03-10 | [Il corsaro della mezza luna](https://www.imdb.com/title/tt0050266/) |
 | 1967-03-13 | [La pistola sepolta](https://www.imdb.com/title/tt0049201/) |
-| 1967-03-14 | [La citt» nera](https://www.imdb.com/title/tt0042379/) |
+| 1967-03-14 | [La città nera](https://www.imdb.com/title/tt0042379/) |
 | 1967-03-19 | [L'avventuriero della Tortuga](https://www.imdb.com/title/tt0058929/) |
 | 1967-03-20 | [Sfida implacabile](https://www.imdb.com/title/tt0239806/) |
 | 1967-03-22 | [Il sorpasso](https://www.imdb.com/title/tt0056512/) |
@@ -1486,6 +1494,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1967-04-14 | [I bucanieri](https://www.imdb.com/title/tt0051436/) |
 | 1967-04-19 | [Chi giace nella mia bara?](https://www.imdb.com/title/tt0057997/) |
 | 1967-04-21 | [Massacro a Phantom Hill](https://www.imdb.com/title/tt0060537/) |
+| 1967-04-22 | [Degueyo](https://www.imdb.com/title/tt0060296/) |
 | 1967-04-27 | [La sfida dei giganti](https://www.imdb.com/title/tt0275668/) |
 | 1967-05-01 | [Addio alle armi](https://www.imdb.com/title/tt0050379/) |
 | 1967-05-04 | [3 colpi di Winchester per Ringo](https://www.imdb.com/title/tt0058861/) |
@@ -1526,13 +1535,12 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1967-09-14 | [U-112 assalto al Queen Mary](https://www.imdb.com/title/tt0060135/) |
 | 1967-09-19 | [Le colt cantarono la morte e fu... tempo di massacro](https://www.imdb.com/title/tt0061074/) |
 | 1967-09-20 | [Sandok, il Maciste della giungla](https://www.imdb.com/title/tt0128447/) |
-| 1967-09-22 | [La citt« senza legge](https://www.imdb.com/title/tt0059824/) |
+| 1967-09-22 | [La città senza legge](https://www.imdb.com/title/tt0059824/) |
 | 1967-09-27 | [Il ritorno di Jess il bandito](https://www.imdb.com/title/tt0039511/) |
 | 1967-09-29 | [Gli impetuosi](https://www.imdb.com/title/tt0058296/) |
 | 1967-09-30 | [I 5 della vendetta](https://www.imdb.com/title/tt0060238/) |
 | 1967-10-03 | [Crisantemi per un delitto](https://www.imdb.com/title/tt0058123/) |
 | 1967-10-06 | [Il principe coraggioso](https://www.imdb.com/title/tt0047365/) |
-| 1967-10-07 | [Il vendicatore del Texas](https://www.imdb.com/title/tt0056914/) |
 | 1967-10-11 | [Berlino l'inferno dei vivi](https://www.imdb.com/title/tt0050081/) |
 | 1967-10-12 | [L'occhio caldo del cielo](https://www.imdb.com/title/tt0055073/) |
 | 1967-10-13 | [Il pianeta errante](https://www.imdb.com/title/tt0059588/) |
@@ -1550,11 +1558,12 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1967-11-10 | [A ciascuno il suo](https://www.imdb.com/title/tt0061320/) |
 | 1967-11-14 | [Delitto in prima pagina](https://www.imdb.com/title/tt0043088/) |
 | 1967-11-16 | [La calda preda](https://www.imdb.com/title/tt0060271/) |
-| 1967-11-17 | [La spia sulla citt»](https://www.imdb.com/title/tt0056925/) |
+| 1967-11-17 | [La spia sulla città](https://www.imdb.com/title/tt0056925/) |
 | 1967-11-19 | [Una bara per Ringo](https://www.imdb.com/title/tt0061175/) |
 | 1967-11-21 | [Il grande agguato](https://www.imdb.com/title/tt0041210/) |
 | 1967-11-22 | [Delitto d'amore](https://www.imdb.com/title/tt0058868/) |
-| 1967-11-24 | [La citt« rubata](https://www.imdb.com/title/tt0036065/) |
+| 1967-11-24 | [La città rubata](https://www.imdb.com/title/tt0036065/) |
+| 1967-11-26 | [Djurado](https://www.imdb.com/title/tt0061583/) |
 | 1967-11-30 | [L'imboscata selvaggia](https://www.imdb.com/title/tt0049311/) |
 | 1967-12-03 | [Far West](https://www.imdb.com/title/tt0058019/) |
 | 1967-12-05 | [Il sentiero degli Apaches](https://www.imdb.com/title/tt0042299/) |
@@ -1563,11 +1572,12 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1967-12-15 | [Sette strade al tramonto](https://www.imdb.com/title/tt0054296/) |
 | 1967-12-19 | [Giochi di notte](https://www.imdb.com/title/tt0060740/) |
 | 1967-12-20 | [Gli amanti devono imparare](https://www.imdb.com/title/tt0056424/) |
+| 1967-12-21 | [L'harem](https://www.imdb.com/title/tt0063042/) |
 | 1967-12-22 | [Duello infernale](https://www.imdb.com/title/tt0041917/) |
 | 1967-12-23 | [Perdono](https://www.imdb.com/title/tt0060823/) |
 | 1967-12-25 | [Starblack](https://www.imdb.com/title/tt0222396/) |
 | 1967-12-26 | [Berlino appuntamento per le spie (Operazione Polifemo)](https://www.imdb.com/title/tt0061019/) |
-| 1967-12-27 | [Spara forte, pi» forte... non capisco!](https://www.imdb.com/title/tt0061008/) |
+| 1967-12-27 | [Spara forte, più forte... non capisco!](https://www.imdb.com/title/tt0061008/) |
 | 1967-12-29 | [Sette ore di fuoco](https://www.imdb.com/title/tt0058575/) |
 | 1967-12-31 | [Voltati... ti uccido!](https://www.imdb.com/title/tt0063813/) |
 
@@ -1599,7 +1609,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1968-02-26 | [La morte non conta i dollari](https://www.imdb.com/title/tt0061995/) |
 | 1968-02-27 | [L'alba del gran giorno](https://www.imdb.com/title/tt0049278/) |
 | 1968-02-29 | [I conquistatori dei sette mari](https://www.imdb.com/title/tt0036824/) |
-| 1968-03-01 | [Il pi« grande colpo del secolo](https://www.imdb.com/title/tt0061000/) |
+| 1968-03-01 | [Il più grande colpo del secolo](https://www.imdb.com/title/tt0061000/) |
 | 1968-03-06 | [Il gigante della roccia del falco](https://www.imdb.com/title/tt0059107/) |
 | 1968-03-12 | [Supercolpo da 7 miliardi](https://www.imdb.com/title/tt0209390/) |
 | 1968-03-17 | [Vaya con dios gringo](https://www.imdb.com/title/tt0136595/) |
@@ -1607,12 +1617,13 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1968-03-21 | [Bill il bandito](https://www.imdb.com/title/tt0050822/) |
 | 1968-03-24 | [Addio mamma](https://www.imdb.com/title/tt0061330/) |
 | 1968-03-25 | [Spionaggio internazionale](https://www.imdb.com/title/tt0049224/) |
-| 1968-03-26 | [Adi»s gringo](https://www.imdb.com/title/tt0060067/) |
+| 1968-03-26 | [Adiós gringo](https://www.imdb.com/title/tt0060067/) |
 | 1968-03-27 | [Tamburi di guerra](https://www.imdb.com/title/tt0051179/) |
+| 1968-03-28 | [Danger dimensione morte](https://www.imdb.com/title/tt0061112/) |
 | 1968-03-29 | [Il massacro a Phantom Hill](https://www.imdb.com/title/tt0060537/) |
 | 1968-03-30 | [Per 100.000 dollari t'ammazzo](https://www.imdb.com/title/tt0062114/) |
 | 1968-04-02 | [Il triangolo del delitto](https://www.imdb.com/title/tt0154551/) |
-| 1968-04-05 | [Colpo maestro al servizio di Sua Maest« britannica](https://www.imdb.com/title/tt0060249/) |
+| 1968-04-05 | [Colpo maestro al servizio di Sua Maestà britannica](https://www.imdb.com/title/tt0060249/) |
 | 1968-04-17 | [I ribelli del Kansas](https://www.imdb.com/title/tt0052941/) |
 | 1968-04-18 | [Sinfonia di guerra](https://www.imdb.com/title/tt0062829/) |
 | 1968-04-27 | [Becket e il suo re](https://www.imdb.com/title/tt0057877/) |
@@ -1625,7 +1636,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1968-05-26 | [Johnny Guitar](https://www.imdb.com/title/tt0047136/) |
 | 1968-05-28 | [Un amore](https://www.imdb.com/title/tt0131720/) |
 | 1968-05-30 | [L'uomo che viene da lontano](https://www.imdb.com/title/tt0061948/) |
-| 1968-06-01 | [L» dove scende il fiume](https://www.imdb.com/title/tt0044413/) |
+| 1968-06-01 | [Là dove scende il fiume](https://www.imdb.com/title/tt0044413/) |
 | 1968-06-04 | [Carovana di fuoco](https://www.imdb.com/title/tt0062472/) |
 | 1968-06-08 | [Un milione di dollari per sette assassini](https://www.imdb.com/title/tt0071843/) |
 | 1968-06-12 | [Inno di battaglia](https://www.imdb.com/title/tt0050171/) |
@@ -1666,10 +1677,10 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1968-10-28 | [I morti vivono](https://www.imdb.com/title/tt0059392/) |
 | 1968-11-02 | [John il bastardo](https://www.imdb.com/title/tt0181613/) |
 | 1968-11-05 | [Il suo nome gridava vendetta](https://www.imdb.com/title/tt0144626/) |
-| 1968-11-06 | [Dove si spara di pi«](https://www.imdb.com/title/tt0148086/) |
+| 1968-11-06 | [Dove si spara di più](https://www.imdb.com/title/tt0148086/) |
 | 1968-11-10 | [Il lungo giorno del massacro](https://www.imdb.com/title/tt0125881/) |
 | 1968-11-13 | [Frank Costello faccia d'angelo](https://www.imdb.com/title/tt0062229/) |
-| 1968-11-15 | [Ti pagher» col piombo](https://www.imdb.com/title/tt0073708/) |
+| 1968-11-15 | [Ti pagherò col piombo](https://www.imdb.com/title/tt0073708/) |
 | 1968-11-17 | [Uccidete Johnny Ringo](https://www.imdb.com/title/tt0060589/) |
 | 1968-11-18 | [Uno sconosciuto in casa](https://www.imdb.com/title/tt0061515/) |
 | 1968-11-22 | [Buckaroo (Il winchester che non perdona)](https://www.imdb.com/title/tt0062763/) |
@@ -1720,7 +1731,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1969-03-09 | [Chiedi perdono a Dio... non a me](https://www.imdb.com/title/tt0162244/) |
 | 1969-03-11 | [FBI contro Cosa Nostra](https://www.imdb.com/title/tt0061521/) |
 | 1969-03-16 | [I giorni della violenza](https://www.imdb.com/title/tt0061710/) |
-| 1969-03-23 | [...E divenne il pi« spietato bandito del sud](https://www.imdb.com/title/tt0061775/) |
+| 1969-03-23 | [...E divenne il più spietato bandito del sud](https://www.imdb.com/title/tt0061775/) |
 | 1969-03-27 | [La lunga fuga](https://www.imdb.com/title/tt0061917/) |
 | 1969-03-30 | [Il principe guerriero](https://www.imdb.com/title/tt0059896/) |
 | 1969-04-03 | [Una notte per 5 rapine](https://www.imdb.com/title/tt0176999/) |
@@ -1750,14 +1761,15 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1969-06-26 | [Billy il mancino](https://www.imdb.com/title/tt0041896/) |
 | 1969-07-08 | [El Dorado](https://www.imdb.com/title/tt0061619/) |
 | 1969-07-13 | [I diamanti che nessuno voleva rubare](https://www.imdb.com/title/tt0062887/) |
-| 1969-07-17 | [I predoni della citt»](https://www.imdb.com/title/tt0038284/) |
+| 1969-07-17 | [I predoni della città](https://www.imdb.com/title/tt0038284/) |
 | 1969-07-18 | [Un bacio per morire](https://www.imdb.com/title/tt0059539/) |
 | 1969-07-22 | [Killer Kid](https://www.imdb.com/title/tt0269443/) |
-| 1969-07-27 | [Layton... bambole e karat«](https://www.imdb.com/title/tt0060620/) |
+| 1969-07-27 | [Layton... bambole e karatè](https://www.imdb.com/title/tt0060620/) |
 | 1969-07-31 | [La spietata colt del gringo](https://www.imdb.com/title/tt0059863/) |
 | 1969-08-05 | [Quinto: non ammazzare](https://www.imdb.com/title/tt0065164/) |
-| 1969-08-06 | [Pi» veloce del vento (Bonanza: Ride the Wind)](https://www.imdb.com/title/tt13852490/) |
+| 1969-08-06 | [Più veloce del vento (Bonanza: Ride the Wind)](https://www.imdb.com/title/tt13852490/) |
 | 1969-08-08 | [Questo corpo tanto desiderato](https://www.imdb.com/title/tt0154297/) |
+| 1969-08-10 | [Gentleman Jo... uccidi](https://www.imdb.com/title/tt0063008/) |
 | 1969-08-19 | [7 donne per una strage](https://www.imdb.com/title/tt0060430/) |
 | 1969-08-20 | [Django](https://www.imdb.com/title/tt0060315/) |
 | 1969-08-27 | [L'uomo dall'occhio di vetro](https://www.imdb.com/title/tt0063270/) |
@@ -1770,9 +1782,9 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1969-09-17 | [Giovani iene](https://www.imdb.com/title/tt0059933/) |
 | 1969-09-18 | [Superspia K](https://www.imdb.com/title/tt0062683/) |
 | 1969-09-19 | [Matt Helm... non perdona!](https://www.imdb.com/title/tt0060728/) |
-| 1969-09-21 | [Passa Sartana... « l'ombra della tua morte](https://www.imdb.com/title/tt0063419/) |
+| 1969-09-21 | [Passa Sartana... è l'ombra della tua morte](https://www.imdb.com/title/tt0063419/) |
 | 1969-09-23 | [Il sesso degli angeli](https://www.imdb.com/title/tt0062249/) |
-| 1969-09-24 | [La pi» grande rapina del west](https://www.imdb.com/title/tt0062130/) |
+| 1969-09-24 | [La più grande rapina del west](https://www.imdb.com/title/tt0062130/) |
 | 1969-09-28 | [Violenza per una monaca](https://www.imdb.com/title/tt0061623/) |
 | 1969-10-01 | [Arrest!](https://www.imdb.com/title/tt0063067/) |
 | 1969-10-07 | [Cimitero senza croci](https://www.imdb.com/title/tt0063740/) |
@@ -1788,7 +1800,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1969-10-28 | [Elvira Madigan](https://www.imdb.com/title/tt0061620/) |
 | 1969-10-29 | [Un attico sopra l'inferno](https://www.imdb.com/title/tt0062112/) |
 | 1969-10-31 | [I quattro figli di Katie Elder](https://www.imdb.com/title/tt0059740/) |
-| 1969-11-02 | [Il giorno pi« lungo di Kansas City](https://www.imdb.com/title/tt0061197/) |
+| 1969-11-02 | [Il giorno più lungo di Kansas City](https://www.imdb.com/title/tt0061197/) |
 | 1969-11-04 | [Assassinio sul palcoscenico](https://www.imdb.com/title/tt0058383/) |
 | 1969-11-09 | [Vendo cara la pelle](https://www.imdb.com/title/tt0215321/) |
 | 1969-11-11 | [Due occhi di ghiaccio](https://www.imdb.com/title/tt0062742/) |
@@ -1807,11 +1819,11 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1969-12-11 | [Il grande silenzio](https://www.imdb.com/title/tt0063032/) |
 | 1969-12-12 | [La leggenda di Enea](https://www.imdb.com/title/tt0056174/) |
 | 1969-12-14 | [Vivo per la tua morte](https://www.imdb.com/title/tt0065997/) |
-| 1969-12-16 | [Fr»ulein Doktor](https://www.imdb.com/title/tt0064350/) |
+| 1969-12-16 | [Fräulein Doktor](https://www.imdb.com/title/tt0064350/) |
 | 1969-12-17 | [Maciste nell'inferno di Gengis Khan](https://www.imdb.com/title/tt0183451/) |
 | 1969-12-18 | [Instabul Express (Fermate l'Orient Express)](https://www.imdb.com/title/tt0063143/) |
 | 1969-12-23 | [El desperado](https://www.imdb.com/title/tt0061563/) |
-| 1969-12-26 | [Saigon missione vietnam (Transit « Sa»gon)](https://www.imdb.com/title/tt0195358/) |
+| 1969-12-26 | [Saigon missione vietnam (Transit à Saïgon)](https://www.imdb.com/title/tt0195358/) |
 | 1969-12-30 | [Nuda per un pugno di eroi](https://www.imdb.com/title/tt0139820/) |
 
 ### 1970
@@ -1832,7 +1844,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1970-02-19 | [Saul e David](https://www.imdb.com/title/tt0059681/) |
 | 1970-02-22 | [El Cisco](https://www.imdb.com/title/tt0061487/) |
 | 1970-02-24 | [La casa degli amori particolari](https://www.imdb.com/title/tt0058326/) |
-| 1970-02-26 | [La donna « uno spettacolo](https://www.imdb.com/title/tt0252432/) |
+| 1970-02-26 | [La donna è uno spettacolo](https://www.imdb.com/title/tt0252432/) |
 | 1970-03-01 | [Roma come Chicago (Banditi a Roma)](https://www.imdb.com/title/tt0063516/) |
 | 1970-03-03 | [Il fantasma di Londra](https://www.imdb.com/title/tt0062022/) |
 | 1970-03-04 | [La mano che uccide](https://www.imdb.com/title/tt0062860/) |
@@ -1846,19 +1858,19 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1970-03-25 | [Niente rose per OSS 117](https://www.imdb.com/title/tt0062099/) |
 | 1970-03-29 | [Il dottor Zivago](https://www.imdb.com/title/tt0059113/) |
 | 1970-04-01 | [L'uomo dal lungo fucile](https://www.imdb.com/title/tt0063818/) |
-| 1970-04-12 | [Perch» uccidi ancora](https://www.imdb.com/title/tt0059579/) |
+| 1970-04-12 | [Perché uccidi ancora](https://www.imdb.com/title/tt0059579/) |
 | 1970-04-16 | [Meglio morto che vivo](https://www.imdb.com/title/tt0064695/) |
 | 1970-04-21 | [Sinfonia per un massacro](https://www.imdb.com/title/tt0057549/) |
 | 1970-04-25 | [Il tempo degli avvoltoi](https://www.imdb.com/title/tt0062350/) |
-| 1970-04-28 | [La citt« senza legge](https://www.imdb.com/title/tt0059824/) |
+| 1970-04-28 | [La città senza legge](https://www.imdb.com/title/tt0059824/) |
 | 1970-04-29 | [Deadwood '76](https://www.imdb.com/title/tt0059093/) |
 | 1970-05-05 | [I cannoni di San Sebastian](https://www.imdb.com/title/tt0062713/) |
 | 1970-05-09 | [15 forche per un assassino](https://www.imdb.com/title/tt0063482/) |
-| 1970-05-19 | [Maciste, l'eroe pi» grande del mondo](https://www.imdb.com/title/tt0057271/) |
+| 1970-05-19 | [Maciste, l'eroe più grande del mondo](https://www.imdb.com/title/tt0057271/) |
 | 1970-05-22 | [Il pirata del diavolo](https://www.imdb.com/title/tt0054267/) |
 | 1970-05-23 | [Bandidos](https://www.imdb.com/title/tt0062706/) |
 | 1970-05-26 | [La guerra di Troia](https://www.imdb.com/title/tt0056042/) |
-| 1970-06-15 | [Pi« veloce del vento (Bonanza: Ride the Wind)](https://www.imdb.com/title/tt13852490/) |
+| 1970-06-15 | [Più veloce del vento (Bonanza: Ride the Wind)](https://www.imdb.com/title/tt13852490/) |
 | 1970-06-21 | [L'ultima caccia](https://www.imdb.com/title/tt0049432/) |
 | 1970-07-05 | [Le due facce del dollaro](https://www.imdb.com/title/tt0169817/) |
 | 1970-07-07 | [Quando l'alba si tinge di rosso](https://www.imdb.com/title/tt0064629/) |
@@ -1886,13 +1898,13 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1970-09-24 | [Capitani di ventura](https://www.imdb.com/title/tt0054722/) |
 | 1970-09-27 | [La sfida dei MacKenna](https://www.imdb.com/title/tt0064150/) |
 | 1970-09-29 | [Le ninfette](https://www.imdb.com/title/tt0140425/) |
-| 1970-09-30 | [La Colt » la mia legge](https://www.imdb.com/title/tt0060628/) |
+| 1970-09-30 | [La Colt è la mia legge](https://www.imdb.com/title/tt0060628/) |
 | 1970-10-04 | [Johnny Oro](https://www.imdb.com/title/tt0060563/) |
 | 1970-10-06 | [Operazione commandos](https://www.imdb.com/title/tt0046421/) |
 | 1970-10-07 | [Sinfonia di morte](https://www.imdb.com/title/tt0056872/) |
 | 1970-10-08 | [Atlas il trionfatore di Atene](https://www.imdb.com/title/tt0053610/) |
 | 1970-10-09 | [Sepolto vivo](https://www.imdb.com/title/tt0056368/) |
-| 1970-10-11 | [La taglia « tua... l'uomo l'ammazzo io](https://www.imdb.com/title/tt0064853/) |
+| 1970-10-11 | [La taglia è tua... l'uomo l'ammazzo io](https://www.imdb.com/title/tt0064853/) |
 | 1970-10-18 | [L'uomo che ride](https://www.imdb.com/title/tt0060664/) |
 | 1970-10-21 | [Il cavallo in doppio petto](https://www.imdb.com/title/tt0063091/) |
 | 1970-10-22 | [Carovana di fuoco](https://www.imdb.com/title/tt0062472/) |
@@ -1910,12 +1922,12 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1970-11-29 | [Spartacus](https://www.imdb.com/title/tt0054331/) |
 | 1970-12-02 | [Nel segno di Roma](https://www.imdb.com/title/tt0051985/) |
 | 1970-12-10 | [The belle starr story (Il mio corpo per un poker)](https://www.imdb.com/title/tt0061981/) |
-| 1970-12-11 | [Fermati Hassan... questa » la resa dei conti!](https://www.imdb.com/title/tt0172903/) |
-| 1970-12-12 | [Uno di pi« all'inferno](https://www.imdb.com/title/tt0065155/) |
+| 1970-12-11 | [Fermati Hassan... questa è la resa dei conti!](https://www.imdb.com/title/tt0172903/) |
+| 1970-12-12 | [Uno di più all'inferno](https://www.imdb.com/title/tt0065155/) |
 | 1970-12-18 | [Ringo del Nebraska](https://www.imdb.com/title/tt0060901/) |
 | 1970-12-19 | [I due volti della vendetta](https://www.imdb.com/title/tt0055257/) |
 | 1970-12-22 | [...e venne il tempo di uccidere](https://www.imdb.com/title/tt0171038/) |
-| 1970-12-23 | [Pecos » qui: prega e muori!](https://www.imdb.com/title/tt0062107/) |
+| 1970-12-23 | [Pecos è qui: prega e muori!](https://www.imdb.com/title/tt0062107/) |
 | 1970-12-29 | [Il re ed io](https://www.imdb.com/title/tt0049408/) |
 
 ### 1971
@@ -1923,7 +1935,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 |  |  |
 |---|---|
 | 1971-01-04 | [Goliath e la schiava ribelle](https://www.imdb.com/title/tt0178516/) |
-| 1971-01-07 | [Ti pagher« col piombo](https://www.imdb.com/title/tt0073708/) |
+| 1971-01-07 | [Ti pagherò col piombo](https://www.imdb.com/title/tt0073708/) |
 | 1971-01-10 | [Costretto ad uccidere](https://www.imdb.com/title/tt0063811/) |
 | 1971-01-12 | [Due croci a Danger Pass](https://www.imdb.com/title/tt0062904/) |
 | 1971-01-13 | [Bruciatelo vivo!](https://www.imdb.com/title/tt0065962/) |
@@ -1954,8 +1966,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1971-03-31 | [Hong Kong: porto franco per una bara](https://www.imdb.com/title/tt0058549/) |
 | 1971-04-02 | [Spara, Gringo, spara](https://www.imdb.com/title/tt0066396/) |
 | 1971-04-06 | [Mexico amore e sangue per un gringhero](https://www.imdb.com/title/tt0060334/) |
-| 1971-04-07 | [Arizona si scaten»... e li fece fuori tutti!](https://www.imdb.com/title/tt0065422/) |
-| 1971-04-11 | [Le avventure di Ulisse](https://www.imdb.com/title/tt0064750/) |
+| 1971-04-07 | [Arizona si scatenò... e li fece fuori tutti!](https://www.imdb.com/title/tt0065422/) |
 | 1971-04-23 | [L'ultimo colpo in canna](https://www.imdb.com/title/tt0062865/) |
 | 1971-04-28 | [L'arciere del re](https://www.imdb.com/title/tt0048528/) |
 | 1971-05-01 | [Cincinnati Kid](https://www.imdb.com/title/tt0059037/) |
@@ -1968,9 +1979,9 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1971-05-25 | [Buon funerale amigos!... paga Sartana](https://www.imdb.com/title/tt0065499/) |
 | 1971-05-26 | [Saffo - Venere di Lesbo](https://www.imdb.com/title/tt0054263/) |
 | 1971-05-28 | [I fratelli senza paura](https://www.imdb.com/title/tt0045494/) |
-| 1971-05-30 | [Caroline ch«rie](https://www.imdb.com/title/tt0061449/) |
-| 1971-06-02 | [Una pelle pi» calda del sole](https://www.imdb.com/title/tt0062417/) |
-| 1971-06-05 | [L'impossibilit« di essere normale](https://www.imdb.com/title/tt0065775/) |
+| 1971-05-30 | [Caroline chérie](https://www.imdb.com/title/tt0061449/) |
+| 1971-06-02 | [Una pelle più calda del sole](https://www.imdb.com/title/tt0062417/) |
+| 1971-06-05 | [L'impossibilità di essere normale](https://www.imdb.com/title/tt0065775/) |
 | 1971-06-06 | [Il dolce corpo di Deborah](https://www.imdb.com/title/tt0064243/) |
 | 1971-06-10 | [10, 000 dollari per un massacro](https://www.imdb.com/title/tt0061313/) |
 | 1971-06-16 | [Spade senza bandiera](https://www.imdb.com/title/tt0061053/) |
@@ -1989,20 +2000,20 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1971-08-03 | [Quel nostro grande amore](https://www.imdb.com/title/tt0060725/) |
 | 1971-08-11 | [Zorro alla corte di Spagna](https://www.imdb.com/title/tt0056724/) |
 | 1971-08-15 | [Una bara per lo sceriffo](https://www.imdb.com/title/tt0058942/) |
-| 1971-08-24 | [...E divenne il pi» spietato bandito del sud](https://www.imdb.com/title/tt0061775/) |
-| 1971-08-25 | [Le carabine del rio negro (Lampi«o, O Rei do Canga»o)](https://www.imdb.com/title/tt0184659/) |
+| 1971-08-24 | [...E divenne il più spietato bandito del sud](https://www.imdb.com/title/tt0061775/) |
+| 1971-08-25 | [Le carabine del rio negro (Lampião, O Rei do Cangaço)](https://www.imdb.com/title/tt0184659/) |
 | 1971-08-26 | [La cortigiana di Babilonia](https://www.imdb.com/title/tt0049094/) |
 | 1971-08-29 | [Un uomo chiamato Apocalisse Joe](https://www.imdb.com/title/tt0067912/) |
 | 1971-09-01 | [Ringo il Texano](https://www.imdb.com/title/tt0061081/) |
 | 1971-09-05 | [Quel maledetto giorno d'inverno... Django e Sartana all'ultimo sangue](https://www.imdb.com/title/tt0067643/) |
-| 1971-09-09 | [I banditi della citt« fantasma](https://www.imdb.com/title/tt0041147/) |
-| 1971-09-12 | [Fr»ulein Doktor](https://www.imdb.com/title/tt0064350/) |
+| 1971-09-09 | [I banditi della città fantasma](https://www.imdb.com/title/tt0041147/) |
+| 1971-09-12 | [Fräulein Doktor](https://www.imdb.com/title/tt0064350/) |
 | 1971-09-15 | [Mezzogiorno di fuoco](https://www.imdb.com/title/tt0044706/) |
 | 1971-09-16 | [Il corsaro della mezza luna](https://www.imdb.com/title/tt0050266/) |
 | 1971-09-17 | [L'uccello dalle piume di cristallo](https://www.imdb.com/title/tt0065143/) |
 | 1971-09-19 | [Wanted Sabata](https://www.imdb.com/title/tt0216399/) |
 | 1971-09-24 | [Una vampata di violenza](https://www.imdb.com/title/tt0059241/) |
-| 1971-09-26 | [Per qualche dollaro in pi«](https://www.imdb.com/title/tt0059578/) |
+| 1971-09-26 | [Per qualche dollaro in più](https://www.imdb.com/title/tt0059578/) |
 | 1971-09-28 | [Gli uomini dal passo pesante](https://www.imdb.com/title/tt0061144/) |
 | 1971-09-30 | [Spionaggio internazionale](https://www.imdb.com/title/tt0049224/) |
 | 1971-10-03 | [Elena di Troia](https://www.imdb.com/title/tt0049301/) |
@@ -2012,12 +2023,12 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1971-10-13 | [Uccideva a freddo](https://www.imdb.com/title/tt0211711/) |
 | 1971-10-15 | [Il territorio dei fuorilegge](https://www.imdb.com/title/tt0046153/) |
 | 1971-10-17 | [Sfida sulla pista di fuoco](https://www.imdb.com/title/tt0062788/) |
-| 1971-10-19 | [Sei gi» cadavere Amigo... ti cerca Garringo](https://www.imdb.com/title/tt0065367/) |
+| 1971-10-19 | [Sei già cadavere Amigo... ti cerca Garringo](https://www.imdb.com/title/tt0065367/) |
 | 1971-10-20 | [Johnny Guitar](https://www.imdb.com/title/tt0047136/) |
 | 1971-10-22 | [La risaia](https://www.imdb.com/title/tt0049678/) |
 | 1971-10-24 | [Vendetta per vendetta](https://www.imdb.com/title/tt0063761/) |
 | 1971-10-26 | [Le calde palme di rio](https://www.imdb.com/title/tt0063658/) |
-| 1971-10-27 | [Passa Sartana... « l'ombra della tua morte](https://www.imdb.com/title/tt0063419/) |
+| 1971-10-27 | [Passa Sartana... è l'ombra della tua morte](https://www.imdb.com/title/tt0063419/) |
 | 1971-10-31 | [Due occhi di ghiaccio](https://www.imdb.com/title/tt0062742/) |
 | 1971-11-01 | [Solo contro Roma](https://www.imdb.com/title/tt0056507/) |
 | 1971-11-03 | [Il suo nome gridava vendetta](https://www.imdb.com/title/tt0144626/) |
@@ -2027,19 +2038,19 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1971-11-16 | [La belva](https://www.imdb.com/title/tt0065460/) |
 | 1971-11-17 | [Sartana nella valle degli avvoltoi](https://www.imdb.com/title/tt0066333/) |
 | 1971-11-18 | [Gangster Love](https://www.imdb.com/title/tt0063848/) |
-| 1971-11-21 | [Uccider» Willie Kid](https://www.imdb.com/title/tt0065079/) |
+| 1971-11-21 | [Ucciderò Willie Kid](https://www.imdb.com/title/tt0065079/) |
 | 1971-11-26 | [Bill il taciturno](https://www.imdb.com/title/tt0061404/) |
 | 1971-11-28 | [La resa dei conti](https://www.imdb.com/title/tt0063501/) |
 | 1971-11-30 | [L'uomo venuto per uccidere](https://www.imdb.com/title/tt0063746/) |
 | 1971-12-02 | [L'uomo perduto](https://www.imdb.com/title/tt0044188/) |
-| 1971-12-04 | [Pecos « qui: prega e muori!](https://www.imdb.com/title/tt0062107/) |
-| 1971-12-05 | [Barbagia (La societ» del malessere)](https://www.imdb.com/title/tt0064069/) |
+| 1971-12-04 | [Pecos è qui: prega e muori!](https://www.imdb.com/title/tt0062107/) |
+| 1971-12-05 | [Barbagia (La società del malessere)](https://www.imdb.com/title/tt0064069/) |
 | 1971-12-08 | [Ultima notte a Cottonwood](https://www.imdb.com/title/tt0064217/) |
 | 1971-12-11 | [7 uomini d'oro](https://www.imdb.com/title/tt0059707/) |
 | 1971-12-15 | [Un gettone per il patibolo](https://www.imdb.com/title/tt0201046/) |
 | 1971-12-19 | [L'amante di Gramigna](https://www.imdb.com/title/tt0062655/) |
 | 1971-12-22 | [Duello nell'Atlantico](https://www.imdb.com/title/tt0050356/) |
-| 1971-12-25 | [Rosolino Patern«, soldato...](https://www.imdb.com/title/tt0066312/) |
+| 1971-12-25 | [Rosolino Paternò, soldato...](https://www.imdb.com/title/tt0066312/) |
 | 1971-12-26 | [Il buono, il brutto, il cattivo](https://www.imdb.com/title/tt0060196/) |
 | 1971-12-28 | [In fondo al buio](https://www.imdb.com/title/tt0064576/) |
 
@@ -2054,14 +2065,15 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1972-01-25 | [Peccatori in blue jeans](https://www.imdb.com/title/tt0052318/) |
 | 1972-01-30 | [La notte dell'agguato](https://www.imdb.com/title/tt0065032/) |
 | 1972-02-01 | [Calibro 38](https://www.imdb.com/title/tt0061438/) |
-| 1972-02-06 | [Per qualche dollaro in pi»](https://www.imdb.com/title/tt0059578/) |
+| 1972-02-04 | [Quién sabe?](https://www.imdb.com/title/tt0061429/) |
+| 1972-02-06 | [Per qualche dollaro in più](https://www.imdb.com/title/tt0059578/) |
 | 1972-02-08 | [Kociss l'eroe indiano](https://www.imdb.com/title/tt0044399/) |
 | 1972-02-16 | [La vendetta di Ursus](https://www.imdb.com/title/tt0122779/) |
-| 1972-02-20 | [Arrivano Django e Sartana... « la fine](https://www.imdb.com/title/tt0216546/) |
+| 1972-02-20 | [Arrivano Django e Sartana... è la fine](https://www.imdb.com/title/tt0216546/) |
 | 1972-02-23 | [Il dio serpente](https://www.imdb.com/title/tt0065640/) |
-| 1972-03-05 | [L» dove scende il sole](https://www.imdb.com/title/tt0058709/) |
+| 1972-03-05 | [Là dove scende il sole](https://www.imdb.com/title/tt0058709/) |
 | 1972-03-07 | [Un uomo e una colt](https://www.imdb.com/title/tt0061776/) |
-| 1972-03-08 | [Andr«e - l'esasperazione del desiderio nell'amore femminile](https://www.imdb.com/title/tt0061354/) |
+| 1972-03-08 | [Andrée - l'esasperazione del desiderio nell'amore femminile](https://www.imdb.com/title/tt0061354/) |
 | 1972-03-10 | [Lucrezia](https://www.imdb.com/title/tt0063249/) |
 | 1972-03-16 | [I disperati di Cuba](https://www.imdb.com/title/tt0891576/) |
 | 1972-03-19 | [Vendo cara la pelle](https://www.imdb.com/title/tt0215321/) |
@@ -2084,7 +2096,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1972-05-13 | [Sansone e il tesoro degli Incas](https://www.imdb.com/title/tt0058543/) |
 | 1972-05-16 | [I due gladiatori](https://www.imdb.com/title/tt0058043/) |
 | 1972-05-19 | [1000 dollari sul nero](https://www.imdb.com/title/tt0060697/) |
-| 1972-05-21 | [L'odio » il mio Dio](https://www.imdb.com/title/tt0062064/) |
+| 1972-05-21 | [L'odio è il mio Dio](https://www.imdb.com/title/tt0062064/) |
 | 1972-05-30 | [Il re dei barbari](https://www.imdb.com/title/tt0047490/) |
 | 1972-06-03 | [Brucia ragazzo, brucia](https://www.imdb.com/title/tt0065496/) |
 | 1972-06-13 | [7 dollari sul rosso](https://www.imdb.com/title/tt0060978/) |
@@ -2106,14 +2118,14 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1972-08-08 | [Pochi dollari per Django](https://www.imdb.com/title/tt0060084/) |
 | 1972-08-09 | [7 dollari sul rosso](https://www.imdb.com/title/tt0060978/) |
 | 1972-08-13 | [Erika](https://www.imdb.com/title/tt0067058/) |
-| 1972-08-15 | [Tara Pok«](https://www.imdb.com/title/tt0210325/) |
+| 1972-08-15 | [Tara Pokì](https://www.imdb.com/title/tt0210325/) |
 | 1972-08-30 | [Il suo nome gridava vendetta](https://www.imdb.com/title/tt0144626/) |
 | 1972-09-01 | [Le francesi si confessano](https://www.imdb.com/title/tt0146365/) |
 | 1972-09-03 | [Le dolcezze del peccato](https://www.imdb.com/title/tt0063724/) |
 | 1972-09-05 | [El Cisco](https://www.imdb.com/title/tt0061487/) |
 | 1972-09-06 | [Non predicare... spara!](https://www.imdb.com/title/tt0068323/) |
-| 1972-09-10 | [Salamb»](https://www.imdb.com/title/tt0056439/) |
-| 1972-09-12 | [Ti pagher« col piombo](https://www.imdb.com/title/tt0073708/) |
+| 1972-09-10 | [Salambò](https://www.imdb.com/title/tt0056439/) |
+| 1972-09-12 | [Ti pagherò col piombo](https://www.imdb.com/title/tt0073708/) |
 | 1972-09-13 | [Cjamango](https://www.imdb.com/title/tt0165688/) |
 | 1972-09-15 | [L'idolo](https://www.imdb.com/title/tt0066463/) |
 | 1972-09-17 | [Zorro la maschera della vendetta](https://www.imdb.com/title/tt0065248/) |
@@ -2145,7 +2157,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1972-12-20 | [Un poker di pistole](https://www.imdb.com/title/tt0062139/) |
 | 1972-12-23 | [Borsalino](https://www.imdb.com/title/tt0065486/) |
 | 1972-12-25 | [Bianco rosso e...](https://www.imdb.com/title/tt0066829/) |
-| 1972-12-28 | [Ti pagher» col piombo](https://www.imdb.com/title/tt0073708/) |
+| 1972-12-28 | [Ti pagherò col piombo](https://www.imdb.com/title/tt0073708/) |
 
 ### 1973
 
@@ -2160,9 +2172,11 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1973-01-30 | [Buckaroo (Il winchester che non perdona)](https://www.imdb.com/title/tt0062763/) |
 | 1973-02-04 | [Gengis Khan il conquistatore](https://www.imdb.com/title/tt0059219/) |
 | 1973-02-08 | [Django](https://www.imdb.com/title/tt0060315/) |
+| 1973-02-11 | [Indianapolis](https://www.imdb.com/title/tt0043052/) |
 | 1973-02-16 | [Omicidio al 17 piano](https://www.imdb.com/title/tt0065698/) |
 | 1973-02-18 | [I prigionieri dell'isola insanguinata](https://www.imdb.com/title/tt0059693/) |
 | 1973-02-20 | [Promessa all'alba](https://www.imdb.com/title/tt0066251/) |
+| 1973-02-24 | [Gli scassinatori](https://www.imdb.com/title/tt0068347/) |
 | 1973-03-09 | [Vado in guerra a far quattrini](https://www.imdb.com/title/tt0154469/) |
 | 1973-03-16 | [Jessy non perdona... uccide](https://www.imdb.com/title/tt0059804/) |
 | 1973-03-18 | [Contratto per uccidere](https://www.imdb.com/title/tt0058262/) |
@@ -2205,7 +2219,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1973-09-05 | [I compari](https://www.imdb.com/title/tt0067411/) |
 | 1973-09-15 | [Tempo d'amore](https://www.imdb.com/title/tt0068026/) |
 | 1973-09-19 | [Pionieri della California](https://www.imdb.com/title/tt0047517/) |
-| 1973-09-21 | [Al di l« dell'odio](https://www.imdb.com/title/tt0068184/) |
+| 1973-09-21 | [Al di là dell'odio](https://www.imdb.com/title/tt0068184/) |
 | 1973-09-23 | [Quel maledetto ponte sull'Elba](https://www.imdb.com/title/tt0064737/) |
 | 1973-10-02 | [I cosacchi](https://www.imdb.com/title/tt0052703/) |
 | 1973-10-04 | [Il cacciatore solitario](https://www.imdb.com/title/tt0069232/) |
@@ -2246,15 +2260,15 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1974-01-24 | [Sesso in gabbia](https://www.imdb.com/title/tt0066830/) |
 | 1974-01-30 | [Lo straniero senza nome](https://www.imdb.com/title/tt0068699/) |
 | 1974-02-03 | [Le coppie](https://www.imdb.com/title/tt0065577/) |
-| 1974-02-05 | [Mai pi» dolce sorella](https://www.imdb.com/title/tt0064219/) |
+| 1974-02-05 | [Mai più dolce sorella](https://www.imdb.com/title/tt0064219/) |
 | 1974-02-08 | [Storia de fratelli e de cortelli](https://www.imdb.com/title/tt0209358/) |
 | 1974-02-10 | [La grande strage dell'impero del sole](https://www.imdb.com/title/tt0064907/) |
-| 1974-02-13 | [« simpatico, ma gli romperei il muso](https://www.imdb.com/title/tt0068441/) |
+| 1974-02-13 | [È simpatico, ma gli romperei il muso](https://www.imdb.com/title/tt0068441/) |
 | 1974-02-15 | [Valdez il mezzosangue](https://www.imdb.com/title/tt0069833/) |
 | 1974-02-20 | [...E continuavano a fregarsi il milione di dollari](https://www.imdb.com/title/tt0068246/) |
 | 1974-02-21 | [La Vanessa dalle ali bruciate](https://www.imdb.com/title/tt0067228/) |
 | 1974-03-01 | [Appuntamento con una ragazza che si sente sola](https://www.imdb.com/title/tt0067817/) |
-| 1974-03-03 | [Semin» morte... lo chiamavano il Castigo di Dio!](https://www.imdb.com/title/tt0203105/) |
+| 1974-03-03 | [Seminò morte... lo chiamavano il Castigo di Dio!](https://www.imdb.com/title/tt0203105/) |
 | 1974-03-05 | [L'assassino colpisce all'alba](https://www.imdb.com/title/tt0065536/) |
 | 1974-03-08 | [Anche i dottori ce l'hanno](https://www.imdb.com/title/tt0067217/) |
 | 1974-03-10 | [Doppia immagine nello spazio](https://www.imdb.com/title/tt0064519/) |
@@ -2265,9 +2279,9 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1974-03-30 | [Buon funerale amigos!... paga Sartana](https://www.imdb.com/title/tt0065499/) |
 | 1974-04-04 | [Melinda](https://www.imdb.com/title/tt0068934/) |
 | 1974-04-05 | [Los amigos](https://www.imdb.com/title/tt0068454/) |
-| 1974-04-14 | [Er pi«: storia d'amore e di coltello](https://www.imdb.com/title/tt0067056/) |
+| 1974-04-14 | [Er più: storia d'amore e di coltello](https://www.imdb.com/title/tt0067056/) |
 | 1974-04-20 | [Reverendo Colt](https://www.imdb.com/title/tt0066295/) |
-| 1974-04-24 | [Allegri becchini... arriva Trinit»](https://www.imdb.com/title/tt0244384/) |
+| 1974-04-24 | [Allegri becchini... arriva Trinità](https://www.imdb.com/title/tt0244384/) |
 | 1974-04-30 | [Billy Jack](https://www.imdb.com/title/tt0066832/) |
 | 1974-05-05 | [Golia e il cavaliere mascherato](https://www.imdb.com/title/tt0178515/) |
 | 1974-05-19 | [Joe... cercati un posto per morire!](https://www.imdb.com/title/tt0063158/) |
@@ -2286,7 +2300,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1974-07-28 | [Lo sceriffo di Rockspring](https://www.imdb.com/title/tt0202571/) |
 | 1974-08-04 | [Tayang: il terrore della Cina](https://www.imdb.com/title/tt0070778/) |
 | 1974-08-11 | [Bandidos](https://www.imdb.com/title/tt0062706/) |
-| 1974-08-15 | [La regina del karat«](https://www.imdb.com/title/tt0199987/) |
+| 1974-08-15 | [La regina del karaté](https://www.imdb.com/title/tt0199987/) |
 | 1974-08-25 | [Il giuramento di Zorro](https://www.imdb.com/title/tt0059950/) |
 | 1974-09-01 | [Il fantasma di Londra](https://www.imdb.com/title/tt0062022/) |
 | 1974-09-08 | [Il vendicatore (L'uomo, l'orgoglio, la vendetta)](https://www.imdb.com/title/tt0062424/) |
@@ -2298,16 +2312,16 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1974-10-15 | [Uccidete il padrino](https://www.imdb.com/title/tt0064231/) |
 | 1974-10-20 | [Un posto ideale per uccidere](https://www.imdb.com/title/tt0067602/) |
 | 1974-10-22 | [La lunga notte di Tombstone](https://www.imdb.com/title/tt0062839/) |
-| 1974-10-27 | [I tre magnifici del karat»](https://www.imdb.com/title/tt1053337/) |
+| 1974-10-27 | [I tre magnifici del karatè](https://www.imdb.com/title/tt1053337/) |
 | 1974-10-29 | [La treccia che uccide](https://www.imdb.com/title/tt0188740/) |
 | 1974-11-12 | [Dieci incredibili giorni](https://www.imdb.com/title/tt0068521/) |
 | 1974-11-24 | [Sesso contro kung-fu](https://www.imdb.com/title/tt0069519/) |
 | 1974-11-29 | [Odio per odio](https://www.imdb.com/title/tt0062065/) |
-| 1974-12-01 | [Sei gi« cadavere Amigo... ti cerca Garringo](https://www.imdb.com/title/tt0065367/) |
+| 1974-12-01 | [Sei già cadavere Amigo... ti cerca Garringo](https://www.imdb.com/title/tt0065367/) |
 | 1974-12-06 | [E tutto in biglietti di piccolo taglio](https://www.imdb.com/title/tt0068617/) |
 | 1974-12-08 | [I kamikaze del karate](https://www.imdb.com/title/tt0068372/) |
 | 1974-12-12 | [La piscina](https://www.imdb.com/title/tt0064816/) |
-| 1974-12-15 | [Lo ammazz» come un cane... ma lui rideva ancora](https://www.imdb.com/title/tt0182293/) |
+| 1974-12-15 | [Lo ammazzò come un cane... ma lui rideva ancora](https://www.imdb.com/title/tt0182293/) |
 | 1974-12-17 | [Sacco e Vanzetti](https://www.imdb.com/title/tt0067698/) |
 | 1974-12-22 | [Alleluja e Sartana figli di... Dio](https://www.imdb.com/title/tt0068723/) |
 | 1974-12-23 | [I magnifici sette cavalcano ancora](https://www.imdb.com/title/tt0068897/) |
@@ -2320,7 +2334,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 
 |  |  |
 |---|---|
-| 1975-01-02 | [Rubare alla mafia « un suicidio](https://www.imdb.com/title/tt0068168/) |
+| 1975-01-02 | [Rubare alla mafia è un suicidio](https://www.imdb.com/title/tt0068168/) |
 | 1975-01-10 | [Lo chiamavano Sergente Blu](https://www.imdb.com/title/tt0070091/) |
 | 1975-01-12 | [Il re della mala](https://www.imdb.com/title/tt0070951/) |
 | 1975-01-28 | [Il mio corpo con rabbia](https://www.imdb.com/title/tt0187292/) |
@@ -2344,6 +2358,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1975-04-20 | [C'era una volta il West](https://www.imdb.com/title/tt0064116/) |
 | 1975-04-23 | [Cinque dita di violenza](https://www.imdb.com/title/tt0070800/) |
 | 1975-05-02 | [La governante](https://www.imdb.com/title/tt0122513/) |
+| 1975-05-04 | [Gentleman Jo... uccidi](https://www.imdb.com/title/tt0063008/) |
 | 1975-05-06 | [Le scomunicate di S. Valentino](https://www.imdb.com/title/tt0147374/) |
 | 1975-05-08 | [Il bestione](https://www.imdb.com/title/tt0071208/) |
 | 1975-05-13 | [Le cinque giornate](https://www.imdb.com/title/tt0069884/) |
@@ -2351,15 +2366,15 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1975-05-25 | [Sulle orme di Bruce Lee](https://www.imdb.com/title/tt0373986/) |
 | 1975-06-01 | [Quelle sporche anime dannate](https://www.imdb.com/title/tt0196889/) |
 | 1975-06-11 | [L'ultimo buscadero](https://www.imdb.com/title/tt0068786/) |
-| 1975-06-22 | [Allegri becchini... arriva Trinit»](https://www.imdb.com/title/tt0244384/) |
-| 1975-06-24 | [« una sporca faccenda, tenente Parker!](https://www.imdb.com/title/tt0071824/) |
+| 1975-06-22 | [Allegri becchini... arriva Trinità](https://www.imdb.com/title/tt0244384/) |
+| 1975-06-24 | [È una sporca faccenda, tenente Parker!](https://www.imdb.com/title/tt0071824/) |
 | 1975-07-02 | [Addio mamma](https://www.imdb.com/title/tt0061330/) |
 | 1975-07-06 | [Il ritorno di Clint il solitario](https://www.imdb.com/title/tt0069184/) |
 | 1975-07-08 | [Vado... l'ammazzo e torno](https://www.imdb.com/title/tt0062429/) |
 | 1975-07-13 | [La mia colt ti cerca... 4 ceri ti attendono](https://www.imdb.com/title/tt0066930/) |
 | 1975-07-17 | [Sfida a Rio Bravo](https://www.imdb.com/title/tt0059098/) |
 | 1975-07-22 | [Elena di Troia](https://www.imdb.com/title/tt0049301/) |
-| 1975-07-29 | [Uno di pi» all'inferno](https://www.imdb.com/title/tt0065155/) |
+| 1975-07-29 | [Uno di più all'inferno](https://www.imdb.com/title/tt0065155/) |
 | 1975-08-10 | [Dal Giappone con furore](https://www.imdb.com/title/tt0164750/) |
 | 1975-08-13 | [Thriller](https://www.imdb.com/title/tt0072285/) |
 | 1975-08-17 | [I figli di nessuno](https://www.imdb.com/title/tt0166190/) |
@@ -2369,7 +2384,8 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1975-09-02 | [Il romanzo di un giovane povero](https://www.imdb.com/title/tt0195220/) |
 | 1975-09-04 | [Amore mio scaldami](https://www.imdb.com/title/tt0068759/) |
 | 1975-09-05 | [I racconti romani di una ex novizia](https://www.imdb.com/title/tt0069154/) |
-| 1975-09-21 | [L'onorata famiglia - Uccidere « cosa nostra](https://www.imdb.com/title/tt0070483/) |
+| 1975-09-18 | [La ragazza di Via Condotti](https://www.imdb.com/title/tt0071309/) |
+| 1975-09-21 | [L'onorata famiglia - Uccidere è cosa nostra](https://www.imdb.com/title/tt0070483/) |
 | 1975-09-23 | [Maria Rosa la guardona](https://www.imdb.com/title/tt0070373/) |
 | 1975-09-28 | [La mano sinistra della violenza](https://www.imdb.com/title/tt0069518/) |
 | 1975-10-05 | [Quella carogna dell'ispettore Sterling](https://www.imdb.com/title/tt0063478/) |
@@ -2379,13 +2395,12 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1975-10-17 | [L'uomo della Mancha](https://www.imdb.com/title/tt0068909/) |
 | 1975-10-21 | [La ragazzina](https://www.imdb.com/title/tt0072062/) |
 | 1975-10-23 | [Cina violenza e furore](https://www.imdb.com/title/tt0121122/) |
-| 1975-10-31 | [Mani sporche sulla citt»](https://www.imdb.com/title/tt0071259/) |
+| 1975-10-31 | [Mani sporche sulla città](https://www.imdb.com/title/tt0071259/) |
 | 1975-11-01 | [L'ultima neve di primavera](https://www.imdb.com/title/tt0162026/) |
 | 1975-11-02 | [La polizia chiede aiuto](https://www.imdb.com/title/tt0072007/) |
 | 1975-11-04 | [Executive - La donna che sapeva troppo](https://www.imdb.com/title/tt0064370/) |
 | 1975-11-06 | [Una vita lunga un giorno](https://www.imdb.com/title/tt0216371/) |
 | 1975-11-07 | [Oscar insanguinato](https://www.imdb.com/title/tt0070791/) |
-| 1975-11-09 | [Qui Montecarlo... Attenti a quei due!](https://www.imdb.com/title/tt0301623/) |
 | 1975-11-16 | [Ehi amigo! Tocca a te morire](https://www.imdb.com/title/tt0316759/) |
 | 1975-11-21 | [Le svedesi si confessano e...](https://www.imdb.com/title/tt0062619/) |
 | 1975-11-30 | [Kung fu, l'arte di uccidere](https://www.imdb.com/title/tt0068874/) |
@@ -2396,7 +2411,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1975-12-14 | [Wang Yu la tigre del kung-fu](https://www.imdb.com/title/tt1223465/) |
 | 1975-12-16 | [Il fiore delle mille e una notte](https://www.imdb.com/title/tt0071502/) |
 | 1975-12-18 | [Appassionata](https://www.imdb.com/title/tt0071154/) |
-| 1975-12-19 | [America 1929 - Sterminateli senza piet«](https://www.imdb.com/title/tt0068309/) |
+| 1975-12-19 | [America 1929 - Sterminateli senza pietà](https://www.imdb.com/title/tt0068309/) |
 | 1975-12-21 | [L'uomo dalle due ombre](https://www.imdb.com/title/tt0066970/) |
 | 1975-12-26 | [Boon il saccheggiatore](https://www.imdb.com/title/tt0064886/) |
 | 1975-12-30 | [Preparati la bara!](https://www.imdb.com/title/tt0062151/) |
@@ -2407,8 +2422,8 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 |---|---|
 | 1976-01-01 | [La polizia ringrazia](https://www.imdb.com/title/tt0069109/) |
 | 1976-01-02 | [C'eravamo tanto amati](https://www.imdb.com/title/tt0075793/) |
-| 1976-01-04 | [La moglie pi» bella](https://www.imdb.com/title/tt0232114/) |
-| 1976-01-06 | [La vendetta « un piatto che si serve freddo](https://www.imdb.com/title/tt0067931/) |
+| 1976-01-04 | [La moglie più bella](https://www.imdb.com/title/tt0232114/) |
+| 1976-01-06 | [La vendetta è un piatto che si serve freddo](https://www.imdb.com/title/tt0067931/) |
 | 1976-01-08 | [Fatti di gente per bene](https://www.imdb.com/title/tt0071242/) |
 | 1976-01-09 | [La preda](https://www.imdb.com/title/tt0134904/) |
 | 1976-01-11 | [Inchiesta pericolosa](https://www.imdb.com/title/tt0062883/) |
@@ -2421,9 +2436,9 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1976-02-06 | [Vera Cruz](https://www.imdb.com/title/tt0047647/) |
 | 1976-02-08 | [Amore amaro](https://www.imdb.com/title/tt0071134/) |
 | 1976-02-15 | [I familiari delle vittime non saranno avvertiti](https://www.imdb.com/title/tt0068566/) |
-| 1976-02-17 | [L» dove scende il sole](https://www.imdb.com/title/tt0058709/) |
-| 1976-02-22 | [I quattro pistoleri di Santa Trinit«](https://www.imdb.com/title/tt0196886/) |
-| 1976-02-24 | [L'amore » solo una parola](https://www.imdb.com/title/tt0067343/) |
+| 1976-02-17 | [Là dove scende il sole](https://www.imdb.com/title/tt0058709/) |
+| 1976-02-22 | [I quattro pistoleri di Santa Trinità](https://www.imdb.com/title/tt0196886/) |
+| 1976-02-24 | [L'amore è solo una parola](https://www.imdb.com/title/tt0067343/) |
 | 1976-03-04 | [Permettete signora che ami vostra figlia?](https://www.imdb.com/title/tt0086097/) |
 | 1976-03-05 | [Seduzione coniugale](https://www.imdb.com/title/tt1172538/) |
 | 1976-03-07 | [Voglio la testa di Garcia](https://www.imdb.com/title/tt0071249/) |
@@ -2436,7 +2451,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1976-04-09 | [Piange... il telefono](https://www.imdb.com/title/tt0073539/) |
 | 1976-04-13 | [Ponzio Pilato](https://www.imdb.com/title/tt0056358/) |
 | 1976-04-20 | [Profumo di donna](https://www.imdb.com/title/tt0072037/) |
-| 1976-04-23 | [L'et« della malizia](https://www.imdb.com/title/tt0064624/) |
+| 1976-04-23 | [L'età della malizia](https://www.imdb.com/title/tt0064624/) |
 | 1976-04-25 | [Storia di una monaca di clausura](https://www.imdb.com/title/tt0070738/) |
 | 1976-04-27 | [La leggenda dell'arciere di fuoco](https://www.imdb.com/title/tt0042464/) |
 | 1976-04-29 | [La testa del serpente](https://www.imdb.com/title/tt0069887/) |
@@ -2453,7 +2468,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1976-06-13 | [I cannoni di San Sebastian](https://www.imdb.com/title/tt0062713/) |
 | 1976-06-17 | [Un tipo con una faccia strana ti cerca per ucciderti](https://www.imdb.com/title/tt0068183/) |
 | 1976-06-20 | [Il corpo](https://www.imdb.com/title/tt0071362/) |
-| 1976-06-22 | [L'accusa »: violenza carnale e omicidio](https://www.imdb.com/title/tt0072359/) |
+| 1976-06-22 | [L'accusa è: violenza carnale e omicidio](https://www.imdb.com/title/tt0072359/) |
 | 1976-06-29 | [Detective Harper: acqua alla gola](https://www.imdb.com/title/tt0072912/) |
 | 1976-07-11 | [Le monache di Sant'Arcangelo](https://www.imdb.com/title/tt0070404/) |
 | 1976-07-18 | [Piazza pulita](https://www.imdb.com/title/tt0069083/) |
@@ -2477,7 +2492,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1976-10-14 | [Jessi's Gun - la banda delle donne maledette](https://www.imdb.com/title/tt0073202/) |
 | 1976-10-17 | [Criminale asservito alla polizia](https://www.imdb.com/title/tt0069966/) |
 | 1976-10-19 | [Il giustiziere](https://www.imdb.com/title/tt0073131/) |
-| 1976-11-01 | [Morbosit«](https://www.imdb.com/title/tt0128361/) |
+| 1976-11-01 | [Morbosità](https://www.imdb.com/title/tt0128361/) |
 | 1976-11-02 | [Milano trema: la polizia vuole giustizia](https://www.imdb.com/title/tt0070393/) |
 | 1976-11-11 | [Mark il poliziotto spara per primo](https://www.imdb.com/title/tt0072712/) |
 | 1976-11-14 | [La cieca di Sorrento](https://www.imdb.com/title/tt0197363/) |
@@ -2509,15 +2524,15 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1977-02-13 | [Quattro mani per spaccare, quattro piedi per uccidere](https://www.imdb.com/title/tt0362326/) |
 | 1977-02-25 | [La mogliettina (Inside Amy)](https://www.imdb.com/title/tt0128673/) |
 | 1977-03-04 | [La ragazzina perversa](https://www.imdb.com/title/tt0206381/) |
-| 1977-03-10 | [Karat» a Shangai](https://www.imdb.com/title/tt0165204/) |
+| 1977-03-10 | [Karaté a Shangai](https://www.imdb.com/title/tt0165204/) |
 | 1977-03-18 | [Il sapore della paura](https://www.imdb.com/title/tt0073815/) |
 | 1977-03-20 | [I duri di Hong Kong](https://www.imdb.com/title/tt0164378/) |
-| 1977-03-24 | [C«lamo](https://www.imdb.com/title/tt0159317/) |
-| 1977-03-25 | [Milano odia: la polizia non pu» sparare](https://www.imdb.com/title/tt0071840/) |
-| 1977-03-29 | [Le sorelline (Emanuelle e Fran«oise)](https://www.imdb.com/title/tt0074472/) |
+| 1977-03-24 | [Càlamo](https://www.imdb.com/title/tt0159317/) |
+| 1977-03-25 | [Milano odia: la polizia non può sparare](https://www.imdb.com/title/tt0071840/) |
+| 1977-03-29 | [Le sorelline (Emanuelle e Françoise)](https://www.imdb.com/title/tt0074472/) |
 | 1977-04-01 | [Zorro alla corte d'Inghilterra](https://www.imdb.com/title/tt0065247/) |
-| 1977-04-03 | [Arizona si scaten»... e li fece fuori tutti!](https://www.imdb.com/title/tt0065422/) |
-| 1977-04-10 | [La pi« grande rapina del west](https://www.imdb.com/title/tt0062130/) |
+| 1977-04-03 | [Arizona si scatenò... e li fece fuori tutti!](https://www.imdb.com/title/tt0065422/) |
+| 1977-04-10 | [La più grande rapina del west](https://www.imdb.com/title/tt0062130/) |
 | 1977-04-17 | [Atlas il trionfatore di Atene](https://www.imdb.com/title/tt0053610/) |
 | 1977-04-19 | [L'assassino ha riservato nove poltrone](https://www.imdb.com/title/tt0071167/) |
 | 1977-04-22 | [Prostituzione](https://www.imdb.com/title/tt0093441/) |
@@ -2536,8 +2551,8 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1977-07-10 | [La rivolta del Drago](https://www.imdb.com/title/tt0164455/) |
 | 1977-07-31 | [La tigre della Manciuria](https://www.imdb.com/title/tt0164415/) |
 | 1977-08-02 | [Santana il killer dal mantello nero](https://www.imdb.com/title/tt0061771/) |
-| 1977-08-09 | [Perch» i gatti](https://www.imdb.com/title/tt0069772/) |
-| 1977-08-12 | [Emanuelle e Fran«oise (Le sorelline)](https://www.imdb.com/title/tt0074472/) |
+| 1977-08-09 | [Perché i gatti](https://www.imdb.com/title/tt0069772/) |
+| 1977-08-12 | [Emanuelle e Françoise (Le sorelline)](https://www.imdb.com/title/tt0074472/) |
 | 1977-08-17 | [Sesso in faccia](https://www.imdb.com/title/tt0064321/) |
 | 1977-08-21 | [Il lurido e l'americano](https://www.imdb.com/title/tt0155528/) |
 | 1977-08-28 | [Bruce Lee super drago](https://www.imdb.com/title/tt0071252/) |
@@ -2562,7 +2577,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1977-10-21 | [Stupro](https://www.imdb.com/title/tt0074802/) |
 | 1977-10-23 | [Manone all'attacco (1976)](https://www.imdb.com/title/tt0067101/) |
 | 1977-10-25 | [Oedipus orca](https://www.imdb.com/title/tt0897431/) |
-| 1977-10-27 | [Intimit» proibite](https://www.imdb.com/title/tt0072265/) |
+| 1977-10-27 | [Intimità proibite](https://www.imdb.com/title/tt0072265/) |
 | 1977-10-28 | [Il trionfo di Maciste](https://www.imdb.com/title/tt0149295/) |
 | 1977-10-30 | [Mako - Lo squalo della morte](https://www.imdb.com/title/tt0074845/) |
 | 1977-11-03 | [Ultime grida dalla savana](https://www.imdb.com/title/tt0155306/) |
@@ -2606,8 +2621,9 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1978-03-12 | [Bruce Lee contro i supermen](https://www.imdb.com/title/tt0072744/) |
 | 1978-03-19 | [Yuppi du](https://www.imdb.com/title/tt0168265/) |
 | 1978-03-22 | [Lettere a Emanuelle](https://www.imdb.com/title/tt0077979/) |
+| 1978-03-26 | [Giunse Ringo e... fu tempo di massacro](https://www.imdb.com/title/tt0210076/) |
 | 1978-03-27 | [Il colosso di Rodi](https://www.imdb.com/title/tt0054756/) |
-| 1978-04-02 | [Ispettore Karat« contro l'anonima sequestri](https://www.imdb.com/title/tt1325660/) |
+| 1978-04-02 | [Ispettore Karatè contro l'anonima sequestri](https://www.imdb.com/title/tt1325660/) |
 | 1978-04-05 | [Il drago si scatena](https://www.imdb.com/title/tt0068310/) |
 | 1978-04-09 | [Per un pugno di dollari](https://www.imdb.com/title/tt0058461/) |
 | 1978-04-13 | [O Cangaceiro](https://www.imdb.com/title/tt0065517/) |
@@ -2618,8 +2634,8 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1978-05-05 | [La legge violenta della squadra anticrimine](https://www.imdb.com/title/tt0074785/) |
 | 1978-05-07 | [Serpente a sonagli](https://www.imdb.com/title/tt0269492/) |
 | 1978-05-17 | [Cheyenne](https://www.imdb.com/title/tt0075432/) |
-| 1978-05-23 | [Emanuelle nera n» 2](https://www.imdb.com/title/tt0074474/) |
-| 1978-05-30 | [Ehi amico... c'« Sabata. Hai chiuso!](https://www.imdb.com/title/tt0064916/) |
+| 1978-05-23 | [Emanuelle nera n° 2](https://www.imdb.com/title/tt0074474/) |
+| 1978-05-30 | [Ehi amico... c'è Sabata. Hai chiuso!](https://www.imdb.com/title/tt0064916/) |
 | 1978-06-11 | [Il dragone nero](https://www.imdb.com/title/tt0202026/) |
 | 1978-06-25 | [Smashing il racket del crimine](https://www.imdb.com/title/tt0065826/) |
 | 1978-07-09 | [Un asso nella mia manica](https://www.imdb.com/title/tt0072600/) |
@@ -2659,12 +2675,12 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1979-01-05 | [L'uomo dall'occhio di vetro](https://www.imdb.com/title/tt0063270/) |
 | 1979-01-07 | [Quelli antirapina (Squadra speciale antirapina)](https://www.imdb.com/title/tt0071836/) |
 | 1979-01-09 | [Il giorno del grande massacro](https://www.imdb.com/title/tt0073357/) |
-| 1979-01-12 | [Una citt» fatta di rabbia](https://www.imdb.com/title/tt0074278/) |
+| 1979-01-12 | [Una città fatta di rabbia](https://www.imdb.com/title/tt0074278/) |
 | 1979-01-14 | [La valle dei comanches](https://www.imdb.com/title/tt0066034/) |
 | 1979-01-17 | [Labbra di lurido blu](https://www.imdb.com/title/tt0125826/) |
 | 1979-01-18 | [Papillon](https://www.imdb.com/title/tt0070511/) |
-| 1979-01-25 | [La padrona « servita](https://www.imdb.com/title/tt0081296/) |
-| 1979-02-16 | [Il piacere » femmina](https://www.imdb.com/title/tt0145461/) |
+| 1979-01-25 | [La padrona è servita](https://www.imdb.com/title/tt0081296/) |
+| 1979-02-16 | [Il piacere è femmina](https://www.imdb.com/title/tt0145461/) |
 | 1979-02-20 | [SS il treno del piacere](https://www.imdb.com/title/tt0076836/) |
 | 1979-02-25 | [Sfida a White Buffalo](https://www.imdb.com/title/tt0076915/) |
 | 1979-02-27 | [Tintorera](https://www.imdb.com/title/tt0076825/) |
@@ -2673,7 +2689,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1979-03-04 | [Roulette russa](https://www.imdb.com/title/tt0073646/) |
 | 1979-03-07 | [Cin-Fu l'uomo d'acciaio - Vado li spacco e... torno!](https://www.imdb.com/title/tt0092270/) |
 | 1979-03-15 | [Il gladiatore di Roma](https://www.imdb.com/title/tt0056026/) |
-| 1979-03-16 | [L'uomo che sfid« l'organizzazione](https://www.imdb.com/title/tt0073845/) |
+| 1979-03-16 | [L'uomo che sfidò l'organizzazione](https://www.imdb.com/title/tt0073845/) |
 | 1979-03-20 | [Squadra speciale antirapina](https://www.imdb.com/title/tt0071836/) |
 | 1979-03-21 | [Il mondo dei sensi di Emy Wong](https://www.imdb.com/title/tt0074914/) |
 | 1979-03-29 | [Storie di vita e malavita (Racket della prostituzione minorile)](https://www.imdb.com/title/tt0073749/) |
@@ -2688,9 +2704,11 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1979-08-28 | [Chen il pugno che uccide](https://www.imdb.com/title/tt0080999/) |
 | 1979-09-07 | [Il ritorno di palma d'acciaio](https://www.imdb.com/title/tt0074313/) |
 | 1979-09-16 | [Il colpo segreto di Bruce Lee](https://www.imdb.com/title/tt0058994/) |
+| 1979-09-25 | [La ragazza dal pigiama giallo](https://www.imdb.com/title/tt0075834/) |
 | 1979-10-04 | [Diamanti sporchi di sangue](https://www.imdb.com/title/tt0075940/) |
 | 1979-10-11 | [Le impiegate stradali](https://www.imdb.com/title/tt0074673/) |
 | 1979-10-12 | [Io sono mia](https://www.imdb.com/title/tt0077748/) |
+| 1979-10-17 | [La donna della calda terra](https://www.imdb.com/title/tt0077958/) |
 | 1979-10-21 | [California](https://www.imdb.com/title/tt0075796/) |
 | 1979-10-23 | [Una sporca coppia](https://www.imdb.com/title/tt0198611/) |
 | 1979-10-25 | [Professoressa facciamo l'amore](https://www.imdb.com/title/tt0072260/) |
@@ -2720,7 +2738,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1980-04-07 | [La vedova del trullo](https://www.imdb.com/title/tt0080085/) |
 | 1980-04-13 | [Chen: La furia scatenata](https://www.imdb.com/title/tt0070564/) |
 | 1980-04-21 | [Nel mirino di Black Aphrodite](https://www.imdb.com/title/tt0075759/) |
-| 1980-04-27 | [La regina del karat»](https://www.imdb.com/title/tt0199987/) |
+| 1980-04-27 | [La regina del karaté](https://www.imdb.com/title/tt0199987/) |
 | 1980-05-03 | [I piaceri privati di mia moglie](https://www.imdb.com/title/tt0074660/) |
 | 1980-09-05 | [Adolescenza porno](https://www.imdb.com/title/tt0072124/) |
 | 1980-09-09 | [Bruce Lee il campione](https://www.imdb.com/title/tt0062936/) |
@@ -2730,14 +2748,15 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1980-09-26 | [La collegiale svedese](https://www.imdb.com/title/tt0072999/) |
 | 1980-10-29 | [Quando i picciotti sgarrano](https://www.imdb.com/title/tt1060268/) |
 | 1980-11-02 | [La morte nella mano](https://www.imdb.com/title/tt0065999/) |
-| 1980-11-04 | [Adi«s gringo](https://www.imdb.com/title/tt0060067/) |
+| 1980-11-04 | [Adiós gringo](https://www.imdb.com/title/tt0060067/) |
 | 1980-11-05 | [Libido](https://www.imdb.com/title/tt0070311/) |
 | 1980-11-13 | [Play Motel](https://www.imdb.com/title/tt0148615/) |
+| 1980-11-21 | [Il pupazzo](https://www.imdb.com/title/tt0078001/) |
 | 1980-11-23 | [Kung fu, l'arte di uccidere](https://www.imdb.com/title/tt0068874/) |
 | 1980-12-14 | [Ti spacco la faccia! Ti stacco la testa!](https://www.imdb.com/title/tt0165152/) |
 | 1980-12-16 | [Ely ladrone (Una ragione per vivere e una per morire)](https://www.imdb.com/title/tt0069159/) |
 | 1980-12-25 | [Il mercenario](https://www.imdb.com/title/tt0063293/) |
-| 1980-12-26 | [Innamorarsi alla mia et»](https://www.imdb.com/title/tt0081146/) |
+| 1980-12-26 | [Innamorarsi alla mia età](https://www.imdb.com/title/tt0081146/) |
 | 1980-12-29 | [Bruce Lee l'invincibile del kung fu](https://www.imdb.com/title/tt0081216/) |
 
 ### 1981
@@ -2753,13 +2772,13 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1981-02-02 | [Bruce Lee terrore d'oriente](https://www.imdb.com/title/tt0201175/) |
 | 1981-02-08 | [Sfida sul fondo](https://www.imdb.com/title/tt0186536/) |
 | 1981-02-15 | [Un esercito di 5 uomini](https://www.imdb.com/title/tt0064300/) |
-| 1981-02-23 | [Napoli... la camorra sfida, la citt« risponde](https://www.imdb.com/title/tt0079611/) |
+| 1981-02-23 | [Napoli... la camorra sfida, la città risponde](https://www.imdb.com/title/tt0079611/) |
 | 1981-03-26 | [Piedone a Hong Kong](https://www.imdb.com/title/tt0073541/) |
 | 1981-03-30 | [Libido](https://www.imdb.com/title/tt0070311/) |
 | 1981-04-02 | [Clarissa](https://www.imdb.com/title/tt0078302/) |
 | 1981-04-03 | [Bruce Lee la tigre indomabile](https://www.imdb.com/title/tt0075167/) |
 | 1981-04-05 | [Il soldato di ventura](https://www.imdb.com/title/tt0073726/) |
-| 1981-04-19 | [Si pu» fare... amigo](https://www.imdb.com/title/tt0068539/) |
+| 1981-04-19 | [Si può fare... amigo](https://www.imdb.com/title/tt0068539/) |
 | 1981-05-03 | [Liberi armati pericolosi](https://www.imdb.com/title/tt0074792/) |
 | 1981-05-17 | [Bruce Lee terrore d'oriente](https://www.imdb.com/title/tt0201175/) |
 | 1981-09-03 | [La cugina del prete](https://www.imdb.com/title/tt0122943/) |
@@ -2793,8 +2812,10 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1982-01-09 | [Bruce Lee la vendetta del drago nero](https://www.imdb.com/title/tt0072858/) |
 | 1982-01-12 | [Orgasmo nero](https://www.imdb.com/title/tt0081727/) |
 | 1982-01-19 | [La moglie ingorda (A Scent of Heather)](https://www.imdb.com/title/tt0127801/) |
+| 1982-01-24 | [Mogli morbose (October Silk)](https://www.imdb.com/title/tt0081260/) |
 | 1982-01-26 | [Odyssex - L'impero dei piaceri sessuali](https://www.imdb.com/title/tt0076487/) |
 | 1982-02-05 | [Justine, una minorenne deliziosa...](https://www.imdb.com/title/tt0125296/) |
+| 1982-02-07 | [Primizie pornografiche (Fais-m'en plus)](https://www.imdb.com/title/tt1327719/) |
 | 1982-02-13 | [Rebus per un assassinio](https://www.imdb.com/title/tt0080139/) |
 | 1982-03-09 | [Zappatore](https://www.imdb.com/title/tt0081800/) |
 | 1982-03-13 | [Bruce Lee il grande eroe](https://www.imdb.com/title/tt0080475/) |
@@ -2821,13 +2842,14 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1982-11-28 | [Eutanasia di un amore](https://www.imdb.com/title/tt0077519/) |
 | 1982-12-09 | [Il tempo delle mele](https://www.imdb.com/title/tt0082100/) |
 | 1982-12-10 | [L'invincibile ninja](https://www.imdb.com/title/tt0082332/) |
-| 1982-12-11 | [I giganti del karat«](https://www.imdb.com/title/tt0071619/) |
+| 1982-12-11 | [I giganti del karaté](https://www.imdb.com/title/tt0071619/) |
 | 1982-12-15 | [Milano... difendersi o morire](https://www.imdb.com/title/tt0077930/) |
 
 ### 1983
 
 |  |  |
 |---|---|
+| 1983-01-02 | [Labbra insaziabili (Ça aide beaucoup)](https://www.imdb.com/title/tt35652748/) |
 | 1983-01-05 | [Sensual eruption (Eruption)](https://www.imdb.com/title/tt0124491/) |
 | 1983-01-09 | [La pagella](https://www.imdb.com/title/tt0081297/) |
 | 1983-01-11 | [Il furore della Cina colpisce ancora](https://www.imdb.com/title/tt0067824/) |
@@ -2842,17 +2864,19 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1983-02-20 | [Forza: 5](https://www.imdb.com/title/tt0082399/) |
 | 1983-03-01 | [Sesso acerbo](https://www.imdb.com/title/tt0196089/) |
 | 1983-03-13 | [Justine, una minorenne deliziosa...](https://www.imdb.com/title/tt0125296/) |
+| 1983-03-28 | [Le pornosorelle](https://www.imdb.com/title/tt0077585/) |
 | 1983-04-09 | [Il carabiniere](https://www.imdb.com/title/tt0082137/) |
 | 1983-04-10 | [Porno story di Christine](https://www.imdb.com/title/tt0068507/) |
 | 1983-09-04 | [Adolescenza porno](https://www.imdb.com/title/tt0072124/) |
+| 1983-09-18 | [Primizie pornografiche (Fais-m'en plus)](https://www.imdb.com/title/tt1327719/) |
 | 1983-09-23 | [Il giustiziere della notte 2](https://www.imdb.com/title/tt0082250/) |
-| 1983-10-11 | [L'uomo della verit» (Il vero e il falso)](https://www.imdb.com/title/tt0067941/) |
+| 1983-10-11 | [L'uomo della verità (Il vero e il falso)](https://www.imdb.com/title/tt0067941/) |
 | 1983-10-22 | [Sesso acerbo](https://www.imdb.com/title/tt0196089/) |
 | 1983-10-28 | [Excalibur](https://www.imdb.com/title/tt0082348/) |
 | 1983-11-12 | [Tenere cugine](https://www.imdb.com/title/tt0081614/) |
 | 1983-11-19 | [Il Falcone](https://www.imdb.com/title/tt0082356/) |
 | 1983-11-21 | [Bruce Lee vive ancora](https://www.imdb.com/title/tt0082107/) |
-| 1983-11-27 | [Morbosit« di una orientale](https://www.imdb.com/title/tt0192224/) |
+| 1983-11-27 | [Morbosità di una orientale](https://www.imdb.com/title/tt0192224/) |
 | 1983-12-10 | [California](https://www.imdb.com/title/tt0075796/) |
 | 1983-12-30 | [La lussuria (Luxure)](https://www.imdb.com/title/tt0074830/) |
 
@@ -2864,35 +2888,49 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1984-01-08 | [Pink Floyd: The Wall](https://www.imdb.com/title/tt0084503/) |
 | 1984-01-12 | [Cacciatori di squali](https://www.imdb.com/title/tt0049751/) |
 | 1984-01-29 | [Messico in fiamme](https://www.imdb.com/title/tt0084222/) |
-| 1984-02-04 | [Casanova II](https://www.imdb.com/title/tt0188486/) |
+| 1984-02-20 | [Erotic sex orgasm](https://www.imdb.com/title/tt0188573/) |
 | 1984-03-17 | [Bruce Lee la bestia umana](https://www.imdb.com/title/tt0079076/) |
 | 1984-03-24 | [Pornofantasie di un superdotato](https://www.imdb.com/title/tt0127161/) |
+| 1984-03-31 | [State buoni se potete](https://www.imdb.com/title/tt0086358/) |
 | 1984-04-01 | [La ragazza di Trieste](https://www.imdb.com/title/tt0086165/) |
+| 1984-04-14 | [Il vero e il falso](https://www.imdb.com/title/tt0067941/) |
 | 1984-04-17 | [Bad Boys](https://www.imdb.com/title/tt0085210/) |
-| 1984-04-23 | [Il duro pi» duro](https://www.imdb.com/title/tt0086461/) |
+| 1984-04-23 | [Il duro più duro](https://www.imdb.com/title/tt0086461/) |
 | 1984-09-22 | [La verginella](https://www.imdb.com/title/tt0153521/) |
 | 1984-10-02 | [I vendicatori della notte](https://www.imdb.com/title/tt0086625/) |
 | 1984-10-12 | [L'estate assassina](https://www.imdb.com/title/tt0086655/) |
 | 1984-10-13 | [La fine dell'innocenza](https://www.imdb.com/title/tt0072987/) |
 | 1984-10-20 | [Le notti segrete di Lucrezia Borgia](https://www.imdb.com/title/tt0084418/) |
+| 1984-11-30 | [Le evase](https://www.imdb.com/title/tt0077520/) |
 | 1984-12-02 | [Traffico erotico](https://www.imdb.com/title/tt0065264/) |
+| 1984-12-14 | [La collegiale svedese](https://www.imdb.com/title/tt0072999/) |
 | 1984-12-15 | [Tormenti](https://www.imdb.com/title/tt0082506/) |
 | 1984-12-22 | [Giochi di notte](https://www.imdb.com/title/tt0060740/) |
+| 1984-12-22 | [Il corpo](https://www.imdb.com/title/tt0071362/) |
 
 ### 1985
 
 |  |  |
 |---|---|
+| 1985-01-01 | [Oscenità](https://www.imdb.com/title/tt0131515/) |
+| 1985-01-20 | [Erika](https://www.imdb.com/title/tt0067058/) |
 | 1985-01-22 | [Bruce Lee l'immortale campione](https://www.imdb.com/title/tt0165741/) |
 | 1985-01-27 | [Tommy e Laurie](https://www.imdb.com/title/tt0197022/) |
 | 1985-02-23 | [Mantidi in amore](https://www.imdb.com/title/tt0078821/) |
+| 1985-02-24 | [Peccati in famiglia](https://www.imdb.com/title/tt0073524/) |
+| 1985-02-24 | [L'altro vizio della porno bocca, incontri proibiti](https://www.imdb.com/title/tt0079599/) |
+| 1985-02-24 | [Myriam - Una femmina da letto](https://www.imdb.com/title/tt0084372/) |
+| 1985-03-08 | [La moglie ingorda](https://www.imdb.com/title/tt0127801/) |
 | 1985-03-09 | [Bruce Lee: l'ira del drago colpisce anche l'Occidente](https://www.imdb.com/title/tt0165117/) |
 | 1985-03-10 | [Beatrix - La schiava del sesso](https://www.imdb.com/title/tt0202818/) |
 | 1985-03-17 | [Fotografando Patrizia](https://www.imdb.com/title/tt0089163/) |
+| 1985-03-23 | [Bruce Lee l'invincibile del kung fu](https://www.imdb.com/title/tt0081216/) |
 | 1985-03-24 | [Ninja la furia umana](https://www.imdb.com/title/tt0086192/) |
 | 1985-03-28 | [Guerre stradali](https://www.imdb.com/title/tt0084616/) |
 | 1985-03-31 | [Bruce Lee terrore d'oriente](https://www.imdb.com/title/tt0201175/) |
+| 1985-09-14 | [Marilyn l'insaziabile](https://www.imdb.com/title/tt0080927/) |
 | 1985-09-15 | [Il peccato di Lola](https://www.imdb.com/title/tt0089790/) |
+| 1985-10-04 | [Un corpo da vendere](https://www.imdb.com/title/tt0289511/) |
 | 1985-10-07 | [Rombo di tuono](https://www.imdb.com/title/tt0087727/) |
 | 1985-10-15 | [Pizza Connection](https://www.imdb.com/title/tt0089813/) |
 | 1985-10-19 | [Una magnum per McQuade](https://www.imdb.com/title/tt0085862/) |
@@ -2902,7 +2940,8 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1985-11-02 | [The Karate Kid - Per vincere domani](https://www.imdb.com/title/tt0087538/) |
 | 1985-11-21 | [Tradimento](https://www.imdb.com/title/tt0084812/) |
 | 1985-12-08 | [Ethan](https://www.imdb.com/title/tt0303977/) |
-| 1985-12-13 | [Bruce Lee l'invincibile del kung fu](https://www.imdb.com/title/tt0081216/) |
+| 1985-12-10 | [La seduzione di Lynne](https://www.imdb.com/title/tt0127824/) |
+| 1985-12-13 | [Bruce Lee l'invincibile del kung fu](https://www.imdb.com/title/tt0079903/) |
 | 1985-12-27 | [Bruce Lee la tigre indomabile](https://www.imdb.com/title/tt0075167/) |
 | 1985-12-30 | [Urla del silenzio](https://www.imdb.com/title/tt0087553/) |
 
@@ -2910,20 +2949,25 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 
 |  |  |
 |---|---|
+| 1986-01-05 | [Le segrete esperienze di Luca e Fanny](https://www.imdb.com/title/tt0081481/) |
 | 1986-01-09 | [Giuramento](https://www.imdb.com/title/tt0084007/) |
 | 1986-01-12 | [I piaceri proibiti](https://www.imdb.com/title/tt0194233/) |
 | 1986-01-13 | [Tex e il signore degli abissi](https://www.imdb.com/title/tt0090150/) |
-| 1986-01-17 | [Il futuro « donna](https://www.imdb.com/title/tt0087310/) |
+| 1986-01-17 | [Il futuro è donna](https://www.imdb.com/title/tt0087310/) |
+| 1986-01-19 | [Super sexy show](https://www.imdb.com/title/tt0072125/) |
 | 1986-01-26 | [La gabbia](https://www.imdb.com/title/tt0091097/) |
 | 1986-01-27 | [Il cavaliere pallido](https://www.imdb.com/title/tt0089767/) |
 | 1986-01-31 | [Il codice del silenzio](https://www.imdb.com/title/tt0088936/) |
 | 1986-02-14 | [L'ultimo drago](https://www.imdb.com/title/tt0089461/) |
+| 1986-02-14 | [Bruce Lee l'indistruttibile](https://www.imdb.com/title/tt0336163/) |
 | 1986-02-17 | [Mamma Ebe](https://www.imdb.com/title/tt0089542/) |
 | 1986-02-24 | [Missing in Action](https://www.imdb.com/title/tt0089604/) |
 | 1986-03-02 | [Amour braque - Amore balordo](https://www.imdb.com/title/tt0088714/) |
+| 1986-03-08 | [Bruce Lee la tigre indomabile](https://www.imdb.com/title/tt0075167/) |
 | 1986-03-08 | [L'urlo di Bruce Lee terrorizza ancora](https://www.imdb.com/title/tt0196113/) |
 | 1986-03-09 | [La collegiale svedese](https://www.imdb.com/title/tt0072999/) |
 | 1986-03-23 | [L'immorale](https://www.imdb.com/title/tt0080916/) |
+| 1986-04-19 | [L'urlo di Bruce Lee terrorizza ancora](https://www.imdb.com/title/tt0196113/) |
 | 1986-04-20 | [Rocky IV](https://www.imdb.com/title/tt0089927/) |
 | 1986-04-27 | [Fotoromanzo](https://www.imdb.com/title/tt0091071/) |
 | 1986-05-25 | [Antarctica](https://www.imdb.com/title/tt0085991/) |
@@ -2932,6 +2976,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1986-11-02 | [Rocky III](https://www.imdb.com/title/tt0084602/) |
 | 1986-11-09 | [Rocky IV](https://www.imdb.com/title/tt0089927/) |
 | 1986-11-21 | [Diavolo in corpo](https://www.imdb.com/title/tt0090944/) |
+| 1986-11-23 | [Super sexy show](https://www.imdb.com/title/tt0072125/) |
 | 1986-11-24 | [Il pentito](https://www.imdb.com/title/tt0091744/) |
 | 1986-11-29 | [Voglia di guardare](https://www.imdb.com/title/tt0092180/) |
 | 1986-11-30 | [Il giustiziere della notte 3](https://www.imdb.com/title/tt0089003/) |
@@ -2944,29 +2989,35 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 |---|---|
 | 1987-01-01 | [Rabbiosamente femmine](https://www.imdb.com/title/tt0073778/) |
 | 1987-01-03 | [La signora della notte](https://www.imdb.com/title/tt0090018/) |
-| 1987-01-18 | [Bestialit»](https://www.imdb.com/title/tt0074201/) |
+| 1987-01-18 | [Bestialità](https://www.imdb.com/title/tt0074201/) |
 | 1987-01-25 | [Marina](https://www.imdb.com/title/tt1227879/) |
+| 1987-01-31 | [Il colpo maestro di Bruce Lee](https://www.imdb.com/title/tt0122029/) |
 | 1987-01-31 | [Bruce Lee terrore d'oriente](https://www.imdb.com/title/tt0201175/) |
 | 1987-02-01 | [Lussuria](https://www.imdb.com/title/tt0091454/) |
 | 1987-02-15 | [La venexiana](https://www.imdb.com/title/tt0092157/) |
 | 1987-02-22 | [Il nome della rosa](https://www.imdb.com/title/tt0091605/) |
 | 1987-02-22 | [Noi e l'amore - comportamento sessuale variante](https://www.imdb.com/title/tt0198836/) |
 | 1987-03-01 | [Top Gun](https://www.imdb.com/title/tt0092099/) |
+| 1987-03-13 | [I peccati di una monaca](https://www.imdb.com/title/tt0076205/) |
 | 1987-03-15 | [La monaca nel peccato](https://www.imdb.com/title/tt0091539/) |
+| 1987-03-22 | [Dal Giappone con furore](https://www.imdb.com/title/tt0164750/) |
+| 1987-04-04 | [L'invincibile ninja](https://www.imdb.com/title/tt0082332/) |
 | 1987-04-05 | [Shanghai Surprise](https://www.imdb.com/title/tt0091934/) |
 | 1987-04-11 | [La bonne](https://www.imdb.com/title/tt0090763/) |
 | 1987-04-20 | [King David](https://www.imdb.com/title/tt0089420/) |
 | 1987-04-26 | [Over the Top](https://www.imdb.com/title/tt0093692/) |
 | 1987-05-02 | [A 30 secondi dalla fine](https://www.imdb.com/title/tt0089941/) |
 | 1987-05-03 | [Femmine scatenate](https://www.imdb.com/title/tt0081596/) |
+| 1987-05-10 | [Forza: 5](https://www.imdb.com/title/tt0082399/) |
 | 1987-05-10 | [I 5 della squadra d'assalto](https://www.imdb.com/title/tt0090693/) |
+| 1987-05-16 | [Bruce Lee il campione](https://www.imdb.com/title/tt0062936/) |
 | 1987-05-31 | [Platoon](https://www.imdb.com/title/tt0091763/) |
 | 1987-06-07 | [Lady Dynamite](https://www.imdb.com/title/tt0125331/) |
 | 1987-08-19 | [La signora della notte](https://www.imdb.com/title/tt0090018/) |
 | 1987-08-24 | [La mosca](https://www.imdb.com/title/tt0091064/) |
 | 1987-08-25 | [Desiderando Giulia](https://www.imdb.com/title/tt0089016/) |
 | 1987-10-09 | [Capriccio](https://www.imdb.com/title/tt0092720/) |
-| 1987-10-10 | [Nessuna piet«](https://www.imdb.com/title/tt0091637/) |
+| 1987-10-10 | [Nessuna pietà](https://www.imdb.com/title/tt0091637/) |
 | 1987-10-17 | [Porno anomalia](https://www.imdb.com/title/tt0263626/) |
 | 1987-11-15 | [Il caso Moro](https://www.imdb.com/title/tt0090805/) |
 | 1987-11-15 | [Supermaschio per mogli viziose](https://www.imdb.com/title/tt0157532/) |
@@ -2979,11 +3030,14 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 |  |  |
 |---|---|
 | 1988-01-03 | [Full Metal Jacket](https://www.imdb.com/title/tt0093058/) |
+| 1988-01-10 | [Il corpo](https://www.imdb.com/title/tt0071362/) |
 | 1988-01-30 | [Il sergente di fuoco](https://www.imdb.com/title/tt0092854/) |
 | 1988-02-07 | [Soldati - 365 all'alba](https://www.imdb.com/title/tt0094003/) |
+| 1988-02-07 | [Justine una minorenne deliziosa…](https://www.imdb.com/title/tt0125296/) |
 | 1988-02-21 | [The Untouchables - Gli intoccabili](https://www.imdb.com/title/tt0094226/) |
 | 1988-03-10 | [AIDS - Il pericolo strisciante](https://www.imdb.com/title/tt0300900/) |
 | 1988-03-12 | [Ultimo minuto](https://www.imdb.com/title/tt0139681/) |
+| 1988-03-20 | [La moglie ingorda](https://www.imdb.com/title/tt0127801/) |
 | 1988-03-25 | [Slamdance - Il delitto di mezzanotte](https://www.imdb.com/title/tt0093986/) |
 | 1988-04-01 | [Assassination](https://www.imdb.com/title/tt0092585/) |
 | 1988-04-07 | [Django 2 - Il grande ritorno](https://www.imdb.com/title/tt0093113/) |
@@ -2992,15 +3046,20 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1988-05-07 | [La monaca di Monza](https://www.imdb.com/title/tt0091540/) |
 | 1988-05-22 | [La Bamba](https://www.imdb.com/title/tt0093378/) |
 | 1988-09-17 | [Voglia d'amore](https://www.imdb.com/title/tt0087512/) |
+| 1988-09-24 | [La donna della calda terra](https://www.imdb.com/title/tt0077958/) |
 | 1988-09-24 | [La ragazza di Manila](https://www.imdb.com/title/tt0359654/) |
 | 1988-10-01 | [Saint Tropez Vice](https://www.imdb.com/title/tt0093908/) |
+| 1988-10-08 | [Coppie viziose](https://www.imdb.com/title/tt0075381/) |
 | 1988-10-15 | [Senza inibizioni](https://www.imdb.com/title/tt0087944/) |
 | 1988-10-16 | [Teresa](https://www.imdb.com/title/tt0094121/) |
 | 1988-10-22 | [Discesa all'inferno](https://www.imdb.com/title/tt0090933/) |
 | 1988-11-12 | [Profumo](https://www.imdb.com/title/tt0093789/) |
 | 1988-11-27 | [Angela come te](https://www.imdb.com/title/tt0094657/) |
+| 1988-11-27 | [Il piacere dell'atto sessuale](https://www.imdb.com/title/tt0197290/) |
 | 1988-12-03 | [La vedova nera](https://www.imdb.com/title/tt0090738/) |
 | 1988-12-07 | [Il coraggio di parlare](https://www.imdb.com/title/tt0092785/) |
+| 1988-12-11 | [Bruce Lee il campione](https://www.imdb.com/title/tt0062936/) |
+| 1988-12-23 | [Erotic sex orgasm](https://www.imdb.com/title/tt0188573/) |
 
 ### 1989
 
@@ -3010,9 +3069,10 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1989-01-06 | [Bye Bye Baby](https://www.imdb.com/title/tt0094820/) |
 | 1989-01-15 | [Proibitissimo](https://www.imdb.com/title/tt0126581/) |
 | 1989-03-07 | [Corto circuito 2](https://www.imdb.com/title/tt0096101/) |
-| 1989-03-12 | [Bestialit»](https://www.imdb.com/title/tt0074201/) |
+| 1989-03-12 | [Bestialità](https://www.imdb.com/title/tt0074201/) |
 | 1989-05-01 | [Compagni di scuola](https://www.imdb.com/title/tt0094901/) |
 | 1989-05-25 | [L'orso](https://www.imdb.com/title/tt0095800/) |
+| 1989-10-01 | [Le evase](https://www.imdb.com/title/tt0077520/) |
 | 1989-11-16 | [Francesco](https://www.imdb.com/title/tt0097383/) |
 | 1989-11-19 | [Provocazione](https://www.imdb.com/title/tt0095920/) |
 | 1989-12-03 | [Mery per sempre](https://www.imdb.com/title/tt0097870/) |
@@ -3029,16 +3089,17 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1990-01-30 | [Sorvegliato speciale](https://www.imdb.com/title/tt0097770/) |
 | 1990-02-26 | [Johnny il bello](https://www.imdb.com/title/tt0097626/) |
 | 1990-03-03 | [Furia cieca](https://www.imdb.com/title/tt0096945/) |
+| 1990-03-04 | [I peccati della notte](https://www.imdb.com/title/tt0089071/) |
 | 1990-03-06 | [Karate Kid III - La sfida finale](https://www.imdb.com/title/tt0097647/) |
-| 1990-04-22 | [Calde voglie insaziabili](https://www.imdb.com/title/tt0095058/) |
+| 1990-03-11 | [Myriam - Una femmina da letto](https://www.imdb.com/title/tt0084372/) |
 | 1990-09-23 | [Mery per sempre](https://www.imdb.com/title/tt0097870/) |
 | 1990-10-13 | [La lambada (Que viva el merengue y la lambada)](https://www.imdb.com/title/tt0390408/) |
 | 1990-10-21 | [Le superscatenate](https://www.imdb.com/title/tt0098648/) |
 | 1990-10-22 | [Volevo i pantaloni](https://www.imdb.com/title/tt0100886/) |
 | 1990-11-12 | [Orchidea selvaggia](https://www.imdb.com/title/tt0100934/) |
 | 1990-12-23 | [Femmine](https://www.imdb.com/title/tt15752988/) |
-| 1990-12-30 | [Revenge - Vendetta](https://www.imdb.com/title/tt0100485/) |
 | 1990-12-30 | [La trappola di Venere](https://www.imdb.com/title/tt0096372/) |
+| 1990-12-30 | [Revenge - Vendetta](https://www.imdb.com/title/tt0100485/) |
 
 ### 1991
 
@@ -3053,12 +3114,13 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1991-02-24 | [Cacciatore bianco, cuore nero](https://www.imdb.com/title/tt0100928/) |
 | 1991-03-03 | [Esperienze erotiche di giovani donne](https://www.imdb.com/title/tt0068989/) |
 | 1991-03-03 | [Ghost - Fantasma](https://www.imdb.com/title/tt0099653/) |
+| 1991-03-03 | [Il piacere dell'atto sessuale](https://www.imdb.com/title/tt0197290/) |
 | 1991-03-10 | [Rocky V](https://www.imdb.com/title/tt0100507/) |
 | 1991-03-30 | [Un uomo innocente](https://www.imdb.com/title/tt0097579/) |
 | 1991-04-21 | [Nikita](https://www.imdb.com/title/tt0100263/) |
 | 1991-04-25 | [La storia infinita 2](https://www.imdb.com/title/tt0100240/) |
 | 1991-05-01 | [Paprika](https://www.imdb.com/title/tt0098063/) |
-| 1991-05-05 | [Il t« nel deserto](https://www.imdb.com/title/tt0100594/) |
+| 1991-05-05 | [Il tè nel deserto](https://www.imdb.com/title/tt0100594/) |
 | 1991-06-02 | [Balla coi lupi](https://www.imdb.com/title/tt0099348/) |
 | 1991-06-16 | [Un fantasma per amico](https://www.imdb.com/title/tt0099750/) |
 | 1991-09-15 | [Taboo American Style 1: The Ruthless Beginning](https://www.imdb.com/title/tt0128683/) |
@@ -3073,8 +3135,8 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1991-11-03 | [Programmato per uccidere](https://www.imdb.com/title/tt0100114/) |
 | 1991-11-17 | [Edward mani di forbice](https://www.imdb.com/title/tt0099487/) |
 | 1991-11-23 | [La carne](https://www.imdb.com/title/tt0101548/) |
-| 1991-11-24 | [Ultr»](https://www.imdb.com/title/tt0100835/) |
-| 1991-12-08 | [Le et« di Lul»](https://www.imdb.com/title/tt0099484/) |
+| 1991-11-24 | [Ultrà](https://www.imdb.com/title/tt0100835/) |
+| 1991-12-08 | [Le età di Lulù](https://www.imdb.com/title/tt0099484/) |
 | 1991-12-15 | [The Doors](https://www.imdb.com/title/tt0101761/) |
 | 1991-12-22 | [Ritorno alla laguna blu](https://www.imdb.com/title/tt0102782/) |
 | 1991-12-29 | [Alexandra... oltre i confini del sesso](https://www.imdb.com/title/tt0196326/) |
@@ -3084,13 +3146,18 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 |  |  |
 |---|---|
 | 1992-01-05 | [Alexandra](https://www.imdb.com/title/tt0374490/) |
+| 1992-01-12 | [Labbra vogliose](https://www.imdb.com/title/tt0195009/) |
 | 1992-01-26 | [Pensavo fosse amore... invece era un calesse](https://www.imdb.com/title/tt0105120/) |
+| 1992-02-09 | [Provocazione carnale](https://www.imdb.com/title/tt0189799/) |
 | 1992-03-01 | [Robin Hood - Principe dei ladri](https://www.imdb.com/title/tt0102798/) |
+| 1992-03-01 | [Femmine sfrenate](https://www.imdb.com/title/tt0178877/) |
 | 1992-03-08 | [Forza d'urto](https://www.imdb.com/title/tt0102984/) |
 | 1992-03-22 | [A volte ritornano](https://www.imdb.com/title/tt0102960/) |
+| 1992-03-29 | [Lunghi e duri per i… turbamenti erotici di Pamela](https://www.imdb.com/title/tt0081593/) |
 | 1992-03-29 | [Robin Hood - La leggenda](https://www.imdb.com/title/tt0102797/) |
+| 1992-04-05 | [Febbre di lingue viziose](https://www.imdb.com/title/tt0139593/) |
 | 1992-04-25 | [Giustizia a tutti i costi](https://www.imdb.com/title/tt0102614/) |
-| 1992-05-03 | [Cos« fan tutte](https://www.imdb.com/title/tt0104014/) |
+| 1992-05-03 | [Così fan tutte](https://www.imdb.com/title/tt0104014/) |
 | 1992-10-04 | [Beethoven](https://www.imdb.com/title/tt0103786/) |
 | 1992-10-11 | [Cape Fear - Il promontorio della paura](https://www.imdb.com/title/tt0101540/) |
 | 1992-10-25 | [Lionheart - Scommessa vincente](https://www.imdb.com/title/tt0100029/) |
@@ -3100,6 +3167,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 
 |  |  |
 |---|---|
+| 1993-01-31 | [Le superscatenate](https://www.imdb.com/title/tt0098648/) |
 | 1993-03-07 | [Guardia del corpo](https://www.imdb.com/title/tt0103855/) |
 | 1993-03-07 | [Prosciutto prosciutto](https://www.imdb.com/title/tt0104545/) |
 | 1993-10-10 | [Lucrezia Borgia](https://www.imdb.com/title/tt0150056/) |
@@ -3152,7 +3220,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 
 |  |  |
 |---|---|
-| 1998-01-25 | [La vita » bella](https://www.imdb.com/title/tt0118799/) |
+| 1998-01-25 | [La vita è bella](https://www.imdb.com/title/tt0118799/) |
 | 1998-03-15 | [Titanic](https://www.imdb.com/title/tt0120338/) |
 | 1998-04-05 | [The Jackal](https://www.imdb.com/title/tt0119395/) |
 | 1998-05-03 | [La maschera di ferro](https://www.imdb.com/title/tt0120744/) |
@@ -3170,7 +3238,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1999-01-24 | [La maschera di Zorro](https://www.imdb.com/title/tt0120746/) |
 | 1999-02-07 | [Il principe d'Egitto](https://www.imdb.com/title/tt0120794/) |
 | 1999-03-07 | [La gabbianella e il gatto](https://www.imdb.com/title/tt0122735/) |
-| 1999-04-25 | [La vita « bella](https://www.imdb.com/title/tt0118799/) |
+| 1999-04-25 | [La vita è bella](https://www.imdb.com/title/tt0118799/) |
 | 1999-05-02 | [Shakespeare in Love](https://www.imdb.com/title/tt0138097/) |
 | 1999-05-09 | [Le parole che non ti ho detto](https://www.imdb.com/title/tt0139462/) |
 | 1999-10-31 | [Eyes Wide Shut](https://www.imdb.com/title/tt0120663/) |
@@ -3184,7 +3252,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 |---|---|
 | 2000-03-26 | [The Beach](https://www.imdb.com/title/tt0163978/) |
 | 2000-09-24 | [Il patriota](https://www.imdb.com/title/tt0187393/) |
-| 2000-12-03 | [Mal»na](https://www.imdb.com/title/tt0213847/) |
+| 2000-12-03 | [Malèna](https://www.imdb.com/title/tt0213847/) |
 | 2000-12-24 | [Dinosauri](https://www.imdb.com/title/tt0130623/) |
 
 ### 2001
@@ -3193,8 +3261,8 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 |---|---|
 | 2001-01-07 | [Chiedimi se sono felice](https://www.imdb.com/title/tt0252985/) |
 | 2001-01-28 | [Autumn in New York](https://www.imdb.com/title/tt0174480/) |
-| 2001-02-11 | [Le verit« nascoste](https://www.imdb.com/title/tt0161081/) |
-| 2001-02-18 | [Pok»mon 2 - La forza di uno](https://www.imdb.com/title/tt0210234/) |
+| 2001-02-11 | [Le verità nascoste](https://www.imdb.com/title/tt0161081/) |
+| 2001-02-18 | [Pokémon 2 - La forza di uno](https://www.imdb.com/title/tt0210234/) |
 | 2001-03-11 | [Hannibal](https://www.imdb.com/title/tt0212985/) |
 | 2001-04-22 | [La tigre e il dragone](https://www.imdb.com/title/tt0190332/) |
 

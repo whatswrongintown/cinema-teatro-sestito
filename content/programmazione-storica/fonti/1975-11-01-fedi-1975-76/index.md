@@ -213,7 +213,7 @@ lastmod: '2026-11-18'
 | 1976-10-25 | [Maciste contro lo sceicco](https://www.imdb.com/title/tt0056206/) |
 | 1976-10-27 | [Morire di desiderio (Et mourir de désir)](https://www.imdb.com/title/tt0315099/) |
 | 1976-10-29 | [Sandokan alla riscossa](https://www.imdb.com/title/tt0058545/) |
-| 1976-10-31 | [Bruce Lee](https://www.imdb.com/title/tt2173762/) |
+| 1976-10-31 | [Bruce Lee, un cuore d'oro, due mani d'acciaio](https://www.imdb.com/title/tt2173762/) |
 
 ### Novembre
 
@@ -254,3 +254,4 @@ lastmod: '2026-11-18'
 | 1976-12-28 | [Un duro al servizio della polizia](https://www.imdb.com/title/tt0070706/) |
 | 1976-12-30 | [Di che segno sei?](https://www.imdb.com/title/tt0072871/) |
 | 1976-12-31 | [Sandokan, la tigre di Mompracem](https://www.imdb.com/title/tt0057469/) |
+

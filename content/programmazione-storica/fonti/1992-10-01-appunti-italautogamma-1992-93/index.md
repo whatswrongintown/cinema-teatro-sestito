@@ -1,4 +1,4 @@
-﻿---
+---
 title: Italautogamma 1992-93
 author: Vito Sestito
 date: '1992-10-01'
@@ -19,13 +19,22 @@ lastmod: '2026-11-18'
 
 ## 1992
 
+### Settembre
+
+|  |  |
+|---|---|
+| 1992-09-13 | Cristhine, ragazza tutto fare |
+| 1992-09-20 | [Sesso morboso... sesso violento](https://www.imdb.com/title/tt0189795/) |
+
 ### Ottobre
 
 |  |  |
 |---|---|
 | 1992-10-04 | [Beethoven](https://www.imdb.com/title/tt0103786/) |
 | 1992-10-11 | [Cape Fear - Il promontorio della paura](https://www.imdb.com/title/tt0101540/) |
+| 1992-10-11 | Donne assetate di piacere |
 | 1992-10-18 | [Fermati, o mamma spara](https://www.imdb.com/title/tt0105477/) |
+| 1992-10-18 | Bocca su bocca |
 | 1992-10-25 | [Lionheart - Scommessa vincente](https://www.imdb.com/title/tt0100029/) |
 
 ### Novembre
@@ -33,6 +42,8 @@ lastmod: '2026-11-18'
 |  |  |
 |---|---|
 | 1992-11-01 | [Nightmare 6 - La fine](https://www.imdb.com/title/tt0101917/) |
+| 1992-11-01 | Una moglie da sballo |
+| 1992-11-08 | Rhonda la bestia in calore affamata di sesso |
 | 1992-11-15 | [Saint Tropez, Saint Tropez](https://www.imdb.com/title/tt0166335/) |
 | 1992-11-15 | [Un desiderio bestiale](https://www.imdb.com/title/tt0204265/) |
 | 1992-11-22 | [Il tagliaerbe](https://www.imdb.com/title/tt0104692/) |
@@ -43,7 +54,11 @@ lastmod: '2026-11-18'
 |  |  |
 |---|---|
 | 1992-12-06 | [Double Impact - La vendetta finale](https://www.imdb.com/title/tt0101764/) |
+| 1992-12-06 | [Avide lingue](https://www.imdb.com/title/tt0195293/) |
+| 1992-12-13 | [Mamma ho perso l'uccello](https://www.imdb.com/title/tt0180111/) |
+| 1992-12-20 | Lecca lecca al cioccolato per mia moglie |
 | 1992-12-27 | [Cuori ribelli](https://www.imdb.com/title/tt0104231/) |
+| 1992-12-27 | Chiamami…Bestial play best |
 
 ## 1993
 
@@ -77,3 +92,4 @@ lastmod: '2026-11-18'
 |---|---|
 | 1993-04-11 | [Mamma, ho riperso l'aereo: Mi sono smarrito a New York](https://www.imdb.com/title/tt0104431/) |
 | 1993-04-25 | [Fantastica Moana](https://www.imdb.com/title/tt0208946/) |
+

@@ -146,8 +146,8 @@ I voti IMDb descrivono le valutazioni degli utenti IMDb, non il pubblico o gli i
 | 1949-10-15 | [La vita intima di Marcantonio e Cleopatra](https://www.imdb.com/title/tt0243004/) |
 | 1949-10-19 | [La mia canzone al vento](https://www.imdb.com/title/tt0031642/) |
 | 1949-10-20 | [L'eterno conflitto](https://www.imdb.com/title/tt0202713/) |
-| 1949-10-21 | [Amori e veleni](https://www.imdb.com/title/tt0041119/) |
 | 1949-10-21 | [Casta Diva](https://www.imdb.com/title/tt0026188/) |
+| 1949-10-21 | [Amori e veleni](https://www.imdb.com/title/tt0041119/) |
 | 1949-10-23 | [Monaca santa](https://www.imdb.com/title/tt0037925/) |
 | 1949-10-27 | [Non canto più](https://www.imdb.com/title/tt0036214/) |
 | 1949-10-28 | [Margherita Gauthier](https://www.imdb.com/title/tt0028683/) |
@@ -178,8 +178,8 @@ I voti IMDb descrivono le valutazioni degli utenti IMDb, non il pubblico o gli i
 | 1949-12-08 | [Anime alla deriva](https://www.imdb.com/title/tt0023826/) |
 | 1949-12-08 | [La ribelle del west](https://www.imdb.com/title/tt0033807/) |
 | 1949-12-09 | [Alba di sangue](https://www.imdb.com/title/tt0040568/) |
-| 1949-12-11 | [Addio, mia bella Napoli!](https://www.imdb.com/title/tt0038287/) |
 | 1949-12-11 | [La vedova allegra](https://www.imdb.com/title/tt0025493/) |
+| 1949-12-11 | [Addio, mia bella Napoli!](https://www.imdb.com/title/tt0038287/) |
 | 1949-12-12 | [Il sepolcro indiano](https://www.imdb.com/title/tt0030271/) |
 | 1949-12-14 | [Anna e il re del Siam](https://www.imdb.com/title/tt0038303/) |
 | 1949-12-14 | [La fumeria d'oppio](https://www.imdb.com/title/tt0039403/) |

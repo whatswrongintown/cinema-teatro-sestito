@@ -119,7 +119,6 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 |  |  |
 |---|---|
 | 1965-04-28 | [Il mattatore di Hollywood](https://www.imdb.com/title/tt0054853/) |
-| 1965-09-17 | [La vendetta del ragno nero](https://www.imdb.com/title/tt0051570/) |
 | 1965-10-14 | [L'allegro mondo di Stanlio e Ollio](https://www.imdb.com/title/tt0059379/) |
 
 ### 1967

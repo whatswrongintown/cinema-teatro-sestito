@@ -74,8 +74,8 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1950-02-02 | [Il segno di Zorro](https://www.imdb.com/title/tt0032762/) |
 | 1950-02-06 | [Come tu mi vuoi](https://www.imdb.com/title/tt0022641/) |
 | 1950-02-07 | [Duello col pirata nero](https://www.imdb.com/title/tt0030725/) |
-| 1950-02-11 | [Duello mortale](https://www.imdb.com/title/tt0033873/) |
 | 1950-02-11 | [Duello col pirata nero](https://www.imdb.com/title/tt0030725/) |
+| 1950-02-11 | [Duello mortale](https://www.imdb.com/title/tt0033873/) |
 | 1950-02-14 | [Duello mortale](https://www.imdb.com/title/tt0033873/) |
 | 1950-02-18 | [Salomè](https://www.imdb.com/title/tt0038046/) |
 | 1950-02-24 | [Il figlio della furia](https://www.imdb.com/title/tt0035360/) |
@@ -357,6 +357,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1959-10-20 | [La vena d'oro](https://www.imdb.com/title/tt0048779/) |
 | 1959-10-22 | [Il marito bello: Il nemico di mia moglie](https://www.imdb.com/title/tt0053105/) |
 | 1959-10-28 | [Alta marea a mezzogiorno](https://www.imdb.com/title/tt0050507/) |
+| 1959-11-05 | [Sangue sul deserto](https://www.imdb.com/title/tt0311012/) |
 | 1959-11-22 | [Via col vento](https://www.imdb.com/title/tt0031381/) |
 | 1959-11-29 | [Io, mammeta e tu](https://www.imdb.com/title/tt0051784/) |
 | 1959-12-01 | [Ossessione](https://www.imdb.com/title/tt0035160/) |
@@ -403,6 +404,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1962-01-08 | [Tarzan e la donna leopardo](https://www.imdb.com/title/tt0039011/) |
 | 1962-01-20 | [La vendetta dei barbari](https://www.imdb.com/title/tt0054436/) |
 | 1962-01-27 | [La maja desnuda](https://www.imdb.com/title/tt0051891/) |
+| 1962-02-03 | [Come prima](https://www.imdb.com/title/tt0052817/) |
 | 1962-02-26 | [La favorita del maresciallo](https://www.imdb.com/title/tt0040382/) |
 | 1962-02-28 | [Vacanze romane](https://www.imdb.com/title/tt0046250/) |
 | 1962-03-04 | [Anna di Brooklyn](https://www.imdb.com/title/tt0051363/) |
@@ -439,6 +441,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1963-04-28 | [Scaramouche](https://www.imdb.com/title/tt0045125/) |
 | 1963-05-12 | [Maciste nella terra dei ciclopi](https://www.imdb.com/title/tt0055116/) |
 | 1963-05-19 | [7 spose per 7 fratelli](https://www.imdb.com/title/tt0047472/) |
+| 1963-06-16 | [Il trionfo di Maciste](https://www.imdb.com/title/tt0149295/) |
 | 1963-07-27 | [La leggenda di Robin Hood](https://www.imdb.com/title/tt0029843/) |
 | 1963-09-15 | [La mia geisha](https://www.imdb.com/title/tt0056267/) |
 | 1963-11-02 | [Pugni, pupe e pepite](https://www.imdb.com/title/tt0054127/) |
@@ -496,6 +499,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1965-09-12 | [L'amore è una cosa meravigliosa](https://www.imdb.com/title/tt0048316/) |
 | 1965-10-03 | [I tre della croce del Sud](https://www.imdb.com/title/tt0057007/) |
 | 1965-10-16 | [Il grande safari](https://www.imdb.com/title/tt0057447/) |
+| 1965-10-28 | [La dura legge](https://www.imdb.com/title/tt0058429/) |
 | 1965-11-01 | [Divorzio all'italiana](https://www.imdb.com/title/tt0055913/) |
 | 1965-11-28 | [Il cavaliere di Gerusalemme](https://www.imdb.com/title/tt0047952/) |
 | 1965-12-03 | [La notte del piacere](https://www.imdb.com/title/tt0043567/) |
@@ -567,7 +571,9 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1967-08-09 | [Orgoglio e passione](https://www.imdb.com/title/tt0050858/) |
 | 1967-08-10 | [Le sedicenni](https://www.imdb.com/title/tt0203866/) |
 | 1967-08-13 | [Il mercenario della morte](https://www.imdb.com/title/tt0049287/) |
+| 1967-08-27 | [L'ultimo gladiatore](https://www.imdb.com/title/tt0058345/) |
 | 1967-08-29 | [La vendetta dei barbari](https://www.imdb.com/title/tt0054436/) |
+| 1967-09-05 | [Ulisse contro Ercole](https://www.imdb.com/title/tt0055564/) |
 | 1967-09-10 | [Il corsaro dell'isola verde](https://www.imdb.com/title/tt0044517/) |
 | 1967-10-03 | [Crisantemi per un delitto](https://www.imdb.com/title/tt0058123/) |
 | 1967-10-06 | [Il principe coraggioso](https://www.imdb.com/title/tt0047365/) |
@@ -661,6 +667,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1970-07-26 | [Maciste nella terra dei ciclopi](https://www.imdb.com/title/tt0055116/) |
 | 1970-08-09 | [Sfida a Glory City](https://www.imdb.com/title/tt0059296/) |
 | 1970-08-16 | [Uomini d'amianto contro l'inferno](https://www.imdb.com/title/tt0063060/) |
+| 1970-08-25 | [Ulisse contro Ercole](https://www.imdb.com/title/tt0055564/) |
 | 1970-09-06 | [I cavalieri della tavola rotonda](https://www.imdb.com/title/tt0045966/) |
 | 1970-09-20 | [Quo Vadis](https://www.imdb.com/title/tt0043949/) |
 | 1970-09-30 | [La Colt è la mia legge](https://www.imdb.com/title/tt0060628/) |
@@ -821,6 +828,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1977-06-19 | [Maciste contro i mostri](https://www.imdb.com/title/tt0057270/) |
 | 1977-09-13 | [Dalla Cina con amore... in Danimarca con furore](https://www.imdb.com/title/tt0164489/) |
 | 1977-09-27 | [La campagnola bella](https://www.imdb.com/title/tt0074277/) |
+| 1977-10-28 | [Il trionfo di Maciste](https://www.imdb.com/title/tt0149295/) |
 | 1977-11-20 | [Sinbad il marinaio](https://www.imdb.com/title/tt0039826/) |
 | 1977-12-01 | [La moglie erotica](https://www.imdb.com/title/tt0068765/) |
 | 1977-12-11 | [Il pirata Barbanera](https://www.imdb.com/title/tt0044426/) |
@@ -851,6 +859,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1979-03-15 | [Il gladiatore di Roma](https://www.imdb.com/title/tt0056026/) |
 | 1979-03-18 | [La meravigliosa Angelica](https://www.imdb.com/title/tt0058343/) |
 | 1979-03-23 | [La ragazza dalla pelle di corallo](https://www.imdb.com/title/tt0075383/) |
+| 1979-10-17 | [La donna della calda terra](https://www.imdb.com/title/tt0077958/) |
 | 1979-11-25 | [Amore, piombo e furore](https://www.imdb.com/title/tt0077327/) |
 | 1979-12-23 | [Aquila Grigia il grande capo dei Cheyenne](https://www.imdb.com/title/tt0077630/) |
 
@@ -898,19 +907,23 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1983-10-28 | [Excalibur](https://www.imdb.com/title/tt0082348/) |
 | 1983-11-12 | [Tenere cugine](https://www.imdb.com/title/tt0081614/) |
 | 1983-11-19 | [Il Falcone](https://www.imdb.com/title/tt0082356/) |
+| 1983-12-04 | [Sesso profondo](https://www.imdb.com/title/tt0137539/) |
 
 ### 1984
 
 |  |  |
 |---|---|
+| 1984-02-05 | [Blue Movie Sexycompulsion](https://www.imdb.com/title/tt0075464/) |
 | 1984-03-25 | [Un'estate pazzesca](https://www.imdb.com/title/tt0086352/) |
 | 1984-04-23 | [Il duro più duro](https://www.imdb.com/title/tt0086461/) |
 | 1984-10-28 | [Fantasie erotiche](https://www.imdb.com/title/tt0074689/) |
+| 1984-12-14 | [La collegiale svedese](https://www.imdb.com/title/tt0072999/) |
 
 ### 1985
 
 |  |  |
 |---|---|
+| 1985-01-01 | [Finalmente arrivò l'amore](https://www.imdb.com/title/tt0072665/) |
 | 1985-10-19 | [Una magnum per McQuade](https://www.imdb.com/title/tt0085862/) |
 | 1985-12-26 | [Amarsi un po'...](https://www.imdb.com/title/tt0086881/) |
 
@@ -948,10 +961,13 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 |---|---|
 | 1988-04-01 | [Assassination](https://www.imdb.com/title/tt0092585/) |
 | 1988-04-23 | [Senza via di scampo](https://www.imdb.com/title/tt0093640/) |
+| 1988-09-24 | [La donna della calda terra](https://www.imdb.com/title/tt0077958/) |
 | 1988-09-24 | [La ragazza di Manila](https://www.imdb.com/title/tt0359654/) |
 | 1988-10-10 | [Biancaneve e i sette nani](https://www.imdb.com/title/tt0093999/) |
 | 1988-10-15 | [Senza inibizioni](https://www.imdb.com/title/tt0087944/) |
 | 1988-11-06 | [Una donna scandalosa](https://www.imdb.com/title/tt0085719/) |
+| 1988-11-27 | [Il piacere dell'atto sessuale](https://www.imdb.com/title/tt0197290/) |
+| 1988-12-11 | [Sesso profondo](https://www.imdb.com/title/tt0137539/) |
 
 ### 1989
 
@@ -978,8 +994,8 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1990-11-12 | [Orchidea selvaggia](https://www.imdb.com/title/tt0100934/) |
 | 1990-12-15 | [Pretty Woman](https://www.imdb.com/title/tt0100405/) |
 | 1990-12-23 | [Dick Tracy](https://www.imdb.com/title/tt0099422/) |
-| 1990-12-30 | [Revenge - Vendetta](https://www.imdb.com/title/tt0100485/) |
 | 1990-12-30 | [La trappola di Venere](https://www.imdb.com/title/tt0096372/) |
+| 1990-12-30 | [Revenge - Vendetta](https://www.imdb.com/title/tt0100485/) |
 
 ### 1991
 
@@ -987,6 +1003,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 |---|---|
 | 1991-02-07 | [La sirenetta](https://www.imdb.com/title/tt0097757/) |
 | 1991-03-03 | [Ghost - Fantasma](https://www.imdb.com/title/tt0099653/) |
+| 1991-03-03 | [Il piacere dell'atto sessuale](https://www.imdb.com/title/tt0197290/) |
 | 1991-05-12 | [Vacanze di Natale '90](https://www.imdb.com/title/tt0129511/) |
 | 1991-05-26 | [Spogliando Valeria](https://www.imdb.com/title/tt0096959/) |
 | 1991-06-09 | [Senti chi parla 2](https://www.imdb.com/title/tt0100050/) |
@@ -1004,8 +1021,8 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 |---|---|
 | 1992-01-06 | [Johnny Stecchino](https://www.imdb.com/title/tt0102164/) |
 | 1992-01-26 | [Pensavo fosse amore... invece era un calesse](https://www.imdb.com/title/tt0105120/) |
+| 1992-02-09 | [Una donna scandalosa](https://www.imdb.com/title/tt0085719/) |
 | 1992-02-23 | [Donne con le gonne](https://www.imdb.com/title/tt0104122/) |
-| 1992-03-01 | [Femmine sfrenate](https://www.imdb.com/title/tt0096037/) |
 | 1992-03-01 | [Robin Hood - Principe dei ladri](https://www.imdb.com/title/tt0102798/) |
 | 1992-03-29 | [Robin Hood - La leggenda](https://www.imdb.com/title/tt0102797/) |
 | 1992-12-27 | [Cuori ribelli](https://www.imdb.com/title/tt0104231/) |

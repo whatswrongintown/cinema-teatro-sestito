@@ -43,12 +43,6 @@ image: "/programmazione-storica/paesi-di-produzione/_index_files/figure-html/ita
 |---|---|
 | 1970-12-06 | [Tarzan e il figlio della giungla](https://www.imdb.com/title/tt0063673/) |
 
-### 1973
-
-|  |  |
-|---|---|
-| 1973-11-20 | [L'orgia del vampiro](https://www.imdb.com/title/tt0139288/) |
-
 ### 1974
 
 |  |  |

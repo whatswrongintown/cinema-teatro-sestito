@@ -19,7 +19,7 @@ Le principali tipologie di fonti sono:
 2. 📰 **[Calendari](/categories/calendari/)** murali o da tavolo utilizzati per annotare la programmazione del cinema. Indicano le date di proiezione, i titoli e, in molti casi, gli incassi.
 3. 📅  **[Rubriche](/categories/rubriche/)** in cui venivano elencati in ordine alfabetico i film proiettati, con l’indicazione della data, incasso e in alcuni casi del distributore.
 4. ✍️  **[Appunti](/categories/appunti/)**, blocchi o fogli sciolti su cui erano annotati i film mese per mese, talvolta accompagnati dai relativi incassi.
-5. 🎞️ **[Note sui manifesti](/categories/note-sui-manifesti/)**, date di proiezione annotate sul retro dei manifesti cinematografici; i film sono elencati per anno e mese.
+5. 🎞️ **[Note sui manifesti](/1965/01/01/note-sui-manifesti)**, date di proiezione annotate sul retro dei manifesti cinematografici; i film sono elencati per anno e mese.
 
 <img src="/programmazione-storica/fonti/_index_files/figure-html/fonti-per-decennio-1.png" alt="Presenza delle tipologie di fonti per decennio" width="768" />
 

@@ -55,7 +55,7 @@ image: "/programmazione-storica/paesi-di-produzione/_index_files/figure-html/ita
 | 1976-08-29 | [La mano spietata di Bruce Lee colpisce ancora](https://www.imdb.com/title/tt1670380/) |
 | 1976-09-12 | [Goodbye Bruce Lee, nel suo ultimo gioco della morte](https://www.imdb.com/title/tt0073061/) |
 | 1976-10-03 | [Cina violenza e furore](https://www.imdb.com/title/tt0121122/) |
-| 1976-10-31 | [Bruce Lee](https://www.imdb.com/title/tt2173762/) |
+| 1976-10-31 | [Bruce Lee, un cuore d'oro, due mani d'acciaio](https://www.imdb.com/title/tt2173762/) |
 | 1976-11-25 | [La tigre della Manciuria](https://www.imdb.com/title/tt0164415/) |
 | 1976-11-28 | [Kung Tze - L'uomo dalle mani d'acciaio](https://www.imdb.com/title/tt0209414/) |
 
@@ -86,6 +86,7 @@ image: "/programmazione-storica/paesi-di-produzione/_index_files/figure-html/ita
 | 1978-04-02 | [Ispettore Karatè contro l'anonima sequestri](https://www.imdb.com/title/tt1325660/) |
 | 1978-05-19 | [Pugni feroci](https://www.imdb.com/title/tt1234731/) |
 | 1978-06-11 | [Il dragone nero](https://www.imdb.com/title/tt0202026/) |
+| 1978-08-22 | Colpo per colpo |
 | 1978-09-08 | [La tigre di Hong Kong](https://www.imdb.com/title/tt2173924/) |
 
 ### 1979
@@ -127,6 +128,7 @@ image: "/programmazione-storica/paesi-di-produzione/_index_files/figure-html/ita
 
 |  |  |
 |---|---|
+| 1981-01-06 | Colpo per colpo |
 | 1981-01-11 | [L'uomo della grande muraglia](https://www.imdb.com/title/tt1753918/) |
 | 1981-01-15 | [Colpo fatale](https://www.imdb.com/title/tt0186088/) |
 | 1981-04-03 | [Bruce Lee la tigre indomabile](https://www.imdb.com/title/tt0075167/) |
@@ -161,14 +163,17 @@ image: "/programmazione-storica/paesi-di-produzione/_index_files/figure-html/ita
 |  |  |
 |---|---|
 | 1985-01-22 | [Bruce Lee l'immortale campione](https://www.imdb.com/title/tt0165741/) |
-| 1985-12-13 | [Bruce Lee l'invincibile del kung fu](https://www.imdb.com/title/tt0081216/) |
+| 1985-03-23 | [Bruce Lee l'invincibile del kung fu](https://www.imdb.com/title/tt0081216/) |
+| 1985-05-04 | [Tron](https://www.imdb.com/title/tt0084827/) |
 | 1985-12-27 | [Bruce Lee la tigre indomabile](https://www.imdb.com/title/tt0075167/) |
 
 ### 1986
 
 |  |  |
 |---|---|
+| 1986-03-08 | [Bruce Lee la tigre indomabile](https://www.imdb.com/title/tt0075167/) |
 | 1986-03-08 | [L'urlo di Bruce Lee terrorizza ancora](https://www.imdb.com/title/tt0196113/) |
+| 1986-04-19 | [L'urlo di Bruce Lee terrorizza ancora](https://www.imdb.com/title/tt0196113/) |
 | 1986-12-13 | [Bruce Lee l'immortale campione](https://www.imdb.com/title/tt0165741/) |
 
 ### 1987
@@ -176,7 +181,9 @@ image: "/programmazione-storica/paesi-di-produzione/_index_files/figure-html/ita
 |  |  |
 |---|---|
 | 1987-01-17 | [Bruce Lee il leggendario](https://www.imdb.com/title/tt0082673/) |
+| 1987-01-31 | [Il colpo maestro di Bruce Lee](https://www.imdb.com/title/tt0122029/) |
 | 1987-05-16 | [Bruce Lee il leggendario](https://www.imdb.com/title/tt0082673/) |
+| 1987-11-14 | [Bruce Lee il dominatore](https://www.imdb.com/title/tt0074246/) |
 
 ### 2001
 

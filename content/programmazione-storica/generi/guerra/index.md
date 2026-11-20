@@ -21,6 +21,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1948-05-14 | [Montecassino](https://www.imdb.com/title/tt0038748/) |
 | 1948-10-09 | [Passaggio conteso](https://www.imdb.com/title/tt0031234/) |
 | 1948-11-19 | [Due ragazze e un marinaio](https://www.imdb.com/title/tt0037408/) |
+| 1948-12-02 | [Balalaika](https://www.imdb.com/title/tt0031074/) |
 | 1948-12-10 | [Vogliamo Vivere!](https://www.imdb.com/title/tt0035446/) |
 | 1948-12-31 | [Le chiavi del paradiso](https://www.imdb.com/title/tt0036983/) |
 
@@ -234,6 +235,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1964-12-09 | [La città prigioniera](https://www.imdb.com/title/tt0055851/) |
 | 1964-12-13 | [L'eroe di Sparta](https://www.imdb.com/title/tt0055719/) |
 | 1964-12-16 | [Affondate la Bismarck!](https://www.imdb.com/title/tt0054310/) |
+| 1964-12-25 | [Perseo l'invincibile](https://www.imdb.com/title/tt0056343/) |
 
 ### 1965
 
@@ -279,6 +281,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1966-07-14 | [I senza paura](https://www.imdb.com/title/tt0055260/) |
 | 1966-07-30 | [Zulu](https://www.imdb.com/title/tt0058777/) |
 | 1966-08-13 | [Attila](https://www.imdb.com/title/tt0046731/) |
+| 1966-09-08 | [Il federale](https://www.imdb.com/title/tt0054870/) |
 | 1966-10-15 | [Minnesota Clay](https://www.imdb.com/title/tt0058202/) |
 | 1966-10-19 | [L'armata delle belve](https://www.imdb.com/title/tt0059638/) |
 | 1966-10-28 | [Marines Battleground](https://www.imdb.com/title/tt0239594/) |
@@ -299,6 +302,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1967-07-10 | [Tra due fuochi](https://www.imdb.com/title/tt0058323/) |
 | 1967-07-27 | [Gli eroi di Antropoid](https://www.imdb.com/title/tt0174476/) |
 | 1967-08-09 | [Orgoglio e passione](https://www.imdb.com/title/tt0050858/) |
+| 1967-08-27 | [L'ultimo gladiatore](https://www.imdb.com/title/tt0058345/) |
 | 1967-11-01 | [La conquista del West](https://www.imdb.com/title/tt0056085/) |
 
 ### 1968

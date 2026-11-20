@@ -87,6 +87,12 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 |---|---|
 | 1978-04-30 | [Uomini e squali](https://www.imdb.com/title/tt0214258/) |
 
+### 1986
+
+|  |  |
+|---|---|
+| 1986-01-01 | [Exhibition 80](https://www.imdb.com/title/tt0424074/) |
+
 ### 1987
 
 |  |  |
@@ -97,5 +103,6 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 
 |  |  |
 |---|---|
+| 1989-09-24 | [Gattine in amore](https://www.imdb.com/title/tt0189511/) |
 | 1989-10-10 | [Mondo cane 2000 - L'incredibile](https://www.imdb.com/title/tt0140385/) |
 

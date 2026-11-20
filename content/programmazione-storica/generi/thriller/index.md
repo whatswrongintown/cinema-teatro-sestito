@@ -33,8 +33,8 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1950-01-28 | [Il castello di Dragonwyck](https://www.imdb.com/title/tt0038492/) |
 | 1950-02-01 | [Il castello di Dragonwyck](https://www.imdb.com/title/tt0038492/) |
 | 1950-02-07 | [Duello col pirata nero](https://www.imdb.com/title/tt0030725/) |
-| 1950-02-11 | [Duello mortale](https://www.imdb.com/title/tt0033873/) |
 | 1950-02-11 | [Duello col pirata nero](https://www.imdb.com/title/tt0030725/) |
+| 1950-02-11 | [Duello mortale](https://www.imdb.com/title/tt0033873/) |
 | 1950-02-14 | [Duello mortale](https://www.imdb.com/title/tt0033873/) |
 | 1950-02-25 | [Il 13 non risponde](https://www.imdb.com/title/tt0038279/) |
 | 1950-02-28 | [Vita rubata](https://www.imdb.com/title/tt0038813/) |
@@ -199,6 +199,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1963-02-09 | [I 39 scalini](https://www.imdb.com/title/tt0053354/) |
 | 1963-02-12 | [Caccia all'uomo](https://www.imdb.com/title/tt0054712/) |
 | 1963-05-27 | [Furto alla banca d'Inghilterra](https://www.imdb.com/title/tt0053752/) |
+| 1963-06-16 | [Il trionfo di Maciste](https://www.imdb.com/title/tt0149295/) |
 | 1963-07-01 | [Acqua alla gola](https://www.imdb.com/title/tt0050246/) |
 | 1963-07-09 | [Le colline dell'odio](https://www.imdb.com/title/tt0052563/) |
 | 1963-07-16 | [La maschera di Frankenstein](https://www.imdb.com/title/tt0050280/) |
@@ -241,6 +242,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1965-10-06 | [I sicari di Hitler](https://www.imdb.com/title/tt0138461/) |
 | 1965-10-08 | [L'attimo della violenza](https://www.imdb.com/title/tt0056044/) |
 | 1965-10-22 | [Forza bruta](https://www.imdb.com/title/tt0039224/) |
+| 1965-11-12 | [X 21 spionaggio atomico](https://www.imdb.com/title/tt0058334/) |
 | 1965-11-23 | [Sette giorni a maggio](https://www.imdb.com/title/tt0058576/) |
 | 1965-12-02 | [Destino in agguato](https://www.imdb.com/title/tt0058091/) |
 | 1965-12-10 | [L'arma del delitto](https://www.imdb.com/title/tt0051184/) |
@@ -267,6 +269,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1966-08-03 | [Maigret e i gangsters](https://www.imdb.com/title/tt0057278/) |
 | 1966-08-08 | [Testimone d'accusa](https://www.imdb.com/title/tt0051201/) |
 | 1966-09-23 | [Missione in oriente - Il brutto americano](https://www.imdb.com/title/tt0056632/) |
+| 1966-10-29 | [A 117 colpo grosso a Los Angeles](https://www.imdb.com/title/tt0268576/) |
 | 1966-11-02 | [Larry, agente segreto](https://www.imdb.com/title/tt0053018/) |
 | 1966-12-07 | [Furto alla banca d'Inghilterra](https://www.imdb.com/title/tt0053752/) |
 | 1966-12-27 | [Io uccido, tu uccidi](https://www.imdb.com/title/tt0059317/) |
@@ -287,10 +290,12 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1967-04-10 | [Il limite della vergogna](https://www.imdb.com/title/tt0056656/) |
 | 1967-04-16 | [Oss 117 furia a Bahia](https://www.imdb.com/title/tt0059206/) |
 | 1967-04-19 | [Chi giace nella mia bara?](https://www.imdb.com/title/tt0057997/) |
+| 1967-04-24 | [Argos alla riscossa](https://www.imdb.com/title/tt0055408/) |
 | 1967-05-05 | [OSS 117 segretissimo](https://www.imdb.com/title/tt0141673/) |
 | 1967-06-05 | [Destino in agguato](https://www.imdb.com/title/tt0058091/) |
 | 1967-06-25 | [Superseven chiama Cairo](https://www.imdb.com/title/tt0061045/) |
 | 1967-07-27 | [Gli eroi di Antropoid](https://www.imdb.com/title/tt0174476/) |
+| 1967-09-05 | [Ulisse contro Ercole](https://www.imdb.com/title/tt0055564/) |
 | 1967-09-07 | [Le quattro chiavi](https://www.imdb.com/title/tt0059876/) |
 | 1967-09-13 | [Agente H.A.R.M.](https://www.imdb.com/title/tt0060074/) |
 | 1967-09-14 | [U-112 assalto al Queen Mary](https://www.imdb.com/title/tt0060135/) |
@@ -386,6 +391,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1970-03-25 | [Niente rose per OSS 117](https://www.imdb.com/title/tt0062099/) |
 | 1970-04-08 | [Facce per l'inferno](https://www.imdb.com/title/tt0063402/) |
 | 1970-04-21 | [Sinfonia per un massacro](https://www.imdb.com/title/tt0057549/) |
+| 1970-08-25 | [Ulisse contro Ercole](https://www.imdb.com/title/tt0055564/) |
 | 1970-09-02 | [Le spie uccidono a Beirut](https://www.imdb.com/title/tt0061012/) |
 | 1970-10-09 | [Sepolto vivo](https://www.imdb.com/title/tt0056368/) |
 | 1970-11-01 | [Samoa, regina della giungla](https://www.imdb.com/title/tt0063537/) |
@@ -583,6 +589,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1977-10-21 | [Stupro](https://www.imdb.com/title/tt0074802/) |
 | 1977-10-25 | [Oedipus orca](https://www.imdb.com/title/tt0897431/) |
 | 1977-10-27 | [Intimità proibite](https://www.imdb.com/title/tt0072265/) |
+| 1977-10-28 | [Il trionfo di Maciste](https://www.imdb.com/title/tt0149295/) |
 | 1977-10-30 | [Mako - Lo squalo della morte](https://www.imdb.com/title/tt0074845/) |
 | 1977-11-18 | [Cielo di piombo, ispettore Callaghan](https://www.imdb.com/title/tt0074483/) |
 | 1977-11-27 | [La pattuglia dei dobermann al servizio della legge](https://www.imdb.com/title/tt0070828/) |
@@ -633,7 +640,6 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1979-05-06 | [La mala ordina](https://www.imdb.com/title/tt0068902/) |
 | 1979-09-25 | [La ragazza dal pigiama giallo](https://www.imdb.com/title/tt0075834/) |
 | 1979-10-04 | [Diamanti sporchi di sangue](https://www.imdb.com/title/tt0075940/) |
-| 1979-10-17 | [La donna della calda terra](https://www.imdb.com/title/tt0077958/) |
 | 1979-10-25 | [Professoressa facciamo l'amore](https://www.imdb.com/title/tt0072260/) |
 | 1979-11-04 | [Dogs - Questo cane uccide!](https://www.imdb.com/title/tt0074419/) |
 | 1979-11-18 | [Il commissario di ferro](https://www.imdb.com/title/tt0077363/) |
@@ -702,6 +708,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1983-01-29 | [Solo per i tuoi occhi](https://www.imdb.com/title/tt0082398/) |
 | 1983-02-06 | [L'altro inferno](https://www.imdb.com/title/tt0080362/) |
 | 1983-02-09 | [I falchi della notte](https://www.imdb.com/title/tt0082817/) |
+| 1983-02-12 | [Il giorno del Cobra](https://www.imdb.com/title/tt0082451/) |
 | 1983-02-19 | [Il grande ruggito](https://www.imdb.com/title/tt0083001/) |
 | 1983-02-23 | [Provincia violenta](https://www.imdb.com/title/tt0195192/) |
 | 1983-03-03 | [Calore nel ventre](https://www.imdb.com/title/tt0288704/) |
@@ -720,13 +727,16 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1984-01-11 | [Chi vive in quella casa?](https://www.imdb.com/title/tt0077357/) |
 | 1984-01-22 | [I nuovi barbari](https://www.imdb.com/title/tt0084424/) |
 | 1984-02-18 | [Interceptor - Il guerriero della strada](https://www.imdb.com/title/tt0082694/) |
+| 1984-03-03 | [Benedizione mortale](https://www.imdb.com/title/tt0082245/) |
 | 1984-03-23 | [Vigilante](https://www.imdb.com/title/tt0084867/) |
 | 1984-03-24 | [Pornofantasie di un superdotato](https://www.imdb.com/title/tt0127161/) |
 | 1984-04-01 | [La ragazza di Trieste](https://www.imdb.com/title/tt0086165/) |
 | 1984-04-17 | [Bad Boys](https://www.imdb.com/title/tt0085210/) |
 | 1984-10-02 | [I vendicatori della notte](https://www.imdb.com/title/tt0086625/) |
+| 1984-10-15 | [Carnalità](https://www.imdb.com/title/tt0071280/) |
 | 1984-11-04 | [Rambo](https://www.imdb.com/title/tt0083944/) |
 | 1984-11-25 | [Eroticofollia (Malocchio)](https://www.imdb.com/title/tt0071471/) |
+| 1984-12-22 | [Il corpo](https://www.imdb.com/title/tt0071362/) |
 
 ### 1985
 
@@ -735,6 +745,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1985-02-17 | [Calore nel ventre](https://www.imdb.com/title/tt0288704/) |
 | 1985-03-24 | [Ninja la furia umana](https://www.imdb.com/title/tt0086192/) |
 | 1985-09-15 | [Il peccato di Lola](https://www.imdb.com/title/tt0089790/) |
+| 1985-10-04 | [Un corpo da vendere](https://www.imdb.com/title/tt0289511/) |
 | 1985-10-07 | [Rombo di tuono](https://www.imdb.com/title/tt0087727/) |
 | 1985-10-15 | [Pizza Connection](https://www.imdb.com/title/tt0089813/) |
 | 1985-10-19 | [Una magnum per McQuade](https://www.imdb.com/title/tt0085862/) |
@@ -771,6 +782,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1987-02-22 | [Il nome della rosa](https://www.imdb.com/title/tt0091605/) |
 | 1987-03-21 | [L'assassino è ancora tra noi](https://www.imdb.com/title/tt0088745/) |
 | 1987-03-28 | [Sensi](https://www.imdb.com/title/tt0091921/) |
+| 1987-04-04 | [L'invincibile ninja](https://www.imdb.com/title/tt0082332/) |
 | 1987-05-02 | [A 30 secondi dalla fine](https://www.imdb.com/title/tt0089941/) |
 | 1987-08-12 | [Rambo 2 - La vendetta](https://www.imdb.com/title/tt0089880/) |
 | 1987-08-13 | [Aliens - Scontro finale](https://www.imdb.com/title/tt0090605/) |
@@ -785,6 +797,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 |---|---|
 | 1988-01-01 | [Codice Magnum](https://www.imdb.com/title/tt0091828/) |
 | 1988-01-02 | [Cobra](https://www.imdb.com/title/tt0090859/) |
+| 1988-01-10 | [Il corpo](https://www.imdb.com/title/tt0071362/) |
 | 1988-01-21 | [Arma letale](https://www.imdb.com/title/tt0093409/) |
 | 1988-02-14 | [Beverly Hills Cop II - Un piedipiatti a Beverly Hills II](https://www.imdb.com/title/tt0092644/) |
 | 1988-02-19 | [L'attrazione](https://www.imdb.com/title/tt0092592/) |
@@ -869,7 +882,6 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1993-03-07 | [Guardia del corpo](https://www.imdb.com/title/tt0103855/) |
 | 1993-10-19 | [Accerchiato](https://www.imdb.com/title/tt0107711/) |
 | 1993-10-24 | [RoboCop 3](https://www.imdb.com/title/tt0107978/) |
-| 1993-10-27 | [Jurassic Park](https://www.imdb.com/title/tt0107290/) |
 | 1993-11-07 | [Il fuggitivo](https://www.imdb.com/title/tt0106977/) |
 | 1993-11-21 | [La metà oscura](https://www.imdb.com/title/tt0106664/) |
 | 1993-12-19 | [Cimitero vivente 2](https://www.imdb.com/title/tt0105128/) |

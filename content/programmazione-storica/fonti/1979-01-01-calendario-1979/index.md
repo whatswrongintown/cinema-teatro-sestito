@@ -162,5 +162,7 @@ lastmod: '2026-11-18'
 | 1979-12-18 | [Messaggi da forze sconosciute](https://www.imdb.com/title/tt0078975/) |
 | 1979-12-23 | [Aquila Grigia il grande capo dei Cheyenne](https://www.imdb.com/title/tt0077630/) |
 | 1979-12-25 | [Incredibile viaggio verso l'ignoto](https://www.imdb.com/title/tt0072951/) |
+| 1979-12-26 | Pornoexhibition |
 | 1979-12-28 | [Abissi](https://www.imdb.com/title/tt0075925/) |
 | 1979-12-30 | [Shalako](https://www.imdb.com/title/tt0063592/) |
+

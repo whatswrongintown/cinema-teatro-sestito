@@ -49,3 +49,9 @@ image: "/programmazione-storica/paesi-di-produzione/_index_files/figure-html/ita
 |---|---|
 | 1984-01-10 | [L'ultima sfida di Bruce Lee](https://www.imdb.com/title/tt0076709/) |
 
+### 1986
+
+|  |  |
+|---|---|
+| 1986-02-14 | [Bruce Lee l'indistruttibile](https://www.imdb.com/title/tt0336163/) |
+

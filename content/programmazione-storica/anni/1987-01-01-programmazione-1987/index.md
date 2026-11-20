@@ -32,10 +32,11 @@ I voti IMDb descrivono le valutazioni degli utenti IMDb, non il pubblico o gli i
 | 1987-01-10 | [Chi è sepolto in quella casa?](https://www.imdb.com/title/tt0091223/) |
 | 1987-01-13 | [Il mostro di Firenze](https://www.imdb.com/title/tt0188071/) |
 | 1987-01-17 | [Bruce Lee il leggendario](https://www.imdb.com/title/tt0082673/) |
-| 1987-01-18 | [Dèmoni 2... l'incubo ritorna](https://www.imdb.com/title/tt0090930/) |
 | 1987-01-18 | [Bestialità](https://www.imdb.com/title/tt0074201/) |
-| 1987-01-25 | [Marina](https://www.imdb.com/title/tt1227879/) |
+| 1987-01-18 | [Dèmoni 2... l'incubo ritorna](https://www.imdb.com/title/tt0090930/) |
 | 1987-01-25 | [Cobra](https://www.imdb.com/title/tt0090859/) |
+| 1987-01-25 | [Marina](https://www.imdb.com/title/tt1227879/) |
+| 1987-01-31 | [Il colpo maestro di Bruce Lee](https://www.imdb.com/title/tt0122029/) |
 | 1987-01-31 | [Bruce Lee terrore d'oriente](https://www.imdb.com/title/tt0201175/) |
 
 ### Febbraio
@@ -44,8 +45,8 @@ I voti IMDb descrivono le valutazioni degli utenti IMDb, non il pubblico o gli i
 |:----------|:--------------------------------------|
 | 1987-02-01 | [Lussuria](https://www.imdb.com/title/tt0091454/) |
 | 1987-02-08 | [Scuola di polizia 3: Tutto da rifare](https://www.imdb.com/title/tt0091777/) |
-| 1987-02-15 | [Il burbero](https://www.imdb.com/title/tt0092709/) |
 | 1987-02-15 | [La venexiana](https://www.imdb.com/title/tt0092157/) |
+| 1987-02-15 | [Il burbero](https://www.imdb.com/title/tt0092709/) |
 | 1987-02-21 | [French Erotica](https://www.imdb.com/title/tt0211597/) |
 | 1987-02-22 | [Il nome della rosa](https://www.imdb.com/title/tt0091605/) |
 | 1987-02-22 | [Noi e l'amore - comportamento sessuale variante](https://www.imdb.com/title/tt0198836/) |
@@ -57,11 +58,13 @@ I voti IMDb descrivono le valutazioni degli utenti IMDb, non il pubblico o gli i
 | 1987-03-01 | [Top Gun](https://www.imdb.com/title/tt0092099/) |
 | 1987-03-01 | [Oriental Hawaii](https://www.imdb.com/title/tt0188984/) |
 | 1987-03-12 | [Banane al cioccolato](https://www.imdb.com/title/tt0204873/) |
-| 1987-03-15 | [7 chili in 7 giorni](https://www.imdb.com/title/tt0091925/) |
+| 1987-03-13 | [I peccati di una monaca](https://www.imdb.com/title/tt0076205/) |
 | 1987-03-15 | [La monaca nel peccato](https://www.imdb.com/title/tt0091539/) |
+| 1987-03-15 | [7 chili in 7 giorni](https://www.imdb.com/title/tt0091925/) |
 | 1987-03-21 | [L'assassino è ancora tra noi](https://www.imdb.com/title/tt0088745/) |
-| 1987-03-22 | [Karate Kid II - La storia continua...](https://www.imdb.com/title/tt0091326/) |
 | 1987-03-22 | [Safari d'amore](https://www.imdb.com/title/tt0087916/) |
+| 1987-03-22 | [Karate Kid II - La storia continua...](https://www.imdb.com/title/tt0091326/) |
+| 1987-03-22 | [Dal Giappone con furore](https://www.imdb.com/title/tt0164750/) |
 | 1987-03-28 | [Sensi](https://www.imdb.com/title/tt0091921/) |
 | 1987-03-29 | [Grosso guaio a Chinatown](https://www.imdb.com/title/tt0090728/) |
 
@@ -69,6 +72,7 @@ I voti IMDb descrivono le valutazioni degli utenti IMDb, non il pubblico o gli i
 
 |           |                                       |
 |:----------|:--------------------------------------|
+| 1987-04-04 | [L'invincibile ninja](https://www.imdb.com/title/tt0082332/) |
 | 1987-04-04 | [Guerriero americano](https://www.imdb.com/title/tt0088708/) |
 | 1987-04-05 | [Shanghai Surprise](https://www.imdb.com/title/tt0091934/) |
 | 1987-04-11 | [La bonne](https://www.imdb.com/title/tt0090763/) |
@@ -82,9 +86,11 @@ I voti IMDb descrivono le valutazioni degli utenti IMDb, non il pubblico o gli i
 |           |                                       |
 |:----------|:--------------------------------------|
 | 1987-05-02 | [A 30 secondi dalla fine](https://www.imdb.com/title/tt0089941/) |
-| 1987-05-03 | [Italian Fast Food](https://www.imdb.com/title/tt0179905/) |
 | 1987-05-03 | [Femmine scatenate](https://www.imdb.com/title/tt0081596/) |
+| 1987-05-03 | [Italian Fast Food](https://www.imdb.com/title/tt0179905/) |
+| 1987-05-10 | [Forza: 5](https://www.imdb.com/title/tt0082399/) |
 | 1987-05-10 | [I 5 della squadra d'assalto](https://www.imdb.com/title/tt0090693/) |
+| 1987-05-16 | [Bruce Lee il campione](https://www.imdb.com/title/tt0062936/) |
 | 1987-05-16 | [Bruce Lee il leggendario](https://www.imdb.com/title/tt0082673/) |
 | 1987-05-17 | [Noi uomini duri](https://www.imdb.com/title/tt0093645/) |
 | 1987-05-31 | [Platoon](https://www.imdb.com/title/tt0091763/) |
@@ -130,6 +136,7 @@ I voti IMDb descrivono le valutazioni degli utenti IMDb, non il pubblico o gli i
 | 1987-10-10 | [Nessuna pietà](https://www.imdb.com/title/tt0091637/) |
 | 1987-10-11 | [Babe](https://www.imdb.com/title/tt0083606/) |
 | 1987-10-17 | [Porno anomalia](https://www.imdb.com/title/tt0263626/) |
+| 1987-10-18 | [Corpi d'amore porno](https://www.imdb.com/title/tt0076235/) |
 | 1987-10-18 | [Super Fantozzi](https://www.imdb.com/title/tt0090101/) |
 | 1987-10-24 | [America di notte 2 (Mondo Sexualis USA)](https://www.imdb.com/title/tt0276340/) |
 | 1987-10-25 | [Predator](https://www.imdb.com/title/tt0093773/) |
@@ -147,12 +154,14 @@ I voti IMDb descrivono le valutazioni degli utenti IMDb, non il pubblico o gli i
 | 1987-11-08 | [Telefono rosso](https://www.imdb.com/title/tt0210330/) |
 | 1987-11-12 | [I barbari](https://www.imdb.com/title/tt0092615/) |
 | 1987-11-13 | [Senza limiti](https://www.imdb.com/title/tt0076197/) |
+| 1987-11-14 | [Bruce Lee il dominatore](https://www.imdb.com/title/tt0074246/) |
 | 1987-11-15 | [Il caso Moro](https://www.imdb.com/title/tt0090805/) |
 | 1987-11-15 | [Supermaschio per mogli viziose](https://www.imdb.com/title/tt0157532/) |
 | 1987-11-21 | [Spettri](https://www.imdb.com/title/tt0094015/) |
 | 1987-11-22 | [Rimini Rimini](https://www.imdb.com/title/tt0093864/) |
 | 1987-11-26 | [Il portiere di notte](https://www.imdb.com/title/tt0071910/) |
 | 1987-11-29 | [La casa 2](https://www.imdb.com/title/tt0092991/) |
+| 1987-11-29 | Movie Fantasy |
 
 ### Dicembre
 
@@ -167,5 +176,5 @@ I voti IMDb descrivono le valutazioni degli utenti IMDb, non il pubblico o gli i
 | 1987-12-27 | [L'iniziazione](https://www.imdb.com/title/tt0092995/) |
 | 1987-12-27 | [Marilyn, mon amour](https://www.imdb.com/title/tt0143615/) |
 
-[^1]: Fonti: [Calendario 1987]({{< relref "programmazione-storica/fonti/1987-01-01-calendario-1987/index.md" >}}), [CIF 1986-87]({{< relref "programmazione-storica/fonti/1986-09-01-appunti-cif-1986-87/index.md" >}}), [CIF 1987-88]({{< relref "programmazione-storica/fonti/1987-06-01-appunti-cif-1987-88/index.md" >}}), [Rubrica 1984-92]({{< relref "programmazione-storica/fonti/1984-01-01-rubrica-1984-92/index.md" >}})
+[^1]: Fonti: [Calendario 1987]({{< relref "programmazione-storica/fonti/1987-01-01-calendario-1987/index.md" >}}), [CIF 1986-87]({{< relref "programmazione-storica/fonti/1986-09-01-appunti-cif-1986-87/index.md" >}}), [CIF 1987-88]({{< relref "programmazione-storica/fonti/1987-06-01-appunti-cif-1987-88/index.md" >}}), [Note sui manifesti]({{< relref "programmazione-storica/fonti/1965-01-01-note-sui-manifesti/index.md" >}}), [Rubrica 1984-92]({{< relref "programmazione-storica/fonti/1984-01-01-rubrica-1984-92/index.md" >}})
 

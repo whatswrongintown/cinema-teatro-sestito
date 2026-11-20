@@ -263,6 +263,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 |---|---|
 | 1982-01-02 | [Uno sceriffo extraterrestre... poco extra e molto terrestre](https://www.imdb.com/title/tt0079859/) |
 | 1982-01-11 | [Incubo sulla città contaminata](https://www.imdb.com/title/tt0080931/) |
+| 1982-02-06 | [L'uomo puma](https://www.imdb.com/title/tt0081693/) |
 | 1982-09-04 | [Flash Gordon](https://www.imdb.com/title/tt0080745/) |
 | 1982-11-19 | [La rivincita dell'incredibile Hulk](https://www.imdb.com/title/tt0095368/) |
 | 1982-12-18 | [Patrick vive ancora](https://www.imdb.com/title/tt0081314/) |
@@ -289,6 +290,8 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 
 |  |  |
 |---|---|
+| 1985-04-03 | [2019 - Dopo la caduta di New York](https://www.imdb.com/title/tt0085125/) |
+| 1985-05-04 | [Tron](https://www.imdb.com/title/tt0084827/) |
 | 1985-09-21 | [Il ritorno dei morti viventi](https://www.imdb.com/title/tt0089907/) |
 | 1985-11-18 | [Terminator](https://www.imdb.com/title/tt0088247/) |
 | 1985-12-09 | [Ghostbusters (Acchiappafantasmi)](https://www.imdb.com/title/tt0087332/) |

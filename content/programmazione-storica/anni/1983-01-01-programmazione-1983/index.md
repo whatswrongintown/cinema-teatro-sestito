@@ -31,6 +31,7 @@ I voti IMDb descrivono le valutazioni degli utenti IMDb, non il pubblico o gli i
 | 1983-01-09 | [La pagella](https://www.imdb.com/title/tt0081297/) |
 | 1983-01-11 | [Il furore della Cina colpisce ancora](https://www.imdb.com/title/tt0067824/) |
 | 1983-01-12 | [La viziosa (Experiences)](https://www.imdb.com/title/tt0082707/) |
+| 1983-01-12 | Le viziose, la viziosa |
 | 1983-01-15 | [L'assoluzione](https://www.imdb.com/title/tt0083232/) |
 | 1983-01-16 | [Zombi 3 (Non si deve profanare il sonno dei morti)](https://www.imdb.com/title/tt0071431/) |
 | 1983-01-17 | [Topo d'albergo (La fureur sexuelle)](https://www.imdb.com/title/tt1180766/) |
@@ -41,6 +42,7 @@ I voti IMDb descrivono le valutazioni degli utenti IMDb, non il pubblico o gli i
 | 1983-01-23 | [Justine (Le porno libidini di Justine)](https://www.imdb.com/title/tt0079385/) |
 | 1983-01-27 | [I cavalieri dalle lunghe ombre](https://www.imdb.com/title/tt0081071/) |
 | 1983-01-29 | [Solo per i tuoi occhi](https://www.imdb.com/title/tt0082398/) |
+| 1983-01-30 | [Porno libido](https://www.imdb.com/title/tt0077777/) |
 | 1983-01-30 | [Il marchese del Grillo](https://www.imdb.com/title/tt0082714/) |
 | 1983-01-31 | [Le calde ragazze di Amburgo (Kohlpiesels Töchter)](https://www.imdb.com/title/tt0181630/) |
 
@@ -111,6 +113,7 @@ I voti IMDb descrivono le valutazioni degli utenti IMDb, non il pubblico o gli i
 | 1983-09-24 | [Compleanno di sangue](https://www.imdb.com/title/tt0082498/) |
 | 1983-09-25 | [Il “giornalista”… e la sua star (Une si jolie petite chatte)](https://www.imdb.com/title/tt8391724/) |
 | 1983-09-29 | [Sweet savage - Dolce selvaggia](https://www.imdb.com/title/tt0079975/) |
+| 1983-09-30 | [Le notti di Salem](https://www.imdb.com/title/tt0079844/) |
 
 ### Ottobre
 
@@ -119,8 +122,10 @@ I voti IMDb descrivono le valutazioni degli utenti IMDb, non il pubblico o gli i
 | 1983-10-09 | [Love sensation](https://www.imdb.com/title/tt0078499/) |
 | 1983-10-11 | [L'uomo della verità (Il vero e il falso)](https://www.imdb.com/title/tt0067941/) |
 | 1983-10-13 | [Mia moglie torna a scuola](https://www.imdb.com/title/tt0082742/) |
+| 1983-10-15 | Porno amore bagnato |
 | 1983-10-16 | [Conan il barbaro](https://www.imdb.com/title/tt0082198/) |
 | 1983-10-20 | [Mia moglie l'eroticissima](https://www.imdb.com/title/tt0178656/) |
+| 1983-10-21 | [Pornografia campagnola](https://www.imdb.com/title/tt0079796/) |
 | 1983-10-22 | [Sesso acerbo](https://www.imdb.com/title/tt0196089/) |
 | 1983-10-23 | [Terrore in città](https://www.imdb.com/title/tt0084684/) |
 | 1983-10-27 | [La selvaggia mano di Bruce Lee](https://www.imdb.com/title/tt0420278/) |
@@ -142,6 +147,7 @@ I voti IMDb descrivono le valutazioni degli utenti IMDb, non il pubblico o gli i
 | 1983-11-19 | [Il Falcone](https://www.imdb.com/title/tt0082356/) |
 | 1983-11-20 | [L'etrusco uccide ancora](https://www.imdb.com/title/tt0068625/) |
 | 1983-11-21 | [Bruce Lee vive ancora](https://www.imdb.com/title/tt0082107/) |
+| 1983-11-22 | La porcellona |
 | 1983-11-24 | [Squadra antimafia](https://www.imdb.com/title/tt0078312/) |
 | 1983-11-26 | [Poltergeist - Demoniache presenze](https://www.imdb.com/title/tt0084516/) |
 | 1983-11-27 | [Morbosità di una orientale](https://www.imdb.com/title/tt0192224/) |
@@ -152,8 +158,9 @@ I voti IMDb descrivono le valutazioni degli utenti IMDb, non il pubblico o gli i
 
 |           |                                       |
 |:----------|:--------------------------------------|
-| 1983-12-04 | [Sesso infuocato](https://www.imdb.com/title/tt0271502/) |
 | 1983-12-04 | [La bestia in calore](https://www.imdb.com/title/tt0076649/) |
+| 1983-12-04 | [Sesso profondo](https://www.imdb.com/title/tt0137539/) |
+| 1983-12-04 | [Sesso infuocato](https://www.imdb.com/title/tt0271502/) |
 | 1983-12-08 | [Josephine - Paradiso erotico](https://www.imdb.com/title/tt0082037/) |
 | 1983-12-10 | [California](https://www.imdb.com/title/tt0075796/) |
 | 1983-12-11 | [Erotic Super Love](https://www.imdb.com/title/tt1234673/) |
@@ -163,5 +170,5 @@ I voti IMDb descrivono le valutazioni degli utenti IMDb, non il pubblico o gli i
 | 1983-12-27 | [L'esorcista](https://www.imdb.com/title/tt0070047/) |
 | 1983-12-30 | [La lussuria (Luxure)](https://www.imdb.com/title/tt0074830/) |
 
-[^1]: Fonti: [Calendario 1983]({{< relref "programmazione-storica/fonti/1983-01-01-calendario-1983/index.md" >}}), [Rubrica 1982-83]({{< relref "programmazione-storica/fonti/1982-01-01-rubrica-1982-83/index.md" >}})
+[^1]: Fonti: [Calendario 1983]({{< relref "programmazione-storica/fonti/1983-01-01-calendario-1983/index.md" >}}), [Note sui manifesti]({{< relref "programmazione-storica/fonti/1965-01-01-note-sui-manifesti/index.md" >}}), [Rubrica 1982-83]({{< relref "programmazione-storica/fonti/1982-01-01-rubrica-1982-83/index.md" >}})
 

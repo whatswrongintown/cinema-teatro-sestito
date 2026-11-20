@@ -92,6 +92,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1956-05-21 | [Colpevole di tradimento](https://www.imdb.com/title/tt0041437/) |
 | 1956-07-04 | [Lo sterminatore](https://www.imdb.com/title/tt0037644/) |
 | 1956-09-26 | [Processo in Vaticano - la vita di S. Teresa di Lisieux](https://www.imdb.com/title/tt0159676/) |
+| 1956-10-26 | [Davide e Betsabea](https://www.imdb.com/title/tt0043455/) |
 | 1956-12-15 | [Viva Zapata!](https://www.imdb.com/title/tt0045296/) |
 
 ### 1957
@@ -272,7 +273,6 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 |  |  |
 |---|---|
 | 1984-01-17 | [Bruce Lee supercampione](https://www.imdb.com/title/tt0077850/) |
-| 1984-02-04 | [Casanova II](https://www.imdb.com/title/tt0188486/) |
 
 ### 1985
 
@@ -297,13 +297,13 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 |  |  |
 |---|---|
 | 1989-03-22 | [Don Bosco](https://www.imdb.com/title/tt0095051/) |
+| 1989-09-24 | [Gattine in amore](https://www.imdb.com/title/tt0189511/) |
 | 1989-11-16 | [Francesco](https://www.imdb.com/title/tt0097383/) |
 
 ### 1991
 
 |  |  |
 |---|---|
-| 1991-02-02 | [Senza esclusione di colpi](https://www.imdb.com/title/tt0092675/) |
 | 1991-12-15 | [The Doors](https://www.imdb.com/title/tt0101761/) |
 
 ### 1993

@@ -108,8 +108,8 @@ image: "/programmazione-storica/paesi-di-produzione/_index_files/figure-html/ita
 | 1949-10-07 | [Il lupo della Sila](https://www.imdb.com/title/tt0041609/) |
 | 1949-10-12 | [Le vie del peccato](https://www.imdb.com/title/tt0038220/) |
 | 1949-10-19 | [La mia canzone al vento](https://www.imdb.com/title/tt0031642/) |
-| 1949-10-21 | [Amori e veleni](https://www.imdb.com/title/tt0041119/) |
 | 1949-10-21 | [Casta Diva](https://www.imdb.com/title/tt0026188/) |
+| 1949-10-21 | [Amori e veleni](https://www.imdb.com/title/tt0041119/) |
 | 1949-10-23 | [Monaca santa](https://www.imdb.com/title/tt0037925/) |
 | 1949-10-27 | [Non canto più](https://www.imdb.com/title/tt0036214/) |
 | 1949-11-06 | [Campane a martello](https://www.imdb.com/title/tt0042303/) |
@@ -136,8 +136,8 @@ image: "/programmazione-storica/paesi-di-produzione/_index_files/figure-html/ita
 | 1950-01-20 | [Rosa di sangue](https://www.imdb.com/title/tt0031876/) |
 | 1950-01-24 | [Rosa di sangue](https://www.imdb.com/title/tt0031876/) |
 | 1950-01-27 | [Nennella](https://www.imdb.com/title/tt0040640/) |
-| 1950-02-03 | [Monaca santa](https://www.imdb.com/title/tt0037925/) |
 | 1950-02-03 | [Il conte di Montecristo](https://www.imdb.com/title/tt0035752/) |
+| 1950-02-03 | [Monaca santa](https://www.imdb.com/title/tt0037925/) |
 | 1950-02-10 | [Caccia all'uomo (miserabili)](https://www.imdb.com/title/tt0039629/) |
 | 1950-02-17 | [Il trovatore](https://www.imdb.com/title/tt0041991/) |
 | 1950-03-13 | [Il segreto di don Giovanni](https://www.imdb.com/title/tt0039809/) |
@@ -189,8 +189,8 @@ image: "/programmazione-storica/paesi-di-produzione/_index_files/figure-html/ita
 | 1951-02-08 | [Una lettera all'alba](https://www.imdb.com/title/tt0041588/) |
 | 1951-02-10 | [Amanti in fuga](https://www.imdb.com/title/tt0038297/) |
 | 1951-02-19 | [Una lettera all'alba](https://www.imdb.com/title/tt0041588/) |
-| 1951-03-11 | [Una voce nel tuo cuore](https://www.imdb.com/title/tt0045299/) |
 | 1951-03-11 | [Dopo divorzieremo](https://www.imdb.com/title/tt0032407/) |
+| 1951-03-11 | [Una voce nel tuo cuore](https://www.imdb.com/title/tt0045299/) |
 | 1951-03-16 | [La vita ricomincia](https://www.imdb.com/title/tt0038225/) |
 | 1951-03-26 | [La sepolta viva](https://www.imdb.com/title/tt0040774/) |
 | 1951-04-01 | [Caravaggio, il pittore maledetto](https://www.imdb.com/title/tt0032307/) |
@@ -332,8 +332,8 @@ image: "/programmazione-storica/paesi-di-produzione/_index_files/figure-html/ita
 | 1953-03-28 | [La scogliera del peccato](https://www.imdb.com/title/tt0042933/) |
 | 1953-04-04 | [Carne inquieta](https://www.imdb.com/title/tt0044484/) |
 | 1953-04-07 | [La vispa Teresa](https://www.imdb.com/title/tt0163897/) |
-| 1953-04-11 | [Carne inquieta](https://www.imdb.com/title/tt0044484/) |
 | 1953-04-11 | [La rivale dell'imperatrice](https://www.imdb.com/title/tt0041814/) |
+| 1953-04-11 | [Carne inquieta](https://www.imdb.com/title/tt0044484/) |
 | 1953-05-08 | [Le meravigliose avventure di Guerrin Meschino](https://www.imdb.com/title/tt0043799/) |
 | 1953-05-19 | [Io t'ho incontrata a Napoli](https://www.imdb.com/title/tt0038645/) |
 | 1953-05-22 | [L'ultima sentenza](https://www.imdb.com/title/tt0044161/) |
@@ -346,8 +346,8 @@ image: "/programmazione-storica/paesi-di-produzione/_index_files/figure-html/ita
 | 1953-06-24 | [La vispa Teresa](https://www.imdb.com/title/tt0163897/) |
 | 1953-06-27 | [La morte civile](https://www.imdb.com/title/tt0035084/) |
 | 1953-06-28 | [Filumena Marturano](https://www.imdb.com/title/tt0043533/) |
-| 1953-07-04 | [Filumena Marturano](https://www.imdb.com/title/tt0043533/) |
 | 1953-07-04 | [Il Cristo proibito](https://www.imdb.com/title/tt0042354/) |
+| 1953-07-04 | [Filumena Marturano](https://www.imdb.com/title/tt0043533/) |
 | 1953-07-06 | [La vispa Teresa](https://www.imdb.com/title/tt0163897/) |
 | 1953-07-10 | [Un'avventura di Salvator Rosa](https://www.imdb.com/title/tt0032229/) |
 | 1953-07-15 | [La vita ricomincia](https://www.imdb.com/title/tt0038225/) |
@@ -821,8 +821,8 @@ image: "/programmazione-storica/paesi-di-produzione/_index_files/figure-html/ita
 | 1960-11-19 | [Il padrone delle ferriere](https://www.imdb.com/title/tt0052042/) |
 | 1960-12-04 | [L'arciere nero](https://www.imdb.com/title/tt0052574/) |
 | 1960-12-08 | [Perfide.... ma belle](https://www.imdb.com/title/tt0053161/) |
-| 1960-12-12 | [Mogli pericolose](https://www.imdb.com/title/tt0051941/) |
 | 1960-12-12 | [Le insaziabili](https://www.imdb.com/title/tt0051780/) |
+| 1960-12-12 | [Mogli pericolose](https://www.imdb.com/title/tt0051941/) |
 | 1960-12-15 | [Sergente d'ispezione](https://www.imdb.com/title/tt0052184/) |
 
 ### 1961
@@ -996,6 +996,7 @@ image: "/programmazione-storica/paesi-di-produzione/_index_files/figure-html/ita
 | 1965-01-06 | [Golia e il cavaliere mascherato](https://www.imdb.com/title/tt0178515/) |
 | 1965-01-10 | [Zorro contro Maciste](https://www.imdb.com/title/tt0057467/) |
 | 1965-01-16 | [Il leggendario conquistatore](https://www.imdb.com/title/tt0059054/) |
+| 1965-01-28 | [Super rapina a Milano](https://www.imdb.com/title/tt0168201/) |
 | 1965-01-31 | [Maciste contro i Mongoli](https://www.imdb.com/title/tt0183449/) |
 | 1965-02-14 | [Il cavaliere di Maison Rouge](https://www.imdb.com/title/tt0045613/) |
 | 1965-02-21 | [D'Artagnan contro i 3 moschettieri](https://www.imdb.com/title/tt0167862/) |
@@ -1205,6 +1206,7 @@ image: "/programmazione-storica/paesi-di-produzione/_index_files/figure-html/ita
 | 1967-04-08 | [Ringo del Nebraska](https://www.imdb.com/title/tt0060901/) |
 | 1967-04-16 | [Oss 117 furia a Bahia](https://www.imdb.com/title/tt0059206/) |
 | 1967-04-17 | [Gli amori di Angelica](https://www.imdb.com/title/tt0063326/) |
+| 1967-04-22 | [Degueyo](https://www.imdb.com/title/tt0060296/) |
 | 1967-04-27 | [La sfida dei giganti](https://www.imdb.com/title/tt0275668/) |
 | 1967-05-04 | [3 colpi di Winchester per Ringo](https://www.imdb.com/title/tt0058861/) |
 | 1967-05-05 | [OSS 117 segretissimo](https://www.imdb.com/title/tt0141673/) |
@@ -1260,11 +1262,13 @@ image: "/programmazione-storica/paesi-di-produzione/_index_files/figure-html/ita
 | 1967-11-15 | [Assalto al tesoro di stato](https://www.imdb.com/title/tt0185891/) |
 | 1967-11-16 | [La calda preda](https://www.imdb.com/title/tt0060271/) |
 | 1967-11-22 | [Delitto d'amore](https://www.imdb.com/title/tt0058868/) |
+| 1967-11-26 | [Djurado](https://www.imdb.com/title/tt0061583/) |
 | 1967-11-28 | [Le notti della violenza](https://www.imdb.com/title/tt0060762/) |
 | 1967-12-08 | [Zorro il ribelle](https://www.imdb.com/title/tt0061218/) |
 | 1967-12-10 | [Un dollaro tra i denti](https://www.imdb.com/title/tt0060325/) |
 | 1967-12-13 | [Svegliati e uccidi](https://www.imdb.com/title/tt0061049/) |
 | 1967-12-16 | [Nessuno mi può giudicare](https://www.imdb.com/title/tt0060746/) |
+| 1967-12-21 | [L'harem](https://www.imdb.com/title/tt0063042/) |
 | 1967-12-23 | [Perdono](https://www.imdb.com/title/tt0060823/) |
 | 1967-12-25 | [Starblack](https://www.imdb.com/title/tt0222396/) |
 | 1967-12-26 | [Berlino appuntamento per le spie (Operazione Polifemo)](https://www.imdb.com/title/tt0061019/) |
@@ -1629,7 +1633,6 @@ image: "/programmazione-storica/paesi-di-produzione/_index_files/figure-html/ita
 | 1971-04-02 | [Spara, Gringo, spara](https://www.imdb.com/title/tt0066396/) |
 | 1971-04-04 | [Erik il vichingo](https://www.imdb.com/title/tt0059152/) |
 | 1971-04-07 | [Arizona si scatenò... e li fece fuori tutti!](https://www.imdb.com/title/tt0065422/) |
-| 1971-04-11 | [Le avventure di Ulisse](https://www.imdb.com/title/tt0064750/) |
 | 1971-04-14 | [L'uomo dalla maschera di ferro](https://www.imdb.com/title/tt0056228/) |
 | 1971-04-16 | [Le grandi vacanze](https://www.imdb.com/title/tt0060475/) |
 | 1971-04-18 | [Gungala la vergine della giungla](https://www.imdb.com/title/tt0178543/) |
@@ -2650,6 +2653,7 @@ image: "/programmazione-storica/paesi-di-produzione/_index_files/figure-html/ita
 | 1983-11-29 | [Gola profonda nera](https://www.imdb.com/title/tt0085605/) |
 | 1983-11-29 | [Peccati di giovani mogli](https://www.imdb.com/title/tt0131525/) |
 | 1983-12-04 | [La bestia in calore](https://www.imdb.com/title/tt0076649/) |
+| 1983-12-04 | [Sesso profondo](https://www.imdb.com/title/tt0137539/) |
 | 1983-12-10 | [California](https://www.imdb.com/title/tt0075796/) |
 
 ### 1984
@@ -2664,23 +2668,32 @@ image: "/programmazione-storica/paesi-di-produzione/_index_files/figure-html/ita
 | 1984-02-24 | [Vindicator (La guerra del ferro: Ironmaster)](https://www.imdb.com/title/tt0084036/) |
 | 1984-03-09 | [Perché non facciamo l'amore?](https://www.imdb.com/title/tt0084959/) |
 | 1984-03-10 | [Le ereditiere superporno](https://www.imdb.com/title/tt0193141/) |
+| 1984-03-31 | [State buoni se potete](https://www.imdb.com/title/tt0086358/) |
 | 1984-04-01 | [La ragazza di Trieste](https://www.imdb.com/title/tt0086165/) |
 | 1984-04-03 | [2019 - Dopo la caduta di New York](https://www.imdb.com/title/tt0085125/) |
 | 1984-04-06 | [Emy la minorenne (Quella porcacciona di mia moglie)](https://www.imdb.com/title/tt0190969/) |
+| 1984-04-14 | [Il vero e il falso](https://www.imdb.com/title/tt0067941/) |
 | 1984-04-28 | [La bestia in calore](https://www.imdb.com/title/tt0076649/) |
 | 1984-09-22 | [La verginella](https://www.imdb.com/title/tt0153521/) |
 | 1984-10-07 | [No... sono vergine!!](https://www.imdb.com/title/tt0146228/) |
 | 1984-10-13 | [La fine dell'innocenza](https://www.imdb.com/title/tt0072987/) |
+| 1984-10-15 | [Carnalità](https://www.imdb.com/title/tt0071280/) |
 | 1984-10-20 | [Le notti segrete di Lucrezia Borgia](https://www.imdb.com/title/tt0084418/) |
 | 1984-11-25 | [Eroticofollia (Malocchio)](https://www.imdb.com/title/tt0071471/) |
+| 1984-11-30 | [Le evase](https://www.imdb.com/title/tt0077520/) |
+| 1984-12-22 | [Il corpo](https://www.imdb.com/title/tt0071362/) |
 
 ### 1985
 
 |  |  |
 |---|---|
+| 1985-01-01 | [Oscenità](https://www.imdb.com/title/tt0131515/) |
 | 1985-01-06 | [Tanto calore](https://www.imdb.com/title/tt0210323/) |
+| 1985-01-20 | [Erika](https://www.imdb.com/title/tt0067058/) |
+| 1985-02-24 | [Peccati in famiglia](https://www.imdb.com/title/tt0073524/) |
 | 1985-03-17 | [Fotografando Patrizia](https://www.imdb.com/title/tt0089163/) |
 | 1985-03-29 | [Nati con la camicia](https://www.imdb.com/title/tt0085601/) |
+| 1985-04-03 | [2019 - Dopo la caduta di New York](https://www.imdb.com/title/tt0085125/) |
 | 1985-09-15 | [Il peccato di Lola](https://www.imdb.com/title/tt0089790/) |
 | 1985-09-24 | [Non c'è due senza quattro](https://www.imdb.com/title/tt0087481/) |
 | 1985-10-13 | [Nido d'amore](https://www.imdb.com/title/tt0212259/) |
@@ -2692,12 +2705,14 @@ image: "/programmazione-storica/paesi-di-produzione/_index_files/figure-html/ita
 | 1985-11-21 | [Tradimento](https://www.imdb.com/title/tt0084812/) |
 | 1985-11-25 | [Lui è peggio di me](https://www.imdb.com/title/tt0087653/) |
 | 1985-12-05 | [Phenomena](https://www.imdb.com/title/tt0087909/) |
+| 1985-12-09 | [Cameriera senza... malizia](https://www.imdb.com/title/tt0078929/) |
 | 1985-12-26 | [Amarsi un po'...](https://www.imdb.com/title/tt0086881/) |
 
 ### 1986
 
 |  |  |
 |---|---|
+| 1986-01-05 | [Le segrete esperienze di Luca e Fanny](https://www.imdb.com/title/tt0081481/) |
 | 1986-01-09 | [Giuramento](https://www.imdb.com/title/tt0084007/) |
 | 1986-01-12 | [I piaceri proibiti](https://www.imdb.com/title/tt0194233/) |
 | 1986-01-13 | [Tex e il signore degli abissi](https://www.imdb.com/title/tt0090150/) |
@@ -2730,16 +2745,16 @@ image: "/programmazione-storica/paesi-di-produzione/_index_files/figure-html/ita
 | 1987-01-05 | [Yado](https://www.imdb.com/title/tt0089893/) |
 | 1987-01-06 | [Dèmoni](https://www.imdb.com/title/tt0089013/) |
 | 1987-01-13 | [Il mostro di Firenze](https://www.imdb.com/title/tt0188071/) |
-| 1987-01-18 | [Dèmoni 2... l'incubo ritorna](https://www.imdb.com/title/tt0090930/) |
 | 1987-01-18 | [Bestialità](https://www.imdb.com/title/tt0074201/) |
+| 1987-01-18 | [Dèmoni 2... l'incubo ritorna](https://www.imdb.com/title/tt0090930/) |
 | 1987-02-01 | [Lussuria](https://www.imdb.com/title/tt0091454/) |
-| 1987-02-15 | [Il burbero](https://www.imdb.com/title/tt0092709/) |
 | 1987-02-15 | [La venexiana](https://www.imdb.com/title/tt0092157/) |
+| 1987-02-15 | [Il burbero](https://www.imdb.com/title/tt0092709/) |
 | 1987-02-22 | [Il nome della rosa](https://www.imdb.com/title/tt0091605/) |
 | 1987-02-22 | [Noi e l'amore - comportamento sessuale variante](https://www.imdb.com/title/tt0198836/) |
 | 1987-03-12 | [Banane al cioccolato](https://www.imdb.com/title/tt0204873/) |
-| 1987-03-15 | [7 chili in 7 giorni](https://www.imdb.com/title/tt0091925/) |
 | 1987-03-15 | [La monaca nel peccato](https://www.imdb.com/title/tt0091539/) |
+| 1987-03-15 | [7 chili in 7 giorni](https://www.imdb.com/title/tt0091925/) |
 | 1987-03-21 | [L'assassino è ancora tra noi](https://www.imdb.com/title/tt0088745/) |
 | 1987-03-28 | [Sensi](https://www.imdb.com/title/tt0091921/) |
 | 1987-04-11 | [La bonne](https://www.imdb.com/title/tt0090763/) |
@@ -2779,6 +2794,7 @@ image: "/programmazione-storica/paesi-di-produzione/_index_files/figure-html/ita
 |  |  |
 |---|---|
 | 1988-01-09 | [Rimini Rimini](https://www.imdb.com/title/tt0093864/) |
+| 1988-01-10 | [Il corpo](https://www.imdb.com/title/tt0071362/) |
 | 1988-01-10 | [Bocca bianca, bocca nera](https://www.imdb.com/title/tt0092682/) |
 | 1988-01-17 | [Una moglie molto infedele](https://www.imdb.com/title/tt0126453/) |
 | 1988-01-24 | [Missione eroica - I pompieri 2](https://www.imdb.com/title/tt0126443/) |
@@ -2804,18 +2820,23 @@ image: "/programmazione-storica/paesi-di-produzione/_index_files/figure-html/ita
 | 1988-05-07 | [La monaca di Monza](https://www.imdb.com/title/tt0091540/) |
 | 1988-05-21 | [I vizi segreti degli italiani quando credono di non essere visti](https://www.imdb.com/title/tt0201317/) |
 | 1988-05-29 | [Non stop sempre buio in sala](https://www.imdb.com/title/tt0089990/) |
+| 1988-09-10 | [Marina la pornoviziosa](https://www.imdb.com/title/tt0390235/) |
 | 1988-09-23 | [Cicciolina Number One](https://www.imdb.com/title/tt0204203/) |
+| 1988-09-24 | [La donna della calda terra](https://www.imdb.com/title/tt0077958/) |
 | 1988-10-02 | [Ciao ma'...](https://www.imdb.com/title/tt0164000/) |
+| 1988-10-09 | [Giochi bestiali nel mondo - Animal games](https://www.imdb.com/title/tt0329118/) |
 | 1988-10-16 | [Teresa](https://www.imdb.com/title/tt0094121/) |
 | 1988-10-23 | [Com'è dura l'avventura](https://www.imdb.com/title/tt0094896/) |
 | 1988-10-29 | [Quella villa in fondo al parco](https://www.imdb.com/title/tt0095942/) |
 | 1988-11-12 | [Profumo](https://www.imdb.com/title/tt0093789/) |
 | 1988-11-13 | [Da grande](https://www.imdb.com/title/tt0164519/) |
 | 1988-11-27 | [Angela come te](https://www.imdb.com/title/tt0094657/) |
+| 1988-12-04 | [Corpi bollenti d'amore](https://www.imdb.com/title/tt0126288/) |
 | 1988-12-04 | [Moana, la bella di giorno](https://www.imdb.com/title/tt0187307/) |
 | 1988-12-07 | [Il coraggio di parlare](https://www.imdb.com/title/tt0092785/) |
-| 1988-12-11 | [Bocche calde - Sesso in condominio](https://www.imdb.com/title/tt34624089/) |
+| 1988-12-11 | [Sesso profondo](https://www.imdb.com/title/tt0137539/) |
 | 1988-12-11 | [Il ragazzo dal kimono d'oro](https://www.imdb.com/title/tt0166674/) |
+| 1988-12-11 | [Bocche calde - Sesso in condominio](https://www.imdb.com/title/tt34624089/) |
 
 ### 1989
 
@@ -2825,19 +2846,24 @@ image: "/programmazione-storica/paesi-di-produzione/_index_files/figure-html/ita
 | 1989-01-08 | [I racconti sensuali di Cicciolina](https://www.imdb.com/title/tt0197793/) |
 | 1989-01-22 | [Il piccolo diavolo](https://www.imdb.com/title/tt0095869/) |
 | 1989-01-22 | [La bottega del piacere](https://www.imdb.com/title/tt0158512/) |
+| 1989-01-22 | [Moana, la bella di giorno](https://www.imdb.com/title/tt0187307/) |
 | 1989-01-28 | [Mak P 100](https://www.imdb.com/title/tt0162460/) |
+| 1989-01-29 | [Cara dolce nipote](https://www.imdb.com/title/tt0074282/) |
 | 1989-02-05 | [Marina... miele selvaggio](https://www.imdb.com/title/tt0390236/) |
 | 1989-02-12 | [Una storia ambigua](https://www.imdb.com/title/tt0147550/) |
 | 1989-02-19 | [Il set del piacere](https://www.imdb.com/title/tt0213235/) |
 | 1989-03-12 | [Bestialità](https://www.imdb.com/title/tt0074201/) |
+| 1989-03-19 | [Aspettami, sto venendo](https://www.imdb.com/title/tt35677963/) |
 | 1989-03-22 | [Don Bosco](https://www.imdb.com/title/tt0095051/) |
 | 1989-03-26 | [Una Novizia nel porno-harem](https://www.imdb.com/title/tt34624317/) |
 | 1989-04-23 | [La voglia](https://www.imdb.com/title/tt0126719/) |
 | 1989-05-01 | [Compagni di scuola](https://www.imdb.com/title/tt0094901/) |
 | 1989-05-21 | [Il tempo delle mele 3](https://www.imdb.com/title/tt0096523/) |
+| 1989-05-28 | [Marina... miele selvaggio](https://www.imdb.com/title/tt0390236/) |
 | 1989-09-17 | [Una calda femmina da letto](https://www.imdb.com/title/tt0180502/) |
 | 1989-09-23 | [Natura contro (Paradiso infernale)](https://www.imdb.com/title/tt0161849/) |
 | 1989-09-26 | [Roba da ricchi](https://www.imdb.com/title/tt0093869/) |
+| 1989-10-01 | [Le evase](https://www.imdb.com/title/tt0077520/) |
 | 1989-10-01 | [Una scatenata moglie insaziabile](https://www.imdb.com/title/tt7705824/) |
 | 1989-10-03 | [La chiesa](https://www.imdb.com/title/tt0094860/) |
 | 1989-10-05 | [Rimini Rimini - Un anno dopo](https://www.imdb.com/title/tt0200030/) |
@@ -2864,11 +2890,12 @@ image: "/programmazione-storica/paesi-di-produzione/_index_files/figure-html/ita
 | 1990-03-25 | [Vicende intime n. 1](https://www.imdb.com/title/tt0216355/) |
 | 1990-04-08 | [Vicende intime n. 2](https://www.imdb.com/title/tt0216356/) |
 | 1990-05-06 | [La baita dell'amore](https://www.imdb.com/title/tt0279667/) |
-| 1990-05-20 | [Indietro tutta!](https://www.imdb.com/title/tt12118414/) |
 | 1990-09-23 | [Mery per sempre](https://www.imdb.com/title/tt0097870/) |
 | 1990-10-14 | [La casa 4](https://www.imdb.com/title/tt0096453/) |
 | 1990-10-22 | [Volevo i pantaloni](https://www.imdb.com/title/tt0100886/) |
 | 1990-10-27 | [Due occhi diabolici](https://www.imdb.com/title/tt0100827/) |
+| 1990-10-28 | [Il vizio preferito di mia moglie](https://www.imdb.com/title/tt0126718/) |
+| 1990-11-12 | [Orgia libera](https://www.imdb.com/title/tt10784464/) |
 | 1990-12-02 | [Il vizio di Baby e l'ingordigia di Ramba](https://www.imdb.com/title/tt0216379/) |
 | 1990-12-08 | [Leviathan](https://www.imdb.com/title/tt0097737/) |
 | 1990-12-23 | [Femmine](https://www.imdb.com/title/tt15752988/) |
@@ -2882,6 +2909,8 @@ image: "/programmazione-storica/paesi-di-produzione/_index_files/figure-html/ita
 | 1991-02-03 | [Pierino torna a scuola](https://www.imdb.com/title/tt0100365/) |
 | 1991-03-10 | [Cicciolina e Moana 'Mondiali'](https://www.imdb.com/title/tt0099267/) |
 | 1991-03-17 | [Le comiche](https://www.imdb.com/title/tt0099293/) |
+| 1991-03-31 | [Il grande momento …bestiale](https://www.imdb.com/title/tt0202887/) |
+| 1991-04-07 | Flavia… Rome Bestial Luxury |
 | 1991-04-07 | [Stasera a casa di Alice](https://www.imdb.com/title/tt0100683/) |
 | 1991-04-14 | [Fantozzi alla riscossa](https://www.imdb.com/title/tt0099545/) |
 | 1991-04-21 | [Nikita](https://www.imdb.com/title/tt0100263/) |
@@ -2889,13 +2918,14 @@ image: "/programmazione-storica/paesi-di-produzione/_index_files/figure-html/ita
 | 1991-05-01 | [Paprika](https://www.imdb.com/title/tt0098063/) |
 | 1991-05-05 | [Il tè nel deserto](https://www.imdb.com/title/tt0100594/) |
 | 1991-05-12 | [Vacanze di Natale '90](https://www.imdb.com/title/tt0129511/) |
-| 1991-05-26 | [Occhio alla perestrojka](https://www.imdb.com/title/tt0129271/) |
 | 1991-05-26 | [Spogliando Valeria](https://www.imdb.com/title/tt0096959/) |
+| 1991-05-26 | [Occhio alla perestrojka](https://www.imdb.com/title/tt0129271/) |
 | 1991-09-22 | [La setta](https://www.imdb.com/title/tt0100581/) |
 | 1991-09-29 | [Volere volare](https://www.imdb.com/title/tt0103223/) |
 | 1991-10-06 | [Miliardi](https://www.imdb.com/title/tt0102445/) |
 | 1991-10-20 | [Slip caldo e bagnato](https://www.imdb.com/title/tt32851729/) |
 | 1991-11-10 | [Slip caldo e bagnato](https://www.imdb.com/title/tt32851729/) |
+| 1991-11-15 | [Un bestiale… triangolo erotico](https://www.imdb.com/title/tt0204265/) |
 | 1991-11-23 | [La carne](https://www.imdb.com/title/tt0101548/) |
 | 1991-11-24 | [Ultrà](https://www.imdb.com/title/tt0100835/) |
 | 1991-12-29 | [Piedipiatti](https://www.imdb.com/title/tt0102668/) |
@@ -2911,9 +2941,11 @@ image: "/programmazione-storica/paesi-di-produzione/_index_files/figure-html/ita
 | 1992-02-02 | [Le comiche 2](https://www.imdb.com/title/tt0103991/) |
 | 1992-02-09 | [Vacanze di Natale '91](https://www.imdb.com/title/tt0105717/) |
 | 1992-02-23 | [Donne con le gonne](https://www.imdb.com/title/tt0104122/) |
+| 1992-02-23 | [Bestia del Sud - voglia di godere](https://www.imdb.com/title/tt0285452/) |
 | 1992-03-15 | [Dove comincia la notte](https://www.imdb.com/title/tt0155681/) |
 | 1992-05-03 | [Così fan tutte](https://www.imdb.com/title/tt0104014/) |
 | 1992-05-10 | [Le donne di Mandingo](https://www.imdb.com/title/tt0144877/) |
+| 1992-10-25 | [La chiave del piacere](https://www.imdb.com/title/tt0212603/) |
 | 1992-11-15 | [Saint Tropez, Saint Tropez](https://www.imdb.com/title/tt0166335/) |
 | 1992-11-15 | [Un desiderio bestiale](https://www.imdb.com/title/tt0204265/) |
 
@@ -2922,6 +2954,7 @@ image: "/programmazione-storica/paesi-di-produzione/_index_files/figure-html/ita
 |  |  |
 |---|---|
 | 1993-01-06 | [Io speriamo che me la cavo](https://www.imdb.com/title/tt0107225/) |
+| 1993-02-07 | [Orgia libera](https://www.imdb.com/title/tt10784464/) |
 | 1993-02-14 | [Mutande pazze](https://www.imdb.com/title/tt0104948/) |
 | 1993-03-14 | [Sognando la California](https://www.imdb.com/title/tt0108178/) |
 | 1993-04-25 | [Fantastica Moana](https://www.imdb.com/title/tt0208946/) |

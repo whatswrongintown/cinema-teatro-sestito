@@ -1,4 +1,4 @@
-﻿---
+---
 title: Italautogamma 1989-90
 author: Vito Sestito
 date: '1989-09-01'
@@ -26,6 +26,7 @@ lastmod: '2026-11-18'
 | 1989-09-16 | [Nightmare 4 - Il non risveglio](https://www.imdb.com/title/tt0095742/) |
 | 1989-09-17 | [Una calda femmina da letto](https://www.imdb.com/title/tt0180502/) |
 | 1989-09-23 | [Natura contro (Paradiso infernale)](https://www.imdb.com/title/tt0161849/) |
+| 1989-09-24 | [Gattine in amore](https://www.imdb.com/title/tt0189511/) |
 | 1989-09-26 | [Roba da ricchi](https://www.imdb.com/title/tt0093869/) |
 
 ### Ottobre
@@ -35,18 +36,22 @@ lastmod: '2026-11-18'
 | 1989-10-01 | [Una scatenata moglie insaziabile](https://www.imdb.com/title/tt7705824/) |
 | 1989-10-03 | [La chiesa](https://www.imdb.com/title/tt0094860/) |
 | 1989-10-05 | [Rimini Rimini - Un anno dopo](https://www.imdb.com/title/tt0200030/) |
+| 1989-10-08 | [Folli desideri erotici](https://www.imdb.com/title/tt0134562/) |
 | 1989-10-10 | [Mondo cane 2000 - L'incredibile](https://www.imdb.com/title/tt0140385/) |
 | 1989-10-14 | [Ho sposato un'aliena](https://www.imdb.com/title/tt0095687/) |
+| 1989-10-15 | La moglie e la bestia |
 | 1989-10-19 | [Sotto il vestito niente II](https://www.imdb.com/title/tt0096144/) |
 | 1989-10-22 | [Ammazzavampiri 2](https://www.imdb.com/title/tt0097390/) |
+| 1989-10-22 | Una sfrenata moglie in calore |
 | 1989-10-29 | [La casa 3](https://www.imdb.com/title/tt0093090/) |
+| 1989-10-29 | Amore dal vivo |
 
 ### Novembre
 
 |  |  |
 |---|---|
-| 1989-11-05 | [Il vizio preferito di mia moglie](https://www.imdb.com/title/tt0126718/) |
 | 1989-11-05 | [Asterix contro Cesare](https://www.imdb.com/title/tt0088748/) |
+| 1989-11-05 | [Il vizio preferito di mia moglie](https://www.imdb.com/title/tt0126718/) |
 | 1989-11-07 | [High Spirits - Fantasmi da legare](https://www.imdb.com/title/tt0095304/) |
 | 1989-11-12 | [Piaceri insaziabili di mogli in calore](https://www.imdb.com/title/tt0095526/) |
 | 1989-11-14 | [Indio](https://www.imdb.com/title/tt0099843/) |
@@ -54,6 +59,7 @@ lastmod: '2026-11-18'
 | 1989-11-19 | [Provocazione](https://www.imdb.com/title/tt0095920/) |
 | 1989-11-21 | [Scuola di mostri](https://www.imdb.com/title/tt0093560/) |
 | 1989-11-25 | [Il buio si avvicina](https://www.imdb.com/title/tt0093605/) |
+| 1989-11-26 | Tutto animal |
 
 ### Dicembre
 
@@ -61,11 +67,12 @@ lastmod: '2026-11-18'
 |---|---|
 | 1989-12-03 | [Mery per sempre](https://www.imdb.com/title/tt0097870/) |
 | 1989-12-09 | [Cocktail](https://www.imdb.com/title/tt0094889/) |
+| 1989-12-10 | La zia in calore |
 | 1989-12-12 | [I gemelli](https://www.imdb.com/title/tt0096320/) |
 | 1989-12-17 | [Rain Man - L'uomo della pioggia](https://www.imdb.com/title/tt0095953/) |
 | 1989-12-17 | [Moana la scandalosa](https://www.imdb.com/title/tt0393489/) |
-| 1989-12-25 | [L'angelo del sesso](https://www.imdb.com/title/tt0124730/) |
 | 1989-12-25 | [Willow](https://www.imdb.com/title/tt0096446/) |
+| 1989-12-25 | [L'angelo del sesso](https://www.imdb.com/title/tt0124730/) |
 
 ## 1990
 
@@ -97,9 +104,12 @@ lastmod: '2026-11-18'
 |  |  |
 |---|---|
 | 1990-03-03 | [Furia cieca](https://www.imdb.com/title/tt0096945/) |
+| 1990-03-04 | [I peccati della notte](https://www.imdb.com/title/tt0089071/) |
 | 1990-03-06 | [Karate Kid III - La sfida finale](https://www.imdb.com/title/tt0097647/) |
 | 1990-03-11 | [Ritorno al futuro - Parte II](https://www.imdb.com/title/tt0096874/) |
+| 1990-03-11 | Orgasmo... sensazioni... rabbia… |
 | 1990-03-18 | [Indiana Jones e l'ultima crociata](https://www.imdb.com/title/tt0097576/) |
+| 1990-03-18 | Caldi incontri di una moglie infuocata |
 | 1990-03-25 | [Vicende intime n. 1](https://www.imdb.com/title/tt0216355/) |
 
 ### Aprile
@@ -108,7 +118,9 @@ lastmod: '2026-11-18'
 |---|---|
 | 1990-04-01 | [Perversioni Internazionali](https://www.imdb.com/title/tt0137551/) |
 | 1990-04-08 | [Vicende intime n. 2](https://www.imdb.com/title/tt0216356/) |
-| 1990-04-22 | [Calde voglie insaziabili](https://www.imdb.com/title/tt0095058/) |
+| 1990-04-15 | Guardando quell'animale di mia moglie |
+| 1990-04-22 | Calde voglie insaziabili |
+| 1990-04-29 | [Conturbanti esperienze di una ragazzina in calore](https://www.imdb.com/title/tt0124693/) |
 
 ### Maggio
 
@@ -116,6 +128,8 @@ lastmod: '2026-11-18'
 |---|---|
 | 1990-05-06 | [La baita dell'amore](https://www.imdb.com/title/tt0279667/) |
 | 1990-05-13 | [Tango &amp; Cash](https://www.imdb.com/title/tt0098439/) |
+| 1990-05-15 | Calde gocce di ruggiada sul mio corpo |
+| 1990-05-20 | [Di dietro tutta, femmine corrotte dal piacere](https://www.imdb.com/title/tt0085367/) |
 | 1990-05-20 | [Tesoro, mi si sono ristretti i ragazzi](https://www.imdb.com/title/tt0097523/) |
-| 1990-05-20 | [Indietro tutta!](https://www.imdb.com/title/tt12118414/) |
 | 1990-05-27 | [La bambola assassina](https://www.imdb.com/title/tt0094862/) |
+

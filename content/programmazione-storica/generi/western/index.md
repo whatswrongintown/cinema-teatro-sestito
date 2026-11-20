@@ -28,7 +28,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1949-03-02 | [Fiamme sul Messico](https://www.imdb.com/title/tt0034993/) |
 | 1949-03-15 | [Il mistero dei tre sosia](https://www.imdb.com/title/tt0033390/) |
 | 1949-04-13 | [Fiamme sul Messico](https://www.imdb.com/title/tt0034993/) |
-| 1949-05-07 | [La donna della citt«](https://www.imdb.com/title/tt0037470/) |
+| 1949-05-07 | [La donna della città](https://www.imdb.com/title/tt0037470/) |
 | 1949-06-03 | [La belva umana](https://www.imdb.com/title/tt0032383/) |
 | 1949-12-08 | [La ribelle del west](https://www.imdb.com/title/tt0033807/) |
 
@@ -39,9 +39,9 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1950-01-20 | [Rosa di sangue](https://www.imdb.com/title/tt0031876/) |
 | 1950-01-24 | [Rosa di sangue](https://www.imdb.com/title/tt0031876/) |
 | 1950-02-02 | [Il segno di Zorro](https://www.imdb.com/title/tt0032762/) |
-| 1950-02-18 | [Salom»](https://www.imdb.com/title/tt0038046/) |
-| 1950-04-20 | [Salom«](https://www.imdb.com/title/tt0038046/) |
-| 1950-04-22 | [Salom»](https://www.imdb.com/title/tt0038046/) |
+| 1950-02-18 | [Salomè](https://www.imdb.com/title/tt0038046/) |
+| 1950-04-20 | [Salomè](https://www.imdb.com/title/tt0038046/) |
+| 1950-04-22 | [Salomè](https://www.imdb.com/title/tt0038046/) |
 | 1950-08-13 | [La spada del venticatore](https://www.imdb.com/title/tt0162292/) |
 | 1950-08-18 | [Il trionfo di Zorro](https://www.imdb.com/title/tt0134056/) |
 
@@ -131,7 +131,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1958-04-23 | [L'imboscata](https://www.imdb.com/title/tt0041117/) |
 | 1958-04-26 | [La mano vendicatrice](https://www.imdb.com/title/tt0047411/) |
 | 1958-07-12 | [La freccia insanguinata](https://www.imdb.com/title/tt0045518/) |
-| 1958-07-15 | [Frustateli senza piet«](https://www.imdb.com/title/tt0045653/) |
+| 1958-07-15 | [Frustateli senza pietà](https://www.imdb.com/title/tt0045653/) |
 | 1958-10-14 | [All'ombra del patibolo](https://www.imdb.com/title/tt0048570/) |
 | 1958-11-15 | [La vergine della valle](https://www.imdb.com/title/tt0048805/) |
 
@@ -278,9 +278,10 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1966-02-04 | [Tamburi di guerra](https://www.imdb.com/title/tt0051179/) |
 | 1966-02-09 | [I fratelli di ferro](https://www.imdb.com/title/tt0054969/) |
 | 1966-02-14 | [Le pistole di Zorro](https://www.imdb.com/title/tt0043711/) |
-| 1966-02-17 | [La strage del 7» Cavalleggeri](https://www.imdb.com/title/tt0047501/) |
+| 1966-02-17 | [La strage del 7º Cavalleggeri](https://www.imdb.com/title/tt0047501/) |
 | 1966-02-22 | [Zorro il vendicatore](https://www.imdb.com/title/tt0056652/) |
 | 1966-02-25 | [La legge contro Billy Kid](https://www.imdb.com/title/tt0047163/) |
+| 1966-03-10 | [100.000 dollari al sole](https://www.imdb.com/title/tt0056917/) |
 | 1966-03-11 | [I fuorilegge del Kansas](https://www.imdb.com/title/tt0044790/) |
 | 1966-03-24 | [I fuorilegge della valle solitaria](https://www.imdb.com/title/tt0056448/) |
 | 1966-04-20 | [Pistole roventi](https://www.imdb.com/title/tt0060483/) |
@@ -293,7 +294,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1966-07-16 | [Orizzonte di fuoco](https://www.imdb.com/title/tt0048090/) |
 | 1966-08-06 | [I rinnegati di Fort Grant](https://www.imdb.com/title/tt0058121/) |
 | 1966-08-10 | [Zorro alla corte di Spagna](https://www.imdb.com/title/tt0056724/) |
-| 1966-08-12 | [La violenza « la mia legge](https://www.imdb.com/title/tt0058717/) |
+| 1966-08-12 | [La violenza è la mia legge](https://www.imdb.com/title/tt0058717/) |
 | 1966-09-15 | [L'ultimo dei banditi](https://www.imdb.com/title/tt0050625/) |
 | 1966-09-19 | [I giovani fucili del Texas](https://www.imdb.com/title/tt0056710/) |
 | 1966-10-07 | [Il grande cielo](https://www.imdb.com/title/tt0044419/) |
@@ -334,6 +335,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1967-04-08 | [Ringo del Nebraska](https://www.imdb.com/title/tt0060901/) |
 | 1967-04-20 | [Stella di fuoco](https://www.imdb.com/title/tt0053825/) |
 | 1967-04-21 | [Massacro a Phantom Hill](https://www.imdb.com/title/tt0060537/) |
+| 1967-04-22 | [Degueyo](https://www.imdb.com/title/tt0060296/) |
 | 1967-05-04 | [3 colpi di Winchester per Ringo](https://www.imdb.com/title/tt0058861/) |
 | 1967-05-21 | [4 dollari di vendetta](https://www.imdb.com/title/tt0059624/) |
 | 1967-06-07 | [Rio diablos](https://www.imdb.com/title/tt0058941/) |
@@ -348,7 +350,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1967-09-01 | [Una pistola per un vile](https://www.imdb.com/title/tt0049285/) |
 | 1967-09-19 | [Le colt cantarono la morte e fu... tempo di massacro](https://www.imdb.com/title/tt0061074/) |
 | 1967-09-21 | [Ringo e Gringo contro tutti](https://www.imdb.com/title/tt0061799/) |
-| 1967-09-22 | [La citt» senza legge](https://www.imdb.com/title/tt0059824/) |
+| 1967-09-22 | [La città senza legge](https://www.imdb.com/title/tt0059824/) |
 | 1967-09-24 | [I due figli di Ringo](https://www.imdb.com/title/tt0061598/) |
 | 1967-09-27 | [Il ritorno di Jess il bandito](https://www.imdb.com/title/tt0039511/) |
 | 1967-09-30 | [I 5 della vendetta](https://www.imdb.com/title/tt0060238/) |
@@ -363,7 +365,8 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1967-11-07 | [La sfida dei fuorilegge](https://www.imdb.com/title/tt0050496/) |
 | 1967-11-19 | [Una bara per Ringo](https://www.imdb.com/title/tt0061175/) |
 | 1967-11-21 | [Il grande agguato](https://www.imdb.com/title/tt0041210/) |
-| 1967-11-24 | [La citt« rubata](https://www.imdb.com/title/tt0036065/) |
+| 1967-11-24 | [La città rubata](https://www.imdb.com/title/tt0036065/) |
+| 1967-11-26 | [Djurado](https://www.imdb.com/title/tt0061583/) |
 | 1967-11-30 | [L'imboscata selvaggia](https://www.imdb.com/title/tt0049311/) |
 | 1967-12-03 | [Far West](https://www.imdb.com/title/tt0058019/) |
 | 1967-12-05 | [Il sentiero degli Apaches](https://www.imdb.com/title/tt0042299/) |
@@ -383,7 +386,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1968-01-14 | [Per il gusto di uccidere](https://www.imdb.com/title/tt0061458/) |
 | 1968-01-17 | [Una colt in pugno al diavolo](https://www.imdb.com/title/tt0277637/) |
 | 1968-01-28 | [Il magnifico fuorilegge](https://www.imdb.com/title/tt0043335/) |
-| 1968-01-30 | [Non si pu» continuare ad uccidere](https://www.imdb.com/title/tt0041625/) |
+| 1968-01-30 | [Non si può continuare ad uccidere](https://www.imdb.com/title/tt0041625/) |
 | 1968-02-01 | [Il grido di guerra dei sioux](https://www.imdb.com/title/tt0062182/) |
 | 1968-02-10 | [Thompson 1880](https://www.imdb.com/title/tt0061090/) |
 | 1968-02-17 | [Lo sceriffo che non spara](https://www.imdb.com/title/tt0060970/) |
@@ -393,7 +396,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1968-03-17 | [Vaya con dios gringo](https://www.imdb.com/title/tt0136595/) |
 | 1968-03-19 | [Lo sperone nero](https://www.imdb.com/title/tt0058976/) |
 | 1968-03-21 | [Bill il bandito](https://www.imdb.com/title/tt0050822/) |
-| 1968-03-26 | [Adi«s gringo](https://www.imdb.com/title/tt0060067/) |
+| 1968-03-26 | [Adiós gringo](https://www.imdb.com/title/tt0060067/) |
 | 1968-03-27 | [Tamburi di guerra](https://www.imdb.com/title/tt0051179/) |
 | 1968-03-29 | [Il massacro a Phantom Hill](https://www.imdb.com/title/tt0060537/) |
 | 1968-03-30 | [Per 100.000 dollari t'ammazzo](https://www.imdb.com/title/tt0062114/) |
@@ -404,7 +407,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1968-05-08 | [Una pistola per un vile](https://www.imdb.com/title/tt0049285/) |
 | 1968-05-18 | [I pistoleros di Casa Grande](https://www.imdb.com/title/tt0057122/) |
 | 1968-05-26 | [Johnny Guitar](https://www.imdb.com/title/tt0047136/) |
-| 1968-06-01 | [L» dove scende il fiume](https://www.imdb.com/title/tt0044413/) |
+| 1968-06-01 | [Là dove scende il fiume](https://www.imdb.com/title/tt0044413/) |
 | 1968-06-04 | [Carovana di fuoco](https://www.imdb.com/title/tt0062472/) |
 | 1968-06-11 | [I dominatori della prateria](https://www.imdb.com/title/tt0060842/) |
 | 1968-06-15 | [Straniero... fatti il segno della croce!](https://www.imdb.com/title/tt0062311/) |
@@ -425,9 +428,9 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1968-10-26 | [Il figlio di Django](https://www.imdb.com/title/tt0061664/) |
 | 1968-11-02 | [John il bastardo](https://www.imdb.com/title/tt0181613/) |
 | 1968-11-05 | [Il suo nome gridava vendetta](https://www.imdb.com/title/tt0144626/) |
-| 1968-11-06 | [Dove si spara di pi«](https://www.imdb.com/title/tt0148086/) |
+| 1968-11-06 | [Dove si spara di più](https://www.imdb.com/title/tt0148086/) |
 | 1968-11-10 | [Il lungo giorno del massacro](https://www.imdb.com/title/tt0125881/) |
-| 1968-11-15 | [Ti pagher» col piombo](https://www.imdb.com/title/tt0073708/) |
+| 1968-11-15 | [Ti pagherò col piombo](https://www.imdb.com/title/tt0073708/) |
 | 1968-11-17 | [Uccidete Johnny Ringo](https://www.imdb.com/title/tt0060589/) |
 | 1968-11-22 | [Buckaroo (Il winchester che non perdona)](https://www.imdb.com/title/tt0062763/) |
 | 1968-11-23 | [Quanto costa morire](https://www.imdb.com/title/tt0196881/) |
@@ -460,7 +463,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1969-03-09 | [Chiedi perdono a Dio... non a me](https://www.imdb.com/title/tt0162244/) |
 | 1969-03-16 | [I giorni della violenza](https://www.imdb.com/title/tt0061710/) |
 | 1969-03-17 | [T'ammazzo!... Raccomandati a Dio](https://www.imdb.com/title/tt0065060/) |
-| 1969-03-23 | [...E divenne il pi« spietato bandito del sud](https://www.imdb.com/title/tt0061775/) |
+| 1969-03-23 | [...E divenne il più spietato bandito del sud](https://www.imdb.com/title/tt0061775/) |
 | 1969-04-06 | [Uno straniero a Paso Bravo](https://www.imdb.com/title/tt0064818/) |
 | 1969-04-13 | [Gli eroi di Fort Worth](https://www.imdb.com/title/tt0059778/) |
 | 1969-04-19 | [Deadwood '76](https://www.imdb.com/title/tt0059093/) |
@@ -475,21 +478,21 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1969-06-15 | [Il bandito nero](https://www.imdb.com/title/tt0062198/) |
 | 1969-06-26 | [Billy il mancino](https://www.imdb.com/title/tt0041896/) |
 | 1969-07-08 | [El Dorado](https://www.imdb.com/title/tt0061619/) |
-| 1969-07-17 | [I predoni della citt»](https://www.imdb.com/title/tt0038284/) |
+| 1969-07-17 | [I predoni della città](https://www.imdb.com/title/tt0038284/) |
 | 1969-07-22 | [Killer Kid](https://www.imdb.com/title/tt0269443/) |
 | 1969-07-31 | [La spietata colt del gringo](https://www.imdb.com/title/tt0059863/) |
 | 1969-08-01 | [Un maggiordomo nel Far West](https://www.imdb.com/title/tt0061333/) |
 | 1969-08-02 | [Sotto il Sole Rovente (Il diario di un condannato)](https://www.imdb.com/title/tt0045992/) |
 | 1969-08-05 | [Quinto: non ammazzare](https://www.imdb.com/title/tt0065164/) |
-| 1969-08-06 | [Pi« veloce del vento (Bonanza: Ride the Wind)](https://www.imdb.com/title/tt13852490/) |
+| 1969-08-06 | [Più veloce del vento (Bonanza: Ride the Wind)](https://www.imdb.com/title/tt13852490/) |
 | 1969-08-10 | [Gentleman Jo... uccidi](https://www.imdb.com/title/tt0063008/) |
 | 1969-08-14 | [Sparatorie ad Abilene](https://www.imdb.com/title/tt0061738/) |
 | 1969-08-19 | [7 donne per una strage](https://www.imdb.com/title/tt0060430/) |
 | 1969-08-20 | [Django](https://www.imdb.com/title/tt0060315/) |
 | 1969-09-07 | [El Zorro](https://www.imdb.com/title/tt0063847/) |
 | 1969-09-14 | [Tre croci per non morire](https://www.imdb.com/title/tt0065120/) |
-| 1969-09-21 | [Passa Sartana... » l'ombra della tua morte](https://www.imdb.com/title/tt0063419/) |
-| 1969-09-24 | [La pi« grande rapina del west](https://www.imdb.com/title/tt0062130/) |
+| 1969-09-21 | [Passa Sartana... è l'ombra della tua morte](https://www.imdb.com/title/tt0063419/) |
+| 1969-09-24 | [La più grande rapina del west](https://www.imdb.com/title/tt0062130/) |
 | 1969-10-02 | [Un treno per Durango](https://www.imdb.com/title/tt0062391/) |
 | 1969-10-07 | [Cimitero senza croci](https://www.imdb.com/title/tt0063740/) |
 | 1969-10-11 | [Django non perdona](https://www.imdb.com/title/tt0060690/) |
@@ -498,7 +501,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1969-10-21 | [I giorni dell'ira](https://www.imdb.com/title/tt0061709/) |
 | 1969-10-30 | [La vecchia legge del West](https://www.imdb.com/title/tt0062477/) |
 | 1969-10-31 | [I quattro figli di Katie Elder](https://www.imdb.com/title/tt0059740/) |
-| 1969-11-02 | [Il giorno pi» lungo di Kansas City](https://www.imdb.com/title/tt0061197/) |
+| 1969-11-02 | [Il giorno più lungo di Kansas City](https://www.imdb.com/title/tt0061197/) |
 | 1969-11-09 | [Vendo cara la pelle](https://www.imdb.com/title/tt0215321/) |
 | 1969-11-11 | [Due occhi di ghiaccio](https://www.imdb.com/title/tt0062742/) |
 | 1969-11-16 | [1000 dollari sul nero](https://www.imdb.com/title/tt0060697/) |
@@ -528,15 +531,15 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1970-03-19 | [Il figlio di Kociss](https://www.imdb.com/title/tt0047562/) |
 | 1970-03-22 | [Un buco in fronte](https://www.imdb.com/title/tt0158524/) |
 | 1970-04-01 | [L'uomo dal lungo fucile](https://www.imdb.com/title/tt0063818/) |
-| 1970-04-12 | [Perch« uccidi ancora](https://www.imdb.com/title/tt0059579/) |
+| 1970-04-12 | [Perché uccidi ancora](https://www.imdb.com/title/tt0059579/) |
 | 1970-04-16 | [Meglio morto che vivo](https://www.imdb.com/title/tt0064695/) |
 | 1970-04-25 | [Il tempo degli avvoltoi](https://www.imdb.com/title/tt0062350/) |
-| 1970-04-28 | [La citt» senza legge](https://www.imdb.com/title/tt0059824/) |
+| 1970-04-28 | [La città senza legge](https://www.imdb.com/title/tt0059824/) |
 | 1970-04-29 | [Deadwood '76](https://www.imdb.com/title/tt0059093/) |
 | 1970-05-05 | [I cannoni di San Sebastian](https://www.imdb.com/title/tt0062713/) |
 | 1970-05-09 | [15 forche per un assassino](https://www.imdb.com/title/tt0063482/) |
 | 1970-05-23 | [Bandidos](https://www.imdb.com/title/tt0062706/) |
-| 1970-06-15 | [Pi« veloce del vento (Bonanza: Ride the Wind)](https://www.imdb.com/title/tt13852490/) |
+| 1970-06-15 | [Più veloce del vento (Bonanza: Ride the Wind)](https://www.imdb.com/title/tt13852490/) |
 | 1970-06-21 | [L'ultima caccia](https://www.imdb.com/title/tt0049432/) |
 | 1970-07-05 | [Le due facce del dollaro](https://www.imdb.com/title/tt0169817/) |
 | 1970-07-07 | [Quando l'alba si tinge di rosso](https://www.imdb.com/title/tt0064629/) |
@@ -550,9 +553,9 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1970-09-10 | [Pionieri della California](https://www.imdb.com/title/tt0047517/) |
 | 1970-09-13 | [Matanza il volto della morte](https://www.imdb.com/title/tt0130639/) |
 | 1970-09-27 | [La sfida dei MacKenna](https://www.imdb.com/title/tt0064150/) |
-| 1970-09-30 | [La Colt » la mia legge](https://www.imdb.com/title/tt0060628/) |
+| 1970-09-30 | [La Colt è la mia legge](https://www.imdb.com/title/tt0060628/) |
 | 1970-10-04 | [Johnny Oro](https://www.imdb.com/title/tt0060563/) |
-| 1970-10-11 | [La taglia « tua... l'uomo l'ammazzo io](https://www.imdb.com/title/tt0064853/) |
+| 1970-10-11 | [La taglia è tua... l'uomo l'ammazzo io](https://www.imdb.com/title/tt0064853/) |
 | 1970-10-15 | [I magnifici brutos del West](https://www.imdb.com/title/tt0058995/) |
 | 1970-10-22 | [Carovana di fuoco](https://www.imdb.com/title/tt0062472/) |
 | 1970-10-25 | [Sono Sartana, il vostro becchino](https://www.imdb.com/title/tt0065019/) |
@@ -564,12 +567,12 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1970-11-22 | [La legge della violenza (Tutti o nessuno)](https://www.imdb.com/title/tt0066464/) |
 | 1970-12-08 | [Il bello, il brutto, il cretino](https://www.imdb.com/title/tt0122398/) |
 | 1970-12-10 | [The belle starr story (Il mio corpo per un poker)](https://www.imdb.com/title/tt0061981/) |
-| 1970-12-11 | [Fermati Hassan... questa » la resa dei conti!](https://www.imdb.com/title/tt0172903/) |
-| 1970-12-12 | [Uno di pi« all'inferno](https://www.imdb.com/title/tt0065155/) |
+| 1970-12-11 | [Fermati Hassan... questa è la resa dei conti!](https://www.imdb.com/title/tt0172903/) |
+| 1970-12-12 | [Uno di più all'inferno](https://www.imdb.com/title/tt0065155/) |
 | 1970-12-18 | [Ringo del Nebraska](https://www.imdb.com/title/tt0060901/) |
 | 1970-12-19 | [I due volti della vendetta](https://www.imdb.com/title/tt0055257/) |
 | 1970-12-22 | [...e venne il tempo di uccidere](https://www.imdb.com/title/tt0171038/) |
-| 1970-12-23 | [Pecos » qui: prega e muori!](https://www.imdb.com/title/tt0062107/) |
+| 1970-12-23 | [Pecos è qui: prega e muori!](https://www.imdb.com/title/tt0062107/) |
 | 1970-12-24 | [I nipoti di Zorro](https://www.imdb.com/title/tt0063354/) |
 
 ### 1971
@@ -577,7 +580,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 |  |  |
 |---|---|
 | 1971-01-03 | [Eldorado](https://www.imdb.com/title/tt0032779/) |
-| 1971-01-07 | [Ti pagher« col piombo](https://www.imdb.com/title/tt0073708/) |
+| 1971-01-07 | [Ti pagherò col piombo](https://www.imdb.com/title/tt0073708/) |
 | 1971-01-10 | [Costretto ad uccidere](https://www.imdb.com/title/tt0063811/) |
 | 1971-01-12 | [Due croci a Danger Pass](https://www.imdb.com/title/tt0062904/) |
 | 1971-01-13 | [Bruciatelo vivo!](https://www.imdb.com/title/tt0065962/) |
@@ -597,7 +600,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1971-03-25 | [Con lui cavalca la morte](https://www.imdb.com/title/tt0150180/) |
 | 1971-03-26 | [Non aspettare Django, spara](https://www.imdb.com/title/tt0063364/) |
 | 1971-04-02 | [Spara, Gringo, spara](https://www.imdb.com/title/tt0066396/) |
-| 1971-04-07 | [Arizona si scaten»... e li fece fuori tutti!](https://www.imdb.com/title/tt0065422/) |
+| 1971-04-07 | [Arizona si scatenò... e li fece fuori tutti!](https://www.imdb.com/title/tt0065422/) |
 | 1971-04-23 | [L'ultimo colpo in canna](https://www.imdb.com/title/tt0062865/) |
 | 1971-05-06 | [I sette del Texas](https://www.imdb.com/title/tt0057848/) |
 | 1971-05-11 | [L'ora della furia](https://www.imdb.com/title/tt0062975/) |
@@ -615,35 +618,35 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1971-07-27 | [Stella di fuoco](https://www.imdb.com/title/tt0053825/) |
 | 1971-08-11 | [Zorro alla corte di Spagna](https://www.imdb.com/title/tt0056724/) |
 | 1971-08-15 | [Una bara per lo sceriffo](https://www.imdb.com/title/tt0058942/) |
-| 1971-08-24 | [...E divenne il pi« spietato bandito del sud](https://www.imdb.com/title/tt0061775/) |
-| 1971-08-25 | [Le carabine del rio negro (Lampi»o, O Rei do Canga«o)](https://www.imdb.com/title/tt0184659/) |
+| 1971-08-24 | [...E divenne il più spietato bandito del sud](https://www.imdb.com/title/tt0061775/) |
+| 1971-08-25 | [Le carabine del rio negro (Lampião, O Rei do Cangaço)](https://www.imdb.com/title/tt0184659/) |
 | 1971-08-29 | [Un uomo chiamato Apocalisse Joe](https://www.imdb.com/title/tt0067912/) |
 | 1971-09-01 | [Ringo il Texano](https://www.imdb.com/title/tt0061081/) |
 | 1971-09-05 | [Quel maledetto giorno d'inverno... Django e Sartana all'ultimo sangue](https://www.imdb.com/title/tt0067643/) |
-| 1971-09-09 | [I banditi della citt» fantasma](https://www.imdb.com/title/tt0041147/) |
+| 1971-09-09 | [I banditi della città fantasma](https://www.imdb.com/title/tt0041147/) |
 | 1971-09-15 | [Mezzogiorno di fuoco](https://www.imdb.com/title/tt0044706/) |
 | 1971-09-19 | [Wanted Sabata](https://www.imdb.com/title/tt0216399/) |
-| 1971-09-26 | [Per qualche dollaro in pi«](https://www.imdb.com/title/tt0059578/) |
+| 1971-09-26 | [Per qualche dollaro in più](https://www.imdb.com/title/tt0059578/) |
 | 1971-09-28 | [Gli uomini dal passo pesante](https://www.imdb.com/title/tt0061144/) |
 | 1971-10-10 | [Uccidi Django... uccidi per primo!!!](https://www.imdb.com/title/tt0070781/) |
 | 1971-10-13 | [Uccideva a freddo](https://www.imdb.com/title/tt0211711/) |
 | 1971-10-15 | [Il territorio dei fuorilegge](https://www.imdb.com/title/tt0046153/) |
-| 1971-10-19 | [Sei gi» cadavere Amigo... ti cerca Garringo](https://www.imdb.com/title/tt0065367/) |
+| 1971-10-19 | [Sei già cadavere Amigo... ti cerca Garringo](https://www.imdb.com/title/tt0065367/) |
 | 1971-10-20 | [Johnny Guitar](https://www.imdb.com/title/tt0047136/) |
 | 1971-10-24 | [Vendetta per vendetta](https://www.imdb.com/title/tt0063761/) |
-| 1971-10-27 | [Passa Sartana... « l'ombra della tua morte](https://www.imdb.com/title/tt0063419/) |
+| 1971-10-27 | [Passa Sartana... è l'ombra della tua morte](https://www.imdb.com/title/tt0063419/) |
 | 1971-10-31 | [Due occhi di ghiaccio](https://www.imdb.com/title/tt0062742/) |
 | 1971-11-03 | [Il suo nome gridava vendetta](https://www.imdb.com/title/tt0144626/) |
 | 1971-11-07 | [Il Grinta](https://www.imdb.com/title/tt0065126/) |
 | 1971-11-14 | [Una forca per un bastardo](https://www.imdb.com/title/tt0208973/) |
 | 1971-11-16 | [La belva](https://www.imdb.com/title/tt0065460/) |
 | 1971-11-17 | [Sartana nella valle degli avvoltoi](https://www.imdb.com/title/tt0066333/) |
-| 1971-11-21 | [Uccider» Willie Kid](https://www.imdb.com/title/tt0065079/) |
+| 1971-11-21 | [Ucciderò Willie Kid](https://www.imdb.com/title/tt0065079/) |
 | 1971-11-24 | [L'ombra di Zorro](https://www.imdb.com/title/tt0056893/) |
 | 1971-11-26 | [Bill il taciturno](https://www.imdb.com/title/tt0061404/) |
 | 1971-11-28 | [La resa dei conti](https://www.imdb.com/title/tt0063501/) |
 | 1971-11-30 | [L'uomo venuto per uccidere](https://www.imdb.com/title/tt0063746/) |
-| 1971-12-04 | [Pecos « qui: prega e muori!](https://www.imdb.com/title/tt0062107/) |
+| 1971-12-04 | [Pecos è qui: prega e muori!](https://www.imdb.com/title/tt0062107/) |
 | 1971-12-08 | [Ultima notte a Cottonwood](https://www.imdb.com/title/tt0064217/) |
 | 1971-12-26 | [Il buono, il brutto, il cattivo](https://www.imdb.com/title/tt0060196/) |
 
@@ -652,15 +655,15 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 |  |  |
 |---|---|
 | 1972-01-02 | [Uno straniero a Sacramento](https://www.imdb.com/title/tt0059760/) |
-| 1972-01-09 | [La ballata della citt» senza nome](https://www.imdb.com/title/tt0064782/) |
+| 1972-01-09 | [La ballata della città senza nome](https://www.imdb.com/title/tt0064782/) |
 | 1972-01-11 | [Zorro marchese di Navarra](https://www.imdb.com/title/tt0065246/) |
 | 1972-01-15 | [5 dollari per Ringo](https://www.imdb.com/title/tt0059038/) |
 | 1972-01-30 | [La notte dell'agguato](https://www.imdb.com/title/tt0065032/) |
-| 1972-02-04 | [Qui«n sabe?](https://www.imdb.com/title/tt0061429/) |
-| 1972-02-06 | [Per qualche dollaro in pi»](https://www.imdb.com/title/tt0059578/) |
+| 1972-02-04 | [Quién sabe?](https://www.imdb.com/title/tt0061429/) |
+| 1972-02-06 | [Per qualche dollaro in più](https://www.imdb.com/title/tt0059578/) |
 | 1972-02-08 | [Kociss l'eroe indiano](https://www.imdb.com/title/tt0044399/) |
-| 1972-02-20 | [Arrivano Django e Sartana... « la fine](https://www.imdb.com/title/tt0216546/) |
-| 1972-03-05 | [L» dove scende il sole](https://www.imdb.com/title/tt0058709/) |
+| 1972-02-20 | [Arrivano Django e Sartana... è la fine](https://www.imdb.com/title/tt0216546/) |
+| 1972-03-05 | [Là dove scende il sole](https://www.imdb.com/title/tt0058709/) |
 | 1972-03-07 | [Un uomo e una colt](https://www.imdb.com/title/tt0061776/) |
 | 1972-03-14 | [Testa t'ammazzo, croce... sei morto - Mi chiamano Alleluja](https://www.imdb.com/title/tt0069366/) |
 | 1972-03-19 | [Vendo cara la pelle](https://www.imdb.com/title/tt0215321/) |
@@ -676,7 +679,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1972-05-09 | [Ancora dollari per i MacGregor](https://www.imdb.com/title/tt0067452/) |
 | 1972-05-13 | [Sansone e il tesoro degli Incas](https://www.imdb.com/title/tt0058543/) |
 | 1972-05-19 | [1000 dollari sul nero](https://www.imdb.com/title/tt0060697/) |
-| 1972-05-21 | [L'odio « il mio Dio](https://www.imdb.com/title/tt0062064/) |
+| 1972-05-21 | [L'odio è il mio Dio](https://www.imdb.com/title/tt0062064/) |
 | 1972-06-12 | [Zorro il cavaliere della vendetta](https://www.imdb.com/title/tt0063846/) |
 | 1972-06-13 | [7 dollari sul rosso](https://www.imdb.com/title/tt0060978/) |
 | 1972-06-15 | [Voltati... ti uccido!](https://www.imdb.com/title/tt0063813/) |
@@ -691,12 +694,12 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1972-08-02 | [Vado... l'ammazzo e torno](https://www.imdb.com/title/tt0062429/) |
 | 1972-08-08 | [Pochi dollari per Django](https://www.imdb.com/title/tt0060084/) |
 | 1972-08-09 | [7 dollari sul rosso](https://www.imdb.com/title/tt0060978/) |
-| 1972-08-15 | [Tara Pok»](https://www.imdb.com/title/tt0210325/) |
+| 1972-08-15 | [Tara Pokì](https://www.imdb.com/title/tt0210325/) |
 | 1972-08-30 | [Il suo nome gridava vendetta](https://www.imdb.com/title/tt0144626/) |
 | 1972-09-05 | [El Cisco](https://www.imdb.com/title/tt0061487/) |
 | 1972-09-06 | [Non predicare... spara!](https://www.imdb.com/title/tt0068323/) |
 | 1972-09-07 | [Sotto il Sole Rovente (Il diario di un condannato)](https://www.imdb.com/title/tt0045992/) |
-| 1972-09-12 | [Ti pagher« col piombo](https://www.imdb.com/title/tt0073708/) |
+| 1972-09-12 | [Ti pagherò col piombo](https://www.imdb.com/title/tt0073708/) |
 | 1972-09-13 | [Cjamango](https://www.imdb.com/title/tt0165688/) |
 | 1972-09-17 | [Zorro la maschera della vendetta](https://www.imdb.com/title/tt0065248/) |
 | 1972-09-28 | [Dingus, quello sporco individuo](https://www.imdb.com/title/tt0065642/) |
@@ -710,7 +713,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1972-11-21 | [Zorro il vendicatore](https://www.imdb.com/title/tt0056652/) |
 | 1972-11-26 | [Se incontri Sartana prega per la tua morte](https://www.imdb.com/title/tt0063568/) |
 | 1972-12-20 | [Un poker di pistole](https://www.imdb.com/title/tt0062139/) |
-| 1972-12-28 | [Ti pagher» col piombo](https://www.imdb.com/title/tt0073708/) |
+| 1972-12-28 | [Ti pagherò col piombo](https://www.imdb.com/title/tt0073708/) |
 
 ### 1973
 
@@ -742,7 +745,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1973-08-14 | [Gli avvoltoi hanno fame](https://www.imdb.com/title/tt0065134/) |
 | 1973-09-05 | [I compari](https://www.imdb.com/title/tt0067411/) |
 | 1973-09-19 | [Pionieri della California](https://www.imdb.com/title/tt0047517/) |
-| 1973-09-21 | [Al di l« dell'odio](https://www.imdb.com/title/tt0068184/) |
+| 1973-09-21 | [Al di là dell'odio](https://www.imdb.com/title/tt0068184/) |
 | 1973-10-04 | [Il cacciatore solitario](https://www.imdb.com/title/tt0069232/) |
 | 1973-10-05 | [Le pistolere](https://www.imdb.com/title/tt0067637/) |
 | 1973-10-09 | [I tre spietati](https://www.imdb.com/title/tt0057464/) |
@@ -751,8 +754,8 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1973-12-08 | [Il solitario di Rio Grande](https://www.imdb.com/title/tt0067750/) |
 | 1973-12-18 | [Joe Kidd](https://www.imdb.com/title/tt0068768/) |
 | 1973-12-19 | [Alleluja e Sartana figli di... Dio](https://www.imdb.com/title/tt0068723/) |
-| 1973-12-25 | [Vamos a matar compa»eros](https://www.imdb.com/title/tt0066612/) |
-| 1973-12-30 | [Jesse &amp; Lester - Due fratelli in un posto chiamato Trinit«](https://www.imdb.com/title/tt0068515/) |
+| 1973-12-25 | [Vamos a matar compañeros](https://www.imdb.com/title/tt0066612/) |
+| 1973-12-30 | [Jesse &amp; Lester - Due fratelli in un posto chiamato Trinità](https://www.imdb.com/title/tt0068515/) |
 
 ### 1974
 
@@ -763,15 +766,15 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1974-01-30 | [Lo straniero senza nome](https://www.imdb.com/title/tt0068699/) |
 | 1974-02-15 | [Valdez il mezzosangue](https://www.imdb.com/title/tt0069833/) |
 | 1974-02-20 | [...E continuavano a fregarsi il milione di dollari](https://www.imdb.com/title/tt0068246/) |
-| 1974-02-26 | [La vita, a volte, » molto dura, vero Provvidenza?](https://www.imdb.com/title/tt0069468/) |
-| 1974-03-03 | [Semin« morte... lo chiamavano il Castigo di Dio!](https://www.imdb.com/title/tt0203105/) |
+| 1974-02-26 | [La vita, a volte, è molto dura, vero Provvidenza?](https://www.imdb.com/title/tt0069468/) |
+| 1974-03-03 | [Seminò morte... lo chiamavano il Castigo di Dio!](https://www.imdb.com/title/tt0203105/) |
 | 1974-03-13 | [A viso aperto](https://www.imdb.com/title/tt0070687/) |
 | 1974-03-30 | [Buon funerale amigos!... paga Sartana](https://www.imdb.com/title/tt0065499/) |
 | 1974-04-05 | [Los amigos](https://www.imdb.com/title/tt0068454/) |
 | 1974-04-19 | [Alla larga amigos, oggi ho il grilletto facile...](https://www.imdb.com/title/tt0068563/) |
 | 1974-04-20 | [Reverendo Colt](https://www.imdb.com/title/tt0066295/) |
 | 1974-04-21 | [Gli fumavano le Colt... lo chiamavano Camposanto](https://www.imdb.com/title/tt0067142/) |
-| 1974-04-24 | [Allegri becchini... arriva Trinit»](https://www.imdb.com/title/tt0244384/) |
+| 1974-04-24 | [Allegri becchini... arriva Trinità](https://www.imdb.com/title/tt0244384/) |
 | 1974-05-12 | [Arriva Sabata!...](https://www.imdb.com/title/tt0065425/) |
 | 1974-05-19 | [Joe... cercati un posto per morire!](https://www.imdb.com/title/tt0063158/) |
 | 1974-06-02 | [Ad uno ad uno... spietatamente](https://www.imdb.com/title/tt0062637/) |
@@ -788,9 +791,9 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1974-10-06 | [All'ovest di Sacramento](https://www.imdb.com/title/tt0068194/) |
 | 1974-11-04 | [Gli fumavano le Colt... lo chiamavano Camposanto](https://www.imdb.com/title/tt0067142/) |
 | 1974-11-29 | [Odio per odio](https://www.imdb.com/title/tt0062065/) |
-| 1974-12-01 | [Sei gi« cadavere Amigo... ti cerca Garringo](https://www.imdb.com/title/tt0065367/) |
-| 1974-12-10 | [Lo chiamavano Trinit»...](https://www.imdb.com/title/tt0067355/) |
-| 1974-12-15 | [Lo ammazz« come un cane... ma lui rideva ancora](https://www.imdb.com/title/tt0182293/) |
+| 1974-12-01 | [Sei già cadavere Amigo... ti cerca Garringo](https://www.imdb.com/title/tt0065367/) |
+| 1974-12-10 | [Lo chiamavano Trinità...](https://www.imdb.com/title/tt0067355/) |
+| 1974-12-15 | [Lo ammazzò come un cane... ma lui rideva ancora](https://www.imdb.com/title/tt0182293/) |
 | 1974-12-22 | [Alleluja e Sartana figli di... Dio](https://www.imdb.com/title/tt0068723/) |
 | 1974-12-23 | [I magnifici sette cavalcano ancora](https://www.imdb.com/title/tt0068897/) |
 | 1974-12-26 | [Chato](https://www.imdb.com/title/tt0066907/) |
@@ -816,26 +819,28 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1975-05-29 | [Quel maledetto colpo al Rio Grande Express](https://www.imdb.com/title/tt0070825/) |
 | 1975-06-01 | [Quelle sporche anime dannate](https://www.imdb.com/title/tt0196889/) |
 | 1975-06-11 | [L'ultimo buscadero](https://www.imdb.com/title/tt0068786/) |
-| 1975-06-22 | [Allegri becchini... arriva Trinit»](https://www.imdb.com/title/tt0244384/) |
+| 1975-06-22 | [Allegri becchini... arriva Trinità](https://www.imdb.com/title/tt0244384/) |
 | 1975-07-06 | [Il ritorno di Clint il solitario](https://www.imdb.com/title/tt0069184/) |
 | 1975-07-08 | [Vado... l'ammazzo e torno](https://www.imdb.com/title/tt0062429/) |
 | 1975-07-13 | [La mia colt ti cerca... 4 ceri ti attendono](https://www.imdb.com/title/tt0066930/) |
 | 1975-07-17 | [Sfida a Rio Bravo](https://www.imdb.com/title/tt0059098/) |
-| 1975-07-29 | [Uno di pi« all'inferno](https://www.imdb.com/title/tt0065155/) |
+| 1975-07-29 | [Uno di più all'inferno](https://www.imdb.com/title/tt0065155/) |
 | 1975-08-03 | [Le tre spade di Zorro](https://www.imdb.com/title/tt0057602/) |
+| 1975-08-07 | [Jack London - La mia grande avventura](https://www.imdb.com/title/tt0223559/) |
 | 1975-10-09 | [La rossa ombra di Riata](https://www.imdb.com/title/tt0069951/) |
 | 1975-11-16 | [Ehi amigo! Tocca a te morire](https://www.imdb.com/title/tt0316759/) |
 | 1975-12-08 | [Blind Man](https://www.imdb.com/title/tt0066844/) |
+| 1975-12-26 | [Boon il saccheggiatore](https://www.imdb.com/title/tt0064886/) |
 | 1975-12-30 | [Preparati la bara!](https://www.imdb.com/title/tt0062151/) |
 
 ### 1976
 
 |  |  |
 |---|---|
-| 1976-01-06 | [La vendetta » un piatto che si serve freddo](https://www.imdb.com/title/tt0067931/) |
+| 1976-01-06 | [La vendetta è un piatto che si serve freddo](https://www.imdb.com/title/tt0067931/) |
 | 1976-02-06 | [Vera Cruz](https://www.imdb.com/title/tt0047647/) |
-| 1976-02-17 | [L« dove scende il sole](https://www.imdb.com/title/tt0058709/) |
-| 1976-02-22 | [I quattro pistoleri di Santa Trinit»](https://www.imdb.com/title/tt0196886/) |
+| 1976-02-17 | [Là dove scende il sole](https://www.imdb.com/title/tt0058709/) |
+| 1976-02-22 | [I quattro pistoleri di Santa Trinità](https://www.imdb.com/title/tt0196886/) |
 | 1976-03-07 | [Voglio la testa di Garcia](https://www.imdb.com/title/tt0071249/) |
 | 1976-05-04 | [Tequila!](https://www.imdb.com/title/tt0072155/) |
 | 1976-05-27 | [Zanna Bianca alla riscossa](https://www.imdb.com/title/tt0072436/) |
@@ -854,10 +859,10 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 |  |  |
 |---|---|
 | 1977-01-16 | [Cacciatori di lupi (I pionieri dell'ultima frontiera)](https://www.imdb.com/title/tt0061115/) |
-| 1977-02-20 | [I due figli dei Trinit«](https://www.imdb.com/title/tt0068514/) |
+| 1977-02-20 | [I due figli dei Trinità](https://www.imdb.com/title/tt0068514/) |
 | 1977-04-01 | [Zorro alla corte d'Inghilterra](https://www.imdb.com/title/tt0065247/) |
-| 1977-04-03 | [Arizona si scaten»... e li fece fuori tutti!](https://www.imdb.com/title/tt0065422/) |
-| 1977-04-10 | [La pi« grande rapina del west](https://www.imdb.com/title/tt0062130/) |
+| 1977-04-03 | [Arizona si scatenò... e li fece fuori tutti!](https://www.imdb.com/title/tt0065422/) |
+| 1977-04-10 | [La più grande rapina del west](https://www.imdb.com/title/tt0062130/) |
 | 1977-05-08 | [Zorro marchese di Navarra](https://www.imdb.com/title/tt0065246/) |
 | 1977-05-26 | [Una ragione per vivere e una per morire](https://www.imdb.com/title/tt0069159/) |
 | 1977-05-27 | [Le galanti avventure di Zorro](https://www.imdb.com/title/tt0068242/) |
@@ -888,12 +893,12 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1978-03-26 | [Giunse Ringo e... fu tempo di massacro](https://www.imdb.com/title/tt0210076/) |
 | 1978-04-09 | [Per un pugno di dollari](https://www.imdb.com/title/tt0058461/) |
 | 1978-04-13 | [O Cangaceiro](https://www.imdb.com/title/tt0065517/) |
-| 1978-04-16 | [Lo chiamavano Trinit»...](https://www.imdb.com/title/tt0067355/) |
+| 1978-04-16 | [Lo chiamavano Trinità...](https://www.imdb.com/title/tt0067355/) |
 | 1978-04-23 | [Nevada Smith](https://www.imdb.com/title/tt0060748/) |
 | 1978-04-28 | [I giustizieri del West](https://www.imdb.com/title/tt0073559/) |
 | 1978-05-07 | [Serpente a sonagli](https://www.imdb.com/title/tt0269492/) |
 | 1978-05-17 | [Cheyenne](https://www.imdb.com/title/tt0075432/) |
-| 1978-05-30 | [Ehi amico... c'« Sabata. Hai chiuso!](https://www.imdb.com/title/tt0064916/) |
+| 1978-05-30 | [Ehi amico... c'è Sabata. Hai chiuso!](https://www.imdb.com/title/tt0064916/) |
 | 1978-06-04 | [Carambola](https://www.imdb.com/title/tt0069844/) |
 | 1978-07-02 | [Tre contro tutti](https://www.imdb.com/title/tt0056470/) |
 | 1978-07-22 | [I cannoni di San Sebastian](https://www.imdb.com/title/tt0062713/) |
@@ -910,10 +915,10 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1978-11-23 | [Quel maledetto giorno d'inverno... Django e Sartana all'ultimo sangue](https://www.imdb.com/title/tt0067643/) |
 | 1978-11-27 | [California](https://www.imdb.com/title/tt0075796/) |
 | 1978-12-13 | [Il mucchio selvaggio](https://www.imdb.com/title/tt0065214/) |
-| 1978-12-17 | [Continuavano a chiamarlo Trinit»](https://www.imdb.com/title/tt0068154/) |
+| 1978-12-17 | [Continuavano a chiamarlo Trinità](https://www.imdb.com/title/tt0068154/) |
 | 1978-12-25 | [Tutti fratelli nel west... per parte di padre](https://www.imdb.com/title/tt0153342/) |
 | 1978-12-26 | [Keoma](https://www.imdb.com/title/tt0074740/) |
-| 1978-12-31 | [Vamos a matar compa«eros](https://www.imdb.com/title/tt0066612/) |
+| 1978-12-31 | [Vamos a matar compañeros](https://www.imdb.com/title/tt0066612/) |
 
 ### 1979
 
@@ -922,7 +927,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1979-01-01 | [Acquasanta Joe](https://www.imdb.com/title/tt0066743/) |
 | 1979-01-09 | [Il giorno del grande massacro](https://www.imdb.com/title/tt0073357/) |
 | 1979-01-14 | [La valle dei comanches](https://www.imdb.com/title/tt0066034/) |
-| 1979-02-04 | [Storia di karat», pugni e fagioli](https://www.imdb.com/title/tt0070307/) |
+| 1979-02-04 | [Storia di karatè, pugni e fagioli](https://www.imdb.com/title/tt0070307/) |
 | 1979-02-18 | [La conquista del West](https://www.imdb.com/title/tt0056085/) |
 | 1979-02-25 | [Sfida a White Buffalo](https://www.imdb.com/title/tt0076915/) |
 | 1979-10-21 | [California](https://www.imdb.com/title/tt0075796/) |
@@ -940,7 +945,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1980-09-07 | [Il bianco il giallo il nero](https://www.imdb.com/title/tt0072699/) |
 | 1980-09-21 | [Keoma](https://www.imdb.com/title/tt0074740/) |
 | 1980-10-26 | [Carambola](https://www.imdb.com/title/tt0069844/) |
-| 1980-11-04 | [Adi«s gringo](https://www.imdb.com/title/tt0060067/) |
+| 1980-11-04 | [Adiós gringo](https://www.imdb.com/title/tt0060067/) |
 | 1980-11-09 | [Carambola, filotto... tutti in buca](https://www.imdb.com/title/tt0071277/) |
 | 1980-12-16 | [Ely ladrone (Una ragione per vivere e una per morire)](https://www.imdb.com/title/tt0069159/) |
 | 1980-12-25 | [Il mercenario](https://www.imdb.com/title/tt0063293/) |
@@ -952,9 +957,9 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1981-01-18 | [Il figlio di Zorro](https://www.imdb.com/title/tt0070060/) |
 | 1981-02-15 | [Un esercito di 5 uomini](https://www.imdb.com/title/tt0064300/) |
 | 1981-02-22 | [Viva la muerte... tua!](https://www.imdb.com/title/tt0067303/) |
-| 1981-03-01 | [Il mio nome » Nessuno](https://www.imdb.com/title/tt0070215/) |
-| 1981-03-15 | [Storia di karat«, pugni e fagioli](https://www.imdb.com/title/tt0070307/) |
-| 1981-04-19 | [Si pu» fare... amigo](https://www.imdb.com/title/tt0068539/) |
+| 1981-03-01 | [Il mio nome è Nessuno](https://www.imdb.com/title/tt0070215/) |
+| 1981-03-15 | [Storia di karatè, pugni e fagioli](https://www.imdb.com/title/tt0070307/) |
+| 1981-04-19 | [Si può fare... amigo](https://www.imdb.com/title/tt0068539/) |
 | 1981-12-05 | [La collina degli stivali](https://www.imdb.com/title/tt0064175/) |
 
 ### 1982

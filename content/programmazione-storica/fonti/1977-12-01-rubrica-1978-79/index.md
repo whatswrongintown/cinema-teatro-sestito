@@ -136,6 +136,7 @@ description: Rubriche dove i film venivano annotati in ordine alfabetico, con da
 |  |  |
 |---|---|
 | 1978-08-15 | [Torino violenta](https://www.imdb.com/title/tt0078408/) |
+| 1978-08-22 | Colpo per colpo |
 | 1978-08-23 | [Diamante Lobo](https://www.imdb.com/title/tt0074575/) |
 | 1978-08-27 | [Rollercar - Sessanta secondi e vai!](https://www.imdb.com/title/tt0071571/) |
 | 1978-08-29 | [5 per l'inferno](https://www.imdb.com/title/tt0062807/) |
@@ -370,6 +371,7 @@ description: Rubriche dove i film venivano annotati in ordine alfabetico, con da
 | 1979-12-18 | [Messaggi da forze sconosciute](https://www.imdb.com/title/tt0078975/) |
 | 1979-12-23 | [Aquila Grigia il grande capo dei Cheyenne](https://www.imdb.com/title/tt0077630/) |
 | 1979-12-25 | [Incredibile viaggio verso l'ignoto](https://www.imdb.com/title/tt0072951/) |
+| 1979-12-26 | Pornoexhibition |
 | 1979-12-28 | [Abissi](https://www.imdb.com/title/tt0075925/) |
 | 1979-12-30 | [Shalako](https://www.imdb.com/title/tt0063592/) |
 

@@ -225,7 +225,6 @@ image: "/programmazione-storica/paesi-di-produzione/_index_files/figure-html/ita
 | 1971-03-07 | [Il teschio di Londra](https://www.imdb.com/title/tt0061805/) |
 | 1971-03-23 | [Gli amanti del Pacifico](https://www.imdb.com/title/tt0050199/) |
 | 1971-03-31 | [Hong Kong: porto franco per una bara](https://www.imdb.com/title/tt0058549/) |
-| 1971-04-11 | [Le avventure di Ulisse](https://www.imdb.com/title/tt0064750/) |
 | 1971-04-22 | [Il gorilla di Soho](https://www.imdb.com/title/tt0063024/) |
 | 1971-04-30 | [Gli ultimi giorni di Pompei](https://www.imdb.com/title/tt0054422/) |
 | 1971-05-30 | [Caroline chérie](https://www.imdb.com/title/tt0061449/) |
@@ -445,20 +444,27 @@ image: "/programmazione-storica/paesi-di-produzione/_index_files/figure-html/ita
 | 1984-01-20 | [L'estasi e l'angoscia (Josephine Story)](https://www.imdb.com/title/tt0294658/) |
 | 1984-02-11 | [Banana Joe](https://www.imdb.com/title/tt0082045/) |
 | 1984-02-19 | [Sexy Erotic Job](https://www.imdb.com/title/tt0141446/) |
+| 1984-03-30 | [Pornoereditiere cercasi](https://www.imdb.com/title/tt0200115/) |
 | 1984-04-15 | [Mariette (Heiße Löcher, geile Stecher)](https://www.imdb.com/title/tt0311272/) |
+| 1984-04-23 | [Caldi amori in vetrina](https://www.imdb.com/title/tt0070314/) |
 | 1984-10-07 | [No... sono vergine!!](https://www.imdb.com/title/tt0146228/) |
+| 1984-10-19 | [Pornoshow a Montecarlo](https://www.imdb.com/title/tt0127854/) |
 
 ### 1985
 
 |  |  |
 |---|---|
+| 1985-01-27 | [Pornoereditiere cercasi](https://www.imdb.com/title/tt0200115/) |
 | 1985-02-03 | [Inquietudine morbosa di una moglie](https://www.imdb.com/title/tt1407301/) |
+| 1985-02-24 | [Myriam - Una femmina da letto](https://www.imdb.com/title/tt0084372/) |
 
 ### 1986
 
 |  |  |
 |---|---|
 | 1986-01-17 | [Il futuro è donna](https://www.imdb.com/title/tt0087310/) |
+| 1986-01-19 | [Super sexy show](https://www.imdb.com/title/tt0072125/) |
+| 1986-11-23 | [Super sexy show](https://www.imdb.com/title/tt0072125/) |
 
 ### 1987
 
@@ -477,6 +483,10 @@ image: "/programmazione-storica/paesi-di-produzione/_index_files/figure-html/ita
 
 |  |  |
 |---|---|
+| 1989-01-06 | [Le ragazze super particolari](https://www.imdb.com/title/tt5508022/) |
+| 1989-01-15 | [Giochi erotici in famiglia](https://www.imdb.com/title/tt0080181/) |
+| 1989-02-05 | [Caldi amori in vetrina](https://www.imdb.com/title/tt0070314/) |
+| 1989-02-26 | [Pornoereditiere cercasi](https://www.imdb.com/title/tt0200115/) |
 | 1989-04-02 | [Collegiali incestuose](https://www.imdb.com/title/tt0090026/) |
 | 1989-11-16 | [Francesco](https://www.imdb.com/title/tt0097383/) |
 
@@ -484,5 +494,6 @@ image: "/programmazione-storica/paesi-di-produzione/_index_files/figure-html/ita
 
 |  |  |
 |---|---|
+| 1990-03-11 | [Myriam - Una femmina da letto](https://www.imdb.com/title/tt0084372/) |
 | 1990-12-30 | [La trappola di Venere](https://www.imdb.com/title/tt0096372/) |
 

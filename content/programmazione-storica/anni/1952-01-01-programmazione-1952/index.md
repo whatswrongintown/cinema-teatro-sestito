@@ -57,8 +57,8 @@ I voti IMDb descrivono le valutazioni degli utenti IMDb, non il pubblico o gli i
 | 1952-03-01 | [Cielo sulla palude](https://www.imdb.com/title/tt0041248/) |
 | 1952-03-03 | [Giuliano de' Medici](https://www.imdb.com/title/tt0032532/) |
 | 1952-03-08 | [Questa donna è mia](https://www.imdb.com/title/tt0031466/) |
-| 1952-03-11 | [Giudicatemi!](https://www.imdb.com/title/tt0040389/) |
 | 1952-03-11 | [Gli ammutinati di Sing Sing](https://www.imdb.com/title/tt0038255/) |
+| 1952-03-11 | [Giudicatemi!](https://www.imdb.com/title/tt0040389/) |
 | 1952-03-14 | [Il tradimento](https://www.imdb.com/title/tt0041979/) |
 | 1952-03-15 | [Ardimento](https://www.imdb.com/title/tt0160794/) |
 | 1952-03-16 | [Giudicatemi!](https://www.imdb.com/title/tt0040389/) |
@@ -95,8 +95,8 @@ I voti IMDb descrivono le valutazioni degli utenti IMDb, non il pubblico o gli i
 | 1952-05-17 | [Gente così](https://www.imdb.com/title/tt0041409/) |
 | 1952-05-20 | [Davanti a lui tremava tutta Roma](https://www.imdb.com/title/tt0038443/) |
 | 1952-05-22 | [Catene invisibili](https://www.imdb.com/title/tt0034588/) |
-| 1952-05-27 | [Il sig. Belvedere va in collegio](https://www.imdb.com/title/tt0041662/) |
 | 1952-05-27 | [Il figlio del corsaro rosso](https://www.imdb.com/title/tt0033602/) |
+| 1952-05-27 | [Il sig. Belvedere va in collegio](https://www.imdb.com/title/tt0041662/) |
 | 1952-05-30 | [Cleopatra](https://www.imdb.com/title/tt0024991/) |
 
 ### Giugno
@@ -128,8 +128,8 @@ I voti IMDb descrivono le valutazioni degli utenti IMDb, non il pubblico o gli i
 | 1952-08-03 | [La Cenerentola](https://www.imdb.com/title/tt0040222/) |
 | 1952-08-07 | [I due sergenti](https://www.imdb.com/title/tt0043488/) |
 | 1952-08-10 | [Catene invisibili](https://www.imdb.com/title/tt0034588/) |
-| 1952-08-14 | [Notorious - L'amante perduta](https://www.imdb.com/title/tt0038787/) |
 | 1952-08-14 | [Luciano Serra, pilota](https://www.imdb.com/title/tt0030393/) |
+| 1952-08-14 | [Notorious - L'amante perduta](https://www.imdb.com/title/tt0038787/) |
 | 1952-08-17 | [Labbra avvelenate](https://www.imdb.com/title/tt0040719/) |
 | 1952-08-24 | [Le due orfanelle](https://www.imdb.com/title/tt0034688/) |
 | 1952-08-30 | [Piccolo alpino](https://www.imdb.com/title/tt0032905/) |

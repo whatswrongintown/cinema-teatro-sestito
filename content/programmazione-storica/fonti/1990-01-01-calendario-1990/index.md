@@ -51,7 +51,7 @@ description: Calendari murali o da tavolo legati all’attività del cinema. Ind
 |---|---|
 | 1990-04-01 | [Perversioni Internazionali](https://www.imdb.com/title/tt0137551/) |
 | 1990-04-08 | [Vicende intime n. 2](https://www.imdb.com/title/tt0216356/) |
-| 1990-04-22 | [Calde voglie insaziabili](https://www.imdb.com/title/tt0095058/) |
+| 1990-04-22 | Calde voglie insaziabili |
 
 ### Maggio
 
@@ -59,8 +59,8 @@ description: Calendari murali o da tavolo legati all’attività del cinema. Ind
 |---|---|
 | 1990-05-06 | [La baita dell'amore](https://www.imdb.com/title/tt0279667/) |
 | 1990-05-13 | [Tango &amp; Cash](https://www.imdb.com/title/tt0098439/) |
+| 1990-05-20 | [Di dietro tutta, femmine corrotte dal piacere](https://www.imdb.com/title/tt0085367/) |
 | 1990-05-20 | [Tesoro, mi si sono ristretti i ragazzi](https://www.imdb.com/title/tt0097523/) |
-| 1990-05-20 | [Indietro tutta!](https://www.imdb.com/title/tt12118414/) |
 | 1990-05-27 | [La bambola assassina](https://www.imdb.com/title/tt0094862/) |
 
 ### Settembre
@@ -111,7 +111,7 @@ description: Calendari murali o da tavolo legati all’attività del cinema. Ind
 | 1990-12-15 | [Pretty Woman](https://www.imdb.com/title/tt0100405/) |
 | 1990-12-23 | [Dick Tracy](https://www.imdb.com/title/tt0099422/) |
 | 1990-12-23 | [Femmine](https://www.imdb.com/title/tt15752988/) |
-| 1990-12-30 | [Revenge - Vendetta](https://www.imdb.com/title/tt0100485/) |
 | 1990-12-30 | [La trappola di Venere](https://www.imdb.com/title/tt0096372/) |
+| 1990-12-30 | [Revenge - Vendetta](https://www.imdb.com/title/tt0100485/) |
 | 1990-12-31 | [Gremlins 2 - La nuova stirpe](https://www.imdb.com/title/tt0099700/) |
 

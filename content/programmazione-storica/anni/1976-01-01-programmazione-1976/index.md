@@ -191,7 +191,7 @@ I voti IMDb descrivono le valutazioni degli utenti IMDb, non il pubblico o gli i
 | 1976-10-25 | [Maciste contro lo sceicco](https://www.imdb.com/title/tt0056206/) |
 | 1976-10-27 | [Morire di desiderio (Et mourir de désir)](https://www.imdb.com/title/tt0315099/) |
 | 1976-10-29 | [Sandokan alla riscossa](https://www.imdb.com/title/tt0058545/) |
-| 1976-10-31 | [Bruce Lee](https://www.imdb.com/title/tt2173762/) |
+| 1976-10-31 | [Bruce Lee, un cuore d'oro, due mani d'acciaio](https://www.imdb.com/title/tt2173762/) |
 
 ### Novembre
 

@@ -115,12 +115,14 @@ I voti IMDb descrivono le valutazioni degli utenti IMDb, non il pubblico o gli i
 | 1967-04-05 | [New York Press, operazione dollari](https://www.imdb.com/title/tt0059072/) |
 | 1967-04-08 | [Ringo del Nebraska](https://www.imdb.com/title/tt0060901/) |
 | 1967-04-10 | [Il limite della vergogna](https://www.imdb.com/title/tt0056656/) |
+| 1967-04-12 | Commando dei disperati |
 | 1967-04-14 | [I bucanieri](https://www.imdb.com/title/tt0051436/) |
 | 1967-04-16 | [Oss 117 furia a Bahia](https://www.imdb.com/title/tt0059206/) |
 | 1967-04-17 | [Gli amori di Angelica](https://www.imdb.com/title/tt0063326/) |
 | 1967-04-19 | [Chi giace nella mia bara?](https://www.imdb.com/title/tt0057997/) |
 | 1967-04-20 | [Stella di fuoco](https://www.imdb.com/title/tt0053825/) |
 | 1967-04-21 | [Massacro a Phantom Hill](https://www.imdb.com/title/tt0060537/) |
+| 1967-04-22 | [Degueyo](https://www.imdb.com/title/tt0060296/) |
 | 1967-04-24 | [Argos alla riscossa](https://www.imdb.com/title/tt0055408/) |
 | 1967-04-27 | [La sfida dei giganti](https://www.imdb.com/title/tt0275668/) |
 | 1967-04-28 | [Tutte le ragazze lo sanno](https://www.imdb.com/title/tt0052583/) |
@@ -167,6 +169,7 @@ I voti IMDb descrivono le valutazioni degli utenti IMDb, non il pubblico o gli i
 | 1967-07-07 | [Lo sparviero dei Caraibi](https://www.imdb.com/title/tt0058185/) |
 | 1967-07-09 | [Il conquistatore di Atlantide](https://www.imdb.com/title/tt0059055/) |
 | 1967-07-10 | [Tra due fuochi](https://www.imdb.com/title/tt0058323/) |
+| 1967-07-13 | Texas John il giustiziere |
 | 1967-07-14 | [Cerimonia infernale](https://www.imdb.com/title/tt0056918/) |
 | 1967-07-16 | [Gli eroi di Fort Worth](https://www.imdb.com/title/tt0059778/) |
 | 1967-07-17 | [Pelle d'oca](https://www.imdb.com/title/tt0056921/) |
@@ -267,6 +270,7 @@ I voti IMDb descrivono le valutazioni degli utenti IMDb, non il pubblico o gli i
 | 1967-11-22 | [Delitto d'amore](https://www.imdb.com/title/tt0058868/) |
 | 1967-11-23 | [Il gobbo di Londra](https://www.imdb.com/title/tt0060192/) |
 | 1967-11-24 | [La città rubata](https://www.imdb.com/title/tt0036065/) |
+| 1967-11-26 | [Djurado](https://www.imdb.com/title/tt0061583/) |
 | 1967-11-28 | [Le notti della violenza](https://www.imdb.com/title/tt0060762/) |
 | 1967-11-30 | [L'imboscata selvaggia](https://www.imdb.com/title/tt0049311/) |
 
@@ -283,6 +287,7 @@ I voti IMDb descrivono le valutazioni degli utenti IMDb, non il pubblico o gli i
 | 1967-12-16 | [Nessuno mi può giudicare](https://www.imdb.com/title/tt0060746/) |
 | 1967-12-19 | [Giochi di notte](https://www.imdb.com/title/tt0060740/) |
 | 1967-12-20 | [Gli amanti devono imparare](https://www.imdb.com/title/tt0056424/) |
+| 1967-12-21 | [L'harem](https://www.imdb.com/title/tt0063042/) |
 | 1967-12-22 | [Duello infernale](https://www.imdb.com/title/tt0041917/) |
 | 1967-12-23 | [Perdono](https://www.imdb.com/title/tt0060823/) |
 | 1967-12-25 | [Starblack](https://www.imdb.com/title/tt0222396/) |

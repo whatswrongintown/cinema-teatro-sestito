@@ -455,6 +455,7 @@ image: "/programmazione-storica/paesi-di-produzione/_index_files/figure-html/ita
 
 |  |  |
 |---|---|
+| 1985-05-04 | [Tron](https://www.imdb.com/title/tt0084827/) |
 | 1985-10-06 | [Sheena regina della giungla](https://www.imdb.com/title/tt0088103/) |
 | 1985-11-18 | [Terminator](https://www.imdb.com/title/tt0088247/) |
 | 1985-12-30 | [Urla del silenzio](https://www.imdb.com/title/tt0087553/) |
@@ -498,6 +499,7 @@ image: "/programmazione-storica/paesi-di-produzione/_index_files/figure-html/ita
 |  |  |
 |---|---|
 | 1990-01-07 | [Batman](https://www.imdb.com/title/tt0096895/) |
+| 1990-03-05 | [Soprannaturale](https://www.imdb.com/title/tt0096340/) |
 | 1990-03-18 | [Indiana Jones e l'ultima crociata](https://www.imdb.com/title/tt0097576/) |
 | 1990-11-11 | [Superman IV](https://www.imdb.com/title/tt0094074/) |
 

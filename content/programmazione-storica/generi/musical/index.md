@@ -301,6 +301,12 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 |---|---|
 | 1984-12-09 | [La nave del piacere (Sexy Boat)](https://www.imdb.com/title/tt0075302/) |
 
+### 1985
+
+|  |  |
+|---|---|
+| 1985-01-01 | [Finalmente arrivò l'amore](https://www.imdb.com/title/tt0072665/) |
+
 ### 1986
 
 |  |  |

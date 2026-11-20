@@ -50,8 +50,8 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1949-11-09 | [Musica sulle nuvole](https://www.imdb.com/title/tt0034882/) |
 | 1949-11-11 | [San Giovanni decollato](https://www.imdb.com/title/tt0033017/) |
 | 1949-12-08 | [La ribelle del west](https://www.imdb.com/title/tt0033807/) |
-| 1949-12-11 | [Addio, mia bella Napoli!](https://www.imdb.com/title/tt0038287/) |
 | 1949-12-11 | [La vedova allegra](https://www.imdb.com/title/tt0025493/) |
+| 1949-12-11 | [Addio, mia bella Napoli!](https://www.imdb.com/title/tt0038287/) |
 | 1949-12-31 | [Totò cerca casa](https://www.imdb.com/title/tt0041974/) |
 
 ### 1950
@@ -299,8 +299,8 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1960-10-20 | [Un ettaro di cielo](https://www.imdb.com/title/tt0052789/) |
 | 1960-10-24 | [Un amore a Parigi](https://www.imdb.com/title/tt0050721/) |
 | 1960-12-08 | [Perfide.... ma belle](https://www.imdb.com/title/tt0053161/) |
-| 1960-12-12 | [Mogli pericolose](https://www.imdb.com/title/tt0051941/) |
 | 1960-12-12 | [Le insaziabili](https://www.imdb.com/title/tt0051780/) |
+| 1960-12-12 | [Mogli pericolose](https://www.imdb.com/title/tt0051941/) |
 | 1960-12-15 | [Sergente d'ispezione](https://www.imdb.com/title/tt0052184/) |
 
 ### 1962
@@ -366,6 +366,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 |  |  |
 |---|---|
 | 1965-01-13 | [Il comandante Johnny](https://www.imdb.com/title/tt0044224/) |
+| 1965-01-28 | [Super rapina a Milano](https://www.imdb.com/title/tt0168201/) |
 | 1965-03-02 | [I due colonnelli](https://www.imdb.com/title/tt0055936/) |
 | 1965-03-07 | [Il tulipano nero](https://www.imdb.com/title/tt0058692/) |
 | 1965-04-09 | [Sfida implacabile](https://www.imdb.com/title/tt0239806/) |
@@ -413,6 +414,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1966-03-16 | [Oltraggio al pudore](https://www.imdb.com/title/tt0061344/) |
 | 1966-03-18 | [Letti sbagliati](https://www.imdb.com/title/tt0059384/) |
 | 1966-03-26 | [I figli del leopardo](https://www.imdb.com/title/tt0150548/) |
+| 1966-03-28 | [Super rapina a Milano](https://www.imdb.com/title/tt0168201/) |
 | 1966-04-04 | [Il successo](https://www.imdb.com/title/tt0057540/) |
 | 1966-04-11 | [Il comandante](https://www.imdb.com/title/tt0056939/) |
 | 1966-04-16 | [Una lacrima sul viso](https://www.imdb.com/title/tt0058282/) |
@@ -494,6 +496,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1967-11-12 | [Un gangster venuto da Brooklyn](https://www.imdb.com/title/tt0063040/) |
 | 1967-12-08 | [Zorro il ribelle](https://www.imdb.com/title/tt0061218/) |
 | 1967-12-16 | [Nessuno mi può giudicare](https://www.imdb.com/title/tt0060746/) |
+| 1967-12-21 | [L'harem](https://www.imdb.com/title/tt0063042/) |
 | 1967-12-23 | [Perdono](https://www.imdb.com/title/tt0060823/) |
 | 1967-12-27 | [Spara forte, più forte... non capisco!](https://www.imdb.com/title/tt0061008/) |
 | 1967-12-28 | [Spiaggia libera](https://www.imdb.com/title/tt0208476/) |
@@ -734,7 +737,6 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1973-11-04 | [Decameron n° 2 - Le altre novelle del Boccaccio](https://www.imdb.com/title/tt0068461/) |
 | 1973-11-11 | [Maciste contro Ercole nella valle dei guai](https://www.imdb.com/title/tt0122597/) |
 | 1973-11-16 | [L'avventura è l'avventura](https://www.imdb.com/title/tt0066798/) |
-| 1973-11-20 | [L'orgia del vampiro](https://www.imdb.com/title/tt0139288/) |
 | 1973-12-06 | [Prendi i soldi e scappa](https://www.imdb.com/title/tt0065063/) |
 | 1973-12-09 | [Due bianchi nell'Africa nera](https://www.imdb.com/title/tt0150411/) |
 | 1973-12-12 | [Le favolose notti d'oriente](https://www.imdb.com/title/tt0070055/) |
@@ -771,6 +773,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1974-05-26 | [Zorro e i tre moschettieri](https://www.imdb.com/title/tt0057720/) |
 | 1974-06-06 | [Le mille e una notte all'italiana](https://www.imdb.com/title/tt0070394/) |
 | 1974-06-28 | [7 Desideri di una vergine](https://www.imdb.com/title/tt0068237/) |
+| 1974-10-06 | [All'ovest di Sacramento](https://www.imdb.com/title/tt0068194/) |
 | 1974-10-09 | [La cosa buffa](https://www.imdb.com/title/tt0068417/) |
 | 1974-10-18 | [I racconti di Viterbury - Le più allegre storie del '300](https://www.imdb.com/title/tt0070587/) |
 | 1974-10-25 | [La mazurka le svedesi la ballano a letto](https://www.imdb.com/title/tt0066063/) |
@@ -794,6 +797,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1975-01-29 | [I racconti di Canterbury](https://www.imdb.com/title/tt0067647/) |
 | 1975-02-06 | [Storie scellerate](https://www.imdb.com/title/tt0205430/) |
 | 1975-02-25 | [Corri uomo corri](https://www.imdb.com/title/tt0062825/) |
+| 1975-02-28 | [Massacro di uomini violenti](https://www.imdb.com/title/tt0067025/) |
 | 1975-03-18 | [La collina degli stivali](https://www.imdb.com/title/tt0064175/) |
 | 1975-03-30 | [Ciccio perdona... Io no!](https://www.imdb.com/title/tt0122434/) |
 | 1975-04-25 | [Che c'entriamo noi con la rivoluzione?](https://www.imdb.com/title/tt0069547/) |
@@ -808,6 +812,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1975-08-06 | [Il fidanzamento](https://www.imdb.com/title/tt0198482/) |
 | 1975-08-15 | [Il figlioccio del padrino](https://www.imdb.com/title/tt0125747/) |
 | 1975-08-23 | [Ku Fu? Dalla Sicilia con furore](https://www.imdb.com/title/tt0070279/) |
+| 1975-09-05 | [I racconti romani di una ex novizia](https://www.imdb.com/title/tt0069154/) |
 | 1975-09-07 | [La vedova inconsolabile ringrazia quanti la consolarono](https://www.imdb.com/title/tt0072356/) |
 | 1975-09-23 | [Maria Rosa la guardona](https://www.imdb.com/title/tt0070373/) |
 | 1975-09-25 | [Aiuto! mi ama una vergine](https://www.imdb.com/title/tt0064432/) |
@@ -819,6 +824,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1975-10-28 | [Ming, ragazzi!](https://www.imdb.com/title/tt0070646/) |
 | 1975-10-31 | [Mani sporche sulla città](https://www.imdb.com/title/tt0071259/) |
 | 1975-11-07 | [Oscar insanguinato](https://www.imdb.com/title/tt0070791/) |
+| 1975-11-09 | [Qui Montecarlo... Attenti a quei due!](https://www.imdb.com/title/tt0301623/) |
 | 1975-11-13 | [Bello come un arcangelo](https://www.imdb.com/title/tt0157377/) |
 | 1975-11-20 | [Decameron proibitissimo](https://www.imdb.com/title/tt0068463/) |
 | 1975-11-21 | [Le svedesi si confessano e...](https://www.imdb.com/title/tt0062619/) |
@@ -1168,6 +1174,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1983-09-25 | [Il “giornalista”… e la sua star (Une si jolie petite chatte)](https://www.imdb.com/title/tt8391724/) |
 | 1983-10-09 | [Love sensation](https://www.imdb.com/title/tt0078499/) |
 | 1983-10-13 | [Mia moglie torna a scuola](https://www.imdb.com/title/tt0082742/) |
+| 1983-10-21 | [Pornografia campagnola](https://www.imdb.com/title/tt0079796/) |
 | 1983-11-01 | [Le porno stars](https://www.imdb.com/title/tt0076534/) |
 | 1983-11-04 | [Pierino la peste alla riscossa](https://www.imdb.com/title/tt0134893/) |
 | 1983-11-06 | [Le svedesi super pon pon](https://www.imdb.com/title/tt0081471/) |
@@ -1175,6 +1182,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1983-11-12 | [Tenere cugine](https://www.imdb.com/title/tt0081614/) |
 | 1983-11-18 | [Porno Revolution](https://www.imdb.com/title/tt0461840/) |
 | 1983-11-24 | [Squadra antimafia](https://www.imdb.com/title/tt0078312/) |
+| 1983-12-04 | [Sesso profondo](https://www.imdb.com/title/tt0137539/) |
 | 1983-12-08 | [Josephine - Paradiso erotico](https://www.imdb.com/title/tt0082037/) |
 | 1983-12-25 | [Giochi erotici in famiglia](https://www.imdb.com/title/tt0080181/) |
 
@@ -1192,22 +1200,31 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1984-02-25 | [Un lupo mannaro americano a Londra](https://www.imdb.com/title/tt0082010/) |
 | 1984-03-09 | [Perché non facciamo l'amore?](https://www.imdb.com/title/tt0084959/) |
 | 1984-03-25 | [Un'estate pazzesca](https://www.imdb.com/title/tt0086352/) |
+| 1984-03-30 | [Pornoereditiere cercasi](https://www.imdb.com/title/tt0200115/) |
+| 1984-03-31 | [State buoni se potete](https://www.imdb.com/title/tt0086358/) |
 | 1984-04-08 | [Porky's II - Il giorno dopo](https://www.imdb.com/title/tt0086129/) |
+| 1984-04-23 | [Caldi amori in vetrina](https://www.imdb.com/title/tt0070314/) |
 | 1984-09-23 | [Le laureande](https://www.imdb.com/title/tt1370411/) |
 | 1984-10-07 | [No... sono vergine!!](https://www.imdb.com/title/tt0146228/) |
 | 1984-10-28 | [Fantasie erotiche](https://www.imdb.com/title/tt0074689/) |
 | 1984-11-17 | [La puneta - 40 anni di sesso](https://www.imdb.com/title/tt0077385/) |
+| 1984-11-18 | [Segretaria particolare](https://www.imdb.com/title/tt0257153/) |
 | 1984-12-09 | [La nave del piacere (Sexy Boat)](https://www.imdb.com/title/tt0075302/) |
 | 1984-12-15 | [Tormenti](https://www.imdb.com/title/tt0082506/) |
 | 1984-12-16 | [Indiscrezioni erotiche di un letto malizioso](https://www.imdb.com/title/tt0228728/) |
+| 1984-12-30 | [Quella porno erotica di mia moglie](https://www.imdb.com/title/tt0125914/) |
 
 ### 1985
 
 |  |  |
 |---|---|
+| 1985-01-01 | [Finalmente arrivò l'amore](https://www.imdb.com/title/tt0072665/) |
 | 1985-01-13 | [Quel Certo Piacere](https://www.imdb.com/title/tt0218172/) |
+| 1985-01-27 | [Pornoereditiere cercasi](https://www.imdb.com/title/tt0200115/) |
 | 1985-02-23 | [Mantidi in amore](https://www.imdb.com/title/tt0078821/) |
+| 1985-02-24 | [Peccati in famiglia](https://www.imdb.com/title/tt0073524/) |
 | 1985-03-16 | [Voglie erotiche di una porno pizzaiola (Hot &amp; Saucy Pizza Girls)](https://www.imdb.com/title/tt0127113/) |
+| 1985-03-23 | [Bruce Lee l'invincibile del kung fu](https://www.imdb.com/title/tt0081216/) |
 | 1985-03-29 | [Nati con la camicia](https://www.imdb.com/title/tt0085601/) |
 | 1985-09-21 | [Il ritorno dei morti viventi](https://www.imdb.com/title/tt0089907/) |
 | 1985-09-24 | [Non c'è due senza quattro](https://www.imdb.com/title/tt0087481/) |
@@ -1219,7 +1236,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1985-11-25 | [Lui è peggio di me](https://www.imdb.com/title/tt0087653/) |
 | 1985-12-06 | [Scuola di polizia](https://www.imdb.com/title/tt0087928/) |
 | 1985-12-09 | [Ghostbusters (Acchiappafantasmi)](https://www.imdb.com/title/tt0087332/) |
-| 1985-12-13 | [Bruce Lee l'invincibile del kung fu](https://www.imdb.com/title/tt0081216/) |
+| 1985-12-22 | [Hard Love: Le pornoadolescenti](https://www.imdb.com/title/tt0256116/) |
 | 1985-12-26 | [Amarsi un po'...](https://www.imdb.com/title/tt0086881/) |
 
 ### 1986
@@ -1227,7 +1244,9 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 |  |  |
 |---|---|
 | 1986-01-03 | [Gremlins](https://www.imdb.com/title/tt0087363/) |
+| 1986-01-05 | [Le segrete esperienze di Luca e Fanny](https://www.imdb.com/title/tt0081481/) |
 | 1986-01-10 | [Porky's III - La rivincita!](https://www.imdb.com/title/tt0089826/) |
+| 1986-01-12 | [Le super bocche](https://www.imdb.com/title/tt0127875/) |
 | 1986-02-14 | [L'ultimo drago](https://www.imdb.com/title/tt0089461/) |
 | 1986-03-02 | [Amour braque - Amore balordo](https://www.imdb.com/title/tt0088714/) |
 | 1986-03-18 | [Carabinieri si nasce](https://www.imdb.com/title/tt0088884/) |
@@ -1254,8 +1273,8 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1987-04-05 | [Shanghai Surprise](https://www.imdb.com/title/tt0091934/) |
 | 1987-04-12 | [Scuola di ladri](https://www.imdb.com/title/tt0091911/) |
 | 1987-04-19 | [Grandi magazzini](https://www.imdb.com/title/tt0091148/) |
-| 1987-05-03 | [Italian Fast Food](https://www.imdb.com/title/tt0179905/) |
 | 1987-05-03 | [Femmine scatenate](https://www.imdb.com/title/tt0081596/) |
+| 1987-05-03 | [Italian Fast Food](https://www.imdb.com/title/tt0179905/) |
 | 1987-05-17 | [Noi uomini duri](https://www.imdb.com/title/tt0093645/) |
 | 1987-08-27 | [Scuola di polizia 3: Tutto da rifare](https://www.imdb.com/title/tt0091777/) |
 | 1987-08-31 | [Scuola di polizia 4: Cittadini in... guardia](https://www.imdb.com/title/tt0093756/) |
@@ -1282,6 +1301,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1988-01-06 | [La casa 2](https://www.imdb.com/title/tt0092991/) |
 | 1988-01-09 | [Rimini Rimini](https://www.imdb.com/title/tt0093864/) |
 | 1988-01-16 | [Morte a 33 giri](https://www.imdb.com/title/tt0092112/) |
+| 1988-01-20 | [Le super bocche](https://www.imdb.com/title/tt0127875/) |
 | 1988-01-24 | [Missione eroica - I pompieri 2](https://www.imdb.com/title/tt0126443/) |
 | 1988-02-12 | [Mr. Crocodile Dundee](https://www.imdb.com/title/tt0090555/) |
 | 1988-02-14 | [Beverly Hills Cop II - Un piedipiatti a Beverly Hills II](https://www.imdb.com/title/tt0092644/) |
@@ -1297,10 +1317,14 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1988-04-24 | [Io e mia sorella](https://www.imdb.com/title/tt0093274/) |
 | 1988-04-26 | [Sottozero](https://www.imdb.com/title/tt0094010/) |
 | 1988-10-02 | [Ciao ma'...](https://www.imdb.com/title/tt0164000/) |
+| 1988-10-02 | [La professionista del piacere](https://www.imdb.com/title/tt0195025/) |
 | 1988-10-15 | [Senza inibizioni](https://www.imdb.com/title/tt0087944/) |
 | 1988-10-23 | [Com'è dura l'avventura](https://www.imdb.com/title/tt0094896/) |
 | 1988-11-13 | [Da grande](https://www.imdb.com/title/tt0164519/) |
+| 1988-11-27 | [Il piacere dell'atto sessuale](https://www.imdb.com/title/tt0197290/) |
 | 1988-12-02 | [Il ristorante all'angolo](https://www.imdb.com/title/tt0092669/) |
+| 1988-12-11 | [Sesso profondo](https://www.imdb.com/title/tt0137539/) |
+| 1988-12-25 | [Hard Love: Le pornoadolescenti](https://www.imdb.com/title/tt0256116/) |
 
 ### 1989
 
@@ -1309,17 +1333,23 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1989-01-01 | [Fievel sbarca in America](https://www.imdb.com/title/tt0090633/) |
 | 1989-01-06 | [Bye Bye Baby](https://www.imdb.com/title/tt0094820/) |
 | 1989-01-09 | [Scuola di polizia 5: Destinazione Miami](https://www.imdb.com/title/tt0095882/) |
+| 1989-01-15 | [Giochi erotici in famiglia](https://www.imdb.com/title/tt0080181/) |
 | 1989-01-22 | [Il piccolo diavolo](https://www.imdb.com/title/tt0095869/) |
 | 1989-01-28 | [Mak P 100](https://www.imdb.com/title/tt0162460/) |
+| 1989-01-29 | [Cara dolce nipote](https://www.imdb.com/title/tt0074282/) |
 | 1989-01-29 | [Danko](https://www.imdb.com/title/tt0095963/) |
+| 1989-02-05 | [Caldi amori in vetrina](https://www.imdb.com/title/tt0070314/) |
 | 1989-02-12 | [Una storia ambigua](https://www.imdb.com/title/tt0147550/) |
 | 1989-02-18 | [Voglia di vincere 2](https://www.imdb.com/title/tt0094118/) |
 | 1989-02-26 | [Il principe cerca moglie](https://www.imdb.com/title/tt0094898/) |
+| 1989-02-26 | [Pornoereditiere cercasi](https://www.imdb.com/title/tt0200115/) |
 | 1989-03-07 | [Corto circuito 2](https://www.imdb.com/title/tt0096101/) |
+| 1989-03-18 | [Infermiere disposte a tutto](https://www.imdb.com/title/tt0145174/) |
 | 1989-03-21 | [Chi ha incastrato Roger Rabbit](https://www.imdb.com/title/tt0096438/) |
 | 1989-04-02 | [Collegiali incestuose](https://www.imdb.com/title/tt0090026/) |
 | 1989-04-11 | [Mr. Crocodile Dundee II](https://www.imdb.com/title/tt0092493/) |
 | 1989-05-01 | [Compagni di scuola](https://www.imdb.com/title/tt0094901/) |
+| 1989-05-14 | [Infermiere disposte a tutto](https://www.imdb.com/title/tt0145174/) |
 | 1989-05-21 | [Il tempo delle mele 3](https://www.imdb.com/title/tt0096523/) |
 | 1989-09-26 | [Roba da ricchi](https://www.imdb.com/title/tt0093869/) |
 | 1989-10-05 | [Rimini Rimini - Un anno dopo](https://www.imdb.com/title/tt0200030/) |
@@ -1344,9 +1374,9 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1990-03-03 | [Furia cieca](https://www.imdb.com/title/tt0096945/) |
 | 1990-03-11 | [Ritorno al futuro - Parte II](https://www.imdb.com/title/tt0096874/) |
 | 1990-04-01 | [Perversioni Internazionali](https://www.imdb.com/title/tt0137551/) |
+| 1990-04-29 | [Conturbanti esperienze di una ragazzina in calore](https://www.imdb.com/title/tt0124693/) |
 | 1990-05-13 | [Tango &amp; Cash](https://www.imdb.com/title/tt0098439/) |
 | 1990-05-20 | [Tesoro, mi si sono ristretti i ragazzi](https://www.imdb.com/title/tt0097523/) |
-| 1990-05-20 | [Indietro tutta!](https://www.imdb.com/title/tt12118414/) |
 | 1990-09-30 | [Critters 2](https://www.imdb.com/title/tt0094919/) |
 | 1990-09-30 | [Angelica, marchesa di Sodoma](https://www.imdb.com/title/tt1233204/) |
 | 1990-10-07 | [Non aprite quel cancello 2](https://www.imdb.com/title/tt0099636/) |
@@ -1368,6 +1398,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1991-01-20 | [Ancora 48 ore](https://www.imdb.com/title/tt0099044/) |
 | 1991-02-03 | [Pierino torna a scuola](https://www.imdb.com/title/tt0100365/) |
 | 1991-02-23 | [Tartarughe Ninja alla riscossa](https://www.imdb.com/title/tt0100758/) |
+| 1991-03-03 | [Il piacere dell'atto sessuale](https://www.imdb.com/title/tt0197290/) |
 | 1991-03-17 | [Le comiche](https://www.imdb.com/title/tt0099293/) |
 | 1991-03-17 | [Erotic Dreams](https://www.imdb.com/title/tt0129909/) |
 | 1991-04-07 | [Stasera a casa di Alice](https://www.imdb.com/title/tt0100683/) |
@@ -1381,6 +1412,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1991-10-20 | [Un poliziotto alle elementari](https://www.imdb.com/title/tt0099938/) |
 | 1991-11-10 | [Tartarughe Ninja II - Il segreto di Ooze](https://www.imdb.com/title/tt0103060/) |
 | 1991-12-08 | [Scappatella con il morto](https://www.imdb.com/title/tt0100611/) |
+| 1991-12-22 | [Dirty Girls](https://www.imdb.com/title/tt0178379/) |
 | 1991-12-29 | [Piedipiatti](https://www.imdb.com/title/tt0102668/) |
 
 ### 1992
@@ -1394,11 +1426,13 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1992-02-09 | [Vacanze di Natale '91](https://www.imdb.com/title/tt0105717/) |
 | 1992-02-23 | [Donne con le gonne](https://www.imdb.com/title/tt0104122/) |
 | 1992-02-23 | [Vergini corpi frementi](https://www.imdb.com/title/tt0126098/) |
-| 1992-03-01 | [Femmine sfrenate](https://www.imdb.com/title/tt0096037/) |
+| 1992-03-01 | [Femmine sfrenate](https://www.imdb.com/title/tt0178877/) |
 | 1992-03-29 | [Delirio di femmine viziose](https://www.imdb.com/title/tt0088160/) |
 | 1992-04-26 | [La famiglia Addams](https://www.imdb.com/title/tt0101272/) |
 | 1992-05-03 | [Così fan tutte](https://www.imdb.com/title/tt0104014/) |
 | 1992-05-17 | [I delitti del gatto nero](https://www.imdb.com/title/tt0100740/) |
+| 1992-05-24 | [Angelica, marchesa di Sodoma](https://www.imdb.com/title/tt1233204/) |
+| 1992-09-20 | [Sesso morboso... sesso violento](https://www.imdb.com/title/tt0189795/) |
 | 1992-10-04 | [Beethoven](https://www.imdb.com/title/tt0103786/) |
 | 1992-10-18 | [Fermati, o mamma spara](https://www.imdb.com/title/tt0105477/) |
 | 1992-11-15 | [Saint Tropez, Saint Tropez](https://www.imdb.com/title/tt0166335/) |

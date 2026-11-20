@@ -100,7 +100,7 @@ lastmod: '2026-11-18'
 | 1971-04-04 | [Erik il vichingo](https://www.imdb.com/title/tt0059152/) |
 | 1971-04-06 | [Mexico amore e sangue per un gringhero](https://www.imdb.com/title/tt0060334/) |
 | 1971-04-07 | [Arizona si scatenò... e li fece fuori tutti!](https://www.imdb.com/title/tt0065422/) |
-| 1971-04-11 | [Le avventure di Ulisse](https://www.imdb.com/title/tt0064750/) |
+| 1971-04-11 | Le avventure di Ulisse |
 | 1971-04-12 | [La cortina di bambù](https://www.imdb.com/title/tt0062704/) |
 | 1971-04-14 | [L'uomo dalla maschera di ferro](https://www.imdb.com/title/tt0056228/) |
 | 1971-04-16 | [Le grandi vacanze](https://www.imdb.com/title/tt0060475/) |
@@ -270,3 +270,4 @@ lastmod: '2026-11-18'
 | 1971-12-26 | [Il buono, il brutto, il cattivo](https://www.imdb.com/title/tt0060196/) |
 | 1971-12-28 | [In fondo al buio](https://www.imdb.com/title/tt0064576/) |
 | 1971-12-29 | [L'astronave fantasma](https://www.imdb.com/title/tt0055562/) |
+

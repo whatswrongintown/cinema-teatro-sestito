@@ -34,6 +34,7 @@ I voti IMDb descrivono le valutazioni degli utenti IMDb, non il pubblico o gli i
 | 1965-01-20 | [Quando l'amore è veleno](https://www.imdb.com/title/tt0051858/) |
 | 1965-01-24 | [L'ultimo ribelle](https://www.imdb.com/title/tt0049989/) |
 | 1965-01-27 | [F.B.I. sesso e violenza](https://www.imdb.com/title/tt0161071/) |
+| 1965-01-28 | [Super rapina a Milano](https://www.imdb.com/title/tt0168201/) |
 | 1965-01-29 | [Taxi da battaglia](https://www.imdb.com/title/tt0047861/) |
 | 1965-01-31 | [Maciste contro i Mongoli](https://www.imdb.com/title/tt0183449/) |
 
@@ -233,5 +234,5 @@ I voti IMDb descrivono le valutazioni degli utenti IMDb, non il pubblico o gli i
 | 1965-12-27 | [La porta della Cina](https://www.imdb.com/title/tt0050252/) |
 | 1965-12-29 | [Una adorabile idiota](https://www.imdb.com/title/tt0058703/) |
 
-[^1]: Fonti: [Rapidtransport 1965]({{< relref "programmazione-storica/fonti/1965-01-01-rapidtransport-1965/index.md" >}})
+[^1]: Fonti: [Note sui manifesti]({{< relref "programmazione-storica/fonti/1965-01-01-note-sui-manifesti/index.md" >}}), [Rapidtransport 1965]({{< relref "programmazione-storica/fonti/1965-01-01-rapidtransport-1965/index.md" >}})
 

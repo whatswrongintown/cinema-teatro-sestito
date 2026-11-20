@@ -116,6 +116,7 @@ lastmod: '2026-11-18'
 | 1983-10-09 | [Love sensation](https://www.imdb.com/title/tt0078499/) |
 | 1983-10-11 | [L'uomo della verità (Il vero e il falso)](https://www.imdb.com/title/tt0067941/) |
 | 1983-10-13 | [Mia moglie torna a scuola](https://www.imdb.com/title/tt0082742/) |
+| 1983-10-15 | Porno amore bagnato |
 | 1983-10-16 | [Conan il barbaro](https://www.imdb.com/title/tt0082198/) |
 | 1983-10-20 | [Mia moglie l'eroticissima](https://www.imdb.com/title/tt0178656/) |
 | 1983-10-22 | [Sesso acerbo](https://www.imdb.com/title/tt0196089/) |
@@ -139,6 +140,7 @@ lastmod: '2026-11-18'
 | 1983-11-19 | [Il Falcone](https://www.imdb.com/title/tt0082356/) |
 | 1983-11-20 | [L'etrusco uccide ancora](https://www.imdb.com/title/tt0068625/) |
 | 1983-11-21 | [Bruce Lee vive ancora](https://www.imdb.com/title/tt0082107/) |
+| 1983-11-22 | La porcellona |
 | 1983-11-24 | [Squadra antimafia](https://www.imdb.com/title/tt0078312/) |
 | 1983-11-26 | [Poltergeist - Demoniache presenze](https://www.imdb.com/title/tt0084516/) |
 | 1983-11-27 | [Morbosità di una orientale](https://www.imdb.com/title/tt0192224/) |
@@ -149,8 +151,8 @@ lastmod: '2026-11-18'
 
 |  |  |
 |---|---|
-| 1983-12-04 | [Sesso infuocato](https://www.imdb.com/title/tt0271502/) |
 | 1983-12-04 | [La bestia in calore](https://www.imdb.com/title/tt0076649/) |
+| 1983-12-04 | [Sesso infuocato](https://www.imdb.com/title/tt0271502/) |
 | 1983-12-08 | [Josephine - Paradiso erotico](https://www.imdb.com/title/tt0082037/) |
 | 1983-12-10 | [California](https://www.imdb.com/title/tt0075796/) |
 | 1983-12-11 | [Erotic Super Love](https://www.imdb.com/title/tt1234673/) |
@@ -159,3 +161,4 @@ lastmod: '2026-11-18'
 | 1983-12-25 | [Giochi erotici in famiglia](https://www.imdb.com/title/tt0080181/) |
 | 1983-12-27 | [L'esorcista](https://www.imdb.com/title/tt0070047/) |
 | 1983-12-30 | [La lussuria (Luxure)](https://www.imdb.com/title/tt0074830/) |
+

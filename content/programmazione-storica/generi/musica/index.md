@@ -226,12 +226,6 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 |---|---|
 | 1991-12-15 | [The Doors](https://www.imdb.com/title/tt0101761/) |
 
-### 1992
-
-|  |  |
-|---|---|
-| 1992-03-01 | [Femmine sfrenate](https://www.imdb.com/title/tt0096037/) |
-
 ### 1993
 
 |  |  |

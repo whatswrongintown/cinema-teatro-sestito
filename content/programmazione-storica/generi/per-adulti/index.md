@@ -19,12 +19,6 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 |---|---|
 | 1977-07-26 | [Guardiamola nuda e... poi decidiamo](https://www.imdb.com/title/tt0251937/) |
 
-### 1978
-
-|  |  |
-|---|---|
-| 1978-10-03 | [La dottoressa sotto il lenzuolo](https://www.imdb.com/title/tt0074427/) |
-
 ### 1979
 
 |  |  |
@@ -48,7 +42,6 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 
 |  |  |
 |---|---|
-| 1981-01-09 | [Blue Movie](https://www.imdb.com/title/tt0077252/) |
 | 1981-01-13 | [Si... Lo voglio!](https://www.imdb.com/title/tt0190793/) |
 | 1981-02-18 | [Porno Revolution](https://www.imdb.com/title/tt0461840/) |
 | 1981-03-19 | [Missione sexfinger](https://www.imdb.com/title/tt0075642/) |
@@ -111,12 +104,14 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 
 |  |  |
 |---|---|
+| 1983-01-02 | [Labbra insaziabili (Ça aide beaucoup)](https://www.imdb.com/title/tt35652748/) |
 | 1983-01-05 | [Sensual eruption (Eruption)](https://www.imdb.com/title/tt0124491/) |
 | 1983-01-12 | [La viziosa (Experiences)](https://www.imdb.com/title/tt0082707/) |
 | 1983-01-17 | [Topo d'albergo (La fureur sexuelle)](https://www.imdb.com/title/tt1180766/) |
 | 1983-01-22 | [L'altro vizio della porno bocca (Incontri proibiti)](https://www.imdb.com/title/tt0079599/) |
 | 1983-01-22 | [Orgasmo pornografico](https://www.imdb.com/title/tt0178818/) |
 | 1983-01-23 | [Justine (Le porno libidini di Justine)](https://www.imdb.com/title/tt0079385/) |
+| 1983-01-30 | [Porno libido](https://www.imdb.com/title/tt0077777/) |
 | 1983-01-31 | [Le calde ragazze di Amburgo (Kohlpiesels Töchter)](https://www.imdb.com/title/tt0181630/) |
 | 1983-02-07 | [Dammene ancora (Ça glisse par les deux trous)](https://www.imdb.com/title/tt8374276/) |
 | 1983-02-15 | [Pornopensieri](https://www.imdb.com/title/tt0272188/) |
@@ -134,10 +129,12 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1983-09-25 | [Il “giornalista”… e la sua star (Une si jolie petite chatte)](https://www.imdb.com/title/tt8391724/) |
 | 1983-09-29 | [Sweet savage - Dolce selvaggia](https://www.imdb.com/title/tt0079975/) |
 | 1983-10-20 | [Mia moglie l'eroticissima](https://www.imdb.com/title/tt0178656/) |
+| 1983-10-21 | [Pornografia campagnola](https://www.imdb.com/title/tt0079796/) |
 | 1983-10-22 | [Sesso acerbo](https://www.imdb.com/title/tt0196089/) |
 | 1983-10-29 | [La Vetrina del Piacere (Tout pour jouir)](https://www.imdb.com/title/tt0178949/) |
 | 1983-11-18 | [Porno Revolution](https://www.imdb.com/title/tt0461840/) |
 | 1983-11-29 | [Peccati di giovani mogli](https://www.imdb.com/title/tt0131525/) |
+| 1983-12-04 | [Sesso profondo](https://www.imdb.com/title/tt0137539/) |
 | 1983-12-04 | [Sesso infuocato](https://www.imdb.com/title/tt0271502/) |
 | 1983-12-08 | [Josephine - Paradiso erotico](https://www.imdb.com/title/tt0082037/) |
 | 1983-12-11 | [Erotic Super Love](https://www.imdb.com/title/tt1234673/) |
@@ -148,42 +145,63 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 
 |  |  |
 |---|---|
+| 1984-01-14 | [Le 4 pornoamiche](https://www.imdb.com/title/tt0140239/) |
 | 1984-01-14 | [Le quattro porno amiche (Bourgeoises déchaînées)](https://www.imdb.com/title/tt1346252/) |
 | 1984-01-20 | [L'estasi e l'angoscia (Josephine Story)](https://www.imdb.com/title/tt0294658/) |
 | 1984-01-28 | [American porno teenager (Teenage Sex Kitten)](https://www.imdb.com/title/tt0197010/) |
-| 1984-02-04 | [Casanova II](https://www.imdb.com/title/tt0188486/) |
+| 1984-02-04 | [Casanova 82](https://www.imdb.com/title/tt0123638/) |
+| 1984-02-05 | [Blue Movie Sexycompulsion](https://www.imdb.com/title/tt0075464/) |
 | 1984-02-20 | [Il paradiso del sesso (Consultorio sexológico)](https://www.imdb.com/title/tt0077367/) |
 | 1984-02-26 | [Febbre erotica del piacere](https://www.imdb.com/title/tt0283566/) |
 | 1984-03-10 | [Le ereditiere superporno](https://www.imdb.com/title/tt0193141/) |
 | 1984-03-24 | [Pornofantasie di un superdotato](https://www.imdb.com/title/tt0127161/) |
 | 1984-03-30 | [Pandora... il sapore della carne](https://www.imdb.com/title/tt0082879/) |
+| 1984-03-30 | [Pornoereditiere cercasi](https://www.imdb.com/title/tt0200115/) |
 | 1984-04-06 | [Emy la minorenne (Quella porcacciona di mia moglie)](https://www.imdb.com/title/tt0190969/) |
 | 1984-04-15 | [Mariette (Heiße Löcher, geile Stecher)](https://www.imdb.com/title/tt0311272/) |
 | 1984-09-30 | [Lolita, la governante erotica](https://www.imdb.com/title/tt1389445/) |
 | 1984-10-07 | [No... sono vergine!!](https://www.imdb.com/title/tt0146228/) |
 | 1984-10-14 | [Canadesi supersex](https://www.imdb.com/title/tt0148540/) |
+| 1984-10-19 | [Pornoshow a Montecarlo](https://www.imdb.com/title/tt0127854/) |
 | 1984-10-21 | [La Vetrina del Piacere (Tout pour jouir)](https://www.imdb.com/title/tt0178949/) |
+| 1984-10-28 | [Porno libido](https://www.imdb.com/title/tt0077777/) |
 | 1984-11-01 | [Super Sexual Fantasy (Confidences d'une petite culotte)](https://www.imdb.com/title/tt8374372/) |
+| 1984-11-18 | [Segretaria particolare](https://www.imdb.com/title/tt0257153/) |
 | 1984-12-09 | [La nave del piacere (Sexy Boat)](https://www.imdb.com/title/tt0075302/) |
+| 1984-12-30 | [Quella porno erotica di mia moglie](https://www.imdb.com/title/tt0125914/) |
 
 ### 1985
 
 |  |  |
 |---|---|
+| 1985-01-01 | [Oscenità](https://www.imdb.com/title/tt0131515/) |
 | 1985-01-06 | [Tanto calore](https://www.imdb.com/title/tt0210323/) |
 | 1985-01-13 | [Quel Certo Piacere](https://www.imdb.com/title/tt0218172/) |
+| 1985-01-27 | [Pornoereditiere cercasi](https://www.imdb.com/title/tt0200115/) |
 | 1985-02-03 | [Inquietudine morbosa di una moglie](https://www.imdb.com/title/tt1407301/) |
 | 1985-02-23 | [Mantidi in amore](https://www.imdb.com/title/tt0078821/) |
+| 1985-02-24 | [L'altro vizio della porno bocca, incontri proibiti](https://www.imdb.com/title/tt0079599/) |
+| 1985-03-08 | [La moglie ingorda](https://www.imdb.com/title/tt0127801/) |
 | 1985-03-16 | [Voglie erotiche di una porno pizzaiola (Hot &amp; Saucy Pizza Girls)](https://www.imdb.com/title/tt0127113/) |
+| 1985-09-14 | [Marilyn l'insaziabile](https://www.imdb.com/title/tt0080927/) |
+| 1985-09-22 | [Hard confidential story](https://www.imdb.com/title/tt0195342/) |
+| 1985-10-04 | [Un corpo da vendere](https://www.imdb.com/title/tt0289511/) |
 | 1985-10-13 | [Nido d'amore](https://www.imdb.com/title/tt0212259/) |
 | 1985-10-27 | [Jhoanna farfalla in calore (Skin-Flicks)](https://www.imdb.com/title/tt0079913/) |
+| 1985-11-17 | [Corpi d'amore porno](https://www.imdb.com/title/tt0076235/) |
 | 1985-11-17 | [Quella viziosa di Susan](https://www.imdb.com/title/tt0206874/) |
+| 1985-12-09 | [Cameriera senza... malizia](https://www.imdb.com/title/tt0078929/) |
+| 1985-12-10 | [La seduzione di Lynne](https://www.imdb.com/title/tt0127824/) |
+| 1985-12-29 | [Sono una p… topo d'albergo](https://www.imdb.com/title/tt1180766/) |
 | 1985-12-29 | [Calde](https://www.imdb.com/title/tt4290202/) |
 
 ### 1986
 
 |  |  |
 |---|---|
+| 1986-01-01 | [Exhibition 80](https://www.imdb.com/title/tt0424074/) |
+| 1986-01-05 | [Le segrete esperienze di Luca e Fanny](https://www.imdb.com/title/tt0081481/) |
+| 1986-01-12 | [Le super bocche](https://www.imdb.com/title/tt0127875/) |
 | 1986-02-23 | [Ragazzina vogliosetta](https://www.imdb.com/title/tt0202541/) |
 | 1986-03-16 | [Hard Sensation](https://www.imdb.com/title/tt0189568/) |
 | 1986-10-12 | [La chiave del piacere](https://www.imdb.com/title/tt0212603/) |
@@ -206,6 +224,7 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1987-09-05 | [Vieni, vieni da me amore mio](https://www.imdb.com/title/tt0201308/) |
 | 1987-10-07 | [Carne bollente](https://www.imdb.com/title/tt0132476/) |
 | 1987-10-11 | [Babe](https://www.imdb.com/title/tt0083606/) |
+| 1987-10-18 | [Corpi d'amore porno](https://www.imdb.com/title/tt0076235/) |
 | 1987-10-25 | [Marina e il suo cinema](https://www.imdb.com/title/tt0212330/) |
 | 1987-11-08 | [Telefono rosso](https://www.imdb.com/title/tt0210330/) |
 | 1987-11-13 | [Senza limiti](https://www.imdb.com/title/tt0076197/) |
@@ -219,36 +238,63 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 |---|---|
 | 1988-01-10 | [Bocca bianca, bocca nera](https://www.imdb.com/title/tt0092682/) |
 | 1988-01-17 | [Una moglie molto infedele](https://www.imdb.com/title/tt0126453/) |
+| 1988-01-20 | [Le super bocche](https://www.imdb.com/title/tt0127875/) |
+| 1988-01-21 | [La portiera d'albergo](https://www.imdb.com/title/tt0081090/) |
+| 1988-01-30 | [Le 4 pornoamiche](https://www.imdb.com/title/tt0140239/) |
+| 1988-02-07 | [Justine una minorenne deliziosa…](https://www.imdb.com/title/tt0125296/) |
 | 1988-02-14 | [Sogni bagnati di mia zia (Love Dreams)](https://www.imdb.com/title/tt0195887/) |
+| 1988-02-21 | [Quelle morbide calde labbra](https://www.imdb.com/title/tt0165332/) |
 | 1988-02-27 | [Banane al cioccolato](https://www.imdb.com/title/tt0204873/) |
 | 1988-02-28 | [Sogni indecenti](https://www.imdb.com/title/tt0199034/) |
 | 1988-03-06 | [I racconti sensuali di Cicciolina](https://www.imdb.com/title/tt0197793/) |
 | 1988-03-13 | [Fantastica Moana](https://www.imdb.com/title/tt0208946/) |
+| 1988-03-20 | [La moglie ingorda](https://www.imdb.com/title/tt0127801/) |
 | 1988-03-20 | [Karin l'ingorda](https://www.imdb.com/title/tt0204430/) |
 | 1988-04-10 | [Urla di piacere](https://www.imdb.com/title/tt0191477/) |
 | 1988-04-17 | [La sfida erotica](https://www.imdb.com/title/tt0213237/) |
 | 1988-05-21 | [I vizi segreti degli italiani quando credono di non essere visti](https://www.imdb.com/title/tt0201317/) |
 | 1988-05-29 | [Non stop sempre buio in sala](https://www.imdb.com/title/tt0089990/) |
+| 1988-09-10 | [Marina la pornoviziosa](https://www.imdb.com/title/tt0390235/) |
 | 1988-09-23 | [Cicciolina Number One](https://www.imdb.com/title/tt0204203/) |
+| 1988-10-02 | [La professionista del piacere](https://www.imdb.com/title/tt0195025/) |
+| 1988-10-08 | [Coppie viziose](https://www.imdb.com/title/tt0075381/) |
 | 1988-10-08 | [Goduria carnale](https://www.imdb.com/title/tt0076198/) |
 | 1988-11-06 | [Una donna scandalosa](https://www.imdb.com/title/tt0085719/) |
+| 1988-11-20 | [Porno libido](https://www.imdb.com/title/tt0077777/) |
+| 1988-11-27 | [Il piacere dell'atto sessuale](https://www.imdb.com/title/tt0197290/) |
+| 1988-12-04 | [Corpi bollenti d'amore](https://www.imdb.com/title/tt0126288/) |
 | 1988-12-04 | [Moana, la bella di giorno](https://www.imdb.com/title/tt0187307/) |
+| 1988-12-11 | [Sesso profondo](https://www.imdb.com/title/tt0137539/) |
 | 1988-12-11 | [Bocche calde - Sesso in condominio](https://www.imdb.com/title/tt34624089/) |
+| 1988-12-18 | [Belle, erotiche e maliziose](https://www.imdb.com/title/tt0122903/) |
 
 ### 1989
 
 |  |  |
 |---|---|
+| 1989-01-01 | [Adolescenti vogliose](https://www.imdb.com/title/tt1839398/) |
+| 1989-01-06 | [Le ragazze super particolari](https://www.imdb.com/title/tt5508022/) |
 | 1989-01-08 | [I racconti sensuali di Cicciolina](https://www.imdb.com/title/tt0197793/) |
 | 1989-01-15 | [Proibitissimo](https://www.imdb.com/title/tt0126581/) |
 | 1989-01-22 | [La bottega del piacere](https://www.imdb.com/title/tt0158512/) |
+| 1989-01-22 | [Moana, la bella di giorno](https://www.imdb.com/title/tt0187307/) |
 | 1989-01-29 | [Candice Candy](https://www.imdb.com/title/tt0134436/) |
 | 1989-02-05 | [Marina... miele selvaggio](https://www.imdb.com/title/tt0390236/) |
+| 1989-02-19 | [Il set del piacere](https://www.imdb.com/title/tt0213235/) |
+| 1989-02-26 | [Pornoereditiere cercasi](https://www.imdb.com/title/tt0200115/) |
+| 1989-03-05 | [Febbre erotica del piacere](https://www.imdb.com/title/tt0283566/) |
+| 1989-03-18 | [Infermiere disposte a tutto](https://www.imdb.com/title/tt0145174/) |
 | 1989-03-26 | [Una Novizia nel porno-harem](https://www.imdb.com/title/tt34624317/) |
 | 1989-04-02 | [Collegiali incestuose](https://www.imdb.com/title/tt0090026/) |
 | 1989-04-23 | [La voglia](https://www.imdb.com/title/tt0126719/) |
+| 1989-05-07 | [Perversioni sessuali a Las Vegas](https://www.imdb.com/title/tt0191448/) |
+| 1989-05-14 | [Infermiere disposte a tutto](https://www.imdb.com/title/tt0145174/) |
+| 1989-05-28 | [Marina... miele selvaggio](https://www.imdb.com/title/tt0390236/) |
 | 1989-09-17 | [Una calda femmina da letto](https://www.imdb.com/title/tt0180502/) |
+| 1989-09-24 | [Gattine in amore](https://www.imdb.com/title/tt0189511/) |
 | 1989-10-01 | [Una scatenata moglie insaziabile](https://www.imdb.com/title/tt7705824/) |
+| 1989-10-08 | [Folli desideri erotici](https://www.imdb.com/title/tt0134562/) |
+| 1989-10-22 | [Corpi d'amore porno](https://www.imdb.com/title/tt0076235/) |
 | 1989-11-05 | [Il vizio preferito di mia moglie](https://www.imdb.com/title/tt0126718/) |
 | 1989-11-12 | [Piaceri insaziabili di mogli in calore](https://www.imdb.com/title/tt0095526/) |
 | 1989-12-17 | [Moana la scandalosa](https://www.imdb.com/title/tt0393489/) |
@@ -263,16 +309,22 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1990-01-14 | [Coppie viziose](https://www.imdb.com/title/tt0075381/) |
 | 1990-01-21 | [Marina, un vulcano di piacere](https://www.imdb.com/title/tt0212332/) |
 | 1990-02-25 | [Ricordi di notte](https://www.imdb.com/title/tt0204594/) |
+| 1990-03-04 | [I peccati della notte](https://www.imdb.com/title/tt0089071/) |
 | 1990-03-25 | [Vicende intime n. 1](https://www.imdb.com/title/tt0216355/) |
 | 1990-04-01 | [Perversioni Internazionali](https://www.imdb.com/title/tt0137551/) |
+| 1990-04-29 | [Conturbanti esperienze di una ragazzina in calore](https://www.imdb.com/title/tt0124693/) |
 | 1990-05-06 | [La baita dell'amore](https://www.imdb.com/title/tt0279667/) |
+| 1990-05-20 | [Di dietro tutta, femmine corrotte dal piacere](https://www.imdb.com/title/tt0085367/) |
 | 1990-09-16 | [Ogni volta di più](https://www.imdb.com/title/tt7344680/) |
 | 1990-09-30 | [Angelica, marchesa di Sodoma](https://www.imdb.com/title/tt1233204/) |
+| 1990-10-07 | [Un mondo di tentazioni](https://www.imdb.com/title/tt0778869/) |
 | 1990-10-14 | [Stimulators](https://www.imdb.com/title/tt0196119/) |
 | 1990-10-21 | [Le superscatenate](https://www.imdb.com/title/tt0098648/) |
+| 1990-10-28 | [Il vizio preferito di mia moglie](https://www.imdb.com/title/tt0126718/) |
 | 1990-10-28 | [SuperBestia](https://www.imdb.com/title/tt0178841/) |
 | 1990-11-04 | [Brividi caldi sulle labbra di mia moglie](https://www.imdb.com/title/tt0382029/) |
 | 1990-11-11 | [Vogliose ed insaziabili per stalloni superdotati](https://www.imdb.com/title/tt0147245/) |
+| 1990-11-12 | [Orgia libera](https://www.imdb.com/title/tt10784464/) |
 | 1990-12-02 | [Il vizio di Baby e l'ingordigia di Ramba](https://www.imdb.com/title/tt0216379/) |
 
 ### 1991
@@ -280,7 +332,9 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 |  |  |
 |---|---|
 | 1991-01-13 | [Amori particolari transessuali](https://www.imdb.com/title/tt2321179/) |
+| 1991-03-03 | [Il piacere dell'atto sessuale](https://www.imdb.com/title/tt0197290/) |
 | 1991-03-10 | [Cicciolina e Moana 'Mondiali'](https://www.imdb.com/title/tt0099267/) |
+| 1991-03-31 | [Il grande momento …bestiale](https://www.imdb.com/title/tt0202887/) |
 | 1991-04-21 | [Marina e la sua bestia](https://www.imdb.com/title/tt0390227/) |
 | 1991-09-15 | [Taboo American Style 1: The Ruthless Beginning](https://www.imdb.com/title/tt0128683/) |
 | 1991-09-29 | [Taboo American Style 2: The Story Continues](https://www.imdb.com/title/tt0128684/) |
@@ -288,8 +342,10 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 | 1991-10-13 | [Taboo American Style 4: The Exciting Conclusion](https://www.imdb.com/title/tt0128686/) |
 | 1991-10-20 | [Slip caldo e bagnato](https://www.imdb.com/title/tt32851729/) |
 | 1991-11-10 | [Slip caldo e bagnato](https://www.imdb.com/title/tt32851729/) |
+| 1991-11-15 | [Un bestiale… triangolo erotico](https://www.imdb.com/title/tt0204265/) |
 | 1991-12-01 | [Femmine morbosamente erotiche](https://www.imdb.com/title/tt1399938/) |
-| 1991-12-22 | [Dirty Girls](https://www.imdb.com/title/tt14993278/) |
+| 1991-12-15 | [Avide lingue](https://www.imdb.com/title/tt0195293/) |
+| 1991-12-22 | [Dirty Girls](https://www.imdb.com/title/tt0178379/) |
 | 1991-12-29 | [Alexandra... oltre i confini del sesso](https://www.imdb.com/title/tt0196326/) |
 
 ### 1992
@@ -297,18 +353,33 @@ image: "/programmazione-storica/generi/_index_files/figure-html/generi-per-decen
 |  |  |
 |---|---|
 | 1992-01-12 | [Labbra vogliose](https://www.imdb.com/title/tt0195009/) |
+| 1992-02-02 | [Il miele dell'amante regina](https://www.imdb.com/title/tt0444336/) |
+| 1992-02-09 | [Una donna scandalosa](https://www.imdb.com/title/tt0085719/) |
+| 1992-02-09 | [Provocazione carnale](https://www.imdb.com/title/tt0189799/) |
 | 1992-02-23 | [Vergini corpi frementi](https://www.imdb.com/title/tt0126098/) |
+| 1992-03-01 | [Femmine sfrenate](https://www.imdb.com/title/tt0178877/) |
+| 1992-03-08 | [Viziose asolescenti](https://www.imdb.com/title/tt0125175/) |
+| 1992-03-29 | [Lunghi e duri per i… turbamenti erotici di Pamela](https://www.imdb.com/title/tt0081593/) |
 | 1992-03-29 | [Delirio di femmine viziose](https://www.imdb.com/title/tt0088160/) |
+| 1992-04-05 | [Febbre di lingue viziose](https://www.imdb.com/title/tt0139593/) |
 | 1992-04-12 | [Tutti i vizzi de mia moglie](https://www.imdb.com/title/tt8006450/) |
+| 1992-04-19 | [Solange la calda bocca](https://www.imdb.com/title/tt0459021/) |
 | 1992-04-26 | [Esperienze innaturali di Lorain](https://www.imdb.com/title/tt0311643/) |
 | 1992-05-10 | [Le donne di Mandingo](https://www.imdb.com/title/tt0144877/) |
+| 1992-05-24 | [Angelica, marchesa di Sodoma](https://www.imdb.com/title/tt1233204/) |
+| 1992-09-20 | [Sesso morboso... sesso violento](https://www.imdb.com/title/tt0189795/) |
+| 1992-10-25 | [La chiave del piacere](https://www.imdb.com/title/tt0212603/) |
 | 1992-11-15 | [Un desiderio bestiale](https://www.imdb.com/title/tt0204265/) |
+| 1992-12-06 | [Avide lingue](https://www.imdb.com/title/tt0195293/) |
+| 1992-12-13 | [Mamma ho perso l'uccello](https://www.imdb.com/title/tt0180111/) |
 
 ### 1993
 
 |  |  |
 |---|---|
 | 1993-01-10 | [Pretty Anal](https://www.imdb.com/title/tt0159670/) |
+| 1993-01-31 | [Le superscatenate](https://www.imdb.com/title/tt0098648/) |
+| 1993-02-07 | [Orgia libera](https://www.imdb.com/title/tt10784464/) |
 | 1993-04-25 | [Fantastica Moana](https://www.imdb.com/title/tt0208946/) |
 | 1993-11-21 | [Buco profondo - L'insaziabile viziosa](https://www.imdb.com/title/tt0158525/) |
 

@@ -41,8 +41,8 @@ description: Calendari murali o da tavolo legati all’attività del cinema. Ind
 |---|---|
 | 1991-03-03 | [Esperienze erotiche di giovani donne](https://www.imdb.com/title/tt0068989/) |
 | 1991-03-03 | [Ghost - Fantasma](https://www.imdb.com/title/tt0099653/) |
-| 1991-03-10 | [Rocky V](https://www.imdb.com/title/tt0100507/) |
 | 1991-03-10 | [Cicciolina e Moana 'Mondiali'](https://www.imdb.com/title/tt0099267/) |
+| 1991-03-10 | [Rocky V](https://www.imdb.com/title/tt0100507/) |
 | 1991-03-17 | [Le comiche](https://www.imdb.com/title/tt0099293/) |
 | 1991-03-17 | [Erotic Dreams](https://www.imdb.com/title/tt0129909/) |
 | 1991-03-24 | [Atto di forza](https://www.imdb.com/title/tt0100802/) |
@@ -66,8 +66,8 @@ description: Calendari murali o da tavolo legati all’attività del cinema. Ind
 | 1991-05-05 | [Il tè nel deserto](https://www.imdb.com/title/tt0100594/) |
 | 1991-05-12 | [Vacanze di Natale '90](https://www.imdb.com/title/tt0129511/) |
 | 1991-05-19 | [Mamma, ho perso l'aereo](https://www.imdb.com/title/tt0099785/) |
-| 1991-05-26 | [Occhio alla perestrojka](https://www.imdb.com/title/tt0129271/) |
 | 1991-05-26 | [Spogliando Valeria](https://www.imdb.com/title/tt0096959/) |
+| 1991-05-26 | [Occhio alla perestrojka](https://www.imdb.com/title/tt0129271/) |
 
 ### Giugno
 
@@ -123,7 +123,7 @@ description: Calendari murali o da tavolo legati all’attività del cinema. Ind
 | 1991-12-08 | [Scappatella con il morto](https://www.imdb.com/title/tt0100611/) |
 | 1991-12-15 | [The Doors](https://www.imdb.com/title/tt0101761/) |
 | 1991-12-22 | [Ritorno alla laguna blu](https://www.imdb.com/title/tt0102782/) |
-| 1991-12-22 | [Dirty Girls](https://www.imdb.com/title/tt14993278/) |
+| 1991-12-22 | [Dirty Girls](https://www.imdb.com/title/tt0178379/) |
 | 1991-12-29 | [Piedipiatti](https://www.imdb.com/title/tt0102668/) |
 | 1991-12-29 | [Alexandra... oltre i confini del sesso](https://www.imdb.com/title/tt0196326/) |
 

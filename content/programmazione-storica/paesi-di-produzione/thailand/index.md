@@ -30,4 +30,5 @@ image: "/programmazione-storica/paesi-di-produzione/_index_files/figure-html/ita
 |  |  |
 |---|---|
 | 1986-03-08 | [L'urlo di Bruce Lee terrorizza ancora](https://www.imdb.com/title/tt0196113/) |
+| 1986-04-19 | [L'urlo di Bruce Lee terrorizza ancora](https://www.imdb.com/title/tt0196113/) |
 

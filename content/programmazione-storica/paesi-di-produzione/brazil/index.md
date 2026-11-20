@@ -47,11 +47,24 @@ image: "/programmazione-storica/paesi-di-produzione/_index_files/figure-html/ita
 
 |  |  |
 |---|---|
-| 1971-08-25 | [Le carabine del rio negro (Lampi«o, O Rei do Canga»o)](https://www.imdb.com/title/tt0184659/) |
+| 1971-08-25 | [Le carabine del rio negro (Lampião, O Rei do Cangaço)](https://www.imdb.com/title/tt0184659/) |
 
 ### 1985
 
 |  |  |
 |---|---|
-| 1985-09-24 | [Non c'� due senza quattro](https://www.imdb.com/title/tt0087481/) |
+| 1985-09-24 | [Non c'è due senza quattro](https://www.imdb.com/title/tt0087481/) |
+
+### 1990
+
+|  |  |
+|---|---|
+| 1990-10-07 | [Un mondo di tentazioni](https://www.imdb.com/title/tt0778869/) |
+
+### 1992
+
+|  |  |
+|---|---|
+| 1992-02-02 | [Il miele dell'amante regina](https://www.imdb.com/title/tt0444336/) |
+| 1992-04-19 | [Solange la calda bocca](https://www.imdb.com/title/tt0459021/) |
 

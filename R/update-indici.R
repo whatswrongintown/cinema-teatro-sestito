@@ -105,7 +105,7 @@ indici_data_fonti <- function(data) {
     type[hit] <- name
     assigned <- assigned | hit
   }
-  levels <- c("Appunti", "Rubriche", "Calendari", "Agende", "Note sui manifesti")
+  levels <- c("Note sui manifesti", "Appunti", "Rubriche", "Calendari", "Agende")
   counts <- as.data.frame(table(tipo = type, decennio = long$decennio), stringsAsFactors = FALSE)
   counts <- counts[counts$Freq > 0, , drop = FALSE]
   counts$decennio <- as.integer(counts$decennio)
@@ -342,8 +342,8 @@ indici_axes <- function(x_at, x_labels, y_at, y_labels, xtitle, ytitle, sizes,
 # dei film per adulti, che usa un tema proprio.
 indici_large <- list(title = indici_size(28), subtitle = indici_size(24),
                      axis_title = indici_size(24), text = indici_size(20))
-indici_small <- list(title = indici_size(16), subtitle = indici_size(12),
-                     axis_title = indici_size(11), text = indici_size(10))
+indici_small <- list(title = indici_size(22), subtitle = indici_size(18),
+                     axis_title = indici_size(16), text = indici_size(14))
 
 # Gradiente da grigio chiaro a verde menta, interpolato in CIELAB come scale_fill_gradient.
 indici_gradient <- function(values, limits) {

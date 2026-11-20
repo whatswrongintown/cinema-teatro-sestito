@@ -285,6 +285,7 @@ lastmod: '2026-11-18'
 | 1981-01-01 | [Racket dei violenti (L'uomo dagli occhi di ghiaccio)](https://www.imdb.com/title/tt0067913/) |
 | 1981-01-02 | [Quel gran pezzo della Ubalda tutta nuda e tutta calda](https://www.imdb.com/title/tt0070583/) |
 | 1981-01-04 | [Ciclone](https://www.imdb.com/title/tt0075901/) |
+| 1981-01-06 | Colpo per colpo |
 | 1981-01-09 | [Blue Movie](https://www.imdb.com/title/tt0077252/) |
 | 1981-01-11 | [L'uomo della grande muraglia](https://www.imdb.com/title/tt1753918/) |
 | 1981-01-13 | [Si... Lo voglio!](https://www.imdb.com/title/tt0190793/) |
@@ -309,6 +310,7 @@ lastmod: '2026-11-18'
 | 1981-02-18 | [Porno Revolution](https://www.imdb.com/title/tt0461840/) |
 | 1981-02-22 | [Viva la muerte... tua!](https://www.imdb.com/title/tt0067303/) |
 | 1981-02-23 | [Napoli... la camorra sfida, la città risponde](https://www.imdb.com/title/tt0079611/) |
+| 1981-02-24 | La moglie in calore |
 | 1981-02-26 | [Amori miei](https://www.imdb.com/title/tt0078770/) |
 | 1981-02-27 | [Porno frenesie di una vergine](https://www.imdb.com/title/tt0257632/) |
 
@@ -421,3 +423,4 @@ lastmod: '2026-11-18'
 | 1981-12-26 | [Piedone l'africano](https://www.imdb.com/title/tt0076544/) |
 | 1981-12-27 | [La febbre del sabato sera](https://www.imdb.com/title/tt0076666/) |
 | 1981-12-31 | [Il cacciatore di squali](https://www.imdb.com/title/tt0078925/) |
+

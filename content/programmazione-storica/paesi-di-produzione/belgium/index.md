@@ -82,7 +82,32 @@ image: "/programmazione-storica/paesi-di-produzione/_index_files/figure-html/ita
 
 |  |  |
 |---|---|
+| 1984-10-19 | [Pornoshow a Montecarlo](https://www.imdb.com/title/tt0127854/) |
 | 1984-11-17 | [La puneta - 40 anni di sesso](https://www.imdb.com/title/tt0077385/) |
+
+### 1985
+
+|  |  |
+|---|---|
+| 1985-12-22 | [Hard Love: Le pornoadolescenti](https://www.imdb.com/title/tt0256116/) |
+
+### 1988
+
+|  |  |
+|---|---|
+| 1988-12-25 | [Hard Love: Le pornoadolescenti](https://www.imdb.com/title/tt0256116/) |
+
+### 1989
+
+|  |  |
+|---|---|
+| 1989-04-16 | [Le prestazioni di Vanessa](https://www.imdb.com/title/tt0220139/) |
+
+### 1990
+
+|  |  |
+|---|---|
+| 1990-03-25 | [Le prestazioni di Vanessa](https://www.imdb.com/title/tt0220139/) |
 
 ### 1994
 

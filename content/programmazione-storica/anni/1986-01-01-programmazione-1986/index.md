@@ -24,16 +24,21 @@ I voti IMDb descrivono le valutazioni degli utenti IMDb, non il pubblico o gli i
 
 |           |                                       |
 |:----------|:--------------------------------------|
+| 1986-01-01 | [Exhibition 80](https://www.imdb.com/title/tt0424074/) |
 | 1986-01-03 | [Gremlins](https://www.imdb.com/title/tt0087363/) |
+| 1986-01-05 | [Le segrete esperienze di Luca e Fanny](https://www.imdb.com/title/tt0081481/) |
 | 1986-01-09 | [Giuramento](https://www.imdb.com/title/tt0084007/) |
 | 1986-01-10 | [Porky's III - La rivincita!](https://www.imdb.com/title/tt0089826/) |
+| 1986-01-12 | [Le super bocche](https://www.imdb.com/title/tt0127875/) |
 | 1986-01-12 | [I piaceri proibiti](https://www.imdb.com/title/tt0194233/) |
 | 1986-01-13 | [Tex e il signore degli abissi](https://www.imdb.com/title/tt0090150/) |
 | 1986-01-16 | [Colpi di luce](https://www.imdb.com/title/tt0088940/) |
 | 1986-01-17 | [Il futuro è donna](https://www.imdb.com/title/tt0087310/) |
+| 1986-01-19 | [Super sexy show](https://www.imdb.com/title/tt0072125/) |
 | 1986-01-25 | [Inferno in diretta](https://www.imdb.com/title/tt0089338/) |
 | 1986-01-26 | [La gabbia](https://www.imdb.com/title/tt0091097/) |
 | 1986-01-27 | [Il cavaliere pallido](https://www.imdb.com/title/tt0089767/) |
+| 1986-01-29 | Sesso fobia |
 | 1986-01-31 | [Il codice del silenzio](https://www.imdb.com/title/tt0088936/) |
 
 ### Febbraio
@@ -42,6 +47,7 @@ I voti IMDb descrivono le valutazioni degli utenti IMDb, non il pubblico o gli i
 |:----------|:--------------------------------------|
 | 1986-02-09 | [Rambo 2 - La vendetta](https://www.imdb.com/title/tt0089880/) |
 | 1986-02-14 | [L'ultimo drago](https://www.imdb.com/title/tt0089461/) |
+| 1986-02-14 | [Bruce Lee l'indistruttibile](https://www.imdb.com/title/tt0336163/) |
 | 1986-02-17 | [Mamma Ebe](https://www.imdb.com/title/tt0089542/) |
 | 1986-02-20 | [La leggenda del rubino malese](https://www.imdb.com/title/tt0087607/) |
 | 1986-02-23 | [Ragazzina vogliosetta](https://www.imdb.com/title/tt0202541/) |
@@ -52,6 +58,7 @@ I voti IMDb descrivono le valutazioni degli utenti IMDb, non il pubblico o gli i
 |           |                                       |
 |:----------|:--------------------------------------|
 | 1986-03-02 | [Amour braque - Amore balordo](https://www.imdb.com/title/tt0088714/) |
+| 1986-03-08 | [Bruce Lee la tigre indomabile](https://www.imdb.com/title/tt0075167/) |
 | 1986-03-08 | [L'urlo di Bruce Lee terrorizza ancora](https://www.imdb.com/title/tt0196113/) |
 | 1986-03-09 | [La collegiale svedese](https://www.imdb.com/title/tt0072999/) |
 | 1986-03-15 | [La casa in Hell Street](https://www.imdb.com/title/tt0088066/) |
@@ -64,6 +71,7 @@ I voti IMDb descrivono le valutazioni degli utenti IMDb, non il pubblico o gli i
 |           |                                       |
 |:----------|:--------------------------------------|
 | 1986-04-04 | [Esperienze erotiche di una ragazza di campagna](https://www.imdb.com/title/tt0071254/) |
+| 1986-04-19 | [L'urlo di Bruce Lee terrorizza ancora](https://www.imdb.com/title/tt0196113/) |
 | 1986-04-20 | [Rocky IV](https://www.imdb.com/title/tt0089927/) |
 | 1986-04-27 | [Fotoromanzo](https://www.imdb.com/title/tt0091071/) |
 
@@ -86,15 +94,17 @@ I voti IMDb descrivono le valutazioni degli utenti IMDb, non il pubblico o gli i
 
 |           |                                       |
 |:----------|:--------------------------------------|
+| 1986-09-14 | Le ninfomani |
 | 1986-09-20 | [Conan il distruttore](https://www.imdb.com/title/tt0087078/) |
+| 1986-09-21 | American porno story |
 
 ### Ottobre
 
 |           |                                       |
 |:----------|:--------------------------------------|
 | 1986-10-12 | [La chiave del piacere](https://www.imdb.com/title/tt0212603/) |
-| 1986-10-19 | [Calde mogli in provincia](https://www.imdb.com/title/tt0230117/) |
 | 1986-10-19 | [9 settimane e 1/2](https://www.imdb.com/title/tt0091635/) |
+| 1986-10-19 | [Calde mogli in provincia](https://www.imdb.com/title/tt0230117/) |
 | 1986-10-25 | [Explorers](https://www.imdb.com/title/tt0089114/) |
 | 1986-10-26 | [Sicarius - Febbre di sesso](https://www.imdb.com/title/tt0070779/) |
 
@@ -109,6 +119,7 @@ I voti IMDb descrivono le valutazioni degli utenti IMDb, non il pubblico o gli i
 | 1986-11-17 | [Unico indizio la luna piena](https://www.imdb.com/title/tt0090021/) |
 | 1986-11-21 | [Diavolo in corpo](https://www.imdb.com/title/tt0090944/) |
 | 1986-11-22 | [Space Vampires](https://www.imdb.com/title/tt0089489/) |
+| 1986-11-23 | [Super sexy show](https://www.imdb.com/title/tt0072125/) |
 | 1986-11-24 | [Il pentito](https://www.imdb.com/title/tt0091744/) |
 | 1986-11-29 | [Voglia di guardare](https://www.imdb.com/title/tt0092180/) |
 | 1986-11-30 | [Il giustiziere della notte 3](https://www.imdb.com/title/tt0089003/) |
@@ -127,5 +138,5 @@ I voti IMDb descrivono le valutazioni degli utenti IMDb, non il pubblico o gli i
 | 1986-12-28 | [Turbamento di una minorenne](https://www.imdb.com/title/tt0065363/) |
 | 1986-12-28 | [Yuppies - I giovani di successo](https://www.imdb.com/title/tt0091114/) |
 
-[^1]: Fonti: [Calendario 1986]({{< relref "programmazione-storica/fonti/1986-01-01-calendario-1986/index.md" >}}), [CIF 1985-86]({{< relref "programmazione-storica/fonti/1985-10-01-appunti-cif-1985-86/index.md" >}}), [CIF 1986-87]({{< relref "programmazione-storica/fonti/1986-09-01-appunti-cif-1986-87/index.md" >}}), [Rubrica 1984-92]({{< relref "programmazione-storica/fonti/1984-01-01-rubrica-1984-92/index.md" >}})
+[^1]: Fonti: [Calendario 1986]({{< relref "programmazione-storica/fonti/1986-01-01-calendario-1986/index.md" >}}), [CIF 1985-86]({{< relref "programmazione-storica/fonti/1985-10-01-appunti-cif-1985-86/index.md" >}}), [CIF 1986-87]({{< relref "programmazione-storica/fonti/1986-09-01-appunti-cif-1986-87/index.md" >}}), [Note sui manifesti]({{< relref "programmazione-storica/fonti/1965-01-01-note-sui-manifesti/index.md" >}}), [Rubrica 1984-92]({{< relref "programmazione-storica/fonti/1984-01-01-rubrica-1984-92/index.md" >}})
 

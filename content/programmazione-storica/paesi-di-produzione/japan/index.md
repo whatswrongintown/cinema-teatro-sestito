@@ -149,12 +149,25 @@ image: "/programmazione-storica/paesi-di-produzione/_index_files/figure-html/ita
 | 1984-01-04 | [L'ultima sfida](https://www.imdb.com/title/tt0083726/) |
 | 1984-04-05 | [Tron](https://www.imdb.com/title/tt0084827/) |
 
+### 1985
+
+|  |  |
+|---|---|
+| 1985-05-04 | [Tron](https://www.imdb.com/title/tt0084827/) |
+
 ### 1986
 
 |  |  |
 |---|---|
 | 1986-03-08 | [L'urlo di Bruce Lee terrorizza ancora](https://www.imdb.com/title/tt0196113/) |
+| 1986-04-19 | [L'urlo di Bruce Lee terrorizza ancora](https://www.imdb.com/title/tt0196113/) |
 | 1986-05-25 | [Antarctica](https://www.imdb.com/title/tt0085991/) |
+
+### 1987
+
+|  |  |
+|---|---|
+| 1987-03-22 | [Dal Giappone con furore](https://www.imdb.com/title/tt0164750/) |
 
 ### 1992
 

@@ -61,6 +61,7 @@ I voti IMDb descrivono le valutazioni degli utenti IMDb, non il pubblico o gli i
 |           |                                       |
 |:----------|:--------------------------------------|
 | 1995-10-15 | [Scemo &amp; più scemo](https://www.imdb.com/title/tt0109686/) |
+| 1995-10-16 | Cosce calde di una sfrenata donna in calore |
 | 1995-10-22 | [La storia infinita 3](https://www.imdb.com/title/tt0110647/) |
 | 1995-10-29 | [Frankenstein di Mary Shelley](https://www.imdb.com/title/tt0109836/) |
 
@@ -80,5 +81,5 @@ I voti IMDb descrivono le valutazioni degli utenti IMDb, non il pubblico o gli i
 | 1995-12-20 | [Waterworld](https://www.imdb.com/title/tt0114898/) |
 | 1995-12-26 | [Mortal Kombat](https://www.imdb.com/title/tt0113855/) |
 
-[^1]: Fonti: [Calendario 1995]({{< relref "programmazione-storica/fonti/1995-01-01-calendario-1995/index.md" >}}), [New Europe 1994-95]({{< relref "programmazione-storica/fonti/1994-10-01-appunti-new-europe-1994-95/index.md" >}}), [New Europe 1995-00]({{< relref "programmazione-storica/fonti/1995-10-01-appunti-new-europe-1995-00/index.md" >}})
+[^1]: Fonti: [Calendario 1995]({{< relref "programmazione-storica/fonti/1995-01-01-calendario-1995/index.md" >}}), [New Europe 1994-95]({{< relref "programmazione-storica/fonti/1994-10-01-appunti-new-europe-1994-95/index.md" >}}), [New Europe 1995-00]({{< relref "programmazione-storica/fonti/1995-10-01-appunti-new-europe-1995-00/index.md" >}}), [Note sui manifesti]({{< relref "programmazione-storica/fonti/1965-01-01-note-sui-manifesti/index.md" >}})
 

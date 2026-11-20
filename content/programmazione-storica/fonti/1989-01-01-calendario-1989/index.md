@@ -46,6 +46,7 @@ description: Calendari murali o da tavolo legati all’attività del cinema. Ind
 |---|---|
 | 1989-03-07 | [Corto circuito 2](https://www.imdb.com/title/tt0096101/) |
 | 1989-03-12 | [Bestialità](https://www.imdb.com/title/tt0074201/) |
+| 1989-03-18 | [Infermiere disposte a tutto](https://www.imdb.com/title/tt0145174/) |
 | 1989-03-21 | [Chi ha incastrato Roger Rabbit](https://www.imdb.com/title/tt0096438/) |
 | 1989-03-22 | [Don Bosco](https://www.imdb.com/title/tt0095051/) |
 | 1989-03-26 | [Una Novizia nel porno-harem](https://www.imdb.com/title/tt34624317/) |
@@ -93,8 +94,8 @@ description: Calendari murali o da tavolo legati all’attività del cinema. Ind
 
 |  |  |
 |---|---|
-| 1989-11-05 | [Il vizio preferito di mia moglie](https://www.imdb.com/title/tt0126718/) |
 | 1989-11-05 | [Asterix contro Cesare](https://www.imdb.com/title/tt0088748/) |
+| 1989-11-05 | [Il vizio preferito di mia moglie](https://www.imdb.com/title/tt0126718/) |
 | 1989-11-07 | [High Spirits - Fantasmi da legare](https://www.imdb.com/title/tt0095304/) |
 | 1989-11-12 | [Piaceri insaziabili di mogli in calore](https://www.imdb.com/title/tt0095526/) |
 | 1989-11-14 | [Indio](https://www.imdb.com/title/tt0099843/) |
@@ -112,6 +113,6 @@ description: Calendari murali o da tavolo legati all’attività del cinema. Ind
 | 1989-12-12 | [I gemelli](https://www.imdb.com/title/tt0096320/) |
 | 1989-12-17 | [Rain Man - L'uomo della pioggia](https://www.imdb.com/title/tt0095953/) |
 | 1989-12-17 | [Moana la scandalosa](https://www.imdb.com/title/tt0393489/) |
-| 1989-12-25 | [L'angelo del sesso](https://www.imdb.com/title/tt0124730/) |
 | 1989-12-25 | [Willow](https://www.imdb.com/title/tt0096446/) |
+| 1989-12-25 | [L'angelo del sesso](https://www.imdb.com/title/tt0124730/) |
 

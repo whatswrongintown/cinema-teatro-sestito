@@ -75,6 +75,7 @@ image: "/programmazione-storica/paesi-di-produzione/_index_files/figure-html/ita
 |  |  |
 |---|---|
 | 1985-02-17 | [Calore nel ventre](https://www.imdb.com/title/tt0288704/) |
+| 1985-10-04 | [Un corpo da vendere](https://www.imdb.com/title/tt0289511/) |
 
 ### 1987
 

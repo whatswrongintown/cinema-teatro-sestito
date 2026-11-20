@@ -95,6 +95,7 @@ image: "/programmazione-storica/paesi-di-produzione/_index_files/figure-html/ita
 |  |  |
 |---|---|
 | 1984-02-12 | [Blue Erotic Movie](https://www.imdb.com/title/tt0080822/) |
+| 1984-12-14 | [La collegiale svedese](https://www.imdb.com/title/tt0072999/) |
 | 1984-12-22 | [Giochi di notte](https://www.imdb.com/title/tt0060740/) |
 
 ### 1986
@@ -102,6 +103,12 @@ image: "/programmazione-storica/paesi-di-produzione/_index_files/figure-html/ita
 |  |  |
 |---|---|
 | 1986-03-09 | [La collegiale svedese](https://www.imdb.com/title/tt0072999/) |
+
+### 1988
+
+|  |  |
+|---|---|
+| 1988-10-08 | [Coppie viziose](https://www.imdb.com/title/tt0075381/) |
 
 ### 1990
 
