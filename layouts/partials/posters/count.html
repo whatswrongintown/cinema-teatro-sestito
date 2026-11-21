@@ -1,0 +1,21 @@
+{{ $section := . }}
+{{ $count := 0 }}
+{{ range site.Data.posters.films.films }}
+  {{ $film := . }}
+  {{ $images := where .posters "is_retro" (eq $section.Params.collection "retro") }}
+  {{ with $section.Params.category }}{{ $images = where $images "category" . }}{{ end }}
+  {{ with $section.Params.size }}{{ $images = where $images "size" . }}{{ end }}
+  {{ $matches := gt (len $images) 0 }}
+  {{ with $section.Params.genre }}{{ $matches = and $matches (in $film.genre_slugs .) }}{{ end }}
+  {{ with $section.Params.year }}
+    {{ $year := int . }}
+    {{ $screened := false }}
+    {{ range $film.screenings }}{{ if eq (int .year) $year }}{{ $screened = true }}{{ end }}{{ end }}
+    {{ $matches = and $matches $screened }}
+  {{ end }}
+  {{ if $matches }}
+    {{ if $section.Params.size }}{{ $count = add $count (len $images) }}
+    {{ else }}{{ $count = add $count 1 }}{{ end }}
+  {{ end }}
+{{ end }}
+{{ return $count }}

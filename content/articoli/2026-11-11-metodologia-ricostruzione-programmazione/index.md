@@ -98,7 +98,7 @@ L'anno riportato sull'agenda è stato considerato un limite temporale superiore,
 
 Quando il titolo non era sufficiente per identificare con sicurezza un film, ho confrontato le informazioni disponibili con i manifesti e le locandine originali conservati nell'archivio del cinema. Questi materiali si sono rivelati particolarmente utili perché in molti casi riportano il titolo completo e le date di programmazione. Anche i nomi di registi e attori, quando presenti, sono stati confrontati con le schede dei film su IMDb.
 
-Le locandine e i manifesti non sono ancora stati riordinati e catalogati sistematicamente: sono conservati in un insieme eterogeneo, senza un ordine cronologico preciso. In questa fase sono stati utilizzati esclusivamente come fonti di verifica per l'identificazione dei film e, quando possibile, per il controllo delle date. Il loro riordino e la loro catalogazione saranno oggetto di un lavoro separato.
+Le locandine e i manifesti sono conservati in un insieme eterogeneo, senza un ordine cronologico preciso. Sono stati utilizzati come fonti di verifica per l'identificazione dei film e, quando possibile, per il controllo delle date. Una selezione è consultabile nella [raccolta digitale di manifesti e locandine](/posters/).
 
 In alcuni casi il confronto tra documenti ha permesso di completare informazioni mancanti. Può accadere, per esempio, che un'agenda riporti un titolo abbreviato e che un'altra fonte relativa alla stessa data ne conservi la versione completa.
 

@@ -1,0 +1,40 @@
+{{ partial "header.html" . }}
+{{ $page := . }}
+{{ $films := where site.Data.posters.films.films "film_id" .Params.film_id }}
+{{ if ne (len $films) 1 }}{{ errorf "Poster film data missing or duplicated: %s" .Params.film_id }}{{ end }}
+{{ $film := index $films 0 }}
+<main class="content" role="main">
+  <article class="article">
+    <h1 class="article-title">{{ $film.title }}</h1>
+    <div class="article-content">
+      {{ with $film.production_year }}<p><strong>Anno di produzione:</strong> {{ . }}</p>{{ end }}
+      {{ with $film.genres }}<p><strong>Generi:</strong> {{ delimit . ", " }}</p>{{ end }}
+      {{ with $film.screening_dates }}<p><strong>Date di programmazione:</strong> {{ delimit . ", " }}</p>{{ end }}
+      {{ with $film.extra }}
+        <h2>Dettagli del manifesto</h2>
+        {{ $labels := dict "Position" "Posizione" "Created" "Data di inserimento" "Modified" "Ultima modifica" "Description" "Descrizione" "Original Title" "Titolo originale" "URL" "Scheda IMDb" "Title Type" "Tipo di opera" "IMDb Rating" "Valutazione IMDb" "Runtime (mins)" "Durata (minuti)" "Num Votes" "Numero di voti" "Release Date" "Data di uscita" "Directors" "Regia" "Your Rating" "Valutazione personale" "Date Rated" "Data della valutazione" }}
+        <dl>
+          {{ range $key, $values := . }}
+            {{ with $values }}<dt>{{ index $labels $key | default $key }}</dt><dd>{{ delimit . ", " }}</dd>{{ end }}
+          {{ end }}
+        </dl>
+      {{ end }}
+      {{ with $film.imdb_id }}
+        {{ with site.GetPage (printf "/programmazione-storica/films/%s" .) }}
+          <p><a href="{{ .RelPermalink }}">Programmazione storica</a></p>
+        {{ end }}
+      {{ end }}
+      {{ $printed := where $film.posters "is_retro" false }}
+      {{ $retro := where $film.posters "is_retro" true }}
+      {{ with $printed }}
+        <h2>Manifesti e locandine</h2>
+        {{ partial "posters/film-images.html" (dict "posters" . "film_url" $page.RelPermalink) }}
+      {{ end }}
+      {{ with $retro }}
+        <h2>Retro</h2>
+        {{ partial "posters/film-images.html" (dict "posters" . "film_url" $page.RelPermalink) }}
+      {{ end }}
+    </div>
+  </article>
+</main>
+{{ partial "footer.html" . }}

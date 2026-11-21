@@ -18,7 +18,7 @@ Sebbene oggi le sue luci siano spente, il Cinema Sestito continua a vivere attra
 
 **Esplora**:
 * [Programmazione storica](/programmazione-storica/)
-* [Locandine d'epoca](/) *(sezione in costruzione)*.
+* [Manifesti e locandine](/posters/).
 * [Articoli e racconti](/articoli/)
 * [Archivio](/archivio/)
 

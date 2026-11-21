@@ -11,7 +11,7 @@ Un elenco di tutte le pagine e gli articoli presenti sul sito. Se non trovi quel
 * [Home](/)
 * [Progetto](/progetto/)
   * [Programmazione storica](/programmazione-storica/)
-  * [Locandine d'epoca]()
+  * [Manifesti e locandine](/posters/)
   * [Articoli e racconti](/articoli/)
   * [Archivio](/archivio/)
 * [Informativa privacy](/privacy/)

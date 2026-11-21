@@ -1,0 +1,50 @@
+{{ partial "header.html" . }}
+<main class="content" role="main">
+  <article class="article">
+    <h1 class="article-title">{{ .Title }}</h1>
+    <div class="article-content">
+      {{ .Content }}
+      {{ if and .Params.generated (or (eq .RelPermalink ("posters/" | relURL)) (eq .Params.browse "size")) }}
+        {{ partial "posters/subsections.html" . }}
+      {{ end }}
+      {{ if eq .Params.browse "year" }}
+        <ul class="poster-browse">
+          {{ range .Sections.ByTitle }}<li><a href="{{ .RelPermalink }}">{{ .Title }}</a> ({{ partial "posters/count.html" . }} film)</li>{{ end }}
+        </ul>
+      {{ else if eq .Params.browse "genre" }}
+        <ul class="poster-browse">
+          {{ range .Sections.ByTitle }}<li><a href="{{ .RelPermalink }}">{{ .Title }}</a> ({{ partial "posters/count.html" . }} film)</li>{{ end }}
+        </ul>
+      {{ else if eq .Layout "year" }}
+        {{ $page := . }}
+        {{ $names := slice "Gennaio" "Febbraio" "Marzo" "Aprile" "Maggio" "Giugno" "Luglio" "Agosto" "Settembre" "Ottobre" "Novembre" "Dicembre" }}
+        {{ $months := slice }}
+        {{ range site.Data.posters.films.films }}
+          {{ if gt (len (where .posters "is_retro" false)) 0 }}
+            {{ range .screenings }}
+              {{ if eq (int .year) (int $page.Params.year) }}{{ $months = $months | append (int .month) }}{{ end }}
+            {{ end }}
+          {{ end }}
+        {{ end }}
+        {{ $months = sort (uniq $months) }}
+        <nav class="poster-browse" aria-label="Mesi">
+          {{ range $months }}<a href="#mese-{{ printf "%02d" . }}">{{ index $names (sub . 1) }}</a>{{ end }}
+        </nav>
+        {{ range $months }}
+          <section class="poster-month" id="mese-{{ printf "%02d" . }}">
+            <h2>{{ index $names (sub . 1) }}</h2>
+            {{ partial "posters/gallery.html" (dict "page" $page "month" . "paginate" false) }}
+          </section>
+        {{ end }}
+      {{ else if eq .Params.browse "title" }}
+        <nav class="poster-browse" aria-label="Titoli per lettera">
+          {{ range .Sections.ByTitle }}<a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ end }}
+        </nav>
+        {{ partial "posters/gallery.html" (dict "page" . "paginate" true) }}
+      {{ else if ne .Layout "index" }}
+        {{ partial "posters/gallery.html" (dict "page" . "paginate" true) }}
+      {{ end }}
+    </div>
+  </article>
+</main>
+{{ partial "footer.html" . }}

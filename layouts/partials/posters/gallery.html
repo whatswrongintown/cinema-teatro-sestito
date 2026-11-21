@@ -1,0 +1,73 @@
+{{ $page := .page }}
+{{ $month := .month }}
+{{ $paginate := .paginate }}
+{{ $collection := $page.Params.collection | default "printed" }}
+{{ $retro := eq $collection "retro" }}
+{{ $cards := slice }}
+{{ range site.Data.posters.films.films }}
+  {{ $film := . }}
+  {{ $images := where .posters "is_retro" $retro }}
+  {{ with $page.Params.category }}
+    {{ $images = where $images "category" . }}
+  {{ end }}
+  {{ with $page.Params.size }}
+    {{ $images = where $images "size" . }}
+  {{ end }}
+  {{ $matches := gt (len $images) 0 }}
+  {{ with $page.Params.genre }}
+    {{ $matches = and $matches (in $film.genre_slugs .) }}
+  {{ end }}
+  {{ with $page.Params.letter }}
+    {{ $matches = and $matches (eq $film.letter .) }}
+  {{ end }}
+  {{ with $page.Params.year }}
+    {{ $screened := false }}
+    {{ range $film.screenings }}
+      {{ if eq (int .year) (int $page.Params.year) }}
+        {{ if or (not $month) (eq (int .month) (int $month)) }}
+          {{ $screened = true }}
+        {{ end }}
+      {{ end }}
+    {{ end }}
+    {{ $matches = and $matches $screened }}
+  {{ end }}
+  {{ if $matches }}
+    {{ $filmPage := site.GetPage (printf "/posters/films/%s" $film.film_id) }}
+    {{ if not $filmPage }}{{ errorf "Poster film page missing: %s" $film.film_id }}{{ end }}
+    {{ $cards = $cards | append $filmPage }}
+  {{ end }}
+{{ end }}
+{{ if $cards }}
+  {{ $paginator := false }}
+  {{ if $paginate }}{{ $paginator = $page.Paginate $cards 60 }}{{ end }}
+  {{ $shown := $cards }}
+  {{ if $paginator }}{{ $shown = $paginator.Pages }}{{ end }}
+  {{ $filmMap := partialCached "posters/film-map.html" . }}
+  <div class="poster-grid">
+    {{ range $shown }}
+      {{ $film := index $filmMap .Params.film_id }}
+      {{ $images := where $film.posters "is_retro" $retro }}
+      {{ with $page.Params.category }}{{ $images = where $images "category" . }}{{ end }}
+      {{ with $page.Params.size }}{{ $images = where $images "size" . }}{{ end }}
+      {{ $poster := index $images 0 }}
+      <article class="poster-card poster-{{ $poster.orientation }} poster-cat-{{ $poster.category }}">
+        <a href="{{ $poster.large | relURL }}" title="{{ $film.title }}" class="lightbox-image"
+           data-caption="{{ $film.title }} ({{ $poster.category | title }} {{ $poster.size }})"
+           data-film-url="{{ .RelPermalink }}">
+          <img src="{{ $poster.thumb | relURL }}" width="{{ $poster.thumb_width }}"
+               height="{{ $poster.thumb_height }}" loading="lazy" decoding="async"
+               style="aspect-ratio: {{ $poster.thumb_width }} / {{ $poster.thumb_height }}"
+               alt="{{ $poster.alt }}">
+          {{ if $retro }}<span class="poster-size">{{ $poster.size }}</span>{{ end }}
+        </a>
+      </article>
+    {{ end }}
+  </div>
+  {{ if and $paginator (gt $paginator.TotalPages 1) }}
+  <nav class="poster-pagination" aria-label="Pagine della raccolta">
+    {{ with $paginator.Prev }}<a href="{{ .URL }}">Precedente</a>{{ end }}
+    <span>Pagina {{ $paginator.PageNumber }} di {{ $paginator.TotalPages }}</span>
+    {{ with $paginator.Next }}<a href="{{ .URL }}">Successiva</a>{{ end }}
+  </nav>
+  {{ end }}
+{{ end }}

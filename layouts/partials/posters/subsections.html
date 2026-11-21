@@ -1,0 +1,8 @@
+<ul>
+  {{ range .Sections.ByWeight }}
+    {{ if ne .RelPermalink ("posters/films/" | relURL) }}
+    <li><strong><a href="{{ .RelPermalink }}">{{ .Title }}</a></strong>{{ with .Description }} – {{ . }}{{ end }}
+      ({{ partial "posters/count.html" . }} {{ if .Params.size }}manifesti{{ else }}film{{ end }})</li>
+    {{ end }}
+  {{ end }}
+</ul>

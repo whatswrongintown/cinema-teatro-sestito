@@ -1,0 +1,15 @@
+<div class="poster-grid">
+  {{ $filmURL := .film_url }}
+  {{ range .posters }}
+  <figure class="poster-card poster-{{ .orientation }} poster-cat-{{ .category }}">
+    <a href="{{ .large | relURL }}" class="lightbox-image" title="{{ .alt }}"
+       data-caption="{{ .alt }} ({{ .category | title }} {{ .size }}, n. {{ .number }})"
+       data-film-url="{{ $filmURL }}">
+      <img src="{{ .thumb | relURL }}" width="{{ .thumb_width }}" height="{{ .thumb_height }}"
+           loading="lazy" decoding="async" style="aspect-ratio: {{ .thumb_width }} / {{ .thumb_height }}"
+           alt="{{ .alt }} ({{ .category | title }} {{ .size }}, n. {{ .number }})">
+    </a>
+    <figcaption>{{ .category | title }} {{ .size }}, n. {{ .number }}</figcaption>
+  </figure>
+  {{ end }}
+</div>

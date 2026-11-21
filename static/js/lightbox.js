@@ -57,7 +57,7 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     function getGalleryLinks(element) {
-        var container = element.closest('ul, p');
+        var container = element.closest('.poster-grid, ul, p');
         var links = container ?
             Array.prototype.slice.call(container.querySelectorAll("a[class*='lightbox-']")) :
             [];
@@ -143,6 +143,29 @@ document.addEventListener("DOMContentLoaded", function() {
             lightbox.appendChild(previousButton);
         }
         lightbox.appendChild(createMedia(element, type));
+        if (element.hasAttribute('data-caption')) {
+            var caption = document.createElement('div');
+            caption.className = 'lightbox-caption';
+            caption.textContent = element.getAttribute('data-caption');
+            var filmUrl = element.getAttribute('data-film-url');
+            if (filmUrl) {
+                var filmLink = document.createElement('a');
+                filmLink.href = filmUrl;
+                filmLink.textContent = 'Scheda del film';
+                caption.appendChild(document.createTextNode(' – '));
+                caption.appendChild(filmLink);
+            }
+            lightbox.appendChild(caption);
+        }
+        if (type === 'image' && element.hasAttribute('data-film-url') && galleryLinks.length > 1) {
+            [-1, 1].forEach(function(direction) {
+                var neighbor = galleryLinks[(currentGalleryIndex + direction + galleryLinks.length) % galleryLinks.length];
+                if (neighbor.classList.contains('lightbox-image')) {
+                    var preload = new Image();
+                    preload.src = neighbor.href;
+                }
+            });
+        }
 
         galleryLinks.forEach(function(link) {
             link.classList.toggle('current', link === element);

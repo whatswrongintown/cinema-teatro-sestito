@@ -72,12 +72,10 @@ docs/guides/historical-programming.md.
 
 ## 3. ACTUAL OPEN ITEMS
 ### DEFERRED O02 - Poster-related navigation
-  Home "Locandine d'epoca" points to "/"; content/sitemap.md has an empty link.
-  Fonti still links to /categories/note-sui-manifesti/ without backing content.
-  On 2026-11-18, the owner deferred both the interim link cleanup and the final
-  source/category work until poster and database decisions are finalized.
+  Home and the site map now link to the generated poster collection. Fonti
+  still links to /categories/note-sui-manifesti/ without backing content.
   Create the planned "Note sui manifesti" source/category when data are ready.
-  See docs/guides/historical-programming.md; do not invent a source or poster catalogue.
+  See docs/guides/historical-programming.md; do not invent the historical source.
 ### DONE O05 - Lightbox keyboard accessibility (2026-11-18)
   Close/previous/next now use labelled Italian buttons, the viewer has dialog
   semantics, focus is contained and restored, and Escape closes it. The existing
@@ -184,10 +182,15 @@ docs/guides/historical-programming.md.
   access, metadata/privacy, retention, rights and separate publication permission
   before enabling. Full requirements/references:
   docs/proposals/website-improvement-ideas.md.
-### TODO F02 - Poster collection pilot
-  Inspect manifesti_archivio.csv outside the project, local codes, formats and
-  front/back metadata. Start with one format and a film page, then five browse
-  views. Convert images in a separate R project; validate joins and scale costs.
+### DOING F02 - Poster collection (2026-11-21)
+  The revised local generator produced 1,787 posters for 1,057 films and 3,574
+  derivatives. The report now records no unsupported filenames or unmatched
+  films (previously 516 and 142), 79 title conflicts and 14 ratio warnings.
+  A repeat run read no images and migrated obsolete month pages; synthetic
+  tests, an in-memory Hugo build and rendered gallery checks passed. The poster
+  metadata CSV does not contain cinema screening dates. Originals remain
+  ignored. Owner review with serve_site() and committing the generated sources
+  remain pending. See docs/posters.md.
 ### TODO F03 - Film search (programming first, posters later)
   Define result granularity, scope and matching behavior before implementation.
 ### DEFERRED F04 - Timeline, identification help and curated collections.

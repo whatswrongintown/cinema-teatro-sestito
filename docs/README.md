@@ -7,6 +7,7 @@ historical audits do not override the status record.
 | Category | Document | Purpose |
 | --- | --- | --- |
 | Guide | [Historical programming](guides/historical-programming.md) | CSV inputs, R generation, generated output, and Shiny workflow |
+| Guide | [Poster collection](posters.md) | Local poster generation, overrides and generated site data |
 | Plan | [Implementation guide](plans/implementation-guide.md) | Steps and files for open, deferred, and ongoing work |
 | Proposal | [Website improvement ideas](proposals/website-improvement-ideas.md) | Feature proposals, provider references, and poster planning |
 | Proposal | [Methodology data analysis](proposals/methodology-data-analysis.md) | Dated data snapshot and possible additions to the methodology article |
