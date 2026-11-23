@@ -1,10 +1,19 @@
 # Poster collection
 
-The poster generator is a local, manual R workflow. Hugo and Netlify use the
-generated content, JSON and reduced images; they do not read `manifesti/` or
-run R. Originals are private local files and must not be committed.
+Since H04 (2026-11-23) Hugo builds the film pages (`/posters/films/<id>/`) and
+the title-letter pages (`/posters/by-title/<letter>/`) with content adapters,
+`content/posters/films/_content.gotmpl` and
+`content/posters/by-title/_content.gotmpl`, reading `data/posters/films.json`.
+The year, size, genre and root pages remain editable Markdown and the layouts
+are in `layouts/posters/`. The collection is final: `films.json` and
+`static/images/manifesti/` do not change. Originals (`manifesti/`) are private
+local files and must not be committed.
 
-## Requirements and running
+The sections below describe the historical R generator (`R/update-posters.R`),
+kept only for reference until H07. **Do not run it**: it would recreate the
+film and letter Markdown pages that the adapters now provide.
+
+## Requirements and running (historical)
 
 From the project root, install the R packages `magick`, `readr`, `jsonlite` and
 `yaml`, and place the originals in the six category folders inside `manifesti/`.

@@ -17,8 +17,8 @@ item's status.
 - Netlify runs Hugo only, not R or knitr. Commit generated Markdown and charts.
 - Historical programming: 3 CSVs in static/data. Since 2026-11-23 Hugo builds
   the tables and SVG charts from them (H03).
-- Poster collection: private local originals in manifesti/ -> local R script ->
-  pages, data/posters/films.json and web images -> commit (docs/posters.md).
+- Poster collection: final since 2026-11-23. data/posters/films.json and the
+  web images are committed; Hugo builds film and letter pages from the JSON (H04).
 - Source-page counts checked 2026-11-17: 7 article bundles; 26 archive Markdown
   detail pages plus their index; 236 programming detail pages (57 years, 93
   sources, 23 genres, 63 countries) plus 5 programming indexes.
@@ -86,26 +86,11 @@ item's status.
   English placeholder ("Screenings from this source in the cinema archive.").
 
 ## 3. OPEN ITEMS
-### DEFERRED O03 - Country-only film ID
-  programmazione_paesi.csv has one ID, tt0052704, with no screening or IMDb row.
-  Reconcile it with verified evidence; do not delete it or guess a match.
-### DEFERRED O04 - Chart convention explanations
-  The genre chart drops "Drammatico" from films with several expanded rows
-  (also repeated Drammatico-only films), and missing genres count as not adult.
-  The methodology prose does not fully explain this. Also noted 2026-11-23:
-  the "distinct countries per decade" chart counts screenings without a
-  country as one extra value. Decision: explain the conventions, do not
-  recalculate charts. The database is final since
-  2026-11-23, so this item (like O03) is no longer blocked on data.
-### DOING M01 - Routine form/privacy operations
-  Monitor spam and usage; retain/delete messages according to the approved
-  notice. The optional publication follow-up is not permission to publish.
-  The form is not feature-flagged: deploying its shortcode publishes it.
 
 ## 4. DECISIONS AND PROVIDER CONTEXT
 - Keep params.anno and the generic root/static favicons.
 - Keep goldmark unsafe: true (inline HTML, one iframe).
-- Netlify stays Hugo-only; renv is not used.
+- Netlify stays Hugo-only;
 - Keep Eventi available with its explicit "no events scheduled" message.
 - Only Progetto stays in the top menu; no analytics (disabled, DNT respected).
 - Only the owner maintains the site; visitors are mainly locals.
@@ -130,17 +115,10 @@ item's status.
   rules live in CLAUDE.md; .github/copilot-instructions.md was removed.
 
 ## 5. ROADMAP (future features are not current defects)
-### DEFERRED F01 - Photo attachments to the contact form
-  Owner chose on 2026-11-17 to receive photos by email or after contact. Not
-  implemented. If revisited, keep text-only and no-JavaScript use working.
+
 ### TODO F03 - Film search (programming first, posters later)
   Define result granularity, scope and matching behaviour first. Build the
   index with Hugo, not R.
-### DEFERRED F04 - Timeline, identification help and curated collections.
-### Superseded F05 - Shiny dashboard
-  The 2026-11-18 decision to keep Shiny is superseded by H05 (2026-11-23). The
-  revised app in R/shinyapp_dashboard stays live and maintained until its Hugo
-  replacement is published.
 
 ## 6. MIGRATION TO HUGO ONLY (decided 2026-11-23)
 Goal: the owner wants to slowly leave R and the blogdown package and build the
@@ -154,7 +132,7 @@ before removing any R code. Steps: docs/plans/implementation-guide.md.
 | H01 | Hugo (`hugo server` / `hugo`) as the local tool instead of blogdown | DONE 2026-11-23 |
 | H02 | Convert the two article `index.Rmd` files to plain Markdown; remove blogdown leftovers | DONE 2026-11-23 |
 | H03 | Historical programming tables and charts built by Hugo from the CSVs | DONE 2026-11-23 |
-| H04 | Poster pages and data built by Hugo (images stay as they are) | TODO |
+| H04 | Poster pages built by Hugo from `data/posters/films.json` (images and data stay as they are) | DONE 2026-11-23 |
 | H05 | Hugo-native dashboard replacing the Shiny app and iframe | TODO |
 | H06 | Non-R tool (or retained utility) for source PDF conversion | TODO |
 | H07 | Remove replaced R scripts/tests/docs; keep analysis code outside the build | TODO |
@@ -188,6 +166,17 @@ monthly counts, axis values and rated-screening counts were compared with the
 R functions: identical. Visual checks against the PNGs passed. 61 unused PNGs
 were deleted; the 59 PNGs named in front matter `image:` stay as social preview
 images. Full build: about 40 s (43 s before H03).
+
+H04 (2026-11-23): the 1,057 film pages and the 26 title-letter pages are no
+longer Markdown files: the content adapters
+`content/posters/films/_content.gotmpl` and
+`content/posters/by-title/_content.gotmpl` create them from
+`data/posters/films.json` (same URLs, layouts and front matter keys; sitemap
+priority omitted as before). The whole build output (HTML, XML, sitemap) was
+compared with the previous build: identical, 1,677 pages. The year, size, genre
+and root pages stay as editable Markdown. `data/posters/films.json` and the
+images are final and kept; `R/update-posters.R` must no longer be run (it would
+recreate the Markdown pages) and goes in H07. Details: docs/posters.md.
 
 Because the data are final (section 4), the migration is about maintainability
 and presentation, not a data pipeline.

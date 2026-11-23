@@ -62,7 +62,7 @@ Recommended order:
    `programmazione-tabelle` and `grafico` shortcodes render tables and SVG
    charts from the CSVs; see the
    [guide](../guides/historical-programming.md).
-4. **H04 - Poster collection in Hugo.** Generate film and browse pages in Hugo
+4. **H04 - Poster collection in Hugo (DONE 2026-11-23, see project status).** Generate film and browse pages in Hugo
    from `data/posters/films.json` or the CSVs. The web images in
    `static/images/manifesti/` are final: reuse them unchanged; no image
    derivative step is needed.
