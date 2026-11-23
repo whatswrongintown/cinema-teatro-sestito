@@ -67,7 +67,7 @@ Recommended order:
 5. **H05 - Dashboard in Hugo (built 2026-11-23; retire Shiny after publication).** Replace the Shiny app and its iframe with a
    Hugo page (data from the CSVs, client-side filters). Keep Shiny live until the
    replacement is published, then retire the shinyapps.io deployment.
-6. **H06 - Source PDF conversion.** Replace `R/fonti_pdf_to_images.R` with a
+6. **H06 - Source PDF conversion (DONE 2026-11-23: retired, no tool kept).** Replace `R/fonti_pdf_to_images.R` with a
    documented non-R local tool (for example ImageMagick/pdftoppm), or keep it as
    a rare manual utility if the owner prefers.
 7. **H07 - Clean-up.** Remove replaced R scripts, tests and guides; move any

@@ -78,7 +78,6 @@ Plain R scripts with `stopifnot()`, run from the repo root:
 
 ```bash
 "/c/Program Files/R/R-4.6.2/bin/Rscript.exe" tests/test-posters-helpers.R
-"/c/Program Files/R/R-4.6.2/bin/Rscript.exe" tests/test-fonti-pdf-to-images.R
 ```
 
 ## Before finishing a task

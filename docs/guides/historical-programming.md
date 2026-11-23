@@ -8,7 +8,7 @@ Status of the Hugo-only migration
 ([project status, section 6](../project-status.md#6-migration-to-hugo-only)):
 
 - **Tables and charts:** built by Hugo from the CSVs since 2026-11-23 (H03).
-- **Dashboard:** Hugo page and browser script (H05). **Source PDF images:** R script (H06).
+- **Dashboard:** Hugo page and browser script (H05). **Source PDF images:** no tool kept (H06).
 
 ## Data
 
@@ -156,17 +156,14 @@ behaviours. Decision: explain
 the conventions, do not recalculate the charts. The Hugo charts reproduce these
 conventions; if one is ever changed, update the prose at the same time.
 
-## Source PDF images (R, H06)
+## Source PDF images
 
-From the project root, install `pdftools` and `magick`, then run
-`source("R/fonti_pdf_to_images.R"); fonti_pdf_to_images()` (or
-`Rscript R/fonti_pdf_to_images.R`). Each PDF in `programmazione_storica_pdf/`
-is rendered at 200 dpi and saved as WebP (quality 85, maximum width 1800 px,
-no metadata) in `static/images/programmazione_storica/<pdf-name>/`; existing
-images in that folder are deleted first. Checks:
-`Rscript tests/test-fonti-pdf-to-images.R`. Since the sources are final, this is
-only needed to replace a scan; update the source page's `image`, gallery path
-and `galleryDescriptions` key by hand afterwards.
+The page images of the source documents in `static/images/programmazione_storica/`
+are final (owner decision 2026-11-23, H06): no conversion tool is kept in the
+repository. The private PDFs stay in the git-ignored `programmazione_storica_pdf/`.
+To replace a scan, convert it by hand (WebP, at most 1800 px wide, no metadata,
+named `<folder>_<nn>.webp`), then update the source page's `image`, gallery path
+and `galleryDescriptions` key. The former R script is in Git history.
 
 ## Dashboard (Hugo, H05)
 

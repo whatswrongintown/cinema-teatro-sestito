@@ -134,7 +134,7 @@ before removing any R code. Steps: docs/plans/implementation-guide.md.
 | H03 | Historical programming tables and charts built by Hugo from the CSVs | DONE 2026-11-23 |
 | H04 | Poster pages built by Hugo from `data/posters/films.json` (images and data stay as they are) | DONE 2026-11-23 |
 | H05 | Hugo-native dashboard replacing the Shiny app and iframe | DOING 2026-11-23 (built; Shiny retired after publication) |
-| H06 | Non-R tool (or retained utility) for source PDF conversion | TODO |
+| H06 | Non-R tool (or retained utility) for source PDF conversion | DONE 2026-11-23 (tool retired, scans are final) |
 | H07 | Remove replaced R scripts/tests/docs; keep analysis code outside the build | TODO |
 
 H01/H02 (2026-11-23): a plain `hugo` build without blogdown produced 1,677
