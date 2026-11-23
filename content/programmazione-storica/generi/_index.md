@@ -5,12 +5,12 @@ author: "Vito Sestito"
 date: '2025-12-02'
 lastmod: '2026-11-18'
 description: "Consulta la programmazione del Cinema Sestito organizzata per generi cinematografici"
-image: "/programmazione-storica/generi/_index_files/hero_banner_generi.jpg"
+image: "hero_banner_generi.jpg"
 slug: "generi"
 type: "programmazione-storica/generi"
 ---
 
-![Locandine miste per generi](/programmazione-storica/generi/_index_files/hero_banner_generi.jpg)
+![Locandine miste per generi](hero_banner_generi.jpg)
 
 L’analisi dei generi cinematografici proiettati nel corso dell’attività del cinema Sestito offre uno sguardo privilegiato sulle trasformazioni culturali e sociali. Il primo strumento interpretativo è un grafico dei generi per decennio, costruito a partire da un dataset opportunamente “ripulito” eliminando la categoria drammatico quando associata ad altri generi. Questa operazione consente di ridurre una distorsione frequente nelle classificazioni enciclopediche, in cui “drammatico” tende a funzionare come categoria-ombrello sovrapposta a generi più specifici.
 

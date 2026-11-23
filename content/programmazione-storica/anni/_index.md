@@ -7,10 +7,10 @@ lastmod: '2026-11-18'
 description: "Consulta la programmazione del Cinema Teatro Sestito organizzata per anno, dal 1948 al 2004."
 slug: "anni"
 type: "programmazione-storica/anni"
-image: "/programmazione-storica/anni/_index_files/img_anni_section.jpg"
+image: "img_anni_section.jpg"
 ---
 
-![Copertina dell'agenda di programmazione 1958-1959](/programmazione-storica/anni/_index_files/img_anni_section.jpg)
+![Copertina dell'agenda di programmazione 1958-1959](img_anni_section.jpg)
 
 Questa sezione offre una ricostruzione dettagliata della programmazione cinematografica del cinema Sestito dal 1948 al 2004, organizzata anno per anno grazie al lavoro di digitalizzazione e analisi svolto a partire dalle agende cinematografiche originali conservate nella sezione *[Fonti](/programmazione-storica/fonti/)*.
 

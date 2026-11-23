@@ -94,6 +94,13 @@ TODO / DOING / DONE / DEFERRED, with dates. Assistant rules are in `CLAUDE.md`.
   relative front matter `image:` (a file in the bundle) is resolved to its
   permalink in `head.html`. Deleted the stale duplicate
   `static/images/1962_04_08_attestato_...` (the page uses its own `images/`).
-- Left as is on purpose: `_index_files/` folders (about 200 pages reference
-  them in front matter) and the 70 historical-source galleries in
+- The seven section hero images (home, articoli, posters, programmazione-storica,
+  anni, fonti, generi) moved from `static/**/_index_files/` next to their
+  `_index.md` in `content/`; `image:` and the Markdown image use the bare file
+  name, and `params.defaultImage` is `1956_progetto_cinema.webp` (resolved from
+  the home page's resources in `head.html`).
+- Left as is on purpose: the two chart PNGs under
+  `static/programmazione-storica/{generi,paesi-di-produzione}/_index_files/figure-html/`
+  (shared by about 88 item pages; to be replaced under U02) and the 70
+  historical-source galleries in
   `static/images/programmazione_storica/` (DEFERRED: low gain, 321 MB).

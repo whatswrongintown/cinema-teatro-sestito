@@ -7,10 +7,10 @@ lastmod: '2026-11-18'
 description: "Le diverse tipologie di documenti utilizzate per ricostruire la programmazione del Cinema Teatro Sestito."
 layout: "section"
 slug: "fonti"
-image: "/programmazione-storica/fonti/_index_files/agenda_fedi_54_55.webp"
+image: "agenda_fedi_54_55.webp"
 ---
 
-![Copertina del calendario di programmazione Fedi 1954-1955](/programmazione-storica/fonti/_index_files/agenda_fedi_54_55.webp)
+![Copertina del calendario di programmazione Fedi 1954-1955](agenda_fedi_54_55.webp)
 Questa sezione raccoglie e descrive le diverse **fonti originali** che hanno permesso di ricostruire la programmazione cinematografica.
 
 Le principali tipologie di fonti sono:

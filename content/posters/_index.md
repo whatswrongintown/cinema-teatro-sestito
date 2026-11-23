@@ -6,7 +6,7 @@ description: "Fotobuste, locandine e manifesti del cinema Sestito di San Vito su
 image: ''
 ---
 
-![hero banner sezione manifesti e locandine](/posters/_index_files/hero_banner_manifesti.jpg)
+![hero banner sezione manifesti e locandine](hero_banner_manifesti.jpg)
 
 I **manifesti e le locandine** del cinema Sestito costituiscono la componente visiva dell'archivio documentario, restituendo l'immagine con cui ogni film si presentava al pubblico di San Vito sullo Ionio. Fotobuste, locandine e manifesti di grande formato, conservati nell'archivio della sala, accompagnano la programmazione ricostruita anno per anno e ne offrono un controcanto grafico, fatto di colori, caratteri tipografici e immaginario promozionale.
 

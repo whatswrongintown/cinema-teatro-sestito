@@ -5,10 +5,10 @@ date: '2023-04-21'
 lastmod: '2026-11-16'
 description: "Archivio delle proiezioni del Cinema Teatro Sestito dal 1948 al 2004, ricostruito attraverso le fonti originali conservate dalla famiglia Sestito."
 slug: "programmazione-storica"
-image: "/programmazione-storica/_index_files/avvolgitore_prevost.jpg"
+image: "avvolgitore_prevost.jpg"
 ---
 
-![Avvolgitore cinematografico Prevost](/programmazione-storica/_index_files/avvolgitore_prevost.jpg)
+![Avvolgitore cinematografico Prevost](avvolgitore_prevost.jpg)
 
 La **programmazione cinematografica** del cinema Sestito costituisce una delle componenti centrali dell’archivio documentario, offrendo una testimonianza diretta della vita culturale e sociale di San Vito sullo Ionio nel secondo dopoguerra. Attraverso l’analisi di fonti primarie - tra cui registri, appunti, e calendari - è stato possibile ricostruire, anno per anno, l’offerta filmica della sala e le sue trasformazioni nel tempo.
 
