@@ -14,7 +14,7 @@ tags:
           - Calabria
           - Dopoguerra
 galleryDescriptions:
-  /images/2023_04_27_la_settimana_incam:
+  galleries/2023_04_27_la_settimana_incam:
     pageAlt: "Scansione di materiale della Settimana Incom conservato dall'archivio del cinema."
     images:
       la_settimana_incam_01.jpg:
@@ -25,7 +25,7 @@ galleryDescriptions:
         alt: "Retro di un'agenda Incom con annotazione manoscritta dedicata a Sandro Pallavicini e testo promozionale."
       la_settimana_incam_04.jpg:
         alt: "Documento commerciale Incom con titolo La Settimana Incom, elenco di produzioni e marchio Record Incom Sport."
-  /images/2023_04_27_le_difficoltà_della_gestione:
+  galleries/2023_04_27_le_difficolta_della_gestione:
     pageAlt: "Documenti e illustrazione relativi alla gestione del cinema negli anni Cinquanta."
     images:
       1950_Associazione_Nazionale_Esercenti_Cinema_1.jpg:
@@ -64,7 +64,7 @@ Dopo diversi mesi di lavoro e burocrazia, il **19 marzo 1949** il prefetto di Ca
 
 Ogni proiezione era preceduta da brevi intermezzi musicali e da "[La Settimana Incom](https://www.archivioluce.com/la-settimana-incom/)", cinegiornale che diffondeva notizie di attualità e sport, simbolo della nuova Italia repubblicana.
 
-{{< image-gallery gallery_dir="/images/2023_04_27_la_settimana_incam" >}}
+{{< image-gallery gallery_dir="galleries/2023_04_27_la_settimana_incam" >}}
 
 ## Le difficoltà della gestione
 
@@ -72,7 +72,7 @@ Gestire un cinema in un contesto rurale nel dopoguerra comportava notevoli diffi
 
 Nel 1955 i **Carabinieri di San Vito** redassero un **processo verbale** contro Sestito per aver venduto un numero di biglietti superiore alla capienza della sala in occasione della proiezione di [Sansone e Dalila](https://www.imdb.com/title/tt0041838/) (Cecil B. DeMille, 1949). L’episodio, pur rappresentando una violazione formale, testimonia il grande successo del cinema e la sua centralità nella vita sociale del paese[^4].
 
-{{< image-gallery gallery_dir="/images/2023_04_27_le_difficoltà_della_gestione" >}}
+{{< image-gallery gallery_dir="galleries/2023_04_27_le_difficolta_della_gestione" >}}
 
 ## Il rapporto con la Chiesa e la moralità pubblica
 

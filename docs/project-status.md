@@ -24,7 +24,7 @@ TODO / DOING / DONE / DEFERRED, with dates. Assistant rules are in `CLAUDE.md`.
 
 - Site content: welcoming, clear, professional Italian. Only the owner
   maintains the site; visitors are mainly locals.
-- Keep `params.anno` and the generic root/static favicons. Keep goldmark
+- Keep `params.anno` and the generic favicons (now in `static/images/icons/`). Keep goldmark
   `unsafe: true` (inline HTML).
 - Keep Eventi available with its "no events scheduled" message. Only Progetto
   stays in the top menu. No analytics (disabled, Do Not Track respected).
@@ -62,5 +62,38 @@ TODO / DOING / DONE / DEFERRED, with dates. Assistant rules are in `CLAUDE.md`.
   smaller images, then upgrade Hugo (release notes since 0.136.5, replace the
   deprecated settings above, update `HUGO_VERSION` in `netlify.toml`, check the
   deploy log). A Hugo upgrade alone is not expected to remove the image cost.
+- **U02 - TODO: fix the social-sharing image in front matter.** Many year pages
+  (`content/programmazione-storica/anni/*/index.md`) have an `image:` pointing
+  to a path that no longer exists, e.g.
+  `/1948/01/01/programmazione-1948/index_files/figure-html/proiezioni-mensili.png`
+  (blogdown leftover). Audit the `image:` of every page (years, genres, sources,
+  articles, archive, posters) and make sure each one resolves to an existing
+  file, so a preview image always appears when the page is shared on social
+  media. The image should be the page's hero banner or, failing that, the first
+  chart on the page. Charts are inline SVG, so a shareable image (PNG/JPG in
+  `static/`) may be needed; check how `layouts/partials/head.html` builds the
+  Open Graph / Twitter tags and add a fallback (e.g. `defaultImage`) for pages
+  without one (`head.html` already accepts a bundle-relative `image:`). Genre pages point to
+  `/programmazione-storica/generi/_index_files/figure-html/generi-per-decennio-1.png`,
+  which exists and is the only such file still in use.
 - No feature roadmap yet: new ideas are agreed with the owner and listed here
   when they are approved.
+
+## Static folder layout (DONE 2026-11-23)
+
+- `static/images/icons/`: favicons, apple-touch icon, logo avatar and footer
+  SVG icons (moved out of the `images/` root).
+- Deleted the unused `poster_overrides.csv`, `manifesti_report.csv` and
+  `posters_wiht_no_imdb_id.csv` from `static/data/`, plus `static/.gitkeep` and
+  the empty `static/images/posters/`.
+- Article and archive galleries (7 folders, about 22 MB) moved from
+  `static/images/` into their page bundles as `<page>/galleries/<name>/`. The
+  `image-gallery` shortcode takes a relative `gallery_dir="galleries/<name>"`
+  (page resources) or an absolute `/images/<name>` (static, used by the
+  historical sources); the `galleryDescriptions` key is the same string. A
+  relative front matter `image:` (a file in the bundle) is resolved to its
+  permalink in `head.html`. Deleted the stale duplicate
+  `static/images/1962_04_08_attestato_...` (the page uses its own `images/`).
+- Left as is on purpose: `_index_files/` folders (about 200 pages reference
+  them in front matter) and the 70 historical-source galleries in
+  `static/images/programmazione_storica/` (DEFERRED: low gain, 321 MB).

@@ -35,7 +35,14 @@
   {{- end -}}
 {{ end }}
 
-{{- $socialImage := .Params.image | default .Site.Params.defaultImage | absURL -}}
+{{- /* image: an absolute path, or a file inside the page bundle (e.g. galleries/x/y.jpg) */ -}}
+{{- $socialImage := .Params.image | default .Site.Params.defaultImage -}}
+{{- if and .Params.image (not (hasPrefix .Params.image "/")) -}}
+  {{- with .Resources.GetMatch .Params.image -}}
+    {{- $socialImage = .Permalink -}}
+  {{- end -}}
+{{- end -}}
+{{- $socialImage = $socialImage | absURL -}}
 {{- $ogType := "website" -}}
 {{- if and .IsPage (not .IsSection) -}}
   {{- $ogType = "article" -}}
@@ -61,7 +68,7 @@
 {{ with .Site.Params.favicon }}
   <link rel="icon" type="image/png" href="{{ . | absURL }}">
 {{ end }}
-<link rel="apple-touch-icon" sizes="180x180" href="{{ "images/apple-touch-icon.png" | absURL }}">
+<link rel="apple-touch-icon" sizes="180x180" href="{{ "images/icons/apple-touch-icon.png" | absURL }}">
 
 <!-- RSS Feed -->
 {{ with .OutputFormats.Get "RSS" }}

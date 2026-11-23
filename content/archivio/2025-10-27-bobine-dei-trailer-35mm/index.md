@@ -8,7 +8,7 @@ categories:
   - Attrezzature
 description: "Schede e documentazione delle bobine promozionali in pellicola 35mm conservate nell’archivio del Cinema Teatro Sestito."
 galleryDescriptions:
-  /images/2025_10_27_trailer_35mm:
+  galleries/2025_10_27_trailer_35mm:
     pageAlt: "Fotografie delle bobine promozionali in pellicola 35 mm e delle rispettive etichette conservate nell’archivio del cinema."
 lastmod: '2026-11-18'
 ---
@@ -38,4 +38,4 @@ Le bobine si presentano in **contenitori metallici o di plastica**, ciascuno rec
 
 Le etichette, spesso scritte a macchina o con timbro tipografico, costituiscono un importante documento in sé, utile a ricostruire le **reti distributive** e le pratiche amministrative del settore.
 
-{{< image-gallery gallery_dir="/images/2025_10_27_trailer_35mm" >}}
+{{< image-gallery gallery_dir="galleries/2025_10_27_trailer_35mm" >}}

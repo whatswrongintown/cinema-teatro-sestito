@@ -31,10 +31,10 @@ screening dates, sort key, letter, `extra` IMDb details and its posters
 dimensions). Retro posters are kept separate from the printed collection.
 
 Sources used to build it: `static/data/programmazione_agende.csv`,
-`programmazione_imdb.csv`, `programmazione_manifesti.csv` and
-`posters_wiht_no_imdb_id.csv` (title, genre and production year come from IMDb,
-then poster metadata, then screenings; 79 title conflicts and 14 ratio warnings
-are listed in `static/data/manifesti_report.csv`). Only dates from
+`programmazione_imdb.csv` and `programmazione_manifesti.csv` (title, genre and
+production year come from IMDb, then poster metadata, then screenings). The
+build reports, the list of posters without an IMDb ID and the empty overrides
+file were deleted on 2026-11-23 as no longer needed. Only dates from
 `programmazione_agende.csv` populate the year and month views: the poster
 metadata file has no cinema screening dates (`Release Date`, `Created`,
 `Modified` and `Date Rated` are not screening dates).

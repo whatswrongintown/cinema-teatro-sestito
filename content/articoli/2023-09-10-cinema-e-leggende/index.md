@@ -12,7 +12,7 @@ tags:
   - Evento
   - Festival
 galleryDescriptions:
-  /images/2023_08_09_sonati_vicinu_7a_edizione:
+  galleries/2023_08_09_sonati_vicinu_7a_edizione:
     pageAlt: "Fotografie dell’incontro pubblico sul cinema durante la settima edizione di Sonati Vicinu nel 2023."
     images:
       2023_08_09_sonati_vicinu_7a_edizione_01.webp:
@@ -37,7 +37,7 @@ L’intervento ha evidenziato come il cinema abbia contribuito, nel corso dei de
 
 Il team di Sonati Vicinu ha documentato l’evento con grande cura, restituendo attraverso le immagini l’atmosfera della serata: la partecipazione attiva del pubblico, il valore attribuito alla memoria e il desiderio condiviso di costruire nuovi spazi per la cultura.
 
-{{< image-gallery gallery_dir="/images/2023_08_09_sonati_vicinu_7a_edizione" >}}
+{{< image-gallery gallery_dir="galleries/2023_08_09_sonati_vicinu_7a_edizione" >}}
 
 ---
 

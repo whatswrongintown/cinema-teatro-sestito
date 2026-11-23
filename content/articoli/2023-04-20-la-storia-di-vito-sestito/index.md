@@ -12,7 +12,7 @@ tags:
   - San Vito sullo Ionio
   - AutoricambiSestito
 galleryDescriptions:
-  /images/1924_06_07_cartolina_gruppo_amici_sestito_vito:
+  galleries/1924_06_07_cartolina_gruppo_amici_sestito_vito:
     pageAlt: "Fronte e retro della cartolina fotografica del 1924 dedicata a Vito Sestito e al suo gruppo di amici."
     images:
       1924_06_07_cartolina_gruppo_amici_sestito_vito_01.webp:
@@ -29,7 +29,7 @@ Vito Sestito nacque a San Vito sullo Ionio il 12 novembre 1902, ultimo di cinque
 
 Nel 1921, a 19 anni, fu arruolato nel servizio di leva e congedato due anni più tardi[^2]. Tornato a San Vito, riprese il lavoro artigianale, e la sua figura emerge per la prima volta in una cartolina fotografica del 1924, che lo ritrae col cappello in piedi al centro di un gruppo di amici.
 
-{{< image-gallery gallery_dir="/images/1924_06_07_cartolina_gruppo_amici_sestito_vito" >}}
+{{< image-gallery gallery_dir="galleries/1924_06_07_cartolina_gruppo_amici_sestito_vito" >}}
 
 ## Ricostruzione e nascita del cinema
 

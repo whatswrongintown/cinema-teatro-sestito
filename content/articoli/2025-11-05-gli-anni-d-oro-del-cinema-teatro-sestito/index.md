@@ -10,7 +10,7 @@ categories:
   - Storia
 tags: ["San Vito sullo Ionio", "storia locale", "cinema di paese"]
 galleryDescriptions:
-  /images/matrimoni_al_cinema:
+  galleries/matrimoni_al_cinema:
     pageAlt: "Fotografie di ricevimenti nuziali allestiti nella sala del Cinema Teatro Sestito."
     images:
       matrimonio_al_cinema_01.webp:
@@ -68,7 +68,7 @@ Oltre alla funzione cinematografica e teatrale, il nuovo cinema divenne anche un
 
 La galleria fotografica testimonia questa consuetudine, gli invitati posano davanti allo schermo bianco del cinema, si intravedono le sedie del cinema ai lati e il palco dietro, restituendo un’immagine vivida del modo in cui lo spazio cinematografico veniva reinterpretato come luogo di festa:
 
-{{< image-gallery gallery_dir="/images/matrimoni_al_cinema" >}}
+{{< image-gallery gallery_dir="galleries/matrimoni_al_cinema" >}}
 
 ## L’espansione degli anni Sessanta
 

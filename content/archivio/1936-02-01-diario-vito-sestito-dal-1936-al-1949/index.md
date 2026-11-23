@@ -1,7 +1,7 @@
 ---
 title: Diario di Vito Sestito dal 1936 al 1949
 description: "Indice analitico del diario di Vito Sestito dal 1936 al 1949, con i nomi, i paesi e i luoghi citati nelle pagine."
-image: "/images/1936_1949_diario_nonno_vito/1936_1949_Diario_Nonno_Vito_02.jpg"
+image: "galleries/1936_1949_diario_nonno_vito/1936_1949_Diario_Nonno_Vito_02.jpg"
 author: Vito Sestito
 date: '1936-02-01'
 slug: diario-vito-sestito-dal-1936-al-1949
@@ -10,11 +10,11 @@ categories:
 tags:
   - Diari
 galleryDescriptions:
-  /images/1936_1949_diario_nonno_vito:
+  galleries/1936_1949_diario_nonno_vito:
     pageAlt: "Scansioni consecutive delle pagine del diario di Vito Sestito dal 1936 al 1949."
 lastmod: '2026-11-18'
 ---
-{{< image-gallery gallery_dir="/images/1936_1949_diario_nonno_vito" >}}
+{{< image-gallery gallery_dir="galleries/1936_1949_diario_nonno_vito" >}}
 
 ### Indice Analitico
 
