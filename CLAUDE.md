@@ -5,8 +5,8 @@ documents and historical film programming. Built with Hugo 0.136.5 Extended and
 deployed on Netlify, which runs Hugo only.
 
 Read `docs/project-status.md` first: it is the authoritative record of current
-state, decisions and open work, including the planned migration from R/blogdown
-to Hugo only. `docs/README.md` indexes the remaining documentation.
+state, decisions and open work. The site was migrated from R/blogdown to
+Hugo only (2026-11-23). `docs/README.md` indexes the remaining documentation.
 
 ## Where changes belong
 
@@ -15,8 +15,7 @@ to Hugo only. `docs/README.md` indexes the remaining documentation.
 | `content/` | pages and articles (manual or generated, check first) |
 | `layouts/` | Hugo templates, partials and shortcodes |
 | `static/` | assets and source datasets (`static/data/*.csv`); everything here is public |
-| `R/` | current R generators (being phased out, see project status) |
-| `data/` | generated Hugo data (`data/posters/films.json`) |
+| `data/` | Hugo data (`data/posters/films.json`, glyph widths for the charts) |
 | `docs/` | all project documentation |
 
 Before editing a page, decide whether it is manually written or generated:
@@ -26,13 +25,11 @@ Before editing a page, decide whether it is manually written or generated:
   builds their tables from `static/data/` (`layouts/partials/programmazione/`).
   Charts are inline SVG from `{{< grafico nome="..." >}}`
   (`layouts/partials/grafici/`). Never paste tables or chart images into the
-  pages, and do not run the old R generators (`update_anni()`, `update_indici()`
-  etc.): they would rewrite the pages. See `docs/guides/historical-programming.md`.
+  pages. The old R generators no longer exist (they would have rewritten the
+  pages); see `docs/guides/historical-programming.md`.
 - Poster film and title-letter pages are built by Hugo content adapters
-  (`content/posters/**/_content.gotmpl`) from `data/posters/films.json`. Do not
-  run `R/update-posters.R`: it would recreate Markdown pages. `films.json` and
-  `static/images/manifesti/` are final (see `docs/posters.md`).
-- Prefer fixing generation logic over correcting generated output.
+  (`content/posters/**/_content.gotmpl`) from `data/posters/films.json`.
+  `films.json` and `static/images/manifesti/` are final (see `docs/posters.md`).
 - The datasets and poster images are final (2026-11-23): there is no new data
   to regenerate, and `static/images/manifesti/` must not be modified.
 
@@ -46,7 +43,7 @@ Before editing a page, decide whether it is manually written or generated:
   Update files in place; use only `public/` as build output. Any temporary build
   must be removed afterwards.
 - Push to `main` without the owner's explicit request: it deploys to production.
-- Deploy the Shiny dashboard or change Netlify settings without explicit approval.
+- Change Netlify settings or retire the shinyapps.io app without explicit approval.
 
 ## Writing
 
@@ -59,26 +56,15 @@ Before editing a page, decide whether it is manually written or generated:
 
 - Follow Hugo conventions and check APIs against Hugo 0.136.5. Keep templates
   modular; avoid new dependencies unless clearly justified.
-- New work should favour Hugo-native solutions over new R code (migration goal).
-- R code that still needs changes: base R or tidyverse style as already used,
-  no hard-coded paths, Hugo-compatible Markdown, run from the repo root.
 - Documentation is part of every change: update `docs/project-status.md` and the
   relevant guide, remove outdated text, avoid duplicating content between files.
 
 ## Local environment (Windows)
 
 - Hugo is on PATH: `hugo server` for preview, `hugo` for a build.
-- R is not on PATH: `"/c/Program Files/R/R-4.6.2/bin/Rscript.exe"` (Bash) or
-  `& "C:\Program Files\R\R-4.6.2\bin\Rscript.exe"` (PowerShell).
+- R is no longer part of the site; it is used only for exploratory analysis of the
+  datasets, outside the repository.
 - The GitHub CLI (`gh`) is not installed; use plain `git` against `origin`.
-
-## Tests
-
-Plain R scripts with `stopifnot()`, run from the repo root:
-
-```bash
-"/c/Program Files/R/R-4.6.2/bin/Rscript.exe" tests/test-posters-helpers.R
-```
 
 ## Before finishing a task
 

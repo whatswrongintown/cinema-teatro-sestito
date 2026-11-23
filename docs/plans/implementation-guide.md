@@ -70,7 +70,7 @@ Recommended order:
 6. **H06 - Source PDF conversion (DONE 2026-11-23: retired, no tool kept).** Replace `R/fonti_pdf_to_images.R` with a
    documented non-R local tool (for example ImageMagick/pdftoppm), or keep it as
    a rare manual utility if the owner prefers.
-7. **H07 - Clean-up.** Remove replaced R scripts, tests and guides; move any
+7. **H07 - Clean-up (DONE 2026-11-23).** Remove replaced R scripts, tests and guides; move any
    analysis code to a non-build folder (for example `analysis/`) excluded from
    Hugo; update CLAUDE.md, README and project status.
 

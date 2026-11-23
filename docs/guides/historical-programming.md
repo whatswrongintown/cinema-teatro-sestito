@@ -124,11 +124,6 @@ named in front matter `image:` are kept as static files: the 57 annual
 `italia-estero-per-decennio-1.png` (country pages and index). The other R chart
 PNGs were deleted. The data are final, so these images do not go stale.
 
-**Do not run the old R generators** (`update_anni()`, `update_fonti()`,
-`update_generi()`, `update_paesi()`, `update_indici()`,
-`update_programmazione_storica()`): they would write tables and PNG references
-back into the pages. They are removed in H07.
-
 Index aggregation rules (from the former `R/update-indici.R`):
 
 - Sources are typed by name, in this order: Appunti (`cif`, `italautogamma`,
@@ -186,5 +181,5 @@ CSVs contain 55 screenings without an IMDb ID and 11 IDs without an IMDb row (a
 few adult films); they appear as films of their own with no rating or director
 (a screening without an ID is one film per title).
 
-The `R/shinyapp_dashboard` app and its shinyapps.io deployment are retired once
-the Hugo page is published (owner approval; code removal is H07).
+The former Shiny app (`R/shinyapp_dashboard`, removed in H07, in Git history) and its
+shinyapps.io deployment are retired once the Hugo page is published (owner approval).

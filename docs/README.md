@@ -8,7 +8,7 @@ proposals do not override the status record.
 | Category | Document | Purpose |
 | --- | --- | --- |
 | Guide | [Historical programming](guides/historical-programming.md) | CSV inputs, Hugo-built tables, dashboard and PDF workflows |
-| Guide | [Poster collection](posters.md) | Local poster generation, overrides and generated site data |
+| Guide | [Poster collection](posters.md) | How Hugo builds the poster pages, the data file and image rules |
 | Plan | [Implementation guide](plans/implementation-guide.md) | Steps for the Hugo-only migration and other open or deferred work |
 | Proposal | [Website improvement ideas](proposals/website-improvement-ideas.md) | Feature proposals and provider references |
 | Proposal | [Methodology data analysis](proposals/methodology-data-analysis.md) | Dated data snapshot and possible additions to the methodology article |
@@ -21,7 +21,7 @@ proposals do not override the status record.
   so. Data figures in proposal notes are dated snapshots; recalculate before
   relying on them.
 - Generated historical programming pages and charts are documented in the
-  guide; update their source CSVs and generators rather than editing generated
+  guide; change the Hugo templates or the source CSVs rather than editing generated
   output by hand.
-- When a migration item replaces an R workflow, update or remove its guide in
+- When a change replaces a workflow, update or remove its guide in
   the same change. Removed documents stay available in Git history.

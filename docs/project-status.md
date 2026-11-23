@@ -1,6 +1,6 @@
 # CINEMA TEATRO SESTITO - PROJECT STATUS (single entry point)
 Last review: 2026-11-23 (move to Claude Code, documentation cleanup, Hugo-only
-migration goal)
+migration completed, H01-H07)
 
 Read this file first and update it whenever a decision is made.
 See docs/README.md for the documentation index. Assistant instructions are in
@@ -12,9 +12,8 @@ item's status.
 
 ## 1. PROJECT AT A GLANCE
 - Hugo 0.136.5 Extended (pinned in netlify.toml). Local preview/build with
-  `hugo server` / `hugo`; blogdown is no longer used. R scripts still hold the
-  generators but are being phased out (section 6).
-- Netlify runs Hugo only, not R or knitr. Commit generated Markdown and charts.
+  `hugo server` / `hugo`; blogdown and the R generators were removed (H01-H07);
+- Netlify runs Hugo only. R is used only for exploratory analysis, outside the repo.
 - Historical programming: 3 CSVs in static/data. Since 2026-11-23 Hugo builds
   the tables and SVG charts from them (H03).
 - Poster collection: final since 2026-11-23. data/posters/films.json and the
@@ -29,7 +28,7 @@ item's status.
 - Tone for site content: welcoming, clear, professional Italian.
 
 ## 2. COMPLETED AND VERIFIED WORK
-### DONE - R workflow
+### DONE - R workflow (historical; the scripts were removed in H07)
 - 2026-11-16: update-anni/fonti/generi/paesi.R rewritten in base R, with yaml for
   metadata and showtext/sysfonts for the local Merriweather font. All 241
   Markdown pages were unchanged; full updates take about 20 s instead of 40 s.
@@ -135,7 +134,7 @@ before removing any R code. Steps: docs/plans/implementation-guide.md.
 | H04 | Poster pages built by Hugo from `data/posters/films.json` (images and data stay as they are) | DONE 2026-11-23 |
 | H05 | Hugo-native dashboard replacing the Shiny app and iframe | DOING 2026-11-23 (built; Shiny retired after publication) |
 | H06 | Non-R tool (or retained utility) for source PDF conversion | DONE 2026-11-23 (tool retired, scans are final) |
-| H07 | Remove replaced R scripts/tests/docs; keep analysis code outside the build | TODO |
+| H07 | Remove replaced R scripts/tests/docs; keep analysis code outside the build | DONE 2026-11-23 |
 
 H01/H02 (2026-11-23): a plain `hugo` build without blogdown produced 1,677
 pages and 2,620 processed images with no warnings. Removed `.Rprofile`, the
@@ -175,8 +174,7 @@ longer Markdown files: the content adapters
 priority omitted as before). The whole build output (HTML, XML, sitemap) was
 compared with the previous build: identical, 1,677 pages. The year, size, genre
 and root pages stay as editable Markdown. `data/posters/films.json` and the
-images are final and kept; `R/update-posters.R` must no longer be run (it would
-recreate the Markdown pages) and goes in H07. Details: docs/posters.md.
+images are final and kept. Details: docs/posters.md.
 
 H05 (2026-11-23): the methodology article now embeds the `dashboard` shortcode
 instead of the shinyapps.io iframe. The browser reads the public CSVs and
@@ -187,8 +185,19 @@ to desktop widths, no console errors): 5,479 entries and 4,668 films for all
 years. The CSVs hold 11 film IDs without an IMDb row and 55 screenings without
 an ID; the Shiny app would have refused them, the Hugo page lists them without
 rating or director. Open: the owner publishes the change, then retires the
-shinyapps.io app (explicit approval); `R/shinyapp_dashboard` is removed in H07.
+shinyapps.io app (explicit approval).
 Details: docs/guides/historical-programming.md.
+
+H06 (2026-11-23, owner decision): the source PDF conversion tool was retired;
+the scans are final and no replacement tool is kept.
+
+H07 (2026-11-23): removed the whole `R/` folder (the programming, poster and
+Shiny scripts) and `tests/`; nothing in the build used them. They remain in Git
+history. Rewrote docs/posters.md for the Hugo-only workflow and updated
+CLAUDE.md and README.md. R remains available for exploratory analysis of the
+CSVs, outside the repository. The Shiny app on shinyapps.io stays online until
+the owner retires it. Possible follow-up: the `posters_managed` front matter key
+in `content/posters/` no longer has a use.
 
 Because the data are final (section 4), the migration is about maintainability
 and presentation, not a data pipeline.

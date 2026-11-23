@@ -1,126 +1,53 @@
 # Poster collection
 
-Since H04 (2026-11-23) Hugo builds the film pages (`/posters/films/<id>/`) and
-the title-letter pages (`/posters/by-title/<letter>/`) with content adapters,
-`content/posters/films/_content.gotmpl` and
-`content/posters/by-title/_content.gotmpl`, reading `data/posters/films.json`.
-The year, size, genre and root pages remain editable Markdown and the layouts
-are in `layouts/posters/`. The collection is final: `films.json` and
-`static/images/manifesti/` do not change. Originals (`manifesti/`) are private
-local files and must not be committed.
+The collection is final (2026-11-23). Hugo builds all poster pages from
+`data/posters/films.json` and the committed web images in
+`static/images/manifesti/`; neither changes and the R generator that produced
+them was removed in H07 (it stays in Git history). The private originals in
+`manifesti/` are never committed.
 
-The sections below describe the historical R generator (`R/update-posters.R`),
-kept only for reference until H07. **Do not run it**: it would recreate the
-film and letter Markdown pages that the adapters now provide.
+## How the pages are built
 
-## Requirements and running (historical)
+- Film pages (`/posters/films/<id>/`) and title-letter pages
+  (`/posters/by-title/<letter>/`) are created by the content adapters
+  `content/posters/films/_content.gotmpl` and
+  `content/posters/by-title/_content.gotmpl` (H04). Letter `#` becomes `0-9`.
+- The root, year, size, genre and browse-index pages are editable Markdown in
+  `content/posters/`. Front matter selects the data (`layouts/posters/`,
+  `layouts/partials/posters/`): `collection` (`printed` or `retro`), `category`,
+  `size`, `year`, `genre`, `letter`, `browse`.
+- The root and size indexes use the shortcode `poster-subsections`, which lists
+  the child pages with their `description` and counts. Year pages show monthly
+  galleries below their text; genre and year indexes list their children.
+- Add a hero as in the historical programming pages: `image` in front matter
+  for social metadata and a Markdown image in the body. Thumbnails open the
+  keyboard-accessible lightbox; without JavaScript they link to the large image.
 
-From the project root, install the R packages `magick`, `readr`, `jsonlite` and
-`yaml`, and place the originals in the six category folders inside `manifesti/`.
-Then run:
+## Data (`data/posters/films.json`)
 
-```r
-source("R/update-posters.R")
-build_posters()
-```
+One record per film: IMDb or internal ID, title, production year, genres,
+screening dates, sort key, letter, `extra` IMDb details and its posters
+(category, size, number, orientation, alt text, thumbnail and large image with
+dimensions). Retro posters are kept separate from the printed collection.
 
-Alternatively run `Rscript R/update-posters.R`. If `manifesti/` is missing the
-command stops before changing generated files. Commit the generated pages,
-`data/posters/films.json`, `static/images/manifesti/` derivatives and
-`static/data/manifesti_report.csv`, along with any intentional source changes.
-Do not commit the originals or `.cache/posters/`. Run the site with
-`hugo server` to review it. This R workflow is planned to move to Hugo
-(item H04 in [project status](project-status.md#6-migration-to-hugo-only)).
-
-## Sources and overrides
-
-The generator reads `static/data/programmazione_agende.csv`,
+Sources used to build it: `static/data/programmazione_agende.csv`,
 `programmazione_imdb.csv`, `programmazione_manifesti.csv` and
-`posters_wiht_no_imdb_id.csv` without changing them. Identifiers are strings,
-and `0` in the screening CSV means no internal code. The supplementary CSV
-provides titles and production years. For title, genre and production year,
-the generator prefers IMDb metadata, then poster metadata, then screenings.
-For internal codes, the supplementary CSV fills missing values. Title
-disagreements are reported.
+`posters_wiht_no_imdb_id.csv` (title, genre and production year come from IMDb,
+then poster metadata, then screenings; 79 title conflicts and 14 ratio warnings
+are listed in `static/data/manifesti_report.csv`). Only dates from
+`programmazione_agende.csv` populate the year and month views: the poster
+metadata file has no cinema screening dates (`Release Date`, `Created`,
+`Modified` and `Date Rated` are not screening dates).
 
-`programmazione_manifesti.csv` is joined by `Const` (IMDb ID). It has no
-cinema-screening dates: `Release Date`, `Created`, `Modified` and `Date Rated`
-are not screening dates. Only dates from `programmazione_agende.csv` populate
-the year and month views. The report counts IMDb posters with no screening
-date and explicitly records that zero screening dates come from this
-metadata-only file.
+## Images
 
-The poster metadata columns are handled as follows:
+Thumbnails are at most 400 px wide and large images at most 1400 px on their
+longest side, never enlarged, in sRGB with metadata stripped, as WebP. The
+collection holds 1,787 posters for 1,057 films. Do not modify or regenerate
+`static/images/manifesti/`.
 
-| Columns | Use |
-| --- | --- |
-| `Const` | Join key |
-| `Title`, `Year`, `Genres` | Title, production year and genres, subject to precedence |
-| `Position` | List position, in film details |
-| `Created`, `Modified` | List creation and modification dates, in film details |
-| `Description` | Description, in film details when present |
-| `Original Title`, `Title Type` | Original title and work type, in film details |
-| `URL` | IMDb URL, in film details |
-| `IMDb Rating`, `Num Votes` | IMDb rating and votes, in film details |
-| `Runtime (mins)`, `Directors` | Runtime and directors, in film details |
-| `Release Date` | Release date, in film details; not a screening date |
-| `Your Rating`, `Date Rated` | Personal rating and its date, in film details when present |
-
-These remaining columns are stored under `extra` in the film JSON. The
-current CSV has no poster-size or poster-number key.
-
-Edit `static/data/poster_overrides.csv` to correct a scan or exclude a poster:
-`film_id,category,size,number,rotate,exclude`. Rotation is clockwise and must
-be 0, 90, 180 or 270; `exclude` is TRUE or FALSE. A film ID is an IMDb ID or
-`internal-` followed by its code. Unmatched overrides are reported.
-
-## Output and browsing
-
-The local `.cache/posters/posters_index.rds` has one row per poster, with
-film metadata, screening months, dimensions and derivative paths. Image
-dimension and derivative caches use source paths, modification times and file
-sizes. The Hugo data file contains one record per film with its posters and
-dimensions. Front matter selects the data for year, category and size, genre,
-title and film pages. Retro is separate from the printed collection.
-Regeneration removes obsolete generated pages and empty managed scaffolds;
-pages containing editorial text are retained.
-
-## Editing section pages
-
-The root, browse indexes, year, size and genre pages are editable. On first
-generation the script scaffolds them and marks them `posters_managed: true`.
-On later runs it updates only structural keys (`type`, `layout`, `browse`,
-`collection`, `category`, `size`, `year`, `genre`, `letter`, `film_id` and
-`weight`). The title, description, image key, other metadata and body are
-yours. If an empty section still contains editorial text, its page is retained
-and reported. Letter and film pages remain fully generated.
-
-Add a hero using the historical-programming convention: set `image` in front
-matter for social metadata and insert a Markdown image in the body where it
-should appear. Add charts as Markdown or HTML images in the body. The root
-and size index scaffolds contain `{{< poster-subsections >}}`; descriptions
-come from the corresponding child pages' `description` fields. Year pages
-show monthly galleries below their body; genre and year indexes append links.
-Thumbnails open the existing keyboard-accessible lightbox; without JavaScript,
-their links open the large derivative directly.
-
-Format descriptions are based on
+Format descriptions on the size pages are based on
 [Original Film Art](https://nz.originalfilmart.com/pages/sizes-italy),
 [Art of the Movies](https://artofthemovies.co.uk/blogs/original-movie-posters/italian-movie-posters-names-and-sizes)
 and [Mauvais Genres](https://www.mauvais-genres.com/en/content/45-movie-poster-size).
 The sources differ on the dimensions of one foglio; physical sheet sizes can vary.
-
-Web images are never enlarged: thumbnails are at most 400 pixels wide and
-larger images are at most 1400 pixels on their longest side. The generator
-applies EXIF orientation and manual rotation, converts to sRGB and strips
-metadata. It uses WebP when available, otherwise progressive JPEG. Quality is
-lowered to a floor of 60 if needed; remaining size exceptions and other
-warnings are in `manifesti_report.csv`. Unsupported filenames are skipped and
-reported rather than guessed. The local cache also records generated
-derivatives so stale derivatives whose sources disappeared can be removed.
-
-## Checks
-
-Run `Rscript tests/test-posters-helpers.R` for synthetic parser, matching,
-EXIF, rotation, caching, derivative and page-data checks. The command creates
-and removes its own small files; it never reads the original collection.
