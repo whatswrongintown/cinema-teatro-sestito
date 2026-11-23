@@ -1,224 +1,164 @@
 # CINEMA TEATRO SESTITO - PROJECT STATUS (single entry point)
-Last review: 2026-11-19 (documentation structure and status cleanup)
+Last review: 2026-11-23 (move to Claude Code, documentation cleanup, Hugo-only
+migration goal)
 
 Read this file first and update it whenever a decision is made.
-See docs/README.md for the documentation index and category map.
-Documentation is primarily in English; site content is in Italian. Use status
-words TODO / DOING / DONE / DEFERRED and date findings and decisions.
-Per-item steps and file lists are in docs/plans/implementation-guide.md; they
-do not change an item's status. Historical programming instructions are in
-docs/guides/historical-programming.md.
+See docs/README.md for the documentation index. Assistant instructions are in
+CLAUDE.md at the repository root.
+Documentation is in English; site content is in Italian. Use status words
+TODO / DOING / DONE / DEFERRED and date findings and decisions.
+Per-item steps are in docs/plans/implementation-guide.md; they do not change an
+item's status.
 
 ## 1. PROJECT AT A GLANCE
-- Hugo 0.136.5 Extended (pinned in netlify.toml and .Rprofile) + R/blogdown.
+- Hugo 0.136.5 Extended (pinned in netlify.toml and .Rprofile). R/blogdown is
+  still used for content generation but is being phased out (section 6).
 - Netlify runs Hugo only, not R or knitr. Commit generated Markdown and charts.
 - Historical programming: 3 CSVs in static/data -> local R scripts -> pages,
   tables and PNG charts -> commit -> Netlify publishes.
+- Poster collection: private local originals in manifesti/ -> local R script ->
+  pages, data/posters/films.json and web images -> commit (docs/posters.md).
 - Source-page counts checked 2026-11-17: 7 article bundles; 26 archive Markdown
   detail pages plus their index; 236 programming detail pages (57 years, 93
-  sources, 23 genres, 63 countries) plus 5 programming indexes. These are content
-  counts, not counts of images, aliases or all Hugo-generated output pages.
+  sources, 23 genres, 63 countries) plus 5 programming indexes.
 - CSV check 2026-11-17: 5,290 dated screening rows; 4,567 distinct screening film
   IDs and IMDb records; 4,568 country records. All screening IDs have IMDb rows.
-- Never edit public/ or resources/ (regenerated). For generated programming
-  output, change the data and run the R scripts; preserve editorial introductions.
+- Never edit public/ or resources/ (regenerated). For generated output, change
+  the data or generator; preserve editorial introductions.
 - Tone for site content: welcoming, clear, professional Italian.
 
 ## 2. COMPLETED AND VERIFIED WORK
 ### DONE - R workflow
 - 2026-11-16: update-anni/fonti/generi/paesi.R rewritten in base R, with yaml for
-  metadata and showtext/sysfonts for the local Merriweather font. The recorded
-  copy comparison left 241 Markdown pages unchanged; full updates took about
-  20 s instead of about 40 s, without network/font downloads.
+  metadata and showtext/sysfonts for the local Merriweather font. All 241
+  Markdown pages were unchanged; full updates take about 20 s instead of 40 s.
 - update-indici.R generates the six summary PNG charts for the four section
-  indexes during full section updates. Obsolete programming index _index.Rmd
-  files have been removed; the two article Rmd sources remain.
+  indexes. Obsolete programming index _index.Rmd files were removed; the two
+  article Rmd sources remain (see H02).
 - update-fonti.R accepts "Note sui manifesti"; the source page is still pending.
-- 2026-11-17: full generator workflow recorded in an isolated Git worktree using
-  project data. Markdown was unchanged; three summary PNGs had small binary
-  differences and were not copied back. See
-  docs/guides/historical-programming.md.
+- 2026-11-17: full generator run in an isolated Git worktree: Markdown unchanged;
+  three summary PNGs had small binary differences and were not copied back.
 
 ### DONE - Website features
-- 2026-11-17: hierarchy-based breadcrumbs below and outside the navigation
-  header; home and 404 excluded. Uses .LinkTitle, not URL segments. Breadcrumb
-  links use a thinner green underline and the content links' hover/focus highlight.
-  The owner confirmed the breadcrumb styling works in production.
-- O01 DONE 2026-11-17: Hugo's built-in robots.txt is enabled. After deployment,
-  the live file returned HTTP 200 with "User-agent: *" and no disallow rules.
-  Production and preview builds produced the same rules; sitemap.xml is separate.
-- 2026-11-17: gallery shortcode now validates missing/invalid paths, empty
-  directories, nested directories, unsupported files and resource lookup.
-  The former generic gallery-input-error issue is resolved; lightbox behavior
-  and gallery alternatives were subsequently completed under O05 and O07.
+- 2026-11-17: hierarchy-based breadcrumbs below the navigation header; home and
+  404 excluded. The owner confirmed the styling works in production.
+- O01 DONE 2026-11-17: Hugo's built-in robots.txt is enabled and live.
+- 2026-11-17: gallery shortcode validates missing/invalid paths, empty or nested
+  directories, unsupported files and resource lookup.
 - 2026-11-17: homepage text form, honeypot, optional name/email, approved privacy
-  notice and confirmation page implemented. Owner confirmed Netlify was checked
-  and everything is working. This is owner-reported operational verification,
-  not an assistant-run submission test; the form is no longer local-preview-only.
-- O06 closed 2026-11-17 by owner decision for navigation generally. The owner
-  subsequently requested the breadcrumb styling change above. Some other links,
-  including the logo and main menu, lack a distinct focus indicator; this
-  decision does not establish that all keyboard focus is visible.
-- Programming section images/charts already have descriptive alt text. Do not
-  carry forward the old blanket statement that these alt texts are missing.
+  notice and confirmation page. Owner confirmed it works on Netlify.
+- O05 DONE 2026-11-18: lightbox keyboard accessibility (labelled Italian
+  buttons, dialog semantics, focus containment/restoration, Escape). Links still
+  work without JavaScript. Owner confirmed in a local preview.
+- O06 closed 2026-11-17 by owner decision. The logo and main menu lack a
+  distinct focus indicator; this is accepted, not a claim that all focus is
+  visible.
+- O07 DONE 2026-11-18: meaningful gallery alternatives. Logo alt is
+  "Cinema Teatro Sestito - Home". Descriptions live in page front matter;
+  individual descriptions take precedence over a page-level description and the
+  filename fallback. A gallery without metadata emits a build warning.
+- O08 DONE 2026-11-18: reading time in Italian ("min di lettura"); the owner
+  kept the current ISO dates, labels and taxonomy year grouping.
+- P01 DONE 2026-11-18: short breadcrumb labels Anni, Fonti, Generi, Paesi.
+- P02 DONE 2026-11-18: lightbox.css in the shared head, lightbox.js in the
+  footer, both through relURL.
+- V02 DONE 2026-11-18: sitemap lastmod only from explicit front matter; the
+  annual R generator accepts an optional validated date.
+- V03 DONE 2026-11-18: footer GitHub URL normalized.
+- F02 DONE 2026-11-23: poster collection. The local generator produced 1,787
+  posters for 1,057 films and 3,574 derivatives, with no unsupported filenames
+  or unmatched films (79 title conflicts and 14 ratio warnings are reported in
+  static/data/manifesti_report.csv). Generated sources are committed and linked
+  from Home and the site map; the owner confirmed it on 2026-11-23. The poster
+  metadata CSV contains no cinema screening dates. See docs/posters.md.
+- Programming section images/charts have descriptive alt text.
 
-### DONE - Previously recorded build checks (not repeated in this review)
-- 2026-11-16: Hugo 0.136.5 Extended build, 401 pages and 2,620 processed images;
-  generated home head checked for canonical, Twitter Card and og:type.
-- 2026-11-17: build with form/breadcrumbs, 403 pages and 2,620 processed images;
-  home, privacy, archive and dated year-page breadcrumbs checked. Home excluded.
-  All 77 galleries built; a missing path gave a path-specific error without a
-  secondary generic readDir error. Temporary build output was removed.
+### DONE - Recorded build checks
+- V01 2026-11-18: Hugo 0.136.5 production and -F preview builds passed at 404
+  pages and 2,620 processed images (before the poster collection). Metadata,
+  sitemap, robots, aliases, local assets and internal links passed, except the
+  known O02 destination. No horizontal overflow at 320-1280 px on nine
+  representative pages. No Netlify form-limit scenario was tested.
 
-## 3. ACTUAL OPEN ITEMS
-### DEFERRED O02 - Poster-related navigation
-  Home and the site map now link to the generated poster collection. Fonti
-  still links to /categories/note-sui-manifesti/ without backing content.
-  Create the planned "Note sui manifesti" source/category when data are ready.
-  See docs/guides/historical-programming.md; do not invent the historical source.
-### DONE O05 - Lightbox keyboard accessibility (2026-11-18)
-  Close/previous/next now use labelled Italian buttons, the viewer has dialog
-  semantics, focus is contained and restored, and Escape closes it. The existing
-  image links still work without JavaScript; mouse and gallery navigation remain
-  available. Hugo 0.136.5 and an integrated-browser preview passed representative
-  JPEG/PNG/WebP, repeated-open, navigation, focus and closing checks, including
-  the close control at a 425-by-443 viewport. On 2026-11-18, the owner confirmed
-  that the corrected viewer worked in a local serve_site() preview. No YouTube
-  or Vimeo link exists in current content, so dormant support was preserved but
-  not claimed as live-browser verified.
-### DONE O07 - Meaningful gallery alternatives (2026-11-18)
-  On 2026-11-18, the logo alt was changed from "avatar" to
-  "Cinema Teatro Sestito - Home"; a Hugo 0.136.5 build confirmed the rendered
-  image alt. The owner narrowed the remaining scope: provide meaningful
-  alternatives for editorial images with distinct subjects; for repetitive
-  programming-source scans, use concise page-level descriptions and retain the
-  filename fallback. Descriptions will live in page front matter, not in the
-  image files or a central global catalogue. The shortcode will still discover
-  the physical image files from its gallery directory. The mechanism is
-  implemented across all 76 gallery pages and 77 gallery invocations. Individual
-  descriptions take precedence over a concise page-level description and the
-  filename fallback; the lightbox preserves the image alt. Distinct editorial
-  subjects have individual descriptions, while repetitive source/diary/trailer
-  sequences use page-level alternatives. A future gallery without metadata emits
-  a path-specific build warning. On 2026-11-18, the owner confirmed the pilot
-  works in serve_site().
-### DONE O08 - Localization and taxonomy browsing (2026-11-18)
-  On 2026-11-18, article reading time was changed from "min read" to "min di
-  lettura". The owner reviewed the remaining date and taxonomy behavior in a
-  local serve_site() preview and chose to retain the current ISO dates, labels
-  and taxonomy year grouping as acceptable. The earlier year-0001 concern does
-  not block this decision.
-
-## 4. REMAINING CHECKS, MAINTENANCE AND OPTIONAL POLISH
-### DONE V01 - Rendering and interaction checks (2026-11-18)
-  Hugo 0.136.5 production and -F preview builds passed at 404 pages and 2,620
-  processed images. Representative Home, Progetto, privacy/confirmation,
-  archive, article, annual/source, genre/country, taxonomy and 404 outputs had
-  title/canonical/Open Graph metadata; Home and 404 correctly had no breadcrumbs.
-  Sitemap, robots, alias output, all generated local assets and internal links
-  passed, except the known deferred O02 poster-notes destination. Nine
-  representative pages at 320, 375, 768 and 1280 px had no horizontal overflow.
-  Keyboard lightbox focus trapping/navigation/Escape/focus restoration and
-  meaningful O07 alternatives passed. A temporary missing gallery reproduced a
-  path-specific shortcode error and was removed. No Netlify submission or
-  external form-limit scenario was tested.
-### DONE V02 - Explicit sitemap lastmod policy (2026-11-18).
-  Hugo now reads lastmod only from explicit front matter; it no longer treats a
-  page's historical publication/document date as its modification date. Twelve
-  recently edited editorial pages received verified commit-based dates. Pages
-  without trustworthy editorial modification dates omit lastmod. The annual R
-  generator accepts an optional validated date for future data/content updates.
-### DONE V03 - Footer GitHub destination normalized (2026-11-18).
-  config.yaml now uses whatswrongintown/cinema-teatro-sestito without .git.
-  A Hugo 0.136.5 build emitted the normalized URL, which returned HTTP 200.
-### DONE P01 - Shorter programming breadcrumb labels (2026-11-18)
-  The four programming indexes now use standard linkTitle values: Anni, Fonti,
-  Generi and Paesi. Full headings and URLs remain unchanged. Annual detail pages
-  retain their existing labels; no R generator or breadcrumb template changed.
-### DONE P02 - Lightbox asset placement/portability (2026-11-18)
-  lightbox.css is now loaded from the shared head, while lightbox.js remains in
-  the footer. Both asset URLs use Hugo's relURL helper for portable base paths.
-### DONE M01 - Routine form/privacy operations
+## 3. OPEN ITEMS
+### DEFERRED O02 - "Note sui manifesti" source/category
+  The Fonti index links to /categories/note-sui-manifesti/ without backing
+  content. Create the source page when verified data exist; do not invent the
+  historical source.
+### DEFERRED O03 - Country-only film ID
+  programmazione_paesi.csv has one ID, tt0052704, with no screening or IMDb row.
+  Reconcile it with verified evidence; do not delete it or guess a match.
+### DEFERRED O04 - Chart convention explanations
+  The genre chart drops "Drammatico" from films with several expanded rows
+  (also repeated Drammatico-only films), and missing genres count as not adult.
+  The methodology prose does not fully explain this. Decision: explain the
+  conventions, do not recalculate charts. Resume after the database is final.
+### DOING M01 - Routine form/privacy operations
   Monitor spam and usage; retain/delete messages according to the approved
-  notice. Optional publication follow-up is not permission to publish.
-  Owner's working-state confirmation closes the former general launch blocker;
-  it does not assert testing of every exceptional failure or limit scenario.
+  notice. The optional publication follow-up is not permission to publish.
   The form is not feature-flagged: deploying its shortcode publishes it.
 
-## 5. DECISIONS AND PROVIDER CONTEXT
+## 4. DECISIONS AND PROVIDER CONTEXT
 - Keep params.anno and the generic root/static favicons.
 - Keep goldmark unsafe: true (inline HTML, one iframe).
-- Netlify stays Hugo-only; renv remains unused. Legacy R generators are removed
-  and recoverable from GitHub history.
-- Keep Eventi available with its explicit "no events scheduled" message. This
-  is intentional, not a defect or something blocked by the poster database.
+- Netlify stays Hugo-only; renv is not used.
+- Keep Eventi available with its explicit "no events scheduled" message.
 - Only Progetto stays in the top menu; no analytics (disabled, DNT respected).
 - Only the owner maintains the site; visitors are mainly locals.
 - Contact stays a homepage form plus visible email. Messages are private;
   publication requires a separate agreement. Poster scan rights: owner confirmed.
 - Explain chart conventions in methodology; do not recalculate existing charts.
-- Owner identifies the plan as Legacy Starter. Official docs reviewed
-  2026-11-17 list 100 submissions per site/month and Forms Level 0's 10 MB monthly
-  upload allowance. The account dashboard controls older grandfathered terms
-  and the active Forms level; this review did not inspect the dashboard.
-- Legacy Starter metered usage can trigger upgrades/charges; do not confuse it
-  with Legacy Free hard limits or newer credit-based Forms terms. No plan change
-  is proposed. See docs/proposals/website-improvement-ideas.md for sources/upload limits.
+- Netlify plan: the owner identifies it as Legacy Starter (100 form submissions
+  per site/month in the published legacy table; metered usage can cause
+  charges). No plan change is proposed.
 - Hugo upgrades are not planned. Later versions require excludeFiles -> files
-  (deprecated >=0.153, removed 0.169), languageCode -> locale (>=0.158). Test in a
-  copy and align netlify.toml/.Rprofile if an upgrade is separately authorized.
+  (deprecated >=0.153, removed 0.169) and languageCode -> locale (>=0.158).
+  The migration (section 6) may justify an upgrade; agree it separately, test
+  it, and align netlify.toml and .Rprofile.
+- 2026-11-23: the owner moved from GitHub Copilot to Claude Code. Assistant
+  rules live in CLAUDE.md; .github/copilot-instructions.md was removed.
 
-## 6. ROADMAP (future features are not current defects)
-### DONE F01 - Cinema-image attachments to the working contact form
-  Owner chose on 2026-11-17 to use the existing email link or arrange photos
-  after contact instead. Form uploads are not implemented or enabled.
-  If revisited, preserve text-only and no-JavaScript use.
-  The form invitation now mentions cinema visits, theatrical shows, anecdotes
-  and photographs without claiming that attachments are available.
-  The owner identified Netlify's VGS plugin; its repository is archived and
-  current pricing/support for photo uploads needs confirmation before use.
-  Documented Netlify limits: one file per field, 8 MB total request, 30-second
-  upload timeout; the monthly upload allowance is separate. Review validation,
-  access, metadata/privacy, retention, rights and separate publication permission
-  before enabling. Full requirements/references:
-  docs/proposals/website-improvement-ideas.md.
-### DOING F02 - Poster collection (2026-11-21)
-  The revised local generator produced 1,787 posters for 1,057 films and 3,574
-  derivatives. The report now records no unsupported filenames or unmatched
-  films (previously 516 and 142), 79 title conflicts and 14 ratio warnings.
-  A repeat run read no images and migrated obsolete month pages; synthetic
-  tests, an in-memory Hugo build and rendered gallery checks passed. The poster
-  metadata CSV does not contain cinema screening dates. Originals remain
-  ignored. Owner review with serve_site() and committing the generated sources
-  remain pending. See docs/posters.md.
+## 5. ROADMAP (future features are not current defects)
+### DEFERRED F01 - Photo attachments to the contact form
+  Owner chose on 2026-11-17 to receive photos by email or after contact. Not
+  implemented. If revisited, keep text-only and no-JavaScript use working.
 ### TODO F03 - Film search (programming first, posters later)
-  Define result granularity, scope and matching behavior before implementation.
+  Define result granularity, scope and matching behaviour first. Build the
+  index with Hugo, not R.
 ### DEFERRED F04 - Timeline, identification help and curated collections.
-### DONE F05 - Improve the existing Shiny historical-programming dashboard
-  Owner decision 2026-11-18: retain Shiny and the existing article iframe; the
-  previous native Hugo replacement proposal was abandoned. R/shinyapp_dashboard
-  contains the revised app, which uses the website's static/data CSVs locally,
-  keeps repeated dated entries and derives distinct-film counts separately.
-  Base-R charts use local fonts and the site's mint/green palette. The year
-  filter affects all tabs; director/genre filters apply to the table only.
-  Local changes do not update shinyapps.io automatically. The deployment script
-  stages current CSVs and fonts for the hosted app; deploy separately and verify
-  the existing iframe/URL after deployment. Old Shiny snapshots are removed;
-  the deployment record is retained. The native Hugo replacement was superseded;
-  the current direction is to maintain the existing Shiny app and iframe.
+### Superseded F05 - Shiny dashboard
+  The 2026-11-18 decision to keep Shiny is superseded by H05 (2026-11-23). The
+  revised app in R/shinyapp_dashboard stays live and maintained until its Hugo
+  replacement is published.
 
-## 7. REVIEW LIMITS AND DOCUMENTATION MAINTENANCE
-- On 2026-11-19, documentation was grouped into an index, guides, plans,
-  proposals and historical logs. The native-Hugo dashboard proposal was removed
-  from active planning; the Shiny maintenance direction remains current.
-- The 2026-11-18 review inspected source/docs and checked CSV counts/ID coverage,
-  not every deployed URL/image or a complete browser interaction suite.
-- During the earlier review Hugo was not on PATH; the subsequent O01 production
-  and preview builds used Hugo 0.136.5 Extended. Netlify form operation is
-  owner-verified; official provider docs were fetched.
-- Historical logs are preserved as dated evidence. Use this file for current
-  status, docs/proposals/ for feature proposals, and
-  docs/guides/historical-programming.md for generation details; do not repeat
-  resolved historical findings as open issues.
+## 6. MIGRATION TO HUGO ONLY (decided 2026-11-23)
+Goal: the owner wants to slowly leave R and the blogdown package and build the
+site with Hugo only, to make the website easier to improve and evolve. R and
+RStudio remain in use for exploratory analysis of the datasets, outside the
+site build. Proceed gradually, one item at a time, with output comparison
+before removing any R code. Steps: docs/plans/implementation-guide.md.
+
+| ID | Item | Status |
+| --- | --- | --- |
+| H01 | Hugo (`hugo server` / `hugo`) as the local tool instead of blogdown | TODO |
+| H02 | Convert the two article `index.Rmd` files to plain Markdown; remove blogdown leftovers | TODO |
+| H03 | Historical programming pages, tables and charts built by Hugo from the CSVs | TODO |
+| H04 | Poster pages and data built by Hugo; non-R image derivative step | TODO |
+| H05 | Hugo-native dashboard replacing the Shiny app and iframe | TODO |
+| H06 | Non-R tool (or retained utility) for source PDF conversion | TODO |
+| H07 | Remove replaced R scripts/tests/docs; keep analysis code outside the build | TODO |
+
+Open questions: charts as Hugo-generated SVG or a small JavaScript library;
+whether new programming pages are created by a Hugo content adapter; whether a
+Hugo upgrade is part of the migration.
+
+## 7. DOCUMENTATION MAINTENANCE
+- 2026-11-23: documentation reviewed. Removed: the Phase 1/2 audit logs (their
+  open items are O02 and O03 above), the Copilot poster-section prompt, the
+  superseded poster proposal/technical plan and the Netlify upload research.
+  All remain in Git history.
+- Use this file for current status, docs/proposals/ for feature proposals,
+  docs/guides/historical-programming.md and docs/posters.md for the current
+  generation workflows. Update the guides as migration items replace them.
 - Keep content/sitemap.md up to date when sections change. Absolute-root URLs
-  and the repeated public email are existing choices, not new failures.
+  and the repeated public email are existing choices, not failures.

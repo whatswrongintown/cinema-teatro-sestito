@@ -4,6 +4,10 @@ How the "Programmazione storica" section is generated. Run everything from the
 project root. Netlify only runs Hugo, so generated files (pages, tables, PNG
 charts) must be committed.
 
+This is the current workflow. It is planned to be replaced by Hugo (items
+H03, H05 and H06 in [project status](../project-status.md#6-migration-to-hugo-only));
+update or remove the sections below as each replacement is published.
+
 ## Requirements
 
 Base R plus `yaml` (page metadata) and `showtext` / `sysfonts` (chart font).
@@ -98,7 +102,7 @@ folders and includes four verified exceptions. It retains the old references and
 warns if the match is ambiguous, images are missing or page counts differ.
 Existing per-image descriptions require manual review before migration; the
 updater preserves them rather than assigning descriptions to the wrong pages.
-Run the gallery checks with `Rscript tests/test-update-fonti-galleries.R`.
+There is no automated test for the gallery matching; review the warnings.
 
 ## Shiny dashboard
 
@@ -130,11 +134,9 @@ This stages the app, current CSVs, fonts and shared annual-chart helper in a
 temporary deployment bundle, using the existing deployment record. The bundle
 is removed afterwards. Changes to `static/data/` require a new deployment;
 a Hugo/Netlify build alone does not update the hosted app. Verify the app and
-embedded iframe after deployment. Run the local data and staging checks with:
-
-```r
-source("R/shinyapp_dashboard/test-dashboard.R")
-```
+embedded iframe after deployment. There is no automated dashboard test; check
+the app locally with `shiny::runApp()` before deploying. The dashboard is
+planned to be replaced by a Hugo page (H05).
 
 ## Pages and metadata
 

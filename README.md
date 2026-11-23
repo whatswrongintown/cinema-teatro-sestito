@@ -5,8 +5,7 @@ The [Cinema Teatro Sestito website](https://cinemateatrosestito.com/) documents 
 The site is built with:
 
 - Hugo (Extended)
-- R
-- blogdown
+- R scripts for content generation (being phased out in favour of Hugo)
 
 using a customised theme derived from hugo-lithium-theme.
 
@@ -14,23 +13,19 @@ Netlify runs Hugo only. Generated files are committed to the repository because 
 
 ## Local Setup and Build
 
-Install R and the `blogdown` package. The project pins Hugo 0.136.5 in
-`.Rprofile`; install that version through blogdown:
+Install Hugo 0.136.5 Extended (the version pinned in `netlify.toml`), then
+preview or build the site from the project root:
 
-```r
-install.packages("blogdown")
-blogdown::install_hugo(version = "0.136.5")
+```sh
+hugo server
+hugo
 ```
 
-Open the RStudio project, then preview or build the site:
-
-```r
-blogdown::serve_site()
-blogdown::build_site()
-```
-
-Regenerate any required Markdown and charts locally and commit them before
-deployment.
+R with blogdown (`blogdown::serve_site()`) still works, but the project is
+moving to Hugo only; see the [project status](docs/project-status.md). R is
+currently still needed to regenerate the historical programming and poster
+pages. Regenerate any required Markdown and charts locally and commit them
+before deployment.
 
 ## Update Historical Programming
 

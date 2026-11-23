@@ -20,7 +20,8 @@ command stops before changing generated files. Commit the generated pages,
 `data/posters/films.json`, `static/images/manifesti/` derivatives and
 `static/data/manifesti_report.csv`, along with any intentional source changes.
 Do not commit the originals or `.cache/posters/`. Run the site with
-`blogdown::serve_site()` to review it.
+`hugo server` to review it. This R workflow is planned to move to Hugo
+(item H04 in [project status](project-status.md#6-migration-to-hugo-only)).
 
 ## Sources and overrides
 
