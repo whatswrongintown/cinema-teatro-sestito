@@ -9,7 +9,6 @@ weight: 5
 description: Manifesto a quattro fogli, di circa 140 × 200 cm, generalmente piegato
   e stampato in due parti sovrapponibili.
 image: ''
-posters_managed: yes
 ---
 
 <!-- Write your text here -->

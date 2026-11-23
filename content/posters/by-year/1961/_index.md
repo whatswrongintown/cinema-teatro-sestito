@@ -4,7 +4,6 @@ type: posters
 layout: year
 collection: printed
 year: 1961
-posters_managed: yes
 description: ''
 image: ''
 ---

@@ -5,6 +5,6 @@ date: '1965-01-01'
 slug: note-sui-manifesti
 categories:
   - Note sui manifesti
-description: Screenings from this source in the cinema archive.
+description: Proiezioni ricavate dalle annotazioni riportate sui manifesti conservati nell’archivio del cinema.
 ---
 {{% programmazione-tabelle "fonti" %}}

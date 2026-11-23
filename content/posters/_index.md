@@ -2,7 +2,6 @@
 title: Manifesti e locandine
 type: posters
 layout: index
-posters_managed: yes
 description: "Fotobuste, locandine e manifesti del cinema Sestito di San Vito sullo Ionio: la memoria visiva di una sala di provincia, da sfogliare per anno, formato, genere e titolo."
 image: ''
 ---

@@ -176,4 +176,5 @@ few adult films); they appear as films of their own with no rating or director
 (a screening without an ID is one film per title).
 
 The former Shiny app (removed from the repository, in Git history) and its
-shinyapps.io deployment are retired once the Hugo page is published (owner approval).
+shinyapps.io deployment are retired (owner approval 2026-11-23); taking the app down on shinyapps.io is
+pending, see `project-status.md`.

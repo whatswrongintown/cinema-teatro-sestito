@@ -4,7 +4,6 @@ type: posters
 layout: genre
 collection: printed
 genre: fantascienza
-posters_managed: yes
 description: ''
 image: ''
 ---

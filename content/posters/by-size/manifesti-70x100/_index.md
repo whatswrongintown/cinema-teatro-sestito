@@ -6,7 +6,6 @@ collection: printed
 category: manifesti
 size: 70x100
 weight: 3
-posters_managed: yes
 description: Manifesto di circa 70 × 100 cm, noto anche come un foglio.
 image: ''
 ---

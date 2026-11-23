@@ -6,7 +6,6 @@ collection: printed
 category: fotobuste
 size: 50x70
 weight: 2
-posters_managed: yes
 description: Serie di immagini fotografiche o illustrate esposte al cinema, spesso
   da 8 a 16 soggetti e di circa 50 × 70 cm; alcune serie più antiche erano più piccole.
 image: ''

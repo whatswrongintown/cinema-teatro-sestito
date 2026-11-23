@@ -4,7 +4,6 @@ type: posters
 layout: year
 collection: printed
 year: 2004
-posters_managed: yes
 description: ''
 image: ''
 ---

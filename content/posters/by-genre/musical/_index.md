@@ -4,7 +4,6 @@ type: posters
 layout: genre
 collection: printed
 genre: musical
-posters_managed: yes
 description: ''
 image: ''
 ---
