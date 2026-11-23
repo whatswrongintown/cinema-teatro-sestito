@@ -149,7 +149,7 @@ conventions; if one is ever changed, update the prose at the same time.
 
 The page images of the source documents in `static/images/programmazione_storica/`
 are final (owner decision 2026-11-23): no conversion tool is kept in the
-repository. The private PDFs stay in the git-ignored `programmazione_storica_pdf/`.
+repository, and the original PDFs are not kept in it.
 To replace a scan, convert it by hand (WebP, at most 1800 px wide, no metadata,
 named `<folder>_<nn>.webp`), then update the source page's `image`, gallery path
 and `galleryDescriptions` key. The former R script is in Git history.

@@ -3,8 +3,8 @@
 The collection is final (2026-11-23). Hugo builds all poster pages from
 `data/posters/films.json` and the committed web images in
 `static/images/manifesti/`; neither changes and the R generator that produced
-them was removed (it stays in Git history). The private originals in
-`manifesti/` are never committed.
+them was removed (it stays in Git history). The private originals are not part
+of the repository.
 
 ## How the pages are built
 
