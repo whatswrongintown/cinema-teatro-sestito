@@ -1,27 +1,19 @@
 # Project documentation
 
-Start with [project status](project-status.md) for current decisions, open
-items, completed work and the plan to move the site to Hugo only. Assistant
-instructions are in [CLAUDE.md](../CLAUDE.md). Use the documents below for detail;
-proposals do not override the status record.
+All documentation lives in this folder. Assistant rules are in
+[CLAUDE.md](../CLAUDE.md); keep the root [README](../README.md) short.
 
-| Category | Document | Purpose |
-| --- | --- | --- |
-| Guide | [Historical programming](guides/historical-programming.md) | CSV inputs, Hugo-built tables, dashboard and PDF workflows |
-| Guide | [Poster collection](posters.md) | How Hugo builds the poster pages, the data file and image rules |
-| Plan | [Implementation guide](plans/implementation-guide.md) | Steps for the Hugo-only migration and other open or deferred work |
-| Proposal | [Website improvement ideas](proposals/website-improvement-ideas.md) | Feature proposals and provider references |
-| Proposal | [Methodology data analysis](proposals/methodology-data-analysis.md) | Dated data snapshot and possible additions to the methodology article |
+| Document | Purpose |
+| --- | --- |
+| [Project status](project-status.md) | Current state, decisions and open items; read first |
+| [Historical programming](historical-programming.md) | CSV inputs, Hugo-built tables, charts and the dashboard |
+| [Poster collection](posters.md) | How Hugo builds the poster pages, the data file and image rules |
 
-## Documentation rules
+## Rules
 
-- The project status is authoritative for current state. The implementation
-  guide gives recommended steps but does not change item status.
-- Proposals are not approved implementation plans unless the status record says
-  so. Data figures in proposal notes are dated snapshots; recalculate before
-  relying on them.
-- Generated historical programming pages and charts are documented in the
-  guide; change the Hugo templates or the source CSVs rather than editing generated
+- The project status is the authoritative record. Update it, and the relevant
+  document, in the same change as the work.
+- Change the Hugo templates or the source CSVs rather than editing generated
   output by hand.
-- When a change replaces a workflow, update or remove its guide in
-  the same change. Removed documents stay available in Git history.
+- Remove outdated text instead of marking it as history; removed documents stay
+  available in Git history.

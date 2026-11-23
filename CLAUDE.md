@@ -26,7 +26,7 @@ Before editing a page, decide whether it is manually written or generated:
   Charts are inline SVG from `{{< grafico nome="..." >}}`
   (`layouts/partials/grafici/`). Never paste tables or chart images into the
   pages. The old R generators no longer exist (they would have rewritten the
-  pages); see `docs/guides/historical-programming.md`.
+  pages); see `docs/historical-programming.md`.
 - Poster film and title-letter pages are built by Hugo content adapters
   (`content/posters/**/_content.gotmpl`) from `data/posters/films.json`.
   `films.json` and `static/images/manifesti/` are final (see `docs/posters.md`).

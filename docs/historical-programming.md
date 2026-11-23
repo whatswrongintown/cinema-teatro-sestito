@@ -4,12 +4,6 @@ How the "Programmazione storica" section is built. The data are final
 (2026-11-23), so nothing here needs to run for new data; this guide explains
 how the pages work and how to change their presentation.
 
-Status of the Hugo-only migration
-([project status, section 6](../project-status.md#6-migration-to-hugo-only)):
-
-- **Tables and charts:** built by Hugo from the CSVs since 2026-11-23 (H03).
-- **Dashboard:** Hugo page and browser script (H05). **Source PDF images:** no tool kept (H06).
-
 ## Data
 
 Three CSV files in `static/data/`:
@@ -154,13 +148,13 @@ conventions; if one is ever changed, update the prose at the same time.
 ## Source PDF images
 
 The page images of the source documents in `static/images/programmazione_storica/`
-are final (owner decision 2026-11-23, H06): no conversion tool is kept in the
+are final (owner decision 2026-11-23): no conversion tool is kept in the
 repository. The private PDFs stay in the git-ignored `programmazione_storica_pdf/`.
 To replace a scan, convert it by hand (WebP, at most 1800 px wide, no metadata,
 named `<folder>_<nn>.webp`), then update the source page's `image`, gallery path
 and `galleryDescriptions` key. The former R script is in Git history.
 
-## Dashboard (Hugo, H05)
+## Dashboard
 
 The methodology article
 (`content/articoli/2023-09-23-esplora-la-storia-cinematografica-di-san-vito-sullo-ionio/`)
@@ -181,5 +175,5 @@ CSVs contain 55 screenings without an IMDb ID and 11 IDs without an IMDb row (a
 few adult films); they appear as films of their own with no rating or director
 (a screening without an ID is one film per title).
 
-The former Shiny app (`R/shinyapp_dashboard`, removed in H07, in Git history) and its
+The former Shiny app (removed from the repository, in Git history) and its
 shinyapps.io deployment are retired once the Hugo page is published (owner approval).

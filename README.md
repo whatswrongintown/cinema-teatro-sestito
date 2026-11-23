@@ -19,13 +19,13 @@ hugo
 ```
 
 See the [project status](docs/project-status.md) for current decisions and the
-[historical programming guide](docs/guides/historical-programming.md) for how the
+[historical programming guide](docs/historical-programming.md) for how the
 data pages work.
 
 ## Project Documentation
 
-The [documentation index](docs/README.md) links to current status, guides,
-plans and proposals.
+The [documentation index](docs/README.md) links to the current status and the
+guides.
 
 Project decisions, implementation details, development history, workflows, and future plans should be documented in `docs/`, not in this README.
 

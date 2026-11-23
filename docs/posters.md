@@ -3,7 +3,7 @@
 The collection is final (2026-11-23). Hugo builds all poster pages from
 `data/posters/films.json` and the committed web images in
 `static/images/manifesti/`; neither changes and the R generator that produced
-them was removed in H07 (it stays in Git history). The private originals in
+them was removed (it stays in Git history). The private originals in
 `manifesti/` are never committed.
 
 ## How the pages are built
@@ -11,7 +11,7 @@ them was removed in H07 (it stays in Git history). The private originals in
 - Film pages (`/posters/films/<id>/`) and title-letter pages
   (`/posters/by-title/<letter>/`) are created by the content adapters
   `content/posters/films/_content.gotmpl` and
-  `content/posters/by-title/_content.gotmpl` (H04). Letter `#` becomes `0-9`.
+  `content/posters/by-title/_content.gotmpl`. Letter `#` becomes `0-9`.
 - The root, year, size, genre and browse-index pages are editable Markdown in
   `content/posters/`. Front matter selects the data (`layouts/posters/`,
   `layouts/partials/posters/`): `collection` (`printed` or `retro`), `category`,
