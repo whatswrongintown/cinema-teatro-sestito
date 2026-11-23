@@ -1,0 +1,39 @@
+{{- /* Absolute URL of the Open Graph / Twitter image for a page.
+       Order: the page's own `image:`, then the nearest ancestor section with
+       one (e.g. genre pages use the Generi hero), then params.defaultImage.
+       `image:` is a file in the page bundle (e.g. "proiezioni-mensili.png")
+       or an absolute path under static/ (e.g. "/images/x.webp"); a value
+       that does not resolve is reported with a build warning. */ -}}
+{{- $url := partial "social-image-of.html" . -}}
+{{- range .Ancestors -}}
+  {{- if not $url -}}
+    {{- $url = partial "social-image-of.html" . -}}
+  {{- end -}}
+{{- end -}}
+{{- if not $url -}}
+  {{- with site.Home.Resources.GetMatch site.Params.defaultImage -}}
+    {{- $url = .Permalink -}}
+  {{- else -}}
+    {{- errorf "params.defaultImage %q is not a file next to content/_index.md" site.Params.defaultImage -}}
+  {{- end -}}
+{{- end -}}
+{{- return $url -}}
+
+{{- define "partials/social-image-of.html" -}}
+  {{- $url := "" -}}
+  {{- with .Params.image -}}
+    {{- if hasPrefix . "/" -}}
+      {{- if fileExists (path.Join "static" .) -}}
+        {{- $url = absURL . -}}
+      {{- end -}}
+    {{- else -}}
+      {{- with $.Resources.GetMatch . -}}
+        {{- $url = .Permalink -}}
+      {{- end -}}
+    {{- end -}}
+    {{- if not $url -}}
+      {{- warnf "social image %q of %s does not exist" . $.Path -}}
+    {{- end -}}
+  {{- end -}}
+  {{- return $url -}}
+{{- end -}}

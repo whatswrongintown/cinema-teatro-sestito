@@ -22,6 +22,9 @@ of the repository.
 - Add a hero as in the historical programming pages: `image` in front matter
   for social metadata and a Markdown image in the body. Thumbnails open the
   keyboard-accessible lightbox; without JavaScript they link to the large image.
+  Index pages with `image: ''` share the nearest parent's image (in the end the
+  Posters hero). Film pages get `image:` from the adapter: the large image of
+  the first printed poster, or of the first poster if there are only retros.
 
 ## Data (`data/posters/films.json`)
 

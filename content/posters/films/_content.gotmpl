@@ -1,5 +1,10 @@
 {{/* One page per film in data/posters/films.json (replaces generated Markdown). */}}
 {{ range site.Data.posters.films.films }}
+  {{/* Social image: the first printed poster, else the first poster. */}}
+  {{ $params := dict "film_id" .film_id "generated" true }}
+  {{ with where .posters "is_retro" false | default .posters }}
+    {{ $params = merge $params (dict "image" (printf "/%s" (index . 0).large)) }}
+  {{ end }}
   {{ $page := dict
     "path" .film_id
     "title" .title
@@ -7,7 +12,7 @@
     "type" "posters"
     "layout" "film"
     "sitemap" (dict "priority" -1)
-    "params" (dict "film_id" .film_id "generated" true)
+    "params" $params
   }}
   {{ $.AddPage $page }}
 {{ end }}

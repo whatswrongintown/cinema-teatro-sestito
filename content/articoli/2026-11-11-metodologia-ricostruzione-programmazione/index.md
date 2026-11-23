@@ -5,7 +5,7 @@ date: "2026-11-11"
 lastmod: "2026-11-14"
 description: "Fonti, criteri di identificazione dei film e limiti della ricostruzione della programmazione del Cinema Teatro Sestito."
 slug: "metodologia-ricostruzione-programmazione"
-image: "/2026/11/11/metodologia-ricostruzione-programmazione/images/hero_image.png"
+image: "images/hero_image.png"
 categories:
   - Ricerca storica
 tags:

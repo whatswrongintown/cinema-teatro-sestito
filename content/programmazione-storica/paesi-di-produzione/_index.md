@@ -5,7 +5,7 @@ author: "Vito Sestito"
 date: '2025-12-02'
 lastmod: '2026-11-18'
 description: "Consulta la programmazione del Cinema Sestito organizzata per paesi di produzione"
-image: "/programmazione-storica/paesi-di-produzione/_index_files/figure-html/italia-estero-per-decennio-1.png"
+image: "italia-estero-per-decennio.png"
 slug: "paesi-di-produzione"
 type: "programmazione-storica/paesi-di-produzione"
 ---

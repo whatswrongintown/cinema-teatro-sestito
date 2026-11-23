@@ -62,27 +62,19 @@ TODO / DOING / DONE / DEFERRED, with dates. Assistant rules are in `CLAUDE.md`.
   smaller images, then upgrade Hugo (release notes since 0.136.5, replace the
   deprecated settings above, update `HUGO_VERSION` in `netlify.toml`, check the
   deploy log). A Hugo upgrade alone is not expected to remove the image cost.
-- **U02 - TODO: fix the social-sharing image in front matter.** Many year pages
-  (`content/programmazione-storica/anni/*/index.md`) have an `image:` pointing
-  to a path that no longer exists, e.g.
-  `/1948/01/01/programmazione-1948/index_files/figure-html/proiezioni-mensili.png`
-  (blogdown leftover). Audit the `image:` of every page (years, genres, sources,
-  articles, archive, posters) and make sure each one resolves to an existing
-  file, so a preview image always appears when the page is shared on social
-  media. The image should be the page's hero banner or, failing that, the first
-  chart on the page. Charts are inline SVG, so a shareable image (PNG/JPG in
-  `static/`) may be needed; check how `layouts/partials/head.html` builds the
-  Open Graph / Twitter tags and add a fallback (e.g. `defaultImage`) for pages
-  without one (`head.html` already accepts a bundle-relative `image:`). Genre pages point to
-  `/programmazione-storica/generi/_index_files/figure-html/generi-per-decennio-1.png`
-  and country pages to
-  `/programmazione-storica/paesi-di-produzione/_index_files/figure-html/italia-estero-per-decennio-1.png`;
-  these two files exist and are the only blogdown image paths still in use.
-  **Final step of U02 (static cleanup):** once no page references them any more,
-  delete both PNGs and their `_index_files/figure-html/` folders, which also
-  removes `static/programmazione-storica/` entirely, then check that
-  `static/` has no `_index_files` folder left (`grep -r _index_files content`
-  must return nothing) and update the "Static folder layout" section below.
+- **U02 - DONE 2026-11-23: social-sharing images.** `layouts/partials/social-image.html`
+  (called by `head.html`) picks the page's `image:` (a bundle file or an
+  absolute path under `static/`), else the nearest ancestor section's, else
+  `params.defaultImage`; an `image:` that does not resolve gives a build
+  warning. Fixed: archive and article `image:` made bundle-relative (they
+  pointed to old blogdown permalinks); year pages use their first chart,
+  `proiezioni-mensili.png`, moved to the bundle root; genre and country pages
+  dropped `image:` and use the section's (Generi hero, Paesi chart, now
+  `content/programmazione-storica/paesi-di-produzione/italia-estero-per-decennio.png`);
+  poster film pages get their first poster from the content adapter. Checked
+  on a full build: every `og:image` points to a file in `public/`. The static
+  cleanup is done: `static/programmazione-storica/` and every `index_files`
+  folder are gone.
 - No feature roadmap yet: new ideas are agreed with the owner and listed here
   when they are approved.
 
@@ -99,15 +91,15 @@ TODO / DOING / DONE / DEFERRED, with dates. Assistant rules are in `CLAUDE.md`.
   (page resources) or an absolute `/images/<name>` (static, used by the
   historical sources); the `galleryDescriptions` key is the same string. A
   relative front matter `image:` (a file in the bundle) is resolved to its
-  permalink in `head.html`. Deleted the stale duplicate
+  permalink by `social-image.html`. Deleted the stale duplicate
   `static/images/1962_04_08_attestato_...` (the page uses its own `images/`).
 - The seven section hero images (home, articoli, posters, programmazione-storica,
   anni, fonti, generi) moved from `static/**/_index_files/` next to their
   `_index.md` in `content/`; `image:` and the Markdown image use the bare file
   name, and `params.defaultImage` is `1956_progetto_cinema.webp` (resolved from
-  the home page's resources in `head.html`).
-- Left as is on purpose: the two chart PNGs under
-  `static/programmazione-storica/{generi,paesi-di-produzione}/_index_files/figure-html/`
-  (shared by about 88 item pages; to be replaced under U02) and the 70
-  historical-source galleries in
+  the home page's resources by `social-image.html`).
+- U02 (2026-11-23) removed `static/programmazione-storica/`: the genre chart PNG
+  was deleted and the country chart moved into its section bundle; no
+  `index_files` folder is left in `static/` or `content/`.
+- Left as is on purpose: the 70 historical-source galleries in
   `static/images/programmazione_storica/` (DEFERRED: low gain, 321 MB).

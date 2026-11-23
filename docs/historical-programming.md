@@ -112,11 +112,13 @@ screenings were compared with the R functions: all identical. The charts were
 checked visually against the PNGs; the IMDb labels chosen are almost the same
 as R's. A full `hugo` build takes about 40 s.
 
-Social previews: SVG cannot be used as an Open Graph image, so the PNGs still
-named in front matter `image:` are kept as static files: the 57 annual
-`proiezioni-mensili.png`, `generi-per-decennio-1.png` (genre pages) and
-`italia-estero-per-decennio-1.png` (country pages and index). The other R chart
-PNGs were deleted. The data are final, so these images do not go stale.
+Social previews: SVG cannot be used as an Open Graph image, so each year page
+keeps its first chart as `proiezioni-mensili.png` in its bundle (`image:
+"proiezioni-mensili.png"`), and the Paesi index keeps
+`italia-estero-per-decennio.png` next to its `_index.md`. Genre and country
+pages have no `image:` and use their section's image (the Generi hero and the
+Paesi chart). The other R chart PNGs were deleted. The data are final, so these
+images do not go stale.
 
 Index aggregation rules (from the former `R/update-indici.R`):
 

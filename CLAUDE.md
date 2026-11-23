@@ -43,7 +43,7 @@ Before editing a page, decide whether it is manually written or generated:
   Update files in place; use only `public/` as build output. Any temporary build
   must be removed afterwards.
 - Push to `main` without the owner's explicit request: it deploys to production.
-- Change Netlify settings or retire the shinyapps.io app without explicit approval.
+- Change Netlify settings without explicit approval.
 
 ## Writing
 

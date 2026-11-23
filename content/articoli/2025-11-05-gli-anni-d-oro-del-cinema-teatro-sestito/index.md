@@ -5,7 +5,7 @@ author: Vito Sestito
 date: '2025-11-05'
 lastmod: '2026-11-18'
 slug: gli-anni-d-oro-del-cinema-teatro-sestito
-image: "/2025/11/05/gli-anni-d-oro-del-cinema-teatro-sestito/images/cinema_via_doria_ai.png"
+image: "images/cinema_via_doria_ai.png"
 categories:
   - Storia
 tags: ["San Vito sullo Ionio", "storia locale", "cinema di paese"]
