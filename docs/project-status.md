@@ -47,16 +47,21 @@ TODO / DOING / DONE / DEFERRED, with dates. Assistant rules are in `CLAUDE.md`.
 
 ## 3. Open items
 
-- **U01 - TODO: upgrade Hugo and shorten the Netlify deploy.** A Netlify deploy
-  takes about 5 minutes (owner observation, 2026-11-23); a local full build
-  takes 80-100 s. Steps: read the release notes between 0.136.5 and the
-  chosen version; fix the deprecated settings above; build with both versions
-  and compare the output (HTML, XML, sitemap) as was done for earlier changes;
-  update `HUGO_VERSION` in `netlify.toml`; check the deploy log. Probable cause
-  of the slow deploy, not yet verified: Netlify has no persistent `resources/`
-  cache, so the 2,620 processed images are rebuilt every time (check the build
-  log; a Netlify build cache plugin or committing the processed images are
-  options to evaluate). The poster and programming pages are about 1,700 pages.
+- **U01 - TODO: upgrade Hugo and shorten the Netlify deploy.** Netlify log of
+  2026-11-23: build 5 m 15 s, of which `hugo` takes 287 s; fetching the 1.9 GB
+  cache (9 s), deploy (14 s) and the Lighthouse plugin (12 s) are minor. Local
+  measurements with Hugo 0.136.5: 92 s with the image cache present, 636 s with
+  `--ignoreCache`, so image processing is the dominant cost when the cache is
+  missed. The 2,620 processed images are 2 operations (`Fit 1600x1600`,
+  `Fill 300x300`, both q50) on about 1,310 images in
+  `layouts/shortcodes/image-gallery.html`; the cache is `resources/_gen`
+  (669 MB, git-ignored). It is not known whether Netlify's cache restores it
+  (the 287 s sits between the warm and cold local times). Options to evaluate,
+  with the output compared before and after: make Netlify keep `resources/_gen`
+  (a cache plugin; needs approval for the Netlify change), process fewer or
+  smaller images, then upgrade Hugo (release notes since 0.136.5, replace the
+  deprecated settings above, update `HUGO_VERSION` in `netlify.toml`, check the
+  deploy log). A Hugo upgrade alone is not expected to remove the image cost.
 - **TODO: retire the shinyapps.io app.** The Hugo dashboard replaced it in the
   methodology article and the owner confirmed the live site on 2026-11-23.
   Taking the app down needs the owner's explicit approval.
