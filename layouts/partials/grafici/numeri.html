@@ -1,0 +1,19 @@
+{{- /*
+Formats axis values with a common number of decimals, like R's format():
+(500 1000 1500) -> "500" "1000" "1500"; (0.05 0.1 0.15) -> "0.05" "0.10" "0.15".
+Input: slice of numbers. Returns a slice of strings.
+*/ -}}
+{{- $decimals := 0 }}
+{{- range . }}
+  {{- $v := float . }}
+  {{- range $d := seq 0 6 }}
+    {{- $scaled := mul $v (math.Pow 10 $d) }}
+    {{- if lt (math.Abs (sub $scaled (math.Round $scaled))) 1e-6 }}
+      {{- if gt $d $decimals }}{{ $decimals = $d }}{{ end }}
+      {{- break }}
+    {{- end }}
+  {{- end }}
+{{- end }}
+{{- $out := slice }}
+{{- range . }}{{ $out = $out | append (printf (printf "%%.%df" $decimals) (float .)) }}{{ end }}
+{{- return $out }}

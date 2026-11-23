@@ -1,0 +1,12 @@
+{{- /*
+Converts a data value to a pixel coordinate inside a panel from
+grafici/indice-pannello.html. Input: dict "p" (panel) "x" or "y" (value).
+*/ -}}
+{{- $p := .p }}
+{{- $out := 0.0 }}
+{{- if isset . "x" }}
+  {{- $out = add $p.p1 (mul (div (sub (float .x) (index $p.xlim 0)) (sub (index $p.xlim 1) (index $p.xlim 0))) (sub $p.p2 $p.p1)) }}
+{{- else }}
+  {{- $out = sub $p.p4 (mul (div (sub (float .y) (index $p.ylim 0)) (sub (index $p.ylim 1) (index $p.ylim 0))) (sub $p.p4 $p.p3)) }}
+{{- end }}
+{{- return $out }}

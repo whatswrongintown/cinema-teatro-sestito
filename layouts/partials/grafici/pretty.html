@@ -1,0 +1,29 @@
+{{- /*
+Axis values like R's pretty(c(lo, hi), n): steps of 1, 2, 5 or 10 times a
+power of ten, covering lo..hi. Input: dict "lo" "hi" "n". Returns floats.
+Port of R_pretty() with its default bias (high.u.bias = 1.5, u5.bias = 2.75).
+*/ -}}
+{{- $lo := float .lo }}
+{{- $hi := float .hi }}
+{{- $n := float .n }}
+{{- $h := 1.5 }}
+{{- $h5 := 2.75 }}
+{{- $dx := sub $hi $lo }}
+{{- if eq $dx 0.0 }}{{ $dx = math.Max 1.0 (math.Abs $hi) }}{{ end }}
+{{- $cell := div $dx $n }}
+{{- $base := math.Pow 10 (math.Floor (div (math.Log $cell) (math.Log 10))) }}
+{{- $unit := $base }}
+{{- if lt (sub (mul 2 $base) $cell) (mul $h (sub $cell $unit)) }}
+  {{- $unit = mul 2 $base }}
+  {{- if lt (sub (mul 5 $base) $cell) (mul $h5 (sub $cell $unit)) }}
+    {{- $unit = mul 5 $base }}
+    {{- if lt (sub (mul 10 $base) $cell) (mul $h (sub $cell $unit)) }}{{ $unit = mul 10 $base }}{{ end }}
+  {{- end }}
+{{- end }}
+{{- $ns := math.Floor (add (div $lo $unit) 1e-7) }}
+{{- $nu := math.Ceil (sub (div $hi $unit) 1e-7) }}
+{{- $out := slice }}
+{{- range seq (int $ns) (int $nu) }}
+  {{- $out = $out | append (mul (float .) $unit) }}
+{{- end }}
+{{- return $out }}

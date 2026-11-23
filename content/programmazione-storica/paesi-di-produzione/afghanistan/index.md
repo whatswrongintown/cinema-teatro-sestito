@@ -11,11 +11,4 @@ description: Film prodotti in Afghanistan nella programmazione del Cinema Teatro
   suddivisi per anno.
 image: "/programmazione-storica/paesi-di-produzione/_index_files/figure-html/italia-estero-per-decennio-1.png"
 ---
-<!-- Tabelle generate automaticamente. -->
-
-### 1967
-
-|  |  |
-|---|---|
-| 1967-06-11 | [Le meravigliose avventure di Marco Polo (Lo scacchiere di Dio)](https://www.imdb.com/title/tt0059429/) |
-
+{{% programmazione-tabelle "paesi" %}}

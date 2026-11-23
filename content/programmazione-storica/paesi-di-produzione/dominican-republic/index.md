@@ -11,23 +11,4 @@ description: Film prodotti in Dominican Republic nella programmazione del Cinema
   Sestito, suddivisi per anno.
 image: "/programmazione-storica/paesi-di-produzione/_index_files/figure-html/italia-estero-per-decennio-1.png"
 ---
-<!-- Tabelle generate automaticamente. -->
-
-### 1976
-
-|  |  |
-|---|---|
-| 1976-04-29 | [La testa del serpente](https://www.imdb.com/title/tt0069887/) |
-
-### 1982
-
-|  |  |
-|---|---|
-| 1982-01-12 | [Orgasmo nero](https://www.imdb.com/title/tt0081727/) |
-
-### 1990
-
-|  |  |
-|---|---|
-| 1990-10-13 | [La lambada (Que viva el merengue y la lambada)](https://www.imdb.com/title/tt0390408/) |
-
+{{% programmazione-tabelle "paesi" %}}

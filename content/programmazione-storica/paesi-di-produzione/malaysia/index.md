@@ -11,23 +11,4 @@ description: Film prodotti in Malaysia nella programmazione del Cinema Teatro Se
   suddivisi per anno.
 image: "/programmazione-storica/paesi-di-produzione/_index_files/figure-html/italia-estero-per-decennio-1.png"
 ---
-<!-- Tabelle generate automaticamente. -->
-
-### 1981
-
-|  |  |
-|---|---|
-| 1981-10-10 | [Bruce Lee il grande eroe](https://www.imdb.com/title/tt0080475/) |
-
-### 1982
-
-|  |  |
-|---|---|
-| 1982-03-13 | [Bruce Lee il grande eroe](https://www.imdb.com/title/tt0080475/) |
-
-### 1999
-
-|  |  |
-|---|---|
-| 1999-10-17 | [Entrapment](https://www.imdb.com/title/tt0137494/) |
-
+{{% programmazione-tabelle "paesi" %}}

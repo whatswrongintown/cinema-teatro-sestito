@@ -11,11 +11,4 @@ description: Film prodotti in Puerto Rico nella programmazione del Cinema Teatro
   suddivisi per anno.
 image: "/programmazione-storica/paesi-di-produzione/_index_files/figure-html/italia-estero-per-decennio-1.png"
 ---
-<!-- Tabelle generate automaticamente. -->
-
-### 1972
-
-|  |  |
-|---|---|
-| 1972-02-09 | [Zan, re della giungla](https://www.imdb.com/title/tt0065071/) |
-
+{{% programmazione-tabelle "paesi" %}}

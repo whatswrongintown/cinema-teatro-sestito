@@ -1,0 +1,136 @@
+{{- /*
+Reads the three historical programming CSVs once per build and returns:
+  rows    one dict per screening, in CSV (date) order, with
+          date, year, decade ("1950"), month ("01".."12"), id (IMDb ID or ""),
+          title (trimmed), md (Markdown table row), source / genre / country
+          (raw cells; "" when missing), sources / genres / countries
+          (lower-case keys for matching), rating / votes (floats; nil when
+          the film has no IMDb rating or votes)
+  sources lower-case source title -> Markdown link to its source page
+  gruppi  rows grouped for fast lookup, under the keys "anni|<year>",
+          "fonti|<source key>", "generi|<genre key>", "paesi|<country key>"
+          (each a slice of rows in date order; a screening appears once per key)
+Call with: partialCached "programmazione/dati.html" . "programmazione"
+Rules follow the former R generators (R/update-anni|fonti|generi|paesi.R):
+comma-separated values are trimmed and matched case-insensitively; titles are
+escaped for Markdown tables; screenings without an IMDb URL are not linked.
+*/ -}}
+{{- $s := newScratch }}
+
+{{- /* Column positions by header name (the screening CSV starts with a BOM). */ -}}
+{{- define "partials/programmazione/colonne.html" }}
+  {{- $cols := dict }}
+  {{- range $i, $name := . }}
+    {{- $cols = merge $cols (dict (strings.TrimPrefix "﻿" $name) $i) }}
+  {{- end }}
+  {{- return $cols }}
+{{- end }}
+
+{{- /* Markdown escaping, identical to escape_*_text() in the R scripts. */ -}}
+{{- define "partials/programmazione/escape.html" }}
+  {{- $t := . }}
+  {{- $t = replace $t "&" "&amp;" }}
+  {{- $t = replace $t "<" "&lt;" }}
+  {{- $t = replace $t ">" "&gt;" }}
+  {{- $t = replace $t "|" "&#124;" }}
+  {{- range slice "\\" "[" "]" "*" "_" "`" }}
+    {{- $t = replace $t . (printf "\\%s" .) }}
+  {{- end }}
+  {{- $t = replace (replace $t "\r" " ") "\n" " " }}
+  {{- return $t }}
+{{- end }}
+
+{{- /* Comma-separated cell -> list of trimmed, non-empty, lower-case keys. */ -}}
+{{- define "partials/programmazione/chiavi.html" }}
+  {{- $keys := slice }}
+  {{- range split . "," }}
+    {{- $v := lower (strings.TrimSpace .) }}
+    {{- if $v }}{{ $keys = $keys | append $v }}{{ end }}
+  {{- end }}
+  {{- return $keys }}
+{{- end }}
+
+{{- $agende := resources.Get "data/programmazione_agende.csv" | transform.Unmarshal }}
+{{- $imdb := resources.Get "data/programmazione_imdb.csv" | transform.Unmarshal }}
+{{- $paesi := resources.Get "data/programmazione_paesi.csv" | transform.Unmarshal }}
+
+{{- /* IMDb URL and genres, and production countries, by film ID. */ -}}
+{{- $c := partial "programmazione/colonne.html" (index $imdb 0) }}
+{{- range after 1 $imdb }}
+  {{- $id := index . $c.Const }}
+  {{- $s.SetInMap "url" $id (index . $c.URL) }}
+  {{- $s.SetInMap "genres" $id (index . $c.Genres) }}
+  {{- $rating := strings.TrimSpace (index . (index $c "IMDb Rating")) }}
+  {{- $votes := strings.TrimSpace (index . (index $c "Num Votes")) }}
+  {{- if and $rating $votes }}
+    {{- $s.SetInMap "imdb" $id (dict "rating" (float $rating) "votes" (float $votes)) }}
+  {{- end }}
+{{- end }}
+{{- $ratings := $s.Get "imdb" }}
+{{- $c = partial "programmazione/colonne.html" (index $paesi 0) }}
+{{- range after 1 $paesi }}
+  {{- $s.SetInMap "countries" (index . $c.const) (index . $c.country) }}
+{{- end }}
+{{- $urls := $s.Get "url" }}
+{{- $genres := $s.Get "genres" }}
+{{- $countries := $s.Get "countries" }}
+
+{{- /* One dict per screening. */ -}}
+{{- $c = partial "programmazione/colonne.html" (index $agende 0) }}
+{{- range after 1 $agende }}
+  {{- $date := index . $c.date }}
+  {{- $id := strings.TrimSpace (index . $c.const) }}
+  {{- $title := partial "programmazione/escape.html" (index . $c.title) }}
+  {{- $url := "" }}
+  {{- $g := "" }}
+  {{- $p := "" }}
+  {{- if $id }}
+    {{- with index $urls $id }}{{ $url = . }}{{ end }}
+    {{- with index $genres $id }}{{ $g = . }}{{ end }}
+    {{- with index $countries $id }}{{ $p = . }}{{ end }}
+  {{- end }}
+  {{- if $url }}{{ $title = printf "[%s](%s)" $title $url }}{{ end }}
+  {{- $imdbRow := dict }}
+  {{- if $id }}{{ with index $ratings $id }}{{ $imdbRow = . }}{{ end }}{{ end }}
+  {{- $year := substr $date 0 4 }}
+  {{- $row := dict
+    "date" $date
+    "year" $year
+    "decade" (printf "%s0" (substr $date 0 3))
+    "month" (substr $date 5 2)
+    "id" $id
+    "title" (strings.TrimSpace (index . $c.title))
+    "md" (printf "| %s | %s |" $date $title)
+    "source" (index . $c.source)
+    "sources" (partial "programmazione/chiavi.html" (index . $c.source))
+    "genre" $g
+    "genres" (partial "programmazione/chiavi.html" $g)
+    "country" $p
+    "countries" (partial "programmazione/chiavi.html" $p)
+    "rating" $imdbRow.rating
+    "votes" $imdbRow.votes
+  }}
+  {{- $s.Add "rows" (slice $row) }}
+  {{- /* Groups for fast lookup: by year and by each source/genre/country key. */ -}}
+  {{- $s.Add (printf "anni|%s" $year) (slice $row) }}
+  {{- range uniq $row.sources }}{{ $s.Add (printf "fonti|%s" .) (slice $row) }}{{ end }}
+  {{- range uniq $row.genres }}{{ $s.Add (printf "generi|%s" .) (slice $row) }}{{ end }}
+  {{- range uniq $row.countries }}{{ $s.Add (printf "paesi|%s" .) (slice $row) }}{{ end }}
+{{- end }}
+
+{{- /* Source pages by lower-case title, and the poster-notes aliases. */ -}}
+{{- range (site.GetPage "/programmazione-storica/fonti").RegularPages }}
+  {{- $label := partial "programmazione/escape.html" .Title }}
+  {{- $s.SetInMap "sources" (lower (strings.TrimSpace .Title)) (printf "[%s](%s)" $label .RelPermalink) }}
+{{- end }}
+{{- $manifesti := slice "note sui manifesti" "note su manifesti" "note_su_manifesti" "note su manifesto" "note_su_manifesto" "nota_su_manifesto" }}
+{{- $target := "" }}
+{{- range $manifesti }}{{ with index ($s.Get "sources") . }}{{ $target = . }}{{ end }}{{ end }}
+{{- if not $target }}
+  {{- $target = printf "[Note sui manifesti](%s#note-sui-manifesti)" (site.GetPage "/programmazione-storica/fonti").RelPermalink }}
+{{- end }}
+{{- range $manifesti }}
+  {{- if not (index ($s.Get "sources") .) }}{{ $s.SetInMap "sources" . $target }}{{ end }}
+{{- end }}
+
+{{- return dict "rows" ($s.Get "rows") "sources" ($s.Get "sources") "gruppi" $s.Values }}

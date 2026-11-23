@@ -1,0 +1,140 @@
+{{- /*
+IMDb average rating against number of votes (log scale) for the screenings
+of one year, with film titles where there is room (replaces
+valutazioni-imdb.png from the former R/update-anni.R, same layout and label
+placement: most isolated points first, 8 positions on 3 rings, no overlap
+with points or other labels; labels without room are omitted).
+Input: dict "rows" (screenings of the year) "alt" (accessible title).
+Units: points; the figure is 8 x 3 inches (576 x 216).
+*/ -}}
+{{- $W := 576.0 }}{{ $H := 216.0 }}
+{{- $tick := mul 0.038 72 }}
+{{- $lw := div (mul 1.42 72) 96 }}
+{{- $log10 := math.Log 10 }}
+
+{{- /* Rated screenings (repeats kept, as in R). */ -}}
+{{- $rated := slice }}
+{{- range .rows }}
+  {{- if and (ne .rating nil) (ne .votes nil) }}
+    {{- if gt .votes 0.0 }}
+      {{- $rated = $rated | append (dict "title" .title "x" (div (math.Log .votes) $log10) "y" .rating) }}
+    {{- end }}
+  {{- end }}
+{{- end }}
+
+<figure class="grafico">
+<svg viewBox="0 0 576 216" width="768" role="img" aria-label="{{ .alt }}" font-family="Merriweather, serif" style="max-width:100%;height:auto;background:#fff">
+<title>{{ .alt }}</title>
+{{- if not $rated }}
+<text x="288" y="108" font-size="11" text-anchor="middle" dominant-baseline="central">Dati IMDb non disponibili</text>
+{{- else }}
+  {{- /* Limits expanded by 5% per side, like ggplot2. */ -}}
+  {{- $xmin := 1e9 }}{{ $xmax := -1e9 }}{{ $ymin := 1e9 }}{{ $ymax := -1e9 }}
+  {{- range $rated }}
+    {{- $xmin = math.Min $xmin .x }}{{ $xmax = math.Max $xmax .x }}
+    {{- $ymin = math.Min $ymin .y }}{{ $ymax = math.Max $ymax .y }}
+  {{- end }}
+  {{- if eq $xmin $xmax }}{{ $xmin = sub $xmin 0.5 }}{{ $xmax = add $xmax 0.5 }}{{ end }}
+  {{- if eq $ymin $ymax }}{{ $ymin = sub $ymin 0.5 }}{{ $ymax = add $ymax 0.5 }}{{ end }}
+  {{- $xlo := sub $xmin (mul 0.05 (sub $xmax $xmin)) }}{{ $xhi := add $xmax (mul 0.05 (sub $xmax $xmin)) }}
+  {{- $ylo := sub $ymin (mul 0.05 (sub $ymax $ymin)) }}{{ $yhi := add $ymax (mul 0.05 (sub $ymax $ymin)) }}
+
+  {{- /* Axis values: whole ratings; powers of ten (with x3 multiples if few). */ -}}
+  {{- $yAt := slice }}
+  {{- range seq 1 10 }}{{ if and (ge (float .) $ylo) (le (float .) $yhi) }}{{ $yAt = $yAt | append (float .) }}{{ end }}{{ end }}
+  {{- $xAt := slice }}
+  {{- $pmin := int (math.Ceil $xlo) }}{{ $pmax := int (math.Floor $xhi) }}
+  {{- if ge (sub $pmax $pmin) 2 }}
+    {{- range seq $pmin $pmax }}{{ $xAt = $xAt | append (float .) }}{{ end }}
+  {{- else }}
+    {{- range $p := seq (int (math.Floor $xlo)) (int (math.Ceil $xhi)) }}
+      {{- range $f := slice 1.0 3.0 }}
+        {{- $v := div (math.Log (mul $f (math.Pow 10 $p))) $log10 }}
+        {{- if and (ge $v $xlo) (le $v $xhi) }}{{ $xAt = $xAt | append $v }}{{ end }}
+      {{- end }}
+    {{- end }}
+  {{- end }}
+
+  {{- /* Panel. */ -}}
+  {{- $widest := 0.0 }}
+  {{- range $yAt }}{{ $widest = math.Max $widest (partial "grafici/larghezza.html" (dict "text" (printf "%.0f" .) "size" 8)) }}{{ end }}
+  {{- $x0 := add $widest (mul (add 0.038 0.03 0.33) 72) }}{{ $x1 := sub $W (mul 0.14 72) }}
+  {{- $y0 := mul 0.275 72 }}{{ $y1 := sub $H (mul 0.715 72) }}
+  {{- $pw := sub $x1 $x0 }}{{ $ph := sub $y1 $y0 }}
+
+  {{- /* Points, in panel coordinates (origin bottom left, points). */ -}}
+  {{- $sumx := 0.0 }}{{ $sumy := 0.0 }}
+  {{- $s := newScratch }}
+  {{- range $rated }}
+    {{- $ix := mul (div (sub .x $xlo) (sub $xhi $xlo)) $pw }}
+    {{- $iy := mul (div (sub .y $ylo) (sub $yhi $ylo)) $ph }}
+    {{- $sumx = add $sumx $ix }}{{ $sumy = add $sumy $iy }}
+    {{- $key := printf "seen|%s|%v|%v" .title .x .y }}
+    {{- if not ($s.Get $key) }}
+      {{- $s.Set $key true }}
+      {{- $s.Add "cands" (slice (dict "title" .title "x" $ix "y" $iy)) }}
+    {{- end }}
+<circle cx="{{ printf "%.2f" (add $x0 $ix) }}" cy="{{ printf "%.2f" (sub $y1 $iy) }}" r="2.6" fill="#CBF8DF"/>
+  {{- end }}
+  {{- $mx := div $sumx (float (len $rated)) }}{{ $my := div $sumy (float (len $rated)) }}
+  {{- $cands := slice }}
+  {{- range $s.Get "cands" }}
+    {{- $cands = $cands | append (merge . (dict "iso" (add (math.Pow (sub .x $mx) 2) (math.Pow (sub .y $my) 2)))) }}
+  {{- end }}
+  {{- $cands = sort $cands "iso" "desc" }}
+
+  {{- /* Label placement (all lengths in points). */ -}}
+  {{- $size := 7.5 }}
+  {{- $h := mul 0.74 $size }}
+  {{- $radius := mul 0.04 72 }}
+  {{- $pad := mul 0.012 72 }}
+  {{- $dirs := slice (slice 1 0) (slice -1 0) (slice 0 1) (slice 0 -1) (slice 1 1) (slice -1 1) (slice 1 -1) (slice -1 -1) }}
+  {{- $boxes := slice }}
+  {{- range $c := $cands }}
+    {{- $w := partial "grafici/larghezza.html" (dict "text" $c.title "size" $size) }}
+    {{- $placed := false }}
+    {{- /* Only points and labels within reach of this label's positions can collide. */ -}}
+    {{- $rx := add (mul 0.14 72) $w $pad $radius }}
+    {{- $ry := add (mul 0.14 72) $h $pad $radius }}
+    {{- $nearPts := where (where (where (where $cands "x" "gt" (sub $c.x $rx)) "x" "lt" (add $c.x $rx)) "y" "gt" (sub $c.y $ry)) "y" "lt" (add $c.y $ry) }}
+    {{- $nearBoxes := where (where (where (where $boxes "x1" "gt" (sub $c.x $rx)) "x0" "lt" (add $c.x $rx)) "y1" "gt" (sub $c.y $ry)) "y0" "lt" (add $c.y $ry) }}
+    {{- range $gap := slice 0.015 0.05 0.1 }}
+      {{- if $placed }}{{ break }}{{ end }}
+      {{- $offset := mul (add 0.04 $gap) 72 }}
+      {{- range $d := $dirs }}
+        {{- $cx := add $c.x (mul (float (index $d 0)) (add $offset (div $w 2))) }}
+        {{- $cy := add $c.y (mul (float (index $d 1)) (add $offset (div $h 2))) }}
+        {{- $bx0 := sub (sub $cx (div $w 2)) $pad }}{{ $bx1 := add (add $cx (div $w 2)) $pad }}
+        {{- $by0 := sub (sub $cy (div $h 2)) $pad }}{{ $by1 := add (add $cy (div $h 2)) $pad }}
+        {{- if or (lt $bx0 0.0) (gt $bx1 $pw) (lt $by0 0.0) (gt $by1 $ph) }}{{ continue }}{{ end }}
+        {{- $hit := where (where (where (where $nearPts "x" "gt" (sub $bx0 $radius)) "x" "lt" (add $bx1 $radius)) "y" "gt" (sub $by0 $radius)) "y" "lt" (add $by1 $radius) }}
+        {{- if $hit }}{{ continue }}{{ end }}
+        {{- $hit = where (where (where (where $nearBoxes "x0" "lt" $bx1) "x1" "gt" $bx0) "y0" "lt" $by1) "y1" "gt" $by0 }}
+        {{- if $hit }}{{ continue }}{{ end }}
+        {{- $boxes = $boxes | append (dict "x0" $bx0 "x1" $bx1 "y0" $by0 "y1" $by1) }}
+<text x="{{ printf "%.2f" (add $x0 $cx) }}" y="{{ printf "%.2f" (sub $y1 $cy) }}" font-size="7.5" text-anchor="middle" dominant-baseline="central">{{ $c.title }}</text>
+        {{- $placed = true }}
+        {{- break }}
+      {{- end }}
+    {{- end }}
+  {{- end }}
+
+  {{- /* Axes, values and titles. */ -}}
+  {{- range $xAt }}
+    {{- $x := add $x0 (mul (div (sub . $xlo) (sub $xhi $xlo)) $pw) }}
+    {{- $label := lang.FormatNumberCustom 0 (math.Round (math.Pow 10 .)) "- . ," }}
+<line x1="{{ printf "%.2f" $x }}" y1="{{ printf "%.2f" $y1 }}" x2="{{ printf "%.2f" $x }}" y2="{{ printf "%.2f" (add $y1 $tick) }}" stroke="#000" stroke-width="{{ printf "%.3f" $lw }}"/>
+<text x="{{ printf "%.2f" $x }}" y="{{ printf "%.2f" (add $y1 (mul 0.123 72)) }}" font-size="8" text-anchor="middle" dominant-baseline="central">{{ $label }}</text>
+  {{- end }}
+  {{- range $yAt }}
+    {{- $y := sub $y1 (mul (div (sub . $ylo) (sub $yhi $ylo)) $ph) }}
+<line x1="{{ printf "%.2f" (sub $x0 $tick) }}" y1="{{ printf "%.2f" $y }}" x2="{{ printf "%.2f" $x0 }}" y2="{{ printf "%.2f" $y }}" stroke="#000" stroke-width="{{ printf "%.3f" $lw }}"/>
+<text x="{{ printf "%.2f" (sub $x0 (mul 0.068 72)) }}" y="{{ printf "%.2f" $y }}" font-size="8" text-anchor="end" dominant-baseline="central">{{ printf "%.0f" . }}</text>
+  {{- end }}
+<path d="M{{ printf "%.2f" $x0 }} {{ printf "%.2f" $y0 }}V{{ printf "%.2f" $y1 }}H{{ printf "%.2f" $x1 }}" fill="none" stroke="#000" stroke-width="{{ printf "%.3f" $lw }}" stroke-linecap="square"/>
+<text x="{{ printf "%.2f" (div (add $x0 $x1) 2) }}" y="{{ printf "%.2f" (add $y1 (mul 0.28 72)) }}" font-size="11" text-anchor="middle" dominant-baseline="central">Numero di voti (log)</text>
+<text transform="translate({{ printf "%.2f" (mul 0.18 72) }} {{ printf "%.2f" (div (add $y0 $y1) 2) }}) rotate(-90)" font-size="11" text-anchor="middle" dominant-baseline="central">Valutazioni medie IMDb</text>
+<text x="{{ printf "%.2f" $x1 }}" y="{{ printf "%.2f" (add $y1 (mul 0.5 72)) }}" font-size="8.8" text-anchor="end" dominant-baseline="central">Information courtesy of IMDb (https://www.imdb.com)</text>
+{{- end }}
+</svg>
+</figure>

@@ -1,0 +1,38 @@
+{{- /* Italian vs foreign share per decade (stacked bars), section index "Paesi". Input: dict dati alt. */ -}}
+{{- $d := .dati }}
+{{- $W := 1536.0 }}{{ $H := 576.0 }}
+{{- $sizes := dict "text" 25.76 "axis" 30.91 }}
+{{- $key := 44.0 }}
+{{- $legend := 0.0 }}
+{{- range slice "Estero" "Italia" }}{{ $legend = math.Max $legend (partial "grafici/larghezza.html" (dict "text" . "size" 25.76)) }}{{ end }}
+{{- $legend = add $key 16 $legend }}
+{{- $xs := slice }}
+{{- range $d.italia }}{{ $xs = $xs | append (sub .x 4.5) (add .x 4.5) }}{{ end }}
+{{- $xlim := partial "grafici/espandi.html" $xs }}
+{{- $ylim := partial "grafici/espandi.html" (slice 0 100) }}
+{{- $xat := partial "grafici/extended.html" (dict "min" (index $xlim 0) "max" (index $xlim 1)) }}
+{{- $yat := partial "grafici/extended.html" (dict "min" (index $ylim 0) "max" (index $ylim 1)) }}
+{{- $ylabels := partial "grafici/numeri.html" $yat }}
+{{- $p := partial "grafici/indice-pannello.html" (dict "W" $W "H" $H "ylabels" $ylabels "size" $sizes.text "top" 67 "bottom" 95 "legend" $legend "xlim" $xlim "ylim" $ylim) }}
+{{- $y0 := partial "grafici/indice-xy.html" (dict "p" $p "y" 0) }}
+{{- $y100 := partial "grafici/indice-xy.html" (dict "p" $p "y" 100) }}
+<figure class="grafico">
+<svg viewBox="0 0 1536 576" width="768" role="img" aria-label="{{ .alt }}" font-family="Merriweather, serif" style="max-width:100%;height:auto;background:#fff">
+<title>{{ .alt }}</title>
+{{- range $d.italia }}
+  {{- $xa := partial "grafici/indice-xy.html" (dict "p" $p "x" (sub .x 4.5)) }}
+  {{- $xb := partial "grafici/indice-xy.html" (dict "p" $p "x" (add .x 4.5)) }}
+  {{- $yi := partial "grafici/indice-xy.html" (dict "p" $p "y" .italia) }}
+<rect x="{{ printf "%.2f" $xa }}" y="{{ printf "%.2f" $yi }}" width="{{ printf "%.2f" (sub $xb $xa) }}" height="{{ printf "%.2f" (sub $y0 $yi) }}" fill="#CBF8DF"><title>Italia, anni {{ .x }}: {{ printf "%.1f" .italia }}%</title></rect>
+<rect x="{{ printf "%.2f" $xa }}" y="{{ printf "%.2f" $y100 }}" width="{{ printf "%.2f" (sub $xb $xa) }}" height="{{ printf "%.2f" (sub $yi $y100) }}" fill="#E5E5E5"><title>Estero, anni {{ .x }}: {{ printf "%.1f" (sub 100 .italia) }}%</title></rect>
+{{- end }}
+<text x="{{ printf "%.2f" (div (add $p.p1 $p.p2) 2) }}" y="29" font-size="36.06" text-anchor="middle" dominant-baseline="central">Cinema italiano vs estero: evoluzione per decennio</text>
+{{ partial "grafici/indice-assi.html" (dict "p" $p "xat" $xat "xlabels" (partial "grafici/numeri.html" $xat) "yat" $yat "ylabels" $ylabels "xtitle" "Decennio" "ytitle" "% sul totale" "sizes" $sizes) }}
+{{- $left := sub $W 30 $legend }}
+{{- $top := sub (div (add $p.p3 $p.p4) 2) 20 }}
+{{- range $i, $k := slice (dict "label" "Estero" "fill" "#E5E5E5") (dict "label" "Italia" "fill" "#CBF8DF") }}
+<rect x="{{ printf "%.2f" $left }}" y="{{ printf "%.2f" (add $top (mul (float $i) $key)) }}" width="44" height="44" fill="{{ $k.fill }}"/>
+<text x="{{ printf "%.2f" (add $left $key 16) }}" y="{{ printf "%.2f" (add $top (mul (add (float $i) 0.5) $key)) }}" font-size="25.76" dominant-baseline="central">{{ $k.label }}</text>
+{{- end }}
+</svg>
+</figure>

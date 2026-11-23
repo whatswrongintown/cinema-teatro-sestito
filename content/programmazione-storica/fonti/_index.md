@@ -21,7 +21,7 @@ Le principali tipologie di fonti sono:
 4. ✍️  **[Appunti](/categories/appunti/)**, blocchi o fogli sciolti su cui erano annotati i film mese per mese, talvolta accompagnati dai relativi incassi.
 5. 🎞️ **[Note sui manifesti](/1965/01/01/note-sui-manifesti)**, date di proiezione annotate sul retro dei manifesti cinematografici; i film sono elencati per anno e mese.
 
-<img src="/programmazione-storica/fonti/_index_files/figure-html/fonti-per-decennio-1.png" alt="Presenza delle tipologie di fonti per decennio" width="768" />
+{{< grafico nome="fonti-per-decennio" alt="Presenza delle tipologie di fonti per decennio" >}}
 
 ---
 

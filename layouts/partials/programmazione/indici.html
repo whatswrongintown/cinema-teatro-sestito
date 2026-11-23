@@ -1,0 +1,115 @@
+{{- /*
+Aggregates for the section index charts, computed once per build with the
+rules of the former R/update-indici.R (see docs/guides/historical-programming.md):
+  anni     screenings per year, excluding 1960 and 1961 (partial documentation)
+  fonti    source-entry associations per source type and decade
+  generi   genre-entry associations per decade and their share of the decade;
+           "Drammatico" is dropped for films with more than one genre row
+           across all their screenings; genres ordered by total, then name
+  adulti   share (%) of screenings per year whose genres include "Per adulti"
+  italia   share (%) of country-entry associations per decade that are Italy;
+           screenings without countries count once as foreign
+  paesi    distinct countries per decade (a missing country counts as one)
+Call with: partialCached "programmazione/indici.html" . "indici"
+*/ -}}
+{{- $dati := partialCached "programmazione/dati.html" . "programmazione" }}
+{{- $rows := $dati.rows }}
+{{- $s := newScratch }}
+
+{{- /* Years and decades present, in order (rows are sorted by date). */ -}}
+{{- $years := slice }}{{ $decades := slice }}
+{{- range $rows }}{{ $years = $years | append .year }}{{ $decades = $decades | append .decade }}{{ end }}
+{{- $years = uniq $years }}{{ $decades = uniq $decades }}
+
+{{- /* Genre rows per film, over all screenings (for the Drammatico rule). */ -}}
+{{- range $rows }}
+  {{- if and .id .genre }}{{ $s.Add (printf "pf|%s" .id) (len (split .genre ",")) }}{{ end }}
+{{- end }}
+
+{{- $fontiTipi := slice
+  (dict "tipo" "Appunti" "re" "cif|italautogamma|europe|victory")
+  (dict "tipo" "Note sui manifesti" "re" "manifest")
+  (dict "tipo" "Calendari" "re" "calendario")
+  (dict "tipo" "Rubriche" "re" "rubric") }}
+
+{{- range $r := $rows }}
+  {{- $d := $r.decade }}
+  {{- /* Sources: one association per value in the cell. */ -}}
+  {{- range $r.sources }}
+    {{- $tipo := "Agende" }}
+    {{- $key := . }}
+    {{- range $fontiTipi }}{{ if findRE .re $key 1 }}{{ $tipo = .tipo }}{{ break }}{{ end }}{{ end }}
+    {{- $s.Add (printf "fonti|%s|%s" $tipo $d) 1 }}
+  {{- end }}
+  {{- /* Genres (original names, trimmed). */ -}}
+  {{- if $r.genre }}
+    {{- $pf := $s.Get (printf "pf|%s" $r.id) }}
+    {{- range split $r.genre "," }}
+      {{- $g := strings.TrimSpace . }}
+      {{- if not $g }}{{ continue }}{{ end }}
+      {{- if and (eq $g "Drammatico") (gt $pf 1) }}{{ continue }}{{ end }}
+      {{- $s.Add (printf "generi|%s|%s" $d $g) 1 }}
+      {{- $s.Add (printf "generi-decennio|%s" $d) 1 }}
+      {{- $s.Add (printf "generi-totale|%s" $g) 1 }}
+      {{- $s.SetInMap "generi-nomi" $g true }}
+    {{- end }}
+  {{- end }}
+  {{- /* Adult films per year. */ -}}
+  {{- $s.Add (printf "anno|%s" $r.year) 1 }}
+  {{- if in $r.genre "Per adulti" }}{{ $s.Add (printf "adulti|%s" $r.year) 1 }}{{ end }}
+  {{- /* Countries: Italy share and distinct countries per decade. */ -}}
+  {{- $pieces := cond (eq $r.country "") (slice "") (split $r.country ",") }}
+  {{- range $pieces }}
+    {{- $s.Add (printf "paesi-totale|%s" $d) 1 }}
+    {{- if findRE "(?i)italy" . 1 }}{{ $s.Add (printf "italia|%s" $d) 1 }}{{ end }}
+    {{- $s.SetInMap (printf "paesi-distinti|%s" $d) (cond (eq . "") "NA" (strings.TrimSpace .)) true }}
+  {{- end }}
+{{- end }}
+
+{{- $anni := slice }}{{ $adulti := slice }}
+{{- range $years }}
+  {{- $n := $s.Get (printf "anno|%s" .) }}
+  {{- if not (in (slice "1960" "1961") .) }}{{ $anni = $anni | append (dict "x" (float .) "n" (float $n)) }}{{ end }}
+  {{- $a := or ($s.Get (printf "adulti|%s" .)) 0 }}
+  {{- $adulti = $adulti | append (dict "x" (float .) "perc" (mul 100.0 (div (float $a) (float $n)))) }}
+{{- end }}
+
+{{- $fonti := slice }}{{ $tipiPresenti := slice }}
+{{- range $tipo := slice "Note sui manifesti" "Appunti" "Rubriche" "Calendari" "Agende" }}
+  {{- range $d := $decades }}
+    {{- with $s.Get (printf "fonti|%s|%s" $tipo $d) }}
+      {{- $fonti = $fonti | append (dict "tipo" $tipo "x" (float $d) "n" (float .)) }}
+      {{- $tipiPresenti = $tipiPresenti | append $tipo }}
+    {{- end }}
+  {{- end }}
+{{- end }}
+
+{{- $generi := slice }}{{ $nomi := slice }}
+{{- range $g, $_ := $s.Get "generi-nomi" }}
+  {{- $nomi = $nomi | append (dict "nome" $g "totale" ($s.Get (printf "generi-totale|%s" $g))) }}
+  {{- range $d := $decades }}
+    {{- with $s.Get (printf "generi|%s|%s" $d $g) }}
+      {{- $generi = $generi | append (dict "genere" $g "x" (float $d) "n" (float .) "prop" (div (float .) (float ($s.Get (printf "generi-decennio|%s" $d))))) }}
+    {{- end }}
+  {{- end }}
+{{- end }}
+{{- /* Order by total (descending), ties by name: sort by name, then a stable sort by total. */ -}}
+{{- $ordine := slice }}
+{{- range sort (sort $nomi "nome") "totale" "desc" }}{{ $ordine = $ordine | append .nome }}{{ end }}
+
+{{- $italia := slice }}{{ $paesi := slice }}
+{{- range $d := $decades }}
+  {{- $tot := $s.Get (printf "paesi-totale|%s" $d) }}
+  {{- $it := or ($s.Get (printf "italia|%s" $d)) 0 }}
+  {{- $italia = $italia | append (dict "x" (float $d) "italia" (mul 100.0 (div (float $it) (float $tot)))) }}
+  {{- $paesi = $paesi | append (dict "x" (float $d) "n" (float (len ($s.Get (printf "paesi-distinti|%s" $d))))) }}
+{{- end }}
+
+{{- return dict
+  "anni" $anni
+  "primoAnno" (index $years 0) "ultimoAnno" (index $years (sub (len $years) 1))
+  "fonti" $fonti "tipi" (uniq $tipiPresenti)
+  "generi" $generi "ordineGeneri" $ordine "decenni" $decades
+  "adulti" $adulti
+  "italia" $italia
+  "paesi" $paesi }}

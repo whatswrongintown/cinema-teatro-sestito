@@ -11,133 +11,15 @@ params:
   anno: 1984
 ---
 
-<!-- Generato da R/update-anni.R; modificare i dati, non questa pagina. -->
 
-<img src="index_files/figure-html/proiezioni-mensili.png" width="768" alt="Proiezioni documentate per mese" />
-<img src="index_files/figure-html/valutazioni-imdb.png" width="768" alt="Valutazioni medie IMDb e numero di voti" />
+{{< grafico nome="anno-mensile" alt="Proiezioni documentate per mese" >}}
+
+{{< grafico nome="anno-imdb" alt="Valutazioni medie IMDb e numero di voti" >}}
 
 I grafici riassumono le voci di programmazione associate alle date nel database, non il numero delle singole proiezioni. In alcuni casi la data assegnata puo' essere adiacente a quella riportata nella fonte; per verificarla, consulta la scansione e la [metodologia](/2026/11/11/metodologia-ricostruzione-programmazione/).
 
 I voti IMDb descrivono le valutazioni degli utenti IMDb, non il pubblico o gli incassi del Cinema Sestito.
 
-### Gennaio[^1]
+<!--more-->
 
-|           |                                       |
-|:----------|:--------------------------------------|
-| 1984-01-01 | [Il signore della morte](https://www.imdb.com/title/tt0082495/) |
-| 1984-01-04 | [L'ultima sfida](https://www.imdb.com/title/tt0083726/) |
-| 1984-01-08 | [Pink Floyd: The Wall](https://www.imdb.com/title/tt0084503/) |
-| 1984-01-09 | [Attila flagello di Dio](https://www.imdb.com/title/tt0080393/) |
-| 1984-01-10 | [L'ultima sfida di Bruce Lee](https://www.imdb.com/title/tt0076709/) |
-| 1984-01-11 | [Chi vive in quella casa?](https://www.imdb.com/title/tt0077357/) |
-| 1984-01-12 | [Cacciatori di squali](https://www.imdb.com/title/tt0049751/) |
-| 1984-01-14 | [Le 4 pornoamiche](https://www.imdb.com/title/tt0140239/) |
-| 1984-01-14 | [Le quattro porno amiche (Bourgeoises déchaînées)](https://www.imdb.com/title/tt1346252/) |
-| 1984-01-15 | [Dio li fa poi li accoppia](https://www.imdb.com/title/tt0158589/) |
-| 1984-01-17 | [Bruce Lee supercampione](https://www.imdb.com/title/tt0077850/) |
-| 1984-01-20 | [L'estasi e l'angoscia (Josephine Story)](https://www.imdb.com/title/tt0294658/) |
-| 1984-01-22 | [I nuovi barbari](https://www.imdb.com/title/tt0084424/) |
-| 1984-01-28 | [American porno teenager (Teenage Sex Kitten)](https://www.imdb.com/title/tt0197010/) |
-| 1984-01-29 | [Messico in fiamme](https://www.imdb.com/title/tt0084222/) |
-
-### Febbraio
-
-|           |                                       |
-|:----------|:--------------------------------------|
-| 1984-02-04 | [Casanova 82](https://www.imdb.com/title/tt0123638/) |
-| 1984-02-05 | [Blue Movie Sexycompulsion](https://www.imdb.com/title/tt0075464/) |
-| 1984-02-11 | [Banana Joe](https://www.imdb.com/title/tt0082045/) |
-| 1984-02-12 | [Blue Erotic Movie](https://www.imdb.com/title/tt0080822/) |
-| 1984-02-18 | [Interceptor - Il guerriero della strada](https://www.imdb.com/title/tt0082694/) |
-| 1984-02-19 | [Sexy Erotic Job](https://www.imdb.com/title/tt0141446/) |
-| 1984-02-20 | [Il paradiso del sesso (Consultorio sexológico)](https://www.imdb.com/title/tt0077367/) |
-| 1984-02-20 | [Erotic sex orgasm](https://www.imdb.com/title/tt0188573/) |
-| 1984-02-24 | [Vindicator (La guerra del ferro: Ironmaster)](https://www.imdb.com/title/tt0084036/) |
-| 1984-02-25 | [Un lupo mannaro americano a Londra](https://www.imdb.com/title/tt0082010/) |
-| 1984-02-26 | [Febbre erotica del piacere](https://www.imdb.com/title/tt0283566/) |
-
-### Marzo
-
-|           |                                       |
-|:----------|:--------------------------------------|
-| 1984-03-03 | [Benedizione mortale](https://www.imdb.com/title/tt0082245/) |
-| 1984-03-04 | [Sexy diabolic story](https://www.imdb.com/title/tt0072019/) |
-| 1984-03-09 | [Perché non facciamo l'amore?](https://www.imdb.com/title/tt0084959/) |
-| 1984-03-10 | [Le ereditiere superporno](https://www.imdb.com/title/tt0193141/) |
-| 1984-03-17 | [Bruce Lee la bestia umana](https://www.imdb.com/title/tt0079076/) |
-| 1984-03-18 | [La casa di Mary](https://www.imdb.com/title/tt0084739/) |
-| 1984-03-23 | [Vigilante](https://www.imdb.com/title/tt0084867/) |
-| 1984-03-24 | [Pornofantasie di un superdotato](https://www.imdb.com/title/tt0127161/) |
-| 1984-03-25 | [Un'estate pazzesca](https://www.imdb.com/title/tt0086352/) |
-| 1984-03-30 | [Pandora... il sapore della carne](https://www.imdb.com/title/tt0082879/) |
-| 1984-03-30 | [Pornoereditiere cercasi](https://www.imdb.com/title/tt0200115/) |
-| 1984-03-31 | [State buoni se potete](https://www.imdb.com/title/tt0086358/) |
-
-### Aprile
-
-|           |                                       |
-|:----------|:--------------------------------------|
-| 1984-04-01 | [La ragazza di Trieste](https://www.imdb.com/title/tt0086165/) |
-| 1984-04-03 | [2019 - Dopo la caduta di New York](https://www.imdb.com/title/tt0085125/) |
-| 1984-04-05 | [Tron](https://www.imdb.com/title/tt0084827/) |
-| 1984-04-06 | [Emy la minorenne (Quella porcacciona di mia moglie)](https://www.imdb.com/title/tt0190969/) |
-| 1984-04-08 | [Porky's II - Il giorno dopo](https://www.imdb.com/title/tt0086129/) |
-| 1984-04-14 | [Il vero e il falso](https://www.imdb.com/title/tt0067941/) |
-| 1984-04-15 | [Mariette (Heiße Löcher, geile Stecher)](https://www.imdb.com/title/tt0311272/) |
-| 1984-04-17 | [Bad Boys](https://www.imdb.com/title/tt0085210/) |
-| 1984-04-23 | [Caldi amori in vetrina](https://www.imdb.com/title/tt0070314/) |
-| 1984-04-23 | [Il duro più duro](https://www.imdb.com/title/tt0086461/) |
-| 1984-04-28 | [La bestia in calore](https://www.imdb.com/title/tt0076649/) |
-
-### Settembre
-
-|           |                                       |
-|:----------|:--------------------------------------|
-| 1984-09-22 | [La verginella](https://www.imdb.com/title/tt0153521/) |
-| 1984-09-23 | [Le laureande](https://www.imdb.com/title/tt1370411/) |
-| 1984-09-29 | [Profumo di vergine](https://www.imdb.com/title/tt0198340/) |
-| 1984-09-30 | [Lolita, la governante erotica](https://www.imdb.com/title/tt1389445/) |
-
-### Ottobre
-
-|           |                                       |
-|:----------|:--------------------------------------|
-| 1984-10-02 | [I vendicatori della notte](https://www.imdb.com/title/tt0086625/) |
-| 1984-10-07 | [No... sono vergine!!](https://www.imdb.com/title/tt0146228/) |
-| 1984-10-12 | [L'estate assassina](https://www.imdb.com/title/tt0086655/) |
-| 1984-10-13 | [La fine dell'innocenza](https://www.imdb.com/title/tt0072987/) |
-| 1984-10-14 | [Canadesi supersex](https://www.imdb.com/title/tt0148540/) |
-| 1984-10-15 | [Carnalità](https://www.imdb.com/title/tt0071280/) |
-| 1984-10-19 | [Pornoshow a Montecarlo](https://www.imdb.com/title/tt0127854/) |
-| 1984-10-20 | [Le notti segrete di Lucrezia Borgia](https://www.imdb.com/title/tt0084418/) |
-| 1984-10-21 | [La Vetrina del Piacere (Tout pour jouir)](https://www.imdb.com/title/tt0178949/) |
-| 1984-10-28 | [Fantasie erotiche](https://www.imdb.com/title/tt0074689/) |
-| 1984-10-28 | [Porno libido](https://www.imdb.com/title/tt0077777/) |
-
-### Novembre
-
-|           |                                       |
-|:----------|:--------------------------------------|
-| 1984-11-01 | [Super Sexual Fantasy (Confidences d'une petite culotte)](https://www.imdb.com/title/tt8374372/) |
-| 1984-11-04 | [Rambo](https://www.imdb.com/title/tt0083944/) |
-| 1984-11-17 | [La puneta - 40 anni di sesso](https://www.imdb.com/title/tt0077385/) |
-| 1984-11-18 | [Segretaria particolare](https://www.imdb.com/title/tt0257153/) |
-| 1984-11-25 | [Eroticofollia (Malocchio)](https://www.imdb.com/title/tt0071471/) |
-| 1984-11-30 | [Le evase](https://www.imdb.com/title/tt0077520/) |
-
-### Dicembre
-
-|           |                                       |
-|:----------|:--------------------------------------|
-| 1984-12-02 | [Traffico erotico](https://www.imdb.com/title/tt0065264/) |
-| 1984-12-09 | [La nave del piacere (Sexy Boat)](https://www.imdb.com/title/tt0075302/) |
-| 1984-12-14 | [La collegiale svedese](https://www.imdb.com/title/tt0072999/) |
-| 1984-12-15 | [Tormenti](https://www.imdb.com/title/tt0082506/) |
-| 1984-12-16 | [Indiscrezioni erotiche di un letto malizioso](https://www.imdb.com/title/tt0228728/) |
-| 1984-12-22 | [Giochi di notte](https://www.imdb.com/title/tt0060740/) |
-| 1984-12-22 | [Il corpo](https://www.imdb.com/title/tt0071362/) |
-| 1984-12-23 | [Bruce Lee il dominatore](https://www.imdb.com/title/tt0074246/) |
-| 1984-12-30 | [Quella porno erotica di mia moglie](https://www.imdb.com/title/tt0125914/) |
-
-[^1]: Fonti: [Calendario 1984]({{< relref "programmazione-storica/fonti/1984-01-01-calendario-1984/index.md" >}}), [Note sui manifesti]({{< relref "programmazione-storica/fonti/1965-01-01-note-sui-manifesti/index.md" >}}), [Rubrica 1984-92]({{< relref "programmazione-storica/fonti/1984-01-01-rubrica-1984-92/index.md" >}})
-
+{{% programmazione-tabelle "anni" %}}

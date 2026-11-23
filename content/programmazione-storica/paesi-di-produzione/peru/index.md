@@ -11,11 +11,4 @@ description: Film prodotti in Peru nella programmazione del Cinema Teatro Sestit
   suddivisi per anno.
 image: "/programmazione-storica/paesi-di-produzione/_index_files/figure-html/italia-estero-per-decennio-1.png"
 ---
-<!-- Tabelle generate automaticamente. -->
-
-### 1994
-
-|  |  |
-|---|---|
-| 1994-12-25 | [Lo specialista](https://www.imdb.com/title/tt0111255/) |
-
+{{% programmazione-tabelle "paesi" %}}

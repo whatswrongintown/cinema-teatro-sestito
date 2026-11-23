@@ -1,0 +1,9 @@
+{{- /*
+Axis limits: the data range expanded by 5% per side, like ggplot2 on
+continuous axes. Input: slice of numbers. Returns slice of two floats.
+*/ -}}
+{{- $lo := 1e300 }}{{ $hi := -1e300 }}
+{{- range . }}{{ $lo = math.Min $lo (float .) }}{{ $hi = math.Max $hi (float .) }}{{ end }}
+{{- if eq $lo $hi }}{{ $lo = sub $lo 0.5 }}{{ $hi = add $hi 0.5 }}{{ end }}
+{{- $d := mul 0.05 (sub $hi $lo) }}
+{{- return slice (sub $lo $d) (add $hi $d) }}

@@ -11,17 +11,4 @@ description: Film prodotti in Morocco nella programmazione del Cinema Teatro Ses
   suddivisi per anno.
 image: "/programmazione-storica/paesi-di-produzione/_index_files/figure-html/italia-estero-per-decennio-1.png"
 ---
-<!-- Tabelle generate automaticamente. -->
-
-### 1967
-
-|  |  |
-|---|---|
-| 1967-03-09 | [Marie Chantal contro il dr. Kha](https://www.imdb.com/title/tt0059432/) |
-
-### 2001
-
-|  |  |
-|---|---|
-| 2001-06-10 | [La mummia - Il ritorno](https://www.imdb.com/title/tt0209163/) |
-
+{{% programmazione-tabelle "paesi" %}}

@@ -11,36 +11,4 @@ description: Film prodotti in Colombia nella programmazione del Cinema Teatro Se
   suddivisi per anno.
 image: "/programmazione-storica/paesi-di-produzione/_index_files/figure-html/italia-estero-per-decennio-1.png"
 ---
-<!-- Tabelle generate automaticamente. -->
-
-### 1972
-
-|  |  |
-|---|---|
-| 1972-03-16 | [I disperati di Cuba](https://www.imdb.com/title/tt0891576/) |
-
-### 1974
-
-|  |  |
-|---|---|
-| 1974-11-01 | [...Più forte ragazzi!](https://www.imdb.com/title/tt0069095/) |
-
-### 1976
-
-|  |  |
-|---|---|
-| 1976-01-09 | [La preda](https://www.imdb.com/title/tt0134904/) |
-| 1976-10-21 | [L'amica di mia madre](https://www.imdb.com/title/tt0071131/) |
-
-### 1979
-
-|  |  |
-|---|---|
-| 1979-02-11 | [...Più forte ragazzi!](https://www.imdb.com/title/tt0069095/) |
-
-### 1988
-
-|  |  |
-|---|---|
-| 1988-04-07 | [Django 2 - Il grande ritorno](https://www.imdb.com/title/tt0093113/) |
-
+{{% programmazione-tabelle "paesi" %}}

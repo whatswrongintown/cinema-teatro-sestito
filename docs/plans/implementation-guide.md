@@ -23,7 +23,6 @@ record. Recommendations here do not implement or resolve an item.
 | ID | Work | Priority | Prerequisite / scheduling |
 | --- | --- | --- | --- |
 | [H01-H07](#h01-h07-migration-to-hugo-only) | Replace R/blogdown with Hugo | P2, planned | One step at a time, in the order below |
-| [O02](#o02-poster-notes-source) | "Note sui manifesti" source/category | Deferred | Verified poster-date data |
 | O03 | Resolve country-only film ID `tt0052704` | P2, deferred | Verified external/poster evidence; do not guess |
 | O04 | Explain chart conventions in the methodology | Deferred | Database final since 2026-11-23; ready for a fresh check; see the [R guide](../guides/historical-programming.md#interpretation-and-remaining-editorial-work) |
 | [F03](#f03-film-search) | Add film search | P3 | Agree result model; easier after H03 |
@@ -59,14 +58,10 @@ Recommended order:
    files in the page bundle, remove the `.Rmd` sources and, if unused, the
    `layouts/shortcodes/blogdown/` shortcode and the Rmd mount exclusions in
    `config.yaml`.
-3. **H03 - Historical programming in Hugo.** Read the CSVs with `resources.Get`
-   + `transform.Unmarshal` and render year/source/genre/country tables in
-   templates or shortcodes. Editorial pages keep their front matter and
-   introduction; generated tables disappear from the Markdown. Decide how new
-   year/genre/country pages are created (content adapters need Hugo >= 0.126,
-   so 0.136.5 supports them). Replace PNG index and annual charts with
-   Hugo-generated SVG or a small JS library (open question). Keep the counting
-   conventions documented in the R guide.
+3. **H03 - Historical programming in Hugo (DONE 2026-11-23).** The
+   `programmazione-tabelle` and `grafico` shortcodes render tables and SVG
+   charts from the CSVs; see the
+   [guide](../guides/historical-programming.md).
 4. **H04 - Poster collection in Hugo.** Generate film and browse pages in Hugo
    from `data/posters/films.json` or the CSVs. The web images in
    `static/images/manifesti/` are final: reuse them unchanged; no image
@@ -80,22 +75,6 @@ Recommended order:
 7. **H07 - Clean-up.** Remove replaced R scripts, tests and guides; move any
    analysis code to a non-build folder (for example `analysis/`) excluded from
    Hugo; update CLAUDE.md, README and project status.
-
-## O02: Poster-notes source
-
-**Status:** DEFERRED. Home and the site map already link to the poster
-collection. The remaining issue is the Fonti index link to
-`/categories/note-sui-manifesti/`, which has no backing content.
-
-1. Until data exist, optionally replace the unsupported category link in
-   [Fonti index](../../content/programmazione-storica/fonti/_index.md) with
-   non-linked pending text.
-2. When verified poster-date screenings exist, create one source page titled
-   `Note sui manifesti` with that category (see the
-   [R guide](../guides/historical-programming.md#note-sui-manifesti)); do not
-   invent a historical date for the permalink.
-3. Add only verified records, regenerate, and confirm the category and annual
-   page links work. If H03 is done first, apply the same rules in Hugo.
 
 ## F03: Film search
 

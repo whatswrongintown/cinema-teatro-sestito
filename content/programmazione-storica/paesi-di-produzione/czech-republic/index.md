@@ -11,11 +11,4 @@ description: Film prodotti in Czech Republic nella programmazione del Cinema Tea
   Sestito, suddivisi per anno.
 image: "/programmazione-storica/paesi-di-produzione/_index_files/figure-html/italia-estero-per-decennio-1.png"
 ---
-<!-- Tabelle generate automaticamente. -->
-
-### 2002
-
-|  |  |
-|---|---|
-| 2002-03-03 | [La vera storia di Jack lo Squartatore](https://www.imdb.com/title/tt0120681/) |
-
+{{% programmazione-tabelle "paesi" %}}

@@ -1,0 +1,69 @@
+{{- /*
+Axis values with the "extended" algorithm of Talbot, Lin and Hanrahan (2010),
+as used by ggplot2 (labeling::extended), restricted to the visible range.
+Input: dict "min" "max" (axis limits). Returns floats.
+Port of indici_extended() + indici_breaks() from the former R/update-indici.R.
+The search loops are bounded; they stop earlier through the same score bounds.
+*/ -}}
+{{- $dmin := float .min }}
+{{- $dmax := float .max }}
+{{- $m := 5.0 }}
+{{- $Q := slice 1.0 5.0 2.0 2.5 4.0 3.0 }}
+{{- $nq := float (len $Q) }}
+{{- $w1 := 0.25 }}{{ $w2 := 0.2 }}{{ $w3 := 0.5 }}{{ $w4 := 0.05 }}
+{{- $eps := 2.220446e-14 }}
+{{- $range := sub $dmax $dmin }}
+{{- $best := dict "score" -2.0 }}
+{{- $stop := false }}
+{{- range $j := seq 1 8 }}
+  {{- if $stop }}{{ break }}{{ end }}
+  {{- $j = float $j }}
+  {{- range $qi, $q := $Q }}
+    {{- if $stop }}{{ break }}{{ end }}
+    {{- $sm := sub (sub 2.0 (div (float $qi) (sub $nq 1))) $j }}
+    {{- if lt (add (mul $w1 $sm) $w2 $w3 $w4) $best.score }}{{ $stop = true }}{{ break }}{{ end }}
+    {{- range $k := seq 2 30 }}
+      {{- $k = float $k }}
+      {{- $dm := cond (ge $k $m) (sub 2.0 (div (sub $k 1) (sub $m 1))) 1.0 }}
+      {{- if lt (add (mul $w1 $sm) $w2 (mul $w3 $dm) $w4) $best.score }}{{ break }}{{ end }}
+      {{- $delta := div (div (div $range (add $k 1)) $j) $q }}
+      {{- $z0 := math.Ceil (div (math.Log $delta) (math.Log 10)) }}
+      {{- range $zi := seq 0 12 }}
+        {{- $step := mul $j $q (math.Pow 10 (add $z0 (float $zi))) }}
+        {{- $span := mul $step (sub $k 1) }}
+        {{- $cm := 1.0 }}
+        {{- if gt $span $range }}
+          {{- $half := div (sub $span $range) 2 }}
+          {{- $cm = sub 1.0 (div (mul 0.5 (add (mul $half $half) (mul $half $half))) (math.Pow (mul 0.1 $range) 2)) }}
+        {{- end }}
+        {{- if lt (add (mul $w1 $sm) (mul $w2 $cm) (mul $w3 $dm) $w4) $best.score }}{{ break }}{{ end }}
+        {{- $minStart := sub (mul (math.Floor (div $dmax $step)) $j) (mul (sub $k 1) $j) }}
+        {{- $maxStart := mul (math.Ceil (div $dmin $step)) $j }}
+        {{- if gt $minStart $maxStart }}{{ continue }}{{ end }}
+        {{- range $start := seq (int $minStart) (int $maxStart) }}
+          {{- $lmin := mul (float $start) (div $step $j) }}
+          {{- $lmax := add $lmin (mul $step (sub $k 1)) }}
+          {{- $mod := sub $lmin (mul $step (math.Floor (div $lmin $step))) }}
+          {{- $v := 0.0 }}
+          {{- if and (or (lt $mod $eps) (lt (sub $step $mod) $eps)) (le $lmin 0.0) (ge $lmax 0.0) }}{{ $v = 1.0 }}{{ end }}
+          {{- $simplicity := add (sub $sm 1.0) $v }}
+          {{- $coverage := sub 1.0 (div (mul 0.5 (add (math.Pow (sub $dmax $lmax) 2) (math.Pow (sub $dmin $lmin) 2))) (math.Pow (mul 0.1 $range) 2)) }}
+          {{- $r := div (sub $k 1) (sub $lmax $lmin) }}
+          {{- $rt := div (sub $m 1) (sub (math.Max $lmax $dmax) (math.Min $dmin $lmin)) }}
+          {{- $density := sub 2.0 (math.Max (div $r $rt) (div $rt $r)) }}
+          {{- $score := add (mul $w1 $simplicity) (mul $w2 $coverage) (mul $w3 $density) $w4 }}
+          {{- if gt $score $best.score }}
+            {{- $best = dict "score" $score "lmin" $lmin "lmax" $lmax "step" $step }}
+          {{- end }}
+        {{- end }}
+      {{- end }}
+    {{- end }}
+  {{- end }}
+{{- end }}
+{{- $out := slice }}
+{{- $count := int (math.Round (div (sub $best.lmax $best.lmin) $best.step)) }}
+{{- range $i := seq 0 $count }}
+  {{- $v := add $best.lmin (mul (float $i) $best.step) }}
+  {{- if and (ge $v (sub $dmin 1e-9)) (le $v (add $dmax 1e-9)) }}{{ $out = $out | append $v }}{{ end }}
+{{- end }}
+{{- return $out }}

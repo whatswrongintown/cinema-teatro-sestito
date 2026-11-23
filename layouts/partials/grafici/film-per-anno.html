@@ -1,0 +1,26 @@
+{{- /* Films per year (line), section index "Anni". Input: dict dati alt. */ -}}
+{{- $d := .dati }}
+{{- $pts := $d.anni }}
+{{- $W := 1536.0 }}{{ $H := 576.0 }}
+{{- $sizes := dict "text" 25.76 "axis" 30.91 }}
+{{- $xs := slice }}{{ $ys := slice }}
+{{- range $pts }}{{ $xs = $xs | append .x }}{{ $ys = $ys | append .n }}{{ end }}
+{{- $xlim := partial "grafici/espandi.html" $xs }}
+{{- $ylim := partial "grafici/espandi.html" $ys }}
+{{- $xat := partial "grafici/extended.html" (dict "min" (index $xlim 0) "max" (index $xlim 1)) }}
+{{- $yat := partial "grafici/extended.html" (dict "min" (index $ylim 0) "max" (index $ylim 1)) }}
+{{- $ylabels := partial "grafici/numeri.html" $yat }}
+{{- $p := partial "grafici/indice-pannello.html" (dict "W" $W "H" $H "ylabels" $ylabels "size" $sizes.text "top" 114 "bottom" 95 "xlim" $xlim "ylim" $ylim) }}
+{{- $line := slice }}
+{{- range $pts }}
+  {{- $line = $line | append (printf "%.2f,%.2f" (partial "grafici/indice-xy.html" (dict "p" $p "x" .x)) (partial "grafici/indice-xy.html" (dict "p" $p "y" .n))) }}
+{{- end }}
+<figure class="grafico">
+<svg viewBox="0 0 1536 576" width="768" role="img" aria-label="{{ .alt }}" font-family="Merriweather, serif" style="max-width:100%;height:auto;background:#fff">
+<title>{{ .alt }}</title>
+<polyline points="{{ delimit $line " " }}" fill="none" stroke="#CBF8DF" stroke-width="6.8" stroke-linejoin="round"/>
+<text x="{{ printf "%.2f" $p.p1 }}" y="29" font-size="36.06" dominant-baseline="central">Un viaggio nella sala buia</text>
+<text x="{{ printf "%.2f" $p.p1 }}" y="80" font-size="30.91" dominant-baseline="central">Frequenza dei film proposti dal {{ $d.primoAnno }} al {{ $d.ultimoAnno }}</text>
+{{ partial "grafici/indice-assi.html" (dict "p" $p "xat" $xat "xlabels" (partial "grafici/numeri.html" $xat) "yat" $yat "ylabels" $ylabels "xtitle" "Anni" "ytitle" "Numero di film" "sizes" $sizes) }}
+</svg>
+</figure>

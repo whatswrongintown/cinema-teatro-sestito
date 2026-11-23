@@ -1,0 +1,41 @@
+{{- /* Share of each genre per decade (heat map), section index "Generi". Input: dict dati alt. */ -}}
+{{- $d := .dati }}
+{{- $W := 1536.0 }}{{ $H := 960.0 }}
+{{- $sizes := dict "text" 25.76 "axis" 30.91 }}
+{{- $decenni := $d.decenni }}
+{{- /* Most frequent genre at the top: row 1 is the least frequent. */ -}}
+{{- $generi := slice }}
+{{- range $i, $_ := $d.ordineGeneri }}{{ $generi = $generi | append (index $d.ordineGeneri (sub (len $d.ordineGeneri) 1 $i)) }}{{ end }}
+{{- $xlim := slice 0.4 (add (float (len $decenni)) 0.6) }}
+{{- $ylim := slice 0.4 (add (float (len $generi)) 0.6) }}
+{{- $lo := 1e300 }}{{ $hi := -1e300 }}
+{{- range $d.generi }}{{ $lo = math.Min $lo .prop }}{{ $hi = math.Max $hi .prop }}{{ end }}
+{{- $fillAt := partial "grafici/extended.html" (dict "min" $lo "max" $hi) }}
+{{- $fillLabels := partial "grafici/numeri.html" $fillAt }}
+{{- $legend := partial "grafici/larghezza.html" (dict "text" "Percentuale" "size" 30.91) }}
+{{- range $fillLabels }}{{ $legend = math.Max $legend (add 61 (partial "grafici/larghezza.html" (dict "text" . "size" 25.76))) }}{{ end }}
+{{- $p := partial "grafici/indice-pannello.html" (dict "W" $W "H" $H "ylabels" $generi "size" $sizes.text "top" 67 "bottom" 94 "legend" $legend "xlim" $xlim "ylim" $ylim) }}
+{{- $cols := slice }}{{ range $i, $_ := $decenni }}{{ $cols = $cols | append (add (float $i) 1) }}{{ end }}
+{{- $rows := slice }}{{ range $i, $_ := $generi }}{{ $rows = $rows | append (add (float $i) 1) }}{{ end }}
+<figure class="grafico">
+<svg viewBox="0 0 1536 960" width="768" role="img" aria-label="{{ .alt }}" font-family="Merriweather, serif" style="max-width:100%;height:auto;background:#fff">
+<title>{{ .alt }}</title>
+{{- range $ri, $g := $generi }}
+  {{- $r := add (float $ri) 1 }}
+  {{- range $ci, $dec := $decenni }}
+    {{- $c := add (float $ci) 1 }}
+    {{- with where (where $d.generi "genere" $g) "x" (float $dec) }}
+      {{- $t := index . 0 }}
+      {{- $xa := partial "grafici/indice-xy.html" (dict "p" $p "x" (sub $c 0.5)) }}
+      {{- $xb := partial "grafici/indice-xy.html" (dict "p" $p "x" (add $c 0.5)) }}
+      {{- $ya := partial "grafici/indice-xy.html" (dict "p" $p "y" (add $r 0.5)) }}
+      {{- $yb := partial "grafici/indice-xy.html" (dict "p" $p "y" (sub $r 0.5)) }}
+<rect x="{{ printf "%.2f" $xa }}" y="{{ printf "%.2f" $ya }}" width="{{ printf "%.2f" (sub $xb $xa) }}" height="{{ printf "%.2f" (sub $yb $ya) }}" fill="{{ partial "grafici/colore.html" (dict "v" $t.prop "min" $lo "max" $hi) }}" stroke="#fff" stroke-width="1.4"><title>{{ $g }}, anni {{ $dec }}: {{ printf "%.1f" (mul 100 $t.prop) }}%</title></rect>
+    {{- end }}
+  {{- end }}
+{{- end }}
+<text x="{{ printf "%.2f" (div (add $p.p1 $p.p2) 2) }}" y="29" font-size="36.06" text-anchor="middle" dominant-baseline="central">Dominanza dei generi per decennio</text>
+{{ partial "grafici/indice-assi.html" (dict "p" $p "xat" $cols "xlabels" $decenni "yat" $rows "ylabels" $generi "xtitle" "Decennio" "ytitle" "Genere" "sizes" $sizes) }}
+{{ partial "grafici/indice-legenda.html" (dict "p" $p "id" "legenda-generi" "title" "Percentuale" "limits" (slice $lo $hi) "breaks" $fillAt "labels" $fillLabels "width" $legend) }}
+</svg>
+</figure>

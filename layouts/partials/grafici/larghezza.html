@@ -1,0 +1,13 @@
+{{- /*
+Estimated width of a text in Merriweather Regular, in the same unit as size.
+Input: dict "text" <string> "size" <font size>. Glyph widths (em) come from
+data/grafici/merriweather.json, measured once from the site font; kerning is
+ignored.
+*/ -}}
+{{- $font := site.Data.grafici.merriweather }}
+{{- $em := 0.0 }}
+{{- $default := float $font.default }}
+{{- range split .text "" }}
+  {{- with index $font.widths . }}{{ $em = add $em (float .) }}{{ else }}{{ $em = add $em $default }}{{ end }}
+{{- end }}
+{{- return mul $em (float .size) }}

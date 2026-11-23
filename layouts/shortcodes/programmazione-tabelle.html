@@ -1,0 +1,72 @@
+{{- /*
+Historical programming tables, built from static/data/*.csv at build time.
+Use with Markdown notation so footnotes and tables render like the rest of
+the page:  {{% programmazione-tabelle "anni" %}}
+Modes:
+  anni    tables by month for the page's params.anno, with a sources footnote
+  fonti   tables by month (and by year when several) for the source page title
+  generi  tables by year for the genre page title
+  paesi   tables by year for the country page title
+*/ -}}
+{{- $mode := .Get 0 }}
+{{- $page := .Page }}
+{{- $dati := partialCached "programmazione/dati.html" . "programmazione" }}
+{{- $mesi := dict "01" "Gennaio" "02" "Febbraio" "03" "Marzo" "04" "Aprile" "05" "Maggio" "06" "Giugno" "07" "Luglio" "08" "Agosto" "09" "Settembre" "10" "Ottobre" "11" "Novembre" "12" "Dicembre" }}
+{{- $ordineMesi := slice "01" "02" "03" "04" "05" "06" "07" "08" "09" "10" "11" "12" }}
+{{- $key := lower (strings.TrimSpace $page.Title) }}
+
+{{- if eq $mode "anni" }}
+  {{- $rows := index $dati.gruppi (printf "anni|%v" $page.Params.anno) }}
+  {{- if not $rows }}{{ errorf "programmazione-tabelle: nessuna proiezione per l'anno %v (%s)" $page.Params.anno $page.File.Path }}{{ end }}
+  {{- $first := true }}
+  {{- range $ordineMesi }}
+    {{- with where $rows "month" . }}
+### {{ index $mesi (index . 0).month }}{{ if $first }}[^1]{{ $first = false }}{{ end }}
+
+|           |                                       |
+|:----------|:--------------------------------------|
+{{ range . }}{{ .md | safeHTML }}
+{{ end }}
+    {{- end }}
+  {{- end }}
+  {{- $keys := slice }}
+  {{- range $rows }}{{ $keys = $keys | append .sources }}{{ end }}
+  {{- $links := slice }}
+  {{- range sort (uniq $keys) }}
+    {{- with index $dati.sources . }}{{ $links = $links | append . }}{{ else }}{{ errorf "programmazione-tabelle: scheda fonte mancante per %q" . }}{{ end }}
+  {{- end }}
+[^1]: Fonti: {{ delimit (uniq $links) ", " | safeHTML }}
+{{ else }}
+  {{- if not (in (slice "fonti" "generi" "paesi") $mode) }}{{ errorf "programmazione-tabelle: modalita' sconosciuta %q (%s)" $mode $page.File.Path }}{{ end }}
+  {{- $rows := index $dati.gruppi (printf "%s|%s" $mode $key) }}
+  {{- if not $rows }}{{ warnf "programmazione-tabelle: nessuna proiezione per %q (%s)" $page.Title $page.File.Path }}{{ end }}
+  {{- $years := slice }}
+  {{- range $rows }}{{ $years = $years | append .year }}{{ end }}
+  {{- $years = uniq $years }}
+  {{- range $years }}
+    {{- $yearRows := where $rows "year" . }}
+    {{- if eq $mode "fonti" }}
+      {{- if gt (len $years) 1 }}
+## {{ . }}
+
+      {{- end }}
+      {{- range $ordineMesi }}
+        {{- with where $yearRows "month" . }}
+### {{ index $mesi (index . 0).month }}
+
+|  |  |
+|---|---|
+{{ range . }}{{ .md | safeHTML }}
+{{ end }}
+        {{- end }}
+      {{- end }}
+    {{- else }}
+### {{ . }}
+
+|  |  |
+|---|---|
+{{ range $yearRows }}{{ .md | safeHTML }}
+{{ end }}
+    {{- end }}
+  {{- end }}
+{{- end }}

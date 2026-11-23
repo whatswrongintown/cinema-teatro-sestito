@@ -15,8 +15,8 @@ item's status.
   `hugo server` / `hugo`; blogdown is no longer used. R scripts still hold the
   generators but are being phased out (section 6).
 - Netlify runs Hugo only, not R or knitr. Commit generated Markdown and charts.
-- Historical programming: 3 CSVs in static/data -> local R scripts -> pages,
-  tables and PNG charts -> commit -> Netlify publishes.
+- Historical programming: 3 CSVs in static/data. Since 2026-11-23 Hugo builds
+  the tables and SVG charts from them (H03).
 - Poster collection: private local originals in manifesti/ -> local R script ->
   pages, data/posters/films.json and web images -> commit (docs/posters.md).
 - Source-page counts checked 2026-11-17: 7 article bundles; 26 archive Markdown
@@ -36,7 +36,6 @@ item's status.
 - update-indici.R generates the six summary PNG charts for the four section
   indexes. Obsolete programming index _index.Rmd files were removed; the two
   article Rmd sources were removed in H02.
-- update-fonti.R accepts "Note sui manifesti"; the source page is still pending.
 - 2026-11-17: full generator run in an isolated Git worktree: Markdown unchanged;
   three summary PNGs had small binary differences and were not copied back.
 
@@ -78,23 +77,26 @@ item's status.
 - V01 2026-11-18: Hugo 0.136.5 production and -F preview builds passed at 404
   pages and 2,620 processed images (before the poster collection). Metadata,
   sitemap, robots, aliases, local assets and internal links passed, except the
-  known O02 destination. No horizontal overflow at 320-1280 px on nine
+  then-open O02 destination. No horizontal overflow at 320-1280 px on nine
   representative pages. No Netlify form-limit scenario was tested.
+- O02 DONE (found 2026-11-23): the "Note sui manifesti" source page
+  (content/programmazione-storica/fonti/1965-01-01-note-sui-manifesti/, added
+  2026-11-20) exists with its category; /categories/note-sui-manifesti/ returns
+  200 and the Fonti index links to the page. Its `description` is still an
+  English placeholder ("Screenings from this source in the cinema archive.").
 
 ## 3. OPEN ITEMS
-### DEFERRED O02 - "Note sui manifesti" source/category
-  The Fonti index links to /categories/note-sui-manifesti/ without backing
-  content. Create the source page when verified data exist; do not invent the
-  historical source.
 ### DEFERRED O03 - Country-only film ID
   programmazione_paesi.csv has one ID, tt0052704, with no screening or IMDb row.
   Reconcile it with verified evidence; do not delete it or guess a match.
 ### DEFERRED O04 - Chart convention explanations
   The genre chart drops "Drammatico" from films with several expanded rows
   (also repeated Drammatico-only films), and missing genres count as not adult.
-  The methodology prose does not fully explain this. Decision: explain the
-  conventions, do not recalculate charts. The database is final since
-  2026-11-23, so this item (like O02 and O03) is no longer blocked on data.
+  The methodology prose does not fully explain this. Also noted 2026-11-23:
+  the "distinct countries per decade" chart counts screenings without a
+  country as one extra value. Decision: explain the conventions, do not
+  recalculate charts. The database is final since
+  2026-11-23, so this item (like O03) is no longer blocked on data.
 ### DOING M01 - Routine form/privacy operations
   Monitor spam and usage; retain/delete messages according to the approved
   notice. The optional publication follow-up is not permission to publish.
@@ -151,6 +153,11 @@ before removing any R code. Steps: docs/plans/implementation-guide.md.
 | --- | --- | --- |
 | H01 | Hugo (`hugo server` / `hugo`) as the local tool instead of blogdown | DONE 2026-11-23 |
 | H02 | Convert the two article `index.Rmd` files to plain Markdown; remove blogdown leftovers | DONE 2026-11-23 |
+| H03 | Historical programming tables and charts built by Hugo from the CSVs | DONE 2026-11-23 |
+| H04 | Poster pages and data built by Hugo (images stay as they are) | TODO |
+| H05 | Hugo-native dashboard replacing the Shiny app and iframe | TODO |
+| H06 | Non-R tool (or retained utility) for source PDF conversion | TODO |
+| H07 | Remove replaced R scripts/tests/docs; keep analysis code outside the build | TODO |
 
 H01/H02 (2026-11-23): a plain `hugo` build without blogdown produced 1,677
 pages and 2,620 processed images with no warnings. Removed `.Rprofile`, the
@@ -161,24 +168,35 @@ were newer than the Rmd sources). Their three charts moved to the bundles'
 `images/` folders with descriptive names and were checked in `hugo server`.
 The chart R code remains in Git history. `.claude/launch.json` defines the
 `hugo server` preview. The RStudio project stays for exploratory analysis.
-| H03 | Historical programming pages, tables and charts built by Hugo from the CSVs | TODO |
-| H04 | Poster pages and data built by Hugo (images stay as they are) | TODO |
-| H05 | Hugo-native dashboard replacing the Shiny app and iframe | TODO |
-| H06 | Non-R tool (or retained utility) for source PDF conversion | TODO |
-| H07 | Remove replaced R scripts/tests/docs; keep analysis code outside the build | TODO |
+
+H03 tables (2026-11-23): the 238 year/source/genre/country pages no longer
+contain tables (54,030 generated lines removed). The shortcode
+`programmazione-tabelle` and the partial `programmazione/dati.html` render them
+from the CSVs at build time. All 2,937 HTML/XML output files were compared with
+the previous output: identical apart from the removed HTML comments and one
+title the R tables had not picked up from a later CSV correction (1992,
+"Chiamami… Bestial play best"). Year pages got `<!--more-->` so RSS summaries
+stay as before. Existing pages are kept (no content adapter: the data are
+final). The R table generators must no longer be run (they would rewrite the
+pages); they go in H07. Details: docs/guides/historical-programming.md.
+
+H03 charts (2026-11-23, owner chose SVG drawn by Hugo): the 114 annual charts
+and 6 index charts are inline SVG from the `grafico` shortcode, reproducing the
+R layout, including the IMDb title-label placement (glyph widths in
+data/grafici/merriweather.json). All index aggregates and, for every year, the
+monthly counts, axis values and rated-screening counts were compared with the
+R functions: identical. Visual checks against the PNGs passed. 61 unused PNGs
+were deleted; the 59 PNGs named in front matter `image:` stay as social preview
+images. Full build: about 40 s (43 s before H03).
 
 Because the data are final (section 4), the migration is about maintainability
-and presentation, not a data pipeline. For H03/H04 an acceptable fallback is to
-keep the already generated Markdown as ordinary committed content and simply
-remove the R generators.
+and presentation, not a data pipeline.
 
-Open questions: charts as Hugo-generated SVG or a small JavaScript library;
-whether new programming pages are created by a Hugo content adapter; whether a
-Hugo upgrade is part of the migration.
+Open question: whether a Hugo upgrade is part of the migration.
 
 ## 7. DOCUMENTATION MAINTENANCE
 - 2026-11-23: documentation reviewed. Removed: the Phase 1/2 audit logs (their
-  open items are O02 and O03 above), the Copilot poster-section prompt, the
+  open items were O02 and O03), the Copilot poster-section prompt, the
   superseded poster proposal/technical plan and the Netlify upload research.
   All remain in Git history.
 - Use this file for current status, docs/proposals/ for feature proposals,

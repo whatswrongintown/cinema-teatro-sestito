@@ -11,23 +11,4 @@ description: Film prodotti in Hungary nella programmazione del Cinema Teatro Ses
   suddivisi per anno.
 image: "/programmazione-storica/paesi-di-produzione/_index_files/figure-html/italia-estero-per-decennio-1.png"
 ---
-<!-- Tabelle generate automaticamente. -->
-
-### 1949
-
-|  |  |
-|---|---|
-| 1949-11-16 | [È accaduto in Europa](https://www.imdb.com/title/tt0039949/) |
-
-### 1969
-
-|  |  |
-|---|---|
-| 1969-05-29 | [I dolci vizi... della casta Susanna](https://www.imdb.com/title/tt0062499/) |
-
-### 1972
-
-|  |  |
-|---|---|
-| 1972-01-04 | [La battaglia del talismano verde](https://www.imdb.com/title/tt0062925/) |
-
+{{% programmazione-tabelle "paesi" %}}

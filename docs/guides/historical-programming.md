@@ -1,21 +1,14 @@
-# Historical programming: R scripts
+# Historical programming
 
-How the "Programmazione storica" section is generated. Run everything from the
-project root. Netlify only runs Hugo, so generated files (pages, tables, PNG
-charts) must be committed.
+How the "Programmazione storica" section is built. The data are final
+(2026-11-23), so nothing here needs to run for new data; this guide explains
+how the pages work and how to change their presentation.
 
-This is the current workflow. It is planned to be replaced by Hugo (items
-H03, H05 and H06 in [project status](../project-status.md#6-migration-to-hugo-only));
-update or remove the sections below as each replacement is published.
+Status of the Hugo-only migration
+([project status, section 6](../project-status.md#6-migration-to-hugo-only)):
 
-## Requirements
-
-Base R plus `yaml` (page metadata) and `showtext` / `sysfonts` (chart font).
-Charts use Merriweather, always read from
-`static/fonts/merriweather-v13-latin-regular.woff`: no download, and the scripts
-stop with an error if the file is missing. `renv` is not used.
-The optional PDF image conversion also needs `pdftools` and `magick`, with
-WebP support in ImageMagick.
+- **Tables and charts:** built by Hugo from the CSVs since 2026-11-23 (H03).
+- **Dashboard:** still the Shiny app (H05). **Source PDF images:** R script (H06).
 
 ## Data
 
@@ -23,173 +16,131 @@ Three CSV files in `static/data/`:
 
 | File | Content |
 | --- | --- |
-| `programmazione_agende.csv` | screenings (`date`, `const`, `title`, `source`, ...) |
+| `programmazione_agende.csv` | screenings (`date`, `const`, `title`, `source`, ...), sorted by date |
 | `programmazione_imdb.csv` | IMDb details, URLs and genres (`Const`, `Genres`, `URL`, ...) |
 | `programmazione_paesi.csv` | production countries (`const`, `country`) |
 
-The scripts check dates (`YYYY-MM-DD`), required columns and unique IDs, and stop
-on errors. Several sources, genres or countries in one cell are separated by
-commas; names are case-insensitive.
+Several sources, genres or countries in one cell are separated by commas;
+values are trimmed and matched case-insensitively. 55 screenings have no IMDb ID
+and are shown without a link. The extra country ID `tt0052704` (O03) has no
+screening and is ignored by the pages.
 
-Read-only CSV check on 2026-11-17: 5,290 screening rows, 4,567 distinct screening
-film IDs and IMDb records, and 4,568 country records. Every screening ID has an
-IMDb row; the extra country ID `tt0052704` still needs reconciliation with the
-poster data. It is deferred, not silently deleted or assigned a guessed match.
+## Tables (Hugo)
 
-## Scripts
+Every year, source, genre and country page ends with the shortcode
 
-| Script | Function | What it writes |
+```text
+{{% programmazione-tabelle "anni" %}}    (or "fonti", "generi", "paesi")
+```
+
+which renders the tables at build time:
+
+| Mode | Page filter | Layout |
 | --- | --- | --- |
-| `R/update-anni.R` | `update_anni(years = NULL)` | one page per year with two charts (monthly screenings, IMDb rating vs votes) |
-| `R/update-fonti.R` | `update_fonti(sources = NULL)` | tables (by year and month) in every source page |
-| `R/update-generi.R` | `update_generi(genres = NULL)` | genre pages (tables by year) |
-| `R/update-paesi.R` | `update_paesi(countries = NULL)` | country pages (tables by year) |
-| `R/update-indici.R` | `update_indici(sections)` | the summary charts shown in the section indexes |
-| `R/update-programmazione-storica.R` | `update_programmazione_storica()` | everything above, checking all sections before writing |
-| `R/fonti_pdf_to_images.R` | `fonti_pdf_to_images()` | WebP images for each PDF in `programmazione_storica_pdf/` |
+| `anni` | rows whose year equals the page's `params.anno` | one table per month; first month carries footnote `[^1]` listing the year's sources |
+| `fonti` | rows whose `source` list contains the page title | one table per month, under `## <year>` headings when the source spans several years |
+| `generi` | rows whose IMDb `Genres` contain the page title | one table per year |
+| `paesi` | rows whose country list contains the page title | one table per year |
 
-```r
-source("R/update-programmazione-storica.R")
-update_programmazione_storica()            # after changing the CSV files
+Files:
 
-source("R/update-anni.R")
-update_anni(years = c(1948, 1960))         # selected years only
-update_anni(years = 1960, lastmod = "2026-11-18") # when data/content changed
+- `layouts/partials/programmazione/dati.html` reads the three CSVs once per
+  build (`partialCached`), joins IMDb URLs/genres and countries by film ID,
+  escapes titles for Markdown tables, and maps source titles to their pages.
+  The poster-date source can be written `Note sui manifesti`, `note_su_manifesti`
+  and similar variants; all link to the "Note sui manifesti" source page.
+- `layouts/shortcodes/programmazione-tabelle.html` filters and formats the rows.
+  It must be called with `{{% %}}` so the output is processed as Markdown.
 
-source("R/update-fonti.R")
-update_fonti(sources = "Calendario 1951")
+Rules for editing pages:
 
-source("R/update-indici.R")
-update_indici(sections = "generi")         # anni, fonti, generi or paesi
+- Edit front matter, introductions and galleries freely; keep the shortcode as
+  the last line. Never paste tables into the Markdown.
+- Year pages have `<!--more-->` before the tables (before the partial-year note
+  on 1960 and 1961) so RSS summaries contain only the introduction.
+- A page's title is its matching key: renaming a source, genre or country page
+  title breaks its table (the build warns when a page has no rows, and fails
+  when a year page has no rows or a source has no page).
+
+Verification (2026-11-23): all 2,937 HTML/XML files were compared with the
+previous R-generated output. Apart from the removed HTML comments, the only
+difference was one title the R tables had not picked up from a later CSV
+correction (`Chiamami… Bestial play best`, 1992).
+
+## Charts (Hugo, inline SVG)
+
+Charts are drawn by Hugo as inline SVG with the shortcode
+
+```text
+{{< grafico nome="<name>" alt="<accessible description>" >}}
 ```
 
-Each section script can also be run with `Rscript R/update-<section>.R`.
-Updating a section without a selection also regenerates its index charts; a
-selection leaves them untouched.
+| Name | Page | Chart |
+| --- | --- | --- |
+| `anno-mensile` | every year page | screenings per month (bars), total in the title |
+| `anno-imdb` | every year page | IMDb rating vs votes (log scale) with film titles where there is room |
+| `film-per-anno` | Anni index | screenings per year (line), 1960 and 1961 excluded |
+| `fonti-per-decennio` | Fonti index | source-entry associations per source type and decade (heat map) |
+| `generi-per-decennio` | Generi index | share of each genre per decade (heat map) |
+| `film-per-adulti-per-anno` | Generi index | yearly share of "Per adulti" screenings (area, 50% line) |
+| `italia-estero-per-decennio` | Paesi index | Italian vs foreign share per decade (stacked bars) |
+| `paesi-per-decennio` | Paesi index | distinct production countries per decade (line) |
 
-The sitemap uses only explicit `lastmod` front matter. For a meaningful annual
-page/data update, pass the editorial modification date through `update_anni()`.
-Do not set it merely because Hugo or an unchanged data set was rebuilt.
+Files in `layouts/`:
 
-## Source PDF images
+- `shortcodes/grafico.html` picks the rows (year pages) or the aggregates
+  (index pages) and calls the chart partial of the same name in
+  `partials/grafici/`.
+- `partials/programmazione/indici.html` computes the index aggregates once per
+  build (rules below).
+- Helpers in `partials/grafici/`: `pretty.html` (R's `pretty()`, monthly axis),
+  `extended.html` (ggplot2's "extended" axis algorithm), `espandi.html` (5%
+  range expansion), `numeri.html` (common decimals, like R's `format()`),
+  `larghezza.html` (text width), `indice-pannello.html`, `indice-xy.html`,
+  `indice-assi.html`, `indice-legenda.html`, `colore.html`.
+- `data/grafici/merriweather.json`: glyph widths (em) of Merriweather Regular,
+  measured once from `static/fonts/merriweather-v13-latin-regular.woff`. Hugo
+  cannot measure text, so the IMDb chart uses them to place title labels without
+  overlaps (most isolated points first, 8 positions on 3 rings; titles without
+  room are omitted, as in R). Characters missing from the file use an average
+  width.
 
-From the project root, install `pdftools` and `magick`, then run:
+Layout, sizes, colours (`#CBF8DF` mint, `#E5E5E5` grey) and text positions
+reproduce the former R charts (8 inches wide; annual charts in points, index
+charts in 192-dpi pixels). Heat-map colours are interpolated in RGB instead of
+CIELAB; with these two close colours the difference is barely visible. Heat-map
+tiles and stacked bars carry a tooltip (`<title>`) with their value. The SVG
+scales with the page (`max-width: 100%`).
 
-```r
-source("R/fonti_pdf_to_images.R")
-fonti_pdf_to_images()
-```
+Verification (2026-11-23): all index aggregates (years, source tiles, genre
+counts, shares and order, adult and Italian shares, distinct countries) and,
+for all 57 years, the monthly counts, axis values and number of rated
+screenings were compared with the R functions: all identical. The charts were
+checked visually against the PNGs; the IMDb labels chosen are almost the same
+as R's. A full `hugo` build takes about 40 s.
 
-Alternatively run `Rscript R/fonti_pdf_to_images.R`. Each PDF is rendered one
-page at a time at 200 dpi, then saved as lossy sRGB WebP (quality 85, maximum
-width 1800 pixels, without metadata). Images are written to
-`static/images/programmazione_storica/<pdf-name>/`; the PDF name is lowercased
-and spaces and hyphens become underscores. Pages are numbered starting at 01,
-using additional digits for PDFs with 100 or more pages.
+Social previews: SVG cannot be used as an Open Graph image, so the PNGs still
+named in front matter `image:` are kept as static files: the 57 annual
+`proiezioni-mensili.png`, `generi-per-decennio-1.png` (genre pages) and
+`italia-estero-per-decennio-1.png` (country pages and index). The other R chart
+PNGs were deleted. The data are final, so these images do not go stale.
 
-Before regenerating a PDF, the script deletes existing image files in its output
-folder. It reports failures and continues with the remaining PDFs; a failed PDF
-may leave a partial image set. PDFs that normalize to the same folder are
-rejected to avoid overwriting one another. The command-line script exits with an
-error if any PDF failed. Commit the desired generated images for publication.
-Run the focused conversion checks with `Rscript tests/test-fonti-pdf-to-images.R`.
+**Do not run the old R generators** (`update_anni()`, `update_fonti()`,
+`update_generi()`, `update_paesi()`, `update_indici()`,
+`update_programmazione_storica()`): they would write tables and PNG references
+back into the pages. They are removed in H07.
 
-The PDF converter does not change content. After conversion, run
-`update_fonti()` to update the source pages' `image`, gallery shortcode and
-`galleryDescriptions` key together. Existing source-page folder names can differ
-from PDF names, so the updater matches the original image filenames to the new
-folders and includes four verified exceptions. It retains the old references and
-warns if the match is ambiguous, images are missing or page counts differ.
-Existing per-image descriptions require manual review before migration; the
-updater preserves them rather than assigning descriptions to the wrong pages.
-There is no automated test for the gallery matching; review the warnings.
+Index aggregation rules (from the former `R/update-indici.R`):
 
-## Shiny dashboard
-
-The historical-programming article embeds a separately hosted Shiny app. From
-the project root, install the R packages `shiny`, `DT`, `showtext`, and
-`sysfonts`, then run it locally:
-
-```r
-shiny::runApp("R/shinyapp_dashboard")
-```
-
-The dashboard reads the authoritative programming and IMDb CSVs from
-`static/data/` and local fonts from `static/fonts/`. The year selector affects
-all tabs; director and genre filters affect only the table. Monthly counts
-represent dated entries, while genre and director summaries count distinct films.
-The IMDb chart shows recorded film titles where space permits, using the annual
-charts' label-placement helper. Its values table lists all rated films with
-positive vote counts, including those without a visible label.
-
-To publish to the existing shinyapps.io app, configure the `rsconnect` account
-first and, from the project root, explicitly run:
-
-```r
-source("R/shinyapp_dashboard/deploy.R")
-deploy_dashboard()
-```
-
-This stages the app, current CSVs, fonts and shared annual-chart helper in a
-temporary deployment bundle, using the existing deployment record. The bundle
-is removed afterwards. Changes to `static/data/` require a new deployment;
-a Hugo/Netlify build alone does not update the hosted app. Verify the app and
-embedded iframe after deployment. There is no automated dashboard test; check
-the app locally with `shiny::runApp()` before deploying. The dashboard is
-planned to be replaced by a Hugo page (H05).
-
-## Pages and metadata
-
-- Generated tables, annual pages and charts are overwritten: change the data, not
-  the pages. Old annual pages are never deleted automatically (a warning is shown).
-- Annual pages get a year-specific description, `params.anno`, and their monthly
-  chart as `image`.
-- Source, genre and country pages keep their introduction and metadata. A source
-  page needs front matter and the line `<!-- Tabelle generate automaticamente. -->`
-  before the tables; its title must match the `source` value. A missing page makes
-  `update_fonti()` stop with "Creare prima le schede delle fonti".
-- Source pages use the first image in the matched
-  `static/images/programmazione_storica/<folder>/` gallery as `image`. Where no
-  gallery match can be verified, existing references are preserved and a warning
-  is shown.
-- New genre and country pages are created from the database, with a title-specific
-  description. Their URLs are section-based (`/programmazione-storica/generi/commedia/`);
-  an older dated URL is kept as a Hugo alias.
-
-## Note sui manifesti
-
-The required future source page,
-`content/programmazione-storica/fonti/<folder>/index.md`, titled
-`Note sui manifesti` (or `Note su manifesti`), lists the screenings whose date is
-written on the film poster, by year and month. The database value can be
-`note_su_manifesti`, `Note sui manifesti` or `Note su manifesti` (also singular):
-all fill that page. The annual pages link the source to it; until the page exists
-they link to the sources index. Give the page the category `Note sui manifesti`
-so that `/categories/note-sui-manifesti/` works.
-
-That page/category has not yet been created in this copy. The Fonti index still
-links to the category without backing content; do not describe the link as fixed.
-
-## Section index charts
-
-The index text lives only in each `_index.md`; the scripts never rewrite it. The
-charts are PNG files in
-`static/programmazione-storica/<section>/_index_files/figure-html/`:
-
-| Section | File |
-| --- | --- |
-| anni | `film-per-anno-1.png` |
-| fonti | `fonti-per-decennio-1.png` |
-| generi | `generi-per-decennio-1.png`, `film-per-adulti-per-anno-1.png` |
-| paesi-di-produzione | `italia-estero-per-decennio-1.png`, `paesi-per-decennio-1.png` |
-
-The obsolete programming section `_index.Rmd` files have been removed, and the
-two article `index.Rmd` sources were converted to plain Markdown (H02).
-
-Chart conventions: 1536 px wide (8 in at 192 dpi), the same text proportions as
-the former knitr charts, and the same numbers as the original tidyverse code.
-The sources chart classifies a source by name (Appunti, Rubriche, Calendari,
-Note sui manifesti; everything else counts as Agende).
+- Sources are typed by name, in this order: Appunti (`cif`, `italautogamma`,
+  `europe`, `victory`), Note sui manifesti (`manifest`), Calendari
+  (`calendario`), Rubriche (`rubric`); everything else counts as Agende.
+- Genres: one association per genre of the screening; `Drammatico` is dropped
+  for films with more than one genre row across all their screenings; shares
+  are per decade; rows are ordered by total, then name.
+- Italian share: country associations containing "Italy" over all associations
+  of the decade; screenings without countries count once as foreign.
+- Distinct countries per decade count a missing country as one value.
 
 ### Interpretation and remaining editorial work
 
@@ -198,37 +149,37 @@ daily projections. Source charts count source-entry associations; country charts
 count country-entry associations, including coproductions. The methodology
 article already explains those distinctions.
 
-The existing genre calculation removes `Drammatico` when a film has more than
-one expanded row, so it also removes repeated Drammatico-only films, not just
-films with several genres. Missing genres count as not adult in the adult-share
+The genre calculation removes `Drammatico` when a film has more than one
+expanded row, so it also removes repeated Drammatico-only films, not just films
+with several genres. Missing genres count as not adult in the adult-share
 calculation. The methodology/index prose does not yet fully explain these two
-behaviors; see O04 in [project status](../project-status.md).
+behaviours; see O04 in [project status](../project-status.md). Decision: explain
+the conventions, do not recalculate the charts. The Hugo charts reproduce these
+conventions; if one is ever changed, update the prose at the same time.
 
-Earlier analysis recorded 62 films / 126 rows affected by the repeated
-Drammatico-only exclusion, 104 missing-genre rows, and 7,126 country associations.
-These detailed figures were not recalculated in the documentation review.
-Decision: explain the conventions and review chart prose, not recalculate charts.
-The scripts do not rewrite editorial introductions; do not edit generated tables
-to try to fix explanatory text.
+## Source PDF images (R, H06)
 
-## Checks done on the rewrite (2026-11-16)
+From the project root, install `pdftools` and `magick`, then run
+`source("R/fonti_pdf_to_images.R"); fonti_pdf_to_images()` (or
+`Rscript R/fonti_pdf_to_images.R`). Each PDF in `programmazione_storica_pdf/`
+is rendered at 200 dpi and saved as WebP (quality 85, maximum width 1800 px,
+no metadata) in `static/images/programmazione_storica/<pdf-name>/`; existing
+images in that folder are deleted first. Checks:
+`Rscript tests/test-fonti-pdf-to-images.R`. Since the sources are final, this is
+only needed to replace a scan; update the source page's `image`, gallery path
+and `galleryDescriptions` key by hand afterwards.
 
-- Source, genre and country pages and the 57 annual pages are identical to the
-  output of the previous tidyverse scripts; a full run on a copy of the project
-  left all 241 pages unchanged.
-- Chart data match the original R Markdown code; text sizes and positions match
-  the published charts within a few pixels.
-- A full update takes about 20 s, against about 40 s for the previous scripts
-  (measured without the font download, which made them slower still).
+## Shiny dashboard (R, H05)
 
-## Recorded follow-up and review limits (2026-11-17)
+The methodology article embeds a separately hosted Shiny app in
+`R/shinyapp_dashboard`. Run it locally with
+`shiny::runApp("R/shinyapp_dashboard")` (packages `shiny`, `DT`, `showtext`,
+`sysfonts`). It reads the CSVs from `static/data/` and fonts from
+`static/fonts/`. The year selector affects all tabs; director and genre filters
+affect only the table. Monthly counts represent dated entries; genre and
+director summaries count distinct films.
 
-The project status records a full generator run in an isolated Git worktree
-using project data: generated Markdown was unchanged; three summary chart PNGs
-had small binary differences and were not copied back. This is a previously
-recorded check, not a generator run repeated for this documentation update.
-
-The current review checked source documentation and CSV counts/ID coverage. It
-did not regenerate pages/charts or run a fresh Hugo build. Old annual pages
-intentionally remain with a warning if their data disappear; review them manually
-when the warning occurs rather than treating retention as a new generator bug.
+To publish to the existing shinyapps.io app (explicit approval required),
+configure `rsconnect`, then run `source("R/shinyapp_dashboard/deploy.R");
+deploy_dashboard()`. A Hugo/Netlify build does not update the hosted app.
+Verify the app and the embedded iframe afterwards.
