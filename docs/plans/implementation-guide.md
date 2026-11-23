@@ -50,11 +50,11 @@ General rules for every step:
 
 Recommended order:
 
-1. **H01 - Hugo as the local tool.** Use `hugo server` / `hugo` instead of
+1. **H01 - Hugo as the local tool (DONE 2026-11-23).** Use `hugo server` / `hugo` instead of
    `blogdown::serve_site()` / `build_site()`. Update README, docs and the RStudio
    project (`BuildType: Website`). `.Rprofile` and `index.Rmd` can go once no
    blogdown workflow remains (after H02).
-2. **H02 - Rmd articles to Markdown.** Convert the 2023 and 2025 article
+2. **H02 - Rmd articles to Markdown (DONE 2026-11-23).** Convert the 2023 and 2025 article
    `index.Rmd` files: keep the existing committed `index.md`, save the charts as
    files in the page bundle, remove the `.Rmd` sources and, if unused, the
    `layouts/shortcodes/blogdown/` shortcode and the Rmd mount exclusions in

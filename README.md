@@ -21,11 +21,10 @@ hugo server
 hugo
 ```
 
-R with blogdown (`blogdown::serve_site()`) still works, but the project is
-moving to Hugo only; see the [project status](docs/project-status.md). R is
-currently still needed to regenerate the historical programming and poster
-pages. Regenerate any required Markdown and charts locally and commit them
-before deployment.
+The site no longer uses blogdown. The project is moving to Hugo only; see the
+[project status](docs/project-status.md). The historical programming and poster
+pages are still produced by R scripts, but their data are final, so they do not
+need regenerating.
 
 ## Update Historical Programming
 

@@ -11,8 +11,9 @@ Per-item steps are in docs/plans/implementation-guide.md; they do not change an
 item's status.
 
 ## 1. PROJECT AT A GLANCE
-- Hugo 0.136.5 Extended (pinned in netlify.toml and .Rprofile). R/blogdown is
-  still used for content generation but is being phased out (section 6).
+- Hugo 0.136.5 Extended (pinned in netlify.toml). Local preview/build with
+  `hugo server` / `hugo`; blogdown is no longer used. R scripts still hold the
+  generators but are being phased out (section 6).
 - Netlify runs Hugo only, not R or knitr. Commit generated Markdown and charts.
 - Historical programming: 3 CSVs in static/data -> local R scripts -> pages,
   tables and PNG charts -> commit -> Netlify publishes.
@@ -34,7 +35,7 @@ item's status.
   Markdown pages were unchanged; full updates take about 20 s instead of 40 s.
 - update-indici.R generates the six summary PNG charts for the four section
   indexes. Obsolete programming index _index.Rmd files were removed; the two
-  article Rmd sources remain (see H02).
+  article Rmd sources were removed in H02.
 - update-fonti.R accepts "Note sui manifesti"; the source page is still pending.
 - 2026-11-17: full generator run in an isolated Git worktree: Markdown unchanged;
   three summary PNGs had small binary differences and were not copied back.
@@ -115,7 +116,7 @@ item's status.
 - Hugo upgrades are not planned. Later versions require excludeFiles -> files
   (deprecated >=0.153, removed 0.169) and languageCode -> locale (>=0.158).
   The migration (section 6) may justify an upgrade; agree it separately, test
-  it, and align netlify.toml and .Rprofile.
+  it, and update netlify.toml.
 - 2026-11-23: the historical programming and the poster digitisation are
   final. The CSVs in static/data/ will not change and no new material will be
   added, so the programming and poster sections never need regenerating. The
@@ -148,8 +149,18 @@ before removing any R code. Steps: docs/plans/implementation-guide.md.
 
 | ID | Item | Status |
 | --- | --- | --- |
-| H01 | Hugo (`hugo server` / `hugo`) as the local tool instead of blogdown | TODO |
-| H02 | Convert the two article `index.Rmd` files to plain Markdown; remove blogdown leftovers | TODO |
+| H01 | Hugo (`hugo server` / `hugo`) as the local tool instead of blogdown | DONE 2026-11-23 |
+| H02 | Convert the two article `index.Rmd` files to plain Markdown; remove blogdown leftovers | DONE 2026-11-23 |
+
+H01/H02 (2026-11-23): a plain `hugo` build without blogdown produced 1,677
+pages and 2,620 processed images with no warnings. Removed `.Rprofile`, the
+root `index.Rmd`, the RStudio "Website" build type, the two article
+`index.Rmd` files, the `blogdown/postref` shortcode and the Rmd exclusions in
+the `config.yaml` content mount. The committed `index.md` files were kept (they
+were newer than the Rmd sources). Their three charts moved to the bundles'
+`images/` folders with descriptive names and were checked in `hugo server`.
+The chart R code remains in Git history. `.claude/launch.json` defines the
+`hugo server` preview. The RStudio project stays for exploratory analysis.
 | H03 | Historical programming pages, tables and charts built by Hugo from the CSVs | TODO |
 | H04 | Poster pages and data built by Hugo (images stay as they are) | TODO |
 | H05 | Hugo-native dashboard replacing the Shiny app and iframe | TODO |

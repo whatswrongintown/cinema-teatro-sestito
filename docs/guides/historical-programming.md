@@ -183,8 +183,8 @@ charts are PNG files in
 | generi | `generi-per-decennio-1.png`, `film-per-adulti-per-anno-1.png` |
 | paesi-di-produzione | `italia-estero-per-decennio-1.png`, `paesi-per-decennio-1.png` |
 
-The obsolete programming section `_index.Rmd` files have been removed. The two
-article `index.Rmd` sources remain; this change does not replace their workflow.
+The obsolete programming section `_index.Rmd` files have been removed, and the
+two article `index.Rmd` sources were converted to plain Markdown (H02).
 
 Chart conventions: 1536 px wide (8 in at 192 dpi), the same text proportions as
 the former knitr charts, and the same numbers as the original tidyverse code.
