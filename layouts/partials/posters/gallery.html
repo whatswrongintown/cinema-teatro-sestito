@@ -4,7 +4,7 @@
 {{ $collection := $page.Params.collection | default "printed" }}
 {{ $retro := eq $collection "retro" }}
 {{ $cards := slice }}
-{{ range site.Data.posters.films.films }}
+{{ range hugo.Data.posters.films.films }}
   {{ $film := . }}
   {{ $images := where .posters "is_retro" $retro }}
   {{ with $page.Params.category }}

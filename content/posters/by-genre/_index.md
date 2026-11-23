@@ -1,7 +1,7 @@
 ---
 title: Per genere
 type: posters
-layout: index
+layout: browse
 collection: printed
 browse: genre
 description: Manifesti raggruppati per genere cinematografico.

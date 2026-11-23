@@ -19,7 +19,7 @@
         {{ $page := . }}
         {{ $names := slice "Gennaio" "Febbraio" "Marzo" "Aprile" "Maggio" "Giugno" "Luglio" "Agosto" "Settembre" "Ottobre" "Novembre" "Dicembre" }}
         {{ $months := slice }}
-        {{ range site.Data.posters.films.films }}
+        {{ range hugo.Data.posters.films.films }}
           {{ if gt (len (where .posters "is_retro" false)) 0 }}
             {{ range .screenings }}
               {{ if eq (int .year) (int $page.Params.year) }}{{ $months = $months | append (int .month) }}{{ end }}
@@ -41,7 +41,7 @@
           {{ range .Sections.ByTitle }}<a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ end }}
         </nav>
         {{ partial "posters/gallery.html" (dict "page" . "paginate" true) }}
-      {{ else if ne .Layout "index" }}
+      {{ else if ne .Layout "browse" }}
         {{ partial "posters/gallery.html" (dict "page" . "paginate" true) }}
       {{ end }}
     </div>

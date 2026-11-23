@@ -1,7 +1,7 @@
 # CLAUDE.md
 
 Website of the Cinema Teatro Sestito (San Vito sullo Ionio): its history, archive
-documents and historical film programming. Built with Hugo 0.136.5 Extended and
+documents and historical film programming. Built with Hugo 0.170.1 Extended and
 deployed on Netlify, which runs Hugo only.
 
 Read `docs/project-status.md` first: it is the authoritative record of current
@@ -54,7 +54,7 @@ Before editing a page, decide whether it is manually written or generated:
 
 ## Development
 
-- Follow Hugo conventions and check APIs against Hugo 0.136.5 (update this
+- Follow Hugo conventions and check APIs against Hugo 0.170.1 (update this
   version here when Hugo is upgraded, see U01 in `docs/project-status.md`). Keep templates
   modular; avoid new dependencies unless clearly justified.
 - Documentation is part of every change: update `docs/project-status.md` and the

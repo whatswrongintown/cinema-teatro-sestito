@@ -1,6 +1,6 @@
 {{ partial "header.html" . }}
 {{ $page := . }}
-{{ $films := where site.Data.posters.films.films "film_id" .Params.film_id }}
+{{ $films := where hugo.Data.posters.films.films "film_id" .Params.film_id }}
 {{ if ne (len $films) 1 }}{{ errorf "Poster film data missing or duplicated: %s" .Params.film_id }}{{ end }}
 {{ $film := index $films 0 }}
 <main class="content" role="main">

@@ -15,7 +15,9 @@ of the repository.
 - The root, year, size, genre and browse-index pages are editable Markdown in
   `content/posters/`. Front matter selects the data (`layouts/posters/`,
   `layouts/partials/posters/`): `collection` (`printed` or `retro`), `category`,
-  `size`, `year`, `genre`, `letter`, `browse`.
+  `size`, `year`, `genre`, `letter`, `browse`. The root and the four browse
+  indexes use `layout: browse`; do not name a layout `index`, which Hugo
+  (0.146+) reserves, so those pages would fall back to the generic list.
 - The root and size indexes use the shortcode `poster-subsections`, which lists
   the child pages with their `description` and counts. Year pages show monthly
   galleries below their text; genre and year indexes list their children.

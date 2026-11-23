@@ -1,7 +1,7 @@
 ---
 title: Per formato
 type: posters
-layout: index
+layout: browse
 collection: printed
 browse: size
 description: I formati della raccolta, dalle locandine strette ai manifesti più grandi.

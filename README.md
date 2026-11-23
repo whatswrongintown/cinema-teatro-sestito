@@ -10,7 +10,8 @@ Netlify runs Hugo only.
 
 ## Local Setup and Build
 
-Install Hugo 0.136.5 Extended (the version pinned in `netlify.toml`), then
+Install Hugo 0.170.1 Extended (the version pinned in `netlify.toml`; on Windows
+`winget install Hugo.Hugo.Extended --version 0.170.1`), then
 preview or build the site from the project root:
 
 ```sh

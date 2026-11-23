@@ -1,6 +1,6 @@
 {{/* One section page per initial letter found in data/posters/films.json. */}}
 {{ $letters := slice }}
-{{ range site.Data.posters.films.films }}{{ $letters = $letters | append .letter }}{{ end }}
+{{ range hugo.Data.posters.films.films }}{{ $letters = $letters | append .letter }}{{ end }}
 {{ range $letters | uniq }}
   {{ $slug := cond (eq . "#") "0-9" (lower .) }}
   {{ $page := dict

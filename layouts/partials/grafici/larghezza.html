@@ -4,7 +4,7 @@ Input: dict "text" <string> "size" <font size>. Glyph widths (em) come from
 data/grafici/merriweather.json, measured once from the site font; kerning is
 ignored.
 */ -}}
-{{- $font := site.Data.grafici.merriweather }}
+{{- $font := hugo.Data.grafici.merriweather }}
 {{- $em := 0.0 }}
 {{- $default := float $font.default }}
 {{- range split .text "" }}

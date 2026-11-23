@@ -1,5 +1,5 @@
 {{ $films := dict }}
-{{ range site.Data.posters.films.films }}
+{{ range hugo.Data.posters.films.films }}
   {{ $films = merge $films (dict .film_id .) }}
 {{ end }}
 {{ return $films }}

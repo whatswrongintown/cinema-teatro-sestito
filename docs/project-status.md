@@ -6,7 +6,9 @@ TODO / DOING / DONE / DEFERRED, with dates. Assistant rules are in `CLAUDE.md`.
 
 ## 1. Project at a glance
 
-- Hugo 0.136.5 Extended, pinned in `netlify.toml`; Netlify runs Hugo only.
+- Hugo 0.170.1 Extended, pinned in `netlify.toml`; Netlify runs Hugo only.
+  Locally installed with `winget` (package `Hugo.Hugo.Extended`); the old
+  blogdown copies in `%APPDATA%\Hugo` were removed on 2026-11-23.
   Preview with `hugo server`, build with `hugo`. There is no R, blogdown or
   other build step; R is used only for exploratory analysis outside the repo.
 - Historical programming: three CSVs in `static/data/` (5,479 screenings). Hugo
@@ -41,13 +43,25 @@ TODO / DOING / DONE / DEFERRED, with dates. Assistant rules are in `CLAUDE.md`.
   Copilot to Claude Code. The old R scripts, tests and the Shiny app are in Git
   history only.
 - 2026-11-23: the owner approved upgrading Hugo, mainly to shorten deploys (see
-  U01). Later versions require `excludeFiles` to become `files` (deprecated
-  from 0.153, removed in 0.169) and `languageCode` to become `locale` (from
-  0.158); `netlify.toml` must be updated with the version.
+  U01). Upgraded to 0.170.1: `languageCode` became `locale`,
+  `site.Data` became `hugo.Data`, `.Site.LanguageCode` became
+  `site.Language.Locale`, and the posters `index` layout became `browse`
+  (`index` is reserved by the template system since 0.146). The site uses no
+  `excludeFiles`.
 
 ## 3. Open items
 
-- **U01 - TODO: upgrade Hugo and shorten the Netlify deploy.** Netlify log of
+- **U01 - DOING: upgrade Hugo and shorten the Netlify deploy.** 2026-11-23:
+  Hugo upgraded to 0.170.1 (local and `netlify.toml`), deprecations fixed, no
+  build warnings. Output compared with 0.136.5: same 9,488 files; image
+  cache names changed (`_hu_<hash>`); otherwise only the generator tag,
+  whitespace in RSS and alias pages, alias pages without `noindex`, fuller
+  RSS descriptions, and heading IDs without footnote numbers (`novembre1`
+  became `novembre`; nothing links to them). Local times with 0.170.1: 57 to
+  120 s with the image cache, 983 s without it (0.136.5: 92 s and 636 s), so
+  the upgrade does not shorten cold builds and the first Netlify build after
+  it reprocesses every image. Still TODO: check the first deploy log, then
+  the cache and image options below. Original notes: Netlify log of
   2026-11-23: build 5 m 15 s, of which `hugo` takes 287 s; fetching the 1.9 GB
   cache (9 s), deploy (14 s) and the Lighthouse plugin (12 s) are minor. Local
   measurements with Hugo 0.136.5: 92 s with the image cache present, 636 s with
@@ -55,15 +69,18 @@ TODO / DOING / DONE / DEFERRED, with dates. Assistant rules are in `CLAUDE.md`.
   missed. The 2,620 processed images are 2 operations (`Fit 1600x1600`,
   `Fill 300x300`, both q50) on about 1,310 images in
   `layouts/shortcodes/image-gallery.html`; the cache is `resources/_gen`
-  (669 MB, git-ignored). It is not known whether Netlify's cache restores it
-  (the 287 s sits between the warm and cold local times). Options to evaluate,
+  (669 MB, git-ignored). Evidence that Netlify's cache does restore it: deploy
+  `2eee13c` (2026-11-20) took 1 m 49 s; the next, `2370b6a`, took 5 m 19 s
+  after commit `a0c51786` replaced and moved about 1,234 source scans (PNG to
+  WebP), which made every gallery image a cache miss. Any change that renames,
+  moves or replaces gallery images, or a Hugo upgrade (new cache names), makes
+  the next deploy slow; still to confirm with a later deploy that changes no
+  gallery images. Options to evaluate,
   with the output compared before and after: make Netlify keep `resources/_gen`
-  (a cache plugin; needs approval for the Netlify change), process fewer or
-  smaller images, then upgrade Hugo (release notes since 0.136.5, replace the
-  deprecated settings above, update `HUGO_VERSION` in `netlify.toml`, check the
-  deploy log). A Hugo upgrade alone is not expected to remove the image cost.
-  When the upgrade lands, also update the Hugo version in `CLAUDE.md` (intro
-  and "Check APIs against Hugo ...") and in section 1 of this file.
+  (a cache plugin; needs approval for the Netlify change), or process fewer or
+  smaller images. On a future upgrade, update the version in `netlify.toml`,
+  `README.md`, `CLAUDE.md` (intro and "check APIs against Hugo ...") and
+  section 1 of this file.
 - **U02 - DONE 2026-11-23: social-sharing images.** `layouts/partials/social-image.html`
   (called by `head.html`) picks the page's `image:` (a bundle file or an
   absolute path under `static/`), else the nearest ancestor section's, else
