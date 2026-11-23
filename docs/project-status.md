@@ -8,7 +8,8 @@ TODO / DOING / DONE / DEFERRED, with dates. Assistant rules are in `CLAUDE.md`.
 
 - Hugo 0.170.1 Extended, pinned in `netlify.toml`; Netlify runs Hugo only.
   Locally installed with `winget` (package `Hugo.Hugo.Extended`); the old
-  blogdown copies in `%APPDATA%\Hugo` were removed on 2026-11-23.
+  blogdown copies in `%APPDATA%\Hugo` were removed on 2026-11-23. On Netlify,
+  processed images are cached in Hugo's `cacheDir` (see U01).
   Preview with `hugo server`, build with `hugo`. There is no R, blogdown or
   other build step; R is used only for exploratory analysis outside the repo.
 - Historical programming: three CSVs in `static/data/` (5,479 screenings). Hugo
@@ -51,41 +52,25 @@ TODO / DOING / DONE / DEFERRED, with dates. Assistant rules are in `CLAUDE.md`.
 
 ## 3. Open items
 
-- **U01 - DOING: upgrade Hugo and shorten the Netlify deploy.** 2026-11-23:
-  Hugo upgraded to 0.170.1 (local and `netlify.toml`), deprecations fixed, no
-  build warnings. Output compared with 0.136.5: same 9,488 files; image
-  cache names changed (`_hu_<hash>`); otherwise only the generator tag,
-  whitespace in RSS and alias pages, alias pages without `noindex`, fuller
-  RSS descriptions, and heading IDs without footnote numbers (`novembre1`
-  became `novembre`; nothing links to them). Local times with 0.170.1: 57 to
-  120 s with the image cache, 983 s without it (0.136.5: 92 s and 636 s), so
-  the upgrade does not shorten cold builds and the first Netlify build after
-  it reprocesses every image. First deploy (`773aac36`, 2026-11-23): Hugo
-  0.170.1 confirmed, `hugo` 422 s (all 2,620 images reprocessed), 4,417 files
-  uploaded, whole build 8 m 24 s; live site checked. The `mise` lines naming
-  0.136.5 come from Netlify's tool cache and are harmless. Second deploy
-  (`9b337eb6`, docs only): `hugo` 429 s again, so Netlify does not keep
-  `resources/_gen` between builds. Fix (2026-11-23, not yet deployed):
-  `HUGO_CACHES_IMAGES_DIR = ':cacheDir/images'` in `netlify.toml` stores
-  processed images in Hugo's `cacheDir`, which on Netlify defaults to
-  `/opt/build/cache/hugo_cache` (a folder Netlify keeps); local builds still
-  use `resources/_gen`. TODO: after the next deploy (cold, about 7 min),
-  check that the one after it is fast. Original notes: Netlify log of
-  2026-11-23: build 5 m 15 s, of which `hugo` takes 287 s; fetching the 1.9 GB
-  cache (9 s), deploy (14 s) and the Lighthouse plugin (12 s) are minor. Local
-  measurements with Hugo 0.136.5: 92 s with the image cache present, 636 s with
-  `--ignoreCache`, so image processing is the dominant cost when the cache is
-  missed. The 2,620 processed images are 2 operations (`Fit 1600x1600`,
-  `Fill 300x300`, both q50) on about 1,310 images in
-  `layouts/shortcodes/image-gallery.html`; the cache is `resources/_gen`
-  (git-ignored). Deploy `2eee13c` (2026-11-20) took 1 m 49 s and every deploy
-  since `2370b6a` (which replaced about 1,234 source scans, PNG to WebP) about
-  5 to 8 min; why the earlier builds were fast is unknown. Even with a working
-  cache, renaming, moving or replacing gallery images, or a Hugo upgrade (new
-  cache names), makes the next deploy slow. If the cache fix is not enough:
-  process fewer or smaller images. On a future upgrade, update the version in `netlify.toml`,
-  `README.md`, `CLAUDE.md` (intro and "check APIs against Hugo ...") and
-  section 1 of this file.
+- **U01 - DONE 2026-11-23: Hugo upgrade and faster Netlify deploys.** Hugo
+  0.170.1 (local via `winget`, Netlify via `netlify.toml`); deprecations fixed,
+  posters `index` layout renamed `browse`, no build warnings. Output compared
+  with 0.136.5: same 9,488 files; only image cache names (`_hu_<hash>`), the
+  generator tag, RSS and alias whitespace, alias pages without `noindex`,
+  fuller RSS descriptions and heading IDs without footnote numbers
+  (`novembre1` became `novembre`; nothing links to them) changed. Netlify did
+  not keep `resources/_gen`, so every deploy reprocessed the 2,620 gallery
+  images (`Fit 1600x1600` and `Fill 300x300` in
+  `layouts/shortcodes/image-gallery.html`; `hugo` about 430 s, build 7 to
+  8 min). Fix: `HUGO_CACHES_IMAGES_DIR = ':cacheDir/images'` in
+  `netlify.toml` puts them in Hugo's `cacheDir` (`/opt/build/cache/hugo_cache`
+  on Netlify, which is kept); local builds still use `resources/_gen`.
+  Result on the deploy of 2026-11-23, 11:31 PM: `hugo` 19.6 s, whole build
+  42 s. Renaming, moving or replacing gallery images, or a Hugo upgrade (new
+  cache names), still makes the next deploy slow (about 7 min) once. The
+  `mise` lines naming 0.136.5 in the Netlify log are harmless. On a future
+  upgrade, update the version in `netlify.toml`, `README.md`, `CLAUDE.md`
+  (intro and "check APIs against Hugo ...") and section 1 of this file.
 - **U03 - DONE 2026-11-23: Lighthouse mobile fixes** (scores: performance 100,
   accessibility 98, best practices 92, SEO 97). Footer link contrast
   (`#6b6b6b`) and tap-target padding for footer and list links in
