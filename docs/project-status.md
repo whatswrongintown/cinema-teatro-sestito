@@ -60,8 +60,12 @@ TODO / DOING / DONE / DEFERRED, with dates. Assistant rules are in `CLAUDE.md`.
   became `novembre`; nothing links to them). Local times with 0.170.1: 57 to
   120 s with the image cache, 983 s without it (0.136.5: 92 s and 636 s), so
   the upgrade does not shorten cold builds and the first Netlify build after
-  it reprocesses every image. Still TODO: check the first deploy log, then
-  the cache and image options below. Original notes: Netlify log of
+  it reprocesses every image. First deploy (`773aac36`, 2026-11-23): Hugo
+  0.170.1 confirmed, `hugo` 422 s (all 2,620 images reprocessed), 4,417 files
+  uploaded, whole build 8 m 24 s; live site checked. The `mise` lines naming
+  0.136.5 come from Netlify's tool cache and are harmless. Still TODO: confirm
+  that the next deploy without image changes is fast, then decide on the
+  cache and image options below. Original notes: Netlify log of
   2026-11-23: build 5 m 15 s, of which `hugo` takes 287 s; fetching the 1.9 GB
   cache (9 s), deploy (14 s) and the Lighthouse plugin (12 s) are minor. Local
   measurements with Hugo 0.136.5: 92 s with the image cache present, 636 s with
