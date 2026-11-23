@@ -74,8 +74,15 @@ TODO / DOING / DONE / DEFERRED, with dates. Assistant rules are in `CLAUDE.md`.
   `static/`) may be needed; check how `layouts/partials/head.html` builds the
   Open Graph / Twitter tags and add a fallback (e.g. `defaultImage`) for pages
   without one (`head.html` already accepts a bundle-relative `image:`). Genre pages point to
-  `/programmazione-storica/generi/_index_files/figure-html/generi-per-decennio-1.png`,
-  which exists and is the only such file still in use.
+  `/programmazione-storica/generi/_index_files/figure-html/generi-per-decennio-1.png`
+  and country pages to
+  `/programmazione-storica/paesi-di-produzione/_index_files/figure-html/italia-estero-per-decennio-1.png`;
+  these two files exist and are the only blogdown image paths still in use.
+  **Final step of U02 (static cleanup):** once no page references them any more,
+  delete both PNGs and their `_index_files/figure-html/` folders, which also
+  removes `static/programmazione-storica/` entirely, then check that
+  `static/` has no `_index_files` folder left (`grep -r _index_files content`
+  must return nothing) and update the "Static folder layout" section below.
 - No feature roadmap yet: new ideas are agreed with the owner and listed here
   when they are approved.
 
