@@ -62,6 +62,8 @@ TODO / DOING / DONE / DEFERRED, with dates. Assistant rules are in `CLAUDE.md`.
   smaller images, then upgrade Hugo (release notes since 0.136.5, replace the
   deprecated settings above, update `HUGO_VERSION` in `netlify.toml`, check the
   deploy log). A Hugo upgrade alone is not expected to remove the image cost.
+  When the upgrade lands, also update the Hugo version in `CLAUDE.md` (intro
+  and "Check APIs against Hugo ...") and in section 1 of this file.
 - **U02 - DONE 2026-11-23: social-sharing images.** `layouts/partials/social-image.html`
   (called by `head.html`) picks the page's `image:` (a bundle file or an
   absolute path under `static/`), else the nearest ancestor section's, else

@@ -54,7 +54,8 @@ Before editing a page, decide whether it is manually written or generated:
 
 ## Development
 
-- Follow Hugo conventions and check APIs against Hugo 0.136.5. Keep templates
+- Follow Hugo conventions and check APIs against Hugo 0.136.5 (update this
+  version here when Hugo is upgraded, see U01 in `docs/project-status.md`). Keep templates
   modular; avoid new dependencies unless clearly justified.
 - Documentation is part of every change: update `docs/project-status.md` and the
   relevant guide, remove outdated text, avoid duplicating content between files.
@@ -64,7 +65,8 @@ Before editing a page, decide whether it is manually written or generated:
 - Hugo is on PATH: `hugo server` for preview, `hugo` for a build.
 - R is no longer part of the site; it is used only for exploratory analysis of the
   datasets, outside the repository.
-- The GitHub CLI (`gh`) is not installed; use plain `git` against `origin`.
+- The GitHub CLI (`gh`) is installed and authenticated; use it for GitHub
+  operations (PRs, issues) and `git` for commits and pushes against `origin`.
 
 ## Before finishing a task
 
