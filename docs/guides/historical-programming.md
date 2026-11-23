@@ -8,7 +8,7 @@ Status of the Hugo-only migration
 ([project status, section 6](../project-status.md#6-migration-to-hugo-only)):
 
 - **Tables and charts:** built by Hugo from the CSVs since 2026-11-23 (H03).
-- **Dashboard:** still the Shiny app (H05). **Source PDF images:** R script (H06).
+- **Dashboard:** Hugo page and browser script (H05). **Source PDF images:** R script (H06).
 
 ## Data
 
@@ -22,8 +22,7 @@ Three CSV files in `static/data/`:
 
 Several sources, genres or countries in one cell are separated by commas;
 values are trimmed and matched case-insensitively. 55 screenings have no IMDb ID
-and are shown without a link. The extra country ID `tt0052704` (O03) has no
-screening and is ignored by the pages.
+and are shown without a link.
 
 ## Tables (Hugo)
 
@@ -153,7 +152,7 @@ The genre calculation removes `Drammatico` when a film has more than one
 expanded row, so it also removes repeated Drammatico-only films, not just films
 with several genres. Missing genres count as not adult in the adult-share
 calculation. The methodology/index prose does not yet fully explain these two
-behaviours; see O04 in [project status](../project-status.md). Decision: explain
+behaviours. Decision: explain
 the conventions, do not recalculate the charts. The Hugo charts reproduce these
 conventions; if one is ever changed, update the prose at the same time.
 
@@ -169,17 +168,26 @@ images in that folder are deleted first. Checks:
 only needed to replace a scan; update the source page's `image`, gallery path
 and `galleryDescriptions` key by hand afterwards.
 
-## Shiny dashboard (R, H05)
+## Dashboard (Hugo, H05)
 
-The methodology article embeds a separately hosted Shiny app in
-`R/shinyapp_dashboard`. Run it locally with
-`shiny::runApp("R/shinyapp_dashboard")` (packages `shiny`, `DT`, `showtext`,
-`sysfonts`). It reads the CSVs from `static/data/` and fonts from
-`static/fonts/`. The year selector affects all tabs; director and genre filters
-affect only the table. Monthly counts represent dated entries; genre and
-director summaries count distinct films.
+The methodology article
+(`content/articoli/2023-09-23-esplora-la-storia-cinematografica-di-san-vito-sullo-ionio/`)
+embeds the dashboard with the `dashboard` shortcode
+(`layouts/shortcodes/dashboard.html`), which replaced the Shiny iframe on
+2026-11-23. The browser reads the two public CSVs `static/data/programmazione_agende.csv`
+and `programmazione_imdb.csv` and `static/js/dashboard.js` (no library) draws
+everything; `static/css/dashboard.css` styles it. Nothing is generated at build
+time, so there is nothing to regenerate.
 
-To publish to the existing shinyapps.io app (explicit approval required),
-configure `rsconnect`, then run `source("R/shinyapp_dashboard/deploy.R");
-deploy_dashboard()`. A Hugo/Netlify build does not update the hosted app.
-Verify the app and the embedded iframe afterwards.
+Behaviour kept from the Shiny app: the year selector affects all tabs;
+director and genre filters affect only the table; monthly counts are dated
+entries, while genre, ranking and director summaries count distinct films. Charts
+are inline SVG (monthly, genre, IMDb rating against votes) with a values table
+under each. Differences: IMDb titles are shown on hover instead of placed as
+labels, and the director filter is a text box that matches part of a name. The
+CSVs contain 55 screenings without an IMDb ID and 11 IDs without an IMDb row (a
+few adult films); they appear as films of their own with no rating or director
+(a screening without an ID is one film per title).
+
+The `R/shinyapp_dashboard` app and its shinyapps.io deployment are retired once
+the Hugo page is published (owner approval; code removal is H07).

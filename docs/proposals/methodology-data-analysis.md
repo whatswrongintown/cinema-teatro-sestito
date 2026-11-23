@@ -1,6 +1,6 @@
 # METHODOLOGY ARTICLE: DATA ANALYSIS AND POSSIBLE IMPROVEMENTS
 Working notes, 2026-11-17. Proposals and questions, not implementation decisions.
-Current priorities and the O04 status are in docs/project-status.md.
+Current priorities are in docs/project-status.md.
 
 ## Scope
 This note examines content/articoli/2026-11-11-metodologia-ricostruzione-programmazione/index.md
@@ -49,11 +49,8 @@ documents. Their proportions cannot be calculated from these CSVs alone.
   genres affect 96 film records / 104 dated entries; blank IMDb scores affect
   278 films / 317 entries. IMDb Year is populated for every matched film.
 * programmazione_paesi.csv: 4,568 rows, one per const. All entry IDs match a
-  country row, and their country fields are nonblank. There is one extra
-  country ID, tt0052704, with no corresponding entry or IMDb row. Its
-  relationship to poster data remains to be verified; do not silently discard
-  it or infer a match. Other fields include rated, awards and is_adult, whose
-  meaning and missingness require care.
+  country row, and their country fields are nonblank. Other fields include
+  rated, awards and is_adult, whose meaning and missingness require care.
 * Source cells yield 93 distinct trimmed labels and 10,288 entry-source
   associations; 4,010 entries list more than one source. These are label
   counts, not necessarily independently verified counts of physical documents.

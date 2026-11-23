@@ -65,14 +65,10 @@ starts with Home, excludes home and 404, and uses `.LinkTitle` (short
 Docs: https://gohugo.io/methods/page/ancestors/
 
 ### 1.4 Historical programming dashboard - see project status H05
-The Shiny app in `R/shinyapp_dashboard` (hosted on shinyapps.io, embedded by
-iframe in the methodology article) is still the live dashboard. On 2026-11-23
-the owner decided to replace it with a Hugo-native page as part of the
-migration. Until the replacement is published, maintain and deploy the Shiny
-app as described in docs/guides/historical-programming.md; deployment requires
-explicit approval. The replacement must keep the current behaviour: the year
-filter affects all views, repeated dated entries are kept, and distinct-film
-counts are derived separately.
+Replaced on 2026-11-23 by a Hugo page (shortcode `dashboard`, browser script and
+CSVs, no library); see project status H05 and
+docs/guides/historical-programming.md. The Shiny app stays live until the
+change is published; retiring it needs the owner's approval.
 
 ### 1.5 Other ideas
 - Interactive timeline linking screenings, stories and archive items.
@@ -82,6 +78,3 @@ counts are derived separately.
 ## OPEN QUESTIONS
 1. Should search start with screenings, posters or both, and what would visitors
    type or filter by?
-2. For the Hugo-native dashboard (H05): its filters need JavaScript; can it
-   reuse the SVG chart partials (decided for the static charts on 2026-11-23),
-   or does it need a small chart library?

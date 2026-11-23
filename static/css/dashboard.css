@@ -1,0 +1,51 @@
+/* Historical programming dashboard (shortcode "dashboard"). */
+.dashboard { --mint: #CBF8DF; --focus: #286a4a; margin: 1.5rem 0; color: #222; background: #fff; }
+.dashboard-note { color: #555; font-size: 0.9em; line-height: 1.6; margin: 0.75rem 0 1.25rem; }
+.dashboard-field { margin: 0.75rem 0; }
+.dashboard-field label { display: block; font-weight: bold; margin-bottom: 0.25rem; }
+.dashboard-field select, .dashboard-field input, .dashboard-search input {
+  font: inherit; max-width: 100%; min-width: 14rem; padding: 0.35rem 0.5rem;
+  border: 1px solid #999; border-radius: 3px; background: #fff; color: inherit;
+}
+.dashboard-counts { display: flex; flex-wrap: wrap; gap: 12px; margin: 1.25rem 0; }
+.dashboard-count { background: #f5f5f5; border-left: 4px solid var(--mint); padding: 12px 16px; flex: 1 1 180px; }
+.dashboard-count strong { display: block; font-size: 1.65em; color: #222; }
+
+.dashboard-tabs { display: flex; flex-wrap: wrap; gap: 0 15px; border-bottom: 1px solid var(--mint); margin-bottom: 1.25rem; }
+.dashboard-tabs button {
+  font: inherit; cursor: pointer; background: transparent; color: inherit;
+  border: 0; border-bottom: 3px solid var(--mint); border-radius: 0;
+  box-shadow: inset 0 -4px 0 var(--mint); padding: 8px 0 5px; transition: background 150ms ease;
+}
+.dashboard-tabs button:hover { background: var(--mint); }
+.dashboard-tabs button[aria-selected="true"] { font-weight: bold; }
+
+.dashboard :focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
+.dashboard summary { cursor: pointer; width: fit-content; margin: 1rem 0 0.5rem 1em; border-bottom: 3px solid var(--mint); box-shadow: inset 0 -4px 0 var(--mint); }
+.dashboard summary:hover { background: var(--mint); }
+
+.dashboard-chart { overflow-x: auto; max-width: 100%; }
+.dashboard-chart svg { display: block; min-width: 580px; width: 100%; height: auto; font-family: Merriweather, serif; }
+.dashboard-chart .bar { fill: var(--mint); stroke: #7fbf9f; stroke-width: 0.5; }
+.dashboard-chart .dot { fill: var(--mint); stroke: #4f9a76; stroke-width: 0.8; }
+.dashboard-chart text { fill: #333; font-size: 11px; }
+.dashboard-chart .axis { stroke: #333; stroke-width: 1; }
+.dashboard-chart .grid { stroke: #e5e5e5; stroke-width: 1; }
+.dashboard-chart .title { font-size: 13px; }
+.dashboard-chart .credit { font-size: 9px; fill: #555; }
+
+.dashboard table { width: 100%; border-collapse: collapse; font-size: 0.9em; }
+.dashboard th, .dashboard td { text-align: left; padding: 0.4rem 0.5rem; border-bottom: 1px solid #ddd; vertical-align: top; }
+.dashboard th button { font: inherit; font-weight: bold; background: transparent; border: 0; padding: 0; cursor: pointer; color: inherit; text-align: left; }
+.dashboard th[aria-sort="ascending"] button::after { content: " ▲"; font-size: 0.7em; }
+.dashboard th[aria-sort="descending"] button::after { content: " ▼"; font-size: 0.7em; }
+.dashboard tbody tr:nth-child(even) { background: #fafafa; }
+.dashboard td a { text-decoration: none; color: inherit; border-bottom: 3px solid var(--mint); box-shadow: inset 0 -4px 0 var(--mint); }
+.dashboard td a:hover { background: var(--mint); }
+.dashboard-table-wrap { overflow-x: auto; }
+.dashboard-search { margin: 0.5rem 0; }
+.dashboard-search label { font-weight: bold; margin-right: 0.5rem; }
+.dashboard-pager { display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem; margin: 0.75rem 0; font-size: 0.9em; }
+.dashboard-pager button { font: inherit; padding: 0.3rem 0.8rem; border: 1px solid #999; border-radius: 3px; background: #fff; cursor: pointer; }
+.dashboard-pager button:disabled { opacity: 0.5; cursor: default; }
+.dashboard h3 { margin-top: 1.75rem; }

@@ -23,8 +23,6 @@ record. Recommendations here do not implement or resolve an item.
 | ID | Work | Priority | Prerequisite / scheduling |
 | --- | --- | --- | --- |
 | [H01-H07](#h01-h07-migration-to-hugo-only) | Replace R/blogdown with Hugo | P2, planned | One step at a time, in the order below |
-| O03 | Resolve country-only film ID `tt0052704` | P2, deferred | Verified external/poster evidence; do not guess |
-| O04 | Explain chart conventions in the methodology | Deferred | Database final since 2026-11-23; ready for a fresh check; see the [R guide](../guides/historical-programming.md#interpretation-and-remaining-editorial-work) |
 | [F03](#f03-film-search) | Add film search | P3 | Agree result model; easier after H03 |
 | F04 | Timeline, identification, collections | P3, deferred | Choose one feature and its content |
 
@@ -66,7 +64,7 @@ Recommended order:
    from `data/posters/films.json` or the CSVs. The web images in
    `static/images/manifesti/` are final: reuse them unchanged; no image
    derivative step is needed.
-5. **H05 - Dashboard in Hugo.** Replace the Shiny app and its iframe with a
+5. **H05 - Dashboard in Hugo (built 2026-11-23; retire Shiny after publication).** Replace the Shiny app and its iframe with a
    Hugo page (data from the CSVs, client-side filters). Keep Shiny live until the
    replacement is published, then retire the shinyapps.io deployment.
 6. **H06 - Source PDF conversion.** Replace `R/fonti_pdf_to_images.R` with a

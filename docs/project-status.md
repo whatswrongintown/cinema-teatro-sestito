@@ -133,7 +133,7 @@ before removing any R code. Steps: docs/plans/implementation-guide.md.
 | H02 | Convert the two article `index.Rmd` files to plain Markdown; remove blogdown leftovers | DONE 2026-11-23 |
 | H03 | Historical programming tables and charts built by Hugo from the CSVs | DONE 2026-11-23 |
 | H04 | Poster pages built by Hugo from `data/posters/films.json` (images and data stay as they are) | DONE 2026-11-23 |
-| H05 | Hugo-native dashboard replacing the Shiny app and iframe | TODO |
+| H05 | Hugo-native dashboard replacing the Shiny app and iframe | DOING 2026-11-23 (built; Shiny retired after publication) |
 | H06 | Non-R tool (or retained utility) for source PDF conversion | TODO |
 | H07 | Remove replaced R scripts/tests/docs; keep analysis code outside the build | TODO |
 
@@ -178,6 +178,18 @@ and root pages stay as editable Markdown. `data/posters/films.json` and the
 images are final and kept; `R/update-posters.R` must no longer be run (it would
 recreate the Markdown pages) and goes in H07. Details: docs/posters.md.
 
+H05 (2026-11-23): the methodology article now embeds the `dashboard` shortcode
+instead of the shinyapps.io iframe. The browser reads the public CSVs and
+`static/js/dashboard.js` draws the filters, tables and SVG charts (no library);
+the year filter affects all tabs and repeated dated entries stay separate from
+distinct-film counts. Checked in `hugo server` (all tabs, filters, sorting, 320
+to desktop widths, no console errors): 5,479 entries and 4,668 films for all
+years. The CSVs hold 11 film IDs without an IMDb row and 55 screenings without
+an ID; the Shiny app would have refused them, the Hugo page lists them without
+rating or director. Open: the owner publishes the change, then retires the
+shinyapps.io app (explicit approval); `R/shinyapp_dashboard` is removed in H07.
+Details: docs/guides/historical-programming.md.
+
 Because the data are final (section 4), the migration is about maintainability
 and presentation, not a data pipeline.
 
@@ -185,7 +197,7 @@ Open question: whether a Hugo upgrade is part of the migration.
 
 ## 7. DOCUMENTATION MAINTENANCE
 - 2026-11-23: documentation reviewed. Removed: the Phase 1/2 audit logs (their
-  open items were O02 and O03), the Copilot poster-section prompt, the
+  open items), the Copilot poster-section prompt, the
   superseded poster proposal/technical plan and the Netlify upload research.
   All remain in Git history.
 - Use this file for current status, docs/proposals/ for feature proposals,

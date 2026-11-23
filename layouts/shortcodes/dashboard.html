@@ -1,0 +1,76 @@
+{{- /*
+Interactive dashboard of the historical programming (replaces the Shiny app).
+Data: the public CSVs static/data/programmazione_agende.csv and programmazione_imdb.csv,
+read in the browser;
+behaviour: static/js/dashboard.js; style: static/css/dashboard.css.
+Usage: the shortcode named dashboard, without parameters.
+*/ -}}
+<link rel="stylesheet" href="{{ "css/dashboard.css" | relURL }}">
+<div class="dashboard" data-agende="{{ "data/programmazione_agende.csv" | relURL }}" data-imdb="{{ "data/programmazione_imdb.csv" | relURL }}">
+  <noscript><p>Questo strumento richiede JavaScript. Le stesse informazioni sono consultabili nelle pagine della <a href="{{ "programmazione-storica/" | relURL }}">programmazione storica</a>.</p></noscript>
+  <p class="dashboard-status" role="status">Caricamento dei dati…</p>
+  <div class="dashboard-app" hidden>
+    <p class="dashboard-intro">Consulta le date registrate nelle fonti del Cinema Teatro Sestito. Uno stesso film può comparire in più date.</p>
+    <p class="dashboard-field">
+      <label for="dashboard-year">Anno di proiezione</label>
+      <select id="dashboard-year"></select>
+    </p>
+    <div class="dashboard-counts" aria-live="polite">
+      <div class="dashboard-count">Proiezioni registrate <strong id="dashboard-entries">0</strong></div>
+      <div class="dashboard-count">Film distinti <strong id="dashboard-films">0</strong></div>
+    </div>
+
+    <div class="dashboard-tabs" role="tablist" aria-label="Sezioni">
+      <button type="button" role="tab" id="dashboard-tab-grafici" aria-controls="dashboard-grafici" aria-selected="true">Grafici</button>
+      <button type="button" role="tab" id="dashboard-tab-riepilogo" aria-controls="dashboard-riepilogo" aria-selected="false" tabindex="-1">Riepilogo</button>
+      <button type="button" role="tab" id="dashboard-tab-tabella" aria-controls="dashboard-tabella" aria-selected="false" tabindex="-1">Tabella</button>
+    </div>
+
+    <section id="dashboard-grafici" role="tabpanel" aria-labelledby="dashboard-tab-grafici">
+      <p class="dashboard-field">
+        <label for="dashboard-chart">Seleziona un grafico</label>
+        <select id="dashboard-chart">
+          <option value="mensili">Proiezioni mensili</option>
+          <option value="generi">Generi cinematografici</option>
+          <option value="imdb">Valutazioni IMDb</option>
+        </select>
+      </p>
+      <p class="dashboard-note" id="dashboard-chart-description"></p>
+      <p class="dashboard-note">Su schermi stretti scorri il grafico in orizzontale o apri i valori sottostanti.</p>
+      <div id="dashboard-chart-box" class="dashboard-chart" role="region" tabindex="0"></div>
+      <details class="dashboard-values">
+        <summary>Mostra i valori del grafico</summary>
+        <div id="dashboard-chart-values"></div>
+      </details>
+    </section>
+
+    <section id="dashboard-riepilogo" role="tabpanel" aria-labelledby="dashboard-tab-riepilogo" hidden>
+      <p class="dashboard-note">Le classifiche contano ogni film una sola volta. Le valutazioni e i voti provengono da IMDb e non misurano il gradimento del pubblico locale.</p>
+      <h3>Film con valutazione IMDb più alta</h3>
+      <div id="dashboard-highest"></div>
+      <h3>Film con valutazione IMDb più bassa</h3>
+      <div id="dashboard-lowest"></div>
+      <p class="dashboard-note">Sono inclusi i film con valutazione e almeno un voto. In caso di parità prevalgono più voti e poi l'identificativo IMDb.</p>
+      <h3>Registi più frequenti</h3>
+      <p class="dashboard-note">Ogni film conta una volta per ciascun regista; un film può avere più registi.</p>
+      <div id="dashboard-directors"></div>
+    </section>
+
+    <section id="dashboard-tabella" role="tabpanel" aria-labelledby="dashboard-tab-tabella" hidden>
+      <p class="dashboard-note">I filtri per regia e genere riguardano solo questa tabella. La selezione dell'anno riguarda tutti i pannelli.</p>
+      <p class="dashboard-field">
+        <label for="dashboard-director">Regia</label>
+        <input type="text" id="dashboard-director" list="dashboard-director-list" placeholder="Tutte le regie" autocomplete="off">
+        <datalist id="dashboard-director-list"></datalist>
+      </p>
+      <p class="dashboard-field">
+        <label for="dashboard-genre">Genere</label>
+        <select id="dashboard-genre"><option value="">Tutti i generi</option></select>
+      </p>
+      <div id="dashboard-table"></div>
+    </section>
+
+    <p class="dashboard-note">La copertura delle fonti è incompleta, in particolare per il 1960 e il 1961. Una data assente non indica necessariamente la chiusura del cinema. Information courtesy of IMDb (<a href="https://www.imdb.com" target="_blank" rel="noopener noreferrer">imdb.com</a>).</p>
+  </div>
+</div>
+<script src="{{ "js/dashboard.js" | relURL }}" defer></script>
