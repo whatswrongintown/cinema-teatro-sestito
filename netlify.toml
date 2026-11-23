@@ -4,6 +4,9 @@ publish = 'public'
 
 [build.environment]
 HUGO_VERSION = '0.170.1'
+# Keep processed images in Hugo's cacheDir, which on Netlify is
+# /opt/build/cache/hugo_cache and is kept between builds (resources/ is not).
+HUGO_CACHES_IMAGES_DIR = ':cacheDir/images'
 
 [context]
 [context.branch-deploy]

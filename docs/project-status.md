@@ -63,9 +63,14 @@ TODO / DOING / DONE / DEFERRED, with dates. Assistant rules are in `CLAUDE.md`.
   it reprocesses every image. First deploy (`773aac36`, 2026-11-23): Hugo
   0.170.1 confirmed, `hugo` 422 s (all 2,620 images reprocessed), 4,417 files
   uploaded, whole build 8 m 24 s; live site checked. The `mise` lines naming
-  0.136.5 come from Netlify's tool cache and are harmless. Still TODO: confirm
-  that the next deploy without image changes is fast, then decide on the
-  cache and image options below. Original notes: Netlify log of
+  0.136.5 come from Netlify's tool cache and are harmless. Second deploy
+  (`9b337eb6`, docs only): `hugo` 429 s again, so Netlify does not keep
+  `resources/_gen` between builds. Fix (2026-11-23, not yet deployed):
+  `HUGO_CACHES_IMAGES_DIR = ':cacheDir/images'` in `netlify.toml` stores
+  processed images in Hugo's `cacheDir`, which on Netlify defaults to
+  `/opt/build/cache/hugo_cache` (a folder Netlify keeps); local builds still
+  use `resources/_gen`. TODO: after the next deploy (cold, about 7 min),
+  check that the one after it is fast. Original notes: Netlify log of
   2026-11-23: build 5 m 15 s, of which `hugo` takes 287 s; fetching the 1.9 GB
   cache (9 s), deploy (14 s) and the Lighthouse plugin (12 s) are minor. Local
   measurements with Hugo 0.136.5: 92 s with the image cache present, 636 s with
@@ -73,18 +78,22 @@ TODO / DOING / DONE / DEFERRED, with dates. Assistant rules are in `CLAUDE.md`.
   missed. The 2,620 processed images are 2 operations (`Fit 1600x1600`,
   `Fill 300x300`, both q50) on about 1,310 images in
   `layouts/shortcodes/image-gallery.html`; the cache is `resources/_gen`
-  (669 MB, git-ignored). Evidence that Netlify's cache does restore it: deploy
-  `2eee13c` (2026-11-20) took 1 m 49 s; the next, `2370b6a`, took 5 m 19 s
-  after commit `a0c51786` replaced and moved about 1,234 source scans (PNG to
-  WebP), which made every gallery image a cache miss. Any change that renames,
-  moves or replaces gallery images, or a Hugo upgrade (new cache names), makes
-  the next deploy slow; still to confirm with a later deploy that changes no
-  gallery images. Options to evaluate,
-  with the output compared before and after: make Netlify keep `resources/_gen`
-  (a cache plugin; needs approval for the Netlify change), or process fewer or
-  smaller images. On a future upgrade, update the version in `netlify.toml`,
+  (git-ignored). Deploy `2eee13c` (2026-11-20) took 1 m 49 s and every deploy
+  since `2370b6a` (which replaced about 1,234 source scans, PNG to WebP) about
+  5 to 8 min; why the earlier builds were fast is unknown. Even with a working
+  cache, renaming, moving or replacing gallery images, or a Hugo upgrade (new
+  cache names), makes the next deploy slow. If the cache fix is not enough:
+  process fewer or smaller images. On a future upgrade, update the version in `netlify.toml`,
   `README.md`, `CLAUDE.md` (intro and "check APIs against Hugo ...") and
   section 1 of this file.
+- **U03 - DONE 2026-11-23: Lighthouse mobile fixes** (scores: performance 100,
+  accessibility 98, best practices 92, SEO 97). Footer link contrast
+  (`#6b6b6b`) and tap-target padding for footer and list links in
+  `static/css/main.css`; `font-display: swap` in `static/css/fonts.css`;
+  `layouts/_markup/render-image.html` adds width/height to bundle images
+  (home hero). DEFERRED: `images/icons/avatar.png` is 50x50 but displayed at
+  40 px, so Lighthouse wants an 80x80 file (needs a new image); PWA manifest
+  and CSP are not planned.
 - **U02 - DONE 2026-11-23: social-sharing images.** `layouts/partials/social-image.html`
   (called by `head.html`) picks the page's `image:` (a bundle file or an
   absolute path under `static/`), else the nearest ancestor section's, else
