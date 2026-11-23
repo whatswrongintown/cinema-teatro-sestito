@@ -62,13 +62,5 @@ TODO / DOING / DONE / DEFERRED, with dates. Assistant rules are in `CLAUDE.md`.
   smaller images, then upgrade Hugo (release notes since 0.136.5, replace the
   deprecated settings above, update `HUGO_VERSION` in `netlify.toml`, check the
   deploy log). A Hugo upgrade alone is not expected to remove the image cost.
-- **TODO: take down the shinyapps.io app.** The owner approved retiring it on
-  2026-11-23 (the Hugo dashboard replaced it and the live site was confirmed).
-  What is left is archiving or deleting the app in the shinyapps.io dashboard,
-  which needs the owner's shinyapps.io account; nothing in the repository
-  references it.
-- **DONE (2026-11-23):** Italian description for the "Note sui manifesti"
-  source page; unused `posters_managed` front matter key removed from
-  `content/posters/`.
 - No feature roadmap yet: new ideas are agreed with the owner and listed here
   when they are approved.
