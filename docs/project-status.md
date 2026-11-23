@@ -92,7 +92,8 @@ item's status.
   The genre chart drops "Drammatico" from films with several expanded rows
   (also repeated Drammatico-only films), and missing genres count as not adult.
   The methodology prose does not fully explain this. Decision: explain the
-  conventions, do not recalculate charts. Resume after the database is final.
+  conventions, do not recalculate charts. The database is final since
+  2026-11-23, so this item (like O02 and O03) is no longer blocked on data.
 ### DOING M01 - Routine form/privacy operations
   Monitor spam and usage; retain/delete messages according to the approved
   notice. The optional publication follow-up is not permission to publish.
@@ -115,6 +116,13 @@ item's status.
   (deprecated >=0.153, removed 0.169) and languageCode -> locale (>=0.158).
   The migration (section 6) may justify an upgrade; agree it separately, test
   it, and align netlify.toml and .Rprofile.
+- 2026-11-23: the historical programming and the poster digitisation are
+  final. The CSVs in static/data/ will not change and no new material will be
+  added, so the programming and poster sections never need regenerating. The
+  poster web images in static/images/manifesti/ (made with the R script) are
+  accepted as they are; do not modify or regenerate them. Counts in this file
+  dated before this decision (e.g. 5,290 screening rows) are older snapshots;
+  the final screening CSV has 5,479 rows.
 - 2026-11-23: the owner moved from GitHub Copilot to Claude Code. Assistant
   rules live in CLAUDE.md; .github/copilot-instructions.md was removed.
 
@@ -143,10 +151,15 @@ before removing any R code. Steps: docs/plans/implementation-guide.md.
 | H01 | Hugo (`hugo server` / `hugo`) as the local tool instead of blogdown | TODO |
 | H02 | Convert the two article `index.Rmd` files to plain Markdown; remove blogdown leftovers | TODO |
 | H03 | Historical programming pages, tables and charts built by Hugo from the CSVs | TODO |
-| H04 | Poster pages and data built by Hugo; non-R image derivative step | TODO |
+| H04 | Poster pages and data built by Hugo (images stay as they are) | TODO |
 | H05 | Hugo-native dashboard replacing the Shiny app and iframe | TODO |
 | H06 | Non-R tool (or retained utility) for source PDF conversion | TODO |
 | H07 | Remove replaced R scripts/tests/docs; keep analysis code outside the build | TODO |
+
+Because the data are final (section 4), the migration is about maintainability
+and presentation, not a data pipeline. For H03/H04 an acceptable fallback is to
+keep the already generated Markdown as ordinary committed content and simply
+remove the R generators.
 
 Open questions: charts as Hugo-generated SVG or a small JavaScript library;
 whether new programming pages are created by a Hugo content adapter; whether a

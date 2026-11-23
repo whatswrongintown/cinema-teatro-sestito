@@ -25,7 +25,7 @@ record. Recommendations here do not implement or resolve an item.
 | [H01-H07](#h01-h07-migration-to-hugo-only) | Replace R/blogdown with Hugo | P2, planned | One step at a time, in the order below |
 | [O02](#o02-poster-notes-source) | "Note sui manifesti" source/category | Deferred | Verified poster-date data |
 | O03 | Resolve country-only film ID `tt0052704` | P2, deferred | Verified external/poster evidence; do not guess |
-| O04 | Explain chart conventions in the methodology | Deferred | Fresh check after the database is finalized; see the [R guide](../guides/historical-programming.md#interpretation-and-remaining-editorial-work) |
+| O04 | Explain chart conventions in the methodology | Deferred | Database final since 2026-11-23; ready for a fresh check; see the [R guide](../guides/historical-programming.md#interpretation-and-remaining-editorial-work) |
 | [F03](#f03-film-search) | Add film search | P3 | Agree result model; easier after H03 |
 | F04 | Timeline, identification, collections | P3, deferred | Choose one feature and its content |
 
@@ -40,7 +40,9 @@ General rules for every step:
 - One step per change. Before replacing a generator, record the current output
   (pages, URLs, tables, front matter) and compare it with the Hugo output.
   Identical URLs and equivalent content are required; aliases for any change.
-- Keep the CSVs in `static/data/` as the single source of truth.
+- Keep the CSVs in `static/data/` as the single source of truth. They are final
+  (2026-11-23), so a step may also simply keep the committed generated pages
+  and remove the R generator, if Hugo templates bring no real benefit.
 - Remove an R script, its test and its documentation only after its Hugo
   replacement is built, compared and published.
 - Hugo 0.136.5 stays pinned unless an upgrade is separately agreed. Note that
@@ -65,10 +67,10 @@ Recommended order:
    so 0.136.5 supports them). Replace PNG index and annual charts with
    Hugo-generated SVG or a small JS library (open question). Keep the counting
    conventions documented in the R guide.
-4. **H04 - Poster collection in Hugo.** Generate film and browse pages from the
-   CSVs and `poster_overrides.csv` in Hugo. Image derivatives of the private
-   originals still need a local step: choose a non-R tool or Hugo image
-   processing on a committed, reduced copy; measure build time first.
+4. **H04 - Poster collection in Hugo.** Generate film and browse pages in Hugo
+   from `data/posters/films.json` or the CSVs. The web images in
+   `static/images/manifesti/` are final: reuse them unchanged; no image
+   derivative step is needed.
 5. **H05 - Dashboard in Hugo.** Replace the Shiny app and its iframe with a
    Hugo page (data from the CSVs, client-side filters). Keep Shiny live until the
    replacement is published, then retire the shinyapps.io deployment.
