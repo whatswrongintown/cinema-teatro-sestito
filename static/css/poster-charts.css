@@ -1,0 +1,78 @@
+/* Poster collection charts (shortcode "poster-charts"): year bar chart and
+   decade heat maps. Same palette as the historical programming charts:
+   grey #E5E5E5 to mint #CBF8DF (layouts/partials/grafici/colore.html) and the
+   mint bars with #7fbf9f edge of dashboard.css. Declared once here as
+   variables because the site has no global custom properties. */
+.poster-chart {
+  --pc-focus: #286a4a;
+  --pc-grey: #E5E5E5;
+  --pc-mint-edge: #7fbf9f;
+  --pc-ink: #222;
+  --pc-muted: #555;
+  --pc-line: #e5e5e5;
+  --pc-surface: #f5f5f5;
+  --pc-paper: #fff;
+  --pc-mint: #CBF8DF;
+  margin: 2.5rem 0;
+  color: var(--pc-ink);
+}
+.poster-chart h2 { margin: 0 0 0.75rem; }
+.poster-chart figure { margin: 0; }
+.poster-chart figcaption {
+  margin-top: 0.75rem;
+  color: var(--pc-muted);
+  font-size: 0.85em;
+  line-height: 1.6;
+}
+.poster-chart .pc-sr-only {
+  position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0;
+  overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0;
+}
+.poster-chart :focus-visible { outline: 2px solid var(--pc-focus); outline-offset: 2px; }
+
+/* Scroll container: the chart keeps a readable minimum width on phones. */
+.pc-scroll { overflow-x: auto; max-width: 100%; }
+
+/* Year bar chart (inline SVG) */
+.pc-year-svg { display: block; width: 100%; min-width: 520px; height: auto; font-family: inherit; }
+.pc-year-svg text { fill: var(--pc-muted); font-size: 12px; }
+.pc-year-svg .pc-axis-title { font-size: 12px; fill: var(--pc-ink); }
+.pc-year-svg .pc-grid { stroke: var(--pc-line); stroke-width: 1; }
+.pc-year-svg .pc-base { stroke: var(--pc-muted); stroke-width: 1; }
+.pc-year-svg .pc-bar { fill: var(--pc-mint); stroke: var(--pc-mint-edge); stroke-width: 0.5; }
+.pc-year-svg .pc-bar:hover { fill: var(--pc-mint-edge); }
+
+/* Heat map tables (HTML) */
+.pc-heatmap { border-collapse: separate; border-spacing: 2px; width: 100%; font-size: 0.8rem; }
+.pc-heatmap th, .pc-heatmap td { padding: 0.35rem 0.25rem; text-align: center; }
+.pc-heatmap thead th { color: var(--pc-muted); font-weight: normal; white-space: nowrap; }
+.pc-heatmap tbody th {
+  position: sticky; left: 0; z-index: 1;
+  min-width: 7.5rem; padding-right: 0.5rem;
+  background: var(--pc-paper); color: var(--pc-ink);
+  font-weight: normal; text-align: left; white-space: nowrap;
+}
+.pc-heatmap thead th:first-child { text-align: left; }
+.pc-heatmap .pc-cell {
+  min-width: 2.6rem;
+  /* --pc-p (set per cell, 0% to 100%) scales from grey to mint */
+  background: color-mix(in srgb, var(--pc-mint) var(--pc-p), var(--pc-grey));
+  color: var(--pc-ink);
+}
+.pc-heatmap .pc-cell.pc-zero { background: var(--pc-surface); }
+.pc-heatmap .pc-total { color: var(--pc-muted); font-weight: bold; padding-left: 0.5rem; }
+
+.pc-legend { display: flex; align-items: center; gap: 0.5rem; margin-top: 0.75rem; color: var(--pc-muted); font-size: 0.8rem; }
+.pc-legend-bar {
+  flex: 0 1 12rem; height: 0.75rem; border: 1px solid var(--pc-line);
+  background: linear-gradient(to right, var(--pc-grey), var(--pc-mint));
+}
+
+@media (max-width: 500px) {
+  .pc-heatmap { font-size: 0.75rem; }
+  .pc-heatmap { border-spacing: 1px; }
+  .pc-heatmap th, .pc-heatmap td { padding: 0.35rem 0.1rem; }
+  .pc-heatmap tbody th { min-width: 5.25rem; padding-right: 0.25rem; white-space: normal; }
+  .pc-heatmap .pc-cell { min-width: 1.9rem; }
+  .pc-heatmap .pc-total { padding-left: 0.25rem; }
+}

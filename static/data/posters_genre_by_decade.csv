@@ -1,0 +1,103 @@
+decade,genre,n_posters
+1950,Avventura,5
+1950,Azione,6
+1950,Biografico,5
+1950,Commedia,9
+1950,Drammatico,46
+1950,Fantastico,10
+1950,Guerra,5
+1950,Horror,9
+1950,Musical,3
+1950,Per famiglie,1
+1950,Sentimentale,6
+1950,Sportivo,3
+1950,Storico,9
+1960,Avventura,165
+1960,Azione,79
+1960,Biografico,21
+1960,Commedia,88
+1960,Drammatico,288
+1960,Fantascienza,3
+1960,Fantastico,18
+1960,Giallo,31
+1960,Guerra,44
+1960,Horror,13
+1960,Musica,2
+1960,Musical,15
+1960,Per famiglie,7
+1960,Poliziesco,66
+1960,Sentimentale,117
+1960,Sportivo,4
+1960,Storico,63
+1960,Thriller,57
+1960,Western,139
+1970,Animazione,2
+1970,Avventura,235
+1970,Azione,212
+1970,Biografico,14
+1970,Commedia,215
+1970,Documentario,6
+1970,Drammatico,495
+1970,Fantascienza,18
+1970,Fantastico,49
+1970,Giallo,24
+1970,Guerra,51
+1970,Horror,38
+1970,Musica,5
+1970,Musical,12
+1970,Per adulti,5
+1970,Per famiglie,25
+1970,Poliziesco,121
+1970,Sentimentale,112
+1970,Sportivo,9
+1970,Storico,64
+1970,Thriller,99
+1970,Western,199
+1980,Animazione,1
+1980,Avventura,26
+1980,Azione,90
+1980,Biografico,5
+1980,Commedia,106
+1980,Documentario,2
+1980,Drammatico,156
+1980,Fantascienza,10
+1980,Fantastico,15
+1980,Giallo,12
+1980,Guerra,1
+1980,Horror,26
+1980,Musica,2
+1980,Musical,5
+1980,Per adulti,165
+1980,Per famiglie,1
+1980,Poliziesco,54
+1980,Sentimentale,22
+1980,Storico,6
+1980,Thriller,37
+1980,Western,16
+1990,Avventura,11
+1990,Azione,16
+1990,Biografico,1
+1990,Commedia,37
+1990,Drammatico,37
+1990,Fantascienza,6
+1990,Fantastico,15
+1990,Giallo,2
+1990,Horror,8
+1990,Musica,1
+1990,Per adulti,44
+1990,Per famiglie,10
+1990,Poliziesco,18
+1990,Sentimentale,16
+1990,Sportivo,1
+1990,Thriller,14
+1990,Western,1
+2000,Avventura,3
+2000,Commedia,4
+2000,Drammatico,5
+2000,Fantastico,3
+2000,Giallo,2
+2000,Horror,1
+2000,Musica,1
+2000,Per famiglie,1
+2000,Poliziesco,1
+2000,Sentimentale,1

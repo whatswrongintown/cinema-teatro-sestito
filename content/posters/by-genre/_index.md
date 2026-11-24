@@ -8,4 +8,4 @@ description: Manifesti raggruppati per genere cinematografico.
 image: ''
 ---
 
-<!-- Write your text here -->
+{{< poster-charts "generi" >}}

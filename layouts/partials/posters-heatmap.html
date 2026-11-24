@@ -1,0 +1,73 @@
+{{- /*
+Shared heat map: an HTML table with decades as columns and one row per
+category (format or genre). Cell background goes from grey to the
+mint of the historical programming charts (square-root scale, so small counts stay visible next to large
+ones); empty cells show no number. Input (dict):
+  id, title, desc (hidden description), caption (HTML), csv (path under static/, e.g. "data/x.csv"),
+  rowHeader (label of the first column), labels (dict key -> label, optional),
+  order (slice of keys, optional; default: by total, highest first)
+CSV columns: decade, <category>, n_posters. Combinations missing from the
+file count as 0.
+*/ -}}
+{{- $csv := resources.Get .csv | transform.Unmarshal }}
+{{- $counts := dict }}{{ $decades := slice }}{{ $totals := dict }}{{ $max := 0 }}{{ $all := 0 }}
+{{- range after 1 $csv }}
+  {{- $d := int (index . 0) }}{{ $k := index . 1 }}{{ $n := int (index . 2) }}
+  {{- $decades = $decades | append $d }}
+  {{- $counts = merge $counts (dict (printf "%d|%s" $d $k) $n) }}
+  {{- $totals = merge $totals (dict $k (add (int (index $totals $k)) $n)) }}
+  {{- $all = add $all $n }}
+  {{- if gt $n $max }}{{ $max = $n }}{{ end }}
+{{- end }}
+{{- $decades = sort (uniq $decades) }}
+{{- $keys := .order }}
+{{- if not $keys }}
+  {{- $items := slice }}
+  {{- range $k, $t := $totals }}{{ $items = $items | append (dict "k" $k "t" $t) }}{{ end }}
+  {{- $keys = slice }}
+  {{- range sort (sort $items "k") "t" "desc" }}{{ $keys = $keys | append .k }}{{ end }}
+{{- else }}
+  {{- range $k, $_ := $totals }}{{ if not (in $keys $k) }}{{ $keys = $keys | append $k }}{{ end }}{{ end }}
+{{- end }}
+{{- $labels := .labels | default dict }}
+{{- $id := .id }}
+<section class="poster-chart" id="{{ $id }}" aria-labelledby="{{ $id }}-titolo">
+  <h2 id="{{ $id }}-titolo">{{ .title }}</h2>
+  <figure>
+    <p class="pc-sr-only" id="{{ $id }}-desc">{{ .desc }}</p>
+    <div class="pc-scroll" role="region" aria-label="{{ .title }}, tabella scorrevole in orizzontale" tabindex="0">
+      <table class="pc-heatmap" aria-describedby="{{ $id }}-desc">
+        <caption class="pc-sr-only">{{ .title }}</caption>
+        <thead>
+          <tr>
+            <th scope="col">{{ .rowHeader }}</th>
+            {{- range $decades }}
+            <th scope="col"><span class="pc-sr-only">Anni </span>{{ . }}</th>
+            {{- end }}
+            <th scope="col">Totale</th>
+          </tr>
+        </thead>
+        <tbody>
+          {{- range $keys }}
+          {{- $k := . }}
+          <tr>
+            <th scope="row">{{ index $labels $k | default $k }}</th>
+            {{- range $decades }}
+            {{- $n := int (index $counts (printf "%d|%s" . $k)) }}
+            {{- if eq $n 0 }}
+            <td class="pc-cell pc-zero"><span class="pc-sr-only">0</span></td>
+            {{- else }}
+            {{- $p := math.Round (mul 100 (math.Sqrt (div (float $n) (float $max)))) }}
+            <td class="pc-cell" style="--pc-p: {{ int $p }}%">{{ $n }}</td>
+            {{- end }}
+            {{- end }}
+            <td class="pc-total">{{ lang.FormatNumber 0 (index $totals $k) }}</td>
+          </tr>
+          {{- end }}
+        </tbody>
+      </table>
+    </div>
+    <div class="pc-legend" aria-hidden="true"><span>1</span><span class="pc-legend-bar"></span><span>{{ $max }}</span><span>manifesti per cella (scala non lineare)</span></div>
+    <figcaption>{{ .caption | safeHTML }}</figcaption>
+  </figure>
+</section>

@@ -1,0 +1,71 @@
+{{- /*
+Vertical bar chart: posters per screening year, as inline SVG.
+Data: static/data/posters_year_counts.csv (year, n_posters) and
+static/data/posters_no_year.csv (n_posters without a screening date).
+Every year from the first to the last is shown, with 0 where there is no poster.
+*/ -}}
+{{- $rows := resources.Get "data/posters_year_counts.csv" | transform.Unmarshal }}
+{{- $noYear := 0 }}
+{{- range after 1 (resources.Get "data/posters_no_year.csv" | transform.Unmarshal) }}{{ $noYear = int (index . 0) }}{{ end }}
+
+{{- /* Year -> count, then the full year range */ -}}
+{{- $byYear := dict }}
+{{- $first := 9999 }}{{ $last := 0 }}{{ $total := 0 }}{{ $max := 0 }}{{ $peak := 0 }}
+{{- range after 1 $rows }}
+  {{- $y := int (index . 0) }}{{ $n := int (index . 1) }}
+  {{- $byYear = merge $byYear (dict (string $y) $n) }}
+  {{- $first = math.Min $first $y }}{{ $last = math.Max $last $y }}
+  {{- $total = add $total $n }}
+  {{- if gt $n $max }}{{ $max = $n }}{{ $peak = $y }}{{ end }}
+{{- end }}
+{{- $first = int $first }}{{ $last = int $last }}
+{{- $years := seq $first $last }}
+
+{{- /* Y axis: a step giving at most 5 intervals */ -}}
+{{- $step := 500 }}
+{{- range slice 500 200 100 50 40 25 20 10 5 2 1 }}
+  {{- if le (math.Ceil (div (float $max) (float .))) 5.0 }}{{ $step = . }}{{ end }}
+{{- end }}
+{{- $top := mul $step (int (math.Ceil (div (float $max) (float $step)))) }}
+{{- if eq $top 0 }}{{ $top = $step }}{{ end }}
+
+{{- /* Geometry (SVG user units) */ -}}
+{{- $W := 640.0 }}{{ $H := 340.0 }}
+{{- $ml := 48.0 }}{{ $mr := 10.0 }}{{ $mt := 12.0 }}{{ $mb := 56.0 }}
+{{- $pw := sub $W (add $ml $mr) }}{{ $ph := sub $H (add $mt $mb) }}
+{{- $band := div $pw (float (len $years)) }}
+{{- $bw := mul $band 0.72 }}
+{{- $base := add $mt $ph }}
+
+{{- $desc := printf "Grafico a barre verticali: numero di manifesti e locandine per anno di proiezione del film nel cinema, dal %d al %d. Sono conteggiati i manifesti con una data di proiezione nota (%s in tutto); gli anni senza manifesti hanno valore zero. Il massimo è nel %d, con %s manifesti." $first $last (lang.FormatNumber 0 $total) $peak (lang.FormatNumber 0 $max) }}
+<section class="poster-chart" id="grafico-anni" aria-labelledby="grafico-anni-titolo">
+  <h2 id="grafico-anni-titolo">Manifesti per anno di proiezione</h2>
+  <figure>
+    <p class="pc-sr-only" id="grafico-anni-desc">{{ $desc }}</p>
+    <div class="pc-scroll" role="region" aria-label="Grafico dei manifesti per anno, scorrevole in orizzontale" tabindex="0">
+      <svg class="pc-year-svg" viewBox="0 0 {{ $W }} {{ $H }}" role="img" aria-labelledby="grafico-anni-titolo" aria-describedby="grafico-anni-desc">
+        {{- range seq 0 $step $top }}
+        {{- $y := sub $base (mul $ph (div (float .) (float $top))) }}
+        <line class="{{ if eq . 0 }}pc-base{{ else }}pc-grid{{ end }}" x1="{{ $ml }}" x2="{{ sub $W $mr }}" y1="{{ printf "%.1f" $y }}" y2="{{ printf "%.1f" $y }}"/>
+        <text x="{{ sub $ml 6 }}" y="{{ printf "%.1f" (add $y 4) }}" text-anchor="end">{{ . }}</text>
+        {{- end }}
+        {{- range $i, $year := $years }}
+        {{- $n := int (index $byYear (string $year)) }}
+        {{- $x := add $ml (mul $band (float $i)) }}
+        {{- if gt $n 0 }}
+        {{- $h := mul $ph (div (float $n) (float $top)) }}
+        <rect class="pc-bar" x="{{ printf "%.2f" (add $x (div (sub $band $bw) 2)) }}" y="{{ printf "%.2f" (sub $base $h) }}" width="{{ printf "%.2f" $bw }}" height="{{ printf "%.2f" $h }}"><title>{{ $year }}: {{ $n }} {{ if eq $n 1 }}manifesto{{ else }}manifesti{{ end }}</title></rect>
+        {{- end }}
+        {{- if eq (mod $year 5) 0 }}
+        <text x="{{ printf "%.2f" (add $x (div $band 2)) }}" y="{{ add $base 16 }}" text-anchor="middle">{{ $year }}</text>
+        {{- end }}
+        {{- end }}
+        <text class="pc-axis-title" x="{{ printf "%.1f" (add $ml (div $pw 2)) }}" y="{{ sub $H 8 }}" text-anchor="middle">Anno di proiezione</text>
+        <text class="pc-axis-title" transform="translate(12 {{ printf "%.1f" (add $mt (div $ph 2)) }}) rotate(-90)" text-anchor="middle">Numero di manifesti</text>
+      </svg>
+    </div>
+    <figcaption>
+      Numero di manifesti e locandine per anno di proiezione del film nel cinema (dal {{ $first }} al {{ $last }}; {{ lang.FormatNumber 0 $total }} manifesti con data nota). Gli anni si riferiscono alle proiezioni in sala, non all'anno di produzione dei film. {{ lang.FormatNumber 0 $noYear }} manifesti non hanno una data di proiezione nota e non compaiono nel grafico.
+    </figcaption>
+  </figure>
+</section>

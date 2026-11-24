@@ -12,4 +12,6 @@ image: ''
 
 {{< poster-subsections >}}
 
+{{< poster-charts "formati" >}}
+
 <!-- Write your text here -->

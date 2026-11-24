@@ -8,4 +8,4 @@ description: Manifesti raggruppati per anno e mese di proiezione al cinema.
 image: ''
 ---
 
-<!-- Write your text here -->
+{{< poster-charts "anni" >}}

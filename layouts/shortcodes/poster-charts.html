@@ -1,0 +1,13 @@
+{{- /*
+Chart of the Posters subsections, built from static/data/posters_*.csv.
+Style: static/css/poster-charts.css. Usage (one per page):
+  {{< poster-charts "anni" >}}     year bar chart       (Per anno)
+  {{< poster-charts "formati" >}}  format heat map      (Per formato)
+  {{< poster-charts "generi" >}}   genre heat map       (Per genere)
+*/ -}}
+{{- $nome := .Get 0 }}
+<link rel="stylesheet" href="{{ "css/poster-charts.css" | relURL }}">
+{{- if eq $nome "anni" }}{{ partial "posters-year-chart.html" . }}
+{{- else if eq $nome "formati" }}{{ partial "posters-format-heatmap.html" . }}
+{{- else if eq $nome "generi" }}{{ partial "posters-genre-heatmap.html" . }}
+{{- else }}{{ errorf "poster-charts: unknown chart %q (%s)" $nome .Page.File.Path }}{{ end }}

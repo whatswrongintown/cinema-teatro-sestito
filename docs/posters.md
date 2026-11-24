@@ -44,6 +44,33 @@ file were deleted on 2026-11-23 as no longer needed. Only dates from
 metadata file has no cinema screening dates (`Release Date`, `Created`,
 `Modified` and `Date Rated` are not screening dates).
 
+## Charts in the Posters subsections (DONE 2026-11-24)
+
+Each subsection index page shows one chart, through the shortcode
+`{{< poster-charts "<name>" >}}` (`layouts/shortcodes/poster-charts.html`, which
+also links `static/css/poster-charts.css`):
+
+- `content/posters/by-year/_index.md` ("anni"): `layouts/partials/posters-year-chart.html`,
+  inline SVG bar chart of posters per screening year (every year from first to
+  last, 0 where empty); the caption gives the posters without a screening date.
+- `content/posters/by-size/_index.md` ("formati"): `posters-format-heatmap.html`,
+  decades by format.
+- `content/posters/by-genre/_index.md` ("generi"): `posters-genre-heatmap.html`,
+  decades by genre, sorted by total.
+
+The two heat maps are HTML tables built by the shared
+`layouts/partials/posters-heatmap.html`. Colours follow the historical
+programming charts: grey `#E5E5E5` to mint `#CBF8DF` (CSS `color-mix`, square-root
+scale), mint bars with the `#7fbf9f` edge of `dashboard.css`; empty cells show no
+number.
+
+Data (aggregates of the poster database, final): `static/data/posters_year_counts.csv`,
+`posters_no_year.csv`, `posters_format_by_decade.csv`, `posters_genre_by_decade.csv`.
+They are read with `resources.Get | transform.Unmarshal` (`getCSV` no longer
+exists in Hugo 0.170.1); combinations missing from the CSVs count as 0. The
+site has no global CSS variables, so `poster-charts.css` declares its own,
+copied from `main.css` and `dashboard.css`.
+
 ## Images
 
 Thumbnails are at most 400 px wide and large images at most 1400 px on their
