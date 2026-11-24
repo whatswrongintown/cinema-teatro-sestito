@@ -157,6 +157,19 @@ TODO / DOING / DONE / DEFERRED, with dates. Assistant rules are in `CLAUDE.md`.
   contact form lower or moved to a contact page. Keep the Lighthouse scores
   (U03) and the social image logic (U02). This is the first concrete step of
   U07 and should be designed with it.
+- **U09 - TODO 2026-11-24: improve the navigation menu** (`menu.main` in
+  `config.yaml`, `layouts/partials/nav.html`, `static/css/main.css`). Today
+  the header holds the small round logo (50x50) and a single link, "Progetto".
+  The main sections (Programmazione storica, Manifesti, Articoli, Archivio)
+  are reachable only from the list on the home page or from breadcrumbs.
+  Improvements to agree with the owner: put the main sections in the menu
+  (with the Posters subsections as a dropdown or mega menu: per anno, per
+  formato, per genere, lettere, Retro); a clear current-section state; a
+  mobile menu (a button that opens a full-screen or drawer menu, large tap
+  targets); a search entry for films and documents; a visible link for the
+  reopening or contact; keyboard and screen reader support (`aria-current`,
+  focus states). Keep it light (no heavy JavaScript) and keep the Lighthouse
+  scores (U03). To design together with U07 and U08.
 - No feature roadmap yet: new ideas are agreed with the owner and listed here
   when they are approved.
 
