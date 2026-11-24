@@ -2,7 +2,7 @@
 title: Programmazione storica
 author: Vito Sestito
 date: '2023-04-21'
-lastmod: '2026-11-16'
+lastmod: '2026-11-24'
 description: "Archivio delle proiezioni del Cinema Teatro Sestito dal 1948 al 2004, ricostruito attraverso le fonti originali conservate dalla famiglia Sestito."
 slug: "programmazione-storica"
 image: "avvolgitore_prevost.jpg"
@@ -20,6 +20,7 @@ La sezione è articolata in più aree tematiche per facilitare la consultazione 
 - 📅 **[Anni](/programmazione-storica/anni/)** - Serie di pagine organizzate cronologicamente, che documentano i programmi cinematografici mese per mese dal 1948 al 2004.
 - 🌍 **[Paesi di produzione](/programmazione-storica/paesi-di-produzione/)** - Pagine che mostrano la provenienza dei film.
 - 🎬 **[Generi](/programmazione-storica/generi/)** - Suddivisione dei film per genere cinematografico, per seguire l’evoluzione dei gusti e delle tendenze.
+- 🔞 **[Cinema per adulti ed exploitation](/programmazione-storica/cinema-per-adulti/)** - I film per adulti e di exploitation programmati tra gli anni Settanta e Novanta, con i manifesti dell'epoca.
 
 Per conoscere le fonti, i criteri di identificazione dei film e i limiti dei dati, consulta la [metodologia di ricostruzione della programmazione](/2026/11/11/metodologia-ricostruzione-programmazione/).
 

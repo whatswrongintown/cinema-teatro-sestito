@@ -2,8 +2,9 @@
 
 The redesign (U07) gives the site the look of a working cinema and cultural
 venue instead of a blog and statistics archive. Status: DOING 2026-11-24, home
-page prototype on the branch `redesign/home-prototype`; the inner pages still
-use the old styles under the new header and footer.
+page prototype and the adult films page on the branch
+`redesign/home-prototype`; the other inner pages still use the old styles
+under the new header and footer.
 
 Mockup (private, owner only): the "Cinema Sestito redesign" design canvas on
 claude.ai, with the desktop home page, the visual system and the phone home
@@ -99,8 +100,34 @@ years, with the first one that has a poster shown large beside the list.
 - `static/js/cartellone.js` (home page only) redoes the selection for the
   visitor's date from the monthly files. The rules are written twice, in the
   template and in the script: change both together.
-- Films tagged "Per adulti" are left out of the home selection only; they stay
-  in the programme pages. TODO 2026-11-24: owner to confirm.
+- Films tagged "Per adulti", and the IDs in `filmAggiuntivi` on the adult
+  films page, are left out of the home selection (owner, 2026-11-24); they
+  stay in the programme pages and have their own page (below).
+
+## Pages in the new style
+
+A page with `redesign: true` in its front matter (`params`) also loads
+`static/css/editorial.css` (the home page always does) and can use its
+components inside `<main class="home">`: `.home-h2`, `.home-kicker`,
+`.home-sub`, `.home-more`, `.home-numbers`, the programme rows (`.shows`,
+`.show`) and the section spacing.
+
+### Cinema per adulti ed exploitation (U12)
+
+`content/programmazione-storica/cinema-per-adulti/_index.md`, layout
+`layouts/programmazione-storica/adulti.html`, at
+`/programmazione-storica/cinema-per-adulti/`:
+
+- hero with the page body (from the Progetto text until the owner's article
+  exists) and the `nota` on the censored promotional material;
+- figures and the existing `film-per-adulti-per-anno` chart;
+- every printed poster of the films tagged `per-adulti` in `films.json`,
+  grouped by the decade of the first screening, with the site lightbox;
+- the screenings tagged "Per adulti", by year, in collapsible lists.
+
+`filmAggiuntivi` (IMDb IDs) adds exploitation titles that the data tags with
+other genres; they then appear here and leave the home page. Linked from the
+Programmazione storica page and the site map.
 
 ## Next steps
 

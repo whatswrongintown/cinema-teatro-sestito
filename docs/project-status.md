@@ -171,8 +171,9 @@ TODO / DOING / DONE / DEFERRED, with dates. Assistant rules are in `CLAUDE.md`.
   the visitor's date), intro, section cards, poster strip, stories, reopening
   band and the contact form, all driven by front matter (`design.md`). The
   reopening band reuses the existing home text: the owner still has to write
-  the real reopening status. TODO: owner to confirm leaving "Per adulti"
-  films out of the home programme. Before: one architectural drawing (1956 project),
+  the real reopening status. Adult and exploitation films are left out of the
+  home programme (owner, 2026-11-24) and have their own page (U12). Before:
+  one architectural drawing (1956 project),
   four paragraphs of text, a plain list of four links ("Esplora") and the
   contact form. Improvements to agree with the owner: a stronger first screen
   that says at once what the place is (name, years, one line, a poster or
@@ -232,6 +233,19 @@ TODO / DOING / DONE / DEFERRED, with dates. Assistant rules are in `CLAUDE.md`.
   light (about 60 posters per page today). Do not modify `films.json` or
   `static/images/manifesti/`; keep thumbnails at most 400 px wide. The
   decision on regenerating the CSVs and the gaps listed under U04 stay open.
+- **U12 - DOING 2026-11-24: page on adult and exploitation films**
+  (`content/programmazione-storica/cinema-per-adulti/_index.md`, layout
+  `layouts/programmazione-storica/adulti.html`, on `redesign/home-prototype`).
+  The owner wants this part of the cinema's history documented on its own
+  page rather than on the home page; the promotional material is censored
+  (no explicit nudity), so the posters are shown. The page has the 291
+  screenings and 124 films with posters tagged "Per adulti", the yearly share
+  chart, the posters by decade and the screenings by year (details in
+  `design.md`). TODO: the owner writes the article on this chapter (the page
+  says one is in preparation); exploitation titles not tagged "Per adulti"
+  (for example "L'ultima orgia del III Reich") are added by IMDb ID to
+  `filmAggiuntivi` in the page's front matter, which also keeps them off the
+  home page.
 - No feature roadmap yet: new ideas are agreed with the owner and listed here
   when they are approved.
 

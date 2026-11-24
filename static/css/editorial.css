@@ -1,4 +1,5 @@
-/* Home page (U08). Loaded only on the home page; uses tokens.css. */
+/* Editorial pages in the redesign (U07): the home page (U08) and pages
+   with `redesign: true` in front matter. Uses tokens.css. */
 
 .home {
   font-family: var(--font-display);
@@ -647,5 +648,153 @@
 
   .show-poster {
     max-width: 380px;
+  }
+}
+
+/* "Cinema per adulti ed exploitation" (layouts/programmazione-storica/adulti.html) */
+.adulti-hero-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 56px;
+  align-items: start;
+}
+
+.adulti-title {
+  margin: 0;
+  color: var(--ink);
+  font-family: var(--font-display);
+  font-size: clamp(2.75rem, 6vw, 5.5rem);
+  font-weight: 400;
+  line-height: 0.98;
+  letter-spacing: -0.03em;
+}
+
+.adulti-note {
+  max-width: 44ch;
+  margin: 28px 0 0;
+  padding-left: 16px;
+  border-left: 2px solid var(--brass);
+  color: var(--muted);
+  font-size: 1rem;
+  line-height: 1.55;
+}
+
+.adulti-intro {
+  font-size: 1.1875rem;
+  line-height: 1.65;
+  color: #D9CDBB;
+}
+
+.adulti-intro p {
+  margin: 0 0 1em;
+}
+
+.adulti-grafico .grafico {
+  margin: 24px 0 16px;
+}
+
+.adulti-grafico .grafico svg {
+  display: block;
+  width: 100%;
+  max-width: 960px;
+}
+
+.home-sub a,
+.adulti-intro a {
+  color: inherit;
+  text-decoration-color: var(--curtain);
+  text-underline-offset: 3px;
+}
+
+.adulti-decade {
+  margin: 40px 0 18px;
+  padding-top: 18px;
+  border-top: 1px solid var(--rule);
+  color: var(--brass);
+  font-family: var(--font-label);
+}
+
+.poster-wall {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 160px), 1fr));
+  gap: 32px 24px;
+  align-items: start;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.poster-wall li {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.poster-wall img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-bottom: 6px;
+  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.45);
+}
+
+.poster-wall-title {
+  color: var(--ink);
+  font-size: 1.0625rem;
+  font-weight: 500;
+  line-height: 1.25;
+  text-decoration: none;
+}
+
+a.poster-wall-title:hover,
+a.poster-wall-title:focus-visible {
+  color: var(--curtain);
+}
+
+.poster-wall-meta {
+  color: var(--muted);
+  font-size: 0.75rem;
+}
+
+.adulti-anno {
+  border-top: 1px solid var(--rule);
+}
+
+.adulti-anno:last-of-type {
+  border-bottom: 1px solid var(--rule);
+}
+
+.adulti-anno summary {
+  display: flex;
+  align-items: baseline;
+  gap: 16px;
+  padding: 16px 0;
+  cursor: pointer;
+  color: var(--muted);
+}
+
+.adulti-anno-year {
+  color: var(--ink);
+  font-size: 1.75rem;
+  font-weight: 500;
+}
+
+.adulti-anno[open] summary .adulti-anno-year {
+  color: var(--curtain);
+}
+
+.adulti-anno .shows {
+  margin-bottom: 12px;
+}
+
+.adulti-anno .home-more {
+  margin-bottom: 20px;
+  color: var(--curtain);
+}
+
+@media (max-width: 899px) {
+  .adulti-hero-grid {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 32px;
   }
 }

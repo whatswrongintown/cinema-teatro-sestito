@@ -1,0 +1,153 @@
+{{- /*
+"Cinema per adulti ed exploitation" (content/programmazione-storica/cinema-per-adulti/).
+Films tagged "Per adulti" in the data, plus the IMDb IDs in
+params.filmAggiuntivi (exploitation titles tagged otherwise): figures, the
+yearly share chart, the posters by decade and the screenings by year. The
+home page programme leaves the same films out (home/cartellone-dati.html).
+*/ -}}
+{{ partial "header.html" . }}
+{{- $page := . }}
+{{- $extra := .Params.filmAggiuntivi | default slice }}
+{{- $dati := partialCached "programmazione/dati.html" . "programmazione" }}
+
+{{- /* Screenings. */}}
+{{- $s := newScratch }}
+{{- range $dati.rows }}
+  {{- if or (in .genres "per adulti") (and .id (in $extra .id)) }}
+    {{- $s.Add "righe" (slice .) }}
+    {{- $s.Add (printf "anno|%s" .year) (slice .) }}
+    {{- $s.SetInMap "anni" .year true }}
+  {{- end }}
+{{- end }}
+{{- $righe := $s.Get "righe" | default slice }}
+
+{{- /* Films with a printed poster, ordered by first screening. */}}
+{{- $films := slice }}
+{{- $nPoster := 0 }}
+{{- range hugo.Data.posters.films.films }}
+  {{- if or (in .genre_slugs "per-adulti") (in $extra .film_id) }}
+    {{- with partial "home/manifesto.html" .film_id }}
+      {{- $prima := index (.film.screening_dates | default (slice "9999")) 0 }}
+      {{- $films = $films | append (dict "k" $prima "m" .) }}
+      {{- $nPoster = add $nPoster (len (where .film.posters "is_retro" false)) }}
+    {{- end }}
+  {{- end }}
+{{- end }}
+{{- $films = sort $films "k" }}
+{{- /* Decade keys are the first three digits of the first screening year. */}}
+{{- $decenni := dict "195" "Anni Cinquanta" "196" "Anni Sessanta" "197" "Anni Settanta" "198" "Anni Ottanta" "199" "Anni Novanta" "200" "Anni Duemila" "999" "Senza data di programmazione" }}
+
+<main class="home adulti" role="main">
+  <section class="adulti-hero tone-dark" aria-labelledby="adulti-title">
+    <div class="wrap adulti-hero-grid">
+      <div>
+        <p class="label home-kicker">{{ .Params.occhiello }}{{ with $righe }} · {{ (index . 0).year }}–{{ (index . (sub (len .) 1)).year }}{{ end }}</p>
+        <h1 id="adulti-title" class="adulti-title">{{ .Title }}</h1>
+        {{- with .Params.nota }}
+        <p class="adulti-note">{{ . }}</p>
+        {{- end }}
+      </div>
+      <div class="adulti-intro">{{ .Content }}</div>
+    </div>
+  </section>
+
+  <div class="home-numbers tone-dark">
+    <ul class="wrap label">
+      <li>{{ lang.FormatNumber 0 (len $righe) }} proiezioni documentate</li>
+      <li>{{ len $films }} film con manifesti in archivio</li>
+      <li>{{ lang.FormatNumber 0 $nPoster }} manifesti e locandine</li>
+    </ul>
+  </div>
+
+  <section class="adulti-grafico tone-light" aria-labelledby="adulti-grafico-title">
+    <div class="wrap">
+      <p class="label home-kicker">Il peso nel cartellone</p>
+      <h2 id="adulti-grafico-title" class="home-h2">Quota di proiezioni per adulti, anno per anno</h2>
+      {{ partial "grafici/film-per-adulti-per-anno.html" (dict "dati" (partialCached "programmazione/indici.html" . "indici") "alt" "Percentuale di proiezioni di film per adulti sul totale di ogni anno") }}
+      <p class="home-sub">La linea tratteggiata indica il 50% delle proiezioni dell'anno. Il grafico considera i film classificati come «Per adulti»; la <a href="{{ with site.GetPage "/articoli/2026-11-11-metodologia-ricostruzione-programmazione" }}{{ .RelPermalink }}{{ end }}">metodologia</a> spiega come sono stati identificati.</p>
+    </div>
+  </section>
+
+  {{- with $films }}
+  <section class="adulti-manifesti tone-dark" aria-labelledby="adulti-manifesti-title">
+    <div class="wrap">
+      <div class="home-section-head">
+        <div>
+          <p class="label home-kicker">In archivio</p>
+          <h2 id="adulti-manifesti-title" class="home-h2">I manifesti</h2>
+        </div>
+        {{- with site.GetPage "/posters/by-genre/per-adulti" }}
+        <a class="label home-more" href="{{ .RelPermalink }}">Nella raccolta dei manifesti →</a>
+        {{- end }}
+      </div>
+      {{- $gruppi := newScratch }}
+      {{- range . }}
+        {{- $gruppi.Add (substr .k 0 3) (slice .) }}
+        {{- $gruppi.SetInMap "ordine" (substr .k 0 3) true }}
+      {{- end }}
+      {{- range $dec, $_ := $gruppi.Get "ordine" }}
+      <h3 class="label adulti-decade">{{ index $decenni $dec | default (printf "Anni %s0" $dec) }}</h3>
+      <ul class="poster-wall">
+        {{- range $gruppi.Get $dec }}
+        {{- $m := .m }}
+        <li>
+          <a class="lightbox-image" href="{{ $m.poster.large | relURL }}"
+             data-caption="{{ $m.film.title }} ({{ $m.formato }})"{{ with $m.pagina }} data-film-url="{{ .RelPermalink }}"{{ end }}>
+            <img src="{{ $m.poster.thumb | relURL }}" width="{{ $m.poster.thumb_width }}" height="{{ $m.poster.thumb_height }}"
+                 alt="{{ $m.film.title }}, {{ lower $m.formato }}" loading="lazy" decoding="async">
+          </a>
+          {{- with $m.pagina }}
+          <a class="poster-wall-title no-lightbox" href="{{ .RelPermalink }}">{{ $m.film.title }}</a>
+          {{- else }}
+          <span class="poster-wall-title">{{ $m.film.title }}</span>
+          {{- end }}
+          <span class="label poster-wall-meta">{{ if ne .k "9999" }}{{ substr .k 0 4 }} · {{ end }}{{ $m.formato }}</span>
+        </li>
+        {{- end }}
+      </ul>
+      {{- end }}
+    </div>
+  </section>
+  {{- end }}
+
+  {{- with $righe }}
+  {{- $anni := dict }}
+  {{- range (site.GetPage "/programmazione-storica/anni").RegularPages }}
+    {{- $p := . }}{{ with $p.Params.anno }}{{ $anni = merge $anni (dict (string .) $p.RelPermalink) }}{{ end }}
+  {{- end }}
+  <section class="adulti-proiezioni tone-light" aria-labelledby="adulti-proiezioni-title">
+    <div class="wrap">
+      <p class="label home-kicker">In cartellone</p>
+      <h2 id="adulti-proiezioni-title" class="home-h2">Le proiezioni, anno per anno</h2>
+      <p class="home-sub">Le date sono quelle registrate nelle fonti; i titoli rimandano alla scheda del manifesto, quando è in archivio.</p>
+      {{- range $anno, $_ := $s.Get "anni" }}
+      {{- $lista := $s.Get (printf "anno|%s" $anno) }}
+      <details class="adulti-anno">
+        <summary><span class="adulti-anno-year">{{ $anno }}</span> <span class="label">{{ len $lista }} {{ cond (eq (len $lista) 1) "proiezione" "proiezioni" }}</span></summary>
+        <ol class="shows">
+          {{- range $lista }}
+          {{- $data := time.AsTime .date }}
+          {{- $m := false }}{{ with .id }}{{ $m = partial "home/manifesto.html" . }}{{ end }}
+          <li class="show">
+            <time class="show-date" datetime="{{ .date }}">
+              <span class="label show-dow">{{ $data | time.Format "Mon" }}</span>
+              <span class="show-day">{{ $data.Day }}</span>
+              <span class="label show-month">{{ $data | time.Format "Jan 2006" }}</span>
+            </time>
+            <div class="show-body">
+              <h3 class="show-title">{{ with $m }}{{ with .pagina }}<a href="{{ .RelPermalink }}">{{ end }}{{ end }}{{ .title }}{{ with $m }}{{ if .pagina }}</a>{{ end }}{{ end }}</h3>
+              {{- with .genre }}<p class="label show-meta">{{ . }}</p>{{ end }}
+              {{- with .source }}<p class="label show-source">Fonte: {{ . }}</p>{{ end }}
+            </div>
+          </li>
+          {{- end }}
+        </ol>
+        {{- with index $anni $anno }}<a class="label home-more" href="{{ . }}">Tutta la programmazione del {{ $anno }} →</a>{{ end }}
+      </details>
+      {{- end }}
+    </div>
+  </section>
+  {{- end }}
+</main>
+
+{{ partial "footer.html" . }}

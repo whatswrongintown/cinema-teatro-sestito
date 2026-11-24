@@ -19,11 +19,14 @@ Call with: partialCached "home/cartellone-dati.html" . "cartellone"
 {{- end -}}
 
 {{- $s := newScratch -}}
-{{- /* Films tagged "Per adulti" are left out of the home page selection;
-       they stay in the programme pages (decision to confirm with the owner,
-       see docs/design.md). */ -}}
+{{- /* Films tagged "Per adulti", and the exploitation titles listed in
+       filmAggiuntivi on the "Cinema per adulti ed exploitation" page, are left
+       out of the home page selection; they have their own page (owner's
+       decision 2026-11-24, see docs/design.md). */ -}}
+{{- $esclusi := slice -}}
+{{- with site.GetPage "/programmazione-storica/cinema-per-adulti" }}{{ $esclusi = .Params.filmAggiuntivi | default slice }}{{ end -}}
 {{- range $rows -}}
-  {{- if in .genres "per adulti" }}{{ continue }}{{ end -}}
+  {{- if or (in .genres "per adulti") (and .id (in $esclusi .id)) }}{{ continue }}{{ end -}}
   {{- $generi := slice -}}
   {{- range split .genre "," }}{{ with strings.TrimSpace . }}{{ $generi = $generi | append . }}{{ end }}{{ end -}}
   {{- $f := "" }}{{ $p := "" }}{{ $P := "" }}{{ $formato := "" -}}
