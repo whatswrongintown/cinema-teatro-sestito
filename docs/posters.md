@@ -112,9 +112,23 @@ number of posters; its `data` column is not used (the same dates are already in
 `programmazione_agende.csv`, which provides all screening dates). In that file,
 poster 943 had a space-only cell in `manifesto_100x140` and poster 954 a leading
 space in `const`; both were cleaned in the owner's copy. Some titles in it also
-have mojibake (for example `TrinitÃ `), not changed. The 251 difference between the
-recording file (2,038) and `films.json` (1,787) is unexplained. The 1966 peak
-(152 against 15 in 1965) is still to be checked.
+have mojibake (for example `TrinitÃ `), not changed. The 251 difference between the recording file (2,038) and `films.json` (1,787)
+(analysed 2026-11-24): 895 of the 1,065 recording records match `films.json`
+exactly; for 120 films the recording has more posters than there are images, by
+up to 9 (for example `tt0112883`: 9 recorded 100x140 copies, 1 image), and
+never fewer. By format the extra recorded posters are 100x140: 131, 33x70: 82,
+50x70: 23, 140x200: 6, mostly 1990s films. This looks like duplicate copies of the
+same poster (one image per distinct poster in `films.json`, every physical copy
+in the recording file), but it is not verified. So the charts count recorded
+copies, while the gallery shows distinct images. The owner should confirm and
+decide whether the chart captions say "copie conservate".
+
+The 1966 peak (152 posters against 15 in 1965): it is not a programming effect,
+`programmazione_agende.csv` has 154 screenings in 1965 and 215 in 1966. What
+changes is how many screenings are linked to a poster: 6 films in 1965, 61 in
+1966, 50 in 1967, 31 in 1968. Possible causes, to be confirmed by the owner:
+posters were kept (or kept in the archive) from about 1966 onwards, or the
+earlier posters are not linked to screenings.
 
 ## Images
 
