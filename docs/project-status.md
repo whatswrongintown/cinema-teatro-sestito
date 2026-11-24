@@ -101,12 +101,18 @@ TODO / DOING / DONE / DEFERRED, with dates. Assistant rules are in `CLAUDE.md`.
   where the thumbnail size (or a visual cue) reflects the physical format
   ratio while keeping the grid readable. Ideas to evaluate: scale each
   thumbnail by the real sheet area on a common cm-per-pixel scale (with a
-  minimum so small formats stay clickable); a size-reference silhouette or
-  label (for example "70x100 cm") on each thumbnail; a toggle between the
-  uniform grid and the proportional view; grouping by format with a shared
-  scale per group and a scale bar. Check mobile widths and keep thumbnails
-  at most 400 px wide (`posters.md`). Needs owner approval of the chosen
-  approach before implementation.
+  minimum so small formats stay clickable); a toggle between the uniform
+  grid and the proportional view; grouping by format with a shared scale per
+  group and a scale bar. Rejected by the owner: size silhouettes or text
+  labels such as "70x100 cm" on each thumbnail. Check mobile widths and keep
+  thumbnails at most 400 px wide (`posters.md`). Needs owner approval of the
+  chosen approach before implementation.
+- **U06 - TODO 2026-11-24: fix the Retro section** (`/posters/retro/`). The
+  owner dislikes how it looks now: every thumbnail carries a size label
+  (`<span class="poster-size">` in `layouts/partials/posters/gallery.html`,
+  shown only for the retro collection). Remove or replace it and review the
+  section's layout, ideally together with U05 so both share one solution for
+  showing formats. Details of the change to agree with the owner first.
 - No feature roadmap yet: new ideas are agreed with the owner and listed here
   when they are approved.
 
