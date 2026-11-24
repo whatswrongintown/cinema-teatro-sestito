@@ -28,7 +28,7 @@ its image, the newest story as the lead, then the others as cards.
     <div class="wrap">
       {{- range $i, $p := $storie }}
       {{- $img := false }}
-      {{- with $p.Params.image }}{{ with $p.Resources.Get . }}{{ $img = .Resize (cond (eq $i 0) "1200x webp q78" "700x webp q78") }}{{ end }}{{ end }}
+      {{- with $p.Params.image }}{{ with (or ($p.Resources.Get .) (resources.Get (strings.TrimPrefix "/" .))) }}{{ $img = .Resize (cond (eq $i 0) "1200x webp q78" "700x webp q78") }}{{ end }}{{ end }}
       {{- $cat := false }}{{ range first 1 ($p.GetTerms "categories") }}{{ $cat = . }}{{ end }}
       {{- if eq $i 0 }}
       <article class="story-feature">

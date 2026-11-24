@@ -48,6 +48,15 @@ of the repository.
   printed and hand-painted poster; previous and next film by title
   (`posters/indice.html`). The internal IMDb list fields (position, created,
   modified, personal rating) are no longer shown.
+- Retro (`content/posters/retro/_index.md`, 2026-11-24): the page text notes
+  that the hand-painted posters are for older films, with the figures from
+  the data: of the 138 films with one, 106 (77%) were produced before 1970
+  and the median production year is 1967 (1974 for films with only printed
+  posters); of the 130 with a screening date, 124 were first shown between
+  1956 and 1979 and none in the 1980s; none is an adult film. Reading (owner):
+  old films that came back to the screen years later had no original material
+  left, so the cinema painted a poster. Update the figures only if
+  `films.json` changes (it is final).
 - `image` in front matter is used for social metadata. Thumbnails open the
   keyboard-accessible lightbox; without JavaScript they link to the large image.
   Index pages with `image: ''` share the nearest parent's image (in the end the

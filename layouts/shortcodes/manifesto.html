@@ -1,0 +1,32 @@
+{{- /*
+A poster from the collection inside an article: its image (opens in the image
+viewer), a caption with the title, year, format and first screening, and a
+link to the film page. Data from data/posters/films.json.
+Usage: {{< manifesto id="tt0235686" >}}
+Optional: lato="sinistra" or "destra" floats a portrait poster beside the text
+on wide screens (landscape posters are always centred);
+didascalia="..." adds a sentence under the caption.
+*/ -}}
+{{- $id := .Get "id" -}}
+{{- $m := partial "home/manifesto.html" $id -}}
+{{- if not $m }}{{ errorf "manifesto shortcode in %q: no printed poster for film %q" .Page.File.Path $id }}{{ end -}}
+{{- $p := $m.poster -}}
+{{- $lato := .Get "lato" -}}
+{{- $classe := "article-poster" -}}
+{{- if eq $p.orientation "landscape" }}{{ $classe = printf "%s article-poster-landscape" $classe }}
+{{- else if eq $lato "sinistra" }}{{ $classe = printf "%s article-poster-left" $classe }}
+{{- else if eq $lato "destra" }}{{ $classe = printf "%s article-poster-right" $classe }}{{ end -}}
+{{- $primo := "" }}{{ with $m.film.screening_dates }}{{ $primo = index . 0 }}{{ end -}}
+<figure class="{{ $classe }}">
+  <a class="lightbox-image" href="{{ $p.large | relURL }}" data-caption="{{ $m.film.title }} ({{ $m.formato }})"{{ with $m.pagina }} data-film-url="{{ .RelPermalink }}"{{ end }}>
+    <img src="{{ $p.thumb | relURL }}" srcset="{{ $p.thumb | relURL }} {{ $p.thumb_width }}w, {{ $p.large | relURL }} {{ $p.large_width }}w"
+         sizes="(min-width: 900px) 340px, 90vw" width="{{ $p.thumb_width }}" height="{{ $p.thumb_height }}"
+         alt="{{ $m.film.title }}, {{ lower $m.formato }}" loading="lazy" decoding="async">
+  </a>
+  <figcaption>
+    {{- with $m.pagina }}<a class="no-lightbox" href="{{ .RelPermalink }}">{{ end }}<strong>{{ $m.film.title }}</strong>{{ if $m.pagina }}</a>{{ end }}
+    {{- with $m.film.production_year }} ({{ . }}){{ end }} · {{ $m.formato }}
+    {{- with $primo }} · in sala il {{ . | time.AsTime | time.Format "2 January 2006" }}{{ end }}
+    {{- with .Get "didascalia" }}<br>{{ . }}{{ end }}
+  </figcaption>
+</figure>

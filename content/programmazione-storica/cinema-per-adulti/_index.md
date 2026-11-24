@@ -18,4 +18,4 @@ A partire dagli anni Settanta, la sala adotta una programmazione più popolare e
 
 Questa trasformazione, lungi dall'essere marginale, riflette le pressioni del mercato e le esigenze di sostenibilità economica in un contesto di progressiva periferizzazione culturale. Qui sono raccolti i manifesti e le proiezioni documentate di quel periodo.
 
-*Un articolo dedicato a questo capitolo della storia della sala è in preparazione.*
+La storia di questo capitolo è raccontata nell'articolo [Le luci rosse del Cinema Sestito](/2026/11/24/luci-rosse-cinema-per-adulti-ed-exploitation/): perché la sala scelse questi film, come funzionavano le serate, quanto incassavano e quali sono i titoli più curiosi.

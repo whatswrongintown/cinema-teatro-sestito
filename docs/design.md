@@ -192,10 +192,23 @@ Templates `layouts/articoli/list.html` and `layouts/articoli/single.html`.
   the bundle file named in `image`: `layouts/partials/articoli/apertura.html`
   resizes it (PNG to WebP, at most 1600 px) and, when the body starts with
   the same image, removes it from the body and uses its alt text as caption.
-  So keep writing the hero as the first line of the body, as before. The
+  So keep writing the hero as the first line of the body, as before.
+  `image` may also be a file under `static/` (an absolute path such as
+  `/images/manifesti/large/...`, e.g. a poster), and `imageCaption` sets the
+  caption directly; the list page uses the same image. The
   text sits in a 700 px reading column (`.prose`) on paper: headings,
   footnotes, galleries (the shortcode's inline float layout is overridden),
   YouTube and the dashboard. Tags as links, then the older and newer stories.
+- Posters inside an article: the shortcode `manifesto`
+  (`layouts/shortcodes/manifesto.html`), for example
+  `{{< manifesto id="tt0235686" lato="destra" didascalia="..." >}}`. `id` is
+  the film ID of `data/posters/films.json`; the figure shows the film's first
+  printed poster (opens in the image viewer) with an automatic caption (title
+  linked to the film page, year, format, first screening). `lato="sinistra"`
+  or `"destra"` floats a portrait poster beside the text from 1,100 px wide
+  (it is centred below that and always for landscape posters);
+  `didascalia` adds a sentence. The build fails if the film has no printed
+  poster.
 - The descriptions double as the summary under the title, so write them as
   a sentence for readers (some are short notes today, e.g. "articolo
   dedicato al fondatore…").

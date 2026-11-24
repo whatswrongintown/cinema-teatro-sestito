@@ -1,8 +1,10 @@
 {{- /*
-Opening image of an article: the bundle image named in front matter `image`.
-When the body starts with that same image (the usual Markdown hero), it is
-taken out of the body so the page shows it once, and its alt text becomes the
-caption. Returns dict:
+Opening image of an article: the image named in front matter `image`, a file
+in the page bundle or, failing that, a file under static/ (for example a
+poster: "/images/manifesti/large/..."). When the body starts with that same
+image (the usual Markdown hero), it is taken out of the body so the page shows
+it once, and its alt text becomes the caption; front matter `imageCaption`
+sets the caption directly. Returns dict:
   img      the image resized to at most 1600 px wide (WebP), or false
   alt      the alt text / caption ("" if the body does not start with it)
   content  the rendered body, without the opening image
@@ -12,7 +14,7 @@ Call with: partial "articoli/apertura.html" .
 {{- $img := false }}{{ $alt := "" -}}
 {{- with .Params.image -}}
   {{- $src := . -}}
-  {{- with $.Resources.Get $src -}}
+  {{- with (or ($.Resources.Get $src) (resources.Get (strings.TrimPrefix "/" $src))) -}}
     {{- $img = . -}}
     {{- if and (eq .ResourceType "image") (ne .MediaType.SubType "svg") (gt .Width 1600) }}{{ $img = .Resize "1600x webp q80" }}{{ else if eq .MediaType.SubType "png" }}{{ $img = .Resize (printf "%dx webp q80" .Width) }}{{ end -}}
   {{- end -}}
@@ -21,5 +23,6 @@ Call with: partial "articoli/apertura.html" .
     {{- $alt = index (index . 0) 1 | htmlUnescape -}}
     {{- $content = replaceRE $re "" $content 1 | safeHTML -}}
   {{- end -}}
+  {{- with $.Params.imageCaption }}{{ $alt = . }}{{ end -}}
 {{- end -}}
 {{- return dict "img" $img "alt" $alt "content" $content -}}

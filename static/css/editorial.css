@@ -2314,3 +2314,58 @@ a.poster-wall-title:focus-visible {
 .home .article-more {
   padding: clamp(32px, 4vw, 48px) 0;
 }
+
+/* Posters inside articles (shortcode "manifesto") */
+.article-poster {
+  max-width: 420px;
+  margin: 2em auto;
+}
+
+.article-poster img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  box-shadow: 0 16px 36px rgba(0, 0, 0, 0.3);
+}
+
+.article-poster-landscape {
+  max-width: 560px;
+}
+
+.article-poster figcaption {
+  margin-top: 12px;
+  color: var(--muted);
+  font-size: 0.9rem;
+  line-height: 1.45;
+}
+
+.article-poster figcaption a {
+  text-decoration-color: var(--curtain);
+}
+
+.prose h2,
+.prose h3 {
+  clear: both;
+}
+
+@media (min-width: 1100px) {
+  .article-poster-left,
+  .article-poster-right {
+    width: 300px;
+    margin-top: 0.4em;
+    margin-bottom: 1em;
+  }
+
+  .article-poster-left {
+    float: left;
+    margin-left: -120px;
+    margin-right: 32px;
+  }
+
+  .article-poster-right {
+    float: right;
+    margin-right: -120px;
+    margin-left: 32px;
+  }
+}

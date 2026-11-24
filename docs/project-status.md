@@ -258,12 +258,24 @@ TODO / DOING / DONE / DEFERRED, with dates. Assistant rules are in `CLAUDE.md`.
   explicit and the posters were public in the town square. The page has the 291
   screenings and 124 films with posters tagged "Per adulti", the yearly share
   chart, the posters by decade and the screenings by year (details in
-  `design.md`). TODO: the owner writes the article on this chapter (the page
-  says one is in preparation); erotic or exploitation titles not tagged
-  "Per adulti" (for example "L'ultima orgia del III Reich", or tt0217779,
-  tagged Commedia with a poster marked V.M. 18, already added) can be added
-  by IMDb ID to `filmAggiuntivi` in the page's front matter so they appear
-  on this page too.
+  `design.md`). Erotic or exploitation titles not tagged "Per adulti" (for
+  example "L'ultima orgia del III Reich", or tt0217779, tagged Commedia with
+  a poster marked V.M. 18, already added) can be added by IMDb ID to
+  `filmAggiuntivi` in the page's front matter so they appear on this page
+  too.
+  2026-11-24: article drafted from the owner's answers and the data:
+  `content/articoli/2026-11-24-le-luci-rosse-del-cinema-sestito/` ("Le luci
+  rosse del Cinema Sestito"), linked from the page. TODO (owner asks their
+  father, then the text is completed; the gaps are marked in a comment at the
+  top of the article): where the films came from (distributors, circuits);
+  anecdotes; how the family felt; title and date of the evening with a live
+  show before the film, and who told it; whether witnesses can be named. The
+  article states only what the owner or the data support: the weekday table,
+  the takings (about 20% above the other films in the same year) and the
+  1957 priest letter come from the register and the archive; the
+  international context (Majestic 1977, about 1,500 "luci rosse" cinemas in
+  1981, VHS) from a newspaper, the director notes (D'Amato, Graver,
+  Schicchi, Findlay) from Wikipedia; sources are footnoted.
 - No feature roadmap yet: new ideas are agreed with the owner and listed here
   when they are approved.
 
