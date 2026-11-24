@@ -71,11 +71,4 @@
 
 <!-- Stylesheets -->
 <link rel="preload" href="{{ "fonts/fraunces-variable-latin.woff2" | relURL }}" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="{{ "css/fonts.css" | relURL }}" media="all">
-<link rel="stylesheet" href="{{ "css/tokens.css" | relURL }}" media="all">
-<link rel="stylesheet" href="{{ "css/main.css" | relURL }}" media="all">
-<link rel="stylesheet" href="{{ "css/lightbox.css" | relURL }}" media="all">
-<link rel="stylesheet" href="{{ "css/editorial.css" | relURL }}" media="all">
-{{ range .Site.Params.customCSS }}
-<link rel="stylesheet" href="{{ . | relURL }}">
-{{ end }}
+<link rel="stylesheet" href="{{ partialCached "css-bundle.html" . "css-bundle" }}" media="all">

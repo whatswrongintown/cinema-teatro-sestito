@@ -5,7 +5,7 @@ venue instead of a blog and statistics archive. Status: DOING 2026-11-24, on
 the branch `redesign/home-prototype`: every page is in the new style (home,
 posters, articles, archive, historical programming, Eventi, Progetto,
 category and tag pages, the small pages and the 404). Not merged: owner
-review, Lighthouse and CSS fingerprinting are still to do (see Next steps).
+review and a Lighthouse check are still to do (see Next steps).
 
 Mockup (private, owner only): the "Cinema Sestito redesign" design canvas on
 claude.ai, with the desktop home page, the visual system and the phone home
@@ -52,11 +52,24 @@ charts use it too, so the chart font must not change. Lato was removed
 
 ## Stylesheets
 
-Loaded on every page, in this order (`layouts/partials/head.html`):
-`fonts.css`, `tokens.css`, `main.css` (base, header, menu, breadcrumbs,
-footer, poster grid and contact form), `lightbox.css`, `editorial.css` (all
-page layouts); `poster-charts.css` and `dashboard.css` are linked by their
-shortcodes. The old blog styles (`.content`, `.article-*`, `.archive*`) were
+The site stylesheet is one file, built by Hugo Pipes in
+`layouts/partials/css-bundle.html` (called from `head.html`): `fonts.css`,
+`tokens.css`, `main.css` (base, header, menu, breadcrumbs, footer, poster grid
+and contact form), `lightbox.css` and `editorial.css` (all page layouts),
+joined in that order, minified and fingerprinted, for example
+`/css/site.min.<hash>.css`. To add a stylesheet to the site, add its name to
+the list in that partial. `poster-charts.css`, `dashboard.css` and every
+script (`lightbox.js` in the footer, `cartellone.js`, `manifesti.js`,
+`dashboard.js`) go through `layouts/partials/asset.html`, which minifies and
+fingerprints one file and returns its URL.
+
+The hash in the file name changes whenever the content changes, so browsers
+never keep a stale copy after a deploy (during the prototype they did). Keep
+the output in `css/`: the relative font paths in `fonts.css` (`../fonts/…`)
+depend on it. The original files in `static/css` and `static/js` are still
+copied unchanged to the build, so a page cached by a visitor from before the
+deploy keeps working. Edit the sources in `static/`, never the generated
+files. The old blog styles (`.content`, `.article-*`, `.archive*`) were
 removed with the last old templates. Breadcrumbs are a dark strip that
 continues the header.
 
@@ -237,7 +250,7 @@ film page classes `.film-*`.
 ## Next steps
 
 See U07 in `project-status.md`: owner review of the branch; a Lighthouse
-check (U03 scores) before merging; CSS and JS fingerprinting with Hugo Pipes
-(browsers kept stale CSS during the prototype); then the open items U05, U06
-(formats and Retro), search, and the owner's texts (reopening status, the
-article on adult and exploitation films).
+check (U03 scores), which the owner postponed on 2026-11-24, ideally before
+merging; then the open items U05, U06 (formats and Retro), search, and the
+owner's texts (reopening status, the article on adult and exploitation
+films).

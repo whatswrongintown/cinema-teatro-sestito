@@ -6,7 +6,7 @@ Style: static/css/poster-charts.css. Usage (one per page):
   {{< poster-charts "generi" >}}   genre heat map       (Per genere)
 */ -}}
 {{- $nome := .Get 0 }}
-<link rel="stylesheet" href="{{ "css/poster-charts.css" | relURL }}">
+<link rel="stylesheet" href="{{ partial "asset.html" "css/poster-charts.css" }}">
 {{- if eq $nome "anni" }}{{ partial "posters-year-chart.html" . }}
 {{- else if eq $nome "formati" }}{{ partial "posters-format-heatmap.html" . }}
 {{- else if eq $nome "generi" }}{{ partial "posters-genre-heatmap.html" . }}

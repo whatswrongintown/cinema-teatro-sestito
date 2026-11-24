@@ -1,0 +1,12 @@
+{{- /*
+Minified, fingerprinted copy of a file from static/ (mounted as assets/), so
+browsers load the new version as soon as the content changes (the file name
+carries a content hash, e.g. /js/lightbox.3f2a....js). Returns its URL.
+Call with: partial "asset.html" "js/lightbox.js"
+Output stays in the same folder as the source, which keeps the relative font
+paths of fonts.css working (../fonts/...).
+*/ -}}
+{{- $r := resources.Get . -}}
+{{- if not $r }}{{ errorf "asset.html: %q not found in static/" . }}{{ end -}}
+{{- $r = $r | minify | fingerprint -}}
+{{- return $r.RelPermalink -}}

@@ -5,7 +5,7 @@ read in the browser;
 behaviour: static/js/dashboard.js; style: static/css/dashboard.css.
 Usage: the shortcode named dashboard, without parameters.
 */ -}}
-<link rel="stylesheet" href="{{ "css/dashboard.css" | relURL }}">
+<link rel="stylesheet" href="{{ partial "asset.html" "css/dashboard.css" }}">
 <div class="dashboard" data-agende="{{ "data/programmazione_agende.csv" | relURL }}" data-imdb="{{ "data/programmazione_imdb.csv" | relURL }}">
   <noscript><p>Questo strumento richiede JavaScript. Le stesse informazioni sono consultabili nelle pagine della <a href="{{ "programmazione-storica/" | relURL }}">programmazione storica</a>.</p></noscript>
   <p class="dashboard-status" role="status">Caricamento dei dati…</p>
@@ -73,4 +73,4 @@ Usage: the shortcode named dashboard, without parameters.
     <p class="dashboard-note">La copertura delle fonti è incompleta, in particolare per il 1960 e il 1961. Una data assente non indica necessariamente la chiusura del cinema. Information courtesy of IMDb (<a href="https://www.imdb.com" target="_blank" rel="noopener noreferrer">imdb.com</a>).</p>
   </div>
 </div>
-<script src="{{ "js/dashboard.js" | relURL }}" defer></script>
+<script src="{{ partial "asset.html" "js/dashboard.js" }}" defer></script>

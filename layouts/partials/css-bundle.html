@@ -1,0 +1,16 @@
+{{- /*
+The site stylesheet: fonts.css, tokens.css, main.css, lightbox.css and
+editorial.css joined in this order, minified and fingerprinted (a content hash
+in the file name, so browsers never keep a stale copy). Returns its URL.
+The bundle is written to css/ so the relative font paths of fonts.css
+(../fonts/...) keep working. Add a stylesheet here, not in head.html.
+Call with: partialCached "css-bundle.html" . "css-bundle"
+*/ -}}
+{{- $parts := slice -}}
+{{- range slice "fonts" "tokens" "main" "lightbox" "editorial" -}}
+  {{- $f := resources.Get (printf "css/%s.css" .) -}}
+  {{- if not $f }}{{ errorf "css-bundle.html: css/%s.css not found in static/" . }}{{ end -}}
+  {{- $parts = $parts | append $f -}}
+{{- end -}}
+{{- $b := $parts | resources.Concat "css/site.css" | minify | fingerprint -}}
+{{- return $b.RelPermalink -}}

@@ -95,7 +95,7 @@ TODO / DOING / DONE / DEFERRED, with dates. Assistant rules are in `CLAUDE.md`.
   40 px, so Lighthouse wants an 80x80 file (needs a new image); the redesign
   branch no longer shows the avatar (text wordmark), which removes the issue.
   PWA manifest and CSP are not planned. Lighthouse not yet rerun on the
-  redesign branch (TODO before merging).
+  redesign branch (postponed by the owner, 2026-11-24).
 - **U02 - DONE 2026-11-23: social-sharing images.** `layouts/partials/social-image.html`
   (called by `head.html`) picks the page's `image:` (a bundle file or an
   absolute path under `static/`), else the nearest ancestor section's, else
@@ -140,8 +140,10 @@ TODO / DOING / DONE / DEFERRED, with dates. Assistant rules are in `CLAUDE.md`.
   the dashboard, and Eventi, Progetto, the small pages, the 404 and the
   breadcrumbs (2026-11-24): every page is in the new style (details in
   `design.md`); the old blog styles and the Lato font were removed. Not
-  merged; nothing deployed. Next: owner review, Lighthouse check, CSS and JS
-  fingerprinting, then merge to `main` only on the owner's request. Background: today the site reads
+  merged; nothing deployed. CSS and JS are minified and fingerprinted by Hugo
+  Pipes (one site stylesheet; see `design.md`). Next: owner review, then
+  merge to `main` only on the owner's request; the Lighthouse check was
+  postponed by the owner (2026-11-24). Background: today the site reads
   as a blog plus a set of tables and charts (historical programming), which
   gives it a statistical, archival feel. Goal: the identity of a living
   cultural venue that supports the reopening of the cinema and the physical

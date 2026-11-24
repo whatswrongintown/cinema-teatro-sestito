@@ -56,12 +56,12 @@
       </footer>
     </div>
 
-    <script src="{{ "js/lightbox.js" | relURL }}"></script>
+    <script src="{{ partial "asset.html" "js/lightbox.js" }}"></script>
     {{- if .IsHome }}
-    <script src="{{ "js/cartellone.js" | relURL }}" defer></script>
+    <script src="{{ partial "asset.html" "js/cartellone.js" }}" defer></script>
     {{- end }}
     {{- if eq .RelPermalink ("posters/" | relURL) }}
-    <script src="{{ "js/manifesti.js" | relURL }}" defer></script>
+    <script src="{{ partial "asset.html" "js/manifesti.js" }}" defer></script>
     {{- end }}
 
 </body>
