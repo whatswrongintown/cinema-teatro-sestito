@@ -1,8 +1,9 @@
+{{ $page := . }}
 <ul>
   {{ range .Sections.ByWeight }}
     {{ if ne .RelPermalink ("posters/films/" | relURL) }}
-    <li><strong><a href="{{ .RelPermalink }}">{{ .Title }}</a></strong>{{ with .Description }} – {{ . }}{{ end }}
-      ({{ partial "posters/count.html" . }} {{ if .Params.size }}manifesti{{ else }}film{{ end }})</li>
+    <li><strong><a href="{{ .RelPermalink }}">{{ .Title }}</a></strong>{{ with .Description }} – {{ . }}{{ end }}{{ if ne $page.Params.browse "size" }}
+      ({{ partial "posters/count.html" . }} {{ if .Params.size }}manifesti{{ else }}film{{ end }}){{ end }}</li>
     {{ end }}
   {{ end }}
 </ul>

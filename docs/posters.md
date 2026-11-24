@@ -64,12 +64,24 @@ programming charts: grey `#E5E5E5` to mint `#CBF8DF` (CSS `color-mix`, square-ro
 scale), mint bars with the `#7fbf9f` edge of `dashboard.css`; empty cells show no
 number.
 
+Each of these `_index.md` files also holds the Italian introduction that
+explains its chart. As in the historical programming pages, the year index lists
+the years grouped by decade (links only) and the genre and size lists show no
+counts (the Posters root list still does).
+
 Data (aggregates of the poster database, final): `static/data/posters_year_counts.csv`,
 `posters_no_year.csv`, `posters_format_by_decade.csv`, `posters_genre_by_decade.csv`.
 They are read with `resources.Get | transform.Unmarshal` (`getCSV` no longer
 exists in Hugo 0.170.1); combinations missing from the CSVs count as 0. The
 site has no global CSS variables, so `poster-charts.css` declares its own,
 copied from `main.css` and `dashboard.css`.
+
+Open check (2026-11-24): the chart CSVs add up to 1,960 dated + 527 undated =
+2,487 posters, while `films.json` holds 1,787 posters (1,057 films). The R code
+and the poster-recording file that produced the CSVs are not in this
+repository, so the difference (700) is unexplained; the CSVs were created from
+the owner's poster database outside the repo. The 1966 peak (152 against 15 in
+1965) and the missing "Noir" genre in the genre CSV also need checking.
 
 ## Images
 

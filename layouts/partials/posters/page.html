@@ -8,12 +8,20 @@
         {{ partial "posters/subsections.html" . }}
       {{ end }}
       {{ if eq .Params.browse "year" }}
-        <ul class="poster-browse">
-          {{ range .Sections.ByTitle }}<li><a href="{{ .RelPermalink }}">{{ .Title }}</a> ({{ partial "posters/count.html" . }} film)</li>{{ end }}
-        </ul>
+        {{/* Years grouped by decade, links only (as in the historical programming years) */}}
+        {{ $years := .Sections.ByTitle }}
+        {{ $decades := slice }}
+        {{ range $years }}{{ $decades = $decades | append (mul (div (int .Title) 10) 10) }}{{ end }}
+        {{ range sort (uniq $decades) }}
+          {{ $decade := . }}
+          <h2>Anni {{ $decade }}</h2>
+          <ul class="poster-browse">
+            {{ range $years }}{{ if eq (mul (div (int .Title) 10) 10) $decade }}<li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>{{ end }}{{ end }}
+          </ul>
+        {{ end }}
       {{ else if eq .Params.browse "genre" }}
         <ul class="poster-browse">
-          {{ range .Sections.ByTitle }}<li><a href="{{ .RelPermalink }}">{{ .Title }}</a> ({{ partial "posters/count.html" . }} film)</li>{{ end }}
+          {{ range .Sections.ByTitle }}<li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>{{ end }}
         </ul>
       {{ else if eq .Layout "year" }}
         {{ $page := . }}

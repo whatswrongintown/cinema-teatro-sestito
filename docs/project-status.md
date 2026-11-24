@@ -92,7 +92,7 @@ TODO / DOING / DONE / DEFERRED, with dates. Assistant rules are in `CLAUDE.md`.
   on a full build: every `og:image` points to a file in `public/`. The static
   cleanup is done: `static/programmazione-storica/` and every `index_files`
   folder are gone.
-- **U04 - DONE 2026-11-24: charts in the Posters subsections** (per year in Per anno, format and genre by decade in Per formato and Per genere); see `posters.md`. OPEN QUESTION: the chart data count 1,960 dated + 527 undated = 2,487 posters, but the collection above has 1,787 posters; the owner should check which figure is right.
+- **U04 - DONE 2026-11-24: charts in the Posters subsections** (per year in Per anno, format and genre by decade in Per formato and Per genere); see `posters.md`. OPEN (TODO): the chart data count 1,960 dated + 527 undated = 2,487 posters, but `films.json` has 1,787; the source code and recording file are outside the repo (details in `posters.md`).
 - No feature roadmap yet: new ideas are agreed with the owner and listed here
   when they are approved.
 
