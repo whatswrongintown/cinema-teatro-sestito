@@ -192,6 +192,24 @@ TODO / DOING / DONE / DEFERRED, with dates. Assistant rules are in `CLAUDE.md`.
   family collection) and a rights and reuse note for the images; the GitHub
   link kept but less prominent; accessible names, contrast and tap targets
   (U03). To design together with U07 to U09.
+- **U11 - TODO 2026-11-24: improve the posters section** (`content/posters/`,
+  `layouts/posters/`, `layouts/partials/posters/`). The section is complete in
+  data (1,787 films) but is built as an archive: a long text, a bulleted list
+  of five entrances (Anni, Formati, Generi, Titoli, Retro), then charts and
+  grids of small, equal thumbnails. Improvements to agree with the owner:
+  a poster-first landing page (large featured posters, a changing selection,
+  entrances as image cards); a gallery that shows the real relative sizes of
+  the formats (U05) and a Retro section redone (U06); a better lightbox and
+  film page (larger poster, title, year, genre, format, screening dates,
+  neighbouring posters and a link to the programme of that year); search and
+  filters across year, format, genre and printed or hand-painted in one
+  place, not only separate browse trees; a "random poster" or "poster of the
+  day" entrance; more room for the stories behind the posters (hand-painted
+  posters, formats, graphic styles) written as short editorial pieces, with
+  the charts as a secondary layer (U07); pagination or lazy loading kept
+  light (about 60 posters per page today). Do not modify `films.json` or
+  `static/images/manifesti/`; keep thumbnails at most 400 px wide. The
+  decision on regenerating the CSVs and the gaps listed under U04 stay open.
 - No feature roadmap yet: new ideas are agreed with the owner and listed here
   when they are approved.
 
