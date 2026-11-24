@@ -180,6 +180,18 @@ TODO / DOING / DONE / DEFERRED, with dates. Assistant rules are in `CLAUDE.md`.
   reopening or contact; keyboard and screen reader support (`aria-current`,
   focus states). Keep it light (no heavy JavaScript) and keep the Lighthouse
   scores (U03). To design together with U07 and U08.
+- **U10 - TODO 2026-11-24: improve the footer** (`layouts/partials/footer.html`,
+  `static/css/main.css`). Today it is one line: the copyright text (a link to
+  `cinemateatrosestito.com`) followed by three small 15 px icons (GitHub,
+  Instagram, email) with no text and `target="_blank"` links without
+  `rel="noopener"`. Improvements to agree with the owner: a real footer with
+  the main sections, the Posters subsections and the project links; the
+  venue name, place and a short line on the reopening; text links or larger
+  labelled icons for Instagram and email; a clear contact entry and, if
+  wanted, a newsletter sign-up; credits and sources (Drive-based archive,
+  family collection) and a rights and reuse note for the images; the GitHub
+  link kept but less prominent; accessible names, contrast and tap targets
+  (U03). To design together with U07 to U09.
 - No feature roadmap yet: new ideas are agreed with the owner and listed here
   when they are approved.
 
