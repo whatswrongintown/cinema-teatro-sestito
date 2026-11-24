@@ -74,7 +74,7 @@
 <link rel="stylesheet" href="{{ "css/tokens.css" | relURL }}" media="all">
 <link rel="stylesheet" href="{{ "css/main.css" | relURL }}" media="all">
 <link rel="stylesheet" href="{{ "css/lightbox.css" | relURL }}" media="all">
-{{- if or .IsHome .Params.redesign (eq .Type "posters") }}
+{{- if or .IsHome .Params.redesign (eq .Type "posters") (eq .Section "articoli") }}
 <link rel="stylesheet" href="{{ "css/editorial.css" | relURL }}" media="all">
 {{- end }}
 {{ range .Site.Params.customCSS }}

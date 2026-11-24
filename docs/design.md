@@ -2,7 +2,7 @@
 
 The redesign (U07) gives the site the look of a working cinema and cultural
 venue instead of a blog and statistics archive. Status: DOING 2026-11-24, home
-page prototype, the adult films page and the Posters section on the branch
+page prototype, the adult films page, the Posters section and the articles on the branch
 `redesign/home-prototype`; the other inner pages still use the old styles
 under the new header and footer.
 
@@ -129,6 +129,28 @@ tags with other genres, so they also appear here. The page is a place for
 this chapter's story; these films are not hidden anywhere else on the site.
 Linked from the Programmazione storica page and the site map.
 
+### Articles (Storie)
+
+Pages of section `articoli` load `editorial.css`; templates
+`layouts/articoli/list.html` and `layouts/articoli/single.html`.
+
+- List: dark header with the section text and its `image` (the ticket book,
+  no longer repeated in the body), the newest story as the lead with a large
+  image, then cards (image when the story has `image`, else a text card).
+- Article: dark header with category, date, reading time, title, the
+  `description` as summary (first letter capitalised) and author, plus
+  "Aggiornato il …" when `lastmod` differs from `date`. The opening image is
+  the bundle file named in `image`: `layouts/partials/articoli/apertura.html`
+  resizes it (PNG to WebP, at most 1600 px) and, when the body starts with
+  the same image, removes it from the body and uses its alt text as caption.
+  So keep writing the hero as the first line of the body, as before. The
+  text sits in a 700 px reading column (`.prose`) on paper: headings,
+  footnotes, galleries (the shortcode's inline float layout is overridden),
+  YouTube and the dashboard. Tags as links, then the older and newer stories.
+- The descriptions double as the summary under the title, so write them as
+  a sentence for readers (some are short notes today, e.g. "articolo
+  dedicato al fondatore…").
+
 ### Posters section (U11)
 
 Every page of type `posters` loads `editorial.css` (no front matter flag
@@ -140,6 +162,6 @@ film page classes `.film-*`.
 
 ## Next steps
 
-See U07 in `project-status.md`: article, archive and programme
+See U07 in `project-status.md`: archive and programme
 templates in the new style, then CSS fingerprinting with Hugo Pipes (browsers
 kept stale CSS during the prototype).

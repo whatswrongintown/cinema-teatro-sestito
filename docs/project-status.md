@@ -133,9 +133,10 @@ TODO / DOING / DONE / DEFERRED, with dates. Assistant rules are in `CLAUDE.md`.
   (private claude.ai design canvas) and asked for a prototype; branch
   `redesign/home-prototype` has the tokens, the Fraunces and Archivo
   typefaces, the new header and footer on every page, the new home page, the
-  adult films page (U12) and the Posters section (U11) (details in
-  `design.md`). Not merged; nothing deployed. Next: owner review, Lighthouse
-  check, then articles, archive and programme pages in the new style, and CSS
+  adult films page (U12), the Posters section (U11) and the articles (list
+  and article pages, 2026-11-24) (details in `design.md`). Not merged;
+  nothing deployed. Next: owner review, Lighthouse check, then archive and
+  programme pages (with the dashboard) in the new style, breadcrumbs, and CSS
   fingerprinting. Background: today the site reads
   as a blog plus a set of tables and charts (historical programming), which
   gives it a statistical, archival feel. Goal: the identity of a living

@@ -26,7 +26,7 @@ galleryDescriptions:
 ---
 
 
-![Ciname originale in Via Doria ricreato con l'AI](images/cinema_via_doria_ai.png)
+![Cinema originale in Via Doria ricreato con l'AI](images/cinema_via_doria_ai.png)
 
 Il periodo compreso tra il 1957 e il 1979 rappresenta per il *Cinema Sestito* la fase di massimo splendore e, al tempo stesso, l’inizio di un lento declino. Dopo gli anni pionieristici della fondazione[^1], il cinema di San Vito sullo Ionio divenne un punto di riferimento culturale e sociale per l’intera area limitrofa, accogliendo un numero crescente di spettatori e consolidando la propria funzione di luogo d’incontro e di modernità.
 

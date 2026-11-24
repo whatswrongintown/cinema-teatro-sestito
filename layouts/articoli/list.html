@@ -1,0 +1,62 @@
+{{- /*
+Articles list (Storie), redesign U07: dark header with the section text and
+its image, the newest story as the lead, then the others as cards.
+*/ -}}
+{{ partial "header.html" . }}
+{{- $storie := .RegularPages.ByDate.Reverse }}
+{{- $copertina := false }}
+{{- with .Params.image }}{{ with $.Resources.Get . }}{{ $copertina = .Resize "900x webp q80" }}{{ end }}{{ end }}
+
+<main class="home articles-page" role="main">
+  <section class="articles-head tone-dark" aria-labelledby="articles-title">
+    <div class="wrap articles-head-grid">
+      <div>
+        <p class="label home-kicker">Storie</p>
+        <h1 id="articles-title" class="posters-page-title">{{ .Title }}</h1>
+        <div class="home-lead articles-intro">{{ .Content }}</div>
+        <p class="label posters-page-count">{{ len $storie }} {{ cond (eq (len $storie) 1) "storia" "storie" }}</p>
+      </div>
+      {{- with $copertina }}
+      <figure class="articles-head-figure">
+        <img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="Blocco di biglietti del Cinema Sestito, numerati e intestati a S. Vito Jonio" decoding="async">
+      </figure>
+      {{- end }}
+    </div>
+  </section>
+
+  <section class="articles-list tone-light" aria-label="Elenco delle storie">
+    <div class="wrap">
+      {{- range $i, $p := $storie }}
+      {{- $img := false }}
+      {{- with $p.Params.image }}{{ with $p.Resources.Get . }}{{ $img = .Resize (cond (eq $i 0) "1200x webp q78" "700x webp q78") }}{{ end }}{{ end }}
+      {{- $cat := index ($p.GetTerms "categories") 0 }}
+      {{- if eq $i 0 }}
+      <article class="story-feature">
+        <a href="{{ $p.RelPermalink }}">
+          {{- with $img }}<span class="story-media"><img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="" decoding="async"></span>{{ end }}
+          <span class="story-feature-text">
+            <span class="label story-kicker">L'ultima storia{{ with $cat }} · {{ .LinkTitle }}{{ end }} · {{ $p.Date | time.Format ":date_long" }}</span>
+            <span class="story-title">{{ $p.Title }}</span>
+            {{- with $p.Description }}<span class="story-text">{{ strings.FirstUpper . }}</span>{{ end }}
+            <span class="label home-more">Leggi · {{ $p.ReadingTime }} min</span>
+          </span>
+        </a>
+      </article>
+      <ul class="story-cards">
+      {{- else }}
+        <li class="story story-card{{ if not $img }} story-card-text{{ end }}">
+          <a href="{{ $p.RelPermalink }}">
+            {{- with $img }}<span class="story-media"><img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="" loading="lazy" decoding="async"></span>{{ end }}
+            <span class="label story-kicker">{{ with $cat }}{{ .LinkTitle }} · {{ end }}{{ $p.Date | time.Format ":date_long" }}</span>
+            <span class="story-title">{{ $p.Title }}</span>
+            {{- with $p.Description }}<span class="story-text">{{ strings.FirstUpper . }}</span>{{ end }}
+          </a>
+        </li>
+      {{- end }}
+      {{- end }}
+      {{- if gt (len $storie) 0 }}</ul>{{ end }}
+    </div>
+  </section>
+</main>
+
+{{ partial "footer.html" . }}

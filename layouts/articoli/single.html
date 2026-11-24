@@ -1,0 +1,66 @@
+{{- /*
+Article page (Storie), redesign U07: dark header with category, date, reading
+time, title, summary and author; the opening image large with its caption
+(articoli/apertura.html); the text on paper in a reading column; tags; the
+newer and older stories.
+*/ -}}
+{{ partial "header.html" . }}
+{{- $a := partial "articoli/apertura.html" . }}
+{{- $cat := index (.GetTerms "categories") 0 }}
+{{- $tutte := .CurrentSection.RegularPages.ByDate }}
+{{- $piuNuova := false }}{{ $piuVecchia := false }}
+{{- range $i, $p := $tutte }}
+  {{- if eq $p $ }}
+    {{- if gt $i 0 }}{{ $piuVecchia = index $tutte (sub $i 1) }}{{ end }}
+    {{- if lt (add $i 1) (len $tutte) }}{{ $piuNuova = index $tutte (add $i 1) }}{{ end }}
+  {{- end }}
+{{- end }}
+
+<main class="home article-page" role="main">
+  <header class="article-hero tone-dark">
+    <div class="wrap article-hero-text">
+      <p class="label home-kicker">
+        {{- with $cat }}<a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a> · {{ end -}}
+        <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date | time.Format ":date_long" }}</time> · {{ .ReadingTime }} min di lettura
+      </p>
+      <h1 class="article-title-xl">{{ .Title }}</h1>
+      {{- with .Description }}<p class="home-lead article-dek">{{ strings.FirstUpper . }}</p>{{ end }}
+      <p class="label article-byline">
+        {{- with .Params.author }}Di {{ . }}{{ end -}}
+        {{- if ne (.Lastmod.Format "2006-01-02") (.Date.Format "2006-01-02") }} · Aggiornato il {{ .Lastmod | time.Format ":date_long" }}{{ end -}}
+      </p>
+    </div>
+    {{- with $a.img }}
+    <figure class="wrap article-hero-figure">
+      <img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="{{ $a.alt }}" fetchpriority="high" decoding="async">
+      {{- with $a.alt }}<figcaption>{{ . }}</figcaption>{{ end }}
+    </figure>
+    {{- end }}
+  </header>
+
+  <article class="article-body tone-light">
+    <div class="wrap">
+      <div class="prose">
+        {{- if .Params.toc }}<nav class="prose-toc" aria-label="Indice dell'articolo">{{ .TableOfContents }}</nav>{{ end }}
+        {{ $a.content }}
+      </div>
+      {{- with .GetTerms "tags" }}
+      <nav class="chips article-tags" aria-label="Argomenti">
+        <ul>{{ range . }}<li><a class="label chip" href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>{{ end }}</ul>
+      </nav>
+      {{- end }}
+    </div>
+  </article>
+
+  <nav class="article-more tone-dark" aria-label="Altre storie">
+    <div class="wrap">
+      <div class="film-nav article-nav">
+        {{- with $piuVecchia }}<a class="film-nav-prev" href="{{ .RelPermalink }}" rel="prev"><span class="label">← Storia precedente</span><span class="film-nav-title">{{ .Title }}</span></a>{{ else }}<span></span>{{ end }}
+        {{- with $piuNuova }}<a class="film-nav-next" href="{{ .RelPermalink }}" rel="next"><span class="label">Storia successiva →</span><span class="film-nav-title">{{ .Title }}</span></a>{{ end }}
+      </div>
+      {{- with .CurrentSection }}<a class="label home-more" href="{{ .RelPermalink }}">Tutte le storie →</a>{{ end }}
+    </div>
+  </nav>
+</main>
+
+{{ partial "footer.html" . }}
