@@ -10,9 +10,9 @@ params:
   redesign: true
   occhiello: "Un capitolo della programmazione"
   nota: "Manifesti e locandine sono quelli affissi all'epoca: le immagini erano già censurate per l'affissione pubblica e non contengono nudi espliciti."
-  # IMDb IDs of exploitation films not tagged "Per adulti" in the data, to
-  # show here and leave out of the home page programme and of the poster of
-  # the day, e.g. [tt1234567].
+  # IMDb IDs of erotic or exploitation films not tagged "Per adulti" in the
+  # data, to show on this page too, e.g. [tt1234567]. They stay everywhere
+  # else on the site.
   filmAggiuntivi:
     - tt0217779 # Peccati sul letto di famiglia: tagged Commedia, poster marked V.M. 18
 ---

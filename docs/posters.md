@@ -27,7 +27,7 @@ of the repository.
   - `browse: year`: years by decade, each with its number of films;
   - `browse: genre` and `browse: size`: cards with a representative poster
     from `posters/copertina.html` (the film with most IMDb votes, portrait
-    first, adult films skipped, no film twice on a page);
+    first, no film twice on a page);
   - `browse: title`: letter links and the paginated gallery;
   - year pages: month links and one gallery per month, plus a link to that
     year's programme; other pages: the paginated gallery (60 per page).
@@ -37,9 +37,8 @@ of the repository.
 - Landing page: front matter `occhiello`, `sottotitolo`, `introTitolo`,
   `ingressiOcchiello`, `ingressiTitolo` and `ingressi` (the cards, same
   fields as on the home page). "Manifesto del giorno": `posters/indice.html`
-  picks a film by day number modulo the pool (all films with a printed poster
-  except adult films and `filmAggiuntivi` of the adult films page) for the
-  build date and publishes `/posters/indice.json`; `static/js/manifesti.js`
+  picks a film by day number modulo the pool (all films with a printed
+  poster) for the build date and publishes `/posters/indice.json`; `static/js/manifesti.js`
   redoes it for the visitor's date and drives "Un manifesto a caso".
 - Film pages (`layouts/posters/film.html`): main poster large (lightbox),
   original title, director, year, runtime, genres (linked to the genre pages),

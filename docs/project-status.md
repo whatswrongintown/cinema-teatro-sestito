@@ -172,8 +172,8 @@ TODO / DOING / DONE / DEFERRED, with dates. Assistant rules are in `CLAUDE.md`.
   the visitor's date), intro, section cards, poster strip, stories, reopening
   band and the contact form, all driven by front matter (`design.md`). The
   reopening band reuses the existing home text: the owner still has to write
-  the real reopening status. Adult and exploitation films are left out of the
-  home programme (owner, 2026-11-24) and have their own page (U12). Before:
+  the real reopening status. Adult and erotic films are included in the
+  home programme like any other film (owner, 2026-11-24). Before:
   one architectural drawing (1956 project),
   four paragraphs of text, a plain list of four links ("Esplora") and the
   contact form. Improvements to agree with the owner: a stronger first screen
@@ -223,11 +223,8 @@ TODO / DOING / DONE / DEFERRED, with dates. Assistant rules are in `CLAUDE.md`.
   cards, titled thumbnails and button pagination; new film page (large poster,
   details, screenings with sources, all posters, previous and next film).
   Still open: U05 and U06 (formats at real size, Retro), search and combined
-  filters, editorial pieces on the posters. The data has no reliable flag for
-  erotic comedies: some are tagged only "Commedia" (for example
-  tt0217779, whose poster is marked V.M. 18), so the owner adds such IDs to
-  `filmAggiuntivi` (U12) to keep them out of the poster of the day and the
-  home page. Original request (`content/posters/`,
+  filters, editorial pieces on the posters. Adult and erotic films are shown
+  like any other (owner, 2026-11-24). Original request (`content/posters/`,
   `layouts/posters/`, `layouts/partials/posters/`). The section is complete in
   data (1,787 films) but is built as an archive: a long text, a bulleted list
   of five entrances (Anni, Formati, Generi, Titoli, Retro), then charts and
@@ -249,15 +246,17 @@ TODO / DOING / DONE / DEFERRED, with dates. Assistant rules are in `CLAUDE.md`.
   (`content/programmazione-storica/cinema-per-adulti/_index.md`, layout
   `layouts/programmazione-storica/adulti.html`, on `redesign/home-prototype`).
   The owner wants this part of the cinema's history documented on its own
-  page rather than on the home page; the promotional material is censored
-  (no explicit nudity), so the posters are shown. The page has the 291
+  page. 2026-11-24: the owner decided these films are not hidden anywhere
+  else either: they are part of Italian film culture, the material is not
+  explicit and the posters were public in the town square. The page has the 291
   screenings and 124 films with posters tagged "Per adulti", the yearly share
   chart, the posters by decade and the screenings by year (details in
   `design.md`). TODO: the owner writes the article on this chapter (the page
-  says one is in preparation); exploitation titles not tagged "Per adulti"
-  (for example "L'ultima orgia del III Reich") are added by IMDb ID to
-  `filmAggiuntivi` in the page's front matter, which also keeps them off the
-  home page.
+  says one is in preparation); erotic or exploitation titles not tagged
+  "Per adulti" (for example "L'ultima orgia del III Reich", or tt0217779,
+  tagged Commedia with a poster marked V.M. 18, already added) can be added
+  by IMDb ID to `filmAggiuntivi` in the page's front matter so they appear
+  on this page too.
 - No feature roadmap yet: new ideas are agreed with the owner and listed here
   when they are approved.
 

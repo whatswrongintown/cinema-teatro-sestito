@@ -100,9 +100,8 @@ years, with the first one that has a poster shown large beside the list.
 - `static/js/cartellone.js` (home page only) redoes the selection for the
   visitor's date from the monthly files. The rules are written twice, in the
   template and in the script: change both together.
-- Films tagged "Per adulti", and the IDs in `filmAggiuntivi` on the adult
-  films page, are left out of the home selection (owner, 2026-11-24); they
-  stay in the programme pages and have their own page (below).
+- Every screening can appear, adult and erotic films included: the posters
+  were public in the town square and are not explicit (owner, 2026-11-24).
 
 ## Pages in the new style
 
@@ -125,9 +124,10 @@ components inside `<main class="home">`: `.home-h2`, `.home-kicker`,
   grouped by the decade of the first screening, with the site lightbox;
 - the screenings tagged "Per adulti", by year, in collapsible lists.
 
-`filmAggiuntivi` (IMDb IDs) adds exploitation titles that the data tags with
-other genres; they then appear here and leave the home page. Linked from the
-Programmazione storica page and the site map.
+`filmAggiuntivi` (IMDb IDs) adds erotic or exploitation titles that the data
+tags with other genres, so they also appear here. The page is a place for
+this chapter's story; these films are not hidden anywhere else on the site.
+Linked from the Programmazione storica page and the site map.
 
 ### Posters section (U11)
 
@@ -136,8 +136,7 @@ needed). Landing page, list pages and film pages are described in
 `posters.md`; shared pieces: `.chips` / `.chip` (neighbour links, current
 page in curtain red), `.years` (year index), `.cards-posters` (genre and format
 cards), `.posters-page .poster-grid` (larger thumbnails with titles) and the
-film page classes `.film-*`. `filmAggiuntivi` on the adult films page also
-keeps those films out of the "Manifesto del giorno" and of the card images.
+film page classes `.film-*`.
 
 ## Next steps
 

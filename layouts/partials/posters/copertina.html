@@ -2,23 +2,17 @@
 A representative poster for a Posters section page (genre or format card):
 among the films with a printed poster matching the section's category, size,
 genre and year, the best known one (most IMDb votes), preferring portrait
-posters. Films tagged "Per adulti" and the IDs in filmAggiuntivi of
-/programmazione-storica/cinema-per-adulti are skipped, except on the
-"Per adulti" genre page. Returns a dict like home/manifesto.html (film,
-poster, formato) or false.
+posters. Returns a dict like home/manifesto.html (film, poster, formato) or
+false.
 Call with: partial "posters/copertina.html" (dict "sezione" $section "usati" $ids)
 (usati: film IDs already shown on the page, skipped so cards differ)
 */ -}}
 {{- $sec := .sezione -}}
 {{- $usati := .usati | default slice -}}
-{{- $adulti := eq $sec.Params.genre "per-adulti" -}}
-{{- $esclusi := slice -}}
-{{- with site.GetPage "/programmazione-storica/cinema-per-adulti" }}{{ $esclusi = .Params.filmAggiuntivi | default slice }}{{ end -}}
 {{- $labels := dict "manifesti" "Manifesto" "locandine" "Locandina" "fotobuste" "Fotobusta" -}}
 {{- $best := false }}{{ $bestScore := -1.0 -}}
 {{- range hugo.Data.posters.films.films -}}
   {{- $film := . -}}
-  {{- if and (not $adulti) (or (in $film.genre_slugs "per-adulti") (in $esclusi $film.film_id)) }}{{ continue }}{{ end -}}
   {{- if in $usati $film.film_id }}{{ continue }}{{ end -}}
   {{- with $sec.Params.genre }}{{ if not (in $film.genre_slugs .) }}{{ continue }}{{ end }}{{ end -}}
   {{- with $sec.Params.year -}}
