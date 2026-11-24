@@ -1,58 +1,142 @@
+{{- /*
+Shared page for the Posters section (U11): the landing page
+(posters/landing.html) and every list page (by year, size, genre, title,
+letter, Retro). List pages: a dark header with title, description, count and
+links to the neighbouring pages, the page text (if any), then the index or the
+poster gallery for the page's browse mode or layout.
+*/ -}}
 {{ partial "header.html" . }}
-<main class="content" role="main">
-  <article class="article">
-    <h1 class="article-title">{{ .Title }}</h1>
-    <div class="article-content">
-      {{ .Content }}
-      {{ if and .Params.generated (or (eq .RelPermalink ("posters/" | relURL)) (eq .Params.browse "size")) }}
-        {{ partial "posters/subsections.html" . }}
-      {{ end }}
-      {{ if eq .Params.browse "year" }}
-        {{/* Years grouped by decade, links only (as in the historical programming years) */}}
-        {{ $years := .Sections.ByTitle }}
-        {{ $decades := slice }}
-        {{ range $years }}{{ $decades = $decades | append (mul (div (int .Title) 10) 10) }}{{ end }}
-        {{ range sort (uniq $decades) }}
-          {{ $decade := . }}
-          <h2>Anni {{ $decade }}</h2>
-          <ul class="poster-browse">
-            {{ range $years }}{{ if eq (mul (div (int .Title) 10) 10) $decade }}<li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>{{ end }}{{ end }}
-          </ul>
-        {{ end }}
-      {{ else if eq .Params.browse "genre" }}
-        <ul class="poster-browse">
-          {{ range .Sections.ByTitle }}<li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>{{ end }}
+{{- $page := . }}
+{{- $landing := eq .RelPermalink ("posters/" | relURL) }}
+<main class="home posters-page" role="main">
+{{- if $landing }}
+  {{ partial "posters/landing.html" . }}
+{{- else }}
+  {{- /* Neighbouring pages: the main Posters pages for top-level pages,
+         else the parent's subsections (years, genres, formats, letters). */}}
+  {{- $radice := site.GetPage "/posters" }}
+  {{- $vicine := slice }}
+  {{- if eq .Parent $radice }}
+    {{- range $radice.Sections.ByWeight }}{{ if ne .RelPermalink ("posters/films/" | relURL) }}{{ $vicine = $vicine | append . }}{{ end }}{{ end }}
+  {{- else if eq .Layout "size" }}
+    {{- $vicine = .Parent.Sections.ByWeight }}
+  {{- else }}
+    {{- $vicine = .Parent.Sections.ByTitle }}
+  {{- end }}
+  {{- $n := partial "posters/count.html" . }}
+  <section class="posters-head tone-dark" aria-labelledby="posters-page-title">
+    <div class="wrap">
+      <p class="label home-kicker">{{ with .Parent }}{{ if ne . $radice }}{{ $radice.Title }} · {{ end }}{{ .Title }}{{ end }}</p>
+      <h1 id="posters-page-title" class="posters-page-title">{{ if .Params.letter }}Titoli che iniziano per {{ cond (eq .Params.letter "#") "un numero" .Title }}{{ else }}{{ .Title }}{{ end }}</h1>
+      {{- with .Description }}<p class="home-lead posters-page-lead">{{ . }}</p>{{ end }}
+      {{- if not .Params.browse }}
+      <p class="label posters-page-count">{{ lang.FormatNumber 0 $n }} {{ if .Params.size }}{{ cond (eq $n 1) "manifesto" "manifesti" }}{{ else }}film{{ end }}</p>
+      {{- end }}
+      {{- with $vicine }}
+      <nav class="chips" aria-label="Altre pagine della raccolta">
+        <ul>
+          {{- range . }}
+          <li><a class="label chip" href="{{ .RelPermalink }}"{{ if eq . $page }} aria-current="page"{{ end }}>{{ .LinkTitle }}</a></li>
+          {{- end }}
         </ul>
-      {{ else if eq .Layout "year" }}
-        {{ $page := . }}
-        {{ $names := slice "Gennaio" "Febbraio" "Marzo" "Aprile" "Maggio" "Giugno" "Luglio" "Agosto" "Settembre" "Ottobre" "Novembre" "Dicembre" }}
-        {{ $months := slice }}
-        {{ range hugo.Data.posters.films.films }}
-          {{ if gt (len (where .posters "is_retro" false)) 0 }}
-            {{ range .screenings }}
-              {{ if eq (int .year) (int $page.Params.year) }}{{ $months = $months | append (int .month) }}{{ end }}
-            {{ end }}
-          {{ end }}
-        {{ end }}
-        {{ $months = sort (uniq $months) }}
-        <nav class="poster-browse" aria-label="Mesi">
-          {{ range $months }}<a href="#mese-{{ printf "%02d" . }}">{{ index $names (sub . 1) }}</a>{{ end }}
-        </nav>
-        {{ range $months }}
-          <section class="poster-month" id="mese-{{ printf "%02d" . }}">
-            <h2>{{ index $names (sub . 1) }}</h2>
-            {{ partial "posters/gallery.html" (dict "page" $page "month" . "paginate" false) }}
-          </section>
-        {{ end }}
-      {{ else if eq .Params.browse "title" }}
-        <nav class="poster-browse" aria-label="Titoli per lettera">
-          {{ range .Sections.ByTitle }}<a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ end }}
-        </nav>
-        {{ partial "posters/gallery.html" (dict "page" . "paginate" true) }}
-      {{ else if ne .Layout "browse" }}
-        {{ partial "posters/gallery.html" (dict "page" . "paginate" true) }}
-      {{ end }}
+      </nav>
+      {{- end }}
     </div>
-  </article>
+  </section>
+
+  {{- $testo := strings.TrimSpace (replace .RawContent "<!-- Write your text here -->" "") }}
+  {{- with $testo }}
+  <section class="posters-text tone-light">
+    <div class="wrap posters-text-inner">{{ $page.Content }}</div>
+  </section>
+  {{- end }}
+
+  {{- if eq .Params.browse "year" }}
+    {{- /* Years grouped by decade, each with its number of films. */}}
+    {{- $anni := .Sections.ByTitle }}
+    {{- $decenni := slice }}
+    {{- range $anni }}{{ $decenni = $decenni | append (mul (div (int .Title) 10) 10) }}{{ end }}
+    <section class="posters-index tone-dark">
+      <div class="wrap">
+        {{- range sort (uniq $decenni) }}
+        {{- $d := . }}
+        <div class="years-row">
+          <h2 class="label years-decade">Anni {{ $d }}</h2>
+          <ul class="years">
+            {{- range $anni }}{{ if eq (mul (div (int .Title) 10) 10) $d }}
+            <li><a href="{{ .RelPermalink }}"><span class="years-year">{{ .Title }}</span><span class="label years-count">{{ partial "posters/count.html" . }} film</span></a></li>
+            {{- end }}{{ end }}
+          </ul>
+        </div>
+        {{- end }}
+      </div>
+    </section>
+  {{- else if in (slice "genre" "size") .Params.browse }}
+    {{- /* Genres and formats as poster cards. */}}
+    {{- $sezioni := cond (eq .Params.browse "size") .Sections.ByWeight .Sections.ByTitle }}
+    <section class="posters-index tone-dark">
+      <div class="wrap">
+        <ul class="cards cards-posters">
+          {{- $usati := slice }}
+          {{- range $sezioni }}
+          {{- $c := partial "posters/copertina.html" (dict "sezione" . "usati" $usati) }}
+          {{- with $c }}{{ $usati = $usati | append .film.film_id }}{{ end }}
+          {{- $k := partial "posters/count.html" . }}
+          <li class="card">
+            <a href="{{ .RelPermalink }}">
+              <span class="card-media{{ if and $c (eq $c.poster.orientation "landscape") }} card-media-landscape{{ end }}">
+                {{- with $c }}<img src="{{ .poster.thumb | relURL }}" width="{{ .poster.thumb_width }}" height="{{ .poster.thumb_height }}" alt="" loading="lazy" decoding="async">{{ end }}
+              </span>
+              <span class="card-title">{{ .Title }}</span>
+              <span class="label card-kicker">{{ lang.FormatNumber 0 $k }} {{ if .Params.size }}manifesti{{ else }}film{{ end }}</span>
+              {{- with .Description }}<span class="card-text">{{ . }}</span>{{ end }}
+            </a>
+          </li>
+          {{- end }}
+        </ul>
+      </div>
+    </section>
+  {{- else if eq .Layout "year" }}
+    {{- $nomi := slice "Gennaio" "Febbraio" "Marzo" "Aprile" "Maggio" "Giugno" "Luglio" "Agosto" "Settembre" "Ottobre" "Novembre" "Dicembre" }}
+    {{- $mesi := slice }}
+    {{- range hugo.Data.posters.films.films }}
+      {{- if gt (len (where .posters "is_retro" false)) 0 }}
+        {{- range .screenings }}{{ if eq (int .year) (int $page.Params.year) }}{{ $mesi = $mesi | append (int .month) }}{{ end }}{{ end }}
+      {{- end }}
+    {{- end }}
+    {{- $mesi = sort (uniq $mesi) }}
+    <section class="posters-gallery tone-dark">
+      <div class="wrap">
+        <nav class="chips chips-months" aria-label="Mesi">
+          <ul>{{ range $mesi }}<li><a class="label chip" href="#mese-{{ printf "%02d" . }}">{{ index $nomi (sub . 1) }}</a></li>{{ end }}</ul>
+        </nav>
+        {{- range $mesi }}
+        <section class="poster-month" id="mese-{{ printf "%02d" . }}" aria-labelledby="mese-{{ printf "%02d" . }}-t">
+          <h2 id="mese-{{ printf "%02d" . }}-t" class="posters-month-title">{{ index $nomi (sub . 1) }} {{ $page.Params.year }}</h2>
+          {{ partial "posters/gallery.html" (dict "page" $page "month" . "paginate" false) }}
+        </section>
+        {{- end }}
+        {{- with (partialCached "home/cartellone-dati.html" . "cartellone").anni }}{{ with index . (string $page.Params.year) }}
+        <a class="label home-more" href="{{ . }}">La programmazione completa del {{ $page.Params.year }} →</a>
+        {{- end }}{{ end }}
+      </div>
+    </section>
+  {{- else if ne .Layout "browse" }}
+    <section class="posters-gallery tone-dark">
+      <div class="wrap">
+        {{ partial "posters/gallery.html" (dict "page" . "paginate" true) }}
+      </div>
+    </section>
+  {{- else if eq .Params.browse "title" }}
+    <section class="posters-gallery tone-dark">
+      <div class="wrap">
+        <nav class="chips chips-letters" aria-label="Titoli per lettera">
+          <ul>{{ range .Sections.ByTitle }}<li><a class="label chip" href="{{ .RelPermalink }}">{{ .Title }}</a></li>{{ end }}</ul>
+        </nav>
+        {{ partial "posters/gallery.html" (dict "page" . "paginate" true) }}
+      </div>
+    </section>
+  {{- end }}
+{{- end }}
 </main>
 {{ partial "footer.html" . }}

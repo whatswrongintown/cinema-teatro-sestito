@@ -1,0 +1,12 @@
+{{- /*
+Screenings by IMDb ID, from the historical programming data, for the film
+pages: returns a dict "f|<id>" -> slice of screening rows
+(programmazione/dati.html), in date order.
+Call with: partialCached "posters/proiezioni.html" . "proiezioni"
+*/ -}}
+{{- $s := newScratch -}}
+{{- range (partialCached "programmazione/dati.html" . "programmazione").rows -}}
+  {{- $row := . -}}
+  {{- with .id }}{{ $s.Add (printf "f|%s" .) (slice $row) }}{{ end -}}
+{{- end -}}
+{{- return $s.Values -}}

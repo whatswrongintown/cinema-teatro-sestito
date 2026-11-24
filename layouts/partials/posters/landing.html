@@ -1,0 +1,59 @@
+{{- /* Posters landing page (/posters/): hero with the "Manifesto del giorno",
+       section cards (params.ingressi), then the page text. */ -}}
+{{- $idx := partialCached "posters/indice.html" . "indice" -}}
+{{- $words := split .Title " " -}}
+{{- $nFilm := 0 }}{{ $nStampati := 0 }}{{ $nRetro := 0 -}}
+{{- range hugo.Data.posters.films.films -}}
+  {{- $nFilm = add $nFilm 1 -}}
+  {{- $nRetro = add $nRetro (len (where .posters "is_retro" true)) -}}
+  {{- $nStampati = add $nStampati (len (where .posters "is_retro" false)) -}}
+{{- end -}}
+<section class="posters-hero tone-dark" aria-labelledby="posters-title">
+  <div class="wrap posters-hero-grid" data-manifesti data-indice="{{ $idx.json }}"
+       data-giorno="{{ div (time.AsTime (now.Format "2006-01-02")).Unix 86400 }}">
+    <div class="posters-hero-text">
+      {{- with .Params.occhiello }}<p class="label home-kicker">{{ . }}</p>{{ end }}
+      <h1 id="posters-title" class="home-title posters-title">
+        {{- delimit (first (sub (len $words) 1) $words) " " }} <em>{{ index $words (sub (len $words) 1) }}</em>
+      </h1>
+      {{- with .Params.sottotitolo }}<p class="home-lead">{{ . | markdownify }}</p>{{ end }}
+      <ul class="label posters-figures">
+        <li>{{ lang.FormatNumber 0 $nStampati }} manifesti e locandine</li>
+        <li>{{ lang.FormatNumber 0 $nFilm }} film</li>
+        <li>{{ lang.FormatNumber 0 $nRetro }} manifesti dipinti a mano</li>
+      </ul>
+      <div class="home-actions">
+        {{- with site.GetPage "/posters/by-year" }}
+        <a class="button label" href="{{ .RelPermalink }}">Sfoglia per anno</a>
+        {{- end }}
+        <button type="button" class="button button-ghost label" data-manifesto-caso hidden>Un manifesto a caso</button>
+      </div>
+    </div>
+
+    {{- with $idx.oggi }}
+    <figure class="poster-day" data-manifesto-giorno>
+      <p class="label poster-day-kicker">Manifesto del giorno</p>
+      <a href="{{ with .pagina }}{{ .RelPermalink }}{{ end }}" class="poster-day-link no-lightbox">
+        <img src="{{ .poster.large | relURL }}" width="{{ .poster.large_width }}" height="{{ .poster.large_height }}"
+             alt="{{ .film.title }}, {{ lower .formato }}" fetchpriority="high" decoding="async">
+      </a>
+      <figcaption>
+        <span class="poster-day-title">{{ .film.title }}</span>
+        <span class="label poster-day-meta">{{ with .film.production_year }}{{ . }} · {{ end }}{{ .formato }}</span>
+        {{- with .film.screening_dates }}
+        <span class="poster-day-note">In sala {{ index . 0 | time.AsTime | time.Format "2 January 2006" }}</span>
+        {{- end }}
+      </figcaption>
+    </figure>
+    {{- end }}
+  </div>
+</section>
+
+{{ partial "home/ingressi.html" . }}
+
+<section class="home-intro posters-intro tone-light" aria-label="La raccolta">
+  <div class="wrap home-intro-grid">
+    <h2 class="home-h2">{{ .Params.introTitolo | default "La raccolta" | markdownify }}</h2>
+    <div class="home-intro-text">{{ .Content }}</div>
+  </div>
+</section>

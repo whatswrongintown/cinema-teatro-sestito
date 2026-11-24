@@ -798,3 +798,458 @@ a.poster-wall-title:focus-visible {
     gap: 32px;
   }
 }
+
+/* Posters section (U11): layouts/partials/posters/, layouts/posters/film.html */
+.posters-hero-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr);
+  gap: 56px;
+  align-items: center;
+}
+
+.posters-hero-text {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.posters-hero-text .home-kicker {
+  margin: 0;
+  color: var(--brass);
+}
+
+.posters-title {
+  font-size: clamp(3rem, 7vw, 6.5rem);
+}
+
+.posters-figures {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 24px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  color: var(--brass);
+}
+
+.poster-day {
+  max-width: 400px;
+  margin: 0;
+  justify-self: center;
+  padding: 22px;
+  border: 1px solid var(--rule);
+  background: var(--paper-2);
+}
+
+.poster-day-kicker {
+  margin: 0 0 14px;
+  color: var(--curtain);
+}
+
+.poster-day-link {
+  display: block;
+}
+
+.poster-day img {
+  display: block;
+  width: 100%;
+  height: auto;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
+}
+
+.poster-day figcaption {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-top: 18px;
+}
+
+.poster-day-title {
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1.15;
+}
+
+.poster-day-meta {
+  color: var(--brass);
+}
+
+.poster-day-note {
+  color: var(--muted);
+}
+
+.posters-intro {
+  padding-bottom: var(--section-space) !important;
+}
+
+.posters-head {
+  padding: clamp(40px, 5vw, 64px) 0 clamp(32px, 4vw, 48px) !important;
+}
+
+.posters-page-title {
+  margin: 0 0 14px;
+  color: var(--ink);
+  font-family: var(--font-display);
+  font-size: clamp(2.5rem, 5.5vw, 4.5rem);
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: -0.02em;
+}
+
+.posters-page-lead {
+  max-width: 52ch;
+  margin: 0 0 14px;
+}
+
+.posters-page-count {
+  margin: 0;
+  color: var(--brass);
+}
+
+.chips ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 28px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.chip {
+  display: inline-block;
+  min-width: 44px;
+  padding: 11px 14px;
+  border: 1px solid var(--rule);
+  border-radius: 999px;
+  color: var(--ink);
+  text-align: center;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+.chip:hover,
+.chip:focus-visible {
+  border-color: var(--brass);
+}
+
+.chip[aria-current] {
+  border-color: var(--curtain);
+  background: var(--curtain);
+  color: var(--on-accent);
+}
+
+.chips-months ul,
+.chips-letters ul {
+  margin: 0 0 36px;
+}
+
+.posters-text-inner {
+  max-width: 820px;
+  font-size: 1.125rem;
+  line-height: 1.65;
+}
+
+.posters-text-inner p {
+  margin: 0 0 1.1em;
+}
+
+.posters-text-inner a {
+  color: inherit;
+  text-decoration-color: var(--curtain);
+  text-underline-offset: 3px;
+}
+
+.posters-text-inner h2 {
+  font-size: 1.75rem;
+  font-weight: 500;
+}
+
+/* Year index */
+.years-row {
+  display: grid;
+  grid-template-columns: 160px minmax(0, 1fr);
+  gap: 24px;
+  padding: 22px 0;
+  border-top: 1px solid var(--rule);
+}
+
+.years-row:last-child {
+  border-bottom: 1px solid var(--rule);
+}
+
+.years-decade {
+  margin: 12px 0 0;
+  color: var(--brass);
+  font-family: var(--font-label);
+}
+
+.years {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(104px, 1fr));
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.years a {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 12px 14px;
+  border: 1px solid var(--rule);
+  color: var(--ink);
+  text-decoration: none;
+}
+
+.years a:hover,
+.years a:focus-visible {
+  border-color: var(--curtain);
+}
+
+.years-year {
+  font-size: 1.75rem;
+  font-weight: 500;
+  line-height: 1;
+}
+
+.years-count {
+  color: var(--muted);
+  font-size: 0.7rem;
+}
+
+/* Genre and format cards */
+.cards-posters {
+  margin-top: 0;
+}
+
+.posters-index .card-media {
+  background: #0E0B09;
+}
+
+.card-media-landscape {
+  display: flex;
+  align-items: center;
+}
+
+.card-media-landscape img {
+  height: auto !important;
+  object-fit: contain;
+}
+
+/* Galleries */
+.posters-page .poster-grid {
+  --poster-card-min: 170px;
+  --poster-card-gap: 32px 22px;
+}
+
+.posters-page .poster-card img {
+  box-shadow: 0 12px 26px rgba(0, 0, 0, 0.45);
+}
+
+.poster-card-title {
+  display: block;
+  margin-top: 12px;
+  color: var(--ink);
+  font-family: var(--font-display);
+  font-size: 1.0625rem;
+  font-weight: 500;
+  line-height: 1.25;
+  text-decoration: none;
+}
+
+.poster-card-title:hover,
+.poster-card-title:focus-visible {
+  color: var(--curtain);
+}
+
+.poster-card-meta {
+  display: block;
+  margin-top: 4px;
+  color: var(--muted);
+  font-size: 0.75rem;
+}
+
+.posters-page .poster-card figcaption {
+  margin-top: 10px;
+  color: var(--muted);
+  font-family: var(--font-label);
+  font-size: 0.75rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.posters-month-title {
+  margin: 48px 0 20px;
+  padding-top: 20px;
+  border-top: 1px solid var(--rule);
+  font-size: 1.75rem;
+  font-weight: 500;
+}
+
+.poster-month:first-of-type .posters-month-title {
+  margin-top: 0;
+}
+
+.posters-gallery .home-more {
+  margin-top: 32px;
+}
+
+.posters-page .poster-pagination {
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 48px;
+  color: var(--muted);
+}
+
+/* Film page */
+.film-hero-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
+  gap: 56px;
+  align-items: start;
+}
+
+.film-poster {
+  margin: 0;
+}
+
+.film-poster img {
+  display: block;
+  width: 100%;
+  max-width: 520px;
+  height: auto;
+  margin: 0 auto;
+  box-shadow: 0 30px 70px rgba(0, 0, 0, 0.7);
+}
+
+.film-title {
+  margin: 0 0 10px;
+  color: var(--ink);
+  font-family: var(--font-display);
+  font-size: clamp(2.5rem, 5vw, 4.25rem);
+  font-weight: 400;
+  line-height: 1.02;
+  letter-spacing: -0.02em;
+}
+
+.film-original {
+  margin: 0 0 24px;
+  color: var(--muted);
+  font-size: 1.25rem;
+  font-style: italic;
+}
+
+.film-facts {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 18px 28px;
+  margin: 28px 0 32px;
+  padding: 24px 0;
+  border-top: 1px solid var(--rule);
+  border-bottom: 1px solid var(--rule);
+}
+
+.film-facts dt {
+  margin-bottom: 6px;
+  color: var(--brass);
+}
+
+.film-facts dd {
+  margin: 0;
+  font-size: 1.125rem;
+  line-height: 1.4;
+}
+
+.film-facts a {
+  color: inherit;
+  text-decoration-color: var(--curtain);
+  text-underline-offset: 3px;
+}
+
+.film-votes {
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.film-screenings .shows {
+  max-width: 760px;
+}
+
+.film-retro-title {
+  margin-top: 56px;
+}
+
+.film-nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  margin-top: 56px;
+  padding-top: 24px;
+  border-top: 1px solid var(--rule);
+}
+
+.film-nav a {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  max-width: 45%;
+  color: var(--ink);
+  text-decoration: none;
+}
+
+.film-nav .label {
+  color: var(--brass);
+}
+
+.film-nav-next {
+  margin-left: auto;
+  text-align: right;
+}
+
+.film-nav-title {
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.film-nav a:hover .film-nav-title,
+.film-nav a:focus-visible .film-nav-title {
+  color: var(--curtain);
+}
+
+@media (max-width: 899px) {
+  .posters-hero-grid,
+  .film-hero-grid {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 36px;
+  }
+
+  .years-row {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 10px;
+  }
+
+  .posters-page .poster-grid {
+    --poster-card-min: 140px;
+    --poster-card-gap: 24px 14px;
+  }
+
+  .film-poster img {
+    max-width: 340px;
+  }
+}
+
+.posters-page .home-ingressi .cards {
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 160px), 1fr));
+}
+
+.home .posters-gallery,
+.home .posters-index {
+  padding-top: clamp(32px, 4vw, 48px);
+}
+
+.posters-head + .posters-gallery,
+.posters-head + .posters-index {
+  border-top: 1px solid var(--rule);
+}

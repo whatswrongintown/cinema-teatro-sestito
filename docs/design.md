@@ -2,7 +2,7 @@
 
 The redesign (U07) gives the site the look of a working cinema and cultural
 venue instead of a blog and statistics archive. Status: DOING 2026-11-24, home
-page prototype and the adult films page on the branch
+page prototype, the adult films page and the Posters section on the branch
 `redesign/home-prototype`; the other inner pages still use the old styles
 under the new header and footer.
 
@@ -129,8 +129,18 @@ components inside `<main class="home">`: `.home-h2`, `.home-kicker`,
 other genres; they then appear here and leave the home page. Linked from the
 Programmazione storica page and the site map.
 
+### Posters section (U11)
+
+Every page of type `posters` loads `editorial.css` (no front matter flag
+needed). Landing page, list pages and film pages are described in
+`posters.md`; shared pieces: `.chips` / `.chip` (neighbour links, current
+page in curtain red), `.years` (year index), `.cards-posters` (genre and format
+cards), `.posters-page .poster-grid` (larger thumbnails with titles) and the
+film page classes `.film-*`. `filmAggiuntivi` on the adult films page also
+keeps those films out of the "Manifesto del giorno" and of the card images.
+
 ## Next steps
 
-See U07 in `project-status.md`: article, archive, poster and programme
+See U07 in `project-status.md`: article, archive and programme
 templates in the new style, then CSS fingerprinting with Hugo Pipes (browsers
 kept stale CSS during the prototype).

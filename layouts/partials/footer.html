@@ -60,6 +60,9 @@
     {{- if .IsHome }}
     <script src="{{ "js/cartellone.js" | relURL }}" defer></script>
     {{- end }}
+    {{- if eq .RelPermalink ("posters/" | relURL) }}
+    <script src="{{ "js/manifesti.js" | relURL }}" defer></script>
+    {{- end }}
 
 </body>
 </html>

@@ -1,40 +1,122 @@
+{{- /*
+Film page of the poster collection (U11): the main poster large, the film's
+details, its documented screenings, every poster of the film and links to the
+previous and next film by title.
+*/ -}}
 {{ partial "header.html" . }}
-{{ $page := . }}
-{{ $films := where hugo.Data.posters.films.films "film_id" .Params.film_id }}
-{{ if ne (len $films) 1 }}{{ errorf "Poster film data missing or duplicated: %s" .Params.film_id }}{{ end }}
-{{ $film := index $films 0 }}
-<main class="content" role="main">
-  <article class="article">
-    <h1 class="article-title">{{ $film.title }}</h1>
-    <div class="article-content">
-      {{ with $film.production_year }}<p><strong>Anno di produzione:</strong> {{ . }}</p>{{ end }}
-      {{ with $film.genres }}<p><strong>Generi:</strong> {{ delimit . ", " }}</p>{{ end }}
-      {{ with $film.screening_dates }}<p><strong>Date di programmazione:</strong> {{ delimit . ", " }}</p>{{ end }}
-      {{ with $film.extra }}
-        <h2>Dettagli del manifesto</h2>
-        {{ $labels := dict "Position" "Posizione" "Created" "Data di inserimento" "Modified" "Ultima modifica" "Description" "Descrizione" "Original Title" "Titolo originale" "URL" "Scheda IMDb" "Title Type" "Tipo di opera" "IMDb Rating" "Valutazione IMDb" "Runtime (mins)" "Durata (minuti)" "Num Votes" "Numero di voti" "Release Date" "Data di uscita" "Directors" "Regia" "Your Rating" "Valutazione personale" "Date Rated" "Data della valutazione" }}
-        <dl>
-          {{ range $key, $values := . }}
-            {{ with $values }}<dt>{{ index $labels $key | default $key }}</dt><dd>{{ delimit . ", " }}</dd>{{ end }}
-          {{ end }}
+{{- $page := . }}
+{{- $films := where hugo.Data.posters.films.films "film_id" .Params.film_id }}
+{{- if ne (len $films) 1 }}{{ errorf "Poster film data missing or duplicated: %s" .Params.film_id }}{{ end }}
+{{- $film := index $films 0 }}
+{{- $printed := where $film.posters "is_retro" false }}
+{{- $retro := where $film.posters "is_retro" true }}
+{{- $main := index ($printed | default $retro) 0 }}
+{{- $labels := dict "manifesti" "Manifesto" "locandine" "Locandina" "fotobuste" "Fotobusta" }}
+{{- $formato := printf "%s %s" (index $labels $main.category | default ($main.category | title)) $main.size }}
+{{- if $main.is_retro }}{{ $formato = printf "Manifesto dipinto a mano %s" $main.size }}{{ end }}
+{{- $x := $film.extra | default dict }}
+{{- /* First value of each IMDb field in films.json "extra". */}}
+{{- $val := dict }}
+{{- range $k, $v := $x }}{{ with $v }}{{ $val = merge $val (dict $k (index . 0)) }}{{ end }}{{ end }}
+{{- $vicini := index (partialCached "posters/indice.html" . "indice").vicini $film.film_id | default dict }}
+{{- $righe := slice }}
+{{- with $film.imdb_id }}{{ $righe = index (partialCached "posters/proiezioni.html" $page "proiezioni") (printf "f|%s" .) | default slice }}{{ end }}
+{{- $anni := (partialCached "home/cartellone-dati.html" . "cartellone").anni }}
+
+<main class="home posters-page film-page" role="main">
+  <section class="film-hero tone-dark" aria-labelledby="film-title">
+    <div class="wrap film-hero-grid">
+      <figure class="film-poster">
+        <a class="lightbox-image" href="{{ $main.large | relURL }}" data-caption="{{ $film.title }} ({{ $formato }})">
+          <img src="{{ $main.large | relURL }}" width="{{ $main.large_width }}" height="{{ $main.large_height }}"
+               alt="{{ $film.title }}, {{ lower $formato }}" fetchpriority="high" decoding="async">
+        </a>
+      </figure>
+
+      <div class="film-info">
+        <p class="label home-kicker">{{ $formato }}{{ with len $film.posters }}{{ if gt . 1 }} · {{ . }} pezzi in archivio{{ end }}{{ end }}</p>
+        <h1 id="film-title" class="film-title">{{ $film.title }}</h1>
+        {{- with index $val "Original Title" }}{{ if ne . $film.title }}<p class="film-original">{{ . }}</p>{{ end }}{{ end }}
+
+        <dl class="film-facts">
+          {{- with $val.Directors }}<div><dt class="label">Regia</dt><dd>{{ . }}</dd></div>{{ end }}
+          {{- with $film.production_year }}<div><dt class="label">Anno</dt><dd>{{ . }}</dd></div>{{ end }}
+          {{- with index $val "Runtime (mins)" }}<div><dt class="label">Durata</dt><dd>{{ . }} minuti</dd></div>{{ end }}
+          {{- with $film.genres }}
+          <div><dt class="label">Generi</dt><dd>
+            {{- range $i, $g := . }}{{ if $i }}, {{ end }}{{ with site.GetPage (printf "/posters/by-genre/%s" (index $film.genre_slugs $i)) }}<a href="{{ .RelPermalink }}">{{ $g }}</a>{{ else }}{{ $g }}{{ end }}{{ end -}}
+          </dd></div>
+          {{- end }}
+          {{- with index $val "IMDb Rating" }}<div><dt class="label">Valutazione IMDb</dt><dd>{{ . }}/10{{ with index $val "Num Votes" }} <span class="film-votes">({{ lang.FormatNumber 0 (float .) }} voti)</span>{{ end }}</dd></div>{{ end }}
         </dl>
-      {{ end }}
-      {{ with $film.imdb_id }}
-        {{ with site.GetPage (printf "/programmazione-storica/films/%s" .) }}
-          <p><a href="{{ .RelPermalink }}">Programmazione storica</a></p>
-        {{ end }}
-      {{ end }}
-      {{ $printed := where $film.posters "is_retro" false }}
-      {{ $retro := where $film.posters "is_retro" true }}
-      {{ with $printed }}
-        <h2>Manifesti e locandine</h2>
-        {{ partial "posters/film-images.html" (dict "posters" . "film_url" $page.RelPermalink) }}
-      {{ end }}
-      {{ with $retro }}
-        <h2>Retro</h2>
-        {{ partial "posters/film-images.html" (dict "posters" . "film_url" $page.RelPermalink) }}
-      {{ end }}
+
+        <div class="home-actions">
+          {{- with $val.URL }}<a class="button button-ghost label" href="{{ . }}" rel="noopener">Scheda su IMDb</a>{{ end }}
+          {{- with site.GetPage "/posters/by-title" }}<a class="button button-ghost label" href="{{ .RelPermalink }}">Tutti i titoli</a>{{ end }}
+        </div>
+      </div>
     </div>
-  </article>
+  </section>
+
+  {{- if or $righe $film.screening_dates }}
+  <section class="film-screenings tone-light" aria-labelledby="film-screenings-title">
+    <div class="wrap">
+      <p class="label home-kicker">In sala al Sestito</p>
+      <h2 id="film-screenings-title" class="home-h2">{{ $n := len ($righe | default $film.screening_dates) }}{{ $n }} {{ cond (eq $n 1) "proiezione documentata" "proiezioni documentate" }}</h2>
+      <ol class="shows">
+        {{- if $righe }}
+        {{- range $righe }}
+        {{- $data := time.AsTime .date }}
+        <li class="show">
+          <time class="show-date" datetime="{{ .date }}">
+            <span class="label show-dow">{{ $data | time.Format "Mon" }}</span>
+            <span class="show-day">{{ $data.Day }}</span>
+            <span class="label show-month">{{ $data | time.Format "Jan 2006" }}</span>
+          </time>
+          <div class="show-body">
+            {{- $anno := .year }}
+            <h3 class="show-title">{{ with index $anni $anno }}<a href="{{ . }}">Programmazione {{ $anno }}</a>{{ else }}{{ $anno }}{{ end }}</h3>
+            {{- with .source }}<p class="label show-source">Fonte: {{ . }}</p>{{ end }}
+          </div>
+        </li>
+        {{- end }}
+        {{- else }}
+        {{- range $film.screening_dates }}
+        {{- $data := time.AsTime . }}
+        {{- $anno := $data.Format "2006" }}
+        <li class="show">
+          <time class="show-date" datetime="{{ . }}">
+            <span class="label show-dow">{{ $data | time.Format "Mon" }}</span>
+            <span class="show-day">{{ $data.Day }}</span>
+            <span class="label show-month">{{ $data | time.Format "Jan 2006" }}</span>
+          </time>
+          <div class="show-body">
+            <h3 class="show-title">{{ with index $anni $anno }}<a href="{{ . }}">Programmazione {{ $anno }}</a>{{ else }}{{ $anno }}{{ end }}</h3>
+          </div>
+        </li>
+        {{- end }}
+        {{- end }}
+      </ol>
+    </div>
+  </section>
+  {{- end }}
+
+  <section class="film-gallery tone-dark" aria-labelledby="film-gallery-title">
+    <div class="wrap">
+      {{- with $printed }}
+      <h2 id="film-gallery-title" class="home-h2">Manifesti e locandine</h2>
+      {{ partial "posters/film-images.html" (dict "posters" . "film_url" $page.RelPermalink) }}
+      {{- end }}
+      {{- with $retro }}
+      <h2 class="home-h2 film-retro-title"{{ if not $printed }} id="film-gallery-title"{{ end }}>Dipinti a mano</h2>
+      {{ partial "posters/film-images.html" (dict "posters" . "film_url" $page.RelPermalink) }}
+      {{- end }}
+
+      <nav class="film-nav" aria-label="Altri film">
+        {{- with $vicini.prev }}<a class="film-nav-prev" href="{{ .RelPermalink }}" rel="prev"><span class="label">← Film precedente</span><span class="film-nav-title">{{ .Title }}</span></a>{{ else }}<span></span>{{ end }}
+        {{- with $vicini.next }}<a class="film-nav-next" href="{{ .RelPermalink }}" rel="next"><span class="label">Film successivo →</span><span class="film-nav-title">{{ .Title }}</span></a>{{ end }}
+      </nav>
+    </div>
+  </section>
 </main>
 {{ partial "footer.html" . }}

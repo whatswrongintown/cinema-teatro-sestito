@@ -18,11 +18,38 @@ of the repository.
   `size`, `year`, `genre`, `letter`, `browse`. The root and the four browse
   indexes use `layout: browse`; do not name a layout `index`, which Hugo
   (0.146+) reserves, so those pages would fall back to the generic list.
-- The root and size indexes use the shortcode `poster-subsections`, which lists
-  the child pages with their `description` and counts. Year pages show monthly
-  galleries below their text; genre and year indexes list their children.
-- Add a hero as in the historical programming pages: `image` in front matter
-  for social metadata and a Markdown image in the body. Thumbnails open the
+- Look (2026-11-24, branch `redesign/home-prototype`, see `design.md`): every
+  Posters page loads `static/css/editorial.css`. `layouts/partials/posters/page.html`
+  renders the landing page (`posters/landing.html`) or, for list pages, a dark
+  header (title, description, count from `posters/count.html`, links to the
+  neighbouring pages), the page text when there is any (the
+  `<!-- Write your text here -->` placeholder counts as empty), then:
+  - `browse: year`: years by decade, each with its number of films;
+  - `browse: genre` and `browse: size`: cards with a representative poster
+    from `posters/copertina.html` (the film with most IMDb votes, portrait
+    first, adult films skipped, no film twice on a page);
+  - `browse: title`: letter links and the paginated gallery;
+  - year pages: month links and one gallery per month, plus a link to that
+    year's programme; other pages: the paginated gallery (60 per page).
+  Gallery cards (`posters/gallery.html`) show the title (a link to the film
+  page) and the production year; the Retro size labels are unchanged (U05,
+  U06).
+- Landing page: front matter `occhiello`, `sottotitolo`, `introTitolo`,
+  `ingressiOcchiello`, `ingressiTitolo` and `ingressi` (the cards, same
+  fields as on the home page). "Manifesto del giorno": `posters/indice.html`
+  picks a film by day number modulo the pool (all films with a printed poster
+  except adult films and `filmAggiuntivi` of the adult films page) for the
+  build date and publishes `/posters/indice.json`; `static/js/manifesti.js`
+  redoes it for the visitor's date and drives "Un manifesto a caso".
+- Film pages (`layouts/posters/film.html`): main poster large (lightbox),
+  original title, director, year, runtime, genres (linked to the genre pages),
+  IMDb rating and link; the screenings from the programming data
+  (`posters/proiezioni.html`, by IMDb ID, with source and a link to the year's
+  programme; films without IMDb ID fall back to `screening_dates`); every
+  printed and hand-painted poster; previous and next film by title
+  (`posters/indice.html`). The internal IMDb list fields (position, created,
+  modified, personal rating) are no longer shown.
+- `image` in front matter is used for social metadata. Thumbnails open the
   keyboard-accessible lightbox; without JavaScript they link to the large image.
   Index pages with `image: ''` share the nearest parent's image (in the end the
   Posters hero). Film pages get `image:` from the adapter: the large image of

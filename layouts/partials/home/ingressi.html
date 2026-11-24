@@ -1,11 +1,13 @@
 {{- /* The main sections as image cards (params.ingressi): pagina, occhiello,
        titolo, testo, immagine, optional inquadratura (CSS object-position for
-       the 4:5 crop) and disegno (a line drawing, shown whole on paper). */ -}}
+       the 4:5 crop) and disegno (a line drawing, shown whole on paper).
+       Headings: params.ingressiOcchiello and ingressiTitolo. Also used by the
+       posters landing page. */ -}}
 {{- with .Params.ingressi }}
 <section class="home-ingressi tone-light" aria-labelledby="ingressi-title">
   <div class="wrap">
-    <p class="label home-kicker">Entra nella storia</p>
-    <h2 id="ingressi-title" class="home-h2">Quattro porte sulla sala</h2>
+    <p class="label home-kicker">{{ $.Params.ingressiOcchiello | default "Entra nella storia" }}</p>
+    <h2 id="ingressi-title" class="home-h2">{{ $.Params.ingressiTitolo | default "Quattro porte sulla sala" }}</h2>
     <ul class="cards">
       {{- range . }}
       {{- $voce := . }}

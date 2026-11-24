@@ -1,0 +1,44 @@
+{{- /*
+Film index for the poster pages, built once per build. Returns:
+  pool     films for "Manifesto del giorno" and "Un manifesto a caso", in
+           title order: dicts from home/manifesto.html (film, poster, formato,
+           pagina). Films tagged "Per adulti" and the IDs in filmAggiuntivi of
+           /programmazione-storica/cinema-per-adulti are left out, as on the
+           home page.
+  json     URL of /posters/indice.json: the pool as arrays
+           [title, film page, large, thumb, format, production year,
+            first screening date]
+  vicini   film_id -> dict prev/next (film pages in title order)
+  oggi     the pool entry for the build date (index = days since 1970 modulo
+           the pool size; static/js/manifesti.js uses the same rule)
+Call with: partialCached "posters/indice.html" . "indice"
+*/ -}}
+{{- $esclusi := slice -}}
+{{- with site.GetPage "/programmazione-storica/cinema-per-adulti" }}{{ $esclusi = .Params.filmAggiuntivi | default slice }}{{ end -}}
+{{- $s := newScratch -}}
+{{- range sort hugo.Data.posters.films.films "sort_key" -}}
+  {{- $id := .film_id -}}
+  {{- with site.GetPage (printf "/posters/films/%s" $id) }}{{ $s.Add "ordine" (slice .) }}{{ end -}}
+  {{- if and (not (in .genre_slugs "per-adulti")) (not (in $esclusi $id)) -}}
+    {{- with partial "home/manifesto.html" $id -}}
+      {{- $url := "" }}{{ with .pagina }}{{ $url = .RelPermalink }}{{ end -}}
+      {{- $s.Add "pool" (slice .) -}}
+      {{- $r := slice .film.title $url (.poster.large | relURL) (.poster.thumb | relURL) .formato (.film.production_year | default "") (index (.film.screening_dates | default (slice "")) 0) -}}
+      {{- $s.Add "json" (slice ($r | jsonify)) -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- $ordine := $s.Get "ordine" | default slice -}}
+{{- $n := len $ordine -}}
+{{- range $i, $p := $ordine -}}
+  {{- $v := dict -}}
+  {{- if gt $i 0 }}{{ $v = merge $v (dict "prev" (index $ordine (sub $i 1))) }}{{ end -}}
+  {{- if lt (add $i 1) $n }}{{ $v = merge $v (dict "next" (index $ordine (add $i 1))) }}{{ end -}}
+  {{- $s.SetInMap "vicini" $p.Params.film_id $v -}}
+{{- end -}}
+{{- $pool := $s.Get "pool" | default slice -}}
+{{- $file := resources.FromString "posters/indice.json" (printf "[%s]" (delimit ($s.Get "json") ",")) -}}
+{{- $giorno := div (time.AsTime (now.Format "2006-01-02")).Unix 86400 -}}
+{{- $oggi := false -}}
+{{- with $pool }}{{ $oggi = index . (mod $giorno (len .)) }}{{ end -}}
+{{- return dict "pool" $pool "json" $file.RelPermalink "vicini" ($s.Get "vicini") "oggi" $oggi -}}

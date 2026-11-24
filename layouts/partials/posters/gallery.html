@@ -60,14 +60,16 @@
                alt="{{ $poster.alt }}">
           {{ if $retro }}<span class="poster-size">{{ $poster.size }}</span>{{ end }}
         </a>
+        <a class="poster-card-title no-lightbox" href="{{ .RelPermalink }}">{{ $film.title }}</a>
+        {{- with $film.production_year }}<span class="label poster-card-meta">{{ . }}</span>{{ end }}
       </article>
     {{ end }}
   </div>
   {{ if and $paginator (gt $paginator.TotalPages 1) }}
   <nav class="poster-pagination" aria-label="Pagine della raccolta">
-    {{ with $paginator.Prev }}<a href="{{ .URL }}">Precedente</a>{{ end }}
-    <span>Pagina {{ $paginator.PageNumber }} di {{ $paginator.TotalPages }}</span>
-    {{ with $paginator.Next }}<a href="{{ .URL }}">Successiva</a>{{ end }}
+    {{ with $paginator.Prev }}<a class="button button-ghost label" href="{{ .URL }}" rel="prev">← Precedente</a>{{ end }}
+    <span class="label">Pagina {{ $paginator.PageNumber }} di {{ $paginator.TotalPages }}</span>
+    {{ with $paginator.Next }}<a class="button button-ghost label" href="{{ .URL }}" rel="next">Successiva →</a>{{ end }}
   </nav>
   {{ end }}
 {{ end }}

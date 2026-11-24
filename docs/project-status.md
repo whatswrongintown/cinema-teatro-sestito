@@ -132,10 +132,11 @@ TODO / DOING / DONE / DEFERRED, with dates. Assistant rules are in `CLAUDE.md`.
   poster-first cultural venue.** 2026-11-24: the owner approved a mockup
   (private claude.ai design canvas) and asked for a prototype; branch
   `redesign/home-prototype` has the tokens, the Fraunces and Archivo
-  typefaces, the new header and footer on every page and the new home page
-  (details in `design.md`). Not merged; nothing deployed. Next: owner review,
-  Lighthouse check, then articles, archive, posters and programme pages in the
-  new style, and CSS fingerprinting. Background: today the site reads
+  typefaces, the new header and footer on every page, the new home page, the
+  adult films page (U12) and the Posters section (U11) (details in
+  `design.md`). Not merged; nothing deployed. Next: owner review, Lighthouse
+  check, then articles, archive and programme pages in the new style, and CSS
+  fingerprinting. Background: today the site reads
   as a blog plus a set of tables and charts (historical programming), which
   gives it a statistical, archival feel. Goal: the identity of a living
   cultural venue that supports the reopening of the cinema and the physical
@@ -215,7 +216,18 @@ TODO / DOING / DONE / DEFERRED, with dates. Assistant rules are in `CLAUDE.md`.
   family collection) and a rights and reuse note for the images; the GitHub
   link kept but less prominent; accessible names, contrast and tap targets
   (U03). To design together with U07 to U09.
-- **U11 - TODO 2026-11-24: improve the posters section** (`content/posters/`,
+- **U11 - DOING 2026-11-24: improve the posters section.** On
+  `redesign/home-prototype` (details in `posters.md`): landing page with
+  "Manifesto del giorno", "Un manifesto a caso" and image cards; list pages
+  with a dark header, neighbour links, year index by decade, genre and format
+  cards, titled thumbnails and button pagination; new film page (large poster,
+  details, screenings with sources, all posters, previous and next film).
+  Still open: U05 and U06 (formats at real size, Retro), search and combined
+  filters, editorial pieces on the posters. The data has no reliable flag for
+  erotic comedies: some are tagged only "Commedia" (for example
+  tt0217779, whose poster is marked V.M. 18), so the owner adds such IDs to
+  `filmAggiuntivi` (U12) to keep them out of the poster of the day and the
+  home page. Original request (`content/posters/`,
   `layouts/posters/`, `layouts/partials/posters/`). The section is complete in
   data (1,787 films) but is built as an archive: a long text, a bulleted list
   of five entrances (Anni, Formati, Generi, Titoli, Retro), then charts and
