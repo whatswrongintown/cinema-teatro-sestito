@@ -1,0 +1,34 @@
+{{- /* A horizontal strip of featured posters (params.manifestiInEvidenza). */ -}}
+{{- $posters := slice -}}
+{{- range .Params.manifestiInEvidenza | default slice -}}
+  {{- with partial "home/manifesto.html" . }}{{ $posters = $posters | append . }}{{ end -}}
+{{- end -}}
+{{- with $posters }}
+{{- $totale := 0 }}
+{{- range hugo.Data.posters.films.films }}{{ $totale = add $totale (len .posters) }}{{ end }}
+<section class="home-collezione tone-dark" aria-labelledby="collezione-title">
+  <div class="wrap">
+    <div class="home-section-head">
+      <div>
+        <p class="label home-kicker">Dalla collezione</p>
+        <h2 id="collezione-title" class="home-h2">Il primo invito alla visione</h2>
+      </div>
+      {{- with site.GetPage "/posters" }}
+      <a class="label home-more" href="{{ .RelPermalink }}">Tutti i {{ lang.FormatNumber 0 $totale }} manifesti →</a>
+      {{- end }}
+    </div>
+    <ul class="poster-strip">
+      {{- range . }}
+      <li>
+        <a href="{{ with .pagina }}{{ .RelPermalink }}{{ end }}">
+          <img src="{{ .poster.thumb | relURL }}" width="{{ .poster.thumb_width }}" height="{{ .poster.thumb_height }}"
+               alt="{{ .film.title }}, {{ lower .formato }}" loading="lazy" decoding="async">
+          <span class="poster-strip-title">{{ .film.title }}</span>
+          <span class="label poster-strip-meta">{{ with .film.production_year }}{{ . }} · {{ end }}{{ .formato }}</span>
+        </a>
+      </li>
+      {{- end }}
+    </ul>
+  </div>
+</section>
+{{- end }}

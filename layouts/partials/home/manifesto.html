@@ -1,0 +1,21 @@
+{{- /*
+Returns the first printed (non-retro) poster of a film from
+data/posters/films.json, with the film and its page, or false.
+Call with: partial "home/manifesto.html" "tt0054788"
+*/ -}}
+{{- $films := partialCached "posters/film-map.html" . "film-map" -}}
+{{- $out := false -}}
+{{- with index $films . -}}
+  {{- $film := . -}}
+  {{- with where $film.posters "is_retro" false -}}
+    {{- $poster := index . 0 -}}
+    {{- $labels := dict "manifesti" "Manifesto" "locandine" "Locandina" "fotobuste" "Fotobusta" -}}
+    {{- $out = dict
+      "film" $film
+      "poster" $poster
+      "formato" (printf "%s %s" (index $labels $poster.category | default ($poster.category | title)) $poster.size)
+      "pagina" (site.GetPage (printf "/posters/films/%s" $film.film_id))
+    -}}
+  {{- end -}}
+{{- end -}}
+{{- return $out -}}

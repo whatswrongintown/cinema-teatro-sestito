@@ -1,0 +1,34 @@
+{{- /* The main sections as image cards (params.ingressi): pagina, occhiello,
+       titolo, testo, immagine, optional inquadratura (CSS object-position for
+       the 4:5 crop) and disegno (a line drawing, shown whole on paper). */ -}}
+{{- with .Params.ingressi }}
+<section class="home-ingressi tone-light" aria-labelledby="ingressi-title">
+  <div class="wrap">
+    <p class="label home-kicker">Entra nella storia</p>
+    <h2 id="ingressi-title" class="home-h2">Quattro porte sulla sala</h2>
+    <ul class="cards">
+      {{- range . }}
+      {{- $voce := . }}
+      {{- $p := site.GetPage $voce.pagina }}
+      {{- if not $p }}{{ warnf "home: page %q not found" $voce.pagina }}{{ end }}
+      {{- with $p }}
+      {{- $img := partial "home/immagine.html" (dict "page" $p "path" $voce.immagine) }}
+      <li class="card">
+        <a href="{{ $p.RelPermalink }}">
+          <span class="card-media{{ if $voce.disegno }} card-media-drawing{{ end }}">
+            {{- with $img }}
+            <img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="" loading="lazy" decoding="async"
+                 {{- with $voce.inquadratura }} style="object-position: {{ . | safeCSS }}"{{ end }}>
+            {{- end }}
+          </span>
+          <span class="label card-kicker">{{ $voce.occhiello }}</span>
+          <span class="card-title">{{ $voce.titolo | default $p.Title }}</span>
+          {{- with $voce.testo }}<span class="card-text">{{ . }}</span>{{ end }}
+        </a>
+      </li>
+      {{- end }}
+      {{- end }}
+    </ul>
+  </div>
+</section>
+{{- end }}

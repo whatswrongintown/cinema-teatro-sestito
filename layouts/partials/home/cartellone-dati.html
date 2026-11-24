@@ -1,0 +1,54 @@
+{{- /*
+Data for the home "In questi giorni" programme. Reads the screenings once
+(programmazione/dati.html) and publishes one JSON file per month,
+/cartellone/MM.json, which static/js/cartellone.js loads in the browser.
+Each screening is an array:
+  [date, title, genres (at most two), source, film page URL,
+   poster thumb URL, poster large URL, poster format label]
+Missing values are "". Returns:
+  righe  for every screening, in date order, a dict whose "r" is that array
+  mesi   month "01".."12" -> URL of its JSON file
+  anni   year "1948".. -> URL of its programme page
+Call with: partialCached "home/cartellone-dati.html" . "cartellone"
+*/ -}}
+{{- $rows := (partialCached "programmazione/dati.html" . "programmazione").rows -}}
+{{- $anni := dict -}}
+{{- range (site.GetPage "/programmazione-storica/anni").RegularPages -}}
+  {{- $p := . -}}
+  {{- with $p.Params.anno }}{{ $anni = merge $anni (dict (string .) $p.RelPermalink) }}{{ end -}}
+{{- end -}}
+
+{{- $s := newScratch -}}
+{{- /* Films tagged "Per adulti" are left out of the home page selection;
+       they stay in the programme pages (decision to confirm with the owner,
+       see docs/design.md). */ -}}
+{{- range $rows -}}
+  {{- if in .genres "per adulti" }}{{ continue }}{{ end -}}
+  {{- $generi := slice -}}
+  {{- range split .genre "," }}{{ with strings.TrimSpace . }}{{ $generi = $generi | append . }}{{ end }}{{ end -}}
+  {{- $f := "" }}{{ $p := "" }}{{ $P := "" }}{{ $formato := "" -}}
+  {{- with .id -}}
+    {{- with partial "home/manifesto.html" . -}}
+      {{- with .pagina }}{{ $f = .RelPermalink }}{{ end -}}
+      {{- $p = .poster.thumb | relURL -}}
+      {{- $P = .poster.large | relURL -}}
+      {{- $formato = .formato -}}
+    {{- end -}}
+  {{- end -}}
+  {{- $r := slice .date .title (delimit (first 2 $generi) ", ") (strings.TrimSpace .source) $f $p $P $formato -}}
+  {{- /* Wrapped in a dict (and serialised per row) because append and
+         Scratch.Add flatten a slice of slices. */ -}}
+  {{- $s.Add "righe" (slice (dict "r" $r)) -}}
+  {{- $s.SetInMap "mesi" .month true -}}
+  {{- $s.Add (printf "mese|%s" .month) (slice ($r | jsonify)) -}}
+{{- end -}}
+{{- $righe := $s.Get "righe" -}}
+
+{{- $mesi := dict -}}
+{{- range $mese, $_ := $s.Get "mesi" -}}
+  {{- $json := printf "[%s]" (delimit ($s.Get (printf "mese|%s" $mese)) ",") -}}
+  {{- $file := resources.FromString (printf "cartellone/%s.json" $mese) $json -}}
+  {{- $mesi = merge $mesi (dict $mese $file.RelPermalink) -}}
+{{- end -}}
+
+{{- return dict "righe" $righe "mesi" $mesi "anni" $anni -}}

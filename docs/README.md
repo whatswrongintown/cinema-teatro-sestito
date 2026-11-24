@@ -8,6 +8,7 @@ All documentation lives in this folder. Assistant rules are in
 | [Project status](project-status.md) | Current state, decisions and open items; read first |
 | [Historical programming](historical-programming.md) | CSV inputs, Hugo-built tables, charts and the dashboard |
 | [Poster collection](posters.md) | How Hugo builds the poster pages, the data file and image rules |
+| [Visual design](design.md) | Redesign tokens, typefaces, header, footer and home page sections |
 
 ## Rules
 

@@ -1,36 +1,65 @@
-      <footer class="footer">
-        <ul class="footer-links">
-          <li>
-                        {{ if .Site.Params.copyrightUrl }}
-                            <a href="{{ .Site.Params.copyrightUrl }}">{{ .Site.Params.copyright }}</a>
-                        {{ else }}
-                            <a href="{{ .Site.BaseURL }}license">{{ .Site.Params.copyright }}</a>
-                        {{ end }}
+      {{- /* Site footer (U10): venue, sections, poster subsections, contacts, credits. */ -}}
+      <footer class="site-footer tone-dark">
+        <div class="wrap">
+          <div class="site-footer-grid">
+            <div class="site-footer-venue">
+              <a href="{{ "/" | relURL }}" class="wordmark">Cinema Teatro <em>Sestito</em></a>
+              <p>San Vito sullo Ionio. In attività dal 1946 al 2004, oggi un archivio aperto in attesa di riaccendere le luci.</p>
+            </div>
 
-                    {{ if .Site.Params.github }}
-                        <a href="https://github.com/{{ .Site.Params.github }}" target="_blank">
-                            <img class="icon" src="{{ "images/icons/github.svg" | relURL }}" alt="GitHub" width="15" height="15"/>
-                        </a>
-                    {{ end }}
+            <nav aria-label="Sezioni del sito">
+              <h2 class="label">Sezioni</h2>
+              <ul>
+                {{- range .Site.Menus.main }}
+                <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+                {{- end }}
+              </ul>
+            </nav>
 
-                    {{ if .Site.Params.instagram }}
-                    <a href="https://www.instagram.com/{{ .Site.Params.instagram }}/" target="_blank">
-                        <img class="icon" src="{{ "images/icons/instagram.svg" | relURL }}" alt="Instagram" width="15" height="15"/>
-                    </a>
-                    {{ end }}
+            {{- with site.GetPage "/posters" }}
+            <nav aria-label="{{ .Title }}">
+              <h2 class="label">Manifesti</h2>
+              <ul>
+                {{- range .Sections }}
+                <li><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>
+                {{- end }}
+              </ul>
+            </nav>
+            {{- end }}
 
-                    {{ if .Site.Params.email }}
-                    <a href="mailto:{{ .Site.Params.email }}">
-                        <img class="icon" src="{{ "images/icons/email.svg" | relURL }}" alt="Email" width="15" height="15"/>
-                    </a>
-                    {{ end }}
+            <div>
+              <h2 class="label">Contatti</h2>
+              <ul>
+                <li><a href="{{ "/" | relURL }}#ricordi">Condividi un ricordo</a></li>
+                {{- with .Site.Params.email }}
+                <li><a href="mailto:{{ . }}">Email</a></li>
+                {{- end }}
+                {{- with .Site.Params.instagram }}
+                <li><a href="https://www.instagram.com/{{ . }}/" rel="noopener">Instagram</a></li>
+                {{- end }}
+              </ul>
+            </div>
+          </div>
 
-          </li>
-        </ul>
+          <div class="site-footer-credits">
+            <p>
+              {{- if .Site.Params.copyrightUrl }}<a href="{{ .Site.Params.copyrightUrl }}">{{ .Site.Params.copyright }}</a>{{ else }}{{ .Site.Params.copyright }}{{ end }}
+              · Documenti e immagini dall'archivio della famiglia Sestito.
+            </p>
+            <p>
+              {{- with site.GetPage "/privacy" }}<a href="{{ .RelPermalink }}">Privacy</a>{{ end }}
+              {{- with site.GetPage "/sitemap" }} · <a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ end }}
+              {{- with .Site.Params.github }} · <a href="https://github.com/{{ . }}" rel="noopener">Codice sorgente</a>{{ end }}
+            </p>
+          </div>
+        </div>
       </footer>
     </div>
 
-    <script type="text/javascript" src="{{ "js/lightbox.js" | relURL }}"></script>
+    <script src="{{ "js/lightbox.js" | relURL }}"></script>
+    {{- if .IsHome }}
+    <script src="{{ "js/cartellone.js" | relURL }}" defer></script>
+    {{- end }}
 
 </body>
 </html>

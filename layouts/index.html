@@ -1,17 +1,29 @@
 {{ partial "header.html" . }}
 
-<main class="content" role="main">
+{{- /* Home page (U08). Sections are partials in layouts/partials/home/;
+       their content comes from the front matter of content/_index.md. */}}
+<main class="home" role="main">
+  {{ partial "home/hero.html" . }}
+  {{ partial "home/numeri.html" . }}
+  {{ partial "home/cartellone.html" . }}
 
-  <article class="article">
-
-    <h1 class="article-title">{{ .Title }}</h1>
-
-    <div class="article-content">
-      {{ .Content }}
+  <section class="home-intro tone-light" aria-labelledby="home-intro-title">
+    <div class="wrap home-intro-grid">
+      <h2 id="home-intro-title" class="home-h2">Una sala di paese, una programmazione <em>audace</em></h2>
+      <div class="home-intro-text">{{ .Content }}</div>
     </div>
-      
-  </article>
+  </section>
 
+  {{ partial "home/ingressi.html" . }}
+  {{ partial "home/collezione.html" . }}
+  {{ partial "home/storie.html" . }}
+  {{ partial "home/riapertura.html" . }}
+
+  <section id="ricordi" class="home-ricordi tone-light">
+    <div class="wrap">
+      {{ partial "contact-form.html" . }}
+    </div>
+  </section>
 </main>
 
 {{ partial "footer.html" . }}

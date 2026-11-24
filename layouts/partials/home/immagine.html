@@ -1,0 +1,18 @@
+{{- /*
+Resolves a home-page image path to a resource and returns it ready for an
+<img> (or false). Looks in the given page's bundle, then the home bundle,
+then the assets mount (static/). Large bundle images are resized to 800 px
+WebP; poster files from static/images/manifesti/ are used as they are.
+Call with: partial "home/immagine.html" (dict "page" $p "path" "x.jpg")
+*/ -}}
+{{- $path := .path -}}
+{{- $r := false -}}
+{{- with .page }}{{ with .Resources.Get $path }}{{ $r = . }}{{ end }}{{ end -}}
+{{- if not $r }}{{ with site.Home.Resources.Get $path }}{{ $r = . }}{{ end }}{{ end -}}
+{{- if not $r }}{{ with resources.Get $path }}{{ $r = . }}{{ end }}{{ end -}}
+{{- if not $r -}}
+  {{- warnf "home: image %q not found" $path -}}
+{{- else if and (not (hasPrefix $path "images/manifesti/")) (eq $r.ResourceType "image") (gt $r.Width 800) -}}
+  {{- $r = $r.Resize "800x webp q78" -}}
+{{- end -}}
+{{- return $r -}}

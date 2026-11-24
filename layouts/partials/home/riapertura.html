@@ -1,0 +1,17 @@
+{{- /* The reopening band (params.riapertura). */ -}}
+{{- with .Params.riapertura }}
+<section id="riapertura" class="home-riapertura" aria-labelledby="riapertura-title">
+  <div class="wrap">
+    {{- with .occhiello }}<p class="label home-kicker">{{ . }}</p>{{ end }}
+    <h2 id="riapertura-title" class="home-h2 home-riapertura-title">{{ .titolo | markdownify }}</h2>
+    {{- with .testo }}<p class="home-riapertura-text">{{ . | markdownify }}</p>{{ end }}
+    <div class="home-actions">
+      {{- $etichetta := .etichetta | default "Scopri il progetto" }}
+      {{- with .pagina }}{{ with site.GetPage . }}
+      <a class="button label" href="{{ .RelPermalink }}">{{ $etichetta }}</a>
+      {{- end }}{{ end }}
+      <a class="button button-ghost label" href="#ricordi">Condividi un ricordo</a>
+    </div>
+  </div>
+</section>
+{{- end }}

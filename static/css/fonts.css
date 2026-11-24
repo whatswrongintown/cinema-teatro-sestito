@@ -14,9 +14,33 @@
        url('../fonts/lato-v11-latin-regular.woff2') format('woff2'),
        url('../fonts/lato-v11-latin-regular.woff') format('woff');
 }
+/* Redesign typefaces (SIL OFL, licences in static/fonts/OFL-*.txt).
+   Variable, Latin subset, self-hosted. */
+@font-face {
+  font-family: 'Fraunces';
+  font-style: normal;
+  font-weight: 300 900;
+  font-display: swap;
+  src: url('../fonts/fraunces-variable-latin.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Fraunces';
+  font-style: italic;
+  font-weight: 300 900;
+  font-display: swap;
+  src: url('../fonts/fraunces-italic-variable-latin.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Archivo';
+  font-style: normal;
+  font-weight: 400 800;
+  font-stretch: 62% 125%;
+  font-display: swap;
+  src: url('../fonts/archivo-variable-latin.woff2') format('woff2');
+}
 body {
   font-family: 'Merriweather', serif;
 }
-h1, h2, h3, h4, h5, h6, .nav, .article-duration, .archive-item-link, .footer {
+h1, h2, h3, h4, h5, h6, .article-duration, .archive-item-link {
   font-family: 'Lato', sans-serif;
 }

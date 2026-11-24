@@ -1,0 +1,97 @@
+/* Design tokens for the redesign (U07). "Foyer" is the light, reading
+   surface; "sala" (.tone-dark) is the dark surface for posters, the
+   programme and the reopening. Components use only these variables, so they
+   work on either surface. See docs/design.md. */
+:root {
+  --ink: #1A1512;
+  --paper: #F4EDE1;
+  --paper-2: #EAE0CF;
+  --muted: #6B5F55;
+  --curtain: #9E2A1F;
+  --brass: #A8823F;
+  --rule: #D6C9B4;
+  --on-accent: #F8F1E6;
+
+  --font-display: 'Fraunces', Georgia, 'Times New Roman', serif;
+  --font-label: 'Archivo', 'Arial Narrow', Arial, sans-serif;
+
+  --wrap: 1280px;
+  --gutter: clamp(16px, 3vw, 40px);
+  --section-space: clamp(64px, 8vw, 96px);
+}
+
+.tone-dark {
+  --ink: #F3EBDD;
+  --paper: #14100E;
+  --paper-2: #1F1915;
+  --muted: #A89B8C;
+  --curtain: #E0503F;
+  --brass: #C9A45C;
+  --rule: #3A2F27;
+  --on-accent: #14100E;
+  color: var(--ink);
+  background-color: var(--paper);
+}
+
+.tone-light {
+  color: var(--ink);
+  background-color: var(--paper);
+}
+
+.wrap {
+  box-sizing: border-box;
+  max-width: var(--wrap);
+  margin: 0 auto;
+  padding: 0 var(--gutter);
+}
+
+.label {
+  font-family: var(--font-label);
+  font-stretch: 75%;
+  font-weight: 600;
+  font-size: 0.8125rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.button {
+  display: inline-block;
+  padding: 15px 22px;
+  border: 1.5px solid var(--curtain);
+  border-radius: 999px;
+  background: var(--curtain);
+  color: var(--on-accent);
+  text-decoration: none;
+  text-align: center;
+  line-height: 1.2;
+}
+
+.button:hover,
+.button:focus-visible {
+  filter: brightness(1.08);
+}
+
+.button-ghost {
+  border-color: var(--brass);
+  background: transparent;
+  color: var(--ink);
+}
+
+.button-ghost:hover,
+.button-ghost:focus-visible {
+  background: var(--paper-2);
+  filter: none;
+}
+
+:where(a, button, input, textarea):focus-visible {
+  outline: 2px solid var(--brass);
+  outline-offset: 3px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    transition: none !important;
+    animation: none !important;
+    scroll-behavior: auto !important;
+  }
+}

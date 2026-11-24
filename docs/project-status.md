@@ -1,6 +1,6 @@
 # Project status
 
-Last review: 2026-11-23. Read this file first and update it whenever a decision
+Last review: 2026-11-24. Read this file first and update it whenever a decision
 is made. Documentation is in English, site content in Italian. Status words:
 TODO / DOING / DONE / DEFERRED, with dates. Assistant rules are in `CLAUDE.md`.
 
@@ -39,8 +39,11 @@ TODO / DOING / DONE / DEFERRED, with dates. Assistant rules are in `CLAUDE.md`.
   maintains the site; visitors are mainly locals.
 - Keep `params.anno` and the generic favicons (now in `static/images/icons/`). Keep goldmark
   `unsafe: true` (inline HTML).
-- Keep Eventi available with its "no events scheduled" message. Only Progetto
-  stays in the top menu. No analytics (disabled, Do Not Track respected).
+- Keep Eventi available with its "no events scheduled" message. No analytics
+  (disabled, Do Not Track respected). Top menu: on `main`, only Progetto; on
+  the branch `redesign/home-prototype` (2026-11-24, awaiting the owner's
+  approval) the main sections plus "Il progetto" as a button, with Articoli
+  labelled "Storie" in the menu only (see `design.md`).
 - Contact is a homepage form plus a visible email. Messages are private;
   publishing any needs a separate agreement. Poster scan rights: owner confirmed.
 - Netlify plan: Legacy Starter (100 form submissions per site per month; metered
@@ -87,8 +90,10 @@ TODO / DOING / DONE / DEFERRED, with dates. Assistant rules are in `CLAUDE.md`.
   `static/css/main.css`; `font-display: swap` in `static/css/fonts.css`;
   `layouts/_markup/render-image.html` adds width/height to bundle images
   (home hero). DEFERRED: `images/icons/avatar.png` is 50x50 but displayed at
-  40 px, so Lighthouse wants an 80x80 file (needs a new image); PWA manifest
-  and CSP are not planned.
+  40 px, so Lighthouse wants an 80x80 file (needs a new image); the redesign
+  branch no longer shows the avatar (text wordmark), which removes the issue.
+  PWA manifest and CSP are not planned. Lighthouse not yet rerun on the
+  redesign branch (TODO before merging).
 - **U02 - DONE 2026-11-23: social-sharing images.** `layouts/partials/social-image.html`
   (called by `head.html`) picks the page's `image:` (a bundle file or an
   absolute path under `static/`), else the nearest ancestor section's, else
@@ -123,8 +128,14 @@ TODO / DOING / DONE / DEFERRED, with dates. Assistant rules are in `CLAUDE.md`.
   shown only for the retro collection). Remove or replace it and review the
   section's layout, ideally together with U05 so both share one solution for
   showing formats. Details of the change to agree with the owner first.
-- **U07 - IDEA 2026-11-24 (major step, not approved): from blog and statistics
-  site to an editorial, poster-first cultural venue.** Today the site reads
+- **U07 - DOING 2026-11-24: from blog and statistics site to an editorial,
+  poster-first cultural venue.** 2026-11-24: the owner approved a mockup
+  (private claude.ai design canvas) and asked for a prototype; branch
+  `redesign/home-prototype` has the tokens, the Fraunces and Archivo
+  typefaces, the new header and footer on every page and the new home page
+  (details in `design.md`). Not merged; nothing deployed. Next: owner review,
+  Lighthouse check, then articles, archive, posters and programme pages in the
+  new style, and CSS fingerprinting. Background: today the site reads
   as a blog plus a set of tables and charts (historical programming), which
   gives it a statistical, archival feel. Goal: the identity of a living
   cultural venue that supports the reopening of the cinema and the physical
@@ -154,8 +165,14 @@ TODO / DOING / DONE / DEFERRED, with dates. Assistant rules are in `CLAUDE.md`.
     action, project updates, trust and transparency); and, with the owner,
     knowledge of the physical restoration plan. A static prototype of the
     home page is the suggested first step before any migration.
-- **U08 - TODO 2026-11-24: improve the home page** (`content/_index.md`,
-  `layouts/index.html`). Today it is one architectural drawing (1956 project),
+- **U08 - DOING 2026-11-24: improve the home page** (`content/_index.md`,
+  `layouts/index.html`). Prototype on `redesign/home-prototype`: poster hero,
+  figures, "In questi giorni" programme (build-time plus a small script for
+  the visitor's date), intro, section cards, poster strip, stories, reopening
+  band and the contact form, all driven by front matter (`design.md`). The
+  reopening band reuses the existing home text: the owner still has to write
+  the real reopening status. TODO: owner to confirm leaving "Per adulti"
+  films out of the home programme. Before: one architectural drawing (1956 project),
   four paragraphs of text, a plain list of four links ("Esplora") and the
   contact form. Improvements to agree with the owner: a stronger first screen
   that says at once what the place is (name, years, one line, a poster or
@@ -167,9 +184,11 @@ TODO / DOING / DONE / DEFERRED, with dates. Assistant rules are in `CLAUDE.md`.
   contact form lower or moved to a contact page. Keep the Lighthouse scores
   (U03) and the social image logic (U02). This is the first concrete step of
   U07 and should be designed with it.
-- **U09 - TODO 2026-11-24: improve the navigation menu** (`menu.main` in
-  `config.yaml`, `layouts/partials/nav.html`, `static/css/main.css`). Today
-  the header holds the small round logo (50x50) and a single link, "Progetto".
+- **U09 - DOING 2026-11-24: improve the navigation menu** (`menu.main` in
+  `config.yaml`, `layouts/partials/nav.html`, `static/css/main.css`). On
+  `redesign/home-prototype`: wordmark, main sections, current-section state,
+  full-screen popover menu on phones. Still open: Posters subsections in the
+  menu, search. Before: the header held the small round logo (50x50) and a single link, "Progetto".
   The main sections (Programmazione storica, Manifesti, Articoli, Archivio)
   are reachable only from the list on the home page or from breadcrumbs.
   Improvements to agree with the owner: put the main sections in the menu
@@ -180,8 +199,11 @@ TODO / DOING / DONE / DEFERRED, with dates. Assistant rules are in `CLAUDE.md`.
   reopening or contact; keyboard and screen reader support (`aria-current`,
   focus states). Keep it light (no heavy JavaScript) and keep the Lighthouse
   scores (U03). To design together with U07 and U08.
-- **U10 - TODO 2026-11-24: improve the footer** (`layouts/partials/footer.html`,
-  `static/css/main.css`). Today it is one line: the copyright text (a link to
+- **U10 - DOING 2026-11-24: improve the footer** (`layouts/partials/footer.html`,
+  `static/css/main.css`). On `redesign/home-prototype`: four columns (venue,
+  sections, Posters subsections, contacts) plus credits, text links and
+  `rel="noopener"`. Still open: newsletter (if wanted), rights and reuse note
+  wording. Before: one line: the copyright text (a link to
   `cinemateatrosestito.com`) followed by three small 15 px icons (GitHub,
   Instagram, email) with no text and `target="_blank"` links without
   `rel="noopener"`. Improvements to agree with the owner: a real footer with

@@ -1,0 +1,45 @@
+{{- /* Selected stories (params.storie): the first is the lead story with an
+       image (its `immagine`, else the article's `image`). */ -}}
+{{- $storie := slice -}}
+{{- range .Params.storie | default slice -}}
+  {{- $p := site.GetPage .pagina -}}
+  {{- if $p }}{{ $storie = $storie | append (dict "pagina" $p "immagine" (.immagine | default $p.Params.image)) }}{{ else }}{{ warnf "home: page %q not found" .pagina }}{{ end -}}
+{{- end -}}
+{{- with $storie }}
+<section class="home-storie tone-light" aria-labelledby="storie-title">
+  <div class="wrap">
+    <p class="label home-kicker">Storie</p>
+    <h2 id="storie-title" class="home-h2">Racconti dalla sala</h2>
+    <div class="stories">
+      {{- with index . 0 }}
+      {{- $p := .pagina }}
+      <article class="story story-lead">
+        <a href="{{ $p.RelPermalink }}">
+          {{- with .immagine }}{{ with partial "home/immagine.html" (dict "page" $p "path" .) }}
+          <span class="story-media"><img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="" loading="lazy" decoding="async"></span>
+          {{- end }}{{ end }}
+          <span class="label story-kicker">{{ index ($p.Params.categories | default (slice "Storia")) 0 }} · {{ $p.Date | time.Format ":date_long" }}</span>
+          <span class="story-title">{{ $p.Title }}</span>
+          {{- with $p.Description }}<span class="story-text">{{ . }}</span>{{ end }}
+        </a>
+      </article>
+      {{- end }}
+      <div class="story-list">
+        {{- range after 1 . }}
+        {{- $p := .pagina }}
+        <article class="story">
+          <a href="{{ $p.RelPermalink }}">
+            <span class="label story-kicker">{{ index ($p.Params.categories | default (slice "Storia")) 0 }} · {{ $p.Date | time.Format ":date_long" }}</span>
+            <span class="story-title">{{ $p.Title }}</span>
+            {{- with $p.Description }}<span class="story-text">{{ . }}</span>{{ end }}
+          </a>
+        </article>
+        {{- end }}
+        {{- with site.GetPage "/articoli" }}
+        <a class="label home-more" href="{{ .RelPermalink }}">Tutte le storie →</a>
+        {{- end }}
+      </div>
+    </div>
+  </div>
+</section>
+{{- end }}

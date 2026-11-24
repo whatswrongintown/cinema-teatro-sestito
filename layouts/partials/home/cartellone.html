@@ -1,0 +1,93 @@
+{{- /*
+"In questi giorni": screenings documented in the seven days around today
+(day and month), one per year, at most six, spread over the years. In each
+year a screening with a poster is preferred; the first one with a poster is
+shown large beside the list. Hugo renders the selection for the build date;
+static/js/cartellone.js redoes it for the visitor's date with the same rules
+(keep the two in step).
+*/ -}}
+{{- $dati := partialCached "home/cartellone-dati.html" . "cartellone" -}}
+{{- $oggi := now -}}
+{{- $giorni := slice -}}
+{{- range seq -3 3 }}{{ $giorni = $giorni | append (($oggi.AddDate 0 0 .).Format "01-02") }}{{ end -}}
+{{- $dal := $oggi.AddDate 0 0 -3 -}}
+{{- $al := $oggi.AddDate 0 0 3 -}}
+
+{{- /* One screening per year, preferring one with a poster. */ -}}
+{{- $s := newScratch -}}
+{{- /* Rows are dicts whose "r" is the screening array (see cartellone-dati). */ -}}
+{{- range $dati.righe -}}
+  {{- if in $giorni (substr (index .r 0) 5 5) -}}
+    {{- $anno := substr (index .r 0) 0 4 -}}
+    {{- $prima := $s.Get (printf "anno|%s" $anno) -}}
+    {{- if not $prima -}}
+      {{- $s.Set (printf "anno|%s" $anno) . -}}
+      {{- $s.Add "anni" (slice $anno) -}}
+    {{- else if and (not (index $prima.r 5)) (index .r 5) -}}
+      {{- $s.Set (printf "anno|%s" $anno) . -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- $candidati := slice -}}
+{{- range sort ($s.Get "anni" | default slice) }}{{ $candidati = $candidati | append ($s.Get (printf "anno|%s" .)) }}{{ end -}}
+{{- $scelte := $candidati -}}
+{{- $n := len $candidati -}}
+{{- if gt $n 6 -}}
+  {{- $scelte = slice -}}
+  {{- range seq 0 5 }}{{ $scelte = $scelte | append (index $candidati (div (mul . (sub $n 1)) 5)) }}{{ end -}}
+{{- end -}}
+{{- $evidenza := false -}}
+{{- range $scelte }}{{ if and (not $evidenza) (index .r 5) }}{{ $evidenza = .r }}{{ end }}{{ end -}}
+{{- $chiaveEvidenza := "" -}}
+{{- with $evidenza }}{{ $chiaveEvidenza = printf "%s|%s" (index . 0) (index . 1) }}{{ end -}}
+
+<section class="home-cartellone tone-dark" aria-labelledby="cartellone-title">
+  <div class="wrap home-cartellone-grid" data-cartellone
+       data-mesi="{{ $dati.mesi | jsonify }}" data-anni="{{ $dati.anni | jsonify }}"
+       data-giorni="{{ delimit $giorni "," }}">
+    <div>
+      <p class="label home-kicker">In cartellone, in questi giorni</p>
+      <h2 id="cartellone-title" class="home-h2">Accadde al Sestito</h2>
+      <p class="home-sub" data-cartellone-periodo>Le proiezioni documentate {{ if eq $dal.Month $al.Month }}dal {{ $dal.Day }} al {{ $al | time.Format "2 January" }}{{ else }}dal {{ $dal | time.Format "2 January" }} al {{ $al | time.Format "2 January" }}{{ end }}, anno dopo anno.</p>
+
+      <ol class="shows" data-cartellone-lista>
+        {{- range $scelte }}
+        {{- with .r }}
+        {{- $data := time.AsTime (index . 0) }}
+        {{- $anno := substr (index . 0) 0 4 }}
+        {{- $link := index . 4 | default (index $dati.anni $anno) }}
+        <li class="show{{ if eq (printf "%s|%s" (index . 0) (index . 1)) $chiaveEvidenza }} show-featured{{ end }}">
+          <time class="show-date" datetime="{{ index . 0 }}">
+            <span class="label show-dow">{{ $data | time.Format "Mon" }}</span>
+            <span class="show-day">{{ $data.Day }}</span>
+            <span class="label show-month">{{ $data | time.Format "Jan 2006" }}</span>
+          </time>
+          <div class="show-body">
+            <h3 class="show-title">{{ with $link }}<a href="{{ . }}">{{ end }}{{ index . 1 }}{{ if $link }}</a>{{ end }}</h3>
+            {{- with index . 2 }}<p class="label show-meta">{{ . }}</p>{{ end }}
+            {{- with index . 3 }}<p class="label show-source">Fonte: {{ . }}</p>{{ end }}
+          </div>
+        </li>
+        {{- end }}
+        {{- else }}
+        <li class="show-empty">Nessuna proiezione documentata in questi giorni.</li>
+        {{- end }}
+      </ol>
+      {{- with site.GetPage "/programmazione-storica" }}
+      <a class="label home-more" href="{{ .RelPermalink }}">Tutta la programmazione storica →</a>
+      {{- end }}
+    </div>
+
+    <aside class="show-poster" aria-label="Manifesto in evidenza" data-cartellone-evidenza{{ if not $evidenza }} hidden{{ end }}>
+      {{- with $evidenza }}
+      {{- $data := time.AsTime (index . 0) }}
+      <a href="{{ index . 4 }}">
+        <img src="{{ index . 6 }}" alt="{{ index . 1 }}, {{ lower (index . 7) }}" loading="lazy" decoding="async">
+      </a>
+      <p class="label show-poster-format">{{ index . 7 }}</p>
+      <p class="show-poster-title">{{ index . 1 }}</p>
+      <p class="show-poster-note">In sala {{ $data | time.Format "Monday 2 January 2006" }}.</p>
+      {{- end }}
+    </aside>
+  </div>
+</section>

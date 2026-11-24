@@ -9,9 +9,26 @@ permalinks:
   programmazione-storica: /:year/:month/:day/:slug/
 menu:
   main:
-    - name: Progetto
-      url: /progetto/
-      weight: 1
+    - name: Storie
+      pageRef: /articoli
+      weight: 10
+    - name: Programmazione
+      pageRef: /programmazione-storica
+      weight: 20
+    - name: Manifesti
+      pageRef: /posters
+      weight: 30
+    - name: Archivio
+      pageRef: /archivio
+      weight: 40
+    - name: Eventi
+      pageRef: /eventi
+      weight: 50
+    - name: Il progetto
+      pageRef: /progetto
+      weight: 60
+      params:
+        cta: true
 frontmatter:
   lastmod:
     - lastmod
@@ -19,11 +36,6 @@ params:
   description: Un sito web dedicato al Cinema di San Vito sullo Ionio. Dalle sue origini alla chiusura, esplora i film, le storie e i ricordi che hanno reso il Cinema una cara istituzione culturale del paese.
   defaultImage: "1956_progetto_cinema.webp"
   favicon: images/icons/favicon.png
-  logo:
-    alt: Cinema Teatro Sestito - Home
-    height: 50
-    url: icons/avatar.png
-    width: 50
   instagram: whatswrongintown
   github: whatswrongintown/cinema-teatro-sestito
   email: whatswrongintown@gmail.com
