@@ -1,0 +1,112 @@
+{{- /*
+Index pages of the historical programming (Anni, Generi, Paesi, Fonti),
+redesign U07: dark header (title, description, number of pages, the section
+image), the index (years by decade, genres and countries as tiles sized by
+their screenings, sources as cards by type), then the page text with its
+charts as "La lettura dei dati". The mode comes from the section folder.
+Call with: partial "programmazione/sezione.html" .
+*/ -}}
+{{- $page := . }}
+{{- $cartelle := dict "anni" "anni" "generi" "generi" "paesi-di-produzione" "paesi" "fonti" "fonti" }}
+{{- $modo := index $cartelle (path.Base (strings.TrimSuffix "/" .RelPermalink)) | default "fonti" }}
+{{- $dati := partialCached "programmazione/dati.html" . "programmazione" }}
+{{- $a := partial "articoli/apertura.html" . }}
+{{- $figli := .RegularPages }}
+{{- $conta := dict }}
+{{- $massimo := 1 }}
+{{- range $figli }}
+  {{- $chiave := cond (eq $modo "anni") (printf "anni|%v" .Params.anno) (printf "%s|%s" $modo (lower (strings.TrimSpace .Title))) }}
+  {{- $n := len (index $dati.gruppi $chiave | default slice) }}
+  {{- $conta = merge $conta (dict .RelPermalink $n) }}
+  {{- if gt $n $massimo }}{{ $massimo = $n }}{{ end }}
+{{- end }}
+{{- $unita := dict "anni" "anni" "generi" "generi" "paesi" "paesi di produzione" "fonti" "fonti originali" }}
+
+<main class="home programme-page" role="main">
+  <section class="articles-head tone-dark" aria-labelledby="programme-title">
+    <div class="wrap articles-head-grid">
+      <div>
+        <p class="label home-kicker">{{ with .Parent }}<a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ end }}</p>
+        <h1 id="programme-title" class="posters-page-title">{{ .Title }}</h1>
+        {{- with .Description }}<p class="home-lead posters-page-lead">{{ strings.FirstUpper . }}</p>{{ end }}
+        <p class="label posters-page-count">{{ len $figli }} {{ index $unita $modo }}</p>
+      </div>
+      {{- with $a.img }}
+      <figure class="articles-head-figure programme-head-figure">
+        <img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="{{ $a.alt }}" decoding="async">
+      </figure>
+      {{- end }}
+    </div>
+  </section>
+
+  <section class="programme-index tone-dark" aria-label="Indice">
+    <div class="wrap">
+    {{- if eq $modo "anni" }}
+      {{- $decenni := slice }}
+      {{- range $figli }}{{ $decenni = $decenni | append (printf "%s0" (substr (string .Params.anno) 0 3)) }}{{ end }}
+      {{- range sort (uniq $decenni) }}
+      {{- $d := . }}
+      <div class="years-row">
+        <h2 class="label years-decade">Anni {{ $d }}</h2>
+        <ul class="years">
+          {{- range sort $figli "Params.anno" }}{{ if eq (printf "%s0" (substr (string .Params.anno) 0 3)) $d }}
+          <li><a href="{{ .RelPermalink }}"><span class="years-year">{{ .Params.anno }}</span><span class="label years-count">{{ index $conta .RelPermalink }} proiezioni</span></a></li>
+          {{- end }}{{ end }}
+        </ul>
+      </div>
+      {{- end }}
+    {{- else if in (slice "generi" "paesi") $modo }}
+      {{- $voci := slice }}
+      {{- range $figli }}{{ $voci = $voci | append (dict "p" . "n" (index $conta .RelPermalink)) }}{{ end }}
+      <ul class="tiles">
+        {{- range sort $voci "n" "desc" }}
+        <li>
+          <a href="{{ .p.RelPermalink }}">
+            <span class="tile-name">{{ .p.Title }}</span>
+            <span class="label tile-count">{{ lang.FormatNumber 0 .n }} {{ cond (eq .n 1) "proiezione" "proiezioni" }}</span>
+            <span class="tile-bar" aria-hidden="true"><span style="width: {{ math.Max 1 (math.Round (div (mul .n 100.0) $massimo)) }}%"></span></span>
+          </a>
+        </li>
+        {{- end }}
+      </ul>
+    {{- else }}
+      {{- $tipi := slice }}
+      {{- range $figli }}{{ range first 1 (.GetTerms "categories") }}{{ $tipi = $tipi | append .LinkTitle }}{{ end }}{{ end }}
+      {{- range uniq $tipi }}
+      {{- $tipo := . }}
+      <div class="sources-group">
+        <h2 class="label years-decade">{{ $tipo }}</h2>
+        <ul class="doc-cards">
+          {{- range $figli.ByDate }}
+          {{- $t := "" }}{{ range first 1 (.GetTerms "categories") }}{{ $t = .LinkTitle }}{{ end }}
+          {{- if eq $t $tipo }}
+          {{- $img := false }}
+          {{- with .Params.image }}{{ with resources.Get (strings.TrimPrefix "/" .) }}{{ if eq .ResourceType "image" }}{{ $img = .Fill "480x600 Top webp q75" }}{{ end }}{{ end }}{{ end }}
+          <li class="doc-card{{ if not $img }} doc-card-text{{ end }}">
+            <a href="{{ .RelPermalink }}">
+              {{- with $img }}<span class="doc-card-media"><img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="" loading="lazy" decoding="async"></span>{{ end }}
+              <span class="label doc-card-kicker">{{ lang.FormatNumber 0 (index $conta .RelPermalink) }} proiezioni</span>
+              <span class="doc-card-title">{{ .Title }}</span>
+            </a>
+          </li>
+          {{- end }}
+          {{- end }}
+        </ul>
+      </div>
+      {{- end }}
+    {{- end }}
+    </div>
+  </section>
+
+  {{- if strings.TrimSpace (string $a.content) }}
+  <section class="article-body tone-light" aria-labelledby="programme-reading">
+    <div class="wrap">
+      <div class="prose">
+        <p class="label home-kicker">Dati e metodo</p>
+        <h2 id="programme-reading" class="home-h2">La lettura dei dati</h2>
+        {{ $a.content }}
+      </div>
+    </div>
+  </section>
+  {{- end }}
+</main>

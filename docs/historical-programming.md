@@ -44,13 +44,38 @@ Files:
   and similar variants; all link to the "Note sui manifesti" source page.
 - `layouts/shortcodes/programmazione-tabelle.html` filters and formats the rows.
   It must be called with `{{% %}}` so the output is processed as Markdown.
+- Row format (2026-11-24, redesign): the date cell is
+  `<time datetime="1966-01-02">dom 2 gen</time>` (Italian weekday, day and
+  month), the title cell links to IMDb as before. The empty Markdown header
+  row is hidden by CSS and the tables are styled as programme listings
+  (`static/css/editorial.css`, `.programme-tables`).
+
+Page templates (redesign U07, details in `design.md`):
+
+- `layouts/programmazione-storica/list.html`: the landing page (figures,
+  section cards from front matter `ingressi`, one band per decade with
+  its figures and the best-known posters screened then) and, for Fonti, the
+  shared index.
+- `layouts/partials/programmazione/sezione.html`: the Anni, Generi, Paesi
+  and Fonti indexes (called by their `list.html`): years by decade with
+  counts, genres and countries as tiles sized by their screenings, sources
+  as cover cards by type, then the page text and charts as "La lettura dei
+  dati". The opening image of the body moves to the header
+  (`partials/articoli/apertura.html`).
+- `layouts/programmazione-storica/single.html`: year, genre, country and
+  source pages: header with figures and links to the other years or genres,
+  a strip of posters from `partials/programmazione/striscia.html` (films
+  of those screenings with a poster in `films.json`, most IMDb votes first),
+  the tables, and on year pages the part before `<!--more-->` (the charts)
+  after the tables.
 
 Rules for editing pages:
 
 - Edit front matter, introductions and galleries freely; keep the shortcode as
   the last line. Never paste tables into the Markdown.
 - Year pages have `<!--more-->` before the tables (before the partial-year note
-  on 1960 and 1961) so RSS summaries contain only the introduction.
+  on 1960 and 1961) so RSS summaries contain only the introduction. The year
+  template also uses it: the part before is shown after the tables.
 - A page's title is its matching key: renaming a source, genre or country page
   title breaks its table (the build warns when a page has no rows, and fails
   when a year page has no rows or a source has no page).

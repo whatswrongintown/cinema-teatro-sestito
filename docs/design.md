@@ -3,9 +3,9 @@
 The redesign (U07) gives the site the look of a working cinema and cultural
 venue instead of a blog and statistics archive. Status: DOING 2026-11-24, on
 the branch `redesign/home-prototype`: home page, adult films page, Posters
-section, articles, archive and the category and tag pages. The programme
-pages, Eventi, Progetto and the small pages still use the old styles under
-the new header and footer.
+section, articles, archive, category and tag pages, and the historical
+programming. Eventi, Progetto and the small pages (privacy, site map, thank
+you, 404) still use the old styles under the new header and footer.
 
 Mockup (private, owner only): the "Cinema Sestito redesign" design canvas on
 claude.ai, with the desktop home page, the visual system and the phone home
@@ -152,6 +152,20 @@ Pages of section `articoli` load `editorial.css`; templates
   a sentence for readers (some are short notes today, e.g. "articolo
   dedicato al fondatore…").
 
+### Historical programming
+
+Every page of section `programmazione-storica` loads `editorial.css`;
+templates and data are described in `historical-programming.md` ("Page
+templates"). In short: the landing page leads with figures, section cards
+and a band per decade with its best-known posters; the indexes put the
+years, genres, countries and sources first and the analysis with its charts
+after ("La lettura dei dati"); the detail pages show a poster strip, the
+tables as programme listings (dates as "dom 2 gen") and, for years, the
+charts after the listing. The static SVG charts keep their white background
+and mint colours (their conventions are explained in the methodology); the
+dashboard (`static/css/dashboard.css`) now uses the site tokens for its
+panels, counters, tabs and fields, with the same mint chart colours.
+
 ### Archive, categories and tags
 
 Pages of section `archivio` and every taxonomy term page load
@@ -192,6 +206,6 @@ film page classes `.film-*`.
 
 ## Next steps
 
-See U07 in `project-status.md`: programme pages, Eventi and Progetto
+See U07 in `project-status.md`: Eventi, Progetto and the small pages
 templates in the new style, then CSS fingerprinting with Hugo Pipes (browsers
 kept stale CSS during the prototype).

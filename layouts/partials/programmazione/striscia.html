@@ -1,0 +1,31 @@
+{{- /*
+A strip of posters for a programme page, from programmazione/manifesti.html.
+Call with: partial "programmazione/striscia.html"
+  (dict "rows" $rows "titolo" "I manifesti del 1966" "link" $url "n" 8)
+*/ -}}
+{{- $m := partial "programmazione/manifesti.html" (dict "rows" .rows "n" (.n | default 8)) -}}
+{{- with $m.manifesti }}
+<section class="home-collezione programme-posters tone-dark" aria-label="{{ $.titolo }}">
+  <div class="wrap">
+    <div class="home-section-head">
+      <div>
+        <p class="label home-kicker">Dalla raccolta dei manifesti</p>
+        <h2 class="home-h2">{{ $.titolo }}</h2>
+      </div>
+      {{- with $.link }}<a class="label home-more" href="{{ . }}">Tutti i {{ $m.totale }} film con manifesto →</a>
+      {{- else }}<p class="label home-more">{{ $m.totale }} film con manifesto in archivio</p>{{ end }}
+    </div>
+    <ul class="poster-strip">
+      {{- range . }}
+      <li>
+        <a href="{{ with .pagina }}{{ .RelPermalink }}{{ end }}">
+          <img src="{{ .poster.thumb | relURL }}" width="{{ .poster.thumb_width }}" height="{{ .poster.thumb_height }}" alt="{{ .film.title }}, {{ lower .formato }}" loading="lazy" decoding="async">
+          <span class="poster-strip-title">{{ .film.title }}</span>
+          <span class="label poster-strip-meta">{{ with .film.production_year }}{{ . }} · {{ end }}{{ .formato }}</span>
+        </a>
+      </li>
+      {{- end }}
+    </ul>
+  </div>
+</section>
+{{- end }}

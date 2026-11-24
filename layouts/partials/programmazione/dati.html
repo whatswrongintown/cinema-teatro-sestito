@@ -2,7 +2,9 @@
 Reads the three historical programming CSVs once per build and returns:
   rows    one dict per screening, in CSV (date) order, with
           date, year, decade ("1950"), month ("01".."12"), id (IMDb ID or ""),
-          title (trimmed), md (Markdown table row), source / genre / country
+          title (trimmed), md (Markdown table row: the date as a <time>
+          element shown as "dom 2 gen", and the title linked to IMDb),
+          source / genre / country
           (raw cells; "" when missing), sources / genres / countries
           (lower-case keys for matching), rating / votes (floats; nil when
           the film has no IMDb rating or votes)
@@ -100,7 +102,7 @@ escaped for Markdown tables; screenings without an IMDb URL are not linked.
     "month" (substr $date 5 2)
     "id" $id
     "title" (strings.TrimSpace (index . $c.title))
-    "md" (printf "| %s | %s |" $date $title)
+    "md" (printf "| <time datetime=\"%s\">%s</time> | %s |" $date (time.AsTime $date | time.Format "Mon 2 Jan") $title)
     "source" (index . $c.source)
     "sources" (partial "programmazione/chiavi.html" (index . $c.source))
     "genre" $g

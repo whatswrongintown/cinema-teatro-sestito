@@ -1,18 +1,105 @@
+{{- /*
+Historical programming: the landing page (/programmazione-storica/) and, for
+the Fonti section that uses this template, the shared index
+(programmazione/sezione.html).
+Landing page, redesign U07: dark header with the figures; the sections as
+cards with their number of pages (params.ingressi); one band per decade with
+its figures and the best-known posters screened then; the page text; a link
+to the interactive dashboard.
+*/ -}}
 {{ partial "header.html" . }}
+{{- if ne .RelPermalink ("programmazione-storica/" | relURL) }}
+{{ partial "programmazione/sezione.html" . }}
+{{- else }}
+{{- $dati := partialCached "programmazione/dati.html" . "programmazione" }}
+{{- $rows := $dati.rows }}
+{{- $ids := slice }}{{ range $rows }}{{ with .id }}{{ $ids = $ids | append . }}{{ end }}{{ end }}
+{{- $nFilm := len (uniq $ids) }}
+{{- $nFonti := len (site.GetPage "/programmazione-storica/fonti").RegularPages }}
+{{- $primo := (index $rows 0).year }}{{ $ultimo := (index $rows (sub (len $rows) 1)).year }}
+{{- $s := newScratch }}
+{{- range $rows }}{{ $s.Add (printf "d|%s" .decade) (slice .) }}{{ $s.SetInMap "decenni" .decade true }}{{ end }}
 
-<main class="content" role="main">
-
-  {{ if .Content }}
-  <article class="article">
-    {{ if .Title }}
-    <h1 class="article-title">{{ .Title }}</h1>
-    {{ end }}
-    <div class="article-content">
-      {{ .Content }}
+<main class="home programme-page" role="main">
+  <section class="posters-hero tone-dark" aria-labelledby="programme-title">
+    <div class="wrap">
+      {{- with .Params.occhiello }}<p class="label home-kicker">{{ . }} · {{ $primo }}–{{ $ultimo }}</p>{{ end }}
+      <h1 id="programme-title" class="home-title posters-title">Programmazione <em>storica</em></h1>
+      {{- with .Description }}<p class="home-lead programme-lead">{{ . }}</p>{{ end }}
+      <ul class="big-figures">
+        <li><span class="big-figure">{{ lang.FormatNumber 0 (len $rows) }}</span><span class="label">proiezioni documentate</span></li>
+        <li><span class="big-figure">{{ lang.FormatNumber 0 $nFilm }}</span><span class="label">film con scheda IMDb</span></li>
+        <li><span class="big-figure">{{ $nFonti }}</span><span class="label">fonti originali</span></li>
+        <li><span class="big-figure">{{ len ($s.Get "decenni") }}</span><span class="label">decenni di cartellone</span></li>
+      </ul>
     </div>
-  </article>
-  {{ end }}
+  </section>
 
+  {{- with .Params.ingressi }}
+  <section class="programme-cards tone-light" aria-labelledby="programme-cards-title">
+    <div class="wrap">
+      <p class="label home-kicker">Consulta la programmazione</p>
+      <h2 id="programme-cards-title" class="home-h2">Cinque modi di leggere il cartellone</h2>
+      <ul class="category-cards">
+        {{- range . }}
+        {{- $voce := . }}
+        {{- $p := site.GetPage .pagina }}
+        {{- if not $p }}{{ warnf "programmazione: page %q not found" .pagina }}{{ end }}
+        {{- with $p }}
+        <li>
+          <a href="{{ .RelPermalink }}">
+            {{- with .RegularPages }}<span class="big-figure big-figure-sm">{{ len . }}</span>{{ end }}
+            <span class="category-name">{{ $voce.titolo | default .Title }}</span>
+            {{- with $voce.testo }}<span class="category-text">{{ . }}</span>{{ end }}
+          </a>
+        </li>
+        {{- end }}
+        {{- end }}
+      </ul>
+    </div>
+  </section>
+  {{- end }}
+
+  <section class="programme-decades tone-dark" aria-labelledby="programme-decades-title">
+    <div class="wrap">
+      <p class="label home-kicker">Decennio per decennio</p>
+      <h2 id="programme-decades-title" class="home-h2">Il cartellone nel tempo</h2>
+      {{- $anniPag := site.GetPage "/programmazione-storica/anni" }}
+      {{- range $d, $_ := $s.Get "decenni" }}
+      {{- $righe := $s.Get (printf "d|%s" $d) }}
+      {{- $idsD := slice }}{{ range $righe }}{{ with .id }}{{ $idsD = $idsD | append . }}{{ end }}{{ end }}
+      {{- $m := partial "programmazione/manifesti.html" (dict "rows" $righe "n" 5) }}
+      <div class="decade-row">
+        <div class="decade-head">
+          <h3 class="timeline-year">Anni {{ $d }}</h3>
+          <p class="label decade-figures">{{ lang.FormatNumber 0 (len $righe) }} proiezioni · {{ lang.FormatNumber 0 (len (uniq $idsD)) }} film</p>
+          {{- with $anniPag }}<a class="label home-more" href="{{ .RelPermalink }}">Gli anni →</a>{{ end }}
+        </div>
+        {{- with $m.manifesti }}
+        <ul class="decade-posters">
+          {{- range . }}
+          <li><a href="{{ with .pagina }}{{ .RelPermalink }}{{ end }}"><img src="{{ .poster.thumb | relURL }}" width="{{ .poster.thumb_width }}" height="{{ .poster.thumb_height }}" alt="{{ .film.title }}" loading="lazy" decoding="async"><span class="decade-poster-title">{{ .film.title }}</span></a></li>
+          {{- end }}
+        </ul>
+        {{- else }}
+        <p class="decade-empty">Nessun manifesto conservato per questo decennio.</p>
+        {{- end }}
+      </div>
+      {{- end }}
+    </div>
+  </section>
+
+  <section class="home-intro tone-light" aria-labelledby="programme-intro-title">
+    <div class="wrap home-intro-grid">
+      <div>
+        <h2 id="programme-intro-title" class="home-h2">Una programmazione <em>eterogenea</em></h2>
+        {{- with site.GetPage "/articoli/2023-09-23-esplora-la-storia-cinematografica-di-san-vito-sullo-ionio" }}
+        <p class="programme-explore"><a class="button label" href="{{ .RelPermalink }}">Esplora i dati</a></p>
+        {{- end }}
+      </div>
+      <div class="home-intro-text">{{ .Content }}</div>
+    </div>
+  </section>
 </main>
-
+{{- end }}
 {{ partial "footer.html" . }}

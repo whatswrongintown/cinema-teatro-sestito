@@ -134,10 +134,11 @@ TODO / DOING / DONE / DEFERRED, with dates. Assistant rules are in `CLAUDE.md`.
   `redesign/home-prototype` has the tokens, the Fraunces and Archivo
   typefaces, the new header and footer on every page, the new home page, the
   adult films page (U12), the Posters section (U11), the articles and the
-  archive with the category and tag pages (2026-11-24) (details in
-  `design.md`). Not merged; nothing deployed. Next: owner review, Lighthouse
-  check, then the programme pages (with the dashboard), Eventi and Progetto
-  in the new style, breadcrumbs, and CSS fingerprinting. Background: today the site reads
+  archive with the category and tag pages, and the historical programming
+  with the dashboard (2026-11-24) (details in `design.md`). Not merged;
+  nothing deployed. Next: owner review, Lighthouse check, then Eventi,
+  Progetto and the small pages in the new style, breadcrumbs, and CSS
+  fingerprinting. Background: today the site reads
   as a blog plus a set of tables and charts (historical programming), which
   gives it a statistical, archival feel. Goal: the identity of a living
   cultural venue that supports the reopening of the cinema and the physical

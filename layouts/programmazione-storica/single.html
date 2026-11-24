@@ -1,0 +1,101 @@
+{{- /*
+Year, genre, country and source pages of the historical programming,
+redesign U07: dark header (title, description, figures, links to the other
+years or genres), the posters of those films, then the programme tables
+(built by the programmazione-tabelle shortcode in the page body) and, on
+year pages, the year's charts (the part of the body before <!--more-->).
+*/ -}}
+{{ partial "header.html" . }}
+{{- $page := . }}
+{{- $cartelle := dict "anni" "anni" "generi" "generi" "paesi-di-produzione" "paesi" "fonti" "fonti" }}
+{{- $modo := "fonti" }}
+{{- with .Parent }}{{ $modo = index $cartelle (path.Base (strings.TrimSuffix "/" .RelPermalink)) | default "fonti" }}{{ end }}
+{{- $dati := partialCached "programmazione/dati.html" . "programmazione" }}
+{{- $rows := slice }}
+{{- if eq $modo "anni" }}{{ $rows = index $dati.gruppi (printf "anni|%v" .Params.anno) | default slice }}
+{{- else }}{{ $rows = index $dati.gruppi (printf "%s|%s" $modo (lower (strings.TrimSpace .Title))) | default slice }}{{ end }}
+{{- $ids := slice }}{{ range $rows }}{{ with .id }}{{ $ids = $ids | append . }}{{ end }}{{ end }}
+{{- $anni := slice }}{{ range $rows }}{{ $anni = $anni | append .year }}{{ end }}{{ $anni = uniq $anni }}
+{{- $fratelli := slice }}
+{{- with .Parent }}{{ $fratelli = cond (eq $modo "anni") (sort .RegularPages "Params.anno") (cond (eq $modo "fonti") .RegularPages.ByDate .RegularPages.ByTitle) }}{{ end }}
+{{- $prima := false }}{{ $dopo := false }}
+{{- range $i, $p := $fratelli }}
+  {{- if eq $p $page }}
+    {{- if gt $i 0 }}{{ $prima = index $fratelli (sub $i 1) }}{{ end }}
+    {{- if lt (add $i 1) (len $fratelli) }}{{ $dopo = index $fratelli (add $i 1) }}{{ end }}
+  {{- end }}
+{{- end }}
+{{- $titolo := .Title }}{{ if eq $modo "anni" }}{{ $titolo = printf "%v" .Params.anno }}{{ end }}
+{{- $etichette := dict "anni" "Anno" "generi" "Genere" "paesi" "Paese di produzione" "fonti" "Fonte" }}
+
+<main class="home programme-page programme-detail" role="main">
+  <section class="posters-head tone-dark" aria-labelledby="programme-detail-title">
+    <div class="wrap">
+      <p class="label home-kicker">
+        {{- with .Parent }}<a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ end }}
+        {{- if eq $modo "fonti" }}{{ range first 1 (.GetTerms "categories") }} · {{ .LinkTitle }}{{ end }}{{ end -}}
+      </p>
+      <h1 id="programme-detail-title" class="posters-page-title{{ if eq $modo "anni" }} programme-year{{ end }}">{{ $titolo }}</h1>
+      {{- with .Description }}<p class="home-lead posters-page-lead">{{ strings.FirstUpper . }}</p>{{ end }}
+      <ul class="label programme-figures">
+        <li>{{ lang.FormatNumber 0 (len $rows) }} {{ cond (eq (len $rows) 1) "proiezione" "proiezioni" }}</li>
+        <li>{{ lang.FormatNumber 0 (len (uniq $ids)) }} film</li>
+        {{- if and (ne $modo "anni") $anni }}<li>{{ index $anni 0 }}{{ if gt (len $anni) 1 }}–{{ index $anni (sub (len $anni) 1) }}{{ end }}</li>{{ end }}
+      </ul>
+      {{- if in (slice "anni" "generi") $modo }}
+      <nav class="chips" aria-label="{{ cond (eq $modo "anni") "Altri anni" "Altri generi" }}">
+        <ul>
+          {{- range $fratelli }}
+          <li><a class="label chip" href="{{ .RelPermalink }}"{{ if eq . $page }} aria-current="page"{{ end }}>{{ if eq $modo "anni" }}{{ .Params.anno }}{{ else }}{{ .Title }}{{ end }}</a></li>
+          {{- end }}
+        </ul>
+      </nav>
+      {{- end }}
+    </div>
+  </section>
+
+  {{- $link := "" }}
+  {{- if eq $modo "anni" }}{{ with site.GetPage (printf "/posters/by-year/%v" .Params.anno) }}{{ $link = .RelPermalink }}{{ end }}{{ end }}
+  {{- if eq $modo "generi" }}{{ with site.GetPage (printf "/posters/by-genre/%s" (path.Base (strings.TrimSuffix "/" .RelPermalink))) }}{{ $link = .RelPermalink }}{{ end }}{{ end }}
+  {{- $titoliStriscia := dict "anni" (printf "I manifesti del %v" .Params.anno) "generi" (printf "I manifesti: %s" .Title) "paesi" (printf "I manifesti: %s" .Title) "fonti" "I manifesti dei film di questa fonte" }}
+  {{ partial "programmazione/striscia.html" (dict "rows" $rows "titolo" (index $titoliStriscia $modo) "link" $link "n" 8) }}
+
+  <section class="article-body tone-light programme-tables" aria-labelledby="programme-tables-title">
+    <div class="wrap">
+      <div class="prose">
+        <p class="label home-kicker">{{ index $etichette $modo }}</p>
+        <h2 id="programme-tables-title" class="home-h2">{{ if eq $modo "anni" }}Il cartellone del {{ .Params.anno }}{{ else if eq $modo "fonti" }}Le pagine e le proiezioni{{ else }}Le proiezioni, anno per anno{{ end }}</h2>
+        {{- if eq $modo "anni" }}
+        {{ .ContentWithoutSummary }}
+        {{- else }}
+        {{ .Content }}
+        {{- end }}
+      </div>
+    </div>
+  </section>
+
+  {{- if eq $modo "anni" }}
+  {{- with .Summary }}
+  <section class="article-body tone-light programme-charts" aria-labelledby="programme-charts-title">
+    <div class="wrap">
+      <div class="prose">
+        <p class="label home-kicker">Dati e metodo</p>
+        <h2 id="programme-charts-title" class="home-h2">I numeri del {{ $page.Params.anno }}</h2>
+        {{ . }}
+      </div>
+    </div>
+  </section>
+  {{- end }}
+  {{- end }}
+
+  <nav class="article-more tone-dark" aria-label="Pagine vicine">
+    <div class="wrap">
+      <div class="film-nav article-nav">
+        {{- with $prima }}<a class="film-nav-prev" href="{{ .RelPermalink }}" rel="prev"><span class="label">← Precedente</span><span class="film-nav-title">{{ if eq $modo "anni" }}{{ .Params.anno }}{{ else }}{{ .Title }}{{ end }}</span></a>{{ else }}<span></span>{{ end }}
+        {{- with $dopo }}<a class="film-nav-next" href="{{ .RelPermalink }}" rel="next"><span class="label">Successivo →</span><span class="film-nav-title">{{ if eq $modo "anni" }}{{ .Params.anno }}{{ else }}{{ .Title }}{{ end }}</span></a>{{ end }}
+      </div>
+      {{- with .Parent }}<a class="label home-more" href="{{ .RelPermalink }}">{{ .Title }} →</a>{{ end }}
+    </div>
+  </nav>
+</main>
+{{ partial "footer.html" . }}

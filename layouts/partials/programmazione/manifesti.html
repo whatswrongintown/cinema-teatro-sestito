@@ -1,0 +1,20 @@
+{{- /*
+Posters of the films in a set of screenings (a year, genre, country, source
+or decade): the films that have a printed poster in data/posters/films.json,
+best known first (most IMDb votes), at most `n`. Returns
+  dict "manifesti" <slice of home/manifesto.html dicts> "totale" <films with a poster>
+Call with: partial "programmazione/manifesti.html" (dict "rows" $rows "n" 8)
+*/ -}}
+{{- $ids := slice -}}
+{{- range .rows }}{{ with .id }}{{ $ids = $ids | append . }}{{ end }}{{ end -}}
+{{- $lista := slice -}}
+{{- range uniq $ids -}}
+  {{- with partial "home/manifesto.html" . -}}
+    {{- $voti := 0.0 -}}
+    {{- with .film.extra }}{{ with index . "Num Votes" }}{{ $voti = float (index . 0) }}{{ end }}{{ end -}}
+    {{- $lista = $lista | append (dict "v" $voti "m" .) -}}
+  {{- end -}}
+{{- end -}}
+{{- $out := slice -}}
+{{- range first (.n | default 8) (sort $lista "v" "desc") }}{{ $out = $out | append .m }}{{ end -}}
+{{- return dict "manifesti" $out "totale" (len $lista) -}}

@@ -49,3 +49,53 @@
 .dashboard-pager button { font: inherit; padding: 0.3rem 0.8rem; border: 1px solid #999; border-radius: 3px; background: #fff; cursor: pointer; }
 .dashboard-pager button:disabled { opacity: 0.5; cursor: default; }
 .dashboard h3 { margin-top: 1.75rem; }
+
+/* Redesign (U07): the dashboard chrome follows the site tokens (tokens.css);
+   the chart colours stay mint, like the static programme charts. */
+.dashboard {
+  color: var(--ink, #222);
+  background: transparent;
+  font-family: var(--font-display, inherit);
+}
+.dashboard-note { color: var(--muted, #555); }
+.dashboard-field label,
+.dashboard-search label {
+  font-family: var(--font-label, inherit);
+  font-size: 0.8rem;
+  font-stretch: 75%;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+.dashboard-field select,
+.dashboard-field input,
+.dashboard-search input,
+.dashboard-pager button {
+  min-height: 44px;
+  border-color: var(--rule, #999);
+  border-radius: 6px;
+  background: #FFFBF4;
+}
+.dashboard-count {
+  border-left: 0;
+  border-top: 3px solid var(--curtain, #CBF8DF);
+  background: var(--paper-2, #f5f5f5);
+}
+.dashboard-count strong { color: var(--ink, #222); font-weight: 500; }
+.dashboard-tabs { border-bottom-color: var(--rule, #CBF8DF); }
+.dashboard-tabs button {
+  min-height: 44px;
+  border-bottom: 3px solid transparent;
+  box-shadow: none;
+  font-family: var(--font-label, inherit);
+  font-stretch: 75%;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+.dashboard-tabs button:hover { background: transparent; border-bottom-color: var(--brass, #CBF8DF); }
+.dashboard-tabs button[aria-selected="true"] { border-bottom-color: var(--curtain, #CBF8DF); }
+.dashboard summary { border-bottom: 1px solid var(--curtain, #CBF8DF); box-shadow: none; }
+.dashboard summary:hover { background: transparent; }
+.dashboard tbody tr:nth-child(even) { background: rgba(0, 0, 0, 0.025); }
+.dashboard td a { border-bottom: 1px solid var(--curtain, #CBF8DF); box-shadow: none; }
+.dashboard td a:hover { background: transparent; color: var(--curtain, inherit); }
+.dashboard :focus-visible { outline-color: var(--brass, #286a4a); }

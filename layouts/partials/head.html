@@ -74,7 +74,7 @@
 <link rel="stylesheet" href="{{ "css/tokens.css" | relURL }}" media="all">
 <link rel="stylesheet" href="{{ "css/main.css" | relURL }}" media="all">
 <link rel="stylesheet" href="{{ "css/lightbox.css" | relURL }}" media="all">
-{{- if or .IsHome .Params.redesign (eq .Type "posters") (in (slice "articoli" "archivio") .Section) (eq .Kind "term") }}
+{{- if or .IsHome .Params.redesign (eq .Type "posters") (in (slice "articoli" "archivio" "programmazione-storica") .Section) (eq .Kind "term") }}
 <link rel="stylesheet" href="{{ "css/editorial.css" | relURL }}" media="all">
 {{- end }}
 {{ range .Site.Params.customCSS }}

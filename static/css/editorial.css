@@ -1867,3 +1867,304 @@ a.poster-wall-title:focus-visible {
     display: none;
   }
 }
+
+/* Historical programming (layouts/programmazione-storica/,
+   layouts/partials/programmazione/sezione.html) */
+.programme-lead {
+  max-width: 48ch;
+  margin: 20px 0 0;
+}
+
+.big-figures {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 180px), 1fr));
+  gap: 24px;
+  margin: 40px 0 0;
+  padding: 28px 0 0;
+  border-top: 1px solid var(--rule);
+  list-style: none;
+}
+
+.big-figures li {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  color: var(--brass);
+}
+
+.big-figure {
+  color: var(--ink);
+  font-family: var(--font-display);
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: -0.02em;
+}
+
+.big-figure-sm {
+  color: var(--curtain);
+  font-size: 3rem;
+}
+
+.programme-cards .category-cards {
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 200px), 1fr));
+}
+
+.decade-row {
+  display: grid;
+  grid-template-columns: 220px minmax(0, 1fr);
+  gap: 32px;
+  padding: 28px 0;
+  border-top: 1px solid var(--rule);
+  align-items: start;
+}
+
+.decade-head {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.decade-figures {
+  margin: 0;
+  color: var(--muted);
+}
+
+.decade-posters {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 16px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.decade-posters a {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  color: var(--ink);
+  text-decoration: none;
+}
+
+.decade-posters img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 5 / 7;
+  height: auto;
+  object-fit: cover;
+  object-position: top;
+  box-shadow: 0 12px 26px rgba(0, 0, 0, 0.45);
+}
+
+.decade-poster-title {
+  font-size: 0.95rem;
+  line-height: 1.25;
+}
+
+.decade-posters a:hover .decade-poster-title {
+  color: var(--curtain);
+}
+
+.decade-empty {
+  color: var(--muted);
+}
+
+.programme-explore {
+  margin-top: 28px;
+}
+
+.programme-head-figure img {
+  transform: none;
+  max-height: 360px;
+  width: auto;
+  max-width: 100%;
+}
+
+.tiles {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 210px), 1fr));
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.tiles a {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 14px 16px;
+  border: 1px solid var(--rule);
+  color: var(--ink);
+  text-decoration: none;
+}
+
+.tiles a:hover,
+.tiles a:focus-visible {
+  border-color: var(--curtain);
+}
+
+.tile-name {
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 1.15;
+}
+
+.tile-count {
+  color: var(--muted);
+  font-size: 0.72rem;
+}
+
+.tile-bar {
+  display: block;
+  height: 4px;
+  margin-top: 4px;
+  background: var(--paper-2);
+}
+
+.tile-bar span {
+  display: block;
+  height: 100%;
+  background: var(--brass);
+}
+
+.sources-group + .sources-group {
+  margin-top: 40px;
+}
+
+.sources-group .years-decade {
+  margin: 0 0 18px;
+}
+
+.programme-year {
+  font-size: clamp(4rem, 10vw, 8rem);
+  line-height: 0.9;
+}
+
+.programme-figures {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 24px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  color: var(--brass);
+}
+
+.programme-posters {
+  padding-top: clamp(40px, 5vw, 64px) !important;
+  border-top: 1px solid var(--rule);
+}
+
+/* Programme tables as listings: the date as a label, the title in the
+   display face; the empty Markdown header row is hidden. */
+.programme-tables .prose table {
+  margin: 0 0 1.5em;
+  font-size: inherit;
+}
+
+.programme-tables .prose thead {
+  display: none;
+}
+
+.programme-tables .prose td {
+  padding: 10px 0;
+  border-bottom: 1px dashed var(--rule);
+  vertical-align: baseline;
+}
+
+.programme-tables .prose td:first-child {
+  width: 7.5rem;
+  padding-right: 16px;
+  color: var(--curtain);
+  font-family: var(--font-label);
+  font-size: 0.8125rem;
+  font-stretch: 75%;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.programme-tables .prose td:last-child {
+  font-size: 1.1875rem;
+  font-weight: 500;
+  line-height: 1.3;
+}
+
+.programme-tables .prose td a {
+  text-decoration: none;
+}
+
+.programme-tables .prose td a:hover {
+  text-decoration: underline;
+  text-decoration-color: var(--curtain);
+}
+
+.programme-tables .prose h2,
+.programme-tables .prose h3 {
+  margin-top: 1.6em;
+  padding-top: 0.6em;
+  border-top: 1px solid var(--rule);
+}
+
+.programme-tables .prose > .home-kicker + .home-h2 {
+  margin-top: 0;
+  padding-top: 0;
+  border-top: 0;
+}
+
+.programme-charts {
+  padding-top: 0 !important;
+}
+
+.programme-charts .prose {
+  padding-top: var(--section-space);
+  border-top: 1px solid var(--rule);
+}
+
+.programme-page .grafico {
+  margin: 1.5em 0;
+}
+
+.programme-page .grafico svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 899px) {
+  .decade-row {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 16px;
+  }
+
+  .decade-posters {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .decade-posters li:nth-child(n + 4) {
+    display: none;
+  }
+
+  .programme-tables .prose td:first-child {
+    width: 6rem;
+  }
+}
+
+.programme-cards .category-cards {
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 160px), 1fr));
+}
+
+.home-kicker a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.home-kicker a:hover,
+.home-kicker a:focus-visible {
+  text-decoration: underline;
+}
