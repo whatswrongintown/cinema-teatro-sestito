@@ -144,6 +144,19 @@ TODO / DOING / DONE / DEFERRED, with dates. Assistant rules are in `CLAUDE.md`.
     action, project updates, trust and transparency); and, with the owner,
     knowledge of the physical restoration plan. A static prototype of the
     home page is the suggested first step before any migration.
+- **U08 - TODO 2026-11-24: improve the home page** (`content/_index.md`,
+  `layouts/index.html`). Today it is one architectural drawing (1956 project),
+  four paragraphs of text, a plain list of four links ("Esplora") and the
+  contact form. Improvements to agree with the owner: a stronger first screen
+  that says at once what the place is (name, years, one line, a poster or
+  archive image as the main visual); the four sections as visual entrances
+  (image cards with a short line each) instead of a bulleted list; a
+  highlighted selection of posters, documents and latest articles that changes
+  over time; a short, visible note on the reopening and how to take part; a
+  shorter text (the story lives in the project and article pages); the
+  contact form lower or moved to a contact page. Keep the Lighthouse scores
+  (U03) and the social image logic (U02). This is the first concrete step of
+  U07 and should be designed with it.
 - No feature roadmap yet: new ideas are agreed with the owner and listed here
   when they are approved.
 
