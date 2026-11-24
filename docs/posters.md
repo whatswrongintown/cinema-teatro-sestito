@@ -76,12 +76,25 @@ exists in Hugo 0.170.1); combinations missing from the CSVs count as 0. The
 site has no global CSS variables, so `poster-charts.css` declares its own,
 copied from `main.css` and `dashboard.css`.
 
-Open check (2026-11-24): the chart CSVs add up to 1,960 dated + 527 undated =
-2,487 posters, while `films.json` holds 1,787 posters (1,057 films). The R code
-and the poster-recording file that produced the CSVs are not in this
-repository, so the difference (700) is unexplained; the CSVs were created from
-the owner's poster database outside the repo. The 1966 peak (152 against 15 in
-1965) and the missing "Noir" genre in the genre CSV also need checking.
+Open check (2026-11-24, explained, data not changed): the chart CSVs add up to
+1,960 dated posters + 527 undated, while the recording file
+(`programmazione_manifesti.csv`, 1,064 poster records) holds 2,038 posters and
+`films.json` 1,787. The 1,960 is not a number of posters: `poster_section.R`
+builds `film_years` as one row per poster and *screening year*, so a poster of a
+film shown in several years is counted in each of them (200 of 859 dated poster
+records, up to 5 years; 449 extra counts). Counted once, 1,511 posters have a
+screening date (1,511 + 527 = 2,038). The same inflation affects the format and
+genre decade totals (1,712 distinct poster-decade counts instead of 1,960; e.g.
+1970s 762 against 869 published). The year chart is still a valid "posters in use
+that year"; the captions state that repeats are counted each year. To count each
+poster once per decade, use `distinct(internal_code, decade)` in the decade
+charts. Also: Noir is missing from the genre CSV because its 6 posters have no
+screening date; 52 posters have no IMDb `const` and 23 have a `const` missing
+from `manifesti_imdb.csv`, so they cannot appear in the genre chart; the
+`filter(genre != "drammatico")` line in the R script removes nothing (genres are
+capitalised) and its comment is misleading. The 251 difference between the
+recording file (2,038) and `films.json` (1,787) is unexplained. The 1966 peak
+(152 against 15 in 1965) is still to be checked.
 
 ## Images
 
