@@ -117,11 +117,11 @@ have mojibake (for example `TrinitÃ `), not changed. The 251 difference between
 exactly; for 120 films the recording has more posters than there are images, by
 up to 9 (for example `tt0112883`: 9 recorded 100x140 copies, 1 image), and
 never fewer. By format the extra recorded posters are 100x140: 131, 33x70: 82,
-50x70: 23, 140x200: 6, mostly 1990s films. This looks like duplicate copies of the
+50x70: 23, 140x200: 6, mostly 1990s films. This is duplicate copies of the
 same poster (one image per distinct poster in `films.json`, every physical copy
-in the recording file), but it is not verified. So the charts count recorded
-copies, while the gallery shows distinct images. The owner should confirm and
-decide whether the chart captions say "copie conservate".
+in the recording file). Confirmed by the owner 2026-11-24: duplicates were
+recorded but photographed once. So the charts count recorded copies, while the
+gallery shows distinct images; the three chart captions say so.
 
 The 1966 peak (152 posters against 15 in 1965): it is not a programming effect,
 `programmazione_agende.csv` has 154 screenings in 1965 and 215 in 1966. What
