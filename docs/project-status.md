@@ -93,6 +93,20 @@ TODO / DOING / DONE / DEFERRED, with dates. Assistant rules are in `CLAUDE.md`.
   cleanup is done: `static/programmazione-storica/` and every `index_files`
   folder are gone.
 - **U04 - DONE 2026-11-24: charts in the Posters subsections** (per year in Per anno, format and genre by decade in Per formato and Per genere); see `posters.md`. DONE 2026-11-24 (cause found, details in `posters.md`): the year and decade counts count a poster once per screening year (1,960 vs 1,511 distinct dated posters); captions say so. 2026-11-24: genre chart now includes undated posters and excludes Drammatico (see `posters.md`). TODO: owner to decide whether to regenerate the CSVs counting each poster once per decade; the 251 gap (recording file 2,038 vs `films.json` 1,787: probably duplicate copies) and the 1966 peak (archive/linking, not programming) are analysed in `posters.md` and wait for the owner to confirm.
+- **U05 - TODO 2026-11-24: show the real relative size of poster formats in
+  the thumbnail galleries.** When posters of different formats (for example
+  70x100, 100x70 and 140x200 cm) are listed together, every thumbnail is
+  rendered at about the same size, so the formats look alike and the visitor
+  has no sense of how big one is compared with another. Wanted: a display
+  where the thumbnail size (or a visual cue) reflects the physical format
+  ratio while keeping the grid readable. Ideas to evaluate: scale each
+  thumbnail by the real sheet area on a common cm-per-pixel scale (with a
+  minimum so small formats stay clickable); a size-reference silhouette or
+  label (for example "70x100 cm") on each thumbnail; a toggle between the
+  uniform grid and the proportional view; grouping by format with a shared
+  scale per group and a scale bar. Check mobile widths and keep thumbnails
+  at most 400 px wide (`posters.md`). Needs owner approval of the chosen
+  approach before implementation.
 - No feature roadmap yet: new ideas are agreed with the owner and listed here
   when they are approved.
 
