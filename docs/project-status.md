@@ -113,6 +113,37 @@ TODO / DOING / DONE / DEFERRED, with dates. Assistant rules are in `CLAUDE.md`.
   shown only for the retro collection). Remove or replace it and review the
   section's layout, ideally together with U05 so both share one solution for
   showing formats. Details of the change to agree with the owner first.
+- **U07 - IDEA 2026-11-24 (major step, not approved): from blog and statistics
+  site to an editorial, poster-first cultural venue.** Today the site reads
+  as a blog plus a set of tables and charts (historical programming), which
+  gives it a statistical, archival feel. Goal: the identity of a living
+  cultural venue that supports the reopening of the cinema and the physical
+  work needed to reopen it. Direction to agree with the owner:
+  - Poster-first visuals: large posters and archive images lead the home page
+    and sections; magazine-style layouts, strong typography and a cinema
+    palette instead of grids of small thumbnails (shares the format question
+    of U05 and U06).
+  - Charts and tables move behind the stories (a "Dati" or research layer);
+    the main paths become people, films, the building and the posters.
+  - A reopening path: project status, the restoration works, how to help
+    (donations, volunteering, memories to share), news and a contact form
+    or newsletter.
+  - Voice: Italian, warm and editorial, with short visual stories and the
+    historical accuracy the project already keeps.
+  - Constraints: Hugo only, no new dependencies unless justified, light
+    pages (Lighthouse scores of U03), accessible, mobile first, no change to
+    `films.json` or `static/images/manifesti/`.
+  - Skills needed to implement it: art direction and visual design (identity,
+    palette, typography, layout system); Hugo templating (layouts, partials,
+    shortcodes, content adapters); modern CSS (responsive grid, fluid type,
+    dark and light theming); image handling (Hugo image processing, art
+    cropping, responsive `srcset`, performance); information architecture
+    and navigation redesign; Italian editorial copywriting and storytelling;
+    accessibility (contrast, keyboard, alt texts); SEO and social sharing
+    (see U02); content and fundraising design for the reopening (calls to
+    action, project updates, trust and transparency); and, with the owner,
+    knowledge of the physical restoration plan. A static prototype of the
+    home page is the suggested first step before any migration.
 - No feature roadmap yet: new ideas are agreed with the owner and listed here
   when they are approved.
 
