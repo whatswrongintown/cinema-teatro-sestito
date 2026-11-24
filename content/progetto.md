@@ -5,6 +5,9 @@ date: "2023-04-05"
 description: "Il percorso di recupero, ricerca e valorizzazione del Cinema Teatro Sestito."
 layout: "section"
 slug: "progetto"
+params:
+  # Adds the "Condividi un ricordo" band (layouts/_default/single.html).
+  ricordi: true
 ---
 
 ## Introduzione

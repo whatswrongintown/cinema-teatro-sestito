@@ -1,0 +1,54 @@
+{{- /*
+Eventi (redesign U07): dark header with the section text; "In programma"
+(events whose params.inizio is still to come at build time, soonest first)
+or the "Sipario chiuso" message; then past events, newest first.
+*/ -}}
+{{ partial "header.html" . }}
+{{- $prossimi := slice }}{{ $passati := slice }}
+{{- range .RegularPages }}
+  {{- $t := partial "eventi/inizio.html" . }}
+  {{- if ge $t.Unix now.Unix }}{{ $prossimi = $prossimi | append (dict "k" $t.Unix "p" .) }}{{ else }}{{ $passati = $passati | append (dict "k" $t.Unix "p" .) }}{{ end }}
+{{- end }}
+<main class="home events-page" role="main">
+  <section class="articles-head tone-dark" aria-labelledby="events-title">
+    <div class="wrap">
+      <p class="label home-kicker">In sala e in paese</p>
+      <h1 id="events-title" class="posters-page-title">{{ .Title }}</h1>
+      <div class="home-lead articles-intro events-intro">{{ .Content }}</div>
+    </div>
+  </section>
+
+  <section class="tone-dark events-list" aria-labelledby="events-next-title">
+    <div class="wrap">
+      <p class="label home-kicker">In programma</p>
+      {{- with $prossimi }}
+      <h2 id="events-next-title" class="home-h2">I prossimi appuntamenti</h2>
+      <ol class="shows">
+        {{- range sort . "k" }}{{ partial "eventi/riga.html" .p }}{{ end }}
+      </ol>
+      {{- else }}
+      <div class="curtain-closed">
+        <h2 id="events-next-title" class="home-h2">Sipario <em>chiuso</em>, per ora.</h2>
+        <p class="home-sub">Al momento non ci sono eventi in programma. Segui il progetto di riapertura per sapere quando si riaccendono le luci.</p>
+        <div class="home-actions">
+          {{- with site.GetPage "/progetto" }}<a class="button label" href="{{ .RelPermalink }}">Il progetto</a>{{ end }}
+          {{- with site.Params.instagram }}<a class="button button-ghost label" href="https://www.instagram.com/{{ . }}/" rel="noopener">Segui su Instagram</a>{{ end }}
+        </div>
+      </div>
+      {{- end }}
+    </div>
+  </section>
+
+  {{- with $passati }}
+  <section class="tone-light events-past" aria-labelledby="events-past-title">
+    <div class="wrap">
+      <p class="label home-kicker">Archivio</p>
+      <h2 id="events-past-title" class="home-h2">Eventi passati</h2>
+      <ol class="shows">
+        {{- range sort . "k" "desc" }}{{ partial "eventi/riga.html" .p }}{{ end }}
+      </ol>
+    </div>
+  </section>
+  {{- end }}
+</main>
+{{ partial "footer.html" . }}

@@ -2,10 +2,10 @@
 
 The redesign (U07) gives the site the look of a working cinema and cultural
 venue instead of a blog and statistics archive. Status: DOING 2026-11-24, on
-the branch `redesign/home-prototype`: home page, adult films page, Posters
-section, articles, archive, category and tag pages, and the historical
-programming. Eventi, Progetto and the small pages (privacy, site map, thank
-you, 404) still use the old styles under the new header and footer.
+the branch `redesign/home-prototype`: every page is in the new style (home,
+posters, articles, archive, historical programming, Eventi, Progetto,
+category and tag pages, the small pages and the 404). Not merged: owner
+review, Lighthouse and CSS fingerprinting are still to do (see Next steps).
 
 Mockup (private, owner only): the "Cinema Sestito redesign" design canvas on
 claude.ai, with the desktop home page, the visual system and the phone home
@@ -41,13 +41,24 @@ column with a fluid gutter), `.label` (condensed uppercase labels),
 Self-hosted variable WOFF2 files, Latin subset, in `static/fonts/`, declared in
 `static/css/fonts.css` (SIL Open Font License, licence files beside them):
 
-- Fraunces (roman and italic, weight 300-900): titles and home page text. The
-  roman file is preloaded in `head.html`.
+- Fraunces (roman and italic, weight 300-900): titles and text, the default
+  for `body` and headings. The roman file is preloaded in `head.html`.
 - Archivo (weight 400-800, width 62-125%): labels, dates, menu, buttons.
 
-Merriweather and Lato stay: the old pages still use them, and the SVG charts
-place their labels with Merriweather widths (`data/grafici/merriweather.json`),
-so the chart font must not change.
+Merriweather stays only for the charts: the SVG charts place their labels
+with Merriweather widths (`data/grafici/merriweather.json`) and the dashboard
+charts use it too, so the chart font must not change. Lato was removed
+(2026-11-24) once no page used it.
+
+## Stylesheets
+
+Loaded on every page, in this order (`layouts/partials/head.html`):
+`fonts.css`, `tokens.css`, `main.css` (base, header, menu, breadcrumbs,
+footer, poster grid and contact form), `lightbox.css`, `editorial.css` (all
+page layouts); `poster-charts.css` and `dashboard.css` are linked by their
+shortcodes. The old blog styles (`.content`, `.article-*`, `.archive*`) were
+removed with the last old templates. Breadcrumbs are a dark strip that
+continues the header.
 
 ## Header and footer (U09, U10)
 
@@ -106,11 +117,36 @@ years, with the first one that has a poster shown large beside the list.
 
 ## Pages in the new style
 
-A page with `redesign: true` in its front matter (`params`) also loads
-`static/css/editorial.css` (the home page always does) and can use its
-components inside `<main class="home">`: `.home-h2`, `.home-kicker`,
-`.home-sub`, `.home-more`, `.home-numbers`, the programme rows (`.shows`,
-`.show`) and the section spacing.
+Every template wraps its content in `<main class="home">` and builds it from
+the shared components of `editorial.css`: bands (`<section>`, `<article>`
+or `<nav>` with `.tone-dark` / `.tone-light`), `.home-h2`, `.home-kicker`,
+`.home-sub`, `.home-more`, `.home-numbers`, cards, chips, tiles, the
+programme rows (`.shows`, `.show`) and the reading column (`.prose`).
+
+### Generic pages, Eventi, indexes and 404
+
+- `layouts/_default/single.html`: Progetto, privacy, site map, thank-you page
+  and any page without its own template. Dark header (section, title,
+  description, "Aggiornato il …" from `lastmod`), the text in the reading
+  column; with three or more `##` headings (or `toc: true`) a sticky "In
+  questa pagina" index sits beside the text. `ricordi: true` (Progetto) adds
+  a red "Condividi un ricordo" band linking to the form on the home page.
+- Eventi (`layouts/eventi/list.html`, `single.html`, partials in
+  `layouts/partials/eventi/`): an event is a page in `content/eventi/` with
+  `date` (publication, today or earlier, as Hugo does not build future
+  pages) and in `params`: `inizio` ("2027-03-12T21:00", seconds optional),
+  `tipo`, `luogo`, `ingresso`; optional `image`. Events still to come at the
+  last build are listed as "I prossimi appuntamenti" in the programme style,
+  the others under "Eventi passati"; with none to come the page shows
+  "Sipario chiuso, per ora." The field list is also in the comment of
+  `content/eventi/_index.md`. Since the list is decided at build time, an
+  event moves to "passati" at the next deploy after it happens.
+- `layouts/_default/list.html`: the category and tag indexes (terms as tiles
+  with their counts) and the fallback for any other section (cards).
+  Term pages use `layouts/_default/term.html`; do not add a
+  `_default/taxonomy.html`, which Hugo would also use for the term pages.
+- `layouts/404.html`: "Fuori programma", the owner's message and links to
+  the sections; the page title is "Pagina non trovata".
 
 ### Cinema per adulti ed exploitation (U12)
 
@@ -132,8 +168,7 @@ Linked from the Programmazione storica page and the site map.
 
 ### Articles (Storie)
 
-Pages of section `articoli` load `editorial.css`; templates
-`layouts/articoli/list.html` and `layouts/articoli/single.html`.
+Templates `layouts/articoli/list.html` and `layouts/articoli/single.html`.
 
 - List: dark header with the section text and its `image` (the ticket book,
   no longer repeated in the body), the newest story as the lead with a large
@@ -154,8 +189,7 @@ Pages of section `articoli` load `editorial.css`; templates
 
 ### Historical programming
 
-Every page of section `programmazione-storica` loads `editorial.css`;
-templates and data are described in `historical-programming.md` ("Page
+Templates and data are described in `historical-programming.md` ("Page
 templates"). In short: the landing page leads with figures, section cards
 and a band per decade with its best-known posters; the indexes put the
 years, genres, countries and sources first and the analysis with its charts
@@ -167,9 +201,6 @@ dashboard (`static/css/dashboard.css`) now uses the site tokens for its
 panels, counters, tabs and fields, with the same mint chart colours.
 
 ### Archive, categories and tags
-
-Pages of section `archivio` and every taxonomy term page load
-`editorial.css`.
 
 - Archive page (`layouts/archivio/list.html`): dark header with the section
   text, the number of documents and three documents fanned out
@@ -197,8 +228,7 @@ Pages of section `archivio` and every taxonomy term page load
 
 ### Posters section (U11)
 
-Every page of type `posters` loads `editorial.css` (no front matter flag
-needed). Landing page, list pages and film pages are described in
+Landing page, list pages and film pages are described in
 `posters.md`; shared pieces: `.chips` / `.chip` (neighbour links, current
 page in curtain red), `.years` (year index), `.cards-posters` (genre and format
 cards), `.posters-page .poster-grid` (larger thumbnails with titles) and the
@@ -206,6 +236,8 @@ film page classes `.film-*`.
 
 ## Next steps
 
-See U07 in `project-status.md`: Eventi, Progetto and the small pages
-templates in the new style, then CSS fingerprinting with Hugo Pipes (browsers
-kept stale CSS during the prototype).
+See U07 in `project-status.md`: owner review of the branch; a Lighthouse
+check (U03 scores) before merging; CSS and JS fingerprinting with Hugo Pipes
+(browsers kept stale CSS during the prototype); then the open items U05, U06
+(formats and Retro), search, and the owner's texts (reopening status, the
+article on adult and exploitation films).

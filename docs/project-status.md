@@ -39,7 +39,9 @@ TODO / DOING / DONE / DEFERRED, with dates. Assistant rules are in `CLAUDE.md`.
   maintains the site; visitors are mainly locals.
 - Keep `params.anno` and the generic favicons (now in `static/images/icons/`). Keep goldmark
   `unsafe: true` (inline HTML).
-- Keep Eventi available with its "no events scheduled" message. No analytics
+- Keep Eventi available with its "no events scheduled" message (on the
+  redesign branch: "Sipario chiuso, per ora", and an event format with
+  `params.inizio`, `tipo`, `luogo`, `ingresso`, see `design.md`). No analytics
   (disabled, Do Not Track respected). Top menu: on `main`, only Progetto; on
   the branch `redesign/home-prototype` (2026-11-24, awaiting the owner's
   approval) the main sections plus "Il progetto" as a button, with Articoli
@@ -134,11 +136,12 @@ TODO / DOING / DONE / DEFERRED, with dates. Assistant rules are in `CLAUDE.md`.
   `redesign/home-prototype` has the tokens, the Fraunces and Archivo
   typefaces, the new header and footer on every page, the new home page, the
   adult films page (U12), the Posters section (U11), the articles and the
-  archive with the category and tag pages, and the historical programming
-  with the dashboard (2026-11-24) (details in `design.md`). Not merged;
-  nothing deployed. Next: owner review, Lighthouse check, then Eventi,
-  Progetto and the small pages in the new style, breadcrumbs, and CSS
-  fingerprinting. Background: today the site reads
+  archive with the category and tag pages, the historical programming with
+  the dashboard, and Eventi, Progetto, the small pages, the 404 and the
+  breadcrumbs (2026-11-24): every page is in the new style (details in
+  `design.md`); the old blog styles and the Lato font were removed. Not
+  merged; nothing deployed. Next: owner review, Lighthouse check, CSS and JS
+  fingerprinting, then merge to `main` only on the owner's request. Background: today the site reads
   as a blog plus a set of tables and charts (historical programming), which
   gives it a statistical, archival feel. Goal: the identity of a living
   cultural venue that supports the reopening of the cinema and the physical
@@ -191,8 +194,8 @@ TODO / DOING / DONE / DEFERRED, with dates. Assistant rules are in `CLAUDE.md`.
 - **U09 - DOING 2026-11-24: improve the navigation menu** (`menu.main` in
   `config.yaml`, `layouts/partials/nav.html`, `static/css/main.css`). On
   `redesign/home-prototype`: wordmark, main sections, current-section state,
-  full-screen popover menu on phones. Still open: Posters subsections in the
-  menu, search. Before: the header held the small round logo (50x50) and a single link, "Progetto".
+  full-screen popover menu on phones, breadcrumbs as a dark strip below the
+  header. Still open: Posters subsections in the menu, search. Before: the header held the small round logo (50x50) and a single link, "Progetto".
   The main sections (Programmazione storica, Manifesti, Articoli, Archivio)
   are reachable only from the list on the home page or from breadcrumbs.
   Improvements to agree with the owner: put the main sections in the menu

@@ -15,4 +15,6 @@ Un elenco di tutte le pagine e gli articoli presenti sul sito. Se non trovi quel
   * [Manifesti e locandine](/posters/)
   * [Articoli e racconti](/articoli/)
   * [Archivio](/archivio/)
+* [Eventi](/eventi/)
+* [Categorie](/categories/) e [argomenti](/tags/)
 * [Informativa privacy](/privacy/)

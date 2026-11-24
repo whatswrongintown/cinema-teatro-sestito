@@ -1,0 +1,13 @@
+{{- /*
+Start of an event as a time value: params.inizio ("2027-03-12T21:00",
+"2027-03-12T21:00:00" or "2027-03-12"), else the page date. Seconds are added
+when missing, since Hugo does not parse "HH:MM" alone.
+Call with: partial "eventi/inizio.html" $page
+*/ -}}
+{{- $t := .Date -}}
+{{- with .Params.inizio -}}
+  {{- $s := strings.TrimSpace (string .) -}}
+  {{- if findRE `^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}$` $s }}{{ $s = printf "%s:00" $s }}{{ end -}}
+  {{- $t = time.AsTime $s -}}
+{{- end -}}
+{{- return $t -}}

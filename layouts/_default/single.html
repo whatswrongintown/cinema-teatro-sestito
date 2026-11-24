@@ -1,26 +1,50 @@
+{{- /*
+Generic page (redesign U07): Progetto, privacy, site map, the form's thank-you
+page and any page without its own template. Dark header with the section (if
+any), title, description and last update; the text on paper. With three or
+more level-2 headings (or `toc: true`), a sticky table of contents sits beside
+the text. Front matter `ricordi: true` adds a "Condividi un ricordo" band that
+links to the form on the home page.
+*/ -}}
 {{ partial "header.html" . }}
+{{- $indice := or .Params.toc (ge (len (findRE `<h2[ >]` .Content)) 3) }}
+<main class="home page-generic" role="main">
+  <header class="article-hero tone-dark">
+    <div class="wrap article-hero-text">
+      {{- with .CurrentSection }}{{ if not .IsHome }}<p class="label home-kicker"><a href="{{ .RelPermalink }}">{{ .Title }}</a></p>{{ end }}{{ end }}
+      <h1 class="article-title-xl">{{ .Title }}</h1>
+      {{- with .Description }}<p class="home-lead article-dek">{{ strings.FirstUpper . }}</p>{{ end }}
+      {{- if not .Lastmod.IsZero }}<p class="label article-byline">Aggiornato il {{ .Lastmod | time.Format ":date_long" }}</p>{{ end }}
+    </div>
+    <div class="article-hero-spacer"></div>
+  </header>
 
-<main class="content" role="main">
-
-  <article class="article">
-    {{ if or (eq .Section "articoli") (eq .Section "eventi") }}
-    <span class="article-duration">{{ .ReadingTime }} min di lettura</span>
-    {{ end }}
-
-    <h1 class="article-title">{{ .Title }}</h1>
-
-    {{ if or (eq .Section "articoli") (eq .Section "archivio") (eq .Section "eventi") }}
-    <span class="article-date">{{ .Date.Format "2006-01-02" }}</span>
-    {{ end }}
-
-    <div class="article-content">
-      {{ if .Params.toc }}
-      {{ .TableOfContents }}
-      {{ end }}
-      {{ .Content }}
+  <article class="article-body tone-light">
+    <div class="wrap{{ if $indice }} page-grid{{ end }}">
+      {{- if $indice }}
+      <nav class="page-toc" aria-label="In questa pagina">
+        <p class="label record-title">In questa pagina</p>
+        {{ .TableOfContents }}
+      </nav>
+      {{- end }}
+      <div class="prose">
+        {{ .Content }}
+      </div>
     </div>
   </article>
 
+  {{- if .Params.ricordi }}
+  <section class="home-riapertura page-ricordi" aria-labelledby="page-ricordi-title">
+    <div class="wrap">
+      <p class="label home-kicker">Partecipa</p>
+      <h2 id="page-ricordi-title" class="home-h2 home-riapertura-title">Condividi un <em>ricordo</em></h2>
+      <p class="home-riapertura-text">Hai un ricordo di una serata al cinema, di uno spettacolo teatrale o un aneddoto da raccontare? Se conservi fotografie del cinema, raccontacelo.</p>
+      <div class="home-actions">
+        <a class="button label" href="{{ "/" | relURL }}#ricordi">Scrivi un ricordo</a>
+        {{- with site.Params.instagram }}<a class="button button-ghost label" href="https://www.instagram.com/{{ . }}/" rel="noopener">Instagram</a>{{ end }}
+      </div>
+    </div>
+  </section>
+  {{- end }}
 </main>
-
 {{ partial "footer.html" . }}

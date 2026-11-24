@@ -1,0 +1,41 @@
+{{- /*
+Event page (redesign U07): the date as in a programme (from params.inizio),
+type and time, title, place and admission, the image, the text on paper.
+*/ -}}
+{{ partial "header.html" . }}
+{{- $t := partial "eventi/inizio.html" . }}
+{{- $a := partial "articoli/apertura.html" . }}
+<main class="home event-page" role="main">
+  <header class="article-hero tone-dark">
+    <div class="wrap article-hero-text event-hero">
+      <time class="show-date event-date" datetime="{{ $t.Format "2006-01-02T15:04" }}">
+        <span class="label show-dow">{{ $t | time.Format "Monday" }}</span>
+        <span class="show-day">{{ $t.Day }}</span>
+        <span class="label show-month">{{ $t | time.Format "January 2006" }}</span>
+      </time>
+      <div>
+        <p class="label home-kicker">{{ .Params.tipo | default "Evento" }}{{ if ne ($t.Format "15:04") "00:00" }} · ore {{ $t.Format "15:04" }}{{ end }}</p>
+        <h1 class="article-title-xl">{{ .Title }}</h1>
+        {{- with .Description }}<p class="home-lead article-dek">{{ strings.FirstUpper . }}</p>{{ end }}
+        {{- $info := slice }}{{ with .Params.luogo }}{{ $info = $info | append . }}{{ end }}{{ with .Params.ingresso }}{{ $info = $info | append . }}{{ end }}
+        {{- with $info }}<p class="label article-byline">{{ delimit . " · " }}</p>{{ end }}
+        {{- if lt $t.Unix now.Unix }}<p class="label event-past">Evento concluso</p>{{ end }}
+      </div>
+    </div>
+    {{- with $a.img }}
+    <figure class="wrap article-hero-figure">
+      <img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="{{ $a.alt }}" decoding="async">
+      {{- with $a.alt }}<figcaption>{{ . }}</figcaption>{{ end }}
+    </figure>
+    {{- else }}
+    <div class="article-hero-spacer"></div>
+    {{- end }}
+  </header>
+  <article class="article-body tone-light">
+    <div class="wrap"><div class="prose">{{ $a.content }}</div></div>
+  </article>
+  <nav class="article-more tone-dark" aria-label="Altri eventi">
+    <div class="wrap">{{ with .CurrentSection }}<a class="label home-more" href="{{ .RelPermalink }}">Tutti gli eventi →</a>{{ end }}</div>
+  </nav>
+</main>
+{{ partial "footer.html" . }}

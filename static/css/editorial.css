@@ -1,5 +1,4 @@
-/* Editorial pages in the redesign (U07): the home page (U08) and pages
-   with `redesign: true` in front matter. Uses tokens.css. */
+/* Page styles of the redesign (U07), loaded on every page. Uses tokens.css. */
 
 .home {
   font-family: var(--font-display);
@@ -2167,4 +2166,151 @@ a.poster-wall-title:focus-visible {
 .home-kicker a:hover,
 .home-kicker a:focus-visible {
   text-decoration: underline;
+}
+
+/* Generic pages (_default/single.html), Eventi, 404 */
+.article-hero-spacer {
+  height: clamp(32px, 4vw, 56px);
+}
+
+.page-grid {
+  display: grid;
+  grid-template-columns: 240px minmax(0, 700px);
+  gap: 56px;
+  justify-content: center;
+  align-items: start;
+}
+
+.page-toc {
+  position: sticky;
+  top: 24px;
+  padding: 20px 22px;
+  background: var(--paper-2);
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
+
+.page-toc ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.page-toc ul ul {
+  padding-left: 12px;
+}
+
+.page-toc li a {
+  display: block;
+  padding: 6px 0;
+  color: var(--ink);
+  text-decoration: none;
+}
+
+.page-toc li a:hover,
+.page-toc li a:focus-visible {
+  color: var(--curtain);
+}
+
+.page-grid .prose {
+  margin: 0;
+}
+
+.events-intro {
+  max-width: 52ch;
+}
+
+.events-list {
+  padding-top: 0 !important;
+}
+
+.curtain-closed {
+  max-width: 640px;
+  padding: 40px;
+  border: 1px solid var(--rule);
+  background: var(--paper-2);
+}
+
+.curtain-closed .home-sub {
+  margin-bottom: 28px;
+}
+
+.event-type {
+  margin: 0 0 4px;
+  color: var(--curtain);
+}
+
+.event-hero {
+  display: grid;
+  grid-template-columns: 140px minmax(0, 1fr);
+  gap: 32px;
+  align-items: start;
+}
+
+.event-date {
+  padding: 20px 10px;
+  border: 1px solid var(--rule);
+}
+
+.event-date .show-day {
+  font-size: 4rem;
+}
+
+.event-past {
+  margin-top: 10px;
+  color: var(--muted);
+}
+
+.notfound {
+  max-width: 820px;
+}
+
+.notfound-text {
+  max-width: 56ch;
+  margin: 24px 0 28px;
+}
+
+.notfound-text p {
+  margin: 0 0 0.8em;
+}
+
+.notfound-text a {
+  color: inherit;
+  text-decoration-color: var(--curtain);
+  text-underline-offset: 3px;
+}
+
+@media (max-width: 899px) {
+  .page-grid {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 28px;
+  }
+
+  .page-toc {
+    position: static;
+  }
+
+  .event-hero {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 20px;
+  }
+
+  .event-date {
+    justify-self: start;
+    min-width: 120px;
+  }
+
+  .curtain-closed {
+    padding: 28px 22px;
+  }
+}
+
+/* <article> and <nav> bands get the same spacing as sections. */
+.home .article-body,
+.home .article-more {
+  padding: var(--section-space) 0;
+}
+
+.home .article-more {
+  padding: clamp(32px, 4vw, 48px) 0;
 }

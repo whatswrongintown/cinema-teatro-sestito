@@ -5,9 +5,7 @@ date: "2026-11-24"
 description: "I film per adulti e di exploitation programmati dal Cinema Teatro Sestito tra gli anni Settanta e Novanta: manifesti, locandine e proiezioni documentate."
 layout: adulti
 params:
-  # Page in the redesign style (static/css/editorial.css); layout in
-  # layouts/programmazione-storica/adulti.html, see docs/design.md.
-  redesign: true
+  # Layout: layouts/programmazione-storica/adulti.html, see docs/design.md.
   occhiello: "Un capitolo della programmazione"
   nota: "Manifesti e locandine sono quelli affissi all'epoca: le immagini erano già censurate per l'affissione pubblica e non contengono nudi espliciti."
   # IMDb IDs of erotic or exploitation films not tagged "Per adulti" in the
