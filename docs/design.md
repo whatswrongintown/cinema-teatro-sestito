@@ -1,10 +1,11 @@
 # Visual design
 
 The redesign (U07) gives the site the look of a working cinema and cultural
-venue instead of a blog and statistics archive. Status: DOING 2026-11-24, home
-page prototype, the adult films page, the Posters section and the articles on the branch
-`redesign/home-prototype`; the other inner pages still use the old styles
-under the new header and footer.
+venue instead of a blog and statistics archive. Status: DOING 2026-11-24, on
+the branch `redesign/home-prototype`: home page, adult films page, Posters
+section, articles, archive and the category and tag pages. The programme
+pages, Eventi, Progetto and the small pages still use the old styles under
+the new header and footer.
 
 Mockup (private, owner only): the "Cinema Sestito redesign" design canvas on
 claude.ai, with the desktop home page, the visual system and the phone home
@@ -151,6 +152,35 @@ Pages of section `articoli` load `editorial.css`; templates
   a sentence for readers (some are short notes today, e.g. "articolo
   dedicato al fondatore…").
 
+### Archive, categories and tags
+
+Pages of section `archivio` and every taxonomy term page load
+`editorial.css`.
+
+- Archive page (`layouts/archivio/list.html`): dark header with the section
+  text, the number of documents and three documents fanned out
+  (`documentiHero` in `content/archivio/_index.md`, page paths); the
+  categories as cards in the order and with the text of `categorie` (each
+  links to its category page and counts its archive documents); then every
+  document as a card (`partials/scheda.html`) in a timeline by decade.
+- Document page (`layouts/archivio/single.html`): dark header with section
+  and category, title, `description` and the document date (a date on
+  1 January shows only the year, as the day is not known). The scans are the
+  images that open the body: `partials/archivio/scansioni.html` takes that
+  block out of the body and shows the images large, with their alt text as
+  caption and the image viewer (bundle files, resized to 1,100 px for the
+  page, original in the viewer; accented file names are matched through
+  their URL-escaped form). Images later in the text, or after an opening
+  line of text, stay in the text. Then a record card (date, category,
+  topics, number of reproductions, fund) beside the rest of the body, and
+  the previous and next documents by date. So keep writing a document as
+  before: scan images first, then the transcription.
+- Category and tag pages (`layouts/_default/term.html`): dark header with
+  "Categoria" or "Argomento", the term and its number of pages, then every
+  page as a card, oldest first. `content/categories/_index.md` and
+  `content/tags/_index.md` give the indexes Italian titles (Categorie,
+  Argomenti) for the breadcrumbs.
+
 ### Posters section (U11)
 
 Every page of type `posters` loads `editorial.css` (no front matter flag
@@ -162,6 +192,6 @@ film page classes `.film-*`.
 
 ## Next steps
 
-See U07 in `project-status.md`: archive and programme
+See U07 in `project-status.md`: programme pages, Eventi and Progetto
 templates in the new style, then CSS fingerprinting with Hugo Pipes (browsers
 kept stale CSS during the prototype).

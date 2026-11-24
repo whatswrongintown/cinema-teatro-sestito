@@ -1,0 +1,28 @@
+{{- /*
+Category and tag pages (redesign U07): dark header with the taxonomy, the
+term and the number of pages, then the pages as cards, oldest first.
+*/ -}}
+{{ partial "header.html" . }}
+{{- $pagine := .Pages.ByDate }}
+{{- $tipo := cond (eq .Data.Plural "categories") "Categoria" (cond (eq .Data.Plural "tags") "Argomento" (.Data.Plural | humanize)) }}
+<main class="home term-page" role="main">
+  <section class="posters-head tone-dark" aria-labelledby="term-title">
+    <div class="wrap">
+      <p class="label home-kicker">{{ $tipo }}</p>
+      <h1 id="term-title" class="posters-page-title">{{ .Title }}</h1>
+      {{- with .Content }}<div class="home-lead posters-page-lead">{{ . }}</div>{{ end }}
+      <p class="label posters-page-count">{{ len $pagine }} {{ cond (eq (len $pagine) 1) "pagina" "pagine" }}</p>
+    </div>
+  </section>
+  <section class="posters-gallery tone-light">
+    <div class="wrap">
+      <ul class="doc-cards">
+        {{- range $pagine }}
+        {{- $sez := "" }}{{ with .CurrentSection }}{{ if not .IsHome }}{{ $sez = .Title }}{{ end }}{{ end }}
+        {{ partial "scheda.html" (dict "pagina" . "etichetta" $sez) }}
+        {{- end }}
+      </ul>
+    </div>
+  </section>
+</main>
+{{ partial "footer.html" . }}

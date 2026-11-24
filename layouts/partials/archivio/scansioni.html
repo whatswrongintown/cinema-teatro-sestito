@@ -1,0 +1,28 @@
+{{- /*
+Scans of an archive document: the images in the block that opens the body
+(Markdown image lines before any text). They are taken out of the body and
+returned with their bundle resource, so the page can show them large.
+Images later in the text stay where they are. Returns dict:
+  scans    slice of dict: alt, img (resource or false), src (as in the body)
+  content  the rendered body without the opening block
+Call with: partial "archivio/scansioni.html" .
+*/ -}}
+{{- $content := .Content -}}
+{{- $scans := slice -}}
+{{- /* Bundle images by their URL-escaped file name, as goldmark writes src. */ -}}
+{{- $risorse := dict -}}
+{{- range .Resources.ByType "image" -}}
+  {{- $risorse = merge $risorse (dict (replace (urlquery (path.Base .Name)) "+" "%20") .) -}}
+{{- end -}}
+{{- $re := `^\s*(?:<p>(?:\s*<img [^>]*>)+\s*</p>\s*)+` -}}
+{{- with findRE $re $content 1 -}}
+  {{- $blocco := index . 0 -}}
+  {{- range findRE `<img [^>]*>` $blocco -}}
+    {{- $src := replaceRE `^.*\ssrc="([^"]*)".*$` "$1" . -}}
+    {{- $alt := replaceRE `^.*\salt="([^"]*)".*$` "$1" . -}}
+    {{- if eq $alt . }}{{ $alt = "" }}{{ end -}}
+    {{- $scans = $scans | append (dict "src" $src "alt" ($alt | htmlUnescape) "img" (index $risorse (path.Base $src) | default false)) -}}
+  {{- end -}}
+  {{- $content = replaceRE $re "" $content 1 | safeHTML -}}
+{{- end -}}
+{{- return dict "scans" $scans "content" $content -}}

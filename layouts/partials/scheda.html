@@ -1,0 +1,20 @@
+{{- /*
+Card for a page in a list (archive timeline, category and tag pages): image
+from front matter `image` (bundle file, cropped from the top to 4:5), a label
+(section or category and date), the title and the description. Pages without
+an image get a text card.
+Call with: partial "scheda.html" (dict "pagina" $p "etichetta" "Archivio")
+*/ -}}
+{{- $p := .pagina -}}
+{{- $img := false -}}
+{{- with $p.Params.image }}{{ with $p.Resources.Get . }}{{ if eq .ResourceType "image" }}{{ $img = .Fill "480x600 Top webp q75" }}{{ end }}{{ end }}{{ end -}}
+{{- $data := $p.Date | time.Format ":date_long" -}}
+{{- if eq ($p.Date.Format "01-02") "01-01" }}{{ $data = $p.Date.Format "2006" }}{{ end -}}
+<li class="doc-card{{ if not $img }} doc-card-text{{ end }}">
+  <a href="{{ $p.RelPermalink }}">
+    {{- with $img }}<span class="doc-card-media"><img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="" loading="lazy" decoding="async"></span>{{ end }}
+    <span class="label doc-card-kicker">{{ with .etichetta }}{{ . }} · {{ end }}{{ $data }}</span>
+    <span class="doc-card-title">{{ $p.Title }}</span>
+    {{- with $p.Description }}<span class="doc-card-text-body">{{ strings.FirstUpper . }}</span>{{ end }}
+  </a>
+</li>

@@ -6,7 +6,7 @@ newer and older stories.
 */ -}}
 {{ partial "header.html" . }}
 {{- $a := partial "articoli/apertura.html" . }}
-{{- $cat := index (.GetTerms "categories") 0 }}
+{{- $cat := false }}{{ range first 1 (.GetTerms "categories") }}{{ $cat = . }}{{ end }}
 {{- $tutte := .CurrentSection.RegularPages.ByDate }}
 {{- $piuNuova := false }}{{ $piuVecchia := false }}
 {{- range $i, $p := $tutte }}

@@ -1,0 +1,89 @@
+{{- /*
+Archive document (redesign U07): dark header with category, document date,
+title and description; the scans that open the body shown large with the
+lightbox (archivio/scansioni.html); a record card next to the rest of the
+body (transcription, notes, galleries); the previous and next documents by
+date. A date on 1 January is shown as the year only (the day is unknown).
+*/ -}}
+{{ partial "header.html" . }}
+{{- $s := partial "archivio/scansioni.html" . }}
+{{- $cat := false }}{{ range first 1 (.GetTerms "categories") }}{{ $cat = . }}{{ end }}
+{{- $data := .Date | time.Format ":date_long" }}
+{{- if eq (.Date.Format "01-02") "01-01" }}{{ $data = .Date.Format "2006" }}{{ end }}
+{{- $tutti := .CurrentSection.RegularPages.ByDate }}
+{{- $prima := false }}{{ $dopo := false }}
+{{- range $i, $p := $tutti }}
+  {{- if eq $p $ }}
+    {{- if gt $i 0 }}{{ $prima = index $tutti (sub $i 1) }}{{ end }}
+    {{- if lt (add $i 1) (len $tutti) }}{{ $dopo = index $tutti (add $i 1) }}{{ end }}
+  {{- end }}
+{{- end }}
+{{- $testo := strings.TrimSpace (string $s.content) }}
+
+<main class="home document-page" role="main">
+  <header class="article-hero tone-dark">
+    <div class="wrap article-hero-text">
+      <p class="label home-kicker">
+        {{- with .CurrentSection }}<a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ end }}
+        {{- with $cat }} · <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>{{ end -}}
+      </p>
+      <h1 class="article-title-xl document-title">{{ .Title }}</h1>
+      {{- with .Description }}<p class="home-lead article-dek">{{ strings.FirstUpper . }}</p>{{ end }}
+      <p class="label article-byline"><time datetime="{{ .Date.Format "2006-01-02" }}">{{ $data }}</time></p>
+    </div>
+
+    {{- with $s.scans }}
+    <div class="wrap">
+      <ul class="scans scans-{{ cond (gt (len .) 2) "many" (printf "%d" (len .)) }}">
+        {{- range $i, $sc := . }}
+        <li>
+          {{- with $sc.img }}
+          {{- $view := . }}{{ if and (eq .ResourceType "image") (ne .MediaType.SubType "svg") (gt .Width 1100) }}{{ $view = .Resize "1100x webp q80" }}{{ end }}
+          <a class="lightbox-image" href="{{ .RelPermalink }}" data-caption="{{ $sc.alt | default (printf "%s, %d" $.Title (add $i 1)) }}">
+            <img src="{{ $view.RelPermalink }}" width="{{ $view.Width }}" height="{{ $view.Height }}" alt="{{ $sc.alt }}"{{ if gt $i 0 }} loading="lazy"{{ else }} fetchpriority="high"{{ end }} decoding="async">
+          </a>
+          {{- else }}
+          <a class="lightbox-image" href="{{ $sc.src }}"><img src="{{ $sc.src }}" alt="{{ $sc.alt }}" loading="lazy"></a>
+          {{- end }}
+          {{- with $sc.alt }}<span class="scan-caption">{{ . }}</span>{{ end }}
+        </li>
+        {{- end }}
+      </ul>
+    </div>
+    {{- end }}
+  </header>
+
+  <article class="article-body tone-light">
+    <div class="wrap document-grid">
+      <aside class="record" aria-label="Scheda del documento">
+        <h2 class="label record-title">Scheda</h2>
+        <dl>
+          <div><dt class="label">Data</dt><dd>{{ $data }}</dd></div>
+          {{- with $cat }}<div><dt class="label">Categoria</dt><dd><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></dd></div>{{ end }}
+          {{- with .GetTerms "tags" }}<div><dt class="label">Argomenti</dt><dd>{{ range $i, $t := . }}{{ if $i }}, {{ end }}<a href="{{ $t.RelPermalink }}">{{ $t.LinkTitle }}</a>{{ end }}</dd></div>{{ end }}
+          {{- with $s.scans }}<div><dt class="label">Riproduzioni</dt><dd>{{ len . }} {{ cond (eq (len .) 1) "immagine" "immagini" }}</dd></div>{{ end }}
+          <div><dt class="label">Fondo</dt><dd>Archivio del Cinema Teatro Sestito</dd></div>
+        </dl>
+      </aside>
+      <div class="prose document-text">
+        {{- if $testo }}
+        {{ $s.content }}
+        {{- else }}
+        <p class="document-empty">Per questo documento è disponibile la sola riproduzione.</p>
+        {{- end }}
+      </div>
+    </div>
+  </article>
+
+  <nav class="article-more tone-dark" aria-label="Altri documenti">
+    <div class="wrap">
+      <div class="film-nav article-nav">
+        {{- with $prima }}<a class="film-nav-prev" href="{{ .RelPermalink }}" rel="prev"><span class="label">← Documento precedente · {{ .Date.Format "2006" }}</span><span class="film-nav-title">{{ .Title }}</span></a>{{ else }}<span></span>{{ end }}
+        {{- with $dopo }}<a class="film-nav-next" href="{{ .RelPermalink }}" rel="next"><span class="label">Documento successivo · {{ .Date.Format "2006" }} →</span><span class="film-nav-title">{{ .Title }}</span></a>{{ end }}
+      </div>
+      {{- with .CurrentSection }}<a class="label home-more" href="{{ .RelPermalink }}">Tutto l'archivio →</a>{{ end }}
+    </div>
+  </nav>
+</main>
+
+{{ partial "footer.html" . }}

@@ -29,7 +29,7 @@ its image, the newest story as the lead, then the others as cards.
       {{- range $i, $p := $storie }}
       {{- $img := false }}
       {{- with $p.Params.image }}{{ with $p.Resources.Get . }}{{ $img = .Resize (cond (eq $i 0) "1200x webp q78" "700x webp q78") }}{{ end }}{{ end }}
-      {{- $cat := index ($p.GetTerms "categories") 0 }}
+      {{- $cat := false }}{{ range first 1 ($p.GetTerms "categories") }}{{ $cat = . }}{{ end }}
       {{- if eq $i 0 }}
       <article class="story-feature">
         <a href="{{ $p.RelPermalink }}">

@@ -1,18 +1,85 @@
+{{- /*
+Archive page (redesign U07): dark header with the section text and three
+documents fanned out (params.documentiHero), the categories as cards with
+their number of documents (params.categorie), then every document as a card
+in a timeline by decade.
+*/ -}}
 {{ partial "header.html" . }}
+{{- $docs := .RegularPages.ByDate }}
+{{- $termini := dict }}
+{{- range site.Taxonomies.categories }}{{ $termini = merge $termini (dict (lower .Page.Title) .Page) }}{{ end }}
 
-<main class="content" role="main">
-
-  {{ if .Content }}
-  <article class="article">
-    {{ if .Title }}
-    <h1 class="article-title">{{ .Title }}</h1>
-    {{ end }}
-    <div class="article-content">
-      {{ .Content }}
+<main class="home archive-page" role="main">
+  <section class="articles-head tone-dark" aria-labelledby="archive-title">
+    <div class="wrap articles-head-grid">
+      <div>
+        {{- with .Params.occhiello }}<p class="label home-kicker">{{ . }}</p>{{ end }}
+        <h1 id="archive-title" class="posters-page-title">{{ .Title }}</h1>
+        <div class="home-lead articles-intro">{{ .Content }}</div>
+        <p class="label posters-page-count">{{ len $docs }} documenti · {{ len (.Params.categorie | default slice) }} categorie</p>
+      </div>
+      {{- $fan := slice }}
+      {{- range .Params.documentiHero | default slice }}
+        {{- with site.GetPage . }}
+          {{- $p := . }}
+          {{- with .Params.image }}{{ with $p.Resources.Get . }}{{ $fan = $fan | append (dict "img" (.Resize "600x webp q78") "pagina" $p) }}{{ end }}{{ end }}
+        {{- end }}
+      {{- end }}
+      {{- with $fan }}
+      <div class="home-hero-posters archive-fan">
+        {{- range $i, $f := after 1 . }}
+        <img class="hero-poster hero-poster-{{ add $i 1 }}" src="{{ $f.img.RelPermalink }}" width="{{ $f.img.Width }}" height="{{ $f.img.Height }}" alt="{{ $f.pagina.Title }}" decoding="async">
+        {{- end }}
+        {{- with index . 0 }}
+        <a class="hero-poster hero-poster-0" href="{{ .pagina.RelPermalink }}"><img src="{{ .img.RelPermalink }}" width="{{ .img.Width }}" height="{{ .img.Height }}" alt="{{ .pagina.Title }}" fetchpriority="high" decoding="async"></a>
+        {{- end }}
+      </div>
+      {{- end }}
     </div>
-  </article>
-  {{ end }}
+  </section>
 
+  {{- with .Params.categorie }}
+  <section class="archive-categories tone-light" aria-labelledby="archive-categories-title">
+    <div class="wrap">
+      <p class="label home-kicker">Le categorie</p>
+      <h2 id="archive-categories-title" class="home-h2">Nove fondi per raccontare la sala</h2>
+      <ul class="category-cards">
+        {{- range . }}
+        {{- $t := index $termini (lower .nome) }}
+        {{- $n := 0 }}{{ with $t }}{{ $n = len (where .Pages "Section" "archivio") }}{{ end }}
+        <li>
+          <a href="{{ with $t }}{{ .RelPermalink }}{{ end }}">
+            <span class="category-name">{{ .nome }}</span>
+            <span class="label category-count">{{ $n }} {{ cond (eq $n 1) "documento" "documenti" }}</span>
+            <span class="category-text">{{ .testo }}</span>
+          </a>
+        </li>
+        {{- end }}
+      </ul>
+    </div>
+  </section>
+  {{- end }}
+
+  <section class="archive-timeline tone-dark" aria-labelledby="archive-timeline-title">
+    <div class="wrap">
+      <p class="label home-kicker">In ordine di data</p>
+      <h2 id="archive-timeline-title" class="home-h2">Un secolo di carte</h2>
+      {{- $decenni := slice }}
+      {{- range $docs }}{{ $decenni = $decenni | append (printf "%s0" (substr (.Date.Format "2006") 0 3)) }}{{ end }}
+      {{- range uniq $decenni }}
+      {{- $d := . }}
+      <div class="timeline-decade">
+        <h3 class="timeline-year">{{ $d }}</h3>
+        <ul class="doc-cards">
+          {{- range $docs }}{{ if eq (printf "%s0" (substr (.Date.Format "2006") 0 3)) $d }}
+          {{- $etichetta := "" }}{{ range first 1 (.GetTerms "categories") }}{{ $etichetta = .LinkTitle }}{{ end }}
+          {{ partial "scheda.html" (dict "pagina" . "etichetta" $etichetta) }}
+          {{- end }}{{ end }}
+        </ul>
+      </div>
+      {{- end }}
+    </div>
+  </section>
 </main>
 
 {{ partial "footer.html" . }}
