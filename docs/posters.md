@@ -129,6 +129,10 @@ changes is how many screenings are linked to a poster: 6 films in 1965, 61 in
 1966, 50 in 1967, 31 in 1968. Possible causes, to be confirmed by the owner:
 posters were kept (or kept in the archive) from about 1966 onwards, or the
 earlier posters are not linked to screenings.
+Owner's oral testimony (2026-11-24): the owner's father tried to keep most posters, and
+the grandfather had at first given many away, especially to children in the
+1950s and 1960s. The year intro (`by-year/_index.md`) cites it as "racconto di
+famiglia"; the exact year is unknown, so it is not tied to 1966.
 
 ## Images
 
