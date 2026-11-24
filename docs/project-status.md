@@ -92,7 +92,7 @@ TODO / DOING / DONE / DEFERRED, with dates. Assistant rules are in `CLAUDE.md`.
   on a full build: every `og:image` points to a file in `public/`. The static
   cleanup is done: `static/programmazione-storica/` and every `index_files`
   folder are gone.
-- **U04 - DONE 2026-11-24: charts in the Posters subsections** (per year in Per anno, format and genre by decade in Per formato and Per genere); see `posters.md`. DONE 2026-11-24 (cause found, details in `posters.md`): the year and decade counts count a poster once per screening year (1,960 vs 1,511 distinct dated posters); captions say so. TODO: owner to decide whether to regenerate the CSVs counting each poster once per decade; the 251 gap between the recording file (2,038) and `films.json` (1,787) and the 1966 peak are still unexplained.
+- **U04 - DONE 2026-11-24: charts in the Posters subsections** (per year in Per anno, format and genre by decade in Per formato and Per genere); see `posters.md`. DONE 2026-11-24 (cause found, details in `posters.md`): the year and decade counts count a poster once per screening year (1,960 vs 1,511 distinct dated posters); captions say so. 2026-11-24: genre chart now includes undated posters and excludes Drammatico (see `posters.md`). TODO: owner to decide whether to regenerate the CSVs counting each poster once per decade; the 251 gap between the recording file (2,038) and `films.json` (1,787) and the 1966 peak are still unexplained.
 - No feature roadmap yet: new ideas are agreed with the owner and listed here
   when they are approved.
 

@@ -6,20 +6,24 @@ ones); empty cells show no number. Input (dict):
   id, title, desc (hidden description), caption (HTML), csv (path under static/, e.g. "data/x.csv"),
   rowHeader (label of the first column), labels (dict key -> label, optional),
   order (slice of keys, optional; default: by total, highest first)
-CSV columns: decade, <category>, n_posters. Combinations missing from the
-file count as 0.
+CSV columns: decade, <category>, n_posters. Decade "senza_data" adds a
+"Senza data" column (posters without a screening date). Combinations missing
+from the file count as 0.
 */ -}}
 {{- $csv := resources.Get .csv | transform.Unmarshal }}
-{{- $counts := dict }}{{ $decades := slice }}{{ $totals := dict }}{{ $max := 0 }}{{ $all := 0 }}
+{{- $counts := dict }}{{ $decades := slice }}{{ $undated := false }}{{ $totals := dict }}{{ $max := 0 }}{{ $all := 0 }}
 {{- range after 1 $csv }}
-  {{- $d := int (index . 0) }}{{ $k := index . 1 }}{{ $n := int (index . 2) }}
-  {{- $decades = $decades | append $d }}
-  {{- $counts = merge $counts (dict (printf "%d|%s" $d $k) $n) }}
+  {{- $d := index . 0 }}{{ $k := index . 1 }}{{ $n := int (index . 2) }}
+  {{- if eq $d "senza_data" }}{{ $undated = true }}{{ else }}{{ $decades = $decades | append (int $d) }}{{ end }}
+  {{- $counts = merge $counts (dict (printf "%s|%s" $d $k) $n) }}
   {{- $totals = merge $totals (dict $k (add (int (index $totals $k)) $n)) }}
   {{- $all = add $all $n }}
   {{- if gt $n $max }}{{ $max = $n }}{{ end }}
 {{- end }}
 {{- $decades = sort (uniq $decades) }}
+{{- /* Columns: the decades, then "Senza data" when the CSV has decade "senza_data" */ -}}
+{{- $cols := slice }}{{ range $decades }}{{ $cols = $cols | append (printf "%d" .) }}{{ end }}
+{{- if $undated }}{{ $cols = $cols | append "senza_data" }}{{ end }}
 {{- $keys := .order }}
 {{- if not $keys }}
   {{- $items := slice }}
@@ -41,8 +45,12 @@ file count as 0.
         <thead>
           <tr>
             <th scope="col">{{ .rowHeader }}</th>
-            {{- range $decades }}
+            {{- range $cols }}
+            {{- if eq . "senza_data" }}
+            <th scope="col">Senza data</th>
+            {{- else }}
             <th scope="col"><span class="pc-sr-only">Anni </span>{{ . }}</th>
+            {{- end }}
             {{- end }}
             <th scope="col">Totale</th>
           </tr>
@@ -52,8 +60,8 @@ file count as 0.
           {{- $k := . }}
           <tr>
             <th scope="row">{{ index $labels $k | default $k }}</th>
-            {{- range $decades }}
-            {{- $n := int (index $counts (printf "%d|%s" . $k)) }}
+            {{- range $cols }}
+            {{- $n := int (index $counts (printf "%s|%s" . $k)) }}
             {{- if eq $n 0 }}
             <td class="pc-cell pc-zero"><span class="pc-sr-only">0</span></td>
             {{- else }}

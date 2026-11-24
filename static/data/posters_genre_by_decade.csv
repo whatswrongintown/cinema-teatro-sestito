@@ -3,7 +3,6 @@ decade,genre,n_posters
 1950,Azione,6
 1950,Biografico,5
 1950,Commedia,9
-1950,Drammatico,46
 1950,Fantastico,10
 1950,Guerra,5
 1950,Horror,9
@@ -16,7 +15,6 @@ decade,genre,n_posters
 1960,Azione,79
 1960,Biografico,21
 1960,Commedia,88
-1960,Drammatico,288
 1960,Fantascienza,3
 1960,Fantastico,18
 1960,Giallo,31
@@ -37,7 +35,6 @@ decade,genre,n_posters
 1970,Biografico,14
 1970,Commedia,215
 1970,Documentario,6
-1970,Drammatico,495
 1970,Fantascienza,18
 1970,Fantastico,49
 1970,Giallo,24
@@ -59,7 +56,6 @@ decade,genre,n_posters
 1980,Biografico,5
 1980,Commedia,106
 1980,Documentario,2
-1980,Drammatico,156
 1980,Fantascienza,10
 1980,Fantastico,15
 1980,Giallo,12
@@ -78,7 +74,6 @@ decade,genre,n_posters
 1990,Azione,16
 1990,Biografico,1
 1990,Commedia,37
-1990,Drammatico,37
 1990,Fantascienza,6
 1990,Fantastico,15
 1990,Giallo,2
@@ -93,7 +88,6 @@ decade,genre,n_posters
 1990,Western,1
 2000,Avventura,3
 2000,Commedia,4
-2000,Drammatico,5
 2000,Fantastico,3
 2000,Giallo,2
 2000,Horror,1
@@ -101,3 +95,25 @@ decade,genre,n_posters
 2000,Per famiglie,1
 2000,Poliziesco,1
 2000,Sentimentale,1
+senza_data,Animazione,8
+senza_data,Avventura,69
+senza_data,Azione,67
+senza_data,Biografico,17
+senza_data,Commedia,142
+senza_data,Documentario,10
+senza_data,Fantascienza,15
+senza_data,Fantastico,27
+senza_data,Giallo,41
+senza_data,Guerra,36
+senza_data,Horror,38
+senza_data,Musica,7
+senza_data,Musical,12
+senza_data,Noir,6
+senza_data,Per adulti,10
+senza_data,Per famiglie,27
+senza_data,Poliziesco,103
+senza_data,Sentimentale,134
+senza_data,Sportivo,9
+senza_data,Storico,36
+senza_data,Thriller,92
+senza_data,Western,93

@@ -88,11 +88,25 @@ genre decade totals (1,712 distinct poster-decade counts instead of 1,960; e.g.
 1970s 762 against 869 published). The year chart is still a valid "posters in use
 that year"; the captions state that repeats are counted each year. To count each
 poster once per decade, use `distinct(internal_code, decade)` in the decade
-charts. Also: Noir is missing from the genre CSV because its 6 posters have no
-screening date; 52 posters have no IMDb `const` and 23 have a `const` missing
-from `manifesti_imdb.csv`, so they cannot appear in the genre chart; the
-`filter(genre != "drammatico")` line in the R script removes nothing (genres are
-capitalised) and its comment is misleading. The 251 difference between the
+charts.
+
+Genre chart (changed 2026-11-24): posters without a screening date are included
+in a "Senza data" column (CSV decade `senza_data`), because a film's genre does
+not depend on when it was screened; this adds Noir (6 undated posters). The
+genre Drammatico is excluded (almost every film carries it; the filter in
+`poster_section.R` now says `"Drammatico"`, it used to be lowercase and removed
+nothing). `posters_genre_by_decade.csv` was regenerated with a Python port of
+the script, checked to reproduce the previous published CSV before the two
+changes. Still not in the chart: 15 titles (23 posters) whose IMDb entry has no
+genres in `manifesti_imdb.csv` or is absent from it (poster codes 26, 125, 390,
+830, 855, 890, 954, 963, 1057, 1060, 1068, 1072, 1251, 1257, 1289; Speed, 1068,
+has genres in `programmazione_imdb.csv`), plus 52 posters (45 records) with no
+`const`. In the recording file, poster 943 had a space-only cell in
+`manifesto_100x140` and poster 954 a leading space in `const`; both were cleaned
+in the owner's copy (that file is not in this repository; the repo's
+`static/data/programmazione_manifesti.csv` is a different, IMDb-style file).
+The recording file also has mojibake in some titles (for example `TrinitÃ `)
+and two dates in one cell for posters such as 1009 (not changed). The 251 difference between the
 recording file (2,038) and `films.json` (1,787) is unexplained. The 1966 peak
 (152 against 15 in 1965) is still to be checked.
 
