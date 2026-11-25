@@ -4,13 +4,13 @@ linkTitle: "Paesi"
 author: "Vito Sestito"
 date: '2025-12-02'
 lastmod: '2026-11-25'
-description: "Consulta la programmazione del Cinema Sestito organizzata per paesi di produzione"
+description: "I paesi di produzione dei film proiettati al cinema Sestito."
 image: "italia-estero-per-decennio.png"
 slug: "paesi-di-produzione"
 type: "programmazione-storica/paesi-di-produzione"
 ---
 
-I paesi di produzione dei film proiettati al cinema Sestito. Il primo grafico confronta, decennio per decennio, la quota di film italiani ed esteri: nei primi decenni i film italiani sono almeno la metà; dagli anni Ottanta la loro quota cala, con la crisi del cinema nazionale e la crescita dei titoli statunitensi. Le coproduzioni sono contate in ogni paese indicato, perché i dati non dicono il peso di ciascuno.
+Il primo grafico confronta, decennio per decennio, la quota di film italiani ed esteri: nei primi decenni i film italiani sono almeno la metà; dagli anni Ottanta la loro quota cala, con la crisi del cinema nazionale e la crescita dei titoli statunitensi. Le coproduzioni sono contate in ogni paese indicato, perché i dati non dicono il peso di ciascuno.
 
 {{< grafico nome="italia-estero-per-decennio" alt="Percentuale di film italiani ed esteri per decennio" >}}
 

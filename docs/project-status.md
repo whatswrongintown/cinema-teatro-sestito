@@ -347,7 +347,7 @@ TODO / DOING / DONE / DEFERRED, with dates. Assistant rules are in `CLAUDE.md`.
     Below it, only one card per source type (Agende, Calendari, Rubriche,
     Appunti, plus "Note sui manifesti", a single source linked directly);
     each type has its own page (`fonti/<type>/`, with the type's former
-    description) listing its sources with their first scan (24 sources were
+    description in the header, no repeated text) listing its sources with their first scan (24 sources were
     never scanned and show a text card). The source pages moved into the
     type folders; their URLs are unchanged (checked on a full build: the
     only new pages are the four type pages). See `historical-programming.md`.

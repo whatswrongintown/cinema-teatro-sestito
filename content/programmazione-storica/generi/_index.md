@@ -4,7 +4,7 @@ linkTitle: "Generi"
 author: "Vito Sestito"
 date: '2025-12-02'
 lastmod: '2026-11-25'
-description: "Consulta la programmazione del Cinema Sestito organizzata per generi cinematografici"
+description: "I film proiettati al cinema Sestito, divisi per genere."
 image: "hero_banner_generi.jpg"
 slug: "generi"
 type: "programmazione-storica/generi"
@@ -12,7 +12,7 @@ type: "programmazione-storica/generi"
 
 ![Locandine miste per generi](hero_banner_generi.jpg)
 
-I film proiettati al cinema Sestito, divisi per genere. Nel grafico la categoria «Drammatico» è esclusa quando accompagna un genere più specifico, perché nelle classificazioni tende a sovrapporsi agli altri. Emergono tre generi dominanti, commedia, avventura e azione, tipici del pubblico popolare e delle sale di provincia.
+Nel grafico la categoria «Drammatico» è esclusa quando accompagna un genere più specifico, perché nelle classificazioni tende a sovrapporsi agli altri. Emergono tre generi dominanti, commedia, avventura e azione, tipici del pubblico popolare e delle sale di provincia.
 
 {{< grafico nome="generi-per-decennio" alt="Percentuale dei generi cinematografici per decennio" >}}
 

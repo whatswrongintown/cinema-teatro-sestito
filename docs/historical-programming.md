@@ -63,7 +63,7 @@ Page templates (redesign U07, details in `design.md`):
   image of the body moves to the header (`partials/articoli/apertura.html`).
 - Fonti (U16, 2026-11-25): the source pages sit in one folder per type,
   `content/programmazione-storica/fonti/{agende,calendari,rubriche,appunti}/`,
-  each with an `_index.md` (title, `weight` for the order, a short text).
+  each with an `_index.md` (title, `weight` for the order, and the description, which the header shows: no body text, so nothing repeats).
   The Fonti page shows one card per type plus the sources left at its root
   (`1965-01-01-note-sui-manifesti`, the only one of its kind); each type
   page shows one card per source with its first scan (front matter `image`).
