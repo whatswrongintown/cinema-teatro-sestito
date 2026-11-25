@@ -59,8 +59,9 @@
 <meta name="twitter:image" content="{{ $socialImage }}">
 
 <!-- Favicon -->
+<link rel="icon" href="{{ "images/icons/favicon.ico" | absURL }}" sizes="16x16 32x32 48x48">
 {{ with .Site.Params.favicon }}
-  <link rel="icon" type="image/png" href="{{ . | absURL }}">
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ . | absURL }}">
 {{ end }}
 <link rel="apple-touch-icon" sizes="180x180" href="{{ "images/icons/apple-touch-icon.png" | absURL }}">
 

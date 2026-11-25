@@ -295,17 +295,16 @@ TODO / DOING / DONE / DEFERRED, with dates. Assistant rules are in `CLAUDE.md`.
   international context (Majestic 1977, about 1,500 "luci rosse" cinemas in
   1981, VHS) from a newspaper, the director notes (D'Amato, Graver,
   Schicchi, Findlay) from Wikipedia; sources are footnoted.
-- **U13 - TODO 2026-11-25: replace the old icons with ones in the new style.**
-  Requested by the owner. The icons are still from the old site:
-  `static/images/icons/` holds `favicon.png`, `favicon.ico`,
-  `apple-touch-icon.png` (the only ones the templates still use, in
-  `layouts/partials/head.html` and `params.favicon`), the unused `avatar.png`
-  and the unused footer SVGs (`email.svg`, `github.svg`, `instagram.svg`,
-  `rss.svg`). To do: design a favicon and an apple-touch icon that match the
-  redesign (palette and typefaces in `design.md`, for example from the
-  "Sestito" wordmark), check them on light and dark browser tabs, and delete
-  the unused old files. The social preview images are a separate matter (see
-  Decisions). The owner approves the design before it replaces the old icons.
+- **U13 - DOING 2026-11-25: icons in the new style.** Requested by the owner.
+  Design chosen (proposal A "Sipario"): a cream Fraunces bold "S" (the family
+  surname, as the old cinemas used the family name) on curtain red `#9E2A1F`.
+  Done: `static/images/icons/favicon.ico` (16, 32, 48 px), `favicon.png` (32 px,
+  `params.favicon`) and `apple-touch-icon.png` (180 px, square: iOS rounds it),
+  linked in `layouts/partials/head.html`; deleted the unused `avatar.png` and
+  footer SVGs. Rendered from the site Fraunces file, not vector. TODO: owner
+  approval on the deployed site; optional `favicon.svg` (needs the glyph as
+  outlines); check on light and dark tabs. The social preview images are a
+  separate matter (see Decisions).
 - **U14 - TODO 2026-11-25: redesign all the charts with the new palette and
   fonts.** Requested by the owner. The charts (about 18 inline-SVG partials in
   `layouts/partials/grafici/`, `{{< grafico >}}` used on about 85 pages, the
@@ -341,8 +340,7 @@ TODO / DOING / DONE / DEFERRED, with dates. Assistant rules are in `CLAUDE.md`.
 
 ## Static folder layout (DONE 2026-11-23)
 
-- `static/images/icons/`: favicons, apple-touch icon, logo avatar and footer
-  SVG icons (moved out of the `images/` root).
+- `static/images/icons/`: favicons and apple-touch icon (moved out of the `images/` root).
 - Deleted the unused `poster_overrides.csv`, `manifesti_report.csv` and
   `posters_wiht_no_imdb_id.csv` from `static/data/`, plus `static/.gitkeep` and
   the empty `static/images/posters/`.
