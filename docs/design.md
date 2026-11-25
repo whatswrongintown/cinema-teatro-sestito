@@ -173,21 +173,12 @@ programme rows (`.shows`, `.show`) and the reading column (`.prose`).
 
 ### Cinema per adulti ed exploitation (U12)
 
-`content/programmazione-storica/cinema-per-adulti/_index.md`, layout
-`layouts/programmazione-storica/adulti.html`, at
-`/programmazione-storica/cinema-per-adulti/`:
-
-- hero with the page body (from the Progetto text until the owner's article
-  exists) and the `nota` on the censored promotional material;
-- figures and the existing `film-per-adulti-per-anno` chart;
-- every printed poster of the films tagged `per-adulti` in `films.json`,
-  grouped by the decade of the first screening, with the site lightbox;
-- the screenings tagged "Per adulti", by year, in collapsible lists.
-
-`filmAggiuntivi` (IMDb IDs) adds erotic or exploitation titles that the data
-tags with other genres, so they also appear here. The page is a place for
-this chapter's story; these films are not hidden anywhere else on the site.
-Linked from the Programmazione storica page and the site map.
+The dedicated page (`/programmazione-storica/cinema-per-adulti/`) was removed
+on 2026-11-25 at the owner's request (U16): the article "Le luci rosse del
+Cinema Sestito" tells this chapter, and its front matter `aliases` keeps the
+old URL working as a redirect. The posters are in the Posters genre page
+"Per adulti"; the yearly share chart stays on the Generi index. These films
+are not hidden anywhere on the site.
 
 ### Articles (Storie)
 
@@ -227,14 +218,12 @@ Templates `layouts/articoli/list.html` and `layouts/articoli/single.html`.
 
 Templates and data are described in `historical-programming.md` ("Page
 templates"). In short: the landing page leads with figures, section cards
-and a band per decade with its best-known posters; the indexes put the
-years, genres, countries and sources first and the analysis with its charts
-after ("La lettura dei dati"); the detail pages show a poster strip, the
-tables as programme listings (dates as "dom 2 gen") and, for years, the
-charts after the listing. The static SVG charts keep their white background
-and mint colours (their conventions are explained in the methodology); the
-dashboard (`static/css/dashboard.css`) now uses the site tokens for its
-panels, counters, tabs and fields, with the same mint chart colours.
+and a band per decade with its best-known posters (four section cards since
+the adult films page was removed, U16); the indexes open with a short text
+and its charts, then list the years, genres, countries and sources (U16,
+2026-11-25); the detail pages show a poster strip, on year pages the charts,
+then the tables as programme listings (dates as "dom 2 gen"). Charts and
+dashboard use the site palette (see Charts, U14).
 
 ### Archive, categories and tags
 

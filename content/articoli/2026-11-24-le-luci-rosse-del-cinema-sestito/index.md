@@ -4,6 +4,8 @@ description: "Perché e come la sala di San Vito programmò film per adulti ed e
 author: Vito Sestito
 date: '2026-11-24'
 slug: luci-rosse-cinema-per-adulti-ed-exploitation
+aliases:
+  - /programmazione-storica/cinema-per-adulti/
 image: "/images/manifesti/large/fotobuste-50x70/tt0251937_50x70_01.webp"
 imageCaption: "Fotobusta di «Guardiamola nuda e… poi decidiamo», il primo film «per adulti» del registro: in sala il 26 luglio 1977."
 categories:
@@ -64,7 +66,7 @@ Tra i documenti oggi pubblicati non ci sono lettere simili per gli anni Settanta
 
 ## I manifesti in piazza
 
-I manifesti venivano affissi in piazza dal fondatore e da due familiari, e restavano alla vista di tutto il paese. L'archivio ne conserva 137, relativi a 124 film per adulti: per otto film su dieci il pezzo principale è un manifesto di grande formato, per gli altri una locandina o una fotobusta. Si possono sfogliare tutti nella [pagina dedicata](/programmazione-storica/cinema-per-adulti/) e, per anno, nella [raccolta dei manifesti](/posters/).
+I manifesti venivano affissi in piazza dal fondatore e da due familiari, e restavano alla vista di tutto il paese. L'archivio ne conserva 137, relativi a 124 film per adulti: per otto film su dieci il pezzo principale è un manifesto di grande formato, per gli altri una locandina o una fotobusta. Si possono sfogliare nella [raccolta dei manifesti](/posters/by-genre/per-adulti/), alla voce «Per adulti».
 
 {{< manifesto id="tt0201317" lato="destra" didascalia="Un titolo che parla di vizi segreti, affisso in piazza alla vista di tutti." >}}
 

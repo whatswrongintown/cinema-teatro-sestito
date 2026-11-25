@@ -2,7 +2,7 @@
 title: Programmazione storica
 author: Vito Sestito
 date: '2023-04-21'
-lastmod: '2026-11-24'
+lastmod: '2026-11-25'
 description: "Archivio delle proiezioni del Cinema Teatro Sestito dal 1948 al 2004, ricostruito attraverso le fonti originali conservate dalla famiglia Sestito."
 slug: "programmazione-storica"
 image: "avvolgitore_prevost.jpg"
@@ -22,9 +22,6 @@ params:
     - pagina: /programmazione-storica/paesi-di-produzione
       titolo: Paesi
       testo: "La provenienza dei film, dall'Italia del dopoguerra al mondo."
-    - pagina: /programmazione-storica/cinema-per-adulti
-      titolo: Per adulti ed exploitation
-      testo: "Il cinema erotico e di genere degli anni Settanta e Ottanta."
 ---
 
 La **programmazione cinematografica** del cinema Sestito costituisce una delle componenti centrali dell’archivio documentario, offrendo una testimonianza diretta della vita culturale e sociale di San Vito sullo Ionio nel secondo dopoguerra. Attraverso l’analisi di fonti primarie - tra cui registri, appunti, e calendari - è stato possibile ricostruire, anno per anno, l’offerta filmica della sala e le sue trasformazioni nel tempo.

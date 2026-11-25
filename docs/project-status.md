@@ -268,23 +268,18 @@ TODO / DOING / DONE / DEFERRED, with dates. Assistant rules are in `CLAUDE.md`.
   light (about 60 posters per page today). Do not modify `films.json` or
   `static/images/manifesti/`; keep thumbnails at most 400 px wide. The
   U04 count questions are closed (2026-11-25).
-- **U12 - DOING 2026-11-24: page on adult and exploitation films**
-  (`content/programmazione-storica/cinema-per-adulti/_index.md`, layout
-  `layouts/programmazione-storica/adulti.html`, on `redesign/home-prototype`).
-  The owner wants this part of the cinema's history documented on its own
-  page. 2026-11-24: the owner decided these films are not hidden anywhere
-  else either: they are part of Italian film culture, the material is not
-  explicit and the posters were public in the town square. The page has the 291
-  screenings and 124 films with posters tagged "Per adulti", the yearly share
-  chart, the posters by decade and the screenings by year (details in
-  `design.md`). Erotic or exploitation titles not tagged "Per adulti" (for
-  example "L'ultima orgia del III Reich", or tt0217779, tagged Commedia with
-  a poster marked V.M. 18, already added) can be added by IMDb ID to
-  `filmAggiuntivi` in the page's front matter so they appear on this page
-  too.
+- **U12 - DOING 2026-11-24: adult and exploitation films.** 2026-11-24: the
+  owner decided these films are not hidden anywhere: they are part of Italian
+  film culture, the material is not explicit and the posters were public in
+  the town square. 2026-11-25 (U16): the dedicated page
+  `/programmazione-storica/cinema-per-adulti/` (posters by decade, screenings
+  by year, `filmAggiuntivi`) was removed at the owner's request, since the
+  article tells the story; the old URL redirects to the article (`aliases`),
+  which links the Posters genre page "Per adulti" instead. The yearly share
+  chart stays on the Generi index.
   2026-11-24: article drafted from the owner's answers and the data:
   `content/articoli/2026-11-24-le-luci-rosse-del-cinema-sestito/` ("Le luci
-  rosse del Cinema Sestito"), linked from the page. TODO (owner asks their
+  rosse del Cinema Sestito"). TODO (owner asks their
   father, then the text is completed; the gaps are marked in a comment at the
   top of the article): where the films came from (distributors, circuits);
   anecdotes; how the family felt; title and date of the evening with a live
@@ -337,6 +332,27 @@ TODO / DOING / DONE / DEFERRED, with dates. Assistant rules are in `CLAUDE.md`.
   Progetto page; a progress cue; the latest update date shown ("Aggiornato il
   ..."); light, no heavy JavaScript (Lighthouse, U03). Depends on U08: do not
   publish plans or dates before the owner confirms them.
+- **U16 - DOING 2026-11-25: restructure the historical programming
+  subsections.** Requested by the owner: the text of each index sat at the
+  end of the page ("La lettura dei dati", after the full list of years,
+  genres, countries or sources), and year pages showed their charts after
+  the long listing. The texts were also long and partly outdated. Owner's
+  decisions (2026-11-25), done on branch `programmazione-sottosezioni`:
+  - Anni, Generi, Paesi, Fonti: a shorter text with its charts on top,
+    then the index (`layouts/partials/programmazione/sezione.html`). The
+    texts keep what explains the charts and the counting conventions
+    (Drammatico removed when combined, co-productions counted in every
+    country, 1960 and 1961 partial).
+  - Fonti: the numbered list of source types was removed from the text;
+    the index keeps a card per source, linked to its page, with the first
+    scan as image (24 sources were never scanned and show a text card).
+  - Year pages: the charts ("I numeri del ...") above the listing
+    (`layouts/programmazione-storica/single.html`).
+  - The "Per adulti ed exploitation" page was removed (see U12); the
+    landing page now has four section cards.
+  Next: the owner reviews the shortened Italian texts in the preview, then
+  merge to `main`. Possible later: month links on year pages, as on the
+  Posters year pages.
 - No feature roadmap yet: new ideas are agreed with the owner and listed here
   when they are approved.
 

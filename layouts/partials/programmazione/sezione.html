@@ -1,9 +1,10 @@
 {{- /*
 Index pages of the historical programming (Anni, Generi, Paesi, Fonti),
 redesign U07: dark header (title, description, number of pages, the section
-image), the index (years by decade, genres and countries as tiles sized by
-their screenings, sources as cards by type), then the page text with its
-charts as "La lettura dei dati". The mode comes from the section folder.
+image), the page text with its charts, kept short (U16: above the index since
+2026-11-25), then the index (years by decade, genres and countries as tiles
+sized by their screenings, sources as cards by type, with the first scan as
+image). The mode comes from the section folder.
 Call with: partial "programmazione/sezione.html" .
 */ -}}
 {{- $page := . }}
@@ -38,6 +39,16 @@ Call with: partial "programmazione/sezione.html" .
       {{- end }}
     </div>
   </section>
+
+  {{- if strings.TrimSpace (string $a.content) }}
+  <section class="article-body tone-light programme-intro" aria-label="Introduzione">
+    <div class="wrap">
+      <div class="prose">
+        {{ $a.content }}
+      </div>
+    </div>
+  </section>
+  {{- end }}
 
   <section class="programme-index tone-dark" aria-label="Indice">
     <div class="wrap">
@@ -98,15 +109,4 @@ Call with: partial "programmazione/sezione.html" .
     </div>
   </section>
 
-  {{- if strings.TrimSpace (string $a.content) }}
-  <section class="article-body tone-light" aria-labelledby="programme-reading">
-    <div class="wrap">
-      <div class="prose">
-        <p class="label home-kicker">Dati e metodo</p>
-        <h2 id="programme-reading" class="home-h2">La lettura dei dati</h2>
-        {{ $a.content }}
-      </div>
-    </div>
-  </section>
-  {{- end }}
 </main>

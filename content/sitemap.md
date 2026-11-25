@@ -11,7 +11,6 @@ Un elenco di tutte le pagine e gli articoli presenti sul sito. Se non trovi quel
 * [Home](/)
 * [Progetto](/progetto/)
   * [Programmazione storica](/programmazione-storica/)
-    * [Cinema per adulti ed exploitation](/programmazione-storica/cinema-per-adulti/)
   * [Manifesti e locandine](/posters/)
   * [Articoli e racconti](/articoli/)
   * [Archivio](/archivio/)

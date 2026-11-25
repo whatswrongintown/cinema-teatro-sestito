@@ -59,15 +59,16 @@ Page templates (redesign U07, details in `design.md`):
 - `layouts/partials/programmazione/sezione.html`: the Anni, Generi, Paesi
   and Fonti indexes (called by their `list.html`): years by decade with
   counts, genres and countries as tiles sized by their screenings, sources
-  as cover cards by type, then the page text and charts as "La lettura dei
-  dati". The opening image of the body moves to the header
+  as cover cards by type (the first scan as image), preceded by the page text
+  and charts, kept short (U16, 2026-11-25). The opening image of the body
+  moves to the header
   (`partials/articoli/apertura.html`).
 - `layouts/programmazione-storica/single.html`: year, genre, country and
   source pages: header with figures and links to the other years or genres,
   a strip of posters from `partials/programmazione/striscia.html` (films
   of those screenings with a poster in `films.json`, most IMDb votes first),
-  the tables, and on year pages the part before `<!--more-->` (the charts)
-  after the tables.
+  on year pages the part before `<!--more-->` (the charts), then the tables
+  (charts above the listing since U16).
 
 Rules for editing pages:
 
@@ -75,7 +76,7 @@ Rules for editing pages:
   the last line. Never paste tables into the Markdown.
 - Year pages have `<!--more-->` before the tables (before the partial-year note
   on 1960 and 1961) so RSS summaries contain only the introduction. The year
-  template also uses it: the part before is shown after the tables.
+  template also uses it: the part before is shown above the tables.
 - A page's title is its matching key: renaming a source, genre or country page
   title breaks its table (the build warns when a page has no rows, and fails
   when a year page has no rows or a source has no page).

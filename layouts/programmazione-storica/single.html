@@ -1,9 +1,10 @@
 {{- /*
 Year, genre, country and source pages of the historical programming,
 redesign U07: dark header (title, description, figures, links to the other
-years or genres), the posters of those films, then the programme tables
-(built by the programmazione-tabelle shortcode in the page body) and, on
-year pages, the year's charts (the part of the body before <!--more-->).
+years or genres), the posters of those films, on year pages the year's
+charts (the part of the body before <!--more-->; above the listing since U16),
+then the programme tables (built by the programmazione-tabelle shortcode in
+the page body).
 */ -}}
 {{ partial "header.html" . }}
 {{- $page := . }}
@@ -60,20 +61,6 @@ year pages, the year's charts (the part of the body before <!--more-->).
   {{- $titoliStriscia := dict "anni" (printf "I manifesti del %v" .Params.anno) "generi" (printf "I manifesti: %s" .Title) "paesi" (printf "I manifesti: %s" .Title) "fonti" "I manifesti dei film di questa fonte" }}
   {{ partial "programmazione/striscia.html" (dict "rows" $rows "titolo" (index $titoliStriscia $modo) "link" $link "n" 8) }}
 
-  <section class="article-body tone-light programme-tables" aria-labelledby="programme-tables-title">
-    <div class="wrap">
-      <div class="prose">
-        <p class="label home-kicker">{{ index $etichette $modo }}</p>
-        <h2 id="programme-tables-title" class="home-h2">{{ if eq $modo "anni" }}Il cartellone del {{ .Params.anno }}{{ else if eq $modo "fonti" }}Le pagine e le proiezioni{{ else }}Le proiezioni, anno per anno{{ end }}</h2>
-        {{- if eq $modo "anni" }}
-        {{ .ContentWithoutSummary }}
-        {{- else }}
-        {{ .Content }}
-        {{- end }}
-      </div>
-    </div>
-  </section>
-
   {{- if eq $modo "anni" }}
   {{- with .Summary }}
   <section class="article-body tone-light programme-charts" aria-labelledby="programme-charts-title">
@@ -87,6 +74,20 @@ year pages, the year's charts (the part of the body before <!--more-->).
   </section>
   {{- end }}
   {{- end }}
+
+  <section class="article-body tone-light programme-tables" aria-labelledby="programme-tables-title">
+    <div class="wrap">
+      <div class="prose">
+        <p class="label home-kicker">{{ index $etichette $modo }}</p>
+        <h2 id="programme-tables-title" class="home-h2">{{ if eq $modo "anni" }}Il cartellone del {{ .Params.anno }}{{ else if eq $modo "fonti" }}Le pagine e le proiezioni{{ else }}Le proiezioni, anno per anno{{ end }}</h2>
+        {{- if eq $modo "anni" }}
+        {{ .ContentWithoutSummary }}
+        {{- else }}
+        {{ .Content }}
+        {{- end }}
+      </div>
+    </div>
+  </section>
 
   <nav class="article-more tone-dark" aria-label="Pagine vicine">
     <div class="wrap">

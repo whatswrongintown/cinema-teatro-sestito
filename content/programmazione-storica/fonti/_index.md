@@ -3,7 +3,7 @@ title: "Fonti della programmazione"
 linkTitle: "Fonti"
 author: "Vito Sestito"
 date: "2025-10-16"
-lastmod: '2026-11-18'
+lastmod: '2026-11-25'
 description: "Le diverse tipologie di documenti utilizzate per ricostruire la programmazione del Cinema Teatro Sestito."
 layout: "section"
 slug: "fonti"
@@ -11,18 +11,7 @@ image: "agenda_fedi_54_55.webp"
 ---
 
 ![Copertina del calendario di programmazione Fedi 1954-1955](agenda_fedi_54_55.webp)
-Questa sezione raccoglie e descrive le diverse **fonti originali** che hanno permesso di ricostruire la programmazione cinematografica.
 
-Le principali tipologie di fonti sono:
-
-1. 🗒️ **[Agende](/categories/agende/)** cinematografiche distribuite dalle case di distribuzione. Riportano, giorno per giorno, i film programmati, il distributore e gli incassi registrati.
-2. 📰 **[Calendari](/categories/calendari/)** murali o da tavolo utilizzati per annotare la programmazione del cinema. Indicano le date di proiezione, i titoli e, in molti casi, gli incassi.
-3. 📅  **[Rubriche](/categories/rubriche/)** in cui venivano elencati in ordine alfabetico i film proiettati, con l’indicazione della data, incasso e in alcuni casi del distributore.
-4. ✍️  **[Appunti](/categories/appunti/)**, blocchi o fogli sciolti su cui erano annotati i film mese per mese, talvolta accompagnati dai relativi incassi.
-5. 🎞️ **[Note sui manifesti](/1965/01/01/note-sui-manifesti)**, date di proiezione annotate sul retro dei manifesti cinematografici; i film sono elencati per anno e mese.
+La programmazione è stata ricostruita da **fonti originali** di cinque tipi: le agende delle case di distribuzione, i calendari, le rubriche, gli appunti e le date annotate sul retro dei manifesti. Il grafico mostra quali fonti coprono ciascun decennio; più sotto ogni fonte ha la sua pagina, con le scansioni e le proiezioni che documenta.
 
 {{< grafico nome="fonti-per-decennio" alt="Presenza delle tipologie di fonti per decennio" >}}
-
----
-
-Ogni fonte racconta una parte diversa della storia del cinema, rivelando non solo i titoli proiettati, ma anche le abitudini, le relazioni e il lavoro quotidiano che animava la sala di San Vito sullo Ionio.
