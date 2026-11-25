@@ -1,6 +1,6 @@
 # Project status
 
-Last review: 2026-11-24. Read this file first and update it whenever a decision
+Last review: 2026-11-25. Read this file first and update it whenever a decision
 is made. Documentation is in English, site content in Italian. Status words:
 TODO / DOING / DONE / DEFERRED, with dates. Assistant rules are in `CLAUDE.md`.
 
@@ -116,7 +116,7 @@ TODO / DOING / DONE / DEFERRED, with dates. Assistant rules are in `CLAUDE.md`.
   on a full build: every `og:image` points to a file in `public/`. The static
   cleanup is done: `static/programmazione-storica/` and every `index_files`
   folder are gone.
-- **U04 - DONE 2026-11-24: charts in the Posters subsections** (per year in Per anno, format and genre by decade in Per formato and Per genere); see `posters.md`. DONE 2026-11-24 (cause found, details in `posters.md`): the year and decade counts count a poster once per screening year (1,960 vs 1,511 distinct dated posters); captions say so. 2026-11-24: genre chart now includes undated posters and excludes Drammatico (see `posters.md`). TODO: owner to decide whether to regenerate the CSVs counting each poster once per decade; the 251 gap (recording file 2,038 vs `films.json` 1,787: probably duplicate copies) and the 1966 peak (archive/linking, not programming) are analysed in `posters.md` and wait for the owner to confirm.
+- **U04 - DONE 2026-11-24: charts in the Posters subsections** (per year in Per anno, format and genre by decade in Per formato and Per genere); see `posters.md`. DONE 2026-11-24 (cause found, details in `posters.md`): the year and decade counts count a poster once per screening year (1,960 vs 1,511 distinct dated posters); captions say so. 2026-11-24: genre chart now includes undated posters and excludes Drammatico (see `posters.md`). DONE 2026-11-25: the owner, who collected the data, confirmed it is correct: the CSVs are not regenerated; the 251 gap (recording file 2,038 vs `films.json` 1,787) is physical copies of the same poster digitised once; the 1966 peak is real (those posters were, probably by chance, saved and stored correctly). Details in `posters.md`.
 - **U05 - TODO 2026-11-24: show the real relative size of poster formats in
   the thumbnail galleries.** When posters of different formats (for example
   70x100, 100x70 and 140x200 cm) are listed together, every thumbnail is
@@ -253,7 +253,7 @@ TODO / DOING / DONE / DEFERRED, with dates. Assistant rules are in `CLAUDE.md`.
   the charts as a secondary layer (U07); pagination or lazy loading kept
   light (about 60 posters per page today). Do not modify `films.json` or
   `static/images/manifesti/`; keep thumbnails at most 400 px wide. The
-  decision on regenerating the CSVs and the gaps listed under U04 stay open.
+  U04 count questions are closed (2026-11-25).
 - **U12 - DOING 2026-11-24: page on adult and exploitation films**
   (`content/programmazione-storica/cinema-per-adulti/_index.md`, layout
   `layouts/programmazione-storica/adulti.html`, on `redesign/home-prototype`).

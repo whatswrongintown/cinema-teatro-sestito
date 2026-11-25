@@ -111,7 +111,8 @@ exists in Hugo 0.170.1); combinations missing from the CSVs count as 0. The
 site has no global CSS variables, so `poster-charts.css` declares its own,
 copied from `main.css` and `dashboard.css`.
 
-Open check (2026-11-24, explained, data not changed): the chart CSVs add up to
+Count check (DONE 2026-11-25, explained and confirmed by the owner, data not
+changed): the chart CSVs add up to
 1,960 dated posters + 527 undated, while the recording file
 (`programmazione_manifesti.csv`, 1,064 poster records) holds 2,038 posters and
 `films.json` 1,787. The 1,960 is not a number of posters: `poster_section.R`
@@ -121,9 +122,9 @@ records, up to 5 years; 449 extra counts). Counted once, 1,511 posters have a
 screening date (1,511 + 527 = 2,038). The same inflation affects the format and
 genre decade totals (1,712 distinct poster-decade counts instead of 1,960; e.g.
 1970s 762 against 869 published). The year chart is still a valid "posters in use
-that year"; the captions state that repeats are counted each year. To count each
-poster once per decade, use `distinct(internal_code, decade)` in the decade
-charts.
+that year"; the captions state that repeats are counted each year. The owner
+confirmed the data is correct (2026-11-25): the CSVs stay as they are and are
+not regenerated to count each poster once per decade.
 
 Genre chart (changed 2026-11-24): posters without a screening date are included
 in a "Senza data" column (CSV decade `senza_data`), because a film's genre does
@@ -161,9 +162,9 @@ gallery shows distinct images; the three chart captions say so.
 The 1966 peak (152 posters against 15 in 1965): it is not a programming effect,
 `programmazione_agende.csv` has 154 screenings in 1965 and 215 in 1966. What
 changes is how many screenings are linked to a poster: 6 films in 1965, 61 in
-1966, 50 in 1967, 31 in 1968. Possible causes, to be confirmed by the owner:
-posters were kept (or kept in the archive) from about 1966 onwards, or the
-earlier posters are not linked to screenings.
+1966, 50 in 1967, 31 in 1968. Confirmed by the owner (2026-11-25): the data is
+correct; the 1966 posters were, probably by chance, saved and stored
+correctly, while fewer from the earlier years survived.
 Owner's oral testimony (2026-11-24): the owner's father tried to keep most posters, and
 the grandfather had at first given many away, especially to children in the
 1950s and 1960s. The year intro (`by-year/_index.md`) cites it as "racconto di
