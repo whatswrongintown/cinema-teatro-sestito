@@ -301,9 +301,9 @@ TODO / DOING / DONE / DEFERRED, with dates. Assistant rules are in `CLAUDE.md`.
   Done: `static/images/icons/favicon.ico` (16, 32, 48 px), `favicon.png` (32 px,
   `params.favicon`) and `apple-touch-icon.png` (180 px, square: iOS rounds it),
   linked in `layouts/partials/head.html`; deleted the unused `avatar.png` and
-  footer SVGs. Rendered from the site Fraunces file, not vector. Approved by the
-  owner 2026-11-25. DEFERRED: optional `favicon.svg` (needs the glyph as
-  outlines). The social preview images are a
+  footer SVGs. `favicon.svg` has the "S" as outlines taken from the site Fraunces
+  file (made with fontTools; the PNG and ICO are fallbacks). Approved by the
+  owner 2026-11-25. The social preview images are a
   separate matter (see Decisions).
 - **U14 - TODO 2026-11-25: redesign all the charts with the new palette and
   fonts.** Requested by the owner. The charts (about 18 inline-SVG partials in
