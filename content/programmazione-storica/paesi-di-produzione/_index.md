@@ -6,6 +6,9 @@ date: '2025-12-02'
 lastmod: '2026-11-25'
 description: "I paesi di produzione dei film proiettati al cinema Sestito."
 image: "italia-estero-per-decennio.png"
+# The image stays for social sharing (U02) but is not repeated in the header: the chart is in the text.
+params:
+  immagineIntestazione: false
 slug: "paesi-di-produzione"
 type: "programmazione-storica/paesi-di-produzione"
 ---

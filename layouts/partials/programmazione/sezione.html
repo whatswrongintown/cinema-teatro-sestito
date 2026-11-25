@@ -33,7 +33,7 @@ Call with: partial "programmazione/sezione.html" .
         {{- with .Description }}<p class="home-lead posters-page-lead">{{ strings.FirstUpper . }}</p>{{ end }}
         <p class="label posters-page-count">{{ len .RegularPagesRecursive }} {{ index $unita $modo }}</p>
       </div>
-      {{- with $a.img }}
+      {{- with cond (eq .Params.immagineIntestazione false) false $a.img }}
       <figure class="articles-head-figure programme-head-figure">
         <img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="{{ $a.alt }}" decoding="async">
       </figure>

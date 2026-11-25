@@ -356,6 +356,9 @@ TODO / DOING / DONE / DEFERRED, with dates. Assistant rules are in `CLAUDE.md`.
     "Per paese" in the Posters menu, 39 countries with posters; see
     `posters.md`). Sources the same way: `posters/by-source`, "Per fonte", 79
     sources with posters. Local build about 90 s (60 s before).
+  - Paesi: the header no longer shows the Italia/estero chart (it is in the
+    text below); the `image` stays for social sharing (front matter
+    `immagineIntestazione: false`).
   - Year pages: the charts ("I numeri del ...") above the listing
     (`layouts/programmazione-storica/single.html`).
   - The "Per adulti ed exploitation" page was removed (see U12); the
