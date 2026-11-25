@@ -51,8 +51,15 @@
   text-decoration: none;
 }
 
+/* Brass (#A8823F) is only 3:1 on the light surface: darker for text. */
+.tone-light .home-more {
+  color: #7A5C1E;
+}
+
 .home-more:hover,
-.home-more:focus-visible {
+.tone-light .home-more:hover,
+.home-more:focus-visible,
+.tone-light .home-more:focus-visible {
   color: var(--curtain);
 }
 

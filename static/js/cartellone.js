@@ -91,6 +91,10 @@
     var img = el('img');
     img.src = r[6];
     img.alt = r[1] + ', ' + r[7].toLowerCase();
+    // Width and height from the format (e.g. "manifesto 70x100") reserve the
+    // space, as the build-time markup does.
+    var dim = /(\d+)x(\d+)/.exec(r[7]);
+    if (dim) { img.width = +dim[1]; img.height = +dim[2]; }
     img.loading = 'lazy';
     img.decoding = 'async';
     a.appendChild(img);
