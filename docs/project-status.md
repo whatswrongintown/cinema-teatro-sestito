@@ -351,6 +351,10 @@ TODO / DOING / DONE / DEFERRED, with dates. Assistant rules are in `CLAUDE.md`.
     never scanned and show a text card). The source pages moved into the
     type folders; their URLs are unchanged (checked on a full build: the
     only new pages are the four type pages). See `historical-programming.md`.
+  - Country pages: like genres, the poster strip links "Tutti i N film con
+    manifesto →" to a new Posters page per country (`posters/by-country`,
+    "Per paese" in the Posters menu, 39 countries with posters; see
+    `posters.md`). Build time unchanged (about 1 min). Next: sources.
   - Year pages: the charts ("I numeri del ...") above the listing
     (`layouts/programmazione-storica/single.html`).
   - The "Per adulti ed exploitation" page was removed (see U12); the

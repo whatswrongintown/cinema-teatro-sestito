@@ -3,6 +3,8 @@
 {{ $paginate := .paginate }}
 {{ $collection := $page.Params.collection | default "printed" }}
 {{ $retro := eq $collection "retro" }}
+{{ $paese := dict "_" true }}
+{{ with $page.Params.country }}{{ $paese = index (partialCached "posters/paesi.html" . "paesi") (lower .) | default (dict "_" true) }}{{ end }}
 {{ $cards := slice }}
 {{ range hugo.Data.posters.films.films }}
   {{ $film := . }}
@@ -17,6 +19,7 @@
   {{ with $page.Params.genre }}
     {{ $matches = and $matches (in $film.genre_slugs .) }}
   {{ end }}
+  {{ with $page.Params.country }}{{ $matches = and $matches (index $paese $film.film_id) }}{{ end }}
   {{ with $page.Params.letter }}
     {{ $matches = and $matches (eq $film.letter .) }}
   {{ end }}

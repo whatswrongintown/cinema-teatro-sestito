@@ -200,3 +200,19 @@ Format descriptions on the size pages are based on
 [Art of the Movies](https://artofthemovies.co.uk/blogs/original-movie-posters/italian-movie-posters-names-and-sizes)
 and [Mauvais Genres](https://www.mauvais-genres.com/en/content/45-movie-poster-size).
 The sources differ on the dimensions of one foglio; physical sheet sizes can vary.
+
+## Posters by country (U16, 2026-11-25)
+
+`content/posters/by-country/` ("Per paese", `browse: country`) works like the
+genre pages: an index of poster cards (`posters/page.html`, `copertina.html`)
+and one page per country (`layout: country`, front matter `country`, the
+country title as in the historical programming, e.g. "Italy"). `films.json` has
+no countries, so `partials/posters/paesi.html` reads them straight from
+`static/data/programmazione_paesi.csv` (film ID and country; a co-production
+counts in each country); `gallery.html`, `count.html` and `copertina.html`
+filter on it. It reads no pages: a first attempt that reused the programme
+data (`programmazione/dati.html`, which reads the source pages) made the build
+hang (over 30 minutes with two pages) and was dropped. Only the 39 countries
+with at least one poster have a page; the folder name is the slug of the
+programme country page, which links to it ("Tutti i N film con manifesto →").
+A country that gets posters later needs a page copied from a sibling.

@@ -71,8 +71,8 @@ poster gallery for the page's browse mode or layout.
         {{- end }}
       </div>
     </section>
-  {{- else if in (slice "genre" "size") .Params.browse }}
-    {{- /* Genres and formats as poster cards. */}}
+  {{- else if in (slice "genre" "size" "country") .Params.browse }}
+    {{- /* Genres, countries and formats as poster cards. */}}
     {{- $sezioni := cond (eq .Params.browse "size") .Sections.ByWeight .Sections.ByTitle }}
     <section class="posters-index tone-dark">
       <div class="wrap">

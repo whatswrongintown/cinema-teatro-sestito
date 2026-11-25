@@ -1,0 +1,17 @@
+{{- /*
+Production countries for the Posters pages by country: lower-case country
+name -> dict of film ID -> true, read straight from
+static/data/programmazione_paesi.csv (one row per film and country). It reads
+no pages, so Posters pages can use it while the programme pages are built.
+Call with: partialCached "posters/paesi.html" . "paesi"
+*/ -}}
+{{- $s := newScratch -}}
+{{- $csv := resources.Get "data/programmazione_paesi.csv" | transform.Unmarshal -}}
+{{- range after 1 $csv -}}
+  {{- $id := strings.TrimSpace (index . 0) -}}
+  {{- range split (index . 1) "," -}}
+    {{- $k := lower (strings.TrimSpace .) -}}
+    {{- if and $id $k }}{{ $s.SetInMap $k $id true }}{{ end -}}
+  {{- end -}}
+{{- end -}}
+{{- return $s.Values -}}

@@ -1,7 +1,7 @@
 {{- /*
 A representative poster for a Posters section page (genre or format card):
 among the films with a printed poster matching the section's category, size,
-genre and year, the best known one (most IMDb votes), preferring portrait
+genre, country and year, the best known one (most IMDb votes), preferring portrait
 posters. Returns a dict like home/manifesto.html (film, poster, formato) or
 false.
 Call with: partial "posters/copertina.html" (dict "sezione" $section "usati" $ids)
@@ -10,11 +10,14 @@ Call with: partial "posters/copertina.html" (dict "sezione" $section "usati" $id
 {{- $sec := .sezione -}}
 {{- $usati := .usati | default slice -}}
 {{- $labels := dict "manifesti" "Manifesto" "locandine" "Locandina" "fotobuste" "Fotobusta" -}}
+{{- $paese := dict "_" true -}}
+{{- with $sec.Params.country }}{{ $paese = index (partialCached "posters/paesi.html" . "paesi") (lower .) | default (dict "_" true) }}{{ end -}}
 {{- $best := false }}{{ $bestScore := -1.0 -}}
 {{- range hugo.Data.posters.films.films -}}
   {{- $film := . -}}
   {{- if in $usati $film.film_id }}{{ continue }}{{ end -}}
   {{- with $sec.Params.genre }}{{ if not (in $film.genre_slugs .) }}{{ continue }}{{ end }}{{ end -}}
+  {{- with $sec.Params.country }}{{ if not (index $paese $film.film_id) }}{{ continue }}{{ end }}{{ end -}}
   {{- with $sec.Params.year -}}
     {{- $anno := int . }}{{ $ok := false -}}
     {{- range $film.screenings }}{{ if eq (int .year) $anno }}{{ $ok = true }}{{ end }}{{ end -}}
