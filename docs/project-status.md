@@ -98,7 +98,10 @@ TODO / DOING / DONE / DEFERRED, with dates. Assistant rules are in `CLAUDE.md`.
   100, SEO 100. The performance loss was layout shift (CLS 0.294) from late web
   fonts and an unsized poster image: fixed 2026-11-25 by preloading the three
   fonts, adding width and height to the featured poster, and darkening two text
-  colours that failed contrast. TODO: rerun Lighthouse on the home page,
+  colours that failed contrast. After the fix: performance 97, CLS 0,
+  accessibility 100. Follow-up 2026-11-25: dropped the preload of the Fraunces
+  italic (not above the fold) and the featured poster now uses the thumbnail
+  (25 KB) instead of the 226 KB large image. TODO: rerun Lighthouse on the home page,
   /posters/ and a film page after the deploy.
 - **U02 - DONE 2026-11-23: social-sharing images.** `layouts/partials/social-image.html`
   (called by `head.html`) picks the page's `image:` (a bundle file or an
