@@ -1,0 +1,65 @@
+<!doctype html>
+<!--
+  Source of the house share card, content/social-card.png (U17, see
+  docs/design.md, section "Share cards"). It mirrors the home hero: kicker,
+  site name with "Sestito" in italic curtain red, and the three posters of
+  params.manifestiHero in content/_index.md. If those posters change, update
+  the three <img> paths below and render it again (1200x630) with Edge, from
+  the repository root:
+
+  & "C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" --headless=new --disable-gpu --hide-scrollbars --force-device-scale-factor=1 --window-size=1200,630 --screenshot="$PWD\content\social-card.png" "$PWD\docs\share-card\house-card.html"
+-->
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<title>Cinema Teatro Sestito - share card</title>
+<style>
+  @font-face { font-family: 'Fraunces'; font-style: normal; font-weight: 300 900; src: url('../../static/fonts/fraunces-variable-latin.woff2') format('woff2'); }
+  @font-face { font-family: 'Fraunces'; font-style: italic; font-weight: 300 900; src: url('../../static/fonts/fraunces-italic-variable-latin.woff2') format('woff2'); }
+  @font-face { font-family: 'Archivo'; font-style: normal; font-weight: 400 800; font-stretch: 62% 125%; src: url('../../static/fonts/archivo-variable-latin.woff2') format('woff2'); }
+  html, body { margin: 0; width: 1200px; height: 630px; overflow: hidden; }
+  body {
+    position: relative;
+    background: #14100E;
+    color: #F3EBDD;
+  }
+  .testo { position: absolute; left: 84px; top: 0; bottom: 0; display: flex; flex-direction: column; justify-content: center; gap: 28px; }
+  .label {
+    margin: 0;
+    font-family: 'Archivo', sans-serif;
+    font-stretch: 75%;
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #C9A45C;
+  }
+  h1 {
+    margin: 0;
+    font-family: 'Fraunces', serif;
+    font-weight: 400;
+    font-size: 124px;
+    line-height: 0.92;
+    letter-spacing: -0.03em;
+  }
+  h1 em { font-weight: 600; color: #E4584A; }
+  .manifesti { position: absolute; right: 56px; top: 92px; width: 540px; height: 500px; }
+  .manifesti img { position: absolute; display: block; height: auto; box-shadow: 0 24px 50px rgba(0, 0, 0, 0.55); }
+  .m0 { left: 22%; top: 0; width: 56%; box-shadow: 0 30px 70px rgba(0, 0, 0, 0.7); z-index: 2; }
+  .m1 { left: 0; top: 13%; width: 46%; transform: rotate(-7deg); filter: brightness(0.8); }
+  .m2 { right: 0; top: 17%; width: 46%; transform: rotate(6deg); filter: brightness(0.8); }
+</style>
+</head>
+<body>
+  <div class="testo">
+    <p class="label">San Vito sullo Ionio · 1946–2004</p>
+    <h1>Cinema<br>Teatro<br><em>Sestito</em></h1>
+    <p class="label">cinemateatrosestito.com</p>
+  </div>
+  <div class="manifesti">
+    <img class="m1" src="../../static/images/manifesti/large/manifesti-100x140/tt0047630_100x140_01.webp" alt="">
+    <img class="m2" src="../../static/images/manifesti/large/manifesti-70x100/tt0057443_70x100_01.webp" alt="">
+    <img class="m0" src="../../static/images/manifesti/large/manifesti-140x200/tt0054788_140x200_01.webp" alt="">
+  </div>
+</body>
+</html>

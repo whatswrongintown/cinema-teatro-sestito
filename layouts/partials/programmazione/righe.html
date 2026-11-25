@@ -1,0 +1,15 @@
+{{- /*
+The screenings of a historical programming detail page (a year, genre,
+country or source page): its mode, from the parent folder, and its rows from
+programmazione/dati.html. Used by the page layout and by the social image.
+Returns dict "modo" ("anni", "generi", "paesi" or "fonti") "rows" <slice>.
+Call with: partial "programmazione/righe.html" $page
+*/ -}}
+{{- $cartelle := dict "anni" "anni" "generi" "generi" "paesi-di-produzione" "paesi" "fonti" "fonti" -}}
+{{- $modo := "fonti" -}}
+{{- with .Parent }}{{ $modo = index $cartelle (path.Base (strings.TrimSuffix "/" .RelPermalink)) | default "fonti" }}{{ end -}}
+{{- $dati := partialCached "programmazione/dati.html" . "programmazione" -}}
+{{- $rows := slice -}}
+{{- if eq $modo "anni" }}{{ $rows = index $dati.gruppi (printf "anni|%v" .Params.anno) | default slice -}}
+{{- else }}{{ $rows = index $dati.gruppi (printf "%s|%s" $modo (lower (strings.TrimSpace .Title))) | default slice }}{{ end -}}
+{{- return dict "modo" $modo "rows" $rows -}}

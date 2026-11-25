@@ -1,0 +1,26 @@
+{{- /* One image resource as a 1200x630 JPEG share card (U17).
+       Wide images (aspect 1.5 to 2.4) are cropped to fill the card, with
+       Hugo's smart crop; any other shape (posters, documents, very wide
+       charts) is shown whole, centred on the site's dark background (tone-dark --paper),
+       with a margin. Processed images are cached (see netlify.toml).
+       Call with: partial "social-card.html" $imageResource */ -}}
+{{- $w := 1200 }}{{ $h := 630 }}{{ $margine := 36 -}}
+{{- $sfondo := "#14100e" -}}
+{{- $r := div (float .Width) .Height -}}
+{{- $card := false -}}
+{{- if and (ge $r 1.5) (le $r 2.4) -}}
+  {{- $card = .Fill (printf "%dx%d smart jpg q82 %s" $w $h $sfondo) -}}
+{{- else -}}
+  {{- $bw := sub $w (mul 2 $margine) }}{{ $bh := sub $h (mul 2 $margine) -}}
+  {{- $img := false -}}
+  {{- if gt $r (div (float $bw) $bh) -}}
+    {{- $img = .Resize (printf "%dx jpg q90 %s" $bw $sfondo) -}}
+  {{- else -}}
+    {{- $img = .Resize (printf "x%d jpg q90 %s" $bh $sfondo) -}}
+  {{- end -}}
+  {{- $sx := div (sub $w $img.Width) 2 }}{{ $dx := sub (sub $w $img.Width) $sx -}}
+  {{- $sy := div (sub $h $img.Height) 2 }}{{ $dy := sub (sub $h $img.Height) $sy -}}
+  {{- $card = $img | images.Filter (images.Padding $sy $dx $dy $sx $sfondo) -}}
+  {{- $card = $card.Process "jpg q82" -}}
+{{- end -}}
+{{- return $card -}}

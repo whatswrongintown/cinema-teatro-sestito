@@ -4,7 +4,6 @@ author: Vito Sestito
 date: '1983-01-01'
 slug: programmazione-1983
 description: Programmazione cinematografica del Cinema Teatro Sestito nel 1983.
-image: "proiezioni-mensili.png"
 categories:
   - programmazione-per-anni
 params:

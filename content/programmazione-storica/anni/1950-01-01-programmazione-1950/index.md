@@ -4,7 +4,6 @@ author: Vito Sestito
 date: '1950-01-01'
 slug: programmazione-1950
 description: Programmazione cinematografica del Cinema Teatro Sestito nel 1950.
-image: "proiezioni-mensili.png"
 categories:
   - programmazione-per-anni
 params:

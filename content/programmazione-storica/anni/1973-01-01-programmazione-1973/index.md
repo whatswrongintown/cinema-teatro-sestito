@@ -4,7 +4,6 @@ author: Vito Sestito
 date: '1973-01-01'
 slug: programmazione-1973
 description: Programmazione cinematografica del Cinema Teatro Sestito nel 1973.
-image: "proiezioni-mensili.png"
 categories:
   - programmazione-per-anni
 params:

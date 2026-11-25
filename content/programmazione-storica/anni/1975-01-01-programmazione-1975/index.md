@@ -4,7 +4,6 @@ author: Vito Sestito
 date: '1975-01-01'
 slug: programmazione-1975
 description: Programmazione cinematografica del Cinema Teatro Sestito nel 1975.
-image: "proiezioni-mensili.png"
 categories:
   - programmazione-per-anni
 params:

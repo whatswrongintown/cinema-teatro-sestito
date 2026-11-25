@@ -4,7 +4,6 @@ author: Vito Sestito
 date: '1970-01-01'
 slug: programmazione-1970
 description: Programmazione cinematografica del Cinema Teatro Sestito nel 1970.
-image: "proiezioni-mensili.png"
 categories:
   - programmazione-per-anni
 params:

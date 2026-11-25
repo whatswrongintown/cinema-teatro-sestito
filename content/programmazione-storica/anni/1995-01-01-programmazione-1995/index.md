@@ -4,7 +4,6 @@ author: Vito Sestito
 date: '1995-01-01'
 slug: programmazione-1995
 description: Programmazione cinematografica del Cinema Teatro Sestito nel 1995.
-image: "proiezioni-mensili.png"
 categories:
   - programmazione-per-anni
 params:

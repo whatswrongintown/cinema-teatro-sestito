@@ -4,7 +4,6 @@ author: Vito Sestito
 date: '2003-01-01'
 slug: programmazione-2003
 description: Programmazione cinematografica del Cinema Teatro Sestito nel 2003.
-image: "proiezioni-mensili.png"
 categories:
   - programmazione-per-anni
 params:

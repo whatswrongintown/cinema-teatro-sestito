@@ -4,7 +4,6 @@ author: Vito Sestito
 date: '1986-01-01'
 slug: programmazione-1986
 description: Programmazione cinematografica del Cinema Teatro Sestito nel 1986.
-image: "proiezioni-mensili.png"
 categories:
   - programmazione-per-anni
 params:

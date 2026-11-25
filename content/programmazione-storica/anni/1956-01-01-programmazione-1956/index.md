@@ -4,7 +4,6 @@ author: Vito Sestito
 date: '1956-01-01'
 slug: programmazione-1956
 description: Programmazione cinematografica del Cinema Teatro Sestito nel 1956.
-image: "proiezioni-mensili.png"
 categories:
   - programmazione-per-anni
 params:

@@ -259,6 +259,56 @@ page in curtain red), `.years` (year index), `.cards-posters` (genre and format
 cards), `.posters-page .poster-grid` (larger thumbnails with titles) and the
 film page classes `.film-*`.
 
+## Share cards (U17)
+
+What a link to the site shows on social networks and in chat apps (Open
+Graph and Twitter metadata, `layouts/partials/head.html`). Every page shares
+one 1200x630 JPEG card (about 30-190 KB) made by Hugo at build time, with
+its width, height, type and alt text declared, and `og:locale` `it_IT`.
+
+Rule for every page, old and new:
+
+1. **Its own image.** A page with front matter `image:` shares that image:
+   articles (their hero), archive documents (their scan), historical sources
+   (their first scan) and the section pages with a hero. `image:` is a file
+   in the page bundle or an absolute path under `static/` (for example
+   `/images/manifesti/large/...`). **Every article must have `image:`**: it
+   is both its hero and its share card, and the build warns about an article
+   without one, or with an `image:` that does not exist. `imageCaption` (else
+   the title) becomes the card's alt text.
+2. **A poster, for pages that list films.** Posters list pages share the
+   poster of their card (`posters/copertina.html`; browse pages the first
+   card's, letter pages the best-known film of that letter); year, genre,
+   country and source pages of the historical programming share the first
+   poster of their strip (`programmazione/manifesti.html`). Film pages have
+   their first poster as `image:` (content adapter).
+3. **The house card** for everything else (home, Il progetto, Eventi, the
+   archive and taxonomy lists, small pages, and programme pages without any
+   poster): `content/social-card.png`, `params.defaultImage`, with
+   `params.defaultImageAlt`.
+
+The logic is in `layouts/partials/social-image.html` (choice of image) and
+`layouts/partials/social-card.html` (format): an image with an aspect ratio
+between 1.5 and 2.4 is cropped to fill the card (Hugo smart crop); any other
+shape (posters, documents, tall photos, very wide banners) is shown whole,
+centred on the dark background `#14100E` with a 36 px margin, never cropped.
+Do not add separate preview images (such as chart PNGs) for sharing: pick
+the page's `image:` instead.
+
+The house card mirrors the home hero: kicker, wordmark with "Sestito" in
+italic curtain red, the address and the three posters of
+`params.manifestiHero`. Its source is `docs/share-card/house-card.html`
+(site fonts and poster files by relative path); the command to render it
+again with Edge is in that file. Render it again if the hero posters change.
+
+The cards are about 1,200 processed images. Locally the first build after a
+change to `social-card.html` takes about 6 minutes, then they come from the
+image cache (on Netlify the cache is kept between deploys, see U01).
+
+Platforms cache previews per URL: after a change, re-scrape a page in
+Facebook's Sharing Debugger (also used by WhatsApp and Instagram) or LinkedIn's
+Post Inspector; old previews in existing chats do not change.
+
 ## Next steps
 
 See U07 in `project-status.md`: the redesign is merged and deployed, and the
