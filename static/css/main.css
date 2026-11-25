@@ -35,21 +35,6 @@ body {
 }
 
 
-.poster-size {
-  display: block;
-  margin-top: 0.3rem;
-}
-
-.poster-size {
-  position: absolute;
-  right: 0.25rem;
-  bottom: 0.25rem;
-  padding: 0.1rem 0.3rem;
-  color: white;
-  background: rgba(0, 0, 0, 0.75);
-  font-size: 0.85em;
-}
-
 .poster-month {
   content-visibility: auto;
   contain-intrinsic-size: auto 600px;

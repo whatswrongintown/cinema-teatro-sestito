@@ -32,7 +32,7 @@ of the repository.
   - year pages: month links and one gallery per month, plus a link to that
     year's programme; other pages: the paginated gallery (60 per page).
   Gallery cards (`posters/gallery.html`) show the title (a link to the film
-  page) and the production year; the Retro size labels are unchanged (U06).
+  page) and the production year (in a fixed-height block when drawn to scale).
 - Posters to scale (U05, 2026-11-25): when a gallery (`posters/gallery.html`,
   one per month on year pages) or a film page's posters
   (`posters/film-images.html`) mix formats, the grid gets the class
@@ -59,18 +59,22 @@ of the repository.
   IMDb rating and link; the screenings from the programming data
   (`posters/proiezioni.html`, by IMDb ID, with source and a link to the year's
   programme; films without IMDb ID fall back to `screening_dates`); every
-  printed and hand-painted poster; previous and next film by title
+  printed and handwritten poster; previous and next film by title
   (`posters/indice.html`). The internal IMDb list fields (position, created,
   modified, personal rating) are no longer shown.
-- Retro (`content/posters/retro/_index.md`, 2026-11-24): the page text notes
-  that the hand-painted posters are for older films, with the figures from
-  the data: of the 138 films with one, 106 (77%) were produced before 1970
-  and the median production year is 1967 (1974 for films with only printed
-  posters); of the 130 with a screening date, 124 were first shown between
-  1956 and 1979 and none in the 1980s; none is an adult film. Reading (owner):
-  old films that came back to the screen years later had no original material
-  left, so the cinema painted a poster. Update the figures only if
-  `films.json` changes (it is final).
+- Retro (`content/posters/retro/_index.md`, rewritten 2026-11-25, U06): what
+  these posters are, in the owner's words: when a film had no poster, the
+  owner's grandfather took a poster of another film, turned it over and wrote
+  the title by hand on the back (hence "Retro"), often with the show time and
+  some cast names, each time in different colours; the handwriting is what
+  makes them special. They are called "scritti a mano" (not "dipinti") on the
+  landing card, the landing figures and the film page. Then the figures, as a
+  short list: of the 138 films with one, 106 were produced before 1970; of the
+  130 with a screening date, 124 were first shown between 1956 and 1979 and
+  none in the 1980s; none is an adult film (the median production years, 1967
+  against 1974 for printed posters only, were dropped as hard to follow).
+  Update the figures only if `films.json` changes (it is final). The gallery
+  has no size labels: it is drawn to scale (U05).
 - `image` in front matter is used for social metadata. Thumbnails open the
   keyboard-accessible lightbox; without JavaScript they link to the large image.
   Index pages with `image: ''` share the nearest parent's image (in the end the

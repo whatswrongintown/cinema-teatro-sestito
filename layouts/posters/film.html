@@ -13,7 +13,7 @@ previous and next film by title.
 {{- $main := index ($printed | default $retro) 0 }}
 {{- $labels := dict "manifesti" "Manifesto" "locandine" "Locandina" "fotobuste" "Fotobusta" }}
 {{- $formato := printf "%s %s" (index $labels $main.category | default ($main.category | title)) $main.size }}
-{{- if $main.is_retro }}{{ $formato = printf "Manifesto dipinto a mano %s" $main.size }}{{ end }}
+{{- if $main.is_retro }}{{ $formato = printf "Manifesto scritto a mano %s" $main.size }}{{ end }}
 {{- $x := $film.extra | default dict }}
 {{- /* First value of each IMDb field in films.json "extra". */}}
 {{- $val := dict }}
@@ -108,7 +108,7 @@ previous and next film by title.
       {{ partial "posters/film-images.html" (dict "posters" . "film_url" $page.RelPermalink) }}
       {{- end }}
       {{- with $retro }}
-      <h2 class="home-h2 film-retro-title"{{ if not $printed }} id="film-gallery-title"{{ end }}>Dipinti a mano</h2>
+      <h2 class="home-h2 film-retro-title"{{ if not $printed }} id="film-gallery-title"{{ end }}>Scritti a mano</h2>
       {{ partial "posters/film-images.html" (dict "posters" . "film_url" $page.RelPermalink) }}
       {{- end }}
 

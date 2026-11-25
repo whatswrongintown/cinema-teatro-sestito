@@ -75,11 +75,11 @@
           <img src="{{ $poster.thumb | relURL }}" width="{{ $poster.thumb_width }}"
                height="{{ $poster.thumb_height }}" loading="lazy" decoding="async"
                style="aspect-ratio: {{ $poster.thumb_width }} / {{ $poster.thumb_height }}"
-               alt="{{ $poster.alt }}">
-          {{ if $retro }}<span class="poster-size">{{ $poster.size }}</span>{{ end }}
-        </a>
-        <a class="poster-card-title no-lightbox" href="{{ $filmURL }}">{{ $film.title }}</a>
-        {{- with $film.production_year }}<span class="label poster-card-meta">{{ . }}</span>{{ end }}
+               alt="{{ $poster.alt }}">        </a>
+        <div class="poster-card-text">
+          <a class="poster-card-title no-lightbox" href="{{ $filmURL }}">{{ $film.title }}</a>
+          {{- with $film.production_year }}<span class="label poster-card-meta">{{ . }}</span>{{ end }}
+        </div>
       </article>
     {{ end }}
   </div>

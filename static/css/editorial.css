@@ -1108,16 +1108,20 @@ a.poster-wall-title:focus-visible {
 }
 
 .poster-grid.is-to-scale .poster-card > a:first-child {
-  position: relative;
   display: block;
   width: calc(var(--w) * var(--cm));
   max-width: 100%;
   margin-inline: auto;
 }
 
+/* Title (at most two lines) and year sit right under the image; the block
+   keeps the height of two title lines plus the year. */
+.poster-grid.is-to-scale .poster-card-text {
+  height: calc(16px + 1.0625rem * 1.25 * 2 + 0.75rem * 1.5);
+}
+
 .poster-grid.is-to-scale .poster-card-title {
   display: -webkit-box;
-  height: 2.5em;
   overflow: hidden;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 2;
@@ -1125,11 +1129,7 @@ a.poster-wall-title:focus-visible {
 }
 
 .poster-grid.is-to-scale .poster-card-meta {
-  height: 1.5em;
-}
-
-.poster-grid.is-to-scale .poster-card-title:last-child {
-  margin-bottom: calc(4px + 0.75rem * 1.5);
+  line-height: 1.5;
 }
 
 .posters-page .poster-grid.is-to-scale .poster-card figcaption {

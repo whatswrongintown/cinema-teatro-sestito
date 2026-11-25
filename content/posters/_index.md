@@ -34,8 +34,8 @@ params:
       immagine: images/manifesti/large/manifesti-100x140/tt0061583_100x140_01.webp
     - pagina: /posters/retro
       occhiello: Retro
-      titolo: Dipinti a mano
-      testo: "I manifesti realizzati a mano, impiegati in assenza del materiale ufficiale."
+      titolo: Scritti a mano
+      testo: "Titoli scritti a mano, ogni volta con colori diversi, sul retro di altri manifesti quando quello ufficiale mancava."
       immagine: images/manifesti/large/retro/tt0268576_70x100_r_01.webp
 ---
 
@@ -45,4 +45,4 @@ Osservati nel loro insieme, questi materiali permettono di seguire l'evoluzione 
 
 Per conoscere la provenienza dei materiali, i criteri di catalogazione e i limiti dell'archivio, consulta la [nota metodologica](/2026/11/11/metodologia-ricostruzione-programmazione/).
 
-Questa raccolta nasce dall'intento di preservare e rendere accessibile la memoria visiva di un cinema di provincia, dove l'immagine stampata o dipinta era il primo invito alla visione e parte integrante della vita quotidiana del paese.
+Questa raccolta nasce dall'intento di preservare e rendere accessibile la memoria visiva di un cinema di provincia, dove l'immagine stampata o scritta a mano era il primo invito alla visione e parte integrante della vita quotidiana del paese.
