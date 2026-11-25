@@ -126,7 +126,7 @@ escaped for Markdown tables; screenings without an IMDb URL are not linked.
 {{- end }}
 
 {{- /* Source pages by lower-case title, and the poster-notes aliases. */ -}}
-{{- range (site.GetPage "/programmazione-storica/fonti").RegularPages }}
+{{- range (site.GetPage "/programmazione-storica/fonti").RegularPagesRecursive }}
   {{- $label := partial "programmazione/escape.html" .Title }}
   {{- $s.SetInMap "sources" (lower (strings.TrimSpace .Title)) (printf "[%s](%s)" $label .RelPermalink) }}
 {{- end }}

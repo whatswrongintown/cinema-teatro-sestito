@@ -34,7 +34,7 @@ the page body).
     <div class="wrap">
       <p class="label home-kicker">
         {{- with .Parent }}<a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ end }}
-        {{- if eq $modo "fonti" }}{{ range first 1 (.GetTerms "categories") }} · {{ .LinkTitle }}{{ end }}{{ end -}}
+        {{- if eq $modo "fonti" }}{{ range first 1 (.GetTerms "categories") }}{{ if ne .LinkTitle $page.Parent.Title }} · {{ .LinkTitle }}{{ end }}{{ end }}{{ end -}}
       </p>
       <h1 id="programme-detail-title" class="posters-page-title{{ if eq $modo "anni" }} programme-year{{ end }}">{{ $titolo }}</h1>
       {{- with .Description }}<p class="home-lead posters-page-lead">{{ strings.FirstUpper . }}</p>{{ end }}

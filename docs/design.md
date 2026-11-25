@@ -220,8 +220,8 @@ Templates and data are described in `historical-programming.md` ("Page
 templates"). In short: the landing page leads with figures, section cards
 and a band per decade with its best-known posters (four section cards since
 the adult films page was removed, U16); the indexes open with a short text
-and its charts, then list the years, genres, countries and sources (U16,
-2026-11-25); the detail pages show a poster strip, on year pages the charts,
+and its charts, then list the years, genres, countries or source types,
+each source type with its own page of sources (U16, 2026-11-25); the detail pages show a poster strip, on year pages the charts,
 then the tables as programme listings (dates as "dom 2 gen"). Charts and
 dashboard use the site palette (see Charts, U14).
 

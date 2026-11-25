@@ -15,7 +15,7 @@ to the interactive dashboard.
 {{- $rows := $dati.rows }}
 {{- $ids := slice }}{{ range $rows }}{{ with .id }}{{ $ids = $ids | append . }}{{ end }}{{ end }}
 {{- $nFilm := len (uniq $ids) }}
-{{- $nFonti := len (site.GetPage "/programmazione-storica/fonti").RegularPages }}
+{{- $nFonti := len (site.GetPage "/programmazione-storica/fonti").RegularPagesRecursive }}
 {{- $primo := (index $rows 0).year }}{{ $ultimo := (index $rows (sub (len $rows) 1)).year }}
 {{- $s := newScratch }}
 {{- range $rows }}{{ $s.Add (printf "d|%s" .decade) (slice .) }}{{ $s.SetInMap "decenni" .decade true }}{{ end }}

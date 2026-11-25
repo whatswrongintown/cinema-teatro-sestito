@@ -343,9 +343,14 @@ TODO / DOING / DONE / DEFERRED, with dates. Assistant rules are in `CLAUDE.md`.
     texts keep what explains the charts and the counting conventions
     (Drammatico removed when combined, co-productions counted in every
     country, 1960 and 1961 partial).
-  - Fonti: the numbered list of source types was removed from the text;
-    the index keeps a card per source, linked to its page, with the first
-    scan as image (24 sources were never scanned and show a text card).
+  - Fonti: the numbered list of source types was removed from the text.
+    Below it, only one card per source type (Agende, Calendari, Rubriche,
+    Appunti, plus "Note sui manifesti", a single source linked directly);
+    each type has its own page (`fonti/<type>/`, with the type's former
+    description) listing its sources with their first scan (24 sources were
+    never scanned and show a text card). The source pages moved into the
+    type folders; their URLs are unchanged (checked on a full build: the
+    only new pages are the four type pages). See `historical-programming.md`.
   - Year pages: the charts ("I numeri del ...") above the listing
     (`layouts/programmazione-storica/single.html`).
   - The "Per adulti ed exploitation" page was removed (see U12); the

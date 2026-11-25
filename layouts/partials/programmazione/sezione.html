@@ -3,8 +3,9 @@ Index pages of the historical programming (Anni, Generi, Paesi, Fonti),
 redesign U07: dark header (title, description, number of pages, the section
 image), the page text with its charts, kept short (U16: above the index since
 2026-11-25), then the index (years by decade, genres and countries as tiles
-sized by their screenings, sources as cards by type, with the first scan as
-image). The mode comes from the section folder.
+sized by their screenings; Fonti: one card per source type, and on each type
+page one card per source, with the first scan as image). The mode comes from
+the section folder (type folders under fonti/ fall back to "fonti").
 Call with: partial "programmazione/sezione.html" .
 */ -}}
 {{- $page := . }}
@@ -30,7 +31,7 @@ Call with: partial "programmazione/sezione.html" .
         <p class="label home-kicker">{{ with .Parent }}<a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ end }}</p>
         <h1 id="programme-title" class="posters-page-title">{{ .Title }}</h1>
         {{- with .Description }}<p class="home-lead posters-page-lead">{{ strings.FirstUpper . }}</p>{{ end }}
-        <p class="label posters-page-count">{{ len $figli }} {{ index $unita $modo }}</p>
+        <p class="label posters-page-count">{{ len .RegularPagesRecursive }} {{ index $unita $modo }}</p>
       </div>
       {{- with $a.img }}
       <figure class="articles-head-figure programme-head-figure">
@@ -81,30 +82,34 @@ Call with: partial "programmazione/sezione.html" .
         {{- end }}
       </ul>
     {{- else }}
-      {{- $tipi := slice }}
-      {{- range $figli }}{{ range first 1 (.GetTerms "categories") }}{{ $tipi = $tipi | append .LinkTitle }}{{ end }}{{ end }}
-      {{- range uniq $tipi }}
-      {{- $tipo := . }}
-      <div class="sources-group">
-        <h2 class="label years-decade">{{ $tipo }}</h2>
-        <ul class="doc-cards">
-          {{- range $figli.ByDate }}
-          {{- $t := "" }}{{ range first 1 (.GetTerms "categories") }}{{ $t = .LinkTitle }}{{ end }}
-          {{- if eq $t $tipo }}
-          {{- $img := false }}
+      {{- /* Fonti (U16): the root shows one card per source type (the
+      subsections agende, calendari, rubriche, appunti, by weight) plus the
+      sources kept at its root (Note sui manifesti); a type page shows one
+      card per source. A card's image is the first scan (front matter image)
+      of its source, or of the type's first scanned source. */}}
+      {{- $voci := slice }}
+      {{- range .Sections.ByWeight }}{{ $voci = $voci | append (dict "p" . "fonti" .RegularPages.ByDate "tipo" true) }}{{ end }}
+      {{- range $figli.ByDate }}{{ $voci = $voci | append (dict "p" . "fonti" (slice .) "tipo" false) }}{{ end }}
+      <ul class="doc-cards">
+        {{- range $voci }}
+        {{- $img := false }}
+        {{- range .fonti }}
           {{- with .Params.image }}{{ with resources.Get (strings.TrimPrefix "/" .) }}{{ if eq .ResourceType "image" }}{{ $img = .Fill "480x600 Top webp q75" }}{{ end }}{{ end }}{{ end }}
-          <li class="doc-card{{ if not $img }} doc-card-text{{ end }}">
-            <a href="{{ .RelPermalink }}">
-              {{- with $img }}<span class="doc-card-media"><img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="" loading="lazy" decoding="async"></span>{{ end }}
-              <span class="label doc-card-kicker">{{ lang.FormatNumber 0 (index $conta .RelPermalink) }} proiezioni</span>
-              <span class="doc-card-title">{{ .Title }}</span>
-            </a>
-          </li>
-          {{- end }}
-          {{- end }}
-        </ul>
-      </div>
-      {{- end }}
+          {{- if $img }}{{ break }}{{ end }}
+        {{- end }}
+        <li class="doc-card{{ if not $img }} doc-card-text{{ end }}">
+          <a href="{{ .p.RelPermalink }}">
+            {{- with $img }}<span class="doc-card-media"><img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="" loading="lazy" decoding="async"></span>{{ end }}
+            {{- if .tipo }}
+            <span class="label doc-card-kicker">{{ len .fonti }} {{ cond (eq (len .fonti) 1) "fonte" "fonti" }}</span>
+            {{- else }}
+            <span class="label doc-card-kicker">{{ lang.FormatNumber 0 (index $conta .p.RelPermalink) }} proiezioni</span>
+            {{- end }}
+            <span class="doc-card-title">{{ .p.Title }}</span>
+          </a>
+        </li>
+        {{- end }}
+      </ul>
     {{- end }}
     </div>
   </section>

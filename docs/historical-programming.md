@@ -58,11 +58,18 @@ Page templates (redesign U07, details in `design.md`):
   shared index.
 - `layouts/partials/programmazione/sezione.html`: the Anni, Generi, Paesi
   and Fonti indexes (called by their `list.html`): years by decade with
-  counts, genres and countries as tiles sized by their screenings, sources
-  as cover cards by type (the first scan as image), preceded by the page text
-  and charts, kept short (U16, 2026-11-25). The opening image of the body
-  moves to the header
-  (`partials/articoli/apertura.html`).
+  counts, genres and countries as tiles sized by their screenings, preceded
+  by the page text and charts, kept short (U16, 2026-11-25). The opening
+  image of the body moves to the header (`partials/articoli/apertura.html`).
+- Fonti (U16, 2026-11-25): the source pages sit in one folder per type,
+  `content/programmazione-storica/fonti/{agende,calendari,rubriche,appunti}/`,
+  each with an `_index.md` (title, `weight` for the order, a short text).
+  The Fonti page shows one card per type plus the sources left at its root
+  (`1965-01-01-note-sui-manifesti`, the only one of its kind); each type
+  page shows one card per source with its first scan (front matter `image`).
+  URLs are unchanged (`/:year/:month/:day/:slug/` from `permalinks`). A new
+  source goes in its type's folder, with the matching `categories` value;
+  source pages are found with `RegularPagesRecursive`.
 - `layouts/programmazione-storica/single.html`: year, genre, country and
   source pages: header with figures and links to the other years or genres,
   a strip of posters from `partials/programmazione/striscia.html` (films
