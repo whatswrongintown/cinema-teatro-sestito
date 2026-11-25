@@ -13,5 +13,5 @@ Returns dict p1 p2 (left, right x), p3 p4 (top, bottom y), xlim, ylim, W, H.
 {{- range .ylabels }}{{ $widest = math.Max $widest (partial "grafici/larghezza.html" (dict "text" . "size" $.size)) }}{{ end }}
 {{- $legend := float (.legend | default 0) }}
 {{- $right := cond (gt $legend 0.0) (add 30 $legend 48) (float (.right | default 15)) }}
-{{- $left := add (float (.ytitleX | default 27)) (float (.ytitleGap | default 29)) $widest 13 }}
+{{- $left := add (float (.ytitleX | default 30)) (float (.ytitleGap | default 36)) $widest 13 }}
 {{- return dict "p1" $left "p2" (sub (float .W) $right) "p3" (float .top) "p4" (sub (float .H) (float .bottom)) "xlim" .xlim "ylim" .ylim "W" (float .W) "H" (float .H) }}

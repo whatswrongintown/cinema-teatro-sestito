@@ -1,5 +1,5 @@
 {{- /*
-The site stylesheet: fonts.css, tokens.css, main.css, lightbox.css and
+The site stylesheet: fonts.css, tokens.css, main.css, lightbox.css, grafici.css and
 editorial.css joined in this order, minified and fingerprinted (a content hash
 in the file name, so browsers never keep a stale copy). Returns its URL.
 The bundle is written to css/ so the relative font paths of fonts.css
@@ -7,7 +7,7 @@ The bundle is written to css/ so the relative font paths of fonts.css
 Call with: partialCached "css-bundle.html" . "css-bundle"
 */ -}}
 {{- $parts := slice -}}
-{{- range slice "fonts" "tokens" "main" "lightbox" "editorial" -}}
+{{- range slice "fonts" "tokens" "main" "lightbox" "grafici" "editorial" -}}
   {{- $f := resources.Get (printf "css/%s.css" .) -}}
   {{- if not $f }}{{ errorf "css-bundle.html: css/%s.css not found in static/" . }}{{ end -}}
   {{- $parts = $parts | append $f -}}

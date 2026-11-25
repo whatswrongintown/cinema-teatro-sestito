@@ -1,5 +1,5 @@
 /* Historical programming dashboard (shortcode "dashboard"). */
-.dashboard { --mint: #CBF8DF; --focus: #286a4a; margin: 1.5rem 0; color: #222; background: #fff; }
+.dashboard { --mint: var(--curtain, #9E2A1F); --focus: var(--brass, #A8823F); margin: 1.5rem 0; color: var(--ink, #222); background: transparent; }
 .dashboard-note { color: #555; font-size: 0.9em; line-height: 1.6; margin: 0.75rem 0 1.25rem; }
 .dashboard-field { margin: 0.75rem 0; }
 .dashboard-field label { display: block; font-weight: bold; margin-bottom: 0.25rem; }
@@ -25,17 +25,17 @@
 .dashboard summary:hover { background: var(--mint); }
 
 .dashboard-chart { overflow-x: auto; max-width: 100%; }
-.dashboard-chart svg { display: block; min-width: 580px; width: 100%; height: auto; font-family: Merriweather, serif; }
-.dashboard-chart .bar { fill: var(--mint); stroke: #7fbf9f; stroke-width: 0.5; }
-.dashboard-chart .dot { fill: var(--mint); stroke: #4f9a76; stroke-width: 0.8; }
-.dashboard-chart text { fill: #333; font-size: 11px; }
-.dashboard-chart .axis { stroke: #333; stroke-width: 1; }
-.dashboard-chart .grid { stroke: #e5e5e5; stroke-width: 1; }
-.dashboard-chart .title { font-size: 13px; }
-.dashboard-chart .credit { font-size: 9px; fill: #555; }
+.dashboard-chart svg { display: block; min-width: 580px; width: 100%; height: auto; font-family: var(--font-label, sans-serif); font-weight: 500; }
+.dashboard-chart .bar { fill: var(--curtain); }
+.dashboard-chart .dot { fill: var(--curtain); fill-opacity: 0.8; stroke: var(--paper); stroke-width: 0.6; }
+.dashboard-chart text { fill: var(--muted); font-size: 11px; }
+.dashboard-chart .axis { stroke: var(--muted); stroke-width: 1; }
+.dashboard-chart .grid { stroke: var(--rule); stroke-width: 1; }
+.dashboard-chart .title { font-family: var(--font-display, serif); font-size: 14px; font-weight: 600; fill: var(--ink); }
+.dashboard-chart .credit { font-size: 9px; font-weight: 400; }
 
 .dashboard table { width: 100%; border-collapse: collapse; font-size: 0.9em; }
-.dashboard th, .dashboard td { text-align: left; padding: 0.4rem 0.5rem; border-bottom: 1px solid #ddd; vertical-align: top; }
+.dashboard th, .dashboard td { text-align: left; padding: 0.4rem 0.5rem; border-bottom: 1px solid var(--rule, #ddd); vertical-align: top; }
 .dashboard th button { font: inherit; font-weight: bold; background: transparent; border: 0; padding: 0; cursor: pointer; color: inherit; text-align: left; }
 .dashboard th[aria-sort="ascending"] button::after { content: " ▲"; font-size: 0.7em; }
 .dashboard th[aria-sort="descending"] button::after { content: " ▼"; font-size: 0.7em; }
@@ -51,7 +51,7 @@
 .dashboard h3 { margin-top: 1.75rem; }
 
 /* Redesign (U07): the dashboard chrome follows the site tokens (tokens.css);
-   the chart colours stay mint, like the static programme charts. */
+   the charts use the same tokens as the static programme charts (grafici.css). */
 .dashboard {
   color: var(--ink, #222);
   background: transparent;

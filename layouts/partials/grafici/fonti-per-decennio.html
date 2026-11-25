@@ -1,7 +1,7 @@
 {{- /* Source types per decade (heat map), section index "Fonti". Input: dict dati alt. */ -}}
 {{- $d := .dati }}
 {{- $W := 1536.0 }}{{ $H := 576.0 }}
-{{- $sizes := dict "text" 25.76 "axis" 30.91 }}
+{{- $sizes := dict "text" 32.0 "axis" 36.0 }}
 {{- $tipi := $d.tipi }}
 {{- $xs := slice }}{{ $ns := slice }}
 {{- range $d.fonti }}{{ $xs = $xs | append (sub .x 5) (add .x 5) }}{{ $ns = $ns | append .n }}{{ end }}
@@ -11,13 +11,13 @@
 {{- range $ns }}{{ $lo = math.Min $lo . }}{{ $hi = math.Max $hi . }}{{ end }}
 {{- $fillAt := partial "grafici/extended.html" (dict "min" $lo "max" $hi) }}
 {{- $fillLabels := partial "grafici/numeri.html" $fillAt }}
-{{- $legend := partial "grafici/larghezza.html" (dict "text" "N° film" "size" 30.91) }}
-{{- range $fillLabels }}{{ $legend = math.Max $legend (add 61 (partial "grafici/larghezza.html" (dict "text" . "size" 25.76))) }}{{ end }}
-{{- $p := partial "grafici/indice-pannello.html" (dict "W" $W "H" $H "ylabels" $tipi "size" $sizes.text "top" 67 "bottom" 95 "legend" $legend "xlim" $xlim "ylim" $ylim) }}
+{{- $legend := partial "grafici/larghezza.html" (dict "text" "N° film" "size" 36) }}
+{{- range $fillLabels }}{{ $legend = math.Max $legend (add 61 (partial "grafici/larghezza.html" (dict "text" . "size" 32))) }}{{ end }}
+{{- $p := partial "grafici/indice-pannello.html" (dict "W" $W "H" $H "ylabels" $tipi "size" $sizes.text "top" 67 "bottom" 108 "legend" $legend "xlim" $xlim "ylim" $ylim) }}
 {{- $rows := slice }}{{ range $i, $_ := $tipi }}{{ $rows = $rows | append (add (float $i) 1) }}{{ end }}
 {{- $xat := partial "grafici/extended.html" (dict "min" (index $xlim 0) "max" (index $xlim 1)) }}
 <figure class="grafico">
-<svg viewBox="0 0 1536 576" width="768" role="img" aria-label="{{ .alt }}" font-family="Merriweather, serif" style="max-width:100%;height:auto;background:#fff">
+<svg viewBox="0 0 1536 576" width="768" role="img" aria-label="{{ .alt }}" style="max-width:100%;height:auto">
 <title>{{ .alt }}</title>
 {{- range $i, $t := $tipi }}
   {{- $r := add (float $i) 1 }}
@@ -26,10 +26,10 @@
     {{- $xb := partial "grafici/indice-xy.html" (dict "p" $p "x" (add .x 5)) }}
     {{- $ya := partial "grafici/indice-xy.html" (dict "p" $p "y" (add $r 0.5)) }}
     {{- $yb := partial "grafici/indice-xy.html" (dict "p" $p "y" (sub $r 0.5)) }}
-<rect x="{{ printf "%.2f" $xa }}" y="{{ printf "%.2f" $ya }}" width="{{ printf "%.2f" (sub $xb $xa) }}" height="{{ printf "%.2f" (sub $yb $ya) }}" fill="{{ partial "grafici/colore.html" (dict "v" .n "min" $lo "max" $hi) }}" stroke="#fff" stroke-width="1.4"><title>{{ $t }}, anni {{ .x }}: {{ .n }}</title></rect>
+<rect x="{{ printf "%.2f" $xa }}" y="{{ printf "%.2f" $ya }}" width="{{ printf "%.2f" (sub $xb $xa) }}" height="{{ printf "%.2f" (sub $yb $ya) }}" class="g-tile" style="--t:{{ partial "grafici/colore.html" (dict "v" .n "min" $lo "max" $hi) }}"><title>{{ $t }}, anni {{ .x }}: {{ .n }}</title></rect>
   {{- end }}
 {{- end }}
-<text x="{{ printf "%.2f" (div (add $p.p1 $p.p2) 2) }}" y="29" font-size="36.06" text-anchor="middle" dominant-baseline="central">Presenza delle fonti per decennio</text>
+<text x="{{ printf "%.2f" (div (add $p.p1 $p.p2) 2) }}" y="29" class="g-title" font-size="44" text-anchor="middle" dominant-baseline="central">Presenza delle fonti per decennio</text>
 {{ partial "grafici/indice-assi.html" (dict "p" $p "xat" $xat "xlabels" (partial "grafici/numeri.html" $xat) "yat" $rows "ylabels" $tipi "xtitle" "Anni" "ytitle" "Fonti" "sizes" $sizes) }}
 {{ partial "grafici/indice-legenda.html" (dict "p" $p "id" "legenda-fonti" "title" "N° film" "limits" (slice $lo $hi) "breaks" $fillAt "labels" $fillLabels "width" $legend) }}
 </svg>

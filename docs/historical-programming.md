@@ -116,17 +116,19 @@ Files in `layouts/`:
   range expansion), `numeri.html` (common decimals, like R's `format()`),
   `larghezza.html` (text width), `indice-pannello.html`, `indice-xy.html`,
   `indice-assi.html`, `indice-legenda.html`, `colore.html`.
-- `data/grafici/merriweather.json`: glyph widths (em) of Merriweather Regular,
-  measured once from `static/fonts/merriweather-v13-latin-regular.woff`. Hugo
+- `data/grafici/archivo.json`: glyph widths (em) of Archivo (weight 500, width
+  100%), measured once (2026-11-25) from `static/fonts/archivo-variable-latin.woff2`. Hugo
   cannot measure text, so the IMDb chart uses them to place title labels without
   overlaps (most isolated points first, 8 positions on 3 rings; titles without
   room are omitted, as in R). Characters missing from the file use an average
   width.
 
-Layout, sizes, colours (`#CBF8DF` mint, `#E5E5E5` grey) and text positions
-reproduce the former R charts (8 inches wide; annual charts in points, index
-charts in 192-dpi pixels). Heat-map colours are interpolated in RGB instead of
-CIELAB; with these two close colours the difference is barely visible. Heat-map
+Layout and data reproduce the former R charts (8 inches wide; annual charts in
+points, index charts in 192-dpi pixels). The 2026-11-25 redesign (U14, see
+`design.md`) enlarged the text and moved colours and fonts to
+`static/css/grafici.css`; `partials/grafici/colore.html` returns the position
+(0 to 1) of a value on the heat scale and the stylesheet turns it into a
+colour. Heat-map
 tiles and stacked bars carry a tooltip (`<title>`) with their value. The SVG
 scales with the page (`max-width: 100%`).
 

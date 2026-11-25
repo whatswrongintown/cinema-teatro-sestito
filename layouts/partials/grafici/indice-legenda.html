@@ -9,12 +9,12 @@ title, limits (two floats), breaks (floats), labels (strings), width (px).
 {{- $top := sub $centre 90 }}
 {{- $barH := 230.0 }}
 {{- $lo := index .limits 0 }}{{ $hi := index .limits 1 }}
-<defs><linearGradient id="{{ .id }}" x1="0" y1="1" x2="0" y2="0"><stop offset="0" stop-color="#E5E5E5"/><stop offset="1" stop-color="#CBF8DF"/></linearGradient></defs>
-<text x="{{ printf "%.2f" $left }}" y="{{ printf "%.2f" (sub $centre 121) }}" font-size="30.91" dominant-baseline="central">{{ .title }}</text>
+<defs><linearGradient id="{{ .id }}" x1="0" y1="1" x2="0" y2="0"><stop class="g-stop-0" offset="0"/><stop class="g-stop-1" offset="1"/></linearGradient></defs>
+<text class="g-axis-title" x="{{ printf "%.2f" $left }}" y="{{ printf "%.2f" (sub $centre 121) }}" font-size="36" dominant-baseline="central">{{ .title }}</text>
 <rect x="{{ printf "%.2f" $left }}" y="{{ printf "%.2f" $top }}" width="46" height="230" fill="url(#{{ .id }})"/>
 {{- range $i, $b := .breaks }}
   {{- $y := sub (add $top $barH) (mul (div (sub $b $lo) (sub $hi $lo)) $barH) }}
-<line x1="{{ printf "%.2f" $left }}" y1="{{ printf "%.2f" $y }}" x2="{{ printf "%.2f" (add $left 9.2) }}" y2="{{ printf "%.2f" $y }}" stroke="#fff" stroke-width="2"/>
-<line x1="{{ printf "%.2f" (add $left 36.8) }}" y1="{{ printf "%.2f" $y }}" x2="{{ printf "%.2f" (add $left 46) }}" y2="{{ printf "%.2f" $y }}" stroke="#fff" stroke-width="2"/>
-<text x="{{ printf "%.2f" (add $left 61) }}" y="{{ printf "%.2f" $y }}" font-size="25.76" dominant-baseline="central">{{ index $.labels $i }}</text>
+<line x1="{{ printf "%.2f" $left }}" y1="{{ printf "%.2f" $y }}" x2="{{ printf "%.2f" (add $left 9.2) }}" y2="{{ printf "%.2f" $y }}" class="g-legtick"/>
+<line x1="{{ printf "%.2f" (add $left 36.8) }}" y1="{{ printf "%.2f" $y }}" x2="{{ printf "%.2f" (add $left 46) }}" y2="{{ printf "%.2f" $y }}" class="g-legtick"/>
+<text x="{{ printf "%.2f" (add $left 61) }}" y="{{ printf "%.2f" $y }}" font-size="32" dominant-baseline="central">{{ index $.labels $i }}</text>
 {{- end }}

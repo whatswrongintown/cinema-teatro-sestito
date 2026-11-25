@@ -1,10 +1,10 @@
 {{- /*
-Estimated width of a text in Merriweather Regular, in the same unit as size.
+Estimated width of a text in Archivo Medium, in the same unit as size.
 Input: dict "text" <string> "size" <font size>. Glyph widths (em) come from
-data/grafici/merriweather.json, measured once from the site font; kerning is
+data/grafici/archivo.json, measured once from the site font; kerning is
 ignored.
 */ -}}
-{{- $font := hugo.Data.grafici.merriweather }}
+{{- $font := hugo.Data.grafici.archivo }}
 {{- $em := 0.0 }}
 {{- $default := float $font.default }}
 {{- range split .text "" }}

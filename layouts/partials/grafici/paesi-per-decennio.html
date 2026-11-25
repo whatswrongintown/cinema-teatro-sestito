@@ -1,23 +1,23 @@
 {{- /* Distinct production countries per decade (line), section index "Paesi". Input: dict dati alt. */ -}}
 {{- $d := .dati }}
 {{- $W := 1536.0 }}{{ $H := 576.0 }}
-{{- $sizes := dict "text" 25.76 "axis" 30.91 }}
+{{- $sizes := dict "text" 32.0 "axis" 36.0 }}
 {{- $ys := slice }}{{ $pos := slice }}{{ $labels := slice }}
 {{- range $i, $v := $d.paesi }}{{ $ys = $ys | append $v.n }}{{ $pos = $pos | append (add (float $i) 1) }}{{ $labels = $labels | append (printf "%.0f" $v.x) }}{{ end }}
 {{- $xlim := slice 0.4 (add (float (len $d.paesi)) 0.6) }}
 {{- $ylim := partial "grafici/espandi.html" $ys }}
 {{- $yat := partial "grafici/extended.html" (dict "min" (index $ylim 0) "max" (index $ylim 1)) }}
 {{- $ylabels := partial "grafici/numeri.html" $yat }}
-{{- $p := partial "grafici/indice-pannello.html" (dict "W" $W "H" $H "ylabels" $ylabels "size" $sizes.text "top" 67 "bottom" 95 "ytitleX" 26 "xlim" $xlim "ylim" $ylim) }}
+{{- $p := partial "grafici/indice-pannello.html" (dict "W" $W "H" $H "ylabels" $ylabels "size" $sizes.text "top" 67 "bottom" 108 "ytitleX" 30 "xlim" $xlim "ylim" $ylim) }}
 {{- $line := slice }}
 {{- range $i, $v := $d.paesi }}
   {{- $line = $line | append (printf "%.2f,%.2f" (partial "grafici/indice-xy.html" (dict "p" $p "x" (index $pos $i))) (partial "grafici/indice-xy.html" (dict "p" $p "y" $v.n))) }}
 {{- end }}
 <figure class="grafico">
-<svg viewBox="0 0 1536 576" width="768" role="img" aria-label="{{ .alt }}" font-family="Merriweather, serif" style="max-width:100%;height:auto;background:#fff">
+<svg viewBox="0 0 1536 576" width="768" role="img" aria-label="{{ .alt }}" style="max-width:100%;height:auto">
 <title>{{ .alt }}</title>
-<polyline points="{{ delimit $line " " }}" fill="none" stroke="#CBF8DF" stroke-width="6.8" stroke-linejoin="round"/>
-<text x="{{ printf "%.2f" (div (add $p.p1 $p.p2) 2) }}" y="29" font-size="36.06" text-anchor="middle" dominant-baseline="central">Numero di paesi rappresentati nella programmazione per decennio</text>
-{{ partial "grafici/indice-assi.html" (dict "p" $p "xat" $pos "xlabels" $labels "yat" $yat "ylabels" $ylabels "xtitle" "Decennio" "ytitle" "Numero di paesi distinti" "sizes" $sizes "ytitleX" 26) }}
+<polyline class="g-line" points="{{ delimit $line " " }}"/>
+<text x="{{ printf "%.2f" (div (add $p.p1 $p.p2) 2) }}" y="29" class="g-title" font-size="44" text-anchor="middle" dominant-baseline="central">Numero di paesi rappresentati nella programmazione per decennio</text>
+{{ partial "grafici/indice-assi.html" (dict "p" $p "xat" $pos "xlabels" $labels "yat" $yat "ylabels" $ylabels "xtitle" "Decennio" "ytitle" "Numero di paesi distinti" "sizes" $sizes "ytitleX" 30) }}
 </svg>
 </figure>

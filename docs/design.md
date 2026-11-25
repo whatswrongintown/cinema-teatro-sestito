@@ -44,10 +44,21 @@ Self-hosted variable WOFF2 files, Latin subset, in `static/fonts/`, declared in
   for `body` and headings. The roman file is preloaded in `head.html`.
 - Archivo (weight 400-800, width 62-125%): labels, dates, menu, buttons.
 
-Merriweather stays only for the charts: the SVG charts place their labels
-with Merriweather widths (`data/grafici/merriweather.json`) and the dashboard
-charts use it too, so the chart font must not change. Lato was removed
-(2026-11-24) once no page used it.
+The charts use the same two typefaces: Archivo for labels and values, Fraunces
+for chart titles. Merriweather was removed (2026-11-25) with the old chart
+style; Lato was removed (2026-11-24) once no page used it.
+
+## Charts (U14)
+
+The SVG charts of the historical programming (`layouts/partials/grafici/`), the
+poster charts (`poster-charts.css`) and the dashboard (`dashboard.css`) use the
+design tokens: they sit on the paper of the page, with no background of their
+own, and follow the light or dark tone. The SVG chart styles are in
+`static/css/grafici.css` (classes `g-*`, part of the site bundle): curtain red
+for bars, lines, areas and dots; brass for the second series and the 50% line;
+heat-map tiles mix `--paper-2` into `--curtain` by a per-tile `--t` value; axes
+in `--muted`; text in Archivo and titles in Fraunces. Keep colours out of the
+SVG partials.
 
 ## Stylesheets
 

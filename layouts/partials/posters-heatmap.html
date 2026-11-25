@@ -66,7 +66,7 @@ from the file count as 0.
             <td class="pc-cell pc-zero"><span class="pc-sr-only">0</span></td>
             {{- else }}
             {{- $p := math.Round (mul 100 (math.Sqrt (div (float $n) (float $max)))) }}
-            <td class="pc-cell" style="--pc-p: {{ int $p }}%">{{ $n }}</td>
+            <td class="pc-cell{{ if ge (int $p) 65 }} pc-hi{{ end }}" style="--pc-p: {{ int $p }}%">{{ $n }}</td>
             {{- end }}
             {{- end }}
             <td class="pc-total">{{ lang.FormatNumber 0 (index $totals $k) }}</td>

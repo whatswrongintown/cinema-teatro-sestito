@@ -23,7 +23,7 @@ Units: points; the figure is 8 x 3 inches (576 x 216).
 {{- end }}
 
 <figure class="grafico">
-<svg viewBox="0 0 576 216" width="768" role="img" aria-label="{{ .alt }}" font-family="Merriweather, serif" style="max-width:100%;height:auto;background:#fff">
+<svg viewBox="0 0 576 216" width="768" role="img" aria-label="{{ .alt }}" style="max-width:100%;height:auto">
 <title>{{ .alt }}</title>
 {{- if not $rated }}
 <text x="288" y="108" font-size="11" text-anchor="middle" dominant-baseline="central">Dati IMDb non disponibili</text>
@@ -57,7 +57,7 @@ Units: points; the figure is 8 x 3 inches (576 x 216).
 
   {{- /* Panel. */ -}}
   {{- $widest := 0.0 }}
-  {{- range $yAt }}{{ $widest = math.Max $widest (partial "grafici/larghezza.html" (dict "text" (printf "%.0f" .) "size" 8)) }}{{ end }}
+  {{- range $yAt }}{{ $widest = math.Max $widest (partial "grafici/larghezza.html" (dict "text" (printf "%.0f" .) "size" 9)) }}{{ end }}
   {{- $x0 := add $widest (mul (add 0.038 0.03 0.33) 72) }}{{ $x1 := sub $W (mul 0.14 72) }}
   {{- $y0 := mul 0.275 72 }}{{ $y1 := sub $H (mul 0.715 72) }}
   {{- $pw := sub $x1 $x0 }}{{ $ph := sub $y1 $y0 }}
@@ -74,7 +74,7 @@ Units: points; the figure is 8 x 3 inches (576 x 216).
       {{- $s.Set $key true }}
       {{- $s.Add "cands" (slice (dict "title" .title "x" $ix "y" $iy)) }}
     {{- end }}
-<circle cx="{{ printf "%.2f" (add $x0 $ix) }}" cy="{{ printf "%.2f" (sub $y1 $iy) }}" r="2.6" fill="#CBF8DF"/>
+<circle cx="{{ printf "%.2f" (add $x0 $ix) }}" cy="{{ printf "%.2f" (sub $y1 $iy) }}" r="2.8" class="g-dot"/>
   {{- end }}
   {{- $mx := div $sumx (float (len $rated)) }}{{ $my := div $sumy (float (len $rated)) }}
   {{- $cands := slice }}
@@ -84,7 +84,7 @@ Units: points; the figure is 8 x 3 inches (576 x 216).
   {{- $cands = sort $cands "iso" "desc" }}
 
   {{- /* Label placement (all lengths in points). */ -}}
-  {{- $size := 7.5 }}
+  {{- $size := 8.5 }}
   {{- $h := mul 0.74 $size }}
   {{- $radius := mul 0.04 72 }}
   {{- $pad := mul 0.012 72 }}
@@ -112,7 +112,7 @@ Units: points; the figure is 8 x 3 inches (576 x 216).
         {{- $hit = where (where (where (where $nearBoxes "x0" "lt" $bx1) "x1" "gt" $bx0) "y0" "lt" $by1) "y1" "gt" $by0 }}
         {{- if $hit }}{{ continue }}{{ end }}
         {{- $boxes = $boxes | append (dict "x0" $bx0 "x1" $bx1 "y0" $by0 "y1" $by1) }}
-<text x="{{ printf "%.2f" (add $x0 $cx) }}" y="{{ printf "%.2f" (sub $y1 $cy) }}" font-size="7.5" text-anchor="middle" dominant-baseline="central">{{ $c.title }}</text>
+<text x="{{ printf "%.2f" (add $x0 $cx) }}" y="{{ printf "%.2f" (sub $y1 $cy) }}" class="g-flabel" font-size="8.5" text-anchor="middle" dominant-baseline="central">{{ $c.title }}</text>
         {{- $placed = true }}
         {{- break }}
       {{- end }}
@@ -123,18 +123,18 @@ Units: points; the figure is 8 x 3 inches (576 x 216).
   {{- range $xAt }}
     {{- $x := add $x0 (mul (div (sub . $xlo) (sub $xhi $xlo)) $pw) }}
     {{- $label := lang.FormatNumberCustom 0 (math.Round (math.Pow 10 .)) "- . ," }}
-<line x1="{{ printf "%.2f" $x }}" y1="{{ printf "%.2f" $y1 }}" x2="{{ printf "%.2f" $x }}" y2="{{ printf "%.2f" (add $y1 $tick) }}" stroke="#000" stroke-width="{{ printf "%.3f" $lw }}"/>
-<text x="{{ printf "%.2f" $x }}" y="{{ printf "%.2f" (add $y1 (mul 0.123 72)) }}" font-size="8" text-anchor="middle" dominant-baseline="central">{{ $label }}</text>
+<line x1="{{ printf "%.2f" $x }}" y1="{{ printf "%.2f" $y1 }}" x2="{{ printf "%.2f" $x }}" y2="{{ printf "%.2f" (add $y1 $tick) }}" class="g-tick"/>
+<text x="{{ printf "%.2f" $x }}" y="{{ printf "%.2f" (add $y1 (mul 0.123 72)) }}" font-size="9" text-anchor="middle" dominant-baseline="central">{{ $label }}</text>
   {{- end }}
   {{- range $yAt }}
     {{- $y := sub $y1 (mul (div (sub . $ylo) (sub $yhi $ylo)) $ph) }}
-<line x1="{{ printf "%.2f" (sub $x0 $tick) }}" y1="{{ printf "%.2f" $y }}" x2="{{ printf "%.2f" $x0 }}" y2="{{ printf "%.2f" $y }}" stroke="#000" stroke-width="{{ printf "%.3f" $lw }}"/>
-<text x="{{ printf "%.2f" (sub $x0 (mul 0.068 72)) }}" y="{{ printf "%.2f" $y }}" font-size="8" text-anchor="end" dominant-baseline="central">{{ printf "%.0f" . }}</text>
+<line x1="{{ printf "%.2f" (sub $x0 $tick) }}" y1="{{ printf "%.2f" $y }}" x2="{{ printf "%.2f" $x0 }}" y2="{{ printf "%.2f" $y }}" class="g-tick"/>
+<text x="{{ printf "%.2f" (sub $x0 (mul 0.068 72)) }}" y="{{ printf "%.2f" $y }}" font-size="9" text-anchor="end" dominant-baseline="central">{{ printf "%.0f" . }}</text>
   {{- end }}
-<path d="M{{ printf "%.2f" $x0 }} {{ printf "%.2f" $y0 }}V{{ printf "%.2f" $y1 }}H{{ printf "%.2f" $x1 }}" fill="none" stroke="#000" stroke-width="{{ printf "%.3f" $lw }}" stroke-linecap="square"/>
-<text x="{{ printf "%.2f" (div (add $x0 $x1) 2) }}" y="{{ printf "%.2f" (add $y1 (mul 0.28 72)) }}" font-size="11" text-anchor="middle" dominant-baseline="central">Numero di voti (log)</text>
-<text transform="translate({{ printf "%.2f" (mul 0.18 72) }} {{ printf "%.2f" (div (add $y0 $y1) 2) }}) rotate(-90)" font-size="11" text-anchor="middle" dominant-baseline="central">Valutazioni medie IMDb</text>
-<text x="{{ printf "%.2f" $x1 }}" y="{{ printf "%.2f" (add $y1 (mul 0.5 72)) }}" font-size="8.8" text-anchor="end" dominant-baseline="central">Information courtesy of IMDb (https://www.imdb.com)</text>
+<path d="M{{ printf "%.2f" $x0 }} {{ printf "%.2f" $y0 }}V{{ printf "%.2f" $y1 }}H{{ printf "%.2f" $x1 }}" class="g-axis"/>
+<text x="{{ printf "%.2f" (div (add $x0 $x1) 2) }}" y="{{ printf "%.2f" (add $y1 (mul 0.28 72)) }}" class="g-axis-title" font-size="12" text-anchor="middle" dominant-baseline="central">Numero di voti (log)</text>
+<text transform="translate({{ printf "%.2f" (mul 0.18 72) }} {{ printf "%.2f" (div (add $y0 $y1) 2) }}) rotate(-90)" class="g-axis-title" font-size="12" text-anchor="middle" dominant-baseline="central">Valutazioni medie IMDb</text>
+<text x="{{ printf "%.2f" $x1 }}" y="{{ printf "%.2f" (add $y1 (mul 0.5 72)) }}" class="g-credit" font-size="8" text-anchor="end" dominant-baseline="central">Information courtesy of IMDb (https://www.imdb.com)</text>
 {{- end }}
 </svg>
 </figure>

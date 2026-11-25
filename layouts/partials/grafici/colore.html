@@ -1,13 +1,11 @@
 {{- /*
-Colour of a value on the grey (#E5E5E5) to mint (#CBF8DF) scale of the index
-heat maps. Input: dict "v" "min" "max". Returns "#rrggbb".
-Interpolated in RGB (R interpolated in CIELAB; with these two close colours
-the difference is barely visible).
+Position (0 to 1) of a value on the colour scale of the index heat maps and
+its legend. Input: dict "v" "min" "max". Returns a number; the colour itself
+comes from the stylesheet (static/css/grafici.css: .g-tile mixes the paper
+tone into the curtain red by --t), so the charts follow the light and dark
+tones of the page.
 */ -}}
 {{- $t := 0.5 }}
 {{- if ne (float .max) (float .min) }}{{ $t = div (sub (float .v) (float .min)) (sub (float .max) (float .min)) }}{{ end }}
 {{- $t = math.Min 1.0 (math.Max 0.0 $t) }}
-{{- $r := math.Round (add 229 (mul $t (sub 203 229))) }}
-{{- $g := math.Round (add 229 (mul $t (sub 248 229))) }}
-{{- $b := math.Round (add 229 (mul $t (sub 223 229))) }}
-{{- return printf "#%02x%02x%02x" (int $r) (int $g) (int $b) }}
+{{- return printf "%.3f" $t }}

@@ -6,16 +6,16 @@ Input: dict p (panel), xat/xlabels, yat/ylabels, xtitle, ytitle, sizes
 When "xpos"/"ypos" are given they are used as pixel positions directly.
 */ -}}
 {{- $p := .p }}
-{{- $labelOffset := float (.labelOffset | default 23) }}
-{{- $xtitleOffset := float (.xtitleOffset | default 33) }}
-{{- $ytitleX := float (.ytitleX | default 27) }}
+{{- $labelOffset := float (.labelOffset | default 27) }}
+{{- $xtitleOffset := float (.xtitleOffset | default 38) }}
+{{- $ytitleX := float (.ytitleX | default 30) }}
 {{- range $i, $v := .xat }}
   {{- $x := partial "grafici/indice-xy.html" (dict "p" $p "x" $v) }}
-<text x="{{ printf "%.2f" $x }}" y="{{ printf "%.2f" (add $p.p4 $labelOffset) }}" font-size="{{ printf "%.2f" $.sizes.text }}" fill="#4D4D4D" text-anchor="middle" dominant-baseline="central">{{ index $.xlabels $i }}</text>
+<text x="{{ printf "%.2f" $x }}" y="{{ printf "%.2f" (add $p.p4 $labelOffset) }}" font-size="{{ printf "%.2f" $.sizes.text }}" text-anchor="middle" dominant-baseline="central">{{ index $.xlabels $i }}</text>
 {{- end }}
 {{- range $i, $v := .yat }}
   {{- $y := partial "grafici/indice-xy.html" (dict "p" $p "y" $v) }}
-<text x="{{ printf "%.2f" (sub $p.p1 13) }}" y="{{ printf "%.2f" $y }}" font-size="{{ printf "%.2f" $.sizes.text }}" fill="#4D4D4D" text-anchor="end" dominant-baseline="central">{{ index $.ylabels $i }}</text>
+<text x="{{ printf "%.2f" (sub $p.p1 13) }}" y="{{ printf "%.2f" $y }}" font-size="{{ printf "%.2f" $.sizes.text }}" text-anchor="end" dominant-baseline="central">{{ index $.ylabels $i }}</text>
 {{- end }}
-<text x="{{ printf "%.2f" (div (add $p.p1 $p.p2) 2) }}" y="{{ printf "%.2f" (sub $p.H $xtitleOffset) }}" font-size="{{ printf "%.2f" .sizes.axis }}" text-anchor="middle" dominant-baseline="central">{{ .xtitle }}</text>
-<text transform="translate({{ printf "%.2f" $ytitleX }} {{ printf "%.2f" (div (add $p.p3 $p.p4) 2) }}) rotate(-90)" font-size="{{ printf "%.2f" .sizes.axis }}" text-anchor="middle" dominant-baseline="central">{{ .ytitle }}</text>
+<text x="{{ printf "%.2f" (div (add $p.p1 $p.p2) 2) }}" y="{{ printf "%.2f" (sub $p.H $xtitleOffset) }}" font-size="{{ printf "%.2f" .sizes.axis }}" class="g-axis-title" text-anchor="middle" dominant-baseline="central">{{ .xtitle }}</text>
+<text transform="translate({{ printf "%.2f" $ytitleX }} {{ printf "%.2f" (div (add $p.p3 $p.p4) 2) }}) rotate(-90)" font-size="{{ printf "%.2f" .sizes.axis }}" class="g-axis-title" text-anchor="middle" dominant-baseline="central">{{ .ytitle }}</text>

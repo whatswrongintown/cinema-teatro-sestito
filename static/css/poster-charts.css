@@ -1,18 +1,17 @@
 /* Poster collection charts (shortcode "poster-charts"): year bar chart and
-   decade heat maps. Same palette as the historical programming charts:
-   grey #E5E5E5 to mint #CBF8DF (layouts/partials/grafici/colore.html) and the
-   mint bars with #7fbf9f edge of dashboard.css. Declared once here as
-   variables because the site has no global custom properties. */
+   decade heat maps. They use the site design tokens (tokens.css) like the
+   historical programming charts (grafici.css): curtain red marks, the paper
+   tone as the empty end of the heat scale, Archivo labels, so they follow
+   the light and dark tones of the page. */
 .poster-chart {
-  --pc-focus: #286a4a;
-  --pc-grey: #E5E5E5;
-  --pc-mint-edge: #7fbf9f;
-  --pc-ink: #222;
-  --pc-muted: #555;
-  --pc-line: #e5e5e5;
-  --pc-surface: #f5f5f5;
-  --pc-paper: #fff;
-  --pc-mint: #CBF8DF;
+  --pc-focus: var(--brass);
+  --pc-grey: var(--paper-2);
+  --pc-mint: var(--curtain);
+  --pc-ink: var(--ink);
+  --pc-muted: var(--muted);
+  --pc-line: var(--rule);
+  --pc-surface: var(--paper-2);
+  --pc-paper: var(--paper);
   margin: 2.5rem 0;
   color: var(--pc-ink);
 }
@@ -34,16 +33,16 @@
 .pc-scroll { overflow-x: auto; max-width: 100%; }
 
 /* Year bar chart (inline SVG) */
-.pc-year-svg { display: block; width: 100%; min-width: 520px; height: auto; font-family: inherit; }
+.pc-year-svg { display: block; width: 100%; min-width: 520px; height: auto; font-family: var(--font-label); font-weight: 500; }
 .pc-year-svg text { fill: var(--pc-muted); font-size: 12px; }
-.pc-year-svg .pc-axis-title { font-size: 12px; fill: var(--pc-ink); }
+.pc-year-svg .pc-axis-title { font-size: 12px; font-weight: 600; fill: var(--pc-ink); }
 .pc-year-svg .pc-grid { stroke: var(--pc-line); stroke-width: 1; }
 .pc-year-svg .pc-base { stroke: var(--pc-muted); stroke-width: 1; }
-.pc-year-svg .pc-bar { fill: var(--pc-mint); stroke: var(--pc-mint-edge); stroke-width: 0.5; }
-.pc-year-svg .pc-bar:hover { fill: var(--pc-mint-edge); }
+.pc-year-svg .pc-bar { fill: var(--pc-mint); }
+.pc-year-svg .pc-bar:hover { fill: var(--brass); }
 
 /* Heat map tables (HTML) */
-.pc-heatmap { border-collapse: separate; border-spacing: 2px; width: 100%; font-size: 0.8rem; }
+.pc-heatmap { border-collapse: separate; border-spacing: 2px; width: 100%; font-size: 0.8rem; font-family: var(--font-label); font-weight: 500; }
 .pc-heatmap th, .pc-heatmap td { padding: 0.35rem 0.25rem; text-align: center; }
 .pc-heatmap thead th { color: var(--pc-muted); font-weight: normal; white-space: nowrap; }
 .pc-heatmap tbody th {
@@ -59,10 +58,11 @@
   background: color-mix(in srgb, var(--pc-mint) var(--pc-p), var(--pc-grey));
   color: var(--pc-ink);
 }
-.pc-heatmap .pc-cell.pc-zero { background: var(--pc-surface); }
+.pc-heatmap .pc-cell.pc-hi { color: var(--on-accent); }
+.pc-heatmap .pc-cell.pc-zero { background: transparent; box-shadow: inset 0 0 0 1px var(--pc-line); }
 .pc-heatmap .pc-total { color: var(--pc-muted); font-weight: bold; padding-left: 0.5rem; }
 
-.pc-legend { display: flex; align-items: center; gap: 0.5rem; margin-top: 0.75rem; color: var(--pc-muted); font-size: 0.8rem; }
+.pc-legend { font-family: var(--font-label); display: flex; align-items: center; gap: 0.5rem; margin-top: 0.75rem; color: var(--pc-muted); font-size: 0.8rem; }
 .pc-legend-bar {
   flex: 0 1 12rem; height: 0.75rem; border: 1px solid var(--pc-line);
   background: linear-gradient(to right, var(--pc-grey), var(--pc-mint));

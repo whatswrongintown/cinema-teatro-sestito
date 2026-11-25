@@ -1,0 +1,48 @@
+/* Historical programming charts (inline SVG from layouts/partials/grafici/).
+   Colours come from the design tokens (tokens.css), so the same SVG reads on
+   the light foyer tone and on the dark auditorium tone, and the chart has no
+   background of its own: it sits on the page paper. Text is Archivo
+   (labels, like the rest of the interface) and Fraunces (titles); the label
+   placement in the IMDb chart uses Archivo widths (data/grafici/archivo.json). */
+.grafico { margin: 1.5em 0; }
+.grafico svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  font-family: var(--font-label);
+  font-weight: 500;
+  font-stretch: 100%;
+}
+.grafico text { fill: var(--muted); }
+.grafico .g-title,
+.grafico .g-sub {
+  font-family: var(--font-display);
+  font-stretch: 100%;
+}
+.grafico .g-title { fill: var(--ink); font-weight: 600; }
+.grafico .g-sub { font-weight: 400; font-style: italic; }
+.grafico .g-axis-title { fill: var(--ink); font-weight: 600; }
+.grafico .g-count { fill: var(--ink); font-weight: 600; font-variant-numeric: tabular-nums; }
+.grafico .g-flabel { fill: var(--ink); font-weight: 500; }
+.grafico .g-credit { font-weight: 400; }
+
+/* Marks */
+.grafico .g-bar,
+.grafico .g-dot { fill: var(--curtain); }
+.grafico .g-bar2 { fill: var(--brass); }
+.grafico .g-dot { fill-opacity: 0.8; stroke: var(--paper); stroke-width: 0.6; }
+.grafico .g-line { fill: none; stroke: var(--curtain); stroke-width: 6; stroke-linejoin: round; stroke-linecap: round; }
+.grafico .g-area { fill: var(--curtain); fill-opacity: 0.2; stroke: var(--curtain); stroke-width: 3; stroke-linejoin: round; }
+.grafico .g-thresh { stroke: var(--brass); stroke-width: 2.4; stroke-dasharray: 9 7; }
+.grafico .g-tile {
+  fill: color-mix(in srgb, var(--curtain) calc(var(--t) * 100%), var(--paper-2));
+  stroke: var(--paper);
+  stroke-width: 1.4;
+}
+.grafico .g-stop-0 { stop-color: var(--paper-2); }
+.grafico .g-stop-1 { stop-color: var(--curtain); }
+.grafico .g-legtick { stroke: var(--paper); stroke-width: 2; }
+
+/* Axes */
+.grafico .g-tick,
+.grafico .g-axis { stroke: var(--muted); stroke-width: 0.8; fill: none; stroke-linecap: square; }

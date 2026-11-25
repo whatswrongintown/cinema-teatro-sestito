@@ -1,7 +1,7 @@
 {{- /* Yearly share of adult films (area), section index "Generi". Input: dict dati alt. */ -}}
 {{- $d := .dati }}
 {{- $W := 1536.0 }}{{ $H := 576.0 }}
-{{- $sizes := dict "text" 18.03 "axis" 20.61 }}
+{{- $sizes := dict "text" 28.0 "axis" 32.0 }}
 {{- $xs := slice }}{{ $ys := slice 0.0 50.0 }}
 {{- range $d.adulti }}{{ $xs = $xs | append .x }}{{ $ys = $ys | append .perc }}{{ end }}
 {{- $xlim := partial "grafici/espandi.html" $xs }}
@@ -9,7 +9,7 @@
 {{- $xat := partial "grafici/extended.html" (dict "min" (index $xlim 0) "max" (index $xlim 1)) }}
 {{- $yat := partial "grafici/extended.html" (dict "min" (index $ylim 0) "max" (index $ylim 1)) }}
 {{- $ylabels := partial "grafici/numeri.html" $yat }}
-{{- $p := partial "grafici/indice-pannello.html" (dict "W" $W "H" $H "ylabels" $ylabels "size" $sizes.text "top" 80 "bottom" 64 "ytitleX" 20 "ytitleGap" 18 "right" 21 "xlim" $xlim "ylim" $ylim) }}
+{{- $p := partial "grafici/indice-pannello.html" (dict "W" $W "H" $H "ylabels" $ylabels "size" $sizes.text "top" 104 "bottom" 92 "ytitleX" 24 "ytitleGap" 30 "right" 21 "xlim" $xlim "ylim" $ylim) }}
 {{- $area := slice }}
 {{- range $d.adulti }}
   {{- $area = $area | append (printf "%.2f,%.2f" (partial "grafici/indice-xy.html" (dict "p" $p "x" .x)) (partial "grafici/indice-xy.html" (dict "p" $p "y" .perc))) }}
@@ -19,12 +19,12 @@
 {{- $area = $area | append (printf "%.2f,%.2f" (partial "grafici/indice-xy.html" (dict "p" $p "x" $last.x)) $y0) (printf "%.2f,%.2f" (partial "grafici/indice-xy.html" (dict "p" $p "x" $first.x)) $y0) }}
 {{- $y50 := partial "grafici/indice-xy.html" (dict "p" $p "y" 50) }}
 <figure class="grafico">
-<svg viewBox="0 0 1536 576" width="768" role="img" aria-label="{{ .alt }}" font-family="Merriweather, serif" style="max-width:100%;height:auto;background:#fff">
+<svg viewBox="0 0 1536 576" width="768" role="img" aria-label="{{ .alt }}" style="max-width:100%;height:auto">
 <title>{{ .alt }}</title>
-<polygon points="{{ delimit $area " " }}" fill="#D5F9E5"/>
-<line x1="{{ printf "%.2f" $p.p1 }}" y1="{{ printf "%.2f" $y50 }}" x2="{{ printf "%.2f" $p.p2 }}" y2="{{ printf "%.2f" $y50 }}" stroke="red" stroke-width="2" stroke-dasharray="8 8"/>
-<text x="{{ printf "%.2f" $p.p1 }}" y="21" font-size="28.34" dominant-baseline="central">Percentuale annuale di film per adulti nella programmazione</text>
-<text x="{{ printf "%.2f" $p.p1 }}" y="57" font-size="23.18" dominant-baseline="central">Linea tratteggiata = soglia del 50%</text>
-{{ partial "grafici/indice-assi.html" (dict "p" $p "xat" $xat "xlabels" (partial "grafici/numeri.html" $xat) "yat" $yat "ylabels" $ylabels "xtitle" "Anno" "ytitle" "Percentuale (%)" "sizes" $sizes "labelOffset" 15 "xtitleOffset" 25 "ytitleX" 20) }}
+<polygon class="g-area" points="{{ delimit $area " " }}"/>
+<line x1="{{ printf "%.2f" $p.p1 }}" y1="{{ printf "%.2f" $y50 }}" x2="{{ printf "%.2f" $p.p2 }}" y2="{{ printf "%.2f" $y50 }}" class="g-thresh"/>
+<text x="{{ printf "%.2f" $p.p1 }}" y="21" class="g-title" font-size="38" dominant-baseline="central">Percentuale annuale di film per adulti nella programmazione</text>
+<text x="{{ printf "%.2f" $p.p1 }}" y="57" class="g-sub" font-size="30" dominant-baseline="central">Linea tratteggiata = soglia del 50%</text>
+{{ partial "grafici/indice-assi.html" (dict "p" $p "xat" $xat "xlabels" (partial "grafici/numeri.html" $xat) "yat" $yat "ylabels" $ylabels "xtitle" "Anno" "ytitle" "Percentuale (%)" "sizes" $sizes "labelOffset" 22 "xtitleOffset" 34 "ytitleX" 24) }}
 </svg>
 </figure>

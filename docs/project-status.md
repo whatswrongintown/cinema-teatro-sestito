@@ -305,22 +305,19 @@ TODO / DOING / DONE / DEFERRED, with dates. Assistant rules are in `CLAUDE.md`.
   file (made with fontTools; the PNG and ICO are fallbacks). Approved by the
   owner 2026-11-25. The social preview images are a
   separate matter (see Decisions).
-- **U14 - TODO 2026-11-25: redesign all the charts with the new palette and
-  fonts.** Requested by the owner. The charts (about 18 inline-SVG partials in
-  `layouts/partials/grafici/`, `{{< grafico >}}` used on about 85 pages, the
-  poster charts, the dashboard and the PNGs still in some bundles) keep the
-  old look: white background, mint colours and Merriweather. Known constraints
-  (`design.md`, `historical-programming.md`): the SVG charts place their
-  labels with Merriweather glyph widths (`data/grafici/merriweather.json`), so
-  changing the font means regenerating those widths; `poster-charts.css` and
-  `dashboard.css` declare their own colour variables copied from `main.css`;
-  counts and conventions must not change (see Decisions: do not recalculate).
-  To do: agree a chart system with the owner (palette on the dark and light
-  tones, fonts Fraunces and Archivo, legend, axis and caption style), apply it
-  to the SVG partials, the poster charts and the dashboard in one pass, keep
-  accessibility (contrast, titles, text alternatives) and the Lighthouse
-  scores (U03), and replace the remaining chart PNGs only if the social
-  preview rule allows it (Open Graph images stay PNG).
+- **U14 - DONE 2026-11-25: charts redesigned with the site palette and fonts.**
+  Requested by the owner. All the SVG charts (`layouts/partials/grafici/`), the
+  poster charts and the dashboard now use the design tokens (curtain red, brass,
+  paper tones), Archivo for labels and Fraunces for titles, with no white
+  background, so they follow the light and dark tones (see `design.md`, section
+  Charts). Styles: `static/css/grafici.css` (new, in the bundle),
+  `poster-charts.css`, `dashboard.css`. The Merriweather widths were replaced by
+  `data/grafici/archivo.json` and Merriweather and its font files were removed.
+  Text sizes in the index charts were enlarged; data, counts and layout logic are
+  unchanged. DEFERRED: the chart PNGs that remain (the per-year social preview
+  `proiezioni-mensili.png`, `italia-estero-per-decennio.png` and three
+  `voci-programmazione-*.png` in two articles) keep the old look, because Open
+  Graph images must be PNG and need a separate rendering step.
 - **U15 - TODO 2026-11-25: a live timeline of the reopening** (what has been
   done, what comes next). Requested by the owner, to build once the owner has
   gathered the information (see U08): the restoration plan, the steps already
