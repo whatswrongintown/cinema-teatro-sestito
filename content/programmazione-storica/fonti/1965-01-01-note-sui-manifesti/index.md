@@ -6,5 +6,6 @@ slug: note-sui-manifesti
 categories:
   - Note sui manifesti
 description: Proiezioni ricavate dalle annotazioni riportate sui manifesti conservati nell’archivio del cinema.
+collageManifesti: true
 ---
 {{% programmazione-tabelle "fonti" %}}

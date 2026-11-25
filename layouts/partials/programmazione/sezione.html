@@ -97,6 +97,10 @@ Call with: partial "programmazione/sezione.html" .
           {{- with .Params.image }}{{ with resources.Get (strings.TrimPrefix "/" .) }}{{ if eq .ResourceType "image" }}{{ $img = .Fill "480x600 Top webp q75" }}{{ end }}{{ end }}{{ end }}
           {{- if $img }}{{ break }}{{ end }}
         {{- end }}
+        {{- /* A source with no scan can ask for a collage of its posters (front matter collageManifesti). */}}
+        {{- if and (not $img) (not .tipo) .p.Params.collageManifesti }}
+          {{- with partial "programmazione/collage-manifesti.html" (index $dati.gruppi (printf "fonti|%s" (lower (strings.TrimSpace .p.Title)))) }}{{ $img = .Fill "480x600 webp q75" }}{{ end }}
+        {{- end }}
         <li class="doc-card{{ if not $img }} doc-card-text{{ end }}">
           <a href="{{ .p.RelPermalink }}">
             {{- with $img }}<span class="doc-card-media"><img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="" loading="lazy" decoding="async"></span>{{ end }}

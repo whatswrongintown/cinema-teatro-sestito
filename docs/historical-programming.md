@@ -69,7 +69,11 @@ Page templates (redesign U07, details in `design.md`):
   page shows one card per source with its first scan (front matter `image`).
   URLs are unchanged (`/:year/:month/:day/:slug/` from `permalinks`). A new
   source goes in its type's folder, with the matching `categories` value;
-  source pages are found with `RegularPagesRecursive`.
+  source pages are found with `RegularPagesRecursive`. A source with no scan
+  (so no `image`) can set `collageManifesti: true`: its card then shows a fan
+  of three real posters (portrait, best-known films of its screenings) built
+  by `partials/programmazione/collage-manifesti.html` with Hugo image
+  filters, in the style of the home hero. Used by "Note sui manifesti".
 - `layouts/programmazione-storica/single.html`: year, genre, country and
   source pages: header with figures and links to the other years or genres,
   a strip of posters from `partials/programmazione/striscia.html` (films

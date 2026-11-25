@@ -1,0 +1,28 @@
+{{- /*
+Image for a source page that has no scan: a fan of three real posters on the
+site's dark tone, like the home page hero (U16). Built by Hugo at build time
+from the portrait posters of the films in `rows`, best known first.
+Call with: partial "programmazione/collage-manifesti.html" $rows
+Returns an image resource (800x1000 WebP) or false.
+*/ -}}
+{{- $m := partial "programmazione/manifesti.html" (dict "rows" . "n" 15) -}}
+{{- $imgs := slice -}}
+{{- range $m.manifesti -}}
+  {{- if and (lt (len $imgs) 3) (gt .poster.large_height .poster.large_width) -}}
+    {{- with resources.Get (strings.TrimPrefix "/" .poster.large) -}}{{ $imgs = $imgs | append . }}{{ end -}}
+  {{- end -}}
+{{- end -}}
+{{- $out := false -}}
+{{- if eq (len $imgs) 3 -}}
+  {{- $bg := "#14110f" -}}
+  {{- $base := (index $imgs 0).Resize "1x1" -}}
+  {{- $canvas := $base.Filter (images.Padding 499 399 500 400 $bg) -}}
+  {{- $left := ((index $imgs 1).Resize "420x").Filter (images.Brightness -20) -}}
+  {{- $left = $left.Process (printf "r7 bgColor %s" $bg) -}}
+  {{- $right := ((index $imgs 2).Resize "420x").Filter (images.Brightness -20) -}}
+  {{- $right = $right.Process (printf "r354 bgColor %s" $bg) -}}
+  {{- $front := (index $imgs 0).Resize "520x" -}}
+  {{- $out = $canvas.Filter (images.Overlay $left -30 230) (images.Overlay $right 410 280) (images.Overlay $front 140 110) -}}
+  {{- $out = $out.Process "webp q80" -}}
+{{- end -}}
+{{- return $out -}}

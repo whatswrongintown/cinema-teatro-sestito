@@ -350,7 +350,9 @@ TODO / DOING / DONE / DEFERRED, with dates. Assistant rules are in `CLAUDE.md`.
     description in the header, no repeated text) listing its sources with their first scan (24 sources were
     never scanned and show a text card). The source pages moved into the
     type folders; their URLs are unchanged (checked on a full build: the
-    only new pages are the four type pages). See `historical-programming.md`.
+    only new pages are the four type pages). "Note sui manifesti" has no scan:
+    its card shows a collage of three real posters, built by Hugo
+    (2026-11-25). See `historical-programming.md`.
   - Country pages: like genres, the poster strip links "Tutti i N film con
     manifesto →" to a new Posters page per country (`posters/by-country`,
     "Per paese" in the Posters menu, 39 countries with posters; see
