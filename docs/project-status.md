@@ -42,9 +42,8 @@ TODO / DOING / DONE / DEFERRED, with dates. Assistant rules are in `CLAUDE.md`.
 - Keep Eventi available with its "no events scheduled" message (on the
   redesign branch: "Sipario chiuso, per ora", and an event format with
   `params.inizio`, `tipo`, `luogo`, `ingresso`, see `design.md`). No analytics
-  (disabled, Do Not Track respected). Top menu: on `main`, only Progetto; on
-  the branch `redesign/home-prototype` (2026-11-24, awaiting the owner's
-  approval) the main sections plus "Il progetto" as a button, with Articoli
+  (disabled, Do Not Track respected). Top menu (redesign merged to `main`
+  2026-11-25): the main sections plus "Il progetto" as a button, with Articoli
   labelled "Storie" in the menu only (see `design.md`).
 - Contact is a homepage form plus a visible email. Messages are private;
   publishing any needs a separate agreement. Poster scan rights: owner confirmed.
@@ -139,11 +138,9 @@ TODO / DOING / DONE / DEFERRED, with dates. Assistant rules are in `CLAUDE.md`.
   archive with the category and tag pages, the historical programming with
   the dashboard, and Eventi, Progetto, the small pages, the 404 and the
   breadcrumbs (2026-11-24): every page is in the new style (details in
-  `design.md`); the old blog styles and the Lato font were removed. Not
-  merged; nothing deployed. CSS and JS are minified and fingerprinted by Hugo
-  Pipes (one site stylesheet; see `design.md`). Next: owner review, then
-  merge to `main` only on the owner's request; the Lighthouse check was
-  postponed by the owner (2026-11-24). Background: today the site reads
+  `design.md`); the old blog styles and the Lato font were removed. Merged to `main` and deployed 2026-11-25 at the owner's request. CSS and JS are minified and fingerprinted by Hugo
+  Pipes (one site stylesheet; see `design.md`). Next: the owner sends the Lighthouse
+  report of the deployed site (TODO), then fine-tuning as agreed. Background: today the site reads
   as a blog plus a set of tables and charts (historical programming), which
   gives it a statistical, archival feel. Goal: the identity of a living
   cultural venue that supports the reopening of the cinema and the physical

@@ -1,11 +1,10 @@
 # Visual design
 
 The redesign (U07) gives the site the look of a working cinema and cultural
-venue instead of a blog and statistics archive. Status: DOING 2026-11-24, on
-the branch `redesign/home-prototype`: every page is in the new style (home,
+venue instead of a blog and statistics archive. Status: DOING; merged to `main` and deployed 2026-11-25: every page is in the new style (home,
 posters, articles, archive, historical programming, Eventi, Progetto,
-category and tag pages, the small pages and the 404). Not merged: owner
-review and a Lighthouse check are still to do (see Next steps).
+category and tag pages, the small pages and the 404). The Lighthouse check
+runs on the deployed site (see Next steps).
 
 Mockup (private, owner only): the "Cinema Sestito redesign" design canvas on
 claude.ai, with the desktop home page, the visual system and the phone home
