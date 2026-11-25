@@ -4,6 +4,8 @@ at build time. Usage:  {{< grafico nome="anno-mensile" alt="..." >}}
 Names:
   anno-mensile   monthly screenings of the page's params.anno (year pages)
   anno-imdb      IMDb rating vs votes of the page's params.anno (year pages)
+  articolo-prime-stagioni, articolo-rating, articolo-grande-schermo
+                 bar charts of the articles on the first seasons (partials/grafici/articolo.html)
   film-per-anno, fonti-per-decennio, generi-per-decennio,
   film-per-adulti-per-anno, italia-estero-per-decennio, paesi-per-decennio
                  section index charts
@@ -16,6 +18,8 @@ Names:
   {{- $rows := index $dati.gruppi (printf "anni|%v" $page.Params.anno) }}
   {{- if not $rows }}{{ errorf "grafico: nessuna proiezione per l'anno %v (%s)" $page.Params.anno $page.File.Path }}{{ end }}
   {{- partial (printf "grafici/%s.html" $nome) (dict "rows" $rows "alt" $alt) }}
+{{- else if in (slice "articolo-prime-stagioni" "articolo-rating" "articolo-grande-schermo") $nome }}
+  {{- partial "grafici/articolo.html" (dict "nome" $nome "dati" $dati "alt" $alt) }}
 {{- else if templates.Exists (printf "partials/grafici/%s.html" $nome) }}
   {{- partial (printf "grafici/%s.html" $nome) (dict "dati" (partialCached "programmazione/indici.html" . "indici") "alt" $alt) }}
 {{- else }}

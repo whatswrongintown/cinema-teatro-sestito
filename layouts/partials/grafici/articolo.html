@@ -1,0 +1,103 @@
+{{- /*
+Bar charts of the two articles on the first seasons (U14; replace the PNGs
+made by the former R code). Input: dict "nome" "dati" (programmazione/dati.html) "alt".
+Names:
+  articolo-prime-stagioni   films per year, 1948-1957
+  articolo-rating           films per age rating and year, 1948-1957 (stacked)
+  articolo-grande-schermo   films per year, 1948-2004, 1957-1979 boxed, * on 1960
+Rating categories as in the R code: 18 -> 18+; 15, 14, K-16, TV-14, 13 -> 16+;
+PG, S, 12, 6 -> PG; Approved, Passed, G -> Per tutti; others and missing are left out.
+Colours and fonts come from static/css/grafici.css (classes g-*).
+*/ -}}
+{{- $nome := .nome }}
+{{- $d := .dati }}
+{{- $first := 1948 }}{{ $last := 1957 }}
+{{- $title := "Le prime stagioni del Cinema (1948–1957)" }}
+{{- $sub := "Numero di film proposti per anno" }}
+{{- $caption := "" }}{{ $legend := false }}{{ $rating := false }}{{ $box := false }}
+{{- if eq $nome "articolo-rating" }}
+  {{- $title = "Distribuzione dei film per rating (1948–1957)" }}
+  {{- $sub = "Classificazioni sopra “PG” indicano film inadatti alla gioventù e alla morale pubblica" }}
+  {{- $legend = true }}{{ $rating = true }}
+{{- else if eq $nome "articolo-grande-schermo" }}
+  {{- $last = 2004 }}
+  {{- $title = "Quando il grande schermo illuminava San Vito (1957–1979)" }}
+  {{- $caption = "Nota: * I dati relativi agli anni 1960 e 1961 risultano parziali per l’assenza di fonti archivistiche complete" }}
+  {{- $box = true }}
+{{- end }}
+{{- $cats := slice "Per tutti" "PG" "16+" "18+" }}
+{{- $map := dict "18" "18+" "15" "16+" "14" "16+" "K-16" "16+" "TV-14" "16+" "13" "16+" "PG" "PG" "S" "PG" "12" "PG" "6" "PG" "Approved" "Per tutti" "Passed" "Per tutti" "G" "Per tutti" }}
+
+{{- /* Values per year: one number, or one per rating category (bottom to top). */ -}}
+{{- $years := seq $first $last }}
+{{- $vals := slice }}{{ $maxTot := 0 }}
+{{- range $years }}
+  {{- $rows := index $d.gruppi (printf "anni|%d" .) | default slice }}
+  {{- $v := slice (len $rows) }}
+  {{- if $rating }}
+    {{- $v = slice }}
+    {{- range $c := $cats }}
+      {{- $n := 0 }}
+      {{- range $rows }}{{ if eq (index $map .rated) $c }}{{ $n = add $n 1 }}{{ end }}{{ end }}
+      {{- $v = $v | append $n }}
+    {{- end }}
+  {{- end }}
+  {{- $tot := 0 }}{{ range $v }}{{ $tot = add $tot . }}{{ end }}
+  {{- if gt $tot $maxTot }}{{ $maxTot = $tot }}{{ end }}
+  {{- $vals = $vals | append (dict "year" . "v" $v "tot" $tot) }}
+{{- end }}
+
+{{- /* Geometry (1536 x 576, as the former PNGs). */ -}}
+{{- $W := 1536.0 }}{{ $H := 576.0 }}
+{{- $p1 := 132.0 }}{{ $p2 := sub $W (cond $legend 230.0 40.0) }}
+{{- $p3 := 132.0 }}{{ $p4 := sub $H (cond (ne $caption "") 150.0 118.0) }}
+{{- $slot := div (sub $p2 $p1) (float (len $years)) }}{{ $bw := mul $slot 0.9 }}
+{{- $ymax := mul (float $maxTot) 1.04 }}
+{{- $step := 100 }}
+{{- range slice 100 50 25 20 10 5 }}{{ if le (div (float $maxTot) (float .)) 5.0 }}{{ $step = . }}{{ end }}{{ end }}
+{{- $classes := slice "g-s1" "g-s2" "g-s3" "g-s4" }}
+<figure class="grafico">
+<svg viewBox="0 0 1536 576" width="768" role="img" aria-label="{{ .alt }}" style="max-width:100%;height:auto">
+<title>{{ .alt }}</title>
+{{- range seq 0 $step $maxTot }}
+  {{- $y := sub $p4 (mul (div (float .) $ymax) (sub $p4 $p3)) }}
+<text x="{{ sub $p1 16 }}" y="{{ printf "%.2f" $y }}" font-size="30" text-anchor="end" dominant-baseline="central">{{ . }}</text>
+{{- end }}
+{{- range $i, $r := $vals }}
+  {{- $x := add $p1 (mul $slot (float $i)) (div (sub $slot $bw) 2) }}
+  {{- $acc := 0 }}
+  {{- range $j, $n := $r.v }}
+    {{- if gt $n 0 }}
+      {{- $yt := sub $p4 (mul (div (float (add $acc $n)) $ymax) (sub $p4 $p3)) }}
+      {{- $yb := sub $p4 (mul (div (float $acc) $ymax) (sub $p4 $p3)) }}
+<rect class="g-seg {{ if $rating }}{{ index $classes $j }}{{ else }}g-bar{{ end }}" x="{{ printf "%.2f" $x }}" y="{{ printf "%.2f" $yt }}" width="{{ printf "%.2f" $bw }}" height="{{ printf "%.2f" (sub $yb $yt) }}"><title>{{ $r.year }}{{ if $rating }}, {{ index $cats $j }}{{ end }}: {{ $n }}</title></rect>
+      {{- $acc = add $acc $n }}
+    {{- end }}
+  {{- end }}
+  {{- if or (not $box) (eq (mod $r.year 20) 0) }}
+<text x="{{ printf "%.2f" (add $x (div $bw 2)) }}" y="{{ printf "%.2f" (add $p4 38) }}" font-size="30" text-anchor="middle" dominant-baseline="central">{{ $r.year }}</text>
+  {{- end }}
+  {{- if and $box (eq $r.year 1960) }}
+<text class="g-count" x="{{ printf "%.2f" (add $x (div $bw 2)) }}" y="{{ printf "%.2f" (sub (sub $p4 (mul (div (float $r.tot) $ymax) (sub $p4 $p3))) 8) }}" font-size="40" text-anchor="middle">*</text>
+  {{- end }}
+{{- end }}
+<path class="g-axis" d="M{{ $p1 }} {{ sub $p3 6 }}V{{ $p4 }}H{{ $p2 }}"/>
+{{- if $box }}
+  {{- $xa := add $p1 (mul $slot (float (sub 1957 $first))) }}{{ $xb := add $p1 (mul $slot (float (add (sub 1979 $first) 1))) }}
+<rect class="g-box" x="{{ printf "%.2f" $xa }}" y="{{ sub $p3 8 }}" width="{{ printf "%.2f" (sub $xb $xa) }}" height="{{ add (sub $p4 $p3) 12 }}"/>
+{{- end }}
+<text class="g-title" x="{{ $p1 }}" y="44" font-size="46">{{ $title }}</text>
+<text class="g-sub" x="{{ $p1 }}" y="92" font-size="30">{{ $sub }}</text>
+<text class="g-axis-title" x="{{ printf "%.2f" (div (add $p1 $p2) 2) }}" y="{{ add $p4 88 }}" font-size="36" text-anchor="middle" dominant-baseline="central">Anni</text>
+<text class="g-axis-title" transform="translate(40 {{ printf "%.2f" (div (add $p3 $p4) 2) }}) rotate(-90)" font-size="36" text-anchor="middle" dominant-baseline="central">Numero di film</text>
+{{- if $legend }}
+  {{- range $i, $l := slice "18+" "16+" "PG" "Per tutti" }}
+<rect class="g-seg {{ index $classes (sub 3 $i) }}" x="{{ sub $W 194 }}" y="{{ add $p3 20 (mul $i 52) }}" width="44" height="44"/>
+<text x="{{ sub $W 134 }}" y="{{ add $p3 42 (mul $i 52) }}" font-size="30" dominant-baseline="central">{{ $l }}</text>
+  {{- end }}
+{{- end }}
+{{- with $caption }}
+<text class="g-credit" x="{{ sub $W 24 }}" y="{{ sub $H 14 }}" font-size="24" text-anchor="end">{{ . }}</text>
+{{- end }}
+</svg>
+</figure>

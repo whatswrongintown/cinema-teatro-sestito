@@ -32,7 +32,7 @@ Il periodo compreso tra il 1957 e il 1979 rappresenta per il *Cinema Sestito* la
 
 I dati provenienti dal registro delle proiezioni mostrano un periodo costante del numero di film proposti fino al 1966, anno che segna l’apice dell’attività. A partire dalla fine degli anni Settanta, tuttavia, la curva inizia a scendere, riflettendo i mutamenti del mercato, la diffusione della televisione e l’emergere di nuove forme di intrattenimento. Nel 1979 il calo diventa significativo, aprendo una fase di progressivo ridimensionamento dell’offerta.
 
-<img src="images/voci-programmazione-per-anno-1957-1979.png" alt="Voci di programmazione registrate per anno dal 1957 al 1979" width="768" />
+{{< grafico nome="articolo-grande-schermo" alt="Voci di programmazione registrate per anno dal 1957 al 1979" >}}
 
 ## La costruzione del nuovo cinema in Via Doria
 

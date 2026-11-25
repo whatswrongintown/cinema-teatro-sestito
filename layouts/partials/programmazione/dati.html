@@ -5,7 +5,7 @@ Reads the three historical programming CSVs once per build and returns:
           title (trimmed), md (Markdown table row: the date as a <time>
           element shown as "dom 2 gen", and the title linked to IMDb),
           source / genre / country
-          (raw cells; "" when missing), sources / genres / countries
+          (raw cells; "" when missing), rated (age rating from the countries CSV, "" when missing), sources / genres / countries
           (lower-case keys for matching), rating / votes (floats; nil when
           the film has no IMDb rating or votes)
   sources lower-case source title -> Markdown link to its source page
@@ -72,10 +72,12 @@ escaped for Markdown tables; screenings without an IMDb URL are not linked.
 {{- $c = partial "programmazione/colonne.html" (index $paesi 0) }}
 {{- range after 1 $paesi }}
   {{- $s.SetInMap "countries" (index . $c.const) (index . $c.country) }}
+  {{- $s.SetInMap "rated" (index . $c.const) (strings.TrimSpace (index . $c.rated)) }}
 {{- end }}
 {{- $urls := $s.Get "url" }}
 {{- $genres := $s.Get "genres" }}
 {{- $countries := $s.Get "countries" }}
+{{- $rateds := $s.Get "rated" }}
 
 {{- /* One dict per screening. */ -}}
 {{- $c = partial "programmazione/colonne.html" (index $agende 0) }}
@@ -86,10 +88,12 @@ escaped for Markdown tables; screenings without an IMDb URL are not linked.
   {{- $url := "" }}
   {{- $g := "" }}
   {{- $p := "" }}
+  {{- $rt := "" }}
   {{- if $id }}
     {{- with index $urls $id }}{{ $url = . }}{{ end }}
     {{- with index $genres $id }}{{ $g = . }}{{ end }}
     {{- with index $countries $id }}{{ $p = . }}{{ end }}
+    {{- with index $rateds $id }}{{ $rt = . }}{{ end }}
   {{- end }}
   {{- if $url }}{{ $title = printf "[%s](%s)" $title $url }}{{ end }}
   {{- $imdbRow := dict }}
@@ -108,6 +112,7 @@ escaped for Markdown tables; screenings without an IMDb URL are not linked.
     "genre" $g
     "genres" (partial "programmazione/chiavi.html" $g)
     "country" $p
+    "rated" $rt
     "countries" (partial "programmazione/chiavi.html" $p)
     "rating" $imdbRow.rating
     "votes" $imdbRow.votes

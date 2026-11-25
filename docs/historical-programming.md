@@ -102,7 +102,9 @@ Charts are drawn by Hugo as inline SVG with the shortcode
 | `generi-per-decennio` | Generi index | share of each genre per decade (heat map) |
 | `film-per-adulti-per-anno` | Generi index | yearly share of "Per adulti" screenings (area, 50% line) |
 | `italia-estero-per-decennio` | Paesi index | Italian vs foreign share per decade (stacked bars) |
-| `paesi-per-decennio` | Paesi index | distinct production countries per decade (line) |
+$1| `articolo-prime-stagioni` | article "La nascita del cinema" | screenings per year 1948-1957 (bars) |
+| `articolo-rating` | same article | screenings per age rating and year 1948-1957 (stacked bars); categories as in the former R code |
+| `articolo-grande-schermo` | article "Gli anni d'oro" | screenings per year 1948-2004, 1957-1979 boxed, 1960-1961 partial (bars) |
 
 Files in `layouts/`:
 
@@ -142,11 +144,9 @@ as R's. A full `hugo` build takes about 40 s.
 Social previews: SVG cannot be used as an Open Graph image, so each year page
 keeps its first chart as `proiezioni-mensili.png` in its bundle (`image:
 "proiezioni-mensili.png"`), and the Paesi index keeps
-`italia-estero-per-decennio.png` next to its `_index.md`. All these PNGs (and the
-three `voci-programmazione-*.png` of the 1948-1957 and 1957-1979 articles) were
-rendered in the new chart style on 2026-11-25 from the site's own SVG charts (or,
-for the article charts, SVG built from `static/data/`), with Fraunces and
-Archivo embedded, on the paper background (`#F4EDE1`), at the original sizes. Genre and country
+`italia-estero-per-decennio.png` next to its `_index.md`. These PNGs were rendered in the new chart
+style on 2026-11-25 from the site's own SVG charts, with Fraunces and Archivo
+embedded, on the paper background (`#F4EDE1`), at the original sizes. Genre and country
 pages have no `image:` and use their section's image (the Generi hero and the
 Paesi chart). The other R chart PNGs were deleted. The data are final, so these
 images do not go stale.

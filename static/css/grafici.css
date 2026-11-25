@@ -46,3 +46,12 @@
 /* Axes */
 .grafico .g-tick,
 .grafico .g-axis { stroke: var(--muted); stroke-width: 0.8; fill: none; stroke-linecap: square; }
+
+/* Article charts (partials/grafici/articolo.html): stacked age ratings from
+   "Per tutti" (light brass) to 18+ (ink), and the boxed period. */
+.grafico .g-seg { stroke: var(--paper); stroke-width: 1.5; }
+.grafico .g-s1 { fill: color-mix(in srgb, var(--brass) 40%, var(--paper-2)); }
+.grafico .g-s2 { fill: var(--brass); }
+.grafico .g-s3 { fill: var(--curtain); }
+.grafico .g-s4 { fill: var(--ink); }
+.grafico .g-box { fill: none; stroke: var(--brass); stroke-width: 4; stroke-dasharray: 14 10; }

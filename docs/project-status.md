@@ -314,13 +314,15 @@ TODO / DOING / DONE / DEFERRED, with dates. Assistant rules are in `CLAUDE.md`.
   `poster-charts.css`, `dashboard.css`. The Merriweather widths were replaced by
   `data/grafici/archivo.json` and Merriweather and its font files were removed.
   Text sizes in the index charts were enlarged; data, counts and layout logic are
-  unchanged. The chart PNGs were re-rendered in the new style the same day: the 57
-  per-year social previews (`proiezioni-mensili.png`), `italia-estero-per-decennio.png`
-  and the three `voci-programmazione-*.png` of two articles (rebuilt from
-  `static/data/` with the data and categories of the former R code; counts
-  checked against the old images). Rendered once from SVG in a browser, with
-  the site fonts embedded; there is no generator in the repository, so
-  regenerating them means repeating that step (see `historical-programming.md`).
+  unchanged. The 58 social preview PNGs (57 `proiezioni-mensili.png` and
+  `italia-estero-per-decennio.png`, which must stay PNG) were re-rendered in the
+  new style the same day, once, from SVG in a browser with the site fonts
+  embedded; there is no generator in the repository, so regenerating them means
+  repeating that step. The three article charts (first seasons, ratings, boxed
+  1957-1979) are now inline SVG (`{{< grafico nome="articolo-..." >}}`,
+  `partials/grafici/articolo.html`), rebuilt from `static/data/` with the data
+  and categories of the former R code (counts checked against the old PNGs,
+  which were deleted).
 - **U15 - TODO 2026-11-25: a live timeline of the reopening** (what has been
   done, what comes next). Requested by the owner, to build once the owner has
   gathered the information (see U08): the restoration plan, the steps already

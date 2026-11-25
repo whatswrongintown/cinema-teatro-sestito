@@ -60,7 +60,7 @@ La struttura era suddivisa in quattro ambienti: ingresso, cabina di proiezione, 
 
 Dopo diversi mesi di lavoro e burocrazia, il **19 marzo 1949** il prefetto di Catanzaro rilasciò a Vito Sestito l’autorizzazione ufficiale per gli spettacoli pubblici[^3]. L’inaugurazione del **Cinema di Piazza Mario Polerà** fu accolta con entusiasmo: la notizia si diffuse rapidamente nei paesi vicini, e la piccola sala non riusciva a contenere tutti gli spettatori. Si rese così necessario un **calendario d’ingresso per paese**, un sistema ingegnoso che dimostra la straordinaria partecipazione popolare.
 
-<img src="images/voci-programmazione-per-anno-1948-1957.png" alt="Voci di programmazione registrate per anno dal 1948 al 1957" width="768" />
+{{< grafico nome="articolo-prime-stagioni" alt="Voci di programmazione registrate per anno dal 1948 al 1957" >}}
 
 Ogni proiezione era preceduta da brevi intermezzi musicali e da "[La Settimana Incom](https://www.archivioluce.com/la-settimana-incom/)", cinegiornale che diffondeva notizie di attualità e sport, simbolo della nuova Italia repubblicana.
 
@@ -80,7 +80,7 @@ Negli anni Cinquanta il cinema dovette spesso confrontarsi con la morale cattoli
 
 Tali episodi rivelano il delicato equilibrio tra iniziativa culturale, controllo morale e autorità ecclesiastica, tipico delle realtà provinciali dell’Italia del tempo.
 
-<img src="images/voci-programmazione-per-classificazione-1948-1957.png" alt="Voci di programmazione registrate per anno, suddivise per classificazione, dal 1948 al 1957" width="768" />
+{{< grafico nome="articolo-rating" alt="Voci di programmazione registrate per anno, suddivise per classificazione, dal 1948 al 1957" >}}
 
 ## Verso un nuovo cinema
 
