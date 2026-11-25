@@ -196,7 +196,7 @@ TODO / DOING / DONE / DEFERRED, with dates. Assistant rules are in `CLAUDE.md`.
   the visitor's date), intro, section cards, poster strip, stories, reopening
   band and the contact form, all driven by front matter (`design.md`). The
   reopening band reuses the existing home text: the owner still has to write
-  the real reopening status. Adult and erotic films are included in the
+  the real reopening status. 2026-11-25: the owner keeps the current text for now (there were many updates; they will gather the information first). Source for later: the restoration pitch deck (Drive, "Restauro Locale Interno Cinema", 2023-12-28), checked with the owner before use; a draft was prepared in the conversation, not saved. Adult and erotic films are included in the
   home programme like any other film (owner, 2026-11-24). Before:
   one architectural drawing (1956 project),
   four paragraphs of text, a plain list of four links ("Esplora") and the
