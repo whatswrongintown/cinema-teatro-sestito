@@ -354,7 +354,8 @@ TODO / DOING / DONE / DEFERRED, with dates. Assistant rules are in `CLAUDE.md`.
   - Country pages: like genres, the poster strip links "Tutti i N film con
     manifesto →" to a new Posters page per country (`posters/by-country`,
     "Per paese" in the Posters menu, 39 countries with posters; see
-    `posters.md`). Build time unchanged (about 1 min). Next: sources.
+    `posters.md`). Sources the same way: `posters/by-source`, "Per fonte", 79
+    sources with posters. Local build about 90 s (60 s before).
   - Year pages: the charts ("I numeri del ...") above the listing
     (`layouts/programmazione-storica/single.html`).
   - The "Per adulti ed exploitation" page was removed (see U12); the

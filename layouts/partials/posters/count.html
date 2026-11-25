@@ -1,7 +1,8 @@
 {{ $section := . }}
 {{ $count := 0 }}
-{{ $paese := dict "_" true }}
-{{ with $section.Params.country }}{{ $paese = index (partialCached "posters/paesi.html" . "paesi") (lower .) | default (dict "_" true) }}{{ end }}
+{{ $filtro := dict "_" true }}
+{{ with $section.Params.source }}{{ $filtro = index (partialCached "posters/fonti.html" . "fonti") (lower .) | default (dict "_" true) }}{{ end }}
+{{ with $section.Params.country }}{{ $filtro = index (partialCached "posters/paesi.html" . "paesi") (lower .) | default (dict "_" true) }}{{ end }}
 {{ range hugo.Data.posters.films.films }}
   {{ $film := . }}
   {{ $images := where .posters "is_retro" (eq $section.Params.collection "retro") }}
@@ -9,7 +10,8 @@
   {{ with $section.Params.size }}{{ $images = where $images "size" . }}{{ end }}
   {{ $matches := gt (len $images) 0 }}
   {{ with $section.Params.genre }}{{ $matches = and $matches (in $film.genre_slugs .) }}{{ end }}
-  {{ with $section.Params.country }}{{ $matches = and $matches (index $paese $film.film_id) }}{{ end }}
+  {{ with $section.Params.source }}{{ $matches = and $matches (index $filtro $film.film_id) }}{{ end }}
+  {{ with $section.Params.country }}{{ $matches = and $matches (index $filtro $film.film_id) }}{{ end }}
   {{ with $section.Params.letter }}{{ $matches = and $matches (eq $film.letter .) }}{{ end }}
   {{ with $section.Params.year }}
     {{ $year := int . }}

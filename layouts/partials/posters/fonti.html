@@ -1,0 +1,21 @@
+{{- /*
+Sources for the Posters pages by source: lower-case source title -> dict of
+film ID -> true, read straight from static/data/programmazione_agende.csv
+(one row per screening; the source cell may list several, comma-separated).
+The spellings of "Note sui manifesti" are merged as in
+programmazione/dati.html. It reads no pages, so Posters pages can use it while
+the programme pages are built (see docs/posters.md).
+Call with: partialCached "posters/fonti.html" . "fonti"
+*/ -}}
+{{- $s := newScratch -}}
+{{- $note := slice "note su manifesti" "note_su_manifesti" "note su manifesto" "note_su_manifesto" "nota_su_manifesto" -}}
+{{- $csv := resources.Get "data/programmazione_agende.csv" | transform.Unmarshal -}}
+{{- range after 1 $csv -}}
+  {{- $id := strings.TrimSpace (index . 1) -}}
+  {{- range split (index . 4) "," -}}
+    {{- $k := lower (strings.TrimSpace .) -}}
+    {{- if in $note $k }}{{ $k = "note sui manifesti" }}{{ end -}}
+    {{- if and $id $k }}{{ $s.SetInMap $k $id true }}{{ end -}}
+  {{- end -}}
+{{- end -}}
+{{- return $s.Values -}}

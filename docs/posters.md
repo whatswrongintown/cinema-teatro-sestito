@@ -216,3 +216,17 @@ hang (over 30 minutes with two pages) and was dropped. Only the 39 countries
 with at least one poster have a page; the folder name is the slug of the
 programme country page, which links to it ("Tutti i N film con manifesto →").
 A country that gets posters later needs a page copied from a sibling.
+
+## Posters by source (U16, 2026-11-25)
+
+`content/posters/by-source/` ("Per fonte", `browse: source`) works the same
+way: an index of poster cards and one page per source (`layout: source`, front
+matter `source`, the title of the source page, e.g. "Calendario 1966"; the
+folder name is the slug of the source page, which links to it).
+`partials/posters/fonti.html` reads the sources straight from
+`static/data/programmazione_agende.csv` (film ID and the comma-separated source
+cell; the spellings of "Note sui manifesti" are merged as in
+`programmazione/dati.html`). Only the 79 sources with at least one poster have
+a page. The filters of `gallery.html`, `count.html` and `copertina.html` share
+the variable `$filtro` (country or source). Build time with countries and
+sources: about 90 s locally (60 s before), checked 2026-11-25.

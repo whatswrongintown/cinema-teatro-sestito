@@ -75,7 +75,8 @@ Page templates (redesign U07, details in `design.md`):
   a strip of posters from `partials/programmazione/striscia.html` (films
   of those screenings with a poster in `films.json`, most IMDb votes first;
   its header links "Tutti i N film con manifesto" to the Posters page of the
-  same year, genre or country (`posters/by-year`, `by-genre`, `by-country`),
+  same year, genre, country or source (`posters/by-year`, `by-genre`,
+  `by-country`, `by-source`),
   on year pages the part before `<!--more-->` (the charts), then the tables
   (charts above the listing since U16).
 

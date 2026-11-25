@@ -59,6 +59,7 @@ the page body).
   {{- if eq $modo "anni" }}{{ with site.GetPage (printf "/posters/by-year/%v" .Params.anno) }}{{ $link = .RelPermalink }}{{ end }}{{ end }}
   {{- if eq $modo "generi" }}{{ with site.GetPage (printf "/posters/by-genre/%s" (path.Base (strings.TrimSuffix "/" .RelPermalink))) }}{{ $link = .RelPermalink }}{{ end }}{{ end }}
   {{- if eq $modo "paesi" }}{{ with site.GetPage (printf "/posters/by-country/%s" (path.Base (strings.TrimSuffix "/" .RelPermalink))) }}{{ $link = .RelPermalink }}{{ end }}{{ end }}
+  {{- if eq $modo "fonti" }}{{ with site.GetPage (printf "/posters/by-source/%s" (path.Base (strings.TrimSuffix "/" .RelPermalink))) }}{{ $link = .RelPermalink }}{{ end }}{{ end }}
   {{- $titoliStriscia := dict "anni" (printf "I manifesti del %v" .Params.anno) "generi" (printf "I manifesti: %s" .Title) "paesi" (printf "I manifesti: %s" .Title) "fonti" "I manifesti dei film di questa fonte" }}
   {{ partial "programmazione/striscia.html" (dict "rows" $rows "titolo" (index $titoliStriscia $modo) "link" $link "n" 8) }}
 
