@@ -83,7 +83,7 @@ static/js/cartellone.js redoes it for the visitor's date with the same rules
       {{- $data := time.AsTime (index . 0) }}
       <a href="{{ index . 4 }}">
         {{- $dim := findRESubmatch `(\d+)x(\d+)` (index . 7) -}}
-        <img src="{{ index . 6 }}" alt="{{ index . 1 }}, {{ lower (index . 7) }}"{{ with $dim }} width="{{ index (index . 0) 1 }}" height="{{ index (index . 0) 2 }}"{{ end }} loading="lazy" decoding="async">
+        <img src="{{ index . 5 }}" alt="{{ index . 1 }}, {{ lower (index . 7) }}"{{ with $dim }} width="{{ index (index . 0) 1 }}" height="{{ index (index . 0) 2 }}"{{ end }} loading="lazy" decoding="async">
       </a>
       <p class="label show-poster-format">{{ index . 7 }}</p>
       <p class="show-poster-title">{{ index . 1 }}</p>

@@ -89,7 +89,7 @@
     var a = el('a');
     a.href = r[4];
     var img = el('img');
-    img.src = r[6];
+    img.src = r[5];
     img.alt = r[1] + ', ' + r[7].toLowerCase();
     // Width and height from the format (e.g. "manifesto 70x100") reserve the
     // space, as the build-time markup does.
