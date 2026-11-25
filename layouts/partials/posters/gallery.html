@@ -43,24 +43,42 @@
   {{ $shown := $cards }}
   {{ if $paginator }}{{ $shown = $paginator.Pages }}{{ end }}
   {{ $filmMap := partialCached "posters/film-map.html" . }}
-  <div class="poster-grid">
-    {{ range $shown }}
-      {{ $film := index $filmMap .Params.film_id }}
-      {{ $images := where $film.posters "is_retro" $retro }}
-      {{ with $page.Params.category }}{{ $images = where $images "category" . }}{{ end }}
-      {{ with $page.Params.size }}{{ $images = where $images "size" . }}{{ end }}
-      {{ $poster := index $images 0 }}
-      <article class="poster-card poster-{{ $poster.orientation }} poster-cat-{{ $poster.category }}">
+  {{- /* Pick each film's poster first: when the grid mixes formats, the
+       thumbnails are drawn to scale (see sheet-size.html and "Posters to
+       scale" in editorial.css). */ -}}
+  {{ $items := slice }}
+  {{ $sizes := slice }}
+  {{ $maxW := 0.0 }}{{ $maxH := 0.0 }}
+  {{ range $shown }}
+    {{ $film := index $filmMap .Params.film_id }}
+    {{ $images := where $film.posters "is_retro" $retro }}
+    {{ with $page.Params.category }}{{ $images = where $images "category" . }}{{ end }}
+    {{ with $page.Params.size }}{{ $images = where $images "size" . }}{{ end }}
+    {{ $poster := index $images 0 }}
+    {{ $sheet := partial "posters/sheet-size.html" $poster }}
+    {{ with $sheet.w }}{{ $maxW = math.Max $maxW . }}{{ $maxH = math.Max $maxH $sheet.h }}{{ end }}
+    {{ $sizes = $sizes | append $poster.size }}
+    {{ $items = $items | append (dict "page" . "film" $film "poster" $poster "sheet" $sheet) }}
+  {{ end }}
+  {{ $toScale := gt (len (uniq $sizes)) 1 }}
+  <div class="poster-grid{{ if $toScale }} is-to-scale{{ end }}"
+       {{- if $toScale }} style="--max-w: {{ printf "%.1f" $maxW }}; --max-h: {{ printf "%.1f" $maxH }}"{{ end }}>
+    {{ range $items }}
+      {{ $film := .film }}
+      {{ $poster := .poster }}
+      {{ $filmURL := .page.RelPermalink }}
+      <article class="poster-card poster-{{ $poster.orientation }} poster-cat-{{ $poster.category }}"
+               {{- if and $toScale .sheet.w }} style="--w: {{ printf "%.1f" .sheet.w }}; --h: {{ printf "%.1f" .sheet.h }}"{{ end }}>
         <a href="{{ $poster.large | relURL }}" title="{{ $film.title }}" class="lightbox-image"
            data-caption="{{ $film.title }} ({{ $poster.category | title }} {{ $poster.size }})"
-           data-film-url="{{ .RelPermalink }}">
+           data-film-url="{{ $filmURL }}">
           <img src="{{ $poster.thumb | relURL }}" width="{{ $poster.thumb_width }}"
                height="{{ $poster.thumb_height }}" loading="lazy" decoding="async"
                style="aspect-ratio: {{ $poster.thumb_width }} / {{ $poster.thumb_height }}"
                alt="{{ $poster.alt }}">
           {{ if $retro }}<span class="poster-size">{{ $poster.size }}</span>{{ end }}
         </a>
-        <a class="poster-card-title no-lightbox" href="{{ .RelPermalink }}">{{ $film.title }}</a>
+        <a class="poster-card-title no-lightbox" href="{{ $filmURL }}">{{ $film.title }}</a>
         {{- with $film.production_year }}<span class="label poster-card-meta">{{ . }}</span>{{ end }}
       </article>
     {{ end }}

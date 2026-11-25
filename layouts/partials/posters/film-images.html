@@ -1,7 +1,20 @@
-<div class="poster-grid">
-  {{ $filmURL := .film_url }}
+{{- /* A film's posters. When they mix formats, they are drawn to scale
+     (see sheet-size.html and "Posters to scale" in editorial.css). */ -}}
+{{ $filmURL := .film_url }}
+{{ $sizes := slice }}
+{{ $maxW := 0.0 }}{{ $maxH := 0.0 }}
+{{ range .posters }}
+  {{ $sizes = $sizes | append .size }}
+  {{ $sheet := partial "posters/sheet-size.html" . }}
+  {{ with $sheet.w }}{{ $maxW = math.Max $maxW . }}{{ $maxH = math.Max $maxH $sheet.h }}{{ end }}
+{{ end }}
+{{ $toScale := gt (len (uniq $sizes)) 1 }}
+<div class="poster-grid{{ if $toScale }} is-to-scale{{ end }}"
+     {{- if $toScale }} style="--max-w: {{ printf "%.1f" $maxW }}; --max-h: {{ printf "%.1f" $maxH }}"{{ end }}>
   {{ range .posters }}
-  <figure class="poster-card poster-{{ .orientation }} poster-cat-{{ .category }}">
+  {{ $sheet := partial "posters/sheet-size.html" . }}
+  <figure class="poster-card poster-{{ .orientation }} poster-cat-{{ .category }}"
+          {{- if and $toScale $sheet.w }} style="--w: {{ printf "%.1f" $sheet.w }}; --h: {{ printf "%.1f" $sheet.h }}"{{ end }}>
     <a href="{{ .large | relURL }}" class="lightbox-image" title="{{ .alt }}"
        data-caption="{{ .alt }} ({{ .category | title }} {{ .size }}, n. {{ .number }})"
        data-film-url="{{ $filmURL }}">

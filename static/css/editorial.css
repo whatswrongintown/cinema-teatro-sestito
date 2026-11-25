@@ -1085,6 +1085,58 @@ a.poster-wall-title:focus-visible {
   text-transform: uppercase;
 }
 
+/* Posters to scale: when a gallery mixes formats (33x70, 50x70, 70x100,
+   100x140, 140x200), every thumbnail is drawn at the real size of its sheet,
+   on one scale per gallery, so a locandina next to a manifesto looks as it
+   would on a wall. The templates set --w and --h (cm, oriented like the scan)
+   on each card and --max-w and --max-h on the grid. The scale (--cm, px per
+   cm) keeps the largest sheet within 400 px wide, 440 px tall and the row
+   width. Cards keep a minimum width so short titles stay readable; image
+   bottoms line up because the text under each image has a fixed height. */
+.poster-grid.is-to-scale {
+  --cm: min(400px / var(--max-w), 440px / var(--max-h), 100cqi / var(--max-w));
+  container-type: inline-size;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+}
+
+.poster-grid.is-to-scale .poster-card {
+  flex: 0 0 auto;
+  width: max(calc(var(--w) * var(--cm)), 7rem);
+  max-width: 100%;
+}
+
+.poster-grid.is-to-scale .poster-card > a:first-child {
+  position: relative;
+  display: block;
+  width: calc(var(--w) * var(--cm));
+  max-width: 100%;
+  margin-inline: auto;
+}
+
+.poster-grid.is-to-scale .poster-card-title {
+  display: -webkit-box;
+  height: 2.5em;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+}
+
+.poster-grid.is-to-scale .poster-card-meta {
+  height: 1.5em;
+}
+
+.poster-grid.is-to-scale .poster-card-title:last-child {
+  margin-bottom: calc(4px + 0.75rem * 1.5);
+}
+
+.posters-page .poster-grid.is-to-scale .poster-card figcaption {
+  height: 3em;
+  line-height: 1.5;
+}
+
 .posters-month-title {
   margin: 48px 0 20px;
   padding-top: 20px;

@@ -32,8 +32,22 @@ of the repository.
   - year pages: month links and one gallery per month, plus a link to that
     year's programme; other pages: the paginated gallery (60 per page).
   Gallery cards (`posters/gallery.html`) show the title (a link to the film
-  page) and the production year; the Retro size labels are unchanged (U05,
-  U06).
+  page) and the production year; the Retro size labels are unchanged (U06).
+- Posters to scale (U05, 2026-11-25): when a gallery (`posters/gallery.html`,
+  one per month on year pages) or a film page's posters
+  (`posters/film-images.html`) mix formats, the grid gets the class
+  `is-to-scale` and every thumbnail is drawn at the real size of its sheet.
+  `posters/sheet-size.html` turns the format (`size`, "AxB") into width and
+  height in cm, oriented like the scan (sheet area from the format, aspect
+  ratio from the thumbnail, so a landscape 50x70 fotobusta is 70 wide). The
+  templates set `--w`/`--h` on each card and `--max-w`/`--max-h` on the grid;
+  `editorial.css` ("Posters to scale") picks one px-per-cm scale per gallery so
+  the largest sheet is at most 400 px wide, 440 px tall and fits the row
+  (container query units), lays the cards out as a wrapping row with image
+  bottoms aligned, and keeps cards at least 7rem wide for the titles (clamped
+  to two lines). The scale is per gallery, so two month galleries on one year
+  page can use different scales. Single-format galleries (the format pages)
+  keep the uniform grid.
 - Landing page: front matter `occhiello`, `sottotitolo`, `introTitolo`,
   `ingressiOcchiello`, `ingressiTitolo` and `ingressi` (the cards, same
   fields as on the home page). "Manifesto del giorno": `posters/indice.html`

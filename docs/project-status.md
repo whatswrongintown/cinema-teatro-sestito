@@ -121,8 +121,14 @@ TODO / DOING / DONE / DEFERRED, with dates. Assistant rules are in `CLAUDE.md`.
   cleanup is done: `static/programmazione-storica/` and every `index_files`
   folder are gone.
 - **U04 - DONE 2026-11-24: charts in the Posters subsections** (per year in Per anno, format and genre by decade in Per formato and Per genere); see `posters.md`. DONE 2026-11-24 (cause found, details in `posters.md`): the year and decade counts count a poster once per screening year (1,960 vs 1,511 distinct dated posters); captions say so. 2026-11-24: genre chart now includes undated posters and excludes Drammatico (see `posters.md`). DONE 2026-11-25: the owner, who collected the data, confirmed it is correct: the CSVs are not regenerated; the 251 gap (recording file 2,038 vs `films.json` 1,787) is physical copies of the same poster digitised once; the 1966 peak is real (those posters were, probably by chance, saved and stored correctly). Details in `posters.md`.
-- **U05 - TODO 2026-11-24: show the real relative size of poster formats in
-  the thumbnail galleries.** When posters of different formats (for example
+- **U05 - DOING 2026-11-25: show the real relative size of poster formats in
+  the thumbnail galleries.** 2026-11-25, branch
+  `posters/proportional-formats` (not merged): the owner asked to try the
+  proportional view; galleries and film pages that mix formats now draw each
+  thumbnail at the real sheet size on one scale per gallery, bottoms aligned;
+  single-format pages are unchanged (details in `posters.md`). Checked
+  locally on desktop and 375 px. TODO: owner review of the branch; the Retro
+  size labels stay until U06. When posters of different formats (for example
   70x100, 100x70 and 140x200 cm) are listed together, every thumbnail is
   rendered at about the same size, so the formats look alike and the visitor
   has no sense of how big one is compared with another. Wanted: a display

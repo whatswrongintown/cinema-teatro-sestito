@@ -1,0 +1,16 @@
+{{- /*
+Physical size of a poster sheet in cm, oriented like its scan: a 50x70
+fotobusta scanned in landscape is 70 wide and 50 tall. The sheet area comes
+from the format (`size`, "AxB"); the width and height follow the scan's
+aspect ratio, so slightly trimmed or skewed scans still keep their area.
+Call with: partial "posters/sheet-size.html" $poster
+Returns: dict "w" (cm) "h" (cm), or nil when the format is not "AxB".
+*/ -}}
+{{- $out := dict -}}
+{{- $parts := split (string .size) "x" -}}
+{{- if eq (len $parts) 2 -}}
+  {{- $area := mul (float (index $parts 0)) (float (index $parts 1)) -}}
+  {{- $ratio := div (float .thumb_width) (float .thumb_height) -}}
+  {{- $out = dict "w" (math.Sqrt (mul $area $ratio)) "h" (math.Sqrt (div $area $ratio)) -}}
+{{- end -}}
+{{- return $out -}}
