@@ -225,11 +225,12 @@ TODO / DOING / DONE / DEFERRED, with dates. Assistant rules are in `CLAUDE.md`.
   reopening or contact; keyboard and screen reader support (`aria-current`,
   focus states). Keep it light (no heavy JavaScript) and keep the Lighthouse
   scores (U03). To design together with U07 and U08.
-- **U10 - DOING 2026-11-24: improve the footer** (`layouts/partials/footer.html`,
+- **U10 - DONE 2026-11-25: improve the footer** (`layouts/partials/footer.html`,
   `static/css/main.css`). On `redesign/home-prototype`: four columns (venue,
   sections, Posters subsections, contacts) plus credits, text links and
-  `rel="noopener"`. Still open: newsletter (if wanted), rights and reuse note
-  wording. Before: one line: the copyright text (a link to
+  `rel="noopener"`. No newsletter: the owner does not want one (2026-11-25).
+  Rights and reuse: the owner keeps the current credit line (2026-11-25), no
+  extra sentence (the footer says only "Documenti e immagini dall'archivio della  famiglia Sestito"). Before: one line: the copyright text (a link to
   `cinemateatrosestito.com`) followed by three small 15 px icons (GitHub,
   Instagram, email) with no text and `target="_blank"` links without
   `rel="noopener"`. Improvements to agree with the owner: a real footer with
