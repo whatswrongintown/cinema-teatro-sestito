@@ -103,8 +103,10 @@ TODO / DOING / DONE / DEFERRED, with dates. Assistant rules are in `CLAUDE.md`.
   thumbnail (25 KB) instead of the 226 KB large image (LCP 2.6 s to 2.4 s,
   performance still 97). Dropping the Fraunces italic preload was a mistake: the
   home h1 sets "Sestito" in italic, so the font was found late (CLS 0.002); the
-  preload is restored. TODO: rerun Lighthouse on the home page, /posters/ and a
-  film page after the deploy.
+  preload is restored. DONE 2026-11-25: rerun with PageSpeed Insights (mobile)
+  after the deploy of `e7d3479b`: home performance 97 (LCP 2.6 s), `/posters/`
+  96 (LCP 2.8 s), film page `/posters/films/internal-1007/` 96 (LCP 2.8 s); all
+  three accessibility, best practices and SEO 100, CLS 0, TBT 0 ms.
 - **U02 - DONE 2026-11-23: social-sharing images.** `layouts/partials/social-image.html`
   (called by `head.html`) picks the page's `image:` (a bundle file or an
   absolute path under `static/`), else the nearest ancestor section's, else
@@ -149,8 +151,8 @@ TODO / DOING / DONE / DEFERRED, with dates. Assistant rules are in `CLAUDE.md`.
   the dashboard, and Eventi, Progetto, the small pages, the 404 and the
   breadcrumbs (2026-11-24): every page is in the new style (details in
   `design.md`); the old blog styles and the Lato font were removed. Merged to `main` and deployed 2026-11-25 at the owner's request. CSS and JS are minified and fingerprinted by Hugo
-  Pipes (one site stylesheet; see `design.md`). Next: the owner sends the Lighthouse
-  report of the deployed site (TODO), then fine-tuning as agreed. Background: today the site reads
+  Pipes (one site stylesheet; see `design.md`). Lighthouse on the deployed site
+  checked 2026-11-25 (see U03). Next: fine-tuning as agreed. Background: today the site reads
   as a blog plus a set of tables and charts (historical programming), which
   gives it a statistical, archival feel. Goal: the identity of a living
   cultural venue that supports the reopening of the cinema and the physical
