@@ -230,7 +230,8 @@ TODO / DOING / DONE / DEFERRED, with dates. Assistant rules are in `CLAUDE.md`.
   sections, Posters subsections, contacts) plus credits, text links and
   `rel="noopener"`. No newsletter: the owner does not want one (2026-11-25).
   Rights and reuse: the owner keeps the current credit line (2026-11-25), no
-  extra sentence (the footer says only "Documenti e immagini dall'archivio della  famiglia Sestito"). Before: one line: the copyright text (a link to
+  extra sentence (the footer says only "Documenti e immagini dall'archivio della famiglia Sestito").
+  Before: one line: the copyright text (a link to
   `cinemateatrosestito.com`) followed by three small 15 px icons (GitHub,
   Instagram, email) with no text and `target="_blank"` links without
   `rel="noopener"`. Improvements to agree with the owner: a real footer with
