@@ -123,7 +123,7 @@ TODO / DOING / DONE / DEFERRED, with dates. Assistant rules are in `CLAUDE.md`.
 - **U04 - DONE 2026-11-24: charts in the Posters subsections** (per year in Per anno, format and genre by decade in Per formato and Per genere); see `posters.md`. DONE 2026-11-24 (cause found, details in `posters.md`): the year and decade counts count a poster once per screening year (1,960 vs 1,511 distinct dated posters); captions say so. 2026-11-24: genre chart now includes undated posters and excludes Drammatico (see `posters.md`). DONE 2026-11-25: the owner, who collected the data, confirmed it is correct: the CSVs are not regenerated; the 251 gap (recording file 2,038 vs `films.json` 1,787) is physical copies of the same poster digitised once; the 1966 peak is real (those posters were, probably by chance, saved and stored correctly). Details in `posters.md`.
 - **U05 - DONE 2026-11-25: show the real relative size of poster formats in
   the thumbnail galleries.** The owner asked to try the proportional view and
-  approved it; merged into `main` locally (not pushed yet): galleries and film
+  approved it; merged and deployed 2026-11-25: galleries and film
   pages that mix formats draw each thumbnail at the real sheet size on one
   scale per gallery, bottoms aligned; single-format pages are unchanged
   (details in `posters.md`). Original request: when posters of different formats (for example
@@ -138,16 +138,15 @@ TODO / DOING / DONE / DEFERRED, with dates. Assistant rules are in `CLAUDE.md`.
   group and a scale bar. Rejected by the owner: size silhouettes or text
   labels such as "70x100 cm" on each thumbnail. Check mobile widths and keep
   thumbnails at most 400 px wide (`posters.md`).
-- **U06 - DOING 2026-11-25: fix the Retro section** (`/posters/retro/`).
-  Branch `posters/retro` (not merged): the size labels are removed (the
+- **U06 - DONE 2026-11-25: fix the Retro section** (`/posters/retro/`).
+  Approved by the owner, merged and deployed 2026-11-25: the size labels are removed (the
   gallery is drawn to scale, U05); in to-scale galleries title and year sit
   right under the image in a fixed-height block; the page text is rewritten
   to be easier to follow, with the owner's account (2026-11-25): the
   grandfather wrote the title by hand on the back of another film's poster,
   each time in different colours, and the handwriting is what makes them
   special. "Dipinti a mano" became "scritti a mano" on the landing card and
-  figures and the film page (details in `posters.md`). Approved by the owner
-  2026-11-25.
+  figures and the film page (details in `posters.md`).
   Original request: every thumbnail carried a size label the owner disliked;
   remove it and review the section's layout.
 - **U07 - DOING 2026-11-24: from blog and statistics site to an editorial,
@@ -247,7 +246,7 @@ TODO / DOING / DONE / DEFERRED, with dates. Assistant rules are in `CLAUDE.md`.
   with a dark header, neighbour links, year index by decade, genre and format
   cards, titled thumbnails and button pagination; new film page (large poster,
   details, screenings with sources, all posters, previous and next film).
-  Still open: U06 (Retro, under review), search and combined
+  U05 and U06 DONE 2026-11-25. Still open: search and combined
   filters, editorial pieces on the posters. Adult and erotic films are shown
   like any other (owner, 2026-11-24). Original request (`content/posters/`,
   `layouts/posters/`, `layouts/partials/posters/`). The section is complete in

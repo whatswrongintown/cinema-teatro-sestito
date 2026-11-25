@@ -261,8 +261,6 @@ film page classes `.film-*`.
 
 ## Next steps
 
-See U07 in `project-status.md`: owner review of the branch; a Lighthouse
-check (U03 scores), which the owner postponed on 2026-11-24, ideally before
-merging; then the open items U06 (Retro), search, and the
-owner's texts (reopening status, the article on adult and exploitation
-films).
+See U07 in `project-status.md`: the redesign is merged and deployed, and the
+Lighthouse check is done (U03). Still open: search, and the owner's texts
+(reopening status, the article on adult and exploitation films).
