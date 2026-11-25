@@ -4,7 +4,6 @@ author: Vito Sestito
 date: '1985-01-01'
 slug: programmazione-1985
 description: Programmazione cinematografica del Cinema Teatro Sestito nel 1985.
-image: "proiezioni-mensili.png"
 categories:
   - programmazione-per-anni
 params:

@@ -34,7 +34,9 @@ frontmatter:
     - lastmod
 params:
   description: Un sito web dedicato al Cinema di San Vito sullo Ionio. Dalle sue origini alla chiusura, esplora i film, le storie e i ricordi che hanno reso il Cinema una cara istituzione culturale del paese.
-  defaultImage: "1956_progetto_cinema.webp"
+  # House share card (U17): pages without their own image or poster; source in docs/share-card/.
+  defaultImage: "social-card.png"
+  defaultImageAlt: "Cinema Teatro Sestito, San Vito sullo Ionio: il nome del cinema e tre manifesti della raccolta"
   favicon: images/icons/favicon.png
   instagram: whatswrongintown
   github: whatswrongintown/cinema-teatro-sestito

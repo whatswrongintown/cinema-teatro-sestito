@@ -4,7 +4,6 @@ author: Vito Sestito
 date: '1994-01-01'
 slug: programmazione-1994
 description: Programmazione cinematografica del Cinema Teatro Sestito nel 1994.
-image: "proiezioni-mensili.png"
 categories:
   - programmazione-per-anni
 params:

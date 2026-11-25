@@ -4,7 +4,6 @@ author: Vito Sestito
 date: '1984-01-01'
 slug: programmazione-1984
 description: Programmazione cinematografica del Cinema Teatro Sestito nel 1984.
-image: "proiezioni-mensili.png"
 categories:
   - programmazione-per-anni
 params:

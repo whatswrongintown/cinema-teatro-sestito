@@ -4,7 +4,6 @@ author: Vito Sestito
 date: '1953-01-01'
 slug: programmazione-1953
 description: Programmazione cinematografica del Cinema Teatro Sestito nel 1953.
-image: "proiezioni-mensili.png"
 categories:
   - programmazione-per-anni
 params:

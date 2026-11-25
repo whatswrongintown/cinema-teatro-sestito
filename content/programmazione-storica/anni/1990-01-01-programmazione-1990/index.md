@@ -4,7 +4,6 @@ author: Vito Sestito
 date: '1990-01-01'
 slug: programmazione-1990
 description: Programmazione cinematografica del Cinema Teatro Sestito nel 1990.
-image: "proiezioni-mensili.png"
 categories:
   - programmazione-per-anni
 params:

@@ -8,13 +8,9 @@ the page body).
 */ -}}
 {{ partial "header.html" . }}
 {{- $page := . }}
-{{- $cartelle := dict "anni" "anni" "generi" "generi" "paesi-di-produzione" "paesi" "fonti" "fonti" }}
-{{- $modo := "fonti" }}
-{{- with .Parent }}{{ $modo = index $cartelle (path.Base (strings.TrimSuffix "/" .RelPermalink)) | default "fonti" }}{{ end }}
-{{- $dati := partialCached "programmazione/dati.html" . "programmazione" }}
-{{- $rows := slice }}
-{{- if eq $modo "anni" }}{{ $rows = index $dati.gruppi (printf "anni|%v" .Params.anno) | default slice }}
-{{- else }}{{ $rows = index $dati.gruppi (printf "%s|%s" $modo (lower (strings.TrimSpace .Title))) | default slice }}{{ end }}
+{{- $righe := partial "programmazione/righe.html" . }}
+{{- $modo := $righe.modo }}
+{{- $rows := $righe.rows }}
 {{- $ids := slice }}{{ range $rows }}{{ with .id }}{{ $ids = $ids | append . }}{{ end }}{{ end }}
 {{- $anni := slice }}{{ range $rows }}{{ $anni = $anni | append .year }}{{ end }}{{ $anni = uniq $anni }}
 {{- $fratelli := slice }}

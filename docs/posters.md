@@ -75,11 +75,13 @@ of the repository.
   against 1974 for printed posters only, were dropped as hard to follow).
   Update the figures only if `films.json` changes (it is final). The gallery
   has no size labels: it is drawn to scale (U05).
-- `image` in front matter is used for social metadata. Thumbnails open the
-  keyboard-accessible lightbox; without JavaScript they link to the large image.
-  Index pages with `image: ''` share the nearest parent's image (in the end the
-  Posters hero). Film pages get `image:` from the adapter: the large image of
-  the first printed poster, or of the first poster if there are only retros.
+- Thumbnails open the keyboard-accessible lightbox; without JavaScript they
+  link to the large image.
+- Share cards (U17, `design.md`, section "Share cards"): film pages share the
+  `image:` set by the adapter (the large image of the first printed poster, or
+  of the first poster if there are only retros); list pages with `image: ''`
+  share the poster of their card (`posters/copertina.html`), the Posters
+  landing page its hero.
 
 ## Data (`data/posters/films.json`)
 

@@ -4,7 +4,6 @@ author: Vito Sestito
 date: '1954-01-01'
 slug: programmazione-1954
 description: Programmazione cinematografica del Cinema Teatro Sestito nel 1954.
-image: "proiezioni-mensili.png"
 categories:
   - programmazione-per-anni
 params:

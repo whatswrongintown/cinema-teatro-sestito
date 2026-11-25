@@ -1,7 +1,7 @@
 {{- /*
 A representative poster for a Posters section page (genre or format card):
 among the films with a printed poster matching the section's category, size,
-genre, country, source and year, the best known one (most IMDb votes), preferring portrait
+genre, country, source, title letter and year, the best known one (most IMDb votes), preferring portrait
 posters. Returns a dict like home/manifesto.html (film, poster, formato) or
 false.
 Call with: partial "posters/copertina.html" (dict "sezione" $section "usati" $ids)
@@ -20,6 +20,7 @@ Call with: partial "posters/copertina.html" (dict "sezione" $section "usati" $id
   {{- with $sec.Params.genre }}{{ if not (in $film.genre_slugs .) }}{{ continue }}{{ end }}{{ end -}}
   {{- with $sec.Params.source }}{{ if not (index $filtro $film.film_id) }}{{ continue }}{{ end }}{{ end -}}
   {{- with $sec.Params.country }}{{ if not (index $filtro $film.film_id) }}{{ continue }}{{ end }}{{ end -}}
+  {{- with $sec.Params.letter }}{{ if ne $film.letter . }}{{ continue }}{{ end }}{{ end -}}
   {{- with $sec.Params.year -}}
     {{- $anno := int . }}{{ $ok := false -}}
     {{- range $film.screenings }}{{ if eq (int .year) $anno }}{{ $ok = true }}{{ end }}{{ end -}}

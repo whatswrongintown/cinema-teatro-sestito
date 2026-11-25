@@ -4,6 +4,8 @@ description: "Applicazione interattiva per esplorare i film proiettati al Cinema
 author: Vito Sestito
 date: '2023-09-23'
 slug: esplora-la-storia-cinematografica-di-san-vito-sullo-ionio
+image: "/images/programmazione_storica/1966_01_01_calendario_proiezioni/1966_01_01_calendario_proiezioni_01.webp"
+imageCaption: "Gennaio 1966: i titoli dei film proiettati, annotati a mano sul calendario del cinema."
 categories:
   - Analisi
 tags:

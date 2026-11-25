@@ -50,8 +50,10 @@ TODO / DOING / DONE / DEFERRED, with dates. Assistant rules are in `CLAUDE.md`.
 - Netlify plan: Legacy Starter (100 form submissions per site per month; metered
   usage can cause charges). No plan change is proposed.
 - Charts: explain their conventions in the methodology; do not recalculate them.
-- The social preview images named in front matter `image:` stay as PNG files
-  (SVG cannot be used as an Open Graph image).
+- 2026-11-25 (U17): every page shares a 1200x630 JPEG card made by Hugo: its
+  own `image:`, else a poster for pages listing films, else the house card.
+  Every article must have `image:` (hero and share card). No separate preview
+  images. Rules in `design.md`, section "Share cards".
 - Absolute-root URLs and the repeated public email are existing choices, not
   defects. Keep `content/sitemap.md` up to date when sections change.
 - 2026-11-23: the project moved from R/blogdown to Hugo only, and from GitHub
@@ -107,17 +109,10 @@ TODO / DOING / DONE / DEFERRED, with dates. Assistant rules are in `CLAUDE.md`.
   after the deploy of `e7d3479b`: home performance 97 (LCP 2.6 s), `/posters/`
   96 (LCP 2.8 s), film page `/posters/films/internal-1007/` 96 (LCP 2.8 s); all
   three accessibility, best practices and SEO 100, CLS 0, TBT 0 ms.
-- **U02 - DONE 2026-11-23: social-sharing images.** `layouts/partials/social-image.html`
-  (called by `head.html`) picks the page's `image:` (a bundle file or an
-  absolute path under `static/`), else the nearest ancestor section's, else
-  `params.defaultImage`; an `image:` that does not resolve gives a build
-  warning. Fixed: archive and article `image:` made bundle-relative (they
-  pointed to old blogdown permalinks); year pages use their first chart,
-  `proiezioni-mensili.png`, moved to the bundle root; genre and country pages
-  dropped `image:` and use the section's (Generi hero, Paesi chart, now
-  `content/programmazione-storica/paesi-di-produzione/italia-estero-per-decennio.png`);
-  poster film pages get their first poster from the content adapter. Checked
-  on a full build: every `og:image` points to a file in `public/`. The static
+- **U02 - DONE 2026-11-23: social-sharing images.** Fixed the broken
+  `image:` paths left by blogdown (archive and article `image:` made
+  bundle-relative) and added `layouts/partials/social-image.html`. Its
+  choice of image and the card format were redone in U17. The static
   cleanup is done: `static/programmazione-storica/` and every `index_files`
   folder are gone.
 - **U04 - DONE 2026-11-24: charts in the Posters subsections** (per year in Per anno, format and genre by decade in Per formato and Per genere); see `posters.md`. DONE 2026-11-24 (cause found, details in `posters.md`): the year and decade counts count a poster once per screening year (1,960 vs 1,511 distinct dated posters); captions say so. 2026-11-24: genre chart now includes undated posters and excludes Drammatico (see `posters.md`). DONE 2026-11-25: the owner, who collected the data, confirmed it is correct: the CSVs are not regenerated; the 251 gap (recording file 2,038 vs `films.json` 1,787) is physical copies of the same poster digitised once; the 1966 peak is real (those posters were, probably by chance, saved and stored correctly). Details in `posters.md`.
@@ -208,7 +203,7 @@ TODO / DOING / DONE / DEFERRED, with dates. Assistant rules are in `CLAUDE.md`.
   over time; a short, visible note on the reopening and how to take part; a
   shorter text (the story lives in the project and article pages); the
   contact form lower or moved to a contact page. Keep the Lighthouse scores
-  (U03) and the social image logic (U02). This is the first concrete step of
+  (U03) and the share cards (U17). This is the first concrete step of
   U07 and should be designed with it.
 - **U09 - DOING 2026-11-24: improve the navigation menu** (`menu.main` in
   `config.yaml`, `layouts/partials/nav.html`, `static/css/main.css`). On
@@ -309,11 +304,8 @@ TODO / DOING / DONE / DEFERRED, with dates. Assistant rules are in `CLAUDE.md`.
   `poster-charts.css`, `dashboard.css`. The Merriweather widths were replaced by
   `data/grafici/archivo.json` and Merriweather and its font files were removed.
   Text sizes in the index charts were enlarged; data, counts and layout logic are
-  unchanged. The 58 social preview PNGs (57 `proiezioni-mensili.png` and
-  `italia-estero-per-decennio.png`, which must stay PNG) were re-rendered in the
-  new style the same day, once, from SVG in a browser with the site fonts
-  embedded; there is no generator in the repository, so regenerating them means
-  repeating that step. The three article charts (first seasons, ratings, boxed
+  unchanged. The 58 chart PNGs used only as social previews were deleted in
+  U17. The three article charts (first seasons, ratings, boxed
   1957-1979) are now inline SVG (`{{< grafico nome="articolo-..." >}}`,
   `partials/grafici/articolo.html`), rebuilt from `static/data/` with the data
   and categories of the former R code (counts checked against the old PNGs,
@@ -359,8 +351,7 @@ TODO / DOING / DONE / DEFERRED, with dates. Assistant rules are in `CLAUDE.md`.
     `posters.md`). Sources the same way: `posters/by-source`, "Per fonte", 79
     sources with posters. Local build about 90 s (60 s before).
   - Paesi: the header no longer shows the Italia/estero chart (it is in the
-    text below); the `image` stays for social sharing (front matter
-    `immagineIntestazione: false`).
+    text below).
   - Year pages: the charts ("I numeri del ...") above the listing
     (`layouts/programmazione-storica/single.html`).
   - The "Per adulti ed exploitation" page was removed (see U12); the
@@ -370,6 +361,34 @@ TODO / DOING / DONE / DEFERRED, with dates. Assistant rules are in `CLAUDE.md`.
   whole build 1 min 45 s, mostly upload and form post-processing of 1,952
   changed files; Lighthouse home 97 / 100 / 100 / 100. Possible later: month
   links on year pages, as on the Posters year pages.
+- **U17 - DONE 2026-11-25 (branch `social-cards`, not merged): one share card
+  style for the whole site.** Requested by the owner after the redesign:
+  links shared on social networks still showed the old images (the home
+  page the 1956 drawing), and sections behaved differently. Before: each
+  page shared its raw `image:` or its section's (1,132 of 1,223 images WebP,
+  most portrait and cropped by the platforms, some over 2 MB, no declared
+  size); 306 Posters list pages shared the Posters hero, all 24 genre pages
+  the Generi hero, all 65 country pages one chart. Now every page shares a
+  1200x630 JPEG card built by Hugo: its own image, else a poster for pages
+  listing films, else a house card in the style of the home hero
+  (`content/social-card.png`, source `docs/share-card/house-card.html`).
+  Rules in `design.md`, section "Share cards". Also:
+  - `og:image:width`, `height`, `type`, `alt`, `twitter:image:alt` and
+    `og:locale` added (`head.html`).
+  - The 57 `proiezioni-mensili.png` and `italia-estero-per-decennio.png` (hand
+    rendered, used only for sharing) deleted; year and country pages share
+    their first poster. `programmazione/righe.html` (a page's screenings) was
+    taken out of the programme page layout so the share card can use it;
+    `posters/copertina.html` also filters by title letter.
+  - The two articles without a hero got one, chosen by the assistant (owner
+    to confirm): the interview with Stefano Sestito a photo from the Drive "Foto"
+    album (1960s-70s, in front of the cinema), "Esplora" the January 1966
+    screening calendar scan.
+  - The build warns about an article without `image:`.
+  Checked on a full build: 1,711 pages, all with a 1200x630 card that exists
+  in `public/` (1,173 distinct cards, 78 MB, largest 192 KB). Local build:
+  first build about 6 min (new images), then about 75 s. After the deploy,
+  re-scrape the main pages in Facebook's Sharing Debugger.
 - No feature roadmap yet: new ideas are agreed with the owner and listed here
   when they are approved.
 

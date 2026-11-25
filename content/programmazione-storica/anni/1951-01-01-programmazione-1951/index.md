@@ -4,7 +4,6 @@ author: Vito Sestito
 date: '1951-01-01'
 slug: programmazione-1951
 description: Programmazione cinematografica del Cinema Teatro Sestito nel 1951.
-image: "proiezioni-mensili.png"
 categories:
   - programmazione-per-anni
 params:

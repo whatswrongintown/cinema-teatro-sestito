@@ -4,7 +4,6 @@ author: "Vito Sestito"
 date: "2023-04-21"
 lastmod: "2026-11-24"
 description: "Il sito fornisce una ricca collezione di foto, storie e ricordi dell'iconico cinema di San Vito sullo Ionio, insieme a informazioni sull'associazione culturale e sugli eventi in programma."
-image: "1956_progetto_cinema.webp"
 params:
   # Home page sections (layouts/index.html, layouts/partials/home/). Film
   # IDs refer to data/posters/films.json; pages are site paths.

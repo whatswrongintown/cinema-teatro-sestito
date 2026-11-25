@@ -4,6 +4,8 @@ description: "Intervista a Stefano Sestito sulla storia del Cinema Teatro Sestit
 author: Benny Danieli
 date: '2015-04-15'
 slug: intervista-sulla-storia-del-cinema-a-stefano-sestito
+image: "images/1960_70_davanti_al_cinema.jpg"
+imageCaption: "Una signora e un gruppo di ragazzi davanti al cinema, tra gli anni Sessanta e Settanta."
 categories:
   - Storia
 tags:

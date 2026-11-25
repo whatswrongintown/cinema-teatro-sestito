@@ -1,39 +1,67 @@
-{{- /* Absolute URL of the Open Graph / Twitter image for a page.
-       Order: the page's own `image:`, then the nearest ancestor section with
-       one (e.g. genre pages use the Generi hero), then params.defaultImage.
-       `image:` is a file in the page bundle (e.g. "proiezioni-mensili.png")
-       or an absolute path under static/ (e.g. "/images/x.webp"); a value
-       that does not resolve is reported with a build warning. */ -}}
-{{- $url := partial "social-image-of.html" . -}}
-{{- range .Ancestors -}}
-  {{- if not $url -}}
-    {{- $url = partial "social-image-of.html" . -}}
+{{- /* The Open Graph / Twitter share card of a page (U17, see docs/design.md,
+       section "Share cards"). Returns dict "url" "width" "height" "alt".
+
+       Source image, first match wins:
+       1. the page's own `image:` (a file in the page bundle, or an absolute
+          path under static/, e.g. "/images/manifesti/..."); an `image:` that
+          does not resolve gives a build warning;
+       2. a poster for pages that list films: Posters list pages (the
+          poster of their card, posters/copertina.html) and the historical
+          programming year, genre, country and source pages (the first poster
+          of the page's strip, programmazione/manifesti.html);
+       3. the house card, params.defaultImage (a file next to content/_index.md).
+       Articles must have their own `image:` (their hero): a build warning
+       names any that does not.
+
+       Every source becomes one 1200x630 JPEG (partials/social-card.html). */ -}}
+{{- $src := false -}}
+{{- $alt := .Params.imageCaption | default .Title -}}
+
+{{- /* 1. The page's own image. */ -}}
+{{- with .Params.image -}}
+  {{- if hasPrefix . "/" -}}
+    {{- $src = resources.Get (strings.TrimPrefix "/" .) -}}
+  {{- else -}}
+    {{- $src = $.Resources.Get . -}}
+  {{- end -}}
+  {{- if not $src -}}
+    {{- warnf "social image %q of %s does not exist" . $.Path -}}
   {{- end -}}
 {{- end -}}
-{{- if not $url -}}
-  {{- with site.Home.Resources.GetMatch site.Params.defaultImage -}}
-    {{- $url = .Permalink -}}
-  {{- else -}}
+{{- if and (not $src) (eq .Section "articoli") .IsPage -}}
+  {{- warnf "article %s has no image: (its hero and share card)" .Path -}}
+{{- end -}}
+
+{{- /* 2. A poster for pages that list films. */ -}}
+{{- if not $src -}}
+  {{- $manifesto := false -}}
+  {{- if and (eq .Section "posters") (not .IsHome) (ne .Path "/posters") -}}
+    {{- /* Browse pages (by year, genre, ...) take the poster of their first card. */ -}}
+    {{- $sezione := . -}}
+    {{- if and .Params.browse (ne .Params.browse "title") -}}
+      {{- with .Sections.ByTitle }}{{ $sezione = index . 0 }}{{ end -}}
+    {{- end -}}
+    {{- $manifesto = partial "posters/copertina.html" (dict "sezione" $sezione) -}}
+  {{- else if and (eq .Section "programmazione-storica") .IsPage -}}
+    {{- $righe := partial "programmazione/righe.html" . -}}
+    {{- with (partial "programmazione/manifesti.html" (dict "rows" $righe.rows "n" 1)).manifesti -}}
+      {{- $manifesto = index . 0 -}}
+    {{- end -}}
+  {{- end -}}
+  {{- with $manifesto -}}
+    {{- $src = resources.Get .poster.large -}}
+    {{- $alt = printf "%s, %s" .film.title (lower .formato) -}}
+  {{- end -}}
+{{- end -}}
+
+{{- /* 3. The house card. */ -}}
+{{- if not $src -}}
+  {{- $src = site.Home.Resources.Get site.Params.defaultImage -}}
+  {{- $alt = site.Params.defaultImageAlt | default site.Title -}}
+  {{- if not $src -}}
     {{- errorf "params.defaultImage %q is not a file next to content/_index.md" site.Params.defaultImage -}}
   {{- end -}}
 {{- end -}}
-{{- return $url -}}
 
-{{- define "partials/social-image-of.html" -}}
-  {{- $url := "" -}}
-  {{- with .Params.image -}}
-    {{- if hasPrefix . "/" -}}
-      {{- if fileExists (path.Join "static" .) -}}
-        {{- $url = absURL . -}}
-      {{- end -}}
-    {{- else -}}
-      {{- with $.Resources.GetMatch . -}}
-        {{- $url = .Permalink -}}
-      {{- end -}}
-    {{- end -}}
-    {{- if not $url -}}
-      {{- warnf "social image %q of %s does not exist" . $.Path -}}
-    {{- end -}}
-  {{- end -}}
-  {{- return $url -}}
-{{- end -}}
+{{- $card := partial "social-card.html" $src -}}
+{{- return dict "url" $card.Permalink "width" $card.Width "height" $card.Height "alt" ($alt | plainify) -}}

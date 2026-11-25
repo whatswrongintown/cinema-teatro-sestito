@@ -4,7 +4,6 @@ author: Vito Sestito
 date: '1991-01-01'
 slug: programmazione-1991
 description: Programmazione cinematografica del Cinema Teatro Sestito nel 1991.
-image: "proiezioni-mensili.png"
 categories:
   - programmazione-per-anni
 params:
