@@ -48,7 +48,7 @@ to the interactive dashboard.
         {{- with $p }}
         <li>
           <a href="{{ .RelPermalink }}">
-            {{- with .RegularPages }}<span class="big-figure big-figure-sm">{{ len . }}</span>{{ end }}
+            {{- with .RegularPagesRecursive }}<span class="big-figure big-figure-sm">{{ len . }}</span>{{ end }}
             <span class="category-name">{{ $voce.titolo | default .Title }}</span>
             {{- with $voce.testo }}<span class="category-text">{{ . }}</span>{{ end }}
           </a>
