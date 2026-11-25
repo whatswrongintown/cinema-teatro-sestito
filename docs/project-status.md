@@ -190,7 +190,7 @@ TODO / DOING / DONE / DEFERRED, with dates. Assistant rules are in `CLAUDE.md`.
     action, project updates, trust and transparency); and, with the owner,
     knowledge of the physical restoration plan. A static prototype of the
     home page is the suggested first step before any migration.
-- **U08 - DOING 2026-11-24: improve the home page** (`content/_index.md`,
+- **U08 - DOING 2026-11-24: improve the home page** (the reopening timeline is U15) (`content/_index.md`,
   `layouts/index.html`). Prototype on `redesign/home-prototype`: poster hero,
   figures, "In questi giorni" programme (build-time plus a small script for
   the visitor's date), intro, section cards, poster strip, stories, reopening
@@ -295,6 +295,47 @@ TODO / DOING / DONE / DEFERRED, with dates. Assistant rules are in `CLAUDE.md`.
   international context (Majestic 1977, about 1,500 "luci rosse" cinemas in
   1981, VHS) from a newspaper, the director notes (D'Amato, Graver,
   Schicchi, Findlay) from Wikipedia; sources are footnoted.
+- **U13 - TODO 2026-11-25: replace the old icons with ones in the new style.**
+  Requested by the owner. The icons are still from the old site:
+  `static/images/icons/` holds `favicon.png`, `favicon.ico`,
+  `apple-touch-icon.png` (the only ones the templates still use, in
+  `layouts/partials/head.html` and `params.favicon`), the unused `avatar.png`
+  and the unused footer SVGs (`email.svg`, `github.svg`, `instagram.svg`,
+  `rss.svg`). To do: design a favicon and an apple-touch icon that match the
+  redesign (palette and typefaces in `design.md`, for example from the
+  "Sestito" wordmark), check them on light and dark browser tabs, and delete
+  the unused old files. The social preview images are a separate matter (see
+  Decisions). The owner approves the design before it replaces the old icons.
+- **U14 - TODO 2026-11-25: redesign all the charts with the new palette and
+  fonts.** Requested by the owner. The charts (about 18 inline-SVG partials in
+  `layouts/partials/grafici/`, `{{< grafico >}}` used on about 85 pages, the
+  poster charts, the dashboard and the PNGs still in some bundles) keep the
+  old look: white background, mint colours and Merriweather. Known constraints
+  (`design.md`, `historical-programming.md`): the SVG charts place their
+  labels with Merriweather glyph widths (`data/grafici/merriweather.json`), so
+  changing the font means regenerating those widths; `poster-charts.css` and
+  `dashboard.css` declare their own colour variables copied from `main.css`;
+  counts and conventions must not change (see Decisions: do not recalculate).
+  To do: agree a chart system with the owner (palette on the dark and light
+  tones, fonts Fraunces and Archivo, legend, axis and caption style), apply it
+  to the SVG partials, the poster charts and the dashboard in one pass, keep
+  accessibility (contrast, titles, text alternatives) and the Lighthouse
+  scores (U03), and replace the remaining chart PNGs only if the social
+  preview rule allows it (Open Graph images stay PNG).
+- **U15 - TODO 2026-11-25: a live timeline of the reopening** (what has been
+  done, what comes next). Requested by the owner, to build once the owner has
+  gathered the information (see U08): the restoration plan, the steps already
+  taken and the next ones, with dates. It should feel alive, not like a static
+  page: a vertical or horizontal timeline with the current step highlighted,
+  past steps marked done, future steps with an expected period, short updates
+  with a date and, where possible, a photo (the Drive folders "Foto" and
+  "Restauro Locale Interno Cinema" are the source, checked with the owner).
+  Ideas to evaluate: steps driven by front matter or a data file
+  (`data/riapertura.yaml`) so the owner updates one file, with the home band
+  (U08) showing the latest update and a link to the full timeline on the
+  Progetto page; a progress cue; the latest update date shown ("Aggiornato il
+  ..."); light, no heavy JavaScript (Lighthouse, U03). Depends on U08: do not
+  publish plans or dates before the owner confirms them.
 - No feature roadmap yet: new ideas are agreed with the owner and listed here
   when they are approved.
 
