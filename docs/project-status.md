@@ -332,7 +332,7 @@ TODO / DOING / DONE / DEFERRED, with dates. Assistant rules are in `CLAUDE.md`.
   Progetto page; a progress cue; the latest update date shown ("Aggiornato il
   ..."); light, no heavy JavaScript (Lighthouse, U03). Depends on U08: do not
   publish plans or dates before the owner confirms them.
-- **U16 - DOING 2026-11-25: restructure the historical programming
+- **U16 - DONE 2026-11-25: restructure the historical programming
   subsections.** Requested by the owner: the text of each index sat at the
   end of the page ("La lettura dei dati", after the full list of years,
   genres, countries or sources), and year pages showed their charts after
@@ -365,9 +365,11 @@ TODO / DOING / DONE / DEFERRED, with dates. Assistant rules are in `CLAUDE.md`.
     (`layouts/programmazione-storica/single.html`).
   - The "Per adulti ed exploitation" page was removed (see U12); the
     landing page now has four section cards.
-  Next: the owner reviews the shortened Italian texts in the preview, then
-  merge to `main`. Possible later: month links on year pages, as on the
-  Posters year pages.
+  Merged and deployed 2026-11-25 (`8acae090`); the owner checked production.
+  Netlify deploy: `hugo` 24.8 s (19.6 s on 2026-11-23, U01), 1,932 pages,
+  whole build 1 min 45 s, mostly upload and form post-processing of 1,952
+  changed files; Lighthouse home 97 / 100 / 100 / 100. Possible later: month
+  links on year pages, as on the Posters year pages.
 - No feature roadmap yet: new ideas are agreed with the owner and listed here
   when they are approved.
 
