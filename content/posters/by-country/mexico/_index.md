@@ -1,5 +1,5 @@
 ---
-title: "Mexico"
+title: "Messico"
 type: posters
 layout: country
 collection: printed

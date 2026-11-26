@@ -1,5 +1,5 @@
 ---
-title: "Soviet Union"
+title: "Unione Sovietica"
 type: posters
 layout: country
 collection: printed

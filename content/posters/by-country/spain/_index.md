@@ -1,5 +1,5 @@
 ---
-title: "Spain"
+title: "Spagna"
 type: posters
 layout: country
 collection: printed

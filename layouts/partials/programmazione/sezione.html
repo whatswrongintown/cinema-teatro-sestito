@@ -17,7 +17,7 @@ Call with: partial "programmazione/sezione.html" .
 {{- $conta := dict }}
 {{- $massimo := 1 }}
 {{- range $figli }}
-  {{- $chiave := cond (eq $modo "anni") (printf "anni|%v" .Params.anno) (printf "%s|%s" $modo (lower (strings.TrimSpace .Title))) }}
+  {{- $chiave := cond (eq $modo "anni") (printf "anni|%v" .Params.anno) (printf "%s|%s" $modo (lower (strings.TrimSpace (.Params.paese | default .Title)))) }}
   {{- $n := len (index $dati.gruppi $chiave | default slice) }}
   {{- $conta = merge $conta (dict .RelPermalink $n) }}
   {{- if gt $n $massimo }}{{ $massimo = $n }}{{ end }}

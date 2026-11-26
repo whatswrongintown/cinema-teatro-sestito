@@ -1,5 +1,5 @@
 ---
-title: "Trinidad and Tobago"
+title: "Trinidad e Tobago"
 type: posters
 layout: country
 collection: printed

@@ -1,5 +1,5 @@
 ---
-title: "Greece"
+title: "Grecia"
 type: posters
 layout: country
 collection: printed

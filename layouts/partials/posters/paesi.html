@@ -9,7 +9,7 @@ Call with: partialCached "posters/paesi.html" . "paesi"
 {{- $csv := resources.Get "data/programmazione_paesi.csv" | transform.Unmarshal -}}
 {{- range after 1 $csv -}}
   {{- $id := strings.TrimSpace (index . 0) -}}
-  {{- range split (index . 1) "," -}}
+  {{- range split (partial "programmazione/paesi-cella.html" (index . 1)) "," -}}
     {{- $k := lower (strings.TrimSpace .) -}}
     {{- if and $id $k }}{{ $s.SetInMap $k $id true }}{{ end -}}
   {{- end -}}

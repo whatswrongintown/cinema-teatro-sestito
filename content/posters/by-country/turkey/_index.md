@@ -1,5 +1,5 @@
 ---
-title: "Turkey"
+title: "Turchia"
 type: posters
 layout: country
 collection: printed

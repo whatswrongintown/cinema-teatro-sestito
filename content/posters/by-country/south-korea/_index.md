@@ -1,5 +1,5 @@
 ---
-title: "South Korea"
+title: "Corea del Sud"
 type: posters
 layout: country
 collection: printed

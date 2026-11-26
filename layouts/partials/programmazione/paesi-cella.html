@@ -1,0 +1,17 @@
+{{- /*
+A country cell of programmazione_paesi.csv as the site reads it. The data files
+are final, so spelling variants are merged here: "USA" is "United States"
+(U24). Other cells are returned unchanged. Used by programmazione/dati.html
+and posters/paesi.html.
+Call with: partial "programmazione/paesi-cella.html" $cell
+*/ -}}
+{{- $cella := . -}}
+{{- $paesi := slice -}}
+{{- $unito := false -}}
+{{- range split $cella "," -}}
+  {{- $p := strings.TrimSpace . -}}
+  {{- if eq $p "USA" }}{{ $p = "United States" }}{{ $unito = true }}{{ end -}}
+  {{- $paesi = $paesi | append $p -}}
+{{- end -}}
+{{- if $unito }}{{ $cella = delimit (uniq $paesi) ", " }}{{ end -}}
+{{- return $cella -}}

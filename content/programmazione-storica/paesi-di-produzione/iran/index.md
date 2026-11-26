@@ -1,5 +1,7 @@
 ---
 title: Iran
+# Name in programmazione_paesi.csv: the page finds its films by it.
+paese: Iran
 author: Vito Sestito
 slug: iran
 url: /programmazione-storica/paesi-di-produzione/iran/

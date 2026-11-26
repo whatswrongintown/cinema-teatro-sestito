@@ -1,5 +1,5 @@
 ---
-title: "New Zealand"
+title: "Nuova Zelanda"
 type: posters
 layout: country
 collection: printed

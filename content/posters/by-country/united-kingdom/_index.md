@@ -1,5 +1,5 @@
 ---
-title: "United Kingdom"
+title: "Regno Unito"
 type: posters
 layout: country
 collection: printed

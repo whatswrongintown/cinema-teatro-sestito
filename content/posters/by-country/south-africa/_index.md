@@ -1,5 +1,5 @@
 ---
-title: "South Africa"
+title: "Sudafrica"
 type: posters
 layout: country
 collection: printed

@@ -1,5 +1,5 @@
 ---
-title: "Sweden"
+title: "Svezia"
 type: posters
 layout: country
 collection: printed

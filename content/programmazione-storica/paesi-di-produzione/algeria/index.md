@@ -1,5 +1,7 @@
 ---
 title: Algeria
+# Name in programmazione_paesi.csv: the page finds its films by it.
+paese: Algeria
 author: Vito Sestito
 slug: algeria
 url: /programmazione-storica/paesi-di-produzione/algeria/

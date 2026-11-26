@@ -24,7 +24,7 @@ Call with: partial "posters/descrizione.html" .
 {{- else if eq .Layout "genre" -}}
   {{- $d = printf "Genere %s: i manifesti dei film nella raccolta del Cinema Teatro Sestito di San Vito sullo Ionio." .Title -}}
 {{- else if eq .Layout "country" -}}
-  {{- $d = printf "Paese di produzione %s: i manifesti dei film nella raccolta del Cinema Teatro Sestito di San Vito sullo Ionio." .Title -}}
+  {{- $d = printf "Paese di produzione: %s. Manifesti dei film nella raccolta del Cinema Teatro Sestito di San Vito sullo Ionio." .Title -}}
 {{- else if eq .Layout "source" -}}
   {{- $d = printf "I manifesti dei film registrati nella fonte «%s» dell'archivio del Cinema Teatro Sestito di San Vito sullo Ionio." .Title -}}
 {{- end -}}

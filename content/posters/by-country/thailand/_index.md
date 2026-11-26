@@ -1,5 +1,5 @@
 ---
-title: "Thailand"
+title: "Thailandia"
 type: posters
 layout: country
 collection: printed

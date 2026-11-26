@@ -1,5 +1,7 @@
 ---
 title: Indonesia
+# Name in programmazione_paesi.csv: the page finds its films by it.
+paese: Indonesia
 author: Vito Sestito
 slug: indonesia
 url: /programmazione-storica/paesi-di-produzione/indonesia/

@@ -1,5 +1,5 @@
 ---
-title: "Belgium"
+title: "Belgio"
 type: posters
 layout: country
 collection: printed

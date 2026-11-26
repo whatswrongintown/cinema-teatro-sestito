@@ -1,5 +1,5 @@
 ---
-title: "Brazil"
+title: "Brasile"
 type: posters
 layout: country
 collection: printed

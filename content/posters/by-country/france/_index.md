@@ -1,5 +1,5 @@
 ---
-title: "France"
+title: "Francia"
 type: posters
 layout: country
 collection: printed

@@ -1,5 +1,5 @@
 ---
-title: "Italy"
+title: "Italia"
 type: posters
 layout: country
 collection: printed

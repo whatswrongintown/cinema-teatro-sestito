@@ -1,5 +1,5 @@
 ---
-title: "Egypt"
+title: "Egitto"
 type: posters
 layout: country
 collection: printed

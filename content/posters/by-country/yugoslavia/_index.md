@@ -1,5 +1,5 @@
 ---
-title: "Yugoslavia"
+title: "Jugoslavia"
 type: posters
 layout: country
 collection: printed

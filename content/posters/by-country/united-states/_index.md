@@ -1,5 +1,5 @@
 ---
-title: "United States"
+title: "Stati Uniti"
 type: posters
 layout: country
 collection: printed

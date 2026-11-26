@@ -1,5 +1,5 @@
 ---
-title: "Germany"
+title: "Germania"
 type: posters
 layout: country
 collection: printed

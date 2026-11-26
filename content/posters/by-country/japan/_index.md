@@ -1,5 +1,5 @@
 ---
-title: "Japan"
+title: "Giappone"
 type: posters
 layout: country
 collection: printed

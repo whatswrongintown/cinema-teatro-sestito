@@ -13,7 +13,8 @@ Modes:
 {{- $dati := partialCached "programmazione/dati.html" . "programmazione" }}
 {{- $mesi := dict "01" "Gennaio" "02" "Febbraio" "03" "Marzo" "04" "Aprile" "05" "Maggio" "06" "Giugno" "07" "Luglio" "08" "Agosto" "09" "Settembre" "10" "Ottobre" "11" "Novembre" "12" "Dicembre" }}
 {{- $ordineMesi := slice "01" "02" "03" "04" "05" "06" "07" "08" "09" "10" "11" "12" }}
-{{- $key := lower (strings.TrimSpace $page.Title) }}
+{{- /* Country pages have an Italian title; `paese` is the name in the data. */ -}}
+{{- $key := lower (strings.TrimSpace ($page.Params.paese | default $page.Title)) }}
 
 {{- if eq $mode "anni" }}
   {{- $rows := index $dati.gruppi (printf "anni|%v" $page.Params.anno) }}

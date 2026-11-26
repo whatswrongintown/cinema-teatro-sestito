@@ -71,7 +71,7 @@ escaped for Markdown tables; screenings without an IMDb URL are not linked.
 {{- $ratings := $s.Get "imdb" }}
 {{- $c = partial "programmazione/colonne.html" (index $paesi 0) }}
 {{- range after 1 $paesi }}
-  {{- $s.SetInMap "countries" (index . $c.const) (index . $c.country) }}
+  {{- $s.SetInMap "countries" (index . $c.const) (partial "programmazione/paesi-cella.html" (index . $c.country)) }}
   {{- $s.SetInMap "rated" (index . $c.const) (strings.TrimSpace (index . $c.rated)) }}
 {{- end }}
 {{- $urls := $s.Get "url" }}

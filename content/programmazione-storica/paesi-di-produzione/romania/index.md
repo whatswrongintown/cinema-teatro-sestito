@@ -1,5 +1,7 @@
 ---
 title: Romania
+# Name in programmazione_paesi.csv: the page finds its films by it.
+paese: Romania
 author: Vito Sestito
 slug: romania
 url: /programmazione-storica/paesi-di-produzione/romania/

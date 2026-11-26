@@ -1,5 +1,7 @@
 ---
 title: Canada
+# Name in programmazione_paesi.csv: the page finds its films by it.
+paese: Canada
 author: Vito Sestito
 slug: canada
 url: /programmazione-storica/paesi-di-produzione/canada/

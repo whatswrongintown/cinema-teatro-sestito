@@ -1,5 +1,5 @@
 ---
-title: "Netherlands"
+title: "Paesi Bassi"
 type: posters
 layout: country
 collection: printed

@@ -33,7 +33,7 @@ which renders the tables at build time:
 | `anni` | rows whose year equals the page's `params.anno` | one table per month; first month carries footnote `[^1]` listing the year's sources |
 | `fonti` | rows whose `source` list contains the page title | one table per month, under `## <year>` headings when the source spans several years |
 | `generi` | rows whose IMDb `Genres` contain the page title | one table per year |
-| `paesi` | rows whose country list contains the page title | one table per year |
+| `paesi` | rows whose country list contains the page's `paese` (the English name in the data) | one table per year |
 
 Files:
 
@@ -91,8 +91,13 @@ Rules for editing pages:
 - Year pages have `<!--more-->` before the tables (before the partial-year note
   on 1960 and 1961) so RSS summaries contain only the introduction. The year
   template also uses it: the part before is shown above the tables.
-- A page's title is its matching key: renaming a source, genre or country page
-  title breaks its table (the build warns when a page has no rows, and fails
+- Country pages (U24) have an Italian title and find their rows by `paese:`, the
+  English name in the CSV (`programmazione-tabelle.html`, `righe.html`,
+  `sezione.html`). A new country page needs both. `programmazione/paesi-cella.html`
+  reads "USA" as "United States"; the CSV is unchanged, and `static/_redirects`
+  sends the two former USA pages to the Stati Uniti pages.
+- A source or genre page's title is its matching key: renaming such a
+  page's title breaks its table (the build warns when a page has no rows, and fails
   when a year page has no rows or a source has no page).
 
 Verification (2026-11-23): all 2,937 HTML/XML files were compared with the

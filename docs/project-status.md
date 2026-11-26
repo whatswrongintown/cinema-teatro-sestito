@@ -478,12 +478,26 @@ TODO / DOING / DONE / DEFERRED, with dates. Assistant rules are in `CLAUDE.md`.
   changed font a new file name (and update `fonts.css` and the preloads in
   `head.html`).
 - **U23 - DONE 2026-11-26: small SEO fixes** (from the audit; committed to
-  `main`, not pushed or deployed yet). `layouts/robots.txt` names the sitemap; `/grazie/` has
+  `main` and deployed 2026-11-26, `3dc18a28`; production checked: robots.txt,
+  sitemap without `/grazie/`, its `noindex`, no 404 canonical).
+  `layouts/robots.txt` names the sitemap; `/grazie/` has
   `noindex` (front matter `noindex: true`, read by `head.html`) and is out of
   the sitemap (`sitemap.disable`); the 404 page has no canonical. Checked on a
   full local build: the sitemap differs from production only by `/grazie/`,
   which is the only `noindex` page. Left from the same audit item: structured
   data and sitemap `lastmod` dates (the visible Hugo version is left as is).
+- **U24 - DONE 2026-11-26: Italian country names** (from the audit; owner
+  approved merging "USA" into "United States"; not committed or deployed yet).
+  Country pages of the programming (63) and of Posters (38) have Italian
+  titles, historical states keep their names (Germania Ovest, Unione
+  Sovietica, ...); URLs and CSVs are unchanged. Details in
+  `historical-programming.md`. Checked on a full local build: every country
+  page lists the same screenings or posters as before, Stati Uniti plus the 2
+  USA films (1,678 to 1,680 screenings, 211 to 213 posters); the 63 index
+  counts match; no English country names found in titles, headings, metadata,
+  tiles, cards or chips of the country pages; the sitemap only lost the two USA
+  pages. In the distinct-countries-per-decade chart one point is lower by the
+  merge. The 301 redirects work only on Netlify: check them after the deploy.
 - No feature roadmap yet: new ideas are agreed with the owner and listed here
   when they are approved.
 

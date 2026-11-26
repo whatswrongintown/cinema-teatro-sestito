@@ -1,5 +1,7 @@
 ---
 title: Colombia
+# Name in programmazione_paesi.csv: the page finds its films by it.
+paese: Colombia
 author: Vito Sestito
 slug: colombia
 url: /programmazione-storica/paesi-di-produzione/colombia/

@@ -1,5 +1,5 @@
 ---
-title: "Philippines"
+title: "Filippine"
 type: posters
 layout: country
 collection: printed

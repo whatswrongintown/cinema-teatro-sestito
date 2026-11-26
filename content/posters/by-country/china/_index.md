@@ -1,5 +1,5 @@
 ---
-title: "China"
+title: "Cina"
 type: posters
 layout: country
 collection: printed

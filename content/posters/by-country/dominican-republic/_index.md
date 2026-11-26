@@ -1,5 +1,5 @@
 ---
-title: "Dominican Republic"
+title: "Repubblica Dominicana"
 type: posters
 layout: country
 collection: printed

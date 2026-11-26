@@ -1,5 +1,5 @@
 ---
-title: "Lebanon"
+title: "Libano"
 type: posters
 layout: country
 collection: printed

@@ -1,5 +1,5 @@
 ---
-title: "Switzerland"
+title: "Svizzera"
 type: posters
 layout: country
 collection: printed

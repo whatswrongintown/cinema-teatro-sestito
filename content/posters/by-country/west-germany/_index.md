@@ -1,5 +1,5 @@
 ---
-title: "West Germany"
+title: "Germania Ovest"
 type: posters
 layout: country
 collection: printed

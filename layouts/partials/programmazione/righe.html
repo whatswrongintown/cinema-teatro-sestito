@@ -11,5 +11,5 @@ Call with: partial "programmazione/righe.html" $page
 {{- $dati := partialCached "programmazione/dati.html" . "programmazione" -}}
 {{- $rows := slice -}}
 {{- if eq $modo "anni" }}{{ $rows = index $dati.gruppi (printf "anni|%v" .Params.anno) | default slice -}}
-{{- else }}{{ $rows = index $dati.gruppi (printf "%s|%s" $modo (lower (strings.TrimSpace .Title))) | default slice }}{{ end -}}
+{{- else }}{{ $rows = index $dati.gruppi (printf "%s|%s" $modo (lower (strings.TrimSpace (.Params.paese | default .Title)))) | default slice }}{{ end -}}
 {{- return dict "modo" $modo "rows" $rows -}}

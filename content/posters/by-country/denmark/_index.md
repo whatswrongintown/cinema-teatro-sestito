@@ -1,5 +1,5 @@
 ---
-title: "Denmark"
+title: "Danimarca"
 type: posters
 layout: country
 collection: printed
