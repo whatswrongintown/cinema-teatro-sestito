@@ -361,7 +361,7 @@ TODO / DOING / DONE / DEFERRED, with dates. Assistant rules are in `CLAUDE.md`.
   whole build 1 min 45 s, mostly upload and form post-processing of 1,952
   changed files; Lighthouse home 97 / 100 / 100 / 100. Possible later: month
   links on year pages, as on the Posters year pages.
-- **U17 - DONE 2026-11-25 (branch `social-cards`, not merged): one share card
+- **U17 - DONE 2026-11-26: one share card
   style for the whole site.** Requested by the owner after the redesign:
   links shared on social networks still showed the old images (the home
   page the 1956 drawing), and sections behaved differently. Before: each
@@ -387,8 +387,13 @@ TODO / DOING / DONE / DEFERRED, with dates. Assistant rules are in `CLAUDE.md`.
   - The build warns about an article without `image:`.
   Checked on a full build: 1,711 pages, all with a 1200x630 card that exists
   in `public/` (1,173 distinct cards, 78 MB, largest 192 KB). Local build:
-  first build about 6 min (new images), then about 75 s. After the deploy,
-  re-scrape the main pages in Facebook's Sharing Debugger.
+  first build about 6 min (new images), then about 75 s.
+  Merged to `main` and deployed 2026-11-26 at the owner's request (PR #1,
+  `9c686741`). Netlify: `hugo` 3 min 46 s (new cards; later deploys use the
+  image cache), 1,712 new files uploaded, whole build 5 min 34 s; Lighthouse
+  home 95 / 100 / 100 / 100. Checked in production: home, an article, a film
+  page and a year page serve their 1200x630 JPEG cards with the new tags.
+  TODO (owner): re-scrape the main pages in Facebook's Sharing Debugger.
 - No feature roadmap yet: new ideas are agreed with the owner and listed here
   when they are approved.
 
