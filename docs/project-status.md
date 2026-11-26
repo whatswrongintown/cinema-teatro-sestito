@@ -27,6 +27,9 @@ TODO / DOING / DONE / DEFERRED, with dates. Assistant rules are in `CLAUDE.md`.
   and read-only for the assistant. Subfolders: Database, Conformita'
   Urbanistica e Catastale, Foto, Restauro Locale Interno Cinema, Scansione
   documenti, Programmazione storica, Contenuti Sito Web, Associazione, Film.
+  On the owner's PC the folder is also synced at
+  `G:\My Drive\2023-01-09 Cinema`; high-resolution scans of the originals are
+  in "Scansione documenti" (`da scanner`, `da cellulare`).
   Read the relevant documents when a task needs them (for example the
   restoration and planning folders for the reopening content of U07). Some
   files are outdated, especially working files: check dates and ask the owner
@@ -94,10 +97,7 @@ TODO / DOING / DONE / DEFERRED, with dates. Assistant rules are in `CLAUDE.md`.
   (`#6b6b6b`) and tap-target padding for footer and list links in
   `static/css/main.css`; `font-display: swap` in `static/css/fonts.css`;
   `layouts/_markup/render-image.html` adds width/height to bundle images
-  (home hero). DEFERRED: `images/icons/avatar.png` is 50x50 but displayed at
-  40 px, so Lighthouse wants an 80x80 file (needs a new image); the redesign
-  branch no longer shows the avatar (text wordmark), which removes the issue.
-  PWA manifest and CSP are not planned. Lighthouse on the deployed redesign
+  (home hero). PWA manifest and CSP are not planned. Lighthouse on the deployed redesign
   (home, mobile, 2026-11-25): performance 91, accessibility 98, best practices
   100, SEO 100. The performance loss was layout shift (CLS 0.294) from late web
   fonts and an unsized poster image: fixed 2026-11-25 by preloading the three
@@ -171,8 +171,8 @@ TODO / DOING / DONE / DEFERRED, with dates. Assistant rules are in `CLAUDE.md`.
   Wordmark, main sections, "Il progetto" as a button, current-section state
   with `aria-current`, full-screen popover menu on phones, breadcrumbs as a
   dark strip below the header (details in `design.md`); deployed 2026-11-25.
-  Closed by the owner 2026-11-26; the Posters subsections in the menu and
-  search moved to U27.
+  Closed by the owner 2026-11-26; search moved to U27. No Posters
+  subsections in the header menu for now: the owner is not sure about them.
 - **U10 - DONE 2026-11-25: improve the footer** (`layouts/partials/footer.html`,
   `static/css/main.css`). On `redesign/home-prototype`: four columns (venue,
   sections, Posters subsections, contacts) plus credits, text links and
@@ -216,7 +216,8 @@ TODO / DOING / DONE / DEFERRED, with dates. Assistant rules are in `CLAUDE.md`.
   father, then the text is completed; the gaps are marked in a comment at the
   top of the article): where the films came from (distributors, circuits);
   anecdotes; how the family felt; title and date of the evening with a live
-  show before the film, and who told it; whether witnesses can be named. The
+  show before the film, and who told it; whether witnesses can be named (more
+  questions for the same conversation, on the decline and closure, in U28). The
   article states only what the owner or the data support: the weekday table,
   the takings (about 20% above the other films in the same year) and the
   1957 priest letter come from the register and the archive; the
@@ -463,10 +464,158 @@ TODO / DOING / DONE / DEFERRED, with dates. Assistant rules are in `CLAUDE.md`.
 - **U27 - TODO 2026-11-26: search and further ideas** (left over from U09 and
   U11; to agree with the owner before starting). Search for films and
   documents, with combined filters for the posters (year, format, genre,
-  printed or handwritten) in one place; the Posters subsections in the menu;
-  short editorial pieces on the posters (handwritten posters, formats,
+  printed or handwritten) in one place; short editorial
+  pieces on the posters (handwritten posters, formats,
   graphic styles). Keep it light, with no new dependencies unless justified,
   and keep the Lighthouse scores (U03).
+- **U28 - TODO 2026-11-26: article on the decline and closure (1979-2004).**
+  Listed at the owner's request after a review of the articles, archive, data
+  and Drive (2026-11-26). The chronological series stops at 1979: "Gli anni
+  d'oro" ends with "Declino e trasformazione (1970-1979)" and links nowhere,
+  and 1979-2004 is told only through the adult-film strand (U12). The closure
+  appears in four pages as one line ("2004"), with no date, film or reason.
+  Working title "La fine di un'era: gli ultimi anni del Cinema Sestito
+  (1979-2004)", with a short epilogue to 2020 linking to the reopening page.
+  Split from "Le luci rosse" by subject, not by date: luci rosse keeps the
+  whole adult strand (1977-94); this article covers the cinema as a whole and
+  mentions the adult films once, with a link. Weight it towards 1993-2004 and
+  the closure, which no page tells. Material already available: the register
+  (three breaks, not a slow slide: 1979, 99 entries and the first summer
+  closure; 1984-86, 67-68, then 101-105 in 1987-88; 1993-94, 28 and 16; from
+  1994 only Sundays, autumn to spring, mostly recent hits; last entry
+  *La passione di Cristo*, 2 May 2004); the 35mm trailer reels (1993-2003
+  releases); the 1987 chairs waybill; and in Drive the owner's draft "La fine
+  di un'era" in "Contenuti Sito Web/Articoli pubblicati sul sito.docx" (one
+  Sunday show at 15:00, full only at Christmas; three causes: safety
+  standards, takings no longer covering costs, projector and electrical
+  maintenance), the 2023 restoration deck (projector moved and booth
+  converted in the 1980s), the 1986 chairs and projector expense note and
+  the January 1986 charity show. The draft cannot be used as it is: it and the
+  deck say 2005 and that *Il ritorno del re* was never shown, while the
+  register has it on 25 January 2004. Safe wording until confirmed: "ultima
+  proiezione registrata: 2 maggio 2004". Questions for the owner (and their
+  father), to add to the U12 list: was anything shown after 2 May 2004; who
+  decided to close, and was it meant to be temporary; who ran the cinema in
+  which years (operational roles only, see the privacy rule on family legal
+  matters); ticket prices; competing halls, private TV and VHS locally; what
+  the 1986 expenses and the 1987 chairs were for; whether the summer gaps were
+  real closures; what the place names on the trailer cans mean; whether the
+  takings from March 2002 are in euros. When written: end the luci rosse
+  paragraph "La fine" at 1994 and the anni d'oro "Declino" section at 1979,
+  each with a link forward.
+  Scans checked 2026-11-26: the 1986 note, read from the image, lists
+  "sedie + macchina" L. 2,000,000, travel L. 200,000 and L. 75,000 for
+  Guglielmo, and says chairs and machine arrived on "13/12" (the year is only
+  in the file name). The chairs waybill is dated 30 March 1987: ask whether
+  these are two shipments or one year is wrong. The 1986 charity item is a
+  captioned photo of two people in the foyer (January 1986), not a newspaper
+  clipping. No scan opened in this check documents the closure.
+- **U29 - TODO 2026-11-26: other missing articles** (same review; to agree
+  with the owner before writing; in order of value):
+  1. "Come arrivavano i film: noleggi, corrieri e cabina di proiezione"
+     (1947-2004): distributors and rental agencies (MGM envelope, Astor Film
+     Catania, CIF, New Europe, Victory), carriers (Rapidtransport from April
+     1957), Publi-Enic advertising, the projectionists (Guglielmo's 1962
+     licence), the 1959 power contract for the converter, the Fedi and
+     Morganite catalogues, the "04 Attrezzature" photos. Also answers the
+     first U12 question. To find: the projector make and model, the source of
+     the 1966 distributor contracts named in "Gli anni d'oro".
+  2. "Non solo cinema: la sala come piazza coperta" (1949-2002): why
+     "Teatro"; school plays and weddings (already in "Gli anni d'oro"), the
+     1968 DC assembly and the 1970 Circolo Simpatia play (archive items no
+     article uses), the 1986 charity show, school screenings to 2002. Names
+     of performers or couples only with consent.
+  3. The first hall, 1944-1953, better as a revised opening of "La nascita"
+     than a new article: the 1947 inspection and nulla osta, the first
+     register entry (6 January 1948) before the 1949 decree, the account-book
+     page "Incassi dal 8 Dicembre" (year to check on the original), the 1953
+     annex and skylights. No private lenders named. Settles the "fondato nel
+     1946" wording used on the home page, Progetto and "Cinema e leggende".
+  4. "La sala di Via Doria, documento per documento" (1955-2011): land,
+     project, plaster, electricity, fire brigade, the 26 April 1959
+     inspection, the 320-seat limit and the condition that the old hall
+     close (1959 decree), later physical changes. The 1968-1977 upper-floor
+     permits only if the owner rules them separate from the private matters.
+  5. "Cosa guardava San Vito: generi, paesi e ritorni (1948-2004)": a data
+     piece (melodrama, peplum, westerns at 35-38% in 1969-72, action, comedy
+     in the 1990s; the shrinking gap between release and screening; re-runs;
+     most-screened titles). Fills the owner's empty Drive heading "I grandi
+     successi e le curiosita'". Must not repeat the luci rosse figures.
+  6. A text summary or transcript of the 2015 video interview with Stefano
+     Sestito (needs his consent); it may hold evidence for U28 and item 2.
+  7. "Sansone e Dalila, 9 aprile 1955" (short piece), only if the outcome of
+     the case is found (Pretura di Chiaravalle Centrale, Archivio di Stato).
+  Not proposed: a standalone "family after Vito" article (too close to the
+  private family matters; roles go in U28 in a sentence) and the unproven
+  archpriest anecdotes in Stefano's notes. Poster pieces stay in U27.
+  Evidence from the high-resolution scans and Drive images (2026-11-26):
+  - Item 1: slips from Astra Cinematografica and Astor Film, both of Catania
+    ("Foto/02 Documenti e cimeli/Agenzie di noleggio"). No date is visible on
+    the three Astra film slips; their titles are in the register in October
+    1977 (one again in 1980). They do not show where the adult films came
+    from. A signed note of 3 May 1977 arranges delivery of a two-sheet poster
+    with the boxes, to be left at the petrol station.
+  - Item 3: the 1949 decree confirms the 19 May 1947 nulla osta and the
+    inspection of 8 December 1947. The account-book page reads "Incassi lordi
+    dal 8 Dicembre al 31: L. 127.600" and has no year; the page before it in
+    the scan has "cauzione Cinema" under 1 March 1948. December 1947 is likely
+    (inference). A lease dated 1 November 1959 lets the former cinema in
+    Piazza Polerà, with a small adjoining room, as business premises; this
+    copy is unsigned and the term is blank. Ask whether it took effect and how
+    it fits the 1961 shop. Do not name the tenant without consent.
+  - Item 4: the 1968 technical report says the ground floor (cinema and
+    garage) was approved by the Genio Civile on 10 February 1958. A lawyer's
+    letter of 21 March 1963 (file named 1963-03-31) sends Vito the receipt for
+    the "denuncia di costruzione del cinema".
+- **U30 - TODO 2026-11-26: corrections to existing pages** (same review; each
+  to check against the original before changing). "Gli anni d'oro": Prefect's
+  decree 30 June 1959, not 6 June; first screening 25 April 1959 in the
+  register, not 24; engineer "Calzona", not "Calzone" (the archive page also
+  has "Vincezo"); the decree records the 26 April 1959 "collaudo" as made by
+  the Commissione Provinciale di Vigilanza and names no Zanini; peak 1966-1968
+  (217 entries in 1967), not 1966; the intro and the "Declino" section
+  disagree on when the decline began (the data break is 1979); the 1966
+  distributor contracts have no source. Archive: MGM envelope postmarked
+  9 September 1957, not 9 November (a renamed folder needs an alias); the
+  trailer reels are 1993-2003 releases, not "seconda meta' del Novecento".
+  "La storia di Vito Sestito": the 1961 certificate lists tyres, inner tubes
+  and children's bicycles. Progetto: adult films "dalla fine degli anni
+  Settanta". Luci rosse: who chose the programme in 1977-94 (Vito was 75-92;
+  owner to confirm). Also: three different accounts of where the documents
+  were found (Vito's former shop, the attic, the friend who returned them in
+  2023), to reconcile in the methodology article; the 2002-2004 takings are
+  probably in euros and no page says so.
+  Checked on the high-resolution scans (2026-11-26) and confirmed: decree
+  dated 30.6.1959; MGM postmark 9 September 1957; "Calzona" on the project
+  cover; the goods in the 1961 certificate; Vito's birth on 12 November 1902.
+  Refined: the decree does call 26 April 1959 a "collaudo", by the Commissione
+  Provinciale di Vigilanza; it does not say it was a static test or name
+  Zanini. It also cites the 26 July 1957 nulla osta, given on condition that
+  the other hall close (verified as done) and a fire brigade letter of 17 May
+  1959, and limits the hall to 320 seats. The other points above are not
+  settled by this check.
+- **U31 - TODO 2026-11-26: new archive entries from Drive** (same review; the
+  owner describes each image the connector could not read and confirms it
+  holds no private data): the January 1986 charity show photo; the
+  1986-12-13 chairs and projector expense note; the Astor Film (Catania)
+  letter and the other "Agenzie di noleggio" images; the Rapidtransport list
+  of cinemas served since April 1957; the 1951 ANEC card; the 1977 "lettera
+  fusta"; the 2002-12-01 school screening sheet. Worth transcribing in
+  existing entries: the second 1959 electricity contract (converter supply)
+  and the 1947-48 cinema pages of the account book. Not for the archive: the
+  AI-reconstructed showtime board, papers naming private individuals, and
+  anything linked to the family's legal matters.
+  Images read 2026-11-26: the Astra and Astor slips, the 1977 note (the
+  "lettera fusta" file; its text is the delivery note in U29), the 1986
+  expense note and the charity photo (consent needed for the two people).
+  The 1951 ANEC (AGIS) card is legible. Further candidates from "Scansione
+  documenti": the 1 November 1959 lease (hide the third-party name), the
+  21 March 1963 lawyer's letter and the 1968 technical report (hall part
+  only, subject to the owner's ruling on the upper floor). Scans about other
+  family property, shops, inheritance and legal matters, including the
+  1991-92 group, are private: do not use them. Only the scans likely to bear
+  on these items were opened; older personal papers, most later building
+  permits and the legal and inheritance files were not.
 - No feature roadmap yet: new ideas are agreed with the owner and listed here
   when they are approved.
 
@@ -492,5 +641,8 @@ TODO / DOING / DONE / DEFERRED, with dates. Assistant rules are in `CLAUDE.md`.
 - U02 (2026-11-23) removed `static/programmazione-storica/`: the genre chart PNG
   was deleted and the country chart moved into its section bundle; no
   `index_files` folder is left in `static/` or `content/`.
-- Left as is on purpose: the 71 historical-source galleries in
-  `static/images/programmazione_storica/` (DEFERRED: low gain, 321 MB).
+- Decision (owner, 2026-11-26): the 71 historical-source galleries stay in
+  `static/images/programmazione_storica/` (321 MB). The two large image
+  collections, posters (`static/images/manifesti/`) and historical sources,
+  live in `static/images/`; the few article and archive galleries sit next to
+  their pages, which is tidier for them. Nothing is to be moved.
