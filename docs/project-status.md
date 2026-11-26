@@ -157,42 +157,22 @@ TODO / DOING / DONE / DEFERRED, with dates. Assistant rules are in `CLAUDE.md`.
   moved behind the stories, the main paths are films, posters, documents and
   people. The reopening path, the last open point, is the timeline of U15
   (2026-11-26). Closed by the owner 2026-11-26 after their own fine-tuning;
-  search stays open under U09 and U11.
-- **U08 - DOING 2026-11-24: improve the home page** (the reopening timeline is U15) (`content/_index.md`,
-  `layouts/index.html`). Prototype on `redesign/home-prototype`: poster hero,
-  figures, "In questi giorni" programme (build-time plus a small script for
-  the visitor's date), intro, section cards, poster strip, stories, reopening
-  band and the contact form, all driven by front matter (`design.md`). The
-  reopening band keeps its text and, since 2026-11-26, shows the latest step of
-  the reopening timeline (U15) and links to it ("Segui il percorso"). Adult and erotic films are included in the
-  home programme like any other film (owner, 2026-11-24). Before:
-  one architectural drawing (1956 project),
-  four paragraphs of text, a plain list of four links ("Esplora") and the
-  contact form. Improvements to agree with the owner: a stronger first screen
-  that says at once what the place is (name, years, one line, a poster or
-  archive image as the main visual); the four sections as visual entrances
-  (image cards with a short line each) instead of a bulleted list; a
-  highlighted selection of posters, documents and latest articles that changes
-  over time; a short, visible note on the reopening and how to take part; a
-  shorter text (the story lives in the project and article pages); the
-  contact form lower or moved to a contact page. Keep the Lighthouse scores
-  (U03) and the share cards (U17). This is the first concrete step of
-  U07 and should be designed with it.
-- **U09 - DOING 2026-11-24: improve the navigation menu** (`menu.main` in
-  `config.yaml`, `layouts/partials/nav.html`, `static/css/main.css`). On
-  `redesign/home-prototype`: wordmark, main sections, current-section state,
-  full-screen popover menu on phones, breadcrumbs as a dark strip below the
-  header. Still open: Posters subsections in the menu, search. Before: the header held the small round logo (50x50) and a single link, "Progetto".
-  The main sections (Programmazione storica, Manifesti, Articoli, Archivio)
-  are reachable only from the list on the home page or from breadcrumbs.
-  Improvements to agree with the owner: put the main sections in the menu
-  (with the Posters subsections as a dropdown or mega menu: per anno, per
-  formato, per genere, lettere, Retro); a clear current-section state; a
-  mobile menu (a button that opens a full-screen or drawer menu, large tap
-  targets); a search entry for films and documents; a visible link for the
-  reopening or contact; keyboard and screen reader support (`aria-current`,
-  focus states). Keep it light (no heavy JavaScript) and keep the Lighthouse
-  scores (U03). To design together with U07 and U08.
+  search is now U27.
+- **U08 - DONE 2026-11-26: improve the home page** (`content/_index.md`,
+  `layouts/index.html`). Poster hero, figures, "In questi giorni" programme
+  (build time plus a small script for the visitor's date), short intro,
+  four section cards, poster strip, stories, reopening band and the contact
+  form lower down, all driven by front matter (`design.md`); deployed
+  2026-11-25. The reopening band shows the latest step of the timeline (U15)
+  and links to it ("Segui il percorso"). Adult and erotic films are in the
+  home programme like any other film (owner, 2026-11-24).
+- **U09 - DONE 2026-11-26: improve the navigation menu** (`menu.main` in
+  `config.yaml`, `layouts/partials/nav.html`, `static/css/main.css`).
+  Wordmark, main sections, "Il progetto" as a button, current-section state
+  with `aria-current`, full-screen popover menu on phones, breadcrumbs as a
+  dark strip below the header (details in `design.md`); deployed 2026-11-25.
+  Closed by the owner 2026-11-26; the Posters subsections in the menu and
+  search moved to U27.
 - **U10 - DONE 2026-11-25: improve the footer** (`layouts/partials/footer.html`,
   `static/css/main.css`). On `redesign/home-prototype`: four columns (venue,
   sections, Posters subsections, contacts) plus credits, text links and
@@ -210,32 +190,17 @@ TODO / DOING / DONE / DEFERRED, with dates. Assistant rules are in `CLAUDE.md`.
   family collection) and a rights and reuse note for the images; the GitHub
   link kept but less prominent; accessible names, contrast and tap targets
   (U03). To design together with U07 to U09.
-- **U11 - DOING 2026-11-24: improve the posters section.** On
-  `redesign/home-prototype` (details in `posters.md`): landing page with
-  "Manifesto del giorno", "Un manifesto a caso" and image cards; list pages
-  with a dark header, neighbour links, year index by decade, genre and format
-  cards, titled thumbnails and button pagination; new film page (large poster,
-  details, screenings with sources, all posters, previous and next film).
-  U05 and U06 DONE 2026-11-25. Still open: search and combined
-  filters, editorial pieces on the posters. Adult and erotic films are shown
-  like any other (owner, 2026-11-24). Original request (`content/posters/`,
-  `layouts/posters/`, `layouts/partials/posters/`). The section is complete in
-  data (1,787 films) but is built as an archive: a long text, a bulleted list
-  of five entrances (Anni, Formati, Generi, Titoli, Retro), then charts and
-  grids of small, equal thumbnails. Improvements to agree with the owner:
-  a poster-first landing page (large featured posters, a changing selection,
-  entrances as image cards); a gallery that shows the real relative sizes of
-  the formats (U05) and a Retro section redone (U06); a better lightbox and
-  film page (larger poster, title, year, genre, format, screening dates,
-  neighbouring posters and a link to the programme of that year); search and
-  filters across year, format, genre and printed or handwritten in one
-  place, not only separate browse trees; a "random poster" or "poster of the
-  day" entrance; more room for the stories behind the posters (handwritten
-  posters, formats, graphic styles) written as short editorial pieces, with
-  the charts as a secondary layer (U07); pagination or lazy loading kept
-  light (about 60 posters per page today). Do not modify `films.json` or
-  `static/images/manifesti/`; keep thumbnails at most 400 px wide. The
-  U04 count questions are closed (2026-11-25).
+- **U11 - DONE 2026-11-26: improve the posters section** (details in
+  `posters.md`). Landing page with "Manifesto del giorno", "Un manifesto a
+  caso" and image cards; list pages with a dark header, neighbour links, year
+  index by decade, genre and format cards, titled thumbnails and button
+  pagination; new film page (large poster, details, screenings with sources,
+  all posters, previous and next film); formats to scale (U05) and Retro
+  redone (U06). Adult and erotic films are shown like any other (owner,
+  2026-11-24). Rules that stay: do not modify `films.json` or
+  `static/images/manifesti/`; keep thumbnails at most 400 px wide. Closed
+  by the owner 2026-11-26; search, filters and the editorial pieces moved to
+  U27.
 - **U12 - DOING 2026-11-24: adult and exploitation films.** 2026-11-24: the
   owner decided these films are not hidden anywhere: they are part of Italian
   film culture, the material is not explicit and the posters were public in
@@ -303,9 +268,9 @@ TODO / DOING / DONE / DEFERRED, with dates. Assistant rules are in `CLAUDE.md`.
   page, the footer and the site map. Private people appear by first name
   only. IMG_3150 (13 June 2020, the projector with a 35 mm film and the
   locandine still on the walls) was HEIC: converted with ImageMagick,
-  installed with winget at the owner's request (2026-11-26). TODO (owner):
-  Check the Italian text and the first names (Fabio, Giuseppe, Nicola, Giorgio,
-  Martina, Alessandro). Update the page at each new step.
+  installed with winget at the owner's request (2026-11-26).
+  The owner revised the text and had it deployed (`d99deafa`,
+  2026-11-26; production checked). Update the page at each new step.
 - **U16 - DONE 2026-11-25: restructure the historical programming
   subsections.** Requested by the owner: the text of each index sat at the
   end of the page ("La lettura dei dati", after the full list of years,
@@ -468,7 +433,7 @@ TODO / DOING / DONE / DEFERRED, with dates. Assistant rules are in `CLAUDE.md`.
   they are: no structured data, sitemap `lastmod` only on some entries (112 of
   1,628) and the visible Hugo version.
 - **U24 - DONE 2026-11-26: Italian country names** (from the audit; owner
-  approved merging "USA" into "United States"; committed `2a9a6261`, not deployed yet).
+  approved merging "USA" into "United States"; committed `2a9a6261`, deployed; redirects checked 2026-11-26).
   Country pages of the programming (63) and of Posters (38) have Italian
   titles, historical states keep their names (Germania Ovest, Unione
   Sovietica, ...); URLs and CSVs are unchanged. Details in
@@ -478,13 +443,13 @@ TODO / DOING / DONE / DEFERRED, with dates. Assistant rules are in `CLAUDE.md`.
   counts match; no English country names found in titles, headings, metadata,
   tiles, cards or chips of the country pages; the sitemap only lost the two USA
   pages. In the distinct-countries-per-decade chart one point is lower by the
-  merge. The 301 redirects work only on Netlify: check them after the deploy.
-- **U25 - DONE 2026-11-26: home page description** (wording chosen by the owner; not
-  deployed yet). The old text announced information on a cultural association
+  merge. The two old USA addresses answer 301 in production.
+- **U25 - DONE 2026-11-26: home page description** (wording chosen by the owner;
+  deployed, checked 2026-11-26). The old text announced information on a cultural association
   and on scheduled events, which the content does not offer. The new one names
   the history, posters, documents and reopening project.
 - **U26 - DONE 2026-11-26: unique, short meta descriptions** (requested by the
-  owner so that a next SEO audit no longer reports them; not deployed yet).
+  owner so that a next SEO audit no longer reports them; deployed).
   Before: 93 historical source pages shared 4 descriptions and 204 pages
   exceeded 160 characters. Now: a sentence per source page built from its
   title and type; a shorter film sentence; `seoDescription:` on 10
@@ -495,6 +460,13 @@ TODO / DOING / DONE / DEFERRED, with dates. Assistant rules are in `CLAUDE.md`.
   onwards on any page. Of 1,012 film pages, 853 keep the place name, 212 have
   no screening years in the description and 9 no director. TODO (owner): check
   the new Italian wording.
+- **U27 - TODO 2026-11-26: search and further ideas** (left over from U09 and
+  U11; to agree with the owner before starting). Search for films and
+  documents, with combined filters for the posters (year, format, genre,
+  printed or handwritten) in one place; the Posters subsections in the menu;
+  short editorial pieces on the posters (handwritten posters, formats,
+  graphic styles). Keep it light, with no new dependencies unless justified,
+  and keep the Lighthouse scores (U03).
 - No feature roadmap yet: new ideas are agreed with the owner and listed here
   when they are approved.
 

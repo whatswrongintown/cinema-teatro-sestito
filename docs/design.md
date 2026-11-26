@@ -359,5 +359,5 @@ Post Inspector; old previews in existing chats do not change.
 ## Next steps
 
 The redesign (U07) is closed: merged, deployed and checked with Lighthouse
-(U03). Still open elsewhere: search (U09, U11) and the owner's answers for
+(U03). Still open elsewhere: search (U27) and the owner's answers for
 the article on adult and exploitation films (U12).
