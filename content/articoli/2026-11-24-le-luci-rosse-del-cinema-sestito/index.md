@@ -17,16 +17,6 @@ tags:
   - Cinema per adulti
   - Exploitation
 ---
-<!--
-BOZZA DA COMPLETARE (vedi docs/project-status.md, U12). Da chiedere al padre
-dell'autore, poi inserire nel testo:
-- da chi e come arrivavano questi film (distributori, circuiti, agenti);
-- aneddoti: serate ricordate, titoli famosi, incidenti;
-- come la famiglia viveva questa scelta, allora e oggi;
-- titolo e data della serata con lo spettacolo dal vivo prima del film;
-- chi sono le persone che hanno raccontato le serate (se si possono citare).
--->
-
 Dal 26 luglio 1977 al 16 ottobre 1994 il registro delle proiezioni del Cinema Sestito segna 291 proiezioni di film classificati «per adulti»: titoli erotici e di exploitation, quasi sempre a basso costo, che la televisione non trasmetteva. È una parte della storia della sala di cui si parla di rado, e che invece pesò molto sui conti e sull'identità del cinema. Questo articolo la ricostruisce con i dati del registro, con i manifesti conservati in archivio e con la memoria della famiglia.
 
 Una nota sui manifesti: sono quelli che la sala affiggeva in piazza, sotto gli occhi di tutto il paese. Per questo erano già pensati per essere visti da tutti, senza nudi espliciti, e qui vengono mostrati così come erano.
@@ -35,13 +25,17 @@ Una nota sui manifesti: sono quelli che la sala affiggeva in piazza, sotto gli o
 
 Negli anni Settanta la televisione aveva portato lo spettacolo in casa, e in tutta Italia le sale di provincia cercavano un modo nuovo di attirare il pubblico e di restare aperte. A San Vito, secondo la ricostruzione di famiglia, la scelta fu prima di tutto economica. È possibile che ci fosse anche una ragione culturale: in un paese in cui la vita sociale ruotava intorno alla chiesa, quelle serate offrivano un luogo dove «evadere». È una lettura plausibile, non un dato.
 
-Il fondatore, Vito Sestito, programmava del resto molti film di *exploitation*: pellicole girate con pochi mezzi, che per la sala costavano poco e che il pubblico non avrebbe visto in televisione. Il termine indica i film che «sfruttano» un tema o una moda del momento (il western, il poliziesco, l'horror, la commedia sexy) puntando su titoli forti e manifesti vistosi. I film per adulti ne furono una variante, e a giudicare dagli incassi funzionavano.
+La domanda, del resto, veniva dal pubblico: secondo la famiglia erano gli spettatori a chiedere questi film, in quella che allora sembrava una moda come le altre, e per questo Stefano Sestito, figlio del fondatore, cominciò a portarli in sala. A scegliere il programma fu prima il fondatore, Vito Sestito, e poi lo stesso Stefano; Vito morì nel 1985, quando il genere era ormai da anni in cartellone.
+
+Il Sestito programmava anche molti film di *exploitation*: pellicole girate con pochi mezzi, che per la sala costavano poco e che il pubblico non avrebbe visto in televisione. Il termine indica i film che «sfruttano» un tema o una moda del momento (il western, il poliziesco, l'horror, la commedia sexy) puntando su titoli forti e manifesti vistosi. I film per adulti ne furono una variante, e a giudicare dagli incassi funzionavano.
 
 Non fu un caso isolato. Secondo una ricostruzione giornalistica, nel 1981 in Italia c'erano circa 1.500 sale «a luci rosse», e il nome sarebbe nato a Milano, al cinema Majestic, nel 1977: lo stesso anno in cui nel registro del Sestito compare il primo titolo per adulti.[^1]
 
 ## Come funzionava la serata
 
-Secondo le testimonianze raccolte, questi film si proiettavano di sera, dopo il film principale: finito lo spettacolo «normale» il pubblico usciva, la sala si svuotava e cominciava il film per adulti, con gente nuova e a volte con le stesse persone. Per molti era un'uscita tra amici, una cosa normale.
+Secondo la famiglia e le testimonianze raccolte, questi film si proiettavano alle 23, dopo il film principale: finito lo spettacolo «normale» il pubblico usciva, la sala si svuotava e cominciava il film per adulti, con gente nuova e a volte con le stesse persone. Per molti era un'uscita tra amici, una cosa normale.
+
+I film per adulti arrivavano dagli stessi circuiti degli altri. I rappresentanti delle agenzie di noleggio di Napoli e di Catania venivano a proporre i film e lasciavano i cataloghi delle uscite; a trasportare le pellicole erano corrieri come la Film Express di Catania.
 
 Il registro segna le date e non gli orari; mostra però che i film per adulti si vedevano soprattutto di domenica, molto più che di sabato.
 
@@ -57,8 +51,6 @@ Il registro segna le date e non gli orari; mostra però che i film per adulti si
 
 La domenica era anche il giorno più pieno del cinema (713 voci su 1.586 tra il 1977 e il 1994), ma la quota dei film per adulti vi è comunque doppia rispetto al sabato: circa uno su quattro la domenica, uno su otto il sabato.
 
-La sala, del resto, non era solo cinema. Una testimonianza ricorda una serata in cui, prima del film per adulti, andò in scena uno spettacolo dal vivo: una ballerina si spogliava sul palco, la stessa attrice che poi si vedeva sullo schermo. Il palco c'era già: serviva per le recite e i saggi scolastici raccontati negli [anni d'oro del cinema](/2025/11/05/gli-anni-d-oro-del-cinema-teatro-sestito/), e l'archivio conserva il [manifesto di uno spettacolo teatrale del 1970](/1970/12/29/spettacolo-teatrale-quel-capoccione-di-annibale/).
-
 ## La parrocchia
 
 L'archivio conserva una [lettera dell'arciprete Gerardo Mongiardo](/1957/08/10/lettera-del-sacerdote-gerardo-mongiardo/), datata 10 agosto 1957. Il sacerdote protestava perché alla proiezione di *Schiavitù*, vietato ai minori di 16 anni, erano stati ammessi dei ragazzi, e chiedeva a Vito Sestito una garanzia scritta per il futuro. Non era ancora l'epoca dei film per adulti, ma mostra che l'accesso dei minori era già un tema delicato.
@@ -67,7 +59,7 @@ Tra i documenti oggi pubblicati non ci sono lettere simili per gli anni Settanta
 
 ## I manifesti in piazza
 
-I manifesti venivano affissi in piazza dal fondatore e da due familiari, e restavano alla vista di tutto il paese. L'archivio ne conserva 137, relativi a 124 film per adulti: per otto film su dieci il pezzo principale è un manifesto di grande formato, per gli altri una locandina o una fotobusta. Si possono sfogliare nella [raccolta dei manifesti](/posters/by-genre/per-adulti/), alla voce «Per adulti».
+I manifesti venivano affissi in piazza e restavano alla vista di tutto il paese. L'archivio ne conserva 137, relativi a 124 film per adulti: per otto film su dieci il pezzo principale è un manifesto di grande formato, per gli altri una locandina o una fotobusta. Si possono sfogliare nella [raccolta dei manifesti](/posters/by-genre/per-adulti/), alla voce «Per adulti».
 
 {{< manifesto id="tt0201317" lato="destra" didascalia="Un titolo che parla di vizi segreti, affisso in piazza alla vista di tutti." >}}
 
@@ -119,7 +111,7 @@ I confini del genere restano comunque sfocati. Tra i titoli per adulti c'è anch
 
 Le ultime proiezioni per adulti sono del 1993 e del 1994. Secondo la ricostruzione di famiglia, il cinema si stava lentamente spegnendo e la cultura aveva cominciato a distanziarsi da quella degli anni Settanta. Il quadro nazionale va nella stessa direzione: secondo le ricostruzioni giornalistiche, la crisi delle sale a luci rosse cominciò con le videocassette.[^1] Il Sestito proiettò per l'ultima volta nel 2004.
 
-Questo racconto è ancora incompleto: mancano i nomi di chi portava i film, le serate che restano nella memoria dei testimoni, i volti del pubblico. Chi ricorda quelle serate può [condividere un ricordo](/#ricordi): ogni messaggio resta privato e non viene pubblicato senza un accordo separato.
+Questo racconto è ancora incompleto: mancano le serate che restano nella memoria dei testimoni, i volti del pubblico. Chi ricorda quelle serate può [condividere un ricordo](/#ricordi): ogni messaggio resta privato e non viene pubblicato senza un accordo separato.
 
 ## Nota sui dati
 

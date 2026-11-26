@@ -212,12 +212,11 @@ TODO / DOING / DONE / DEFERRED, with dates. Assistant rules are in `CLAUDE.md`.
   chart stays on the Generi index.
   2026-11-24: article drafted from the owner's answers and the data:
   `content/articoli/2026-11-24-le-luci-rosse-del-cinema-sestito/` ("Le luci
-  rosse del Cinema Sestito"). TODO (owner asks their
-  father, then the text is completed; the gaps are marked in a comment at the
-  top of the article): where the films came from (distributors, circuits);
-  anecdotes; how the family felt; title and date of the evening with a live
-  show before the film, and who told it; whether witnesses can be named (more
-  questions for the same conversation in `story-research.md`). The
+  rosse del Cinema Sestito"). The father's answers arrived on 2026-11-26
+  (`story-research.md`, answers 21-26) and are in the article: the live show
+  was removed (it was in Soverato), Vito (died 1985) and then Stefano chose
+  the films, shown at 23:00 and supplied by the same circuits as the others;
+  the draft comment is gone. The
   article states only what the owner or the data support: the weekday table,
   the takings (about 20% above the other films in the same year) and the
   1957 priest letter come from the register and the archive; the
@@ -471,15 +470,15 @@ TODO / DOING / DONE / DEFERRED, with dates. Assistant rules are in `CLAUDE.md`.
 - **U28 - DOING 2026-11-26: article on the decline and closure (1979-2004).**
   Listed at the owner's request: the series stops at 1979 and no article
   covers the last years or the closure. Split from "Le luci rosse" by subject.
-  The owner's father started answering on 2026-11-26; not written yet. Scope,
+  Family answers received 2026-11-26; ready to draft, not written yet. Scope,
   evidence, questions and answers: `story-research.md`.
 - **U29 - TODO 2026-11-26: other missing articles** (to agree with the owner
   before writing): film supply and the projection booth, other uses of the
   hall, the first hall, the Via Doria hall, what San Vito watched, the 2015
   interview, *Sansone e Dalila*. See `story-research.md`, section 2.
 - **U30 - TODO 2026-11-26: corrections to existing pages** (dates, names and
-  wording, mostly in "Gli anni d'oro"; no page changed yet). List and what the
-  scans confirm: `story-research.md`, section 3.
+  wording; only "Le luci rosse" corrected so far, see U12). List:
+  `story-research.md`, section 3.
 - **U31 - TODO 2026-11-26: new archive entries from Drive**, each after the
   owner confirms it holds no private data. List: `story-research.md`,
   section 4.

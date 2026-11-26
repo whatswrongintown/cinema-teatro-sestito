@@ -57,15 +57,19 @@ short epilogue to 2020 linking to the reopening page.
   longer covering costs, upkeep of the projector and electrical system).
 - **Restoration deck** (Drive, 2023): the projector was moved to the entrance
   and the booth converted in the 1980s.
-- **Do not copy as it is:** the draft and the deck say 2005, and the draft
-  says *Il ritorno del re* was never shown; the register has it on 25 January
-  2004. Safe wording until confirmed: "ultima proiezione registrata:
-  2 maggio 2004".
-- **1986-87:** the expense note, read from the image, lists "sedie +
-  macchina" L. 2,000,000, travel L. 200,000 and L. 75,000 for Guglielmo, with
-  arrival on "13/12" (1986 only in the file name). See answers 11-13.
+- **Confirmed by the family (answers 1-6):** the year is 2004, not 2005; *Il
+  ritorno del re* was shown on 25 January 2004 (the draft is wrong there). The
+  hall no longer met standards, from toilets to seats; audiences were falling
+  and Stefano, unwilling to make the investment, decided to close. Vito died in
+  1985. Summers stopped as screenings fell and the sons had other jobs. The
+  15:00 show let the same prints go on to Soverato by car.
+- **1986-87:** rely on the chairs waybill (30 March 1987) rather than the
+  expense note's "13/12". The note lists "sedie + macchina" L. 2,000,000,
+  travel L. 200,000 and L. 75,000 for Guglielmo. Chairs and a Fedi projector
+  came together from a closing cinema in Rome (answers 11-14).
 - No document reviewed records the closure (licence, notice to authorities,
   final SIAE returns).
+- **Ready to draft:** the questions that blocked this article are answered.
 
 ### 2.2 Other articles (U29), in order of value
 
@@ -83,7 +87,8 @@ To agree with the owner before writing.
    3 May 1977 arranges delivery of a two-sheet poster with the boxes, to be
    left at the petrol station.
 2. **"Non solo cinema: la sala come piazza coperta"** (1949-2002). Why
-   "Teatro"; school plays and weddings (already in anni d'oro); the 1968
+   "Teatro"; school plays and weddings (already in anni d'oro; Stefano's diary also mentions
+   a wedding reception at the cinema); the 1968
    Democrazia Cristiana assembly and the 1970 Circolo Simpatia play (archive
    items no article uses); the January 1986 charity show; school screenings.
    Name performers or couples only with consent.
@@ -111,8 +116,9 @@ To agree with the owner before writing.
    1994-99), the shrinking gap between release and screening, re-runs, most
    screened titles. Fills the owner's empty Drive heading "I grandi successi e
    le curiosità". Do not repeat the luci rosse figures.
-6. **The 2015 interview with Stefano Sestito** as a summary or transcript
-   (video not yet reviewed; needs his consent).
+6. **The 2015 interview with Stefano Sestito** as a summary or transcript with
+   extracts, including the films he remembers (he has consented; video not yet
+   reviewed).
 7. **"Sansone e Dalila, 9 aprile 1955"**, short, only if the outcome of the
    case is found (Pretura di Chiaravalle Centrale, Archivio di Stato).
 
@@ -128,18 +134,19 @@ a sentence). Poster pieces stay in U27.
 | Anni d'oro | Prefect's decree is 30 June 1959, not 6 June | Checked |
 | Anni d'oro | Engineer is "Calzona", not "Calzone" (archive page also has "Vincezo") | Checked (project cover) |
 | Anni d'oro | The decree calls 26 April 1959 a "collaudo" by the Commissione Provinciale di Vigilanza; it does not say static test or name Zanini. Separate document and family memory | Checked |
-| Anni d'oro | First screening: the owner's notes give the opening on Friday 24 April 1959 with *Re vagabondo*; the register has 25 April. The notes make 24 plausible (power contract signed on 3 March), but it precedes the 26 April collaudo and the June licence | Open, question 29 |
+| Anni d'oro | First screening: notes say Friday 24 April 1959, the register 25. The family thinks it was probably shown on both days: 24 can stay. Both precede the 26 April collaudo and the June licence | Answer 29a |
 | Anni d'oro | Peak is 1966-1968 (217 entries in 1967), not 1966 | Register |
 | Anni d'oro | Intro and "Declino" disagree on the start of the decline; the data break is 1979 | Register |
-| Anni d'oro | 1966 distributor contracts have no footnote | See answer 18 |
+| Anni d'oro | 1966 distributor contracts have no footnote: the contracts are not found; the source is Stefano's diary (not scanned), which noted them | Answer 18b |
 | Home, Progetto, Cinema e leggende | "Fondato nel 1946" against the 1947-49 documents: editorial decision | Open |
 | Archive: MGM envelope | Postmark 9 September 1957, not 9 November (renaming the folder needs an alias) | Checked |
 | Archive: trailer reels | Mostly 1993-2003 releases, not "seconda metà del Novecento" | From the archive photos |
 | La storia di Vito Sestito | 1961 certificate lists tyres, inner tubes and children's bicycles; ask if the range grew later | Checked |
-| Luci rosse | It says Vito chose the programme in 1977-94. The owner's notes say Vito had already died when the new projector and chairs arrived (1986-87) | Likely wrong for the later years; question 4 |
+| Luci rosse | Live show removed (it was in Soverato); who chose the films, Vito's death in 1985, the posters, the 23:00 time, the supply circuits and the draft comment updated | Done 2026-11-26 |
+| La storia di Vito Sestito | Add the year of death (1985) and his brother Vincenzo as first projectionist, if wanted | Answers 4a, 15a |
 | Progetto | Adult films from the end of the 1970s, not from the 1970s | Register |
-| Methodology | Three accounts of where the documents were found | Question 36 |
-| Programming pages 2002-04 | Takings are probably in euros and no page says so | Question 9 |
+| Methodology | Three accounts of where the documents were found; the family says the attic | Answer 36 |
+| Programming pages 2002-04 | Takings are in euros from March 2002 and no page says so | Answer 9 |
 
 The decree also confirms Vito's birth date (12 November 1902), the 26 July
 1957 nulla osta for the new hall, given on condition that the other hall close
@@ -156,8 +163,13 @@ The owner confirms each holds no private data before it is published.
 - Astra Cinematografica and Astor Film slips ("Agenzie di noleggio").
 - The Rapidtransport list of cinemas served since April 1957.
 - 1951 ANEC (AGIS) card, legible.
-- The 3 May 1977 delivery note (file "lettera fusta"; hide the signature
-  unless agreed).
+- The 3 May 1977 delivery note (file "lettera fusta"): the owner agrees to
+  publish the image with the petrol station account (answer 17a). It is signed
+  with a first name.
+- The ticket photos (answer 37); the ticket block image is already on the
+  site.
+- The live show showbill held by the family, labelled as a Soverato evening,
+  if wanted.
 - 2002 school screening sheet (image not yet opened).
 - Candidates from the scans: the 1 November 1959 lease (third-party name
   hidden), the 21 March 1963 letter, the 1968 technical report (hall only).
@@ -168,187 +180,161 @@ Not for the archive: the AI-reconstructed showtime board and papers about
 private people or private family matters. Only the scans likely to bear on
 these items were opened.
 
-## 5. Questions for the owner's father
+## 5. Questions and answers
 
-In Italian, as asked. Answers are family memory unless a document is named.
-Ask for approximate years, whether he saw it or was told, and whether it can be
-published. Questions 21-25 are the U12 questions.
+Asked in Italian. Answers come from the owner and the owner's father, Stefano
+Sestito (answers file received 2026-11-26, plus earlier replies and the
+owner's notes). They are family memory unless a document is named. People who
+told the owner their memories are not to be named for now.
 
-Last years and closure
+### Still open
 
-1. L'ultima proiezione registrata è *La passione di Cristo*, 2 maggio 2004. È
-   stata davvero l'ultima, o si è proiettato ancora qualcosa dopo, anche nel
-   2005? (priority)
-2. Perché ha chiuso il cinema? Chi lo ha deciso? Doveva essere una chiusura
-   definitiva o temporanea? (priority)
-3. *Il ritorno del re* è stato proiettato? Il registro lo riporta il
-   25 gennaio 2004, ma una bozza dice di no. (priority)
-4. Chi gestiva il cinema, e in quali anni? Chi sceglieva i film? (priority)
-   - Dagli appunti: il nonno Vito era già morto quando arrivò il nuovo
-     proiettore (1986 o 1987).
-   - 4a. In che anno è morto Vito? Chi ha gestito il cinema dopo?
-5. Dal 1979 si interrompono le proiezioni estive. Il cinema chiudeva davvero
-   d'estate? Perché?
-6. Negli ultimi anni c'era solo lo spettacolo della domenica alle 15? Da
-   quando?
-7. Quanto hanno pesato la TV, le TV private e le videocassette? C'erano altri
-   cinema che facevano concorrenza?
-   - Dagli appunti (periodo 1946-59): c'era anche un cinema parrocchiale, dove
-     oggi c'è l'AVIS, con ingresso a offerta; la parrocchia non gradiva la
-     programmazione del cinema in piazza né gli schiamazzi dei ragazzi che
-     giocavano vicino alla chiesa. Ricordo di famiglia, da confermare.
-   - Resta aperto: TV, videocassette e altri cinema negli anni successivi.
-8. Quanto costava il biglietto nei diversi periodi?
-   - Dagli appunti: con l'euro l'ingresso costava 3 euro. Mancano i prezzi
-     degli altri periodi.
-9. Dal 2002 gli incassi segnati sono in euro?
-   - Dagli appunti: passaggio da lire a euro il 1° gennaio 2003. Da
-     verificare: l'euro in contanti è del 1° gennaio 2002, e nel registro gli
-     importi diventano molto piccoli da marzo 2002.
-10. Quali serate o film degli ultimi anni ricordi di più?
-    - Dagli appunti: negli anni '90 la sala era sempre piena per i
-      cinepanettoni e i film di Boldi e De Sica, come *A spasso nel tempo*
-      (registro: 1997 e 1998). Per *Eyes Wide Shut* il proprietario ricorda la
-      sala piena; il registro (31 ottobre 1999) segna però solo 50.000, contro
-      3.570.000 di *Titanic*: da chiarire.
-    - Testimonianze del pubblico, senza nomi finché non c'è il consenso:
-      un'estrazione a premi natalizia con proiezione privata di *Jurassic
-      Park* (nel registro il film è del 27 ottobre 1993); due persone
-      ricordano *Titanic*, una con la scuola, il che secondo il proprietario
-      indica proiezioni speciali anche per scuole di Chiaravalle; *La maschera
-      di ferro* (registro: 1948 e 1998); *Le due torri* (registro: 26 gennaio
-      2003), con la sala non riservata e un episodio con dei bambini
-      rumorosi; ricordi dei film erotici della domenica sera, tra cui chi ci
-      andava con gli amici in Ape.
-    - 10a. Per *Eyes Wide Shut* la sala era piena? Il registro segna solo
-      50.000.
-    - 10b. Quando fu la proiezione privata di *Jurassic Park* con
-      l'estrazione di Natale?
+- 8. Quanto costava il biglietto nei diversi periodi? Non ricordato. Idea del
+  proprietario: cercare i prezzi medi dei cinema italiani. I biglietti
+  conservati ("posto unico", su Drive e nel sito) non riportano il prezzo. Con
+  l'euro: 3 euro (appunti).
+- 10. Trascrivere l'intervista del 2015 ed estrarne i ricordi sui film
+  (consenso dato).
+- 14b. Gli appunti dicono che un tecnico montò "la nuova Microtecnica"; per la
+  risposta 14a le Microtecnica erano i proiettori precedenti. Quando furono
+  montate?
+- 28c. Il contratto del 1° novembre 1959 per la vecchia sala, non firmato,
+  ebbe effetto?
+- 31. L'esito del processo del 1955 non è noto (forse solo un richiamo
+  formale: supposizione).
 
-Chairs, projector and booth
+### Last years and closure
 
-11. L'appunto dice che sedie e "macchina" arrivarono il 13/12, la lettera di
-    vettura delle sedie è del 30 marzo 1987. Due spedizioni o una data
-    sbagliata?
-    - **Risposta:** forse l'appunto è sbagliato; meglio fidarsi della lettera
-      di vettura.
-12. Perché si comprarono sedie e proiettore, da dove venivano, che fine fecero
-    quelle vecchie?
-    - **Risposta:** Guglielmo venne a sapere per caso che un cinema di Roma
-      chiudeva e comprò sedie e proiettore per aggiornare l'attrezzatura di
-      San Vito. (Corretta: in un primo momento era stato detto Napoli.)
-    - Aperto: che fine fecero le vecchie sedie?
-    - 12a. Il proiettore viaggiò con le sedie o a parte?
-13. Quando fu spostato il proiettore dalla cabina all'ingresso? Perché?
-    - **Risposta:** quando arrivò il nuovo, nel 1986 o 1987 secondo la fonte.
-      Era troppo grande per la cabina, quindi fu messo a piano terra, anche
-      per comodità.
-14. Che marca e modello erano i proiettori?
-    - **Risposta:** erano della Fedi.
-    - Dagli appunti: un tecnico di Petrizzi montò "la nuova Microtecnica".
-    - 14a. Erano Fedi sia il vecchio sia quello arrivato da Roma? Il modello?
-      La Microtecnica è il proiettore arrivato da Roma o un altro? Quando fu
-      montata? Il tecnico si può nominare?
-15. Chi faceva il proiezionista, e in quali anni? Chi ha imparato il mestiere
-    lì?
-    - **Risposta:** all'inizio il nonno e suo fratello; cresciuti, hanno
-      proiettato anche i figli (il padre del proprietario e lo zio
-      Guglielmo).
-    - 15a. Come si chiamava il fratello del nonno? Si può nominare?
+- 1. Ultima proiezione: si tiene il 2004, non il 2005.
+- 2. Il locale non era più a norma, dai bagni alle sedie: servivano troppi
+  investimenti, che Stefano non era disposto a fare perché gli spettatori
+  calavano. La decisione definitiva fu sua.
+- 3. *Il ritorno del re* fu proiettato il 25 gennaio 2004; la bozza è
+  sbagliata.
+- 4. All'inizio il nonno Vito, aiutato; poi i figli Guglielmo e Stefano,
+  soprattutto Stefano. Sceglieva i film Vito, poi Stefano (risposta 16).
+- 4a. Vito è morto nel 1985.
+- 5. Le proiezioni erano già in calo, e Guglielmo e Stefano avevano altri
+  lavori: il cinema si aggiungeva a quelli.
+- 6, 19. Le pellicole erano condivise con il cinema di Soverato: a San Vito lo
+  spettacolo era alle 15, poi le pellicole andavano in auto a Soverato (per un
+  periodo le ha portate anche il proprietario). Negli anni '90 i film si
+  scambiavano così. Il proprietario ricorda solo lo spettacolo delle 15.
+- 7. C'erano altri cinema in Calabria e in provincia di Catanzaro. Gli elenchi
+  della ditta di trasporti Rapidtransport li riportano, con il Sestito (pagine
+  fonte 1964 e 1965 del sito). Resta senza risposta il peso di TV e
+  videocassette.
+- 9. Euro: si tiene marzo 2002 (la data del 2003 negli appunti era un errore).
+- 10a. La sala piena per *Eyes Wide Shut* può essere un ricordo sbagliato: non
+  usarlo.
+- 10b. *Jurassic Park* con l'estrazione: intorno alla data del registro, poco
+  prima o dopo.
 
-How the films arrived
+### Chairs, projectors and booth
 
-16. Da quali noleggi arrivavano i film? Cosa ricordi di Astor Film e Astra
-    Cinematografica di Catania?
-17. Chi portava le pellicole, quando arrivavano e dove si ritiravano? Il
-    biglietto del 1977 parla della "Benzina".
-    - **Risposta:** i corrieri, come la Film Express di Catania. La "Benzina"
-      è il distributore dello zio Guglielmo, sulla strada: probabilmente a
-      volte il materiale veniva lasciato lì.
-    - Dagli appunti: confermata la Film Express di Catania.
-    - 17a. Si può scrivere nel sito?
-18. I contratti del 1966 con Argos, Titanus, Paramount, Fox e Warner: come lo
-    sappiamo? Esistono documenti?
-    - **Risposta:** i contratti non sono stati trovati; la fonte è un diario
-      personale del padre del proprietario, non scansionato.
-    - Dagli appunti, contratti del 1966: Argos (ditta di distribuzione di
-      Catania) 16 febbraio (negli appunti "1066", refuso); Titanus 22 gennaio;
-      Paramount 26 marzo; Fox 18 maggio; W.B. 8 settembre.
-    - 18a. Il diario si può scansionare? Che periodo copre? Le date qui sopra
-      vengono da lì?
-19. Come si riusciva ad avere film recenti come *Titanic*?
-20. Cosa indicano i nomi sulle scatole dei trailer ("Soverato", "Diamante -
-    Vittoria")?
-    - **Risposta:** altri cinema della zona in Calabria. Il materiale era solo
-      affittato, quindi passava spesso da un cinema all'altro, portato dai
-      corrieri.
+- 11. Fa fede la lettera di vettura (30 marzo 1987); forse l'appunto "13/12"
+  è sbagliato.
+- 12. Guglielmo seppe per caso che un cinema di Roma chiudeva e ne comprò
+  sedie e proiettore. Le vecchie sedie furono distrutte o usate come legna.
+- 12a. Sedie e proiettore viaggiarono insieme.
+- 13. Il proiettore passò dalla cabina al piano terra quando arrivò quello
+  nuovo (1986 o 1987): era troppo grande per la cabina.
+- 14, 14a. I precedenti erano Microtecnica; quello da Roma era Fedi (corregge
+  la prima risposta, "Fedi").
+- 15, 15a. All'inizio proiettavano Vito e il fratello Vincenzo (si può
+  nominare), poi anche Guglielmo e Stefano.
+- 39. Tra il 1970 e il 1971, mentre Stefano era militare: l'acqua batteva con
+  forza su un lato della sala, dove il terreno è in discesa, e Guglielmo aprì
+  le porte di sicurezza sui due lati per farla defluire (racconto di
+  Guglielmo a Stefano).
 
-Adult films (U12)
+### How the films arrived
 
-21. Da dove venivano i film per adulti (distributori, circuiti, agenti)?
-22. Ricordi aneddoti: serate memorabili, titoli famosi, episodi particolari?
-23. Come viveva la famiglia questa scelta, allora e oggi?
-24. La serata con lo spettacolo dal vivo prima del film: quando fu, con quale
-    film, e chi lo ha raccontato?
-25. Ci sono testimoni che si possono nominare nell'articolo?
-26. Il tabellone degli orari con le ore in rosso: quali orari riportava? Le 21
-    comparivano due volte?
+- 16. Venivano i rappresentanti delle agenzie di Napoli e Catania (Titanus,
+  MGM, Fox e altre) e lasciavano i cataloghi delle uscite annuali; sceglievano
+  Vito e poi Stefano. Trasportavano le pellicole la Film Express di Catania e
+  la Rapidtransport di Domenico Posca, di Chiaravalle Centrale, che aveva tra
+  gli autisti anche un sanvitese.
+- 17, 17a. I corrieri a volte lasciavano il materiale al distributore di
+  benzina di Guglielmo, sulla strada. Si può scrivere sul sito, anche con
+  l'immagine del biglietto del 3 maggio 1977 che è su Drive.
+- 18. I contratti del 1966 non sono stati trovati; fonte indicata, il diario
+  di Stefano, non scansionato. Date negli appunti: Argos (Catania)
+  16 febbraio, Titanus 22 gennaio, Paramount 26 marzo, Fox 18 maggio, W.B.
+  8 settembre.
+- 18b. Le date vengono dal diario di Stefano, che segnava anche i contratti
+  (corregge la lettura della 18a). Il proprietario vi ha notato anche un
+  riferimento a un ricevimento di matrimonio tenuto al cinema (data non
+  indicata).
+- 18a. Il diario è servito come fonte aggiuntiva per le date di
+  programmazione.
+- 20. I nomi sulle scatole dei trailer sono altri cinema della zona: il
+  materiale, solo affittato, passava da un cinema all'altro con i corrieri.
 
-The beginnings and the two halls
+### Adult films (U12)
 
-27. Le proiezioni cominciarono l'8 dicembre 1947, prima dell'autorizzazione
-    del 1949? (priority)
-28. Che cosa accadde alla vecchia sala di Piazza Polerà dopo il 1959? Il
-    contratto di affitto del 1° novembre 1959, non firmato, ebbe effetto? E
-    dov'era il negozio di Vito del 1961?
-    - Dagli appunti: il bar in piazza fu costruito con l'ampliamento del 1953
-      fatto per il cinema. Più tardi il negozio fu spostato nell'edificio del
-      cinema, dove si tagliavano anche i vetri; dietro c'era la falegnameria.
-    - 28a. Quando fu spostato il negozio? Di chi era la falegnameria, e in
-      quali anni?
-29. La nuova sala aprì il 24 o il 25 aprile 1959? La prima serata era
-    gratuita?
-    - Dagli appunti: inaugurazione venerdì 24 aprile 1959 con *Re vagabondo*.
-      La data sembra giusta al proprietario perché il contratto elettrico è
-      del 3 marzo, ma l'abilitazione è di giugno.
-    - 29a. L'apertura venne prima del collaudo del 26 aprile? Il registro
-      segna il film il 25.
-30. La prova di carico con la sabbia e l'architetto Zanini: cosa ricordi?
-    - Dagli appunti: camion di sabbia e pietre caricati su un pilastro;
-      l'architetto Zanini mise un'asta da terra al pilastro con un orologio
-      (comparatore, interpretazione) che segnalava se il pilastro si abbassava
-      oltre una certa soglia.
-31. Come è finito il processo per i biglietti di *Sansone e Dalila* (1955)?
+- 21. Arrivavano dagli stessi circuiti degli altri film (risposta 16).
+- 22. Nessun aneddoto particolare.
+- 23. La famiglia non ci faceva molto caso: erano film richiesti dai clienti,
+  una moda, e Stefano li portò perché molto richiesti.
+- 24. **Correzione:** la serata con lo spettacolo dal vivo si tenne al cinema
+  di **Soverato**, non a San Vito. La famiglia ha il cartellone, forse esposto
+  a San Vito per attirare pubblico (supposizione).
+- 25. Nessun testimone da nominare.
+- 26. I film per adulti si proiettavano alle 23.
 
-The hall beyond films
+### The beginnings and the two halls
 
-32. Perché si chiamava "Cinema Teatro"?
-33. Oltre a quelli del 1968 e del 1970, ci furono altri spettacoli, comizi,
-    feste o matrimoni?
-34. Cosa ricordi dello spettacolo per la ricerca sul cancro (gennaio 1986)?
-    Le due persone nella foto si possono pubblicare?
-35. E le proiezioni per le scuole, come quella del 2002?
+- 27. Sì: per la memoria di famiglia il cinema esisteva già nel 1946-47, anche
+  senza una data precisa; le prime fonti sui film sono del 1948.
+- 28. Al posto del cinema in piazza ci furono una farmacia e poi un bar.
+- 28b. La farmacia del contratto del 1946 era nello stesso palazzo: il cinema
+  stava a sinistra e la farmacia a destra. Appunti: il bar fu costruito con l'ampliamento del 1953 fatto per il
+  cinema.
+- 28a. La falegnameria fu il primo lavoro di Vito, prima del cinema, in
+  piazza, dove poi fece il cinema prendendo anche lo spazio dell'orto. Il
+  negozio di ricambi fu spostato accanto al cinema negli anni '90, quando il
+  palazzo in piazza fu demolito per costruirne uno moderno con un negozio di
+  ricambi più grande.
+- 29, 29a. Probabilmente le proiezioni furono sia il 24 sia il 25 aprile 1959:
+  la differenza può dipendere da come i film erano segnati nelle agende.
+  Appunti: inaugurazione venerdì 24 con *Re vagabondo*.
+- 30. Appunti: camion di sabbia e pietre caricati su un pilastro; l'architetto
+  Zanini mise un'asta da terra al pilastro con un orologio (comparatore,
+  interpretazione) che segnalava un abbassamento oltre una soglia.
 
-Documents and consent
+### The hall beyond films
 
-36. Dove furono ritrovati agende e documenti: nell'ex negozio, in soffitta, o
-    li conservava l'amico che li ha restituiti nel 2023?
-37. Esistono ancora foto, biglietti, registri SIAE, contratti o carte sulla
-    chiusura? Chi altro potrebbe averli?
-38. Si può pubblicare un riassunto dell'intervista del 2015 a Stefano Sestito?
-    Serve il suo consenso.
+- 32. "Teatro" perché c'era un palco; sugli spettacoli ci sono poche fonti.
+- 33. Ci furono altri eventi, senza fonti. Negli anni '60 era l'unica sala
+  grande adatta a un matrimonio: non c'erano sale per ricevimenti.
+- 34. Stefano non ricorda lo spettacolo del gennaio 1986.
+- 35. Stefano insegnava alla scuola media di San Vito e conosceva le scuole
+  vicine; essendo il Sestito l'unico cinema ancora aperto, si organizzavano
+  proiezioni riservate agli studenti, soprattutto di film famosi.
 
-From the owner's notes
+### Documents and consent
 
-39. Guglielmo evitò un allagamento aprendo le porte di sicurezza: l'acqua
-    entrava dalle uscite affacciate sull'orto e usciva da quelle sulla
-    strada. In che anno?
+- 36. I documenti sono stati trovati in soffitta.
+- 37. I biglietti sono su Drive.
+- 38. Stefano dà il consenso a pubblicare un riassunto dell'intervista del
+  2015, trascriverla ed estrarne frammenti.
 
-Posters, for U27 and "Cosa guardava San Vito": the notes say posters were
-reused for other films, with the new title written on the back or pasted or
-written over the original on the front, because the right poster had been
-stolen or taken by spectators, or was not available.
+### Other notes from the owner
 
-One further account in the owner's notes is left out as unreliable, by the
-owner's choice; nothing from it is used. Some family memories about third
-parties are also kept out of this public file.
+- 1946-59: c'era anche un cinema parrocchiale, dove oggi c'è l'AVIS, con
+  ingresso a offerta; la parrocchia non gradiva la programmazione del cinema
+  in piazza né gli schiamazzi dei ragazzi vicino alla chiesa.
+- Anni '90: sala piena per i cinepanettoni e i film di Boldi e De Sica, come
+  *A spasso nel tempo*.
+- Testimonianze, senza nomi: un'estrazione natalizia con proiezione privata di
+  *Jurassic Park*; *Titanic* visto con la scuola; *La maschera di ferro*;
+  *Le due torri* in una sala non riservata, con bambini rumorosi; i film
+  erotici della domenica sera, tra cui chi ci andava con gli amici in Ape.
+- Per U27: i manifesti si riusavano per altri film, scrivendo il titolo sul
+  retro o coprendo quello originale, perché il manifesto giusto era stato
+  portato via o non era disponibile.
+
+One further account in the notes is left out as unreliable, by the owner's
+choice. Some family memories about third parties are kept out of this public
+file.
