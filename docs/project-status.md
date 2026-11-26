@@ -341,7 +341,7 @@ TODO / DOING / DONE / DEFERRED, with dates. Assistant rules are in `CLAUDE.md`.
     Below it, only one card per source type (Agende, Calendari, Rubriche,
     Appunti, plus "Note sui manifesti", a single source linked directly);
     each type has its own page (`fonti/<type>/`, with the type's former
-    description in the header, no repeated text) listing its sources with their first scan (24 sources were
+    description in the header, no repeated text) listing its sources with their first scan (23 sources were
     never scanned and show a text card). The source pages moved into the
     type folders; their URLs are unchanged (checked on a full build: the
     only new pages are the four type pages). "Note sui manifesti" has no scan:
@@ -415,6 +415,18 @@ TODO / DOING / DONE / DEFERRED, with dates. Assistant rules are in `CLAUDE.md`.
   their collage. The first local build after the change took about 10 min
   (two image operations per card), so the first Netlify deploy will be
   slow too.
+- **U19 - DONE 2026-11-26 (same branch): unused images.** Requested by the
+  owner before the deploy. All 4,995 tracked images were matched against
+  what a clean build references (HTML, CSS, JS, XML, JSON): 27 were unused
+  and no untracked image files were found. Done with the owner's approval:
+  - The Rubrica 1978-79 scans (25 files in
+    `static/images/programmazione_storica/1978_01_01_rubrica_fratelli_de_leon_1978_79/`)
+    were never linked: the source page said it had not been scanned. It now
+    has the gallery and its first scan as `image:`, like the other rubriche.
+  - Deleted `content/posters/hero_banner_manifesti.jpg` (the old Posters
+    banner, used only for sharing, now replaced by the section card) and its
+    `image:` line, and `firme_2.png` in the methodology article (never in
+    the text, which uses `firma_1.png`).
 - No feature roadmap yet: new ideas are agreed with the owner and listed here
   when they are approved.
 
@@ -440,5 +452,5 @@ TODO / DOING / DONE / DEFERRED, with dates. Assistant rules are in `CLAUDE.md`.
 - U02 (2026-11-23) removed `static/programmazione-storica/`: the genre chart PNG
   was deleted and the country chart moved into its section bundle; no
   `index_files` folder is left in `static/` or `content/`.
-- Left as is on purpose: the 70 historical-source galleries in
+- Left as is on purpose: the 71 historical-source galleries in
   `static/images/programmazione_storica/` (DEFERRED: low gain, 321 MB).
