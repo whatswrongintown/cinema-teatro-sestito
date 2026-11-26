@@ -1,4 +1,5 @@
 ---
+shareImage: "share-card.jpg"
 title: "Programmazione per anni"
 linkTitle: "Anni"
 author: "Vito Sestito"

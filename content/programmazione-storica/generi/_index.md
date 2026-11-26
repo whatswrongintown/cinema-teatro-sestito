@@ -1,4 +1,5 @@
 ---
+shareImage: "share-card.jpg"
 title: "Generi cinematografici"
 linkTitle: "Generi"
 author: "Vito Sestito"

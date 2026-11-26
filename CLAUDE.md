@@ -33,8 +33,10 @@ Before editing a page, decide whether it is manually written or generated:
 - The datasets and poster images are final (2026-11-23): there is no new data
   to regenerate, and `static/images/manifesti/` must not be modified.
 - Share cards (link previews): every article needs front matter `image:` (its
-  hero and share card); other pages get theirs automatically. Never add
-  separate preview images. Rules: `docs/design.md`, section "Share cards".
+  hero and share card); other pages get theirs automatically, cropped to
+  1200x630. The main Posters and programming pages use collages made by
+  `docs/share-card/make-cards.ps1` (`shareImage:`). Never add other preview
+  images. Rules: `docs/design.md`, section "Share cards".
 
 ## Never
 

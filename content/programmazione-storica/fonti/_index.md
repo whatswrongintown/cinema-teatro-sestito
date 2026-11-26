@@ -1,4 +1,5 @@
 ---
+shareImage: "share-card.jpg"
 title: "Fonti della programmazione"
 linkTitle: "Fonti"
 author: "Vito Sestito"

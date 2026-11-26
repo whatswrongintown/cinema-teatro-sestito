@@ -77,11 +77,12 @@ of the repository.
   has no size labels: it is drawn to scale (U05).
 - Thumbnails open the keyboard-accessible lightbox; without JavaScript they
   link to the large image.
-- Share cards (U17, `design.md`, section "Share cards"): film pages share the
-  `image:` set by the adapter (the large image of the first printed poster, or
-  of the first poster if there are only retros); list pages with `image: ''`
-  share the poster of their card (`posters/copertina.html`), the Posters
-  landing page its hero.
+- Share cards (U17, U18, `design.md`, section "Share cards"): the landing
+  page, the browse pages (Per anno, formato, genere, paese, fonte, titolo)
+  and Retro share a collage (`share-card.jpg`, `shareImage:`); film pages
+  the `image:` set by the adapter (the large image of the first printed
+  poster, or of the first poster if there are only retros); the other list
+  pages the poster of their card (`posters/copertina.html`).
 
 ## Data (`data/posters/films.json`)
 
