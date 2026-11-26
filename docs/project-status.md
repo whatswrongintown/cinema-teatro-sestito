@@ -434,8 +434,9 @@ TODO / DOING / DONE / DEFERRED, with dates. Assistant rules are in `CLAUDE.md`.
   the queue (one build at a time) and then rebuilt the cards again
   (`hugo` 5 min 12 s), because it had started before the preview saved its
   cache. Lighthouse home 88 / 100 / 100 / 100 on both builds (95 the day
-  before; the home page changed only in its meta tags, so probably
-  measurement noise; to check with PageSpeed Insights). Lesson: when the
+  before; the home page changed only in its meta tags). PageSpeed Insights
+  (mobile, 2026-11-26 10:44) confirmed it was measurement noise: home
+  95 / 100 / 100 / 100, LCP 2.6 s, CLS 0, TBT 0 ms. Lesson: when the
   owner asks to deploy, push to `main` directly or merge before the preview
   starts, so Netlify builds once.
 - No feature roadmap yet: new ideas are agreed with the owner and listed here
