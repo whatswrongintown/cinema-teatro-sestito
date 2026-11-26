@@ -18,3 +18,27 @@ command = 'hugo -F -b $DEPLOY_PRIME_URL'
 [context.production]
 [context.production.environment]
 HUGO_ENV = 'production'
+
+# Long caching. Pages link CSS and JS only by their fingerprinted names (a new
+# content hash on every change, see css-bundle.html and asset.html), so they
+# never need rechecking. Font names have no hash: give a changed font a new
+# file name. Poster images are final; 30 days, then rechecked.
+[[headers]]
+  for = "/css/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/js/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/fonts/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/images/manifesti/*"
+  [headers.values]
+    Cache-Control = "public, max-age=2592000"

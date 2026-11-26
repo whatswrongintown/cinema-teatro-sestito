@@ -468,6 +468,14 @@ TODO / DOING / DONE / DEFERRED, with dates. Assistant rules are in `CLAUDE.md`.
   - The YouTube embed in the 2015 interview loads lazily.
   - Not done: thumbnail format (only 89 of 1,335 are JPEG, the rest WebP; the
     audit was wrong to call them JPEG).
+- **U22 - DONE 2026-11-26: caching headers** (`netlify.toml`; committed, not
+  pushed or deployed yet, so not verified: check the live `cache-control`
+  after the deploy). `/css/*`, `/js/*` and `/fonts/*`: one year, immutable;
+  `/images/manifesti/*`: 30 days. Rules to keep: link CSS and JS only through
+  `css-bundle.html` or `asset.html` (hashed names; the plain copies in
+  `public/css` and `public/js` would stay stale in browsers), and give a
+  changed font a new file name (and update `fonts.css` and the preloads in
+  `head.html`).
 - No feature roadmap yet: new ideas are agreed with the owner and listed here
   when they are approved.
 
