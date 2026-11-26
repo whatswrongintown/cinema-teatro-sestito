@@ -156,10 +156,12 @@ screenings were compared with the R functions: all identical. The charts were
 checked visually against the PNGs; the IMDb labels chosen are almost the same
 as R's. A full `hugo` build takes about 40 s.
 
-Social previews (U17): year, genre, country and source pages share the first
-poster of their strip, as a 1200x630 card made by Hugo; pages without posters
-share the house card (see `design.md`, section "Share cards"). The chart PNGs
-formerly kept for sharing were deleted.
+Social previews (U17, U18): the landing page and the Anni, Generi, Paesi and
+Fonti indexes share a collage (`share-card.jpg`, `shareImage:`); year, genre,
+country and source pages share the first poster of their strip, cropped to a
+1200x630 card by Hugo; pages without posters share the house card (see
+`design.md`, section "Share cards"). The chart PNGs formerly kept for
+sharing were deleted.
 
 Index aggregation rules (from the former `R/update-indici.R`):
 

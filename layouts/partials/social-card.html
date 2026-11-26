@@ -1,26 +1,26 @@
-{{- /* One image resource as a 1200x630 JPEG share card (U17).
-       Wide images (aspect 1.5 to 2.4) are cropped to fill the card, with
-       Hugo's smart crop; any other shape (posters, documents, very wide
-       charts) is shown whole, centred on the site's dark background (tone-dark --paper),
-       with a margin. Processed images are cached (see netlify.toml).
+{{- /* One image resource as a 1200x630 JPEG share card (U17, U18).
+       Every image is cropped to fill the card (the owner preferred crops to
+       whole images on a dark background, 2026-11-26). Images taller than
+       the card keep the band 30% of the way down (like CSS object-position
+       "center 30%"), which on posters, documents and photos usually holds
+       the title, the heading or the faces; Hugo's smart crop picked worse
+       areas. Wider images are cropped at the centre. A JPEG that is already
+       1200x630 (the section cards made by docs/share-card/make-cards.ps1) is
+       used as it is. Processed images are cached (see netlify.toml).
        Call with: partial "social-card.html" $imageResource */ -}}
-{{- $w := 1200 }}{{ $h := 630 }}{{ $margine := 36 -}}
-{{- $sfondo := "#14100e" -}}
-{{- $r := div (float .Width) .Height -}}
-{{- $card := false -}}
-{{- if and (ge $r 1.5) (le $r 2.4) -}}
-  {{- $card = .Fill (printf "%dx%d smart jpg q82 %s" $w $h $sfondo) -}}
-{{- else -}}
-  {{- $bw := sub $w (mul 2 $margine) }}{{ $bh := sub $h (mul 2 $margine) -}}
-  {{- $img := false -}}
-  {{- if gt $r (div (float $bw) $bh) -}}
-    {{- $img = .Resize (printf "%dx jpg q90 %s" $bw $sfondo) -}}
-  {{- else -}}
-    {{- $img = .Resize (printf "x%d jpg q90 %s" $bh $sfondo) -}}
-  {{- end -}}
-  {{- $sx := div (sub $w $img.Width) 2 }}{{ $dx := sub (sub $w $img.Width) $sx -}}
-  {{- $sy := div (sub $h $img.Height) 2 }}{{ $dy := sub (sub $h $img.Height) $sy -}}
-  {{- $card = $img | images.Filter (images.Padding $sy $dx $dy $sx $sfondo) -}}
-  {{- $card = $card.Process "jpg q82" -}}
+{{- $w := 1200 }}{{ $h := 630 -}}
+{{- if and (eq .Width $w) (eq .Height $h) (eq .MediaType.SubType "jpeg") -}}
+  {{- return . -}}
 {{- end -}}
-{{- return $card -}}
+{{- $img := . -}}
+{{- $anchor := "center" -}}
+{{- /* Height of the card's band in source pixels, when the width fills the card. */ -}}
+{{- $banda := math.Round (div (mul (float .Width) $h) $w) -}}
+{{- if gt (float .Height) $banda -}}
+  {{- $taglio := int (math.Round (mul 0.3 (sub (float .Height) $banda))) -}}
+  {{- if gt $taglio 0 -}}
+    {{- $img = .Crop (printf "%dx%d bottom" .Width (sub .Height $taglio)) -}}
+  {{- end -}}
+  {{- $anchor = "top" -}}
+{{- end -}}
+{{- return $img.Fill (printf "%dx%d %s jpg q82 #14100e" $w $h $anchor) -}}

@@ -1,4 +1,5 @@
 ---
+shareImage: "share-card.jpg"
 title: Per formato
 type: posters
 layout: browse

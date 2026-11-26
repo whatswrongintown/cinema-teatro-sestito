@@ -2,6 +2,9 @@
        section "Share cards"). Returns dict "url" "width" "height" "alt".
 
        Source image, first match wins:
+       0. `shareImage:`, a ready-made card in the page bundle: the section
+          collages of Posters and the historical programming (U18, made by
+          docs/share-card/make-cards.ps1);
        1. the page's own `image:` (a file in the page bundle, or an absolute
           path under static/, e.g. "/images/manifesti/..."); an `image:` that
           does not resolve gives a build warning;
@@ -13,12 +16,22 @@
        Articles must have their own `image:` (their hero): a build warning
        names any that does not.
 
-       Every source becomes one 1200x630 JPEG (partials/social-card.html). */ -}}
+       Every source becomes one 1200x630 JPEG, cropped to fill
+       (partials/social-card.html). */ -}}
 {{- $src := false -}}
 {{- $alt := .Params.imageCaption | default .Title -}}
 
+{{- /* 0. A ready-made section card. */ -}}
+{{- with .Params.shareImage -}}
+  {{- $src = $.Resources.Get . -}}
+  {{- $alt = printf "%s: una selezione dalla raccolta del Cinema Teatro Sestito" $.Title -}}
+  {{- if not $src -}}
+    {{- warnf "shareImage %q of %s does not exist" . $.Path -}}
+  {{- end -}}
+{{- end -}}
+
 {{- /* 1. The page's own image. */ -}}
-{{- with .Params.image -}}
+{{- if not $src }}{{ with .Params.image -}}
   {{- if hasPrefix . "/" -}}
     {{- $src = resources.Get (strings.TrimPrefix "/" .) -}}
   {{- else -}}
@@ -27,7 +40,7 @@
   {{- if not $src -}}
     {{- warnf "social image %q of %s does not exist" . $.Path -}}
   {{- end -}}
-{{- end -}}
+{{- end }}{{ end -}}
 {{- if and (not $src) (eq .Section "articoli") .IsPage -}}
   {{- warnf "article %s has no image: (its hero and share card)" .Path -}}
 {{- end -}}

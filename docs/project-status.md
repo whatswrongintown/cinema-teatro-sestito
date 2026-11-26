@@ -50,8 +50,10 @@ TODO / DOING / DONE / DEFERRED, with dates. Assistant rules are in `CLAUDE.md`.
 - Netlify plan: Legacy Starter (100 form submissions per site per month; metered
   usage can cause charges). No plan change is proposed.
 - Charts: explain their conventions in the methodology; do not recalculate them.
-- 2026-11-25 (U17): every page shares a 1200x630 JPEG card made by Hugo: its
-  own `image:`, else a poster for pages listing films, else the house card.
+- 2026-11-25 (U17, U18 2026-11-26): every page shares a 1200x630 JPEG card,
+  cropped to fill (not whole on a dark background): a section collage for
+  the main Posters and programming pages, else its own `image:`, else a
+  poster for pages listing films, else the house card.
   Every article must have `image:` (hero and share card). No separate preview
   images. Rules in `design.md`, section "Share cards".
 - Absolute-root URLs and the repeated public email are existing choices, not
@@ -394,6 +396,25 @@ TODO / DOING / DONE / DEFERRED, with dates. Assistant rules are in `CLAUDE.md`.
   home 95 / 100 / 100 / 100. Checked in production: home, an article, a film
   page and a year page serve their 1200x630 JPEG cards with the new tags.
   TODO (owner): re-scrape the main pages in Facebook's Sharing Debugger.
+- **U18 - DONE 2026-11-26 (branch `section-share-cards`, not merged): section
+  share cards and cropped previews.** Requested by the owner after seeing
+  U17 shared: cropped images look better than whole images on a dark
+  background, and the section pages should have cards of their own. The
+  owner reviewed 13 mockups (a private claude.ai page) and approved them as
+  they were:
+  - The main pages of Posters (landing, Per anno, Per formato, Per genere,
+    Per paese, Per fonte, Per titolo, Retro) and of the historical
+    programming (landing, Anni, Generi, Paesi, Fonti) share a collage,
+    `share-card.jpg` in their bundle, named by the new front matter
+    `shareImage:`. Made by `docs/share-card/make-cards.ps1` (seed 1956).
+  - Every other card is now cropped to fill, keeping the band 30% of the way
+    down (titles and faces); Hugo's smart crop was tried first and picked
+    worse areas (the bottom of posters).
+  Rules in `design.md`, section "Share cards". Checked on a full build: no
+  warnings, every page has a 1200x630 card, the 13 section pages serve
+  their collage. The first local build after the change took about 10 min
+  (two image operations per card), so the first Netlify deploy will be
+  slow too.
 - No feature roadmap yet: new ideas are agreed with the owner and listed here
   when they are approved.
 

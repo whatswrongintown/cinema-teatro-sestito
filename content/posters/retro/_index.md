@@ -1,4 +1,5 @@
 ---
+shareImage: "share-card.jpg"
 title: Retro
 type: posters
 layout: retro

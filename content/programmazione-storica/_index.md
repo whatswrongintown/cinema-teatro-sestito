@@ -1,4 +1,5 @@
 ---
+shareImage: "share-card.jpg"
 title: Programmazione storica
 author: Vito Sestito
 date: '2023-04-21'

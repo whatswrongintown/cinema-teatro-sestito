@@ -1,4 +1,5 @@
 ---
+shareImage: "share-card.jpg"
 title: Per paese
 type: posters
 layout: browse

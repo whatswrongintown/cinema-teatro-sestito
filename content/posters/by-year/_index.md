@@ -1,4 +1,5 @@
 ---
+shareImage: "share-card.jpg"
 title: Per anno
 type: posters
 layout: browse

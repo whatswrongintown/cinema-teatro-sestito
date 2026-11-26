@@ -1,4 +1,5 @@
 ---
+shareImage: "share-card.jpg"
 title: "Paesi di produzione"
 linkTitle: "Paesi"
 author: "Vito Sestito"

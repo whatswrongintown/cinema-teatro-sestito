@@ -1,4 +1,5 @@
 ---
+shareImage: "share-card.jpg"
 title: Manifesti e locandine
 type: posters
 layout: browse
