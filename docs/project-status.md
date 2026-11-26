@@ -454,8 +454,8 @@ TODO / DOING / DONE / DEFERRED, with dates. Assistant rules are in `CLAUDE.md`.
   front matter description (4 texts, 93 pages); 292 descriptions exceed 160
   characters (search engines shorten them). The owner approved the wording
   of the generated Italian sentences (2026-11-26).
-- **U21 - DONE 2026-11-26: performance** (from the audit; committed, not
-  pushed or deployed yet).
+- **U21 - DONE 2026-11-26: performance** (from the audit; deployed 2026-11-26,
+  `9e8eb420`; production checked, same mobile result as the local test).
   - Poster list pages: the 1966 year page went from 903,420 to about 67,000
     bytes of HTML. Cause: untrimmed template actions in the film selection
     loop; fixed as a side effect of U20 (`posters/cards.html`), live since
@@ -468,14 +468,22 @@ TODO / DOING / DONE / DEFERRED, with dates. Assistant rules are in `CLAUDE.md`.
   - The YouTube embed in the 2015 interview loads lazily.
   - Not done: thumbnail format (only 89 of 1,335 are JPEG, the rest WebP; the
     audit was wrong to call them JPEG).
-- **U22 - DONE 2026-11-26: caching headers** (`netlify.toml`; committed, not
-  pushed or deployed yet, so not verified: check the live `cache-control`
-  after the deploy). `/css/*`, `/js/*` and `/fonts/*`: one year, immutable;
+- **U22 - DONE 2026-11-26: caching headers** (`netlify.toml`; deployed
+  2026-11-26, `6066653a`, live about 1 min after the push; live `cache-control`
+  checked on CSS, JS, fonts and poster images, HTML unchanged). `/css/*`,
+  `/js/*` and `/fonts/*`: one year, immutable;
   `/images/manifesti/*`: 30 days. Rules to keep: link CSS and JS only through
   `css-bundle.html` or `asset.html` (hashed names; the plain copies in
   `public/css` and `public/js` would stay stale in browsers), and give a
   changed font a new file name (and update `fonts.css` and the preloads in
   `head.html`).
+- **U23 - DONE 2026-11-26: small SEO fixes** (from the audit; committed to
+  `main`, not pushed or deployed yet). `layouts/robots.txt` names the sitemap; `/grazie/` has
+  `noindex` (front matter `noindex: true`, read by `head.html`) and is out of
+  the sitemap (`sitemap.disable`); the 404 page has no canonical. Checked on a
+  full local build: the sitemap differs from production only by `/grazie/`,
+  which is the only `noindex` page. Left from the same audit item: structured
+  data and sitemap `lastmod` dates (the visible Hugo version is left as is).
 - No feature roadmap yet: new ideas are agreed with the owner and listed here
   when they are approved.
 

@@ -42,7 +42,12 @@
 
 <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ $pageTitle }} - {{ .Site.Title }}{{ end }}</title>
 <meta name="description" content="{{ $description }}">
+{{- if ne .Kind "404" }}
 <link rel="canonical" href="{{ $url }}">
+{{- end }}
+{{- if .Params.noindex }}
+<meta name="robots" content="noindex">
+{{- end }}
 
 <!-- Open Graph Metadata -->
 <meta property="og:title" content="{{ $socialTitle }}">
