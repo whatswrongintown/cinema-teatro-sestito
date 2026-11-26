@@ -1,6 +1,6 @@
 # Project status
 
-Last review: 2026-11-25. Read this file first and update it whenever a decision
+Last review: 2026-11-26. Read this file first and update it whenever a decision
 is made. Documentation is in English, site content in Italian. Status words:
 TODO / DOING / DONE / DEFERRED, with dates. Assistant rules are in `CLAUDE.md`.
 
@@ -439,6 +439,19 @@ TODO / DOING / DONE / DEFERRED, with dates. Assistant rules are in `CLAUDE.md`.
   95 / 100 / 100 / 100, LCP 2.6 s, CLS 0, TBT 0 ms. Lesson: when the
   owner asks to deploy, push to `main` directly or merge before the preview
   starts, so Netlify builds once.
+- **U20 - DONE 2026-11-26: SEO metadata** (from an audit of production;
+  committed to `main`, not pushed or deployed yet). Pages 2+ of the paginated Posters
+  lists declared page 1 as canonical; film pages used the generic site
+  description and 228 pages had an empty one (their `.Summary` was only an
+  HTML comment); titles repeated across pagination, Posters and programming
+  pages, and categories. Rules in `posters.md`, "Page metadata". Checked on
+  a full local build: 80 pages 2+ with their own canonical, no duplicate
+  titles, no empty descriptions, only the 404 with the site description;
+  gallery contents and the metadata of the sampled other pages match
+  production. Left: historical source pages of the same type still share their
+  front matter description (4 texts, 93 pages); 292 descriptions exceed 160
+  characters (search engines shorten them). The owner approved the wording
+  of the generated Italian sentences (2026-11-26).
 - No feature roadmap yet: new ideas are agreed with the owner and listed here
   when they are approved.
 

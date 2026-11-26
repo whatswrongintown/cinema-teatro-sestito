@@ -1,52 +1,17 @@
 {{ $page := .page }}
 {{ $month := .month }}
 {{ $paginate := .paginate }}
-{{ $collection := $page.Params.collection | default "printed" }}
-{{ $retro := eq $collection "retro" }}
-{{ $filtro := dict "_" true }}
-{{ with $page.Params.source }}{{ $filtro = index (partialCached "posters/fonti.html" . "fonti") (lower .) | default (dict "_" true) }}{{ end }}
-{{ with $page.Params.country }}{{ $filtro = index (partialCached "posters/paesi.html" . "paesi") (lower .) | default (dict "_" true) }}{{ end }}
+{{ $retro := eq ($page.Params.collection | default "printed") "retro" }}
+{{ $paginator := false }}
 {{ $cards := slice }}
-{{ range hugo.Data.posters.films.films }}
-  {{ $film := . }}
-  {{ $images := where .posters "is_retro" $retro }}
-  {{ with $page.Params.category }}
-    {{ $images = where $images "category" . }}
-  {{ end }}
-  {{ with $page.Params.size }}
-    {{ $images = where $images "size" . }}
-  {{ end }}
-  {{ $matches := gt (len $images) 0 }}
-  {{ with $page.Params.genre }}
-    {{ $matches = and $matches (in $film.genre_slugs .) }}
-  {{ end }}
-  {{ with $page.Params.source }}{{ $matches = and $matches (index $filtro $film.film_id) }}{{ end }}
-  {{ with $page.Params.country }}{{ $matches = and $matches (index $filtro $film.film_id) }}{{ end }}
-  {{ with $page.Params.letter }}
-    {{ $matches = and $matches (eq $film.letter .) }}
-  {{ end }}
-  {{ with $page.Params.year }}
-    {{ $screened := false }}
-    {{ range $film.screenings }}
-      {{ if eq (int .year) (int $page.Params.year) }}
-        {{ if or (not $month) (eq (int .month) (int $month)) }}
-          {{ $screened = true }}
-        {{ end }}
-      {{ end }}
-    {{ end }}
-    {{ $matches = and $matches $screened }}
-  {{ end }}
-  {{ if $matches }}
-    {{ $filmPage := site.GetPage (printf "/posters/films/%s" $film.film_id) }}
-    {{ if not $filmPage }}{{ errorf "Poster film page missing: %s" $film.film_id }}{{ end }}
-    {{ $cards = $cards | append $filmPage }}
-  {{ end }}
+{{ if $paginate }}
+  {{ $paginator = partial "posters/paginator.html" $page }}
+  {{ if $paginator }}{{ $cards = $paginator.Pages }}{{ end }}
+{{ else }}
+  {{ $cards = partial "posters/cards.html" (dict "page" $page "month" $month) }}
 {{ end }}
 {{ if $cards }}
-  {{ $paginator := false }}
-  {{ if $paginate }}{{ $paginator = $page.Paginate $cards 60 }}{{ end }}
   {{ $shown := $cards }}
-  {{ if $paginator }}{{ $shown = $paginator.Pages }}{{ end }}
   {{ $filmMap := partialCached "posters/film-map.html" . }}
   {{- /* Pick each film's poster first: when the grid mixes formats, the
        thumbnails are drawn to scale (see sheet-size.html and "Posters to

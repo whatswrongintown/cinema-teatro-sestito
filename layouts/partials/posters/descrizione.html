@@ -1,0 +1,31 @@
+{{- /*
+Meta description built from the data for a film page or a Posters list
+without `description:`. Returns "" for any other page.
+Call with: partial "posters/descrizione.html" .
+*/ -}}
+{{- $d := "" -}}
+{{- if eq .Layout "film" -}}
+  {{- $film := index (partialCached "posters/film-map.html" .) .Params.film_id -}}
+  {{- $titolo := $film.title -}}
+  {{- with $film.production_year }}{{ $titolo = printf "%s (%s)" $titolo . }}{{ end -}}
+  {{- with $film.extra }}{{ with .Directors }}{{ $titolo = printf "%s, regia di %s" $titolo (index . 0) }}{{ end }}{{ end -}}
+  {{- $n := len $film.posters -}}
+  {{- $d = printf "%s: %d %s nell'archivio del Cinema Teatro Sestito di San Vito sullo Ionio." $titolo $n (cond (eq $n 1) "manifesto" "manifesti") -}}
+  {{- $anni := slice -}}
+  {{- range $film.screenings }}{{ $anni = $anni | append (string (int .year)) }}{{ end -}}
+  {{- with sort (uniq $anni) -}}
+    {{- $d = printf "%s In sala: %s." $d (delimit . ", " " e ") -}}
+  {{- end -}}
+{{- else if .Params.letter -}}
+  {{- $iniziale := cond (eq .Params.letter "#") "un numero" (printf "la lettera %s" .Params.letter) -}}
+  {{- $d = printf "Manifesti dei film con il titolo che inizia per %s, dalla raccolta del Cinema Teatro Sestito di San Vito sullo Ionio." $iniziale -}}
+{{- else if eq .Layout "year" -}}
+  {{- $d = printf "Manifesti dei film in programma nel %v al Cinema Teatro Sestito di San Vito sullo Ionio." .Params.year -}}
+{{- else if eq .Layout "genre" -}}
+  {{- $d = printf "Genere %s: i manifesti dei film nella raccolta del Cinema Teatro Sestito di San Vito sullo Ionio." .Title -}}
+{{- else if eq .Layout "country" -}}
+  {{- $d = printf "Paese di produzione %s: i manifesti dei film nella raccolta del Cinema Teatro Sestito di San Vito sullo Ionio." .Title -}}
+{{- else if eq .Layout "source" -}}
+  {{- $d = printf "I manifesti dei film registrati nella fonte «%s» dell'archivio del Cinema Teatro Sestito di San Vito sullo Ionio." .Title -}}
+{{- end -}}
+{{- return $d -}}

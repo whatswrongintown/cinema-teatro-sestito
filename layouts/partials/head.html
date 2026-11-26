@@ -7,34 +7,32 @@
 {{- with .Params.subtitle -}}
   {{- $pageTitle = printf "%s - %s" $pageTitle . -}}
 {{- end -}}
+{{- /* Posters pages share names with the historical programming (genres,
+       countries, sources, years): their <title> says which is which. */ -}}
+{{- if and (eq .Section "posters") (in (slice "year" "genre" "country" "source" "letter") .Layout) -}}
+  {{- $pageTitle = printf "%s - Manifesti" $pageTitle -}}
+{{- end -}}
+{{- if and (eq .Kind "term") (eq .Data.Singular "category") -}}
+  {{- $pageTitle = printf "%s - Categoria" $pageTitle -}}
+{{- end -}}
+{{- $description := partial "descrizione.html" . -}}
+
+{{- /* Pages 2 onwards of a paginated list have their own URL, title and
+       description. */ -}}
+{{- $url := .Permalink -}}
+{{- $paginator := partial "posters/paginator.html" . -}}
+{{- if $paginator -}}
+  {{- if gt $paginator.PageNumber 1 -}}
+    {{- $url = $paginator.URL | absURL -}}
+    {{- $pageTitle = printf "%s - pagina %d" $pageTitle $paginator.PageNumber -}}
+    {{- $description = printf "%s Pagina %d di %d." $description $paginator.PageNumber $paginator.TotalPages -}}
+  {{- end -}}
+{{- end -}}
+
 {{- $socialTitle := .Site.Title -}}
 {{- if not .IsHome -}}
   {{- $socialTitle = printf "%s - %s" $pageTitle .Site.Title -}}
 {{- end -}}
-{{- $description := .Description -}}
-{{- if not $description -}}
-  {{- if eq .Kind "term" -}}
-    {{- if eq .Data.Singular "category" -}}
-      {{- $description = printf "Pagine del sito associate alla categoria %s." .Title -}}
-    {{- else if eq .Data.Singular "tag" -}}
-      {{- $description = printf "Pagine del sito associate al tag %s." .Title -}}
-    {{- else -}}
-      {{- $description = printf "Pagine del sito associate al termine %s." .Title -}}
-    {{- end -}}
-  {{- else if eq .Kind "taxonomy" -}}
-    {{- if eq .Data.Plural "categories" -}}
-      {{- $description = "Indice delle categorie del sito Cinema Teatro Sestito." -}}
-    {{- else if eq .Data.Plural "tags" -}}
-      {{- $description = "Indice dei tag del sito Cinema Teatro Sestito." -}}
-    {{- else -}}
-      {{- $description = printf "Indice dei termini %s del sito Cinema Teatro Sestito." .Data.Plural -}}
-    {{- end -}}
-  {{- else if .Summary -}}
-    {{- $description = .Summary | plainify -}}
-  {{- else -}}
-    {{- $description = .Site.Params.description -}}
-  {{- end -}}
-{{ end }}
 
 {{- $socialImage := partial "social-image.html" . -}}
 {{- $ogType := "website" -}}
@@ -44,14 +42,14 @@
 
 <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ $pageTitle }} - {{ .Site.Title }}{{ end }}</title>
 <meta name="description" content="{{ $description }}">
-<link rel="canonical" href="{{ .Permalink }}">
+<link rel="canonical" href="{{ $url }}">
 
 <!-- Open Graph Metadata -->
 <meta property="og:title" content="{{ $socialTitle }}">
 <meta property="og:type" content="{{ $ogType }}">
 <meta property="og:site_name" content="{{ .Site.Title }}">
 <meta property="og:description" content="{{ $description }}">
-<meta property="og:url" content="{{ .Permalink }}">
+<meta property="og:url" content="{{ $url }}">
 <meta property="og:locale" content="it_IT">
 <meta property="og:image" content="{{ $socialImage.url }}">
 <meta property="og:image:type" content="image/jpeg">

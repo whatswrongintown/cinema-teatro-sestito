@@ -1,0 +1,34 @@
+{{- /*
+Meta description of a page (head.html), first match wins: `description:` in
+front matter; for taxonomy pages a standard sentence; for film pages and for
+Posters lists without one, a sentence built from the data; else the page
+summary, else params.description. An empty value never wins. These sentences
+are only for the metadata: .Description is not set, so nothing changes in the
+visible pages.
+Call with: partial "descrizione.html" .
+*/ -}}
+{{- $d := .Description -}}
+{{- if not $d -}}
+  {{- if eq .Kind "term" -}}
+    {{- if eq .Data.Singular "category" -}}
+      {{- $d = printf "Pagine del sito associate alla categoria %s." .Title -}}
+    {{- else if eq .Data.Singular "tag" -}}
+      {{- $d = printf "Pagine del sito associate al tag %s." .Title -}}
+    {{- else -}}
+      {{- $d = printf "Pagine del sito associate al termine %s." .Title -}}
+    {{- end -}}
+  {{- else if eq .Kind "taxonomy" -}}
+    {{- if eq .Data.Plural "categories" -}}
+      {{- $d = "Indice delle categorie del sito Cinema Teatro Sestito." -}}
+    {{- else if eq .Data.Plural "tags" -}}
+      {{- $d = "Indice dei tag del sito Cinema Teatro Sestito." -}}
+    {{- else -}}
+      {{- $d = printf "Indice dei termini %s del sito Cinema Teatro Sestito." .Data.Plural -}}
+    {{- end -}}
+  {{- else if eq .Section "posters" -}}
+    {{- $d = partial "posters/descrizione.html" . -}}
+  {{- end -}}
+{{- end -}}
+{{- if not $d }}{{ $d = .Summary | plainify | strings.TrimSpace }}{{ end -}}
+{{- if not $d }}{{ $d = .Site.Params.description }}{{ end -}}
+{{- return $d -}}

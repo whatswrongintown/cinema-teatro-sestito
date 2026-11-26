@@ -1,0 +1,17 @@
+{{- /*
+The paginator of a paginated Posters list (60 films per page), or false for
+every other page. head.html calls it first (canonical URL and page number),
+then posters/gallery.html: Hugo keeps the first .Paginate call of a page, so
+both must get it from here. Paginated pages: the title index and every list
+page except the landing page, the year pages and the other browse indexes.
+Call with: partial "posters/paginator.html" .
+*/ -}}
+{{- $paginator := false -}}
+{{- if and (eq .Section "posters") .IsBranch (ne .RelPermalink ("posters/" | relURL)) -}}
+  {{- if or (eq .Params.browse "title") (and (not .Params.browse) (not (in (slice "year" "browse" "film") .Layout))) -}}
+    {{- with partial "posters/cards.html" (dict "page" . "month" 0) -}}
+      {{- $paginator = $.Paginate . 60 -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- return $paginator -}}

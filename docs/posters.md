@@ -33,6 +33,18 @@ of the repository.
     year's programme; other pages: the paginated gallery (60 per page).
   Gallery cards (`posters/gallery.html`) show the title (a link to the film
   page) and the production year (in a fixed-height block when drawn to scale).
+- Lists and pagination (U20): `posters/cards.html` selects a page's films and
+  `posters/paginator.html` decides which pages are paginated; `head.html` and
+  the gallery both use it (Hugo keeps the first `.Paginate` call of a page).
+  Metadata rules are below, under "Page metadata".
+- Page metadata (U20): `<title>` adds "- Manifesti" on year, genre, country,
+  source and letter pages (the historical programming uses the same names),
+  "- Categoria" on category pages and "- pagina N" from page 2 of a list; from
+  page 2 the canonical and `og:url` are the page's own URL and the description
+  ends "Pagina N di M.". Film pages and lists without `description:` get a
+  sentence built from the data (`posters/descrizione.html`, called by
+  `partials/descrizione.html`), for the metadata only; a front matter
+  `description:` also shows on the page and wins.
 - Posters to scale (U05, 2026-11-25): when a gallery (`posters/gallery.html`,
   one per month on year pages) or a film page's posters
   (`posters/film-images.html`) mix formats, the grid gets the class
