@@ -487,7 +487,7 @@ TODO / DOING / DONE / DEFERRED, with dates. Assistant rules are in `CLAUDE.md`.
   which is the only `noindex` page. Left from the same audit item: structured
   data and sitemap `lastmod` dates (the visible Hugo version is left as is).
 - **U24 - DONE 2026-11-26: Italian country names** (from the audit; owner
-  approved merging "USA" into "United States"; not committed or deployed yet).
+  approved merging "USA" into "United States"; committed `2a9a6261`, not deployed yet).
   Country pages of the programming (63) and of Posters (38) have Italian
   titles, historical states keep their names (Germania Ovest, Unione
   Sovietica, ...); URLs and CSVs are unchanged. Details in
@@ -498,6 +498,10 @@ TODO / DOING / DONE / DEFERRED, with dates. Assistant rules are in `CLAUDE.md`.
   tiles, cards or chips of the country pages; the sitemap only lost the two USA
   pages. In the distinct-countries-per-decade chart one point is lower by the
   merge. The 301 redirects work only on Netlify: check them after the deploy.
+- **U25 - DONE 2026-11-26: home page description** (wording chosen by the owner; not
+  deployed yet). The old text announced information on a cultural association
+  and on scheduled events, which the content does not offer. The new one names
+  the history, posters, documents and reopening project.
 - No feature roadmap yet: new ideas are agreed with the owner and listed here
   when they are approved.
 
