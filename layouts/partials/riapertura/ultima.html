@@ -1,0 +1,24 @@
+{{- /*
+The latest dated step of the reopening timeline (params.fasi of
+content/riapertura/index.md), used by the timeline and the home band.
+Returns a dict with "voce" (the step), "data" (its date as time.Time),
+"fase" (its phase) and "pagina" (the timeline page), or false.
+Call with: partialCached "riapertura/ultima.html" . "riapertura-ultima"
+*/ -}}
+{{- $r := false -}}
+{{- with site.GetPage "/riapertura" -}}
+  {{- $p := . -}}
+  {{- range $p.Params.fasi -}}
+    {{- $fase := . -}}
+    {{- range .voci -}}
+      {{- $voce := . -}}
+      {{- with .data -}}
+        {{- $t := time.AsTime . -}}
+        {{- if or (not $r) (gt $t.Unix $r.data.Unix) -}}
+          {{- $r = dict "voce" $voce "data" $t "fase" $fase "pagina" $p -}}
+        {{- end -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- return $r -}}

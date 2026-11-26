@@ -1,0 +1,109 @@
+{{- /*
+Reopening timeline (U15): dark header with title, description, the latest
+update and the phases as a progress strip; the opening photo; the page text;
+then each phase (params.fasi) as a band with its steps on a vertical line.
+Done phases are marked, the phase in progress and its latest step are
+highlighted, future steps have an empty marker. The data and its format are
+described in the front matter of content/riapertura/index.md and in
+docs/design.md ("Reopening timeline").
+*/ -}}
+{{ partial "header.html" . }}
+{{- $ultima := partialCached "riapertura/ultima.html" . "riapertura-ultima" }}
+{{- $stati := dict "fatto" "Completata" "in-corso" "In corso" "prossimo" "Da fare" }}
+{{- $hero := false }}
+{{- with .Params.image }}{{ with $.Resources.Get . }}{{ $hero = .Resize "1600x webp q80" }}{{ end }}{{ end }}
+
+<main class="home riapertura-page" role="main">
+  <header class="article-hero tone-dark">
+    <div class="wrap article-hero-text">
+      <p class="label home-kicker"><a href="{{ "/progetto/" | relURL }}">Il progetto</a></p>
+      <h1 class="article-title-xl">{{ .Title }}</h1>
+      {{- with .Description }}<p class="home-lead article-dek">{{ . }}</p>{{ end }}
+      {{- with $ultima }}
+      <p class="label article-byline">Ultimo aggiornamento: <a href="#ultimo-aggiornamento"><time datetime="{{ .data.Format "2006-01-02" }}">{{ .data | time.Format ":date_long" }}</time></a></p>
+      {{- end }}
+
+      <ol class="riapertura-fasi" aria-label="Le fasi del percorso">
+        {{- range $i, $f := .Params.fasi }}
+        <li class="riapertura-fasi-item is-{{ $f.stato }}"{{ if eq $f.stato "in-corso" }} aria-current="step"{{ end }}>
+          <a href="#fase-{{ add $i 1 }}">
+            <span class="label riapertura-fasi-stato">{{ index $stati $f.stato }}</span>
+            <span class="riapertura-fasi-titolo">{{ $f.titolo }}</span>
+          </a>
+        </li>
+        {{- end }}
+      </ol>
+    </div>
+    {{- with $hero }}
+    <figure class="wrap article-hero-figure">
+      <img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="{{ $.Params.imageCaption }}" fetchpriority="high" decoding="async">
+      {{- with $.Params.imageCaption }}<figcaption>{{ . }}</figcaption>{{ end }}
+    </figure>
+    {{- end }}
+  </header>
+
+  <article class="article-body tone-light">
+    <div class="wrap">
+      <div class="prose">
+        {{ .Content }}
+      </div>
+    </div>
+  </article>
+
+  {{- range $i, $f := .Params.fasi }}
+  {{- $n := add $i 1 }}
+  <section id="fase-{{ $n }}" class="riapertura-fase is-{{ $f.stato }} {{ if eq $f.stato "in-corso" }}tone-dark{{ else }}tone-light{{ end }}" aria-labelledby="fase-{{ $n }}-titolo">
+    <div class="wrap riapertura-fase-grid">
+      <header class="riapertura-fase-head">
+        <p class="label home-kicker">Fase {{ $n }} · {{ $f.periodo }} · {{ index $stati $f.stato }}</p>
+        <h2 id="fase-{{ $n }}-titolo" class="home-h2">{{ $f.titolo }}</h2>
+        {{- with $f.testo }}<p class="riapertura-fase-testo">{{ . | markdownify }}</p>{{ end }}
+      </header>
+
+      <ol class="riapertura-voci">
+        {{- range $f.voci }}
+        {{- $v := . }}
+        {{- $attuale := false }}
+        {{- with .data }}{{ with $ultima }}{{ $attuale = eq (time.AsTime $v.data).Unix .data.Unix }}{{ end }}{{ end }}
+        {{- $pagina := false }}{{ with .pagina }}{{ $pagina = site.GetPage . }}{{ end }}
+        {{- $img := false }}{{ $alt := .alt }}
+        {{- with .foto }}
+          {{- with $.Resources.Get . }}{{ $img = . }}{{ end }}
+          {{- if and (not $img) $pagina }}{{ with $pagina.Resources.Get . }}{{ $img = . }}{{ end }}{{ end }}
+          {{- if not $img }}{{ warnf "riapertura: image %q not found" . }}{{ end }}
+        {{- end }}
+        {{- with $img }}{{ if gt .Width 900 }}{{ $img = .Resize "900x webp q78" }}{{ else }}{{ $img = .Resize (printf "%dx webp q78" .Width) }}{{ end }}{{ end }}
+        <li class="riapertura-voce{{ if $attuale }} is-attuale{{ end }}{{ if not .data }} is-futura{{ end }}"{{ if $attuale }} id="ultimo-aggiornamento"{{ end }}>
+          <p class="label riapertura-voce-data">
+            {{- with .data }}<time datetime="{{ (time.AsTime .).Format "2006-01-02" }}">{{ time.AsTime . | time.Format ":date_long" }}</time>{{ else }}Prossimamente{{ end -}}
+            {{- if $attuale }} · <span class="riapertura-voce-badge">Ultimo aggiornamento</span>{{ end -}}
+          </p>
+          <h3 class="riapertura-voce-titolo">{{ .titolo }}</h3>
+          {{- with .testo }}<p class="riapertura-voce-testo">{{ . | markdownify }}</p>{{ end }}
+          {{- with $img }}
+          <figure class="riapertura-voce-foto">
+            <img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="{{ $alt }}" loading="lazy" decoding="async">
+            {{- with $v.didascalia }}<figcaption>{{ . }}</figcaption>{{ end }}
+          </figure>
+          {{- end }}
+          {{- with $pagina }}<p class="riapertura-voce-link"><a class="label" href="{{ .RelPermalink }}">{{ .LinkTitle }} →</a></p>{{ end }}
+        </li>
+        {{- end }}
+      </ol>
+    </div>
+  </section>
+  {{- end }}
+
+  <section class="home-riapertura page-ricordi" aria-labelledby="riapertura-partecipa-title">
+    <div class="wrap">
+      <p class="label home-kicker">Partecipa</p>
+      <h2 id="riapertura-partecipa-title" class="home-h2 home-riapertura-title">Vuoi dare una <em>mano</em>?</h2>
+      <p class="home-riapertura-text">Un ricordo, una fotografia, un consiglio tecnico o semplicemente la voglia di esserci quando le luci si riaccenderanno: scrivici.</p>
+      <div class="home-actions">
+        <a class="button label" href="{{ "/" | relURL }}#ricordi">Scrivici</a>
+        {{- with site.Params.instagram }}<a class="button button-ghost label" href="https://www.instagram.com/{{ . }}/" rel="noopener">Instagram</a>{{ end }}
+      </div>
+    </div>
+  </section>
+</main>
+{{ partial "footer.html" . }}

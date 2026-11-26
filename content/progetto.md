@@ -2,6 +2,7 @@
 title: Il progetto
 author: "Vito Sestito"
 date: "2023-04-05"
+lastmod: "2026-11-26"
 description: "Il percorso di recupero, ricerca e valorizzazione del Cinema Teatro Sestito."
 layout: "section"
 slug: "progetto"
@@ -43,3 +44,7 @@ Per ulteriori dettagli, visita la sezione dedicata alla [programmazione storica]
 L’eredità del Cinema Sestito si manifesta oggi nella memoria collettiva dei cittadini di San Vito sullo Ionio, nei materiali conservati e nelle testimonianze raccolte. La sala ha rappresentato un luogo di socializzazione, di formazione culturale e di costruzione identitaria. Il suo impatto sulla comunità locale è testimoniato non solo dalla durata della sua attività, ma anche dalla persistenza del suo ricordo come spazio simbolico e affettivo.
 
 Questo sito intende contribuire alla conservazione e alla valorizzazione di tale patrimonio, rendendolo accessibile alle generazioni presenti e future.
+
+## Verso la riapertura
+
+Dal 2020 la sala è stata sgomberata, documenti e locandine sono stati messi in salvo e sono partite le pratiche per mettere in regola l'edificio. Il percorso, con le tappe già compiute e quelle ancora da compiere, è raccontato nella pagina [Verso la riapertura](/riapertura/).

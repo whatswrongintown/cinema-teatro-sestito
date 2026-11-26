@@ -5,6 +5,13 @@
     {{- with .occhiello }}<p class="label home-kicker">{{ . }}</p>{{ end }}
     <h2 id="riapertura-title" class="home-h2 home-riapertura-title">{{ .titolo | markdownify }}</h2>
     {{- with .testo }}<p class="home-riapertura-text">{{ . | markdownify }}</p>{{ end }}
+    {{- /* The latest step of the timeline (content/riapertura/index.md). */}}
+    {{- with partialCached "riapertura/ultima.html" . "riapertura-ultima" }}
+    <p class="home-riapertura-ultima">
+      <span class="label">Ultimo aggiornamento · <time datetime="{{ .data.Format "2006-01-02" }}">{{ .data | time.Format ":date_long" }}</time></span>
+      <a href="{{ .pagina.RelPermalink }}#ultimo-aggiornamento">{{ .voce.titolo }}</a>
+    </p>
+    {{- end }}
     <div class="home-actions">
       {{- $etichetta := .etichetta | default "Scopri il progetto" }}
       {{- with .pagina }}{{ with site.GetPage . }}

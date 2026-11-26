@@ -146,54 +146,25 @@ TODO / DOING / DONE / DEFERRED, with dates. Assistant rules are in `CLAUDE.md`.
   figures and the film page (details in `posters.md`).
   Original request: every thumbnail carried a size label the owner disliked;
   remove it and review the section's layout.
-- **U07 - DOING 2026-11-24: from blog and statistics site to an editorial,
-  poster-first cultural venue.** 2026-11-24: the owner approved a mockup
-  (private claude.ai design canvas) and asked for a prototype; branch
-  `redesign/home-prototype` has the tokens, the Fraunces and Archivo
-  typefaces, the new header and footer on every page, the new home page, the
-  adult films page (U12), the Posters section (U11), the articles and the
-  archive with the category and tag pages, the historical programming with
-  the dashboard, and Eventi, Progetto, the small pages, the 404 and the
-  breadcrumbs (2026-11-24): every page is in the new style (details in
-  `design.md`); the old blog styles and the Lato font were removed. Merged to `main` and deployed 2026-11-25 at the owner's request. CSS and JS are minified and fingerprinted by Hugo
-  Pipes (one site stylesheet; see `design.md`). Lighthouse on the deployed site
-  checked 2026-11-25 (see U03). Next: fine-tuning as agreed. Background: today the site reads
-  as a blog plus a set of tables and charts (historical programming), which
-  gives it a statistical, archival feel. Goal: the identity of a living
-  cultural venue that supports the reopening of the cinema and the physical
-  work needed to reopen it. Direction to agree with the owner:
-  - Poster-first visuals: large posters and archive images lead the home page
-    and sections; magazine-style layouts, strong typography and a cinema
-    palette instead of grids of small thumbnails (shares the format question
-    of U05 and U06).
-  - Charts and tables move behind the stories (a "Dati" or research layer);
-    the main paths become people, films, the building and the posters.
-  - A reopening path: project status, the restoration works, how to help
-    (donations, volunteering, memories to share), news and a contact form
-    or newsletter.
-  - Voice: Italian, warm and editorial, with short visual stories and the
-    historical accuracy the project already keeps.
-  - Constraints: Hugo only, no new dependencies unless justified, light
-    pages (Lighthouse scores of U03), accessible, mobile first, no change to
-    `films.json` or `static/images/manifesti/`.
-  - Skills needed to implement it: art direction and visual design (identity,
-    palette, typography, layout system); Hugo templating (layouts, partials,
-    shortcodes, content adapters); modern CSS (responsive grid, fluid type,
-    dark and light theming); image handling (Hugo image processing, art
-    cropping, responsive `srcset`, performance); information architecture
-    and navigation redesign; Italian editorial copywriting and storytelling;
-    accessibility (contrast, keyboard, alt texts); SEO and social sharing
-    (see U02); content and fundraising design for the reopening (calls to
-    action, project updates, trust and transparency); and, with the owner,
-    knowledge of the physical restoration plan. A static prototype of the
-    home page is the suggested first step before any migration.
+- **U07 - DONE 2026-11-26: from blog and statistics site to an editorial,
+  poster-first cultural venue.** Approved by the owner on a mockup
+  (2026-11-24), built on `redesign/home-prototype` (tokens, Fraunces and
+  Archivo, new header and footer, home page, Posters, articles, archive,
+  categories and tags, historical programming with the dashboard, Eventi,
+  Progetto, small pages, 404, breadcrumbs; details in `design.md`), merged to
+  `main` and deployed 2026-11-25 at the owner's request; CSS and JS minified
+  and fingerprinted by Hugo Pipes; Lighthouse checked (U03). Charts and tables
+  moved behind the stories, the main paths are films, posters, documents and
+  people. The reopening path, the last open point, is the timeline of U15
+  (2026-11-26). Closed by the owner 2026-11-26 after their own fine-tuning;
+  search stays open under U09 and U11.
 - **U08 - DOING 2026-11-24: improve the home page** (the reopening timeline is U15) (`content/_index.md`,
   `layouts/index.html`). Prototype on `redesign/home-prototype`: poster hero,
   figures, "In questi giorni" programme (build-time plus a small script for
   the visitor's date), intro, section cards, poster strip, stories, reopening
   band and the contact form, all driven by front matter (`design.md`). The
-  reopening band reuses the existing home text: the owner still has to write
-  the real reopening status. 2026-11-25: the owner keeps the current text for now (there were many updates; they will gather the information first). Source for later: the restoration pitch deck (Drive, "Restauro Locale Interno Cinema", 2023-12-28), checked with the owner before use; a draft was prepared in the conversation, not saved. Adult and erotic films are included in the
+  reopening band keeps its text and, since 2026-11-26, shows the latest step of
+  the reopening timeline (U15) and links to it ("Segui il percorso"). Adult and erotic films are included in the
   home programme like any other film (owner, 2026-11-24). Before:
   one architectural drawing (1956 project),
   four paragraphs of text, a plain list of four links ("Esplora") and the
@@ -312,20 +283,29 @@ TODO / DOING / DONE / DEFERRED, with dates. Assistant rules are in `CLAUDE.md`.
   `partials/grafici/articolo.html`), rebuilt from `static/data/` with the data
   and categories of the former R code (counts checked against the old PNGs,
   which were deleted).
-- **U15 - TODO 2026-11-25: a live timeline of the reopening** (what has been
-  done, what comes next). Requested by the owner, to build once the owner has
-  gathered the information (see U08): the restoration plan, the steps already
-  taken and the next ones, with dates. It should feel alive, not like a static
-  page: a vertical or horizontal timeline with the current step highlighted,
-  past steps marked done, future steps with an expected period, short updates
-  with a date and, where possible, a photo (the Drive folders "Foto" and
-  "Restauro Locale Interno Cinema" are the source, checked with the owner).
-  Ideas to evaluate: steps driven by front matter or a data file
-  (`data/riapertura.yaml`) so the owner updates one file, with the home band
-  (U08) showing the latest update and a link to the full timeline on the
-  Progetto page; a progress cue; the latest update date shown ("Aggiornato il
-  ..."); light, no heavy JavaScript (Lighthouse, U03). Depends on U08: do not
-  publish plans or dates before the owner confirms them.
+- **U15 - DONE 2026-11-26: a live timeline of the reopening.** Requested by
+  the owner, built from their notes (2026-11-26) and the Drive folders
+  "Conformità Urbanistica e Catastale" and "Foto": new page `/riapertura/`
+  (`content/riapertura/index.md`, layout `layouts/riapertura/single.html`,
+  format in `design.md`, "Reopening timeline"). Five phases: emptying the
+  hall and saving the archive (2020-2023), looking for technicians
+  (2023-2024), putting the papers in order (2024-2026,
+  including how the owner found a lawyer), urban and structural
+  compliance (in progress: report to the Genio Civile 2026-11-23) and the
+  next steps without dates (new roof without eternit, the project for the
+  hall, the reopening). Photos: only those chosen by the owner (2026-11-26)
+  from Drive "Foto", resized to 1600 px in the bundle: the entrance walls with
+  the locandine before the cleaning (IMG_3155, 2020), the hall before the
+  clearing (2022), the document handover of 2023-01-06 (hero and share card),
+  the entrance after the cleaning (GPTempDownload, July 2023, on the January
+  2023 step) and the Sonati Vicinu 2023 photo taken from its article's
+  bundle. Linked from the home reopening band (latest step), the Progetto
+  page, the footer and the site map. Private people appear by first name
+  only. IMG_3150 (13 June 2020, the projector with a 35 mm film and the
+  locandine still on the walls) was HEIC: converted with ImageMagick,
+  installed with winget at the owner's request (2026-11-26). TODO (owner):
+  Check the Italian text and the first names (Fabio, Giuseppe, Nicola, Giorgio,
+  Martina, Alessandro). Update the page at each new step.
 - **U16 - DONE 2026-11-25: restructure the historical programming
   subsections.** Requested by the owner: the text of each index sat at the
   end of the page ("La lettura dei dati", after the full list of years,

@@ -2,7 +2,7 @@
 title: "Mappa del sito"
 author: "Vito Sestito"
 date: "2023-05-24"
-lastmod: "2026-11-24"
+lastmod: "2026-11-26"
 description: "Pagina per la mappa del sito - sitemap"
 ---
 
@@ -10,6 +10,7 @@ Un elenco di tutte le pagine e gli articoli presenti sul sito. Se non trovi quel
 
 * [Home](/)
 * [Progetto](/progetto/)
+  * [Verso la riapertura](/riapertura/)
   * [Programmazione storica](/programmazione-storica/)
   * [Manifesti e locandine](/posters/)
   * [Articoli e racconti](/articoli/)

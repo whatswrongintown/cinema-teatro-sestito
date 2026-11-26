@@ -111,7 +111,7 @@ templates:
 | Section cards | `ingressi.html` | `ingressi`: `pagina`, `occhiello`, `titolo`, `testo`, `immagine`, optional `inquadratura` (CSS object-position) and `disegno` |
 | Poster strip | `collezione.html` | `manifestiInEvidenza` (film IDs) |
 | Stories | `storie.html` | `storie`: `pagina`, optional `immagine` |
-| Reopening | `riapertura.html` | `riapertura`: `occhiello`, `titolo`, `testo`, `pagina`, `etichetta` |
+| Reopening | `riapertura.html` | `riapertura`: `occhiello`, `titolo`, `testo`, `pagina`, `etichetta`; below the text, the latest step of the reopening timeline (see "Reopening timeline") |
 | Contact form | `partials/contact-form.html` | none |
 
 Helpers: `home/manifesto.html` returns a film's first printed poster from
@@ -170,6 +170,32 @@ programme rows (`.shows`, `.show`) and the reading column (`.prose`).
   `_default/taxonomy.html`, which Hugo would also use for the term pages.
 - `layouts/404.html`: "Fuori programma", the owner's message and links to
   the sections; the page title is "Pagina non trovata".
+
+### Reopening timeline (U15)
+
+`/riapertura/` (`content/riapertura/index.md`, `type: riapertura`,
+layout `layouts/riapertura/single.html`) tells the path to the reopening.
+The owner updates only that file: its front matter `params.fasi` lists the
+phases in order (`titolo`, `periodo`, `stato`: `fatto`, `in-corso` or
+`prossimo`, `testo`, `voci`), and each step (`voci`) has `data`
+(YYYY-MM-DD, left out for future steps), `titolo`, `testo` (Markdown),
+optional `foto` (a file in `images/` of the bundle, or in the bundle of
+`pagina`, resized to 900 px WebP) with `alt` and `didascalia`, and optional
+`pagina` (a site page, linked). Layout: dark header with the
+latest update and the phases as a progress strip (`aria-current="step"` on
+the phase in progress), the opening photo (`image:`, also the share card),
+the page text, then one band per phase with its steps on a vertical line
+(filled dot done, red ring for the latest step with
+`id="ultimo-aggiornamento"`, empty dot and dashed line for future steps;
+the phase in progress is the dark band), and a "Vuoi dare una mano?" band.
+`partials/riapertura/ultima.html` finds the latest dated step; the home
+reopening band shows it with a link. Only photos chosen by the owner
+(Drive "Foto"), resized to at most 1600 px before they are added; HEIC files
+are converted with ImageMagick (`magick in.HEIC -auto-orient -resize
+"1600x1600>" -strip -quality 84 out.jpg`; Windows has no HEVC codec here).
+Styles: end of
+`editorial.css`. Private people are named by first name only. Keep family
+details general and publish only what the owner has approved (2026-11-26).
 
 ### Cinema per adulti ed exploitation (U12)
 
@@ -332,6 +358,6 @@ Post Inspector; old previews in existing chats do not change.
 
 ## Next steps
 
-See U07 in `project-status.md`: the redesign is merged and deployed, and the
-Lighthouse check is done (U03). Still open: search, and the owner's texts
-(reopening status, the article on adult and exploitation films).
+The redesign (U07) is closed: merged, deployed and checked with Lighthouse
+(U03). Still open elsewhere: search (U09, U11) and the owner's answers for
+the article on adult and exploitation films (U12).

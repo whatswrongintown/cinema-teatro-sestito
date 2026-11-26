@@ -4,7 +4,7 @@
           <div class="site-footer-grid">
             <div class="site-footer-venue">
               <a href="{{ "/" | relURL }}" class="wordmark">Cinema Teatro <em>Sestito</em></a>
-              <p>San Vito sullo Ionio. In attività dal 1946 al 2004, oggi un archivio aperto in attesa di riaccendere le luci.</p>
+              <p>San Vito sullo Ionio. In attività dal 1946 al 2004, oggi un archivio aperto in attesa di riaccendere le luci.{{ with site.GetPage "/riapertura" }} <a href="{{ .RelPermalink }}">Segui la riapertura</a>.{{ end }}</p>
             </div>
 
             <nav aria-label="Sezioni del sito">

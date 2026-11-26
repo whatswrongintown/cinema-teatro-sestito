@@ -44,8 +44,8 @@ params:
     occhiello: Verso la riapertura
     titolo: "La sala può *riaccendersi*"
     testo: "Sebbene oggi le sue luci siano spente, il Cinema Sestito continua a vivere attraverso la ricerca, la memoria e la possibilità *- sempre aperta -* di un ritorno."
-    pagina: /progetto
-    etichetta: Scopri il progetto
+    pagina: /riapertura
+    etichetta: Segui il percorso
 ---
 Nato nel secondo dopoguerra per iniziativa di [Vito Sestito](/2023/04/20/la-storia-di-vito-sestito/), il cinema ha accompagnato la vita del paese attraverso una programmazione audace e anticonvenzionale, capace di mescolare i grandi titoli della storia del cinema, con titoli di nicchia e di frontiera. In questo equilibrio irregolare risiede gran parte del suo fascino e del suo valore storico.
 
