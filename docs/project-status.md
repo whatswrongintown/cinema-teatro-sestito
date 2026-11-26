@@ -382,8 +382,8 @@ TODO / DOING / DONE / DEFERRED, with dates. Assistant rules are in `CLAUDE.md`.
     their first poster. `programmazione/righe.html` (a page's screenings) was
     taken out of the programme page layout so the share card can use it;
     `posters/copertina.html` also filters by title letter.
-  - The two articles without a hero got one, chosen by the assistant (owner
-    to confirm): the interview with Stefano Sestito a photo from the Drive "Foto"
+  - The two articles without a hero got one, chosen by the assistant
+    (confirmed by the owner 2026-11-26): the interview with Stefano Sestito a photo from the Drive "Foto"
     album (1960s-70s, in front of the cinema), "Esplora" the January 1966
     screening calendar scan.
   - The build warns about an article without `image:`.
@@ -395,7 +395,7 @@ TODO / DOING / DONE / DEFERRED, with dates. Assistant rules are in `CLAUDE.md`.
   image cache), 1,712 new files uploaded, whole build 5 min 34 s; Lighthouse
   home 95 / 100 / 100 / 100. Checked in production: home, an article, a film
   page and a year page serve their 1200x630 JPEG cards with the new tags.
-  TODO (owner): re-scrape the main pages in Facebook's Sharing Debugger.
+  Closed by the owner 2026-11-26: nothing left to do.
 - **U18 - DONE 2026-11-26: section
   share cards and cropped previews.** Requested by the owner after seeing
   U17 shared: cropped images look better than whole images on a dark
@@ -450,9 +450,10 @@ TODO / DOING / DONE / DEFERRED, with dates. Assistant rules are in `CLAUDE.md`.
   a full local build: 80 pages 2+ with their own canonical, no duplicate
   titles, no empty descriptions, only the 404 with the site description;
   gallery contents and the metadata of the sampled other pages match
-  production. Left: historical source pages of the same type still share their
-  front matter description (4 texts, 93 pages); 292 descriptions exceed 160
-  characters (search engines shorten them). The owner approved the wording
+  production. Closed by the owner 2026-11-26, left as they are: historical
+  source pages of the same type share their front matter description (4 texts,
+  93 pages), and some descriptions exceed 160 characters (204 pages on a local
+  build of 2026-11-26; search engines shorten them). The owner approved the wording
   of the generated Italian sentences (2026-11-26).
 - **U21 - DONE 2026-11-26: performance** (from the audit; deployed 2026-11-26,
   `9e8eb420`; production checked, same mobile result as the local test).
@@ -484,8 +485,9 @@ TODO / DOING / DONE / DEFERRED, with dates. Assistant rules are in `CLAUDE.md`.
   `noindex` (front matter `noindex: true`, read by `head.html`) and is out of
   the sitemap (`sitemap.disable`); the 404 page has no canonical. Checked on a
   full local build: the sitemap differs from production only by `/grazie/`,
-  which is the only `noindex` page. Left from the same audit item: structured
-  data and sitemap `lastmod` dates (the visible Hugo version is left as is).
+  which is the only `noindex` page. Closed by the owner 2026-11-26, left as
+  they are: no structured data, sitemap `lastmod` only on some entries (112 of
+  1,628) and the visible Hugo version.
 - **U24 - DONE 2026-11-26: Italian country names** (from the audit; owner
   approved merging "USA" into "United States"; committed `2a9a6261`, not deployed yet).
   Country pages of the programming (63) and of Posters (38) have Italian
