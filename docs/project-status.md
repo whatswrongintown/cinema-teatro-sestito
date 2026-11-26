@@ -450,10 +450,9 @@ TODO / DOING / DONE / DEFERRED, with dates. Assistant rules are in `CLAUDE.md`.
   a full local build: 80 pages 2+ with their own canonical, no duplicate
   titles, no empty descriptions, only the 404 with the site description;
   gallery contents and the metadata of the sampled other pages match
-  production. Closed by the owner 2026-11-26, left as they are: historical
-  source pages of the same type share their front matter description (4 texts,
-  93 pages), and some descriptions exceed 160 characters (204 pages on a local
-  build of 2026-11-26; search engines shorten them). The owner approved the wording
+  production. The two leftovers (shared descriptions of the historical source
+  pages and descriptions over 160 characters) are fixed in U26. The owner
+  approved the wording
   of the generated Italian sentences (2026-11-26).
 - **U21 - DONE 2026-11-26: performance** (from the audit; deployed 2026-11-26,
   `9e8eb420`; production checked, same mobile result as the local test).
@@ -504,6 +503,18 @@ TODO / DOING / DONE / DEFERRED, with dates. Assistant rules are in `CLAUDE.md`.
   deployed yet). The old text announced information on a cultural association
   and on scheduled events, which the content does not offer. The new one names
   the history, posters, documents and reopening project.
+- **U26 - DONE 2026-11-26: unique, short meta descriptions** (requested by the
+  owner so that a next SEO audit no longer reports them; not deployed yet).
+  Before: 93 historical source pages shared 4 descriptions and 204 pages
+  exceeded 160 characters. Now: a sentence per source page built from its
+  title and type; a shorter film sentence; `seoDescription:` on 10
+  hand-written pages; a shorter `params.description`; a build warning above
+  160 characters. Rules in `posters.md`, "Page metadata". Checked on a full
+  local build against the previous one (1,710 pages): no shared, empty or long
+  descriptions, no duplicate titles, no warnings, and no change from `<body>`
+  onwards on any page. Of 1,012 film pages, 853 keep the place name, 212 have
+  no screening years in the description and 9 no director. TODO (owner): check
+  the new Italian wording.
 - No feature roadmap yet: new ideas are agreed with the owner and listed here
   when they are approved.
 

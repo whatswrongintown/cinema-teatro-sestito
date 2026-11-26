@@ -212,7 +212,9 @@ Templates `layouts/articoli/list.html` and `layouts/articoli/single.html`.
   poster.
 - The descriptions double as the summary under the title, so write them as
   a sentence for readers (some are short notes today, e.g. "articolo
-  dedicato al fondatore…").
+  dedicato al fondatore…"). Above 160 characters, add a short
+  `seoDescription:` for search engines (the build warns; see `posters.md`,
+  "Page metadata").
 
 ### Historical programming
 

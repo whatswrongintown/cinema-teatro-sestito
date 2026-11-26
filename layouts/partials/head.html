@@ -29,6 +29,10 @@
   {{- end -}}
 {{- end -}}
 
+{{- if gt (strings.RuneCount $description) 160 -}}
+  {{- warnf "Meta description longer than 160 characters (%d): %s. Add a shorter seoDescription." (strings.RuneCount $description) $url -}}
+{{- end -}}
+
 {{- $socialTitle := .Site.Title -}}
 {{- if not .IsHome -}}
   {{- $socialTitle = printf "%s - %s" $pageTitle .Site.Title -}}

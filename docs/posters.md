@@ -45,6 +45,12 @@ of the repository.
   sentence built from the data (`posters/descrizione.html`, called by
   `partials/descrizione.html`), for the metadata only; a front matter
   `description:` also shows on the page and wins.
+- Description length (U26): every meta description is at most 160 characters,
+  and the build warns about a longer one. Front matter `seoDescription:`
+  replaces it in the metadata only (the visible `description:` stays); from
+  page 2 leave room for "Pagina N di M.". The film sentence drops, in this
+  order, until it fits: "di San Vito sullo Ionio", the screening years, the
+  director (the years then come back if they fit).
 - Posters to scale (U05, 2026-11-25): when a gallery (`posters/gallery.html`,
   one per month on year pages) or a film page's posters
   (`posters/film-images.html`) mix formats, the grid gets the class

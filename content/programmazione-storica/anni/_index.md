@@ -1,4 +1,5 @@
 ---
+seoDescription: 'La programmazione del cinema Sestito dal 1948 al 2004, ricostruita anno per anno da agende, calendari e appunti originali raccolti nella sezione Fonti.'
 shareImage: "share-card.jpg"
 title: "Programmazione per anni"
 linkTitle: "Anni"

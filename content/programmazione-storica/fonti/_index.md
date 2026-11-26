@@ -1,4 +1,5 @@
 ---
+seoDescription: 'Le fonti originali della programmazione: agende di distribuzione, calendari, rubriche, appunti e date annotate sul retro dei manifesti.'
 shareImage: "share-card.jpg"
 title: "Fonti della programmazione"
 linkTitle: "Fonti"

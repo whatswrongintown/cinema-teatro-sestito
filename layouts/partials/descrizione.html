@@ -1,5 +1,8 @@
 {{- /*
-Meta description of a page (head.html), first match wins: `description:` in
+Meta description of a page (head.html), first match wins: `seoDescription:`
+in front matter (metadata only, for pages whose visible `description:` is too
+long); for a historical source page a sentence with its title (its visible
+`description:` is the same for every source of its type); `description:` in
 front matter; for taxonomy pages a standard sentence; for film pages and for
 Posters lists without one, a sentence built from the data; else the page
 summary, else params.description. An empty value never wins. These sentences
@@ -7,7 +10,21 @@ are only for the metadata: .Description is not set, so nothing changes in the
 visible pages.
 Call with: partial "descrizione.html" .
 */ -}}
-{{- $d := .Description -}}
+{{- $d := .Params.seoDescription -}}
+{{- if and (not $d) .IsPage .File -}}
+  {{- $parti := split (strings.TrimSuffix "/" (replace .File.Dir "\\" "/")) "/" -}}
+  {{- if and (eq (len $parti) 4) (eq (index $parti 0) "programmazione-storica") (eq (index $parti 1) "fonti") -}}
+    {{- $frasi := dict
+      "agende" "agenda di distribuzione con date, titoli, distributore e incassi dei film"
+      "calendari" "calendario con date di proiezione, titoli dei film e incassi"
+      "rubriche" "rubrica alfabetica dei film, con date di proiezione e distributore"
+      "appunti" "appunti mensili sui film, con gli incassi quando disponibili" -}}
+    {{- with index $frasi (index $parti 2) -}}
+      {{- $d = printf "Fonte «%s»: %s. Archivio del Cinema Teatro Sestito." $.Title . -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- if not $d }}{{ $d = .Description }}{{ end -}}
 {{- if not $d -}}
   {{- if eq .Kind "term" -}}
     {{- if eq .Data.Singular "category" -}}

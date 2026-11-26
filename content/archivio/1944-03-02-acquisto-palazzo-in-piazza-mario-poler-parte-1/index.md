@@ -1,4 +1,5 @@
 ---
+seoDescription: '1944: scrittura privata con cui Maria De Luca promette di vendere a Vito Sestito parte del suo palazzo in Via Umberto I, a San Vito sullo Ionio.'
 title: 'Acquisto palazzo in Piazza Mario Polerà (parte 1)'
 image: "images/1944-03-02_acquisto_palazzo_in_Piazza_Mario_Polerà_1.jpeg"
 author: Vito Sestito

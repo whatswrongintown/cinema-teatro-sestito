@@ -8,14 +8,25 @@ Call with: partial "posters/descrizione.html" .
   {{- $film := index (partialCached "posters/film-map.html" .) .Params.film_id -}}
   {{- $titolo := $film.title -}}
   {{- with $film.production_year }}{{ $titolo = printf "%s (%s)" $titolo . }}{{ end -}}
-  {{- with $film.extra }}{{ with .Directors }}{{ $titolo = printf "%s, regia di %s" $titolo (index . 0) }}{{ end }}{{ end -}}
+  {{- $conRegia := $titolo -}}
+  {{- with $film.extra }}{{ with .Directors }}{{ $conRegia = printf "%s, regia di %s" $titolo (index . 0) }}{{ end }}{{ end -}}
   {{- $n := len $film.posters -}}
-  {{- $d = printf "%s: %d %s nell'archivio del Cinema Teatro Sestito di San Vito sullo Ionio." $titolo $n (cond (eq $n 1) "manifesto" "manifesti") -}}
+  {{- $manifesti := printf "%d %s nell'archivio del Cinema Teatro Sestito" $n (cond (eq $n 1) "manifesto" "manifesti") -}}
   {{- $anni := slice -}}
   {{- range $film.screenings }}{{ $anni = $anni | append (string (int .year)) }}{{ end -}}
-  {{- with sort (uniq $anni) -}}
-    {{- $d = printf "%s In sala: %s." $d (delimit . ", " " e ") -}}
+  {{- $inSala := "" -}}
+  {{- with sort (uniq $anni) }}{{ $inSala = printf " In sala: %s." (delimit . ", " " e ") }}{{ end -}}
+  {{- /* Longest first: the first that fits in 160 characters wins. */ -}}
+  {{- $varianti := slice
+    (printf "%s: %s di San Vito sullo Ionio.%s" $conRegia $manifesti $inSala)
+    (printf "%s: %s.%s" $conRegia $manifesti $inSala)
+    (printf "%s: %s." $conRegia $manifesti)
+    (printf "%s: %s.%s" $titolo $manifesti $inSala)
+    (printf "%s: %s." $titolo $manifesti) -}}
+  {{- range $varianti -}}
+    {{- if and (not $d) (le (strings.RuneCount .) 160) }}{{ $d = . }}{{ end -}}
   {{- end -}}
+  {{- if not $d }}{{ $d = index $varianti 4 }}{{ end -}}
 {{- else if .Params.letter -}}
   {{- $iniziale := cond (eq .Params.letter "#") "un numero" (printf "la lettera %s" .Params.letter) -}}
   {{- $d = printf "Manifesti dei film con il titolo che inizia per %s, dalla raccolta del Cinema Teatro Sestito di San Vito sullo Ionio." $iniziale -}}

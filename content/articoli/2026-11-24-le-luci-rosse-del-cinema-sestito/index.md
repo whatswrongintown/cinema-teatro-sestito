@@ -1,4 +1,5 @@
 ---
+seoDescription: 'Perché la sala di San Vito programmò film per adulti ed exploitation tra il 1977 e il 1994: i numeri del registro, i manifesti e i titoli più strani.'
 title: "Le luci rosse del Cinema Sestito: film per adulti ed exploitation (1977-1994)"
 description: "Perché e come la sala di San Vito programmò film per adulti ed exploitation tra il 1977 e il 1994: i numeri del registro, i manifesti affissi in piazza e i titoli più strani."
 author: Vito Sestito

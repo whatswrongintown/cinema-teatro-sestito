@@ -74,6 +74,10 @@ Page templates (redesign U07, details in `design.md`):
   of three real posters (portrait, best-known films of its screenings) built
   by `partials/programmazione/collage-manifesti.html` with Hugo image
   filters, in the style of the home hero. Used by "Note sui manifesti".
+  Source pages in a type folder share their visible `description:`; their
+  meta description (U26) is built per page from the title and the type
+  (`partials/descrizione.html`), so a new type needs its sentence there.
+  `seoDescription:` overrides it.
 - `layouts/programmazione-storica/single.html`: year, genre, country and
   source pages: header with figures and links to the other years or genres,
   a strip of posters from `partials/programmazione/striscia.html` (films

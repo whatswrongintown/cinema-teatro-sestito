@@ -1,4 +1,5 @@
 ---
+seoDescription: '1944: note di trascrizione dell’atto di vendita di parte del fabbricato di Via Umberto I a favore di Vito Sestito e Teresa Aiello.'
 title: Acquisto palazzo in Piazza Mario Polerà (parte 3)
 image: "images/1944-03-15_acquisto_palazzo_in_Piazza_Mario_Polerà_1.jpeg"
 author: Vito Sestito

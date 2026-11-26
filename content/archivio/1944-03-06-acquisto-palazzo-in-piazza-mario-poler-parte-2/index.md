@@ -1,4 +1,5 @@
 ---
+seoDescription: '1944: Vito Sestito e Teresa Aiello versano la differenza di 75.000 lire per il fabbricato acquistato; ne viene rilasciata quietanza.'
 title: 'Acquisto palazzo in Piazza Mario Polerà (parte 2)'
 image: "images/1944-03-06_acquisto_palazzo_in_Piazza_Mario_Polerà.jpeg"
 author: Vito Sestito

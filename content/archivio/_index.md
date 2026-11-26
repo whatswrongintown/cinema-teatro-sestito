@@ -1,4 +1,5 @@
 ---
+seoDescription: 'Documenti originali sulla storia del Cinema Teatro Sestito, della famiglia Sestito e delle attività che accompagnarono la vita del cinema nel Novecento.'
 title: "Archivio"
 author: "Vito Sestito"
 date: "2023-05-24"
