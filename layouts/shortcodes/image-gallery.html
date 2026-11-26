@@ -81,7 +81,7 @@
     .image-gallery li {float: left; display: block; margin: 0 0 1% 1%; width: 19%;}
     .image-gallery li a {text-align: center; text-decoration: none!important; color: #000;}
     .image-gallery li a span {display: block; text-overflow: ellipsis; overflow: hidden; white-space: nowrap; padding: 3px 0;}
-    .image-gallery li a img {width: 100%; display: block;}
+    .image-gallery li a img {width: 100%; height: auto; display: block;}
 </style>
 
 <ul class="image-gallery">
@@ -96,7 +96,8 @@
     {{- end }}
   <li>
     <a href="{{ ($image.Fit "1600x1600 q50").Permalink }}" title="{{ $alt }}"{{ with $caption }} data-caption="{{ . }}"{{ end }} class="lightbox-image">
-      <img src="{{ ($image.Fill "300x300 q50").Permalink }}" alt="{{ $alt }}" title="{{ $caption | default $alt }}">
+      {{- $thumb := $image.Fill "300x300 q50" }}
+      <img src="{{ $thumb.Permalink }}" width="{{ $thumb.Width }}" height="{{ $thumb.Height }}" alt="{{ $alt }}" title="{{ $caption | default $alt }}" loading="lazy" decoding="async">
     </a>
   </li>
   {{- end }}

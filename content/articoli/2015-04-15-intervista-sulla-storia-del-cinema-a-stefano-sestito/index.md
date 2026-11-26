@@ -17,4 +17,4 @@ Il racconto si configura come una fonte orale di rilievo, utile per comprendere 
 
 ### Testimonianza orale sulla storia del Cinema Sestito
 
-{{< youtube id="g02xkyQeQFs" autoplay="false" title="Cinema Teatro Sestito Il cinema dei sanvitesi" >}}
+{{< youtube id="g02xkyQeQFs" autoplay="false" loading="lazy" title="Cinema Teatro Sestito Il cinema dei sanvitesi" >}}

@@ -440,7 +440,9 @@ TODO / DOING / DONE / DEFERRED, with dates. Assistant rules are in `CLAUDE.md`.
   owner asks to deploy, push to `main` directly or merge before the preview
   starts, so Netlify builds once.
 - **U20 - DONE 2026-11-26: SEO metadata** (from an audit of production;
-  committed to `main`, not pushed or deployed yet). Pages 2+ of the paginated Posters
+  deployed 2026-11-26, `73ec7f39`, live under 2 min after the push; production
+  matched the local build on all 80 pages 2+ and on sampled film, list and other
+  pages). Pages 2+ of the paginated Posters
   lists declared page 1 as canonical; film pages used the generic site
   description and 228 pages had an empty one (their `.Summary` was only an
   HTML comment); titles repeated across pagination, Posters and programming
@@ -452,6 +454,20 @@ TODO / DOING / DONE / DEFERRED, with dates. Assistant rules are in `CLAUDE.md`.
   front matter description (4 texts, 93 pages); 292 descriptions exceed 160
   characters (search engines shorten them). The owner approved the wording
   of the generated Italian sentences (2026-11-26).
+- **U21 - DONE 2026-11-26: performance** (from the audit; committed, not
+  pushed or deployed yet).
+  - Poster list pages: the 1966 year page went from 903,420 to about 67,000
+    bytes of HTML. Cause: untrimmed template actions in the film selection
+    loop; fixed as a side effect of U20 (`posters/cards.html`), live since
+    `73ec7f39`.
+  - Galleries (`image-gallery.html`): thumbnails have width, height,
+    `loading="lazy"` and `decoding="async"`; thumbnail URLs unchanged. Local
+    mobile test (375x812) on the 1936-49 diary page: 16 image requests and
+    200 KB at load (production before: 50 and 623 KB). Images without a width
+    on the whole site: from 1,344 to 9 (Markdown images in a few articles).
+  - The YouTube embed in the 2015 interview loads lazily.
+  - Not done: thumbnail format (only 89 of 1,335 are JPEG, the rest WebP; the
+    audit was wrong to call them JPEG).
 - No feature roadmap yet: new ideas are agreed with the owner and listed here
   when they are approved.
 
