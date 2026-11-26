@@ -396,7 +396,7 @@ TODO / DOING / DONE / DEFERRED, with dates. Assistant rules are in `CLAUDE.md`.
   home 95 / 100 / 100 / 100. Checked in production: home, an article, a film
   page and a year page serve their 1200x630 JPEG cards with the new tags.
   TODO (owner): re-scrape the main pages in Facebook's Sharing Debugger.
-- **U18 - DONE 2026-11-26 (branch `section-share-cards`, not merged): section
+- **U18 - DONE 2026-11-26: section
   share cards and cropped previews.** Requested by the owner after seeing
   U17 shared: cropped images look better than whole images on a dark
   background, and the section pages should have cards of their own. The
@@ -413,9 +413,8 @@ TODO / DOING / DONE / DEFERRED, with dates. Assistant rules are in `CLAUDE.md`.
   Rules in `design.md`, section "Share cards". Checked on a full build: no
   warnings, every page has a 1200x630 card, the 13 section pages serve
   their collage. The first local build after the change took about 10 min
-  (two image operations per card), so the first Netlify deploy will be
-  slow too.
-- **U19 - DONE 2026-11-26 (same branch): unused images.** Requested by the
+  (two image operations per card).
+- **U19 - DONE 2026-11-26: unused images.** Requested by the
   owner before the deploy. All 4,995 tracked images were matched against
   what a clean build references (HTML, CSS, JS, XML, JSON): 27 were unused
   and no untracked image files were found. Done with the owner's approval:
@@ -427,6 +426,18 @@ TODO / DOING / DONE / DEFERRED, with dates. Assistant rules are in `CLAUDE.md`.
     banner, used only for sharing, now replaced by the section card) and its
     `image:` line, and `firme_2.png` in the methodology article (never in
     the text, which uses `firma_1.png`).
+- U18 and U19 merged to `main` and deployed 2026-11-26 at the owner's
+  request (PR #2, `b3a2be4d`); production checked: section pages serve their
+  collage, single pages their cropped card, Rubrica 1978-79 its scans. The
+  release took about 13 min: opening the PR started a Netlify deploy preview
+  (`hugo` 5 min 22 s, all cards new), and the production build waited in
+  the queue (one build at a time) and then rebuilt the cards again
+  (`hugo` 5 min 12 s), because it had started before the preview saved its
+  cache. Lighthouse home 88 / 100 / 100 / 100 on both builds (95 the day
+  before; the home page changed only in its meta tags, so probably
+  measurement noise; to check with PageSpeed Insights). Lesson: when the
+  owner asks to deploy, push to `main` directly or merge before the preview
+  starts, so Netlify builds once.
 - No feature roadmap yet: new ideas are agreed with the owner and listed here
   when they are approved.
 
