@@ -516,6 +516,12 @@ TODO / DOING / DONE / DEFERRED, with dates. Assistant rules are in `CLAUDE.md`.
   fotobuste*, *271 locandine* ...) instead of *manifesti* (V5). Left to
   batch 5: the count wording inside *Gli anni d'oro* (rewritten there) and
   the rating chart (removed there).
+- **Encoding fix (DONE 2026-11-27).** Batch 1 wrote the fixed explanation
+  on the 57 year pages double-encoded (*più* and *è* shown as two
+  garbled characters each; the substitution script did not decode its input). Fixed on `fix/encoding`;
+  a scan of all tracked text files and of a clean `public/` build finds no
+  other double-encoded text. Edits to Italian text by script must read and
+  write UTF-8 explicitly, and a build check must search for such sequences.
 - **U34 - TODO 2026-11-27 (later): recompute the posters genre heatmap from
   `films.json`**, so it can apply the Drammatico rule of the programming
   genre chart instead of reading the frozen `posters_genre_by_decade.csv`.
