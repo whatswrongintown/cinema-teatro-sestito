@@ -140,7 +140,7 @@ Any printed director, producer or year.
 | C3.2 | Printed title on four illegible scans: tt0077520 (*Le evase*), tt0316886 (*Flash excitation blue*), tt1327719 (*Primizie pornografiche*), tt1404408 (*Anche i cinesi mangiano fagioli*) | The physical posters | TODO |
 | C3.3 | Agenda wording, to tell an agenda spelling from a typing slip: *I temibili 7* (poster: *I terribili 7*), *Assassino sulla Costa Azzurra* (*Assassinio*), *Viziose asolescenti* (*adolescenti*), *Più veloce del vento* (*Più veloci*) | The agenda named in each record's `source` cell (programming pages of those dates) | TODO |
 | C3.4 | *Le pioggie di Ranchipur*: what the agenda wrote (F6) | The agenda named in the record's `source` cell | TODO |
-| C3.5 | Sentence case for Italian titles (F3): the list of changed titles, prepared before the titles batch, for the owner to check | `titoli-maiuscole.md` (written 2026-11-27: 51 titles; checked by the owner the same day, 9 changes remain; tt0058862 to confirm) | DONE 2026-11-27 (check); rules not applied |
+| C3.5 | Sentence case for Italian titles (F3): the list of changed titles, prepared before the titles batch, for the owner to check | `titoli-maiuscole.md` (written 2026-11-27: 51 titles; checked by the owner the same day; 8 changes applied as display rules) | DONE 2026-11-27 |
 
 ## 4. Wording and settings
 

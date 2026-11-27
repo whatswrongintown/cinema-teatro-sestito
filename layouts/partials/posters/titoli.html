@@ -30,6 +30,16 @@ film_id -> dict; content adapters call it too)
   {{- end -}}
 {{- end -}}
 {{- $norm := `[^a-z0-9]+` -}}
+{{- $maiuscole := dict
+  "tt0285452" (dict "da" "Bestia del Sud - voglia di godere" "a" "Bestia del sud - voglia di godere")
+  "tt0165117" (dict "da" "Bruce Lee: l’ira del drago colpisce anche l’Occidente" "a" "Bruce Lee: l’ira del drago colpisce anche l’occidente")
+  "tt0150011" (dict "da" "C’era una volta questo pazzo, pazzo, pazzo West" "a" "C’era una volta questo pazzo, pazzo, pazzo west")
+  "tt0058995" (dict "da" "I magnifici brutos del West" "a" "I magnifici brutos del west")
+  "tt0164455" (dict "da" "La rivolta del Drago" "a" "La rivolta del drago")
+  "tt0049933" (dict "da" "La terra degli Apaches" "a" "La terra degli apaches")
+  "tt0065367" (dict "da" "Sei già cadavere Amigo… ti cerca Garringo" "a" "Sei già cadavere amigo… ti cerca Garringo")
+  "tt0203105" (dict "da" "Seminò morte… lo chiamavano il Castigo di Dio!" "a" "Seminò morte… lo chiamavano il castigo di Dio!")
+-}}
 {{- range hugo.Data.posters.films.films -}}
   {{- $film := . -}}
   {{- $originale := "" -}}
@@ -51,6 +61,12 @@ film_id -> dict; content adapters call it too)
     {{- end -}}
   {{- end -}}
   {{- $titolo = replace (replace (strings.TrimSpace $titolo) "..." "…") "'" "’" -}}
+  {{- /* Sentence case (F3): rows checked by the owner in docs/titoli-maiuscole.md.
+         Each applies only to the title it was written for; a warning flags a
+         title that has changed since. */ -}}
+  {{- with index $maiuscole $film.film_id -}}
+    {{- if eq $titolo .da }}{{ $titolo = .a }}{{ else }}{{ warnf "titoli.html: sentence-case rule for %s expects %q, found %q" $film.film_id .da $titolo }}{{ end -}}
+  {{- end -}}
   {{- $orig := "" -}}
   {{- with $originale -}}
     {{- $a := replaceRE $norm "" (lower (replace (replace . "…" "...") "’" "'")) -}}

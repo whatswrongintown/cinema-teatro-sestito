@@ -564,9 +564,9 @@ TODO / DOING / DONE / DEFERRED, with dates. Assistant rules are in `CLAUDE.md`.
   `layouts/partials/posters/titoli.html`), with *Titolo originale: …* when it
   differs; typographic ’ and …; sort keys and letters from the display titles
   (*A 30 secondi dalla fine* and the other Italian "A …" titles under A).
-  `films.json` unchanged. Waiting: applying the sentence-case rows the owner
-  checked on 2026-11-27 (F3, 9 changes, tt0058862 to confirm; list in
-  `titoli-maiuscole.md`), *Le luci rosse* titles (C1, *Corruption*), CSV
+  `films.json` unchanged. Sentence case applied to the 8 display titles the
+  owner checked (F3, `titoli-maiuscole.md`). Waiting: *Le luci rosse* titles
+  (C1, *Corruption*), CSV
   typing slips (C3.3, C3.4). Until *Le luci rosse* is updated, its poster
   captions show the San Vito titles while its text still uses the IMDb ones
   (*Showgirls*, *Peaches and Cream*…).

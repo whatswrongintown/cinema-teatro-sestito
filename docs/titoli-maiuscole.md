@@ -2,9 +2,9 @@
 
 Decision F3 (`decisioni-testi.md`): Italian titles are displayed in sentence
 case, proper names kept; foreign titles unchanged; the data stays as recorded.
-This list is for the owner to check. **Nothing has been applied.** Once it is
-approved, the accepted rows become display rules in
-`layouts/partials/posters/titoli.html`; `films.json` and the CSV do not change.
+The owner checked this list on 2026-11-27; its 8 changes are applied as
+display rules in `layouts/partials/posters/titoli.html`. `films.json` and the
+CSV do not change.
 
 What it covers: the display title of every poster film (the title the film was
 shown under in San Vito, batch 4), as built on the film pages. The
@@ -30,14 +30,14 @@ Doubtful proposals: *Le occasioni di rosa* (Rosa is probably a name), *West* in
 *pazzo West* and *brutos del West* (the Far West is usually capitalised),
 *apaches*, *drago* in *La rivolta del Drago* (a title or a nickname?).
 
-Proposed changes after the owner's check: 9 of 51 rows (the other rows only list kept capitals). The owner kept the capital in *Winchester* (two titles), *Rosa* and *Gringo* (2026-11-27); tt0058862 *30 Winchester per El Diablo* still proposes *winchester*, to confirm.
+Proposed changes after the owner's check: 8 of 51 rows (the other rows only list kept capitals). The owner kept the capital in *Winchester* (three titles), *Rosa* and *Gringo* (2026-11-27).
 
 | IMDb ID | Current | Proposed | Kept (probable names) | Kept as part of a name (check) |
 | --- | --- | --- | --- | --- |
 | tt0060926 | 009 Joe Tempesta | 009 Joe Tempesta | Joe | Tempesta |
 | tt0057891 | 1000 dollari per un Winchester | 1000 dollari per un Winchester |  |  |
 | tt0058861 | 3 colpi di Winchester per Ringo | 3 colpi di Winchester per Ringo | Ringo |  |
-| tt0058862 | 30 Winchester per El Diablo | 30 winchester per El Diablo | Diablo | El |
+| tt0058862 | 30 Winchester per El Diablo | 30 Winchester per El Diablo | Diablo | El |
 | tt0060923 | 7 pistole per El Gringo | 7 pistole per El Gringo |  | El, Gringo |
 | tt0268576 | A 117 colpo grosso a Los Angeles | A 117 colpo grosso a Los Angeles | Angeles | Los |
 | tt0353260 | Assassino sulla Costa Azzurra | Assassino sulla Costa Azzurra |  | Costa, Azzurra |
@@ -86,4 +86,4 @@ Proposed changes after the owner's check: 9 of 51 rows (the other rows only list
 | tt0114862 | Viva San Isidro | Viva San Isidro | Isidro | San |
 | tt0063775 | Viva! Viva Villa! | Viva! Viva Villa! |  | Villa |
 
-Status: checked by the owner 2026-11-27; not applied yet (the accepted rows become display rules in a later step).
+Status: DONE 2026-11-27. Checked by the owner; the 8 changes are applied as display rules in `layouts/partials/posters/titoli.html` (a warning appears if a rule no longer matches its title).
