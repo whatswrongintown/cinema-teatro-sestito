@@ -53,19 +53,19 @@ Answers (owner, 2026-11-27):
   inviata per conoscenza anche alla stazione dei carabinieri.*
 - Vito Sestito's dates, 1902–1985, are confirmed.
 
-## 2. Facts and sources (*Check before publishing*)
+## 2. Facts and sources (answered 2026-11-27)
 
 | # | Item | Look at | Status |
 | --- | --- | --- | --- |
-| B1 | Other letters from the parish (for *non per la prima volta*) | Family papers; Drive `Scansione documenti` | TODO |
-| B2 | What *Films S.A.I.* means on the 1957 envelope (*la filiale italiana della Metro-Goldwyn-Mayer* or *la statunitense Metro-Goldwyn-Mayer*); distributor names on the reel labels | The envelope (`content/archivio/1957-11-09-busta-della-metro-goldwyn-mayer/images/`); the reels | TODO |
-| B3 | Every archive document has a date, a category and a digital reproduction | Repository check 2026-11-27: all 26 pages in `content/archivio/` have a date, a category and at least one image. Remains: whether every page shows the whole document | TODO |
-| B4 | Italia Taglia data for a later classification chart | Permission from the Cineteca di Bologna, if needed | TODO |
-| B5 | Who issued the agendas not scanned or unclear: Ceat 1966, Naonis 1966, Agenda 1968, Fincine 1948-49 | Covers and first pages of the physical agendas | TODO |
-| B6 | Agenzia Fedi – Cosenza: projector maker or dealer | Fedi 1952-53, p. 3 (`static/images/programmazione_storica/` folder of that agenda); other Fedi agendas | TODO |
-| B7 | Whether the membership card shows AGIS as well as ANEC | `content/archivio/1950-01-01-associazione-nazionale-esercenti-cinema/`, and the card | TODO |
-| B8 | The 1947 and 1949 dates for the project page: nulla osta 19/5/1947 and Commissione's verbale 8/12/1947 (both cited only inside the 1949 decree), licence 19 March 1949 | The 1949 decree scan, `content/archivio/1949-03-19-abilitazione-cinema-in-piazza-mario-poler/`; the 1947 documents, if the family has them | TODO |
-| B9 | Yearly counts 1957–1979 for *Gli anni d'oro* (counts settled by A2); the 1966 contract dates (Argos 16 February, Titanus 22 January, Paramount 26 March, Fox 18 May, W.B. 8 September) come from Stefano's diary, not scanned (family answer 18) | Table below; the diary | TODO |
+| B1 | Other letters from the parish (for *non per la prima volta*) | Family papers; Drive `Scansione documenti` | DONE 2026-11-27: no other parish letters found |
+| B2 | What *Films S.A.I.* means on the 1957 envelope (*la filiale italiana della Metro-Goldwyn-Mayer* or *la statunitense Metro-Goldwyn-Mayer*); distributor names on the reel labels | The envelope (`content/archivio/1957-11-09-busta-della-metro-goldwyn-mayer/images/`); the reels | DONE 2026-11-27: the meaning of *S.A.I.* was not found, so the decision's fallback applies (*la statunitense Metro-Goldwyn-Mayer*); reel labels: see A4 |
+| B3 | Every archive document has a date, a category and a digital reproduction | Repository check 2026-11-27: all 26 pages in `content/archivio/` have a date, a category and at least one image. Remains: whether every page shows the whole document | DONE 2026-11-27: yes, every page shows the whole document |
+| B4 | Italia Taglia data for a later classification chart | Permission from the Cineteca di Bologna, if needed | Waiting: the owner wrote to the Cineteca di Bologna, no reply yet (the chart is removed anyway, decision 4) |
+| B5 | Who issued the agendas not scanned or unclear: Ceat 1966, Naonis 1966, Agenda 1968, Fincine 1948-49 | Covers and first pages of the physical agendas | DONE 2026-11-27: Ceat 1966, Naonis 1966 and Agenda 1968 were Stefano Sestito's private agendas, origin unknown; Fincine 1948-49 unknown. None gets a firm type |
+| B6 | Agenzia Fedi – Cosenza: projector maker or dealer | Fedi 1952-53, p. 3 (`static/images/programmazione_storica/` folder of that agenda); other Fedi agendas | DONE 2026-11-27: Fedi made cinema equipment (projectors, sound systems); the Agenzia Fedi in Cosenza was its regional store for Calabria |
+| B7 | Whether the membership card shows AGIS as well as ANEC | `content/archivio/1950-01-01-associazione-nazionale-esercenti-cinema/`, and the card | DONE 2026-11-27: the card shows AGIS and, below, ANEC |
+| B8 | The 1947 and 1949 dates for the project page: nulla osta 19/5/1947 and Commissione's verbale 8/12/1947 (both cited only inside the 1949 decree), licence 19 March 1949 | The 1949 decree scan, `content/archivio/1949-03-19-abilitazione-cinema-in-piazza-mario-poler/`; the 1947 documents, if the family has them | DONE 2026-11-27: no other document found; the 1947 dates are known only from the 1949 decree |
+| B9 | Yearly counts 1957–1979 for *Gli anni d'oro* (counts settled by A2); the 1966 contract dates (Argos 16 February, Titanus 22 January, Paramount 26 March, Fox 18 May, W.B. 8 September) come from Stefano's diary, not scanned (family answer 18) | Table below; the diary | DONE 2026-11-27: settled by A2 |
 
 Records and distinct films per year, from the CSV (2026-11-27):
 
@@ -152,5 +152,5 @@ Any printed director, producer or year.
 
 | # | Item | Look at | Status |
 | --- | --- | --- | --- |
-| D1 | The wording IMDb requires for its credit line, before changing *Information courtesy of IMDb* (V8) | IMDb's conditions of use for non-commercial sites | TODO |
+| D1 | The wording IMDb requires for its credit line, before changing *Information courtesy of IMDb* (V8) | IMDb's conditions of use for non-commercial sites | DONE 2026-11-27: the owner checked IMDb; the credit line stays as it is |
 | D2 | Hugo's option for first-letter-only title case of term names (C2), against Hugo 0.170.1 | Checked 2026-11-27: local `hugo version` and Netlify (`netlify.toml`, `HUGO_VERSION = '0.170.1'`) both run 0.170.1. `hugo config` lists `titlecasestyle = 'AP'` (the default) and `capitalizelisttitles = true`. Test builds outside the repository: `titleCaseStyle: firstupper` gives *Paesi di produzione*, *San Vito sullo Ionio*, *Storia locale* (first letter up, the rest as written); `capitalizeListTitles: false` leaves lower-case terms lower-case. Applied with the owner's OK: `titleCaseStyle: firstupper` in `config.yaml` | DONE 2026-11-27 |

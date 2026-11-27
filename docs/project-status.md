@@ -609,7 +609,13 @@ TODO / DOING / DONE / DEFERRED, with dates. Assistant rules are in `CLAUDE.md`.
   incasso.*, and the agenda meta description says the same; the Agende type
   page uses the A6 sentence; the Fonti introduction says *agende
   cinematografiche*; the Fonti cover alt says *agenda Fedi 1954-55*. The rest
-  of batch 5 waits for its checks (`da-verificare.md`).
+  of batch 5 waits for its checks (`da-verificare.md`). Checks B1–B9 and D1
+  answered by the owner 2026-11-27 (only B4, the Italia Taglia data, still
+  waits for a reply); batch 5 part 2 can start: nascita article (Mongiardo,
+  carabinieri, chart removed, Masceri, AGIS and ANEC), bobine page, MGM
+  envelope (9 September 1957, *statunitense*), archive introduction,
+  *Gli anni d'oro*, project page dates, agenda notes for Ceat, Naonis,
+  Agenda 1968 and Fedi.
 - No feature roadmap yet: new ideas are agreed with the owner and listed here
   when they are approved.
 
