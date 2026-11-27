@@ -1,15 +1,15 @@
 ---
-title: Incam 1948-49
+title: INCOM 1948-49
 author: Vito Sestito
 date: '1948-10-01'
 slug: incam-1948-49
 categories:
   - Agende
-description: Agende cinematografiche fornite dalle case distributrici. Contengono informazioni dettagliate sulla data di proiezione, titolo del film, distributore e l’ammontare degli incassi.
+description: "Agenda cinematografica usata per annotare la programmazione: date e titoli dei film, in molti casi con distributore e incasso."
 image: /images/programmazione_storica/1948_10_01_incam_1948_49/1948_10_01_incam_1948_49_01.webp
 galleryDescriptions:
   /images/programmazione_storica/1948_10_01_incam_1948_49:
-    pageAlt: "Scansioni della fonte «Incam 1948-49» utilizzata per ricostruire la programmazione del Cinema Sestito."
+    pageAlt: "Scansioni della fonte «INCOM 1948-49» utilizzata per ricostruire la programmazione del Cinema Sestito."
 lastmod: '2026-11-18'
 ---
 

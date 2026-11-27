@@ -5,7 +5,7 @@ date: '1968-01-01'
 slug: agenda-1968
 categories:
   - Agende
-description: Agende cinematografiche fornite dalle case distributrici. Contengono informazioni dettagliate sulla data di proiezione, titolo del film, distributore e l’ammontare degli incassi.
+description: "Agenda cinematografica usata per annotare la programmazione: date e titoli dei film, in molti casi con distributore e incasso."
 ---
 
 

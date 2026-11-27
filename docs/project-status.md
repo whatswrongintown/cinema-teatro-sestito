@@ -533,7 +533,18 @@ TODO / DOING / DONE / DEFERRED, with dates. Assistant rules are in `CLAUDE.md`.
   the source names; *Calendario 1985_2* → *Calendario 1985 (2)*; obvious
   keyboard slips in titles, each once checked against its agenda
   (`da-verificare.md`, C3.3 and C3.4). Everything else in the datasets and
-  `static/images/manifesti/` stays final.
+  `static/images/manifesti/` stays final. Applied so far: *INCOM* in the
+  source names (162 rows, 2026-11-27, batch 5 part 1).
+- **Batch 5, part 1 (facts) DONE 2026-11-27** (branch `text/facts-1`,
+  merged): the two agendas are titled *INCOM 1948-49* and *INCOM 1949-50*,
+  as printed on the covers (pages, alt texts, CSV source names; *Incom* only
+  in *La Settimana Incom*; slugs, URLs and image folders keep *incam*); the
+  30 agenda pages read *Agenda cinematografica usata per annotare la
+  programmazione: date e titoli dei film, in molti casi con distributore e
+  incasso.*, and the agenda meta description says the same; the Agende type
+  page uses the A6 sentence; the Fonti introduction says *agende
+  cinematografiche*; the Fonti cover alt says *agenda Fedi 1954-55*. The rest
+  of batch 5 waits for its checks (`da-verificare.md`).
 - No feature roadmap yet: new ideas are agreed with the owner and listed here
   when they are approved.
 

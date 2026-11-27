@@ -15,7 +15,7 @@ Call with: partial "descrizione.html" .
   {{- $parti := split (strings.TrimSuffix "/" (replace .File.Dir "\\" "/")) "/" -}}
   {{- if and (eq (len $parti) 4) (eq (index $parti 0) "programmazione-storica") (eq (index $parti 1) "fonti") -}}
     {{- $frasi := dict
-      "agende" "agenda di distribuzione con date, titoli, distributore e incassi dei film"
+      "agende" "agenda della programmazione, con date e titoli dei film e spesso distributore e incasso"
       "calendari" "calendario con date di proiezione, titoli dei film e incassi"
       "rubriche" "rubrica alfabetica dei film, con date di proiezione e distributore"
       "appunti" "appunti mensili sui film, con gli incassi quando disponibili" -}}

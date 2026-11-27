@@ -5,7 +5,7 @@ date: '1950-12-01'
 slug: elettrocarbonium-1950-51
 categories:
   - Agende
-description: Agende cinematografiche fornite dalle case distributrici. Contengono informazioni dettagliate sulla data di proiezione, titolo del film, distributore e l’ammontare degli incassi.
+description: "Agenda cinematografica usata per annotare la programmazione: date e titoli dei film, in molti casi con distributore e incasso."
 image: /images/programmazione_storica/1950_12_01_elettrocarbonium_1950_51/1950_12_01_elettrocarbonium_1950_51_01.webp
 galleryDescriptions:
   /images/programmazione_storica/1950_12_01_elettrocarbonium_1950_51:

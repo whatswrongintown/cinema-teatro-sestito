@@ -18,11 +18,11 @@ galleryDescriptions:
     pageAlt: "Scansione di materiale della Settimana Incom conservato dall'archivio del cinema."
     images:
       la_settimana_incam_01.jpg:
-        alt: "Agenda cinematografica Incom per la stagione 1948-1949, con annotazioni manoscritte nella parte superiore."
+        alt: "Agenda cinematografica INCOM per la stagione 1948-1949, con annotazioni manoscritte nella parte superiore."
       la_settimana_incam_02.jpg:
         alt: "Elenco della Settimana Incom con titoli, luoghi e date; i nomi delle città sono evidenziati in colore."
       la_settimana_incam_03.png:
-        alt: "Retro di un'agenda Incom con annotazione manoscritta dedicata a Sandro Pallavicini e testo promozionale."
+        alt: "Retro di un'agenda INCOM con annotazione manoscritta dedicata a Sandro Pallavicini e testo promozionale."
       la_settimana_incam_04.jpg:
         alt: "Documento commerciale Incom con titolo La Settimana Incom, elenco di produzioni e marchio Record Incom Sport."
   galleries/2023_04_27_le_difficolta_della_gestione:

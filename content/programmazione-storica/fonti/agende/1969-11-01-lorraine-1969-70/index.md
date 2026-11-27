@@ -5,7 +5,7 @@ date: '1969-11-01'
 slug: lorraine-1969-70
 categories:
   - Agende
-description: Agende cinematografiche fornite dalle case distributrici. Contengono informazioni dettagliate sulla data di proiezione, titolo del film, distributore e l’ammontare degli incassi.
+description: "Agenda cinematografica usata per annotare la programmazione: date e titoli dei film, in molti casi con distributore e incasso."
 image: /images/programmazione_storica/1969_11_01_carboni_lorraine_1969_70/1969_11_01_carboni_lorraine_1969_70_01.webp
 galleryDescriptions:
   /images/programmazione_storica/1969_11_01_carboni_lorraine_1969_70:

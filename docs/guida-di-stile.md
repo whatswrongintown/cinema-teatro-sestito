@@ -119,7 +119,7 @@ says so: write *in una sola data di programmazione*.
 - Archive categories are nouns: *Atti giudiziari*, *Documenti personali*,
   *Attrezzature* (*le attrezzature*). The archive has *nove categorie*, not
   *fondi*.
-- One modern spelling in editorial text: *INCOM* / *Incom*, *Vincenzo
+- One modern spelling in editorial text: *INCOM* (agendas and sources; *Incom* only in *La Settimana Incom*), *Vincenzo
   Calzone*, *Cinema Masceri* (*di Catanzaro* on first mention), *San Vito
   sullo Ionio*, *Piazza Mario Polerà*.
 
@@ -211,7 +211,7 @@ today.
 | *Film per anno*, axis *Film* | *Numero di film* (axis counting records) | V1 |
 | *le fonti mostrano che…* | *il registro segna…* | V2 |
 | *Agende cinematografiche* | *Agende cinematografiche fornite dalle case distributrici* | V6 |
-| *Incom 1948-49* | *Incam 1948-49* | V7 |
+| *INCOM 1948-49* | *Incam 1948-49*, *Incom 1948-49* | V7 |
 | *Fotobusta 50x70, n. 1* | *Fotobuste 50x70, n. 1* | V5 |
 | *Avete un ricordo del cinema? Raccontatelo nel messaggio.* | *Hai un ricordo … raccontacelo* | P1 |
 | *Questa pagina non esiste o è stata spostata.* | *Sembra che tu sia finito su una pagina che non esiste.* | P3, R2 |

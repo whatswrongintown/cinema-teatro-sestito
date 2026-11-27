@@ -5,7 +5,7 @@ date: '1961-11-01'
 slug: fedi-1961-62
 categories:
   - Agende
-description: Agende cinematografiche fornite dalle case distributrici. Contengono informazioni dettagliate sulla data di proiezione, titolo del film, distributore e l’ammontare degli incassi.
+description: "Agenda cinematografica usata per annotare la programmazione: date e titoli dei film, in molti casi con distributore e incasso."
 image: /images/programmazione_storica/1961_11_01_fedi_1961_62/1961_11_01_fedi_1961_62_01.webp
 galleryDescriptions:
   /images/programmazione_storica/1961_11_01_fedi_1961_62:
