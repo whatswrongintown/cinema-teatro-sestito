@@ -12,6 +12,21 @@ of the repository.
   (`/posters/by-title/<letter>/`) are created by the content adapters
   `content/posters/films/_content.gotmpl` and
   `content/posters/by-title/_content.gotmpl`. Letter `#` becomes `0-9`.
+- Display titles (batch 4, 2026-11-27; style guide section 5):
+  `layouts/partials/posters/titoli.html` gives every film the title it was
+  shown under in San Vito: the most frequent title for its IMDb ID in
+  `programmazione_agende.csv` (ties: the earliest), without a trailing
+  "(…)" that only repeats the original title, with typographic ’ and …; films
+  with no programming row keep the `films.json` title. Film pages add
+  "Titolo originale: …" when the IMDb original title differs. The partial also
+  gives the sort key and letter, which replace `sort_key` and `letter` of
+  `films.json` (unchanged): articles il, lo, la, i, gli, le, l’, un, uno, una,
+  un’ and English the, an are skipped; Italian "a" is a preposition and stays,
+  so *A 30 secondi dalla fine* and the other Italian "A …" titles sort under
+  A (*A Beautiful Mind* keeps sorting under B). The adapters, the cards,
+  counts, covers, gallery, index, prev/next links and every poster strip use
+  it. Proposed sentence-case titles (F3) are listed in `titoli-maiuscole.md`,
+  not applied.
 - The root, year, size, genre and browse-index pages are editable Markdown in
   `content/posters/`. Front matter selects the data (`layouts/posters/`,
   `layouts/partials/posters/`): `collection` (`printed` or `retro`), `category`,

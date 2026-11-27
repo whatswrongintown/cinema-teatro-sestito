@@ -11,6 +11,7 @@ Call with: partial "posters/cards.html" (dict "page" . "month" 0)
 {{- with $page.Params.source }}{{ $filtro = index (partialCached "posters/fonti.html" . "fonti") (lower .) | default (dict "_" true) }}{{ end -}}
 {{- with $page.Params.country }}{{ $filtro = index (partialCached "posters/paesi.html" . "paesi") (lower .) | default (dict "_" true) }}{{ end -}}
 {{- $cards := slice -}}
+{{- $titoli := partialCached "posters/titoli.html" . "titoli" -}}
 {{- range hugo.Data.posters.films.films -}}
   {{- $film := . -}}
   {{- $images := where .posters "is_retro" $retro -}}
@@ -20,7 +21,7 @@ Call with: partial "posters/cards.html" (dict "page" . "month" 0)
   {{- with $page.Params.genre }}{{ $matches = and $matches (in $film.genre_slugs .) }}{{ end -}}
   {{- with $page.Params.source }}{{ $matches = and $matches (index $filtro $film.film_id) }}{{ end -}}
   {{- with $page.Params.country }}{{ $matches = and $matches (index $filtro $film.film_id) }}{{ end -}}
-  {{- with $page.Params.letter }}{{ $matches = and $matches (eq $film.letter .) }}{{ end -}}
+  {{- with $page.Params.letter }}{{ $matches = and $matches (eq (index $titoli $film.film_id).lettera .) }}{{ end -}}
   {{- with $page.Params.year -}}
     {{- $screened := false -}}
     {{- range $film.screenings -}}
@@ -33,7 +34,10 @@ Call with: partial "posters/cards.html" (dict "page" . "month" 0)
   {{- if $matches -}}
     {{- $filmPage := site.GetPage (printf "/posters/films/%s" $film.film_id) -}}
     {{- if not $filmPage }}{{ errorf "Poster film page missing: %s" $film.film_id }}{{ end -}}
-    {{- $cards = $cards | append $filmPage -}}
+    {{- $cards = $cards | append (dict "k" (index $titoli $film.film_id).chiave "p" $filmPage) -}}
   {{- end -}}
 {{- end -}}
-{{- return $cards -}}
+{{- /* In title order (display titles). */ -}}
+{{- $ordinate := slice -}}
+{{- range sort $cards "k" }}{{ $ordinate = $ordinate | append .p }}{{ end -}}
+{{- return $ordinate -}}

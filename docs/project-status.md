@@ -558,6 +558,18 @@ TODO / DOING / DONE / DEFERRED, with dates. Assistant rules are in `CLAUDE.md`.
   of the popover and its close button (`static/js/menu.js`, see
   `design.md`). G1–G3 rewriting
   not started.
+- **Batch 4 (film titles) DOING 2026-11-27 on branch `text/titles`**, not
+  committed. Template part done: poster and film pages show the title used in
+  San Vito (most frequent programming title per IMDb ID,
+  `layouts/partials/posters/titoli.html`), with *Titolo originale: …* when it
+  differs; typographic ’ and …; sort keys and letters from the display titles
+  (*A 30 secondi dalla fine* and the other Italian "A …" titles under A).
+  `films.json` unchanged. Waiting: applying the sentence-case rows the owner
+  checked on 2026-11-27 (F3, 9 changes, tt0058862 to confirm; list in
+  `titoli-maiuscole.md`), *Le luci rosse* titles (C1, *Corruption*), CSV
+  typing slips (C3.3, C3.4). Until *Le luci rosse* is updated, its poster
+  captions show the San Vito titles while its text still uses the IMDb ones
+  (*Showgirls*, *Peaches and Cream*…).
 - **Encoding fix (DONE 2026-11-27).** Batch 1 wrote the fixed explanation
   on the 57 year pages double-encoded (*più* and *è* shown as two
   garbled characters each; the substitution script did not decode its input). Fixed on `fix/encoding`;

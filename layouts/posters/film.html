@@ -8,6 +8,7 @@ previous and next film by title.
 {{- $films := where hugo.Data.posters.films.films "film_id" .Params.film_id }}
 {{- if ne (len $films) 1 }}{{ errorf "Poster film data missing or duplicated: %s" .Params.film_id }}{{ end }}
 {{- $film := index $films 0 }}
+{{- $t := index (partialCached "posters/titoli.html" . "titoli") $film.film_id }}
 {{- $printed := where $film.posters "is_retro" false }}
 {{- $retro := where $film.posters "is_retro" true }}
 {{- $main := index ($printed | default $retro) 0 }}
@@ -27,16 +28,16 @@ previous and next film by title.
   <section class="film-hero tone-dark" aria-labelledby="film-title">
     <div class="wrap film-hero-grid">
       <figure class="film-poster">
-        <a class="lightbox-image" href="{{ $main.large | relURL }}" data-caption="{{ $film.title }} ({{ $formato }})">
+        <a class="lightbox-image" href="{{ $main.large | relURL }}" data-caption="{{ $t.titolo }} ({{ $formato }})">
           <img src="{{ $main.large | relURL }}" width="{{ $main.large_width }}" height="{{ $main.large_height }}"
-               alt="{{ $film.title }}, {{ lower $formato }}" fetchpriority="high" decoding="async">
+               alt="{{ $t.titolo }}, {{ lower $formato }}" fetchpriority="high" decoding="async">
         </a>
       </figure>
 
       <div class="film-info">
         <p class="label home-kicker">{{ $formato }}{{ with len $film.posters }}{{ if gt . 1 }} · {{ . }} esemplari in archivio{{ end }}{{ end }}</p>
-        <h1 id="film-title" class="film-title">{{ $film.title }}</h1>
-        {{- with index $val "Original Title" }}{{ if ne . $film.title }}<p class="film-original">{{ . }}</p>{{ end }}{{ end }}
+        <h1 id="film-title" class="film-title">{{ $t.titolo }}</h1>
+        {{- with $t.originale }}<p class="film-original">Titolo originale: <i>{{ . }}</i></p>{{ end }}
 
         <dl class="film-facts">
           {{- with $val.Directors }}<div><dt class="label">Regia</dt><dd>{{ . }}</dd></div>{{ end }}

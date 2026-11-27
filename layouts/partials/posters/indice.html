@@ -12,14 +12,19 @@ Film index for the poster pages, built once per build. Returns:
 Call with: partialCached "posters/indice.html" . "indice"
 */ -}}
 {{- $s := newScratch -}}
-{{- range sort hugo.Data.posters.films.films "sort_key" -}}
+{{- $titoli := partialCached "posters/titoli.html" . "titoli" -}}
+{{- $ordinati := slice -}}
+{{- range hugo.Data.posters.films.films }}{{ $ordinati = $ordinati | append (dict "k" (index $titoli .film_id).chiave "f" .) }}{{ end -}}
+{{- range sort $ordinati "k" -}}
+  {{- with .f -}}
   {{- $id := .film_id -}}
   {{- with site.GetPage (printf "/posters/films/%s" $id) }}{{ $s.Add "ordine" (slice .) }}{{ end -}}
   {{- with partial "home/manifesto.html" $id -}}
     {{- $url := "" }}{{ with .pagina }}{{ $url = .RelPermalink }}{{ end -}}
     {{- $s.Add "pool" (slice .) -}}
-    {{- $r := slice .film.title $url (.poster.large | relURL) (.poster.thumb | relURL) .formato (.film.production_year | default "") (index (.film.screening_dates | default (slice "")) 0) -}}
+    {{- $r := slice .titolo $url (.poster.large | relURL) (.poster.thumb | relURL) .formato (.film.production_year | default "") (index (.film.screening_dates | default (slice "")) 0) -}}
     {{- $s.Add "json" (slice ($r | jsonify)) -}}
+  {{- end -}}
   {{- end -}}
 {{- end -}}
 {{- $ordine := $s.Get "ordine" | default slice -}}

@@ -1,4 +1,6 @@
 {{/* One page per film in data/posters/films.json (replaces generated Markdown). */}}
+{{/* Display titles (batch 4): the title shown in San Vito, see partials/posters/titoli.html. */}}
+{{ $titoli := partialCached "posters/titoli.html" . "titoli" }}
 {{ range hugo.Data.posters.films.films }}
   {{/* Social image: the first printed poster, else the first poster. */}}
   {{ $params := dict "film_id" .film_id "generated" true }}
@@ -7,7 +9,7 @@
   {{ end }}
   {{ $page := dict
     "path" .film_id
-    "title" .title
+    "title" (index $titoli .film_id).titolo
     "kind" "page"
     "type" "posters"
     "layout" "film"

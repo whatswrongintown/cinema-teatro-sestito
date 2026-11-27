@@ -18,13 +18,13 @@ didascalia="..." adds a sentence under the caption.
 {{- else if eq $lato "destra" }}{{ $classe = printf "%s article-poster-right" $classe }}{{ end -}}
 {{- $primo := "" }}{{ with $m.film.screening_dates }}{{ $primo = index . 0 }}{{ end -}}
 <figure class="{{ $classe }}">
-  <a class="lightbox-image" href="{{ $p.large | relURL }}" data-caption="{{ $m.film.title }} ({{ $m.formato }})"{{ with $m.pagina }} data-film-url="{{ .RelPermalink }}"{{ end }}>
+  <a class="lightbox-image" href="{{ $p.large | relURL }}" data-caption="{{ $m.titolo }} ({{ $m.formato }})"{{ with $m.pagina }} data-film-url="{{ .RelPermalink }}"{{ end }}>
     <img src="{{ $p.thumb | relURL }}" srcset="{{ $p.thumb | relURL }} {{ $p.thumb_width }}w, {{ $p.large | relURL }} {{ $p.large_width }}w"
          sizes="(min-width: 900px) 340px, 90vw" width="{{ $p.thumb_width }}" height="{{ $p.thumb_height }}"
-         alt="{{ $m.film.title }}, {{ lower $m.formato }}" loading="lazy" decoding="async">
+         alt="{{ $m.titolo }}, {{ lower $m.formato }}" loading="lazy" decoding="async">
   </a>
   <figcaption>
-    {{- with $m.pagina }}<a class="no-lightbox" href="{{ .RelPermalink }}">{{ end }}<strong>{{ $m.film.title }}</strong>{{ if $m.pagina }}</a>{{ end }}
+    {{- with $m.pagina }}<a class="no-lightbox" href="{{ .RelPermalink }}">{{ end }}<strong>{{ $m.titolo }}</strong>{{ if $m.pagina }}</a>{{ end }}
     {{- with $m.film.production_year }} ({{ . }}){{ end }} · {{ $m.formato }}
     {{- with $primo }} · in sala il {{ . | time.AsTime | time.Format "2 January 2006" }}{{ end }}
     {{- with .Get "didascalia" }}<br>{{ . }}{{ end }}

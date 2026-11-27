@@ -34,7 +34,7 @@
            srcset="{{ $m.poster.thumb | relURL }} {{ $m.poster.thumb_width }}w, {{ $m.poster.large | relURL }} {{ $m.poster.large_width }}w"
            sizes="(min-width: 900px) 240px, 38vw"
            width="{{ $m.poster.thumb_width }}" height="{{ $m.poster.thumb_height }}"
-           alt="{{ $m.film.title }}, {{ lower $m.formato }}" decoding="async">
+           alt="{{ $m.titolo }}, {{ lower $m.formato }}" decoding="async">
       {{- end }}
       {{- $m := index . 0 }}
       <a class="hero-poster hero-poster-0" href="{{ with $m.pagina }}{{ .RelPermalink }}{{ end }}">
@@ -42,7 +42,7 @@
              srcset="{{ $m.poster.thumb | relURL }} {{ $m.poster.thumb_width }}w, {{ $m.poster.large | relURL }} {{ $m.poster.large_width }}w"
              sizes="(min-width: 900px) 300px, 55vw"
              width="{{ $m.poster.large_width }}" height="{{ $m.poster.large_height }}"
-             alt="{{ $m.film.title }}, {{ lower $m.formato }}" fetchpriority="high" decoding="async">
+             alt="{{ $m.titolo }}, {{ lower $m.formato }}" fetchpriority="high" decoding="async">
       </a>
     </div>
     {{- end }}

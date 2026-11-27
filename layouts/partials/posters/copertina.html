@@ -20,7 +20,7 @@ Call with: partial "posters/copertina.html" (dict "sezione" $section "usati" $id
   {{- with $sec.Params.genre }}{{ if not (in $film.genre_slugs .) }}{{ continue }}{{ end }}{{ end -}}
   {{- with $sec.Params.source }}{{ if not (index $filtro $film.film_id) }}{{ continue }}{{ end }}{{ end -}}
   {{- with $sec.Params.country }}{{ if not (index $filtro $film.film_id) }}{{ continue }}{{ end }}{{ end -}}
-  {{- with $sec.Params.letter }}{{ if ne $film.letter . }}{{ continue }}{{ end }}{{ end -}}
+  {{- with $sec.Params.letter }}{{ if ne (index (partialCached "posters/titoli.html" $sec "titoli") $film.film_id).lettera . }}{{ continue }}{{ end }}{{ end -}}
   {{- with $sec.Params.year -}}
     {{- $anno := int . }}{{ $ok := false -}}
     {{- range $film.screenings }}{{ if eq (int .year) $anno }}{{ $ok = true }}{{ end }}{{ end -}}
@@ -38,7 +38,7 @@ Call with: partial "posters/copertina.html" (dict "sezione" $section "usati" $id
   {{- $score := cond (eq $p.orientation "portrait") (add $voti 1e9) $voti -}}
   {{- if gt $score $bestScore -}}
     {{- $bestScore = $score -}}
-    {{- $best = dict "film" $film "poster" $p "formato" (printf "%s %s" (index $labels $p.category | default ($p.category | title)) $p.size) -}}
+    {{- $best = dict "film" $film "titolo" (index (partialCached "posters/titoli.html" . "titoli") $film.film_id).titolo "poster" $p "formato" (printf "%s %s" (index $labels $p.category | default ($p.category | title)) $p.size) -}}
   {{- end -}}
 {{- end -}}
 {{- return $best -}}

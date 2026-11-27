@@ -14,6 +14,7 @@ All documentation lives in this folder. Assistant rules are in
 | [Italian text evidence](italian-text-evidence.md) | What each count measures, the 79 title differences classified, four statements checked against the scans, and the physical checks left |
 | [Text decisions](decisioni-testi.md) | The owner's decisions on the Italian text review |
 | [Style guide](guida-di-stile.md) | Rules for all Italian text visitors see: registers, person, tenses, glossary, titles, dates, numbers, punctuation, model passages; read before writing |
+| [Title capitals](titoli-maiuscole.md) | Proposed sentence-case display titles (F3), for the owner to check; not applied |
 | [To check](da-verificare.md) | Facts and titles to check on documents and data before the text changes are published, and contradictions between decisions and evidence |
 
 ## Rules

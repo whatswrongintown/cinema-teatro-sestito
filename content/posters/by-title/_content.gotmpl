@@ -1,6 +1,6 @@
-{{/* One section page per initial letter found in data/posters/films.json. */}}
+{{/* One section page per initial letter of the display titles (partials/posters/titoli.html). */}}
 {{ $letters := slice }}
-{{ range hugo.Data.posters.films.films }}{{ $letters = $letters | append .letter }}{{ end }}
+{{ range partialCached "posters/titoli.html" . "titoli" }}{{ $letters = $letters | append .lettera }}{{ end }}
 {{ range $letters | uniq }}
   {{ $slug := cond (eq . "#") "0-9" (lower .) }}
   {{ $page := dict

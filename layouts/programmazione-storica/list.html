@@ -78,7 +78,7 @@ to the interactive dashboard.
         {{- with $m.manifesti }}
         <ul class="decade-posters">
           {{- range . }}
-          <li><a href="{{ with .pagina }}{{ .RelPermalink }}{{ end }}"><img src="{{ .poster.thumb | relURL }}" width="{{ .poster.thumb_width }}" height="{{ .poster.thumb_height }}" alt="{{ .film.title }}" loading="lazy" decoding="async"><span class="decade-poster-title">{{ .film.title }}</span></a></li>
+          <li><a href="{{ with .pagina }}{{ .RelPermalink }}{{ end }}"><img src="{{ .poster.thumb | relURL }}" width="{{ .poster.thumb_width }}" height="{{ .poster.thumb_height }}" alt="{{ .titolo }}" loading="lazy" decoding="async"><span class="decade-poster-title">{{ .film.title }}</span></a></li>
           {{- end }}
         </ul>
         {{- else }}

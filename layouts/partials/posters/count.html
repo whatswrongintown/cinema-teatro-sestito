@@ -12,7 +12,7 @@
   {{ with $section.Params.genre }}{{ $matches = and $matches (in $film.genre_slugs .) }}{{ end }}
   {{ with $section.Params.source }}{{ $matches = and $matches (index $filtro $film.film_id) }}{{ end }}
   {{ with $section.Params.country }}{{ $matches = and $matches (index $filtro $film.film_id) }}{{ end }}
-  {{ with $section.Params.letter }}{{ $matches = and $matches (eq $film.letter .) }}{{ end }}
+  {{ with $section.Params.letter }}{{ $matches = and $matches (eq (index (partialCached "posters/titoli.html" $section "titoli") $film.film_id).lettera .) }}{{ end }}
   {{ with $section.Params.year }}
     {{ $year := int . }}
     {{ $screened := false }}

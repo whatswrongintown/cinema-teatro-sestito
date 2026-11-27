@@ -35,10 +35,10 @@
       <p class="label poster-day-kicker">Manifesto del giorno</p>
       <a href="{{ with .pagina }}{{ .RelPermalink }}{{ end }}" class="poster-day-link no-lightbox">
         <img src="{{ .poster.large | relURL }}" width="{{ .poster.large_width }}" height="{{ .poster.large_height }}"
-             alt="{{ .film.title }}, {{ lower .formato }}" fetchpriority="high" decoding="async">
+             alt="{{ .titolo }}, {{ lower .formato }}" fetchpriority="high" decoding="async">
       </a>
       <figcaption>
-        <span class="poster-day-title">{{ .film.title }}</span>
+        <span class="poster-day-title">{{ .titolo }}</span>
         <span class="label poster-day-meta">{{ with .film.production_year }}{{ . }} · {{ end }}{{ .formato }}</span>
         {{- with .film.screening_dates }}
         <span class="poster-day-note">In sala {{ index . 0 | time.AsTime | time.Format "2 January 2006" }}</span>

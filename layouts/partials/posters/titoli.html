@@ -1,0 +1,74 @@
+{{- /*
+Display titles of the poster films (style guide, section 5; batch 4).
+For each film in data/posters/films.json (left unchanged) it returns:
+  titolo     the title the film was shown under in San Vito: the most frequent
+             title for its IMDb ID in static/data/programmazione_agende.csv
+             (ties: the earliest); a trailing "(…)" that only repeats the
+             original title is dropped. Films with no programming row keep the
+             films.json title. Typographic apostrophe and ellipsis (’ …).
+  originale  the IMDb original title, when it differs from titolo (shown as
+             "Titolo originale: …"); otherwise "".
+  chiave     sort key: titolo in lower case without accents, leading article
+             removed (il, lo, la, i, gli, le, l’, un, uno, una; English the,
+             an). Italian "a" is a preposition and stays, so "A 30 secondi
+             dalla fine" sorts under A (F7); "A" is dropped only in the
+             English titles named below.
+  lettera    initial letter of chiave, "#" for a digit.
+Call with: partialCached "posters/titoli.html" . "titoli"   (returns a dict
+film_id -> dict; content adapters call it too)
+*/ -}}
+{{- $s := newScratch -}}
+{{- /* Count every programming title per IMDb ID, in date order. */ -}}
+{{- $csv := resources.Get "data/programmazione_agende.csv" | transform.Unmarshal -}}
+{{- range after 1 $csv -}}
+  {{- $id := strings.TrimSpace (index . 1) -}}
+  {{- $t := strings.TrimSpace (replaceRE `\s+` " " (index . 2)) -}}
+  {{- if and $id $t -}}
+    {{- $k := printf "%s|%s" $id $t -}}
+    {{- if not ($s.Get (printf "n|%s" $k)) }}{{ $s.Add (printf "ordine|%s" $id) (slice $t) }}{{ end -}}
+    {{- $s.Add (printf "n|%s" $k) 1 -}}
+  {{- end -}}
+{{- end -}}
+{{- $norm := `[^a-z0-9]+` -}}
+{{- range hugo.Data.posters.films.films -}}
+  {{- $film := . -}}
+  {{- $originale := "" -}}
+  {{- with $film.extra }}{{ with index . "Original Title" }}{{ $originale = index . 0 }}{{ end }}{{ end -}}
+  {{- $titolo := $film.title -}}
+  {{- with $film.imdb_id -}}
+    {{- $id := . -}}
+    {{- $best := 0 -}}
+    {{- range $s.Get (printf "ordine|%s" $id) -}}
+      {{- $n := $s.Get (printf "n|%s|%s" $id .) -}}
+      {{- if gt $n $best }}{{ $best = $n }}{{ $titolo = . }}{{ end -}}
+    {{- end -}}
+  {{- end -}}
+  {{- /* Drop a trailing "(…)" that only repeats the original or the IMDb title. */ -}}
+  {{- with findRESubmatch `^(.+?)\s*\(([^()]+)\)$` $titolo 1 -}}
+    {{- $tra := replaceRE $norm "" (lower (index . 0 2)) -}}
+    {{- if or (eq $tra (replaceRE $norm "" (lower $originale))) (eq $tra (replaceRE $norm "" (lower $film.title))) -}}
+      {{- $titolo = index . 0 1 -}}
+    {{- end -}}
+  {{- end -}}
+  {{- $titolo = replace (replace (strings.TrimSpace $titolo) "..." "…") "'" "’" -}}
+  {{- $orig := "" -}}
+  {{- with $originale -}}
+    {{- $a := replaceRE $norm "" (lower (replace (replace . "…" "...") "’" "'")) -}}
+    {{- $b := replaceRE $norm "" (lower (replace (replace $titolo "…" "...") "’" "'")) -}}
+    {{- if ne $a $b }}{{ $orig = replace (replace . "..." "…") "'" "’" }}{{ end -}}
+  {{- end -}}
+  {{- /* Sort key and letter. */ -}}
+  {{- $k := lower $titolo -}}
+  {{- range $da, $a := dict "à" "a" "á" "a" "â" "a" "ä" "a" "è" "e" "é" "e" "ê" "e" "ë" "e" "ì" "i" "í" "i" "î" "i" "ï" "i" "ò" "o" "ó" "o" "ô" "o" "ö" "o" "ù" "u" "ú" "u" "û" "u" "ü" "u" "ç" "c" "ñ" "n" "ß" "ss" -}}
+    {{- $k = replace $k $da $a -}}
+  {{- end -}}
+  {{- $k = strings.Trim (replaceRE `[^a-z0-9]+` "-" $k) "-" -}}
+  {{- /* Italian and English articles; Italian "a" is a preposition and stays,
+         except in the English titles listed here, where it is the article. */ -}}
+  {{- $k = replaceRE `^(il|lo|la|i|gli|le|l|un|uno|una|the|an)-` "" $k -}}
+  {{- if findRE `^a-(beautiful-mind|scent-of-heather)$` $k 1 }}{{ $k = substr $k 2 }}{{ end -}}
+  {{- $lettera := upper (substr $k 0 1) -}}
+  {{- if findRE `^[0-9]` $k 1 }}{{ $lettera = "#" }}{{ end -}}
+  {{- $s.SetInMap "out" $film.film_id (dict "titolo" $titolo "originale" $orig "chiave" $k "lettera" $lettera) -}}
+{{- end -}}
+{{- return $s.Get "out" -}}

@@ -6,7 +6,7 @@ Call with: partial "posters/descrizione.html" .
 {{- $d := "" -}}
 {{- if eq .Layout "film" -}}
   {{- $film := index (partialCached "posters/film-map.html" .) .Params.film_id -}}
-  {{- $titolo := $film.title -}}
+  {{- $titolo := (index (partialCached "posters/titoli.html" . "titoli") .Params.film_id).titolo -}}
   {{- with $film.production_year }}{{ $titolo = printf "%s (%s)" $titolo . }}{{ end -}}
   {{- $conRegia := $titolo -}}
   {{- with $film.extra }}{{ with .Directors }}{{ $conRegia = printf "%s, regia di %s" $titolo (index . 0) }}{{ end }}{{ end -}}

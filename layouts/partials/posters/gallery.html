@@ -39,15 +39,15 @@
       {{ $filmURL := .page.RelPermalink }}
       <article class="poster-card poster-{{ $poster.orientation }} poster-cat-{{ $poster.category }}"
                {{- if and $toScale .sheet.w }} style="--w: {{ printf "%.1f" .sheet.w }}; --h: {{ printf "%.1f" .sheet.h }}"{{ end }}>
-        <a href="{{ $poster.large | relURL }}" title="{{ $film.title }}" class="lightbox-image"
-           data-caption="{{ $film.title }} ({{ $poster.category | title }} {{ $poster.size }})"
+        <a href="{{ $poster.large | relURL }}" title="{{ (index (partialCached "posters/titoli.html" $ "titoli") $film.film_id).titolo }}" class="lightbox-image"
+           data-caption="{{ (index (partialCached "posters/titoli.html" $ "titoli") $film.film_id).titolo }} ({{ $poster.category | title }} {{ $poster.size }})"
            data-film-url="{{ $filmURL }}">
           <img src="{{ $poster.thumb | relURL }}" width="{{ $poster.thumb_width }}"
                height="{{ $poster.thumb_height }}" loading="lazy" decoding="async"
                style="aspect-ratio: {{ $poster.thumb_width }} / {{ $poster.thumb_height }}"
                alt="{{ $poster.alt }}">        </a>
         <div class="poster-card-text">
-          <a class="poster-card-title no-lightbox" href="{{ $filmURL }}">{{ $film.title }}</a>
+          <a class="poster-card-title no-lightbox" href="{{ $filmURL }}">{{ (index (partialCached "posters/titoli.html" $ "titoli") $film.film_id).titolo }}</a>
           {{- with $film.production_year }}<span class="label poster-card-meta">{{ . }}</span>{{ end }}
         </div>
       </article>

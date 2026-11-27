@@ -151,8 +151,12 @@ a*; *submission* → *invio*; *il team di* → *gli organizzatori di*; *rating* 
   *Perversioni sessuali a Las Vegas* (*Showgirls*, 1986).
 - **Display:** Italian titles in sentence case, proper names kept (*I cavalieri
   dalle maschere nere (I Beati Paoli)*); foreign titles unchanged. Typographic ’ and … everywhere.
-- **Sorting:** *A 30 secondi dalla fine* under A (a preposition, not an
-  article).
+- **Sorting:** skip the articles *il, lo, la, i, gli, le, l’, un, uno, una,
+  un’* and English *the, an*; Italian *a* is a preposition, so *A 30 secondi
+  dalla fine* and *A letto con il nemico* sort under A (*A Beautiful Mind*,
+  English, under B).
+- **Original title:** on film pages, *Titolo originale: …* (in italics) only
+  when it differs from the title shown in San Vito.
 
 ## 6. Capitals (C1–C5)
 

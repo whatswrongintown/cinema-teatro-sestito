@@ -22,8 +22,8 @@
       <li>
         <a href="{{ with .pagina }}{{ .RelPermalink }}{{ end }}">
           <img src="{{ .poster.thumb | relURL }}" width="{{ .poster.thumb_width }}" height="{{ .poster.thumb_height }}"
-               alt="{{ .film.title }}, {{ lower .formato }}" loading="lazy" decoding="async">
-          <span class="poster-strip-title">{{ .film.title }}</span>
+               alt="{{ .titolo }}, {{ lower .formato }}" loading="lazy" decoding="async">
+          <span class="poster-strip-title">{{ .titolo }}</span>
           <span class="label poster-strip-meta">{{ with .film.production_year }}{{ . }} · {{ end }}{{ .formato }}</span>
         </a>
       </li>
