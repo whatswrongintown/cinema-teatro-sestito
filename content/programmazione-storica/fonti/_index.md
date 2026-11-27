@@ -14,7 +14,7 @@ image: "agenda_fedi_54_55.webp"
 
 ![Copertina dell'agenda Fedi 1954-55](agenda_fedi_54_55.webp)
 
-Il grafico mostra quali fonti coprono ciascun decennio. Più sotto trovi i tipi di fonte: in ciascuno, ogni documento ha la sua pagina con le scansioni e i film in cartellone che documenta.
+Il grafico mostra quali fonti coprono ciascun decennio. Più sotto trovate i tipi di fonte: in ciascuno, ogni documento ha la sua pagina con le scansioni e i film in cartellone che documenta.
 
 {{< grafico nome="fonti-per-decennio" alt="Citazioni nelle fonti per decennio, per tipo di fonte" >}}
 

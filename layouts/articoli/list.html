@@ -38,7 +38,7 @@ its image, the newest story as the lead, then the others as cards.
             <span class="label story-kicker">L'ultima storia{{ with $cat }} · {{ .LinkTitle }}{{ end }} · {{ $p.Date | time.Format ":date_long" }}</span>
             <span class="story-title">{{ $p.Title }}</span>
             {{- with $p.Description }}<span class="story-text">{{ strings.FirstUpper . }}</span>{{ end }}
-            <span class="label home-more">Leggi · {{ $p.ReadingTime }} min</span>
+            <span class="label home-more">{{ $p.ReadingTime }} min di lettura →</span>
           </span>
         </a>
       </article>

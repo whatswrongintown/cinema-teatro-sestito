@@ -6,12 +6,10 @@
       <p class="label home-kicker">Errore 404 · pagina non trovata</p>
       <h1 id="notfound-title" class="home-title posters-title">Fuori <em>programma</em></h1>
       <div class="home-lead notfound-text">
-        <p>Beh, questo è un problema. Sembra che tu sia finito su una pagina che non esiste. Mi dispiace.</p>
-        <p>Puoi tornare alla pagina principale, scegliere una sezione qui sotto oppure {{ with site.Params.email }}<a href="mailto:{{ . }}">mandarmi una mail</a>{{ else }}mandarmi una mail{{ end }} dicendomi cosa stavi cercando quando sei finito qui.</p>
-        <p>Ti auguro una buona giornata, e spero che troverai ciò che stavi cercando. Vito</p>
+        <p>Questa pagina non esiste o è stata spostata. Potete tornare alla <a href="{{ "/" | relURL }}">Home</a> o cercare tra le sezioni del sito. Se pensate che manchi qualcosa, scrivete dal <a href="{{ "/" | relURL }}#ricordi">modulo contatti</a>.</p>
       </div>
       <div class="home-actions">
-        <a class="button label" href="{{ "/" | relURL }}">Torna alla home</a>
+        <a class="button label" href="{{ "/" | relURL }}">Home</a>
       </div>
       <nav class="chips" aria-label="Sezioni del sito">
         <ul>

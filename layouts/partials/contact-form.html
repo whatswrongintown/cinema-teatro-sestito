@@ -1,12 +1,12 @@
 <section class="contact-section" aria-labelledby="contact-form-title">
-  <h2 id="contact-form-title">Condividi un ricordo</h2>
-  <p>Hai un ricordo di una serata al cinema, di uno spettacolo teatrale o un aneddoto da raccontare? Se conservi fotografie del cinema, raccontacelo nel messaggio.</p>
+  <h2 id="contact-form-title">Condividete un ricordo</h2>
+  <p>Avete un ricordo di una serata al cinema, di uno spettacolo teatrale o un aneddoto da raccontare? Se conservate fotografie del cinema, raccontatelo nel messaggio.</p>
   <p>I messaggi sono privati e non saranno pubblicati senza un accordo separato.</p>
 
   <form name="ricordi-cinema" method="POST" action="{{ "grazie/" | relURL }}" data-netlify="true" netlify-honeypot="bot-field">
     <input type="hidden" name="form-name" value="ricordi-cinema">
     <p class="form-honeypot" hidden>
-      <label>Lascia vuoto questo campo: <input name="bot-field"></label>
+      <label>Lasciate vuoto questo campo: <input name="bot-field"></label>
     </p>
 
     <div class="form-field">
@@ -16,20 +16,21 @@
 
     <div class="form-field">
       <label for="contact-email">Email per una risposta <span>(facoltativa)</span></label>
-      <input id="contact-email" name="email" type="email" autocomplete="email">
+      <input id="contact-email" name="email" type="email" autocomplete="email" aria-describedby="contact-email-hint">
+      <p id="contact-email-hint" class="form-hint">Per ricevere una risposta, inserite l'email.</p>
     </div>
 
     <div class="form-field">
-      <label for="contact-message">Il tuo messaggio</label>
+      <label for="contact-message">Il vostro messaggio</label>
       <textarea id="contact-message" name="message" rows="6" required></textarea>
     </div>
 
     <div class="form-checkbox">
       <input id="publication-followup" name="publication-followup" type="checkbox" value="yes">
-      <label for="publication-followup">Puoi ricontattarmi per parlare di un'eventuale pubblicazione separata del mio ricordo. Se desideri essere ricontattato, inserisci anche l'email.</label>
+      <label for="publication-followup">Autorizzo il gestore del sito a ricontattarmi per un'eventuale pubblicazione separata del ricordo.</label>
     </div>
 
-    <p class="form-privacy">Leggi l'<a href="{{ "privacy/" | relURL }}">informativa sulla privacy</a> prima di inviare il messaggio.</p>
+    <p class="form-privacy">Leggete l'<a href="{{ "privacy/" | relURL }}">informativa sulla privacy</a> prima di inviare il messaggio.</p>
     <button type="submit">Invia il messaggio</button>
   </form>
 </section>

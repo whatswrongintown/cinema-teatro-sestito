@@ -38,7 +38,7 @@ to the interactive dashboard.
   {{- with .Params.ingressi }}
   <section class="programme-cards tone-light" aria-labelledby="programme-cards-title">
     <div class="wrap">
-      <p class="label home-kicker">Consulta la programmazione</p>
+      <p class="label home-kicker">La programmazione</p>
       <h2 id="programme-cards-title" class="home-h2">Quattro modi di leggere il cartellone</h2>
       <ul class="category-cards">
         {{- range . }}
@@ -94,7 +94,7 @@ to the interactive dashboard.
       <div>
         <h2 id="programme-intro-title" class="home-h2">Una programmazione <em>eterogenea</em></h2>
         {{- with site.GetPage "/articoli/2023-09-23-esplora-la-storia-cinematografica-di-san-vito-sullo-ionio" }}
-        <p class="programme-explore"><a class="button label" href="{{ .RelPermalink }}">Esplora i dati</a></p>
+        <p class="programme-explore"><a class="button label" href="{{ .RelPermalink }}">I dati →</a></p>
         {{- end }}
       </div>
       <div class="home-intro-text">{{ .Content }}</div>

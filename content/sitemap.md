@@ -6,14 +6,14 @@ lastmod: "2026-11-26"
 description: "Pagina per la mappa del sito"
 ---
 
-Un elenco di tutte le pagine e gli articoli presenti sul sito. Se non trovi quello che cerchi non esitare a [contattarmi](mailto:whatswrongintown@gmail.com).
+Un elenco di tutte le pagine e gli articoli presenti sul sito. Se non trovate quello che cercate, scrivete dal [modulo contatti](/#ricordi).
 
 * [Home](/)
-* [Progetto](/progetto/)
+* [Il progetto](/progetto/)
   * [Verso la riapertura](/riapertura/)
   * [Programmazione storica](/programmazione-storica/)
   * [Manifesti e locandine](/posters/)
-  * [Articoli e racconti](/articoli/)
+  * [Storie](/articoli/)
   * [Archivio](/archivio/)
 * [Eventi](/eventi/)
 * [Categorie](/categories/) e [argomenti](/tags/)

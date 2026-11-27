@@ -1,5 +1,5 @@
 ---
-title: "Articoli e racconti"
+title: "Storie"
 author: "Vito Sestito"
 date: "2023-05-24"
 description: "Approfondimenti, biografie e testimonianze legate al Cinema Teatro Sestito e alla storia del cinema a San Vito."

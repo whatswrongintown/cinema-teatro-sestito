@@ -25,11 +25,11 @@ Una nota sui manifesti: sono quelli che la sala affiggeva in piazza, sotto gli o
 
 Negli anni Settanta la televisione aveva portato lo spettacolo in casa, e in tutta Italia le sale di provincia cercavano un modo nuovo di attirare il pubblico e di restare aperte. A San Vito, secondo la ricostruzione di famiglia, la scelta fu prima di tutto economica. È possibile che ci fosse anche una ragione culturale: in un paese in cui la vita sociale ruotava intorno alla chiesa, quelle serate offrivano un luogo dove «evadere». È una lettura plausibile, non un dato.
 
-La domanda, del resto, veniva dal pubblico: secondo la famiglia erano gli spettatori a chiedere questi film, in quella che allora sembrava una moda come le altre, e per questo Stefano Sestito, figlio del fondatore, cominciò a portarli in sala. A scegliere il programma fu prima il fondatore, Vito Sestito, e poi lo stesso Stefano; Vito morì nel 1985, quando il genere era ormai da anni in cartellone.
+La domanda, del resto, veniva dal pubblico: secondo la famiglia erano gli spettatori a chiedere questi film, in quella che allora sembrava una moda come le altre, e per questo Stefano Sestito, figlio del fondatore, cominciò a portarli in sala. A scegliere il programma fu prima il fondatore, Vito Sestito (1902–1985), e poi lo stesso Stefano; Vito morì nel 1985, quando il genere era ormai da anni in cartellone.
 
-Il Sestito programmava anche molti film di *exploitation*: pellicole girate con pochi mezzi, che per la sala costavano poco e che il pubblico non avrebbe visto in televisione. Il termine indica i film che «sfruttano» un tema o una moda del momento (il western, il poliziesco, l'horror, la commedia sexy) puntando su titoli forti e manifesti vistosi. I film per adulti ne furono una variante, e a giudicare dagli incassi funzionavano.
+Il Cinema Sestito programmava anche molti film di *exploitation*: pellicole girate con pochi mezzi, che per la sala costavano poco e che il pubblico non avrebbe visto in televisione. Il termine indica i film che «sfruttano» un tema o una moda del momento (il western, il poliziesco, l'horror, la commedia sexy) puntando su titoli forti e manifesti vistosi. I film per adulti ne furono una variante, e a giudicare dagli incassi funzionavano.
 
-Non fu un caso isolato. Secondo una ricostruzione giornalistica, nel 1981 in Italia c'erano circa 1.500 sale «a luci rosse», e il nome sarebbe nato a Milano, al cinema Majestic, nel 1977: lo stesso anno in cui nelle fonti del Sestito compare il primo titolo per adulti.[^1]
+Non fu un caso isolato. Secondo una ricostruzione giornalistica, nel 1981 in Italia c'erano circa 1.500 sale «a luci rosse», e il nome sarebbe nato a Milano, al cinema Majestic, nel 1977: lo stesso anno in cui nelle fonti del Cinema Sestito compare il primo titolo per adulti.[^1]
 
 ## Come funzionava la serata
 
@@ -109,7 +109,7 @@ I confini del genere restano comunque sfocati. Tra i titoli per adulti c'è anch
 
 ## La fine
 
-Le ultime proiezioni per adulti sono del 1993 e del 1994. Secondo la ricostruzione di famiglia, il cinema si stava lentamente spegnendo e la cultura aveva cominciato a distanziarsi da quella degli anni Settanta. Il quadro nazionale va nella stessa direzione: secondo le ricostruzioni giornalistiche, la crisi delle sale a luci rosse cominciò con le videocassette.[^1] Il Sestito proiettò per l'ultima volta nel 2004.
+Le ultime proiezioni per adulti sono del 1993 e del 1994. Secondo la ricostruzione di famiglia, il cinema si stava lentamente spegnendo e la cultura aveva cominciato a distanziarsi da quella degli anni Settanta. Il quadro nazionale va nella stessa direzione: secondo le ricostruzioni giornalistiche, la crisi delle sale a luci rosse cominciò con le videocassette.[^1] Il Cinema Sestito proiettò per l'ultima volta nel 2004.
 
 Questo racconto è ancora incompleto: mancano le serate che restano nella memoria dei testimoni, i volti del pubblico. Chi ricorda quelle serate può [condividere un ricordo](/#ricordi): ogni messaggio resta privato e non viene pubblicato senza un accordo separato.
 

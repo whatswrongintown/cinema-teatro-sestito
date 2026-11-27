@@ -3,7 +3,7 @@ Generic page (redesign U07): Progetto, privacy, site map, the form's thank-you
 page and any page without its own template. Dark header with the section (if
 any), title, description and last update; the text on paper. With three or
 more level-2 headings (or `toc: true`), a sticky table of contents sits beside
-the text. Front matter `ricordi: true` adds a "Condividi un ricordo" band that
+the text. Front matter `ricordi: true` adds a "Condividete un ricordo" band that
 links to the form on the home page.
 */ -}}
 {{ partial "header.html" . }}
@@ -37,10 +37,10 @@ links to the form on the home page.
   <section class="home-riapertura page-ricordi" aria-labelledby="page-ricordi-title">
     <div class="wrap">
       <p class="label home-kicker">Partecipa</p>
-      <h2 id="page-ricordi-title" class="home-h2 home-riapertura-title">Condividi un <em>ricordo</em></h2>
-      <p class="home-riapertura-text">Hai un ricordo di una serata al cinema, di uno spettacolo teatrale o un aneddoto da raccontare? Se conservi fotografie del cinema, raccontacelo.</p>
+      <h2 id="page-ricordi-title" class="home-h2 home-riapertura-title">Condividete un <em>ricordo</em></h2>
+      <p class="home-riapertura-text">Avete un ricordo di una serata al cinema, di uno spettacolo teatrale o un aneddoto da raccontare? Se conservate fotografie del cinema, raccontatelo.</p>
       <div class="home-actions">
-        <a class="button label" href="{{ "/" | relURL }}#ricordi">Scrivi un ricordo</a>
+        <a class="button label" href="{{ "/" | relURL }}#ricordi">Il vostro ricordo →</a>
         {{- with site.Params.instagram }}<a class="button button-ghost label" href="https://www.instagram.com/{{ . }}/" rel="noopener">Instagram</a>{{ end }}
       </div>
     </div>

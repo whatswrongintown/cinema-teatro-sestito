@@ -14,7 +14,7 @@ tags:
 ---
 ![Esempio di calendario dove venivano segnati i film](images/hero_image.png)
 
-La ricostruzione della [programmazione storica](/programmazione-storica/) del Cinema è partita da un insieme di documenti conservati nell'archivio di famiglia. Si tratta principalmente di agende, calendari e appunti utilizzati nel corso degli anni per annotare i film proiettati nella sala.
+La ricostruzione della [programmazione storica](/programmazione-storica/) del cinema è partita da un insieme di documenti conservati nell'archivio di famiglia. Si tratta principalmente di agende, calendari e appunti utilizzati nel corso degli anni per annotare i film proiettati nella sala.
 
 Questi materiali hanno permesso di ricostruire una parte significativa dell'attività del cinema, ma non costituiscono un registro completo delle proiezioni. Per questo motivo, il lavoro non si è limitato alla trascrizione dei titoli: è stato necessario confrontare le diverse fonti, identificare i film, organizzare le informazioni e stabilire criteri per rendere consultabile il materiale, mantenendo traccia delle incertezze e dei limiti della documentazione.
 
@@ -120,12 +120,12 @@ Lo stesso criterio vale per i paesi di produzione. I film realizzati in coproduz
 
 ## I limiti della ricostruzione
 
-La ricostruzione presentata sul sito dipende direttamente dalla quantità e dalla qualità dei documenti conservati. Non è possibile considerarla un registro completo di tutta l'attività del Cinema: rappresenta piuttosto ciò che è stato possibile documentare attraverso le fonti oggi disponibili.
+La ricostruzione presentata sul sito dipende direttamente dalla quantità e dalla qualità dei documenti conservati. Non è possibile considerarla un registro completo di tutta l'attività del cinema: rappresenta piuttosto ciò che è stato possibile documentare attraverso le fonti oggi disponibili.
 
 Un limite particolarmente evidente riguarda il periodo 1960–1961, per il quale mancano alcune pagine dei documenti. In questi casi l'assenza di una voce nel database non dimostra che il cinema fosse chiuso o che non vi fossero proiezioni: indica semplicemente che non è stato possibile recuperare una documentazione sufficiente.
 
 Altri limiti derivano dalle condizioni materiali delle agende, dalle annotazioni incomplete e dalle discrepanze tra le diverse fonti. Anche quando un film è stato identificato, non sempre è stato possibile stabilire con assoluta certezza la data esatta della sua programmazione.
 
-Per questo motivo, il database deve essere considerato uno strumento di ricostruzione e consultazione, non una trascrizione definitiva e completa della storia del Cinema. Le informazioni sono state organizzate cercando di distinguere ciò che è attestato direttamente dai documenti da ciò che è stato ricostruito attraverso confronti e verifiche.
+Per questo motivo, il database deve essere considerato uno strumento di ricostruzione e consultazione, non una trascrizione definitiva e completa della storia del cinema. Le informazioni sono state organizzate cercando di distinguere ciò che è attestato direttamente dai documenti da ciò che è stato ricostruito attraverso confronti e verifiche.
 
 Il lavoro rimane aperto a nuove fonti, correzioni e integrazioni. Ogni documento recuperato può contribuire a precisare una data, completare un titolo o aggiungere un tassello alla ricostruzione della programmazione.

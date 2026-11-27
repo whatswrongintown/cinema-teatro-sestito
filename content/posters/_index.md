@@ -4,13 +4,13 @@ shareImage: "share-card.jpg"
 title: Manifesti e locandine
 type: posters
 layout: browse
-description: "Fotobuste, locandine e manifesti del cinema Sestito di San Vito sullo Ionio: la memoria visiva di una sala di provincia, da sfogliare per anno, formato, genere e titolo."
+description: "Fotobuste, locandine e manifesti del Cinema Sestito di San Vito sullo Ionio: la memoria visiva di una sala di provincia, da sfogliare per anno, formato, genere e titolo."
 params:
   # Landing page sections (layouts/partials/posters/landing.html).
-  occhiello: "La raccolta del cinema Sestito"
+  occhiello: "La raccolta del Cinema Sestito"
   sottotitolo: "Fotobuste, locandine e manifesti: l'immagine con cui ogni film si presentava al pubblico di San Vito sullo Ionio."
   introTitolo: "Un controcanto *grafico* al cartellone"
-  ingressiOcchiello: "Sfoglia la raccolta"
+  ingressiOcchiello: "La raccolta"
   ingressiTitolo: "Cinque modi di entrare"
   ingressi:
     - pagina: /posters/by-year
@@ -40,10 +40,10 @@ params:
       immagine: images/manifesti/large/retro/tt0268576_70x100_r_01.webp
 ---
 
-I **manifesti e le locandine** del cinema Sestito costituiscono la componente visiva dell'archivio documentario, restituendo l'immagine con cui ogni film si presentava al pubblico di San Vito sullo Ionio. Fotobuste, locandine e manifesti di grande formato, conservati nell'archivio della sala, accompagnano la programmazione ricostruita anno per anno e ne offrono un controcanto grafico, fatto di colori, caratteri tipografici e immaginario promozionale.
+I **manifesti e le locandine** del Cinema Sestito costituiscono la componente visiva dell'archivio documentario, restituendo l'immagine con cui ogni film si presentava al pubblico di San Vito sullo Ionio. Fotobuste, locandine e manifesti di grande formato, conservati nell'archivio della sala, accompagnano la programmazione ricostruita anno per anno e ne offrono un controcanto grafico, fatto di colori, caratteri tipografici e immaginario promozionale.
 
 Osservati nel loro insieme, questi materiali permettono di seguire l'evoluzione del linguaggio pubblicitario cinematografico, la varietà dei formati impiegati e le scelte di comunicazione adottate dalla sala. Accanto ai pezzi di produzione ufficiale compaiono anche i manifesti realizzati a mano, utilizzati quando il materiale originale non era disponibile: testimonianze preziose di un artigianato locale che ha contribuito a dare un volto alla programmazione.
 
-Per conoscere la provenienza dei materiali, i criteri di catalogazione e i limiti dell'archivio, consulta la [nota metodologica](/2026/11/11/metodologia-ricostruzione-programmazione/).
+Per conoscere la provenienza dei materiali, i criteri di catalogazione e i limiti dell'archivio, consultate la [nota metodologica](/2026/11/11/metodologia-ricostruzione-programmazione/).
 
 Questa raccolta nasce dall'intento di preservare e rendere accessibile la memoria visiva di un cinema di provincia, dove l'immagine stampata o scritta a mano era il primo invito alla visione e parte integrante della vita quotidiana del paese.

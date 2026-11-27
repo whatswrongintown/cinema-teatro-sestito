@@ -42,7 +42,7 @@ galleryDescriptions:
 
 Il secondo dopoguerra rappresentò per l’Italia un periodo di ricostruzione materiale e simbolica, in cui il cinema assunse un ruolo centrale come forma di svago collettivo e veicolo di modernità. Anche a **San Vito sullo Ionio**, piccolo centro della Calabria jonica, la nascita di una sala cinematografica fu il segno tangibile di questa rinascita.
 
-L’iniziativa si deve a **[Vito Sestito](/2023/04/20/la-storia-di-vito-sestito/)**, artigiano e imprenditore locale, la cui passione per la settima arte nacque nel 1946 durante le proiezioni al **Cinema Masceri di Catanzaro**. Quelle esperienze, vissute in un contesto di entusiasmo postbellico, lo spinsero a immaginare un luogo simile nel proprio paese.
+L’iniziativa si deve a **[Vito Sestito](/2023/04/20/la-storia-di-vito-sestito/)** (1902–1985), artigiano e imprenditore locale, la cui passione per la settima arte nacque nel 1946 durante le proiezioni al **Cinema Masceri di Catanzaro**. Quelle esperienze, vissute in un contesto di entusiasmo postbellico, lo spinsero a immaginare un luogo simile nel proprio paese.
           
 ## Le origini del progetto
           
@@ -86,7 +86,7 @@ Tali episodi rivelano il delicato equilibrio tra iniziativa culturale, controllo
 
 Nonostante le difficoltà, la sala di Piazza Mario Polerà divenne un **punto di riferimento per la vita culturale** di San Vito. Nel 1957, Sestito firmò un contratto con la **Publi-Enic**, società di pubblicità cinematografica, che gli garantì una piccola ma stabile entrata economica[^6]. Tale accordo segnò l’inizio di una nuova fase, che avrebbe portato alla costruzione di una sala più grande e moderna.
 
-La storia prosegue con la stagione di massimo splendore per il cinema a San Vito: [leggi «Gli anni d’oro del Cinema Teatro Sestito (1957–1979)»](/2025/11/05/gli-anni-d-oro-del-cinema-teatro-sestito/).
+La storia prosegue con la stagione di massimo splendore per il cinema a San Vito: [«Gli anni d’oro del Cinema Teatro Sestito (1957–1979)» →](/2025/11/05/gli-anni-d-oro-del-cinema-teatro-sestito/).
 
 [^1]: Questa parte introduttiva si basa su **testimonianze orali** raccolte dai figli e dai familiari di Vito Sestito, non su documenti diretti o scritti dal fondatore. La ricostruzione riflette pertanto una memoria condivisa e tramandata nel contesto familiare.         
 [^2]: *Acquisto fabbricato in Piazza Mario Polerà*, San Vito sullo Ionio, 1944. [Parte 1](/1944/03/02/acquisto-palazzo-in-piazza-mario-poler-parte-1/); [Parte 2](/1944/03/06/acquisto-palazzo-in-piazza-mario-poler-parte-2/); [Parte 3](/1944/03/15/acquisto-palazzo-in-piazza-mario-poler-parte-3/).

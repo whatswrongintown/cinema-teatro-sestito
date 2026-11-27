@@ -26,9 +26,19 @@ pulsante*). A sentence that carries no fact is cut, not reworded (G1–G3).
 
 ## 2. Grammatical person (P1–P3)
 
-- **Visitors: *voi*.** Forms and instructions included: *Avete un ricordo…*,
-  *raccontatelo nel messaggio*, *Scegliete un anno*. Never *tu*.
-- **The owner: *io*,** only in personal pages.
+- **Visitors: *voi*.** Instructions written as full sentences, forms
+  included: *Avete un ricordo…*, *raccontatelo nel messaggio*, *Scegliete un
+  anno*. Never *tu*.
+- **Buttons and link labels: nouns, not imperatives,** with an arrow when they
+  lead somewhere: *I manifesti →*, *Il progetto →*, *Verso la riapertura →*,
+  *I dati →*, *La riapertura →*; buttons to the memories form: *Il vostro
+  ricordo →*. Exceptions: *Home* (404 button), items in a list of links
+  (*Ricordi*, *Email*), *Precedente* / *Successiva*, and the menu button,
+  labelled *Menu* in both states (its `aria-expanded` says whether it is
+  open).
+- **The owner: *io*, only on personal pages** (articles, reopening, Retro).
+  Neutral pages (site map, privacy, section introductions, 404) never say
+  *io*: *Se non trovate quello che cercate, scrivete dal modulo contatti.*
 - **Data and method: impersonal.** *Per i criteri si veda la metodologia.*
 - ***noi*** only for a real group of people.
 - **Visitor speaking in a form:** *Autorizzo il gestore del sito a ricontattarmi

@@ -11,7 +11,7 @@ categories:
 tags:
   - Ricordi
 ---
-In questa intervista, Stefano Sestito – figlio di Vito Sestito e depositario della memoria familiare – ripercorre le tappe fondamentali della storia del Cinema, offrendo una narrazione personale che si intreccia con la storia culturale del paese.
+In questa intervista, Stefano Sestito – figlio di Vito Sestito (1902–1985) e depositario della memoria familiare – ripercorre le tappe fondamentali della storia del cinema, offrendo una narrazione personale che si intreccia con la storia culturale del paese.
 
 Il racconto si configura come una fonte orale di rilievo, utile per comprendere l’evoluzione della sala cinematografica, le scelte gestionali adottate nel tempo e il ruolo del cinema come spazio di aggregazione e trasformazione sociale. L’intervista restituisce non solo dati storici, ma anche la dimensione affettiva e identitaria che il cinema ha assunto per la comunità di San Vito sullo Ionio.
 

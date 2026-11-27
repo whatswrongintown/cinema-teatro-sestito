@@ -99,8 +99,7 @@ img {
   color: var(--curtain);
 }
 
-.menu-toggle,
-.menu-close {
+.menu-toggle {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -145,29 +144,53 @@ img {
   display: none;
 }
 
-/* Browsers without popover support: the list simply wraps under the logo. */
-@supports not selector(:popover-open) {
-  .menu-toggle { display: none; }
-  .site-header-inner { flex-wrap: wrap; padding-block: 12px; }
+/* The "Menu" button (nav.html, menu.js): hamburger when closed, cross when
+   open. Without JavaScript (no .js on <html>) the button is hidden and the
+   list wraps under the logo. */
+.menu-icon-close,
+.menu-toggle[aria-expanded="true"] .menu-icon-open {
+  display: none;
+}
+
+.menu-toggle[aria-expanded="true"] .menu-icon-close {
+  display: block;
+}
+
+html:not(.js) .menu-toggle {
+  display: none;
 }
 
 @media (max-width: 899px) {
-  .site-menu:popover-open {
+  html:not(.js) .site-header-inner {
+    flex-wrap: wrap;
+    padding-block: 12px;
+  }
+
+  .js .site-menu {
+    display: none;
+  }
+
+  /* The button stays in place, above the full-screen menu. */
+  .js .menu-toggle {
+    position: relative;
+    z-index: 20;
+  }
+
+  .js .menu-toggle[aria-expanded="true"] + .site-menu {
+    display: block;
     box-sizing: border-box;
     position: fixed;
     inset: 0;
+    z-index: 10;
     width: 100%;
     height: 100%;
-    max-width: none;
-    max-height: none;
     margin: 0;
     padding: 0 var(--gutter) 32px;
-    border: 0;
     border-top: 4px solid var(--curtain);
     overflow-y: auto;
   }
 
-  .site-menu:popover-open .site-menu-head {
+  .js .menu-toggle[aria-expanded="true"] + .site-menu .site-menu-head {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -175,14 +198,14 @@ img {
     border-bottom: 1px solid var(--rule);
   }
 
-  .site-menu:popover-open ul {
+  .js .menu-toggle[aria-expanded="true"] + .site-menu ul {
     flex-direction: column;
     align-items: stretch;
     gap: 0;
     margin-top: 16px;
   }
 
-  .site-menu:popover-open a:not(.button) {
+  .js .menu-toggle[aria-expanded="true"] + .site-menu a:not(.button) {
     display: block;
     padding: 14px 0;
     border-bottom: 1px solid var(--rule);
@@ -194,40 +217,24 @@ img {
     text-transform: none;
   }
 
-  .site-menu:popover-open a[aria-current] {
+  .js .menu-toggle[aria-expanded="true"] + .site-menu a[aria-current] {
     color: var(--curtain);
     font-style: italic;
   }
 
-  .site-menu:popover-open .site-menu-cta {
+  .js .menu-toggle[aria-expanded="true"] + .site-menu .site-menu-cta {
     margin-top: 28px;
   }
 
-  .site-menu:popover-open .button {
+  .js .menu-toggle[aria-expanded="true"] + .site-menu .button {
     display: block;
     padding: 16px 20px;
   }
 }
 
 @media (min-width: 900px) {
-  .menu-toggle,
-  .menu-close {
+  .menu-toggle {
     display: none;
-  }
-
-  /* The same <nav> shown inline: undo the popover's hidden state. */
-  .site-menu[popover] {
-    display: block;
-    position: static;
-    inset: auto;
-    width: auto;
-    height: auto;
-    margin: 0;
-    padding: 0;
-    border: 0;
-    overflow: visible;
-    background: transparent;
-    color: inherit;
   }
 }
 
@@ -257,6 +264,11 @@ img {
 
 .form-field label span {
   font-weight: normal;
+}
+
+.form-field .form-hint {
+  margin: 6px 0 0;
+  font-size: 0.9em;
 }
 
 .form-field input,

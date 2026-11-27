@@ -88,9 +88,13 @@ continues the header.
 - `layouts/partials/nav.html`: the wordmark "Cinema Teatro *Sestito*"
   (replaces the round avatar) and the `menu.main` entries from `config.yaml`;
   an entry with `params.cta: true` is drawn as a button. The current section
-  gets `aria-current`. Below 900 px the menu is a native `popover` opened by a
-  button: full screen, large tap targets, no JavaScript. Browsers without
-  popover support show the list inline.
+  gets `aria-current`. Below 900 px one button labelled "Menu" opens and closes
+  the menu (2026-11-27, replacing the popover and its separate close button):
+  `aria-expanded` and `aria-controls`, set by `static/js/menu.js`, which also
+  closes it on Escape, on a link and when the window widens. The menu is full
+  screen with large tap targets; the button stays above it and turns into a
+  cross. A one-line script in `head.html` adds `js` to `<html>`; without
+  JavaScript the button is hidden and the list wraps under the wordmark.
 - `layouts/partials/footer.html`: venue line, the menu, the Posters
   subsections (`/posters` sections), contacts, credits and links to privacy,
   site map and source code.

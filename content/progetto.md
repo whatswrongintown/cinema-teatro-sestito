@@ -7,7 +7,7 @@ description: "Il percorso di recupero, ricerca e valorizzazione del Cinema Teatr
 layout: "section"
 slug: "progetto"
 params:
-  # Adds the "Condividi un ricordo" band (layouts/_default/single.html).
+  # Adds the "Condividete un ricordo" band (layouts/_default/single.html).
   ricordi: true
 ---
 
@@ -17,7 +17,7 @@ Questo sito è dedicato al *Cinema Teatro Sestito*, storica sala cinematografica
 
 ## Storia
 
-Fondato nel 1946 da Vito Sestito, il cinema ha svolto un ruolo centrale nella vita pubblica del paese, configurandosi come spazio di aggregazione e di fruizione culturale. La sua attività si è sviluppata in un contesto in continua trasformazione, affrontando sfide significative come l’avvento della televisione, la diffusione dell’home video e i cambiamenti nei modelli di consumo audiovisivo.
+Fondato nel 1946 da Vito Sestito (1902–1985), il cinema ha svolto un ruolo centrale nella vita pubblica del paese, configurandosi come spazio di aggregazione e di fruizione culturale. La sua attività si è sviluppata in un contesto in continua trasformazione, affrontando sfide significative come l’avvento della televisione, la diffusione dell’home video e i cambiamenti nei modelli di consumo audiovisivo.
 
 Nel corso del tempo, il Cinema Sestito ha adottato strategie di adattamento che gli hanno consentito di mantenere una presenza attiva sul territorio, fino alla sua ultima proiezione nel 2004. Sebbene la sala abbia cessato l’attività, il suo lascito culturale continua a vivere attraverso i ricordi, i materiali d’archivio e le testimonianze raccolte in questo sito.
 
@@ -27,7 +27,7 @@ Per un approfondimento storico, si rimanda alla [serie di articoli](/categories/
 
 Vito Sestito, fondatore e gestore della sala, ha incarnato una visione del cinema come strumento di crescita culturale e coesione sociale. La sua opera si è distinta per l’impegno costante nel promuovere la fruizione cinematografica in un contesto periferico, contribuendo alla formazione di una cultura visiva condivisa. Il suo contributo, tanto alla comunità locale quanto alla storia del cinema italiano di provincia, rappresenta un esempio significativo di imprenditoria culturale.
 
-Approfondisci la figura del [fondatore](/2023/04/20/la-storia-di-vito-sestito/).
+Approfondite la figura del [fondatore](/2023/04/20/la-storia-di-vito-sestito/).
 
 ## Programmazione
 
@@ -37,7 +37,7 @@ A partire dagli anni Settanta, si assiste a una svolta significativa: la sala ad
 
 Questa trasformazione, lungi dall’essere marginale, riflette le pressioni del mercato e le esigenze di sostenibilità economica in un contesto di progressiva periferizzazione culturale. Nonostante tale eterogeneità, il Cinema Sestito ha continuato a svolgere una funzione aggregativa e culturale, offrendo uno spazio di osservazione delle trasformazioni sociali attraverso il medium cinematografico.
 
-Per ulteriori dettagli, visita la sezione dedicata alla [programmazione storica](/programmazione-storica/).
+Per ulteriori dettagli, visitate la sezione dedicata alla [programmazione storica](/programmazione-storica/).
 
 ## Eredità
 

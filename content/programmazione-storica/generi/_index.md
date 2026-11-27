@@ -5,7 +5,7 @@ linkTitle: "Generi"
 author: "Vito Sestito"
 date: '2025-12-02'
 lastmod: '2026-11-25'
-description: "I film proiettati al cinema Sestito, divisi per genere."
+description: "I film proiettati al Cinema Sestito, divisi per genere."
 image: "hero_banner_generi.jpg"
 slug: "generi"
 type: "programmazione-storica/generi"

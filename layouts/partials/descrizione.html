@@ -30,7 +30,7 @@ Call with: partial "descrizione.html" .
     {{- if eq .Data.Singular "category" -}}
       {{- $d = printf "Pagine del sito associate alla categoria %s." .Title -}}
     {{- else if eq .Data.Singular "tag" -}}
-      {{- $d = printf "Pagine del sito associate al tag %s." .Title -}}
+      {{- $d = printf "Pagine del sito sull'argomento %s." .Title -}}
     {{- else -}}
       {{- $d = printf "Pagine del sito associate al termine %s." .Title -}}
     {{- end -}}
@@ -38,7 +38,7 @@ Call with: partial "descrizione.html" .
     {{- if eq .Data.Plural "categories" -}}
       {{- $d = "Indice delle categorie del sito Cinema Teatro Sestito." -}}
     {{- else if eq .Data.Plural "tags" -}}
-      {{- $d = "Indice dei tag del sito Cinema Teatro Sestito." -}}
+      {{- $d = "Indice degli argomenti del sito Cinema Teatro Sestito." -}}
     {{- else -}}
       {{- $d = printf "Indice dei termini %s del sito Cinema Teatro Sestito." .Data.Plural -}}
     {{- end -}}

@@ -12,11 +12,11 @@ Colours and fonts come from static/css/grafici.css (classes g-*).
 {{- $nome := .nome }}
 {{- $d := .dati }}
 {{- $first := 1948 }}{{ $last := 1957 }}
-{{- $title := "Le prime stagioni del Cinema (1948–1957)" }}
+{{- $title := "Le prime stagioni del cinema (1948–1957)" }}
 {{- $sub := "Film per anno" }}
 {{- $caption := "" }}{{ $legend := false }}{{ $rating := false }}{{ $box := false }}
 {{- if eq $nome "articolo-rating" }}
-  {{- $title = "Distribuzione dei film per rating (1948–1957)" }}
+  {{- $title = "Distribuzione dei film per classificazione (1948–1957)" }}
   {{- $sub = "Classificazioni sopra “PG” indicano film inadatti alla gioventù e alla morale pubblica" }}
   {{- $legend = true }}{{ $rating = true }}
 {{- else if eq $nome "articolo-grande-schermo" }}

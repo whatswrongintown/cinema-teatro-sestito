@@ -344,7 +344,7 @@
     var descriptions = {
       mensili: 'Numero di film in cartellone per mese. Se sono selezionati tutti gli anni, i mesi sono sommati tra gli anni.',
       generi: 'Numero di titoli per genere nella selezione. Un film può appartenere a più generi; i totali quindi si sovrappongono.',
-      imdb: 'Una posizione per ogni film distinto con valutazione e voti positivi. Il numero di voti è su scala logaritmica; i dati provengono da IMDb. Passa il puntatore su un punto per vedere il titolo; la tabella dei valori contiene tutti i film.'
+      imdb: 'Una posizione per ogni film distinto con valutazione e voti positivi. Il numero di voti è su scala logaritmica; i dati provengono da IMDb. Passate il puntatore su un punto per vedere il titolo; la tabella dei valori contiene tutti i film.'
     };
     var chartNames = { mensili: 'Film per mese', generi: 'Generi cinematografici', imdb: 'Valutazioni IMDb' };
 

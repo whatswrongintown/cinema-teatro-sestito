@@ -3,7 +3,7 @@ title: "Benvenuti"
 author: "Vito Sestito"
 date: "2023-04-21"
 lastmod: "2026-11-26"
-description: "Scopri il Cinema Teatro Sestito di San Vito sullo Ionio: la sua storia, i manifesti, i documenti e il progetto per la riapertura."
+description: "Scoprite il Cinema Teatro Sestito di San Vito sullo Ionio: la sua storia, i manifesti, i documenti e il progetto per la riapertura."
 params:
   # Home page sections (layouts/index.html, layouts/partials/home/). Film
   # IDs refer to data/posters/films.json; pages are site paths.
@@ -45,8 +45,8 @@ params:
     titolo: "La sala può *riaccendersi*"
     testo: "Sebbene oggi le sue luci siano spente, il Cinema Sestito continua a vivere attraverso la ricerca, la memoria e la possibilità *– sempre aperta –* di un ritorno."
     pagina: /riapertura
-    etichetta: Segui il percorso
+    etichetta: "Il percorso →"
 ---
-Nato nel secondo dopoguerra per iniziativa di [Vito Sestito](/2023/04/20/la-storia-di-vito-sestito/), il cinema ha accompagnato la vita del paese attraverso una programmazione audace e anticonvenzionale, capace di mescolare i grandi titoli della storia del cinema, con titoli di nicchia e di frontiera. In questo equilibrio irregolare risiede gran parte del suo fascino e del suo valore storico.
+Nato nel secondo dopoguerra per iniziativa di [Vito Sestito](/2023/04/20/la-storia-di-vito-sestito/) (1902–1985), il cinema ha accompagnato la vita del paese attraverso una programmazione audace e anticonvenzionale, capace di mescolare i grandi titoli della storia del cinema con titoli di nicchia e di frontiera. In questo equilibrio irregolare risiede gran parte del suo fascino e del suo valore storico.
 
 Questo sito raccoglie e restituisce quella storia: locandine, fotografie, documenti e testimonianze compongono un archivio digitale in continua espansione, pensato per preservare il patrimonio di un’esperienza che ha intrecciato arte, comunità e quotidianità.

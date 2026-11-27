@@ -9,6 +9,8 @@
   {{ with $sheet.w }}{{ $maxW = math.Max $maxW . }}{{ $maxH = math.Max $maxH $sheet.h }}{{ end }}
 {{ end }}
 {{ $toScale := gt (len (uniq $sizes)) 1 }}
+{{- /* One piece per caption, so the format is singular (style guide V5); hand-written pieces are "manifesti scritti a mano". */}}
+{{ $nomi := dict "fotobuste" "Fotobusta" "locandine" "Locandina" "manifesti" "Manifesto" "retro" "Manifesto scritto a mano" }}
 <div class="poster-grid{{ if $toScale }} is-to-scale{{ end }}"
      {{- if $toScale }} style="--max-w: {{ printf "%.1f" $maxW }}; --max-h: {{ printf "%.1f" $maxH }}"{{ end }}>
   {{ range .posters }}
@@ -16,13 +18,13 @@
   <figure class="poster-card poster-{{ .orientation }} poster-cat-{{ .category }}"
           {{- if and $toScale $sheet.w }} style="--w: {{ printf "%.1f" $sheet.w }}; --h: {{ printf "%.1f" $sheet.h }}"{{ end }}>
     <a href="{{ .large | relURL }}" class="lightbox-image" title="{{ .alt }}"
-       data-caption="{{ .alt }} ({{ .category | title }} {{ .size }}, n. {{ .number }})"
+       data-caption="{{ .alt }} ({{ index $nomi .category | default (.category | title) }} {{ .size }}, n. {{ .number }})"
        data-film-url="{{ $filmURL }}">
       <img src="{{ .thumb | relURL }}" width="{{ .thumb_width }}" height="{{ .thumb_height }}"
            loading="lazy" decoding="async" style="aspect-ratio: {{ .thumb_width }} / {{ .thumb_height }}"
-           alt="{{ .alt }} ({{ .category | title }} {{ .size }}, n. {{ .number }})">
+           alt="{{ .alt }} ({{ index $nomi .category | default (.category | title) }} {{ .size }}, n. {{ .number }})">
     </a>
-    <figcaption>{{ .category | title }} {{ .size }}, n. {{ .number }}</figcaption>
+    <figcaption>{{ index $nomi .category | default (.category | title) }} {{ .size }}, n. {{ .number }}</figcaption>
   </figure>
   {{ end }}
 </div>

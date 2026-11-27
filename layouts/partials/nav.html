@@ -1,23 +1,23 @@
 {{- /*
 Site header (U09). The wordmark replaces the round avatar. On narrow screens
-the menu is a native popover (no JavaScript), opened by the menu button; on
-wide screens the same <nav> is shown inline (see .site-menu in main.css).
-Browsers without popover support show the list inline at every width.
+one button labelled "Menu" opens and closes the menu (disclosure pattern:
+aria-expanded and aria-controls, set by static/js/menu.js; Escape closes it).
+It stays above the full-screen menu and switches its icon. On wide screens
+the same <nav> is shown inline (see .site-menu in main.css). Without
+JavaScript the button is hidden and the list wraps under the wordmark.
 */ -}}
 {{- $page := . -}}
 <div class="site-header-inner wrap">
   <a href="{{ "/" | relURL }}" class="wordmark"{{ if .IsHome }} aria-current="page"{{ end }}>Cinema Teatro <em>Sestito</em></a>
 
-  <button type="button" class="menu-toggle" popovertarget="site-menu" aria-label="Apri il menu">
-    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M3 6h14M3 10h14M3 14h14"/></svg>
+  <button type="button" class="menu-toggle" aria-label="Menu" aria-expanded="false" aria-controls="site-menu">
+    <svg class="menu-icon-open" width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M3 6h14M3 10h14M3 14h14"/></svg>
+    <svg class="menu-icon-close" width="18" height="18" viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M4 4l10 10M14 4L4 14"/></svg>
   </button>
 
-  <nav id="site-menu" class="site-menu tone-dark" popover aria-label="Menu principale">
+  <nav id="site-menu" class="site-menu tone-dark" aria-label="Menu principale">
     <div class="site-menu-head">
       <span class="wordmark" aria-hidden="true">Cinema Teatro <em>Sestito</em></span>
-      <button type="button" class="menu-close" popovertarget="site-menu" popovertargetaction="hide" aria-label="Chiudi il menu">
-        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M4 4l10 10M14 4L4 14"/></svg>
-      </button>
     </div>
     <ul>
       {{- range .Site.Menus.main }}

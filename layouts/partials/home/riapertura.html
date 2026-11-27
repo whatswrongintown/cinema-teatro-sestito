@@ -13,11 +13,11 @@
     </p>
     {{- end }}
     <div class="home-actions">
-      {{- $etichetta := .etichetta | default "Scopri il progetto" }}
+      {{- $etichetta := .etichetta | default "Il progetto →" }}
       {{- with .pagina }}{{ with site.GetPage . }}
       <a class="button label" href="{{ .RelPermalink }}">{{ $etichetta }}</a>
       {{- end }}{{ end }}
-      <a class="button button-ghost label" href="#ricordi">Condividi un ricordo</a>
+      <a class="button button-ghost label" href="#ricordi">Il vostro ricordo →</a>
     </div>
   </div>
 </section>

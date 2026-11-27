@@ -9,7 +9,7 @@ description: Manifesti raggruppati per genere cinematografico.
 image: ''
 ---
 
-Qui i manifesti e le locandine sono raccolti per **genere cinematografico**, secondo la classificazione dei film. Scegli un genere per vedere i manifesti corrispondenti.
+Qui i manifesti e le locandine sono raccolti per **genere cinematografico**, secondo la classificazione dei film. Scegliete un genere per vedere i manifesti corrispondenti.
 
 La tabella a colori mostra, per ogni genere (righe, dal più al meno frequente) e per ogni decennio di proiezione (colonne), quanti manifesti sono conservati; i manifesti di cui non si conosce la data di proiezione sono raccolti nella colonna «Senza data», perché il genere di un film non dipende dalla data in cui fu proiettato. Più il colore tende al verde, più manifesti ci sono; le celle vuote indicano nessun manifesto.
 

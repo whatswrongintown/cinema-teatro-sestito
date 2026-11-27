@@ -1,6 +1,7 @@
 ---
 shareImage: "share-card.jpg"
-title: Retro
+title: Manifesti scritti a mano
+linkTitle: Retro
 type: posters
 layout: retro
 collection: retro

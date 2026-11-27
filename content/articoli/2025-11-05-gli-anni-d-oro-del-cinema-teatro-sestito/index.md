@@ -36,7 +36,7 @@ I dati provenienti dal registro delle proiezioni mostrano un periodo costante de
 
 ## La costruzione del nuovo cinema in Via Doria
 
-Il successo crescente del cinema originale, situato in Piazza Mario Polerà, rese evidente la necessità di uno spazio più ampio. La sala non era più in grado di contenere il pubblico sempre più numeroso, e Vito Sestito decise di intraprendere un progetto ambizioso: costruire un nuovo cinema.
+Il successo crescente del cinema originale, situato in Piazza Mario Polerà, rese evidente la necessità di uno spazio più ampio. La sala non era più in grado di contenere il pubblico sempre più numeroso, e Vito Sestito (1902–1985) decise di intraprendere un progetto ambizioso: costruire un nuovo cinema.
 
 Nel 1955 acquistò da Giordano Rosa e dalla sorella Teresa un terreno in Via Doria per 1.150.000 lire[^2]. L’incarico della progettazione fu affidato all’ingegnere **Vincenzo Calzone** di Catanzaro[^3], che disegnò una struttura moderna, più capiente e rispondente alle esigenze di sicurezza e comfort dell’epoca.
 

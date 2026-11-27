@@ -47,7 +47,7 @@ static/js/cartellone.js redoes it for the visitor's date with the same rules
        data-giorni="{{ delimit $giorni "," }}">
     <div>
       <p class="label home-kicker">In cartellone, in questi giorni</p>
-      <h2 id="cartellone-title" class="home-h2">Accadde al Sestito</h2>
+      <h2 id="cartellone-title" class="home-h2">Accadde al Cinema Sestito</h2>
       <p class="home-sub" data-cartellone-periodo>I film in cartellone {{ if eq $dal.Month $al.Month }}dal {{ $dal.Day }} al {{ $al | time.Format "2 January" }}{{ else }}dal {{ $dal | time.Format "2 January" }} al {{ $al | time.Format "2 January" }}{{ end }}, anno dopo anno.</p>
 
       <ol class="shows" data-cartellone-lista>

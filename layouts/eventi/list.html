@@ -29,10 +29,10 @@ or the "Sipario chiuso" message; then past events, newest first.
       {{- else }}
       <div class="curtain-closed">
         <h2 id="events-next-title" class="home-h2">Sipario <em>chiuso</em>, per ora.</h2>
-        <p class="home-sub">Al momento non ci sono eventi in programma. Segui il progetto di riapertura per sapere quando si riaccendono le luci.</p>
+        <p class="home-sub">Al momento non ci sono eventi in programma. Seguite il progetto di riapertura per sapere quando si riaccendono le luci.</p>
         <div class="home-actions">
-          {{- with site.GetPage "/progetto" }}<a class="button label" href="{{ .RelPermalink }}">Il progetto</a>{{ end }}
-          {{- with site.Params.instagram }}<a class="button button-ghost label" href="https://www.instagram.com/{{ . }}/" rel="noopener">Segui su Instagram</a>{{ end }}
+          {{- with site.GetPage "/progetto" }}<a class="button label" href="{{ .RelPermalink }}">Il progetto →</a>{{ end }}
+          {{- with site.Params.instagram }}<a class="button button-ghost label" href="https://www.instagram.com/{{ . }}/" rel="noopener">Instagram →</a>{{ end }}
         </div>
       </div>
       {{- end }}

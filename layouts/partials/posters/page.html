@@ -30,7 +30,7 @@ poster gallery for the page's browse mode or layout.
       <h1 id="posters-page-title" class="posters-page-title">{{ if .Params.letter }}Titoli che iniziano per {{ cond (eq .Params.letter "#") "un numero" .Title }}{{ else }}{{ .Title }}{{ end }}</h1>
       {{- with .Description }}<p class="home-lead posters-page-lead">{{ strings.FirstUpper . }}</p>{{ end }}
       {{- if not .Params.browse }}
-      <p class="label posters-page-count">{{ lang.FormatNumber 0 $n }} {{ if .Params.size }}{{ cond (eq $n 1) "manifesto" "manifesti" }}{{ else }}{{ cond (eq $n 1) "titolo" "titoli" }}{{ end }}</p>
+      <p class="label posters-page-count">{{ lang.FormatNumber 0 $n }} {{ if .Params.size }}{{ partial "posters/formato.html" (dict "titolo" .Title "n" $n) }}{{ else }}{{ cond (eq $n 1) "titolo" "titoli" }}{{ end }}</p>
       {{- end }}
       {{- with $vicine }}
       <nav class="chips" aria-label="Altre pagine della raccolta">
@@ -88,7 +88,7 @@ poster gallery for the page's browse mode or layout.
                 {{- with $c }}<img src="{{ .poster.thumb | relURL }}" width="{{ .poster.thumb_width }}" height="{{ .poster.thumb_height }}" alt="" loading="lazy" decoding="async">{{ end }}
               </span>
               <span class="card-title">{{ .Title }}</span>
-              <span class="label card-kicker">{{ lang.FormatNumber 0 $k }} {{ if .Params.size }}manifesti{{ else }}{{ cond (eq $k 1) "titolo" "titoli" }}{{ end }}</span>
+              <span class="label card-kicker">{{ lang.FormatNumber 0 $k }} {{ if .Params.size }}{{ partial "posters/formato.html" (dict "titolo" .Title "n" $k) }}{{ else }}{{ cond (eq $k 1) "titolo" "titoli" }}{{ end }}</span>
               {{- with .Description }}<span class="card-text">{{ strings.FirstUpper . }}</span>{{ end }}
             </a>
           </li>

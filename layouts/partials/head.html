@@ -44,6 +44,7 @@
   {{- $ogType = "article" -}}
 {{- end -}}
 
+<script>document.documentElement.classList.add("js")</script>
 <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ $pageTitle }} - {{ .Site.Title }}{{ end }}</title>
 <meta name="description" content="{{ $description }}">
 {{- if ne .Kind "404" }}

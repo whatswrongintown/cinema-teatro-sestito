@@ -4,7 +4,7 @@
           <div class="site-footer-grid">
             <div class="site-footer-venue">
               <a href="{{ "/" | relURL }}" class="wordmark">Cinema Teatro <em>Sestito</em></a>
-              <p>San Vito sullo Ionio. In attività dal 1946 al 2004, oggi un archivio aperto in attesa di riaccendere le luci.{{ with site.GetPage "/riapertura" }} <a href="{{ .RelPermalink }}">Segui la riapertura</a>.{{ end }}</p>
+              <p>San Vito sullo Ionio. In attività dal 1946 al 2004, oggi un archivio aperto in attesa di riaccendere le luci.{{ with site.GetPage "/riapertura" }} <a href="{{ .RelPermalink }}">La riapertura →</a>{{ end }}</p>
             </div>
 
             <nav aria-label="Sezioni del sito">
@@ -30,7 +30,7 @@
             <div>
               <h2 class="label">Contatti</h2>
               <ul>
-                <li><a href="{{ "/" | relURL }}#ricordi">Condividi un ricordo</a></li>
+                <li><a href="{{ "/" | relURL }}#ricordi">Ricordi</a></li>
                 {{- with .Site.Params.email }}
                 <li><a href="mailto:{{ . }}">Email</a></li>
                 {{- end }}
@@ -56,6 +56,7 @@
       </footer>
     </div>
 
+    <script src="{{ partial "asset.html" "js/menu.js" }}" defer></script>
     <script src="{{ partial "asset.html" "js/lightbox.js" }}"></script>
     {{- if .IsHome }}
     <script src="{{ partial "asset.html" "js/cartellone.js" }}" defer></script>

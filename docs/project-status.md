@@ -536,6 +536,28 @@ TODO / DOING / DONE / DEFERRED, with dates. Assistant rules are in `CLAUDE.md`.
   `titleCaseStyle: firstupper` added to `config.yaml` with the owner's OK
   (D2 in `da-verificare.md`): category and tag names now show *Paesi di
   produzione*, *San Vito sullo Ionio*, *Programmazione per anni*.
+- **Batch 3 (voice and vocabulary) DOING 2026-11-27 on branch
+  `text/voice`**, not committed. Done: *voi* for visitors in every template,
+  script and page (form, buttons, instructions, privacy, 57 year pages);
+  the decided wording for the contact form, the checkbox and the 404 page;
+  *io* on the reopening page (*scrivetemi*); no author byline on articles;
+  Vito Sestito's dates (1902–1985) on first mention; section names (*Storie*,
+  *Il progetto*, *Home*, *Nove categorie*, *argomento* in tag meta);
+  *Cinema Sestito* (capital C) and *cinema* as a common noun; *ed estero*,
+  *classificazione*, *invio*, *gli organizzatori*; archive categories *Atti
+  giudiziari* and *Documenti personali* (term pages, URLs unchanged) and *le
+  attrezzature*; format counts by format (*835 fotobuste*), singular poster
+  captions (*Fotobusta 50x70, n. 1*, *Manifesto scritto a mano 70x100*), the
+  Retro page titled *Manifesti scritti a mano* (*Retro* stays as label and
+  URL). New partial `layouts/partials/posters/formato.html`. Buttons and
+  link labels are nouns (*I manifesti →*, *Il progetto →*, *Verso la
+  riapertura →*, *Il vostro ricordo →*; 404 button *Home*); the reply hint
+  sits under the email field; *esemplari* on film pages; the site map points
+  to the form instead of the owner's email; no comma before *con titoli di
+  nicchia* on the home page; one *Menu* button with `aria-expanded` instead
+  of the popover and its close button (`static/js/menu.js`, see
+  `design.md`). G1–G3 rewriting
+  not started.
 - **Encoding fix (DONE 2026-11-27).** Batch 1 wrote the fixed explanation
   on the 57 year pages double-encoded (*più* and *è* shown as two
   garbled characters each; the substitution script did not decode its input). Fixed on `fix/encoding`;

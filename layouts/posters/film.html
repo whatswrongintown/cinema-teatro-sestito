@@ -34,7 +34,7 @@ previous and next film by title.
       </figure>
 
       <div class="film-info">
-        <p class="label home-kicker">{{ $formato }}{{ with len $film.posters }}{{ if gt . 1 }} · {{ . }} pezzi in archivio{{ end }}{{ end }}</p>
+        <p class="label home-kicker">{{ $formato }}{{ with len $film.posters }}{{ if gt . 1 }} · {{ . }} esemplari in archivio{{ end }}{{ end }}</p>
         <h1 id="film-title" class="film-title">{{ $film.title }}</h1>
         {{- with index $val "Original Title" }}{{ if ne . $film.title }}<p class="film-original">{{ . }}</p>{{ end }}{{ end }}
 
@@ -61,7 +61,7 @@ previous and next film by title.
   {{- if or $righe $film.screening_dates }}
   <section class="film-screenings tone-light" aria-labelledby="film-screenings-title">
     <div class="wrap">
-      <p class="label home-kicker">In sala al Sestito</p>
+      <p class="label home-kicker">In sala al Cinema Sestito</p>
       <h2 id="film-screenings-title" class="home-h2">{{ $n := len ($righe | default $film.screening_dates) }}In cartellone {{ $n }} {{ cond (eq $n 1) "volta" "volte" }}</h2>
       <ol class="shows">
         {{- if $righe }}

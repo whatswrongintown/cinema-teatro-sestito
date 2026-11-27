@@ -5,7 +5,7 @@ linkTitle: "Paesi"
 author: "Vito Sestito"
 date: '2025-12-02'
 lastmod: '2026-11-25'
-description: "I paesi di produzione dei film proiettati al cinema Sestito."
+description: "I paesi di produzione dei film proiettati al Cinema Sestito."
 slug: "paesi-di-produzione"
 type: "programmazione-storica/paesi-di-produzione"
 ---

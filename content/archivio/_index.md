@@ -27,9 +27,9 @@ params:
       testo: "Elaborati tecnici, planimetrie e disegni architettonici relativi alla costruzione, ristrutturazione e ampliamento della sala."
     - nome: Proprietà
       testo: "Atti notarili, registri catastali e trascrizioni riguardanti l’acquisizione e la gestione dei beni immobili legati al cinema."
-    - nome: Giudiziario
+    - nome: Atti giudiziari
       testo: "Documentazione legale e procedimenti amministrativi connessi all’attività della sala o a controversie civili."
-    - nome: Personali
+    - nome: Documenti personali
       testo: "Materiali biografici relativi alla famiglia Sestito: attestati, diari e documenti militari."
     - nome: Spettacoli
       testo: "Materiale promozionale, locandine e documenti organizzativi relativi a eventi teatrali, musicali e culturali ospitati nella struttura."
@@ -37,8 +37,8 @@ params:
       testo: "Macchinari, proiettori, pellicole, arredi e materiali tecnici impiegati nell’attività cinematografica."
 ---
 
-Questa sezione raccoglie e analizza i documenti e l'attrezzatura originali conservati nell’archivio del Cinema, provenienti dall’attività personale e imprenditoriale di **Vito Sestito**. Il fondo documentario costituisce una fonte primaria per lo studio della storia materiale, amministrativa e culturale del cinema, nonché del contesto socioeconomico in cui esso ha operato.
+Questa sezione raccoglie e analizza i documenti e le attrezzature originali conservati nell’archivio del cinema, provenienti dall’attività personale e imprenditoriale di **Vito Sestito**. Il fondo documentario costituisce una fonte primaria per lo studio della storia materiale, amministrativa e culturale del cinema, nonché del contesto socioeconomico in cui esso ha operato.
 
 Attraverso scritture private, atti notarili, progetti architettonici, corrispondenze e autorizzazioni ufficiali, è possibile ricostruire le dinamiche gestionali, le relazioni istituzionali e le trasformazioni urbanistiche che hanno accompagnato l’evoluzione della sala cinematografica nel corso del Novecento.
 
-Ogni documento è corredato da una scheda descrittiva contenente datazione, contesto di produzione e riproduzione digitale, al fine di garantire la conservazione e la fruibilità pubblica del patrimonio documentario del Cinema.
+Ogni documento è corredato da una scheda descrittiva contenente datazione, contesto di produzione e riproduzione digitale, al fine di garantire la conservazione e la fruibilità pubblica del patrimonio documentario del cinema.

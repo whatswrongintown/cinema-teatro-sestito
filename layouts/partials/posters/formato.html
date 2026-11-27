@@ -1,0 +1,9 @@
+{{- /*
+Noun for a count of pieces in one format (style guide V5: "835 fotobuste",
+"271 locandine", "1 manifesto"). Input: dict "titolo" (the size page title,
+e.g. "Fotobuste 50x70") "n" (the count). Returns the noun only.
+Call with: partial "posters/formato.html" (dict "titolo" .Title "n" $n)
+*/ -}}
+{{- $plurale := lower (index (split .titolo " ") 0) -}}
+{{- $singolare := dict "fotobuste" "fotobusta" "locandine" "locandina" "manifesti" "manifesto" -}}
+{{- return (cond (eq (int .n) 1) (index $singolare $plurale | default $plurale) $plurale) -}}
