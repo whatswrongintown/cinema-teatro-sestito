@@ -52,6 +52,7 @@ Before editing a page, decide whether it is manually written or generated:
 
 ## Writing
 
+- Before writing or changing any text visitors see, read docs/guida-di-stile.md.
 - Site content: Italian, welcoming, clear, professional, historically accurate,
   concise. Keep existing metadata, front matter and terminology.
 - Documentation: English, in `docs/`. Keep `README.md` short (purpose, setup,
