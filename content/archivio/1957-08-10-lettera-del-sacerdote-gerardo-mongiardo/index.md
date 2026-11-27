@@ -21,7 +21,7 @@ Nella proiezione del film “Schiavitù” , la cui visione è proibita ai minor
 
 Sono addolorato dall’ostinazione del Vostro atteggiamento che frustra, nel campo dell’educazione della gioventù, buona parte dei miei sforzi pastorali.
 
-Con la presente sono per chiederVi di garantirmi per iscritto che eviterete per l’avvenire il ripetersi di simili abusi e fare di tutto per evitare proiezioni contro la moralità.
+Con la presente sono per chiederVi di garantirmi in iscritto che eviterete per l’avvenire il ripetersi di simili abusi e farete di tutto per evitare proiezioni contro la moralità.
 
 Un Vostro ostinato atteggiamento mi spingerebbe (presso lo Ufficio cui la presente è solo inviata per privata conoscenza) a una presa di posizione diversa da quella benevola e pastorale che intendo assumere.
 

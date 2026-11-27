@@ -23,9 +23,7 @@ Le bobine, generalmente lunghe pochi metri, contenevano una selezione di sequenz
 
 ## Funzione e contesto d’uso
 
-Durante la seconda metà del Novecento, la circolazione dei trailer costituiva un elemento centrale della **filiera distributiva**. I distributori, spesso corrispondenti delle grandi major americane o di società italiane come la **Metro-Goldwyn-Mayer**, la **Titanus** o la **Cineriz**, inviavano ai gestori di sala le copie promozionali tramite posta o corriere.
-
-Queste venivano poi **restituite o riutilizzate**: in alcuni casi montate in rulli multipli, in altri catalogate e conservate a discrezione dell’esercente. Il Cinema Sestito ne ha mantenuto un numero significativo, costituendo oggi un raro esempio di **archivio tecnico-cinematografico** legato all’attività ordinaria di una sala di provincia.
+I trailer arrivavano a noleggio insieme ai film e passavano da un cinema all’altro tramite corriere. Le bobine conservate al Cinema Sestito, trovate accanto al proiettore, sono probabilmente quelle che non fu necessario restituire. Risalgono per lo più al periodo 1993–2003.
 
 ## Descrizione delle bobine
 

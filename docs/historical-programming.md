@@ -127,7 +127,7 @@ Charts are drawn by Hugo as inline SVG with the shortcode
 | `film-per-adulti-per-anno` | Generi index | yearly share of "Per adulti" records, *Film per adulti (% dell'anno)* (area, 50% line) |
 | `italia-estero-per-decennio` | Paesi index | Italian vs foreign share per decade (stacked bars) |
 | `articolo-prime-stagioni` | article "La nascita del cinema" | records per year 1948-1957 (bars) |
-| `articolo-rating` | same article | records per age rating and year 1948-1957 (stacked bars); categories as in the former R code |
+| `articolo-rating` | not shown (removed from the article 2026-11-27, decision 4) | records per age rating and year 1948-1957 (stacked bars); categories as in the former R code; kept for a later chart with Italian classifications (Italia Taglia, B4) |
 | `articolo-grande-schermo` | article "Gli anni d'oro" | records per year 1948-2004, 1957-1979 boxed, 1960-1961 partial (bars) |
 
 Files in `layouts/`:

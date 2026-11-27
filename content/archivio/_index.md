@@ -41,4 +41,4 @@ Questa sezione raccoglie e analizza i documenti e le attrezzature originali cons
 
 Attraverso scritture private, atti notarili, progetti architettonici, corrispondenze e autorizzazioni ufficiali, è possibile ricostruire le dinamiche gestionali, le relazioni istituzionali e le trasformazioni urbanistiche che hanno accompagnato l’evoluzione della sala cinematografica nel corso del Novecento.
 
-Ogni documento è corredato da una scheda descrittiva contenente datazione, contesto di produzione e riproduzione digitale, al fine di garantire la conservazione e la fruibilità pubblica del patrimonio documentario del cinema.
+Ogni documento è presentato con la data, la categoria e la riproduzione digitale.

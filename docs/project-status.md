@@ -611,11 +611,20 @@ TODO / DOING / DONE / DEFERRED, with dates. Assistant rules are in `CLAUDE.md`.
   cinematografiche*; the Fonti cover alt says *agenda Fedi 1954-55*. The rest
   of batch 5 waits for its checks (`da-verificare.md`). Checks B1–B9 and D1
   answered by the owner 2026-11-27 (only B4, the Italia Taglia data, still
-  waits for a reply); batch 5 part 2 can start: nascita article (Mongiardo,
-  carabinieri, chart removed, Masceri, AGIS and ANEC), bobine page, MGM
-  envelope (9 September 1957, *statunitense*), archive introduction,
-  *Gli anni d'oro*, project page dates, agenda notes for Ceat, Naonis,
-  Agenda 1968 and Fedi.
+  waits for a reply).
+- **Batch 5, part 2 (facts) DOING 2026-11-27 on branch `text/facts-2`**, not
+  committed. Nascita article: Mongiardo with the letter's own words and the
+  copy to the carabinieri, *non per la prima volta*, the classification chart
+  removed (its partial kept for Italia Taglia), *Cinema Masceri*, the card as
+  AGIS and ANEC, *Calabria ionica*; the letter's transcription corrected to
+  the scan (*in iscritto*, *farete*); the trailer-reels page with the decided
+  wording; the MGM envelope dated 9 September 1957 (*statunitense*, old URL
+  redirects); the archive introduction; *Gli anni d'oro* (counts 1957–1979,
+  licence 30 June 1959, *quasi due mesi dopo*, 1966 contracts in date order,
+  *Trasformazione e declino (dal 1977)*); the project page separates memory
+  (1946), documents (1947, 1949) and records (1948); *Oltre cinquant'anni di
+  cartellone*; the methodology no longer calls Fincine a distributor. The
+  agenda pages need no change (their description is already generic).
 - No feature roadmap yet: new ideas are agreed with the owner and listed here
   when they are approved.
 

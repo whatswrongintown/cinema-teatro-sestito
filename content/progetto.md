@@ -17,7 +17,7 @@ Questo sito è dedicato al *Cinema Teatro Sestito*, storica sala cinematografica
 
 ## Storia
 
-Fondato nel 1946 da Vito Sestito (1902–1985), il cinema ha svolto un ruolo centrale nella vita pubblica del paese, configurandosi come spazio di aggregazione e di fruizione culturale. La sua attività si è sviluppata in un contesto in continua trasformazione, affrontando sfide significative come l’avvento della televisione, la diffusione dell’home video e i cambiamenti nei modelli di consumo audiovisivo.
+Secondo la memoria di famiglia, il cinema nacque nel 1946 per iniziativa di Vito Sestito (1902–1985). I documenti conservati citano il nulla osta dell’Ufficio centrale per la cinematografia del 19 maggio 1947 e attestano il [decreto di abilitazione](/1949/03/19/abilitazione-cinema-in-piazza-mario-poler/) del 19 marzo 1949; la programmazione ricostruita comincia nel 1948. Il cinema ha svolto un ruolo centrale nella vita pubblica del paese, configurandosi come spazio di aggregazione e di fruizione culturale. La sua attività si è sviluppata in un contesto in continua trasformazione, affrontando sfide significative come l’avvento della televisione, la diffusione dell’home video e i cambiamenti nei modelli di consumo audiovisivo.
 
 Nel corso del tempo, il Cinema Sestito ha adottato strategie di adattamento che gli hanno consentito di mantenere una presenza attiva sul territorio, fino alla sua ultima proiezione nel 2004. Sebbene la sala abbia cessato l’attività, il suo lascito culturale continua a vivere attraverso i ricordi, i materiali d’archivio e le testimonianze raccolte in questo sito.
 

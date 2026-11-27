@@ -66,7 +66,7 @@ Anche alcune agende delle case di distribuzione contengono materiali di questo t
 
 > ![film destinati alla programmazione](images/film_destinati_alla_programmazione.png)
 
-> Le agende delle [case di distribuzione](/1948/10/01/fincine-1948-49/) riportavano anche informazioni sui film destinati alla programmazione.
+> Alcune agende, come la [Fincine 1948-49](/1948/10/01/fincine-1948-49/), riportavano anche informazioni sui film destinati alla programmazione.
 
 <!-- FOTO: pagina di un'agenda di una casa di distribuzione con la presentazione dei film. Didascalia: Le agende delle case di distribuzione riportavano anche informazioni sui film destinati alla programmazione. -->
 

@@ -9,7 +9,7 @@ slug: "programmazione-storica"
 image: "avvolgitore_prevost.jpg"
 params:
   # Landing page (layouts/programmazione-storica/list.html, see docs/design.md).
-  occhiello: "Cinquant'anni di cartellone"
+  occhiello: "Oltre cinquant'anni di cartellone"
   ingressi:
     - pagina: /programmazione-storica/anni
       titolo: Anni

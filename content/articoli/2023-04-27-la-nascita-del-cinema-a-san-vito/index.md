@@ -29,7 +29,7 @@ galleryDescriptions:
     pageAlt: "Documenti e illustrazione relativi alla gestione del cinema negli anni Cinquanta."
     images:
       1950_Associazione_Nazionale_Esercenti_Cinema_1.jpg:
-        alt: "Tessera dell’Associazione Generale Italiana dello Spettacolo intestata a Vito Sestito per la stagione 1950, con fotografia e timbri."
+        alt: "Tessera dell’AGIS (Associazione Generale Italiana dello Spettacolo) e dell’ANEC (Associazione Nazionale Esercenti Cinema) intestata a Vito Sestito per la stagione 1950, con fotografia e timbri."
       sansone_dalila.webp:
         alt: "Locandina di Sansone e Dalila con Hedy Lamarr e Victor Mature, prodotta e diretta da Cecil B. DeMille."
 ---
@@ -40,7 +40,7 @@ galleryDescriptions:
 
 ## Un sogno che diventa realtà
 
-Il secondo dopoguerra rappresentò per l’Italia un periodo di ricostruzione materiale e simbolica, in cui il cinema assunse un ruolo centrale come forma di svago collettivo e veicolo di modernità. Anche a **San Vito sullo Ionio**, piccolo centro della Calabria jonica, la nascita di una sala cinematografica fu il segno tangibile di questa rinascita.
+Il secondo dopoguerra rappresentò per l’Italia un periodo di ricostruzione materiale e simbolica, in cui il cinema assunse un ruolo centrale come forma di svago collettivo e veicolo di modernità. Anche a **San Vito sullo Ionio**, piccolo centro della Calabria ionica, la nascita di una sala cinematografica fu il segno tangibile di questa rinascita.
 
 L’iniziativa si deve a **[Vito Sestito](/2023/04/20/la-storia-di-vito-sestito/)** (1902–1985), artigiano e imprenditore locale, la cui passione per la settima arte nacque nel 1946 durante le proiezioni al **Cinema Masceri di Catanzaro**. Quelle esperienze, vissute in un contesto di entusiasmo postbellico, lo spinsero a immaginare un luogo simile nel proprio paese.
           
@@ -48,7 +48,7 @@ L’iniziativa si deve a **[Vito Sestito](/2023/04/20/la-storia-di-vito-sestito/
           
 Negli anni immediatamente successivi alla guerra, molte famiglie catanzaresi rientrarono nelle loro abitazioni trovandole danneggiate o saccheggiate. Tale situazione generò una forte domanda di legname e di servizi di falegnameria. Fu proprio in questo contesto che Sestito, proprietario di una segheria, iniziò a collaborare con i gestori del Cinema Masceri. In segno di riconoscenza, questi ultimi lo invitarono alle proiezioni serali, esperienza che avrebbe segnato l’inizio della sua avventura cinematografica[^1].
 
-Spinto dal desiderio di rendere accessibile anche alla propria comunità l’esperienza cinematografica appena scoperta, Vito avviò il progetto con il supporto dei soci del Teatro Masceri e di alcuni proiezionisti catanzaresi. Acquistò così una macchina da proiezione e individuò il luogo più adatto: un orto di sua proprietà in **Piazza Mario Polerà**, accanto alla sua abitazione[^2]. 
+Spinto dal desiderio di rendere accessibile anche alla propria comunità l’esperienza cinematografica appena scoperta, Vito avviò il progetto con il supporto dei soci del Cinema Masceri e di alcuni proiezionisti catanzaresi. Acquistò così una macchina da proiezione e individuò il luogo più adatto: un orto di sua proprietà in **Piazza Mario Polerà**, accanto alla sua abitazione[^2]. 
 
 ## La costruzione della sala
 
@@ -76,11 +76,10 @@ Nel 1955 i **Carabinieri di San Vito** redassero un **processo verbale** contro 
 
 ## Il rapporto con la Chiesa e la moralità pubblica
 
-Negli anni Cinquanta il cinema dovette spesso confrontarsi con la morale cattolica e con il controllo della Chiesa locale. In numerose occasioni, l’**arciprete Gerardo Mongiardo** intervenne per contestare la proiezione di film ritenuti immorali o inappropriati. Particolarmente significativa è una **lettera del 1957** in cui l’arciprete si lamenta per la proiezione di [Schiavitù](https://www.imdb.com/title/tt0046281/) (Yves Ciampi, 1953), vietato ai minori di sedici anni. Mongiardo ammoniva Sestito a evitare in futuro pellicole “contrarie alla moralità pubblica”, minacciando di rivolgersi alle autorità in caso contrario[^5].
+Negli anni Cinquanta il cinema dovette spesso confrontarsi con la morale cattolica e con il controllo della Chiesa locale. Non per la prima volta, l’**arciprete Gerardo Mongiardo** intervenne per contestare la proiezione di film ritenuti immorali o inappropriati. Particolarmente significativa è una **lettera del 1957** in cui l’arciprete si lamenta per la proiezione di [Schiavitù](https://www.imdb.com/title/tt0046281/) (Yves Ciampi, 1953), vietato ai minori di sedici anni. Mongiardo ammoniva Sestito a fare «di tutto per evitare proiezioni contro la moralità», lasciando intendere un intervento più deciso; la lettera fu inviata per conoscenza anche alla stazione dei carabinieri[^5].
 
 Tali episodi rivelano il delicato equilibrio tra iniziativa culturale, controllo morale e autorità ecclesiastica, tipico delle realtà provinciali dell’Italia del tempo.
 
-{{< grafico nome="articolo-rating" alt="Voci di programmazione registrate per anno, suddivise per classificazione, dal 1948 al 1957" >}}
 
 ## Verso un nuovo cinema
 

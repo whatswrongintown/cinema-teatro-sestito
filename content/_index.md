@@ -18,7 +18,7 @@ params:
       immagine: images/manifesti/large/manifesti-100x140/tt0060965_100x140_01.webp
     - pagina: /programmazione-storica
       occhiello: Programmazione
-      titolo: Cinquant'anni di cartellone
+      titolo: Oltre cinquant'anni di cartellone
       testo: "Le proiezioni dal 1948 al 2004, ricostruite dalle fonti originali."
       immagine: avvolgitore_prevost.jpg
       inquadratura: "90% 50%"
