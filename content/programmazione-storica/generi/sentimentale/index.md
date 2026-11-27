@@ -7,7 +7,7 @@ categories:
 - Generi
 tags:
 - Programmazione
-description: Film di genere Sentimentale nella programmazione del Cinema Teatro Sestito,
+description: Film di genere sentimentale nella programmazione del Cinema Teatro Sestito,
   suddivisi per anno.
 ---
 {{% programmazione-tabelle "generi" %}}

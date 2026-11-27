@@ -18,7 +18,7 @@ docs/design.md ("Reopening timeline").
     <div class="wrap article-hero-text">
       <p class="label home-kicker"><a href="{{ "/progetto/" | relURL }}">Il progetto</a></p>
       <h1 class="article-title-xl">{{ .Title }}</h1>
-      {{- with .Description }}<p class="home-lead article-dek">{{ . }}</p>{{ end }}
+      {{- with .Description }}<p class="home-lead article-dek">{{ strings.FirstUpper . }}</p>{{ end }}
       {{- with $ultima }}
       <p class="label article-byline">Ultimo aggiornamento: <a href="#ultimo-aggiornamento"><time datetime="{{ .data.Format "2006-01-02" }}">{{ .data | time.Format ":date_long" }}</time></a></p>
       {{- end }}

@@ -9,7 +9,7 @@ categories:
   - Proprietà
 tags:
   - Legale
-description: "Scrittura privata con cui la Signora Maria De Luca fu Carlo promette di vendere a Vito Sestito fu Vito una parte del proprio palazzo in Via Umberto I, a San Vito sullo Ionio. L’immobile comprende l’area adibita ad asilo comunale e alloggio delle suore, con i relativi bassi a piano terreno e un piccolo orto recintato. Il prezzo di vendita è fissato a 140.000 lire, con pagamento dilazionato e immissione in possesso alla stipula notarile. L’accordo stabilisce anche un impegno del compratore alla realizzazione di arredi per la venditrice."
+description: "Scrittura privata con cui la signora Maria De Luca fu Carlo promette di vendere a Vito Sestito fu Vito una parte del proprio palazzo in Via Umberto I, a San Vito sullo Ionio. L’immobile comprende l’area adibita ad asilo comunale e alloggio delle suore, con i relativi bassi a piano terreno e un piccolo orto recintato. Il prezzo di vendita è fissato a 140.000 lire, con pagamento dilazionato e immissione in possesso alla stipula notarile. L’accordo stabilisce anche un impegno del compratore alla realizzazione di arredi per la venditrice."
 ---
 ![Prima pagina della scrittura privata del 2 marzo 1944: Maria De Luca promette di vendere a Vito Sestito una parte del palazzo in Via Umberto I](images/1944-03-02_acquisto_palazzo_in_Piazza_Mario_Polerà_1.jpeg)
 ![Pagina interna della scrittura privata del 1944 con le clausole della vendita e il timbro di registrazione](images/1944-03-02_acquisto_palazzo_in_Piazza_Mario_Polerà_2.jpeg)

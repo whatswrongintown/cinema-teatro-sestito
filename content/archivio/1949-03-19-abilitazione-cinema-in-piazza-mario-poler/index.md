@@ -2,7 +2,7 @@
 title: Abilitazione del cinema in Piazza Mario Polerà
 image: "images/19490319abilitazionecinema.jpg"
 author: Vito Sestito
-description: articolo che trascrive il documento di abilitazione del cinema nel 1949
+description: Articolo che trascrive il documento di abilitazione del cinema nel 1949
 date: '1949-03-19'
 slug: abilitazione-cinema-in-piazza-mario-poler
 categories:
@@ -11,7 +11,7 @@ tags:
   - Abilitazione
 ---
 
-![1949-03-19 Abilitazione del cinema in Piazza Mario Polerà](images/19490319abilitazionecinema.jpg)
+![Abilitazione del cinema in Piazza Mario Polerà](images/19490319abilitazionecinema.jpg)
 
 ### IL PREFETTO DELLA PROVINCIA DI CATANZARO
 

@@ -7,7 +7,7 @@ categories:
 - Generi
 tags:
 - Programmazione
-description: Film di genere Western nella programmazione del Cinema Teatro Sestito,
+description: Film di genere western nella programmazione del Cinema Teatro Sestito,
   suddivisi per anno.
 ---
 {{% programmazione-tabelle "generi" %}}

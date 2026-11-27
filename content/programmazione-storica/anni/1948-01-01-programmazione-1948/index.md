@@ -5,7 +5,7 @@ date: '1948-01-01'
 slug: programmazione-1948
 description: Programmazione cinematografica del Cinema Teatro Sestito nel 1948.
 categories:
-  - programmazione-per-anni
+  - Programmazione per anni
 params:
   anno: 1948
 ---

@@ -1,6 +1,6 @@
 ---
-title: Cinema e Leggende
-description: "Resoconto dell'incontro al festival Sonati Vicinu 2023 sul ruolo del Cinema Sestito nella memoria e nelle leggende della comunita' di San Vito sullo Ionio."
+title: Cinema e leggende
+description: "Resoconto dell'incontro al festival Sonati Vicinu 2023 sul ruolo del Cinema Sestito nella memoria e nelle leggende della comunità di San Vito sullo Ionio."
 author: Vito Sestito
 date: '2023-09-10'
 slug: cinema-e-leggende
@@ -8,7 +8,7 @@ image: "images/03_sonati_vicinu_2023.JPG"
 categories:
   - Storia
 tags:
-  - SonatiVicinu
+  - Sonati Vicinu
   - Evento
   - Festival
 galleryDescriptions:
@@ -33,7 +33,7 @@ La settima edizione del festival [Sonati Vicinu](https://sites.google.com/view/s
 
 Il cinema di San Vito sullo Ionio, sin dalla sua fondazione, ha svolto una funzione che va oltre la semplice proiezione di film: è stato uno spazio di costruzione identitaria, di trasmissione simbolica e di aggregazione sociale. La conferenza inaugurale del festival ha offerto l’opportunità di ripercorrere le [origini](/2023/04/27/la-nascita-del-cinema-a-san-vito/) della sala, fondata nel 1946 da [Vito Sestito](/2023/04/20/la-storia-di-vito-sestito/), e di analizzarne il ruolo nella formazione di una cultura visiva condivisa.
 
-L’intervento ha evidenziato come il cinema abbia contribuito, nel corso dei decenni, a dare forma alle narrazioni locali, accogliendo sullo schermo storie che rispecchiavano *- o talvolta sfidavano -* l’immaginario della comunità. In questo senso, il cinema  si configura come un archivio vivente, capace di dialogare con le leggende e i racconti tramandati oralmente.
+L’intervento ha evidenziato come il cinema abbia contribuito, nel corso dei decenni, a dare forma alle narrazioni locali, accogliendo sullo schermo storie che rispecchiavano *- o talvolta sfidavano -* l’immaginario della comunità. In questo senso, il cinema si configura come un archivio vivente, capace di dialogare con le leggende e i racconti tramandati oralmente.
 
 Il team di Sonati Vicinu ha documentato l’evento con grande cura, restituendo attraverso le immagini l’atmosfera della serata: la partecipazione attiva del pubblico, il valore attribuito alla memoria e il desiderio condiviso di costruire nuovi spazi per la cultura.
 

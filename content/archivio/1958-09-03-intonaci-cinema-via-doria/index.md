@@ -1,5 +1,5 @@
 ---
-title: Intonaci Cinema via Doria
+title: Intonaci cinema Via Doria
 description: "Contratto del 3 settembre 1958 tra Vito Sestito e Mario Lomoio per l'esecuzione degli intonaci del nuovo cinema di Via Doria."
 author: Vito Sestito
 date: '1958-09-03'

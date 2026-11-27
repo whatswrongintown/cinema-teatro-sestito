@@ -5,7 +5,7 @@ date: '2002-01-01'
 slug: programmazione-2002
 description: Programmazione cinematografica del Cinema Teatro Sestito nel 2002.
 categories:
-  - programmazione-per-anni
+  - Programmazione per anni
 params:
   anno: 2002
 ---

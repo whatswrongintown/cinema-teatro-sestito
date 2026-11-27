@@ -516,6 +516,26 @@ TODO / DOING / DONE / DEFERRED, with dates. Assistant rules are in `CLAUDE.md`.
   fotobuste*, *271 locandine* ...) instead of *manifesti* (V5). Left to
   batch 5: the count wording inside *Gli anni d'oro* (rewritten there) and
   the rating chart (removed there).
+- **Batch 2 (conventions) DOING 2026-11-27 on branch `text/conventions`**,
+  not committed. Done: accents instead of apostrophes (15 lines, front
+  matter and captions); *1°* for the first of the month; en dash and full
+  years in editorial ranges; sentence-case archive and article titles
+  (slugs unchanged); capital first letter in descriptions (front matter and
+  every template that prints them); *signora*, *prefetto*, genre names in
+  lower case in prose, the 23 genre page descriptions and the posters
+  heatmap caption; *Calendario 1985 (2)* (page, posters source page, 45 CSV
+  cells under the data freeze exception); *50x70 cm*-style sizes; spaced en
+  dashes, «» and no serial comma in editorial text; caption full stops only
+  on sentences; the T2 slips (methodology, project page); hashtag tags
+  replaced (*Cinema Teatro Sestito*, *Autoricambi Sestito*, *Sonati Vicinu*;
+  term pages redirect the old tag URLs); the year-page category written
+  *Programmazione per anni* (same URL); Italian number format in charts,
+  tooltips, film pages and the dashboard; decade names (*anni Sessanta*) in
+  labels and tooltips (`layouts/partials/decennio.html`); archive image
+  captions without ISO dates (*title, pagina N*). Transcriptions unchanged.
+  `titleCaseStyle: firstupper` added to `config.yaml` with the owner's OK
+  (D2 in `da-verificare.md`): category and tag names now show *Paesi di
+  produzione*, *San Vito sullo Ionio*, *Programmazione per anni*.
 - **Encoding fix (DONE 2026-11-27).** Batch 1 wrote the fixed explanation
   on the 57 year pages double-encoded (*più* and *è* shown as two
   garbled characters each; the substitution script did not decode its input). Fixed on `fix/encoding`;
@@ -528,6 +548,13 @@ TODO / DOING / DONE / DEFERRED, with dates. Assistant rules are in `CLAUDE.md`.
   This also changes its counting base (each poster once per decade, 1,787
   pieces, instead of the CSV's repeated counts per screening year; see
   `posters.md`). Not started; the owner decides when.
+- **U35 - TODO 2026-11-27 (later): descriptive alt text for 33 archive
+  captions**, written scan by scan. Batch 2 replaced the ISO-date captions
+  with *title, pagina N* on 11 archive pages (Abilitazione 1949, Processo
+  1955, the three Via Comm. Doria land pages, Progetto 1957–1959, Publi-Enic,
+  Lettera Mongiardo, Società Elettrica delle Calabrie, Abilitazione 1959,
+  Assemblea DC); each needs a caption that says what the page shows, as on
+  the newer archive pages.
 - **Data freeze exception (owner, 2026-11-27).** Only three changes to
   `static/data/programmazione_agende.csv` are allowed: *Incam* → *INCOM* in
   the source names; *Calendario 1985_2* → *Calendario 1985 (2)*; obvious

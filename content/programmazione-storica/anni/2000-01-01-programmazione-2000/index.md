@@ -5,7 +5,7 @@ date: '2000-01-01'
 slug: programmazione-2000
 description: Programmazione cinematografica del Cinema Teatro Sestito nel 2000.
 categories:
-  - programmazione-per-anni
+  - Programmazione per anni
 params:
   anno: 2000
 ---

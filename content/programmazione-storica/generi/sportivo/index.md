@@ -7,7 +7,7 @@ categories:
 - Generi
 tags:
 - Programmazione
-description: Film di genere Sportivo nella programmazione del Cinema Teatro Sestito,
+description: Film di genere sportivo nella programmazione del Cinema Teatro Sestito,
   suddivisi per anno.
 ---
 {{% programmazione-tabelle "generi" %}}

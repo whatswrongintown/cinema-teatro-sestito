@@ -30,7 +30,7 @@
       {{- $xb := partial "grafici/indice-xy.html" (dict "p" $p "x" (add $c 0.5)) }}
       {{- $ya := partial "grafici/indice-xy.html" (dict "p" $p "y" (add $r 0.5)) }}
       {{- $yb := partial "grafici/indice-xy.html" (dict "p" $p "y" (sub $r 0.5)) }}
-<rect x="{{ printf "%.2f" $xa }}" y="{{ printf "%.2f" $ya }}" width="{{ printf "%.2f" (sub $xb $xa) }}" height="{{ printf "%.2f" (sub $yb $ya) }}" class="g-tile" style="--t:{{ partial "grafici/colore.html" (dict "v" $t.prop "min" $lo "max" $hi) }}"><title>{{ $g }}, anni {{ $dec }}: {{ printf "%.1f" (mul 100 $t.prop) }}%</title></rect>
+<rect x="{{ printf "%.2f" $xa }}" y="{{ printf "%.2f" $ya }}" width="{{ printf "%.2f" (sub $xb $xa) }}" height="{{ printf "%.2f" (sub $yb $ya) }}" class="g-tile" style="--t:{{ partial "grafici/colore.html" (dict "v" $t.prop "min" $lo "max" $hi) }}"><title>{{ $g }}, anni {{ partial "decennio.html" $dec }}: {{ replace (printf "%.1f" (mul 100 $t.prop)) "." "," }}%</title></rect>
     {{- end }}
   {{- end }}
 {{- end }}

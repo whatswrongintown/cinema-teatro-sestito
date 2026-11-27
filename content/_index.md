@@ -43,7 +43,7 @@ params:
   riapertura:
     occhiello: Verso la riapertura
     titolo: "La sala può *riaccendersi*"
-    testo: "Sebbene oggi le sue luci siano spente, il Cinema Sestito continua a vivere attraverso la ricerca, la memoria e la possibilità *- sempre aperta -* di un ritorno."
+    testo: "Sebbene oggi le sue luci siano spente, il Cinema Sestito continua a vivere attraverso la ricerca, la memoria e la possibilità *– sempre aperta –* di un ritorno."
     pagina: /riapertura
     etichetta: Segui il percorso
 ---

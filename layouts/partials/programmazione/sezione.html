@@ -61,7 +61,7 @@ Call with: partial "programmazione/sezione.html" .
       {{- range sort (uniq $decenni) }}
       {{- $d := . }}
       <div class="years-row">
-        <h2 class="label years-decade">Anni {{ $d }}</h2>
+        <h2 class="label years-decade">Anni {{ partial "decennio.html" $d }}</h2>
         <ul class="years">
           {{- range sort $figli "Params.anno" }}{{ if eq (printf "%s0" (substr (string .Params.anno) 0 3)) $d }}
           <li><a href="{{ .RelPermalink }}"><span class="years-year">{{ .Params.anno }}</span><span class="label years-count">{{ index $conta .RelPermalink }} film</span></a></li>

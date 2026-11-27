@@ -7,7 +7,7 @@ categories:
 - Generi
 tags:
 - Programmazione
-description: Film di genere Fantascienza nella programmazione del Cinema Teatro Sestito,
+description: Film di genere fantascienza nella programmazione del Cinema Teatro Sestito,
   suddivisi per anno.
 ---
 {{% programmazione-tabelle "generi" %}}

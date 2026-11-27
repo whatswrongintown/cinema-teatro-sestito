@@ -25,7 +25,7 @@ to the interactive dashboard.
     <div class="wrap">
       {{- with .Params.occhiello }}<p class="label home-kicker">{{ . }} · {{ $primo }}–{{ $ultimo }}</p>{{ end }}
       <h1 id="programme-title" class="home-title posters-title">Programmazione <em>storica</em></h1>
-      {{- with .Description }}<p class="home-lead programme-lead">{{ . }}</p>{{ end }}
+      {{- with .Description }}<p class="home-lead programme-lead">{{ strings.FirstUpper . }}</p>{{ end }}
       <ul class="big-figures">
         <li><span class="big-figure">{{ lang.FormatNumber 0 (len $rows) }}</span><span class="label">film in cartellone</span></li>
         <li><span class="big-figure">{{ lang.FormatNumber 0 $nFilm }}</span><span class="label">titoli con scheda IMDb</span></li>
@@ -71,7 +71,7 @@ to the interactive dashboard.
       {{- $m := partial "programmazione/manifesti.html" (dict "rows" $righe "n" 5) }}
       <div class="decade-row">
         <div class="decade-head">
-          <h3 class="timeline-year">Anni {{ $d }}</h3>
+          <h3 class="timeline-year">Anni {{ partial "decennio.html" $d }}</h3>
           <p class="label decade-figures">{{ lang.FormatNumber 0 (len $righe) }} film in cartellone · {{ lang.FormatNumber 0 (len (uniq $idsD)) }} titoli</p>
           {{- with $anniPag }}<a class="label home-more" href="{{ .RelPermalink }}">Gli anni →</a>{{ end }}
         </div>

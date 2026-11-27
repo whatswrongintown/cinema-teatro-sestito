@@ -14,7 +14,7 @@ have their own templates.
     <div class="wrap">
       {{- if eq .Kind "taxonomy" }}<p class="label home-kicker">Indice</p>{{ end }}
       <h1 id="list-title" class="posters-page-title">{{ .Title }}</h1>
-      {{- with .Description }}<p class="home-lead posters-page-lead">{{ . }}</p>{{ end }}
+      {{- with .Description }}<p class="home-lead posters-page-lead">{{ strings.FirstUpper . }}</p>{{ end }}
       {{- if eq .Kind "taxonomy" }}<p class="label posters-page-count">{{ len .Data.Terms }} voci</p>{{ end }}
     </div>
   </section>

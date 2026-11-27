@@ -28,7 +28,7 @@ poster gallery for the page's browse mode or layout.
     <div class="wrap">
       <p class="label home-kicker">{{ with .Parent }}{{ if ne . $radice }}{{ $radice.Title }} · {{ end }}{{ .Title }}{{ end }}</p>
       <h1 id="posters-page-title" class="posters-page-title">{{ if .Params.letter }}Titoli che iniziano per {{ cond (eq .Params.letter "#") "un numero" .Title }}{{ else }}{{ .Title }}{{ end }}</h1>
-      {{- with .Description }}<p class="home-lead posters-page-lead">{{ . }}</p>{{ end }}
+      {{- with .Description }}<p class="home-lead posters-page-lead">{{ strings.FirstUpper . }}</p>{{ end }}
       {{- if not .Params.browse }}
       <p class="label posters-page-count">{{ lang.FormatNumber 0 $n }} {{ if .Params.size }}{{ cond (eq $n 1) "manifesto" "manifesti" }}{{ else }}{{ cond (eq $n 1) "titolo" "titoli" }}{{ end }}</p>
       {{- end }}
@@ -61,7 +61,7 @@ poster gallery for the page's browse mode or layout.
         {{- range sort (uniq $decenni) }}
         {{- $d := . }}
         <div class="years-row">
-          <h2 class="label years-decade">Anni {{ $d }}</h2>
+          <h2 class="label years-decade">Anni {{ partial "decennio.html" $d }}</h2>
           <ul class="years">
             {{- range $anni }}{{ if eq (mul (div (int .Title) 10) 10) $d }}
             <li><a href="{{ .RelPermalink }}"><span class="years-year">{{ .Title }}</span><span class="label years-count">{{ $c := partial "posters/count.html" . }}{{ $c }} {{ cond (eq $c 1) "titolo" "titoli" }}</span></a></li>
@@ -89,7 +89,7 @@ poster gallery for the page's browse mode or layout.
               </span>
               <span class="card-title">{{ .Title }}</span>
               <span class="label card-kicker">{{ lang.FormatNumber 0 $k }} {{ if .Params.size }}manifesti{{ else }}{{ cond (eq $k 1) "titolo" "titoli" }}{{ end }}</span>
-              {{- with .Description }}<span class="card-text">{{ . }}</span>{{ end }}
+              {{- with .Description }}<span class="card-text">{{ strings.FirstUpper . }}</span>{{ end }}
             </a>
           </li>
           {{- end }}

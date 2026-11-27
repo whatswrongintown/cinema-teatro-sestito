@@ -5,7 +5,7 @@ date: '1984-01-01'
 slug: programmazione-1984
 description: Programmazione cinematografica del Cinema Teatro Sestito nel 1984.
 categories:
-  - programmazione-per-anni
+  - Programmazione per anni
 params:
   anno: 1984
 ---

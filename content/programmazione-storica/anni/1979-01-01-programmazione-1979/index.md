@@ -5,7 +5,7 @@ date: '1979-01-01'
 slug: programmazione-1979
 description: Programmazione cinematografica del Cinema Teatro Sestito nel 1979.
 categories:
-  - programmazione-per-anni
+  - Programmazione per anni
 params:
   anno: 1979
 ---

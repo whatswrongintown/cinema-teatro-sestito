@@ -1,6 +1,6 @@
 ---
 seoDescription: 'Perché la sala di San Vito programmò film per adulti ed exploitation tra il 1977 e il 1994: i numeri delle fonti, i manifesti e i titoli più strani.'
-title: "Le luci rosse del Cinema Sestito: film per adulti ed exploitation (1977-1994)"
+title: "Le luci rosse del Cinema Sestito: film per adulti ed exploitation (1977–1994)"
 description: "Perché e come la sala di San Vito programmò film per adulti ed exploitation tra il 1977 e il 1994: i numeri della programmazione ricostruita, i manifesti affissi in piazza e i titoli più strani."
 author: Vito Sestito
 date: '2026-11-24'
@@ -79,9 +79,9 @@ Anche la quota nel cartellone è notevole. Dopo il primo titolo del 1977 ce ne f
 
 La programmazione ricostruita classifica ogni film con più generi, e 12 titoli per adulti portano anche l'etichetta di *horror*. Le etichette vengono da IMDb e non sempre convincono: servono soprattutto a ricordare quanto fossero sfumati i confini del filone.
 
-{{< manifesto id="tt0235686" didascalia="Un manifesto 140x200 centimetri, il formato più grande della raccolta." >}}
+{{< manifesto id="tt0235686" didascalia="Un manifesto 140x200 cm, il formato più grande della raccolta." >}}
 
-Il caso più curioso è *Porno Holocaust* (1981), diretto da Joe D'Amato, pseudonimo di Aristide Massaccesi (1936-1999), che ne usò più di una dozzina.[^2] Il titolo è stato letto come un'eco di *Cannibal Holocaust*; il film uscì in Italia nel febbraio 1981 e a San Vito arrivò dieci mesi dopo, il 4 dicembre.[^3] Il suo manifesto è un 140x200, il formato più grande della collezione. D'Amato ritorna spesso: sei titoli da lui firmati o co-firmati hanno un manifesto in archivio, e tra il 4 dicembre 1981 e il 20 gennaio 1982, in meno di due mesi, il cinema ne programmò quattro (*Porno Holocaust*, *Bocca golosa*, *Orgasmo nero*, *Super Climax*).
+Il caso più curioso è *Porno Holocaust* (1981), diretto da Joe D'Amato, pseudonimo di Aristide Massaccesi (1936–1999), che ne usò più di una dozzina.[^2] Il titolo è stato letto come un'eco di *Cannibal Holocaust*; il film uscì in Italia nel febbraio 1981 e a San Vito arrivò dieci mesi dopo, il 4 dicembre.[^3] Il suo manifesto è un 140x200, il formato più grande della collezione. D'Amato ritorna spesso: sei titoli da lui firmati o co-firmati hanno un manifesto in archivio, e tra il 4 dicembre 1981 e il 20 gennaio 1982, in meno di due mesi, il cinema ne programmò quattro (*Porno Holocaust*, *Bocca golosa*, *Orgasmo nero*, *Super Climax*).
 
 {{< manifesto id="tt0157532" lato="destra" >}}
 
@@ -97,7 +97,7 @@ Scorrendo i titoli si trovano coincidenze curiose.
 
 {{< manifesto id="tt0197290" lato="destra" >}}
 
-Quattro titoli della programmazione ricostruita (*Peaches and Cream*, *Satisfactions*, *Showgirls* e *Il piacere dell'atto sessuale*) portano la firma di Gary Graver (1938-2006), che negli stessi anni era l'ultimo direttore della fotografia di Orson Welles e dirigeva film per adulti, spesso con lo pseudonimo Robert McCallum.[^5]
+Quattro titoli della programmazione ricostruita (*Peaches and Cream*, *Satisfactions*, *Showgirls* e *Il piacere dell'atto sessuale*) portano la firma di Gary Graver (1938–2006), che negli stessi anni era l'ultimo direttore della fotografia di Orson Welles e dirigeva film per adulti, spesso con lo pseudonimo Robert McCallum.[^5]
 
 {{< manifesto id="tt0187307" lato="sinistra" >}}
 
@@ -117,7 +117,7 @@ Questo racconto è ancora incompleto: mancano le serate che restano nella memori
 
 I numeri vengono dalla [programmazione ricostruita](/programmazione-storica/): per i criteri e i limiti si veda la [metodologia](/2026/11/11/metodologia-ricostruzione-programmazione/). Un film è «per adulti» quando IMDb lo classifica così. Gli incassi sono in lire correnti e noti solo per una parte delle date in cartellone; le fonti segnano le date, non gli orari.
 
-[^1]: Il Fatto Quotidiano, [«Cinema a luci rosse, la crisi è iniziata dalle VHS»](https://www.ilfattoquotidiano.it/2021/08/01/cinema-a-luci-rosse-la-crisi-e-iniziata-dalle-vhs-un-gestore-la-nostra-non-e-una-platea-esaltata/6276875/), 1 agosto 2021. Il numero di sale e l'origine del nome sono riferiti dall'articolo, che cita lo storico Giuseppe Rausa.
+[^1]: Il Fatto Quotidiano, [«Cinema a luci rosse, la crisi è iniziata dalle VHS»](https://www.ilfattoquotidiano.it/2021/08/01/cinema-a-luci-rosse-la-crisi-e-iniziata-dalle-vhs-un-gestore-la-nostra-non-e-una-platea-esaltata/6276875/), 1° agosto 2021. Il numero di sale e l'origine del nome sono riferiti dall'articolo, che cita lo storico Giuseppe Rausa.
 [^2]: Wikipedia, voce [Joe D'Amato](https://en.wikipedia.org/wiki/Joe_D%27Amato).
 [^3]: Wikipedia, voce [Porno Holocaust](https://en.wikipedia.org/wiki/Porno_Holocaust). Le fonti differiscono su alcuni dettagli della produzione.
 [^4]: Wikipedia, voce [Roberta Findlay](https://en.wikipedia.org/wiki/Roberta_Findlay).

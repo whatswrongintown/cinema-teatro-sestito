@@ -5,7 +5,7 @@ date: '1949-01-01'
 slug: programmazione-1949
 description: Programmazione cinematografica del Cinema Teatro Sestito nel 1949.
 categories:
-  - programmazione-per-anni
+  - Programmazione per anni
 params:
   anno: 1949
 ---

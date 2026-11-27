@@ -20,7 +20,7 @@ Questi materiali hanno permesso di ricostruire una parte significativa dell'atti
 
 ## Il ritrovamento e le condizioni dei documenti
 
-Le agende erano state conservate da mio padre Stefano. Si trovavano nella mansarda della casa di famiglia, raccolte in uno scatolone insieme ad altro materiale relativo all'attività della sala. La loro esistenza mi era nota solo dopo aver iniziato a esplorare gli oggetti e i documenti conservati in casa, durante una prima ricognizione legata al progetto di una possibile riapertura del cinema.
+Le agende erano state conservate da mio padre Stefano. Si trovavano nella mansarda della casa di famiglia, raccolte in uno scatolone insieme ad altro materiale relativo all'attività della sala. Ne ho scoperto l'esistenza solo dopo aver iniziato a esplorare gli oggetti e i documenti conservati in casa, durante una prima ricognizione legata al progetto di una possibile riapertura del cinema.
 
 I documenti erano riposti uno sopra l'altro, raggruppati in modi diversi: alcuni erano tenuti insieme da graffette o punti metallici, altri da elastici. Non erano stati adottati particolari accorgimenti per la conservazione. La carta, soprattutto quella dei materiali più vecchi, presenta ingiallimenti e segni di deterioramento. Due agende hanno alcune pagine strappate e non recuperabili, mentre diversi calendari risalenti alla fine degli anni Quaranta e ai primi anni Cinquanta si trovano in condizioni particolarmente fragili.
 
@@ -38,7 +38,7 @@ La lettura dei titoli non è sempre stata immediata. In particolare, nelle agend
 
 > ![Esempio delle annotazioni manoscritte utilizzate per ricostruire la programmazione](images/firma_1.png)
 
-> Un esempio delle annotazioni manoscritte utilizzate per ricostruire la programmazione.
+> Un esempio delle annotazioni manoscritte utilizzate per ricostruire la programmazione
 
 ## Non soltanto titoli di film
 
@@ -46,7 +46,7 @@ Le agende non contengono esclusivamente i titoli dei film e le relative date. In
 
 Tra i nomi che ricorrono compare, per esempio, Titanus. In alcune pagine si trovano anche riferimenti a soggetti coinvolti nel trasporto delle pellicole, anche se non sempre è possibile interpretare con certezza il significato delle annotazioni. Tra questi compare il nome Film Express di Catania.
 
-Una parte interessante del materiale è costituita dalle agende Fedi, riconducibili all'azienda italiana che produceva proiettori cinematografici. Probabilmente venivano distribuite agli esercenti come materiale promozionale. Le prime pagine contengono pubblicità di prodotti dell'azienda, tra cui diversi modelli di proiettori, altoparlanti,  e stabilizzatori. Sono presenti anche informazioni tecniche e indicazioni relative all'utilizzo delle apparecchiature.
+Una parte interessante del materiale è costituita dalle agende Fedi, riconducibili all'azienda italiana che produceva proiettori cinematografici. Probabilmente venivano distribuite agli esercenti come materiale promozionale. Le prime pagine contengono pubblicità di prodotti dell'azienda, tra cui diversi modelli di proiettori, altoparlanti e stabilizzatori. Sono presenti anche informazioni tecniche e indicazioni relative all'utilizzo delle apparecchiature.
 
 Queste agende, oltre a documentare la programmazione, conservano quindi tracce di alcuni aspetti pratici e commerciali della gestione di una sala cinematografica. Le pagine dei mesi iniziavano generalmente a settembre, dopo la pausa estiva, e le prime sezioni erano spesso dedicate ai contenuti promozionali e tecnici.
 
@@ -54,13 +54,13 @@ Anche alcune agende delle case di distribuzione contengono materiali di questo t
 
 > ![Materiale promozionale Fedi](images/materiale_promozionale.png)
 
-> Materiale promozionale dell'azienda Fedi conservato all'interno di una delle [agende](/1958/11/01/fedi-1958-59/).
+> Materiale promozionale dell'azienda Fedi conservato all'interno di una delle [agende](/1958/11/01/fedi-1958-59/)
 
 <!-- FOTO: pubblicità dei prodotti Fedi nelle prime pagine di un'agenda. Didascalia: Materiale promozionale dell'azienda Fedi conservato all'interno di una delle agende. -->
 
 > ![Informazioni tecniche attrezzatura Fedi](images/informazioni_tecniche.png)
 
-> Le informazioni tecniche e le indicazioni sull'utilizzo delle apparecchiature presenti nelle agende [Fedi](/1962/11/01/fedi-1962-63/).
+> Le informazioni tecniche e le indicazioni sull'utilizzo delle apparecchiature presenti nelle agende [Fedi](/1962/11/01/fedi-1962-63/)
 
 <!-- FOTO: pagina con informazioni tecniche sui proiettori. Didascalia: Le informazioni tecniche e le indicazioni sull'utilizzo delle apparecchiature presenti nelle agende Fedi. -->
 
@@ -122,7 +122,7 @@ Lo stesso criterio vale per i paesi di produzione. I film realizzati in coproduz
 
 La ricostruzione presentata sul sito dipende direttamente dalla quantità e dalla qualità dei documenti conservati. Non è possibile considerarla un registro completo di tutta l'attività del Cinema: rappresenta piuttosto ciò che è stato possibile documentare attraverso le fonti oggi disponibili.
 
-Un limite particolarmente evidente riguarda il periodo 1960-1961, per il quale mancano alcune pagine dei documenti. In questi casi l'assenza di una voce nel database non dimostra che il cinema fosse chiuso o che non vi fossero proiezioni: indica semplicemente che non è stato possibile recuperare una documentazione sufficiente.
+Un limite particolarmente evidente riguarda il periodo 1960–1961, per il quale mancano alcune pagine dei documenti. In questi casi l'assenza di una voce nel database non dimostra che il cinema fosse chiuso o che non vi fossero proiezioni: indica semplicemente che non è stato possibile recuperare una documentazione sufficiente.
 
 Altri limiti derivano dalle condizioni materiali delle agende, dalle annotazioni incomplete e dalle discrepanze tra le diverse fonti. Anche quando un film è stato identificato, non sempre è stato possibile stabilire con assoluta certezza la data esatta della sua programmazione.
 

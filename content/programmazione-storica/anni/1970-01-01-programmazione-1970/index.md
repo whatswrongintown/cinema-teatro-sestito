@@ -5,7 +5,7 @@ date: '1970-01-01'
 slug: programmazione-1970
 description: Programmazione cinematografica del Cinema Teatro Sestito nel 1970.
 categories:
-  - programmazione-per-anni
+  - Programmazione per anni
 params:
   anno: 1970
 ---

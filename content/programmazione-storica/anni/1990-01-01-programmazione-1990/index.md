@@ -5,7 +5,7 @@ date: '1990-01-01'
 slug: programmazione-1990
 description: Programmazione cinematografica del Cinema Teatro Sestito nel 1990.
 categories:
-  - programmazione-per-anni
+  - Programmazione per anni
 params:
   anno: 1990
 ---

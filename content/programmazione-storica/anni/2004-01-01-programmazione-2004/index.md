@@ -5,7 +5,7 @@ date: '2004-01-01'
 slug: programmazione-2004
 description: Programmazione cinematografica del Cinema Teatro Sestito nel 2004.
 categories:
-  - programmazione-per-anni
+  - Programmazione per anni
 params:
   anno: 2004
 ---

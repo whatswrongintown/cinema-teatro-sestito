@@ -7,7 +7,7 @@ categories:
 - Generi
 tags:
 - Programmazione
-description: Film di genere Noir nella programmazione del Cinema Teatro Sestito, suddivisi
+description: Film di genere noir nella programmazione del Cinema Teatro Sestito, suddivisi
   per anno.
 ---
 {{% programmazione-tabelle "generi" %}}

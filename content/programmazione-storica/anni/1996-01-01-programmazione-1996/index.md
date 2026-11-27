@@ -5,7 +5,7 @@ date: '1996-01-01'
 slug: programmazione-1996
 description: Programmazione cinematografica del Cinema Teatro Sestito nel 1996.
 categories:
-  - programmazione-per-anni
+  - Programmazione per anni
 params:
   anno: 1996
 ---

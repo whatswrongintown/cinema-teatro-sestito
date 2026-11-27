@@ -30,7 +30,7 @@ params:
     - nome: Giudiziario
       testo: "Documentazione legale e procedimenti amministrativi connessi all’attività della sala o a controversie civili."
     - nome: Personali
-      testo: "Materiali biografici relativi alla famiglia Sestito: attestati, diari, e documenti militari."
+      testo: "Materiali biografici relativi alla famiglia Sestito: attestati, diari e documenti militari."
     - nome: Spettacoli
       testo: "Materiale promozionale, locandine e documenti organizzativi relativi a eventi teatrali, musicali e culturali ospitati nella struttura."
     - nome: Attrezzature

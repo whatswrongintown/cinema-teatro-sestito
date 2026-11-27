@@ -5,7 +5,7 @@ date: '1998-01-01'
 slug: programmazione-1998
 description: Programmazione cinematografica del Cinema Teatro Sestito nel 1998.
 categories:
-  - programmazione-per-anni
+  - Programmazione per anni
 params:
   anno: 1998
 ---

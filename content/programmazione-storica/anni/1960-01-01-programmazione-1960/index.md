@@ -5,7 +5,7 @@ date: '1960-01-01'
 slug: programmazione-1960
 description: Programmazione cinematografica del Cinema Teatro Sestito nel 1960.
 categories:
-  - programmazione-per-anni
+  - Programmazione per anni
 params:
   anno: 1960
 ---
@@ -21,6 +21,6 @@ I voti IMDb descrivono le valutazioni degli utenti IMDb, non il pubblico o gli i
 
 <!--more-->
 
-> La documentazione disponibile per questo anno e' parziale: i mesi senza registrazioni non indicano necessariamente l'assenza di proiezioni.
+> La documentazione disponibile per questo anno è parziale: i mesi senza registrazioni non indicano necessariamente l'assenza di proiezioni.
 
 {{% programmazione-tabelle "anni" %}}

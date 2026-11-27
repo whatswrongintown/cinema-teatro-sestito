@@ -3,7 +3,7 @@ title: "Mappa del sito"
 author: "Vito Sestito"
 date: "2023-05-24"
 lastmod: "2026-11-26"
-description: "Pagina per la mappa del sito - sitemap"
+description: "Pagina per la mappa del sito"
 ---
 
 Un elenco di tutte le pagine e gli articoli presenti sul sito. Se non trovi quello che cerchi non esitare a [contattarmi](mailto:whatswrongintown@gmail.com).

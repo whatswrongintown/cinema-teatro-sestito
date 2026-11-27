@@ -13,4 +13,4 @@ tags:
 
 Tessera Nazionale:
 ![Fronte della tessera ANEC del 1950 intestata a Vito Sestito, con fotografia e dati di iscrizione](images/1950_Associazione_Nazionale_Esercenti_Cinema_1.jpg)
-![Retro della tessera ANEC con le condizioni di validita' e i bolli associativi](images/1950_Associazione_Nazionale_Esercenti_Cinema_2.jpg)
+![Retro della tessera ANEC con le condizioni di validità e i bolli associativi](images/1950_Associazione_Nazionale_Esercenti_Cinema_2.jpg)

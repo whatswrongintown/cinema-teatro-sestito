@@ -1,10 +1,10 @@
 {{- /* Heat map: posters per decade of screening and poster format. Data: static/data/posters_format_by_decade.csv */ -}}
 {{- $labels := dict
-  "fotobusta_70x50" "Fotobusta 50×70"
-  "locandina_33x70" "Locandina 33×70"
-  "manifesto_70x100" "Manifesto 70×100"
-  "manifesto_100x140" "Manifesto 100×140"
-  "manifesto_140x200" "Manifesto 140×200" }}
+  "fotobusta_70x50" "Fotobusta 50x70"
+  "locandina_33x70" "Locandina 33x70"
+  "manifesto_70x100" "Manifesto 70x100"
+  "manifesto_100x140" "Manifesto 100x140"
+  "manifesto_140x200" "Manifesto 140x200" }}
 {{ partial "posters-heatmap.html" (dict
   "id" "grafico-formati"
   "title" "Manifesti per formato e decennio"

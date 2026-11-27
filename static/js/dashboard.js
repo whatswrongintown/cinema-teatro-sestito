@@ -11,6 +11,7 @@
 
   function $(id) { return document.getElementById(id); }
   function fmt(n) { return String(n).replace(/\B(?=(\d{3})+(?!\d))/g, '.'); }
+  function dec(n) { return String(n).replace('.', ','); }
   function el(tag, attrs, text) {
     var e = document.createElement(tag);
     for (var k in attrs || {}) e.setAttribute(k, attrs[k]);
@@ -297,7 +298,7 @@
     svg.appendChild(svgEl('line', { x1: L, x2: L, y1: T, y2: T + ph, 'class': 'axis' }));
     rated.forEach(function (e) {
       var c = svgEl('circle', { cx: X(e.film.votes).toFixed(1), cy: Y(e.film.rating).toFixed(1), r: 3.6, 'class': 'dot' });
-      c.appendChild(svgEl('title', null, e.recorded + ' – IMDb ' + e.film.rating + ', ' + fmt(e.film.votes) + ' voti'));
+      c.appendChild(svgEl('title', null, e.recorded + ' – IMDb ' + dec(e.film.rating) + ', ' + fmt(e.film.votes) + ' voti'));
       svg.appendChild(c);
     });
     svg.appendChild(svgEl('text', { x: L + pw / 2, y: H - 22, 'text-anchor': 'middle' }, 'Numero di voti (scala logaritmica)'));
@@ -381,15 +382,15 @@
         box.replaceChildren(imdbChart(films));
         imdbValues = pagedTable(vals, [
           { label: 'Titolo', text: function (e) { return e.recorded; } },
-          { label: 'Valutazione IMDb', text: function (e) { return String(e.film.rating); }, key: function (e) { return e.film.rating; } },
-          { label: 'Voti', text: function (e) { return String(e.film.votes); }, key: function (e) { return e.film.votes; } }
+          { label: 'Valutazione IMDb', text: function (e) { return dec(e.film.rating); }, key: function (e) { return e.film.rating; } },
+          { label: 'Voti', text: function (e) { return fmt(e.film.votes); }, key: function (e) { return e.film.votes; } }
         ], { search: true });
         imdbValues.update(ratedFilms(films));
       }
     }
     function rankRows(rows) {
       return rows.map(function (e) {
-        return [imdbLink(e.title, e.film.id), list(e.film.directors), String(e.film.rating), fmt(e.film.votes)];
+        return [imdbLink(e.title, e.film.id), list(e.film.directors), dec(e.film.rating), fmt(e.film.votes)];
       });
     }
     function drawSummary() {

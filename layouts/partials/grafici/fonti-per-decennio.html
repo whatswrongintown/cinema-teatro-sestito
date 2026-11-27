@@ -26,7 +26,7 @@
     {{- $xb := partial "grafici/indice-xy.html" (dict "p" $p "x" (add .x 5)) }}
     {{- $ya := partial "grafici/indice-xy.html" (dict "p" $p "y" (add $r 0.5)) }}
     {{- $yb := partial "grafici/indice-xy.html" (dict "p" $p "y" (sub $r 0.5)) }}
-<rect x="{{ printf "%.2f" $xa }}" y="{{ printf "%.2f" $ya }}" width="{{ printf "%.2f" (sub $xb $xa) }}" height="{{ printf "%.2f" (sub $yb $ya) }}" class="g-tile" style="--t:{{ partial "grafici/colore.html" (dict "v" .n "min" $lo "max" $hi) }}"><title>{{ $t }}, anni {{ .x }}: {{ .n }}</title></rect>
+<rect x="{{ printf "%.2f" $xa }}" y="{{ printf "%.2f" $ya }}" width="{{ printf "%.2f" (sub $xb $xa) }}" height="{{ printf "%.2f" (sub $yb $ya) }}" class="g-tile" style="--t:{{ partial "grafici/colore.html" (dict "v" .n "min" $lo "max" $hi) }}"><title>{{ $t }}, anni {{ partial "decennio.html" .x }}: {{ lang.FormatNumber 0 .n }}</title></rect>
   {{- end }}
 {{- end }}
 <text x="{{ printf "%.2f" (div (add $p.p1 $p.p2) 2) }}" y="29" class="g-title" font-size="44" text-anchor="middle" dominant-baseline="central">Citazioni nelle fonti per decennio</text>

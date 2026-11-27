@@ -11,7 +11,7 @@ tags:
   - Legale
 ---
 
-![1956-03-01 Acquisto terreno cinema in Via Comm. Doria](images/195603AcquistoTerrenoCinema2.jpg)
+![Acquisto terreno cinema in Via Comm. Doria (parte 2)](images/195603AcquistoTerrenoCinema2.jpg)
 
 [Prima parte](/1955/12/26/acquisto-terreno-cinema-in-via-comm-doria/)
 

@@ -5,7 +5,7 @@ date: '1965-01-01'
 slug: programmazione-1965
 description: Programmazione cinematografica del Cinema Teatro Sestito nel 1965.
 categories:
-  - programmazione-per-anni
+  - Programmazione per anni
 params:
   anno: 1965
 ---

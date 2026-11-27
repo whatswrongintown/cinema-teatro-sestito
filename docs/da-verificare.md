@@ -147,4 +147,4 @@ Any printed director, producer or year.
 | # | Item | Look at | Status |
 | --- | --- | --- | --- |
 | D1 | The wording IMDb requires for its credit line, before changing *Information courtesy of IMDb* (V8) | IMDb's conditions of use for non-commercial sites | TODO |
-| D2 | Hugo's option for first-letter-only title case of term names (C2), against Hugo 0.170.1 | Hugo documentation for `titleCaseStyle` | TODO |
+| D2 | Hugo's option for first-letter-only title case of term names (C2), against Hugo 0.170.1 | Checked 2026-11-27: local `hugo version` and Netlify (`netlify.toml`, `HUGO_VERSION = '0.170.1'`) both run 0.170.1. `hugo config` lists `titlecasestyle = 'AP'` (the default) and `capitalizelisttitles = true`. Test builds outside the repository: `titleCaseStyle: firstupper` gives *Paesi di produzione*, *San Vito sullo Ionio*, *Storia locale* (first letter up, the rest as written); `capitalizeListTitles: false` leaves lower-case terms lower-case. Applied with the owner's OK: `titleCaseStyle: firstupper` in `config.yaml` | DONE 2026-11-27 |

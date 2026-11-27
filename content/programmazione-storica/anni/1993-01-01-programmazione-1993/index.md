@@ -5,7 +5,7 @@ date: '1993-01-01'
 slug: programmazione-1993
 description: Programmazione cinematografica del Cinema Teatro Sestito nel 1993.
 categories:
-  - programmazione-per-anni
+  - Programmazione per anni
 params:
   anno: 1993
 ---

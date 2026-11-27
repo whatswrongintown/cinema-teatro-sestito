@@ -23,8 +23,8 @@
   {{- $xa := partial "grafici/indice-xy.html" (dict "p" $p "x" (sub .x 4.5)) }}
   {{- $xb := partial "grafici/indice-xy.html" (dict "p" $p "x" (add .x 4.5)) }}
   {{- $yi := partial "grafici/indice-xy.html" (dict "p" $p "y" .italia) }}
-<rect x="{{ printf "%.2f" $xa }}" y="{{ printf "%.2f" $yi }}" width="{{ printf "%.2f" (sub $xb $xa) }}" height="{{ printf "%.2f" (sub $y0 $yi) }}" class="g-bar"><title>Italia, anni {{ .x }}: {{ printf "%.1f" .italia }}%</title></rect>
-<rect x="{{ printf "%.2f" $xa }}" y="{{ printf "%.2f" $y100 }}" width="{{ printf "%.2f" (sub $xb $xa) }}" height="{{ printf "%.2f" (sub $yi $y100) }}" class="g-bar2"><title>Estero, anni {{ .x }}: {{ printf "%.1f" (sub 100 .italia) }}%</title></rect>
+<rect x="{{ printf "%.2f" $xa }}" y="{{ printf "%.2f" $yi }}" width="{{ printf "%.2f" (sub $xb $xa) }}" height="{{ printf "%.2f" (sub $y0 $yi) }}" class="g-bar"><title>Italia, anni {{ partial "decennio.html" .x }}: {{ replace (printf "%.1f" .italia) "." "," }}%</title></rect>
+<rect x="{{ printf "%.2f" $xa }}" y="{{ printf "%.2f" $y100 }}" width="{{ printf "%.2f" (sub $xb $xa) }}" height="{{ printf "%.2f" (sub $yi $y100) }}" class="g-bar2"><title>Estero, anni {{ partial "decennio.html" .x }}: {{ replace (printf "%.1f" (sub 100 .italia)) "." "," }}%</title></rect>
 {{- end }}
 <text x="{{ printf "%.2f" (div (add $p.p1 $p.p2) 2) }}" y="29" class="g-title" font-size="44" text-anchor="middle" dominant-baseline="central">Cinema italiano vs estero: evoluzione per decennio</text>
 {{ partial "grafici/indice-assi.html" (dict "p" $p "xat" $xat "xlabels" (partial "grafici/numeri.html" $xat) "yat" $yat "ylabels" $ylabels "xtitle" "Decennio" "ytitle" "% sul totale" "sizes" $sizes) }}

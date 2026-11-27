@@ -1,6 +1,6 @@
 ---
-title: Gli anni d’oro del Cinema Teatro Sestito (1957-1979)
-description: "Ricostruzione degli anni 1957-1979 del Cinema Teatro Sestito: costruzione della nuova sala, vita culturale della comunita' e primi segnali di declino."
+title: Gli anni d’oro del Cinema Teatro Sestito (1957–1979)
+description: "Ricostruzione degli anni 1957–1979 del Cinema Teatro Sestito: costruzione della nuova sala, vita culturale della comunità e primi segnali di declino."
 author: Vito Sestito
 date: '2025-11-05'
 lastmod: '2026-11-18'
@@ -52,7 +52,7 @@ Il **3 marzo 1959**, Vito Sestito firmò il contratto con la **Società Elettric
 
 Pochi giorni dopo si svolse il **collaudo statico** della struttura, sotto la supervisione dell’architetto **Zanini**. Per verificare la resistenza del pilastro centrale della sala vennero posizionate, tramite una gru, **tonnellate di sabbia e pietre**, con un sistema di misurazione volto a rilevare eventuali cedimenti. Il test, datato **26 aprile 1959**, fu superato con esito positivo, consentendo di procedere con le pratiche amministrative per l’apertura.
 
-L’**autorizzazione ufficiale** del **Prefetto della Provincia di Catanzaro** giunse soltanto il **6 giugno 1959**, attestando la piena agibilità del locale e la conformità alle norme di sicurezza[^6]. Tuttavia, le testimonianze e i documenti di programmazione mostrano che il cinema aveva già **iniziato a operare informalmente** prima del completamento dell’iter: la prima proiezione nota, quella del film *Re vagabondo*, si tenne infatti il **24 aprile 1959**, cioè **due giorni prima del collaudo** e più di un mese prima dell’autorizzazione ufficiale[^7].
+L’**autorizzazione ufficiale** del **prefetto della provincia di Catanzaro** giunse soltanto il **6 giugno 1959**, attestando la piena agibilità del locale e la conformità alle norme di sicurezza[^6]. Tuttavia, le testimonianze e i documenti di programmazione mostrano che il cinema aveva già **iniziato a operare informalmente** prima del completamento dell’iter: la prima proiezione nota, quella del film *Re vagabondo*, si tenne infatti il **24 aprile 1959**, cioè **due giorni prima del collaudo** e più di un mese prima dell’autorizzazione ufficiale[^7].
 
 Questa discrepanza tra le date, comune nella prassi amministrativa dell’Italia di provincia del dopoguerra, suggerisce che l’apertura del cinema fosse stata anticipata per motivi celebrativi e comunitari, in un clima di entusiasmo collettivo che precedette la formalizzazione burocratica dell’attività.
 
@@ -86,7 +86,7 @@ Questi accordi testimoniano la piena integrazione del cinema di San Vito nei cir
 
 A partire dai primi anni Settanta, la situazione cominciò lentamente a cambiare. La diffusione della **televisione** e la trasformazione delle abitudini collettive ridussero l’affluenza nelle sale cinematografiche di paese. Anche il cinema di San Vito registrò una graduale diminuzione delle proiezioni annuali, fino a un calo significativo nel **1979**, che segnò la fine del periodo d’oro.
 
-Il cinema, tuttavia, non cessò di rappresentare un punto di riferimento per la comunità, continuando a ospitare spettacoli teatrali, manifestazioni scolastiche e incontri pubblici. L’identità del luogo - tra cultura, memoria e socialità - rimase intatta, anche in un’epoca di trasformazioni e difficoltà economiche.
+Il cinema, tuttavia, non cessò di rappresentare un punto di riferimento per la comunità, continuando a ospitare spettacoli teatrali, manifestazioni scolastiche e incontri pubblici. L’identità del luogo – tra cultura, memoria e socialità – rimase intatta, anche in un’epoca di trasformazioni e difficoltà economiche.
 
 Il ventennio 1957–1979 costituisce il cuore pulsante della storia del Cinema di San Vito. In questi anni, la sala non solo raggiunse la sua massima espansione, ma divenne anche uno spazio simbolico di progresso e coesione sociale. La costruzione del nuovo edificio, il sostegno della cittadinanza e la qualità della programmazione proiettano l’esperienza di San Vito oltre i confini locali, rendendola parte integrante della più ampia storia del cinema popolare italiano del Novecento.
 
@@ -94,7 +94,7 @@ Il ventennio 1957–1979 costituisce il cuore pulsante della storia del Cinema d
 [^2]: *Acquisto terreni in Via Comm. Doria*, San Vito sullo Ionio, 1955. [Parte 1](/1955/12/26/acquisto-terreno-cinema-in-via-comm-doria/); [Parte 2](/1956/03/01/acquisto-terreno-cinema-in-via-comm-doria-parte-2/)
 [^3]: *Progetto sala cinematografica*, Catanzaro, 1957. [Link al documento](/1957/01/01/1957-1959-progetto-sala-cinematografica-via-comm-doria/)
 [^4]: Testimonianze orali raccolte dai figli e dai familiari di Vito Sestito
-[^5]: Contratto con *Società Elettrica delle Calabrie*, Soverato,3 marzo 1959. [Link al documento](/1959/03/03/contratto-con-societ-elettrica-delle-calabrie/)
+[^5]: Contratto con *Società Elettrica delle Calabrie*, Soverato, 3 marzo 1959. [Link al documento](/1959/03/03/contratto-con-societ-elettrica-delle-calabrie/)
 [^6]: Prefettura di Catanzaro, *Autorizzazione all’apertura del locale cinematografico*, 6 giugno 1959. [Link al documento](/1959/06/30/abilitazione-cinema-via-comm-doria/)
-[^7]: Agenda *Bruzia 1958-59*, San Vito sullo Ionio, 1 febbraio 1959. [Link al documento](/1959/02/01/bruzia-1958-59/)
+[^7]: Agenda *Bruzia 1958-59*, San Vito sullo Ionio, 1° febbraio 1959. [Link al documento](/1959/02/01/bruzia-1958-59/)
   

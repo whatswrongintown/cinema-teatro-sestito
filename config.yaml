@@ -2,6 +2,9 @@ baseurl: https://cinemateatrosestito.com/
 locale: it-IT
 title: Cinema Teatro Sestito
 enableRobotsTXT: true
+# Term titles (categories, tags): capital first letter only, the rest as
+# written in front matter (style guide C2; checked against Hugo 0.170.1).
+titleCaseStyle: firstupper
 permalinks:
   articoli: /:year/:month/:day/:slug/
   archivio: /:year/:month/:day/:slug/

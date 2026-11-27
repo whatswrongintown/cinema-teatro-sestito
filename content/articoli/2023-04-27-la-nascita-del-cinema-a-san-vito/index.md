@@ -18,7 +18,7 @@ galleryDescriptions:
     pageAlt: "Scansione di materiale della Settimana Incom conservato dall'archivio del cinema."
     images:
       la_settimana_incam_01.jpg:
-        alt: "Agenda cinematografica INCOM per la stagione 1948-1949, con annotazioni manoscritte nella parte superiore."
+        alt: "Agenda cinematografica INCOM per la stagione 1948–1949, con annotazioni manoscritte nella parte superiore."
       la_settimana_incam_02.jpg:
         alt: "Elenco della Settimana Incom con titoli, luoghi e date; i nomi delle città sono evidenziati in colore."
       la_settimana_incam_03.png:
@@ -86,7 +86,7 @@ Tali episodi rivelano il delicato equilibrio tra iniziativa culturale, controllo
 
 Nonostante le difficoltà, la sala di Piazza Mario Polerà divenne un **punto di riferimento per la vita culturale** di San Vito. Nel 1957, Sestito firmò un contratto con la **Publi-Enic**, società di pubblicità cinematografica, che gli garantì una piccola ma stabile entrata economica[^6]. Tale accordo segnò l’inizio di una nuova fase, che avrebbe portato alla costruzione di una sala più grande e moderna.
 
-La storia prosegue con la stagione di massimo splendore per il cinema a San Vito: [leggi “Gli anni d’oro del Cinema Teatro Sestito (1957–1979)”](/2025/11/05/gli-anni-d-oro-del-cinema-teatro-sestito/).
+La storia prosegue con la stagione di massimo splendore per il cinema a San Vito: [leggi «Gli anni d’oro del Cinema Teatro Sestito (1957–1979)»](/2025/11/05/gli-anni-d-oro-del-cinema-teatro-sestito/).
 
 [^1]: Questa parte introduttiva si basa su **testimonianze orali** raccolte dai figli e dai familiari di Vito Sestito, non su documenti diretti o scritti dal fondatore. La ricostruzione riflette pertanto una memoria condivisa e tramandata nel contesto familiare.         
 [^2]: *Acquisto fabbricato in Piazza Mario Polerà*, San Vito sullo Ionio, 1944. [Parte 1](/1944/03/02/acquisto-palazzo-in-piazza-mario-poler-parte-1/); [Parte 2](/1944/03/06/acquisto-palazzo-in-piazza-mario-poler-parte-2/); [Parte 3](/1944/03/15/acquisto-palazzo-in-piazza-mario-poler-parte-3/).

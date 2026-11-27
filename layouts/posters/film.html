@@ -47,7 +47,7 @@ previous and next film by title.
             {{- range $i, $g := . }}{{ if $i }}, {{ end }}{{ with site.GetPage (printf "/posters/by-genre/%s" (index $film.genre_slugs $i)) }}<a href="{{ .RelPermalink }}">{{ $g }}</a>{{ else }}{{ $g }}{{ end }}{{ end -}}
           </dd></div>
           {{- end }}
-          {{- with index $val "IMDb Rating" }}<div><dt class="label">Valutazione IMDb</dt><dd>{{ . }}/10{{ with index $val "Num Votes" }} <span class="film-votes">({{ lang.FormatNumber 0 (float .) }} voti)</span>{{ end }}</dd></div>{{ end }}
+          {{- with index $val "IMDb Rating" }}<div><dt class="label">Valutazione IMDb</dt><dd>{{ replace . "." "," }}/10{{ with index $val "Num Votes" }} <span class="film-votes">({{ lang.FormatNumber 0 (float .) }} voti)</span>{{ end }}</dd></div>{{ end }}
         </dl>
 
         <div class="home-actions">

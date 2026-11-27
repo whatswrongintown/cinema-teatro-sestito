@@ -5,7 +5,7 @@ date: '1976-01-01'
 slug: programmazione-1976
 description: Programmazione cinematografica del Cinema Teatro Sestito nel 1976.
 categories:
-  - programmazione-per-anni
+  - Programmazione per anni
 params:
   anno: 1976
 ---

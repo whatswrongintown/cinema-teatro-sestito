@@ -122,7 +122,7 @@ Units: points; the figure is 8 x 3 inches (576 x 216).
   {{- /* Axes, values and titles. */ -}}
   {{- range $xAt }}
     {{- $x := add $x0 (mul (div (sub . $xlo) (sub $xhi $xlo)) $pw) }}
-    {{- $label := lang.FormatNumberCustom 0 (math.Round (math.Pow 10 .)) "- . ," }}
+    {{- $label := lang.FormatNumberCustom 0 (math.Round (math.Pow 10 .)) "- , ." }}
 <line x1="{{ printf "%.2f" $x }}" y1="{{ printf "%.2f" $y1 }}" x2="{{ printf "%.2f" $x }}" y2="{{ printf "%.2f" (add $y1 $tick) }}" class="g-tick"/>
 <text x="{{ printf "%.2f" $x }}" y="{{ printf "%.2f" (add $y1 (mul 0.123 72)) }}" font-size="9" text-anchor="middle" dominant-baseline="central">{{ $label }}</text>
   {{- end }}

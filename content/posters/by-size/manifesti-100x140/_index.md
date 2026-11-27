@@ -6,7 +6,7 @@ collection: printed
 category: manifesti
 size: 100x140
 weight: 4
-description: Il classico manifesto italiano a due fogli, di circa 100 × 140 cm, generalmente
+description: Il classico manifesto italiano a due fogli, di circa 100x140 cm, generalmente
   distribuito piegato.
 image: ''
 ---

@@ -5,7 +5,7 @@ date: '1956-01-01'
 slug: programmazione-1956
 description: Programmazione cinematografica del Cinema Teatro Sestito nel 1956.
 categories:
-  - programmazione-per-anni
+  - Programmazione per anni
 params:
   anno: 1956
 ---

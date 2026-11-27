@@ -5,7 +5,7 @@ date: '1974-01-01'
 slug: programmazione-1974
 description: Programmazione cinematografica del Cinema Teatro Sestito nel 1974.
 categories:
-  - programmazione-per-anni
+  - Programmazione per anni
 params:
   anno: 1974
 ---

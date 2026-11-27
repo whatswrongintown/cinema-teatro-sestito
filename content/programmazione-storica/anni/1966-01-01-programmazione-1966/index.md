@@ -5,7 +5,7 @@ date: '1966-01-01'
 slug: programmazione-1966
 description: Programmazione cinematografica del Cinema Teatro Sestito nel 1966.
 categories:
-  - programmazione-per-anni
+  - Programmazione per anni
 params:
   anno: 1966
 ---

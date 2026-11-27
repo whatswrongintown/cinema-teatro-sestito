@@ -1,5 +1,5 @@
 ---
-title: Busta della Metro Goldwyn Mayer
+title: Busta della Metro-Goldwyn-Mayer
 description: "Busta della Metro-Goldwyn-Mayer indirizzata al Cinema Sestito di San Vito Jonio, datata 9 novembre 1957."
 author: Vito Sestito
 date: '1957-11-09'

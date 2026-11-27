@@ -1,7 +1,7 @@
 ---
 title: Contratto con Società Elettrica delle Calabrie
 author: Vito Sestito
-description: "Contratto del 3 marzo 1959 tra Vito Sestito e la Societa' Elettrica delle Calabrie per la fornitura di energia al cinema di Via V. Doria."
+description: "Contratto del 3 marzo 1959 tra Vito Sestito e la Società Elettrica delle Calabrie per la fornitura di energia al cinema di Via V. Doria."
 date: '1959-03-03'
 image: "images/19590303SocietaElettricaDelleCalabrie11.jpg"
 slug: contratto-con-societ-elettrica-delle-calabrie
@@ -11,12 +11,12 @@ tags:
   - Elettricità
 ---
 
-![1959-03-03 Società Elettrica delle Calabrie 11](images/19590303SocietaElettricaDelleCalabrie11.jpg)
-![1959-03-03 Società Elettrica delle Calabrie 12](images/19590303SocietaElettricaDelleCalabrie12.jpg)
-![1959-03-03 Società Elettrica delle Calabrie 13](images/19590303SocietaElettricaDelleCalabrie13.jpg)
-![1959-03-03 Società Elettrica delle Calabrie 21](images/19590303SocietaElettricaDelleCalabrie21.jpg)
-![1959-03-03 Società Elettrica delle Calabrie 22](images/19590303SocietaElettricaDelleCalabrie22.jpg)
-![1959-03-03 Società Elettrica delle Calabrie 23](images/19590303SocietaElettricaDelleCalabrie23.jpg)
+![Contratto con Società Elettrica delle Calabrie, pagina 1](images/19590303SocietaElettricaDelleCalabrie11.jpg)
+![Contratto con Società Elettrica delle Calabrie, pagina 2](images/19590303SocietaElettricaDelleCalabrie12.jpg)
+![Contratto con Società Elettrica delle Calabrie, pagina 3](images/19590303SocietaElettricaDelleCalabrie13.jpg)
+![Contratto con Società Elettrica delle Calabrie, pagina 4](images/19590303SocietaElettricaDelleCalabrie21.jpg)
+![Contratto con Società Elettrica delle Calabrie, pagina 5](images/19590303SocietaElettricaDelleCalabrie22.jpg)
+![Contratto con Società Elettrica delle Calabrie, pagina 6](images/19590303SocietaElettricaDelleCalabrie23.jpg)
 
 Società Elettrica delle Calabrie, Società per Azioni, Sede in Napoli – Direzione: Catanzaro.
 

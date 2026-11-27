@@ -25,9 +25,9 @@ params:
       testo: "La provenienza dei film, dall'Italia del dopoguerra al mondo."
 ---
 
-La **programmazione cinematografica** del cinema Sestito costituisce una delle componenti centrali dell’archivio documentario, offrendo una testimonianza diretta della vita culturale e sociale di San Vito sullo Ionio nel secondo dopoguerra. Attraverso l’analisi di fonti primarie - tra cui registri, appunti, e calendari - è stato possibile ricostruire, anno per anno, l’offerta filmica della sala e le sue trasformazioni nel tempo.
+La **programmazione cinematografica** del cinema Sestito costituisce una delle componenti centrali dell’archivio documentario, offrendo una testimonianza diretta della vita culturale e sociale di San Vito sullo Ionio nel secondo dopoguerra. Attraverso l’analisi di fonti primarie – tra cui registri, appunti e calendari – è stato possibile ricostruire, anno per anno, l’offerta filmica della sala e le sue trasformazioni nel tempo.
 
-L’insieme dei dati raccolti consente di osservare l’evoluzione del gusto del pubblico locale, le strategie distributive adottate, e le modalità con cui il cinema ha risposto alle dinamiche economiche e culturali del territorio. La varietà dei titoli proposti, spesso non allineati ai circuiti mainstream, riflette una programmazione eterogenea e talvolta audace, che ha contribuito a definire l’identità della sala come spazio di visione non convenzionale.
+L’insieme dei dati raccolti consente di osservare l’evoluzione del gusto del pubblico locale, le strategie distributive adottate e le modalità con cui il cinema ha risposto alle dinamiche economiche e culturali del territorio. La varietà dei titoli proposti, spesso non allineati ai circuiti mainstream, riflette una programmazione eterogenea e talvolta audace, che ha contribuito a definire l’identità della sala come spazio di visione non convenzionale.
 
 Per conoscere le fonti, i criteri di identificazione dei film e i limiti dei dati, consulta la [metodologia di ricostruzione della programmazione](/2026/11/11/metodologia-ricostruzione-programmazione/).
 

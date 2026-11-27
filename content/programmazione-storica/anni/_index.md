@@ -12,7 +12,7 @@ type: "programmazione-storica/anni"
 image: "img_anni_section.jpg"
 ---
 
-![Copertina dell'agenda di programmazione 1958-1959](img_anni_section.jpg)
+![Copertina dell'agenda di programmazione 1958–1959](img_anni_section.jpg)
 
 Per il 1960 e il 1961 il materiale d'archivio è parziale.
 

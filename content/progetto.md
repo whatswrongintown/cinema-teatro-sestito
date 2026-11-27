@@ -47,4 +47,4 @@ Questo sito intende contribuire alla conservazione e alla valorizzazione di tale
 
 ## Verso la riapertura
 
-Dal 2020 la sala è stata sgomberata, documenti e locandine sono stati messi in salvo e sono partite le pratiche per mettere in regola l'edificio. Il percorso, con le tappe già compiute e quelle ancora da compiere, è raccontato nella pagina [Verso la riapertura](/riapertura/).
+Tra il 2020 e il 2023 la sala è stata sgomberata, mentre documenti e manifesti venivano messi in salvo; sono poi partite le pratiche per mettere in regola l'edificio. Il percorso, con le tappe già compiute e quelle ancora da compiere, è raccontato nella pagina [Verso la riapertura](/riapertura/).

@@ -5,7 +5,7 @@ date: '1952-01-01'
 slug: programmazione-1952
 description: Programmazione cinematografica del Cinema Teatro Sestito nel 1952.
 categories:
-  - programmazione-per-anni
+  - Programmazione per anni
 params:
   anno: 1952
 ---

@@ -2,15 +2,15 @@
 title: 'La storia di Vito Sestito'
 author: Vito Sestito
 date: '2023-04-20'
-description: articolo dedicato al fondatore del cinema di San Vito sullo Ionio
+description: Articolo dedicato al fondatore del cinema di San Vito sullo Ionio
 slug: la-storia-di-vito-sestito
 image: "images/vito_sestito_patent_pictures.webp"
 categories:
   - Storia
 tags:
-  - CinemaTeatroSestito
+  - Cinema Teatro Sestito
   - San Vito sullo Ionio
-  - AutoricambiSestito
+  - Autoricambi Sestito
 galleryDescriptions:
   galleries/1924_06_07_cartolina_gruppo_amici_sestito_vito:
     pageAlt: "Fronte e retro della cartolina fotografica del 1924 dedicata a Vito Sestito e al suo gruppo di amici."
@@ -53,12 +53,12 @@ L’analisi dei registri rivela una netta distinzione tra le diverse attività e
 
 ## Eredità e riconoscimento
 
-La figura di Vito Sestito emerge come emblematica di una generazione che ha affrontato le difficoltà della guerra e della ricostruzione con determinazione e spirito di iniziativa. Il suo lascito - costituito dal cinema, dal negozio di ricambi e dalla documentazione personale - rappresenta una risorsa culturale e storica per la comunità di San Vito sullo Ionio.
+La figura di Vito Sestito emerge come emblematica di una generazione che ha affrontato le difficoltà della guerra e della ricostruzione con determinazione e spirito di iniziativa. Il suo lascito – costituito dal cinema, dal negozio di ricambi e dalla documentazione personale – rappresenta una risorsa culturale e storica per la comunità di San Vito sullo Ionio.
 
 Questo sito web intende valorizzare tale eredità, offrendo uno spazio di ricerca e di memoria dedicato a una storia locale che merita di essere conosciuta, studiata e tramandata.
 
 [^1]: Attestato terza elementare. San Vito sullo Ionio. 1915. [Link al documento](/1915/08/20/attestato-scuola-elementare-vito-sestito/)
-[^2]: Foglio di Congedo Illimitato. Catanzaro. 1923. [Link al documento](/1923/10/09/congedo-fine-leva-vito-sestito/)
+[^2]: Foglio di congedo illimitato. Catanzaro. 1923. [Link al documento](/1923/10/09/congedo-fine-leva-vito-sestito/)
 [^3]: [Articolo](/2023/04/27/la-nascita-del-cinema-a-san-vito/) sulle origini del cinema  
 [^4]: Attestato d'esercizio ricambi. San Vito sullo Ionio. 1961. [Link al documento](/1961/08/01/attestato-d-esercizio-ricambi-in-piazza-mario-polera/)
 [^5]: [Link](/programmazione-storica/fonti/) alla sezione sulle fonti della programmazione cinematografica

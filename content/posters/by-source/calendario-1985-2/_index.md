@@ -1,9 +1,9 @@
 ---
-title: "Calendario 1985_2"
+title: "Calendario 1985 (2)"
 type: posters
 layout: source
 collection: printed
-source: "Calendario 1985_2"
+source: "Calendario 1985 (2)"
 description: ''
 image: ''
 ---

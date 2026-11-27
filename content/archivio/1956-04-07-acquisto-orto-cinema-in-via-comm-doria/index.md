@@ -1,7 +1,7 @@
 ---
 title: Acquisto orto cinema in Via Comm. Doria
 author: Vito Sestito
-description: "Nota di trascrizione del 7 aprile 1956 della vendita a Vito Sestito di diritti su un appezzamento di circa 800 metri quadrati in localita' Aria."
+description: "Nota di trascrizione del 7 aprile 1956 della vendita a Vito Sestito di diritti su un appezzamento di circa 800 metri quadrati in località Aria."
 date: '1956-04-07'
 image: "images/19560407AcquistoOrtoCinema1.jpg"
 slug: acquisto-orto-cinema-in-via-comm-doria
@@ -11,8 +11,8 @@ tags:
   - Legale
 ---
 
-![1956-04-07 Acquisto orto cinema in Via Comm. Doria 1](images/19560407AcquistoOrtoCinema1.jpg)
-![1956-04-07 Acquisto orto cinema in Via Comm. Doria 2](images/19560407AcquistoOrtoCinema2.jpg)
+![Acquisto orto cinema in Via Comm. Doria, pagina 1](images/19560407AcquistoOrtoCinema1.jpg)
+![Acquisto orto cinema in Via Comm. Doria, pagina 2](images/19560407AcquistoOrtoCinema2.jpg)
 
 [Acquisto terreno cinema in Via Comm. Doria](/1955/12/26/acquisto-terreno-cinema-in-via-comm-doria/)
 

@@ -1,7 +1,7 @@
 ---
-title: Autorizzazione Assemblea DC
+title: Autorizzazione assemblea DC
 author: Vito Sestito
-description: trascrizione del documento per la comunicazione dell'assemblea locale del partito della Democrazia Cristiana
+description: Trascrizione del documento per la comunicazione dell'assemblea locale del partito della Democrazia Cristiana
 date: '1968-02-10'
 image: "images/19680210AutorizzazioneAssembleaDCalcinema.jpg"
 slug: autorizzazione-assemblea-dc
@@ -11,7 +11,7 @@ tags:
   - Politica
 ---
 
-![1968-02-10 Autorizzazione Assemblea DC al cinema](images/19680210AutorizzazioneAssembleaDCalcinema.jpg)
+![Autorizzazione assemblea DC](images/19680210AutorizzazioneAssembleaDCalcinema.jpg)
 
 On/Questura di Catanzaro e.p.c. al Comando Stazione Carabinieri di San Vito sullo Jonio
 

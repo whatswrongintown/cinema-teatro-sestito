@@ -1,7 +1,7 @@
 ---
 title: Contratto pubblicità Publi-Enic
 author: Vito Sestito
-description: contratto pubblicitario esclusivo per la Publi-Enic
+description: Contratto pubblicitario esclusivo per la Publi-Enic
 date: '1957-03-15'
 image: "images/19570315ContrattopubblicitàPubliEnic1.jpg"
 slug: contratto-pubblicit-publi-enic
@@ -11,10 +11,10 @@ tags:
   - Pubblicità
 ---
 
-![1957-03-15 Contratto pubblicità Publi-Enic 1](images/19570315ContrattopubblicitàPubliEnic1.jpg)
-![1957-03-15 Contratto pubblicità Publi-Enic 2](images/19570315ContrattopubblicitàPubliEnic2.jpg)
-![1957-03-15 Contratto pubblicità Publi-Enic 3](images/19570315ContrattopubblicitàPubliEnic3.jpg)
-![1957-03-15 Contratto pubblicità Publi-Enic 4](images/19570315ContrattopubblicitàPubliEnic4.jpg)
+![Contratto pubblicità Publi-Enic, pagina 1](images/19570315ContrattopubblicitàPubliEnic1.jpg)
+![Contratto pubblicità Publi-Enic, pagina 2](images/19570315ContrattopubblicitàPubliEnic2.jpg)
+![Contratto pubblicità Publi-Enic, pagina 3](images/19570315ContrattopubblicitàPubliEnic3.jpg)
+![Contratto pubblicità Publi-Enic, pagina 4](images/19570315ContrattopubblicitàPubliEnic4.jpg)
 
 Contratto di Locazione
 

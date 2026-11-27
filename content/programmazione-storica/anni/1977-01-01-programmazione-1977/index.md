@@ -5,7 +5,7 @@ date: '1977-01-01'
 slug: programmazione-1977
 description: Programmazione cinematografica del Cinema Teatro Sestito nel 1977.
 categories:
-  - programmazione-per-anni
+  - Programmazione per anni
 params:
   anno: 1977
 ---

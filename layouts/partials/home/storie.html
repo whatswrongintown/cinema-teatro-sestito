@@ -20,7 +20,7 @@
           {{- end }}{{ end }}
           <span class="label story-kicker">{{ index ($p.Params.categories | default (slice "Storia")) 0 }} · {{ $p.Date | time.Format ":date_long" }}</span>
           <span class="story-title">{{ $p.Title }}</span>
-          {{- with $p.Description }}<span class="story-text">{{ . }}</span>{{ end }}
+          {{- with $p.Description }}<span class="story-text">{{ strings.FirstUpper . }}</span>{{ end }}
         </a>
       </article>
       {{- end }}
@@ -31,7 +31,7 @@
           <a href="{{ $p.RelPermalink }}">
             <span class="label story-kicker">{{ index ($p.Params.categories | default (slice "Storia")) 0 }} · {{ $p.Date | time.Format ":date_long" }}</span>
             <span class="story-title">{{ $p.Title }}</span>
-            {{- with $p.Description }}<span class="story-text">{{ . }}</span>{{ end }}
+            {{- with $p.Description }}<span class="story-text">{{ strings.FirstUpper . }}</span>{{ end }}
           </a>
         </article>
         {{- end }}

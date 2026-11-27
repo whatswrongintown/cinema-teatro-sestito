@@ -1,0 +1,10 @@
+{{- /*
+Name of a decade for labels and tooltips (style guide: "anni Sessanta", not
+"anni 1960"). Input: the decade as a number or string (1940, "1960" ...).
+Returns the word only ("Sessanta"); write "anni {{ partial ... }}" or
+"Anni {{ partial ... }}" at the start of a label.
+Call with: partial "decennio.html" 1960
+*/ -}}
+{{- $nomi := dict "1920" "Venti" "1930" "Trenta" "1940" "Quaranta" "1950" "Cinquanta" "1960" "Sessanta" "1970" "Settanta" "1980" "Ottanta" "1990" "Novanta" "2000" "Duemila" "2010" "Duemiladieci" -}}
+{{- $k := printf "%d" (int .) -}}
+{{- return (index $nomi $k | default $k) -}}

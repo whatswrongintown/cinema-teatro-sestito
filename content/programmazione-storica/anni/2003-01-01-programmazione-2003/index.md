@@ -5,7 +5,7 @@ date: '2003-01-01'
 slug: programmazione-2003
 description: Programmazione cinematografica del Cinema Teatro Sestito nel 2003.
 categories:
-  - programmazione-per-anni
+  - Programmazione per anni
 params:
   anno: 2003
 ---

@@ -11,10 +11,10 @@ tags:
   - Legale
 ---
 
-![1955-09-12 Processo per vendita eccessiva di biglietti 1](images/19550912Processoverbale1.jpg)
-![1955-09-12 Processo per vendita eccessiva di biglietti 2](images/19550912Processoverbale2.jpg)
-![1955-09-12 Processo per vendita eccessiva di biglietti 3](images/19550912Processoverbale3.jpg)
-![1955-09-12 Processo per vendita eccessiva di biglietti 4](images/19550912Processoverbale4.jpg)
+![Processo per vendita eccessiva di biglietti, pagina 1](images/19550912Processoverbale1.jpg)
+![Processo per vendita eccessiva di biglietti, pagina 2](images/19550912Processoverbale2.jpg)
+![Processo per vendita eccessiva di biglietti, pagina 3](images/19550912Processoverbale3.jpg)
+![Processo per vendita eccessiva di biglietti, pagina 4](images/19550912Processoverbale4.jpg)
 
 Legione Territoriale dei Carabinieri di Catanzaro Stazione di San Vito sullo Ionio.
 

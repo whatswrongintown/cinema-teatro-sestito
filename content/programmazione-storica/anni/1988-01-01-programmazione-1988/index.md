@@ -5,7 +5,7 @@ date: '1988-01-01'
 slug: programmazione-1988
 description: Programmazione cinematografica del Cinema Teatro Sestito nel 1988.
 categories:
-  - programmazione-per-anni
+  - Programmazione per anni
 params:
   anno: 1988
 ---

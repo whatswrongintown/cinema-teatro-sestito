@@ -24,7 +24,7 @@ Call with: partial "descrizione.html" .
     {{- end -}}
   {{- end -}}
 {{- end -}}
-{{- if not $d }}{{ $d = .Description }}{{ end -}}
+{{- if not $d }}{{ $d = strings.FirstUpper .Description }}{{ end -}}
 {{- if not $d -}}
   {{- if eq .Kind "term" -}}
     {{- if eq .Data.Singular "category" -}}
