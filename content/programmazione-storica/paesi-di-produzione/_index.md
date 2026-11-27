@@ -17,3 +17,5 @@ Il primo grafico confronta, decennio per decennio, la quota di film italiani ed 
 Il secondo grafico conta i paesi rappresentati in ogni decennio: da 10–20 negli anni Quaranta e Cinquanta a circa 50 negli anni Settanta, poi un calo che segue anche la riduzione dei film proiettati negli ultimi anni di attività.
 
 {{< grafico nome="paesi-per-decennio" alt="Numero di paesi di produzione rappresentati per decennio" >}}
+
+Sono esclusi 55 film in cartellone senza paese di produzione noto.

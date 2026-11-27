@@ -84,7 +84,7 @@ La digitalizzazione è avvenuta in momenti diversi, nell'arco di circa tre anni.
 
 A partire dai documenti ho costruito un database da zero, inizialmente attraverso un file CSV vuoto. Ho definito le colonne e le informazioni da raccogliere in funzione delle necessità della ricerca. La struttura è stata progettata appositamente per questo progetto e non deriva da un archivio preesistente.
 
-Ogni voce del database corrisponde a un titolo associato a una data di programmazione. A ciascuna voce possono essere collegate una o più fonti documentali. Quando documenti diversi riportano la stessa informazione, le relative fonti sono indicate nella stessa cella, separate da virgole.
+Ogni voce del database corrisponde a un titolo associato a una data di programmazione: nel sito è chiamata *film in cartellone*, mentre *titoli* indica i film distinti, contati una sola volta. A ciascuna voce possono essere collegate una o più fonti documentali. Quando documenti diversi riportano la stessa informazione, le relative fonti sono indicate nella stessa cella, separate da virgole.
 
 Il confronto tra le fonti non ha sempre restituito corrispondenze perfette. In alcuni casi, agende diverse riportano titoli differenti per la stessa giornata. È possibile che le annotazioni fossero distribuite su documenti diversi in base al tipo di film o alle modalità con cui veniva organizzata la registrazione. Per questo motivo, le differenze tra le fonti non sono state considerate automaticamente né come errori né come conferme.
 
@@ -112,9 +112,9 @@ Una volta identificati i film, ho utilizzato gli identificativi IMDb per collega
 
 I collegamenti alle schede dei film, i generi e le valutazioni sono stati ricavati da IMDb, mentre i paesi di produzione sono stati ottenuti tramite [OMDb API](https://www.omdbapi.com/). Questi dati non sono quindi trascrizioni delle agende, ma metadati aggiunti successivamente per arricchire le informazioni e consentire una lettura più articolata della programmazione.
 
-Le tabelle e i grafici presenti nel sito rappresentano le voci registrate nel database, non il numero effettivo delle proiezioni. Se un film compare in più date, viene conteggiato più volte, una per ciascuna voce. Tuttavia, le fonti non permettono di stabilire in modo sistematico quante proiezioni dello stesso film siano state effettuate nell'arco di una giornata.
+Le tabelle e i grafici presenti nel sito contano i film in cartellone, non le proiezioni effettive. Ogni film in cartellone corrisponde a un titolo registrato dalle fonti in una data. Un titolo programmato più volte è contato una volta per ciascuna; un film in sala per più giorni nello stesso mese è di norma registrato una sola volta. Le fonti non permettono di stabilire in modo sistematico quante proiezioni dello stesso film siano state effettuate nell'arco di una giornata.
 
-Anche i grafici suddivisi per fonte richiedono una precisazione: quando una stessa voce del database è documentata da più fonti, contribuisce al conteggio di ciascuna di esse. I valori rappresentano quindi le associazioni tra voci e documenti, non una suddivisione esclusiva della programmazione.
+Anche i grafici suddivisi per fonte richiedono una precisazione: quando uno stesso film in cartellone è documentato da più fonti, contribuisce al conteggio di ciascuna di esse. I valori rappresentano quindi le citazioni, cioè le associazioni tra film in cartellone e documenti, non una suddivisione esclusiva della programmazione.
 
 Lo stesso criterio vale per i paesi di produzione. I film realizzati in coproduzione possono comparire sotto più paesi, perché ciascun paese coinvolto viene considerato nei dati. Le categorie rappresentate nei grafici non indicano quindi quote esclusive né percentuali di partecipazione produttiva.
 

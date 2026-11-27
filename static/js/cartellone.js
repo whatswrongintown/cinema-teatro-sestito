@@ -117,7 +117,7 @@
     var lista = root.querySelector('[data-cartellone-lista]');
     lista.textContent = '';
     if (!scelte.length) {
-      lista.appendChild(el('li', 'show-empty', 'Nessuna proiezione documentata in questi giorni.'));
+      lista.appendChild(el('li', 'show-empty', 'Nessun film in cartellone in questi giorni.'));
     }
     scelte.forEach(function (r) { lista.appendChild(riga(r, r === primo)); });
     evidenza(root.querySelector('[data-cartellone-evidenza]'), primo);
@@ -128,6 +128,6 @@
       ? 'dal ' + dal.getDate() + ' al ' + giornoMese.format(al)
       : 'dal ' + giornoMese.format(dal) + ' al ' + giornoMese.format(al);
     root.querySelector('[data-cartellone-periodo]').textContent =
-      'Le proiezioni documentate ' + periodo + ', anno dopo anno.';
+      'I film in cartellone ' + periodo + ', anno dopo anno.';
   }).catch(function () { /* Keep the build-time selection. */ });
 })();

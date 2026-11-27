@@ -2,9 +2,9 @@
 Bar charts of the two articles on the first seasons (U14; replace the PNGs
 made by the former R code). Input: dict "nome" "dati" (programmazione/dati.html) "alt".
 Names:
-  articolo-prime-stagioni   films per year, 1948-1957
-  articolo-rating           films per age rating and year, 1948-1957 (stacked)
-  articolo-grande-schermo   films per year, 1948-2004, 1957-1979 boxed, * on 1960
+  articolo-prime-stagioni   records (film in cartellone) per year, 1948-1957
+  articolo-rating           records per age rating and year, 1948-1957 (stacked)
+  articolo-grande-schermo   records (film in cartellone) per year, 1948-2004, 1957-1979 boxed, * on 1960
 Rating categories as in the R code: 18 -> 18+; 15, 14, K-16, TV-14, 13 -> 16+;
 PG, S, 12, 6 -> PG; Approved, Passed, G -> Per tutti; others and missing are left out.
 Colours and fonts come from static/css/grafici.css (classes g-*).
@@ -13,7 +13,7 @@ Colours and fonts come from static/css/grafici.css (classes g-*).
 {{- $d := .dati }}
 {{- $first := 1948 }}{{ $last := 1957 }}
 {{- $title := "Le prime stagioni del Cinema (1948–1957)" }}
-{{- $sub := "Numero di film proposti per anno" }}
+{{- $sub := "Film per anno" }}
 {{- $caption := "" }}{{ $legend := false }}{{ $rating := false }}{{ $box := false }}
 {{- if eq $nome "articolo-rating" }}
   {{- $title = "Distribuzione dei film per rating (1948–1957)" }}
@@ -89,7 +89,7 @@ Colours and fonts come from static/css/grafici.css (classes g-*).
 <text class="g-title" x="{{ $p1 }}" y="44" font-size="46">{{ $title }}</text>
 <text class="g-sub" x="{{ $p1 }}" y="92" font-size="30">{{ $sub }}</text>
 <text class="g-axis-title" x="{{ printf "%.2f" (div (add $p1 $p2) 2) }}" y="{{ add $p4 88 }}" font-size="36" text-anchor="middle" dominant-baseline="central">Anni</text>
-<text class="g-axis-title" transform="translate(40 {{ printf "%.2f" (div (add $p3 $p4) 2) }}) rotate(-90)" font-size="36" text-anchor="middle" dominant-baseline="central">Numero di film</text>
+<text class="g-axis-title" transform="translate(40 {{ printf "%.2f" (div (add $p3 $p4) 2) }}) rotate(-90)" font-size="36" text-anchor="middle" dominant-baseline="central">Film</text>
 {{- if $legend }}
   {{- range $i, $l := slice "18+" "16+" "PG" "Per tutti" }}
 <rect class="g-seg {{ index $classes (sub 3 $i) }}" x="{{ sub $W 194 }}" y="{{ add $p3 20 (mul $i 52) }}" width="44" height="44"/>

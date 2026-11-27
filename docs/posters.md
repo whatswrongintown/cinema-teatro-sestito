@@ -178,6 +178,13 @@ changes. Still not in the chart: 15 titles (23 posters) whose IMDb entry has no 
 they stay out of the genre chart on purpose (decision 2026-11-24), together with
 52 posters (45 records) that have no `const`. The Drammatico page under
 `posters/by-genre/` stays, since a film may have Drammatico as its only genre.
+The programming genre chart now drops Drammatico only when a film has another
+genre (2026-11-27); this heatmap keeps excluding it, as its caption says, until it is recomputed
+from `films.json` (U34 in `project-status.md`).
+
+Labels (2026-11-27): distinct films are *titoli* on the poster pages (landing,
+list headers, year and decade cards, Retro); physical pieces stay *manifesti e
+locandine*.
 
 About the source files: the repository's `static/data/programmazione_manifesti.csv`
 is the IMDb export with extra metadata. The poster recording file used by

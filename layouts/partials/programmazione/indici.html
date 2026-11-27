@@ -1,15 +1,18 @@
 {{- /*
 Aggregates for the section index charts, computed once per build with the
 rules of the former R/update-indici.R (see docs/historical-programming.md):
-  anni     screenings per year, excluding 1960 and 1961 (partial documentation)
-  fonti    source-entry associations per source type and decade
-  generi   genre-entry associations per decade and their share of the decade;
-           "Drammatico" is dropped for films with more than one genre row
-           across all their screenings; genres ordered by total, then name
-  adulti   share (%) of screenings per year whose genres include "Per adulti"
-  italia   share (%) of country-entry associations per decade that are Italy;
-           screenings without countries count once as foreign
-  paesi    distinct countries per decade (a missing country counts as one)
+  anni     records (film in cartellone) per year, excluding 1960 and 1961 (partial
+           documentation)
+  fonti    source citations (record x source named) per source type and decade
+  generi   genre-record associations per decade and their share of the decade;
+           "Drammatico" is dropped when the film has another genre, as the
+           Generi page says (fixed 2026-11-27: the old rule summed genres over
+           all screenings and dropped single-genre dramas screened twice);
+           genres ordered by total, then name
+  adulti   share (%) of records per year whose genres include "Per adulti"
+  italia   share (%) of country-record associations per decade that are Italy;
+           records without a country are left out (2026-11-27)
+  paesi    distinct countries per decade; records without a country left out
 Call with: partialCached "programmazione/indici.html" . "indici"
 */ -}}
 {{- $dati := partialCached "programmazione/dati.html" . "programmazione" }}
@@ -20,11 +23,6 @@ Call with: partialCached "programmazione/indici.html" . "indici"
 {{- $years := slice }}{{ $decades := slice }}
 {{- range $rows }}{{ $years = $years | append .year }}{{ $decades = $decades | append .decade }}{{ end }}
 {{- $years = uniq $years }}{{ $decades = uniq $decades }}
-
-{{- /* Genre rows per film, over all screenings (for the Drammatico rule). */ -}}
-{{- range $rows }}
-  {{- if and .id .genre }}{{ $s.Add (printf "pf|%s" .id) (len (split .genre ",")) }}{{ end }}
-{{- end }}
 
 {{- $fontiTipi := slice
   (dict "tipo" "Appunti" "re" "cif|italautogamma|europe|victory")
@@ -43,11 +41,10 @@ Call with: partialCached "programmazione/indici.html" . "indici"
   {{- end }}
   {{- /* Genres (original names, trimmed). */ -}}
   {{- if $r.genre }}
-    {{- $pf := $s.Get (printf "pf|%s" $r.id) }}
-    {{- range split $r.genre "," }}
-      {{- $g := strings.TrimSpace . }}
-      {{- if not $g }}{{ continue }}{{ end }}
-      {{- if and (eq $g "Drammatico") (gt $pf 1) }}{{ continue }}{{ end }}
+    {{- $gs := slice }}
+    {{- range split $r.genre "," }}{{ with strings.TrimSpace . }}{{ $gs = $gs | append . }}{{ end }}{{ end }}
+    {{- range $g := $gs }}
+      {{- if and (eq $g "Drammatico") (gt (len $gs) 1) }}{{ continue }}{{ end }}
       {{- $s.Add (printf "generi|%s|%s" $d $g) 1 }}
       {{- $s.Add (printf "generi-decennio|%s" $d) 1 }}
       {{- $s.Add (printf "generi-totale|%s" $g) 1 }}
@@ -58,11 +55,12 @@ Call with: partialCached "programmazione/indici.html" . "indici"
   {{- $s.Add (printf "anno|%s" $r.year) 1 }}
   {{- if in $r.genre "Per adulti" }}{{ $s.Add (printf "adulti|%s" $r.year) 1 }}{{ end }}
   {{- /* Countries: Italy share and distinct countries per decade. */ -}}
-  {{- $pieces := cond (eq $r.country "") (slice "") (split $r.country ",") }}
+  {{- $pieces := slice }}
+  {{- range split $r.country "," }}{{ with strings.TrimSpace . }}{{ $pieces = $pieces | append . }}{{ end }}{{ end }}
   {{- range $pieces }}
     {{- $s.Add (printf "paesi-totale|%s" $d) 1 }}
     {{- if findRE "(?i)italy" . 1 }}{{ $s.Add (printf "italia|%s" $d) 1 }}{{ end }}
-    {{- $s.SetInMap (printf "paesi-distinti|%s" $d) (cond (eq . "") "NA" (strings.TrimSpace .)) true }}
+    {{- $s.SetInMap (printf "paesi-distinti|%s" $d) . true }}
   {{- end }}
 {{- end }}
 

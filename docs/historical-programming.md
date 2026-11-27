@@ -119,16 +119,16 @@ Charts are drawn by Hugo as inline SVG with the shortcode
 
 | Name | Page | Chart |
 | --- | --- | --- |
-| `anno-mensile` | every year page | screenings per month (bars), total in the title |
+| `anno-mensile` | every year page | records (*film*) per month (bars), total in the title (*Totale: N film*) |
 | `anno-imdb` | every year page | IMDb rating vs votes (log scale) with film titles where there is room |
-| `film-per-anno` | Anni index | screenings per year (line), 1960 and 1961 excluded |
-| `fonti-per-decennio` | Fonti index | source-entry associations per source type and decade (heat map) |
+| `film-per-anno` | Anni index | records (*Film per anno*) per year (line), 1960 and 1961 excluded |
+| `fonti-per-decennio` | Fonti index | citazioni (record x source named) per source type and decade (heat map); the Fonti page explains why they outnumber the records |
 | `generi-per-decennio` | Generi index | share of each genre per decade (heat map) |
-| `film-per-adulti-per-anno` | Generi index | yearly share of "Per adulti" screenings (area, 50% line) |
+| `film-per-adulti-per-anno` | Generi index | yearly share of "Per adulti" records, *Film per adulti (% dell'anno)* (area, 50% line) |
 | `italia-estero-per-decennio` | Paesi index | Italian vs foreign share per decade (stacked bars) |
-$1| `articolo-prime-stagioni` | article "La nascita del cinema" | screenings per year 1948-1957 (bars) |
-| `articolo-rating` | same article | screenings per age rating and year 1948-1957 (stacked bars); categories as in the former R code |
-| `articolo-grande-schermo` | article "Gli anni d'oro" | screenings per year 1948-2004, 1957-1979 boxed, 1960-1961 partial (bars) |
+| `articolo-prime-stagioni` | article "La nascita del cinema" | records per year 1948-1957 (bars) |
+| `articolo-rating` | same article | records per age rating and year 1948-1957 (stacked bars); categories as in the former R code |
+| `articolo-grande-schermo` | article "Gli anni d'oro" | records per year 1948-2004, 1957-1979 boxed, 1960-1961 partial (bars) |
 
 Files in `layouts/`:
 
@@ -177,27 +177,29 @@ Index aggregation rules (from the former `R/update-indici.R`):
 - Sources are typed by name, in this order: Appunti (`cif`, `italautogamma`,
   `europe`, `victory`), Note sui manifesti (`manifest`), Calendari
   (`calendario`), Rubriche (`rubric`); everything else counts as Agende.
-- Genres: one association per genre of the screening; `Drammatico` is dropped
-  for films with more than one genre row across all their screenings; shares
-  are per decade; rows are ordered by total, then name.
+- Genres: one association per genre of the record; `Drammatico` is dropped
+  when the film has another genre, as the Generi page says (fixed 2026-11-27:
+  the R rule summed genres over all screenings, so it also dropped 135 records
+  of 66 single-genre dramas screened more than once); shares are per decade;
+  rows are ordered by total, then name.
 - Italian share: country associations containing "Italy" over all associations
-  of the decade; screenings without countries count once as foreign.
-- Distinct countries per decade count a missing country as one value.
+  of the decade. Records without a country (55) are left out of both country
+  charts (2026-11-27; before, they counted as foreign and as one extra
+  country); the Paesi page says so.
+- Distinct countries per decade: country names only.
 
 ### Interpretation and remaining editorial work
 
-Charts count dated database entries, not distinct films or a known count of
-daily projections. Source charts count source-entry associations; country charts
-count country-entry associations, including coproductions. The methodology
-article already explains those distinctions.
+Units on the site (decided 2026-11-27, `decisioni-testi.md`; wording in
+`guida-di-stile.md`): a CSV row is a *film in cartellone* (one title on one
+date): charts and cards say *film*, headline totals and headers *film in
+cartellone*, film pages *In cartellone N volte*; distinct films are *titoli*;
+the sources chart counts *citazioni* (a row once per source it names). The
+fixed explanation is on every year page and in the methodology. Country charts
+count country-row associations, including coproductions.
 
-The genre calculation removes `Drammatico` when a film has more than one
-expanded row, so it also removes repeated Drammatico-only films, not just films
-with several genres. Missing genres count as not adult in the adult-share
-calculation. The methodology/index prose does not yet fully explain these two
-behaviours. Decision: explain
-the conventions, do not recalculate the charts. The Hugo charts reproduce these
-conventions; if one is ever changed, update the prose at the same time.
+Missing genres count as not adult in the adult-share calculation. Any change
+to a rule updates the page prose in the same change.
 
 ## Source PDF images
 

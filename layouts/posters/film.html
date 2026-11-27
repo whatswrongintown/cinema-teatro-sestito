@@ -62,7 +62,7 @@ previous and next film by title.
   <section class="film-screenings tone-light" aria-labelledby="film-screenings-title">
     <div class="wrap">
       <p class="label home-kicker">In sala al Sestito</p>
-      <h2 id="film-screenings-title" class="home-h2">{{ $n := len ($righe | default $film.screening_dates) }}{{ $n }} {{ cond (eq $n 1) "proiezione documentata" "proiezioni documentate" }}</h2>
+      <h2 id="film-screenings-title" class="home-h2">{{ $n := len ($righe | default $film.screening_dates) }}In cartellone {{ $n }} {{ cond (eq $n 1) "volta" "volte" }}</h2>
       <ol class="shows">
         {{- if $righe }}
         {{- range $righe }}

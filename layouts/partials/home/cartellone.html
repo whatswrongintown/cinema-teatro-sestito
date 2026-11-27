@@ -48,7 +48,7 @@ static/js/cartellone.js redoes it for the visitor's date with the same rules
     <div>
       <p class="label home-kicker">In cartellone, in questi giorni</p>
       <h2 id="cartellone-title" class="home-h2">Accadde al Sestito</h2>
-      <p class="home-sub" data-cartellone-periodo>Le proiezioni documentate {{ if eq $dal.Month $al.Month }}dal {{ $dal.Day }} al {{ $al | time.Format "2 January" }}{{ else }}dal {{ $dal | time.Format "2 January" }} al {{ $al | time.Format "2 January" }}{{ end }}, anno dopo anno.</p>
+      <p class="home-sub" data-cartellone-periodo>I film in cartellone {{ if eq $dal.Month $al.Month }}dal {{ $dal.Day }} al {{ $al | time.Format "2 January" }}{{ else }}dal {{ $dal | time.Format "2 January" }} al {{ $al | time.Format "2 January" }}{{ end }}, anno dopo anno.</p>
 
       <ol class="shows" data-cartellone-lista>
         {{- range $scelte }}
@@ -70,7 +70,7 @@ static/js/cartellone.js redoes it for the visitor's date with the same rules
         </li>
         {{- end }}
         {{- else }}
-        <li class="show-empty">Nessuna proiezione documentata in questi giorni.</li>
+        <li class="show-empty">Nessun film in cartellone in questi giorni.</li>
         {{- end }}
       </ol>
       {{- with site.GetPage "/programmazione-storica" }}

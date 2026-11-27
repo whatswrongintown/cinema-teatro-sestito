@@ -12,8 +12,8 @@ Call with: partial "programmazione/striscia.html"
         <p class="label home-kicker">Dalla raccolta dei manifesti</p>
         <h2 class="home-h2">{{ $.titolo }}</h2>
       </div>
-      {{- with $.link }}<a class="label home-more" href="{{ . }}">Tutti i {{ $m.totale }} film con manifesto →</a>
-      {{- else }}<p class="label home-more">{{ $m.totale }} film con manifesto in archivio</p>{{ end }}
+      {{- with $.link }}<a class="label home-more" href="{{ . }}">Tutti i {{ $m.totale }} titoli con manifesto stampato →</a>
+      {{- else }}<p class="label home-more">{{ $m.totale }} titoli con manifesto stampato in archivio</p>{{ end }}
     </div>
     <ul class="poster-strip">
       {{- range . }}

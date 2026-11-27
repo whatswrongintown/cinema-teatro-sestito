@@ -230,12 +230,12 @@
     return svg;
   }
   function monthChart(entries) {
-    if (!entries.length) return emptyChart('Nessuna proiezione registrata');
+    if (!entries.length) return emptyChart('Nessun film in cartellone');
     var data = monthCounts(entries), max = Math.max.apply(null, data), top = max * 1.15;
     var W = 640, H = 360, L = 50, R = 12, T = 40, B = 40, pw = W - L - R, ph = H - T - B;
     var svg = svgEl('svg', { viewBox: '0 0 ' + W + ' ' + H, role: 'img',
-      'aria-label': 'Proiezioni mensili: totale ' + entries.length });
-    svg.appendChild(svgEl('text', { x: W / 2, y: 22, 'text-anchor': 'middle', 'class': 'title' }, 'Totale proiezioni: ' + fmt(entries.length)));
+      'aria-label': 'Film per mese: totale ' + entries.length });
+    svg.appendChild(svgEl('text', { x: W / 2, y: 22, 'text-anchor': 'middle', 'class': 'title' }, 'Totale: ' + fmt(entries.length) + ' film'));
     niceTicks(0, top, 5).forEach(function (t) {
       var y = T + ph - t / top * ph;
       svg.appendChild(svgEl('line', { x1: L, x2: W - R, y1: y, y2: y, 'class': 'grid' }));
@@ -251,7 +251,7 @@
       svg.appendChild(svgEl('text', { x: x + slot * 0.4, y: H - B + 16, 'text-anchor': 'middle' }, MONTHS[i]));
     });
     svg.appendChild(svgEl('line', { x1: L, x2: W - R, y1: T + ph, y2: T + ph, 'class': 'axis' }));
-    svg.appendChild(svgEl('text', { x: 14, y: T + ph / 2, 'text-anchor': 'middle', transform: 'rotate(-90 14 ' + (T + ph / 2) + ')' }, 'Numero di proiezioni'));
+    svg.appendChild(svgEl('text', { x: 14, y: T + ph / 2, 'text-anchor': 'middle', transform: 'rotate(-90 14 ' + (T + ph / 2) + ')' }, 'Film'));
     return svg;
   }
   function genreChart(films) {
@@ -283,7 +283,7 @@
     function X(v) { return L + (Math.log10(v) - a) / (b - a) * pw; }
     function Y(r) { return T + ph - r / 10 * ph; }
     var svg = svgEl('svg', { viewBox: '0 0 ' + W + ' ' + H, role: 'img',
-      'aria-label': 'Valutazione IMDb in relazione al numero di voti, ' + rated.length + ' film' });
+      'aria-label': 'Valutazione IMDb in relazione al numero di voti, ' + rated.length + ' titoli' });
     [0, 2, 4, 6, 8, 10].forEach(function (r) {
       svg.appendChild(svgEl('line', { x1: L, x2: W - R, y1: Y(r), y2: Y(r), 'class': 'grid' }));
       svg.appendChild(svgEl('text', { x: L - 6, y: Y(r) + 4, 'text-anchor': 'end' }, r));
@@ -341,11 +341,11 @@
     Object.keys(genres).sort(collator.compare).forEach(function (g) { $('dashboard-genre').appendChild(el('option', { value: g }, g)); });
 
     var descriptions = {
-      mensili: 'Numero di date registrate per mese. Se sono selezionati tutti gli anni, i mesi sono sommati tra gli anni.',
-      generi: 'Numero di film distinti per genere nella selezione. Un film può appartenere a più generi; i totali quindi si sovrappongono.',
+      mensili: 'Numero di film in cartellone per mese. Se sono selezionati tutti gli anni, i mesi sono sommati tra gli anni.',
+      generi: 'Numero di titoli per genere nella selezione. Un film può appartenere a più generi; i totali quindi si sovrappongono.',
       imdb: 'Una posizione per ogni film distinto con valutazione e voti positivi. Il numero di voti è su scala logaritmica; i dati provengono da IMDb. Passa il puntatore su un punto per vedere il titolo; la tabella dei valori contiene tutti i film.'
     };
-    var chartNames = { mensili: 'Proiezioni mensili', generi: 'Generi cinematografici', imdb: 'Valutazioni IMDb' };
+    var chartNames = { mensili: 'Film per mese', generi: 'Generi cinematografici', imdb: 'Valutazioni IMDb' };
 
     var imdbValues = null, entriesTable = pagedTable($('dashboard-table'), [
       { label: 'Data', text: function (e) { return e.date; } },
@@ -373,7 +373,7 @@
       if (kind === 'mensili') {
         box.replaceChildren(monthChart(selected));
         var c = monthCounts(selected);
-        simpleTable(vals, ['Mese', 'Proiezioni'], MONTHS.map(function (m, i) { return [m, String(c[i])]; }));
+        simpleTable(vals, ['Mese', 'Film'], MONTHS.map(function (m, i) { return [m, String(c[i])]; }));
       } else if (kind === 'generi') {
         box.replaceChildren(genreChart(films));
         simpleTable(vals, ['Genere', 'Film'], genreCounts(films).map(function (d) { return [d[0], String(d[1])]; }));

@@ -35,8 +35,8 @@ the page body).
       <h1 id="programme-detail-title" class="posters-page-title{{ if eq $modo "anni" }} programme-year{{ end }}">{{ $titolo }}</h1>
       {{- with .Description }}<p class="home-lead posters-page-lead">{{ strings.FirstUpper . }}</p>{{ end }}
       <ul class="label programme-figures">
-        <li>{{ lang.FormatNumber 0 (len $rows) }} {{ cond (eq (len $rows) 1) "proiezione" "proiezioni" }}</li>
-        <li>{{ lang.FormatNumber 0 (len (uniq $ids)) }} film</li>
+        <li>{{ lang.FormatNumber 0 (len $rows) }} film in cartellone</li>
+        <li>{{ $nt := len (uniq $ids) }}{{ lang.FormatNumber 0 $nt }} {{ cond (eq $nt 1) "titolo" "titoli" }}</li>
         {{- if and (ne $modo "anni") $anni }}<li>{{ index $anni 0 }}{{ if gt (len $anni) 1 }}–{{ index $anni (sub (len $anni) 1) }}{{ end }}</li>{{ end }}
       </ul>
       {{- if in (slice "anni" "generi") $modo }}
@@ -77,7 +77,7 @@ the page body).
     <div class="wrap">
       <div class="prose">
         <p class="label home-kicker">{{ index $etichette $modo }}</p>
-        <h2 id="programme-tables-title" class="home-h2">{{ if eq $modo "anni" }}Il cartellone del {{ .Params.anno }}{{ else if eq $modo "fonti" }}Le pagine e le proiezioni{{ else }}Le proiezioni, anno per anno{{ end }}</h2>
+        <h2 id="programme-tables-title" class="home-h2">{{ if eq $modo "anni" }}Il cartellone del {{ .Params.anno }}{{ else if eq $modo "fonti" }}Le pagine e i film in cartellone{{ else }}I film, anno per anno{{ end }}</h2>
         {{- if eq $modo "anni" }}
         {{ .ContentWithoutSummary }}
         {{- else }}

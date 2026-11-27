@@ -5,7 +5,7 @@
 {{- with $rows }}
 <div class="home-numbers tone-dark">
   <ul class="wrap label">
-    <li>{{ lang.FormatNumber 0 (len .) }} proiezioni documentate</li>
+    <li>{{ lang.FormatNumber 0 (len .) }} film in cartellone</li>
     <li>{{ lang.FormatNumber 0 $posters }} manifesti e locandine</li>
     <li>Cartellone ricostruito dal {{ (index . 0).year }} al {{ (index . (sub (len .) 1)).year }}</li>
   </ul>

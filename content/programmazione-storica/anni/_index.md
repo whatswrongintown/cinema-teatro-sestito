@@ -16,6 +16,6 @@ image: "img_anni_section.jpg"
 
 Per il 1960 e il 1961 il materiale d'archivio è parziale.
 
-{{< grafico nome="film-per-anno" alt="Numero di film proposti per anno dal 1948 al 2004, esclusi il 1960 e il 1961" >}}
+{{< grafico nome="film-per-anno" alt="Film per anno dal 1948 al 2004, esclusi il 1960 e il 1961" >}}
 
-Scegli un anno per vedere l'andamento mensile delle proiezioni, i voti IMDb dei film e il cartellone mese per mese.
+Scegli un anno per vedere l'andamento mensile dei film in cartellone, i voti IMDb dei film e il cartellone mese per mese.

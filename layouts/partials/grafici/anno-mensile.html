@@ -1,5 +1,5 @@
 {{- /*
-Monthly screenings of one year as an SVG bar chart (replaces
+Monthly records (film in cartellone) of one year as an SVG bar chart (replaces
 proiezioni-mensili.png from the former R/update-anni.R, same layout).
 Input: dict "rows" (screenings of the year) "alt" (accessible title).
 Units: points; the figure is 8 x 3 inches (576 x 216).
@@ -56,7 +56,7 @@ Units: points; the figure is 8 x 3 inches (576 x 216).
 <text x="{{ printf "%.2f" (sub $x0 (mul 0.068 72)) }}" y="{{ printf "%.2f" $y }}" font-size="9" text-anchor="end" dominant-baseline="central">{{ index $yLabels $i }}</text>
 {{- end }}
 <path d="M{{ printf "%.2f" $x0 }} {{ printf "%.2f" $y0 }}V{{ printf "%.2f" $y1 }}H{{ printf "%.2f" $x1 }}" class="g-axis"/>
-<text class="g-title" x="{{ printf "%.2f" $x0 }}" y="{{ printf "%.2f" (sub $y0 (mul 0.11 72)) }}" font-size="14">Totale proiezioni: {{ len $rows }}</text>
-<text transform="translate({{ printf "%.2f" (mul 0.18 72) }} {{ printf "%.2f" (div (add $y0 $y1) 2) }}) rotate(-90)" class="g-axis-title" font-size="12" text-anchor="middle" dominant-baseline="central">Numero di proiezioni</text>
+<text class="g-title" x="{{ printf "%.2f" $x0 }}" y="{{ printf "%.2f" (sub $y0 (mul 0.11 72)) }}" font-size="14">Totale: {{ lang.FormatNumber 0 (len $rows) }} film</text>
+<text transform="translate({{ printf "%.2f" (mul 0.18 72) }} {{ printf "%.2f" (div (add $y0 $y1) 2) }}) rotate(-90)" class="g-axis-title" font-size="12" text-anchor="middle" dominant-baseline="central">Film</text>
 </svg>
 </figure>

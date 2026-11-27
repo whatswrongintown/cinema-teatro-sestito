@@ -1,6 +1,6 @@
 # Project status
 
-Last review: 2026-11-26. Read this file first and update it whenever a decision
+Last review: 2026-11-27. Read this file first and update it whenever a decision
 is made. Documentation is in English, site content in Italian. Status words:
 TODO / DOING / DONE / DEFERRED, with dates. Assistant rules are in `CLAUDE.md`.
 
@@ -482,6 +482,52 @@ TODO / DOING / DONE / DEFERRED, with dates. Assistant rules are in `CLAUDE.md`.
 - **U31 - TODO 2026-11-26: new archive entries from Drive**, each after the
   owner confirms it holds no private data. List: `story-research.md`,
   section 4.
+- **U32 - TODO 2026-11-27: Italian text consistency.** Review of all visible
+  Italian text done 2026-11-27, nothing changed on the site; the owner chooses
+  among the options for each issue. Items that overlap U30 are marked [U30]
+  in the report: `italian-text-review.md`. Evidence check done 2026-11-27
+  (`italian-text-evidence.md`): every "proiezioni" counts CSV entries, three
+  charts call entries "film" and the sources chart counts source
+  associations; the Drammatico rule drops 135 entries the Generi text says it
+  keeps; 79 title differences classified (20 possible wrong IMDb matches to
+  check on the posters); the Mongiardo quotation is not in the letter; the
+  agenda covers and "Incom" confirmed from the scans. Owner's decisions
+  recorded 2026-11-27 (`decisioni-testi.md`); they are applied as U33.
+- **U33 - TODO 2026-11-27: apply the text decisions.** Style guide written
+  2026-11-27 (`guida-di-stile.md`, required reading in `CLAUDE.md`); checks
+  and seven contradictions between decisions and evidence listed in
+  `da-verificare.md`. Implementation batches (facts, counts, titles, voice,
+  conventions) proposed 2026-11-27, waiting for the owner's approval; each
+  batch on its own branch. The seven contradictions were settled by the
+  owner on 2026-11-27 (answers in `da-verificare.md` and
+  `decisioni-testi.md`). Batch 1 (counts) DOING 2026-11-27 on branch
+  `text/counts`, not committed: counts of CSV rows say *film* / *film in
+  cartellone* and distinct films *titoli* (the owner replaced *passaggi*
+  the same day), in templates, dashboard and billboard JS, 57 year pages,
+  section intros, *Le luci rosse*, the methodology and Retro; the sources
+  chart counts *citazioni*; the Drammatico rule fixed in the programming
+  genre chart; the 55 rows without a country left out of both country
+  charts; distinct films are *titoli* on the poster pages too (landing,
+  list headers, year and decade cards, Retro). The posters genre heatmap
+  stays as it is; its caption already says Drammatico is excluded (owner,
+  2026-11-27; see U34). Added to later batches (owner, 2026-11-27):
+  batch 2 (conventions), lowercase *drammatico* in that caption (C4);
+  batch 3 (voice and vocabulary), format cards count by format (*835
+  fotobuste*, *271 locandine* ...) instead of *manifesti* (V5). Left to
+  batch 5: the count wording inside *Gli anni d'oro* (rewritten there) and
+  the rating chart (removed there).
+- **U34 - TODO 2026-11-27 (later): recompute the posters genre heatmap from
+  `films.json`**, so it can apply the Drammatico rule of the programming
+  genre chart instead of reading the frozen `posters_genre_by_decade.csv`.
+  This also changes its counting base (each poster once per decade, 1,787
+  pieces, instead of the CSV's repeated counts per screening year; see
+  `posters.md`). Not started; the owner decides when.
+- **Data freeze exception (owner, 2026-11-27).** Only three changes to
+  `static/data/programmazione_agende.csv` are allowed: *Incam* → *INCOM* in
+  the source names; *Calendario 1985_2* → *Calendario 1985 (2)*; obvious
+  keyboard slips in titles, each once checked against its agenda
+  (`da-verificare.md`, C3.3 and C3.4). Everything else in the datasets and
+  `static/images/manifesti/` stays final.
 - No feature roadmap yet: new ideas are agreed with the owner and listed here
   when they are approved.
 

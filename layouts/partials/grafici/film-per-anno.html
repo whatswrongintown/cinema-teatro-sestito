@@ -1,4 +1,4 @@
-{{- /* Films per year (line), section index "Anni". Input: dict dati alt. */ -}}
+{{- /* Records (film in cartellone) per year (line), section index "Anni". Input: dict dati alt. */ -}}
 {{- $d := .dati }}
 {{- $pts := $d.anni }}
 {{- $W := 1536.0 }}{{ $H := 576.0 }}
@@ -20,7 +20,7 @@
 <title>{{ .alt }}</title>
 <polyline class="g-line" points="{{ delimit $line " " }}"/>
 <text x="{{ printf "%.2f" $p.p1 }}" y="29" class="g-title" font-size="44" dominant-baseline="central">Un viaggio nella sala buia</text>
-<text x="{{ printf "%.2f" $p.p1 }}" y="80" class="g-sub" font-size="36" dominant-baseline="central">Frequenza dei film proposti dal {{ $d.primoAnno }} al {{ $d.ultimoAnno }}</text>
-{{ partial "grafici/indice-assi.html" (dict "p" $p "xat" $xat "xlabels" (partial "grafici/numeri.html" $xat) "yat" $yat "ylabels" $ylabels "xtitle" "Anni" "ytitle" "Numero di film" "sizes" $sizes) }}
+<text x="{{ printf "%.2f" $p.p1 }}" y="80" class="g-sub" font-size="36" dominant-baseline="central">Film per anno dal {{ $d.primoAnno }} al {{ $d.ultimoAnno }}</text>
+{{ partial "grafici/indice-assi.html" (dict "p" $p "xat" $xat "xlabels" (partial "grafici/numeri.html" $xat) "yat" $yat "ylabels" $ylabels "xtitle" "Anni" "ytitle" "Film" "sizes" $sizes) }}
 </svg>
 </figure>
