@@ -65,12 +65,12 @@ The title a film was shown under in San Vito leads everywhere. The data stays un
 | F3, capitals inside titles | Data as recorded; Italian titles displayed in sentence case, proper names kept; Claude Code prepares the list for you to check. Foreign titles unchanged |
 | F4, apostrophes and ellipses | Typographic (’ and …) in every section |
 | F5, titles in your text | Italics everywhere, linked titles included; «» only where italics can't show (alt texts); year on first mention, director when it helps |
-| F6, typing errors in the data | Correct obvious keyboard slips in the CSV (exception granted 2026-11-27, A3) once checked against the agenda (`da-verificare.md`, C3.3, C3.4); check the agenda for anything the source may have written (*Le pioggie di Ranchipur*) |
+| F6, typing errors in the data | Checked against the agendas by the owner (2026-11-27, C3.3, C3.4): the titles are as the sources wrote them, so none is corrected; the CSV stays as written |
 | F7, sorting | *A 30 secondi dalla fine* under A |
 
 In articles: the cartellone title first, the original in brackets when useful, for example *Perversioni sessuali a Las Vegas* (*Showgirls*). The evidence supports the rule: in 56 of the 79 cases the poster in the archive prints the programming title.
 
-To check: the 20 possible wrong IMDb matches and 11 unclear films (director and producer on the full posters), starting with *Corruption*, cited in *Le luci rosse*; the poster filed under *Sette ragazze di classe*; four illegible scans; and the agenda wording of *I temibili 7*, *Assassino sulla Costa Azzurra*, *Viziose asolescenti* and *Più veloce del vento*.
+Settled 2026-11-27 (C1–C3 in `da-verificare.md`): always use the programming title; a film that never appears in the programming keeps the title printed on its poster. The 20 possible wrong IMDb matches and the 11 unclear films are shown under their programming titles (*Corruption* is *Di dietro tutta, femmine corrotte dal piacere* in *Le luci rosse*). The owner checked the agendas: *I temibili 7*, *Assassino sulla Costa Azzurra*, *Viziose asolescenti*, *Più veloce del vento* and *Le pioggie di Ranchipur* stay as written.
 
 ## Decided: voice and vocabulary
 

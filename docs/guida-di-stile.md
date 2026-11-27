@@ -144,7 +144,11 @@ a*; *submission* → *invio*; *il team di* → *gli organizzatori di*; *rating* 
 - **The title the film was shown under in San Vito leads**, taken from the
   programming. When the original differs, a second line: *Titolo originale:
   …*. Poster and film pages use the most frequent programming variant;
-  programming tables keep each source's wording.
+  programming tables keep each source's wording. Always the programming
+  title, even when the IMDb match is doubtful or the poster prints another
+  wording; only a film that never appears in the programming takes the title
+  printed on its poster. Titles are shown as the sources wrote them (no
+  spelling corrections).
 - **In running text:** italics, linked titles included; «» only where italics
   cannot show (alt text, front matter shown raw). Year on first mention,
   director when it helps; the original in brackets when useful:

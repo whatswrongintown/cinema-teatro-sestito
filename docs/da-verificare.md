@@ -81,7 +81,12 @@ Records and distinct films per year, from the CSV (2026-11-27):
 
 1960 and 1961 are incomplete (pages missing from the sources).
 
-## 3. Film titles (*To check*)
+## 3. Film titles (settled 2026-11-27)
+
+Owner's answer (2026-11-27): every film is shown under its programming title;
+a film that never appears in the programming keeps the title printed on its
+poster. This settles C1, C2 and C3; the CSV titles stay exactly as written (the
+owner checked the agendas for C3.3 and C3.4, so no typing slip is corrected).
 
 Look at the full poster (director, producer, production company, year) and, if
 needed, IMDb under the printed director's name. Scans: the film page on the
@@ -89,30 +94,31 @@ site, `/posters/films/<IMDb ID>/`.
 
 ### C1. Possible wrong IMDb matches (20)
 
-Start with *Corruption*, cited in *Le luci rosse*.
+Start with *Corruption*, cited in *Le luci rosse*. Done: the article now names it
+*Di dietro tutta, femmine corrotte dal piacere*.
 
 | IMDb ID | Poster page title | Programming title | Director: poster / IMDb export | Status |
 | --- | --- | --- | --- | --- |
-| tt0085367 | Corruption | Di dietro tutta, femmine corrotte dal piacere | Richard Mahler / Roger Watkins | TODO |
-| tt0076235 | Jouir jusqu'au délire | Corpi d'amore porno | Thum Gerard / Gérard Vernier | TODO |
-| tt0078267 | Sette ragazze di classe | 7 ragazze di classe | Mario Bianchi / Pedro Lazaga (see C3) | TODO |
-| tt0081593 | Taboo | Lunghi e duri per i… turbamenti erotici di Pamela | Robert Mc Callun / Kirdy Stevens | TODO |
-| tt0124491 | Eruption | Sensual eruption (Eruption) | Stanley Kurlin / Sam Norvell | TODO |
-| tt0125296 | Justine, una minorenne deliziosa... | Justine, una minorenne deliziosa... | Robert R. Walters / Roberta Findlay, Cecil Howard, Walter E. Sear | TODO |
-| tt0127801 | A Scent of Heather | La moglie ingorda | Philip Drexler Jr. / Bill Milling | TODO |
-| tt0127824 | The Seduction of Lyn Carter | La seduzione di Lynne | Wess Brown / Anthony Spinelli | TODO |
-| tt0145174 | Oh Those Nurses! | Infermiere disposte a tutto | C.C. Williams / C.W. Cressler | TODO |
-| tt0165332 | Je t'offre mon corps | Quelle morbide calde labbra | Michel Leblanc / Michel Lemoine | TODO |
-| tt0180111 | Roxie | Mamma ho perso l'uccello | Buck Adams / Jack Remy | TODO |
-| tt0189511 | Shauna: Every Man's Fantasy | Gattine in amore | Henry Pachard / Roberta Findlay | TODO |
-| tt0195342 | Three Ripening Cherries | Hard confidential story | Troy Benny / Carlos Tobalina | TODO |
-| tt0202887 | Il grande momento | Il grande momento …bestiale | Richard Bennet / Antonio D'Agostino | TODO |
-| tt0204265 | Un desiderio bestiale | Un bestiale… triangolo erotico; Un desiderio bestiale | Richar Bennet / Antonio D'Agostino (two titles, one ID) | TODO |
-| tt0220139 | Vanessa | Le prestazioni di Vanessa | G. De Pasqual / Guy Bodart | TODO |
-| tt0336163 | Bruce Lee L'indistruttibile | Bruce Lee l'indistruttibile | Puo Chong Jan / Shi-hyeon Kim | TODO |
-| tt0390235 | Marina vedova viziosa | Marina la pornoviziosa | Alan W Cools / Luigi Grosso | TODO |
-| tt1180766 | La fureur sexuelle | Topo d'albergo; Sono una p… topo d'albergo | Jacques Dumoda / Daniel Daërt | TODO |
-| tt1839398 | Adolescentes pour satyres | Adolescenti vogliose | Myke Strong / Pierre B. Reinhard | TODO |
+| tt0085367 | Corruption | Di dietro tutta, femmine corrotte dal piacere | Richard Mahler / Roger Watkins | DONE 2026-11-27 (programming title) |
+| tt0076235 | Jouir jusqu'au délire | Corpi d'amore porno | Thum Gerard / Gérard Vernier | DONE 2026-11-27 (programming title) |
+| tt0078267 | Sette ragazze di classe | 7 ragazze di classe | Mario Bianchi / Pedro Lazaga (see C3) | DONE 2026-11-27 (programming title) |
+| tt0081593 | Taboo | Lunghi e duri per i… turbamenti erotici di Pamela | Robert Mc Callun / Kirdy Stevens | DONE 2026-11-27 (programming title) |
+| tt0124491 | Eruption | Sensual eruption (Eruption) | Stanley Kurlin / Sam Norvell | DONE 2026-11-27 (programming title) |
+| tt0125296 | Justine, una minorenne deliziosa... | Justine, una minorenne deliziosa... | Robert R. Walters / Roberta Findlay, Cecil Howard, Walter E. Sear | DONE 2026-11-27 (programming title) |
+| tt0127801 | A Scent of Heather | La moglie ingorda | Philip Drexler Jr. / Bill Milling | DONE 2026-11-27 (programming title) |
+| tt0127824 | The Seduction of Lyn Carter | La seduzione di Lynne | Wess Brown / Anthony Spinelli | DONE 2026-11-27 (programming title) |
+| tt0145174 | Oh Those Nurses! | Infermiere disposte a tutto | C.C. Williams / C.W. Cressler | DONE 2026-11-27 (programming title) |
+| tt0165332 | Je t'offre mon corps | Quelle morbide calde labbra | Michel Leblanc / Michel Lemoine | DONE 2026-11-27 (programming title) |
+| tt0180111 | Roxie | Mamma ho perso l'uccello | Buck Adams / Jack Remy | DONE 2026-11-27 (programming title) |
+| tt0189511 | Shauna: Every Man's Fantasy | Gattine in amore | Henry Pachard / Roberta Findlay | DONE 2026-11-27 (programming title) |
+| tt0195342 | Three Ripening Cherries | Hard confidential story | Troy Benny / Carlos Tobalina | DONE 2026-11-27 (programming title) |
+| tt0202887 | Il grande momento | Il grande momento …bestiale | Richard Bennet / Antonio D'Agostino | DONE 2026-11-27 (programming title) |
+| tt0204265 | Un desiderio bestiale | Un bestiale… triangolo erotico; Un desiderio bestiale | Richar Bennet / Antonio D'Agostino (two titles, one ID) | DONE 2026-11-27 (programming title) |
+| tt0220139 | Vanessa | Le prestazioni di Vanessa | G. De Pasqual / Guy Bodart | DONE 2026-11-27 (programming title) |
+| tt0336163 | Bruce Lee L'indistruttibile | Bruce Lee l'indistruttibile | Puo Chong Jan / Shi-hyeon Kim | DONE 2026-11-27 (programming title) |
+| tt0390235 | Marina vedova viziosa | Marina la pornoviziosa | Alan W Cools / Luigi Grosso | DONE 2026-11-27 (programming title) |
+| tt1180766 | La fureur sexuelle | Topo d'albergo; Sono una p… topo d'albergo | Jacques Dumoda / Daniel Daërt | DONE 2026-11-27 (programming title) |
+| tt1839398 | Adolescentes pour satyres | Adolescenti vogliose | Myke Strong / Pierre B. Reinhard | DONE 2026-11-27 (programming title) |
 
 ### C2. Unclear films (11)
 
@@ -120,26 +126,26 @@ Any printed director, producer or year.
 
 | IMDb ID | Poster page title | Programming title | Status |
 | --- | --- | --- | --- |
-| tt0068507 | Christine | Porno story di Christine | TODO |
-| tt0076020 | Fella | Pornoexhibition | TODO |
-| tt0080720 | Fascination | American porno story | TODO |
-| tt0080927 | Insatiable | Marilyn l'insaziabile | TODO |
-| tt0091058 | Flavia Schiava di Roma Regina d'amore | Flavia… Rome Bestial Luxury | TODO |
-| tt0126288 | Erotic Flash | Corpi bollenti d'amore | TODO |
-| tt0174076 | Nuits très chaudes aux Caraïbes | Porno erotic movie | TODO |
-| tt0186119 | Chu ba | Colpo per colpo | TODO |
-| tt0365091 | Les cuisses en chaleur | La moglie in calore | TODO |
-| tt0380594 | La grande ammucchiata | Le ninfomani | TODO |
-| tt0778869 | Tentações | Un mondo di tentazioni | TODO |
+| tt0068507 | Christine | Porno story di Christine | DONE 2026-11-27 (programming title) |
+| tt0076020 | Fella | Pornoexhibition | DONE 2026-11-27 (programming title) |
+| tt0080720 | Fascination | American porno story | DONE 2026-11-27 (programming title) |
+| tt0080927 | Insatiable | Marilyn l'insaziabile | DONE 2026-11-27 (programming title) |
+| tt0091058 | Flavia Schiava di Roma Regina d'amore | Flavia… Rome Bestial Luxury | DONE 2026-11-27 (programming title) |
+| tt0126288 | Erotic Flash | Corpi bollenti d'amore | DONE 2026-11-27 (programming title) |
+| tt0174076 | Nuits très chaudes aux Caraïbes | Porno erotic movie | DONE 2026-11-27 (programming title) |
+| tt0186119 | Chu ba | Colpo per colpo | DONE 2026-11-27 (programming title) |
+| tt0365091 | Les cuisses en chaleur | La moglie in calore | DONE 2026-11-27 (programming title) |
+| tt0380594 | La grande ammucchiata | Le ninfomani | DONE 2026-11-27 (programming title) |
+| tt0778869 | Tentações | Un mondo di tentazioni | DONE 2026-11-27 (programming title) |
 
 ### C3. Other title checks
 
 | # | Item | Look at | Status |
 | --- | --- | --- | --- |
-| C3.1 | tt0078267: is the scan the poster of *Sette ragazze di classe*, or a collage for *Una storia ambigua* filed under the wrong film? | The physical poster | TODO |
-| C3.2 | Printed title on four illegible scans: tt0077520 (*Le evase*), tt0316886 (*Flash excitation blue*), tt1327719 (*Primizie pornografiche*), tt1404408 (*Anche i cinesi mangiano fagioli*) | The physical posters | TODO |
-| C3.3 | Agenda wording, to tell an agenda spelling from a typing slip: *I temibili 7* (poster: *I terribili 7*), *Assassino sulla Costa Azzurra* (*Assassinio*), *Viziose asolescenti* (*adolescenti*), *Più veloce del vento* (*Più veloci*) | The agenda named in each record's `source` cell (programming pages of those dates) | TODO |
-| C3.4 | *Le pioggie di Ranchipur*: what the agenda wrote (F6) | The agenda named in the record's `source` cell | TODO |
+| C3.1 | tt0078267: is the scan the poster of *Sette ragazze di classe*, or a collage for *Una storia ambigua* filed under the wrong film? | The physical poster | DONE 2026-11-27 (owner: names as in the programming) |
+| C3.2 | Printed title on four illegible scans: tt0077520 (*Le evase*), tt0316886 (*Flash excitation blue*), tt1327719 (*Primizie pornografiche*), tt1404408 (*Anche i cinesi mangiano fagioli*) | The physical posters | DONE 2026-11-27 (owner: names as in the programming) |
+| C3.3 | Agenda wording, to tell an agenda spelling from a typing slip: *I temibili 7* (poster: *I terribili 7*), *Assassino sulla Costa Azzurra* (*Assassinio*), *Viziose asolescenti* (*adolescenti*), *Più veloce del vento* (*Più veloci*) | The agenda named in each record's `source` cell (programming pages of those dates) | DONE 2026-11-27 (owner: names as in the programming) |
+| C3.4 | *Le pioggie di Ranchipur*: what the agenda wrote (F6) | The agenda named in the record's `source` cell | DONE 2026-11-27 (owner: names as in the programming) |
 | C3.5 | Sentence case for Italian titles (F3): the list of changed titles, prepared before the titles batch, for the owner to check | `titoli-maiuscole.md` (written 2026-11-27: 51 titles; checked by the owner the same day; 8 changes applied as display rules) | DONE 2026-11-27 |
 
 ## 4. Wording and settings

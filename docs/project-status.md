@@ -558,18 +558,20 @@ TODO / DOING / DONE / DEFERRED, with dates. Assistant rules are in `CLAUDE.md`.
   of the popover and its close button (`static/js/menu.js`, see
   `design.md`). G1–G3 rewriting
   not started.
-- **Batch 4 (film titles) DOING 2026-11-27 on branch `text/titles`**, not
-  committed. Template part done: poster and film pages show the title used in
+- **Batch 4 (film titles) DONE 2026-11-27** (branches `text/titles`,
+  `text/titles-2`, `text/luci-rosse-titles`). Poster and film pages show the title used in
   San Vito (most frequent programming title per IMDb ID,
   `layouts/partials/posters/titoli.html`), with *Titolo originale: …* when it
   differs; typographic ’ and …; sort keys and letters from the display titles
   (*A 30 secondi dalla fine* and the other Italian "A …" titles under A).
   `films.json` unchanged. Sentence case applied to the 8 display titles the
-  owner checked (F3, `titoli-maiuscole.md`). Waiting: *Le luci rosse* titles
-  (C1, *Corruption*), CSV
-  typing slips (C3.3, C3.4). Until *Le luci rosse* is updated, its poster
-  captions show the San Vito titles while its text still uses the IMDb ones
-  (*Showgirls*, *Peaches and Cream*…).
+  owner checked (F3, `titoli-maiuscole.md`). Title checks settled by the
+  owner 2026-11-27 (C1–C3): every film is shown under its programming title,
+  a film never in the programming under its poster title; the CSV titles stay
+  as written (no typing-slip corrections). *Le luci rosse* now names films by
+  their programming titles (*Di dietro tutta, femmine corrotte dal piacere*,
+  *Perversioni sessuali a Las Vegas* (*Showgirls*)…). Batch 4 DONE
+  2026-11-27.
 - **Encoding fix (DONE 2026-11-27).** Batch 1 wrote the fixed explanation
   on the 57 year pages double-encoded (*più* and *è* shown as two
   garbled characters each; the substitution script did not decode its input). Fixed on `fix/encoding`;
@@ -594,8 +596,10 @@ TODO / DOING / DONE / DEFERRED, with dates. Assistant rules are in `CLAUDE.md`.
   the source names; *Calendario 1985_2* → *Calendario 1985 (2)*; obvious
   keyboard slips in titles, each once checked against its agenda
   (`da-verificare.md`, C3.3 and C3.4). Everything else in the datasets and
-  `static/images/manifesti/` stays final. Applied so far: *INCOM* in the
-  source names (162 rows, 2026-11-27, batch 5 part 1).
+  `static/images/manifesti/` stays final. Applied: *INCOM* in the source
+  names (162 rows, batch 5 part 1) and *Calendario 1985 (2)* (45 cells, batch
+  2). Not needed: the typing slips, because the owner found the titles as
+  written in the agendas (2026-11-27). The exception is used up.
 - **Batch 5, part 1 (facts) DONE 2026-11-27** (branch `text/facts-1`,
   merged): the two agendas are titled *INCOM 1948-49* and *INCOM 1949-50*,
   as printed on the covers (pages, alt texts, CSV source names; *Incom* only

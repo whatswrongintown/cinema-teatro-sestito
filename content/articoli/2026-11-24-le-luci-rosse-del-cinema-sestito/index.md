@@ -85,7 +85,7 @@ Il caso più curioso è *Porno Holocaust* (1981), diretto da Joe D'Amato, pseudo
 
 {{< manifesto id="tt0157532" lato="destra" >}}
 
-Tra gli altri titoli con l'etichetta horror ci sono *Incontri proibiti* (1979) di Roberta Findlay, regista americana che le fonti descrivono come una cineasta capace di passare dall'horror alla pornografia,[^4] *Corruption* (1983) e *Supermaschio per mogli viziose* (1987), classificato insieme come horror e fantastico.
+Tra gli altri titoli con l'etichetta horror ci sono *L'altro vizio della porno bocca* (*Incontri proibiti*, 1979) di Roberta Findlay, regista americana che le fonti descrivono come una cineasta capace di passare dall'horror alla pornografia,[^4] *Di dietro tutta, femmine corrotte dal piacere* (1983) e *Supermaschio per mogli viziose* (1987), classificato insieme come horror e fantastico.
 
 ## Titoli e nomi che ritornano
 
@@ -93,11 +93,11 @@ Scorrendo i titoli si trovano coincidenze curiose.
 
 {{< manifesto id="tt0122903" lato="sinistra" >}}
 
-*American Pie* (1980) fu proiettato il 7 marzo 1982, diciassette anni prima della commedia americana omonima; *Showgirls* (1986) il 7 maggio 1989, sei anni prima del film di Paul Verhoeven. Sono film diversi, che condividono solo il titolo.
+*Belle erotiche e maliziose* (*American Pie*, 1980) fu proiettato il 7 marzo 1982, diciassette anni prima della commedia americana *American Pie*; *Perversioni sessuali a Las Vegas* (*Showgirls*, 1986) il 7 maggio 1989, sei anni prima dello *Showgirls* di Paul Verhoeven. Sono film diversi, che condividono solo il titolo originale.
 
 {{< manifesto id="tt0197290" lato="destra" >}}
 
-Quattro titoli della programmazione ricostruita (*Peaches and Cream*, *Satisfactions*, *Showgirls* e *Il piacere dell'atto sessuale*) portano la firma di Gary Graver (1938–2006), che negli stessi anni era l'ultimo direttore della fotografia di Orson Welles e dirigeva film per adulti, spesso con lo pseudonimo Robert McCallum.[^5]
+Quattro titoli della programmazione ricostruita (*Voluttuose deviazioni carnali*, *Femmine sfrenate*, *Perversioni sessuali a Las Vegas* e *Il piacere dell'atto sessuale*) portano la firma di Gary Graver (1938–2006), che negli stessi anni era l'ultimo direttore della fotografia di Orson Welles e dirigeva film per adulti, spesso con lo pseudonimo Robert McCallum.[^5]
 
 {{< manifesto id="tt0187307" lato="sinistra" >}}
 
